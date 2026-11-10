@@ -1,0 +1,9 @@
+{
+  "name": "club-soc-calculator",
+  "private": true,
+  "scripts": {
+    "build": "python3 tools/build.py",
+    "check": "python3 tools/build.py && node tools/verify.js check dist/club-soc.html"
+  },
+  "devDependencies": { "playwright": "^1.48.0" }
+}

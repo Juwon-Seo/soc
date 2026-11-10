@@ -1,0 +1,1297 @@
+<title>클럽 SOC 계산기</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: match-report sheet — entry log on the left, live scoreboard + coefficient panel on the right */
+:root{
+  --soc-bg:#f1ebfb; --soc-fg:#644f9c; --pos:#c62828; --neg:#1565c0; --eq:#1d1828; --bg:#f8f6fc; --surface:#ffffff; --line:#e0d9ec; --fg:#1d1828; --muted:#62597a;
+  --pitch:#644f9c; --pitch-soft:#ece4f8; --chalk:#ffffff; --warn:#a35a12; --bad:#b03a2e;
+  --heat0:#f8f6fc; --heat1:#644f9c; --heat-hi:#ffffff; --heat-lo:var(--fg); --board-bg:#644f9c; --board-fg:#ffffff; --fill:#644f9c; --on-fill:#ffffff;
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --soc-bg:#29233a; --soc-fg:#b3a2d9; --pos:#ff7b72; --neg:#79b8ff; --eq:#f3effa; --bg:#16131f; --surface:#1f1a2b; --line:#3e3554; --fg:#f3effa; --muted:#c9c0dc;
+  --pitch:#b3a2d9; --pitch-soft:#2b2540; --chalk:#16131f; --heat0:#1f1a2b; --heat1:#6f5aa8; --heat-hi:#ffffff; --heat-lo:#ffffff; --board-bg:#644f9c; --board-fg:#ffffff; --fill:#644f9c; --on-fill:#ffffff; --warn:#e0a25a; --bad:#e8766a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --soc-bg:#29233a; --soc-fg:#b3a2d9; --pos:#ff7b72; --neg:#79b8ff; --eq:#f3effa; --bg:#16131f; --surface:#1f1a2b; --line:#3e3554; --fg:#f3effa; --muted:#c9c0dc;
+  --pitch:#b3a2d9; --pitch-soft:#2b2540; --chalk:#16131f; --heat0:#1f1a2b; --heat1:#6f5aa8; --heat-hi:#ffffff; --heat-lo:#ffffff; --board-bg:#644f9c; --board-fg:#ffffff; --fill:#644f9c; --on-fill:#ffffff; --warn:#e0a25a; --bad:#e8766a; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
+.wrap{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
+header{position:relative}
+header .reload{position:absolute;top:0;right:0;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:99px;background:var(--surface);color:var(--fg);padding:6px 12px 6px 10px;font:inherit;font-size:.85rem;font-weight:600;cursor:pointer}
+header .reload:hover{border-color:var(--pitch);color:var(--pitch)}
+header .reload:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
+header .reload svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+header .reload.spin svg{animation:rspin .5s ease}
+@keyframes rspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){header .reload.spin svg{animation:none}}
+header h1{padding-right:120px}
+@media (max-width:640px){header .reload span{display:none}header .reload{padding:8px}header h1{padding-right:44px}}
+header h1{font-family:var(--display);font-size:2.4rem;line-height:1.05;margin:0;letter-spacing:.01em;text-wrap:balance}
+header p{margin:6px 0 0;color:var(--muted);max-width:72ch}
+.formula{font-family:var(--mono);font-size:.82rem;background:var(--pitch-soft);color:var(--fg);padding:10px 12px;border-radius:6px;margin-top:12px;overflow-x:auto;white-space:nowrap;line-height:1.8}
+.grid{display:grid;grid-template-columns:minmax(0,1.85fr) minmax(0,1fr);gap:24px;align-items:start}
+@media (max-width:1180px){.grid{grid-template-columns:minmax(0,1fr)}}
+section{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px;min-width:0}
+h2{font-family:var(--display);font-size:1.35rem;margin:0 0 12px;letter-spacing:.02em}
+label{display:grid;gap:4px;font-size:.78rem;color:var(--muted);font-weight:600;letter-spacing:.03em}
+input,select,button{font:inherit;font-size:.92rem;color:var(--fg)}
+input,select{background:var(--bg);border:1px solid var(--line);border-radius:5px;padding:7px 9px;width:100%;min-width:0}
+input:focus-visible,select:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
+.form{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;align-items:end}
+.form .w2{grid-column:span 2}.form .w3{grid-column:span 3}
+.score{display:flex;align-items:center;gap:6px}.score span{color:var(--muted);font-weight:600}
+@media (max-width:640px){.form{grid-template-columns:repeat(2,minmax(0,1fr))}.form .w2,.form .w3{grid-column:span 2}}
+.chk{display:flex;align-items:center;gap:6px;font-size:.85rem;color:var(--fg);font-weight:500;letter-spacing:0;padding-bottom:8px}
+.chk input{width:auto}
+button{cursor:pointer;border-radius:5px;padding:8px 14px;border:1px solid var(--line);background:var(--surface)}
+button.primary{background:var(--fill);border-color:var(--fill);color:var(--on-fill);font-weight:600}
+button.ghost{background:transparent}
+button.danger{color:var(--bad)}
+.dlg{border:1px solid var(--line);border-radius:10px;padding:0;background:var(--surface);color:var(--fg);max-width:min(92vw,400px);width:100%;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+.dlg::backdrop{background:rgba(0,0,0,.45)}
+.dlgin{padding:20px}
+.dlg h3{margin:0 0 8px;font-size:1.05rem}
+.dlg p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.55}
+.dlgact{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}
+button.dangerfill{background:var(--bad);border-color:var(--bad);color:var(--chalk);font-weight:600}
+
+.row-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.livebox{font-size:.82rem;color:var(--muted);margin-top:10px;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.livebox b{color:var(--pitch)}
+.foldh{margin:0 0 12px}.foldbtn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font:inherit;color:inherit;border-radius:6px}.foldbtn:focus-visible{outline:2px solid var(--pitch);outline-offset:3px}.foldbtn .chev{color:var(--muted);transition:transform .15s}.foldbtn[aria-expanded="false"] .chev{transform:rotate(-90deg)}#addWrap[hidden],.newwrap[hidden]{display:none}
+.tablebox{overflow-x:auto;margin-top:16px;border-top:1px solid var(--line)}
+.tablebox.capped{overflow-y:auto}
+.tablebox.cmpbox{margin-top:0;border-top:none}
+#yearTbl th,#yearTbl td{padding-left:4px;padding-right:2px}.side #yearTbl{font-size:.67rem}#yearTbl th,#yearTbl td{padding-left:3px}#yearTbl th:first-child,#yearTbl td:first-child{padding-left:4px}#yearTbl thead th{vertical-align:bottom;line-height:1.25}.nw{white-space:nowrap}.thbtn .lb{display:inline-block;line-height:1.25}th.num .thbtn .lb{text-align:right}.thbtn{align-items:flex-end}#compareTbl thead th{vertical-align:bottom;line-height:1.25}#yearTbl th+th,#yearTbl th+td,#yearTbl td+td,#yearTbl td+th{border-left:1px solid color-mix(in srgb,var(--line) 60%,transparent)}
+.tablebox.capped thead th{position:sticky;top:0;background:var(--surface);z-index:1}
+table{width:100%;border-collapse:collapse;font-size:.86rem}
+th{text-align:left;font-size:.72rem;color:var(--muted);letter-spacing:.05em;font-weight:600;padding:9px 7px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:7px;border-bottom:1px solid var(--line);vertical-align:middle;white-space:nowrap}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+td.val{font-weight:600;color:var(--pitch)}
+#compareTbl td.val,#yearTbl td.val,#compareTbl th:has([data-sort="soc"]),#compareTbl th[data-sort="soc"],#yearTbl thead th[data-ck="soc"]{background:var(--soc-bg)}
+#compareTbl td.val,#yearTbl td.val{font-weight:700;color:var(--soc-fg)}
+#compareTbl th:has([data-sort="soc"]),#compareTbl th[data-sort="soc"],#yearTbl thead th[data-ck="soc"]{color:var(--soc-fg);border-radius:6px 6px 0 0}
+td.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.pill{display:inline-block;font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:99px;border:1px solid var(--line)}
+.pill.g{background:var(--fill);color:var(--on-fill);border-color:var(--fill)}
+.sub{font-size:.74rem;color:var(--muted)}
+.del{border:none;background:none;color:var(--muted);padding:2px 6px;font-size:1rem}
+.del:hover{color:var(--bad)}
+.empty{color:var(--muted);padding:18px 4px;font-size:.9rem}
+.ret{color:var(--muted);font-weight:700;margin-left:3px}
+.dv.pos{color:var(--pos)}.dv.neg{color:var(--neg)}.dv.eq{color:var(--eq)}
+.board .dv{display:inline-block;background:#fff;border-radius:4px;padding:0 6px;font-weight:700}.board .dv.pos{color:#c62828}.board .dv.neg{color:#1565c0}.board .dv.eq{color:#111}
+.board{background:var(--board-bg);color:var(--board-fg);border-radius:8px;padding:18px;border:none}
+.board .big{font-family:var(--display);font-size:4rem;line-height:1;font-variant-numeric:tabular-nums}
+.periodbar{display:flex;flex-wrap:wrap;gap:4px 24px;align-items:center}
+.periodbar label{min-width:0;max-width:100%;display:flex;align-items:center;gap:6px}
+.periodbar select{min-width:0;max-width:100%;flex:0 1 auto}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;padding:0;margin:-1px}
+.psel{position:relative;min-width:0;max-width:100%;display:inline-block}
+.psel>button{display:flex;align-items:center;gap:8px;max-width:100%;min-width:0;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);padding:7px 10px;font:inherit;font-size:.9rem;text-align:left;cursor:pointer}
+.psel>button span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.psel .caret{color:var(--muted);font-size:.8em;flex:none}
+.psel>button:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
+.psel ul{position:absolute;z-index:30;left:0;top:calc(100% + 4px);margin:0;padding:4px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.16);min-width:100%;width:max-content;max-width:min(560px,calc(100vw - 32px));max-height:calc(10 * 34px + 8px);overflow-y:auto;overscroll-behavior:contain}
+.psel li{height:34px;line-height:34px;padding:0 10px;border-radius:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:.88rem;cursor:pointer;color:var(--fg)}
+.psel li[aria-selected="true"]{background:var(--fill);color:var(--on-fill);font-weight:600}
+@media (max-width:640px){.psel li{height:auto;min-height:34px;line-height:1.3;padding:7px 10px;white-space:normal;font-size:.82rem}}
+.psel li.hi:not([aria-selected="true"]){background:color-mix(in srgb,var(--pitch) 12%,transparent)}
+.board .cap{font-size:.75rem;letter-spacing:.08em;font-weight:600;opacity:.85;display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 8px}
+.board .who{font-size:1.05rem;font-weight:700;margin:0 0 6px;line-height:1.3}
+.board .capPer{letter-spacing:.02em;font-weight:500;opacity:.9}
+
+.board dl{display:grid;grid-template-columns:1fr auto;gap:6px 12px;margin:16px 0 0;font-size:.88rem}
+.board dd{margin:0;font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+.board hr{grid-column:1/-1;border:none;border-top:1px solid currentColor;opacity:.3;margin:2px 0;width:100%}
+.side{display:grid;gap:24px;min-width:0}
+details summary{cursor:pointer;font-family:var(--display);font-size:1.35rem;letter-spacing:.02em;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:" +";color:var(--muted)}
+details[open] summary::after{content:" −"}
+.coef{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+.coef h3{grid-column:1/-1;font-size:.8rem;margin:10px 0 0;color:var(--pitch);letter-spacing:.05em}
+.hint{font-size:.78rem;color:var(--muted);margin:6px 0 0}
+ul.notes{margin:8px 0 0;padding-left:1.1em;line-height:1.55}
+ul.notes li{margin:2px 0}
+ul.notes{word-break:keep-all;overflow-wrap:anywhere}
+ul.notes b{color:var(--fg);font-weight:600;margin-right:4px}
+.tierseg{margin:10px 0 4px}
+.tierbox{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
+.tiertbl td.wrapc{white-space:normal;color:var(--muted)}
+.tiertbl{table-layout:fixed}
+.tiertbl th:first-child{width:5.2em}
+.tiertbl th:nth-child(2){width:34%}
+.tiertbl td{white-space:normal;vertical-align:top;line-height:1.45}
+.tiertbl td.num{white-space:nowrap}
+.tiertbl td:nth-child(2){font-weight:600}
+.tiertbl td{word-break:keep-all}
+.tiertbl .tmean{display:block;color:var(--fg);margin-bottom:2px}
+.rankprev{font-family:var(--mono);font-size:.78rem;color:var(--muted);grid-column:1/-1;font-variant-numeric:tabular-nums}
+.heat{width:100%;border-collapse:separate;border-spacing:2px;font-size:.78rem;margin-top:8px}
+.heat th{padding:3px 4px;font-size:.7rem;border:none;text-align:center}
+.heat th.rh{text-align:left}
+.heat td{text-align:center;font-family:var(--mono);font-variant-numeric:tabular-nums;padding:5px 2px;border:none;border-radius:3px}
+.confirm{display:inline-flex;gap:8px;align-items:center;font-size:.85rem;flex-wrap:wrap}
+.note{font-size:.8rem;color:var(--warn);font-weight:600}
+.board .per{display:flex;align-items:baseline;gap:10px;margin-top:10px}
+.board .per b{font-family:var(--display);font-size:2.2rem;line-height:1;font-variant-numeric:tabular-nums}
+.board .per span{font-size:.75rem;letter-spacing:.06em;font-weight:600;opacity:.85}
+.board .per{flex-wrap:wrap;column-gap:22px;row-gap:6px}
+.board .per .pi{display:inline-flex;align-items:baseline;gap:10px;opacity:1;font-size:inherit;letter-spacing:0;font-weight:inherit}
+.board .warnline{font-size:.76rem;margin-top:6px;opacity:.9}
+.board .honList{grid-column:1/-1;display:grid;gap:5px;font-size:.84rem;line-height:1.45;margin-top:-2px}.board .honList .hr{display:grid;grid-template-columns:auto 1fr;gap:8px}.board .honList .hk{font-weight:700;white-space:nowrap;min-width:5.9em}.board .honList .hk b{font-family:var(--mono);margin-left:4px}.board .honList .none{opacity:.75}
+#honSec .honwho{font-family:var(--body);font-size:.8rem;font-weight:500;color:var(--muted);letter-spacing:0;margin-left:6px}
+.honchips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.honchips span{background:var(--pitch-soft);color:var(--soc-fg);border-radius:999px;padding:3px 10px;font-size:.8rem;white-space:nowrap}
+.honchips b{font-family:var(--mono);margin-left:3px}
+.honh{font-size:.82rem;font-weight:700;margin:12px 0 4px;color:var(--fg)}
+table.hon{width:100%;border-collapse:collapse;table-layout:fixed}
+table.hon td{white-space:normal;padding:6px 7px;border-top:1px solid var(--line);vertical-align:top;font-size:.84rem;line-height:1.45}
+table.hon td:first-child{width:9.6em;font-weight:600;white-space:normal}
+table.hon td:nth-child(2){width:2.6em;text-align:right;font-family:var(--mono);font-weight:700;color:var(--soc-fg)}
+table.hon td:nth-child(3){color:var(--muted);word-break:keep-all;overflow-wrap:anywhere}
+
+.honnone{color:var(--muted);font-size:.84rem;margin:4px 0}
+@media (max-width:640px){table.hon td:first-child{width:6.6em}}
+.pkst{color:var(--warn);font-weight:700;margin-left:1px}
+.pkb{display:inline-block;min-width:1.35em;padding:0 4px;border-radius:99px;border:1px solid var(--soc-fg);color:var(--soc-fg);font-family:var(--mono);font-size:.68rem;font-weight:700;line-height:1.35;text-align:center;margin-left:3px}.pkb.t3{background:var(--fill);border-color:var(--fill);color:var(--on-fill)}
+#cmpBox{overscroll-behavior-y:auto}#cmpBox #compareTbl thead th{z-index:3;top:0}#cmpBox #compareTbl thead th.rkcol,#cmpBox #compareTbl thead th:nth-child(2){z-index:4}
+#compareTbl .ns{display:none}#compareTbl.scrolled .nf,#compareTbl.scrolled .nflag{display:none}#compareTbl.scrolled .ns{display:inline}
+/* 가로로 밀어도 선수 이름·시즌 열 고정 */
+#compareTbl th.rkcol,#compareTbl td.rkcol{position:sticky;left:0;z-index:2;background:var(--surface);min-width:2.2em;max-width:2.2em}
+#compareTbl thead th:nth-child(2),#compareTbl tbody td:nth-child(2){position:sticky;left:2.2em;z-index:2;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+#compareTbl tbody tr.on td.rkcol,#compareTbl tbody tr.on td:nth-child(2){background:var(--surface)}
+#yearTbl thead th:first-child,#yearTbl tbody td:first-child,#yearTbl tbody th:first-child{position:sticky;left:0;z-index:2;background:var(--surface);box-shadow:1px 0 0 var(--line)}
+#yearTbl tr.tot th:first-child,#yearTbl tr.tot td:first-child{background:var(--pitch-soft)}
+.mform{display:grid;grid-template-columns:1.1fr 1.4fr 1.4fr .8fr auto;gap:8px;align-items:end;margin-top:12px}
+@media (max-width:640px){.mform{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.yr td,.yr th{padding:6px 7px}
+.tabs{display:flex;gap:4px;flex-wrap:nowrap;align-items:flex-end;border-bottom:2px solid var(--fill);min-width:0}
+.tabwin{position:relative;flex:0 1 auto;min-width:0;display:flex}
+.tabstrip{display:flex;gap:4px;align-items:flex-end;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;touch-action:pan-x;scroll-behavior:auto;min-width:0}
+.tabstrip::-webkit-scrollbar{display:none}
+.tabstrip{user-select:none;-webkit-user-select:none;cursor:grab}.tabstrip.dragging{cursor:grabbing}.tabstrip.dragging .tab{pointer-events:none}
+.tabstrip .tab{flex:0 0 auto;white-space:nowrap}
+.tabwin::before,.tabwin::after{content:"";position:absolute;top:0;bottom:0;width:22px;pointer-events:none;opacity:0;transition:opacity .15s;z-index:1}
+.tabwin::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.tabwin::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
+.tabwin.l::before,.tabwin.r::after{opacity:1}
+.tabs>.tab.add,.tabs>.newtab{flex:0 0 auto}
+@media (max-width:640px){.tabs .tabcount{display:none}.tabs .tab{padding:7px 11px;gap:6px}.tabs .tab.add .lbl{display:none}}
+.tabcount{flex:0 0 auto;align-self:center;font-size:.74rem;color:var(--muted);margin-left:auto;padding:0 4px;white-space:nowrap}
+.tab{border:1px solid var(--line);border-bottom:none;border-radius:6px 6px 0 0;background:var(--surface);padding:8px 16px;font-weight:600;color:var(--muted);display:flex;gap:8px;align-items:center}
+.tab[aria-selected="true"]{background:var(--fill);color:var(--on-fill);border-color:var(--fill)}
+.tab .x{font-weight:400;opacity:.7;padding:0 2px}
+.tab.add{border-style:dashed;color:var(--pitch)}
+.newtab{display:flex;gap:6px;align-items:center;padding-bottom:4px}
+.newtab input{width:11rem}
+.compare{min-width:0}
+.compare table{font-size:.84rem}
+.compare th.sortable{padding:0}
+tr.newrec td{background:color-mix(in srgb,var(--pitch) 9%,transparent)}
+tr.newrec td:first-child{box-shadow:inset 3px 0 0 var(--pitch)}
+.compare .rkcol{width:2.2em;color:var(--muted);font-variant-numeric:tabular-nums;padding-right:4px}
+.compare .flag{display:inline-block;width:1.4em;height:.93em;vertical-align:-.1em;margin-left:7px;border-radius:2px;overflow:hidden;flex:none}
+.compare .flag{cursor:default}.compare .flag:focus-visible{outline:2px solid var(--soc-fg);outline-offset:2px}
+#flagTip{position:fixed;z-index:1000;pointer-events:none;background:var(--fg);color:var(--bg);font-size:.78rem;font-weight:600;line-height:1.35;padding:4px 8px;border-radius:5px;white-space:pre-line;max-width:260px;box-shadow:0 2px 8px rgba(0,0,0,.18);opacity:0;transition:opacity .12s}
+#flagTip.on{opacity:1}
+#compareTbl .hon{display:inline-block;min-width:1.6em;padding:1px 6px;border-radius:99px;background:color-mix(in srgb,var(--soc-fg) 14%,transparent);color:var(--fg);font-weight:700;cursor:default;text-align:center}#compareTbl .hon:focus-visible{outline:2px solid var(--soc-fg);outline-offset:2px}#compareTbl td.hon0{color:var(--muted)}
+.compare .plink{all:unset;cursor:pointer;color:inherit;font-weight:inherit;border-bottom:1px dashed var(--line);padding:1px 0}
+.compare .plink:hover{color:var(--pitch);border-bottom-color:var(--pitch)}
+.compare .plink:focus-visible{outline:2px solid var(--pitch);outline-offset:2px;border-radius:2px}
+.compare .plink[aria-current]{border-bottom-color:transparent;cursor:default}
+.thbtn{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:3px;width:100%;padding:9px 7px;cursor:pointer;font:inherit;color:inherit;letter-spacing:inherit;white-space:nowrap}
+th.num .thbtn{justify-content:flex-end}
+.thbtn:hover{color:var(--fg)}
+.thbtn:focus-visible{outline:2px solid var(--pitch);outline-offset:-2px;border-radius:3px}
+th.sorted .thbtn{color:var(--fg)}
+.thbtn .arr{display:inline-block;width:.8em;font-size:.65rem;color:var(--pitch);text-align:center}
+.cmpsorthint{margin:0 0 6px}
+.linkbtn{all:unset;cursor:pointer;color:var(--pitch);font-weight:600;text-decoration:underline;text-underline-offset:2px}
+.linkbtn:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
+.compare tr.on td{font-weight:700}
+/* 기록 표: 열 구분선 · 머리행 색 · 줄무늬 · 보정값(S·O·C)과 SOC 묶음 강조 */
+.recbox{border:1px solid var(--line);border-radius:6px}
+.rec th,.rec td{border-left:1px solid var(--line)}
+.rec th:first-child,.rec td:first-child{border-left:none}
+.rec th:last-child,.rec td:last-child{border-left:none}
+.tablebox .rec thead th,.tablebox.capped .rec thead th{background:var(--pitch-soft);color:var(--fg);border-bottom:2px solid var(--pitch)}
+.rec tbody tr:nth-child(even) td{background:var(--bg)}
+.rec tbody tr:hover td{background:var(--pitch-soft)}
+.rec th:nth-child(3),.rec td:nth-child(3),.rec th:nth-child(6),.rec td:nth-child(6),.rec th:nth-child(7),.rec td:nth-child(7){border-left:2px solid var(--pitch)}
+.rec td:first-child{color:var(--muted);text-align:right}
+.rec thead th,.rec thead th.num{font-family:var(--body);font-size:.72rem;font-weight:600;letter-spacing:.05em;text-align:center}
+.rec tbody tr:last-child td{border-bottom:none}
+.rec{font-size:.8rem}
+.rec th,.rec td{padding:6px 4px}
+.rec td .sub{font-size:.68rem}
+.side table{font-size:.76rem}
+.side th,.side td{padding:5px 3px}
+.side .yr td,.side .yr th{padding:5px 3px}
+.side th{letter-spacing:0}
+.side .yr{font-size:.7rem}
+.side .yr td,.side .yr th{padding:5px 4px}
+.side .yr thead th{white-space:normal;line-height:1.25;vertical-align:bottom;word-break:keep-all}
+.yr tr.tot th,.yr tr.tot td{background:var(--pitch-soft);font-weight:700;border-top:2px solid var(--pitch)}
+@media (max-width:1300px){.rec{font-size:.76rem}.rec th,.rec td{padding:5px 3px}.side table{font-size:.7rem}.side th,.side td,.side .yr td,.side .yr th{padding:4px 2px}}
+
+/* 선수 비교: 표/그래프 전환 */
+.cmpfilt{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;margin:-4px 0 12px}.cmpfilt .chk{padding:0;white-space:nowrap}
+.cmphead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{border:none;border-radius:0;padding:6px 16px;background:transparent;color:var(--muted);font-weight:600}
+.seg button[aria-pressed="true"]{background:var(--fill);color:var(--on-fill)}
+.chipwin{position:relative}
+.chipon{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin:0 0 8px;padding:0 0 8px;border-bottom:1px dashed var(--line)}.chipon-lb{font-size:.8rem;color:var(--muted);font-weight:600;white-space:nowrap}.chipon-list{display:flex;flex-wrap:wrap;gap:6px}.chipon .chip{pointer-events:auto;cursor:pointer}.chipon .chip .x{margin-left:-2px;font-weight:700;opacity:.7}
+.chips{display:flex;flex-wrap:nowrap;gap:6px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;touch-action:pan-x;user-select:none;-webkit-user-select:none;cursor:grab;padding:2px 0}
+.chips::-webkit-scrollbar{display:none}
+.chips .chip{flex:0 0 auto;white-space:nowrap}
+.chips.dragging{cursor:grabbing}.chips.dragging .chip{pointer-events:none}
+.chipwin::before,.chipwin::after{content:"";position:absolute;top:0;bottom:0;width:26px;pointer-events:none;opacity:0;transition:opacity .15s;z-index:1}
+.chipwin::before{left:0;background:linear-gradient(90deg,var(--surface),transparent)}
+.chipwin::after{right:0;background:linear-gradient(270deg,var(--surface),transparent)}
+.chipwin.l::before,.chipwin.r::after{opacity:1}
+.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:99px;padding:5px 12px;background:var(--surface);color:var(--muted);font-size:.85rem;font-weight:600}
+.chip .key{width:16px;height:0;border-top:3px dashed var(--line);border-radius:2px}
+.chip[aria-pressed="true"] .key{border-top-style:solid;border-top-color:var(--k)}
+.chip[aria-pressed="true"]{color:var(--fg);border-color:var(--fg)}
+.chip[aria-pressed="true"] .key{opacity:1}
+.chip:disabled,.chip[aria-disabled="true"]{opacity:.45;cursor:not-allowed}
+.chartbox{position:relative;margin-top:10px}
+#cumChart{width:100%;height:auto;display:block;overflow:visible}
+#cumChart:focus-visible{outline:2px solid var(--pitch);outline-offset:4px}
+#cumChart .grid line{stroke:var(--line);stroke-width:1}
+#cumChart .wc line{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 4;opacity:.6}
+#cumChart .yr line{stroke:var(--line);stroke-width:1}
+.ctip .dlt{font-weight:500;color:var(--muted);margin-left:4px}
+#cumChart text{fill:var(--muted);font-family:var(--body);font-size:11px}
+#cumChart .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+#cumChart .leaders path{fill:none;stroke-width:1.2;stroke-dasharray:2 4;opacity:.75}
+#cumChart .endlab{fill:var(--fg);font-size:11.5px;font-weight:600}
+#cumChart .series path{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+#cumChart .series circle{stroke:var(--surface);stroke-width:2}
+#cumChart .xh{stroke:var(--fg);stroke-width:1;opacity:.5}
+.ctip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px;font-size:.8rem;box-shadow:0 4px 14px rgba(0,0,0,.12);min-width:150px;z-index:3}
+.ctip .t{color:var(--muted);font-weight:600;margin-bottom:4px}
+.ctip .r{display:grid;grid-template-columns:14px 1fr auto;gap:6px;align-items:center;line-height:1.6}
+.ctip .r i{display:block;height:0;border-top:2px solid var(--k);border-radius:1px}
+.ctip .r b{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--fg)}
+.ctip .r span{color:var(--muted)}
+.viz{--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--s6:#008300;--s7:#6250d6;--s8:#e34948;--s9:#8a6a2e;--s10:#0e8a9a;--s11:#a8508c;--s12:#5f7d1f;--s13:#56657a;--s14:#3d5a80;--s15:#8a5a2b;--s16:#4d7c5a;--s17:#8e2457;--s18:#9b2c2c;--s19:#6f6a1f;--s20:#2f6b8f;--s21:#9a4f1c;--s22:#2e7d6b;--s23:#7048c9;--s24:#a87a8d;--s25:#b8892f;--s26:#5a7bb5;--s27:#b0467f;--s28:#8f4fb3;--s29:#3a8a5c;--s30:#1e1e7a;--s31:#c4731a;--s32:#c026d3;--s33:#665544;--s34:#d331a8;--s35:#ca7267;--s36:#573366;--s37:#1919e1;--s38:#662e37;--s39:#050195;--s40:#a6a611;--s41:#50553c;--s42:#9678c3;--s43:#f1317a;--s44:#878c82;--s45:#a51e00;--s46:#1ed70a;--s47:#8fd858;--s48:#00e5e6;--s49:#0cd16e;--s50:#b5d810;--s51:#8d6e63;--s52:#69ed0e;--s53:#7b1fa2;--s54:#0277bd;--s55:#f20000}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .viz{--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;--s9:#c19a55;--s10:#3bb6c4;--s11:#d27bb5;--s12:#8fae4a;--s13:#93a3b8;--s14:#7f9fd6;--s15:#d19a66;--s16:#8cc29a;--s17:#e78fb9;--s18:#f2a39a;--s19:#c9c26a;--s20:#8cc4e6;--s21:#e3a06b;--s22:#7ccab4;--s23:#b39bf0;--s24:#d8aabd;--s25:#e6c47a;--s26:#8fb0e6;--s27:#e08fbd;--s28:#c79ae0;--s29:#8fd1a8;--s30:#4f4fd3;--s31:#f0b25e;--s32:#e879f9;--s33:#11eebb;--s34:#6ede6e;--s35:#dccbb1;--s36:#dce62e;--s37:#a53eea;--s38:#e6a822;--s39:#08e404;--s40:#1717eb;--s41:#f55fbe;--s42:#00b4ff;--s43:#afa908;--s44:#00ebe6;--s45:#b4e15a;--s46:#ef0cd7;--s47:#9dee10;--s48:#1aff5e;--s49:#4fbf12;--s50:#f27d0c;--s51:#c8a393;--s52:#57f3f5;--s53:#d6a4f0;--s54:#4fc3f7;--s55:#ffe1b4}}
+:root[data-theme="dark"] .viz{--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--s6:#008300;--s7:#9085e9;--s8:#e66767;--s9:#c19a55;--s10:#3bb6c4;--s11:#d27bb5;--s12:#8fae4a;--s13:#93a3b8;--s14:#7f9fd6;--s15:#d19a66;--s16:#8cc29a;--s17:#e78fb9;--s18:#f2a39a;--s19:#c9c26a;--s20:#8cc4e6;--s21:#e3a06b;--s22:#7ccab4;--s23:#b39bf0;--s24:#d8aabd;--s25:#e6c47a;--s26:#8fb0e6;--s27:#e08fbd;--s28:#c79ae0;--s29:#8fd1a8;--s30:#4f4fd3;--s31:#f0b25e;--s32:#e879f9;--s33:#11eebb;--s34:#6ede6e;--s35:#dccbb1;--s36:#dce62e;--s37:#a53eea;--s38:#e6a822;--s39:#08e404;--s40:#1717eb;--s41:#f55fbe;--s42:#00b4ff;--s43:#afa908;--s44:#00ebe6;--s45:#b4e15a;--s46:#ef0cd7;--s47:#9dee10;--s48:#1aff5e;--s49:#4fbf12;--s50:#f27d0c;--s51:#c8a393;--s52:#57f3f5;--s53:#d6a4f0;--s54:#4fc3f7;--s55:#ffe1b4}
+#compareTbl th.num .thbtn .lb,#yearTbl th.num{text-align:right}
+
+.lv1{color:inherit;font-weight:700}.lv2{color:#1f8a5b;font-weight:700}.lv3{color:#1d6fb8;font-weight:700}.lv4{color:#7a3fc4;font-weight:700}.lv5{color:#b06f00;font-weight:700}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .lv2{color:#4fbf85}:root:not([data-theme="light"]) .lv3{color:#5aa9f0}:root:not([data-theme="light"]) .lv4{color:#b48cf2}:root:not([data-theme="light"]) .lv5{color:#f2c04e}}
+:root[data-theme="dark"] .lv2{color:#4fbf85}:root[data-theme="dark"] .lv3{color:#5aa9f0}:root[data-theme="dark"] .lv4{color:#b48cf2}:root[data-theme="dark"] .lv5{color:#f2c04e}
+
+.colhid{display:none!important}
+.colpanel{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:0 0 10px;background:var(--surface)}
+.colpanel .colhd{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;justify-content:space-between;margin:0 0 8px}
+.colpanel .colhd .hint{margin:0}
+.colpanel ol{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.colpanel li{display:inline-flex;align-items:center;gap:2px;border:1px solid var(--line);border-radius:99px;padding:2px 4px 2px 10px;font-size:.82rem;background:var(--bg)}
+.colpanel li.off{opacity:.55}
+.colpanel li.off .cl{text-decoration:line-through}
+.colpanel li.fx{padding-right:10px;color:var(--muted)}
+.colpanel li label{display:inline-flex;align-items:center;gap:5px;cursor:pointer;white-space:nowrap}
+.colpanel li input{margin:0}
+.colpanel .mv{all:unset;cursor:pointer;width:22px;height:22px;display:inline-grid;place-items:center;border-radius:50%;color:var(--muted);font-size:.7rem}
+.colpanel .mv:hover:not(:disabled){background:var(--line);color:var(--fg)}
+.colpanel .mv:disabled{opacity:.25;cursor:default}
+.colpanel .mv:focus-visible{outline:2px solid var(--pitch)}
+thead th[data-ck].colmov{cursor:grab}
+table.coldragging,table.coldragging *{cursor:grabbing!important;user-select:none}
+thead th.coldrag{opacity:.45}
+thead th[data-ck]{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+thead th.dropL{box-shadow:inset 3px 0 0 var(--pitch)}
+thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
+</style>
+<style>
+.lvnote{font-size:.78rem;color:var(--muted)}
+.tiebox{grid-column:1/-1;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;align-items:end;padding:10px;border:1px dashed var(--line);border-radius:6px}
+.tiebox .w2{grid-column:span 2}
+@media (max-width:640px){.tiebox{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.newwrap{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.newwrap input{width:auto;min-width:0;flex:0 1 220px}
+.elofill{display:flex;gap:6px;align-items:end;flex-wrap:wrap;grid-column:1/-1;font-size:.78rem;color:var(--muted)}
+.elofill select,.elofill input{width:auto}
+.elofill input{max-width:5.5em}
+.periodbar select{width:auto;max-width:100%}
+#compTbl td,#compTbl th,#clubTbl td,#clubTbl th{padding:6px 7px}
+#clubTbl{min-width:max-content}#clubTbl td:first-child{min-width:5.5em}#clubTbl td.stint{white-space:nowrap;min-width:7.5em}
+.ctabs{grid-column:1/-1;justify-self:start;margin-top:4px;flex-wrap:wrap;max-width:100%}.ctabs button{white-space:nowrap}@media (max-width:480px){.ctabs button{padding:6px 11px}}
+.ctabs button[aria-selected="true"]{background:var(--fill);color:var(--on-fill)}
+.cpanel{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.cpanel[hidden]{display:none}
+.linkbtn[hidden]{display:none}
+#compareTbl thead th{text-align:center}
+#compareTbl thead .thbtn,#compareTbl thead th.num .thbtn{justify-content:center}
+#compareTbl thead .thbtn .lb,#compareTbl th.num .thbtn .lb{text-align:center}
+.chartq{width:100%;max-width:16rem;margin:0 0 8px}
+.clubtip{cursor:help;border-bottom:1px dashed var(--line);white-space:nowrap}
+.clubtip:focus-visible{outline:2px solid var(--pitch);outline-offset:2px;border-radius:2px}
+.srcbox ul.notes{font-size:.82rem;color:var(--muted);max-height:calc(10 * 1.55em + 22px);overflow-y:auto;overscroll-behavior:auto;padding-right:10px;scrollbar-width:thin}
+.srcbox ul.notes:focus-visible{outline:2px solid var(--pitch);outline-offset:2px;border-radius:4px}
+#tabs .tab{flex:0 0 auto;white-space:nowrap}
+</style>
+<div class="wrap">
+  <header>
+    <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.145</span></h1>
+    <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
+    <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
+  </header>
+
+  <div>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="newwrap" id="newWrap" hidden><form id="newForm" class="newwrap" style="margin:0"><label class="vh" for="newName">새 선수 이름</label><input id="newName" maxlength="30" placeholder="선수 이름"><button type="submit" class="primary">탭 만들기</button><button type="button" class="ghost" id="newCancel">취소</button></form></div>
+    <div class="periodbar"><label class="chk" style="padding:8px 0 0;white-space:nowrap">기간
+      <select id="period"></select></label>
+      <label class="chk" style="padding:8px 0 0;white-space:nowrap">대회
+      <select id="compF"><option value="all">모든 대회</option><option value="lg">리그만</option><option value="dom">국내 컵만</option><option value="cont">대륙·국제 대회만 (챔스·유로파·컨퍼런스·북중미·AFC 챔스·남미 대회·클럽 월드컵 등)</option><option value="ucl">챔피언스리그만</option><option value="cup">컵·플레이오프 (국내컵·MLS 플레이오프·리그스컵)</option></select></label></div>
+  </div>
+
+  <section class="compare viz" id="compareBox">
+    <div class="cmphead">
+      <h2 style="margin:0">선수 비교</h2>
+      <div class="seg" role="group" aria-label="보기 방식"><button type="button" id="viewTable" aria-pressed="true">표</button><button type="button" id="viewChart" aria-pressed="false">그래프</button></div>
+    </div>
+    <div id="cmpTableWrap">
+      <p class="hint cmpsorthint">머리행 클릭: 큰 순 → 작은 순 → 기본 순서 · 선수 이름을 누르면 그 선수 탭으로 이동 · 위의 '대회' 선택이 적용되고 기간은 통산 <button type="button" class="linkbtn" id="cmpSortReset" hidden>기본 순서로</button> · <button type="button" class="linkbtn colbtn" data-ct="compareTbl" aria-expanded="false" aria-controls="cmpColPanel">열 편집</button></p>
+      <div class="colpanel" id="cmpColPanel" data-ct="compareTbl" hidden></div>
+      <div class="tablebox cmpbox capped" id="cmpBox"><table id="compareTbl"></table></div>
+      <ul class="hint notes">
+        <li><b>기대 승점</b> 골·도움으로 늘어난 기대 승점을 그대로 더한 값 (도움 0.6·PK 0.8·상대 O·대회 C 보정 없음)</li>
+        <li><b>가치 배율</b> SOC ÷ 기준 SOC (모든 골·도움이 평균 상황·평균 상대·리그 경기에서 나왔다고 가정한 값)</li>
+        <li><b>평균 S·평균 상대</b> 골·도움을 1개씩 같은 비중으로 평균 · 평균 상대는 추정 Elo</li>
+        <li><b>포지션</b> 주 포지션 기준(공격수·윙어·미드필더) · 이름 위에 마우스를 올리면 세부 포지션 · 센터포워드·세컨드 스트라이커 = 공격수, 좌우 윙어 = 윙어, 공격형 미드필더 = 미드필더 (국가대표판과 같은 분류)</li>
+        <li><b>*</b> 은퇴한 선수(클럽 통산 확정) · 나머지 선수는 2026년 11월 9일까지</li>
+        <li><b>챔스 비중</b> 전체 SOC 중 챔피언스리그 몫 · <b>최고 시즌</b> 시즌 SOC가 가장 높은 시즌</li>
+        <li><b>3-peak·5-peak 평균</b> 그 시즌 출전이 최소 출전 시간(기본 900분, 계수 조정에서 바꿀 수 있음) 이상인 시즌만 골라 시즌 SOC가 높은 순으로 3개·5개를 평균 (야구 WAR의 전성기 지표처럼, 연속 시즌이 아니어도 됨) · 숫자에 마우스를 올리거나 누르면 들어간 시즌 · <b>*</b> 기준을 넘는 시즌이 3개·5개보다 적어 있는 시즌만 평균한 값(0으로 채우지 않음, 몇 시즌인지는 숫자에 마우스를 올리면 보임) · 한 시즌에 두 클럽에서 뛰었으면 합쳐서 셈 · 연도 시즌(MLS·브라질 등)과 유럽식 시즌이 겹치는 해는 서로 다른 시즌으로 셈 · 위의 '대회' 선택이 적용되며(리그만 고르면 출전 시간도 리그만), 기간은 통산 · '모든 대회'·'리그만' 이외의 대회를 고르면 시즌별 출전이 적으므로 최소 출전 시간을 90분으로 낮춰 적용</li>
+      </ul>
+    </div>
+    <div id="cmpChartWrap" hidden>
+      <div class="cmpfilt"><span class="chk" role="radiogroup" aria-label="가로축">가로축
+        <label class="chk" style="padding:0"><input type="radio" name="chartX" value="date" checked> 날짜</label>
+        <label class="chk" style="padding:0"><input type="radio" name="chartX" value="games"> 출전 경기 수</label></span></div>
+      <input type="search" id="chartQ" class="chartq" placeholder="선수 이름 검색" aria-label="그래프 선수 이름 검색" autocomplete="off"><div class="chipwin" id="chipWin"><div class="chips" id="chartChips" role="group" aria-label="그래프에 표시할 선수 (최대 7명)"></div></div>
+      <p class="hint" id="chipNote">이름을 눌러 켜고 끄기 · 최대 7명 · 선수가 많으면 휠이나 끌기로 좌우 이동</p>
+      <div class="chartbox" id="chartBox">
+        <svg id="cumChart" role="img" aria-label="선수별 누적 SOC 추이" tabindex="0"></svg>
+        <div class="ctip" id="chartTip" hidden></div>
+      </div>
+      <p class="hint" id="chartCap"></p>
+    </div>
+  </section>
+
+  <div class="grid">
+    <section>
+      <h2>골·도움 기록</h2>
+      <details id="addBox">
+        <summary style="font-size:1.05rem">기록 추가</summary>
+      <form class="form" id="addForm" style="margin-top:12px">
+        <label>구분
+          <select id="inType"><option value="goal">골</option><option value="assist">도움</option></select>
+        </label>
+        <label class="w2">상대 팀
+          <input id="inOpp" placeholder="예: 아스널" maxlength="40">
+        </label>
+        <label>상대 추정 Elo
+          <input id="inElo" type="number" min="500" max="2300" value="1500" required>
+        </label>
+        <label class="w2">경기 종류
+          <select id="inComp"></select>
+        </label>
+        <div class="elofill"><span>리그 순위로 Elo 채우기</span>
+          <label for="eloLg" class="vh">리그</label><select id="eloLg"></select>
+          <label>팀 수<input id="eloN" type="number" min="2" max="40" value="20"></label>
+          <label>순위<input id="eloR" type="number" min="1" max="40" value="10"></label>
+          <button type="button" class="ghost" id="eloFill">채우기</button></div>
+        <label>골 시간 (분)
+          <input id="inMin" type="number" min="1" max="130" value="60" required>
+        </label>
+        <label class="w2">골 직전 스코어 (우리 : 상대)
+          <span class="score"><input id="inGf" type="number" min="0" max="20" value="0" aria-label="우리 팀 득점"><span>:</span><input id="inGa" type="number" min="0" max="20" value="0" aria-label="상대 팀 득점"></span>
+        </label>
+        <label class="chk"><input type="checkbox" id="inKo"> 단판 토너먼트</label>
+        <label class="chk"><input type="checkbox" id="inPk"> 페널티킥</label>
+        <label class="chk"><input type="checkbox" id="inTie"> 두 경기 합산</label>
+        <div class="tiebox" id="tieBox" hidden>
+          <label>몇 차전<select id="inLeg"><option value="1">1차전</option><option value="2">2차전</option></select></label>
+          <label>이 경기<select id="inHome"><option value="1">홈</option><option value="0">원정</option></select></label>
+          <label class="w2">1차전 스코어 (우리 : 상대)<span class="score"><input id="inF1" type="number" min="0" max="20" value="0" aria-label="1차전 우리 팀 득점"><span>:</span><input id="inF2" type="number" min="0" max="20" value="0" aria-label="1차전 상대 팀 득점"></span></label>
+          <label class="chk"><input type="checkbox" id="inAg" checked> 원정 다득점</label>
+          <label class="chk"><input type="checkbox" id="inEt" checked> 2차전 연장</label>
+        </div>
+        <label>날짜<input id="inDate" type="date"></label>
+        <button type="submit" class="primary">추가</button>
+      </form>
+      <div class="livebox" id="live"></div>
+      <ul class="hint notes"><li>추가시간 골: 90+4분 → 94</li><li>단판 토너먼트: 비기면 연장·승부차기(1.5점)로 계산 · 96분 이상 골은 연장전 골</li><li>두 경기 합산: 골 직전 스코어는 그 경기 스코어, 2차전이면 1차전 스코어도 입력 · S는 합산 상태로 계산(1차전 골은 2차전이 남아 있어 낮게, 합산 승부를 가르는 2차전 골은 높게)</li><li>도움: 도운 골의 시간·스코어를 입력</li></ul>
+      </details>
+
+      <div style="display:flex;justify-content:flex-end;align-items:center;gap:16px;flex-wrap:wrap;margin-top:16px">
+        <span class="chk" style="padding:0" role="radiogroup" aria-label="표에 보일 기록">
+          <label class="chk" style="padding:0"><input type="radio" name="typeF" value="all" checked> 전체</label>
+          <label class="chk" style="padding:0"><input type="radio" name="typeF" value="goal"> 골</label>
+          <label class="chk" style="padding:0"><input type="radio" name="typeF" value="assist"> 도움</label>
+        </span>
+        <label class="chk" style="padding:0"><input type="checkbox" id="sortVal"> 기여도순 정렬</label>
+      </div>
+      <div class="tablebox capped" id="recBox" style="margin-top:8px;max-height:720px">
+        <table class="rec">
+          <thead><tr><th>#</th><th>구분</th><th class="num">S</th><th class="num">O</th><th class="num">C</th><th class="num">SOC</th><th>상대</th><th class="num">Elo</th><th>대회</th><th class="num">시간</th><th>스코어</th><th></th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+        <div class="empty" id="empty" hidden>이 조건에 맞는 기록이 없습니다.</div>
+      </div>
+      <div class="row-actions">
+        <button type="button" class="ghost" id="loadPreset" hidden>저장된 기본 데이터로 되돌리기</button>
+        <button type="button" class="ghost danger" id="clearBtn">모두 지우기</button>
+      </div>
+      <div class="srcbox"><h2 style="margin-top:18px;font-size:1.1rem">데이터 출처와 처리 방식</h2><div class="hint" id="presetNote" hidden></div></div>
+    </section>
+
+    <div class="side">
+      <section class="board" aria-live="polite">
+        <div class="who" id="boardWho"></div>
+        <div class="cap">누적 SOC<span class="capPer" id="capPer"></span></div>
+        <div class="big" id="total">0.00</div>
+        <div class="per"><span class="pi"><b id="per90">–</b><span>SOC/90</span></span><span class="pi"><b id="socpm">–</b><span>경기당 SOC</span></span></div>
+        <div class="warnline" id="perWarn" hidden></div>
+        <dl>
+          <dt>골 <span id="nGoal">0</span>개</dt><dd id="sGoal">0.00</dd>
+          <dt>도움 <span id="nAst">0</span>개</dt><dd id="sAst">0.00</dd>
+          <hr>
+          <dt>단순 골+도움</dt><dd id="sSimple">0</dd>
+          <dt>경기당 공격포인트</dt><dd id="appm">–</dd>
+          <dt>공격포인트/90</dt><dd id="ap90">–</dd>
+          <dt>SOC/공격포인트</dt><dd id="sAvg">0.00</dd>
+          <hr>
+          <dt>기대 승점 증가 합계 (보정 없음)</dt><dd id="sEp">0.00</dd>
+          <dt>기준 SOC (모든 포인트가 평균일 때)</dt><dd id="base90">–</dd>
+          <dt>상황 가치 차이 (SOC − 기준)</dt><dd id="diff90">–</dd>
+          <dt>가치 배율 (SOC ÷ 기준)</dt><dd id="ratio">–</dd>
+          <hr>
+          <dt>출전 경기</dt><dd id="sMatches">0</dd>
+          <dt>출전 시간</dt><dd id="sMins">0분</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h2>대회별 SOC</h2>
+        <div style="overflow-x:auto"><table id="compTbl"></table></div>
+      </section>
+
+      <section id="clubSec">
+        <h2>팀별 SOC</h2>
+        <div style="overflow-x:auto"><table id="clubTbl"></table></div>
+        <p class="hint">SOC가 높은 팀부터 · 활동 시기는 그 팀에서 뛴 시즌(출전 경기와 골·도움 기록 기준)이며, 중간에 다른 팀에서 뛴 시즌이 끼면 구간을 나눠 줄을 바꿔 표시 · 시즌 수는 그 팀에서 한 경기라도 뛴 시즌 수 · <b>*</b> = 시즌 도중 이적한 시즌이 들어 있음(그 시즌은 두 팀에 모두 1시즌으로 세므로 팀별 시즌 수의 합이 실제 시즌 수보다 클 수 있음) · 위의 기간·대회 선택이 적용됨</p>
+      </section>
+
+      <section id="honSec">
+        <h2>우승 커리어와 개인수상 <span class="honwho" id="honWho"></span></h2>
+        <div id="honBox"></div>
+        <ul class="hint notes" id="honNotes"><li><b>출처</b> Transfermarkt 선수별 '업적(Titles &amp; achievements)' 페이지(2026.11.4 수집). 다른 출처와 전수 대조하지는 않았고, 챔피언스리그·리그 우승 횟수 같은 큰 숫자만 알려진 기록과 맞춰 봄</li><li><b>포함</b> 클럽 소속으로 딴 우승(리그·국내컵·리그컵·슈퍼컵·UEFA 대회·클럽 월드컵·남미/북중미 대회)과 개인상. 우승 횟수는 그 시즌 소속이었으면 출전이 적어도 Transfermarkt가 넣은 대로 셈(예: 살라 2014-15 첼시 리그 우승)</li><li><b>뺀 것</b> 대표팀 우승·수상(월드컵·유로·코파·아프리카 네이션스컵·네이션스리그·올림픽 등), 유스 대회, 대표팀 대회 득점왕, 'TM 시즌 선수'(Transfermarkt 자체 선정)</li><li><b>없는 것</b> 이달의 선수·시즌 베스트 11(올해의 팀)은 Transfermarkt 업적 페이지에 항목이 없어 넣지 못함. Transfermarkt 목록에 없는 대회(예: 호날두 2023 아랍 클럽 챔피언스컵)도 빠져 있음</li><li><b>준우승</b> 준우승은 '준우승 (합계 제외)' 줄에 따로 보이고 클럽 우승 합계에 넣지 않음</li><li><b>시즌 표기</b> 클럽 월드컵·슈퍼컵처럼 해가 바뀌는 대회는 시즌으로 적음(예: 09/10 = 2009년 12월 클럽 월드컵, 18/19 = 2018년 8월 슈퍼컵)</li><li><b>표기</b> '올해의 선수'는 Transfermarkt가 'Player of the Year'로 적은 리그별 선정, '국가별 올해의 선수'는 'Footballer of the Year'(국가·소속팀 기준), 득점왕은 대회별(공동 포함)이며 괄호 안 숫자는 Transfermarkt에 적힌 골 수. 이 칸은 위 기간·대회 필터와 관계없이 경력 전체를 보여 줌</li></ul>
+      </section>
+
+      <section>
+        <h2>시즌별 SOC</h2>
+        <p class="hint cmpsorthint"><button type="button" class="linkbtn colbtn" data-ct="yearTbl" aria-expanded="false" aria-controls="yrColPanel">열 편집</button></p>
+        <div class="colpanel" id="yrColPanel" data-ct="yearTbl" hidden></div>
+        <div style="overflow-x:auto"><table class="yr" id="yearTbl"></table></div>
+        <ul class="hint notes"><li><b>기준</b> 평균 상황(S 1.0) · 평균 상대(O 1.0, 추정 Elo 1500 = MLS 하위권 수준) · 리그 경기(C 1.0)에서 나왔다고 가정한 값 (골 1.0 · 도움 0.6)</li><li><b>가치 차이</b> + = 기준보다 값진 상황(시점·상대·대회), − = 덜 값진 상황</li><li><b>기대 승점</b> 골·도움으로 늘어난 기대 승점의 합 (상대 O·대회 C 미적용)</li><li><b>평균 S·평균 상대</b> 골·도움·PK 골을 모두 1개씩 같은 비중으로 평균 · 평균 상대는 추정 Elo</li><li><b>*</b> 최소 출전 시간(기본 900분, '모든 대회'·'리그만' 이외의 대회를 고르면 90분) 미만</li><li><b>시즌 옆 숫자 1~5</b> 출전이 최소 출전 시간(기본 900분) 이상인 시즌 중 시즌 SOC 순위(통산, 위의 '대회' 선택 적용) · 진한 칸 1~3위는 3-peak 평균, 1~5위는 5-peak 평균에 들어감 · 두 클럽에서 뛴 시즌은 합친 값으로 순위를 매겨 두 줄 모두 표시</li></ul>
+      </section>
+
+      <section>
+        <details id="matchBox">
+          <summary>출전 경기 <span class="sub" id="matchSum"></span></summary>
+          <ul class="hint notes"><li>공격포인트 없는 경기도 모두 넣어야 SOC/90이 정확함 · 최근 경기가 위</li><li>출전 시간: 정규 90분 기준 · 연장 포함 최대 120분</li></ul>
+          <form class="mform" id="matchForm">
+            <label>날짜<input id="mDate" type="date" required></label>
+            <label>상대<input id="mOpp" maxlength="40" placeholder="예: 첼시"></label>
+            <label>대회<select id="mComp"></select></label>
+            <label>출전(분)<input id="mMin" type="number" min="0" max="120" value="90" required></label>
+            <button type="submit" class="primary">추가</button>
+          </form>
+          <div class="tablebox capped" style="max-height:520px"><table><thead><tr><th>날짜</th><th>상대</th><th>대회</th><th class="num">출전</th><th class="num">SOC</th><th></th></tr></thead><tbody id="mrows"></tbody></table></div>
+        </details>
+      </section>
+
+      <section>
+        <h2>상황 보정 S 한눈에 보기</h2>
+        <div style="overflow-x:auto"><table class="heat" id="heat"></table></div>
+        <p class="hint">리그 경기 기준 · 골 직전 점수차·골 시간별 S (평균 골 = 1.00)</p>
+      </section>
+
+      <section>
+        <details id="coefBox">
+          <summary>계수 조정</summary>
+          <div class="coef">
+            <h3>기본값</h3>
+            <label>도움 / 골 비율<input id="c_ast" type="number" step="0.05" min="0"></label>
+            <label>PK 골 보정<input id="c_pk" type="number" step="0.05" min="0"></label>
+            <h3>최소 출전 시간 (SOC/90 · 3-peak·5-peak 평균)</h3>
+            <label>최소 출전 시간 (분)<input id="c_minMin" type="number" step="90" min="0"></label>
+            <div></div>
+            <h3>상황 보정 S (기대 승점 모델)</h3>
+            <label>팀당 경기 평균 득점<input id="c_lam" type="number" step="0.05" min="0.3" max="4"></label>
+            <label>정규시간 종료 (분)<input id="c_end" type="number" step="1" min="90" max="100"></label>
+            <div class="rankprev" id="normPrev"></div>
+            <label>합산 S 상한<input id="c_scap" type="number" step="0.05" min="0.5"></label>
+            <p class="rankprev" style="grid-column:1/-1;margin:0">두 경기 합산 S도 단판과 같은 기준(평균적인 골 1개의 기대 승점 증가량)으로 나눔 · 상한은 단판 경기 S의 이론 최대(94분 승부를 가르는 골, 약 2.83): 한 골이 이보다 값지게 세어지지 않게 막음 · 원정 다득점이 있던 시절 합산에서 한 골 뒤진 원정 팀의 막판 동점 골처럼 극단적인 경우에만 걸림</p>
+            <h3>상대 보정 O = e^{계수 × (상대 Elo − 기준 Elo)}</h3>
+            <p class="rankprev">국가대표판 계수(FIFA 순위 1칸당 0.0085)를 Elo로 환산 · 세계 Elo 순위 1칸 ≈ 6점 → 1점당 0.0015 · Elo 100점 높으면 상대 보정 약 16%↑</p>
+            <label>기준 Elo (O = 1.00)<input id="c_ref" type="number" step="10"></label>
+            <label>계수 (Elo 1점당)<input id="c_k" type="number" step="0.0001" min="0"></label>
+            <label>하한<input id="c_min" type="number" step="0.05" min="0"></label>
+            <label>상한<input id="c_max" type="number" step="0.05" min="0"></label>
+            <div class="rankprev" id="rankPrev"></div>
+            <div style="grid-column:1/-1;overflow-x:auto"><table id="lgTbl" class="yr"></table><p class="hint">리그 수준표: ClubElo 2026년 10월 1부 리그 팀 Elo의 평균 · 순위별 값은 유럽 5대 리그의 실제 분포 모양(상위 몇 팀이 크게 앞서고 중위권은 촘촘)을 리그별 흩어짐에 맞춰 씀 · *20팀 기준 · 기록 추가 칸의 "리그 순위로 Elo 채우기"가 이 표를 씀 · 미리 넣은 분데스리가·프리미어리그·라리가 상대는 UEFA 국가 계수로 시즌마다 리그 평균을 조정함 · 사우디 프로리그·브라질 세리에 A는 ClubElo에 없어 Opta 리그 파워 랭킹(2025년 6월)을 ClubElo 리그 평균에 맞춰 환산</p></div>
+            <h3>대회 중요도 C = (I / 25)^강도</h3>
+            <div class="seg ctabs" role="tablist" aria-label="대회 중요도 지역"><button type="button" role="tab" id="ct_com" aria-controls="cp_com" aria-selected="true" tabindex="0">공통</button><button type="button" role="tab" id="ct_eu" aria-controls="cp_eu" aria-selected="false" tabindex="-1">유럽</button><button type="button" role="tab" id="ct_na" aria-controls="cp_na" aria-selected="false" tabindex="-1">북중미</button><button type="button" role="tab" id="ct_sa" aria-controls="cp_sa" aria-selected="false" tabindex="-1">남미</button><button type="button" role="tab" id="ct_wd" aria-controls="cp_wd" aria-selected="false" tabindex="-1">국제</button><button type="button" role="tab" id="ct_as" aria-controls="cp_as" aria-selected="false" tabindex="-1">아시아</button></div>
+            <div class="cpanel" role="tabpanel" id="cp_com" aria-labelledby="ct_com">
+              <label>리그 (MLS 정규 시즌 포함)<input id="c_lg" type="number" step="1" min="0"></label>
+              <label>국내컵 16강까지<input id="c_dc" type="number" step="1" min="0"></label>
+              <label>국내컵 8강 이후<input id="c_dk" type="number" step="1" min="0"></label>
+              <label>준결승 배율 (× 8강 이후)<input id="c_sf" type="number" step="0.05" min="0"></label>
+              <label>결승 배율 (× 8강 이후)<input id="c_f" type="number" step="0.05" min="0"></label>
+              <label>강도 (1 = 그대로)<input id="c_gamma" type="number" step="0.1" min="0" max="2"></label>
+            </div>
+            <div class="cpanel" role="tabpanel" id="cp_eu" aria-labelledby="ct_eu" hidden>
+              <label>챔스 예선·플레이오프<input id="c_clq" type="number" step="1" min="0"></label>
+              <label>챔스 리그 페이즈·조별<input id="c_clg" type="number" step="1" min="0"></label>
+              <label>챔스 16강<input id="c_cl16" type="number" step="1" min="0"></label>
+              <label>챔스 8강 이후<input id="c_clk" type="number" step="1" min="0"></label>
+              <label>유로파 예선<input id="c_elq" type="number" step="1" min="0"></label>
+              <label>유로파 리그 페이즈·조별<input id="c_elg" type="number" step="1" min="0"></label>
+              <label>유로파 토너먼트<input id="c_elk" type="number" step="1" min="0"></label>
+              <label>컨퍼런스 예선·PO<input id="c_ecq" type="number" step="1" min="0"></label>
+              <label>컨퍼런스 리그 페이즈·조별<input id="c_ecg" type="number" step="1" min="0"></label>
+              <label>컨퍼런스 토너먼트<input id="c_eck" type="number" step="1" min="0"></label>
+            </div>
+            <div class="cpanel" role="tabpanel" id="cp_na" aria-labelledby="ct_na" hidden>
+              <label>MLS 플레이오프<input id="c_mlp" type="number" step="1" min="0"></label>
+              <label>북중미 챔스 16강까지<input id="c_ccc" type="number" step="1" min="0"></label>
+              <label>북중미 챔스 8강 이후<input id="c_ccck" type="number" step="1" min="0"></label>
+              <label>리그스컵 조별<input id="c_lcg" type="number" step="1" min="0"></label>
+              <label>리그스컵 토너먼트<input id="c_lck" type="number" step="1" min="0"></label>
+            </div>
+            <div class="cpanel" role="tabpanel" id="cp_sa" aria-labelledby="ct_sa" hidden>
+              <label>리베르타도레스 조별·16강<input id="c_lib" type="number" step="1" min="0"></label>
+              <label>리베르타도레스 8강 이후<input id="c_libk" type="number" step="1" min="0"></label>
+              <label>수다메리카나 16강까지<input id="c_csa" type="number" step="1" min="0"></label>
+              <label>수다메리카나 8강 이후<input id="c_csak" type="number" step="1" min="0"></label>
+            </div>
+            <div class="cpanel" role="tabpanel" id="cp_wd" aria-labelledby="ct_wd" hidden>
+              <label>클럽 월드컵<input id="c_cwc" type="number" step="1" min="0"></label>
+            </div>
+            <div class="cpanel" role="tabpanel" id="cp_as" aria-labelledby="ct_as" hidden>
+              <label>AFC 챔스 리그 단계·16강<input id="c_acl" type="number" step="1" min="0"></label>
+              <label>AFC 챔스 8강 이후<input id="c_aclk" type="number" step="1" min="0"></label>
+              <label>AFC 챔스 투 조별·16강<input id="c_ac2" type="number" step="1" min="0"></label>
+              <label>AFC 챔스 투 8강 이후<input id="c_ac2k" type="number" step="1" min="0"></label>
+              <label>아랍 클럽 챔피언스컵 조별<input id="c_arab" type="number" step="1" min="0"></label>
+              <label>아랍 클럽 챔피언스컵 토너먼트<input id="c_arabk" type="number" step="1" min="0"></label>
+            </div>
+            <div class="rankprev" id="compPrev"></div>
+          </div>
+          <div class="row-actions"><button type="button" class="ghost" id="resetCoef">기본 계수로 되돌리기</button></div>
+        </details>
+      </section>
+    </div>
+  </div>
+</div>
+
+<dialog id="dlg" class="dlg" aria-labelledby="dlgTitle" aria-describedby="dlgBody">
+  <div class="dlgin"><h3 id="dlgTitle"></h3><p id="dlgBody"></p>
+  <div class="dlgact"><button type="button" class="ghost" id="dlgNo">취소</button><button type="button" class="dangerfill" id="dlgYes">확인</button></div></div>
+</dialog>
+<script src="data/yam.js"></script>
+<script src="data/ste.js"></script>
+<script src="data/mba.js"></script>
+<script src="data/kan.js"></script>
+<script src="data/son.js"></script>
+<script src="data/ron.js"></script>
+<script src="data/mes.js"></script>
+<script src="data/haa.js"></script>
+<script src="data/man.js"></script>
+<script src="data/haz.js"></script>
+<script src="data/dro.js"></script>
+<script src="data/vin.js"></script>
+<script src="data/kdb.js"></script>
+<script src="data/sal.js"></script>
+<script src="data/sua.js"></script>
+<script src="data/agu.js"></script>
+<script src="data/lew.js"></script>
+<script src="data/bzm.js"></script>
+<script src="data/grz.js"></script>
+<script src="data/hen.js"></script>
+<script src="data/lau.js"></script>
+<script src="data/ney.js"></script>
+<script src="data/bel.js"></script>
+<script src="data/rob.js"></script>
+<script src="data/ibr.js"></script>
+<script src="data/ini.js"></script>
+<script src="data/rap.js"></script>
+<script src="data/mul.js"></script>
+<script src="data/dim.js"></script>
+<script src="data/aub.js"></script>
+<script src="data/dyb.js"></script>
+<script src="data/roo.js"></script>
+<script src="data/cav.js"></script>
+<script src="data/kva.js"></script>
+<script src="data/bal.js"></script>
+<script src="data/sil.js"></script>
+<script src="data/tor.js"></script>
+<script src="data/van.js"></script>
+<script src="data/fab.js"></script>
+<script src="data/bsi.js"></script>
+<script src="data/rdg.js"></script>
+<script src="data/lac.js"></script>
+<script src="data/kak.js"></script>
+<script src="data/hig.js"></script>
+<script src="data/vil.js"></script>
+<script src="data/pay.js"></script>
+<script src="data/mus.js"></script>
+<script src="data/mah.js"></script>
+<script src="data/cua.js"></script>
+<script src="data/isc.js"></script>
+<script src="data/lam.js"></script>
+<script src="data/rib.js"></script>
+<script src="data/imm.js"></script>
+<script src="data/reu.js"></script>
+<script src="data/sak.js"></script>
+<script src="data/hon.js"></script>
+<script>
+const PEAK_MIN=900;
+// 최고 N시즌: 출전 PEAK_MIN분 이상 시즌을 시즌 SOC 높은 순으로 [시즌, SOC, 분] (대회 필터 적용, 기간은 통산, 한 시즌 두 클럽은 합침)
+function peakMin(c){const v=c&&+c.minMin;const b=isFinite(v)&&v>=0?v:PEAK_MIN;const f=st.compF||"all";return f==="all"||f==="lg"?b:Math.min(b,90)}
+function peakSeasons(p,c){const Y={},YM={};p.matches.filter(m=>inC(m.comp)).forEach(m=>{const s=seasonOf(m.date,pClub(p,m.date));YM[s]=(YM[s]||0)+(+m.min||0)});p.entries.filter(e=>inC(e.comp)).forEach(e=>{const s=seasonOf(e.date,pClub(p,e.date));Y[s]=(Y[s]||0)+value(e,c).v});return Object.keys(YM).filter(s=>YM[s]>=peakMin(c)).map(s=>[s,Y[s]||0,YM[s]]).sort((x,y)=>y[1]-x[1])}
+const RETIRED=new Set(["henry","drogba","robben","aguero","ribery","ibrahimovic","hazard","iniesta","immobile","rooney","bale","torres","vanpersie","fabregas","kaka","higuain","villa","payet","lampard","ronaldinho","silva"]);
+const DEF={scap:2.83,minMin:900,ast:0.6,pk:0.8,lam:1.35,end:94,ref:1500,k:0.0015,min:0.3,max:2.6,lg:25,dc:10,dk:20,clq:25,clg:30,cl16:45,clk:45,elq:20,elg:25,elk:30,ecq:15,ecg:20,eck:25,mlp:30,ccc:25,ccck:30,lcg:15,lck:20,cwc:35,acl:25,aclk:30,ac2:15,ac2k:20,arab:15,arabk:20,lib:25,libk:30,csa:15,csak:20,sf:1.15,f:1.5,gamma:1};
+const COMP={lg:"리그",dc:"국내컵",dk:"국내컵 8강",dsf:"국내컵 준결승",df:"국내컵 결승",clq:"챔스 예선·PO",clg:"챔스 리그·조별",cl16:"챔스 16강",clk:"챔스 8강",clsf:"챔스 준결승",clf:"챔스 결승",elq:"유로파 예선",elg:"유로파 리그·조별",elk:"유로파 토너먼트",elsf:"유로파 준결승",elf:"유로파 결승",ecq:"컨퍼런스 예선·PO",ecg:"컨퍼런스 리그·조별",eck:"컨퍼런스 토너먼트",ecsf:"컨퍼런스 준결승",ecf:"컨퍼런스 결승",mlp:"MLS 플레이오프",mlpsf:"MLS 컨퍼런스 결승",mlpf:"MLS컵 결승",ccc:"북중미 챔스",ccck:"북중미 챔스 8강",cccsf:"북중미 챔스 준결승",cccf:"북중미 챔스 결승",lcg:"리그스컵",lck:"리그스컵 토너먼트",cwc:"클럽 월드컵",acl:"AFC 챔스 (리그·16강)",aclk:"AFC 챔스 8강",aclsf:"AFC 챔스 준결승",aclf:"AFC 챔스 결승",ac2:"AFC 챔스 투",ac2k:"AFC 챔스 투 8강",ac2sf:"AFC 챔스 투 준결승",ac2f:"AFC 챔스 투 결승",arab:"아랍 클럽 챔피언스컵",arabk:"아랍 클럽컵 8강",arabsf:"아랍 클럽컵 준결승",arabf:"아랍 클럽컵 결승",lib:"리베르타도레스",libk:"리베르타도레스 8강",libsf:"리베르타도레스 준결승",libf:"리베르타도레스 결승",csa:"수다메리카나",csak:"수다메리카나 8강",csasf:"수다메리카나 준결승",csaf:"수다메리카나 결승"};
+const STAGE={dsf:["dk","sf"],df:["dk","f"],clsf:["clk","sf"],clf:["clk","f"],elsf:["elk","sf"],elf:["elk","f"],ecsf:["eck","sf"],ecf:["eck","f"],mlpsf:["mlp","sf"],mlpf:["mlp","f"],cccsf:["ccck","sf"],cccf:["ccck","f"],aclsf:["aclk","sf"],aclf:["aclk","f"],ac2sf:["ac2k","sf"],ac2f:["ac2k","f"],arabsf:["arabk","sf"],arabf:["arabk","f"],libsf:["libk","sf"],libf:["libk","f"],csasf:["csak","sf"],csaf:["csak","f"]};
+const COMPF={all:null,lg:["lg"],dom:["dc","dk","dsf","df"],cont:["clq","clg","cl16","clk","clsf","clf","elq","elg","elk","elsf","elf","ecq","ecg","eck","ecsf","ecf","ccc","ccck","cccsf","cccf","cwc","acl","aclk","aclsf","aclf","ac2","ac2k","ac2sf","ac2f","arab","arabk","arabsf","arabf","lib","libk","libsf","libf","csa","csak","csasf","csaf"],ucl:["clq","clg","cl16","clk","clsf","clf"],cup:["dc","dk","dsf","df","mlp","mlpsf","mlpf","lcg","lck"]};
+const COMPFL={all:"",lg:"리그",dom:"국내 컵",cont:"대륙 대회",ucl:"챔피언스리그",cup:"컵·플레이오프"};
+const CLUBS={hsv:["함부르크 SV","2010~2013"],lev:["바이어 레버쿠젠","2013~2015"],tot:["토트넘 홋스퍼","2015~2025"],lafc:["로스앤젤레스 FC","2025~"]};
+const PCLUBS={son:["hsv","lev","tot","lafc"],sterling:["liv","mci","che","ars","fey"],mbappe:["mon","psg","rma"],kane:["lo","kt","mil","nor","lei","bay"],ronaldo:["scp","mun","rmc","juv","nas"],messi:["fcbm","psgm","mia"],haaland:["bry","mol","rbs","bvb","mcih"],mane:["mtz","rbsm","sou","livm","baym","nasm"],hazard:["lil","cheh","rmh"],drogba:["lmn","gui","omd","ched","shs","gal","mtl","phx"],vinicius:["fla","rmv"],debruyne:["gnk","wer","chek","wob","mcik","nap"],salah:["mokw","basl","chsl","fior","roma","lvps","trab"],suarez:["nacs","grns","ajxs","lvsz","fcbz","atmz","grez","miaz"],aguero:["indk","atmg","mcag","fcbg"],lewandowski:["zni","lpo","bvbl","bayl","fcbl","chif"],benzema:["lyb","rmk","itb","hlb"],griezmann:["rsgr","atgr","fcgr","orgr"],henry:["monh","juvh","arsh","fcbh","nyh"],lautaro:["racl","intl"],neymar:["snt","fcbn","psgn","hln"],saka:["arss"],bellingham:["bcb","bvbb","rmb"],ribery:["bour","aler","brer","metr","galr","omr","bayr","firr","salr"],robben:["grr","psr","chr","rmr","bar"],ibrahimovic:["mfi","ajxi","juvi","inti","fcbi","acmi","psgi","mui","lagi"],raphinha:["vsgq","spq","renq","leeq","fcbq"],iniesta:["fcbin","vkbin","emcin"],immobile:["sorim","juvim","sienim","groim","pesim","genim","torim","dorim","sevim","lazim","besim","bolim","pfcim"],muller:["bayt","vant"],dimaria:["rosd","bend","rmd","mund","psgd","juvd"],aubameyang:["dijau","lilau","monau","stau","bvbau","arsau","fcbau","cheau","omau","qadau","depau"],dybala:["insdy","paldy","juvdy","romdy"],rooney:["evw","muw","dcw","drw"],cavani:["danc","palc","napc","psgc","munc","valc","bocc"],bale:["soub","totb","rmbl","lafcb"],kvaratskhelia:["tbkv","rstkv","lokkv","rubkv","batkv","napkv","psgkv"],silva:["eibsv","celsv","valsv","mcisv","rssv"],torres:["atmto","livto","cheto","milto","sagto"],vanpersie:["feyvp","arsvp","munvp","fenvp"],reus:["ahlr","bmgr","bvbr","lagr"],lacazette:["lyl","arsl","neol"],fabregas:["arsfa","fcbfa","chefa","monfa","comfa"],bernardosilva:["benbs","monbs","mcibs","rmbs"],ronaldinho:["glrd","psgrd","fcbrd","acmrd","flard","camrd","qurd","flurd"],kaka:["spka","acmka","rmka","orka"],higuain:["rvhg","rmhg","nahg","juhg","acmhg","chhg","miahg"],villa:["spgvl","zarvl","valvl","barvl","atmvl","melvl","nycvl","kobvl"],payet:["nanpy","stepy","lilpy","ompy","whpy","vaspy"],musiala:["baymu"],mahrez:["lhma","lcma","mcma","ahma","shma"],isco:["valis","malis","rmis","sevis","rbis"],lampard:["whlm","chelm","mcilm","nyclm"],cuadrado:["medcu","udicu","leccu","fiocu","checu","juvcu","intcu","atacu","piscu","milcu"]};
+const CLUBS2={valis:["발렌시아","2010~2011"],malis:["말라가","2011~2013"],rmis:["레알 마드리드","2013~2022"],sevis:["세비야","2022"],rbis:["레알 베티스","2023~"],whlm:["웨스트햄","1996~2001"],chelm:["첼시","2001~2014"],mcilm:["맨체스터 시티","2014~2015"],nyclm:["뉴욕 시티 FC","2015~2016"],medcu:["인데펜디엔테 메데인","2008~2009"],udicu:["우디네세","2009~2011"],leccu:["레체 (임대)","2011~2012"],fiocu:["피오렌티나","2012~2015"],checu:["첼시","2015"],juvcu:["유벤투스","2015~2023"],intcu:["인테르","2023~2024"],atacu:["아탈란타","2024~2025"],piscu:["피사","2025~2026"],milcu:["미요나리오스","2026~"],arss:["아스널","2018~"],liv:["리버풀","2012~2015"],mci:["맨체스터 시티","2015~2022"],che:["첼시","2022~2024, 2025"],ars:["아스널 (임대)","2024~2025"],fey:["페예노르트","2026"],mon:["AS 모나코","2015~2017"],psg:["파리 생제르맹","2017~2024"],rma:["레알 마드리드","2024~"],lo:["레이턴 오리엔트 (임대)","2011"],kt:["토트넘 홋스퍼","2011~2023"],mil:["밀월 (임대)","2012"],nor:["노리치 시티 (임대)","2012~2013"],lei:["레스터 시티 (임대)","2013"],bay:["바이에른 뮌헨","2023~"],scp:["스포르팅 CP","2002~2003"],mun:["맨체스터 유나이티드","2003~2009, 2021~2022"],rmc:["레알 마드리드","2009~2018"],juv:["유벤투스","2018~2021"],nas:["알나스르","2023~"],fcbm:["FC 바르셀로나","2004~2021"],psgm:["파리 생제르맹","2021~2023"],mia:["인터 마이애미","2023~"],bry:["브뤼네","2016"],mol:["몰데","2017~2018"],rbs:["레드불 잘츠부르크","2019"],bvb:["보루시아 도르트문트","2020~2022"],mcih:["맨체스터 시티","2022~"],mtz:["FC 메스","2012"],rbsm:["레드불 잘츠부르크","2012~2014"],sou:["사우샘프턴","2014~2016"],livm:["리버풀","2016~2022"],baym:["바이에른 뮌헨","2022~2023"],nasm:["알나스르","2023~"],lil:["릴","2007~2012"],cheh:["첼시","2012~2019"],rmh:["레알 마드리드","2019~2023"],lmn:["르망","1998~2002"],gui:["갱강","2002~2003"],omd:["올랭피크 마르세유","2003~2004"],ched:["첼시","2004~2012, 2014~2015"],shs:["상하이 선화","2012"],gal:["갈라타사라이","2013~2014"],mtl:["몬트리올 임팩트","2015~2016"],phx:["피닉스 라이징","2017~2018"],fla:["플라멩구","2017~2018"],rmv:["레알 마드리드","2018~"],gnk:["KRC 헹크","2009~2012"],wer:["베르더 브레멘 (임대)","2012~2013"],chek:["첼시","2013~2014"],wob:["VfL 볼프스부르크","2014~2015"],mcik:["맨체스터 시티","2015~2025"],nap:["SSC 나폴리","2025~"],mokw:["알 모카울룬","2009~2012"],basl:["바젤","2012~2014"],chsl:["첼시","2014~2015"],fior:["피오렌티나 (임대)","2015"],roma:["로마","2015~2017"],lvps:["리버풀","2017~2026"],trab:["트라브존스포르","2026~"],nacs:["나시오날","2005~2006, 2022"],grns:["흐로닝언","2006~2007"],ajxs:["아약스","2007~2011"],lvsz:["리버풀","2011~2014"],fcbz:["바르셀로나","2014~2020"],atmz:["아틀레티코 마드리드","2020~2022"],grez:["그레미우","2023"],miaz:["인터 마이애미","2024~"],indk:["인데펜디엔테","2003~2006"],atmg:["아틀레티코 마드리드","2006~2011"],mcag:["맨체스터 시티","2011~2021"],fcbg:["FC 바르셀로나","2021"],zni:["즈니치 프루슈쿠프","2007~2008"],lpo:["레흐 포즈난","2008~2010"],bvbl:["보루시아 도르트문트","2010~2014"],bayl:["바이에른 뮌헨","2014~2022"],fcbl:["FC 바르셀로나","2022~2026"],chif:["시카고 파이어","2026~"],lyb:["올랭피크 리옹","2004~2009"],rmk:["레알 마드리드","2009~2023"],itb:["알이티하드","2023~2026"],hlb:["알힐랄","2026"],rsgr:["레알 소시에다드","2009~2014"],atgr:["아틀레티코 마드리드","2014~2019, 2021~2026"],fcgr:["FC 바르셀로나","2019~2021"],orgr:["올랜도 시티","2026~"],monh:["AS 모나코","1994~1999"],juvh:["유벤투스","1999"],arsh:["아스널","1999~2007, 2012"],fcbh:["FC 바르셀로나","2007~2010"],nyh:["뉴욕 레드불스","2010~2014"],racl:["라싱 클럽","2015~2018"],intl:["인테르","2018~"],snt:["산투스","2009~2013, 2025~"],fcbn:["FC 바르셀로나","2013~2017"],psgn:["파리 생제르맹","2017~2023"],hln:["알힐랄","2023~2025"],bcb:["버밍엄 시티","2019~2020"],bvbb:["보루시아 도르트문트","2020~2023"],rmb:["레알 마드리드","2023~"],bour:["US 불로뉴","2001~2002"],aler:["올랭피크 알레","2002~2003"],brer:["스타드 브레스투아","2003~2004"],metr:["FC 메스","2004~2005"],galr:["갈라타사라이","2005"],omr:["올랭피크 마르세유","2005~2007"],bayr:["바이에른 뮌헨","2007~2019"],firr:["피오렌티나","2019~2021"],salr:["US 살레르니타나","2021~2022"],grr:["흐로닝언","2000~2002, 2020~2021"],psr:["PSV","2002~2004"],chr:["첼시","2004~2007"],rmr:["레알 마드리드","2007~2009"],bar:["바이에른 뮌헨","2009~2019"],mfi:["말뫼 FF","2000~2001"],ajxi:["아약스","2001~2004"],juvi:["유벤투스","2004~2006"],inti:["인테르","2006~2009"],fcbi:["바르셀로나","2009~2011"],acmi:["AC 밀란","2010~2012, 2020~2023"],psgi:["파리 생제르맹","2012~2016"],mui:["맨체스터 유나이티드","2016~2018"],lagi:["LA 갤럭시","2018~2019"],vsgq:["비토리아 기마랑이스","2016~2018"],spq:["스포르팅","2018~2019"],renq:["렌","2019~2020"],leeq:["리즈","2020~2022"],fcbq:["바르셀로나","2022~"],fcbin:["바르셀로나","2002~2018"],vkbin:["비셀 고베","2018~2023"],emcin:["에미레이츠 클럽","2023~2024"],sorim:["소렌토","2007"],juvim:["유벤투스","2009~2010"],sienim:["시에나 (임대)","2010"],groim:["그로세토 (임대)","2011"],pesim:["페스카라 (임대)","2011~2012"],genim:["제노아","2012~2013"],torim:["토리노","2013~2014, 2016"],dorim:["도르트문트","2014~2015"],sevim:["세비야","2015~2016"],lazim:["라치오","2016~2024"],besim:["베식타시","2024~2025"],bolim:["볼로냐","2025"],pfcim:["파리 FC","2026"],bayt:["바이에른","2008~2025"],baymu:["바이에른","2020~"],lhma:["르아브르","2011~2014"],lcma:["레스터 시티","2014~2018"],mcma:["맨체스터 시티","2018~2023"],ahma:["알아흘리","2023~2026"],shma:["알샤말","2026~"],vant:["밴쿠버","2025~"],rosd:["로사리오 센트랄","2005~2007, 2025~"],bend:["벤피카","2007~2010, 2023~2025"],rmd:["레알 마드리드","2010~2014"],mund:["맨체스터 유나이티드","2014~2015"],psgd:["파리 생제르맹","2015~2022"],juvd:["유벤투스","2022~2023"],dijau:["디종","2008~2009"],lilau:["릴","2009~2010"],monau:["모나코","2010~2011"],stau:["생테티엔","2011~2013"],bvbau:["도르트문트","2013~2018"],arsau:["아스널","2018~2022"],fcbau:["바르셀로나","2022"],cheau:["첼시","2022~2023"],omau:["마르세유","2023~2024, 2025~2026"],qadau:["알카디시야","2024~2025"],depau:["데포르티보","2026~"],insdy:["인스티투토","2011~2012"],paldy:["팔레르모","2012~2015"],juvdy:["유벤투스","2015~2022"],romdy:["로마","2022~"],evw:["에버턴","2002~2004, 2017~2018"],muw:["맨체스터 유나이티드","2004~2017"],dcw:["D.C. 유나이티드","2018~2019"],drw:["더비 카운티","2020~2021"],danc:["다누비오","2006~2007"],palc:["팔레르모","2007~2010"],napc:["나폴리","2010~2013"],psgc:["PSG","2013~2020"],munc:["맨유","2020~2022"],valc:["발렌시아","2022~2023"],bocc:["보카","2023~2026"],soub:["사우샘프턴","2006~2007"],totb:["토트넘 홋스퍼","2007~2013, 2020~2021"],rmbl:["레알 마드리드","2013~2020, 2021~2022"],lafcb:["로스앤젤레스 FC","2022"],tbkv:["디나모 트빌리시","2017"],rstkv:["루스타비","2018~2019"],lokkv:["로코모티프 모스크바","2019"],rubkv:["루빈 카잔","2019~2022"],batkv:["디나모 바투미","2022"],napkv:["나폴리","2022~2025"],psgkv:["PSG","2025~"],eibsv:["에이바르 (임대)","2004~2005"],celsv:["셀타 비고 (임대)","2005~2006"],valsv:["발렌시아","2006~2010"],mcisv:["맨체스터 시티","2010~2020"],rssv:["레알 소시에다드","2020~2023"],atmto:["아틀레티코 마드리드","2000~2007, 2015~2018"],livto:["리버풀","2007~2011"],cheto:["첼시","2011~2014"],milto:["AC 밀란","2014 (임대)"],sagto:["사간 도스","2018~2019"],feyvp:["페예노르트","2001~2004, 2018~2019"],arsvp:["아스널","2004~2012"],munvp:["맨체스터 유나이티드","2012~2015"],fenvp:["페네르바체","2015~2018"],ahlr:["로트바이스 알렌","2007~2009"],bmgr:["보루시아 묀헨글라트바흐","2009~2012"],bvbr:["보루시아 도르트문트","2012~2024"],lagr:["LA 갤럭시","2024~"],lyl:["올랭피크 리옹","2010~2017, 2022~2025"],arsl:["아스널","2017~2022"],neol:["네옴 SC","2025~"],arsfa:["아스널","2003~2011"],fcbfa:["바르셀로나","2011~2014"],chefa:["첼시","2014~2019"],monfa:["모나코","2019~2022"],comfa:["코모","2022~2023"],benbs:["SL 벤피카","2013~2014"],monbs:["AS 모나코","2014~2017"],mcibs:["맨체스터 시티","2017~2026"],rmbs:["레알 마드리드","2026~"],glrd:["그레미우","1998~2001"],psgrd:["파리 생제르맹","2001~2003"],fcbrd:["바르셀로나","2003~2008"],acmrd:["AC 밀란","2008~2011"],flard:["플라멩구","2011~2012"],camrd:["아틀레치쿠 미네이루","2012~2014"],qurd:["케레타로","2014~2015"],flurd:["플루미넨시","2015"],spka:["상파울루","2001~2003, 2014"],acmka:["AC 밀란","2003~2009, 2013~2014"],rmka:["레알 마드리드","2009~2013"],orka:["올랜도 시티","2015~2017"],rvhg:["리버 플레이트","2005~2006"],rmhg:["레알 마드리드","2007~2013"],nahg:["나폴리","2013~2016"],juhg:["유벤투스","2016~2018, 2019~2020"],acmhg:["AC 밀란","2018~2019"],chhg:["첼시","2019"],miahg:["인터 마이애미","2020~2022"],spgvl:["스포르팅 히혼","2000~2003"],zarvl:["레알 사라고사","2003~2005"],valvl:["발렌시아","2005~2010"],barvl:["바르셀로나","2010~2013"],atmvl:["아틀레티코 마드리드","2013~2014"],melvl:["멜버른 시티 (임대)","2014"],nycvl:["뉴욕 시티 FC","2014~2018"],kobvl:["비셀 고베","2019~2020"],nanpy:["낭트","2005~2007"],stepy:["생테티엔","2007~2011"],lilpy:["릴","2011~2013"],ompy:["올랭피크 마르세유","2013~2015, 2017~2023"],whpy:["웨스트햄","2015~2017"],vaspy:["바스쿠 다 가마","2023~2025"]};
+function payClub(d){d=d||"";if(!d)return "";return d<"2007-07-01"?"nanpy":d<"2011-07-01"?"stepy":d<"2013-07-01"?"lilpy":d<"2015-07-01"?"ompy":d<"2017-01-30"?"whpy":d<"2023-08-01"?"ompy":"vaspy"}
+function iscClub(d){d=d||"";if(!d)return "";return d<"2011-07-01"?"valis":d<"2013-07-01"?"malis":d<"2022-07-01"?"rmis":d<"2023-07-01"?"sevis":"rbis"}
+function lamClub(d){d=d||"";if(!d)return "";return d<"2001-07-01"?"whlm":d<"2014-07-01"?"chelm":d<"2015-06-01"?"mcilm":"nyclm"}
+function silClub(d){d=d||"";if(!d)return "";return d<"2005-07-01"?"eibsv":d<"2006-07-01"?"celsv":d<"2010-07-01"?"valsv":d<"2020-08-17"?"mcisv":"rssv"}
+function kvaClub(d){d=d||"";if(!d)return "";return d<"2018-03-20"?"tbkv":d<"2019-02-12"?"rstkv":d<"2019-07-06"?"lokkv":d<"2022-03-31"?"rubkv":d<"2022-07-01"?"batkv":d<"2025-01-17"?"napkv":"psgkv"}
+function torClub(d){d=d||"";if(!d)return "";return d<"2007-07-04"?"atmto":d<"2011-01-31"?"livto":d<"2014-08-31"?"cheto":d<"2015-01-05"?"milto":d<"2018-07-10"?"atmto":"sagto"}
+function vanClub(d){d=d||"";if(!d)return "";return d<"2004-08-08"?"feyvp":d<"2012-08-20"?"arsvp":d<"2015-07-28"?"munvp":d<"2018-01-24"?"fenvp":"feyvp"}
+function bsiClub(d){d=d||"";if(!d)return "";return d<"2014-08-07"?"benbs":d<"2017-07-01"?"monbs":d<"2026-07-01"?"mcibs":"rmbs"}
+function fabClub(d){d=d||"";if(!d)return "";return d<"2011-08-15"?"arsfa":d<"2014-07-01"?"fcbfa":d<"2019-01-11"?"chefa":d<"2022-08-01"?"monfa":"comfa"}
+function reuClub(d){d=d||"";if(!d)return "";return d<"2009-07-01"?"ahlr":d<"2012-07-01"?"bmgr":d<"2024-07-01"?"bvbr":"lagr"}
+function rdgClub(d){d=d||"";if(!d)return "";return d<"2001-07-01"?"glrd":d<"2003-07-01"?"psgrd":d<"2008-07-01"?"fcbrd":d<"2011-01-01"?"acmrd":d<"2012-06-01"?"flard":d<"2014-09-01"?"camrd":d<"2015-07-01"?"qurd":"flurd"}
+function kakClub(d){d=d||"";if(!d)return "";return d<"2003-09-01"?"spka":d<"2009-08-29"?"acmka":d<"2013-09-14"?"rmka":d<"2014-07-27"?"acmka":d<"2015-03-08"?"spka":"orka"}
+function higClub(d){d=d||"";if(!d)return "";return d<"2007-01-01"?"rvhg":d<"2013-07-01"?"rmhg":d<"2016-07-26"?"nahg":d<"2018-08-21"?"juhg":d<"2019-01-25"?"acmhg":d<"2019-07-01"?"chhg":d<"2020-09-21"?"juhg":"miahg"}
+function lacClub(d){d=d||"";if(!d)return "";return d<"2017-07-05"?"lyl":d<"2022-07-01"?"arsl":d<"2025-07-01"?"lyl":"neol"}
+function vilClub(d){d=d||"";if(!d)return "";return d<"2003-07-01"?"spgvl":d<"2005-07-01"?"zarvl":d<"2010-07-01"?"valvl":d<"2013-07-09"?"barvl":d<"2014-07-01"?"atmvl":d<"2015-01-01"?"melvl":d<"2019-01-01"?"nycvl":"kobvl"}
+function dybClub(d){d=d||"";if(!d)return "";return d<"2012-07-15"?"insdy":d<"2015-07-01"?"paldy":d<"2022-07-01"?"juvdy":"romdy"}
+function rooClub(d){d=d||"";if(!d)return "";return d<"2004-08-31"?"evw":d<"2017-07-09"?"muw":d<"2018-07-01"?"evw":d<"2020-01-01"?"dcw":"drw"}
+function dimClub(d){d=d||"";if(!d)return "";return d<"2007-07-01"?"rosd":d<"2010-07-01"?"bend":d<"2014-08-26"?"rmd":d<"2015-08-06"?"mund":d<"2022-07-01"?"psgd":d<"2023-07-05"?"juvd":d<"2025-07-01"?"bend":"rosd"}
+function aubClub(d){d=d||"";if(!d)return "";return d<"2009-07-01"?"dijau":d<"2010-07-06"?"lilau":d<"2011-01-31"?"monau":d<"2013-07-04"?"stau":d<"2018-01-31"?"bvbau":d<"2022-01-31"?"arsau":d<"2022-09-01"?"fcbau":d<"2023-07-21"?"cheau":d<"2024-07-18"?"omau":d<"2025-07-31"?"qadau":d<"2026-07-17"?"omau":"depau"}
+function balClub(d){d=d||"";if(!d)return "";return d<"2007-07-01"?"soub":d<"2013-09-01"?"totb":d<"2020-09-19"?"rmbl":d<"2021-07-01"?"totb":d<"2022-07-07"?"rmbl":"lafcb"}
+function cavClub(d){d=d||"";if(!d)return "";return d<"2007-01-29"?"danc":d<"2010-07-22"?"palc":d<"2013-07-16"?"napc":d<"2020-10-05"?"psgc":d<"2022-08-29"?"munc":d<"2023-07-29"?"valc":"bocc"}
+function musClub(d){d=d||"";return d?"baymu":""}
+function cuaClub(d){d=d||"";if(!d)return "";return d<"2009-07-04"?"medcu":d<"2011-08-04"?"udicu":d<"2012-07-24"?"leccu":d<"2015-02-02"?"fiocu":d<"2015-08-25"?"checu":d<"2023-07-01"?"juvcu":d<"2024-07-01"?"intcu":d<"2025-07-01"?"atacu":d<"2026-07-01"?"piscu":"milcu"}
+function mahClub(d){d=d||"";if(!d)return "";return d<"2014-01-08"?"lhma":d<"2018-07-10"?"lcma":d<"2023-07-28"?"mcma":d<"2026-10-15"?"ahma":"shma"}
+function mulClub(d){d=d||"";if(!d)return "";return d<"2025-08-01"?"bayt":"vant"}
+function immClub(d){d=d||"";if(!d)return "";return d<"2007-08-01"?"sorim":d<"2010-07-01"?"juvim":d<"2011-01-15"?"sienim":d<"2011-07-01"?"groim":d<"2012-07-01"?"pesim":d<"2013-07-01"?"genim":d<"2014-07-01"?"torim":d<"2015-07-12"?"dorim":d<"2016-01-14"?"sevim":d<"2016-07-01"?"torim":d<"2024-07-01"?"lazim":d<"2025-07-10"?"besim":d<"2026-02-01"?"bolim":"pfcim"}
+function kaneClub(d){d=d||"";if(!d)return "";return d<"2011-07-01"?"lo":d<"2012-01-01"?"kt":d<"2012-07-01"?"mil":d<"2012-08-31"?"kt":d<"2013-02-01"?"nor":d<"2013-07-01"?"lei":d<"2023-08-12"?"kt":"bay"}
+function kdbClub(d){d=d||"";if(!d)return "";return d<"2012-07-01"?"gnk":d<"2013-07-01"?"wer":d<"2014-01-18"?"chek":d<"2015-08-30"?"wob":d<"2025-07-01"?"mcik":"nap"}
+function droClub(d){d=d||"";if(!d)return "";return d<"2002-01-27"?"lmn":d<"2003-07-01"?"gui":d<"2004-07-20"?"omd":d<"2012-07-01"?"ched":d<"2013-01-28"?"shs":d<"2014-07-25"?"gal":d<"2015-07-27"?"ched":d<"2017-01-01"?"mtl":"phx"}
+function aguClub(d){d=d||"";if(!d)return "";return d<"2006-07-01"?"indk":d<"2011-07-28"?"atmg":d<"2021-06-01"?"mcag":"fcbg"}
+function suaClub(d){d=d||"";if(!d)return "";return d<"2006-07-11"?"nacs":d<"2007-08-09"?"grns":d<"2011-01-31"?"ajxs":d<"2014-07-11"?"lvsz":d<"2020-09-01"?"fcbz":d<"2022-07-01"?"atmz":d<"2023-01-01"?"nacs":d<"2024-01-01"?"grez":"miaz"}
+function lewClub(d){d=d||"";if(!d)return "";return d<"2008-07-01"?"zni":d<"2010-07-01"?"lpo":d<"2014-07-01"?"bvbl":d<"2022-07-01"?"bayl":d<"2026-07-01"?"fcbl":"chif"}
+function grzClub(d){d=d||"";if(!d)return "";return d<"2014-07-15"?"rsgr":d<"2019-07-12"?"atgr":d<"2021-08-31"?"fcgr":d<"2026-07-01"?"atgr":"orgr"}
+function neyClub(d){d=d||"";if(!d)return "";return d<"2013-07-01"?"snt":d<"2017-08-01"?"fcbn":d<"2023-08-15"?"psgn":d<"2025-01-15"?"hln":"snt"}
+function belClub(d){d=d||"";if(!d)return "";return d<"2020-07-23"?"bcb":d<"2023-07-01"?"bvbb":"rmb"}
+function ribClub(d){d=d||"";if(!d)return "";return d<"2002-07-01"?"bour":d<"2003-07-01"?"aler":d<"2004-07-01"?"brer":d<"2005-02-08"?"metr":d<"2005-07-01"?"galr":d<"2007-07-01"?"omr":d<"2019-08-21"?"bayr":d<"2021-09-06"?"firr":"salr"}
+function robClub(d){d=d||"";if(!d)return "";return d<"2002-07-01"?"grr":d<"2004-07-01"?"psr":d<"2007-07-01"?"chr":d<"2009-07-01"?"rmr":d<"2020-01-01"?"bar":"grr"}
+function iniClub(d){d=d||"";if(!d)return "";return d<"2018-07-01"?"fcbin":d<"2023-08-08"?"vkbin":"emcin"}
+function raphClub(d){d=d||"";if(!d)return "";return d<"2018-07-01"?"vsgq":d<"2019-09-02"?"spq":d<"2020-10-05"?"renq":d<"2022-07-13"?"leeq":"fcbq"}
+function ibrClub(d){d=d||"";if(!d)return "";return d<"2001-07-15"?"mfi":d<"2004-09-01"?"ajxi":d<"2006-07-01"?"juvi":d<"2009-07-01"?"inti":d<"2010-08-31"?"fcbi":d<"2012-07-01"?"acmi":d<"2016-07-01"?"psgi":d<"2018-03-20"?"mui":d<"2020-01-01"?"lagi":"acmi"}
+function lauClub(d){d=d||"";if(!d)return "";return d<"2018-07-05"?"racl":"intl"}
+function henClub(d){d=d||"";if(!d)return "";return d<"1999-01-20"?"monh":d<"1999-08-01"?"juvh":d<"2007-07-01"?"arsh":d<"2010-07-01"?"fcbh":d<"2012-01-01"?"nyh":d<"2012-03-01"?"arsh":"nyh"}
+function bzmClub(d){d=d||"";if(!d)return "";return d<"2009-07-01"?"lyb":d<"2023-07-01"?"rmk":d<"2026-02-01"?"itb":"hlb"}
+function salClub(d){d=d||"";if(!d)return "";return d<"2012-07-01"?"mokw":d<"2014-01-23"?"basl":d<"2015-02-01"?"chsl":d<"2015-07-01"?"fior":d<"2017-06-22"?"roma":d<"2026-07-01"?"lvps":"trab"}
+function vinClub(d){d=d||"";if(!d)return "";return d<"2018-07-20"?"fla":"rmv"}
+function hazClub(d){d=d||"";if(!d)return "";return d<"2012-07-01"?"lil":d<"2019-07-01"?"cheh":"rmh"}
+function manClub(d){d=d||"";if(!d)return "";return d<"2012-09-01"?"mtz":d<"2014-09-01"?"rbsm":d<"2016-07-01"?"sou":d<"2022-07-01"?"livm":d<"2023-08-01"?"baym":"nasm"}
+function haaClub(d){d=d||"";if(!d)return "";return d<"2017-02-01"?"bry":d<"2019-01-01"?"mol":d<"2020-01-01"?"rbs":d<"2022-07-01"?"bvb":"mcih"}
+function mesClub(d){d=d||"";if(!d)return "";return d<"2021-08-01"?"fcbm":d<"2023-07-15"?"psgm":"mia"}
+function mbaClub(d){d=d||"";if(!d)return "";return d<"2017-08-31"?"mon":d<"2024-07-01"?"psg":"rma"}
+function ronClub(d){d=d||"";if(!d)return "";return d<"2003-08-01"?"scp":d<"2009-07-01"?"mun":d<"2018-07-10"?"rmc":d<"2021-08-31"?"juv":d<"2022-12-01"?"mun":"nas"}
+function sterClub(d){d=d||"";if(!d)return "";return d<"2015-07-14"?"liv":d<"2022-07-13"?"mci":d<"2024-08-30"?"che":d<"2025-07-01"?"ars":d<"2026-02-01"?"che":"fey"}
+const LEAGUES=[["프리미어리그", 1838, 98], ["라리가", 1766, 100], ["세리에A", 1739, 91], ["분데스리가", 1752, 101], ["리그1", 1714, 96], ["포르투갈 1부", 1595, 126], ["에레디비시", 1559, 111], ["챔피언십(잉글랜드 2부)", 1610, 60], ["2. 분데스리가", 1590, 42], ["리그 원(잉글랜드 3부)", 1493, 47], ["MLS", 1581, 58], ["리가MX", 1605, 74], ["J1리그", 1589, 74], ["K리그1", 1534, 46], ["사우디 프로리그", 1515, 119], ["브라질 세리에 A", 1598, 63]];
+/* 순위 곡선: 유럽 5대 리그 Elo 분포(ClubElo 2026-10)를 표준화해 평균한 모양, 1위 → 꼴찌 21칸 */
+const LCURVE=[2.51, 1.668, 1.189, 0.842, 0.664, 0.555, 0.43, 0.259, 0.079, -0.096, -0.231, -0.321, -0.412, -0.502, -0.531, -0.649, -0.814, -0.999, -1.103, -1.177, -1.378];
+function lgElo(L,n,r){const q=n>1?(r-1)/(n-1):.5;const x=q*20,i=Math.min(19,Math.floor(x)),t=x-i;return L[1]+L[2]*(LCURVE[i]+(LCURVE[i+1]-LCURVE[i])*t)}
+
+function mk(arr){return arr.map(([type,opp,elo,comp,min,gf,ga,ko,pk,date,et,dm,lv,note,tie])=>({...(tie?{tie:{leg:tie[0],home:!!tie[1],...(tie[0]===2?{f:[tie[2],tie[3]]}:{}),ag:!!tie[4],et:!!tie[5]}}:{}),type:type==="g"?"goal":"assist",opp,elo,comp,min,gf,ga,ko:!!ko,pk:!!pk,date,...(et?{et:true}:{}),...(dm?{dm}:{}),...(lv?{lv}:{}),...(note?{note}:{})}))}
+/* 기본 데이터 버전: 데이터 내용으로 계산하므로 데이터가 바뀌면 저장된 탭도 자동으로 새 데이터로 교체됨 */
+function pver(E,M){const t=JSON.stringify([E,M]);let h=0;for(let i=0;i<t.length;i++)h=(h*31+t.charCodeAt(i))|0;return "d"+E.length+"-"+M.length+"-"+(h>>>0).toString(36)}
+const mkM=M=>M.map(([date,opp,comp,min,est])=>({date,opp,comp,min,...(est?{est:true}:{})}));
+const PRESETS={son:{name:"손흥민",ver:pver(SON_E,SON_M),entries:mk(SON_E),matches:mkM(SON_M),note:SON_NOTE},yamal:{name:"라민 야말",ver:pver(YAM_E,YAM_M),entries:mk(YAM_E),matches:mkM(YAM_M),note:YAM_NOTE},sterling:{name:"라힘 스털링",ver:pver(STE_E,STE_M),entries:mk(STE_E),matches:mkM(STE_M),note:STE_NOTE},mbappe:{name:"킬리안 음바페",ver:pver(MBA_E,MBA_M),entries:mk(MBA_E),matches:mkM(MBA_M),note:MBA_NOTE},kane:{name:"해리 케인",ver:pver(KAN_E,KAN_M),entries:mk(KAN_E),matches:mkM(KAN_M),note:KAN_NOTE},ronaldo:{name:"크리스티아누 호날두",ver:pver(RON_E,RON_M),entries:mk(RON_E),matches:mkM(RON_M),note:RON_NOTE},messi:{name:"리오넬 메시",ver:pver(MES_E,MES_M),entries:mk(MES_E),matches:mkM(MES_M),note:MES_NOTE},haaland:{name:"엘링 홀란드",ver:pver(HAA_E,HAA_M),entries:mk(HAA_E),matches:mkM(HAA_M),note:HAA_NOTE},mane:{name:"사디오 마네",ver:pver(MAN_E,MAN_M),entries:mk(MAN_E),matches:mkM(MAN_M),note:MAN_NOTE},hazard:{name:"에당 아자르",ver:pver(HAZ_E,HAZ_M),entries:mk(HAZ_E),matches:mkM(HAZ_M),note:HAZ_NOTE},drogba:{name:"디디에 드록바",ver:pver(DRO_E,DRO_M),entries:mk(DRO_E),matches:mkM(DRO_M),note:DRO_NOTE},vinicius:{name:"비니시우스 주니오르",ver:pver(VIN_E,VIN_M),entries:mk(VIN_E),matches:mkM(VIN_M),note:VIN_NOTE},debruyne:{name:"케빈 데 브라위너",ver:pver(KDB_E,KDB_M),entries:mk(KDB_E),matches:mkM(KDB_M),note:KDB_NOTE},salah:{name:"모하메드 살라",ver:pver(SAL_E,SAL_M),entries:mk(SAL_E),matches:mkM(SAL_M),note:SAL_NOTE},suarez:{name:"루이스 수아레스",ver:pver(SUA_E,SUA_M),entries:mk(SUA_E),matches:mkM(SUA_M),note:SUA_NOTE},aguero:{name:"세르히오 아구에로",ver:pver(AGU_E,AGU_M),entries:mk(AGU_E),matches:mkM(AGU_M),note:AGU_NOTE},lewandowski:{name:"로베르트 레반도프스키",ver:pver(LEW_E,LEW_M),entries:mk(LEW_E),matches:mkM(LEW_M),note:LEW_NOTE},benzema:{name:"카림 벤제마",ver:pver(BZM_E,BZM_M),entries:mk(BZM_E),matches:mkM(BZM_M),note:BZM_NOTE},griezmann:{name:"앙투안 그리즈만",ver:pver(GRZ_E,GRZ_M),entries:mk(GRZ_E),matches:mkM(GRZ_M),note:GRZ_NOTE},henry:{name:"티에리 앙리",ver:pver(HEN_E,HEN_M),entries:mk(HEN_E),matches:mkM(HEN_M),note:HEN_NOTE},lautaro:{name:"라우타로 마르티네스",ver:pver(LAU_E,LAU_M),entries:mk(LAU_E),matches:mkM(LAU_M),note:LAU_NOTE},neymar:{name:"네이마르",ver:pver(NEY_E,NEY_M),entries:mk(NEY_E),matches:mkM(NEY_M),note:NEY_NOTE},saka:{name:"부카요 사카",ver:pver(SAK_E,SAK_M),entries:mk(SAK_E),matches:mkM(SAK_M),note:SAK_NOTE},bellingham:{name:"주드 벨링엄",ver:pver(BEL_E,BEL_M),entries:mk(BEL_E),matches:mkM(BEL_M),note:BEL_NOTE},ribery:{name:"프랑크 리베리",ver:pver(RIB_E,RIB_M),entries:mk(RIB_E),matches:mkM(RIB_M),note:RIB_NOTE},robben:{name:"아르연 로번",ver:pver(ROB_E,ROB_M),entries:mk(ROB_E),matches:mkM(ROB_M),note:ROB_NOTE},ibrahimovic:{name:"즐라탄 이브라히모비치",ver:pver(IBR_E,IBR_M),entries:mk(IBR_E),matches:mkM(IBR_M),note:IBR_NOTE},raphinha:{name:"하피냐",ver:pver(RAP_E,RAP_M),entries:mk(RAP_E),matches:mkM(RAP_M),note:RAP_NOTE},iniesta:{name:"안드레스 이니에스타",ver:pver(INI_E,INI_M),entries:mk(INI_E),matches:mkM(INI_M),note:INI_NOTE},immobile:{name:"치로 임모빌레",ver:pver(IMM_E,IMM_M),entries:mk(IMM_E),matches:mkM(IMM_M),note:IMM_NOTE},muller:{name:"토마스 뮐러",ver:pver(MUL_E,MUL_M),entries:mk(MUL_E),matches:mkM(MUL_M),note:MUL_NOTE},dimaria:{name:"앙헬 디 마리아",ver:pver(DIM_E,DIM_M),entries:mk(DIM_E),matches:mkM(DIM_M),note:DIM_NOTE},aubameyang:{name:"피에르에메릭 오바메양",ver:pver(AUB_E,AUB_M),entries:mk(AUB_E),matches:mkM(AUB_M),note:AUB_NOTE},dybala:{name:"파울로 디발라",ver:pver(DYB_E,DYB_M),entries:mk(DYB_E),matches:mkM(DYB_M),note:DYB_NOTE},rooney:{name:"웨인 루니",ver:pver(ROO_E,ROO_M),entries:mk(ROO_E),matches:mkM(ROO_M),note:ROO_NOTE},cavani:{name:"에딘손 카바니",ver:pver(CAV_E,CAV_M),entries:mk(CAV_E),matches:mkM(CAV_M),note:CAV_NOTE},bale:{name:"가레스 베일",ver:pver(BAL_E,BAL_M),entries:mk(BAL_E),matches:mkM(BAL_M),note:BAL_NOTE},kvaratskhelia:{name:"흐비차 크바라츠헬리아",ver:pver(KVA_E,KVA_M),entries:mk(KVA_E),matches:mkM(KVA_M),note:KVA_NOTE},silva:{name:"다비드 실바",ver:pver(SIL_E,SIL_M),entries:mk(SIL_E),matches:mkM(SIL_M),note:SIL_NOTE},torres:{name:"페르난도 토레스",ver:pver(TOR_E,TOR_M),entries:mk(TOR_E),matches:mkM(TOR_M),note:TOR_NOTE},vanpersie:{name:"로빈 판페르시",ver:pver(VAN_E,VAN_M),entries:mk(VAN_E),matches:mkM(VAN_M),note:VAN_NOTE},reus:{name:"마르코 로이스",ver:pver(REU_E,REU_M),entries:mk(REU_E),matches:mkM(REU_M),note:REU_NOTE},lacazette:{name:"알렉상드르 라카제트",ver:pver(LAC_E,LAC_M),entries:mk(LAC_E),matches:mkM(LAC_M),note:LAC_NOTE},fabregas:{name:"세스크 파브레가스",ver:pver(FAB_E,FAB_M),entries:mk(FAB_E),matches:mkM(FAB_M),note:FAB_NOTE},bernardosilva:{name:"베르나르두 실바",ver:pver(BSI_E,BSI_M),entries:mk(BSI_E),matches:mkM(BSI_M),note:BSI_NOTE},ronaldinho:{name:"호나우지뉴",ver:pver(RDG_E,RDG_M),entries:mk(RDG_E),matches:mkM(RDG_M),note:RDG_NOTE},kaka:{name:"카카",ver:pver(KAK_E,KAK_M),entries:mk(KAK_E),matches:mkM(KAK_M),note:KAK_NOTE},higuain:{name:"곤살로 이과인",ver:pver(HIG_E,HIG_M),entries:mk(HIG_E),matches:mkM(HIG_M),note:HIG_NOTE},villa:{name:"다비드 비야",ver:pver(VIL_E,VIL_M),entries:mk(VIL_E),matches:mkM(VIL_M),note:VIL_NOTE},payet:{name:"디미트리 파예",ver:pver(PAY_E,PAY_M),entries:mk(PAY_E),matches:mkM(PAY_M),note:PAY_NOTE},musiala:{name:"자말 무시알라",ver:pver(MUS_E,MUS_M),entries:mk(MUS_E),matches:mkM(MUS_M),note:MUS_NOTE},mahrez:{name:"리야드 마레즈",ver:pver(MAH_E,MAH_M),entries:mk(MAH_E),matches:mkM(MAH_M),note:MAH_NOTE},cuadrado:{name:"후안 콰드라도",ver:pver(CUA_E,CUA_M),entries:mk(CUA_E),matches:mkM(CUA_M),note:CUA_NOTE},lampard:{name:"프랭크 램파드",ver:pver(LAM_E,LAM_M),entries:mk(LAM_E),matches:mkM(LAM_M),note:LAM_NOTE},isco:{name:"이스코",ver:pver(ISC_E,ISC_M),entries:mk(ISC_E),matches:mkM(ISC_M),note:ISC_NOTE}};
+function fromPreset(id){const p=PRESETS[id];return {id,name:p.name,preset:id,ver:p.ver||1,entries:p.entries.map(e=>({...e})),matches:p.matches.map(m=>({...m}))}}
+const KEY="clubsoc-v1";
+let st={players:[fromPreset("son")],active:"son",coef:{...DEF},sortVal:false,period:"all",compF:"all",typeF:"all"};
+try{const s=JSON.parse(localStorage.getItem(KEY)||"null");if(s&&Array.isArray(s.players)&&s.players.length){st={...st,...s,coef:{...DEF,...(s.coef||{})}};if((s.coefV||0)<2&&st.coef.minMin===90)st.coef.minMin=900;if((s.coefV||0)<3){if(st.coef.clk===50)st.coef.clk=45;if(st.coef.f===1.3)st.coef.f=1.5}if((s.coefV||0)<4){if(st.coef.clg===35)st.coef.clg=30;if(st.coef.cl16===40)st.coef.cl16=45}}}catch(e){}delete st.coef.tn;st.coefV=4;
+st.players.forEach(p=>{if(p.preset&&PRESETS[p.preset]&&(p.ver||1)!==PRESETS[p.preset].ver){const f=fromPreset(p.preset);p.entries=f.entries;p.matches=f.matches;p.ver=f.ver}});
+if(!st.players.some(p=>p.preset==="son"))st.players.unshift(fromPreset("son"));
+if(!st.players.some(p=>p.preset==="yamal")){const i=st.players.findIndex(p=>p.preset==="son");st.players.splice(i+1,0,fromPreset("yamal"))}
+if(!st.players.some(p=>p.preset==="sterling")){const i=st.players.findIndex(p=>p.preset==="yamal");st.players.splice(i+1,0,fromPreset("sterling"))}
+if(!st.players.some(p=>p.preset==="mbappe")){const i=st.players.findIndex(p=>p.preset==="sterling");st.players.splice(i+1,0,fromPreset("mbappe"))}
+if(!st.players.some(p=>p.preset==="kane")){const i=st.players.findIndex(p=>p.preset==="mbappe");st.players.splice(i+1,0,fromPreset("kane"))}
+if(!st.players.some(p=>p.preset==="ronaldo")){const i=st.players.findIndex(p=>p.preset==="kane");st.players.splice(i+1,0,fromPreset("ronaldo"))}
+if(!st.players.some(p=>p.preset==="messi")){const i=st.players.findIndex(p=>p.preset==="ronaldo");st.players.splice(i+1,0,fromPreset("messi"))}
+if(!st.players.some(p=>p.preset==="haaland")){st.players.push(fromPreset("haaland"))}
+if(!st.players.some(p=>p.preset==="mane")){st.players.push(fromPreset("mane"))}
+if(!st.players.some(p=>p.preset==="hazard")){st.players.push(fromPreset("hazard"))}
+if(!st.players.some(p=>p.preset==="drogba")){st.players.push(fromPreset("drogba"))}
+if(!st.players.some(p=>p.preset==="vinicius")){st.players.push(fromPreset("vinicius"))}
+if(!st.players.some(p=>p.preset==="debruyne")){st.players.push(fromPreset("debruyne"))}
+if(!st.players.some(p=>p.preset==="salah")){st.players.push(fromPreset("salah"))}
+if(!st.players.some(p=>p.preset==="suarez")){st.players.push(fromPreset("suarez"))}
+if(!st.players.some(p=>p.preset==="aguero")){st.players.push(fromPreset("aguero"))}
+if(!st.players.some(p=>p.preset==="lewandowski")){st.players.push(fromPreset("lewandowski"))}
+if(!st.players.some(p=>p.preset==="benzema")){st.players.push(fromPreset("benzema"))}
+if(!st.players.some(p=>p.preset==="griezmann")){st.players.push(fromPreset("griezmann"))}
+if(!st.players.some(p=>p.preset==="henry")){st.players.push(fromPreset("henry"))}
+if(!st.players.some(p=>p.preset==="lautaro")){st.players.push(fromPreset("lautaro"))}
+if(!st.players.some(p=>p.preset==="neymar")){st.players.push(fromPreset("neymar"))}
+if(!st.players.some(p=>p.preset==="saka")){st.players.push(fromPreset("saka"))}
+if(!st.players.some(p=>p.preset==="bellingham")){st.players.push(fromPreset("bellingham"))}
+if(!st.players.some(p=>p.preset==="ribery")){st.players.push(fromPreset("ribery"))}
+if(!st.players.some(p=>p.preset==="robben")){st.players.push(fromPreset("robben"))}
+if(!st.players.some(p=>p.preset==="ibrahimovic")){st.players.push(fromPreset("ibrahimovic"))}
+if(!st.players.some(p=>p.preset==="raphinha")){st.players.push(fromPreset("raphinha"))}
+if(!st.players.some(p=>p.preset==="iniesta")){st.players.push(fromPreset("iniesta"))}
+if(!st.players.some(p=>p.preset==="immobile")){st.players.push(fromPreset("immobile"))}
+if(!st.players.some(p=>p.preset==="muller")){st.players.push(fromPreset("muller"))}
+if(!st.players.some(p=>p.preset==="dimaria")){st.players.push(fromPreset("dimaria"))}
+if(!st.players.some(p=>p.preset==="aubameyang")){st.players.push(fromPreset("aubameyang"))}
+if(!st.players.some(p=>p.preset==="dybala")){st.players.push(fromPreset("dybala"))}
+if(!st.players.some(p=>p.preset==="rooney")){st.players.push(fromPreset("rooney"))}if(!st.players.some(p=>p.preset==="cavani")){st.players.push(fromPreset("cavani"))}if(!st.players.some(p=>p.preset==="bale")){st.players.push(fromPreset("bale"))}if(!st.players.some(p=>p.preset==="kvaratskhelia")){st.players.push(fromPreset("kvaratskhelia"))}if(!st.players.some(p=>p.preset==="silva")){st.players.push(fromPreset("silva"))}if(!st.players.some(p=>p.preset==="torres")){st.players.push(fromPreset("torres"))}if(!st.players.some(p=>p.preset==="vanpersie")){st.players.push(fromPreset("vanpersie"))}if(!st.players.some(p=>p.preset==="reus")){st.players.push(fromPreset("reus"))}if(!st.players.some(p=>p.preset==="lacazette")){st.players.push(fromPreset("lacazette"))}if(!st.players.some(p=>p.preset==="fabregas")){st.players.push(fromPreset("fabregas"))}if(!st.players.some(p=>p.preset==="bernardosilva")){st.players.push(fromPreset("bernardosilva"))}
+if(!st.players.some(p=>p.preset==="ronaldinho")){st.players.push(fromPreset("ronaldinho"))}if(!st.players.some(p=>p.preset==="kaka")){st.players.push(fromPreset("kaka"))}if(!st.players.some(p=>p.preset==="higuain")){st.players.push(fromPreset("higuain"))}if(!st.players.some(p=>p.preset==="villa")){st.players.push(fromPreset("villa"))}if(!st.players.some(p=>p.preset==="payet")){st.players.push(fromPreset("payet"))}if(!st.players.some(p=>p.preset==="musiala")){st.players.push(fromPreset("musiala"))}if(!st.players.some(p=>p.preset==="mahrez")){st.players.push(fromPreset("mahrez"))}if(!st.players.some(p=>p.preset==="cuadrado")){st.players.push(fromPreset("cuadrado"))}if(!st.players.some(p=>p.preset==="lampard")){st.players.push(fromPreset("lampard"))}if(!st.players.some(p=>p.preset==="isco")){st.players.push(fromPreset("isco"))}
+if(!st.players.find(p=>p.id===st.active))st.active=st.players[0].id;
+function cur(){return st.players.find(p=>p.id===st.active)}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+const $=id=>document.getElementById(id);
+const f2=n=>{n=+n;if(n>0&&n<0.005)return "<0.01";if(n<0&&n>-0.005)return ">−0.01";return (Math.round(n*100)/100).toFixed(2)};
+const fEp=n=>(Math.round(n*100)/100).toFixed(2);
+const fEpS=n=>(n>0?"+":"")+fEp(n);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+/* ---- 기대 승점 모델 (국가대표 계산기 v1.225와 같은 코드): 양 팀이 남은 시간 동안 같은 비율로 득점하는 포아송 모델 ---- */
+let pmfCache={}, norm=0.708, normKey="";
+function diffPmf(r,c){
+  const key=c.lam+"|"+Math.round(r*10);
+  if(pmfCache[key])return pmfCache[key];
+  const m=c.lam/90*Math.max(r,0.5), p=[];let e=Math.exp(-m);
+  for(let k=0;k<15;k++){p.push(e);e=e*m/(k+1)}
+  const d={};for(let a=0;a<15;a++)for(let b=0;b<15;b++){d[a-b]=(d[a-b]||0)+p[a]*p[b]}
+  return pmfCache[key]=d;
+}
+function endOf(min,ko,c,et){ if(et||(ko&&min>c.end+1)) return 122; return Math.max(c.end,min+1) }
+function ep(d,r,ko,c){
+  const P=diffPmf(r,c);let w=0,dr=0;
+  for(const k in P){const f=d+ +k;if(f>0)w+=P[k];else if(f===0)dr+=P[k]}
+  return 3*w+(ko?1.5:1)*dr;
+}
+function rawS(gf,ga,min,ko,c,et){const r=endOf(min,ko,c,et)-min,d=gf-ga;return ep(d+1,r,ko,c)-ep(d,r,ko,c)}
+function computeNorm(c){
+  const key=c.lam+"|"+c.end; if(key===normKey)return norm;
+  const T=c.end, q=c.lam/90; let dist={0:1}, sum=0, wsum=0;
+  for(let t=1;t<=T;t++){
+    const nd={};
+    for(const ks in dist){const k=+ks,p=dist[ks];
+      const g1=rawS(Math.max(k,0),Math.max(-k,0),t,false,c), g2=rawS(Math.max(-k,0),Math.max(k,0),t,false,c);
+      sum+=p*q*(g1+g2); wsum+=p*q*2;
+      nd[k+1]=(nd[k+1]||0)+p*q; nd[k-1]=(nd[k-1]||0)+p*q; nd[k]=(nd[k]||0)+p*(1-2*q);
+    }
+    dist=nd;
+  }
+  norm=sum/wsum; normKey=key; return norm;
+}
+/* ---- 두 경기 합산 S: 값 = 3 × 다음 라운드 진출 확률 (단판 토너먼트와 같은 척도) ----
+   상태 = 합산 득실차 D, 우리 원정골 A, 상대 원정골 B, 남은 시간(이번 경기 나머지 + 1차전이면 2차전 전체)
+   합산 동점이면: 원정 다득점 규칙이 있으면 원정골로 결정(동점을 만들어도 원정골에서 앞서면 진출 = 승리와 같음) → 그래도 같으면 2차전 연장(122분까지, 원정 다득점 시절엔 연장 원정골도 셈) → 승부차기 50%
+   연장이 없는 대회(북중미 챔스)는 바로 승부차기 */
+const PKN=9;function poisA(mu){const p=[Math.exp(-mu)];for(let k=1;k<PKN;k++)p.push(p[k-1]*mu/k);return p}
+let tieCache={};
+function tieAdv(t,m,D,A,B,c){
+  const key=[c.lam,c.end,t.leg,+t.home,+t.ag,+t.et,m,D,A,B].join("|");if(key in tieCache)return tieCache[key];
+  const q=c.lam/90,END=c.end,ETE=122,leg2home=t.leg===2?t.home:!t.home,inET=t.leg===2&&m>END+1;
+  let hm=0,am=0;
+  if(!inET){const r=Math.max(END-m,0);if(t.home)hm+=r;else am+=r;if(t.leg===1){if(leg2home)hm+=END;else am+=END}}
+  const E=poisA(q*(inET?Math.max(ETE-m,0.5):ETE-END)),etMemo={};
+  const etP=(D0,A0,B0)=>{const k=D0+"|"+A0+"|"+B0;if(k in etMemo)return etMemo[k];let p=0;
+    for(let x=0;x<PKN;x++)for(let y=0;y<PKN;y++){const pr=E[x]*E[y],d=D0+x-y;if(d>0)p+=pr;else if(d===0){const a=A0+(leg2home?0:x),b=B0+(leg2home?y:0);p+=(t.ag&&a!==b)?(a>b?pr:0):pr*0.5}}
+    return etMemo[k]=p};
+  let p=0;
+  if(inET)p=etP(D,A,B);
+  else{const Uh=poisA(q*hm),Ua=poisA(q*am),Ta=poisA(q*hm),Th=poisA(q*am);
+    for(let uh=0;uh<PKN;uh++)for(let ua=0;ua<PKN;ua++){const pu=Uh[uh]*Ua[ua];if(pu<1e-13)continue;
+      for(let ta=0;ta<PKN;ta++)for(let th=0;th<PKN;th++){const pr=pu*Ta[ta]*Th[th];if(pr<1e-15)continue;const d=D+uh+ua-ta-th;
+        if(d>0)p+=pr;else if(d===0){const a=A+ua,b=B+ta;p+=(t.ag&&a!==b)?(a>b?pr:0):pr*(t.et?etP(0,a,b):0.5)}}}}
+  return tieCache[key]=3*p;
+}
+function tieState(e){const t=e.tie;let D=e.gf-e.ga,A=t.home?0:e.gf,B=t.home?e.ga:0;if(t.leg===2&&t.f){const [fu,ft]=t.f;D+=fu-ft;if(t.home)A+=fu;else B+=ft}return {D,A,B}}
+function tieRaw(e,c){const {D,A,B}=tieState(e);return tieAdv(e.tie,e.min,D+1,A+(e.tie.home?0:1),B,c)-tieAdv(e.tie,e.min,D,A,B,c)}
+function sVal(e,c){return e.tie?Math.min(c.scap??DEF.scap,tieRaw(e,c)/computeNorm(c)):rawS(e.gf,e.ga,e.min,e.ko,c,e.et)/computeNorm(c)}
+/* 상대 보정: 추정 Elo가 기준보다 100 높을 때마다 약 16%↑ (국가대표판의 FIFA 순위 1칸 0.85%를 Elo로 환산) */
+function oppF(elo,c){const x=+elo||c.ref;return Math.min(c.max,Math.max(c.min,Math.exp(c.k*(x-c.ref))))}
+function compF(k,c){const m=STAGE[k];const I=c[m?m[0]:k]??25;let v=Math.pow(Math.max(0,I)/25,c.gamma);if(m&&m[1])v*=(c[m[1]]??DEF[m[1]]);return v}
+function value(e,c){
+  const base=e.type==="goal"?1:c.ast, S=sVal(e,c), O=oppF(e.elo,c), C=compF(e.comp,c), P=(e.type==="goal"&&e.pk)?c.pk:1;
+  return {S,O,C,P,raw:e.tie?tieRaw(e,c):rawS(e.gf,e.ga,e.min,e.ko,c,e.et),v:base*S*O*C*P};
+}
+function fmtMin(m){return m>120?"120+"+(m-120):m>90?"90+"+(m-90):String(m)}
+function isET(e,c){if(e.tie)return e.tie.leg===2&&e.min>c.end+1;return e.et?e.min>90:!!(e.ko&&e.min>c.end+1)}
+function minTxt(e,c){const x=isET(e,c);const s=e.dm||(x?(e.min>120?"120+"+(e.min-120):String(e.min)):fmtMin(e.min));return s+"′"+(x?' <span class="sub">연장</span>':"")}
+
+/* ---- 기간: 클럽·시즌 ---- */
+function clubOf(d){d=d||"";if(!d)return "";if(d<"2013-07-01")return "hsv";if(d<"2015-08-28")return "lev";if(d<"2025-08-01")return "tot";return "lafc"}
+function seasonOf(d,club){if(!d)return "미상";const y=+d.slice(0,4),m=+d.slice(5,7);if(club==="mfi"||club==="lagi"||club==="lafc"||club==="lafcb"||club==="mia"||club==="bry"||club==="mol"||club==="shs"||club==="mtl"||club==="phx"||club==="fla"||club==="grez"||club==="miaz"||(club==="nacs"&&y>=2022)||club==="chif"||club==="orgr"||club==="nyh"||club==="snt"||club==="vkbin"||club==="vant"||club==="dcw"||club==="tbkv"||club==="rstkv"||club==="batkv"||club==="sagto"||club==="lagr"||club==="glrd"||club==="flard"||club==="camrd"||club==="flurd"||club==="spka"||club==="orka"||club==="rvhg"||club==="miahg"||club==="nycvl"||club==="vaspy"||club==="nyclm"||club==="medcu"||club==="milcu")return String(y);if(club==="kobvl")return "2019";if(club==="psgn"){if(d>="2020-07-01"&&d<"2020-08-25")return "2019-20";const s=d.slice(5)>="07-30"?y:y-1;return s+"-"+String(s+1).slice(2)}if(club==="rbs"||club==="mcih"||club==="rbsm"||club==="sou"||club==="baym"||club==="lil"||club==="lmn"||club==="gui"||club==="omd"||club==="gnk"||club==="basl"||club==="grns"||club==="ajxs"||club==="atmg"||club==="zni"||club==="lpo"||club==="bvbl"||club==="lyb"||club==="lyl"||club==="ompy"||club==="whpy"||club==="whlm"||club==="spgvl"||club==="zarvl"||club==="valvl"||club==="barvl"||club==="atmvl"||club==="itb"||club==="hlb"||club==="monh"||club==="juvh"||club==="hln"||club==="bvbb"||club==="omr"||club==="bayr"||club==="grr"||club==="psr"||club==="chr"||club==="rmr"||club==="bar"||club==="rosd"||club==="bvbau"||club==="evw"||club==="bocc"||club==="atmto"||club==="fenvp"||club==="bmgr"||club==="bvbr"||club==="lhma"){const s=d.slice(5)>="07-10"?y:y-1;return s+"-"+String(s+1).slice(2)}if(club==="psgc"){if(d>="2020-07-01"&&d<"2020-08-26")return "2019-20";const s=d.slice(5)>="07-10"?y:y-1;return s+"-"+String(s+1).slice(2)}if(club==="bayt"||club==="baymu"){if(d>="2020-07-01"&&d<"2020-09-01")return "2019-20";const s=d.slice(5)>="07-10"?y:y-1;return s+"-"+String(s+1).slice(2)}if(club==="lvps"){const s=d.slice(5)>="07-30"?y:y-1;return s+"-"+String(s+1).slice(2)}if(club==="mokw"){const s=(d>="2011-08-01"&&d<"2011-10-10")?2010:(m>=8?y:y-1);return s+"-"+String(s+1).slice(2)}if(d.startsWith("2020-08")&&club!=="livm"&&club!=="arss"&&club!=="renq"&&club!=="rubkv"&&!(club==="arsau"&&d==="2020-08-29"))return "2019-20";if(club==="mcik"&&m===7&&d.slice(8)>="10"&&y!==2020)return y+"-"+String(y+1).slice(2);const s=m>=8?y:y-1;return s+"-"+String(s+1).slice(2)}
+function pClub(p,d){return p.preset==="son"?clubOf(d):p.preset==="yamal"?"fcb":p.preset==="sterling"?sterClub(d):p.preset==="mbappe"?mbaClub(d):p.preset==="kane"?kaneClub(d):p.preset==="ronaldo"?ronClub(d):p.preset==="messi"?mesClub(d):p.preset==="haaland"?haaClub(d):p.preset==="mane"?manClub(d):p.preset==="hazard"?hazClub(d):p.preset==="drogba"?droClub(d):p.preset==="vinicius"?vinClub(d):p.preset==="debruyne"?kdbClub(d):p.preset==="salah"?salClub(d):p.preset==="suarez"?suaClub(d):p.preset==="aguero"?aguClub(d):p.preset==="lewandowski"?lewClub(d):p.preset==="benzema"?bzmClub(d):p.preset==="griezmann"?grzClub(d):p.preset==="henry"?henClub(d):p.preset==="lautaro"?lauClub(d):p.preset==="neymar"?neyClub(d):p.preset==="saka"?"arss":p.preset==="bellingham"?belClub(d):p.preset==="ribery"?ribClub(d):p.preset==="robben"?robClub(d):p.preset==="ibrahimovic"?ibrClub(d):p.preset==="raphinha"?raphClub(d):p.preset==="iniesta"?iniClub(d):p.preset==="immobile"?immClub(d):p.preset==="muller"?mulClub(d):p.preset==="dimaria"?dimClub(d):p.preset==="aubameyang"?aubClub(d):p.preset==="dybala"?dybClub(d):p.preset==="rooney"?rooClub(d):p.preset==="cavani"?cavClub(d):p.preset==="bale"?balClub(d):p.preset==="kvaratskhelia"?kvaClub(d):p.preset==="silva"?silClub(d):p.preset==="torres"?torClub(d):p.preset==="vanpersie"?vanClub(d):p.preset==="reus"?reuClub(d):p.preset==="lacazette"?lacClub(d):p.preset==="fabregas"?fabClub(d):p.preset==="bernardosilva"?bsiClub(d):p.preset==="ronaldinho"?rdgClub(d):p.preset==="kaka"?kakClub(d):p.preset==="higuain"?higClub(d):p.preset==="villa"?vilClub(d):p.preset==="payet"?payClub(d):p.preset==="musiala"?musClub(d):p.preset==="mahrez"?mahClub(d):p.preset==="cuadrado"?cuaClub(d):p.preset==="lampard"?lamClub(d):p.preset==="isco"?iscClub(d):""}
+function inP(p,d){const k=st.period||"all";if(k==="all")return true;if(k.startsWith("c:"))return pClub(p,d)===k.slice(2);if(k.startsWith("s:"))return seasonOf(d,pClub(p,d))===k.slice(2);return true}
+function inC(k){const L=COMPF[st.compF||"all"];return !L||L.includes(k)}
+function periodOpts(p){const o=[["all","통산 (클럽 경력 전체)"]];if(PCLUBS[p.preset]){for(const k of PCLUBS[p.preset]){const [n,y]=CLUBS[k]||CLUBS2[k];o.push(["c:"+k,n+" ("+y+")"])}}
+  const ss=[...new Set([...p.entries.map(e=>e.date),...p.matches.map(m=>m.date)].filter(Boolean).map(d=>seasonOf(d,pClub(p,d))))].sort().reverse();ss.forEach(s=>o.push(["s:"+s,s+" 시즌"]));return o}
+function perLabel(p){const o=periodOpts(p).find(x=>x[0]===(st.period||"all"));return o?o[1]:"통산"}
+
+function renderHeat(c){
+  const mins=[10,30,45,60,75,85,90], diffs=[[0,2,"2골 뒤짐"],[0,1,"1골 뒤짐"],[0,0,"동점"],[1,0,"1골 앞섬"],[2,0,"2골 앞섬"],[3,0,"3골+ 앞섬"]];
+  const vals=diffs.map(([gf,ga])=>mins.map(m=>rawS(gf,ga,m,false,c)/computeNorm(c)));
+  const mx=Math.max(...vals.flat());
+  let h='<thead><tr><th class="rh">골 직전</th>'+mins.map(m=>`<th>${m}′</th>`).join("")+"</tr></thead><tbody>";
+  diffs.forEach(([,, lab],i)=>{h+=`<tr><th class="rh">${lab}</th>`+vals[i].map(v=>{const a=Math.min(1,v/mx);
+    return `<td style="background:color-mix(in srgb,var(--heat1) ${Math.round(a*85)}%,var(--heat0));color:${a>.5?"var(--heat-hi)":"var(--heat-lo)"}">${f2(v)}</td>`}).join("")+"</tr>"});
+  $("heat").innerHTML=h+"</tbody>";
+}
+function formTie(){if(!$("inTie").checked)return null;const leg=+$("inLeg").value;return {leg,home:$("inHome").value==="1",...(leg===2?{f:[Math.max(0,+$("inF1").value||0),Math.max(0,+$("inF2").value||0)]}:{}),ag:$("inAg").checked,et:$("inEt").checked}}
+function syncTieUI(){const on=$("inTie").checked;$("tieBox").hidden=!on;if(on)$("inKo").checked=false;$("inKo").disabled=on;const l2=$("inLeg").value==="2";$("inF1").disabled=!l2;$("inF2").disabled=!l2}
+function tieDefaults(){const k=$("inComp").value,d=$("inDate").value;const two=["clq","cl16","clk","clsf","elk","elsf","eck","ecsf","ccc","ccck","cccsf"].includes(k);$("inTie").checked=two;if(two){const cc=k.startsWith("ccc");$("inAg").checked=cc||!d||d<"2021-07-01";$("inEt").checked=!cc}syncTieUI()}
+function updateLive(){
+  const c=st.coef, tie=formTie(), e={type:$("inType").value,elo:+$("inElo").value||c.ref,comp:$("inComp").value,min:+$("inMin").value||1,gf:+$("inGf").value||0,ga:+$("inGa").value||0,ko:!tie&&$("inKo").checked,pk:$("inPk").checked,...(tie?{tie}:{})};
+  const r=value(e,c);
+  $("live").innerHTML=`미리보기 · S <b>${f2(r.S)}</b> × O ${f2(r.O)} × C ${f2(r.C)}${r.P!==1?" × PK "+r.P:""}${e.type==="assist"?" × 도움 "+c.ast:""} = <b>${f2(r.v)}</b>`;
+}
+function tieTxt(e){const t=e.tie;let s=t.leg+"차·"+(t.home?"홈":"원정");if(t.leg===2&&t.f)s+=" · 합산 "+(t.f[0]+e.gf)+":"+(t.f[1]+e.ga);if(t.ag)s+=" · 원정골";return s}
+const sg=x=>(x>=0?"+":"−")+f2(Math.abs(x));
+const dv=x=>{const r=Math.round(x*100)/100;return r===0?'<span class="dv eq" title="기준과 같음">=</span>':`<span class="dv ${r>0?"pos":"neg"}">${sg(x)}</span>`};
+/* 기록 표: 기본으로 8개까지 보이고 나머지는 표 안에서 스크롤 */
+function fitRec(){const box=$("recBox");if(!box)return;const rs=[...$("rows").children];const th=box.querySelector("thead");if(rs.length<=8){box.style.maxHeight="none";return}let h=th?th.getBoundingClientRect().height:0;for(let k=0;k<8;k++)h+=rs[k].getBoundingClientRect().height;box.style.maxHeight=h>0?Math.ceil(h+1)+"px":"720px"}
+addEventListener("resize",()=>fitRec());
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>fitRec());
+const CLN={arss:"아스널",hsv:"함부르크",lev:"레버쿠젠",tot:"토트넘",lafc:"LAFC",fcb:"바르셀로나",liv:"리버풀",mci:"맨시티",che:"첼시",ars:"아스널",fey:"페예노르트",mon:"모나코",psg:"PSG",rma:"레알 마드리드",lo:"오리엔트",kt:"토트넘",mil:"밀월",nor:"노리치",lei:"레스터",bay:"바이에른",scp:"스포르팅",mun:"맨유",rmc:"레알 마드리드",juv:"유벤투스",nas:"알나스르",fcbm:"바르셀로나",psgm:"PSG",mia:"인터 마이애미",bry:"브뤼네",mol:"몰데",rbs:"잘츠부르크",bvb:"도르트문트",mcih:"맨시티",mtz:"메스",rbsm:"잘츠부르크",sou:"사우샘프턴",livm:"리버풀",baym:"바이에른",nasm:"알나스르",lil:"릴",cheh:"첼시",rmh:"레알 마드리드",lmn:"르망",gui:"갱강",omd:"마르세유",ched:"첼시",shs:"상하이 선화",gal:"갈라타사라이",mtl:"몬트리올",phx:"피닉스",fla:"플라멩구",rmv:"레알 마드리드",gnk:"헹크",wer:"브레멘",chek:"첼시",wob:"볼프스부르크",mcik:"맨시티",nap:"나폴리",mokw:"모카울룬",basl:"바젤",chsl:"첼시",fior:"피오렌티나",roma:"로마",lvps:"리버풀",trab:"트라브존",nacs:"나시오날",grns:"흐로닝언",ajxs:"아약스",lvsz:"리버풀",fcbz:"바르셀로나",atmz:"아틀레티코",grez:"그레미우",miaz:"마이애미",indk:"인데펜디엔테",atmg:"아틀레티코",mcag:"맨시티",fcbg:"바르셀로나",zni:"즈니치",lpo:"레흐",bvbl:"도르트문트",bayl:"바이에른",fcbl:"바르셀로나",chif:"시카고",lyb:"리옹",rmk:"레알 마드리드",itb:"알이티하드",hlb:"알힐랄",rsgr:"소시에다드",atgr:"아틀레티코",fcgr:"바르셀로나",orgr:"올랜도",monh:"모나코",juvh:"유벤투스",arsh:"아스널",fcbh:"바르셀로나",nyh:"뉴욕",racl:"라싱",intl:"인테르",snt:"산투스",fcbn:"바르셀로나",psgn:"PSG",hln:"알힐랄",bcb:"버밍엄",bvbb:"도르트문트",rmb:"레알 마드리드",bour:"불로뉴",aler:"알레",brer:"브레스트",metr:"메스",galr:"갈라타사라이",omr:"마르세유",bayr:"바이에른",firr:"피오렌티나",salr:"살레르니타나",grr:"흐로닝언",psr:"PSV",chr:"첼시",rmr:"레알 마드리드",bar:"바이에른",mfi:"말뫼",ajxi:"아약스",juvi:"유벤투스",inti:"인테르",fcbi:"바르셀로나",acmi:"밀란",psgi:"PSG",mui:"맨유",lagi:"LA 갤럭시",vsgq:"비토리아",spq:"스포르팅",renq:"렌",leeq:"리즈",fcbq:"바르셀로나",fcbin:"바르셀로나",vkbin:"비셀 고베",emcin:"에미레이츠",sorim:"소렌토",juvim:"유벤투스",sienim:"시에나",groim:"그로세토",pesim:"페스카라",genim:"제노아",torim:"토리노",dorim:"도르트문트",sevim:"세비야",lazim:"라치오",besim:"베식타시",bolim:"볼로냐",pfcim:"파리 FC",bayt:"바이에른",baymu:"바이에른",lhma:"르아브르",lcma:"레스터",mcma:"맨시티",ahma:"알아흘리",shma:"알샤말",vant:"밴쿠버",rosd:"로사리오",bend:"벤피카",rmd:"레알 마드리드",mund:"맨유",psgd:"PSG",juvd:"유벤투스",dijau:"디종",lilau:"릴",monau:"모나코",stau:"생테티엔",bvbau:"도르트문트",arsau:"아스널",fcbau:"바르셀로나",cheau:"첼시",omau:"마르세유",qadau:"알카디시야",depau:"데포르티보",insdy:"인스티투토",paldy:"팔레르모",juvdy:"유벤투스",romdy:"로마",evw:"에버턴",muw:"맨유",dcw:"D.C. 유나이티드",drw:"더비",danc:"다누비오",palc:"팔레르모",napc:"나폴리",psgc:"PSG",munc:"맨유",valc:"발렌시아",bocc:"보카",soub:"사우샘프턴",totb:"토트넘",rmbl:"레알 마드리드",lafcb:"LAFC",tbkv:"디나모 트빌리시",rstkv:"루스타비",lokkv:"로코모티프",rubkv:"루빈",batkv:"바투미",napkv:"나폴리",psgkv:"PSG",eibsv:"에이바르",celsv:"셀타",valsv:"발렌시아",mcisv:"맨시티",rssv:"소시에다드",atmto:"아틀레티코",livto:"리버풀",cheto:"첼시",milto:"밀란",sagto:"사간 도스",feyvp:"페예노르트",arsvp:"아스널",munvp:"맨유",fenvp:"페네르바체",ahlr:"알렌",bmgr:"묀헨글라트바흐",bvbr:"도르트문트",lagr:"LA 갤럭시",lyl:"리옹",arsl:"아스널",neol:"네옴",arsfa:"아스널",fcbfa:"바르셀로나",chefa:"첼시",monfa:"모나코",comfa:"코모",benbs:"벤피카",monbs:"모나코",mcibs:"맨시티",rmbs:"레알 마드리드",glrd:"그레미우",psgrd:"PSG",fcbrd:"바르셀로나",acmrd:"AC 밀란",flard:"플라멩구",camrd:"아틀레치쿠-MG",qurd:"케레타로",flurd:"플루미넨시",spka:"상파울루",acmka:"AC 밀란",rmka:"레알 마드리드",orka:"올랜도",rvhg:"리버 플레이트",rmhg:"레알 마드리드",nahg:"나폴리",juhg:"유벤투스",acmhg:"AC 밀란",chhg:"첼시",miahg:"인터 마이애미",spgvl:"스포르팅",zarvl:"사라고사",valvl:"발렌시아",barvl:"바르셀로나",atmvl:"아틀레티코",melvl:"멜버른",nycvl:"뉴욕 시티",kobvl:"고베",nanpy:"낭트",stepy:"생테티엔",lilpy:"릴",ompy:"마르세유",whpy:"웨스트햄",vaspy:"바스쿠",whlm:"웨스트햄",chelm:"첼시",mcilm:"맨시티",nyclm:"뉴욕 시티",valis:"발렌시아",malis:"말라가",rmis:"레알 마드리드",sevis:"세비야",rbis:"베티스",medcu:"메데인",udicu:"우디네세",leccu:"레체",fiocu:"피오렌티나",checu:"첼시",juvcu:"유벤투스",intcu:"인테르",atacu:"아탈란타",piscu:"피사",milcu:"미요나리오스"};
+function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
+  const c=st.coef, pl=cur(), tb=$("rows"); let g=0,a=0,ng=0,na=0,epSum=0;
+  const list=pl.entries.map((e,i)=>({e,i,r:value(e,c)})).filter(x=>inP(pl,x.e.date)&&inC(x.e.comp));
+  const MM=pl.matches.map((m,i)=>({m,i})).filter(x=>inP(pl,x.m.date)&&inC(x.m.comp));
+  list.forEach(({e,r})=>{if(e.type==="goal"){g+=r.v;ng++}else{a+=r.v;na++}epSum+=r.raw});
+  let shown=(st.typeF==='goal'||st.typeF==='assist')?list.filter(x=>x.e.type===st.typeF):list;
+  if(st.sortVal)shown=[...shown].sort((x,y)=>y.r.v-x.r.v);
+  tb.innerHTML=shown.map(({e,i,r},n)=>`<tr><td class="num">${n+1}</td><td><span class="pill ${e.type==="goal"?"g":""}">${e.type==="goal"?"골":"도움"}</span>${e.pk&&e.type==="goal"?' <span class="pill">PK</span>':""}</td><td class="num">${f2(r.S)}</td><td class="num">${f2(r.O)}</td><td class="num">${f2(r.C)}</td><td class="num val">${f2(r.v)}</td>
+    <td>${esc(e.opp||"—")}<div class="sub">${esc(e.date||"")}${e.type==="assist"&&e.note?" · "+(e.note==="?"?"득점자 미확인(보수적)":esc(e.note)+" 골"):""}</div>${e.lv?'<div class="sub">'+esc(e.lv)+"</div>":""}</td><td class="num">${e.elo}</td><td>${COMP[e.comp]||e.comp}${e.tie?'<div class="sub" title="두 경기 합산">'+tieTxt(e)+'</div>':e.ko?'<div class="sub">KO</div>':""}</td>
+    <td class="num">${minTxt(e,c)}</td><td class="mono">${e.gf}:${e.ga} → ${e.gf+1}:${e.ga}</td>
+    <td><button class="del" data-i="${i}" aria-label="${n+1}번 기록 삭제">×</button></td></tr>`).join("");
+  $("empty").hidden=shown.length>0;
+  $("total").textContent=f2(g+a);
+  $("capPer").textContent="("+perLabel(pl)+(COMPFL[st.compF]?" · "+COMPFL[st.compF]:"")+")";
+  $("boardWho").textContent=pl.name;
+  $("nGoal").textContent=ng;$("nAst").textContent=na;$("sGoal").textContent=f2(g);$("sAst").textContent=f2(a);
+  $("sSimple").textContent=ng+na;$("sAvg").textContent=list.length?f2((g+a)/list.length):"0.00";$("sEp").textContent=fEpS(epSum);
+  const mins=MM.reduce((s,x)=>s+(+x.m.min||0),0), tot=g+a, nAP=ng+na, base=ng+na*c.ast;
+  $("sMatches").textContent=MM.length; $("sMins").textContent=mins.toLocaleString()+"분";
+  $("per90").textContent=mins>0?f2(tot/mins*90):"–";
+  $("socpm").textContent=MM.length?f2(tot/MM.length):"–";$("appm").textContent=MM.length?f2(nAP/MM.length):"–";
+  $("ap90").textContent=mins>0?f2(nAP/mins*90):"–";
+  $("base90").textContent=base>0||tot>0?f2(base):"–";
+  $("diff90").innerHTML=base>0||tot>0?dv(tot-base):"–";
+  $("ratio").textContent=base>0?f2(tot/base)+"배":"–";
+  if($("sAvgS")){const eS=list.reduce((s,x)=>s+x.r.S,0),eO=list.reduce((s,x)=>s+(+x.e.elo||0),0);$("sAvgS").textContent=list.length?f2(eS/list.length):"–";$("sAvgO").textContent=list.length?Math.round(eO/list.length):"–"}
+  const pw=$("perWarn");
+  if(mins===0){pw.hidden=false;pw.textContent="출전 경기를 넣으면 SOC/90이 계산됩니다."}
+  else if(mins<c.minMin){pw.hidden=false;pw.textContent="출전 "+mins+"분: 최소 기준 "+c.minMin+"분 미만이라 참고용입니다."}
+  else pw.hidden=true;
+  $("matchSum").textContent=MM.length?"· "+MM.length+"경기 · "+mins.toLocaleString()+"분":"";
+  const byDate={};list.forEach(({e,r})=>{if(e.date)byDate[e.date]=(byDate[e.date]||0)+r.v});
+  const mrows=[...MM].reverse();
+  $("mrows").innerHTML=mrows.map(({m,i})=>`<tr><td class="mono">${esc(m.date||"")}</td><td>${esc(m.opp||"—")}</td><td>${COMP[m.comp]||""}</td><td class="num">${m.min}′${m.est?' <span class="sub" title="출전 시간 자료 없음">추정</span>':""}</td><td class="num${byDate[m.date]?" val":""}">${byDate[m.date]?f2(byDate[m.date]):"–"}</td><td><button class="del mdel" data-i="${i}" aria-label="경기 삭제">×</button></td></tr>`).join("")||'<tr><td colspan="6" class="empty">출전 경기가 없습니다.</td></tr>';
+  // 시즌별
+  const Y={};const yo=(y,cl,d)=>{const k=y+"|"+cl;const o=Y[k]=Y[k]||{y,cl,d0:d,n:0,min:0,soc:0,ap:0,base:0,g:0,a:0,ep:0,sS:0,sN:0,eS:0,eW:0};if(d&&(!o.d0||d<o.d0))o.d0=d;return o};
+  MM.forEach(({m})=>{const cl=pClub(pl,m.date);const o=yo(seasonOf(m.date,cl),cl,m.date);o.n++;o.min+=+m.min||0});
+  list.forEach(({e,r})=>{const cl=pClub(pl,e.date);const o=yo(seasonOf(e.date,cl),cl,e.date);o.soc+=r.v;o.ap++;o.ep+=r.raw;o.sS+=r.S;o.sN++;if(e.elo>0){o.eS+=+e.elo;o.eW++}if(e.type==="goal")o.g++;else o.a++;o.base+=e.type==="goal"?1:c.ast});
+  const ys=Object.keys(Y).sort((x,y)=>(Y[x].d0||"")<(Y[y].d0||"")?-1:1);
+  const PKR={};peakSeasons(pl,c).slice(0,5).forEach((x,i)=>PKR[x[0]]=i+1);
+  const CL={arss:"아스널",hsv:"함부르크",lev:"레버쿠젠",tot:"토트넘",lafc:"LAFC",fcb:"바르셀로나",liv:"리버풀",mci:"맨시티",che:"첼시",ars:"아스널",fey:"페예노르트",mon:"모나코",psg:"PSG",rma:"레알 마드리드",lo:"오리엔트",kt:"토트넘",mil:"밀월",nor:"노리치",lei:"레스터",bay:"바이에른",scp:"스포르팅",mun:"맨유",rmc:"레알 마드리드",juv:"유벤투스",nas:"알나스르",fcbm:"바르셀로나",psgm:"PSG",mia:"인터 마이애미",bry:"브뤼네",mol:"몰데",rbs:"잘츠부르크",bvb:"도르트문트",mcih:"맨시티",mtz:"메스",rbsm:"잘츠부르크",sou:"사우샘프턴",livm:"리버풀",baym:"바이에른",nasm:"알나스르",lil:"릴",cheh:"첼시",rmh:"레알 마드리드",lmn:"르망",gui:"갱강",omd:"마르세유",ched:"첼시",shs:"상하이 선화",gal:"갈라타사라이",mtl:"몬트리올",phx:"피닉스",fla:"플라멩구",rmv:"레알 마드리드",gnk:"헹크",wer:"브레멘",chek:"첼시",wob:"볼프스부르크",mcik:"맨시티",nap:"나폴리",mokw:"모카울룬",basl:"바젤",chsl:"첼시",fior:"피오렌티나",roma:"로마",lvps:"리버풀",trab:"트라브존",nacs:"나시오날",grns:"흐로닝언",ajxs:"아약스",lvsz:"리버풀",fcbz:"바르셀로나",atmz:"아틀레티코",grez:"그레미우",miaz:"마이애미",indk:"인데펜디엔테",atmg:"아틀레티코",mcag:"맨시티",fcbg:"바르셀로나",zni:"즈니치",lpo:"레흐",bvbl:"도르트문트",bayl:"바이에른",fcbl:"바르셀로나",chif:"시카고",lyb:"리옹",rmk:"레알 마드리드",itb:"알이티하드",hlb:"알힐랄",rsgr:"소시에다드",atgr:"아틀레티코",fcgr:"바르셀로나",orgr:"올랜도",monh:"모나코",juvh:"유벤투스",arsh:"아스널",fcbh:"바르셀로나",nyh:"뉴욕",racl:"라싱",intl:"인테르",snt:"산투스",fcbn:"바르셀로나",psgn:"PSG",hln:"알힐랄",bcb:"버밍엄",bvbb:"도르트문트",rmb:"레알 마드리드",bour:"불로뉴",aler:"알레",brer:"브레스트",metr:"메스",galr:"갈라타사라이",omr:"마르세유",bayr:"바이에른",firr:"피오렌티나",salr:"살레르니타나",grr:"흐로닝언",psr:"PSV",chr:"첼시",rmr:"레알 마드리드",bar:"바이에른",mfi:"말뫼",ajxi:"아약스",juvi:"유벤투스",inti:"인테르",fcbi:"바르셀로나",acmi:"밀란",psgi:"PSG",mui:"맨유",lagi:"LA 갤럭시",vsgq:"비토리아",spq:"스포르팅",renq:"렌",leeq:"리즈",fcbq:"바르셀로나",fcbin:"바르셀로나",vkbin:"비셀 고베",emcin:"에미레이츠",sorim:"소렌토",juvim:"유벤투스",sienim:"시에나",groim:"그로세토",pesim:"페스카라",genim:"제노아",torim:"토리노",dorim:"도르트문트",sevim:"세비야",lazim:"라치오",besim:"베식타시",bolim:"볼로냐",pfcim:"파리 FC",bayt:"바이에른",baymu:"바이에른",lhma:"르아브르",lcma:"레스터",mcma:"맨시티",ahma:"알아흘리",shma:"알샤말",vant:"밴쿠버",rosd:"로사리오",bend:"벤피카",rmd:"레알 마드리드",mund:"맨유",psgd:"PSG",juvd:"유벤투스",dijau:"디종",lilau:"릴",monau:"모나코",stau:"생테티엔",bvbau:"도르트문트",arsau:"아스널",fcbau:"바르셀로나",cheau:"첼시",omau:"마르세유",qadau:"알카디시야",depau:"데포르티보",insdy:"인스티투토",paldy:"팔레르모",juvdy:"유벤투스",romdy:"로마",evw:"에버턴",muw:"맨유",dcw:"D.C. 유나이티드",drw:"더비",danc:"다누비오",palc:"팔레르모",napc:"나폴리",psgc:"PSG",munc:"맨유",valc:"발렌시아",bocc:"보카",soub:"사우샘프턴",totb:"토트넘",rmbl:"레알 마드리드",lafcb:"LAFC",tbkv:"디나모 트빌리시",rstkv:"루스타비",lokkv:"로코모티프",rubkv:"루빈",batkv:"바투미",napkv:"나폴리",psgkv:"PSG",eibsv:"에이바르",celsv:"셀타",valsv:"발렌시아",mcisv:"맨시티",rssv:"소시에다드",atmto:"아틀레티코",livto:"리버풀",cheto:"첼시",milto:"밀란",sagto:"사간 도스",feyvp:"페예노르트",arsvp:"아스널",munvp:"맨유",fenvp:"페네르바체",ahlr:"알렌",bmgr:"묀헨글라트바흐",bvbr:"도르트문트",lagr:"LA 갤럭시",lyl:"리옹",arsl:"아스널",neol:"네옴",arsfa:"아스널",fcbfa:"바르셀로나",chefa:"첼시",monfa:"모나코",comfa:"코모",benbs:"벤피카",monbs:"모나코",mcibs:"맨시티",rmbs:"레알 마드리드",glrd:"그레미우",psgrd:"PSG",fcbrd:"바르셀로나",acmrd:"AC 밀란",flard:"플라멩구",camrd:"아틀레치쿠-MG",qurd:"케레타로",flurd:"플루미넨시",spka:"상파울루",acmka:"AC 밀란",rmka:"레알 마드리드",orka:"올랜도",rvhg:"리버 플레이트",rmhg:"레알 마드리드",nahg:"나폴리",juhg:"유벤투스",acmhg:"AC 밀란",chhg:"첼시",miahg:"인터 마이애미",spgvl:"스포르팅",zarvl:"사라고사",valvl:"발렌시아",barvl:"바르셀로나",atmvl:"아틀레티코",melvl:"멜버른",nycvl:"뉴욕 시티",kobvl:"고베",nanpy:"낭트",stepy:"생테티엔",lilpy:"릴",ompy:"마르세유",whpy:"웨스트햄",vaspy:"바스쿠",whlm:"웨스트햄",chelm:"첼시",mcilm:"맨시티",nyclm:"뉴욕 시티",valis:"발렌시아",malis:"말라가",rmis:"레알 마드리드",sevis:"세비야",rbis:"베티스",medcu:"메데인",udicu:"우디네세",leccu:"레체",fiocu:"피오렌티나",checu:"첼시",juvcu:"유벤투스",intcu:"인테르",atacu:"아탈란타",piscu:"피사",milcu:"미요나리오스"};
+  const H=(a,b)=>`<th class="num"><span class="nw">${a}</span>${b?`<br><span class="nw">${b}</span>`:""}</th>`;
+  $("yearTbl").innerHTML='<thead><tr><th>시즌</th>'+H("SOC")+H("경기")+H("출전","(분)")+H("골")+H("도움")+H("SOC","/90")+H("경기당","SOC")+H("SOC","/공격P")+H("가치","차이")+H("가치","배율")+H("기대","승점")+H("평균","S")+H("평균","상대")+'</tr></thead><tbody>'+
+    ys.map(y=>{const o=Y[y],p=x=>o.min?f2(x/o.min*90):"–";return `<tr><td style="white-space:nowrap">${o.y}${CL[o.cl]?' <span class="sub">'+CL[o.cl]+'</span>':""}${o.min&&o.min<peakMin(c)?' <span class="sub">*</span>':""}${PKR[o.y]?` <span class="pkb${PKR[o.y]<=3?" t3":""}" title="최고 시즌 ${PKR[o.y]}위 (출전 ${peakMin(c)}분 이상 시즌 중)">${PKR[o.y]}</span>`:""}</td><td class="num val">${f2(o.soc)}</td><td class="num">${o.n}</td><td class="num">${o.min.toLocaleString()}</td><td class="num">${o.g}</td><td class="num">${o.a}</td><td class="num">${p(o.soc)}</td><td class="num">${o.n?f2(o.soc/o.n):"–"}</td><td class="num">${o.ap?f2(o.soc/o.ap):"–"}</td><td class="num">${o.base?dv(o.soc-o.base):"–"}</td><td class="num">${o.base?f2(o.soc/o.base):"–"}</td><td class="num">${o.ap?fEpS(o.ep):"–"}</td><td class="num">${o.sN?f2(o.sS/o.sN):"–"}</td><td class="num">${o.eW?Math.round(o.eS/o.eW):"–"}</td></tr>`}).join("")+
+    `<tr class="tot"><th>합계</th><td class="num val">${f2(tot)}</td><td class="num">${MM.length}</td><td class="num">${mins.toLocaleString()}</td><td class="num">${ng}</td><td class="num">${na}</td><td class="num">${mins?f2(tot/mins*90):"–"}</td><td class="num">${MM.length?f2(tot/MM.length):"–"}</td><td class="num">${nAP?f2(tot/nAP):"–"}</td><td class="num">${base?dv(tot-base):"–"}</td><td class="num">${base?f2(tot/base):"–"}</td><td class="num">${nAP?fEpS(epSum):"–"}</td><td class="num">${list.length?f2(list.reduce((q,x)=>q+x.r.S,0)/list.length):"–"}</td><td class="num">${list.length?Math.round(list.reduce((q,x)=>q+(+x.e.elo||0),0)/list.length):"–"}</td></tr></tbody>`;
+  applyCols("yearTbl");
+  // 대회별
+  const G={};const gOf=cp=>COMPF.lg.includes(cp)?"lg":COMPF.dom.includes(cp)?"dom":COMPF.ucl.includes(cp)?"ucl":COMPF.cont.includes(cp)?"cont":"cup";list.forEach(({e,r})=>{const k=gOf(e.comp);const o=G[k]=G[k]||{soc:0,g:0,a:0,m:0};o.soc+=r.v;if(e.type==="goal")o.g++;else o.a++});MM.forEach(({m})=>{const k=gOf(m.comp);(G[k]=G[k]||{soc:0,g:0,a:0,m:0}).m++});
+  const GL={lg:"리그",dom:"국내 컵",ucl:"챔피언스리그",cont:"그 밖의 대륙·국제 대회",cup:"MLS 플레이오프·리그스컵"};
+  $("compTbl").innerHTML='<thead><tr><th>대회</th><th class="num">SOC</th><th class="num">비중</th><th class="num">경기</th><th class="num">골</th><th class="num">도움</th></tr></thead><tbody>'+Object.keys(GL).filter(k=>G[k]).map(k=>`<tr><td>${GL[k]}</td><td class="num val">${f2(G[k].soc)}</td><td class="num">${tot?Math.round(G[k].soc/tot*100)+"%":"–"}</td><td class="num">${G[k].m}</td><td class="num">${G[k].g}</td><td class="num">${G[k].a}</td></tr>`).join("")+"</tbody>";
+  {const K={};const ym=d=>d?d.slice(0,4)+"."+(+d.slice(5,7)):"";
+   const gk=k=>K[k]=K[k]||{soc:0,g:0,a:0,m:0,d0:"",d1:"",ss:new Set(),sm:{}};const SD={};const SC={};const addS=(o,k,d)=>{if(!d)return;const s=seasonOf(d,k);o.ss.add(s);(SC[s]=SC[s]||new Set()).add(k);if(!SD[s]||d<SD[s])SD[s]=d;return s};
+   const span=(o,d)=>{if(!d)return;if(!o.d0||d<o.d0)o.d0=d;if(!o.d1||d>o.d1)o.d1=d};
+   list.forEach(({e,r})=>{const k=pClub(pl,e.date);if(!k)return;const o=gk(k);o.soc+=r.v;if(e.type==="goal")o.g++;else o.a++;span(o,e.date);addS(o,k,e.date)});
+   MM.forEach(({m})=>{const k=pClub(pl,m.date);if(!k)return;const o=gk(k);o.m++;span(o,m.date);const s=addS(o,k,m.date);if(s)o.sm[s]=(o.sm[s]||0)+(+m.min||0)});
+   const AS=Object.keys(SD).sort((x,y)=>SD[x]<SD[y]?-1:SD[x]>SD[y]?1:0);
+   const sh=s=>s.replace(/^\d{2}(\d{2}-\d{2})$/,"$1");const stint=o=>{const runs=[];let cur=null;AS.forEach((s,i)=>{if(o.ss.has(s)){if(cur&&cur.i===i-1){cur.e=s;cur.i=i}else{cur={b:s,e:s,i};runs.push(cur)}}});return {txt:runs.map(r=>r.b===r.e?sh(r.b):sh(r.b)+" – "+sh(r.e)).join("<br>"),n:runs.length}};
+   const ks=Object.keys(K).sort((x,y)=>K[y].soc-K[x].soc);
+   $("clubTbl").innerHTML='<thead><tr><th>팀</th><th>활동 시기</th><th class="num">시즌</th><th class="num">SOC</th><th class="num">비중</th><th class="num">경기</th><th class="num">골</th><th class="num">도움</th></tr></thead><tbody>'+ks.map(k=>{const o=K[k],sp=stint(o);const sh2=[...o.ss].filter(s=>SC[s]&&SC[s].size>1).sort(),ns=o.ss.size+"시즌";const sTxt=sh2.length?`<span class="clubtip" tabindex="0" role="button" data-tip="${esc("시즌 도중 이적(같은 시즌에 다른 팀에서도 뜀)\n"+sh2.map(s=>sh(s)+": 이 팀 "+(o.sm[s]||0).toLocaleString("ko-KR")+"분").join("\n"))}" aria-label="${esc(ns+", 도중 이적 "+sh2.length+"개 시즌")}">${ns}*</span>`:ns;return `<tr><td>${esc(CLN[k]||k)}</td><td class="mono stint">${sp.txt}</td><td class="num">${sTxt}</td><td class="num val">${f2(o.soc)}</td><td class="num">${tot?Math.round(o.soc/tot*100)+"%":"–"}</td><td class="num">${o.m}</td><td class="num">${o.g}</td><td class="num">${o.a}</td></tr>`}).join("")+"</tbody>"}
+  $("fAst").textContent=c.ast;$("fPk").textContent=c.pk;
+  $("normPrev").textContent="평균 골 1개 = 기대 승점 +"+computeNorm(c).toFixed(3)+" (S 1.00의 기준)";
+  $("rankPrev").textContent="기준 Elo "+c.ref+" · Elo 1300 "+f2(oppF(1300,c))+" · 1500 "+f2(oppF(1500,c))+" · 1700 "+f2(oppF(1700,c))+" · 1800 "+f2(oppF(1800,c))+" · 1900 "+f2(oppF(1900,c))+" · 2000 "+f2(oppF(2000,c));
+  $("compPrev").textContent="C: 국내컵 "+f2(compF("dc",c))+" · 국내컵 8강 "+f2(compF("dk",c))+" · 리그 "+f2(compF("lg",c))+" · 유로파 "+f2(compF("elg",c))+" · 챔스 리그·조별 "+f2(compF("clg",c))+" · 챔스 16강 "+f2(compF("cl16",c))+" · 챔스 8강 "+f2(compF("clk",c))+" · 준결승 "+f2(compF("clsf",c))+" · 결승 "+f2(compF("clf",c));
+  const pn=$("presetNote");pn.hidden=!pl.preset;if(pl.preset)pn.innerHTML='<ul class="notes" tabindex="0" role="region" aria-label="데이터 출처와 처리 방식">'+String(PRESETS[pl.preset].note).split("\n").filter(Boolean).map(x=>"<li>"+esc(x)+"</li>").join("")+"</ul>";
+  $("loadPreset").hidden=!pl.preset;
+  renderTabs();
+  const ps=$("period");ps.innerHTML=periodOpts(pl).map(([k,t])=>`<option value="${k}">${esc(t)}</option>`).join("");ps.value=st.period||"all";if(ps.value!==(st.period||"all")){st.period="all";ps.value="all"}
+  $("sortVal").checked=!!st.sortVal; $("compF").value=st.compF||"all";
+  document.querySelectorAll('input[name="typeF"]').forEach(r=>{r.checked=r.value===(st.typeF||'all')});
+  renderHeat(c); updateLive(); save();
+}
+/* 선수 순서: 손흥민을 맨 앞에 두고 나머지는 이름 가나다순(새로 만든 탭도 자동 정렬). 탭·비교 표 기본 순서·그래프 선수 버튼이 모두 이 순서를 따름 */
+const KO_COLL=(typeof Intl!=="undefined"&&Intl.Collator)?new Intl.Collator("ko",{numeric:true,sensitivity:"base"}):null;
+function byPlayerOrder(a,b){const top=p=>p.preset==="son"?0:1;return top(a)-top(b)||(KO_COLL?KO_COLL.compare(a.name,b.name):(a.name<b.name?-1:a.name>b.name?1:0))}
+function sortPlayers(){st.players.sort(byPlayerOrder)}
+function renderTabs(){
+  sortPlayers();
+  const os=$("tabStrip"),keep=os?os.scrollLeft:null;
+  $("tabs").innerHTML='<div class="tabwin" id="tabWin"><div class="tabstrip" id="tabStrip" role="presentation">'+st.players.map(p=>`<button type="button" class="tab" role="tab" aria-selected="${p.id===st.active}" data-id="${esc(p.id)}">${esc(p.name)}${p.preset?"":` <span class="x" data-x="${esc(p.id)}" aria-label="${esc(p.name)} 탭 삭제">×</span>`}</button>`).join("")+'</div></div><button type="button" class="tab add" id="addPlayer">+ <span class="lbl">선수 추가</span></button>'+`<span class="tabcount" id="tabCount" aria-hidden="true" hidden>${st.players.length}명 · 휠/드래그로 이동</span>`;
+  fitTabs(keep);
+}
+/* 탭 줄: 화면 폭 안에서 한 줄로 보이는 만큼 보여 주고, 넘치면 휠·끌기로 이동. 선택한 탭은 보이는 곳으로 */
+function fitTabs(keep){const s=$("tabStrip");if(!s)return;const tc=$("tabCount");
+  if(tc)tc.hidden=!(s.scrollWidth>s.clientWidth+1)||s.clientWidth<260;
+  if(keep!=null)s.scrollLeft=keep;
+  const act=s.querySelector('.tab[aria-selected="true"]');
+  if(act){const L=act.offsetLeft-s.offsetLeft,R=L+act.offsetWidth;if(L<s.scrollLeft)s.scrollLeft=L;else if(R>s.scrollLeft+s.clientWidth)s.scrollLeft=R-s.clientWidth}
+  edgeTabs()}
+function edgeTabs(){const s=$("tabStrip"),w=$("tabWin");if(!s||!w)return;const max=s.scrollWidth-s.clientWidth;w.classList.toggle("l",s.scrollLeft>2);w.classList.toggle("r",s.scrollLeft<max-2)}
+/* 가로로 넘치는 줄(탭 줄·그래프 선수 버튼 줄)을 마우스 휠과 끌기(마우스·터치·펜)로 좌우 이동. 끈 뒤의 클릭은 무시 */
+function hScroll(host,getStrip,onMove){let drag=null,moved=false;
+  host.addEventListener("wheel",ev=>{const s=getStrip(ev.target);if(!s)return;if(s.scrollWidth<=s.clientWidth+1)return;ev.preventDefault();
+    const d=Math.abs(ev.deltaX)>Math.abs(ev.deltaY)?ev.deltaX:ev.deltaY;const u=ev.deltaMode===1?32:ev.deltaMode===2?s.clientWidth:1;s.scrollLeft+=d*u;onMove()},{passive:false});
+  host.addEventListener("scroll",ev=>{if(ev.target===getStrip(ev.target))onMove()},true);
+  host.addEventListener("pointerdown",ev=>{if(ev.pointerType==="mouse"&&ev.button!==0)return;const s=getStrip(ev.target);if(!s)return;drag={s,x:ev.clientX,l:s.scrollLeft,id:ev.pointerId,m:ev.pointerType==="mouse"};moved=false});
+  host.addEventListener("pointermove",ev=>{if(!drag||ev.pointerId!==drag.id)return;const dx=ev.clientX-drag.x;
+    if(!moved&&Math.abs(dx)>5){moved=true;if(drag.m){drag.s.classList.add("dragging");try{drag.s.setPointerCapture(ev.pointerId)}catch(e){}}}
+    if(moved){drag.s.scrollLeft=drag.l-dx;onMove();if(drag.m)ev.preventDefault()}});
+  ["pointerup","pointercancel"].forEach(n=>host.addEventListener(n,ev=>{if(drag&&ev.pointerId===drag.id){drag.s.classList.remove("dragging");drag=null;if(moved)setTimeout(()=>{moved=false},0)}}));
+  host.addEventListener("click",ev=>{if(moved){ev.preventDefault();ev.stopPropagation();moved=false}},true);
+  host.addEventListener("dragstart",ev=>{if(getStrip(ev.target))ev.preventDefault()})}
+hScroll($("tabs"),el=>el&&el.closest?el.closest("#tabStrip"):null,edgeTabs);
+function chipEdges(){const s=$("chartChips"),w=$("chipWin");if(!s||!w)return;const max=s.scrollWidth-s.clientWidth;w.classList.toggle("l",s.scrollLeft>2);w.classList.toggle("r",s.scrollLeft<max-2)}
+hScroll($("chipWin"),el=>el&&el.closest?el.closest("#chartChips"):null,chipEdges);
+addEventListener("resize",()=>{const s=$("tabStrip");fitTabs(s?s.scrollLeft:null);chipEdges()});
+function fillCoef(){document.querySelectorAll("[id^=c_]").forEach(inp=>{inp.value=st.coef[inp.id.slice(2)]})}
+document.addEventListener("click",ev=>{
+  const x=ev.target.closest("[data-x]");if(x){const id=x.dataset.x;const p=st.players.find(q=>q.id===id);if(p)ask(p.name+" 탭 삭제","이 선수의 골·도움·출전 기록이 모두 지워집니다.","삭제",()=>{st.players=st.players.filter(q=>q.id!==id);if(st.active===id)st.active=st.players[0].id;render()});ev.stopPropagation();return}
+  const t=ev.target.closest(".tab[data-id]");if(t){st.active=t.dataset.id;st.period="all";render();return}
+  if(ev.target.closest("#addPlayer")){$("newWrap").hidden=false;$("newName").focus();return}
+  const d=ev.target.closest(".del");if(d){const i=+d.dataset.i;if(d.classList.contains("mdel"))cur().matches.splice(i,1);else cur().entries.splice(i,1);render();return}
+});
+$("addForm").addEventListener("submit",ev=>{ev.preventDefault();
+  const elo=parseInt($("inElo").value,10),min=parseInt($("inMin").value,10);
+  if(!(elo>=500)){$("inElo").focus();return} if(!(min>=1)){$("inMin").focus();return}
+  const ne={type:$("inType").value,opp:$("inOpp").value.trim(),elo,comp:$("inComp").value,min,gf:Math.max(0,parseInt($("inGf").value,10)||0),ga:Math.max(0,parseInt($("inGa").value,10)||0),ko:!formTie()&&$("inKo").checked,pk:$("inPk").checked,date:$("inDate").value,...(formTie()?{tie:formTie()}:{})};
+  const p=cur();p.entries.push(ne);p.entries.sort((x,y)=>(x.date||"9")<(y.date||"9")?-1:(x.date||"9")>(y.date||"9")?1:x.min-y.min);render()});
+$("matchForm").addEventListener("submit",ev=>{ev.preventDefault();const p=cur();p.matches.push({date:$("mDate").value,opp:$("mOpp").value.trim(),comp:$("mComp").value,min:Math.max(0,Math.min(120,parseInt($("mMin").value,10)||0))});p.matches.sort((x,y)=>x.date<y.date?-1:1);render()});
+["inType","inElo","inComp","inMin","inGf","inGa","inKo","inPk","inTie","inLeg","inHome","inF1","inF2","inAg","inEt"].forEach(id=>$(id).addEventListener("input",()=>{syncTieUI();updateLive()}));
+$("inDate").addEventListener("change",()=>{if($("inTie").checked)tieDefaults();updateLive()});
+$("inComp").addEventListener("change",()=>{const k=$("inComp").value;$("inKo").checked=["dc","dk","dsf","df","clf","elf","ecf","mlp","mlpsf","mlpf","lcg","lck","cwc","aclk","aclsf","aclf","ac2k","ac2sf","ac2f","arabk","arabsf","arabf","libk","libsf","libf","csak","csasf","csaf"].includes(k);tieDefaults();updateLive()});
+$("eloFill").addEventListener("click",()=>{const L=LEAGUES[+$("eloLg").value];const n=Math.max(2,+$("eloN").value||20),r=Math.min(n,Math.max(1,+$("eloR").value||1));$("inElo").value=Math.round(lgElo(L,n,r));updateLive()});
+$("period").addEventListener("change",e=>{st.period=e.target.value;render()});
+$("compF").addEventListener("change",e=>{st.compF=e.target.value;render()});
+$("sortVal").addEventListener("change",e=>{st.sortVal=e.target.checked;render()});
+document.querySelectorAll('input[name="typeF"]').forEach(r=>r.addEventListener("change",e=>{st.typeF=e.target.value;render()}));
+document.querySelectorAll("[id^=c_]").forEach(inp=>inp.addEventListener("input",()=>{const v=parseFloat(inp.value);if(isFinite(v)){st.coef[inp.id.slice(2)]=v;render()}}));
+$("resetCoef").addEventListener("click",()=>{st.coef={...DEF};fillCoef();render()});
+$("loadPreset").addEventListener("click",()=>{const p=cur();if(p.preset)ask("기본 데이터로 되돌리기","직접 추가하거나 지운 기록이 사라지고 저장된 기본 데이터로 돌아갑니다.","되돌리기",()=>{const f=fromPreset(p.preset);p.entries=f.entries;p.matches=f.matches;render()})});
+$("clearBtn").addEventListener("click",()=>ask("모두 지우기","이 탭의 골·도움·출전 기록을 모두 지웁니다.","지우기",()=>{const p=cur();p.entries=[];p.matches=[];render()}));
+let askFn=null;function ask(t,b,y,fn){askFn=fn;$("dlgTitle").textContent=t;$("dlgBody").textContent=b;$("dlgYes").textContent=y;try{$("dlg").showModal()}catch(e){$("dlg").setAttribute("open","")}}
+$("dlgNo").addEventListener("click",()=>{askFn=null;$("dlg").close()});$("dlgYes").addEventListener("click",()=>{const f=askFn;askFn=null;$("dlg").close();if(f)f()});
+$("newForm").addEventListener("submit",ev=>{ev.preventDefault();const n=$("newName").value.trim();if(!n){$("newName").focus();return}const id="p"+Date.now();st.players.push({id,name:n,entries:[],matches:[]});st.active=id;st.period="all";$("newName").value="";$("newWrap").hidden=true;render()});
+$("newCancel").addEventListener("click",()=>{$("newWrap").hidden=true});
+{const opts=Object.entries(COMP).map(([k,v])=>`<option value="${k}">${v}</option>`).join("");$("inComp").innerHTML=opts;$("mComp").innerHTML=opts;$("inComp").value="lg";$("mComp").value="lg";
+ $("eloLg").innerHTML=LEAGUES.map((l,i)=>`<option value="${i}">${l[0]}</option>`).join("");
+ $("lgTbl").innerHTML='<thead><tr><th>리그</th><th class="num">평균</th><th class="num">1위*</th><th class="num">꼴찌*</th></tr></thead><tbody>'+LEAGUES.map(l=>`<tr><td>${l[0]}</td><td class="num">${l[1]}</td><td class="num">${Math.round(lgElo(l,20,1))}</td><td class="num">${Math.round(lgElo(l,20,20))}</td></tr>`).join("")+"</tbody>"}
+syncTieUI();fillCoef();render();
+
+/* 새로고침: 페이지를 다시 불러옴. 뷰어가 다시 불러오기를 막으면 기록을 날짜순으로 정리하고 화면만 다시 그림 */
+$("reloadBtn").addEventListener("click",()=>{const b=$("reloadBtn");b.classList.remove("spin");void b.offsetWidth;b.classList.add("spin");save();
+  try{location.reload()}catch(e){}
+  setTimeout(()=>{const k=d=>d||"9999";st.players.forEach(p=>{p.entries.sort((x,y)=>k(x.date)<k(y.date)?-1:k(x.date)>k(y.date)?1:x.min-y.min);p.matches.sort((x,y)=>k(x.date)<k(y.date)?-1:k(x.date)>k(y.date)?1:0)});render()},700)});
+
+/* 계수 조정: 대회 중요도 지역 탭 */
+(()=>{const tl=document.querySelector(".ctabs");if(!tl)return;const tabs=[...tl.querySelectorAll('[role="tab"]')];
+function sel(t,focus){tabs.forEach(b=>{const on=b===t;b.setAttribute("aria-selected",on);b.tabIndex=on?0:-1;const pn=$(b.getAttribute("aria-controls"));if(pn)pn.hidden=!on});if(focus)t.focus();try{localStorage.setItem("clubsoc-ctab",t.id)}catch(_){}}
+tabs.forEach((b,i)=>{b.addEventListener("click",()=>sel(b));b.addEventListener("keydown",ev=>{let j=null;if(ev.key==="ArrowRight")j=(i+1)%tabs.length;else if(ev.key==="ArrowLeft")j=(i-1+tabs.length)%tabs.length;else if(ev.key==="Home")j=0;else if(ev.key==="End")j=tabs.length-1;if(j!==null){ev.preventDefault();sel(tabs[j],true)}})});
+let saved=null;try{saved=localStorage.getItem("clubsoc-ctab")}catch(_){}const st0=saved&&$(saved);if(st0&&tabs.includes(st0))sel(st0)})();
+
+/* ---- 선수 비교: 표 · 누적 SOC 그래프 ---- */
+const MAXSEL=7;
+const CMPCOLS=[["name","선수"],["pos","포지션"],["clubs","클럽"],["soc","누적<br>SOC"],["n","경기"],["min","출전<br>(분)"],["g","골"],["a","도움"],["p90","SOC<br>/90"],["pm","경기당<br>SOC"],["pap","SOC/<br>공격P"],["ratio","가치<br>배율"],["ep","기대<br>승점"],["avgS","평균<br>S"],["avgO","평균<br>상대"],["ucl","챔스<br>비중"],["best","최고<br>시즌"],["pk3","3-peak<br>평균"],["pk5","5-peak<br>평균"]];
+function pStats(p,c){
+  const L=p.entries.filter(e=>inC(e.comp)).map(e=>({e,r:value(e,c)})).sort((x,y)=>(x.e.date||"")<(y.e.date||"")?-1:1);
+  const M=p.matches.filter(m=>inC(m.comp)).sort((x,y)=>(x.date||"")<(y.date||"")?-1:1);
+  let soc=0,ep=0,base=0,g=0,a=0,sS=0,eS=0,eW=0,ucl=0;const Y={};
+  L.forEach(({e,r})=>{soc+=r.v;ep+=r.raw;sS+=r.S;base+=e.type==="goal"?1:c.ast;if(e.type==="goal")g++;else a++;if(+e.elo>0){eS+=+e.elo;eW++}if(/^cl/.test(e.comp))ucl+=r.v;const s=seasonOf(e.date,pClub(p,e.date));Y[s]=(Y[s]||0)+r.v});
+  const min=M.reduce((s,m)=>s+(+m.min||0),0),n=M.length,ap=g+a;
+  const PQ=peakSeasons(p,c);const pkOf=k=>{const t=PQ.slice(0,k);return t.length?{v:t.reduce((a,x)=>a+x[1],0)/t.length,k:t.length,ss:t}:null};const pk3=pkOf(3),pk5=pkOf(5);
+  let best=null;for(const [s,v] of Object.entries(Y))if(!best||v>best[1])best=[s,v];
+  const cl=[...new Set([...M.map(m=>pClub(p,m.date)),...L.map(x=>pClub(p,x.e.date))].filter(Boolean))];
+  const cs={};cl.forEach(k=>cs[k]=0);L.forEach(({e,r})=>{const k=pClub(p,e.date);if(k)cs[k]=(cs[k]||0)+r.v});
+  const order=[...cl].sort((x,y)=>cs[y]-cs[x]);
+  const clubs=order.map(k=>CLN[k]||k).join(" · ");
+  const clubTop=order.length?(CLN[order[0]]||order[0]):"";const clubMore=Math.max(0,order.length-1);
+  const clubTip=order.map(k=>(CLN[k]||k)+"  "+f2(cs[k])+(soc>0?" ("+Math.round(cs[k]/soc*100)+"%)":"")).join("\n");
+  return {p,L,M,soc,ep,g,a,n,min,clubs,clubTop,clubMore,clubTip,p90:min?soc/min*90:null,pm:n?soc/n:null,pap:ap?soc/ap:null,ratio:base?soc/base:null,avgS:ap?sS/ap:null,avgO:eW?eS/eW:null,ucl:soc?ucl/soc:null,best,pk3,pk5,PQ}}
+const POS_OF={son:"LW",yamal:"RW",sterling:"LW",mbappe:"CF",kane:"CF",ronaldo:"LW",messi:"RW",haaland:"CF",mane:"LW",hazard:"LW",drogba:"CF",vinicius:"LW",debruyne:"AM",salah:"RW",aguero:"CF",lewandowski:"CF",benzema:"CF",griezmann:"CF",henry:"CF",lautaro:"CF",neymar:"LW",suarez:"CF",saka:"RW",bellingham:"AM",ribery:"LW",robben:"RW",ibrahimovic:"CF",raphinha:"RW",iniesta:"CM",immobile:"CF",muller:"SS",dimaria:"RW",aubameyang:"CF",dybala:"SS",rooney:"CF",cavani:"CF",bale:"RW",kvaratskhelia:"LW",silva:"AM",torres:"CF",vanpersie:"CF",reus:"LW",lacazette:"CF",fabregas:"CM",bernardosilva:"RW",ronaldinho:"AM",kaka:"AM",higuain:"CF",villa:"CF",payet:"AM",musiala:"AM",mahrez:"RW",cuadrado:"RW",lampard:"CM",isco:"AM"},POSG={CF:"FW",SS:"FW",LW:"WG",RW:"WG",LM:"WG",RM:"WG",AM:"MF",CM:"MF",DM:"MF"},POSL={FW:"공격수",WG:"윙어",MF:"미드필더"},POSN={CF:"센터포워드",SS:"세컨드 스트라이커",LW:"왼쪽 윙어",RW:"오른쪽 윙어",LM:"왼쪽 미드필더",RM:"오른쪽 미드필더",AM:"공격형 미드필더",CM:"중앙 미드필더",DM:"수비형 미드필더"};
+const posGrp=p=>{const x=p&&p.preset?POS_OF[p.preset]:null;return x?POSL[POSG[x]]:""};
+const FLAG_NAME={"KR": "대한민국", "ES": "스페인", "ENG": "잉글랜드", "FR": "프랑스", "PT": "포르투갈", "AR": "아르헨티나", "NO": "노르웨이", "SN": "세네갈", "BE": "벨기에", "CI": "코트디부아르", "BR": "브라질", "EG": "이집트", "PL": "폴란드", "UY": "우루과이", "NL": "네덜란드", "SE": "스웨덴", "IT": "이탈리아", "DE": "독일", "GA": "가봉", "WLS": "웨일스", "GE": "조지아", "DZ": "알제리", "CO": "콜롬비아"};
+const FLAG_OF={son:"KR",yamal:"ES",sterling:"ENG",mbappe:"FR",kane:"ENG",ronaldo:"PT",messi:"AR",haaland:"NO",mane:"SN",hazard:"BE",drogba:"CI",vinicius:"BR",debruyne:"BE",salah:"EG",aguero:"AR",lewandowski:"PL",benzema:"FR",griezmann:"FR",henry:"FR",lautaro:"AR",neymar:"BR",suarez:"UY",saka:"ENG",bellingham:"ENG",ribery:"FR",robben:"NL",ibrahimovic:"SE",raphinha:"BR",iniesta:"ES",immobile:"IT",muller:"DE",dimaria:"AR",aubameyang:"GA",dybala:"AR",rooney:"ENG",cavani:"UY",bale:"WLS",kvaratskhelia:"GE",silva:"ES",torres:"ES",vanpersie:"NL",reus:"DE",lacazette:"FR",fabregas:"ES",bernardosilva:"PT",ronaldinho:"BR",kaka:"BR",higuain:"AR",villa:"ES",payet:"FR",musiala:"DE",mahrez:"DZ",cuadrado:"CO",lampard:"ENG",isco:"ES"};
+function flagBody(c){switch(c){
+  case "UY":{const h=20/9;let r='<rect width="30" height="20" fill="#fff"/>';for(let i=1;i<9;i+=2)r+=`<rect y="${(i*h).toFixed(2)}" width="30" height="${h.toFixed(2)}" fill="#0038a8"/>`;let rays="";for(let i=0;i<16;i++)rays+=`<path d="M0 -4.1L.55 -2.6L-.55 -2.6Z" fill="#fcd116" transform="rotate(${i*22.5})"/>`;return r+`<rect width="11.1" height="11.1" fill="#fff"/><g transform="translate(5.55 5.55)">${rays}<circle r="2.5" fill="#fcd116" stroke="#b8860b" stroke-width=".25"/></g>`}
+ case "KR":{const tri=(x,y,a,pat)=>`<g transform="translate(${x} ${y}) rotate(${a})">`+pat.map((b,i)=>b?`<rect x="-2" y="${-1.6+i*1.2}" width="4" height=".75"/>`:`<rect x="-2" y="${-1.6+i*1.2}" width="1.75" height=".75"/><rect x=".25" y="${-1.6+i*1.2}" width="1.75" height=".75"/>`).join("")+`</g>`;
+  return `<rect width="30" height="20" fill="#fff"/><g transform="rotate(33.7 15 10)"><circle cx="15" cy="10" r="5" fill="#0047a0"/><path d="M10 10a5 5 0 0 1 10 0a2.5 2.5 0 0 0-5 0a2.5 2.5 0 0 1-5 0z" fill="#cd2e3a"/></g><g fill="#000">${tri(5.6,4.1,-56.3,[1,1,1])}${tri(24.4,15.9,-56.3,[0,0,0])}${tri(24.4,4.1,56.3,[0,1,0])}${tri(5.6,15.9,56.3,[1,0,1])}</g>`}
+ case "AR":return `<rect width="30" height="20" fill="#74acdf"/><rect y="6.67" width="30" height="6.67" fill="#fff"/><circle cx="15" cy="10" r="2.1" fill="#f6b40e" stroke="#85340a" stroke-width=".3"/>`;
+ case "PT":return `<rect width="30" height="20" fill="#f00"/><rect width="12" height="20" fill="#060"/><circle cx="12" cy="10" r="3.6" fill="none" stroke="#ff0" stroke-width="1"/><path d="M10.2 7.6h3.6v3.2a1.8 1.8 0 0 1-3.6 0z" fill="#fff" stroke="#f00" stroke-width=".6"/>`;
+ case "FR":return `<rect width="30" height="20" fill="#fff"/><rect width="10" height="20" fill="#002654"/><rect x="20" width="10" height="20" fill="#ce1126"/>`;
+ case "NO":return `<rect width="30" height="20" fill="#ba0c2f"/><rect x="8" width="6" height="20" fill="#fff"/><rect y="7" width="30" height="6" fill="#fff"/><rect x="9.5" width="3" height="20" fill="#00205b"/><rect y="8.5" width="30" height="3" fill="#00205b"/>`;
+ case "WLS":return `<rect width="30" height="20" fill="#fff"/><rect y="10" width="30" height="10" fill="#00b140"/><path d="M6.5 14.2c1.2-.2 2-1 2.4-2.1.2-.8.1-1.7.6-2.4.6-.8 1.5-1 2.1-1.6-.2-.9.1-1.8.8-2.4.6.4.9.9.9 1.6.8-.1 1.5.1 2 .6l1.4-.6c-.2.9-.7 1.4-1.2 1.8.9.2 1.7.7 2.1 1.5-.9-.2-1.7 0-2.3.4.6.7.7 1.6.4 2.5.9-.1 1.7.2 2.3.8-1 .3-1.9.1-2.6-.3-.4.8-1.1 1.4-2.1 1.6-.1-.8-.5-1.4-1.1-1.8-.5.9-1.4 1.5-2.5 1.5-1 0-1.9-.5-2.4-1.4-.5.3-1.1.5-1.7.5z" fill="#d30731"/>`;
+ case "ENG":return `<rect width="30" height="20" fill="#fff"/><rect x="13" width="4" height="20" fill="#ce1124"/><rect y="8" width="30" height="4" fill="#ce1124"/>`;
+ case "BR":return `<rect width="30" height="20" fill="#009c3b"/><path d="M15 2.2 27.4 10 15 17.8 2.6 10z" fill="#ffdf00"/><circle cx="15" cy="10" r="4.4" fill="#002776"/><path d="M10.8 8.9a9 9 0 0 1 8.9 2.7" fill="none" stroke="#fff" stroke-width=".8"/>`;
+ case "IT":return `<rect width="30" height="20" fill="#fff"/><rect width="10" height="20" fill="#009246"/><rect x="20" width="10" height="20" fill="#ce2b37"/>`;
+ case "SE":return `<rect width="30" height="20" fill="#006aa7"/><rect x="9.375" width="3.75" height="20" fill="#fecc00"/><rect y="8" width="30" height="4" fill="#fecc00"/>`;
+ case "GA":return `<rect width="30" height="6.67" fill="#009e60"/><rect y="6.67" width="30" height="6.67" fill="#fcd116"/><rect y="13.33" width="30" height="6.67" fill="#3a75c4"/>`;
+ case "DE":return `<rect width="30" height="6.67" fill="#000"/><rect y="6.67" width="30" height="6.67" fill="#dd0000"/><rect y="13.33" width="30" height="6.67" fill="#ffce00"/>`;
+ case "NL":return `<rect width="30" height="20" fill="#fff"/><rect width="30" height="6.67" fill="#ae1c28"/><rect y="13.33" width="30" height="6.67" fill="#21468b"/>`;
+ case "PL":return `<rect width="30" height="20" fill="#fff"/><rect y="10" width="30" height="10" fill="#dc143c"/>`;
+ case "EG":return `<rect width="30" height="20" fill="#fff"/><rect width="30" height="6.67" fill="#ce1126"/><rect y="13.33" width="30" height="6.67" fill="#000"/><path d="M15 7.6l1.6 1.2-.5 2.6h-2.2l-.5-2.6z" fill="#c09300"/>`;
+ case "BE":return `<rect width="30" height="20" fill="#000"/><rect x="10" width="10" height="20" fill="#fdda24"/><rect x="20" width="10" height="20" fill="#ef3340"/>`;
+ case "CI":return `<rect width="30" height="20" fill="#fff"/><rect width="10" height="20" fill="#f77f00"/><rect x="20" width="10" height="20" fill="#009e60"/>`;
+ case "SN":return `<rect width="30" height="20" fill="#fdef42"/><rect width="10" height="20" fill="#00853f"/><rect x="20" width="10" height="20" fill="#e31b23"/><path d="M15 7l.88 2.7h2.85l-2.3 1.67.88 2.7L15 12.4l-2.3 1.67.88-2.7-2.3-1.67h2.85z" fill="#00853f"/>`;
+ case "ES":return `<rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/><rect x="7" y="7.2" width="3.2" height="5.6" rx=".6" fill="#aa151b" opacity=".85"/>`;
+ case "GE":return `<rect width="30" height="20" fill="#fff"/><rect x="13" width="4" height="20" fill="#e8112d"/><rect y="8" width="30" height="4" fill="#e8112d"/><rect x="4.5" y="3.4" width="4" height="1.2" fill="#e8112d"/><rect x="5.9" y="2" width="1.2" height="4" fill="#e8112d"/><rect x="21.5" y="3.4" width="4" height="1.2" fill="#e8112d"/><rect x="22.9" y="2" width="1.2" height="4" fill="#e8112d"/><rect x="4.5" y="15.4" width="4" height="1.2" fill="#e8112d"/><rect x="5.9" y="14" width="1.2" height="4" fill="#e8112d"/><rect x="21.5" y="15.4" width="4" height="1.2" fill="#e8112d"/><rect x="22.9" y="14" width="1.2" height="4" fill="#e8112d"/>`;
+ case "CO":return `<rect width="30" height="10" fill="#fcd116"/><rect y="10" width="30" height="5" fill="#003893"/><rect y="15" width="30" height="5" fill="#ce1126"/>`;
+ case "DZ":return `<rect width="30" height="20" fill="#fff"/><rect width="15" height="20" fill="#006233"/><circle cx="15.4" cy="10" r="4.6" fill="#d21034"/><circle cx="16.6" cy="10" r="3.8" fill="#fff"/><path d="M17.6 7.8l.7 2.1h2.2l-1.8 1.3.7 2.1-1.8-1.3-1.8 1.3.7-2.1-1.8-1.3h2.2z" fill="#d21034"/>`;
+ default:return ""}}
+function flagSVG(c){const b=flagBody(c);if(!b)return "";const nm=FLAG_NAME[c]||c;return `<svg class="flag" viewBox="0 0 30 20" role="img" tabindex="0" data-tip="${nm}" aria-label="${nm} 국기">${b}<rect width="30" height="20" fill="none" stroke="rgba(0,0,0,.18)" stroke-width=".8"/></svg>`}
+const SHORT_NAME={"케빈 데 브라위너":"데 브라위너","비니시우스 주니오르":"비니시우스","라우타로 마르티네스":"라우타로","앙헬 디 마리아":"디 마리아","흐비차 크바라츠헬리아":"흐비차","즐라탄 이브라히모비치":"즐라탄","베르나르두 실바":"B.실바","다비드 실바":"D.실바"};
+function shortName(n){if(SHORT_NAME[n])return SHORT_NAME[n];const w=n.trim().split(/\s+/);return w.length>1?w[w.length-1]:n}
+function cmpScrollMode(){const w=$("compareTbl").parentElement,t=$("compareTbl");const max=w.scrollWidth-w.clientWidth;const on=t.classList.contains("scrolled");
+  if(!on&&w.scrollLeft>8&&max>120)t.classList.add("scrolled");else if(on&&w.scrollLeft<=0)t.classList.remove("scrolled")}
+function cmpScrollInit(){const w=$("compareTbl").parentElement;if(w.__sn)return;w.__sn=1;w.addEventListener("scroll",cmpScrollMode,{passive:true})}
+function cmpCell(k,s){const n=x=>x==null?"–":f2(x);
+  switch(k){case "name":return `<button type="button" class="plink" data-go="${esc(s.p.id)}"${s.p.id===st.active?' aria-current="true"':""}><span class="nf">${esc(s.p.name)}</span><span class="ns">${esc(shortName(s.p.name))}</span></button><span class="nflag">${flagSVG(FLAG_OF[s.p.preset])}</span>${RETIRED.has(s.p.preset)?'<span class="ret" title="은퇴" aria-label="은퇴">*</span>':""}`;
+  case "pos":{const x=POS_OF[s.p.preset];return x?`<span title="${esc(POSN[x])}">${esc(POSL[POSG[x]])}</span>`:"–"}
+  case "clubs":return s.clubMore?`<span class="clubtip" tabindex="0" role="button" data-tip="${esc("SOC 비중 높은 순\n"+s.clubTip)}" aria-label="${esc(s.clubs)}">${esc(s.clubTop)} <span class="sub">외 ${s.clubMore}개</span></span>`:`<span>${esc(s.clubTop||"–")}</span>`;
+  case "soc":return f2(s.soc);case "n":return s.n;case "min":return s.min.toLocaleString("ko-KR");case "g":return s.g;case "a":return s.a;
+  case "ratio":return s.ratio==null?"–":f2(s.ratio)+"배";case "ep":return fEpS(s.ep);case "avgO":return s.avgO==null?"–":Math.round(s.avgO);
+  case "ucl":return s.ucl==null?"–":Math.round(s.ucl*100)+"%";case "best":return s.best?`${f2(s.best[1])} <span class="sub">${esc(String(s.best[0]).replace(/^\d{2}(\d{2})-(\d{2})$/,"$1-$2"))}</span>`:"–";
+  case "pk3":case "pk5":{const o=s[k],N=k==="pk3"?3:5;if(!o)return "–";const tip=N+"-peak 평균: 출전 "+peakMin(st.coef)+"분 이상 시즌 중 SOC 상위 "+N+"개"+(o.k<N?" (기준을 넘는 시즌이 "+o.k+"개뿐이라 "+o.k+"시즌 평균)":"")+"\n"+o.ss.map((x,i)=>(i+1)+". "+x[0]+"  "+f2(x[1])+" · "+x[2].toLocaleString("ko-KR")+"분").join("\n");return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${f2(o.v)}${o.k<N?'<span class="pkst">*</span>':""}</span>`}
+  default:return n(s[k])}}
+function cmpVal(k,s){if(k==="name")return s.p.name;if(k==="clubs")return s.clubs;if(k==="pos")return posGrp(s.p);if(k==="best")return s.best?s.best[1]:-1;if(k==="pk3"||k==="pk5")return s[k]?s[k].v:-1;const v=s[k];return v==null?-1e9:v}
+// 비교 표: 기본 10명 높이, 표 안을 끝까지 스크롤한 뒤에 페이지가 움직임(overscroll 기본 동작)
+const CMP_ROWS=10;
+function cmpCap(){const box=$("cmpBox");if(!box)return;const t=$("compareTbl"),rows=t.tBodies[0]?t.tBodies[0].rows:[];if(!box.offsetParent)return;if(rows.length<=CMP_ROWS){box.style.maxHeight="";return}const r=rows[CMP_ROWS-1];const sb=box.offsetHeight-box.clientHeight;box.style.maxHeight=Math.ceil(r.offsetTop+r.offsetHeight+sb+1)+"px"}
+window.addEventListener("resize",()=>{try{cmpCap()}catch(e){}});
+function renderCompare(){
+  const c=st.coef;const S=st.players.map(p=>pStats(p,c));
+  const k=st.cmpSort,dir=st.cmpDir||-1;let rows=[...S];
+  if(k){rows.sort((x,y)=>{const a=cmpVal(k,x),b=cmpVal(k,y);if(typeof a==="string")return a.localeCompare(b,"ko")*(dir<0?1:-1);return (b-a)*(dir<0?1:-1)})}
+  $("cmpSortReset").hidden=!k;
+  const head=CMPCOLS.map(([ck,lb])=>{const num=!["name","pos","clubs"].includes(ck);const on=k===ck;return `<th class="${num?"num ":""}sortable${on?" sorted":""}"${ck==="soc"?' data-sort="soc"':""} aria-sort="${on?(dir<0?"descending":"ascending"):"none"}"><button type="button" class="thbtn" data-ck="${ck}"><span class="lb">${lb}</span><span class="arr" aria-hidden="true">${on?(dir<0?"▼":"▲"):""}</span></button></th>`}).join("");
+  $("compareTbl").innerHTML=`<thead><tr><th class="rkcol" data-ck="rk">#</th>${head}</tr></thead><tbody>`+rows.map((s,i)=>`<tr class="${s.p.id===st.active?"on":""}"><td class="rkcol">${i+1}</td>`+CMPCOLS.map(([ck])=>`<td class="${["name","pos","clubs"].includes(ck)?"":"num"}${ck==="soc"?" val":""}">${cmpCell(ck,s)}</td>`).join("")+"</tr>").join("")+"</tbody>";
+  applyCols("compareTbl");cmpScrollInit();cmpScrollMode();cmpCap();
+  if(st.cmpView==="chart")renderChart(S);
+}
+function chartSel(){let s=(st.chartSel||st.players.slice(0,MAXSEL).map(p=>p.id)).filter(id=>st.players.some(p=>p.id===id));return s.slice(0,MAXSEL)}
+function slotOf(id){const i=st.players.findIndex(p=>p.id===id);return (i%55)+1}
+function chipFilter(){const q=$("chartQ"),box=$("chartChips"),note=$("chipNote");if(!q||!box)return;const f=s=>s.toLowerCase().replace(/\s+/g,""),k=f(q.value||"");let n=0;box.querySelectorAll(".chip").forEach(b=>{const ok=!k||f(b.dataset.n||"").includes(k);b.style.display=ok?"":"none";if(ok)n++});if(note){if(note.dataset.o===undefined)note.dataset.o=note.textContent;note.textContent=k&&!n?"검색 결과 없음":note.dataset.o}box.scrollLeft=0;chipEdges()}
+document.addEventListener("input",e=>{if(e.target&&e.target.id==="chartQ")chipFilter()});
+let CH=null;
+function renderChart(S){
+  S=S||st.players.map(p=>pStats(p,st.coef));const sel=chartSel(),X=st.chartX||"date";
+  const box=$("chartChips");const keepL=box.scrollLeft||0;box.innerHTML="";
+  [...st.players].sort(byPlayerOrder).forEach(p=>{const on=sel.includes(p.id);const b=document.createElement("button");b.type="button";b.className="chip";b.dataset.n=p.name;b.setAttribute("aria-pressed",on);if(!on&&sel.length>=MAXSEL)b.setAttribute("aria-disabled","true");const kk=document.createElement("span");kk.className="key";kk.style.setProperty("--k","var(--s"+slotOf(p.id)+")");b.appendChild(kk);b.appendChild(document.createTextNode(p.name));b.addEventListener("click",()=>{const s2=chartSel();if(s2.includes(p.id))st.chartSel=s2.filter(x=>x!==p.id);else{if(s2.length>=MAXSEL)return;st.chartSel=[...s2,p.id]}save();renderChart()});box.appendChild(b)});box.scrollLeft=keepL;chipEdges();chipFilter();
+  const dnum=d=>Date.parse(d+"T00:00:00Z")/864e5;
+  const series=S.filter(s=>sel.includes(s.p.id)).map(s=>{const pts=[];let cum=0;
+    if(X==="games"){const byDate={};s.L.forEach(({e,r})=>{byDate[e.date]=(byDate[e.date]||0)+r.v});s.M.forEach((m,i)=>{cum+=byDate[m.date]||0;pts.push({x:i+1,y:cum,d:m.date})})}
+    else{const by={};s.L.forEach(({e,r})=>{if(e.date)by[e.date]=(by[e.date]||0)+r.v});const ds=[...new Set([...s.M.map(m=>m.date),...Object.keys(by)])].filter(Boolean).sort();ds.forEach(d=>{cum+=by[d]||0;pts.push({x:dnum(d),y:cum,d})})}
+    return {s,pts,slot:slotOf(s.p.id)}}).filter(o=>o.pts.length);
+  const svg=$("cumChart");const cw=Math.round(svg.getBoundingClientRect().width||900);const W=Math.max(320,Math.min(1200,cw)),H=W<600?300:400,ml=40,mr=W<600?96:120,mt=14,mb=34;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  if(!series.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle">표시할 선수를 고르세요</text>`;CH=null;$("chartCap").textContent="";return}
+  const xs=series.flatMap(o=>o.pts.map(p=>p.x)),x0=X==="games"?0:Math.min(...xs),x1=Math.max(...xs),ymax=Math.max(1,...series.map(o=>o.pts[o.pts.length-1].y));
+  const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const step=nice(ymax/5),ytop=Math.ceil(ymax/step)*step;
+  const sx=x=>ml+(x-x0)/((x1-x0)||1)*(W-ml-mr),sy=y=>H-mb-(y/ytop)*(H-mt-mb);
+  let g='<g class="grid">';for(let y=0;y<=ytop+1e-9;y+=step)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-6}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
+  let xa='<g class="yr">';if(X==="games"){const st2=nice(x1/8);for(let v=0;v<=x1;v+=st2)xa+=`<line x1="${sx(v)}" x2="${sx(v)}" y1="${H-mb}" y2="${H-mb+4}"/><text class="num" x="${sx(v)}" y="${H-mb+18}" text-anchor="middle">${v}</text>`}
+  else{const y0=new Date(x0*864e5).getUTCFullYear(),y1=new Date(x1*864e5).getUTCFullYear();const yst=Math.max(1,Math.ceil((y1-y0+1)/12));for(let y=y0+1;y<=y1;y+=yst){const xv=dnum(y+"-01-01");xa+=`<line x1="${sx(xv)}" x2="${sx(xv)}" y1="${mt}" y2="${H-mb}" opacity=".5"/><text class="num" x="${sx(xv)}" y="${H-mb+18}" text-anchor="middle">${y}</text>`}}
+  xa+="</g>";
+  let ser='<g class="series">';const labs=[];
+  series.forEach(o=>{const col="var(--s"+o.slot+")";let d="";o.pts.forEach((p,i)=>{d+=(i?"L":"M")+sx(p.x).toFixed(1)+" "+sy(p.y).toFixed(1)});ser+=`<path d="${d}" stroke="${col}"/>`;const lp=o.pts[o.pts.length-1];ser+=`<circle cx="${sx(lp.x)}" cy="${sy(lp.y)}" r="3.5" fill="${col}"/>`;labs.push({y:sy(lp.y),x:sx(lp.x),t:o.s.p.name+" "+f2(lp.y),col})});ser+="</g>";
+  labs.sort((a,b)=>a.y-b.y);for(let i=1;i<labs.length;i++)if(labs[i].y-labs[i-1].y<14)labs[i].y=labs[i-1].y+14;
+  let lb='<g class="leaders">';labs.forEach(l=>{lb+=`<path d="M${l.x+5} ${l.y} H${W-mr+6}" stroke="${l.col}"/><text class="endlab" x="${W-mr+10}" y="${l.y+4}">${esc(l.t)}</text>`});lb+="</g>";
+  svg.innerHTML=g+xa+ser+lb+`<line class="xh" id="chartXh" x1="0" x2="0" y1="${mt}" y2="${H-mb}" visibility="hidden"/>`;
+  CH={series,sx,sy,W,H,ml,mr,mt,mb,x0,x1,X};
+  $("chartCap").textContent=(X==="games"?"가로축: 출전 경기 수 (공식 경기 순서)":"가로축: 날짜")+" · 세로축: 누적 SOC · 위의 '대회' 선택이 적용됨";
+}
+(()=>{const sv=$("cumChart"),tip=$("chartTip");if(!sv)return;
+  const at=(pts,x)=>{let v=null;for(const p of pts){if(p.x<=x)v=p;else break}return v};
+  sv.addEventListener("pointermove",ev=>{if(!CH)return;const r=sv.getBoundingClientRect();const px=(ev.clientX-r.left)/r.width*CH.W;if(px<CH.ml||px>CH.W-CH.mr){tip.hidden=true;$("chartXh").setAttribute("visibility","hidden");return}
+    const x=CH.x0+(px-CH.ml)/(CH.W-CH.ml-CH.mr)*(CH.x1-CH.x0);const xh=$("chartXh");xh.setAttribute("x1",px);xh.setAttribute("x2",px);xh.setAttribute("visibility","visible");
+    const rows=CH.series.map(o=>({o,p:at(o.pts,x)})).filter(z=>z.p).sort((a,b)=>b.p.y-a.p.y);
+    const t=CH.X==="games"?Math.round(x)+"번째 경기":new Date(x*864e5).toISOString().slice(0,7).replace("-",".");
+    tip.innerHTML=`<div class="t">${t}</div>`+rows.map(z=>`<div class="r"><i style="--k:var(--s${z.o.slot})"></i><span>${esc(z.o.s.p.name)}</span><b>${f2(z.p.y)}</b></div>`).join("");
+    tip.hidden=!rows.length;const bw=$("chartBox").getBoundingClientRect();let left=ev.clientX-bw.left+14;if(left>bw.width-170)left=ev.clientX-bw.left-180;tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,ev.clientY-bw.top-20)+"px"});
+  sv.addEventListener("pointerleave",()=>{tip.hidden=true;const xh=$("chartXh");if(xh)xh.setAttribute("visibility","hidden")})})();
+function setView(v){st.cmpView=v;$("viewTable").setAttribute("aria-pressed",v!=="chart");$("viewChart").setAttribute("aria-pressed",v==="chart");$("cmpTableWrap").hidden=v==="chart";$("cmpChartWrap").hidden=v!=="chart";save();renderCompare()}
+$("viewTable").addEventListener("click",()=>setView("table"));$("viewChart").addEventListener("click",()=>setView("chart"));
+document.querySelectorAll('input[name="chartX"]').forEach(r=>{r.checked=r.value===(st.chartX||"date");r.addEventListener("change",()=>{st.chartX=r.value;save();renderChart()})});
+const YEAR_COLS=[["yr","시즌"],["soc","SOC"],["n","경기"],["min","출전(분)"],["g","골"],["a","도움"],["p90","SOC/90"],["pm","경기당 SOC"],["pap","SOC/공격P"],["dv","가치 차이"],["ratio","가치 배율"],["ep","기대 승점"],["avgS","평균 S"],["avgO","평균 상대"]];
+const plainLb=s=>String(s).replace(/<br>/g," ").replace(/<[^>]+>/g,"");
+var COLM={
+  compareTbl:{all:()=>["rk",...CMPCOLS.map(x=>x[0])],fixed:2,label:k=>k==="rk"?"#":plainLb((CMPCOLS.find(x=>x[0]===k)||[,k])[1]),panel:"cmpColPanel"},
+  yearTbl:{all:()=>YEAR_COLS.map(x=>x[0]),fixed:1,label:k=>(YEAR_COLS.find(x=>x[0]===k)||[,k])[1],panel:"yrColPanel"}};
+function colCfg(tid){const m=COLM[tid],all=m.all(),mov=all.slice(m.fixed),c=(st.cols&&st.cols[tid])||{};
+  const ord=(Array.isArray(c.order)?c.order:[]).filter(k=>mov.includes(k));mov.forEach(k=>{if(!ord.includes(k))ord.push(k)});
+  const hid=new Set((Array.isArray(c.hid)?c.hid:[]).filter(k=>mov.includes(k)));
+  return {all,fixedK:all.slice(0,m.fixed),mov,ord,hid,changed:hid.size>0||ord.some((k,i)=>k!==mov[i])}}
+function setCols(tid,ord,hid){st.cols=st.cols||{};const c=colCfg(tid);
+  const changed=hid.size>0||ord.some((k,i)=>k!==c.mov[i]);
+  if(changed)st.cols[tid]={order:ord,hid:[...hid]};else delete st.cols[tid];
+  save();applyCols(tid);}
+function applyCols(tid){const t=$(tid);if(!t||!COLM||!COLM[tid])return;const c=colCfg(tid);const seq=[...c.fixedK,...c.ord];
+  for(const row of t.rows){const cs=[...row.cells];if(cs.length!==c.all.length)continue;const by={};
+    c.all.forEach((k,i)=>{const el=row.dataset.ckd?cs.find(x=>x.dataset.ck===k):cs[i];by[k]=el});
+    if(c.all.some(k=>!by[k]))continue;
+    c.all.forEach(k=>{by[k].dataset.ck=k;by[k].classList.toggle("colhid",c.hid.has(k))});row.dataset.ckd="1";
+    seq.forEach(k=>row.appendChild(by[k]))}
+  t.querySelectorAll("thead th[data-ck]").forEach(th=>th.classList.toggle("colmov",c.mov.includes(th.dataset.ck)));
+  renderColPanel(tid)}
+function renderColPanel(tid){const m=COLM[tid],box=$(m.panel);const c=colCfg(tid);
+  document.querySelectorAll(`.colbtn[data-ct="${tid}"]`).forEach(b=>{b.textContent="열 편집"+(c.hid.size?` (${c.hid.size}개 숨김)`:"")});
+  if(!box||box.hidden)return;
+  const vis=c.ord.filter(k=>!c.hid.has(k));
+  box.innerHTML=`<div class="colhd"><p class="hint">체크를 끄면 숨김 · ◀▶ 또는 머리행을 끌어 순서 바꾸기(터치는 길게 누른 뒤 끌기)${c.fixedK.length?` · 맨 앞 ${c.fixedK.map(m.label).join("·")} 열은 고정`:""}</p><button type="button" class="linkbtn colreset"${c.changed?"":" disabled"}>초기화</button></div><ol>`+
+    c.ord.map((k,i)=>`<li class="${c.hid.has(k)?"off":""}"><label><input type="checkbox" data-ck="${k}"${c.hid.has(k)?"":" checked"}${!c.hid.has(k)&&vis.length<=1?" disabled":""}><span class="cl">${esc(m.label(k))}</span></label><button type="button" class="mv" data-ck="${k}" data-mv="-1" aria-label="${esc(m.label(k))} 왼쪽으로"${i===0?" disabled":""}>◀</button><button type="button" class="mv" data-ck="${k}" data-mv="1" aria-label="${esc(m.label(k))} 오른쪽으로"${i===c.ord.length-1?" disabled":""}>▶</button></li>`).join("")+`</ol>`;
+  const rb=box.querySelector(".colreset");if(rb&&!c.changed){rb.style.opacity=".4";rb.style.cursor="default"}}
+document.querySelectorAll(".colbtn").forEach(b=>b.addEventListener("click",()=>{const tid=b.dataset.ct,box=$(COLM[tid].panel);box.hidden=!box.hidden;b.setAttribute("aria-expanded",String(!box.hidden));renderColPanel(tid)}));
+document.querySelectorAll(".colpanel").forEach(box=>{const tid=box.dataset.ct;
+  box.addEventListener("change",ev=>{const i=ev.target.closest("input[data-ck]");if(!i)return;const c=colCfg(tid);if(i.checked)c.hid.delete(i.dataset.ck);else c.hid.add(i.dataset.ck);setCols(tid,c.ord,c.hid);box.querySelector(`input[data-ck="${i.dataset.ck}"]`)?.focus()});
+  box.addEventListener("click",ev=>{const r=ev.target.closest(".colreset");if(r){if(!colCfg(tid).changed)return;if(st.cols)delete st.cols[tid];save();applyCols(tid);;return}
+    const b=ev.target.closest(".mv[data-mv]");if(!b||b.disabled)return;const c=colCfg(tid),k=b.dataset.ck,d=+b.dataset.mv,i=c.ord.indexOf(k),j=i+d;if(j<0||j>=c.ord.length)return;
+    [c.ord[i],c.ord[j]]=[c.ord[j],c.ord[i]];setCols(tid,c.ord,c.hid);const nb=box.querySelector(`.mv[data-ck="${k}"][data-mv="${d}"]`);(nb&&!nb.disabled?nb:box.querySelector(`.mv[data-ck="${k}"]:not(:disabled)`))?.focus()})});
+/* 머리행 끌어서 옮기기 (마우스·펜은 바로 끌기, 터치는 길게 누른 뒤 끌기) */
+function colDrag(tid){const t=$(tid);if(!t)return;
+  t.addEventListener("pointerdown",ev=>{if(ev.pointerType==="touch"||ev.button!==0)return;const th=ev.target.closest("thead th[data-ck]");if(!th)return;
+    const c0=colCfg(tid),k=th.dataset.ck;if(!c0.mov.includes(k))return;
+    const sx=ev.clientX;let drag=false,tgt=null;
+    const clear=()=>t.querySelectorAll("thead th.dropL,thead th.dropR").forEach(x=>x.classList.remove("dropL","dropR"));
+    const hit=x=>{const ths=[...t.tHead.rows[0].cells].filter(h=>h.dataset.ck&&c0.mov.includes(h.dataset.ck)&&!h.classList.contains("colhid"));let best=null,bd=1e9;
+      for(const h of ths){const r=h.getBoundingClientRect();const d=x<r.left?r.left-x:x>r.right?x-r.right:0;if(d<bd){bd=d;best={h,after:x>(r.left+r.right)/2}}}return best};
+    const mv=e=>{if(!drag){if(Math.abs(e.clientX-sx)<6)return;drag=true;th.classList.add("coldrag");t.classList.add("coldragging")}
+      e.preventDefault();clear();tgt=hit(e.clientX);if(tgt&&tgt.h!==th)tgt.h.classList.add(tgt.after?"dropR":"dropL");else tgt=null};
+    const up=()=>{window.removeEventListener("pointermove",mv);window.removeEventListener("pointerup",up);window.removeEventListener("pointercancel",up);
+      clear();th.classList.remove("coldrag");t.classList.remove("coldragging");if(!drag)return;
+      const sup=e=>{e.stopPropagation();e.preventDefault()};window.addEventListener("click",sup,true);setTimeout(()=>window.removeEventListener("click",sup,true),0);
+      if(!tgt)return;const c=colCfg(tid),tk=tgt.h.dataset.ck;const ord=c.ord.filter(x=>x!==k);let j=ord.indexOf(tk);if(tgt.after)j++;ord.splice(j,0,k);setCols(tid,ord,c.hid)};
+    window.addEventListener("pointermove",mv);window.addEventListener("pointerup",up);window.addEventListener("pointercancel",up)});
+  /* 터치: 머리행을 잠깐(0.35초) 누르고 있다가 끌면 옮기기. 바로 밀면 지금처럼 표 가로 스크롤 */
+  const sc=(()=>{let p=t.parentElement;while(p&&p!==document.body){const o=getComputedStyle(p).overflowX;if((o==="auto"||o==="scroll")&&p.scrollWidth>p.clientWidth)return p;p=p.parentElement}return t.parentElement})();
+  t.addEventListener("touchstart",ev=>{if(ev.touches.length!==1)return;const th=ev.target.closest("thead th[data-ck]");if(!th)return;
+    const c0=colCfg(tid),k=th.dataset.ck;if(!c0.mov.includes(k))return;
+    const p0=ev.touches[0];let sx=p0.clientX,sy=p0.clientY,lx=sx,drag=false,tgt=null,raf=0,dead=false;
+    const clear=()=>t.querySelectorAll("thead th.dropL,thead th.dropR").forEach(x=>x.classList.remove("dropL","dropR"));
+    const hit=x=>{const ths=[...t.tHead.rows[0].cells].filter(h=>h.dataset.ck&&c0.mov.includes(h.dataset.ck)&&!h.classList.contains("colhid"));let best=null,bd=1e9;
+      for(const h of ths){const r=h.getBoundingClientRect();const d=x<r.left?r.left-x:x>r.right?x-r.right:0;if(d<bd){bd=d;best={h,after:x>(r.left+r.right)/2}}}return best};
+    const mark=()=>{clear();tgt=hit(lx);if(tgt&&tgt.h!==th)tgt.h.classList.add(tgt.after?"dropR":"dropL");else tgt=null};
+    const edge=()=>{if(!drag)return;const r=sc.getBoundingClientRect(),z=36;let d=0;if(lx<r.left+z)d=-Math.ceil((r.left+z-lx)/4);else if(lx>r.right-z)d=Math.ceil((lx-(r.right-z))/4);
+      if(d){sc.scrollLeft+=d;mark()}raf=requestAnimationFrame(edge)};
+    const timer=setTimeout(()=>{if(dead)return;drag=true;th.classList.add("coldrag");t.classList.add("coldragging");try{navigator.vibrate&&navigator.vibrate(15)}catch(e){}mark();raf=requestAnimationFrame(edge)},350);
+    const mv=e=>{const q=e.touches[0];if(!q)return;lx=q.clientX;
+      if(!drag){if(Math.abs(q.clientX-sx)>8||Math.abs(q.clientY-sy)>8){dead=true;clearTimeout(timer);end()}return}
+      e.preventDefault();mark()};
+    const end=()=>{t.removeEventListener("touchmove",mv);t.removeEventListener("touchend",fin);t.removeEventListener("touchcancel",fin)};
+    const fin=e=>{clearTimeout(timer);cancelAnimationFrame(raf);end();clear();th.classList.remove("coldrag");t.classList.remove("coldragging");if(!drag)return;
+      if(e&&e.cancelable)e.preventDefault();
+      const sup=x=>{x.stopPropagation();x.preventDefault()};window.addEventListener("click",sup,true);setTimeout(()=>window.removeEventListener("click",sup,true),400);
+      if(e&&e.type==="touchcancel")return;
+      if(!tgt)return;const c=colCfg(tid),tk=tgt.h.dataset.ck;const ord=c.ord.filter(x=>x!==k);let j=ord.indexOf(tk);if(tgt.after)j++;ord.splice(j,0,k);setCols(tid,ord,c.hid)};
+    t.addEventListener("touchmove",mv,{passive:false});t.addEventListener("touchend",fin);t.addEventListener("touchcancel",fin)},{passive:true});
+  t.addEventListener("contextmenu",ev=>{if(ev.target.closest("thead th[data-ck]")&&matchMedia("(pointer:coarse)").matches)ev.preventDefault()})}
+colDrag("compareTbl");colDrag("yearTbl");applyCols("yearTbl");
+$("compareTbl").addEventListener("click",ev=>{const go=ev.target.closest("[data-go]");if(go){st.active=go.dataset.go;st.period="all";render();return}
+  const b=ev.target.closest(".thbtn[data-ck]");if(!b)return;const k=b.dataset.ck;if(st.cmpSort!==k){st.cmpSort=k;st.cmpDir=-1}else if(st.cmpDir===-1)st.cmpDir=1;else{st.cmpSort=null;st.cmpDir=-1}save();renderCompare()});
+$("cmpSortReset").addEventListener("click",()=>{st.cmpSort=null;save();renderCompare()});
+{const _r=render;render=function(){_r.apply(this,arguments);renderCompare()}}
+/* 우승 커리어·개인수상 (Transfermarkt 업적) */
+const HON_T=[["UCL","챔피언스리그"],["UEL","유로파리그"],["USC","UEFA 슈퍼컵"],["CWC","클럽 월드컵·인터콘티넨털컵"],["LG","리그 우승"],["DC","국내컵 우승"],["LC","리그컵 우승"],["SC","국내 슈퍼컵 우승"]];
+const HON_A=[["BDO","발롱도르"],["FIFA","FIFA 더 베스트"],["UEFA","UEFA 올해의 유럽 선수"],["GB","골든보이"],["GBOOT","유러피언 골든슈"],["MVP","MLS MVP"],["POY","리그 올해의 선수"],["AFR","아프리카 올해의 선수"],["FOY","국가별 올해의 선수"],["VDV","VDV 시즌 선수"],["TOP","클럽 대회 득점왕"]];
+const HON_GRP={T:1,POY:1,FOY:1,AFR:1,MVP:1};
+function honKey(s){let m=s.match(/^(\d\d)\/(\d\d)$/);if(m){const y=+m[1];return (y>=50?1900:2000)+y}return +s||0}
+function honSplit(it){const i=it.indexOf(" ");return i<0?[it,""]:[it.slice(0,i),it.slice(i+1)]}
+function honGroup(items,keepPlain){const g=new Map();items.forEach(it=>{const [s,r]=honSplit(it);const k=r||"";if(!g.has(k))g.set(k,[]);g.get(k).push(s)});
+  return [...g.entries()].map(([k,v])=>({k,v:v.sort((a,b)=>honKey(a)-honKey(b))})).sort((a,b)=>honKey(a.v[0])-honKey(b.v[0]))}
+function honDetail(code,items,isT){
+  if(isT||HON_GRP[code]){const gs=honGroup(items);if(gs.length===1&&!gs[0].k)return gs[0].v.join(", ");
+    return gs.map(g=>g.k?`${esc(g.k)}${g.v.length>1?" "+g.v.length:""} (${g.v.join(", ")})`:g.v.join(", ")).join(" · ").replace(/&amp;/g,"&")}
+  return [...items].sort((a,b)=>honKey(honSplit(b)[0])-honKey(honSplit(a)[0])).join(" · ")}
+function renderHon(){const box=$("honBox");if(!box)return;const pl=cur(),d=pl&&HON_DATA[pl.preset];$("honWho").textContent=pl?pl.name:"";
+  if(!d){box.innerHTML='<p class="honnone">직접 추가한 선수는 우승·수상 기록이 없습니다.</p>';return}
+  const rowT=[],rowA=[];let tot=0;const cnt={};
+  HON_T.forEach(([c,l])=>{const it=d.t[c];if(!it||!it.length)return;tot+=it.length;cnt[c]=it.length;rowT.push([l,it.length,honDetail(c,it,true)])});
+  const grpO=L=>{const g=new Map();L.forEach(([n,sc])=>{if(!g.has(n))g.set(n,[]);g.get(n).push(sc)});return [...g.entries()].map(([n,v])=>`${n}${v.length>1?" "+v.length:""} (${v.join(", ")})`).join(" · ")};
+  const oW=d.o.filter(([n])=>!/준우승/.test(n)),oR=d.o.filter(([n])=>/준우승/.test(n));
+  if(oW.length){tot+=oW.length;rowT.push(["그 밖의 클럽 우승",oW.length,grpO(oW)])}
+  if(oR.length)rowT.push(["준우승 (합계 제외)",oR.length,grpO(oR)])
+  HON_A.forEach(([c,l])=>{const it=d.a[c];if(!it||!it.length)return;cnt[c]=it.length;rowA.push([l,it.length,honDetail(c,it,false)])});
+  const euro=(cnt.UCL||0)+(cnt.UEL||0)+(cnt.USC||0)+(cnt.CWC||0);
+  const chips=[["클럽 우승 합계",tot],["리그 우승",cnt.LG||0],["챔피언스리그",cnt.UCL||0],["발롱도르",cnt.BDO||0],["득점왕",cnt.TOP||0]].filter(x=>x[1]||x[0]==="클럽 우승 합계");
+  const tbl=rows=>rows.length?`<table class="hon"><tbody>${rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${r[1]}</td><td><div class="hd">${r[2].replace(/&amp;/g,"&").replace(/</g,"&lt;")}</div></td></tr>`).join("")}</tbody></table>`:'<p class="honnone">기록 없음</p>';
+  box.innerHTML=`<div class="honchips">${chips.map(([l,n])=>`<span>${l}<b>${n}</b></span>`).join("")}</div><div class="honh">클럽 우승</div>${tbl(rowT)}<div class="honh">개인수상</div>${tbl(rowA)}`}
+{const _r2=render;render=function(){_r2.apply(this,arguments);renderHon()}}
+setView(st.cmpView||"table");
+addEventListener("resize",()=>{if(st.cmpView==="chart")renderChart()});
+
+/* 클럽 칸: 마우스를 올리거나 터치하면 전체 클럽 목록 */
+(()=>{let tip=document.getElementById("flagTip");if(!tip){tip=document.createElement("div");tip.id="flagTip";tip.setAttribute("role","tooltip");document.body.appendChild(tip)}
+  let cur=null,shownAt=0;
+  const show=el=>{if(cur!==el)shownAt=Date.now();cur=el;tip.textContent=el.dataset.tip;tip.classList.add("on");const r=el.getBoundingClientRect();const w=tip.offsetWidth,h=tip.offsetHeight;let x=r.left,y=r.bottom+6;if(x+w>innerWidth-8)x=innerWidth-8-w;if(y+h>innerHeight-8)y=r.top-h-6;tip.style.left=Math.max(8,x)+"px";tip.style.top=y+"px"};
+  const hide=()=>{cur=null;tip.classList.remove("on")};
+  const box=document.getElementById("compareTbl");
+  box.addEventListener("mouseover",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el)show(el)});
+  let lastTouch=0;box.addEventListener("touchstart",()=>{lastTouch=Date.now()},{passive:true});
+  box.addEventListener("mouseout",ev=>{if(Date.now()-lastTouch<1000)return;const el=ev.target.closest(".clubtip,.flag");if(el&&!el.contains(ev.relatedTarget))hide()});
+  box.addEventListener("focusin",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el)show(el)});
+  box.addEventListener("focusout",()=>{if(Date.now()-lastTouch>=1000)hide()});
+  box.addEventListener("click",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el){ev.stopPropagation();if(cur===el&&Date.now()-shownAt>400)hide();else show(el)}});
+  document.addEventListener("click",ev=>{if(cur&&!ev.target.closest(".clubtip,.flag"))hide()});
+  addEventListener("scroll",hide,{passive:true});
+})();
+</script>
