@@ -11,6 +11,8 @@ src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 5
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
+tools/elo_table.js  src/data 에서 상대 Elo 팀×시즌 통합표 만들기(npm run elo → elo/)
+elo/                상대 Elo 팀×시즌 통합표·별칭·충돌 목록(ents.json 덤프는 git 제외)
 tests/baseline-latest.json   기존 선수 수치 기준 스냅숏(작업이 끝나면 갱신)
 docs/               인수인계 문서(아래 '문서' 절)
 players/            (선택) 선수별 원자료·build 스크립트·순위표 — 모델을 고치면 전원 재빌드가 필요하므로 보관

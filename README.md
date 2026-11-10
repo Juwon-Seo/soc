@@ -15,4 +15,4 @@
 
 ## 폴더
 
-`src/` 정본(index.html + data/*.js) · `tools/` 빌드·검증 · `tests/` 기준 스냅숏 · `docs/` 인수인계 문서 · `players/` 선수 원자료(선택) · `dist/` 빌드 결과(git 제외)
+`src/` 정본(index.html + data/*.js) · `tools/` 빌드·검증·통합표 · `elo/` 상대 Elo 팀×시즌 통합표(`npm run elo`) · `tests/` 기준 스냅숏 · `docs/` 인수인계 문서 · `players/` 선수 원자료(선택) · `dist/` 빌드 결과(git 제외)
