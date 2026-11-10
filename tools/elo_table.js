@@ -3,6 +3,8 @@
  상대 Elo 팀×시즌 통합표 만들기 (src/data/*.js 만 읽음, 브라우저 불필요)
 
    node tools/elo_table.js [출력 폴더=elo]
+   node tools/elo_table.js --apply [날짜 표기=오늘]   값이 여럿인 팀-시즌을 표의 값으로 선수 파일에 적용하고
+                                                    선수 설명 끝에 바뀐 팀·날짜·값 한 줄을 붙인다(그 뒤 npm run check --allow 로 검증)
 
  만드는 파일
    opponent_elo_by_team_season.csv  팀, 시즌, Elo, 근거, 수준 라벨(lv), 사용 기록 수, 선수, 이름 표기, 해소 전 값(값:건수)
@@ -26,13 +28,16 @@
       아니면 7월 1일 기준 'YYYY-YY'.
    4) 팀-시즌 값 결정: ① 순위가 확인된 값(lv에 '추정' 없음)만 모아 하나면 그 값, 여럿이면 다수값(동수면 평균)
       ② 확인값이 없으면 추정값의 다수값, 동수면 평균. lv는 고른 값을 쓰는 기록 중 가장 흔한 문구.
-   이 도구는 표만 만든다. 선수 기록(src/data)은 바꾸지 않는다.
+   --apply 없이 돌리면 표만 만들고 선수 기록(src/data)은 바꾸지 않는다.
 */
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 const ROOT = path.dirname(__dirname);
-const OUT = path.resolve(process.argv[2] || path.join(ROOT, 'elo'));
+const ARGS = process.argv.slice(2);
+const APPLY = ARGS.includes('--apply');
+const POS = ARGS.filter(a => !a.startsWith('--'));
+const OUT = APPLY ? path.join(ROOT, 'elo') : path.resolve(POS[0] || path.join(ROOT, 'elo'));
 
 // ---------- 자료 읽기 ----------
 const DATA = path.join(ROOT, 'src', 'data');
@@ -254,3 +259,42 @@ fs.writeFileSync(path.join(OUT, 'ents.json'), '[\n' + ents.map(e => JSON.stringi
 console.log(`선수 ${files.length}명 · 기록 ${ents.length} · 표기 ${new Set(ents.map(e => e.opp)).size} → 팀 ${teamNames.size} (별칭 묶음 ${al.length}, 모호한 짧은 표기 ${ambRows.length})`);
 console.log(`팀-시즌 ${rows.length} · 값이 여럿인 팀-시즌 ${conf.length} (차이 ≥100: ${conf.filter(r => r.spread >= 100).length}) · 시즌을 날짜로 정한 팀-시즌 ${rows.filter(r => r.dateSeason).length}`);
 console.log('출력', path.relative(ROOT, OUT) || '.');
+
+// ---------- --apply: 선수 파일에 적용 ----------
+if (APPLY) {
+  const today = (() => { if (POS[0]) return POS[0]; const d = new Date(); return d.getFullYear() + '.' + (d.getMonth() + 1) + '.' + d.getDate(); })();
+  const fmtD = d => d.slice(0, 4) + '.' + (+d.slice(5, 7)) + '.' + (+d.slice(8, 10));
+  const change = new Map(); // P → [{i, from, to, lv, opp, date}]
+  for (const r of rows) {
+    if (r.vals.length < 2) continue;
+    for (const e of groups.get(r.key + '|' + r.season)) if (e.elo !== r.elo) {
+      if (!change.has(e.p)) change.set(e.p, []);
+      change.get(e.p).push({ i: e.i, from: e.elo, to: r.elo, lv: r.lv, opp: e.opp, date: e.date });
+    }
+  }
+  const summary = [];
+  for (const [P, L] of [...change].sort()) {
+    const f = path.join(DATA, P.toLowerCase() + '.js');
+    let src = fs.readFileSync(f, 'utf8');
+    const E = ctx[P + '_E'];
+    const old = 'const ' + P + '_E=' + JSON.stringify(E) + ';';
+    if (src.split(old).length !== 2) { console.error('기록 배열을 찾지 못함', P); process.exit(1); }
+    const E2 = E.map(x => x.slice());
+    for (const c of L) { E2[c.i][2] = c.to; E2[c.i][12] = c.lv; }
+    src = src.replace(old, () => 'const ' + P + '_E=' + JSON.stringify(E2) + ';');
+    // 설명 줄: 같은 팀·날짜·값 변화는 묶어서 (기록 k개)
+    const g = new Map();
+    for (const c of L.sort((a, b) => a.date.localeCompare(b.date))) { const k = c.opp + ' ' + fmtD(c.date) + ' ' + c.from + '→' + c.to; g.set(k, (g.get(k) || 0) + 1); }
+    const items = [...g].map(([k, n]) => n > 1 ? k + '(기록 ' + n + '개)' : k);
+    const had = /팀×시즌 통합표로 한 값에 맞춤/.test(ctx[P + '_NOTE']);
+    const line = (had ? today + ' 다시 점검해 ' : today + ' ') + '같은 팀·같은 시즌인데 선수마다 달랐던 상대 Elo를 팀×시즌 통합표로 한 값에 맞춤(순위가 확인된 값 → 여러 선수가 쓴 값 → 평균 순): 기록 ' + L.length + '개 — ' + items.join(', ');
+    const head = 'const ' + P + '_NOTE="'; const st = src.indexOf(head);
+    if (st < 0) { console.error('설명을 찾지 못함', P); process.exit(1); }
+    let i = st + head.length; while (src[i] !== '"') { if (src[i] === '\\') i++; i++; }
+    src = src.slice(0, i) + JSON.stringify('\n' + line).slice(1, -1) + src.slice(i);
+    fs.writeFileSync(f, src);
+    summary.push([PNAME[P] || P, L.length, items.join(', ')]);
+  }
+  csv('applied.csv', ['선수', '바뀐 기록 수', '바뀐 팀·날짜·값'], summary);
+  console.log('적용: 선수 ' + summary.length + '명 · 기록 ' + summary.reduce((s, x) => s + x[1], 0) + '개 → elo/applied.csv. 이제 npm run elo 를 다시 돌려 표를 갱신하세요.');
+}
