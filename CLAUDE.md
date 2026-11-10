@@ -64,7 +64,8 @@ SOC = Σ 기본값 × S × O × C
 ## 게시 (링크로 확인하기)
 
 - 정본 게시본(채팅에서 만든 기존 링크): https://claude.ai/artifact/QAwELkPtyT2ZGvpPfmvUDt — slug `bba54db4-c9db-4117-bd38-c8859144fe7f`. 파일은 `src/index.html`→`index.html`, `src/data/*.js`→`data/*.js` 그대로 대응한다. **claude.ai 채팅 세션에서** `publish_files`로 바뀐 파일만 올리면 같은 링크가 갱신된다(slug·base_version 필요, 파일은 작업 폴더 아래). 올린 뒤 `list_files` sha256으로 확인.
-- Claude Code에서 직접 게시하면 `claude.ai/code/artifact/…` 형식의 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`(약 4MB)을 게시한다. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
+- Claude Code에서 직접 게시하면 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`(약 4MB)을 게시한다. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
+- Claude Code 게시본(2026-11-10 v1.146부터): https://claude.ai/artifact/1GGsVtJ4cca2x1h6VwUc4A — 다음 세션에서 갱신할 때는 이 URL을 `url`로 넘겨 같은 링크를 유지한다(안 넘기면 또 새 링크가 생김). 채팅 정본 링크(위)와는 따로 관리되므로 둘 중 어느 쪽이 최신인지 버전 문구로 확인한다.
 - 게시 직전에 다른 세션이 올렸는지(버전·sha256) 확인한다.
 
 ## 문서
