@@ -47,6 +47,9 @@ def far_color(existing, light):
 
 
 def main():
+    # 안전장치: 정본 저장소(/home/user/soc)는 ADD_PLAYERS_REAL=1 일 때만 고친다(검증은 복사본에서 — 판정 에이전트가 실수로 원본을 고친 일이 두 번 있었음)
+    if os.path.realpath(ROOT) == "/home/user/soc" and os.environ.get("ADD_PLAYERS_REAL") != "1":
+        sys.exit("정본 저장소에는 ADD_PLAYERS_REAL=1 python3 tools/add_players.py … 로만 실행합니다(검증은 복사본에서)")
     last = sys.argv[1]
     specs = [json.load(open(p, encoding="utf-8")) for p in sys.argv[2:]]
     s = open(IDX, encoding="utf-8").read()
