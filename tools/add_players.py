@@ -73,12 +73,17 @@ def main():
         tags.append(f'<script src="data/{P.lower()}.js"></script>')
         presets.append(f',{pid}:{{name:"{sp["name"]}",ver:pver({P}_E,{P}_M),entries:mk({P}_E),matches:mkM({P}_M),note:{P}_NOTE}}')
         autoadd.append(f'if(!st.players.some(p=>p.preset==="{pid}")){{st.players.push(fromPreset("{pid}"))}}')
-        ks = [c["key"] for c in sp["clubs"]]
+        ks = list(dict.fromkeys(c["key"] for c in sp["clubs"]))  # 다시 돌아온 클럽은 같은 키(임모빌레 torim 선례)
+        uniq = []
+        for c in sp["clubs"]:
+            u = next((x for x in uniq if x["key"] == c["key"]), None)
+            if u: u["years"] += ", " + c["years"]
+            else: uniq.append(dict(c))
         for k in ks:
             if re.search(r'[,{]' + k + r':\[', s) or re.search(r'"' + k + r'"', s):
                 sys.exit(f"클럽 키가 이미 있음: {k}")
         pclubs.append(f'{pid}:[' + ",".join(f'"{k}"' for k in ks) + '],')
-        clubs2.append("".join(f'{c["key"]}:["{c["name"]}","{c["years"]}"],' for c in sp["clubs"]))
+        clubs2.append("".join(f'{c["key"]}:["{c["name"]}","{c["years"]}"],' for c in uniq))
         fn = P[0] + P[1:].lower() + "Club"
         fn = P.lower() + "Club"
         body, cl = "", sp["clubs"]
@@ -87,7 +92,7 @@ def main():
         body += f'"{cl[-1]["key"]}"'
         fns.append(f'\nfunction {fn}(d){{d=d||"";if(!d)return "";return {body}}}')
         pcl_tern.append(f'p.preset==="{pid}"?{fn}(d):')
-        cl_add.append("".join(f'{c["key"]}:"{c["short"]}",' for c in cl))
+        cl_add.append("".join(f'{c["key"]}:"{c["short"]}",' for c in uniq))
         pos_add.append(f',{pid}:"{sp["pos"]}"')
         flag_add.append(f',{pid}:"{sp["flag"]}"')
 
