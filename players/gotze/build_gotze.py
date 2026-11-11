@@ -39,8 +39,15 @@ for r in rd("fotmob_events.csv"):
 
 # ---------------------------------------------------------------- 판정 표
 # 도움 제외 사유(유형으로 자동 분류되는 것 외의 판정). gameId|분 -> 이유
-EXCL_A = {}      # judgments.md 4절
-ADD_CONFIRMED = {}   # 2014.8.1 이후 FotMob에 없지만 다른 출처 2곳이 확인해 넣은 도움
+EXCL_A = {
+    "2490851|90": "굴절(2014.9.17 맨시티전: 보아텡의 슛이 괴체에게 맞고 굴절 — AP·조 하트 증언·스포츠몰 보도에 도움 서술 없음)",
+    "3488582|84": "확인 못 함(2020.12.16 더 흐라프스하프전 말렌 골 — worldfootball·Soccerway 두 자료 집계만 괴체 도움으로 적었고 경기 기사에서 확인 못 함)",
+}
+ADD_CONFIRMED = {
+    "2871728|49": "BVB 공식 경기 기록(괴체 프리킥 → 아우바메양)·bundesliga.com·Vavel 경기 기사",
+    "3690086|28": "Omroep Brabant 경기 기사(괴체의 플릭으로 도안이 박스 안으로 달림)·LiveSoccerTV 도움 기록",
+    "3839296|42": "bundesliga.com 경기 리포트(괴체가 오른쪽에서 올린 공)·SC 프라이부르크 구단 리포트(괴체의 크로스)",
+}   # 2014.8.1 이후 FotMob에 없지만 다른 출처 2곳이 확인해 넣은 도움
 
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"L1", "NL1"}
@@ -286,3 +293,151 @@ if __name__ == "__main__" and "--debug" in sys.argv:
     print(collections.Counter(s[5] for s in A_STATUS))
     for s in A_STATUS:
         if s[5] not in ("TM∩FotMob", "2014.8 이전 TM"): print(s)
+
+# ---------------------------------------------------------------- FotMob 골 대조
+FM_CMP = []
+TMG = collections.defaultdict(list)
+for e in EVENTS:
+    if e["gotze_scorer"] == "1" and e["gameId"] in G:
+        TMG[e["gameId"]].append(e)
+for gid, evs in TMG.items():
+    if gid not in FM_EV:
+        FM_CMP.append(("FotMob 이벤트 파일 없음", gid, G[gid]["date_local"])); continue
+    fg = [r for r in FM_EV[gid] if r["gotze_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(fg) != len(evs):
+        FM_CMP.append(("골 수 다름", gid, G[gid]["date_local"], [x["minute"] for x in evs], [r["time"] for r in fg])); continue
+    for t, f in zip(sorted(evs, key=lambda x: minute(x["minute"])[0]), sorted(fg, key=lambda r: int(r["time"]) + int(r["overloadTime"] or 0))):
+        tpk = t["penalty"] == "1"; fpk = (f["goalDescriptionKey"] or "").lower().startswith("penalty") or "pen" in (f["suffix"] or "").lower()
+        tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
+        base = int(t["minute"].split("+")[0])
+        if tpk != fpk or not (abs(tm_min - fm_min) <= 1 or int(f["time"]) == base) or t["score_home_away_after"] != f["newScore_home_away"]:
+            FM_CMP.append(("다름", gid, G[gid]["date_local"], t["minute"], t["score_home_away_after"], t["goal_desc"], f["time"], f["overloadTime"], f["newScore_home_away"], f["goalDescriptionKey"], f["suffix"]))
+if __name__ == "__main__" and "--fm" in sys.argv:
+    for x in FM_CMP: print(x)
+    # FotMob 도움 중 TM과 안 맞는 것
+    for gid, evs in FM_EV.items():
+        if gid not in G: continue
+        tma = [(minute(e["minute"])[0]) for e in EVENTS if e["gameId"] == gid and e["gotze_assist_other"] == "1"]
+        for r in evs:
+            if r["gotze_assist"] == "1" and not any(abs(t - int(r["time"])) <= 2 for t in tma):
+                print("FotMob만 도움", gid, G[gid]["date_local"], r["time"], r["scorer"], r["newScore_home_away"], tma)
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+DATA = os.path.join(ROOT, "src", "data")
+def load_js(fn, P):
+    s = open(os.path.join(DATA, fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
+    return json.loads(m.group(1))
+MATES = {"Robert Lewandowski": ("lew.js", "LEW"), "Marco Reus": ("reu.js", "REU"), "Pierre-Emerick Aubameyang": ("aub.js", "AUB"),
+         "Ousmane Dembélé": ("dem.js", "DEM"), "Thomas Müller": ("mul.js", "MUL"), "Arjen Robben": ("rob.js", "ROB"),
+         "Franck Ribéry": ("rib.js", "RIB"), "Kingsley Coman": ("com.js", "COM"), "Erling Haaland": ("haa.js", "HAA")}
+MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
+GOT_NAMES = ("Mario Götze", "Mario Gotze", "Mario Goetze")
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[8] != b[8]: diffs.append(f"PK {a[8]}/{b[8]}")
+    ta = a[14] if len(a) > 14 else None; tb = b[14] if len(b) > 14 else None
+    if a[7] != b[7] or ta != tb: diffs.append(f"단판/합산 {a[7]},{ta}/{b[7]},{tb}")
+    return diffs
+for nm, ent in MATE_E.items():
+    for r in E:
+        if r[0] == "a" and r[13] == nm:
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and key(x[1]) == key(r[1]) and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("괴체 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:
+        if x[0] == "a" and x[13] in GOT_NAMES:
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→괴체 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    # TM이 동료 도움으로 적은 괴체 골이 동료 파일에 없는 경우
+    for e in EVENTS:
+        if e["gotze_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
+            d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
+            if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움→괴체 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
+    # 괴체 도움에서 뺀 TM 도움 중 동료 골 행
+    for s in A_STATUS:
+        if s[3] == nm and s[5].startswith("제외") or (s[3] == nm and s[5] == "TM단독-미확인"):
+            hit = [x for x in ent if x[0] == "g" and x[9] == s[1] and abs(x[4] - minute(s[2])[0]) <= 2]
+            CROSS.append(("괴체 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter((c[0], str(c[-1])[:12]) for c in CROSS))
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("bvbgo", "2013-07-01", "보루시아 도르트문트", "2009~2013"), ("baygo", "2016-07-21", "바이에른 뮌헨", "2013~2016"),
+         ("bvbgo", "2020-10-06", "보루시아 도르트문트", "2016~2020"), ("psvgo", "2022-07-01", "PSV 에인트호번", "2020~2022"),
+         ("sgego", None, "아인트라흐트 프랑크푸르트", "2022~")]
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+TMC = {"16": ["bvbgo"], "27": ["baygo"], "383": ["psvgo"], "24": ["sgego"]}
+CLUB_KO = collections.OrderedDict()
+for k, u, n, y in CLUBS: CLUB_KO.setdefault(k, n)
+ST = collections.OrderedDict()
+for i, (k, *_ ) in enumerate(CLUBS): ST[i] = [0, 0, 0, 0]
+def stage(d):
+    for i, (k, u, _, _) in enumerate(CLUBS):
+        if u is None or d < u: return i
+for m in M: ST[stage(m[0])][0] += 1; ST[stage(m[0])][3] += m[3]
+for r in E: ST[stage(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    if club_of(ldate(g)) not in TMC[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+
+# ---------------------------------------------------------------- 설명(NOTE)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return "·".join(map(str, v[:3]))
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+SRC = ELO_SRC
+exec(open(os.path.join(HERE, "note_gotze.py"), encoding="utf-8").read())
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "lv"]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const GOT_E={J(E)};\nconst GOT_M={J(M)};\nconst GOT_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS,
+               "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for i, v in ST.items(): print(" ", CLUBS[i][0], CLUBS[i][3], v)
