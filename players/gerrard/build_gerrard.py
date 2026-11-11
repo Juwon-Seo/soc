@@ -49,6 +49,8 @@ EXCL_A = {
 }
 # PK 수정: Transfermarkt 리포트·API에 PK 표시가 없지만 FotMob·경기 기사가 PK로 적은 골
 PK_FIX = {"1041566|40": "FotMob 'Penalty', ESPN·BBC 경기 기록 'Gerrard (pen) 40'"}
+# 분 수정: Transfermarkt 리포트 분이 추가시간을 빠뜨린 골
+MIN_FIX = {"945554|90": "90+1"}   # 2006 FA컵 결승 동점골: 영어 위키백과 결승 문서·경기 기록 'Gerrard 54′, 90+1′'(한 곳은 추가시간 2분째)
 AUTO_EXCL_TYPES = {"Penalty: Fouled player": "PK 유도", "Shot on goal": "슈팅 리바운드(Shot on goal)"}
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳이 확인해 넣은 도움
 ADD_CONFIRMED = {}
@@ -351,7 +353,8 @@ for e in EVENTS:
     else: a -= 1
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
-    mi, dm = minute(e["minute"])
+    tag = f"{gid}|{e['minute']}"
+    mi, dm = minute(MIN_FIX.get(tag, e["minute"]))
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     et = 1 if (mi > 90 and not dm and g["gameState"] in ("extra_time", "penalty_shootout", "golden_goal") and not tie) else 0
@@ -504,6 +507,7 @@ NOTE_LINES = [
     "Transfermarkt 리포트가 본인 PK 골에 본인 도움으로 적은 2개(2005.7.26 카우나스전 54분, 2009.3.14 맨유전 43분)는 도움이 아님 — 선수 경기 성적 수치와 리포트 수치가 다른 두 경기가 이 둘이며 선수 경기 성적 쪽(도움 아님)과 같음",
     "FotMob에만 있는 도움 2개는 넣지 않음: " + "; ".join(FM_ONLY),
     "날짜는 현지 날짜. 리버풀 경기는 Transfermarkt 리포트 날짜(선수 경기 성적의 옛 시각 49경기는 하루 앞서 있어 쓰지 않음), 2005.12 클럽 월드컵(요코하마)도 현지 날짜. LA 갤럭시 경기는 경기 시각을 미국 태평양 시간으로 바꾼 날짜(Transfermarkt 리포트는 저녁 경기를 하루 늦게 적음; 원정 경기도 현지 날짜와 같음)",
+    "골 시각은 Transfermarkt 리포트 기준. 2006.5.13 FA컵 결승 웨스트햄전 동점골은 Transfermarkt가 90분으로 적었으나 경기 기록(영어 위키백과 결승 문서 등)이 추가시간 90+1분으로 적어 90+1분으로 둠(FotMob 경기 기록 없음)",
     "출전 분: Transfermarkt 그대로(퇴장 4경기 포함). 2001.5.16 UEFA컵 결승(알라베스, 연장 골든골 5-4)은 117분, 2005.5.25 챔스 결승(밀란, 3-3 뒤 승부차기)은 120분",
     "상대 Elo는 같은 경기를 다룬 다른 선수 자료(토레스·수아레스·스털링 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 직접 추정, 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 순위값에 넣은 값 순으로 씀"
     f"(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+기존 순위값 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",
