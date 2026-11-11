@@ -8,7 +8,7 @@ integration.json 형식(선수별 판정 에이전트가 만듦):
   "preset": "klose", "name": "미로슬라프 클로제", "prefix": "KLO",
   "clubs": [ {"key": "homkl", "name": "FC 08 홈부르크", "short": "홈부르크", "years": "1998~1999", "until": "1999-07-01"}, ...,
              {"key": "lazkl", "name": "라치오", "short": "라치오", "years": "2011~2016", "until": null} ],
-  "season": {"calendar": ["torin"], "jul10": []},      # seasonOf 예외(없으면 빈 목록)
+  "season": {"calendar": ["torin"], "jul10": [], "jul1": []},  # seasonOf 예외(없으면 빈 목록)
   "pos": "CF", "flag": "DE", "retired": true,
   "color_light": "#xxxxxx", "color_dark": "#xxxxxx",   # 비우면 이 스크립트가 고름
   "hon": { "t": {...}, "o": [...], "a": {...} }
@@ -117,6 +117,9 @@ def main():
     s = rep(s, flag, flag[:-1] + "".join(flag_add) + "}")
     # seasonOf
     for sp in specs:
+        j1 = sp.get("season", {}).get("jul1", [])
+        if j1:  # 7월 1일 기준(우크라이나 리그·1995 인터토토처럼 7월 초 경기가 새 시즌) — kobvl 줄 뒤에 분기 하나
+            s = rep(s, 'if(club==="kobvl")return "2019";', 'if(club==="kobvl")return "2019";if(' + "||".join(f'club==="{k}"' for k in j1) + '){const s=d.slice(5)>="07-01"?y:y-1;return s+"-"+String(s+1).slice(2)}')
         cal = sp.get("season", {}).get("calendar", [])
         if cal:
             s = rep(s, ')return String(y);if(club==="kobvl")', "".join(f'||club==="{k}"' for k in cal) + ')return String(y);if(club==="kobvl")')

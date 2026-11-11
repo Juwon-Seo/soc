@@ -536,3 +536,29 @@ if __name__ == "__main__" and "--cross" in sys.argv:
     for c in CROSS:
         if c[-1] != "같음": print(c)
     print(collections.Counter(c[0] for c in CROSS if c[-1] == "같음"), collections.Counter(c[0] for c in CROSS))
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("rmrau", "2010-07-28", "레알 마드리드", "1994~2010"), ("s04rau", "2012-07-01", "샬케 04", "2010~2012"),
+         ("sadrau", "2014-10-30", "알사드", "2012~2014"), ("cosrau", None, "뉴욕 코스모스", "2014~2015")]
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+CLUB_KO = {k: n for k, u, n, y in CLUBS}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    if club_of(ldate(g)) != CLUB_ID[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+def season_of(d, club):
+    y, m = int(d[:4]), int(d[5:7])
+    if club == "cosrau": return str(y)
+    if club == "s04rau": s = y if d[5:] >= "07-10" else y - 1
+    else: s = y if m >= 8 else y - 1
+    return f"{s}-{str(s + 1)[2:]}"
+if __name__ == "__main__" and "--stat" in sys.argv:
+    for k, v in ST.items(): print(k, v)
+    print(len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E), sum(r[8] for r in E), sum(m[3] for m in M), len(E))
+    for j in judg: print(j)
+    print("합산", sum(1 for r in E if len(r) > 14), len({r[9] for r in E if len(r) > 14}), "연장", [r for r in E if r[10]])
+    print("단판", collections.Counter((r[3], r[7]) for r in E))
+    ss = collections.Counter(season_of(m[0], club_of(m[0])) for m in M); print(sorted(ss.items()))
