@@ -161,6 +161,7 @@ for e in E:
     e["ko"] = int(e["comp"] in ("dc", "dk", "dsf", "df", "clf", "elf") and not e["tie"])
     e["et"] = int(g["gameState"] in ("extra_time", "penalty_shootout") and 90 < e["min"] <= 95 and not e["dm"])
 E.sort(key=lambda e: (e["date"], e["min"], 0 if e["type"] == "g" else 1))
+dropped_assists.sort(key=lambda d: (d[1], int(d[2].split("+")[0])))
 
 # ---------------------------------------------------------------- opponent Elo
 STOP = set(("fc cf afc ac as sc cd ud rcd ssc ss us sv vfl vfb tsg fk sk jk bk if club de da do del la le l e y "
@@ -290,12 +291,81 @@ CLUB_KO = {"chmbk": "켐니처 FC(1995~1997)", "fckbk": "카이저슬라우테�
            "baybk": "바이에른 뮌헨(2002~2006)", "chebk": "첼시(2006~2010)"}
 CLUB_ORDER = ["chmbk", "fckbk", "levbk", "baybk", "chebk"]
 
+def kdate(d):
+    y, m, dd = d.split("-"); return f"{int(y)}.{int(m)}.{int(dd)}"
+
+OPP_KO = {"VfB Leipzig": "VfB 라이프치히", "1.FC Nuremberg": "뉘른베르크", "SpVgg Unterhaching": "운터하힝", "Hertha BSC": "헤르타",
+          "VfL Wolfsburg": "볼프스부르크", "SV Werder Bremen": "브레멘", "1.FC Kaiserslautern": "카이저슬라우테른",
+          "FC Hansa Rostock": "로스토크", "Hamburger SV": "함부르크", "Borussia Neunkirchen": "노인키르헨", "Chelsea FC": "첼시",
+          "Fulham FC": "풀럼", "Manchester United": "맨유", "SC Tavriya Simferopol (-2022)": "타브리야", "VfB Stuttgart": "슈투트가르트",
+          "Borussia Mönchengladbach": "묀헨글라트바흐", "1.FC Köln": "쾰른", "Hannover 96": "하노버", "SC Freiburg": "프라이부르크",
+          "TSV 1860 Munich": "1860 뮌헨", "1.FSV Mainz 05": "마인츠", "Charlton Athletic": "찰턴", "Tottenham Hotspur": "토트넘",
+          "Liverpool FC": "리버풀", "Portsmouth FC": "포츠머스", "Aston Villa": "애스턴 빌라", "FC Bayern Munich": "바이에른",
+          "Hertha BSC ": "헤르타", "Bayer 04 Leverkusen": "레버쿠젠", "FC Energie Cottbus": "코트부스", "Arminia Bielefeld": "빌레펠트"}
+
+def stats():
+    out = {k: [0, 0, 0, 0] for k in CLUB_ORDER}
+    for m in M:
+        k = club_of(m[0]); out[k][0] += 1; out[k][3] += m[3]
+    for e in E:
+        out[club_of(e["date"])][1 if e["type"] == "g" else 2] += 1
+    return out
+
+def spell(a, b):
+    mm = [m for m in M if club_of(m[0]) == "levbk" and a <= m[0] < b]
+    ee = [e for e in E if club_of(e["date"]) == "levbk" and a <= e["date"] < b]
+    return len(mm), sum(e["type"] == "g" for e in ee), sum(e["type"] == "a" for e in ee)
+
+def build_note():
+    st = stats()
+    G = sum(e["type"] == "g" for e in E); A = sum(e["type"] == "a" for e in E)
+    PK = [e for e in E if e["type"] == "g" and e["pk"]]
+    mins = sum(m[3] for m in M)
+    first, last = M[0], M[-1]
+    l1, l2 = spell("1999", "2003"), spell("2010", "2013")
+    da = dropped_assists
+    def lst(reason): return [d for d in da if d[5] == reason]
+    pk, sh, og = lst("PK 유도"), lst("슈팅 리바운드"), lst("상대 자책골에 준 도움")
+    tm_total = A + len(da)
+    blank = [e for e in E if e["type"] == "a" and e["atype"] == ""]
+    def dl(L2): return ", ".join(f"{kdate(d[1])} {OPP_KO.get(gbyid[d[0]]['opponent'], gbyid[d[0]]['opponent'])}전 {d[2]}분" for d in L2)
+    L = []
+    L.append(f"미하엘 발라크(켐니처 FC·카이저슬라우테른·레버쿠젠·바이에른 뮌헨·첼시)의 클럽 공식 경기 {len(M)}경기"
+             f"({kdate(first[0])} {OPP_KO[first[1]]}전 ~ {kdate(last[0])} {OPP_KO[last[1]]}전)에서 나온 {G}골 {A}도움(PK 골 {len(PK)}개), 친선경기·2군·독일 대표팀 제외")
+    L.append("클럽별 경기·골·도움: " + ", ".join(f"{CLUB_KO[k]} {st[k][0]}·{st[k][1]}·{st[k][2]}" for k in CLUB_ORDER)
+             + f"(레버쿠젠 1기 {l1[0]}·{l1[1]}·{l1[2]}, 2기 {l2[0]}·{l2[1]}·{l2[2]}). 출전 분 합계 {mins:,}분("
+             + ", ".join(f"{CLUB_KO[k].split('(')[0]} {st[k][3]:,}분" for k in CLUB_ORDER) + ")")
+    L.append("출처: 경기 목록·출전 분(연장·퇴장 반영)·선발/교체는 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(출전한 경기 전부). 2010-11 이후 레버쿠젠 경기는 FotMob 경기 이벤트와 대조. 출전 분이 없어 90분으로 추정한 경기는 없음")
+    L.append("경기 수·골은 영어 위키백과 클럽·시즌·대회별 기록과 모두 같음(켐니처 51·10, 카이저슬라우테른 57·4, 레버쿠젠 110·37과 45·5, 바이에른 157·62, 첼시 167·26). 독일어 위키백과는 첼시 166경기 25골(2006-07 리그 4골, 2007-08 29경기)로 영어 위키백과·Transfermarkt보다 1경기·1골 적음")
+    L.append("뺀 기록: 카이저슬라우테른 2군(1997-98 레기오날리가 서부·남서부 17경기 8골, Transfermarkt에만 있음)은 2군 경기라 넣지 않음. 켐니처 FC 2군(위키백과 1994-95·1995-96 오버리가 18경기 5골)은 Transfermarkt에 경기 기록이 없고 2군이라 넣지 않음. 켐니처 1군의 1995-96 2. 분데스리가 15경기·1996-97 레기오날리가 북동부(당시 3부) 34경기·DFB-포칼 2경기는 1군 공식 경기라 넣음")
+    L.append("Transfermarkt 선수 경기 성적에서 '다른 팀으로 출전'으로 표시된 1997-98 카이저슬라우테른 2군 리그 경기 7개는 출전으로 세지 않음")
+    L.append(f"골: Transfermarkt 경기 리포트의 발라크 골에서 자책골 2개(2000.5.20 운터하힝전 20분, 2003.5.10 헤르타전 5분)를 뺀 {G}골. "
+             f"PK 골 {len(PK)}개는 0.8점: " + ", ".join(kdate(e['date']) + " " + OPP_KO.get(e['opp'], e['opp']) + ("(" + (e['dm'] or str(e['min'])) + "분)" if e['date'] == "2003-07-22" else "") for e in PK))
+    L.append("2010-11 이후 골 5개 중 4개는 FotMob 경기 이벤트와 골 뒤 스코어·PK가 같음(2010.8.19 타브리야전·2011.9.28 헹크전 90+2분 골은 FotMob이 90분으로 적어 Transfermarkt 분을 씀). 2011.2.24 메탈리스트전 70분 골은 FotMob 경기 자료가 없어(Data not found) Transfermarkt만 근거")
+    L.append("2010.8.19 타브리야전 90+2분 PK 골은 Transfermarkt 리포트에 키슬링이 도움(유형 빈칸)으로 적혀 있으나 PK 골이라 PK 유도로 보고, FotMob도 도움이 없음. 발라크 기록은 PK 골 그대로")
+    L.append(f"도움: 2014.8.1 이전 규칙대로 Transfermarkt 경기 리포트 도움에서 아래를 뺀 것을 씀. 도움 {A} = Transfermarkt 리포트 {tm_total} − PK 유도 {len(pk)} − 슈팅 리바운드(Shot on goal) {len(sh)} − 상대 자책골에 준 도움 {len(og)}")
+    L.append(f"뺀 PK 유도 {len(pk)}: {dl(pk)}. 이 가운데 1999.12.4 브레멘전 47분·2001.1.28 슈투트가르트전 66분(둘 다 키르스텐 PK 골)은 리포트 유형이 비어 있으나 PK 골에 붙은 도움이라 PK 유도로 봄")
+    L.append(f"뺀 슈팅 리바운드 {len(sh)}: {dl(sh)}. 뺀 상대 자책골 도움 {len(og)}: {dl(og)}")
+    L.append("본인 골에 본인이 도움으로 적힌 리포트 4개(2005.3.19 로스토크전 87분 PK, 2005.4.6 첼시전 90+3분 PK, 2006.12.17 에버턴전 49분 프리킥, 2008.1.1 풀럼전 60분 PK)는 골만 세고 도움으로 세지 않음(Transfermarkt 선수 경기 성적 도움 수에도 없음)")
+    L.append(f"Transfermarkt 리포트에 도움 유형이 비어 있는 {len(blank)}개(대부분 2003년 이전 경기, 그 뒤 2003~2010년 {sum(e['date'] >= '2003-07-01' for e in blank)}개)는 일반 도움으로 셈. 유형이 없어 PK 유도·슈팅 리바운드인지 가려낼 수 없고, 1995~2010년 도움은 다른 출처로 대조하지 못함(위키백과에 도움 자료 없음)")
+    L.append("2010-11 이후 도움 4개: 2011.10.19·2011.11.1 발렌시아전 2개는 FotMob도 발라크 도움. 2011.3.20 샬케전 19분 데르디요크 골은 FotMob 경기 자료가 없고, 2011.10.15 묀헨글라트바흐전 20분 라이나르츠 골은 Transfermarkt 'Header', FotMob 도움 없음 — 둘 다 2014.8.1 이전이라 Transfermarkt를 따라 넣음")
+    L.append("골 뒤 스코어를 고친 경기: 2000.9.20 스포르팅전은 리포트의 레버쿠젠 골 스코어가 한 골씩 적게 적혀(끝이 2:2, 실제 3:2) 독일축구협회 기록대로 72분 2:1, 77분 노이빌레 골(발라크 도움) 3:1로 고침(직전 2:1). 이 경기 날짜는 리포트의 현지 날짜 2000.9.20(선수 경기 성적은 협정 세계시 9.19 22시). 2005.5.7 마인츠전은 리포트가 17분 아우어 골과 17분 마카이 골(발라크 도움)을 둘 다 1:1로 적었으나 다른 기록은 아우어 골이 35분이라 마카이 골 직전을 0:0으로 씀")
+    L.append("연장전: 2007.4.15 블랙번전(FA컵 준결승) 109분 골은 연장 시간으로 계산. 2003.7.22 함부르크전(리가포칼 준결승) 90분 PK 골은 3:3 동점 골, 승부차기로 짐")
+    L.append("상대 Elo: 분데스리가 1998-99~2006-07은 다른 선수 자료와 같은 순위별 값, 2007-08~2009-10은 그 값에서 시즌별로 같은 폭을 내린 값, 2010-11·2011-12는 다른 선수 자료의 같은 시즌 순위별 값. 같은 경기·같은 상대를 다른 선수(램파드·드록바·로번) 자료가 이미 계산했으면 그 값을 씀. 프리미어리그·챔스 상대 등은 팀×시즌 통합표 값")
+    L.append("상대 Elo(순위표+다른 선수 자료의 순위별 값): 우디네세 1999-00 8위 1743(18팀 세리에A), 레알 마드리드 2000-01 1위 1996·바르셀로나 2001-02 4위 1811(같은 시즌 다른 순위 값과 같은 폭), 스포르팅 2000-01 3위 1716(포르투갈 1부), 아약스 2004-05 2위 1735(에레디비시), 하노버 2001-02 2부 1위 1697·아헨 2003-04 2부 6위 1609")
+    L.append("상대 Elo(추정): 독일 3부 레기오날리가 1450(켐니처 1996-97 레기오날리가 북동부 상대 전부, 카이저슬라우테른 2군 1997, 브레멘 2군 2002), 독일 4부 노인키르헨 2003 1300, 2부 7위 아우에 2005-06 1600, 츠르베나 즈베즈다 2001 1500, 페네르바체 2001-02 1772, 마카비 텔아비브 2004-05 1400, 타브리야 2010-11 1440, 메탈리스트 2010-11 1560")
+    L.append("대회 비중: DFB-포칼·FA컵·리그컵은 16강까지·8강·준결승·결승으로 나눔(FA컵 3~5라운드와 재경기는 16강까지, 6라운드와 재경기는 8강, 리그컵 3라운드·4라운드는 16강까지, 5라운드는 8강). DFB-리가포칼(시즌 전 리그컵)은 첫 경기(2001.7.12 헤르타전, 8강 격)·준결승·결승을 국내컵 8강·준결승·결승으로, 커뮤니티 실드는 국내컵 결승으로 계산함. 챔스 2001-02 2차 조별리그는 조별, UEFA컵 1999-2000 3라운드와 유로파 2010-11 32강·16강은 유로파 토너먼트, 유로파 플레이오프(타브리야전)는 유로파 예선")
+    L.append("두 경기 합산: UEFA 대회 토너먼트·예선과 리그컵 준결승은 합산 S로 계산함(원정 다득점·2차전 연장 있음). FA컵 재경기는 단판. 발라크가 뛰지 않은 1차전 스코어는 Transfermarkt 경기 리포트로 채움(2001.8.8 츠르베나 즈베즈다 원정 0:0, 2011.2.17 메탈리스트 원정 4:0 승)")
+    L.append("시즌 구분: 카이저슬라우테른·레버쿠젠·바이에른은 7월 10일 기준(7월 리가포칼·포칼 1라운드가 새 시즌), 켐니처·첼시는 8월 1일 기준. 클럽 구분은 1997.7.1 전 켐니처, 1999.7.1 전 카이저슬라우테른, 2002.7.1 전 레버쿠젠, 2006.7.1 전 바이에른, 2010.7.1 전 첼시, 이후 레버쿠젠(두 시기를 한 클럽으로 묶음)")
+    L.append("수상 기록은 Transfermarkt 업적 페이지 기준: 분데스리가 4회(1997-98 카이저슬라우테른, 2002-03·2004-05·2005-06 바이에른), 프리미어리그 2009-10, DFB-포칼 3회(2002-03·2004-05·2005-06), FA컵 3회(2007·2009·2010), 리그컵 2007, DFB-리가포칼 2005(Transfermarkt 표기, 2004.8.2 결승), 커뮤니티 실드 2009-10, 챔스 준우승 2회(2001-02 레버쿠젠·2007-08 첼시, 결승 출전 경기로 확인). 개인: 독일 올해의 선수 3회(2002·2003·2005). 작센컵(1996-97 켐니처, 지역 컵)과 대표팀 기록은 뺌")
+    return "\n".join(L)
+
+
 if __name__ == "__main__":
     if UNRESOLVED:
         for u in UNRESOLVED: print("UNRESOLVED", u)
         raise SystemExit(1)
-    from note_ballack import build_note
-    note = build_note(globals())
+    note = build_note()
     def row(e):
         r = [e["type"], e["opp"], e["elo"], e["comp"], e["min"], e["gf"], e["ga"], e["ko"], e["pk"], e["date"],
              e["et"], e["dm"] or 0, e["lv"], e["note"] or 0]

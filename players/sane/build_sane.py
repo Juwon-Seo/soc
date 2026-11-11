@@ -49,14 +49,15 @@ EXCL_A = {
     # Transfermarkt 단독(FotMob 경기 이벤트·선수 경기 목록 모두 도움 없음) + 경기 기사로 도움 아님
     "2460896|9": "굴절(Sky Sports: 자네 패스가 하르니크 맞고 굴절, 니더마이어 걷어내기 실패 뒤 훈텔라르 골)",
     "2917415|69": "자네가 태클당한 뒤 흐른 공(맨시티 공식·SI 등: 페르난지뉴 패스 → 자네 돌파 중 알비올 태클 → 아구에로가 흐른 공 슛)",
+    # Transfermarkt 단독이고 서로 독립인 다른 출처 2곳을 찾지 못함(같은 통신 기사로 보이는 Türkgün·İşçi Haber 1곳뿐)
+    "4780386|22": "확인 못 함(Türkgün·İşçi Haber는 같은 통신 기사로 보여 1개 출처로 셈, 다른 독립 출처 없음)",
 }
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳이 확인해 넣은 도움
 ADD_CONFIRMED = {
     "3515968|85": "Malay Mail(AFP) 'headed in a Leroy Sane cross' · Eurosport 'far-post header from substitute Leroy Sane's cross'",
     "3601588|8": "leinetal24 라이브 티커 'nach Vorarbeit von Sané' · beIN Sports 'Sane's cutback' · Mozzart Sport",
     "3601588|28": "Eurosport/TNT 'allowed Leroy Sane to square for Choupo-Moting' · Sofascore 이벤트 · FotMob 선수 경기 목록(이 경기 도움 1)",
-    "3825616|82": "fussballtransfers.com 'Assist L. Sané' · kickingdata.com 'Assistant: L. Sané'",
-    "4780386|22": "Türkgün·İşçi Haber(같은 통신 기사로 보임) 'Leroy Sane'den pası alan Kutucu'",
+    "3825616|82": "fbref(Opta) 고레츠카 골 기록 'Assist: Leroy Sané' · t-online 라이브 티커 도움 Sané (Sky Sports 라인업도 같음; fussballtransfers·kickingdata는 같은 자료로 보여 근거에서 뺌)",
 }
 
 # ---------------------------------------------------------------- 대회 코드
@@ -418,10 +419,11 @@ NOTE_LINES = [
     "출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(출전한 473경기 전부), 골·도움은 FotMob 경기 이벤트와 대조함",
     "경기 수·골은 영어 위키백과 클럽·시즌별 기록과 같음(갈라타사라이 2026-27만 위키백과가 챔스 4경기를 아직 넣지 않아 2경기 적음). FotMob 경력 합계(473경기 120골)와도 같음",
     "골: Transfermarkt와 FotMob이 모든 경기에서 수·스코어·PK 여부가 같음(PK 골 없음). 분은 Transfermarkt 추가시간 표기를 씀",
-    f"도움: Transfermarkt와 FotMob 경기 이벤트가 함께 센 것만 씀(자네의 성인 경기는 모두 2014년 8월 이후). 도움 {NA} = Transfermarkt 리포트 116 − PK 유도 2(2017.5.13 레스터전 36분 제주스 PK, 2024.4.9 아스널전 32분 케인 PK) − 상대 자책골에 준 도움 4(2018.8.19 허더즈필드전 84분, 2021.2.23 라치오전 47분, 2022.9.7 인테르전 66분, 2025.4.4 아우크스부르크전 90+3분) − Transfermarkt 단독이고 경기 기사로 도움이 아닌 2",
+    f"도움: Transfermarkt와 FotMob 경기 이벤트가 함께 센 것만 씀(자네의 성인 경기는 모두 2014년 8월 이후). 도움 {NA} = Transfermarkt 리포트 116 − PK 유도 2(2017.5.13 레스터전 36분 제주스 PK, 2024.4.9 아스널전 32분 케인 PK) − 상대 자책골에 준 도움 4(2018.8.19 허더즈필드전 84분, 2021.2.23 라치오전 47분, 2022.9.7 인테르전 66분, 2025.4.4 아우크스부르크전 90+3분) − Transfermarkt 단독이고 도움이 아니거나 확인 못 한 3",
     "뺀 Transfermarkt 단독 도움 2개: 2015.5.2 슈투트가르트전 9분 훈텔라르 골(Sky Sports: 자네 패스가 하르니크에게 굴절되고 수비 걷어내기 실패 뒤 골), 2017.11.1 나폴리전 69분 아구에로 골(맨시티 공식 경기 기사 등: 자네가 돌파하다 알비올에게 태클당한 뒤 흐른 공을 아구에로가 슛)",
-    "FotMob에 없지만 다른 출처 2곳이 자네 도움으로 적어 넣은 5개: 2021.2.8 알아흘리전(클럽 월드컵 준결승) 85분 레반도프스키 헤더(AFP·Eurosport), 2021.8.25 브레머 SV전(DFB-포칼) 8·28분 추포모팅 골(독일 라이브 티커·beIN Sports, Eurosport·Sofascore; FotMob 선수 경기 목록도 이 경기 도움 1), 2022.8.31 빅토리아 쾰른전(DFB-포칼) 82분 고레츠카 골(fussballtransfers·kickingdata), 2025.12.18 바샥셰히르전(튀르키예컵 조별) 22분 쿠투추 골(튀르키예 언론 경기 기사 2곳). FotMob에만 있는 도움은 없음",
-    "도움 합계 비교: Transfermarkt 116·FotMob 경력 108·이 계산기 108(FotMob과 같은 수지만 경기 구성은 위처럼 다름)",
+    "확인 못 해 뺀 Transfermarkt 단독 도움 1개: 2025.12.18 바샥셰히르전(튀르키예컵 조별) 22분 쿠투추 골 — 자네 패스로 적은 튀르키예 기사 2곳(Türkgün·İşçi Haber)이 같은 통신 기사로 보여 출처 하나로 셈",
+    "FotMob에 없지만 다른 출처 2곳이 자네 도움으로 적어 넣은 4개: 2021.2.8 알아흘리전(클럽 월드컵 준결승) 85분 레반도프스키 헤더(AFP·Eurosport), 2021.8.25 브레머 SV전(DFB-포칼) 8·28분 추포모팅 골(독일 라이브 티커·beIN Sports, Eurosport·Sofascore; FotMob 선수 경기 목록도 이 경기 도움 1), 2022.8.31 빅토리아 쾰른전(DFB-포칼) 82분 고레츠카 골(fbref·t-online 라이브 티커의 도움 기록, 경기 기사 묘사는 못 찾음). FotMob에만 있는 도움은 없음",
+    f"도움 합계 비교: Transfermarkt 116·FotMob 경력 108·이 계산기 {NA}",
     "날짜는 현지 날짜. 클럽 월드컵 2025 보카 주니어스전은 미국 현지 날짜 2025.6.20(Transfermarkt 리포트는 6.21)",
     f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(데 브라위너·아구에로·스털링·마레즈·베르나르두 실바·다비드 실바·뮐러·레반도프스키·무시알라·케인·마네 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위를 리그 모형에 넣은 값, 직접 추정 순으로 씀"
     f"(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+모형 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",

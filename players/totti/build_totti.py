@@ -171,20 +171,69 @@ def curve(r, n):
     i = min(int(p), 18); t = p - i
     return CV[i] + (CV[i + 1] - CV[i]) * t
 
+def ents_map(prefix, season):
+    """기존 선수 자료의 '<prefix> <season> N위' 값(다수값)"""
+    c = collections.defaultdict(collections.Counter)
+    pat = re.compile("^" + re.escape(prefix) + " " + re.escape(season) + r" (\d+)위$")
+    for e in ENTS:
+        m = pat.match(e["lv"] or "")
+        if m: c[int(m.group(1))][e["elo"]] += 1
+    return {r: v.most_common(1)[0][0] for r, v in c.items()}
+
+# 라리가: 에투 자료와 같은 방식 — 기존 자료 2003-04 순위값(14위는 2004-05 값 − 1)에 같은 시즌 기존 값과의 차(중앙값)를 더함.
+#   1998-99는 기존 값이 없어 1999-00 차(+11)를 씀(추정)
+LL_BASE = ents_map("라리가", "2003-04"); LL_BASE[14] = 1661
+assert len(LL_BASE) == 20, LL_BASE
+def laliga(season, r):
+    m = ents_map("라리가", season)
+    if r in m: return m[r], f"라리가 {season} {r}위"
+    est = ""
+    if not m:
+        assert season == "1998-99"; m = ents_map("라리가", "1999-00"); est = " (추정, 1999-00 시즌 다른 선수 자료의 순위값 차이 사용)"
+    diffs = sorted(v - LL_BASE[k] for k, v in m.items())
+    n_ = len(diffs)
+    sh = diffs[n_ // 2] if n_ % 2 else (diffs[n_ // 2 - 1] + diffs[n_ // 2]) / 2
+    return int(round(LL_BASE[r] + sh)), f"라리가 {season} {r}위{est}"
+
 def model(lg, season, r, n):
     """(Elo, lv) — 순위표 + 리그 모형"""
     if lg == "IT1":
         if n == 18: return SA18[r], f"세리에A {season} {r}위"
         assert n == 20
         return SA[r - 1], f"세리에A {season} {r}위"
+    if lg == "IT3A":  # 세리에C1(3부): 인시녜 자료와 같은 모형(평균 1416.56, 흩어짐 51.24)
+        return int(round(1416.56 + 51.24 * curve(r, n))), f"세리에C1(3부) A조 {season} {r}위/{n}팀 (추정)"
+    if lg == "ES1":
+        return laliga(season, r)
+    if lg == "GB1":   # 프리미어리그: 기존 자료 1998-99 값 = 2025-26 순위값 − 142(램파드 자료 보정)
+        m = ents_map("프리미어리그", season)
+        if r in m: return m[r], f"프리미어리그 {season} {r}위"
+        base = ents_map("프리미어리그", "2025-26")
+        sh = {k: v - base[k] for k, v in m.items() if k in base}
+        assert len(set(sh.values())) == 1, sh
+        return base[r] + list(sh.values())[0], f"프리미어리그 {season} {r}위"
     if lg == "IT2":   # 세리에B: 인시녜·라우타로 자료와 같은 모형(평균 1577.78, 흩어짐 51.24)
         return int(round(1577.78 + 51.24 * curve(r, n))), f"세리에B {season} {r}위"
     return None
 
-RANK_LG = ["IT1", "IT2"]
+RANK_LG = ["IT1", "IT2", "IT3A", "ES1", "GB1"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정'): (key, 시즌) -> (Elo, lv)
 MAN = {
+    (key("KSC Eendracht Aalst"), "1995-96"): (1400, "벨기에 1995-96 13위/18팀 (추정, 다른 선수 자료 벨기에 1부 2010-11 12위 1412·14위 1361 수준)"),
+    (key("SK Slavia Prague"), "1995-96"): (1500, "체코 1995-96 1위 (추정, 다른 선수 자료의 슬라비아 프라하 1500과 같음)"),
+    (key("Bröndby IF"), "1995-96"): (1520, "덴마크 1995-96 1위 (추정, 다른 선수 자료의 브뢴뷔 2003 1520과 같음)"),
+    (key("Dinamo Moscow"), "1996"): (1550, "러시아 1996 3위 (추정, 다른 선수 자료 러시아 상위권 1580~1600보다 조금 낮게)"),
+    (key("Silkeborg IF"), "1998-99"): (1400, "덴마크 1998-99 9위/12팀 (추정, 다른 선수 자료 덴마크 중하위권 에스비에르 1450보다 낮게)"),
+    (key("FC Zürich"), "1998-99"): (1450, "스위스 1998-99 (추정, 다른 선수 자료의 취리히 2008 1450과 같음)"),
+    (key("ND Gorica"), "2000-01"): (1300, "슬로베니아 2000-01 7위/12팀 (추정, 다른 선수 자료 무라 2012-13 9위 1300과 같은 수준)"),
+    (key("Lokomotiv Moskau"), "2001-02"): (1580, "러시아 2001 상위권 (추정, 다른 선수 자료의 로코모티프 모스크바 2003·2007 1580과 같음)"),
+    (key("Aris Thessaloniki"), "2005-06"): (1480, "그리스 2005-06 (추정, 다른 선수 자료의 아리스 2007·2010 1480과 같음)"),
+    (key("KAA Gent"), "2009-10"): (1545, "벨기에 2009-10 3위 (추정, 다른 선수 자료의 겐트 2010-11 5위 1545와 같음)"),
+    (key("MFK Kosice"), "2009-10"): (1330, "슬로바키아 2009-10 11위/12팀 (추정, 다른 선수 자료 슬로바키아 1부 푸호프 1330과 같은 수준)"),
+    (key("FC Basel 1893"), "2009-10"): (1600, "스위스 2009-10 1위 (추정, 다른 선수 자료의 바젤 2008-09 1600과 같음)"),
+    (key("Slovan Bratislava"), "2011-12"): (1450, "슬로바키아 2011-12 3위 (추정, 다른 선수 자료의 슬로반 브라티슬라바 2009·2014 1450과 같음)"),
+    (key("Austria Vienna"), "2016-17"): (1556, "오스트리아 2016-17 2위 (추정, 다른 선수 자료 오스트리아 분데스리가 2014-15 2위 1556과 같음)"),
 }
 
 ELO_SRC = collections.Counter()
