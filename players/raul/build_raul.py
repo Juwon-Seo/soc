@@ -46,7 +46,10 @@ MIN_FIX = {}
 AUTO_EXCL_TYPES = {"Penalty: Fouled player": "PK 유도", "Shot on goal": "슈팅 리바운드(Shot on goal)"}
 GAP = "2014-08-01"   # 이후 도움은 Transfermarkt 단독 불가(코스모스 2015)
 # 코스모스 2015 도움 3개: Transfermarkt 리포트 + 다른 출처 2곳 확인 여부(judgments.md 5절)
-COSMOS_A_OK = {}     # tag -> 근거. 비어 있으면 2014-08 이후 도움은 넣지 않음
+COSMOS_A_OK = {
+    "2583750|45+2": "인디 일레븐 구단 경기 기사(라울 패스 → 레스트레포) + 미드필드 프레스 경기 요약",
+    "2607222|43": "코스모스 구단 경기 기사(라울 패스 뒤 페르난드스 탭인) + 사우스 플로리다 스포츠 블로그(라울 패스)",
+}
 
 # 카타르 국내 컵(Transfermarkt·FotMob에 경기 없음). 경기 기사로 출전·골이 확인된 경기만:
 # [날짜, 상대, 대회, 단계(ko), 골 분, 골 전 우리, 골 전 상대, PK, 근거]
@@ -449,7 +452,87 @@ if __name__ == "__main__" and "--table" in sys.argv:
         if (x[4].startswith("table") or x[4].startswith("same")) and (x[1], x[2]) not in seen:
             seen.add((x[1], x[2])); print(x)
 
-if __name__ == "__main__" and "--j" in sys.argv:
-    for j in judg: print(j)
-    print("2014-08 이후 도움:", LATE_A)
-    print(len(E), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E), sum(r[8] for r in E), len(M), sum(m[3] for m in M))
+# ---------------------------------------------------------------- FotMob 골 대조(샬케 2010-12; 카타르 리그는 FotMob 골 기록 없음)
+FM_CMP = []
+TMG = collections.defaultdict(list)
+for e in EVENTS:
+    if e["raul_scorer"] == "1" and e["own_goal"] != "1" and e["gameId"] in G:
+        TMG[e["gameId"]].append(e)
+FM_GAMES = 0
+for gid, evs in TMG.items():
+    if gid not in FM_EV or not FM_EV[gid]: continue
+    FM_GAMES += 1
+    fg = [r for r in FM_EV[gid] if r["raul_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(fg) != len(evs):
+        FM_CMP.append(("골 수 다름", gid, ldate(G[gid]), [x["minute"] for x in evs], [r["time"] for r in fg])); continue
+    for t, f in zip(sorted(evs, key=lambda x: minute(x["minute"])[0]), sorted(fg, key=lambda r: int(r["time"]) + int(r["overloadTime"] or 0))):
+        tpk = t["goal_desc"] == "Penalty"; fpk = (f["goalDescriptionKey"] or "").lower().startswith("penalty") or "pen" in (f["suffix"] or "").lower()
+        tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
+        h, a = map(int, t["score_home_away_after"].split("-")); fh, fa = map(int, f["newScore_home_away"].split("-"))
+        if tpk != fpk or abs(tm_min - fm_min) > 1 or (h, a) != (fh, fa):
+            FM_CMP.append(("다름", gid, ldate(G[gid]), t["minute"], t["goal_desc"], t["score_home_away_after"], f["time"], f["overloadTime"], f["newScore_home_away"], f["goalDescriptionKey"], f["suffix"]))
+# FotMob 도움(라울) 대조
+FM_A = collections.defaultdict(list)
+for gid, lst in FM_EV.items():
+    for r in lst:
+        if r["raul_assist"] == "1" and gid in G: FM_A[gid].append(r)
+if __name__ == "__main__" and "--fm" in sys.argv:
+    for x in FM_CMP: print(x)
+    print("FotMob 골 대조 경기", FM_GAMES)
+    for gid, lst in FM_A.items():
+        for r in lst: print("FotMob 라울 도움", gid, ldate(G[gid]), r["time"], r["scorer"])
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+def load_js(fn, P):
+    t = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", t, re.S)
+    return json.loads(m.group(1))
+ME_TM = {"Raúl", "Raúl González"}
+MATES = {"Ruud van Nistelrooy": ("nis.js", "NIS", "2006-07-28", "2010-01-24"), "Gonzalo Higuaín": ("hig.js", "HIG", "2007-01-01", "2010-07-28"),
+         "Arjen Robben": ("rob.js", "ROB", "2007-08-22", "2009-08-29"), "Cristiano Ronaldo": ("ron.js", "RON", "2009-07-01", "2010-07-28"),
+         "Karim Benzema": ("bzm.js", "BZM", "2009-07-01", "2010-07-28"), "Kaká": ("kak.js", "KAK", "2009-07-01", "2010-07-28")}
+MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items()}
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None):
+        diffs.append(f"단판/합산 {a[7]},{a[14] if len(a) > 14 else '-'}/{b[7]},{b[14] if len(b) > 14 else '-'}")
+    if a[10] != b[10]: diffs.append(f"연장 {a[10]}/{b[10]}")
+    return diffs
+def nm_eq(a, b): return norm(a) == norm(b)
+for nm, ent in MATE_E.items():
+    lo, hi = MATES[nm][2], MATES[nm][3]
+    for r in E:   # 라울 도움 → 동료 골
+        if r[0] == "a" and nm_eq(r[13], nm) and lo <= r[9] < hi:
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("라울 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:  # 동료 도움 → 라울 골
+        if x[0] == "a" and x[13] in ME_TM and lo <= x[9] < hi:
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→라울 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    for x in ent:  # 같은 경기 Elo/lv/대회
+        if lo <= x[9] < hi:
+            for r in E:
+                if r[9] == x[9] and key(r[1]) == key(x[1]):
+                    dd = [t for t in cmp_rows(r, x) if not t.startswith(("분", "스코어", "연장"))]
+                    if dd: CROSS.append(("같은 경기 다름", nm, r[9], r[1], dd))
+                    break
+    for x in ent:  # 동료 골에 TM 라울 도움이 있는데 이 파일에 도움 행이 없음
+        if x[0] == "g" and lo <= x[9] < hi:
+            tm = [e for e in EVENTS if e["raul_assist_other"] == "1" and e["gameId"] in G and ldate(G[e["gameId"]]) == x[9] and abs(minute(e["minute"])[0] - x[4]) <= 2]
+            if tm and not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
+                CROSS.append(("TM 라울 도움을 뺀 동료 골(규칙대로 제외)", nm, x[9], x[4], tm[0]["assist_type"]))
+    for e in EVENTS:  # TM 동료 도움 → 라울 골이 동료 파일에 없음
+        if e["raul_scorer"] == "1" and e["gameId"] in G and nm_eq(e["assist_player"], nm):
+            d = ldate(G[e["gameId"]])
+            if lo <= d < hi and not any(x[0] == "a" and x[9] == d and abs(x[4] - minute(e["minute"])[0]) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움이 동료 파일에 없음", nm, d, e["minute"], e["assist_type"], e["goal_desc"]))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter(c[0] for c in CROSS if c[-1] == "같음"), collections.Counter(c[0] for c in CROSS))
