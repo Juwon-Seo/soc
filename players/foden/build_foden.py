@@ -150,23 +150,20 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]))
 
-# 쉬페르리그 2025-26 이후(18팀): 리그 평균 1567·흩어짐 119(살라 자료의 튀르키예 회귀) × 순위 곡선.
-# 살라 자료에 있는 순위값(1·2·4·10·13·14·17위)은 그대로, 나머지는 같은 곡선(세군다 고정값에서 되살린 21칸 곡선)으로
-# 계산하고 살라 값과의 차이를 이웃 순위 사이에서 보간해 맞춤(judgments.md 7절).
-TR_18 = {1: 1865, 2: 1755, 3: 1695, 4: 1656, 5: 1633, 6: 1614, 7: 1595, 8: 1570, 9: 1547, 10: 1533,
-         11: 1520, 12: 1509, 13: 1502, 14: 1484, 15: 1461, 16: 1445, 17: 1429, 18: 1409}
-
+# 잉글랜드 2~4부: 기존 선수 자료의 순위별 고정값(챔피언십·리그 원·리그 투 lv 문구에서 뽑음, 24팀)
+EN_FIX = {"GB2": ("챔피언십", {6: 1648}), "GB3": ("리그 원", {9: 1506}), "GB4": ("리그 투", {8: 1396})}
+RANK_LG = ["GB2", "GB3", "GB4"]
 def model(lg, season, r, n):
-    if lg == "TR1" and season == "2025-26":
-        assert n == 18
-        return TR_18[r], f"쉬페르리그 {season} {r}위"
+    if lg in EN_FIX and r in EN_FIX[lg][1]:
+        assert n == 24
+        return EN_FIX[lg][1][r], f"{EN_FIX[lg][0]} {season} {r}위"
     return None
-RANK_LG = ["TR1"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정')
 MAN = {
-    (key("AC Sparta Praha"), "2015-16"): (1560, "체코 2015-16 2위 (추정, 다른 선수 자료 스파르타 프라하 2014-15 2위 1560과 같음)"),
-    (key("Asteras Tripolis"), "2015-16"): (1450, "그리스 2015-16 7위 (추정, 다른 선수 자료 아스테라스 2014-15 1450과 같음)"),
+    (key("Cheltenham Town"), "2020-21"): (1491, "리그 투 2020-21 1위 (추정, 기존 리그 투 2위 1460에 챔피언십 1·2위 간격 비율을 적용)"),
+    (key("Red Star Belgrade"), "2023-24"): (1580, "세르비아 1위 (추정)"),
+    (key("Wydad Casablanca"), "2024-25"): (1500, "모로코 2024-25 3위 (추정, 다른 선수 자료 라자 카사블랑카 2023-24 1500과 같은 수준)"),
 }
 
 ELO_SRC = collections.Counter()
@@ -281,6 +278,10 @@ for gid, ts in FM_ASSIST.items():
     if len(ts) > used_fm.get(gid, 0):
         FM_ONLY.append((gid, G[gid]["date_local"] if gid in G else "?", ts))
 
+if sorted(x[0] for x in FM_ONLY) != sorted(FM_ONLY_EXCL):
+    sys.exit("FotMob 단독 도움 판정 누락 " + repr(FM_ONLY))
+for gid in FM_ONLY_EXCL: judg.append(("FotMob 단독 도움 제외", G[gid]["date_local"], G[gid]["opponent"], FM_ONLY_EXCL[gid]))
+
 if missing_elo:
     for x in sorted(missing_elo, key=lambda x: x[1]): print("Elo 없음:", x)
     sys.exit(1)
@@ -323,17 +324,14 @@ def load_js(fn, P):
     s = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
     m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
     return json.loads(m.group(1))
-MATES = {"Kevin De Bruyne": ("kdb.js", "KDB", "2016-08-02", "2020-07-15"),
-         "Sergio Agüero": ("agu.js", "AGU", "2016-08-02", "2020-07-15"),
-         "Raheem Sterling": ("ste.js", "STE", "2016-08-02", "2020-07-15"),
-         "Riyad Mahrez": ("mah.js", "MAH", "2018-07-10", "2020-07-15"),
-         "Bernardo Silva": ("bsi.js", "BSI", "2017-07-01", "2020-07-15"),
-         "David Silva": ("sil.js", "SIL", "2016-08-02", "2020-07-15"),
-         "Thomas Müller": ("mul.js", "MUL", "2020-07-15", "2025-07-01"),
-         "Robert Lewandowski": ("lew.js", "LEW", "2020-07-15", "2022-07-01"),
-         "Jamal Musiala": ("mus.js", "MUS", "2020-07-15", "2025-07-01"),
-         "Harry Kane": ("kan.js", "KAN", "2023-08-12", "2025-07-01"),
-         "Sadio Mané": ("man.js", "MAN", "2022-07-01", "2023-08-31")}
+MATES = {"Kevin De Bruyne": ("kdb.js", "KDB", "2017-07-01", "2025-07-01"),
+         "Sergio Agüero": ("agu.js", "AGU", "2017-07-01", "2021-06-01"),
+         "Raheem Sterling": ("ste.js", "STE", "2017-07-01", "2022-07-13"),
+         "Riyad Mahrez": ("mah.js", "MAH", "2018-07-10", "2023-07-28"),
+         "Bernardo Silva": ("bsi.js", "BSI", "2017-07-01", "2026-07-01"),
+         "David Silva": ("sil.js", "SIL", "2017-07-01", "2020-08-17"),
+         "Erling Haaland": ("haa.js", "HAA", "2022-07-01", "2099-01-01"),
+         "Leroy Sané": ("san.js", "SAN", "2017-07-01", "2020-07-15")}
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items()}
 CROSS = []
 def cmp_rows(a, b):
@@ -353,11 +351,11 @@ for nm, ent in MATE_E.items():
     for r in E:
         if r[0] == "a" and r[13] == nm:
             hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
-            CROSS.append(("자네 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+            CROSS.append(("포든 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
     for x in ent:
-        if x[0] == "a" and x[13] == "Leroy Sané":
+        if x[0] == "a" and x[13] == "Phil Foden":
             hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
-            CROSS.append((nm + " 도움→자네 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append((nm + " 도움→포든 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for x in ent:
         if lo <= x[9] < hi:
             for r in E:
@@ -370,21 +368,20 @@ for nm, ent in MATE_E.items():
         if x[0] == "g" and lo <= x[9] < hi:
             tm = [e for e in EVENTS if e["foden_assist_other"] == "1" and e["gameId"] in G and ldate(G[e["gameId"]]) == x[9] and abs(minute(e["minute"])[0] - x[4]) <= 2]
             if tm and not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
-                CROSS.append(("TM 자네 도움을 뺀 동료 골", nm, x[9], x[4], tm[0]["assist_type"]))
-    # 동료 파일에서 자네 골의 도움으로 적혔어야 할 것(TM 리포트 기준, 참고)
+                CROSS.append(("TM 포든 도움을 뺀 동료 골", nm, x[9], x[4], tm[0]["assist_type"]))
+    # 동료 파일에서 포든 골의 도움으로 적혔어야 할 것(TM 리포트 기준, 참고)
     for e in EVENTS:
         if e["foden_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
             d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
             if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
-                CROSS.append(("TM 동료 도움 → 자네 골인데 동료 파일에 없음", nm, d, e["minute"], e["assist_type"]))
+                CROSS.append(("TM 동료 도움 → 포든 골인데 동료 파일에 없음", nm, d, e["minute"], e["assist_type"]))
 if __name__ == "__main__" and "--cross" in sys.argv:
     for c in CROSS:
         if c[-1] != "같음": print(c)
     print(collections.Counter(c[0] for c in CROSS))
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("s04sa", "2016-08-02", "샬케 04", "2014~2016"), ("mcisa", "2020-07-15", "맨체스터 시티", "2016~2020"),
-         ("baysa", "2025-07-01", "바이에른 뮌헨", "2020~2025"), ("galsa", None, "갈라타사라이", "2025~")]
+CLUBS = [("mcifo", None, "맨체스터 시티", "2017~")]
 def club_of(d):
     for k, u, _, _ in CLUBS:
         if u is None or d < u: return k
@@ -393,7 +390,7 @@ ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
 for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
 for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
 for g in GAMES:
-    tm_club = {"33": "s04sa", "281": "mcisa", "27": "baysa", "141": "galsa"}[g["club_id"]]
+    tm_club = {"281": "mcifo"}[g["club_id"]]
     if club_of(ldate(g)) != tm_club: sys.exit("클럽 경계 불일치 " + g["gameId"])
 
 # ---------------------------------------------------------------- 설명(NOTE)
@@ -462,7 +459,7 @@ if problems:
 # ---------------------------------------------------------------- 출력
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__" and len(sys.argv) == 1:
-    open(OUT_JS, "w", encoding="utf-8").write(f"const SAN_E={J(E)};\nconst SAN_M={J(M)};\nconst SAN_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const FOD_E={J(E)};\nconst FOD_M={J(M)};\nconst FOD_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
                "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
