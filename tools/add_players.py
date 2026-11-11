@@ -119,7 +119,10 @@ def main():
             s = rep(s, ')return String(y);if(club==="kobvl")', "".join(f'||club==="{k}"' for k in cal) + ')return String(y);if(club==="kobvl")')
         j10 = sp.get("season", {}).get("jul10", [])
         if j10:  # 키 여러 개를 한 번에(앵커가 한 번 바뀌면 다시 못 찾음)
-            s = rep(s, '||club==="lhma"){const s=d.slice(5)>="07-10"', '||club==="lhma"' + "".join(f'||club==="{k}"' for k in j10) + '){const s=d.slice(5)>="07-10"')
+            mj = re.findall(r'\|\|club==="[a-z0-9]+"\)\{const s=d\.slice\(5\)>="07-10"', s)  # 7월 10일 목록의 끝(마지막 키는 바뀜)
+            if len(mj) != 1:
+                sys.exit(f"7월 10일 목록 앵커가 {len(mj)}개")
+            s = rep(s, mj[0], mj[0][:-len('){const s=d.slice(5)>="07-10"')] + "".join(f'||club==="{k}"' for k in j10) + '){const s=d.slice(5)>="07-10"')
     ret = [sp["preset"] for sp in specs if sp.get("retired")]
     if ret:
         rm = re.search(r'RETIRED=new Set\(\[([^\]]*)\]\)', s)
