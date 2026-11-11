@@ -114,10 +114,12 @@ def main():
     s = rep(s, flag, flag[:-1] + "".join(flag_add) + "}")
     # seasonOf
     for sp in specs:
-        for k in sp.get("season", {}).get("calendar", []):
-            s = rep(s, ')return String(y);if(club==="kobvl")', f'||club==="{k}")return String(y);if(club==="kobvl")')
-        for k in sp.get("season", {}).get("jul10", []):
-            s = rep(s, '||club==="lhma"){const s=d.slice(5)>="07-10"', f'||club==="lhma"||club==="{k}"){{const s=d.slice(5)>="07-10"')
+        cal = sp.get("season", {}).get("calendar", [])
+        if cal:
+            s = rep(s, ')return String(y);if(club==="kobvl")', "".join(f'||club==="{k}"' for k in cal) + ')return String(y);if(club==="kobvl")')
+        j10 = sp.get("season", {}).get("jul10", [])
+        if j10:  # 키 여러 개를 한 번에(앵커가 한 번 바뀌면 다시 못 찾음)
+            s = rep(s, '||club==="lhma"){const s=d.slice(5)>="07-10"', '||club==="lhma"' + "".join(f'||club==="{k}"' for k in j10) + '){const s=d.slice(5)>="07-10"')
     ret = [sp["preset"] for sp in specs if sp.get("retired")]
     if ret:
         rm = re.search(r'RETIRED=new Set\(\[([^\]]*)\]\)', s)
