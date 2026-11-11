@@ -47,13 +47,15 @@ EXCL_G = {
 EXCL_A = {
     "991716|45+1": "상대 자책골(라이언 버트런드)",
 }
+# PK 수정: Transfermarkt 리포트·API에 PK 표시가 없지만 FotMob·경기 기사가 PK로 적은 골
+PK_FIX = {"1041566|40": "FotMob 'Penalty', ESPN·BBC 경기 기록 'Gerrard (pen) 40'"}
 AUTO_EXCL_TYPES = {"Penalty: Fouled player": "PK 유도", "Shot on goal": "슈팅 리바운드(Shot on goal)"}
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳이 확인해 넣은 도움
 ADD_CONFIRMED = {}
 # FotMob에만 있는 도움(넣지 않음)
 FM_ONLY = [
     "2012.12.9 웨스트햄전 11분 글렌 존슨 골(Transfermarkt 도움 없음)",
-    "2014.5.5 크리스털 팰리스전 53분 수아레스 골(Transfermarkt 도움은 스터리지)",
+    "2014.5.5 크리스털 팰리스전 53분 스터리지 골(Transfermarkt 도움 없음)",
 ]
 
 # ---------------------------------------------------------------- 대회 코드
@@ -301,13 +303,16 @@ def opp_elo(opp, d, cid):
     return None
 
 # ---------------------------------------------------------------- 출전
+def opp_name(g):
+    return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()   # Transfermarkt 해체 연도 꼬리표 제거
+
 def ldate(g):
     # 리버풀: Transfermarkt 리포트 날짜(현지). LA 갤럭시: API UTC를 미국 태평양 시간으로 바꾼 날짜(리포트 날짜는 하루 늦음)
     return g["date_local"]
 
 M = []
 for g in GAMES:
-    M.append([ldate(g), g["opponent"].strip(), comp_of(g["competitionId"], g["round"]), int(g["playedMinutes"])])
+    M.append([ldate(g), opp_name(g), comp_of(g["competitionId"], g["round"]), int(g["playedMinutes"])])
 M.sort(key=lambda r: r[0])
 
 # ---------------------------------------------------------------- 골·도움
@@ -350,14 +355,14 @@ for e in EVENTS:
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     et = 1 if (mi > 90 and not dm and g["gameState"] in ("extra_time", "penalty_shootout", "golden_goal") and not tie) else 0
-    d = ldate(g); opp = g["opponent"].strip()
+    d = ldate(g); opp = opp_name(g)
     tag = f"{gid}|{e['minute']}"
     if isg:
         if e["own_goal"] == "1" or not ours:
             judg.append(("골 제외", d, opp, e["minute"], "자책골")); continue
         if tag in EXCL_G:
             judg.append(("골 제외", d, opp, e["minute"], EXCL_G[tag])); continue
-        add_row("g", mi, dm, gf, ga, int(e["penalty"] == "1" and e["goal_desc"] == "Penalty"), 0, tie, comp, ko, d, opp, cid, et)
+        add_row("g", mi, dm, gf, ga, int((e["penalty"] == "1" and e["goal_desc"] == "Penalty") or tag in PK_FIX), 0, tie, comp, ko, d, opp, cid, et)
     if isa:
         if tag in EXCL_A:
             judg.append(("도움 제외", d, opp, e["minute"], e["scorer"], EXCL_A[tag])); continue
@@ -406,3 +411,156 @@ for gid, evs in TMG.items():
 if __name__ == "__main__" and "--fm" in sys.argv:
     for x in FM_CMP: print(x)
     print("FotMob 대조 경기", sum(1 for gid in TMG if FM_EV.get(gid)))
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+def load_js(fn, P):
+    t = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", t, re.S)
+    return json.loads(m.group(1))
+MATES = {"Fernando Torres": ("tor.js", "TOR"), "Luis Suárez": ("sua.js", "SUA"), "Raheem Sterling": ("ste.js", "STE")}
+MATE_E = {nm: load_js(*v) for nm, v in MATES.items()}
+CLUB_SPANS = {"Fernando Torres": ("2007-07-04", "2011-01-31"), "Luis Suárez": ("2011-01-31", "2014-07-11"),
+              "Raheem Sterling": ("2012-03-24", "2015-07-01")}
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None):
+        diffs.append(f"단판/합산 {a[7]},{a[14] if len(a) > 14 else '-'}/{b[7]},{b[14] if len(b) > 14 else '-'}")
+    return diffs
+def nm_eq(a, b): return norm(a) == norm(b)
+for nm, ent in MATE_E.items():
+    lo, hi = CLUB_SPANS[nm]
+    for r in E:   # 제라드 도움 → 동료 골
+        if r[0] == "a" and nm_eq(r[13], nm):
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("제라드 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:  # 동료 도움 → 제라드 골
+        if x[0] == "a" and x[13] == "Steven Gerrard":
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→제라드 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    for x in ent:  # 같은 경기 Elo/lv/대회
+        if lo <= x[9] < hi:
+            for r in E:
+                if r[9] == x[9] and key(r[1]) == key(x[1]):
+                    dd = [t for t in cmp_rows(r, x) if not t.startswith(("분", "스코어"))]
+                    if dd: CROSS.append(("같은 경기 다름", nm, r[9], r[1], dd))
+                    break
+    # 동료 골에 Transfermarkt 제라드 도움이 있지만 제라드 파일에 도움이 없는 경우 / 동료 골인데 제라드 도움 행이 있고 동료 파일에 골이 없는 경우
+    for x in ent:
+        if x[0] == "g" and lo <= x[9] < hi:
+            tm = [e for e in EVENTS if e["gerrard_assist_other"] == "1" and e["gameId"] in G and ldate(G[e["gameId"]]) == x[9] and abs(minute(e["minute"])[0] - x[4]) <= 2]
+            if tm and not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
+                CROSS.append(("TM 제라드 도움을 뺀 동료 골", nm, x[9], x[4], tm[0]["assist_type"]))
+    # 동료 출전 기간 중 TM 동료 도움 → 제라드 골이 동료 파일에 없는 경우
+    for e in EVENTS:
+        if e["gerrard_scorer"] == "1" and e["gameId"] in G and nm_eq(e["assist_player"], nm):
+            d = ldate(G[e["gameId"]])
+            if not any(x[0] == "a" and x[9] == d and abs(x[4] - minute(e["minute"])[0]) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움이 동료 파일에 없음", nm, d, e["minute"], e["assist_type"], e["goal_desc"]))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter(c[0] for c in CROSS))
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("livsg", "2015-07-01", "리버풀", "1998~2015"), ("lagsg", None, "LA 갤럭시", "2015~2016")]
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+CLUB_KO = {k: n for k, u, n, y in CLUBS}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    if club_of(ldate(g)) != {LIV: "livsg", LAG: "lagsg"}[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+
+# ---------------------------------------------------------------- 설명(NOTE)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return "·".join(map(str, v[:3]))
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+PRE_A = sum(1 for r in E if r[0] == "a" and r[9] < GAP)
+POST_A = NA - PRE_A
+N_UNTYPED = sum(1 for e in EVENTS if e["gerrard_assist_other"] == "1" and e["assist_type"] == "" and e["gameId"] in G
+                and f"{e['gameId']}|{e['minute']}" not in EXCL_A)
+SRC = ELO_SRC
+NOTE_LINES = [
+    f"스티븐 제라드(리버풀·LA 갤럭시)의 클럽 공식 경기 {NG}경기({d_(M[0][0])} 블랙번 로버스전 ~ {d_(M[-1][0])} 콜로라도 래피즈전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·잉글랜드 대표팀 제외",
+    "클럽별 경기·골·도움: " + ", ".join(f"{CLUB_KO[k]} {c3(v)}" for k, v in ST.items()) + f". 출전 분 합계 {MIN_TOT:,}분",
+    "출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(출전한 749경기 전부), 2010-11 이후 골·도움은 FotMob 경기 이벤트와 대조함. 유스·2군 경기는 어느 출처에도 없음",
+    "경기 수는 영어·스페인어 위키백과 클럽·시즌별 기록(749경기)과 같음. 골은 영어 위키백과 통산 190골과 같고 Transfermarkt(191골)보다 1골 적음(아래 노리치전). 영어 위키백과는 2011-12 FA컵을 2골로 적었으나 Transfermarkt·FotMob·스페인어 위키백과는 1골(2012.1.6 올덤전 PK)이고 다른 골의 경기별 근거가 없어 1골로 둠. 스페인어 위키백과 2003-04 5골·2012-13 12골은 다른 출처와 달라 쓰지 않음",
+    "골: 2012.9.29 노리치전 68분 골은 Transfermarkt만 제라드 골('굴절 슈팅')로 적고 FotMob·ESPN·worldfootball은 레온 바넷 자책골, 11v11은 프리미어리그 의심 골 위원회가 자책골로 판정했다고 적어 넣지 않음(영어 위키백과 2012-13 리그 9골과도 맞음). Transfermarkt 리포트의 제라드 자책골 3개(2005.2.27 리그컵 결승, 2012.12.9 웨스트햄전, 2014.10.19 QPR전)는 상대 골이라 당연히 뺌",
+    f"PK 골 {NPK}개 = Transfermarkt 골 유형 'Penalty' 46 + 2010.8.5 라보트니치키전 40분 골(Transfermarkt는 유형 없음, FotMob·ESPN·BBC 경기 기록은 PK). 'Penalty rebound'(PK가 막힌 뒤 리바운드 골) 3개(2006.12.9 풀럼전 54분, 2007.12.11 마르세유전 4분, 2009.5.9 웨스트햄전 37분)는 일반 골로 셈(선수 경기 성적의 PK 골 수와도 같음). 2010-11 이후 골은 FotMob과 스코어·PK가 모두 같음(FotMob 경기 기록이 없는 2011년 1~3월 5경기는 Transfermarkt만 근거)",
+    f"도움: 2014.8.1 이전은 Transfermarkt 경기 리포트 도움, 이후는 Transfermarkt와 FotMob 경기 이벤트가 함께 센 것만 씀. 도움 {NA} = Transfermarkt 171 − PK 유도 6(2004.4.24 머피, 2006.8.19·2007.2.24 파울러, 2007.10.20 카위트 PK와 LA 갤럭시 2015.7.18·2016.9.25 킨 PK) − 슈팅 리바운드 2(2003.12.13 헤스키, 2010.3.18 토레스, 'Shot on goal') − 상대 자책골에 준 도움 1(2010.1.13 레딩전 45+1분 버트런드 자책골)",
+    f"2014.8.1 이전 도움 {PRE_A}개는 Transfermarkt 단일 출처(2010-11 이전은 FotMob 경기 기록이 없음). 도움 유형 칸이 빈 {N_UNTYPED}개도 일반 도움으로 셈. 2010-11~2013-14에 Transfermarkt에만 있는 도움(2011.1.1 볼턴전 90+2분 조 콜, 2011.2.6 첼시전 69분 메이렐레스, 2012.10.31 스완지전, 2012.11.22 영 보이스전, 2013.8.27 노츠 카운티전)도 이 기준으로 넣음",
+    f"2014.8.1 이후 도움 {POST_A}개는 모두 FotMob도 제라드 도움으로 적음. FotMob 경력 합계의 LA 갤럭시 12도움은 경기 이벤트 합계와 다름",
+    "Transfermarkt 리포트가 본인 PK 골에 본인 도움으로 적은 2개(2005.7.26 카우나스전 54분, 2009.3.14 맨유전 43분)는 도움이 아님 — 선수 경기 성적 수치와 리포트 수치가 다른 두 경기가 이 둘이며 선수 경기 성적 쪽(도움 아님)과 같음",
+    "FotMob에만 있는 도움 2개는 넣지 않음: " + "; ".join(FM_ONLY),
+    "날짜는 현지 날짜. 리버풀 경기는 Transfermarkt 리포트 날짜(선수 경기 성적의 옛 시각 49경기는 하루 앞서 있어 쓰지 않음), 2005.12 클럽 월드컵(요코하마)도 현지 날짜. LA 갤럭시 경기는 경기 시각을 미국 태평양 시간으로 바꾼 날짜(Transfermarkt 리포트는 저녁 경기를 하루 늦게 적음; 원정 경기도 현지 날짜와 같음)",
+    "출전 분: Transfermarkt 그대로(퇴장 4경기 포함). 2001.5.16 UEFA컵 결승(알라베스, 연장 골든골 5-4)은 117분, 2005.5.25 챔스 결승(밀란, 3-3 뒤 승부차기)은 120분",
+    "상대 Elo는 같은 경기를 다룬 다른 선수 자료(토레스·수아레스·스털링 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 직접 추정, 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 순위값에 넣은 값 순으로 씀"
+    f"(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+기존 순위값 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",
+    "프리미어리그는 다른 선수 자료의 시즌별 순위값(2002-03 이후 완전). 1998-99~2001-02의 빈 순위(2000-01 2위 아스널·15위 웨스트햄)는 2003-04 순위별 값에 같은 시즌 다른 순위 값과의 차이(중앙값)를 더함. 챔피언십(2부)·리그 원(3부)·리그 투(4부)는 다른 선수 자료의 순위별 고정값을 쓰고, 그 값이 없는 순위(리그 원 2000-01 13위 위컴·2011-12 16위 올덤, 리그 투 2014-15 15위 AFC 윔블던)는 앞뒤 순위값 사이 보간(추정). 버밍엄 2001-02(2부 5위)·레딩 2009-10(2부 9위) 순위는 Transfermarkt 순위표를 받지 못해 영어 위키백과·구단 기록 사이트로 확인",
+    "MLS는 다른 선수 자료의 2015·2016 전체 순위별 값(동·서부 콘퍼런스 표를 승점·승수·득실차·다득점으로 합친 순위). 리그1·에레디비시·포르투갈 1부 상대(마르세유 2003-04 7위, 모나코 2004-05 3위, PSV 2006-07 1위, 포르투 2000-01 2위)는 다른 선수 자료의 같은 순위 값",
+    "직접 추정(모두 '추정'): 올림피아코스 2000-01·2004-05(그리스 1위) 1690, 디나모 키이우 2001-02(우크라이나 2위) 1600, 하카 2001(핀란드 3위) 1350, 슈테아우아 부쿠레슈티 2003-04(루마니아 2위) 1500, 레프스키 소피아 2003-04(불가리아 2위) 1480, 그라츠 AK 2004-05(오스트리아 2위) 1480, 토털 네트워크 솔루션스 2005(웨일스 1위) 1200, 카우나스 2005(리투아니아 1위) 1300, CSKA 소피아 2005(불가리아 2위) 1480, 사프리사 2005(코스타리카·북중미 챔피언) 1480, 베식타시 2007-08(튀르키예 3위) 1660, 해번트 앤드 워털루빌 2007-08(잉글랜드 6부) 1200, 우니레아 우르지체니 2009-10(루마니아 2위) 1500, 라보트니치키 2010(북마케도니아 4위) 1300 — 모두 다른 선수 자료의 같은 리그 비슷한 순위 값에 맞춤",
+    "대회 비중: FA컵·리그컵·US 오픈컵은 국내컵(FA컵 5라운드·리그컵 16강까지 낮은 비중, FA컵 6라운드·리그컵 8강 이후 높은 비중, 재경기도 같은 라운드), 커뮤니티 실드·UEFA 슈퍼컵은 국내컵 결승, 2005 FIFA 클럽 월드 챔피언십은 클럽 월드컵, UEFA컵 1라운드는 유로파 예선, UEFA컵 2·3라운드·16강·8강과 유로파 32강·16강·8강은 유로파 토너먼트, 챔스 2001-02 2차 조별리그는 챔스 조별, MLS 컵 플레이오프는 MLS 플레이오프, 북중미 챔스 8강은 북중미 챔스 8강 이후로 계산함. 2001 UEFA컵 결승(골든골 연장)은 다른 단판 연장 경기와 같이 계산(골든골 규칙은 반영하지 않음)",
+    f"두 경기 합산(UEFA 대회 예선·토너먼트, 리그컵 준결승) 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함. 원정 다득점은 UEFA 대회·리그컵 준결승(2017-18까지 규칙)에 적용, 연장 있음. 2003.1.21 셰필드 유나이티드전 107분 오언 골 도움은 2차전 연장 기록",
+    "2차전 기록의 1차전 스코어는 Transfermarkt 경기 리포트로 채움. 제라드가 뛰지 않은 1차전은 2005.2.22 레버쿠젠전(3-1)·2010.7.29 라보트니치키전(2-0)",
+    "시즌 구분: 리버풀은 7월 10일 기준(2005.7.13~7.26 챔스 1·2차 예선 TNS·카우나스전이 2005-06 시즌), LA 갤럭시는 달력 연도. 리버풀의 다른 7월 공식 경기는 없어 토레스·수아레스·스털링 자료와 같은 경기는 모두 같은 시즌으로 잡힘. 클럽 구분은 2015.7.1 전 리버풀, 이후 LA 갤럭시",
+    "같은 경기 동료 자료: 토레스(제라드 도움 13·토레스 도움 7)·수아레스(제라드 도움 8·수아레스 도움 4)와 주고받은 골·도움은 날짜·분·골 전 스코어·대회·상대 Elo·수준 설명·합산 정보가 모두 같음. 스털링과 주고받은 골·도움은 없음",
+    "수상 기록은 Transfermarkt 업적 페이지 기준: 챔스 2004-05, UEFA컵 2000-01, UEFA 슈퍼컵 2회(2001·2005), FA컵 2회(2001·2006), 리그컵 3회(2001·2003·2012), 커뮤니티 실드 2회(2001·2006). 준우승: 챔스 2006-07, 리그컵 2004-05. 개인: UEFA 올해의 클럽 선수 2005, FWA 올해의 선수 2009, PFA 올해의 선수 2005-06. 잉글랜드 대표팀 기록은 뺌",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+mm = {m[0]: m for m in M}
+for r in E:
+    m = mm.get(r[9])
+    if m and m[1] != r[1]: problems.append(("상대 이름 다름", r[9], r[1], m[1]))
+    if m and m[2] != r[3]: problems.append(("대회 다름", r[9], r[3], m[2]))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const GER_E={J(E)};\nconst GER_M={J(M)};\nconst GER_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for k, v in ST.items(): print(" ", k, v)
