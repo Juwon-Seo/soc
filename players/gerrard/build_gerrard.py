@@ -188,14 +188,14 @@ def premier(season, r):
     if r in m: return m[r], False
     sh = median([v - PL_BASE[k] for k, v in m.items()])
     return int(round(PL_BASE[r] + sh)), True
-# 챔피언십(24팀): 기존 자료의 고정 순위값(2004-05~2015-16 모두 같음). 6·15·19위는 기존 자료에 없어 앞뒤 순위 평균
-CH = {1: 1761, 2: 1717, 3: 1689, 4: 1669, 5: 1656, 7: 1642, 8: 1635, 9: 1626, 10: 1617, 11: 1607, 12: 1600, 13: 1594,
-      14: 1589, 16: 1580, 17: 1578, 18: 1572, 20: 1555, 21: 1547, 22: 1542, 23: 1537, 24: 1527}
-for r in (6, 15, 19): CH[r] = int(round((CH[r - 1] + CH[r + 1]) / 2 + 0.01))
-# 리그 원(24팀): 기존 자료 값(4위 1539·6위 1522·7위 1518·19위 1457·23위 1436), 빈 순위는 선형 보간(추정)
-L1 = {4: 1539, 6: 1522, 7: 1518, 19: 1457, 23: 1436}
-# 리그 투(24팀): 기존 자료 값(2위 1460·12위 1368), 빈 순위는 선형 보간·외삽(추정)
-L2 = {2: 1460, 12: 1368}
+# 챔피언십(24팀): 기존 자료의 고정 순위값(2004-05~2015-16 모두 같음, '챔피언십'·'챔피언십(2부)' 라벨)
+CH = {1: 1761, 2: 1717, 3: 1689, 4: 1669, 5: 1656, 6: 1648, 7: 1642, 8: 1635, 9: 1626, 10: 1617, 11: 1607, 12: 1600,
+      13: 1594, 14: 1589, 15: 1584, 16: 1580, 17: 1578, 18: 1572, 19: 1564, 20: 1555, 21: 1547, 22: 1542, 23: 1537, 24: 1527}
+# 리그 원(24팀): 기존 자료 순위값(다수값), 빈 순위(13·16위 등)는 앞뒤 순위값 사이 선형 보간(추정)
+L1 = {3: 1555, 4: 1539, 6: 1522, 7: 1518, 8: 1513, 9: 1506, 11: 1491, 12: 1485, 14: 1477, 15: 1473, 18: 1464, 19: 1457,
+      20: 1450, 22: 1440, 23: 1436, 24: 1428}
+# 리그 투(24팀): 기존 자료 순위값(다수값), 빈 순위는 보간(추정)
+L2 = {2: 1460, 6: 1406, 7: 1403, 8: 1396, 12: 1368, 19: 1359, 22: 1335}
 def interp(tab, r):
     if r in tab: return tab[r], False
     ks = sorted(tab)
@@ -218,10 +218,10 @@ def model(lg, season, r, n):
         return CH[r], f"챔피언십 {season} {r}위"
     if lg == "GB3":
         v, it = interp(L1, r)
-        return v, f"리그 원 {season} {r}위" + (" (추정, 다른 선수 자료 순위값 사이 보간)" if it else "")
+        return v, f"리그 원(3부) {season} {r}위" + (" (추정, 앞뒤 순위값 사이 보간)" if it else "")
     if lg == "GB4":
         v, it = interp(L2, r)
-        return v, f"리그 투 {season} {r}위" + (" (추정, 다른 선수 자료 순위값 사이 보간)" if it else "")
+        return v, f"리그 투(4부) {season} {r}위" + (" (추정, 앞뒤 순위값 사이 보간)" if it else "")
     if lg == "MLS1-overall":
         return MLS[r], f"MLS {season} {r}위"
     return None
@@ -229,7 +229,32 @@ def model(lg, season, r, n):
 RANK_LG = ["GB1", "GB2", "GB3", "GB4", "MLS1-overall"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정'): (key, 시즌) -> (Elo, lv)
-MAN = {}
+MAN = {
+    (key("Olympiacos Piraeus"), "2000-01"): (1690, "그리스 2000-01 1위 (추정, 다른 선수 자료 올림피아코스 2006-07·2007-08 1690과 같음)"),
+    (key("Olympiacos Piraeus"), "2004-05"): (1690, "그리스 2004-05 1위 (추정, 다른 선수 자료 올림피아코스 2006-07·2007-08 1690과 같음)"),
+    (key("Dynamo Kyiv"), "2001-02"): (1600, "우크라이나 2001-02 2위 (추정, 다른 선수 자료 디나모 키이우 2006-07 1600과 같음)"),
+    (key("FC Haka"), "2001"): (1350, "핀란드 2001 3위 (추정, 다른 선수 자료 인터 투르쿠 1350과 같게)"),
+    (key("Steaua Bucharest"), "2003-04"): (1500, "루마니아 2003-04 2위 (추정, 다른 선수 자료 슈테아우아 2006-07·2007-08 1500과 같음)"),
+    (key("Levski Sofia"), "2003-04"): (1480, "불가리아 2003-04 2위 (추정, 다른 선수 자료 레프스키 2001-02 1480과 같음)"),
+    (key("Grazer AK"), "2004-05"): (1480, "오스트리아 2004-05 2위 (추정, 다른 선수 자료 그라츠 2003-04 1480과 같음)"),
+    (key("Total Network Solutions"), "2005-06"): (1200, "웨일스 2004-05 1위 (추정, 리투아니아 1위 1300보다 낮게)"),
+    (key("FBK Kaunas (- 2012)"), "2005"): (1300, "리투아니아 2005 1위 (추정, 다른 선수 자료 잘기리스 리투아니아 1위 1300과 같음)"),
+    (key("CSKA Sofia"), "2005-06"): (1480, "불가리아 2005-06 2위 (추정, 다른 선수 자료 레프스키 2001-02 1480과 같은 수준)"),
+    (key("Deportivo Saprissa"), "2005-06"): (1480, "코스타리카·북중미 챔피언 2005 (추정, 다른 선수 자료 알라후엘렌세 1480과 같음)"),
+    (key("Beşiktaş JK"), "2007-08"): (1660, "쉬페르리그 2007-08 3위 (추정, 다른 선수 자료 페네르바흐체 2007-08 1680·2008-09 4위 1640 사이)"),
+    (key("Havant & Waterlooville FC"), "2007-08"): (1200, "잉글랜드 6부(콘퍼런스 사우스) 2007-08 (추정, 다른 선수 자료 잉글랜드 5부 1300보다 낮게)"),
+    (key("Unirea Urziceni ( - 2011)"), "2009-10"): (1500, "루마니아 2009-10 2위 (추정, 다른 선수 자료 루마니아 상위권 1500과 같음)"),
+    (key("Rabotnicki Skopje"), "2010-11"): (1300, "북마케도니아 2010-11 4위 (추정, 다른 선수 자료 라보트니치키 2011-12 1300과 같음)"),
+}
+# 순위가 확인된 상대를 기존 리그 순위값(시즌 조정 없는 리그·고정 순위값)으로: (key, 시즌) -> (Elo, lv)
+FIXED = {
+    (key("FC Porto"), "2000-01"): (1795, "포르투갈 1부 2000-01 2위"),            # 18팀 시즌 2위 값(2004-05 등)
+    (key("Olympique Marseille"), "2003-04"): (1750, "리그1 2003-04 7위"),        # 리그1 7위 다수값
+    (key("AS Monaco"), "2004-05"): (1825, "리그1 2004-05 3위"),                  # 리그1 3위(2003-04 값)
+    (key("PSV Eindhoven"), "2006-07"): (1837, "에레디비시 2006-07 1위"),
+    (key("Birmingham City"), "2001-02"): (CH[5], "챔피언십 2001-02 5위"),        # 2부 5위(영어 위키백과 2002 플레이오프 문서)
+    (key("Reading FC"), "2009-10"): (CH[9], "챔피언십 2009-10 9위"),             # 2부 9위
+}
 
 ELO_SRC = collections.Counter()
 ELO_LOG = []
@@ -259,6 +284,10 @@ def opp_elo(opp, d, cid):
     for s in seasons:
         if (k, s) in MAN:
             e, lv = MAN[(k, s)]; ELO_SRC["직접 추정"] += 1; ELO_LOG.append((d, opp, e, lv, "man"))
+            return e, lv
+    for s in seasons:
+        if (k, s) in FIXED:
+            e, lv = FIXED[(k, s)]; ELO_SRC["순위표+리그 모형"] += 1; ELO_LOG.append((d, opp, e, lv, "fixed"))
             return e, lv
     for s in seasons:
         for lg in RANK_LG:
@@ -347,4 +376,33 @@ if missing_elo:
 
 rows.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 E = rows
-print(len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E))
+
+if __name__ == "__main__" and "--debug" in sys.argv:
+    print(ELO_SRC)
+    seen = set()
+    for x in ELO_LOG:
+        k = (x[1], x[2], x[3], x[4][:5])
+        if k in seen: continue
+        seen.add(k)
+        if not x[4].startswith("table"): print(x)
+
+# ---------------------------------------------------------------- FotMob 골 대조(2010-11 이후)
+FM_CMP = []
+TMG = collections.defaultdict(list)
+for e in EVENTS:
+    if e["gerrard_scorer"] == "1" and e["own_goal"] != "1" and e["gameId"] in G and f"{e['gameId']}|{e['minute']}" not in EXCL_G:
+        TMG[e["gameId"]].append(e)
+for gid, evs in TMG.items():
+    if gid not in FM_EV or not FM_EV[gid]: continue
+    fg = [r for r in FM_EV[gid] if r["gerrard_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(fg) != len(evs):
+        FM_CMP.append(("골 수 다름", gid, ldate(G[gid]), [x["minute"] for x in evs], [r["time"] for r in fg])); continue
+    for t, f in zip(sorted(evs, key=lambda x: minute(x["minute"])[0]), sorted(fg, key=lambda r: int(r["time"]) + int(r["overloadTime"] or 0))):
+        tpk = t["goal_desc"] == "Penalty"; fpk = (f["goalDescriptionKey"] or "").lower().startswith("penalty") or "pen" in (f["suffix"] or "").lower()
+        tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
+        base = int(t["minute"].split("+")[0])
+        if tpk != fpk or not (abs(tm_min - fm_min) <= 1 or int(f["time"]) == base):
+            FM_CMP.append(("다름", gid, ldate(G[gid]), t["minute"], t["goal_desc"], f["time"], f["overloadTime"], f["goalDescriptionKey"], f["suffix"]))
+if __name__ == "__main__" and "--fm" in sys.argv:
+    for x in FM_CMP: print(x)
+    print("FotMob 대조 경기", sum(1 for gid in TMG if FM_EV.get(gid)))

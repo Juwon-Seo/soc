@@ -69,3 +69,6 @@ TM titles: LG 97/98 KL, 02/03 04/05 05/06 Bayern, 09/10 Chelsea; DC 02/03 04/05 
 ## 10. Notes
 - Position CM (Lampard precedent), flag DE (exists), retired 2012.
 - Tool note: running `tools/add_players.py` from the wrong cwd once patched the real src/index.html and hon.js; reverted immediately with `git checkout` (they were clean before).
+
+## (통합 단계 추가) 우승·수상
+- 리그컵 준우승 07/08 첼시를 `o`에 추가: 2008.2.24 리그컵 결승 토트넘전에 Transfermarkt 기준 32분 출전(연장 교체), 램파드 HON_DATA 선례와 같게 맞춤.
