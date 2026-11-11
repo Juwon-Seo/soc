@@ -33,6 +33,10 @@ G = {g["gameId"]: g for g in GAMES}
 EVENTS = rd("tm_events.csv")
 INFO = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 TIES_RAW = {r["gameId"]: r for r in rd("tm_two_leg_ties.csv")}
+OTHER = {g: r["other_leg_id"] for g, r in TIES_RAW.items()}
+for gid, r in INFO.items():   # 두 경기 짝: 리포트의 'other leg' 링크(한쪽에만 적힌 경우 반대쪽도 채움)
+    if r["other_leg_id"]:
+        OTHER.setdefault(gid, r["other_leg_id"]); OTHER.setdefault(r["other_leg_id"], gid)
 FM_EV = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"):
     FM_EV[r["tm_gameId"]].append(r)
@@ -103,7 +107,7 @@ def tie_of(g):
     if not is_leg(g): return None
     gid = g["gameId"]; inf = INFO[gid]; cid = g["competitionId"]; d = g["date_local"]
     leg = 1 if "1st" in g["round"].lower() else 2
-    o = INFO[TIES_RAW[gid]["other_leg_id"]]
+    o = INFO[OTHER[gid]]
     if (o["date_report"] < inf["date_report"]) != (leg == 2): sys.exit("차전 순서 이상 " + gid)
     home = int(inf["home_id"] == g["club_id"])
     if (o["home_id"] == g["club_id"]) == bool(home): sys.exit("합산 홈 판정 이상 " + gid)
@@ -382,7 +386,10 @@ MATES = {"Cristiano Ronaldo": ("ron.js", "RON", "2010-08-17", "2013-09-02"),
          "Kaká": ("kak.js", "KAK", "2010-08-17", "2013-09-02"),
          "Ángel Di María": ("dim.js", "DIM", "2010-08-17", "2013-09-02"),
          "Alexandre Lacazette": ("lac.js", "LAC", "2017-07-01", "2021-01-25"),
-         "Pierre-Emerick Aubameyang": ("aub.js", "AUB", "2018-01-31", "2021-01-25")}
+         "Pierre-Emerick Aubameyang": ("aub.js", "AUB", "2018-01-31", "2021-01-25"),
+         "Isco": ("isc.js", "ISC", "2013-07-01", "2013-09-02"),
+         "Serge Gnabry": ("gna.js", "GNA", "2013-09-02", "2016-08-31"),
+         "Bukayo Saka": ("sak.js", "SAK", "2018-11-29", "2021-01-25")}
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items()}
 CROSS = []
 def cmp_rows(a, b):
@@ -459,7 +466,7 @@ N_TM_A = sum(1 for e in EVENTS if e["gameId"] in G and e["ozil_assist_other"] ==
 N_PKW = sum(1 for e in EVENTS if e["gameId"] in G and e["ozil_assist_other"] == "1" and e["assist_type"] == "Penalty: Fouled player")
 N_SOG = sum(1 for e in EVENTS if e["gameId"] in G and e["ozil_assist_other"] == "1" and e["assist_type"] == "Shot on goal" and e["own_goal"] != "1")
 N_OGA = sum(1 for e in EVENTS if e["gameId"] in G and e["ozil_assist_other"] == "1" and e["own_goal"] == "1")
-PK_DATES = ", ".join(d_(r[9]) + " " + {"FC Aktobe": "악퇴베", "Eintracht Frankfurt": "프랑크푸르트"}.get(r[1], r[1]) for r in E if r[8])
+PK_DATES = ", ".join(d_(r[9]) + " " + {"FC Aktobe": "악퇴베", "Eintracht Frankfurt": "프랑크푸르트", "Kayserispor": "카이세리스포르", "Beşiktaş JK": "베식타시", "Fatih Karagümrük": "카라귐뤼크", "Alanyaspor": "알라니아스포르"}[r[1]] + "전" for r in E if r[8])
 NOTE_LINES = [
     f"메수트 외질(샬케 04·베르더 브레멘·레알 마드리드·아스널·페네르바체·이스탄불 바샥셰히르)의 클럽 공식 경기 {NG}경기({d_(M[0][0])} 레버쿠젠전 ~ {d_(M[-1][0])} 카이세리스포르전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·독일 대표팀·유소년(로트바이스 에센 U19·샬케 U19)·샬케 2군·바샥셰히르 2군 경기 제외",
     "클럽별 경기·골·도움: " + ", ".join(f"{CLUB_KO[k]} {c3(v)}" for k, v in ST.items()) + f". 출전 분 합계 {MIN_TOT:,}분",
@@ -471,7 +478,7 @@ NOTE_LINES = [
     "개별 판정으로 뺀 도움 2개: 2017.1.14 스완지전 37분 지루 골(Transfermarkt 단독, 경기 기사: 외질 헤더가 수비 맞고 흐른 공을 지루가 밀어 넣음), 2018.1.24 첼시전(리그컵 준결승) 12분(Transfermarkt는 몬레알 골, FotMob·경기 기사는 뤼디거 자책골). 2009.8.8 프랑크푸르트전 13분 외질 PK 골에 Transfermarkt 리포트가 외질 본인을 도움으로 적은 것도 셈하지 않음",
     "FotMob에 없지만 다른 출처 2곳이 외질 도움으로 적어 넣은 3개: 2015.4.18 레딩전(FA컵 준결승) 39분·105+1분 알렉시스 산체스 골(Eurosport·잉글랜드 축구협회 기사, AP·로이터), 2021.5.11 시바스스포르전 90+3분 시세 골(Hürriyet·Fox Sports 경기 기록). 2014년 8월 이후 FotMob에만 있는 도움은 없음(FotMob 경기 자료는 외질의 Transfermarkt 골·도움 경기와 2017년 2월 이후 출전 경기만 받음)",
     "2014년 8월 전 도움은 Transfermarkt 한 곳 기준이라 하나하나 다른 출처와 대조하지는 않음. 2013.5.17 코파 델 레이 결승 14분 호날두 골 도움은 Transfermarkt·FotMob 모두 외질(중립 경기장이라 두 자료의 홈·원정 표기만 다름)",
-    f"도움 합계 비교: Transfermarkt {N_TM_A}·튀르키예어 위키백과 220·FotMob 경력(샬케·브레멘 포함) 약 179·이 계산기 {NA}",
+    f"도움 합계 비교: Transfermarkt {N_TM_A}·튀르키예어 위키백과 220·FotMob 경력 합계 179·이 계산기 {NA}",
     "날짜는 현지 날짜(Transfermarkt 리포트 날짜, 모든 경기가 유럽)",
     f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(호날두·벤제마·이과인·카카·디 마리아·라카제트·오바메양·클로제·리베리·뮐러 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위를 리그 모형에 넣은 값, 직접 추정 순으로 씀"
     f"(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+모형 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",
@@ -479,7 +486,7 @@ NOTE_LINES = [
     "직접 추정(모두 '추정'): 트리어 2007-08(독일 4부) 1300, 악퇴베 2009(카자흐스탄 3위) 1350, 아우스트리아 빈 2009-10(오스트리아 2위) 1556, 링컨 시티 2016-17(잉글랜드 5부 1위) 1300, 외스테르순드 2017(스웨덴 6위) 1450",
     "대회 비중: DFB-포칼·코파 델 레이·FA컵·리그컵·튀르키예컵은 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중; FA컵 6라운드는 8강), DFB-리가포칼(시즌 전 리그컵)은 첫 경기(8강 격)·준결승을 국내컵 8강·준결승으로, 수페르코파(두 경기)·커뮤니티 실드는 국내컵 결승으로 계산함. UEFA컵 1라운드는 유로파 예선, UEFA컵 3라운드 이후·유로파 32강(2라운드)은 유로파 토너먼트, 컨퍼런스리그 예선·조별은 컨퍼런스로 계산함",
     f"두 경기 합산(챔스·유로파·UEFA컵 토너먼트와 예선, 코파 델 레이 32강~준결승, 수페르코파, 리그컵 준결승) 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함. 원정 다득점은 UEFA 대회 2020-21까지, 스페인 국내 대회 2018-19까지, 리그컵 준결승 2017-18까지(모두 연장 있음). 외질이 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 리포트로 채움",
-    "시즌 구분: 샬케는 7월 10일 기준(2006.7.29 DFB-리가포칼 레버쿠젠전 = 2006-07), 나머지 클럽은 8월 1일 기준. 클럽 구분은 2008.1.31 전 샬케, 2010.8.17 전 브레멘(2010.8.14 DFB-포칼 로트바이스 알렌전까지), 2013.9.2 전 레알 마드리드, 2021.1.25 전 아스널, 2022.7.14 전 페네르바체, 이후 바샥셰히르. 아스널 2020-21 전반기(2020.3.7 웨스트햄전 이후)와 2020 FA컵 결승·커뮤니티 실드에는 출전 없음",
+    "시즌 구분: 샬케는 7월 10일 기준(2006.7.29 DFB-리가포칼 레버쿠젠전 = 2006-07), 나머지 클럽은 8월 1일 기준. 클럽 구분은 2008.1.31 전 샬케, 2010.8.17 전 브레멘(2010.8.14 DFB-포칼 로트바이스 알렌전까지), 2013.9.2 전 레알 마드리드, 2021.1.25 전 아스널, 2022.7.14 전 페네르바체, 이후 바샥셰히르. 아스널에서는 2020.3.7 웨스트햄전이 마지막 출전(2020 FA컵 결승·커뮤니티 실드 출전 없음)",
     "수상 기록은 Transfermarkt 업적 페이지 기준: 라리가 2011-12, 코파 델 레이 2010-11, 수페르코파 2012, DFB-포칼 2008-09, FA컵 4회(2014·2015·2017·2020), 커뮤니티 실드 2회(2014·2015), 준우승 UEFA컵 2008-09·DFB-포칼 2009-10·유로파리그 2018-19, 도움 1위 3회(Transfermarkt 'Best assist provider' 2009-10 브레멘·2010-11·2011-12 레알 마드리드, 대회 표기 없음). 월드컵 우승 등 대표팀·유소년 기록과 리그 준우승은 뺌",
     "은퇴(2023.3.22 발표). 마지막 경기 2023.2.2 카이세리스포르전",
 ]

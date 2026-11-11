@@ -45,6 +45,10 @@ def opp(g): return g["opponent"].strip()
 # 연장 표시 없이 2-3 뒤 바로 승부차기(4-2) — 원정 다득점·연장 없이 승부차기(같은 대회 플라멩구-리버 플레이트 8강도 같음) → 90분
 MIN_FIX = {"4748711": 90}
 
+# 같은 경기가 두 번 적힌 것: 1993.9.26 상파울루전 0-0은 헤코파 1차전이 일정 문제로 브라질 세리에 A 5라운드 경기로 함께 치러짐
+# (영어 위키백과 '1993 Recopa Sudamericana': "the first leg was played as part of the Campeonato Brasileiro") → 한 경기로 셈(헤코파 행만 둠)
+DUP_GAME = {"4798504": "3296953"}
+
 # 출전 시간이 TM에 있는 경기만. 크루제이루의 캄페오나투 미네이루·코파 두 브라질 경기는 TM에 없어 넣지 않음(judgments.md 1절)
 
 # ---------------------------------------------------------------- 대회 코드
@@ -141,6 +145,7 @@ def tie_of(gid):
 # ---------------------------------------------------------------- 출전
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
+    if g["gameId"] in DUP_GAME: continue
     M.append([ldate(g), opp(g), comp_of(g["competitionId"], g["round"]), MIN_FIX.get(g["gameId"], int(g["playedMinutes"]))])
 
 # ---------------------------------------------------------------- 골·도움
@@ -388,6 +393,7 @@ E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+"))
 
 if MISS:
     for x in sorted(set(MISS), key=lambda x: x[1]): print("Elo 없음:", x)
+    sys.exit(1)
 if "--debug" in sys.argv:
     print(ELO_SRC)
     seen = set()
@@ -397,3 +403,157 @@ if "--debug" in sys.argv:
         seen.add(k); print(d, o, v)
     print("라리가 가운데값:", sorted(INTERP_USED))
     sys.exit(0)
+
+# ---------------------------------------------------------------- FotMob 대조(2010 브라질 리그, 골만 — FotMob에 도움 자료 없음)
+FM_CMP = []
+for gid, fs in FME.items():
+    tm = [r for r in E if r[0] == "g" and G[gid]["date_local"] == r[9]]
+    fm = [f for f in fs if f["scorer"] == "Ronaldo"]
+    for f in fm:
+        t = int(f["minute"]) + int(f["overload"] or 0)
+        hit = sorted(tm, key=lambda r: abs(r[4] - t))
+        FM_CMP.append((G[gid]["date_local"], opp(G[gid]), t, "PK" if f["goalDescriptionKey"] == "penalty" else "",
+                       hit[0][4] if hit else None, "PK" if hit and hit[0][8] else ""))
+# FotMob 분이 다른 것: 2010.11.13 크루제이루전 PK(FotMob 43분 vs TM 89분) — Jornal do Brasil 2010.11.13('Ronaldo decide em pênalti
+# polêmico', 후반 41분 PK 판정)·FourFourTwo('three minutes from time')가 경기 막판이라 TM 분 유지. 2010.11.3 아바이전 PK(TM 88·FotMob 90)는 TM.
+
+# ---------------------------------------------------------------- 같은 경기 다른 선수 자료 대조(수정 없음, 보고용)
+MATE_NAME = {"kak.js": "Kaká", "nis.js": "Ruud van Nistelrooy", "hig.js": "Gonzalo Higuaín"}
+cross = []
+for b, (oe, om) in OTHERS.items():
+    for x in oe:
+        if x[0] == "a" and x[13] == "Ronaldo" and b in MATE_NAME:
+            hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
+            ok = hit and (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3]) == (x[5], x[6], x[2], x[12], x[3])
+            cross.append(("동료 도움→호나우두 골", b, x[9], x[4], "일치" if ok else ("값 다름" if hit else "호나우두 골 없음"),
+                          x[2:8], hit[0][2:8] if hit else None))
+    nm = MATE_NAME.get(b)
+    if nm:
+        for r in E:
+            if r[0] == "a" and r[13] == nm:
+                hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2]
+                ok = hit and (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3]) == (r[5], r[6], r[2], r[12], r[3])
+                cross.append(("호나우두 도움→동료 골", b, r[9], r[4], "일치" if ok else ("값 다름" if hit else "동료 골 없음"), r[2:8], hit[0][2:8] if hit else None))
+        for x in oe:   # 동료 골 중 TM이 호나우두 도움으로 적었으나 뺀 것(참고)
+            if x[0] == "g":
+                for j in judg:
+                    if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2:
+                        cross.append(("TM 호나우두 도움을 뺀 동료 골", b, x[9], x[4], j[5], "동료 파일 도움 행 " + ("있음" if any(y[0] == "a" and y[9] == x[9] and "Ronaldo" == y[13] for y in oe) else "없음")))
+    for r in E:
+        for x in oe:
+            if x[9] == r[9] and (key(x[1]) == key(r[1]) or toks(x[1]) & toks(r[1])) and (x[2] != r[2] or x[12] != r[12] or x[3] != r[3]):
+                cross.append(("같은 경기 Elo/lv/대회 다름", b, r[9], r[1], (x[1], x[2], x[12], x[3]), (r[2], r[12], r[3])))
+    for m in M:
+        for mm in om:
+            if mm[0] == m[0] and (key(mm[1]) == key(m[1]) or toks(mm[1]) & toks(m[1])) and mm[2] != m[2]:
+                cross.append(("같은 경기 출전 행 대회 코드 다름", b, m[0], m[1], mm[1], mm[2], m[2]))
+DUP = set()
+cross = [c for c in cross if not (str(c) in DUP or DUP.add(str(c)))]
+
+# ---------------------------------------------------------------- 클럽별 합계
+CLUBS = [("crurn", "1994-08-18", "크루제이루", "1993~1994"), ("psvrn", "1996-07-17", "PSV 에인트호번", "1994~1996"),
+         ("fcbrn", "1997-07-25", "바르셀로나", "1996~1997"), ("intrn", "2002-08-31", "인테르", "1997~2002"),
+         ("rmrn", "2007-01-30", "레알 마드리드", "2002~2007"), ("acmrn", "2008-12-12", "AC 밀란", "2007~2008"),
+         ("corrn", None, "코린치안스", "2009~2011")]
+TM_CLUB = {"609": "crurn", "383": "psvrn", "131": "fcbrn", "46": "intrn", "418": "rmrn", "5": "acmrn", "199": "corrn"}
+def club_of(d):
+    for k, u, n, y in CLUBS:
+        if u is None or d < u: return k
+for g in GAMES:
+    if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+CN = {k: n for k, u, n, y in CLUBS}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E if r[0] == "g")
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+TM_A_ALL = sum(1 for gid, evs in EVS.items() if gid in G for e in evs if e["assist_id"] == ME and e["scorer_id"] != ME)
+SELF_PK = [j for j in judg if j[0].startswith("도움 아님")]
+EX = collections.Counter(j[5] for j in judg if j[0] == "도움 제외")
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return f"{v[0]}·{v[1]}·{v[2]}"
+def jl(reason): return ", ".join(f"{d_(j[1])} {j[2]} {j[3]}분 {j[4]}" for j in judg if j[0] == "도움 제외" and j[5] == reason)
+MAN_USED = sorted({(o, v[1], v[2]) for (o, d), v in ELO_LOG.items() if v[0] == "man"}, key=lambda t: t[0])
+SHOT = "슈팅 리바운드('Shot on goal')"
+UNTYPED = sum(1 for r in raw_rows if r[0] == "a" and not r[8])
+PKREB = [j for j in judg if j[0].startswith("PK 아님")]
+
+# ---------------------------------------------------------------- 설명(NOTE)
+first, last = M[0], M[-1]
+NOTE_LINES = [
+    f"호나우두(크루제이루·PSV 에인트호번·바르셀로나·인테르·레알 마드리드·AC 밀란·코린치안스)의 클럽 공식 경기 {NG}경기({d_(first[0])} 코린치안스전 ~ {d_(last[0])} 톨리마전)에서 나온 {NGo}골 {NA}도움, 친선경기 제외",
+    "클럽별 경기·골·도움: " + ", ".join(f"{CN[k]} {c3(v)}" for k, v in ST.items()),
+    f"경기·출전 분·골 시간·골 뒤 스코어·PK는 Transfermarkt 선수 경기 성적(출전 {NG}경기·{MIN_TOT:,}분)과 경기 리포트(출전한 {NG}경기 전부) 기준. 출전 시간 90분 추정 경기는 없음. 크리스티아누 호날두와는 다른 선수(Transfermarkt 선수 번호 3140)",
+    "PSV·바르셀로나·인테르·레알 마드리드·AC 밀란·코린치안스의 경기·골 수는 영어·포르투갈어 위키백과 경력 표와 같음(PSV 57경기 54골, 바르셀로나 49·47, 인테르 99·59, 레알 마드리드 177·104, AC 밀란 20·9, 코린치안스 69·35)",
+    "크루제이루(1993~1994)는 Transfermarkt에 브라질 세리에 A 1993 14경기·헤코파 수다메리카나 2경기·수페르코파 수다메리카나 4경기·리베르타도레스 1994 8경기(28경기 22골)만 있고, 캄페오나투 미네이루(주 선수권) 1993·1994와 코파 두 브라질 경기는 없음. 영어 위키백과는 47경기 44골(1994 주 선수권 18경기 22골 등), 포르투갈어 위키백과는 58경기 56골로 서로도 다름. 빠진 경기는 경기별 자료(날짜·출전 시간·골 시간)를 모두 갖춘 출처를 찾지 못해 넣지 않음 — 이 때문에 크루제이루 시절 기록은 실제보다 적음(Transfermarkt 업적 페이지의 1993-94 미네이루 득점왕 23골도 이 계산에 없음)",
+    "1993.10.28 수페르코파 8강 2차전 나시오날 원정(2-3 승, 합산 4-4)은 Transfermarkt가 120분 경기로 적었으나 RSSSF 경기 기록에 연장 표시 없이 바로 승부차기(2-4 패)라 출전 90분으로 셈. 수페르코파 1993 골 시간은 RSSSF와 몇 분 다른 것이 있음(콜로콜로 2차전 Transfermarkt 28·61분, RSSSF 20·71분 — 골 직전 스코어는 같음)이나 Transfermarkt 리포트 시간을 씀",
+    "1993.9.26 상파울루전(0-0)은 헤코파 수다메리카나 1차전이 일정 문제로 브라질 세리에 A 경기로 함께 치러진 한 경기라(영어 위키백과) Transfermarkt의 두 줄을 한 경기(헤코파)로 셈. 그래서 경기 수가 Transfermarkt보다 1 적음",
+    "1994.4.21 리베르타도레스 16강 1차전 우니온 에스파뇰라 원정(1-4 패) Transfermarkt 리포트는 상대 골 1개만 적혀 있으나 호나우두 골·도움이 없어 영향 없음",
+    f"PK 골 {NPK}개는 Transfermarkt 골 유형 'Penalty' 기준. 'Penalty rebound'(PK가 막힌 뒤 리바운드 골) " + ", ".join(f"{d_(j[1])} {j[2]} {j[3]}분" for j in PKREB) + "은 일반 골로 셈",
+    "2010 브라질 세리에 A 골은 FotMob 경기 기록과 대조함(FotMob에 있는 8경기). 2010.11.13 크루제이루전 PK 골은 FotMob 43분·Transfermarkt 89분으로 다른데, 경기 기사(Jornal do Brasil: 후반 41분 PK 판정, FourFourTwo: 'three minutes from time')대로 경기 막판인 Transfermarkt 분을 씀. 2010.11.3 아바이전 PK 골(Transfermarkt 88분·FotMob 90분)도 Transfermarkt 분. 파울리스타·코파 두 브라질·리베르타도레스와 2009년 경기는 FotMob에 없어 Transfermarkt만 근거",
+    f"도움 {NA}개 = Transfermarkt 리포트 도움 {TM_A_ALL}개 − PK 유도 {EX['PK 유도']}개 − 'Shot on goal' 리바운드 {EX[SHOT]}개 − 상대 자책골 유도 {EX['상대 자책골 유도']}개. 모두 2014년 이전이라 Transfermarkt 단일 출처이고 다른 출처로 대조하지 못함. 도움 유형 칸이 빈 {UNTYPED}개도 도움으로 셈",
+    "PK 유도로 뺀 도움: " + jl("PK 유도"),
+    "리바운드·자책골이라 뺀 도움: " + jl(SHOT) + " (슈팅 리바운드), " + jl("상대 자책골 유도") + " (상대 자책골)",
+    f"Transfermarkt 리포트가 본인 PK 골에 본인 이름을 도움 칸('Penalty: Fouled player')에 적은 {len(SELF_PK)}개는 도움이 아님",
+    "날짜는 경기 현지 날짜. 코린치안스 경기는 Transfermarkt 경기 시각(UTC)을 상파울루 시간으로 바꾼 날짜라 저녁 경기 25경기는 Transfermarkt 리포트 날짜(중부 유럽 기준)보다 하루 앞(예: 데뷔전 2009.3.4 이툼비아라 원정, 마지막 경기 2011.2.2 톨리마 원정 — 경기 기사 날짜와 같음). 2002 인터콘티넨털컵은 도쿄 날짜",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(카카·판니스텔로이 등) 값을 먼저 쓰고, 없으면 기존 선수 자료의 같은 팀·같은 시즌 값, 그다음 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 모형에 넣음(기록 {len(E)}개: 같은 경기 {ELO_SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {ELO_SRC['기존 팀×시즌 값']}, 순위표+모형 {ELO_SRC['순위표+리그 모형']}, 직접 추정 {ELO_SRC['직접 추정']})",
+    "에레디비시 1994-95·1995-96, 세리에A 18팀 시즌(1997-98~2001-02), 분데스리가 1990년대는 다른 선수 자료와 같은 순위별 고정값. 라리가 2002-03의 기존 자료에 없는 4·7·12·19위는 앞뒤 순위 값의 가운데(1813·1759·1685·1599)",
+    "라리가 1996-97(22팀)은 다른 선수 자료가 없어 추정함(리그 수준 추정): 2003-04 순위별 값과 같은 흩어짐에 평균을 1995-96·1998-99 기존 값과의 차이만큼(+13.5) 올려 22팀 순위 곡선으로 계산(1위 1979 ~ 22위 1589). 세군다 1996-97(20팀)은 같은 2부 모형(라스팔마스 7위 1644)",
+    "브라질 세리에 A·B는 달력 연도 순위(평균 1598·1370, 네이마르·비니시우스·루카스 모우라 자료와 같은 방식). 1993 세리에 A는 32팀 조별 방식이라 포르투갈어 위키백과 시즌 문서의 최종 순위(크루제이루 15위)를 32팀 곡선에 넣음(Transfermarkt 1993 순위표는 받지 못함). 파울리스타·코파 두 브라질 상대 중 세리에 A·B 밖 팀은 브라질 4부 이하 1200(이투아누 2009(세리에 D)·2010, 미라솔·히우 클라루 2010 — 포르투갈어 위키백과 그해 세리에 C·D 참가표)",
+    "리그 표가 없는 상대는 당시 수준을 추정함(모두 '추정'): " + ", ".join(f"{o} {e}" for o, e, lv in MAN_USED if e != 1200),
+    "대회 비중: 코파 델 레이·코파 이탈리아·KNVB컵·코파 두 브라질은 국내컵(16강까지·8강·준결승·결승), 수페르코파(스페인)·헤코파 수다메리카나 1993(두 경기 결승)은 국내컵 결승, 캄페오나투 파울리스타(상파울루 주 선수권)는 리그 단계·준결승·결승 모두 국내컵 하위 라운드 비중(네이마르 자료와 같음), 1999 세리에A UEFA컵 진출 플레이오프(볼로냐 1차전)는 리그 경기로 셈",
+    "UEFA컵: 1라운드는 유로파 예선, 2·3라운드·16강·8강은 유로파 토너먼트, 준결승·결승(1998 라치오전, 파리)은 유로파 준결승·결승. UEFA 컵위너스컵 1996-97(바르셀로나 우승)은 이 계산기에 같은 대회가 없어 유로파 비중으로 계산함: 1라운드(32팀)부터 8강까지 유로파 토너먼트, 준결승·결승(1997.5.14 PSG전, 로테르담)은 유로파 준결승·결승. 2002 인터콘티넨털컵(올림피아전, 요코하마)은 클럽 월드컵. 챔스 2002-03 2차 조별리그도 조별",
+    "남미 대회: 리베르타도레스 1994·2010·2011(예선 포함)은 리베르타도레스 조별·16강 비중, 수페르코파 수다메리카나(수페르코파 리베르타도레스) 1993은 남미 2부 대회인 수다메리카나 비중(16강, 8강)으로 계산함",
+    f"두 경기 합산 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함. UEFA 대회·스페인 국내 대회·코파 이탈리아는 원정 다득점·연장, 코파 두 브라질 2009와 리베르타도레스 2010~2011은 원정 다득점 있고 연장 없이 승부차기(2010 16강 플라멩구전은 합산 2-2에서 원정 다득점으로 탈락), 파울리스타 준결승·결승과 수페르코파 수다메리카나 1993·헤코파 1993·리베르타도레스 1994는 원정 다득점·연장 없이 승부차기(1993 나시오날전 합산 4-4, 크루제이루 원정 3골인데 승부차기)",
+    "못 뛴 다른 차전 스코어는 Transfermarkt 리포트로 채움(1995 리즈 1차전 3-5, 1996 수페르코파 2차전 아틀레티코 3-1 등)",
+    "시즌 구분: 크루제이루·코린치안스는 달력 연도, PSV는 7월 10일 기준(로번·판니스텔로이 자료와 같음, 7월 경기 없음), 나머지는 8월 1일 기준. 클럽 구분은 1994.8.18 전 크루제이루, 1996.7.17 전 PSV, 1997.7.25 전 바르셀로나, 2002.8.31 전 인테르, 2007.1.30 전 레알 마드리드, 2008.12.12 전 AC 밀란, 이후 코린치안스",
+    "우승·수상 기록은 Transfermarkt 업적 페이지 기준: 월드컵·코파 아메리카·컨페더레이션스컵과 대표팀 득점왕은 뺌. 2006-07 라리가(1월 이적)는 Transfermarkt대로 셈. 1993 코파 두 브라질(크루제이루)·캄페오나투 미네이루 1994도 Transfermarkt대로 넣음(이 계산에는 그 경기들이 없음)",
+    "은퇴: 2011.2.14 은퇴 발표(Transfermarkt 이적 기록), 마지막 클럽 경기 2011.2.2 리베르타도레스 예선 톨리마 원정",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "csa", "lib", "TM ", "elk", "elq", "cwc", "MAN"]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6], r[13])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gl = sorted([r for r in rs if r[0] == "g"], key=lambda r: (r[5] + r[6], r[4]))
+    for a, b in zip(gl, gl[1:]):
+        if b[5] < a[5] + 1 or b[6] < a[6]: problems.append(("스코어 역순", d, a[4], b[4]))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 두 경기", d))
+for r in E:
+    if r[4] > 130 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900 or r[2] > 2200: problems.append(("Elo 범위", r))
+for m in M:
+    if not (0 < m[3] <= 125): problems.append(("출전 분 범위", m))
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+js = f"const RNO_E={J(E)};\nconst RNO_M={J(M)};\nconst RNO_NOTE={J(NOTE)};\n"
+open(OUT_JS, "w", encoding="utf-8").write(js)
+keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": cross,
+           "fotmob_goal_cmp": FM_CMP, "elo_sources": ELO_SRC, "laliga_midpoints": sorted(INTERP_USED),
+           "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
+          open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)}")
+for k, v in ST.items(): print(" ", k, v)
+print("점검 문제", len(problems))
+for p_ in problems: print("  ", p_)
+for c in cross:
+    if not (len(c) > 4 and c[4] == "일치"): print("  대조:", c)
+for x in FM_CMP: print("  FotMob:", x)
