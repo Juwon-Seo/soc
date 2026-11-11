@@ -1,0 +1,3401 @@
+{
+ "E": [
+  {
+   "type": "a",
+   "opp": "AC Sparta Praha",
+   "elo": 1550,
+   "comp": "elg",
+   "min": 92,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-04",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "체코 2021-22 3위 (추정)",
+   "note": "Karl Toko Ekambi"
+  },
+  {
+   "type": "a",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 92,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-17",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "리그1 2021-22 20위",
+   "note": "Moussa Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "FC Metz",
+   "elo": 1624,
+   "comp": "dc",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2022-23 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chambéry Savoie Football",
+   "elo": 1150,
+   "comp": "dc",
+   "min": 67,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 (추정)",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "AC Ajaccio",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 18위",
+   "note": "Johann Lepenant"
+  },
+  {
+   "type": "g",
+   "opp": "ESTAC Troyes",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Angers SCO",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Grenoble Foot 38",
+   "elo": 1532,
+   "comp": "dk",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2022-23 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 64,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 5위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "FC Nantes",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 16위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1955,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 12위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 12위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 82,
+   "gf": 3,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 12위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 6위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Reims",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 9,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 11위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Brestois 29",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 3위",
+   "note": "Warren Zaïre-Emery"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Reims",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 82,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 9위",
+   "note": "Kylian Mbappé"
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Toulouse",
+   "elo": 1677,
+   "comp": "df",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 11위",
+   "note": "Kylian Mbappé"
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stade Brestois 29",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 3위",
+   "note": "Marco Asensio"
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1786,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 4위",
+   "note": "Randal Kolo Muani"
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1819,
+   "comp": "cl16",
+   "min": 70,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2023-24 6위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1667,
+   "comp": "lg",
+   "min": 50,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 12위",
+   "note": "Kylian Mbappé"
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 1931,
+   "comp": "clk",
+   "min": 40,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2023-24 2위",
+   "note": "Ousmane Dembélé",
+   "tie": [
+    2,
+    0,
+    2,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 6,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 6위",
+   "note": "Lucas Beraldo"
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 5위",
+   "note": "Yoram Zague"
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 86,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1667,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1667,
+   "comp": "lg",
+   "min": 68,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 7위",
+   "note": "Senny Mayulu"
+  },
+  {
+   "type": "g",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 40,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 8위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "Angers SCO",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 31,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Angers SCO",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 47,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-09",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "리그1 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Espaly Saint-Marcel",
+   "elo": 1150,
+   "comp": "dc",
+   "min": 67,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 (추정)",
+   "note": "Désiré Doué"
+  },
+  {
+   "type": "g",
+   "opp": "FC Espaly Saint-Marcel",
+   "elo": 1150,
+   "comp": "dc",
+   "min": 88,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 8위",
+   "note": "Fabián Ruiz"
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Manchester City",
+   "elo": 1947,
+   "comp": "clg",
+   "min": 56,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 3위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1947,
+   "comp": "clg",
+   "min": 60,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1744,
+   "comp": "clg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1744,
+   "comp": "clg",
+   "min": 17,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 9위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Brestois 29",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 9위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "Le Mans FC",
+   "elo": 1350,
+   "comp": "dc",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 3부(내셔널) 2024-25 2위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 3위",
+   "note": "Khvicha Kvaratskhelia"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1700,
+   "comp": "cl16",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 9위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    3,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Stade Brestois 29",
+   "elo": 1700,
+   "comp": "cl16",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 9위",
+   "note": "Khvicha Kvaratskhelia",
+   "tie": [
+    2,
+    1,
+    3,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 53,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 6위",
+   "note": "Achraf Hakimi"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Briochin",
+   "elo": 1220,
+   "comp": "dk",
+   "min": 85,
+   "gf": 6,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 4부 (추정)",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1667,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stade Rennais FC",
+   "elo": 1667,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 12위",
+   "note": "Gonçalo Ramos"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1603,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 17위",
+   "note": "Désiré Doué"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1603,
+   "comp": "lg",
+   "min": 62,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 17위",
+   "note": "João Neves"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1603,
+   "comp": "lg",
+   "min": 90,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 17위",
+   "note": "Ibrahim Mbaye"
+  },
+  {
+   "type": "a",
+   "opp": "USL Dunkerque",
+   "elo": 1578,
+   "comp": "dsf",
+   "min": 62,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-04-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2024-25 4위",
+   "note": "Désiré Doué"
+  },
+  {
+   "type": "a",
+   "opp": "Le Havre AC",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 15위",
+   "note": "Désiré Doué"
+  },
+  {
+   "type": "g",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1620,
+   "comp": "df",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 15위 (추정, 선수 간 값 1628·1612의 평균으로 맞춤)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1620,
+   "comp": "df",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 15위 (추정, 선수 간 값 1628·1612의 평균으로 맞춤)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stade Reims",
+   "elo": 1620,
+   "comp": "df",
+   "min": 43,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 15위 (추정, 선수 간 값 1628·1612의 평균으로 맞춤)",
+   "note": "Achraf Hakimi"
+  },
+  {
+   "type": "a",
+   "opp": "Inter Milan",
+   "elo": 1890,
+   "comp": "clf",
+   "min": 86,
+   "gf": 4,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 2위",
+   "note": "Senny Mayulu"
+  },
+  {
+   "type": "a",
+   "opp": "Seattle Sounders FC",
+   "elo": 1604,
+   "comp": "cwc",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-06-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 10위",
+   "note": "Achraf Hakimi"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1943,
+   "comp": "cwc",
+   "min": 87,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-07-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2024-25 2위",
+   "note": "Gonçalo Ramos"
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 9,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "clg",
+   "min": 51,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": "Nuno Mendes"
+  },
+  {
+   "type": "g",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1797,
+   "comp": "clg",
+   "min": 66,
+   "gf": 5,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 6위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 87,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1771,
+   "comp": "df",
+   "min": 95,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-01-08",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "리그1 2025-26 5위",
+   "note": "Gonçalo Ramos"
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 93,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-16",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2025-26 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AJ Auxerre",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 8위",
+   "note": "Senny Mayulu"
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1738,
+   "comp": "cl16",
+   "min": 29,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 7위",
+   "note": "Désiré Doué",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Metz",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-21",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "리그1 2025-26 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1822,
+   "comp": "cl16",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 10위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1822,
+   "comp": "cl16",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 10위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    5,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 1901,
+   "comp": "clk",
+   "min": 91,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-14",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "프리미어리그 2025-26 5위",
+   "note": "Ousmane Dembélé",
+   "tie": [
+    2,
+    0,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Paris FC",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LASK",
+   "elo": 1539,
+   "comp": "clg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2026-27 (11월 초 현재) 3위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LASK",
+   "elo": 1539,
+   "comp": "clg",
+   "min": 37,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2026-27 (11월 초 현재) 3위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LASK",
+   "elo": 1539,
+   "comp": "clg",
+   "min": 66,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2026-27 (11월 초 현재) 3위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brentford FC",
+   "elo": 1857,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 (11월 초 현재) 8위",
+   "note": "Alexander Isak"
+  },
+  {
+   "type": "a",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1998,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 (11월 초 현재) 2위",
+   "note": "Alexander Isak"
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 (10월 말 현재) 17위",
+   "note": "Florian Wirtz"
+  }
+ ],
+ "M": [
+  [
+   "2021-11-04",
+   "AC Sparta Praha",
+   "elg",
+   8
+  ],
+  [
+   "2022-02-01",
+   "Olympique Marseille",
+   "lg",
+   6
+  ],
+  [
+   "2022-02-05",
+   "AS Monaco",
+   "lg",
+   2
+  ],
+  [
+   "2022-02-27",
+   "LOSC Lille",
+   "lg",
+   4
+  ],
+  [
+   "2022-03-20",
+   "Stade Reims",
+   "lg",
+   8
+  ],
+  [
+   "2022-04-10",
+   "RC Strasbourg Alsace",
+   "lg",
+   6
+  ],
+  [
+   "2022-04-14",
+   "West Ham United",
+   "elk",
+   19
+  ],
+  [
+   "2022-04-17",
+   "FC Girondins Bordeaux",
+   "lg",
+   17
+  ],
+  [
+   "2022-04-20",
+   "Stade Brestois 29",
+   "lg",
+   20
+  ],
+  [
+   "2022-04-23",
+   "Montpellier HSC",
+   "lg",
+   26
+  ],
+  [
+   "2022-05-01",
+   "Olympique Marseille",
+   "lg",
+   69
+  ],
+  [
+   "2022-05-14",
+   "FC Nantes",
+   "lg",
+   26
+  ],
+  [
+   "2022-05-21",
+   "Clermont Foot 63",
+   "lg",
+   72
+  ],
+  [
+   "2022-08-05",
+   "AC Ajaccio",
+   "lg",
+   15
+  ],
+  [
+   "2022-08-28",
+   "Stade Reims",
+   "lg",
+   10
+  ],
+  [
+   "2022-08-31",
+   "AJ Auxerre",
+   "lg",
+   5
+  ],
+  [
+   "2022-09-03",
+   "Angers SCO",
+   "lg",
+   10
+  ],
+  [
+   "2022-09-07",
+   "FC Lorient",
+   "lg",
+   15
+  ],
+  [
+   "2022-09-18",
+   "Paris Saint-Germain",
+   "lg",
+   3
+  ],
+  [
+   "2022-10-02",
+   "RC Lens",
+   "lg",
+   16
+  ],
+  [
+   "2023-01-01",
+   "Clermont Foot 63",
+   "lg",
+   1
+  ],
+  [
+   "2023-01-07",
+   "FC Metz",
+   "dc",
+   72
+  ],
+  [
+   "2023-01-14",
+   "RC Strasbourg Alsace",
+   "lg",
+   32
+  ],
+  [
+   "2023-01-21",
+   "Chambéry Savoie Football",
+   "dc",
+   71
+  ],
+  [
+   "2023-01-29",
+   "AC Ajaccio",
+   "lg",
+   79
+  ],
+  [
+   "2023-02-01",
+   "Stade Brestois 29",
+   "lg",
+   84
+  ],
+  [
+   "2023-02-04",
+   "ESTAC Troyes",
+   "lg",
+   61
+  ],
+  [
+   "2023-02-08",
+   "LOSC Lille",
+   "dc",
+   65
+  ],
+  [
+   "2023-02-12",
+   "RC Lens",
+   "lg",
+   66
+  ],
+  [
+   "2023-02-17",
+   "AJ Auxerre",
+   "lg",
+   15
+  ],
+  [
+   "2023-02-25",
+   "Angers SCO",
+   "lg",
+   90
+  ],
+  [
+   "2023-02-28",
+   "Grenoble Foot 38",
+   "dk",
+   54
+  ],
+  [
+   "2023-03-05",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-10",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-17",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-02",
+   "Paris Saint-Germain",
+   "lg",
+   67
+  ],
+  [
+   "2023-04-05",
+   "FC Nantes",
+   "dsf",
+   90
+  ],
+  [
+   "2023-04-09",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-23",
+   "Olympique Marseille",
+   "lg",
+   80
+  ],
+  [
+   "2023-04-28",
+   "RC Strasbourg Alsace",
+   "lg",
+   74
+  ],
+  [
+   "2023-05-07",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-19",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-27",
+   "Stade Reims",
+   "lg",
+   84
+  ],
+  [
+   "2023-06-03",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-13",
+   "RC Strasbourg Alsace",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-19",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-27",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-03",
+   "Olympique Lyon",
+   "lg",
+   15
+  ],
+  [
+   "2023-09-15",
+   "OGC Nice",
+   "lg",
+   23
+  ],
+  [
+   "2023-09-24",
+   "Olympique Marseille",
+   "lg",
+   83
+  ],
+  [
+   "2023-09-30",
+   "Clermont Foot 63",
+   "lg",
+   64
+  ],
+  [
+   "2023-10-04",
+   "Newcastle United",
+   "clg",
+   33
+  ],
+  [
+   "2023-10-08",
+   "Stade Rennais FC",
+   "lg",
+   15
+  ],
+  [
+   "2023-10-21",
+   "RC Strasbourg Alsace",
+   "lg",
+   66
+  ],
+  [
+   "2023-10-29",
+   "Stade Brestois 29",
+   "lg",
+   63
+  ],
+  [
+   "2023-11-07",
+   "AC Milan",
+   "clg",
+   1
+  ],
+  [
+   "2023-11-11",
+   "Stade Reims",
+   "lg",
+   16
+  ],
+  [
+   "2023-11-24",
+   "AS Monaco",
+   "lg",
+   18
+  ],
+  [
+   "2023-11-28",
+   "Newcastle United",
+   "clg",
+   28
+  ],
+  [
+   "2023-12-03",
+   "Le Havre AC",
+   "lg",
+   12
+  ],
+  [
+   "2023-12-09",
+   "FC Nantes",
+   "lg",
+   79
+  ],
+  [
+   "2023-12-13",
+   "Borussia Dortmund",
+   "clg",
+   82
+  ],
+  [
+   "2023-12-17",
+   "LOSC Lille",
+   "lg",
+   67
+  ],
+  [
+   "2023-12-20",
+   "FC Metz",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-03",
+   "FC Toulouse",
+   "df",
+   66
+  ],
+  [
+   "2024-01-14",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-28",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-07",
+   "Stade Brestois 29",
+   "dc",
+   77
+  ],
+  [
+   "2024-02-10",
+   "LOSC Lille",
+   "lg",
+   28
+  ],
+  [
+   "2024-02-14",
+   "Real Sociedad",
+   "cl16",
+   72
+  ],
+  [
+   "2024-02-17",
+   "FC Nantes",
+   "lg",
+   45
+  ],
+  [
+   "2024-02-25",
+   "Stade Rennais FC",
+   "lg",
+   65
+  ],
+  [
+   "2024-03-01",
+   "AS Monaco",
+   "lg",
+   51
+  ],
+  [
+   "2024-03-05",
+   "Real Sociedad",
+   "cl16",
+   45
+  ],
+  [
+   "2024-03-10",
+   "Stade Reims",
+   "lg",
+   69
+  ],
+  [
+   "2024-03-13",
+   "OGC Nice",
+   "dk",
+   16
+  ],
+  [
+   "2024-03-17",
+   "Montpellier HSC",
+   "lg",
+   62
+  ],
+  [
+   "2024-04-10",
+   "FC Barcelona",
+   "clk",
+   45
+  ],
+  [
+   "2024-04-16",
+   "FC Barcelona",
+   "clk",
+   77
+  ],
+  [
+   "2024-04-21",
+   "Olympique Lyon",
+   "lg",
+   68
+  ],
+  [
+   "2024-04-27",
+   "Le Havre AC",
+   "lg",
+   45
+  ],
+  [
+   "2024-05-01",
+   "Borussia Dortmund",
+   "clsf",
+   65
+  ],
+  [
+   "2024-05-07",
+   "Borussia Dortmund",
+   "clsf",
+   27
+  ],
+  [
+   "2024-05-12",
+   "FC Toulouse",
+   "lg",
+   63
+  ],
+  [
+   "2024-05-15",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-25",
+   "Olympique Lyon",
+   "df",
+   85
+  ],
+  [
+   "2024-08-16",
+   "Le Havre AC",
+   "lg",
+   19
+  ],
+  [
+   "2024-08-23",
+   "Montpellier HSC",
+   "lg",
+   62
+  ],
+  [
+   "2024-09-01",
+   "LOSC Lille",
+   "lg",
+   74
+  ],
+  [
+   "2024-09-14",
+   "Stade Brestois 29",
+   "lg",
+   63
+  ],
+  [
+   "2024-09-18",
+   "Girona FC",
+   "clg",
+   63
+  ],
+  [
+   "2024-09-21",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-27",
+   "Stade Rennais FC",
+   "lg",
+   69
+  ],
+  [
+   "2024-10-01",
+   "Arsenal FC",
+   "clg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-19",
+   "RC Strasbourg Alsace",
+   "lg",
+   82
+  ],
+  [
+   "2024-10-22",
+   "PSV Eindhoven",
+   "clg",
+   81
+  ],
+  [
+   "2024-10-27",
+   "Olympique Marseille",
+   "lg",
+   67
+  ],
+  [
+   "2024-11-02",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-06",
+   "Atlético de Madrid",
+   "clg",
+   90
+  ],
+  [
+   "2024-11-09",
+   "Angers SCO",
+   "lg",
+   45
+  ],
+  [
+   "2024-11-22",
+   "FC Toulouse",
+   "lg",
+   81
+  ],
+  [
+   "2024-11-26",
+   "FC Bayern Munich",
+   "clg",
+   72
+  ],
+  [
+   "2024-11-30",
+   "FC Nantes",
+   "lg",
+   73
+  ],
+  [
+   "2024-12-06",
+   "AJ Auxerre",
+   "lg",
+   62
+  ],
+  [
+   "2024-12-10",
+   "Red Bull Salzburg",
+   "clg",
+   90
+  ],
+  [
+   "2024-12-15",
+   "Olympique Lyon",
+   "lg",
+   27
+  ],
+  [
+   "2024-12-18",
+   "AS Monaco",
+   "lg",
+   65
+  ],
+  [
+   "2024-12-22",
+   "RC Lens",
+   "dc",
+   24
+  ],
+  [
+   "2025-01-05",
+   "AS Monaco",
+   "df",
+   23
+  ],
+  [
+   "2025-01-12",
+   "AS Saint-Étienne",
+   "lg",
+   79
+  ],
+  [
+   "2025-01-15",
+   "FC Espaly Saint-Marcel",
+   "dc",
+   90
+  ],
+  [
+   "2025-01-18",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-22",
+   "Manchester City",
+   "clg",
+   81
+  ],
+  [
+   "2025-01-25",
+   "Stade Reims",
+   "lg",
+   30
+  ],
+  [
+   "2025-01-29",
+   "VfB Stuttgart",
+   "clg",
+   70
+  ],
+  [
+   "2025-02-01",
+   "Stade Brestois 29",
+   "lg",
+   67
+  ],
+  [
+   "2025-02-04",
+   "Le Mans FC",
+   "dc",
+   22
+  ],
+  [
+   "2025-02-07",
+   "AS Monaco",
+   "lg",
+   63
+  ],
+  [
+   "2025-02-11",
+   "Stade Brestois 29",
+   "cl16",
+   75
+  ],
+  [
+   "2025-02-15",
+   "FC Toulouse",
+   "lg",
+   74
+  ],
+  [
+   "2025-02-19",
+   "Stade Brestois 29",
+   "cl16",
+   61
+  ],
+  [
+   "2025-02-23",
+   "Olympique Lyon",
+   "lg",
+   74
+  ],
+  [
+   "2025-02-26",
+   "Stade Briochin",
+   "dk",
+   28
+  ],
+  [
+   "2025-03-01",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-05",
+   "Liverpool FC",
+   "cl16",
+   66
+  ],
+  [
+   "2025-03-08",
+   "Stade Rennais FC",
+   "lg",
+   74
+  ],
+  [
+   "2025-03-11",
+   "Liverpool FC",
+   "cl16",
+   67
+  ],
+  [
+   "2025-03-16",
+   "Olympique Marseille",
+   "lg",
+   26
+  ],
+  [
+   "2025-03-29",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-01",
+   "USL Dunkerque",
+   "dsf",
+   77
+  ],
+  [
+   "2025-04-05",
+   "Angers SCO",
+   "lg",
+   27
+  ],
+  [
+   "2025-04-09",
+   "Aston Villa",
+   "clk",
+   18
+  ],
+  [
+   "2025-04-15",
+   "Aston Villa",
+   "clk",
+   58
+  ],
+  [
+   "2025-04-19",
+   "Le Havre AC",
+   "lg",
+   73
+  ],
+  [
+   "2025-04-22",
+   "FC Nantes",
+   "lg",
+   28
+  ],
+  [
+   "2025-04-25",
+   "OGC Nice",
+   "lg",
+   31
+  ],
+  [
+   "2025-04-29",
+   "Arsenal FC",
+   "clsf",
+   20
+  ],
+  [
+   "2025-05-03",
+   "RC Strasbourg Alsace",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-07",
+   "Arsenal FC",
+   "clsf",
+   70
+  ],
+  [
+   "2025-05-10",
+   "Montpellier HSC",
+   "lg",
+   68
+  ],
+  [
+   "2025-05-17",
+   "AJ Auxerre",
+   "lg",
+   60
+  ],
+  [
+   "2025-05-24",
+   "Stade Reims",
+   "df",
+   90
+  ],
+  [
+   "2025-05-31",
+   "Inter Milan",
+   "clf",
+   24
+  ],
+  [
+   "2025-06-19",
+   "Botafogo de Futebol e Regatas",
+   "cwc",
+   35
+  ],
+  [
+   "2025-06-23",
+   "Seattle Sounders FC",
+   "cwc",
+   26
+  ],
+  [
+   "2025-06-29",
+   "Inter Miami CF",
+   "cwc",
+   90
+  ],
+  [
+   "2025-07-05",
+   "FC Bayern Munich",
+   "cwc",
+   70
+  ],
+  [
+   "2025-07-09",
+   "Real Madrid",
+   "cwc",
+   31
+  ],
+  [
+   "2025-07-13",
+   "Chelsea FC",
+   "cwc",
+   32
+  ],
+  [
+   "2025-08-13",
+   "Tottenham Hotspur",
+   "df",
+   67
+  ],
+  [
+   "2025-08-17",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-22",
+   "Angers SCO",
+   "lg",
+   67
+  ],
+  [
+   "2025-08-30",
+   "FC Toulouse",
+   "lg",
+   75
+  ],
+  [
+   "2025-09-14",
+   "RC Lens",
+   "lg",
+   71
+  ],
+  [
+   "2025-09-17",
+   "Atalanta BC",
+   "clg",
+   90
+  ],
+  [
+   "2025-09-27",
+   "AJ Auxerre",
+   "lg",
+   45
+  ],
+  [
+   "2025-10-01",
+   "FC Barcelona",
+   "clg",
+   80
+  ],
+  [
+   "2025-10-05",
+   "LOSC Lille",
+   "lg",
+   59
+  ],
+  [
+   "2025-10-17",
+   "RC Strasbourg Alsace",
+   "lg",
+   61
+  ],
+  [
+   "2025-10-21",
+   "Bayer 04 Leverkusen",
+   "clg",
+   72
+  ],
+  [
+   "2025-10-25",
+   "Stade Brestois 29",
+   "lg",
+   79
+  ],
+  [
+   "2025-10-29",
+   "FC Lorient",
+   "lg",
+   27
+  ],
+  [
+   "2025-11-01",
+   "OGC Nice",
+   "lg",
+   66
+  ],
+  [
+   "2025-11-04",
+   "FC Bayern Munich",
+   "clg",
+   66
+  ],
+  [
+   "2025-11-22",
+   "Le Havre AC",
+   "lg",
+   35
+  ],
+  [
+   "2025-11-26",
+   "Tottenham Hotspur",
+   "clg",
+   56
+  ],
+  [
+   "2025-12-06",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-10",
+   "Athletic Bilbao",
+   "clg",
+   78
+  ],
+  [
+   "2025-12-13",
+   "FC Metz",
+   "lg",
+   24
+  ],
+  [
+   "2025-12-17",
+   "CR Flamengo",
+   "cwc",
+   56
+  ],
+  [
+   "2026-01-04",
+   "Paris FC",
+   "lg",
+   20
+  ],
+  [
+   "2026-01-08",
+   "Olympique Marseille",
+   "df",
+   18
+  ],
+  [
+   "2026-01-12",
+   "Paris FC",
+   "dc",
+   90
+  ],
+  [
+   "2026-01-16",
+   "LOSC Lille",
+   "lg",
+   27
+  ],
+  [
+   "2026-01-20",
+   "Sporting CP",
+   "clg",
+   71
+  ],
+  [
+   "2026-01-23",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-28",
+   "Newcastle United",
+   "clg",
+   70
+  ],
+  [
+   "2026-02-01",
+   "RC Strasbourg Alsace",
+   "lg",
+   60
+  ],
+  [
+   "2026-02-08",
+   "Olympique Marseille",
+   "lg",
+   68
+  ],
+  [
+   "2026-02-13",
+   "Stade Rennais FC",
+   "lg",
+   30
+  ],
+  [
+   "2026-02-17",
+   "AS Monaco",
+   "cl16",
+   81
+  ],
+  [
+   "2026-02-21",
+   "FC Metz",
+   "lg",
+   64
+  ],
+  [
+   "2026-02-25",
+   "AS Monaco",
+   "cl16",
+   69
+  ],
+  [
+   "2026-02-28",
+   "Le Havre AC",
+   "lg",
+   90
+  ],
+  [
+   "2026-03-06",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2026-03-11",
+   "Chelsea FC",
+   "cl16",
+   78
+  ],
+  [
+   "2026-03-17",
+   "Chelsea FC",
+   "cl16",
+   59
+  ],
+  [
+   "2026-04-14",
+   "Liverpool FC",
+   "clk",
+   38
+  ],
+  [
+   "2026-04-19",
+   "Olympique Lyon",
+   "lg",
+   72
+  ],
+  [
+   "2026-04-22",
+   "FC Nantes",
+   "lg",
+   25
+  ],
+  [
+   "2026-04-25",
+   "Angers SCO",
+   "lg",
+   63
+  ],
+  [
+   "2026-04-28",
+   "FC Bayern Munich",
+   "clsf",
+   20
+  ],
+  [
+   "2026-05-02",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2026-05-06",
+   "FC Bayern Munich",
+   "clsf",
+   25
+  ],
+  [
+   "2026-05-10",
+   "Stade Brestois 29",
+   "lg",
+   69
+  ],
+  [
+   "2026-05-13",
+   "RC Lens",
+   "lg",
+   45
+  ],
+  [
+   "2026-05-17",
+   "Paris FC",
+   "lg",
+   58
+  ],
+  [
+   "2026-05-30",
+   "Arsenal FC",
+   "clf",
+   37
+  ],
+  [
+   "2026-09-04",
+   "Ipswich Town",
+   "lg",
+   26
+  ],
+  [
+   "2026-09-09",
+   "Atlético de Madrid",
+   "clg",
+   60
+  ],
+  [
+   "2026-09-12",
+   "Fulham FC",
+   "lg",
+   72
+  ],
+  [
+   "2026-09-15",
+   "Tottenham Hotspur",
+   "dc",
+   18
+  ],
+  [
+   "2026-09-20",
+   "AFC Bournemouth",
+   "lg",
+   72
+  ],
+  [
+   "2026-10-11",
+   "Manchester City",
+   "lg",
+   88
+  ],
+  [
+   "2026-10-14",
+   "LASK",
+   "clg",
+   73
+  ],
+  [
+   "2026-10-17",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-20",
+   "Villarreal CF",
+   "clg",
+   16
+  ],
+  [
+   "2026-10-25",
+   "Brighton & Hove Albion",
+   "lg",
+   77
+  ],
+  [
+   "2026-10-28",
+   "Chelsea FC",
+   "dc",
+   31
+  ],
+  [
+   "2026-11-01",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-04",
+   "Fenerbahce",
+   "clg",
+   90
+  ],
+  [
+   "2026-11-08",
+   "Crystal Palace",
+   "lg",
+   69
+  ]
+ ],
+ "note": "브래들리 바르콜라(리옹·PSG·리버풀)의 클럽 공식 경기 213경기(2021.11.4 스파르타 프라하전 ~ 2026.11.8 크리스털 팰리스전)에서 나온 49골 50도움, 친선경기 제외\n클럽별 경기·골·도움: 리옹 47·7·11(2021-23), PSG 152·39·36(2023-26), 리버풀 14·3·3(2026-27, 진행 중)\n경기·출전 분·골 시간·골 직전 스코어는 Transfermarkt 선수 경기 성적(출전 213경기·12208분)과 경기 리포트 기준이고, FotMob 경기 기록과 골 수·시각·스코어가 모두 같음. 출전 시간 90분 추정 경기는 없음(FotMob과 1분 다른 경기 9개는 Transfermarkt를 씀)\n경기 수·골은 영어 위키백과 시즌별 기록(리옹 47경기 7골, PSG 152경기 39골, 리버풀 14경기 3골)과 FotMob 경력 합계와 모두 같음\n리옹 2군(내셔널 2, 22경기 5골)·리옹 U19와 UEFA 유스리그(21경기)·프랑스 대표팀 경기는 뺌. 2026.8.12 UEFA 슈퍼컵 애스턴 빌라전은 PSG 벤치에만 있었고 출전하지 않음\nPK 골은 없음(2025.9.17 챔스 아탈란타전에 PK 실축 1개, Transfermarkt 기준). 상대 자책골은 골로 세지 않음\n도움은 Transfermarkt 도움 52개 중 FotMob 경기 이벤트가 같이 적은 47개를 기준으로 하고, Transfermarkt에만 있는 도움은 다른 출처 2곳이 확인한 것만 넣음\n도움 50개 = Transfermarkt 도움 52개 − 상대 자책골 유도 1개(2023.5.27 랭스전 2분 아그바두 자책골) − PK 유도 1개(2025.8.30 툴루즈전 51분 뎀벨레 PK)\nTransfermarkt에만 있지만 다른 출처 2곳이 확인해 넣은 도움 3개: 2023.1.21 쿠프 드 프랑스 샹베리전 67분 라카제트 골(Soccerway·ESPN 경기 기사, 바르콜라 크로스), 2025.1.15 쿠프 드 프랑스 에스팔리전 67분 두에 골(CulturePSG 문자중계·Soccerway 기사), 2025.3.29 생테티엔전 62분 주앙 네베스 골(리그1 공식 기사·Soccerway·생테티엔 구단 기사, 바르콜라 컷백). 세 개 모두 FotMob 선수 경기 목록에는 도움으로 있으나 FotMob 경기 이벤트에는 도움자가 비어 있음\n2026.2.1 스트라스부르전 22분 마율루 골은 Transfermarkt 도움 유형 칸이 비어 있으나 FotMob이 바르콜라 도움으로 적어 넣음. FotMob에만 있는 도움은 없음\n날짜는 경기 현지 날짜(2025 클럽 월드컵은 미국 현지 날짜)\n상대 Elo는 기존 선수 자료의 같은 팀·같은 시즌 값을 먼저 쓰고(라카제트·음바페·크바라츠헬리아 자료와 같은 경기는 같은 값), 없으면 그 시즌 최종 순위(FotMob 순위표, 2026-27은 11월 초 현재 순위)를 기존 리그 모형에 넣음: 리그1 2024-25 랑스 8위, 2025-26 릴 3위·오세르 15위, 리그2(프랑스 2부) 2022-23 메스 2위·그르노블 10위·2024-25 됭케르크 4위, 프리미어리그 2026-27 브라이턴 2위·브렌트퍼드 8위(크리스털 팰리스 2026-27은 다른 선수 자료의 10월 말 순위 값 1743을 그대로 씀)\n순위표·모형에 없는 상대는 당시 수준을 추정함(모두 '추정'): 스파르타 프라하 2021-22 1550(체코 3위, 다른 선수 자료의 체코 1·2위 팀 1560~1600보다 낮게), 에스팔리 2024-25 1150(프랑스 5부, 다른 선수 자료와 같은 수준), 스타드 브리오섕 2024-25 1220(프랑스 4부), 르망 2024-25 1350(프랑스 3부 내셔널 2위, 음바페 자료 오를레앙과 같은 수준), LASK 2026-27 1539(오스트리아 11월 초 현재 3위, 다른 선수 자료 2023-24 3위 값)\n쿠프 드 프랑스·잉글랜드 리그컵은 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중, 쿠프 드 프랑스 준결승은 단판), 트로페 데 샹피옹·UEFA 슈퍼컵은 국내컵 결승으로, 클럽 월드컵·인터콘티넨털컵은 클럽 월드컵 비중으로 계산함. 2025 클럽 월드컵 조별리그는 리그식(무승부 1점), 16강부터 단판. 챔스 리그 단계는 조별과 같고, 녹아웃 플레이오프는 16강으로 계산함\n두 경기 합산(챔스 녹아웃 플레이오프·16강·8강) 기록 8개(7경기)는 합산 S로 계산함(2021-22부터 원정 다득점 없음, 연장 있음). 2026.4.14 챔스 8강 2차전 리버풀전은 바르콜라가 뛰지 않은 1차전 스코어 2-0(Transfermarkt)을 넣음\n승부차기로 끝난 경기(2023.2.8 릴전·2024.12.22 랑스전 쿠프 드 프랑스, 2025.3.11 챔스 리버풀전, 2025.8.13 UEFA 슈퍼컵, 2025.12.17 인터콘티넨털컵, 2026.1.8 트로페 데 샹피옹, 2026.5.30 챔스 결승, 2026.10.28 리그컵 첼시전)은 연장까지의 스코어를 쓰고 출전 분은 Transfermarkt 그대로. 2026.1.8 트로페 데 샹피옹 마르세유전 90+5분 하무스 동점 골 도움은 정규시간 기록. 연장 시간 골·도움은 없음\n시즌은 8월 1일 기준(2025년 6~7월 클럽 월드컵은 2024-25, 크바라츠헬리아 자료와 같음)\n우승·수상 기록은 Transfermarkt 업적 페이지 기준: 프랑스 대표팀(유로 2024 참가)·리옹 U19 쿠프 강바르델라(FotMob에만 있음)는 뺌. 2026-27 UEFA 슈퍼컵은 PSG 벤치에만 있었으나 Transfermarkt 표기대로 셈. 2025 클럽 월드컵 준우승은 Transfermarkt 업적에 없어 넣지 않음\n2026.11.11 기준: 리버풀 2026.8.31 입단, 마지막 출전은 2026.11.8 크리스털 팰리스전",
+ "excluded": [
+  [
+   "도움 제외",
+   "2023-05-27",
+   "Stade Reims",
+   "2",
+   "Emmanuel Agbadou",
+   "상대 자책골(랭스 아그바두) 유도 - FotMob도 도움 없음"
+  ],
+  [
+   "도움 제외",
+   "2025-08-30",
+   "FC Toulouse",
+   "51",
+   "Ousmane Dembélé",
+   "PK 유도(뎀벨레 PK, Transfermarkt 'Penalty: Fouled player') - FotMob도 도움 없음"
+  ]
+ ],
+ "cross_check": [
+  [
+   "바르콜라 도움→동료 골",
+   "2023-01-21",
+   "Alexandre Lacazette",
+   67,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-03-10",
+   "Alexandre Lacazette",
+   89,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-03-17",
+   "Alexandre Lacazette",
+   24,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-05-07",
+   "Alexandre Lacazette",
+   31,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-05-07",
+   "Alexandre Lacazette",
+   59,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-05-07",
+   "Alexandre Lacazette",
+   82,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-05-19",
+   "Alexandre Lacazette",
+   38,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-05-27",
+   "Alexandre Lacazette",
+   9,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2023-11-11",
+   "Kylian Mbappé",
+   82,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2024-01-03",
+   "Kylian Mbappé",
+   44,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2024-03-17",
+   "Kylian Mbappé",
+   50,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2025-02-07",
+   "Khvicha Kvaratskhelia",
+   54,
+   "있음"
+  ],
+  [
+   "바르콜라 도움→동료 골",
+   "2025-02-19",
+   "Khvicha Kvaratskhelia",
+   39,
+   "있음"
+  ],
+  [
+   "동료 도움→바르콜라 골",
+   "2024-01-14",
+   "Kylian Mbappé",
+   30,
+   "있음"
+  ],
+  [
+   "동료 도움→바르콜라 골",
+   "2025-11-22",
+   "Khvicha Kvaratskhelia",
+   87,
+   "있음"
+  ]
+ ],
+ "mismatch": [],
+ "elo_sources": {
+  "직접 추정": 8,
+  "기존 팀×시즌 값": 81,
+  "순위표+리그 모형": 10
+ },
+ "elo_log": {
+  "AC Sparta Praha|2021-22": [
+   "직접 추정",
+   1550,
+   "체코 2021-22 3위 (추정)"
+  ],
+  "FC Girondins Bordeaux|2021-22": [
+   "기존 팀×시즌 값",
+   1582,
+   "리그1 2021-22 20위"
+  ],
+  "FC Metz|2022-23": [
+   "순위표+리그 모형",
+   1624,
+   "리그2(프랑스 2부) 2022-23 2위"
+  ],
+  "Chambéry Savoie Football|2022-23": [
+   "기존 팀×시즌 값",
+   1150,
+   "프랑스 5부 (추정)"
+  ],
+  "AC Ajaccio|2022-23": [
+   "기존 팀×시즌 값",
+   1610,
+   "리그1 2022-23 18위"
+  ],
+  "ESTAC Troyes|2022-23": [
+   "기존 팀×시즌 값",
+   1602,
+   "리그1 2022-23 19위"
+  ],
+  "Angers SCO|2022-23": [
+   "기존 팀×시즌 값",
+   1582,
+   "리그1 2022-23 20위"
+  ],
+  "Grenoble Foot 38|2022-23": [
+   "순위표+리그 모형",
+   1532,
+   "리그2(프랑스 2부) 2022-23 10위"
+  ],
+  "LOSC Lille|2022-23": [
+   "기존 팀×시즌 값",
+   1776,
+   "리그1 2022-23 5위"
+  ],
+  "FC Nantes|2022-23": [
+   "기존 팀×시즌 값",
+   1640,
+   "리그1 2022-23 16위"
+  ],
+  "Paris Saint-Germain|2022-23": [
+   "기존 팀×시즌 값",
+   1955,
+   "리그1 2022-23 1위"
+  ],
+  "Stade Rennais FC|2022-23": [
+   "기존 팀×시즌 값",
+   1792,
+   "리그1 2022-23 4위"
+  ],
+  "Montpellier HSC|2022-23": [
+   "기존 팀×시즌 값",
+   1679,
+   "리그1 2022-23 12위"
+  ],
+  "AS Monaco|2022-23": [
+   "기존 팀×시즌 값",
+   1764,
+   "리그1 2022-23 6위"
+  ],
+  "Stade Reims|2022-23": [
+   "기존 팀×시즌 값",
+   1688,
+   "리그1 2022-23 11위"
+  ],
+  "Stade Brestois 29|2023-24": [
+   "기존 팀×시즌 값",
+   1817,
+   "리그1 2023-24 3위"
+  ],
+  "Stade Reims|2023-24": [
+   "기존 팀×시즌 값",
+   1700,
+   "리그1 2023-24 9위"
+  ],
+  "FC Nantes|2023-24": [
+   "기존 팀×시즌 값",
+   1647,
+   "리그1 2023-24 14위"
+  ],
+  "FC Toulouse|2023-24": [
+   "기존 팀×시즌 값",
+   1677,
+   "리그1 2023-24 11위"
+  ],
+  "RC Lens|2023-24": [
+   "기존 팀×시즌 값",
+   1738,
+   "리그1 2023-24 7위"
+  ],
+  "LOSC Lille|2023-24": [
+   "기존 팀×시즌 값",
+   1786,
+   "리그1 2023-24 4위"
+  ],
+  "Real Sociedad|2023-24": [
+   "기존 팀×시즌 값",
+   1819,
+   "라리가 2023-24 6위"
+  ],
+  "Montpellier HSC|2023-24": [
+   "기존 팀×시즌 값",
+   1667,
+   "리그1 2023-24 12위"
+  ],
+  "FC Barcelona|2023-24": [
+   "기존 팀×시즌 값",
+   1931,
+   "라리가 2023-24 2위"
+  ],
+  "Olympique Lyon|2023-24": [
+   "기존 팀×시즌 값",
+   1757,
+   "리그1 2023-24 6위"
+  ],
+  "Le Havre AC|2023-24": [
+   "기존 팀×시즌 값",
+   1628,
+   "리그1 2023-24 15위"
+  ],
+  "OGC Nice|2023-24": [
+   "기존 팀×시즌 값",
+   1771,
+   "리그1 2023-24 5위"
+  ],
+  "Le Havre AC|2024-25": [
+   "기존 팀×시즌 값",
+   1628,
+   "리그1 2024-25 15위"
+  ],
+  "Montpellier HSC|2024-25": [
+   "기존 팀×시즌 값",
+   1582,
+   "리그1 2024-25 18위"
+  ],
+  "LOSC Lille|2024-25": [
+   "기존 팀×시즌 값",
+   1771,
+   "리그1 2024-25 5위"
+  ],
+  "Stade Rennais FC|2024-25": [
+   "기존 팀×시즌 값",
+   1667,
+   "리그1 2024-25 12위"
+  ],
+  "RC Strasbourg Alsace|2024-25": [
+   "기존 팀×시즌 값",
+   1738,
+   "리그1 2024-25 7위"
+  ],
+  "Olympique Marseille|2024-25": [
+   "기존 팀×시즌 값",
+   1866,
+   "리그1 2024-25 2위"
+  ],
+  "RC Lens|2024-25": [
+   "순위표+리그 모형",
+   1718,
+   "리그1 2024-25 8위"
+  ],
+  "Angers SCO|2024-25": [
+   "기존 팀×시즌 값",
+   1647,
+   "리그1 2024-25 14위"
+  ],
+  "FC Espaly Saint-Marcel|2024-25": [
+   "직접 추정",
+   1150,
+   "프랑스 5부 (추정)"
+  ],
+  "Manchester City|2024-25": [
+   "기존 팀×시즌 값",
+   1947,
+   "프리미어리그 2024-25 3위"
+  ],
+  "VfB Stuttgart|2024-25": [
+   "기존 팀×시즌 값",
+   1744,
+   "분데스리가 2024-25 9위"
+  ],
+  "Stade Brestois 29|2024-25": [
+   "기존 팀×시즌 값",
+   1700,
+   "리그1 2024-25 9위"
+  ],
+  "Le Mans FC|2024-25": [
+   "직접 추정",
+   1350,
+   "프랑스 3부(내셔널) 2024-25 2위 (추정)"
+  ],
+  "AS Monaco|2024-25": [
+   "기존 팀×시즌 값",
+   1817,
+   "리그1 2024-25 3위"
+  ],
+  "Olympique Lyon|2024-25": [
+   "기존 팀×시즌 값",
+   1757,
+   "리그1 2024-25 6위"
+  ],
+  "Stade Briochin|2024-25": [
+   "직접 추정",
+   1220,
+   "프랑스 4부 (추정)"
+  ],
+  "AS Saint-Étienne|2024-25": [
+   "기존 팀×시즌 값",
+   1603,
+   "리그1 2024-25 17위"
+  ],
+  "USL Dunkerque|2024-25": [
+   "순위표+리그 모형",
+   1578,
+   "리그2(프랑스 2부) 2024-25 4위"
+  ],
+  "Stade Reims|2024-25": [
+   "기존 팀×시즌 값",
+   1620,
+   "리그1 2024-25 15위 (추정, 선수 간 값 1628·1612의 평균으로 맞춤)"
+  ],
+  "Inter Milan|2024-25": [
+   "기존 팀×시즌 값",
+   1890,
+   "세리에A 2024-25 2위"
+  ],
+  "Seattle Sounders FC|2025": [
+   "기존 팀×시즌 값",
+   1604,
+   "MLS 2025 10위"
+  ],
+  "Real Madrid|2024-25": [
+   "기존 팀×시즌 값",
+   1943,
+   "라리가 2024-25 2위"
+  ],
+  "FC Toulouse|2025-26": [
+   "기존 팀×시즌 값",
+   1700,
+   "리그1 2025-26 9위"
+  ],
+  "RC Lens|2025-26": [
+   "기존 팀×시즌 값",
+   1866,
+   "리그1 2025-26 2위"
+  ],
+  "Atalanta BC|2025-26": [
+   "기존 팀×시즌 값",
+   1774,
+   "세리에A 2025-26 7위"
+  ],
+  "RC Strasbourg Alsace|2025-26": [
+   "기존 팀×시즌 값",
+   1718,
+   "리그1 2025-26 8위"
+  ],
+  "Bayer 04 Leverkusen|2025-26": [
+   "기존 팀×시즌 값",
+   1797,
+   "분데스리가 2025-26 6위"
+  ],
+  "Le Havre AC|2025-26": [
+   "기존 팀×시즌 값",
+   1647,
+   "리그1 2025-26 14위"
+  ],
+  "Olympique Marseille|2025-26": [
+   "기존 팀×시즌 값",
+   1771,
+   "리그1 2025-26 5위"
+  ],
+  "LOSC Lille|2025-26": [
+   "순위표+리그 모형",
+   1817,
+   "리그1 2025-26 3위"
+  ],
+  "AJ Auxerre|2025-26": [
+   "순위표+리그 모형",
+   1628,
+   "리그1 2025-26 15위"
+  ],
+  "AS Monaco|2025-26": [
+   "기존 팀×시즌 값",
+   1738,
+   "리그1 2025-26 7위"
+  ],
+  "FC Metz|2025-26": [
+   "기존 팀×시즌 값",
+   1582,
+   "리그1 2025-26 18위"
+  ],
+  "Chelsea FC|2025-26": [
+   "기존 팀×시즌 값",
+   1822,
+   "프리미어리그 2025-26 10위"
+  ],
+  "Liverpool FC|2025-26": [
+   "기존 팀×시즌 값",
+   1901,
+   "프리미어리그 2025-26 5위"
+  ],
+  "Paris FC|2025-26": [
+   "기존 팀×시즌 값",
+   1677,
+   "리그1 2025-26 11위"
+  ],
+  "LASK|2026-27": [
+   "직접 추정",
+   1539,
+   "오스트리아 분데스리가 2026-27 (11월 초 현재) 3위 (추정)"
+  ],
+  "Brentford FC|2026-27": [
+   "순위표+리그 모형",
+   1857,
+   "프리미어리그 2026-27 (11월 초 현재) 8위"
+  ],
+  "Brighton & Hove Albion|2026-27": [
+   "순위표+리그 모형",
+   1998,
+   "프리미어리그 2026-27 (11월 초 현재) 2위"
+  ],
+  "Crystal Palace|2026-27": [
+   "기존 팀×시즌 값",
+   1743,
+   "프리미어리그 2026-27 (10월 말 현재) 17위"
+  ]
+ }
+}
