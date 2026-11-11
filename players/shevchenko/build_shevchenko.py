@@ -553,3 +553,51 @@ NOTE_LINES = [
     "시즌 구분: 디나모 키이우는 7월 1일 기준(우크라이나 리그가 7월 초에 개막: 1998.7.7 카르파티전·2010.7.9 오볼론전이 새 시즌, 1998.6.12 경기는 1997-98; Transfermarkt 시즌 표기와 모두 같음), 밀란·첼시는 기본 8월 1일(1999.8.21·2004.8.21 수페르코파와 2006.8.13 커뮤니티 실드는 새 시즌). 클럽 구분은 1999.7.1 전 디나모 키이우, 2006.7.1 전 밀란, 2008.8.23 전 첼시, 2009.7.1 전 밀란(임대), 2009.8.29 전 첼시, 이후 디나모 키이우",
 ]
 NOTE_PLACEHOLDER = len(NOTE_LINES)
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "UA_K"]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1] or b[2] < a[2]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+    if len({(r[1], r[3]) for r in rs}) > 1: problems.append(("같은 날 상대·대회 다름", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+mm = {m[0]: m for m in M}
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[0] == "g" and r[13] != 0: problems.append(("골 note", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+    if mm[r[9]][1] != r[1] or mm[r[9]][2] != r[3]: problems.append(("출전 행과 상대·대회 다름", r))
+    if len(r) > 14 and r[7]: problems.append(("합산인데 단판", r))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const SHE_E={J(E)};\nconst SHE_M={J(M)};\nconst SHE_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC, "elo_log": ELO_LOG, "ua_calibration": UA_CAL,
+               "season_vs_tm": [list(k) + [v] for k, v in sorted(SEASON_TM.items())]},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for i, v in ST.items(): print(" ", CLUBS[i][0], CLUBS[i][3], v)
