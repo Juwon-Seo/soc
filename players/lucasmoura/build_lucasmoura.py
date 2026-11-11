@@ -89,7 +89,7 @@ def comp_of(cid, rnd):
     if cid in ("BRC", "FRC", "FRL", "FAC", "CGB"):
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter") or r.startswith("sixth round"): return "dk"   # 리그컵 8강(5라운드)·FA컵 6라운드
+        if r.startswith("quarter") or (cid == "FAC" and r.startswith("sixth round")): return "dk"   # 리그컵 8강(5라운드)·FA컵 6라운드
         return "dc"
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
@@ -345,7 +345,7 @@ for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
 BYDATE = collections.defaultdict(list)
 for b, (oe, om) in OTHERS.items():
     for x in oe: BYDATE[x[9]].append((b, x))
-STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", "football", "united", "city", "real", "sporting", "esporte", "ec"}
+STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", "football", "united", "city", "real", "sporting", "esporte", "ec", "foot", "ball", "porto", "regatas", "atletico", "clube", "associacao"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_match(o, d):
     cand = [(b, x) for b, x in BYDATE.get(d, []) if (key(x[1]) == key(o) or toks(x[1]) & toks(o))]
@@ -411,3 +411,156 @@ for typ, gid, mi, dm, gf, ga, pk, note in raw_rows:
     if t: row.append(t)
     E.append(row)
 E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, r[0]))
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(수정 없음, 보고용)
+MATE_NAME = {"ibr.js": "Zlatan Ibrahimović", "cav.js": "Edinson Cavani", "dim.js": "Ángel Di María", "ney.js": "Neymar",
+             "mba.js": "Kylian Mbappé", "son.js": "Heung-min Son", "kan.js": "Harry Kane", "bal.js": "Gareth Bale"}
+cross = []
+for b, (oe, om) in OTHERS.items():
+    for x in oe:
+        if x[0] == "a" and x[13] and "Lucas Moura" in str(x[13]):
+            hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
+            ok = hit and (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3]) == (x[5], x[6], x[2], x[12], x[3])
+            cross.append(("동료 도움→루카스 골", b, x[9], x[4], "일치" if ok else ("값 다름" if hit else "루카스 골 없음"),
+                          x[2:8], hit[0][2:8] if hit else None))
+    nm = MATE_NAME.get(b)
+    if nm:
+        for r in E:
+            if r[0] == "a" and r[13] == nm:
+                hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2]
+                ok = hit and (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3]) == (r[5], r[6], r[2], r[12], r[3])
+                has_m = any(m[0] == r[9] for m in om)
+                cross.append(("루카스 도움→동료 골", b, r[9], r[4], "일치" if ok else ("값 다름" if hit else ("동료 골 없음" + ("" if has_m else "(출전 행도 없음)"))),
+                              r[2:8], hit[0][2:8] if hit else None))
+    for r in E:   # 같은 날·같은 상대 Elo·lv·대회
+        for x in oe:
+            if x[9] == r[9] and (key(x[1]) == key(r[1]) or toks(x[1]) & toks(r[1])) and (x[2] != r[2] or x[12] != r[12] or x[3] != r[3]):
+                cross.append(("같은 경기 Elo/lv/대회 다름", b, r[9], r[1], (x[2], x[12], x[3]), (r[2], r[12], r[3])))
+    for m in M:   # 같은 날 같은 상대 출전 행의 대회 코드
+        for mm in om:
+            if mm[0] == m[0] and (key(mm[1]) == key(m[1]) or toks(mm[1]) & toks(m[1])) and mm[2] != m[2]:
+                cross.append(("같은 경기 출전 행 대회 코드 다름", b, m[0], m[1], mm[2], m[2]))
+# Transfermarkt 리포트상 동료 도움인데 동료 파일에 없는 것(PK 유도 제외)
+for gid, evs in EVS.items():
+    if gid not in G: continue
+    for e in evs:
+        if e["scorer_id"] == LM and e["assist_id"] and e["assist_id"] != LM and not e["assist_type"].startswith("Penalty"):
+            for b, nm in MATE_NAME.items():
+                if e["assist_player"] == nm and b in OTHERS:
+                    d = ldate(G[gid]); oe, om = OTHERS[b]
+                    has_a = any(x[0] == "a" and x[9] == d and "Lucas" in str(x[13]) for x in oe)
+                    if not has_a:
+                        cross.append(("Transfermarkt 동료 도움이 동료 파일에 없음", b, d, e["minute"], e["assist_type"] or "(유형 빈칸)",
+                                      "출전 행 있음" if any(m[0] == d for m in om) else "출전 행도 없음"))
+DUP = set()
+cross = [c for c in cross if not (str(c) in DUP or DUP.add(str(c)))]
+
+# ---------------------------------------------------------------- 클럽별 합계
+CLUBS = [("2013-01-01", "상파울루 1기"), ("2018-01-31", "파리 생제르맹"), ("2023-08-02", "토트넘 홋스퍼"), ("9999-12-31", "상파울루 2기")]
+def club_of(d):
+    for u, n in CLUBS:
+        if d < u: return n
+ST = collections.OrderedDict((n, [0, 0, 0, 0]) for _, n in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E if r[0] == "g")
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+PRE_A = sum(1 for r in E if r[0] == "a" and r[9] < GAP)
+POST_A = NA - PRE_A
+TM_A_ALL = sum(1 for gid, evs in EVS.items() if gid in G for e in evs if e["assist_id"] == LM)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return f"{v[0]}·{v[1]}·{v[2]}"
+sp = [ST["상파울루 1기"][i] + ST["상파울루 2기"][i] for i in range(3)]
+EX = collections.Counter(j[5] for j in judg if j[0] == "도움 제외")
+def jl(reason):
+    return ", ".join(f"{d_(j[1])} {j[2]} {j[3]}분 {j[4]}" for j in judg if j[0] == "도움 제외" and j[5] == reason)
+MAN_USED = sorted({(o, v[1], v[2]) for (o, d), v in ELO_LOG.items() if v[0] == "man"}, key=lambda t: t[0])
+SAME_N = sum(1 for v in ELO_LOG.values() if v[0] == "same")
+FIRST_OPP = {"Atlético Paranaense": "아틀레치쿠 파라나엔시", "Sport Club Corinthians Paulista": "코린치안스"}
+SHOT = "슈팅 리바운드('Shot on goal')"
+POST_TM_ONLY_ADDED = [t for t, v in POST_GAP.items() if v]
+
+# ---------------------------------------------------------------- 설명(NOTE)
+first, last = M[0], M[-1]
+NOTE_LINES = [
+    f"루카스 모우라(상파울루·파리 생제르맹·토트넘 홋스퍼·상파울루)의 클럽 공식 경기 {NG}경기({d_(first[0])} {FIRST_OPP[first[1]]}전 ~ {d_(last[0])} {FIRST_OPP[last[1]]}전)에서 나온 {NGo}골 {NA}도움, 친선경기 제외",
+    f"클럽별 경기·골·도움: 상파울루 {c3(sp)}(2010~2012 {c3(ST['상파울루 1기'])}, 2023~ {c3(ST['상파울루 2기'])}), 파리 생제르맹 {c3(ST['파리 생제르맹'])}, 토트넘 홋스퍼 {c3(ST['토트넘 홋스퍼'])}",
+    f"경기·출전 분·골 시간·골 뒤 스코어·PK는 Transfermarkt 선수 경기 성적(출전 {NG}경기·{MIN_TOT}분)과 경기 리포트 기준. 출전 시간 90분 추정 경기는 없음",
+    "클럽별 경기·골은 영어 위키백과 경력 표와 같음(PSG 229경기 46골, 토트넘 221·39). 상파울루 2010~2012는 위키백과 128경기, Transfermarkt 127경기로 2012 코파 두 브라질만 1경기 다름(위키 9, Transfermarkt 8). Transfermarkt는 2012.6.20 준결승 2차전 코리치바 원정을 명단 제외로 적고 리포트 출전 명단에도 없어 넣지 않음",
+    "FotMob 경력 합계는 PSG 229경기 46골, 토트넘 221·39, 상파울루 2023~ 114·26으로 같고, 상파울루 2010~12는 FotMob 128경기 33골(위키백과와 같은 1경기 차이). FotMob 경기 기록에는 캄페오나투 파울리스타 2011~2012 일정과 2010~2013 득점자 이름이 대부분 없어 이 구간 골은 Transfermarkt 리포트만 씀",
+    "토트넘 U21(프리미어리그 2, 2023년 4경기 3골), 브라질 대표팀·올림픽 대표팀·U20 경기는 뺌. 2024.2.4 수페르코파 두 브라질은 부상으로 결장(Transfermarkt)",
+    f"PK 골 {NPK}개는 Transfermarkt 골 유형 기준(FotMob과 같음)",
+    "2011.8.24 수다메리카나 세아라전(2차전) 골 순서: Transfermarkt 리포트는 루카스 62분 골을 첫 골(1-0)로, 시세루·다고베르투의 65분 두 골을 모두 3-0으로 적음. FotMob(시세루 56분, 루카스 61분, 다고베르투 64분)과 worldfootball(시세루 56분 1-0, 루카스 62분 2-0)을 따라 루카스 골 직전 1-0, 다고베르투 골(루카스 도움) 직전 2-0으로 씀",
+    "2012.10.31 수다메리카나 8강 1차전 우니베르시다드 데 칠레 원정은 Transfermarkt 리포트 머리 스코어가 2:0으로 홈·원정이 뒤집혀 있어 골 목록·선수 경기 성적(상파울루 2-0 승)을 쓰고, 2차전의 1차전 스코어도 2-0으로 고침. 2012.11.22 우니베르시다드 카톨리카 원정(1-1)도 리포트 머리 스코어(3:4)가 틀렸으나 골·도움이 없어 영향 없음",
+    "2014.12.17 쿠프 드 라 리그 아작시오전 84분 골은 FotMob이 루카스 골로 적었으나 Transfermarkt·Sports Mole·ESPN·maxifoot이 바에벡 골(루카스 도움)로 적어 도움으로 셈",
+    "2012.12.12 수다메리카나 결승 2차전 티그레전은 하프타임에 티그레가 경기장에 나오지 않아 전반만 치르고 끝남(2-0 그대로 우승). 출전 45분, 골(23분)·도움(28분)은 경기 중 스코어 그대로 씀",
+    f"도움은 2014.8.1 이전은 Transfermarkt 리포트 도움을 쓰고, 그 뒤는 Transfermarkt와 FotMob(경기 기록 또는 선수 경기 목록)이 같이 적은 도움을 기준으로 함",
+    f"도움 {NA}개 = Transfermarkt 리포트 도움 {TM_A_ALL}개 − PK 유도 {EX['PK 유도']}개 − 본인 PK 골에 본인 도움으로 적힌 {EX['본인 PK 골에 본인 도움(PK 유도)']}개 − 'Shot on goal' 리바운드 {EX[SHOT]}개 − 상대 자책골 유도 {EX['상대 자책골 유도']}개 + FotMob에만 있던 1개",
+    "PK 유도로 뺀 도움: " + jl("PK 유도"),
+    "본인 PK 골의 본인 도움으로 뺀 것: " + jl("본인 PK 골에 본인 도움(PK 유도)"),
+    "리바운드·자책골이라 뺀 것: " + jl(SHOT) + " (슈팅 리바운드), " + jl("상대 자책골 유도") + " (상대 자책골)",
+    "2014.8 이후 FotMob 경기 기록에 도움이 없지만 다른 출처 2곳으로 확인해 넣은 도움: 2014.12.17 아작시오전 54분 카바니·84분 바에벡(maxifoot·CulturePSG·Bleacher Report), 2015.1.13 생테티엔전 72분 즐라탄(CulturePSG·maxifoot), 2016.2.10 리옹전 62분 즐라탄(FourFourTwo·Bleacher Report), 2017.1.7 바스티아전 30분 치아구 실바(FourFourTwo·CulturePSG)",
+    "상파울루 2024~2025 파울리스타 도움 5개(2024.1.20 산투 안드레 39분 루시아누, 2.28 리메이라 45+3분 페헤이리냐, 3.3 파우메이라스 25분 알리송, 3.17 노보리존치누 23분 페헤이리냐, 2025.3.3 노보리존치누 63분 칼레리)는 FotMob 경기 기록에 도움 칸이 없고 FotMob 선수 경기 목록이 도움 1로 적어 Transfermarkt와 함께 셈",
+    "FotMob에만 있던 2015.12.8 챔스 샤흐타르전 86분 즐라탄 골 도움(골키퍼 킥을 루카스가 머리로 떨굼)은 Sports Mole 문자중계·AP 기사가 확인해 넣음(Transfermarkt 리포트는 도움 없음)",
+    f"2014.8.1 이전 도움 {PRE_A}개는 Transfermarkt 단일 출처이고 다른 출처로 대조하지 못함(FotMob 경기 기록에 2010~13 도움이 거의 없음). 유형 칸이 빈 도움(상파울루 2011~2012 7개, 2013.8.3 트로페 데 샹피옹 알렉스 90+3분)도 도움으로 셈",
+    "날짜는 경기 현지 날짜. 상파울루 경기는 Transfermarkt 경기 시각(UTC)을 상파울루 시간으로 바꾼 날짜라 저녁 경기 68경기는 Transfermarkt 리포트 날짜(중부 유럽 기준)보다 하루 앞",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(즐라탄·카바니·디 마리아·음바페·네이마르·손흥민·케인·베일) 값을 먼저 쓰고({SAME_N}개 기록), 없으면 기존 선수 자료의 같은 팀·같은 시즌 값, 그다음 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 모형에 넣음",
+    "브라질 세리에 A·B는 달력 연도 순위(평균 1598·1370, 네이마르·비니시우스 자료와 같은 방식). 2026 세리에 A·B는 2026.11.11 현재 순위. 파울리스타·코파 두 브라질 상대 중 세리에 A·B 밖 팀은 그해 세리에 C면 1253, 세리에 D 이하면 1200(네이마르 자료 방식, 세리에 C·D 소속은 위키백과 시즌 문서 기준)",
+    "챔피언십 2019-20 미들즈브러(17위)는 다른 선수 자료의 같은 시즌 앞뒤 순위값 사이로 메움",
+    "리그 표가 없는 상대는 당시 수준을 추정함(모두 '추정'): " + ", ".join(f"{o} {e}({lv})" for o, e, lv in MAN_USED if e not in (1200, 1253)) + ", 브라질 세리에 C 1253·4부 이하 1200 팀: " + ", ".join(sorted({o for o, e, lv in MAN_USED if e in (1200, 1253)})),
+    "캄페오나투 파울리스타(상파울루 주 선수권)는 리그 단계·8강·준결승 모두 국내컵 하위 라운드 비중(네이마르 자료와 같음)이고 8강·준결승은 단판 토너먼트로 셈. 코파 두 브라질은 16강까지·8강·준결승·결승으로 나눔(원정 2골 차 이상 승리로 2차전이 없던 2011 1라운드 트레제전·2012 2라운드 바이아 지 페이라전은 단판)",
+    "코파 수다메리카나는 16강까지·8강·준결승·결승, 코파 리베르타도레스는 조별·16강과 8강으로 나눠 계산함. 트로페 데 샹피옹은 국내컵 결승, 쿠프 드 프랑스·쿠프 드 라 리그·FA컵·리그컵은 16강까지·8강(FA컵 6라운드·리그컵 5라운드)·준결승·결승, 유로파 32강('intermediate stage')은 토너먼트로 계산함",
+    f"두 경기 합산 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함. UEFA 대회는 2020-21까지 원정 다득점·연장 적용, 코파 두 브라질 2011~2012와 수다메리카나 2011~2012(결승 제외)는 원정 다득점 있고 연장 없이 승부차기(2012 수다메리카나 준결승 우니베르시다드 카톨리카전 1-1·0-0은 원정 다득점으로 진출), 수다메리카나 결승은 원정 다득점 없이 연장, 코파 두 브라질 2023~2024와 수다메리카나 2023은 둘 다 없이 승부차기",
+    "못 뛴 다른 차전 스코어를 리포트로 채움: 2011.8 수다메리카나 2라운드 1차전 세아라 2-1 상파울루, 2023.7 코파 두 브라질 준결승 1차전 코린치안스 2-1 상파울루(루카스 입단 전), 2024.5 코파 두 브라질 3라운드 1차전 아기아 지 마라바 1-3 상파울루",
+    "시즌은 상파울루는 달력 연도, PSG·토트넘은 8월 1일 기준(즐라탄·디 마리아·손흥민·케인 자료와 같음)",
+    "우승·수상 기록은 Transfermarkt 업적 페이지 기준: 대표팀(컨페더레이션스컵 2013·남미 U20 2011)·유스(코파 상파울루 주니오르스 2010) 우승은 뺌. 2017-18 리그1·쿠프 드 라 리그·트로페 데 샹피옹(시즌 중 이적)과 2024 수페르코파 두 브라질(부상 결장)은 Transfermarkt대로 셈",
+    f"2026.11.11 기준: 마지막 출전은 2026.11.4 세리에 A 코린치안스전(상파울루와 계약 2026.12.31까지, Transfermarkt)",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "csa", "lib", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6], r[13])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gl = sorted([r for r in rs if r[0] == "g"], key=lambda r: (r[5] + r[6], r[4]))
+    for a, b in zip(gl, gl[1:]):
+        if b[5] < a[5] + 1 or b[6] < a[6]: problems.append(("스코어 역순", d, a[4], b[4]))
+    if d not in mdates: problems.append(("출전 없음", d))
+    if mdates[d] > 1: problems.append(("같은 날 두 경기", d))
+mmin = {m[0]: m[3] for m in M}
+for r in E:
+    if r[4] > 130 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900 or r[2] > 2200: problems.append(("Elo 범위", r))
+for m in M:
+    if not (0 < m[3] <= 125): problems.append(("출전 분 범위", m))
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if MISS: sys.exit("상대 Elo 없음: " + str(MISS))
+js = f"const LUC_E={J(E)};\nconst LUC_M={J(M)};\nconst LUC_NOTE={J(NOTE)};\n"
+open(OUT_JS, "w", encoding="utf-8").write(js)
+keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "assist_judgments": judg,
+           "post_gap_tm_only": post_gap_tm_only, "post_gap_verdicts": POST_GAP, "fm_only_assists": FM_ONLY,
+           "fm_only_goals": FM_ONLY_GOAL, "cross_check": cross, "elo_sources": ELO_SRC,
+           "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
+          open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)}")
+for n, v in ST.items(): print(" ", n, v)
+print("점검 문제", len(problems))
+for p_ in problems: print("  ", p_)
+for c in cross:
+    if len(c) > 4 and c[4] != "일치": print("  대조:", c)
