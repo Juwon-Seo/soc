@@ -297,12 +297,35 @@ def eu(d):
     return f"{s}-{str(s + 1)[2:]}"
 
 # 튀르키예 1부: 2017-18은 2016-17 리그 수준(평균 1479, 에투 자료 선례), 2018-19는 팔카오·메르턴스 자료의 회귀식
-TR_COEF = {2017: None, 2018: 5.5, 2019: 5.0}
+TR_COEF = {2017: 6.8, 2018: 5.5, 2019: 5.0}     # 2017-18 6.8: 위키백과(Turkish football clubs in European competitions) 시즌별 계수
 def tr_mean(start):
     c = sum(TR_COEF[y] for y in (start - 1, start, start + 1)) / 3
     return 1473 + 23.33 * (c - 7.3333)
 
-MODELS = {}       # 아래 rank_model에서 쓰는 리그별 (평균, 흩어짐) — 그리스·키프로스·몰타는 judgments.md 6절
+MODELS = {}       # 아래 rank_model에서 쓰는 리그별 함수 — 그리스·키프로스·몰타는 judgments.md 6절
+
+def reg_mean(coefs): return 1473 + 23.33 * (sum(coefs) / len(coefs) - 7.3333)
+# 그리스 1부: 튀르키예·우크라이나와 같은 회귀(앞뒤 3시즌 UEFA 국가 계수 평균) + 그리스 보정 GR_K.
+#   계수(시작 연도): UAF 계수표·football-coefficient.eu. 2024-25는 2025-26이 끝나지 않아 2022-23~2024-25 세 시즌 평균(튀르키예 2025-26 선례)
+GR_COEF = {2018: 5.1, 2019: 4.9, 2020: 5.1, 2021: 8.0, 2022: 2.125, 2023: 11.4, 2024: 12.688}
+def gr_reg(start):
+    ys = (start - 1, start, start + 1) if start + 1 in GR_COEF else (start - 2, start - 1, start)
+    return reg_mean([GR_COEF[y] for y in ys])
+# 보정: 통합표의 같은 시기 그리스 팀 값(올림피아코스 2019-20 1위 1680·2020-21 1위 1690, PAOK 2021-22 2위 1590)과 회귀 값 차이의 평균
+GR_ANCH = [(2019, 1, 1680), (2020, 1, 1690), (2021, 2, 1590)]
+GR_K = sum(v - (gr_reg(y) + 119 * curve(r, 14)) for y, r, v in GR_ANCH) / len(GR_ANCH)
+def gr_mean(season): return gr_reg(int(season[:4])) + GR_K
+def m_gr1(season, r, n): return half_up(gr_mean(season) + 119 * curve(r, n)), f"그리스 슈퍼리그 {season} {r}위 (추정, 리그 수준 추정)"
+def m_grs2(season, r, n): return half_up(gr_mean(season) - 162 + SD2 * curve(r, n)), f"그리스 2부(슈퍼리그 2) {season} {r}위 (추정, 리그 수준 추정)"
+MODELS["GR1"] = m_gr1; MODELS["GRS2"] = m_grs2
+# 키프로스 1부 2023-24: 같은 회귀(2022-23 5.1·2023-24 3.75·2024-25 2.75), 흩어짐은 작은 리그라 노르웨이 선례 63
+CY_MEAN = {"2023-24": reg_mean([5.1, 3.75, 2.75])}
+def m_cy1(season, r, n): return half_up(CY_MEAN[season] + 63 * curve(r, n)), f"키프로스 1부 {season} {r}위 (추정, 리그 수준 추정)"
+def m_cy2(season, r, n): return half_up(CY_MEAN[season] - 162 + SD2 * curve(r, n)), f"키프로스 2부 {season} {r}위 (추정, 리그 수준 추정)"
+MODELS["ZYP1"] = m_cy1; MODELS["1CY2"] = m_cy2
+# 몰타 2부(챌린지 리그) 2026-27: 1부 평균 약 1340(같은 회귀, 계수 약 1.5) − 162 = 1180, 순위 곡선 없이 평평하게(보수적 추정)
+def m_mal2(season, r, n): return 1180, f"몰타 2부(챌린지 리그) {season} {r}위(2026.11.12 현재) (추정, 리그 수준 추정)"
+MODELS["MAL2"] = m_mal2
 def rank_model(lg, season, r, n):
     if lg == "FR1":
         m = ents_map("리그1", season)
