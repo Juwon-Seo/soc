@@ -221,7 +221,7 @@ BYDATE = collections.defaultdict(list)
 for b, (P, oe, om) in OTHERS.items():
     for x in oe: BYDATE[x[9]].append((b, x))
 STOP = {"fc", "cf", "ac", "sc", "club", "de", "the", "afc", "football", "united", "city", "real", "sporting", "atletico", "calcio",
-        "sport", "cd", "ud", "rcd", "sv", "as", "ss", "milan", "inter", "madrid", "ca", "fk", "sk", "ssc", "us"}
+        "sport", "cd", "ud", "rcd", "sv", "as", "ss", "milan", "inter", "madrid", "ca", "fk", "sk", "ssc", "us", "balompie", "club", "deportivo", "sporting", "bilbao"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_match(o, d):
     cand = []
