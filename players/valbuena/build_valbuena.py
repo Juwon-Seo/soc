@@ -137,6 +137,18 @@ def fm_has_vb_assist(gid, after_ha):
 #   (gameId, TM 분) -> (판정, 근거 요약)
 POST_GAP = {}
 def post(gid, mn, ok, why): POST_GAP[(gid, mn)] = (ok, why)
+post("2483454", "33", False, "FotMob 도움 없음, 검색에서 발부에나 패스를 적은 곳은 출처가 불분명한 1곳뿐")
+post("2492413", "52", False, "FotMob 도움 없음, worldfootball.net만 발부에나 도움 표기(UEFA·DFB·ESPN은 도움 이름 없음)")
+post("2514863", "37", False, "FotMob은 사바(Samba) 도움으로 적음, 다른 출처 확인 못 함")
+post("2814012", "4", True, "FotMob 도움 없음, Maxifoot·Lyon Mag 기사가 발부에나의 짧은 프리킥 → 라카제트 골로 서술")
+post("2883860", "78", True, "FotMob 도움 없음, TRT Haber·Gzt(Yeni Şafak) 기사가 발부에나 코너킥 → 슈크르텔 헤더(클리시 무릎에 맞고 들어감)로 서술")
+post("3244663", "11", False, "FotMob은 47분 골만 발부에나 도움, Agonasport·El Telégrafo도 후반 골만 발부에나 도움으로 서술")
+post("3209362", "12", False, "FotMob 경기 이벤트·선수 경기 목록 모두 도움 0, 다른 출처 확인 못 함")
+post("3209362", "71", False, "FotMob 경기 이벤트·선수 경기 목록 모두 도움 0, 다른 출처 확인 못 함")
+post("3507087", "90+3", False, "FotMob 도움 없음, iefimerida 1곳만 '발부에나 프리킥 뒤'로 서술")
+post("4039709", "25", False, "FotMob 도움 없음, 다른 출처 확인 못 함")
+for _g, _m in (("4156781", "4"), ("4192783", "67"), ("4156665", "36"), ("4291712", "3"), ("4291712", "45")):
+    post(_g, _m, False, "키프로스 경기: FotMob이 도움을 적지 않음(아폴론 시즌 전체 도움 0), 경기 기사에서 도움 확인 못 함")
 # FotMob에만 있는 도움(TM 없음): 다른 출처 2곳이 확인한 것만 더함 — 확인된 것 없음(judgments.md 4절)
 ADD_A = []
 
@@ -193,3 +205,176 @@ for gid, evs in EVS.items():
     h = sum(1 for e in evs if e["side"][0] == "h"); a = sum(1 for e in evs if e["side"][0] == "a")
     fh, fa = map(int, re.sub(r"[^0-9:]", "", MI[gid]["final"]).split(":")) if MI[gid]["final"] else (h, a)
     if G[gid]["gameState"] != "penalty_shootout" and (h, a) != (fh, fa): SCORE_MISMATCH.append((gid, ldate(G[gid]), (h, a), (fh, fa)))
+
+# ---------------------------------------------------------------- 이름·기존 자료
+def norm(n):
+    n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()
+    n = re.sub(r"\(.*?\)", " ", n)
+    n = re.sub(r"[^a-z0-9 ]", " ", n)
+    return " ".join(n.split())
+
+ALIAS = {}
+with open(os.path.join(ELO, "aliases.csv"), encoding="utf-8-sig") as f:
+    for row in csv.reader(f):
+        if not row or row[0].startswith("팀"): continue
+        for part in row[1].split(" / "):
+            ALIAS[norm(part.rsplit(":", 1)[0])] = norm(row[0])
+MANUAL_ALIAS = {"inter milan": "inter", "olympique lyon": "olympique lyonnais", "dinamo moscow": "dynamo moscow",
+                "fk krasnodar": "fc krasnodar"}
+def key(n):
+    k = norm(n); k = MANUAL_ALIAS.get(k, k)
+    return ALIAS.get(k, k)
+
+TABLE = collections.defaultdict(list)
+with open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig") as f:
+    for r in csv.DictReader(f):
+        if r["선수"] == ME_KO: continue
+        for nm in [r["팀"]] + r["이름 표기"].split(" / "):
+            TABLE[(key(nm), r["시즌"])].append((int(r["Elo"]), r["수준 라벨(lv)"]))
+
+TRACKED = set(subprocess.run(["git", "-C", ROOT, "ls-files", "src/data"], capture_output=True, text=True).stdout.split())
+def load_js(fn):
+    s = open(fn, encoding="utf-8").read()
+    m = re.search(r"const (\w+)_E=(\[.*?\]);\n", s, re.S)
+    mm = re.search(r"const \w+_M=(\[.*?\]);\n", s, re.S)
+    return m.group(1), json.loads(m.group(2)), json.loads(mm.group(1))
+OTHERS = {}
+for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
+    b = os.path.basename(fn)
+    if b in ("hon.js", "vab.js") or "src/data/" + b not in TRACKED: continue
+    P, oe, om = load_js(fn)
+    OTHERS[b] = (oe, om)
+ENTS = [x for oe, om in OTHERS.values() for x in oe]
+BYDATE = collections.defaultdict(list)
+for b, (oe, om) in OTHERS.items():
+    for x in oe: BYDATE[x[9]].append((b, x))
+STOP = {"fc", "cf", "ac", "sc", "club", "de", "the", "afc", "football", "united", "city", "real", "sporting", "foot", "olympique",
+        "cd", "ud", "sv", "as", "ss", "moscow", "moskau", "sk", "fk", "pfk", "nfc", "piraeus", "athens", "thessaloniki", "limassol", "nicosia",
+        "famagusta", "spor", "jk", "1964", "hsc", "sco", "lille", "losc", "rc", "aj", "ogc", "fco", "ea", "es", "us", "sm"}
+def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
+def same_match(o, d):
+    cand = [(b, x) for b, x in BYDATE.get(d, []) if (key(x[1]) == key(o) or toks(x[1]) & toks(o))]
+    return cand, {(x[2], x[12]) for b, x in cand}
+
+# ---------------------------------------------------------------- 순위표 + 리그 모형
+RANKS = collections.defaultdict(dict)
+with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
+    for line in f:
+        p = line.rstrip("\n").split("|")
+        if len(p) < 5 or p[0] == "league": continue
+        RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4])
+
+SA = [1969, 1890, 1845, 1814, 1798, 1787, 1774, 1757, 1740, 1725, 1714, 1705, 1697, 1692, 1683, 1668, 1651, 1640, 1632, 1614]
+CV = [(v - 1739) / 91.3 for v in SA]
+def curve(r, n):
+    p = (r - 1) / (n - 1) * 19
+    i = min(int(p), 18); t = p - i
+    return CV[i] + (CV[i + 1] - CV[i]) * t
+SD2 = 51.24
+def half_up(x): return int(x + 0.5)
+
+def ents_map(prefix, season):
+    c = collections.defaultdict(collections.Counter)
+    pat = re.compile("^" + re.escape(prefix) + " " + re.escape(season) + r" (\d+)위$")
+    for e in ENTS:
+        m = pat.match(e[12] or "")
+        if m: c[int(m.group(1))][e[2]] += 1
+    return {r: v.most_common(1)[0][0] for r, v in c.items()}
+def mid(tab, r):
+    if r in tab: return tab[r], False
+    lo = [k for k in tab if k < r]; hi = [k for k in tab if k > r]
+    if not lo or not hi: return None, True
+    a, b = max(lo), min(hi)
+    return half_up(tab[a] + (tab[b] - tab[a]) * (r - a) / (b - a)), True
+def edge(tab, r, n, sd):
+    k = min(tab, key=lambda x: abs(x - r))
+    return half_up(tab[k] + sd * (curve(r, n) - curve(k, n)))
+LL_SD = 100.16
+INTERP_USED = set()
+
+def eu(d):
+    y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 7 else y - 1
+    return f"{s}-{str(s + 1)[2:]}"
+
+# 튀르키예 1부: 2017-18은 2016-17 리그 수준(평균 1479, 에투 자료 선례), 2018-19는 팔카오·메르턴스 자료의 회귀식
+TR_COEF = {2017: None, 2018: 5.5, 2019: 5.0}
+def tr_mean(start):
+    c = sum(TR_COEF[y] for y in (start - 1, start, start + 1)) / 3
+    return 1473 + 23.33 * (c - 7.3333)
+
+MODELS = {}       # 아래 rank_model에서 쓰는 리그별 (평균, 흩어짐) — 그리스·키프로스·몰타는 judgments.md 6절
+def rank_model(lg, season, r, n):
+    if lg == "FR1":
+        m = ents_map("리그1", season)
+        v, it = mid(m, r)
+        if v is None:
+            v = edge(m, r, n, LL_SD); INTERP_USED.add((season, r, v, "끝"))
+            return v, f"리그1 {season} {r}위 (추정, 이웃 순위값에 순위 곡선 차이)"
+        if it: INTERP_USED.add((season, r, v))
+        return v, f"리그1 {season} {r}위"
+    if lg == "FR2":
+        m = ents_map("리그2", season); v, it = mid(m, r)
+        if v is None: return half_up(1540 + SD2 * curve(r, n)), f"리그2 {season} {r}위 (추정, 프랑스 2부 평균 1540 모형)"
+        return v, f"리그2 {season} {r}위"
+    if lg == "FR3":       # 리베리 자료의 나시오날 순위값과 같은 식(1311 + 2부 흩어짐 × 순위 곡선)
+        return half_up(1311 + SD2 * curve(r, n)), f"프랑스 3부(나시오날) {season} {r}위 (추정)"
+    if lg == "RU1":       # 에투 자료의 러시아 모형(평균 1520·흩어짐 55)
+        return half_up(1520 + 55 * curve(r, n)), f"러시아 프리미어리그 {season} {r}위 (리그 수준 추정)"
+    if lg == "TR1":
+        if season == "2017-18":
+            return half_up(1479 + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위 (추정, 2016-17 리그 수준 사용)"
+        if season == "2018-19":
+            return half_up(tr_mean(2018) + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위"
+    if lg in MODELS:
+        f = MODELS[lg]
+        res = f(season, r, n)
+        if res: return res
+    return None
+
+MAN = {}
+def man(o, s, e, lv): MAN[(key(o), s)] = (e, lv)
+
+CLUB_LG = {"2968": ["FR3"], "244": ["FR1", "FR2", "FR3"], "1041": ["FR1", "FR2", "FR3"], "121": ["RU1"], "36": ["TR1", "TR2"],
+           "683": ["GR1", "GRS2"], "429": ["ZYP1", "1CY2"], "3062": ["GR1", "GRS2"], "37653": ["MAL2"]}
+EURO = {"CL", "CLQ", "EL", "ELQ", "UEFA", "UI"}
+ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []
+def opp_elo(o, d, g):
+    cid = g["competitionId"]
+    cand, vals = same_match(o, d)
+    if len(vals) == 1:
+        e, lv = next(iter(vals)); ELO_SRC["같은 경기 다른 선수 자료"] += 1
+        ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
+    if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
+    k = key(o); s = eu(d)
+    seasons = [s]
+    if (k, s) in TABLE:
+        (e, lv), _ = collections.Counter(TABLE[(k, s)]).most_common(1)[0]
+        ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv, s); return e, lv
+    if (k, s) in MAN:
+        e, lv = MAN[(k, s)]; ELO_SRC["직접 추정"] += 1; ELO_LOG[(o, d)] = ("man", e, lv); return e, lv
+    if cid not in EURO:
+        for lg in CLUB_LG[g["club_id"]]:
+            t = RANKS.get((lg, s), {})
+            if k in t:
+                r, n, _ = t[k]
+                res = rank_model(lg, s, r, n)
+                if res:
+                    ELO_SRC["순위표+리그 모형"] += 1; ELO_LOG[(o, d)] = ("model", res[0], res[1]); return res
+                MISS.append((o, d, cid, s, f"{lg} {r}/{n} 모형 없음")); return 0, "?"
+    MISS.append((o, d, cid, s, "")); return 0, "?"
+
+E = []
+for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
+    g = G[gid]; d = ldate(g); cid, rnd = g["competitionId"], g["round"]
+    comp = comp_of(cid, rnd); ko = ko_of(cid, rnd)
+    elo, lv = opp_elo(opp(g), d, g)
+    et = 1 if (mi > 90 and not dm and g["gameState"] in ("extra_time", "penalty_shootout")) else 0
+    row = [typ, opp(g), elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
+    t = tie_of(gid)
+    if t: row.append(t)
+    E.append(row)
+E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
+
+if MISS:
+    for x in sorted(set(MISS), key=lambda x: x[1]): print("Elo 없음:", x)
+    if "--force" not in sys.argv: sys.exit(1)
