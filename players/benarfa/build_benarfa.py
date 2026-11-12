@@ -30,7 +30,7 @@ POST_GAP = {
     "2490240|50": "Sky Sports 경기 기사('Ben Arfa tricked his way inside and his ball split the Baggies' defence for Brady to collect and steer into the corner')·Bleacher Report(헐 시절 최고 장면으로 이 패스를 적음). FotMob은 이 경기 도움 칸이 빔",
     "2814001|57": "maxifoot 경기 기사(벤 아르파의 왼발 크로스를 모타가 페널티 지점에서 헤더, 4-0 57분)·Corse Net Infos(벤 아르파가 흘러나온 공을 잡아 수비 뒤로 크로스)·FourFourTwo/beIN(Omnisport, 'header after Hatem Ben Arfa's cross'). FotMob은 이 경기 도움 칸이 모두 빔",
     "2814001|89": "FourFourTwo/beIN(Omnisport, 'Draxler ... racing on to a pass from Hatem Ben Arfa')·CulturePSG 문자중계('Lancé dans la profondeur par Ben Arfa, Draxler envoie un petit bijou de piqué'). FotMob은 이 경기 도움 칸이 모두 빔",
-    "2646599|44": None,   # 우에스트 프랑스 문자중계 1곳만 벤 아르파 컷백을 적음(다른 기사·ESPN·LFP는 도움자 없음) → 확인 못 함
+    "2646599|44": "우에스트 프랑스 문자중계('Ben Arfa déborde la surface guingampaise et centre en retrait pour Alex Mendy qui s'y prend à deux fois avant de tromper Lössl'). 다른 기사·ESPN·LFP는 도움자를 적지 않았고 다른 선수 도움으로 적은 출처 없음(이번 회차 사용자 결정: 독립 경기 기사 1곳 + 반대 출처 없음이면 넣음)",
 }
 # FotMob에만 있는 Ben Arfa 도움·골(Transfermarkt 리포트엔 없음): 없음(빌드가 확인)
 FM_ONLY = {}
@@ -228,12 +228,19 @@ for (k, s), (e, lv) in TABLE.items():
     if "추정" in lv: continue
     m = re.match(r"(리그1|프리미어리그) (\d{4}-\d\d) (\d+)위$", lv)
     if m: LGPTS[(m.group(1), m.group(2))][int(m.group(3))] = e
-FR_STD = LGPTS[("리그1", "2011-12")]      # 20팀 리그1 공통 순위값(2010-11~2022-23 같음)
+FR_STD = LGPTS[("리그1", "2011-12")]
+INTERP = []      # 20팀 리그1 공통 순위값(2010-11~2022-23 같음)
 
 def rank_model(lg, season, r, n):
     if lg == "FR1":
+        # 그 시즌 기존 순위값 → 없으면 앞뒤 기존 순위값 사이 직선 보간(반올림, 발뷔에나 판정과 같은 방식) → 끝이면 20팀 공통값
         pts = LGPTS.get(("리그1", season), {})
-        return pts.get(r, FR_STD[r]), f"리그1 {season} {r}위"
+        if r in pts: return pts[r], f"리그1 {season} {r}위"
+        lo = [k for k in pts if k < r]; hi = [k for k in pts if k > r]
+        if lo and hi:
+            a, b = max(lo), min(hi); v = int(pts[a] + (pts[b] - pts[a]) * (r - a) / (b - a) + 0.5)
+            INTERP.append((season, r, a, b, v)); return v, f"리그1 {season} {r}위"
+        return FR_STD[r], f"리그1 {season} {r}위"
     if lg == "GB1":
         pts = LGPTS[("프리미어리그", season)]
         if r in pts: return pts[r], f"프리미어리그 {season} {r}위"
@@ -408,14 +415,13 @@ NOTE_LINES = [
     "프랑스 대표팀, 리옹 유소년(2005.6.4 쿠프 감바르델라 결승 툴루즈 U19전 1골), 뉴캐슬 U21(2014.8.25 레딩 U21전 1골) 경기는 뺌. 2014.8.23 애스턴 빌라전·8.26 질링엄전(리그컵)은 Transfermarkt가 출전으로 세지 않고(다른 팀 소속 표시) 위키백과 2014-15 뉴캐슬 출전도 0이라 넣지 않음. PSG 2017-18은 1군 출전이 없음(명단 제외·부상)",
     f"골 {NGo}개 중 PK {NPK}개. 2010-11 이후 골은 FotMob 경기 기록과 수·PK 여부가 같음. FotMob과 골 시각이 1분 다른 것(2012.9.2 애스턴 빌라 59/60, 2016.1.4 쿠프 드 프랑스 렌전 연장 117/118)과 2014.3.22 크리스털 팰리스전 도움(Transfermarkt 90+4, FotMob 90)은 Transfermarkt 시각을 씀",
     "2005.7.27 트로페 데 샹피옹 오세르전 PK 골은 Transfermarkt·영어 위키백과 1분(RSSSF 2분)으로 1분을 씀",
-    "도움은 2014.8.1 이전은 Transfermarkt 리포트 도움(유형이 비어 있는 도움 포함)을 쓰고, 그 뒤는 Transfermarkt와 FotMob 경기 기록이 같이 적은 도움을 기준으로 함. Transfermarkt에만 있는 도움은 다른 출처 2곳(경기 기사·문자중계)이 확인한 것만 넣음",
-    f"도움 {NA}개 = Transfermarkt 선수 경기 성적 도움 {TM_A_API}개 − PK 유도 {EX['PK 유도']}개 − 상대 자책골로 이어진 슈팅 리바운드 {EX['상대 자책골 유도(슈팅 리바운드)']}개 − 2014.8 이후 Transfermarkt에만 있고 확인되지 않은 {EX['2014.8 이후 Transfermarkt 단일 출처(다른 출처 확인 못 함)']}개. 2012.8.18 토트넘전 80분 PK 골은 리포트에 본인이 얻은 PK의 본인 도움으로 적혀 있어 도움으로 세지 않음(선수 경기 성적에도 도움 0)",
+    "도움은 2014.8.1 이전은 Transfermarkt 리포트 도움(유형이 비어 있는 도움 포함)을 쓰고, 그 뒤는 Transfermarkt와 FotMob 경기 기록이 같이 적은 도움을 기준으로 함. 2014.8 이후 Transfermarkt 도움은 다른 출처 1곳 이상(경기 기사·문자중계, 반대 출처 없음)이 확인한 것만 넣음",
+    f"도움 {NA}개 = Transfermarkt 선수 경기 성적 도움 {TM_A_API}개 − PK 유도 {EX['PK 유도']}개 − 상대 자책골로 이어진 슈팅 리바운드 {EX['상대 자책골 유도(슈팅 리바운드)']}개. 2012.8.18 토트넘전 80분 PK 골은 리포트에 본인이 얻은 PK의 본인 도움으로 적혀 있어 도움으로 세지 않음(선수 경기 성적에도 도움 0)",
     "PK 유도로 뺀 도움: " + jl("PK 유도"),
     "상대 자책골로 뺀 도움: 2008.8.17 오세르전 63분(벤 아르파 슈팅이 그리흐팅 맞고 들어감)",
-    "2014.8 이후 Transfermarkt에만 있어 뺀 도움: 2015.12.15 쿠프 드 라 리그 갱강전 44분 망디 골(우에스트 프랑스 문자중계 1곳만 벤 아르파 컷백을 적음)",
-    "2014.8 이후 FotMob 경기 기록에 도움이 없지만 다른 출처 2곳으로 확인해 넣은 도움: 2014.9.24 리그컵 웨스트 브로미치전 50분 브래디 골(Sky Sports·Bleacher Report), 2017.1.7 쿠프 드 프랑스 바스티아전 57분 모타 헤더(maxifoot·Corse Net Infos·FourFourTwo)와 89분 드락슬러 골(FourFourTwo·CulturePSG 문자중계). 바스티아전은 FotMob 경기 기록에 도움 칸이 모두 비어 있음",
+    "2014.8 이후 FotMob 경기 기록에 도움이 없지만 다른 출처로 확인해 넣은 도움: 2014.9.24 리그컵 웨스트 브로미치전 50분 브래디 골(Sky Sports·Bleacher Report), 2015.12.15 쿠프 드 라 리그 갱강전 44분 망디 골(우에스트 프랑스 문자중계: 벤 아르파 컷백, 다른 선수 도움으로 적은 출처 없음), 2017.1.7 쿠프 드 프랑스 바스티아전 57분 모타 헤더(maxifoot·Corse Net Infos·FourFourTwo)와 89분 드락슬러 골(FourFourTwo·CulturePSG 문자중계). 바스티아전은 FotMob 경기 기록에 도움 칸이 모두 비어 있음",
     f"2014.8.1 이전 도움 {PRE_A}개는 Transfermarkt 단일 출처(2010-11~2013-14는 FotMob과 일부 대조, 어긋나는 것 없음). 리옹·마르세유 2008~10은 대조할 자료가 없음",
-    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(벤제마·주니뉴·말루다·디 마리아·카바니·루카스 모우라·파스토레 등) 값을 먼저 쓰고({SAME_N}개 기록), 없으면 기존 선수 자료의 같은 팀·같은 시즌 값, 그다음 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 모형에 넣음(리그1 2005-06·2007-08·2008-09·2009-10·2020-21 일부 팀)",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(벤제마·주니뉴·말루다·디 마리아·카바니·루카스 모우라·파스토레 등) 값을 먼저 쓰고({SAME_N}개 기록), 없으면 기존 선수 자료의 같은 팀·같은 시즌 값, 그다음 그 시즌 최종 순위(Transfermarkt 순위표)를 기존 리그 모형에 넣음(리그1 2005-06·2007-08·2008-09·2009-10·2020-21 일부 팀; 그 시즌 기존 순위값이 없는 순위는 앞뒤 순위값 사이를 직선으로 나눈 값)",
     "리그 표가 없는 상대는 당시 수준을 추정함: " + ", ".join(f"{o} {e}({lv})" for o, e, lv in MAN_USED),
     "대회 비중: 쿠프 드 프랑스·쿠프 드 라 리그·FA컵·리그컵은 16강까지·8강·준결승·결승, 트로페 데 샹피옹은 국내컵 결승, 2008-09 챔스 3차 예선(브란)은 챔스 예선, 2008-09 UEFA컵 32강·16강·8강과 유로파리그 32강 이후는 유로파 토너먼트로 계산함",
     f"두 경기 합산 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함(UEFA컵·유로파리그: 원정 다득점·연장 적용). 단판 연장 골 2개(2004.11.10 쿠프 드 라 리그 릴전 101분 PK, 2016.1.4 쿠프 드 프랑스 렌전 117분 PK)",
@@ -471,6 +477,7 @@ json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "assist_j
 print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)}")
 for n, v in ST.items(): print(" ", n, v)
 print("분 고침", min_fix)
+print("리그1 보간", INTERP)
 print("점검 문제", len(problems))
 for p_ in problems: print("  ", p_)
 for c in cross:

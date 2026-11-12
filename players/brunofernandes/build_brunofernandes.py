@@ -23,7 +23,7 @@ ELO = os.path.join(ROOT, "elo")
 OUT_JS = os.path.join(ROOT, "src", "data", "brf.js")
 OUT_JSON = os.path.join(HERE, "brunofernandes.json")
 ME = "브루노 페르난데스"
-GAP = "2014-08-01"   # 도움 출처 기준일: 전에는 Transfermarkt 단독 허용, 뒤에는 Transfermarkt∩FotMob 또는 다른 출처 2곳
+GAP = "2014-08-01"   # 도움 출처 기준일: 전에는 Transfermarkt 단독 허용, 뒤에는 Transfermarkt∩FotMob 또는 독립 경기 기사 1곳 이상(반대 출처 없음, 사용자 결정 2026.11.12)
 
 def rd(name):
     with open(os.path.join(RAW, name), encoding="utf-8") as f:
@@ -43,7 +43,7 @@ for r in rd("fotmob_events.csv"):
 TM_OG_TO_GOAL = {
     "3174310|45": "2019.5.25 타사 드 포르투갈 결승 포르투전 45분: Transfermarkt는 다닐루 자책골(브루노 'Shot on goal'), FotMob·영어 위키백과·worldfootball·AFP(World Soccer Talk)·Portugoal·브라질 Gazeta/Lance는 브루노 골(다닐루 맞고 굴절). CM Jornal은 다닐루 자책골로 적음 -> 다수 출처대로 브루노 골",
 }
-# 2014.8.1 이후 Transfermarkt에만 있는 도움 중 다른 출처 2곳이 확인해 넣은 것: gameId|분 -> 근거
+# 2014.8.1 이후 Transfermarkt에만 있는 도움 중 독립 경기 기사 1곳 이상이 확인하고 반대 출처가 없어 넣은 것: gameId|분 -> 근거
 ADD_CONFIRMED = {
     "2747453|71": "2016.11.30 칼리아리전(코파 이탈리아) 쉬크 골: 삼프도리아 공식 리포트('sent Patrick Schick clean through')·Unione Sarda/Blitz 기사(롱패스)",
     "2905731|60": "2017.8.23 FCSB전(챔스 예선) 아쿠냐 골: Vavel('outro excelente passe de Bruno Fernandes')·Sábado('novamente após passe de Bruno')",
@@ -61,6 +61,7 @@ ADD_CONFIRMED = {
     "3130755|77": "2018.12.19 히우 아브전(타사 16강) 디아비 골: Bola na Rede('Bruno Fernandes isola Abdoulay Diaby')·Record 문자중계(78분, 브루노 도움)",
     "3093846|4": "2018.12.29 페이렌스전(타사 다 리가 조별) 하피냐 골: worldfootball 득점 목록·Record 문자중계(브루노 패스 뒤 왼발 슛)",
     "3255928|90+4": "2019.12.4 질 비센트전(타사 다 리가 조별) 비에투 골: Bola na Rede(브루노 도움)·Notícias ao Minuto 문자중계(브루노가 끌고 가 비에투에게 되돌려 줌)",
+    "3255936|37": "2019.12.21 포르티모넨스전(타사 다 리가 조별) 비에투 헤더 골: Lusa 통신 기사(DN·Postal 재게재, 한 출처)가 '브루노 크로스를 머리로' — 반대 출처 없음 -> 사용자 결정(2026.11.12: 경기 기사 1곳 이상·반대 없음이면 넣음)으로 넣음",
     "3255936|84": "2019.12.21 포르티모넨스전(타사 다 리가 조별) 플라타 골: Observador(역습, 브루노 도움)·Notícias ao Minuto/DN(83분, 브루노 도움)",
     "3296895|44": "2020.1.21 브라가전(타사 다 리가 준결승) 마티외 골: worldfootball 득점 목록·Portugoal('quick free kick to the unmarked Mathieu')·Observador",
     "3912592|53": "2022.10.6 오모니아전(유로파 조별) 래시퍼드 골: Yahoo/Evening Standard 리포트('wonderful diagonal Bruno Fernandes pass')·90min 평점 기사('sensational pass up to Rashford')",
@@ -71,7 +72,6 @@ EXCL_A = {
     "3069566|80": "2019.1.30 세투발전 도스트 골: Transfermarkt 도움 유형 'Shot on goal'(슈팅 리바운드), FotMob 도움 없음",
     "2489320|20": "2014.12.3 체세나전(코파 이탈리아) 알란 골: FotMob 도움 없음, 기사(forzaitalianfootball·Sportsmole·FourFourTwo)는 알란 단독 드리블 골 -> 확인 실패",
     "2923635|81": "2017.12.20 우니앙 마데이라전(타사 다 리가) 이우리 메데이루스 골: 득점 목록(LiveSoccerTV·footballcritic)만 브루노 도움, 경기 기사(DN·Bola na Rede)는 도움을 적지 않음 -> 집계 사이트 외 확인 실패",
-    "3255936|37": "2019.12.21 포르티모넨스전 비에투 헤더 골: 브루노 크로스라고 적은 것은 Lusa 통신 기사(DN·Postal 재게재) 한 출처뿐 -> 다른 출처 2곳 확인 실패",
     "3421845|21": "2021.1.20 풀럼전 카바니 골: 브루노 크로스를 골키퍼 아레올라가 놓친 공을 카바니가 넣음(manutd.com·Sportsmole), 경기 기록 도움 0 -> 골키퍼가 흘린 공(리바운드 성격), FotMob 도움 없음",
 }
 # FotMob에만 있는 도움 중 넣은 것: gameId -> (분 문자열, 득점자, 근거)
