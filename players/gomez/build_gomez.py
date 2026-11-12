@@ -34,7 +34,12 @@ EVENTS = rd("tm_events.csv")
 INFO = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 TIES_RAW = {r["gameId"]: r for r in rd("tm_two_leg_ties.csv")}
 FM_EV = collections.defaultdict(list)
+def _nm(x):
+    return " ".join(unicodedata.normalize("NFKD", x or "").encode("ascii", "ignore").decode().lower().split())
 for r in rd("fotmob_events.csv"):
+    # FotMob 선수 id가 0으로 비어 있는 경기가 있어 이름으로도 고메스 골·도움을 표시
+    if _nm(r["scorer"]) == "mario gomez" and r["ownGoal"] not in ("True", "true", "1"): r["gomez_scorer"] = "1"
+    if _nm(r["assistStr"]) == "assist by mario gomez": r["gomez_assist"] = "1"
     FM_EV[r["tm_gameId"]].append(r)
 
 # ---------------------------------------------------------------- 판정 표
@@ -43,6 +48,8 @@ EXCL_A = {
     "2531141|71": "확인 못 함(2015.2.26 토트넘전 살라 골 — FotMob 도움 없음. 유로스포츠 문자중계는 고메스와 2대1 패스, 토트넘 구단·UEFA 리포트는 베르통언의 실수(살라가 공을 빼앗음)로 서술해 다른 출처 2곳 확인 안 됨)",
     "2594049|50": "확인 못 함(2015.12.27 코니아스포르전 외지야쿠프 골 — FotMob 도움 없음. Sporx 기사는 고메스와 2대1 패스, 베식타시 구단 리포트는 개인 돌파로 서술해 다른 출처 2곳 확인 안 됨)",
 }
+# 골 시각 고침: gameId|TM 분 -> 쓸 분 (judgments.md 3절)
+MIN_FIX = {"2606529|78": 70}   # 2016.3.7 에스키셰히르스포르전 두 번째 골: FotMob 70분·A Haber 경기 기사 70분(3-0), TM만 78분
 ADD_CONFIRMED = {}   # 2014.8.1 이후 FotMob에 없지만 다른 출처 2곳이 확인해 넣은 도움(없음)
 
 # ---------------------------------------------------------------- 대회 코드
@@ -245,6 +252,7 @@ for e in EVENTS:
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     d = ldate(g); opp = g["opponent"].strip()
     tag = f"{gid}|{e['minute']}"
+    if tag in MIN_FIX: mi, dm = MIN_FIX[tag], 0
     # 연장전 골(단판): Transfermarkt는 정규시간 추가시간을 '90+x'로, 연장 시간을 91~120으로 적음
     et = int(not tie and g["gameState"] in ("extra_time", "penalty_shootout") and "+" not in e["minute"] and mi > 90)
     if isg:
