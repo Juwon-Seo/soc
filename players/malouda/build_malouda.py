@@ -19,7 +19,7 @@ GAP = "2014-08-01"
 # ---------------------------------------------------------------- 도움 판정
 # 2013-09-29 코니아스포르전 71분 유믈루: TM 'Shot on goal'이지만 FotMob이 말루다 도움으로 센 것 -> 남김 (뮐러 keepShotFM 선례).
 #   수집자 메모는 제외였으나 문서 3절 선례(FotMob이 센 리바운드성 도움은 FotMob 기준)를 따름. 되돌리려면 KEEP_SHOT_FM을 비움.
-KEEP_SHOT_FM = {"2346056|71"}
+KEEP_SHOT_FM = set()
 # 2014.8 이후 도움 중 두 번째 출처가 확인하지 못해 뺀 것 (gameId|분 -> 이유)
 UNCONFIRMED = {
     "2638662|75": "와디 데글라 2016.2.21 엔피전 75분 라잡 나빌: 이집트 기사 Youm7(2016.6.13)이 말루다 도움으로 적었으나 두 번째 출처 없음",
@@ -35,6 +35,8 @@ UNCONFIRMED = {
     "2950953|9": "디페르당주 2018.3.25 룩셈부르크컵 에르펠당주전 9분 고티에 카롱: FotMob 도움 없음, 기사 확인 못 함",
 }
 KEEP_UNCONFIRMED = set()          # 비어 있으면 모두 제외
+if os.environ.get("MLD_ALT"):   # 검토용: 제외한 도움을 되살린 대안 계산(출력 파일은 쓰지 않음)
+    KEEP_UNCONFIRMED = set(UNCONFIRMED) if os.environ["MLD_ALT"] == "all" else {k for k in UNCONFIRMED if "Youm7" in UNCONFIRMED[k] or "한 곳만" in UNCONFIRMED[k]}
 # 델리 다이너모스 2015·2016: FotMob 선수 경력 도움 합계(8·3)가 TM과 같고 ISL 공식 사이트(2015 도움 8개)도 같아 TM 도움 11개를 모두 둠.
 #   FotMob 경기 이벤트에는 도움이 없음.
 DELHI_OK = {"2015": 8, "2016": 3}
@@ -136,11 +138,10 @@ def opp_elo(opp, date, lg_hint):
             ELO_SRC["순위표+리그 모형/추정(" + lg + ")"] += 1; ELO_LOG[(opp, s)] = (res[0], res[1], lg + " " + str(r)); return res
     sys.exit(f"상대 Elo 없음: {opp} {s}")
 
-L2_KNOWN = {2: 1624, 4: 1582, 5: 1573, 6: 1567, 9: 1540, 10: 1532, 11: 1526, 14: 1513, 15: 1508, 16: 1500, 17: 1490, 18: 1484,
-            19: 1480, 20: 1469}
+L2_KNOWN = {1: 1669, 2: 1624, 4: 1582, 5: 1573, 6: 1567, 7: 1559, 8: 1550, 9: 1540, 10: 1532, 11: 1526, 12: 1521, 13: 1516,
+            14: 1513, 15: 1508, 16: 1500, 17: 1490, 18: 1484, 19: 1480, 20: 1469}   # 기존 선수 자료의 리그2(20팀) 순위값, 3위만 2·4위 가운데
 def EL_l2(r, n):
     if n != 20: sys.exit("프랑스 2부 %d팀 시즌" % n)
-    if r == 1: sys.exit("프랑스 2부 1위 값 필요")
     if r == 3: return 1603                     # 2위 1624와 4위 1582의 가운데
     return interp(L2_KNOWN, r)
 
@@ -237,6 +238,8 @@ NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
 MIN_TOT = sum(m[3] for m in M)
 
 if __name__ == "__main__":
+    if os.environ.get("MLD_ALT"):
+        json.dump(E, open(os.environ["MLD_OUT"], "w", encoding="utf-8"), ensure_ascii=False); sys.exit(0)
     J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
     import malouda_note
     NOTE = malouda_note.make(globals())
