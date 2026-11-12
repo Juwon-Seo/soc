@@ -47,8 +47,21 @@ for r in rd("fotmob_events.csv"):
 # 도움 제외(Transfermarkt 리포트 도움이지만 넣지 않음): gameId|분 -> 이유 (PK 유도·'Shot on goal'·상대 자책골은 아래에서 일반 규칙으로 뺌)
 EXCL_A = {}
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳이 확인해 넣은 도움
-ADD_CONFIRMED = {}
-# 골·도움 추가(Transfermarkt에 없고 경기 기사로 확인한 기록): 아래 EXTRA_ROWS 참고 (없으면 비어 있음)
+ADD_CONFIRMED = {
+    "2988893|22": "2018.3.1 알라이얀전 22분 하템 골: QSL 공식 경기 기사 'provided the assists for the goals by Abdelaziz Hatem (22nd), Diego Amado (54th) and Mehdi Taremi (62nd)' · Voetbal International 'Enorm aandeel Sneijder in stunt Al Gharafa'(하템 2-0 도움)",
+    "2988893|54": "같은 경기 54분 아마두 골: QSL 공식 경기 기사 · Voetbal International(후반 두 골 모두 도움)",
+    "2988893|62": "같은 경기 62분 타레미 골: QSL 공식 경기 기사 · Voetbal International(후반 두 골 모두 도움)",
+    "2995676|44": "2018.4.3 알자지라전(AFC 챔스) 44분 아마두 골: QSL 경기 기사 'Amado controlled Sneijder's in-swinging corner' · Gulf News 'Gharafa took the lead through … Sneijder's corner'",
+}
+# 넣지 않은 TM 단독 도움(다른 출처 2곳을 못 찾음): gameId|분
+UNCONFIRMED_A = {
+    "2988898|45": "2018.3.9 알사일리야전 45분 타레미 골 (QSL 공식 경기 기사 1곳만)",
+    "3126032|53": "2018.10.26 알코르전 53분 바이스 골 (QSL·페닌슐라 기사에 도움 언급 없음)",
+}
+# 골 뒤 스코어 고침: TM 골 순서 대신 FotMob·월드풋볼·ESPN 순서를 쓴 경우 gameId|분 -> (gf, ga, 이유)
+SCORE_FIX = {
+    "2995672|71": (1, 3, "2018.2.12 알자지라전: TM은 스네이더르 71분 골(2-2) 뒤 알아타스 89분 골(3-2) 순서, FotMob·월드풋볼·ESPN은 알아타스 69분 골(3-1) 뒤 스네이더르 71분 골(3-2)이 마지막 골 → 골 전 1-3"),
+}
 
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"NL1", "ES1", "IT1", "TR1", "FR1", "QSL", "PONL"}
@@ -191,9 +204,47 @@ def curve(r, n):
     i = min(int(p), 18); t = p - i
     return CV[i] + (CV[i + 1] - CV[i]) * t
 
-MAN = {}      # (팀 key, 시즌) -> (Elo, lv)  직접 추정
-RANK_LG = []  # 순위표+모형으로 채우는 리그 목록
+# 에레디비시 순위별 값: 기존 선수 자료의 시즌 무관 18칸 값 (1위 1837 … 18위 1406, 시즌별 값이 있는 순위는 모두 같음)
+MAP18 = [1837, 1735, 1677, 1642, 1624, 1608, 1587, 1563, 1542, 1528, 1516, 1504, 1499, 1482, 1459, 1441, 1430, 1406]
+# 에이르스터 디비시(네덜란드 2부) 20팀: 기존 값 중 17위 1282 (포르투나 시타르트 2007-08)
+NL2_FIX = {17: 1282}
+# 쉬페르리그 2013-14: 기존 선수 자료의 순위별 값(없는 순위는 이웃 순위 값 사이 직선 보간 — 브리프의 '이웃 기존 값' 규칙)
+TR_1314 = {1: 1778, 3: 1606, 6: 1533, 8: 1485, 9: 1462, 10: 1446, 11: 1434, 16: 1354, 17: 1342, 18: 1317}
+def interp(tab, r):
+    if r in tab: return tab[r]
+    lo = max(k for k in tab if k < r); hi = min(k for k in tab if k > r)
+    return round(tab[lo] + (tab[hi] - tab[lo]) * (r - lo) / (hi - lo))
+# 쉬페르리그 2014-15: 기존 값은 1위 1750뿐(임모빌레 자료) → 평균 1450.2(= 1750 − 119 × 곡선 1위) + 119 × 곡선
+TR_MEAN = {"2014-15": 1750 - 119 * CV[0], "2016-17": 1479}
+SD2 = 51.24   # 튀르키예 2·3부 흩어짐(문서 4절)
+# 카타르 12팀: 마레즈·에투 자료와 같은 리그 수준(평균 1460, 흩어짐 45)
+
+# 순위표·모형으로 안 되는 상대(직접 추정, 모두 lv에 '추정')
+MAN = {
+    (key("FC Thun"), "2005-06"): (1461, "스위스 2005-06 5위 (추정, 다른 선수 자료 스위스 슈퍼리그 2012-13 5위 값과 같음)"),
+    (key("Bröndby IF"), "2005-06"): (1520, "덴마크 2005-06 2위 (추정, 다른 선수 자료 브뢴뷔 2003-04 값과 같음)"),
+    (key("CSKA Moscow"), "2009-10"): (1604, "러시아 2009 2위 (추정, 다른 선수 자료 러시아 프리미어리그 2011-12 2위 값과 같음)"),
+    (key("FC Astana"), "2015-16"): (1400, "카자흐스탄 2015 1위 (추정, 다른 선수 자료 카자흐스탄 1위 1400과 같음)"),
+    (key("FC Vaslui"), "2012-13"): (1480, "루마니아 2012-13 5위 (추정, 같은 시즌 다른 선수 자료 1위 1520과 8위 1440의 중간)"),
+    (key("HNK Hajduk Split"), "2012-13"): (1430, "크로아티아 2012-13 4위 (추정, 다른 선수 자료 하이두크 2017-18 3위 1430과 같음)"),
+    (key("Austria Vienna"), "2006-07"): (1385, "오스트리아 2006-07 6위 (추정, 다른 선수 자료 오스트리아 분데스리가 2012-13·2013-14 6위 1396·1373의 평균)"),
+    (key("IK Start"), "2006-07"): (1350, "노르웨이 2006 13위/14팀 (추정, 다른 선수 자료 노르웨이 4위 1392보다 낮게)"),
+    (key("Pakhtakor Tashkent"), "2017-18"): (1380, "우즈베키스탄 2017 1위 (추정, 다른 선수 자료 파크타코르 2026-27 값과 같음)"),
+}
+RANK_LG = ["NL1", "NL2", "TR1", "TR4A", "TR4C", "QSL"]
 def model(lg, season, r, n):
+    if lg == "NL1":
+        return MAP18[r - 1], f"에레디비시 {season} {r}위"
+    if lg == "NL2" and r in NL2_FIX:
+        return NL2_FIX[r], f"에이르스터 디비시(네덜란드 2부) {season} {r}위"
+    if lg == "TR1" and season == "2013-14":
+        return interp(TR_1314, r), f"쉬페르리그 {season} {r}위"
+    if lg == "TR1" and season == "2014-15":
+        return round(TR_MEAN[season] + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위 (추정, 2014-15 1위 1750에 맞춘 리그 수준·흩어짐 119)"
+    if lg in ("TR4A", "TR4C"):
+        return round(TR_MEAN[season] - 486 + SD2 * curve(r, n)), f"튀르키예 4부 {season} {r}위/{n}팀 (추정, 근거 약함: 쉬페르리그 평균에서 3단계 아래)"
+    if lg == "QSL":
+        return round(1460 + 45 * curve(r, n)), f"카타르 {season} {r}위 (추정, 마레즈 자료와 같은 리그 수준)"
     return None
 
 ELO_SRC = collections.Counter()
@@ -270,6 +321,8 @@ for e in EVENTS:
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
     mi, dm = minute(e["minute"])
+    if tag in SCORE_FIX:
+        gf, ga = SCORE_FIX[tag][:2]; judg.append(("골 뒤 스코어 고침", tag, SCORE_FIX[tag][2]))
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     d = ldate(g); opp = g["opponent"].strip()
@@ -286,6 +339,9 @@ for e in EVENTS:
         if why:
             EXCL_CNT[why if tag not in EXCL_A else "개별 판정"] += 1
             judg.append(("도움 제외", d, opp, e["minute"], e["scorer"], why)); continue
+        if tag in UNCONFIRMED_A:
+            EXCL_CNT["다른 출처 2곳 미확인(2014.8 이후 TM 단독)"] += 1
+            judg.append(("도움 제외", d, opp, e["minute"], e["scorer"], UNCONFIRMED_A[tag])); continue
         if d >= GAP and tag not in ADD_CONFIRMED:
             hit = [t for t in FM_ASSIST.get(gid, []) if abs(t - int(e["minute"].split("+")[0])) <= 2 or abs(t - mi) <= 2]
             if not hit:
@@ -299,3 +355,14 @@ for e in EVENTS:
 if __name__ == "__main__" and "--missing" in sys.argv:
     for x in sorted(missing_elo, key=lambda x: (x[2], x[1], x[0])): print("Elo 없음:", x)
     print(len(missing_elo), "빠짐 /", len(rows), "기록", dict(ELO_SRC), dict(EXCL_CNT))
+
+rows.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
+E = rows
+
+if __name__ == "__main__" and "--debug" in sys.argv:
+    seen = set()
+    for x in ELO_LOG:
+        if x[4].startswith("same"): continue
+        k = (x[1], x[2], x[3])
+        if k in seen: continue
+        seen.add(k); print(x[:5])
