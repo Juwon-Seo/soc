@@ -70,6 +70,8 @@ def comp_of(cid, rnd):
         if r.startswith("final"): return "clf"
     if cid == "EL":
         if r.startswith("group"): return "elg"
+        if r.startswith("semi"): return "elsf"
+        if r.startswith("final"): return "elf"
         return "elk"   # 32강(intermediate stage)·16강·8강
     if cid == "UCOL":
         if r.startswith("group"): return "ecg"

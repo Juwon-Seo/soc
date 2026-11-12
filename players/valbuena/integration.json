@@ -1,0 +1,31 @@
+{
+ "preset": "valbuena",
+ "name": "마티외 발부에나",
+ "prefix": "VAB",
+ "clubs": [
+  {"key": "libvb", "name": "리부른", "short": "리부른", "years": "2004~2006", "until": "2006-07-01"},
+  {"key": "omvb", "name": "마르세유", "short": "마르세유", "years": "2006~2014", "until": "2014-08-02"},
+  {"key": "dynvb", "name": "디나모 모스크바", "short": "디나모 모스크바", "years": "2014~2015", "until": "2015-08-11"},
+  {"key": "lyovb", "name": "리옹", "short": "리옹", "years": "2015~2017", "until": "2017-07-01"},
+  {"key": "fenvb", "name": "페네르바체", "short": "페네르바체", "years": "2017~2019", "until": "2019-07-01"},
+  {"key": "olyvb", "name": "올림피아코스", "short": "올림피아코스", "years": "2019~2023", "until": "2023-07-23"},
+  {"key": "apovb", "name": "아폴론 리마솔", "short": "아폴론", "years": "2023~2024", "until": "2024-08-05"},
+  {"key": "kalvb", "name": "아테네 칼리테아", "short": "칼리테아", "years": "2024~2025", "until": "2025-08-11"},
+  {"key": "slcvb", "name": "산타 루치아", "short": "산타 루치아", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["omvb", "dynvb", "lyovb", "fenvb"], "jul1": []},
+ "season_manual": "olyvb: seasonOf에 직접 분기 추가 필요 — if(club===\"olyvb\"){if(d>=\"2020-07-01\"&&d<\"2020-09-13\")return \"2019-20\";const s=d.slice(5)>=\"07-10\"?y:y-1;return s+\"-\"+String(s+1).slice(2)} (psgc 분기와 같은 꼴, 2020-08 줄보다 앞)",
+ "pos": "RW",
+ "flag": "FR",
+ "retired": false,
+ "hon": {
+  "t": {
+   "LG": ["21/22 올림피아코스", "20/21 올림피아코스", "19/20 올림피아코스", "09/10 마르세유"],
+   "DC": ["19/20 올림피아코스"],
+   "LC": ["11/12 마르세유", "10/11 마르세유", "09/10 마르세유"],
+   "SC": ["11/12 마르세유", "10/11 마르세유"]
+  },
+  "o": [["UEFA 인터토토컵", "06/07 마르세유"]],
+  "a": {}
+ }
+}

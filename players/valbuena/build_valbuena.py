@@ -25,6 +25,10 @@ def rd(n):
         return list(csv.DictReader(f))
 
 GAMES = [g for g in rd("tm_games.csv") if g["level"] == "senior"]
+# 2018 튀르키예컵 준결승 2차전 베식타시전: 2018.4.19 57분 0-0에서 중단, 5.3 재개 경기에 베식타시가 나오지 않아 페네르바체 3-0 몰수승.
+#   Transfermarkt는 5.3 날짜로 적었으나 실제로 뛴 날은 4.19(NTV·Diken 기사) → 4.19로 고침(출전 11분은 그대로)
+for g in GAMES:
+    if g["gameId"] == "3000411": g["date_local"] = "2018-04-19"
 G = {g["gameId"]: g for g in GAMES}
 MI = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 EVS = collections.defaultdict(list)
@@ -264,6 +268,14 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if len(p) < 5 or p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4])
 
+# 그리스 1부 순위: Transfermarkt 표는 26라운드 정규 시즌 순서(2022-23은 정규 1위 파나티나이코스·최종 우승 AEK)라
+#   확인된 최종 순위만 고침(AEK 2022-23 우승: GreekReporter 2023.5.15, 파나티나이코스 2024-25 2위: 위키백과 시즌 문서 사본), 나머지는 정규 시즌 순서(벨기에 선례)
+for (lg_, s_, o_, r_) in (("GR1", "2022-23", "AEK Athens", 1), ("GR1", "2024-25", "Panathinaikos", 2)):
+    t_ = RANKS[(lg_, s_)]; old_r = t_[key(o_)][0]
+    for k_, v_ in list(t_.items()):
+        if r_ <= v_[0] < old_r: t_[k_] = (v_[0] + 1, v_[1], v_[2])
+    t_[key(o_)] = (r_, t_[key(o_)][1], o_)
+
 SA = [1969, 1890, 1845, 1814, 1798, 1787, 1774, 1757, 1740, 1725, 1714, 1705, 1697, 1692, 1683, 1668, 1651, 1640, 1632, 1614]
 CV = [(v - 1739) / 91.3 for v in SA]
 def curve(r, n):
@@ -293,6 +305,7 @@ LL_SD = 100.16
 INTERP_USED = set()
 
 def eu(d):
+    if "2020-07-01" <= d <= "2020-09-12": return "2019-20"     # 코로나로 늦게 끝난 2019-20(그리스 플레이오프·유로파 16강·그리스컵 결승)
     y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 7 else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
@@ -315,16 +328,16 @@ def gr_reg(start):
 GR_ANCH = [(2019, 1, 1680), (2020, 1, 1690), (2021, 2, 1590)]
 GR_K = sum(v - (gr_reg(y) + 119 * curve(r, 14)) for y, r, v in GR_ANCH) / len(GR_ANCH)
 def gr_mean(season): return gr_reg(int(season[:4])) + GR_K
-def m_gr1(season, r, n): return half_up(gr_mean(season) + 119 * curve(r, n)), f"그리스 슈퍼리그 {season} {r}위 (추정, 리그 수준 추정)"
-def m_grs2(season, r, n): return half_up(gr_mean(season) - 162 + SD2 * curve(r, n)), f"그리스 2부(슈퍼리그 2) {season} {r}위 (추정, 리그 수준 추정)"
+def m_gr1(season, r, n): return half_up(gr_mean(season) + 119 * curve(r, n)), f"그리스 슈퍼리그 {season} {r}위 (리그 수준 추정)"
+def m_grs2(season, r, n): return half_up(gr_mean(season) - 162 + SD2 * curve(r, n)), f"그리스 2부(슈퍼리그 2) {season} {r}위 (리그 수준 추정)"
 MODELS["GR1"] = m_gr1; MODELS["GRS2"] = m_grs2
 # 키프로스 1부 2023-24: 같은 회귀(2022-23 5.1·2023-24 3.75·2024-25 2.75), 흩어짐은 작은 리그라 노르웨이 선례 63
 CY_MEAN = {"2023-24": reg_mean([5.1, 3.75, 2.75])}
-def m_cy1(season, r, n): return half_up(CY_MEAN[season] + 63 * curve(r, n)), f"키프로스 1부 {season} {r}위 (추정, 리그 수준 추정)"
-def m_cy2(season, r, n): return half_up(CY_MEAN[season] - 162 + SD2 * curve(r, n)), f"키프로스 2부 {season} {r}위 (추정, 리그 수준 추정)"
+def m_cy1(season, r, n): return half_up(CY_MEAN[season] + 63 * curve(r, n)), f"키프로스 1부 {season} {r}위 (리그 수준 추정)"
+def m_cy2(season, r, n): return half_up(CY_MEAN[season] - 162 + SD2 * curve(r, n)), f"키프로스 2부 {season} {r}위 (리그 수준 추정)"
 MODELS["ZYP1"] = m_cy1; MODELS["1CY2"] = m_cy2
 # 몰타 2부(챌린지 리그) 2026-27: 1부 평균 약 1340(같은 회귀, 계수 약 1.5) − 162 = 1180, 순위 곡선 없이 평평하게(보수적 추정)
-def m_mal2(season, r, n): return 1180, f"몰타 2부(챌린지 리그) {season} {r}위(2026.11.12 현재) (추정, 리그 수준 추정)"
+def m_mal2(season, r, n): return 1180, f"몰타 2부(챌린지 리그) {season} {r}위(2026.11.12 현재) (리그 수준 추정)"
 MODELS["MAL2"] = m_mal2
 def rank_model(lg, season, r, n):
     if lg == "FR1":
@@ -355,7 +368,7 @@ def rank_model(lg, season, r, n):
             return half_up(mean + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위"
     if lg == "TR2":       # 판페르시 자료 선례: 같은 시즌 쉬페르리그 평균 − 162, 2부 흩어짐
         mean = 1479 if season == "2017-18" else tr_mean(int(season[:4]))
-        return half_up(mean - 162 + SD2 * curve(r, n)), f"튀르키예 2부 {season} {r}위 (추정, 리그 수준 추정)"
+        return half_up(mean - 162 + SD2 * curve(r, n)), f"튀르키예 2부 {season} {r}위 (리그 수준 추정)"
     if lg in MODELS:
         f = MODELS[lg]
         res = f(season, r, n)
@@ -406,7 +419,7 @@ r_, n_, _ = RANKS[("NL1", "2008-09")][key("Ajax Amsterdam")]
 man("Ajax Amsterdam", "2008-09", 1677, f"에레디비시 2008-09 {r_}위")
 man("PSV Eindhoven", "2020-21", 1735, "에레디비시 2020-21 2위")
 man("ESA Brive", "2005-06", 1220, "프랑스 4부(CFA) 2005-06 (추정, 다른 선수 자료 프랑스 4부 1220과 같음)")
-man("Trélissac FC", "2009-10", 1150, "프랑스 5부(CFA 2) 2009-10 (추정, 다른 선수 자료 프랑스 5부 1150과 같음)")
+man("Trélissac FC", "2009-10", 1150, "프랑스 5부(CFA2) 2009-10 A조 (추정, 다른 선수 자료의 프랑스 5부 팀 값 1150과 같음)")   # 벤 아르파 판정과 같은 문구
 man("AEL Limassol", "2012-13", 1450, "키프로스 1부 2012-13 5위 (추정, 다른 선수 자료 AEL 2014-15 1450과 같음)")
 man("KAA Gent", "2015-16", 1640, "벨기에 1부 2015-16 2위 (추정, 다른 선수 자료 안데를레흐트 2015-16 1640과 같음)")
 man("SK Sturm Graz", "2017-18", half_up(1471 + 119 * curve(2, 10)), "오스트리아 분데스리가 2017-18 2위 (추정, 다른 선수 자료의 2018-19 리그 평균 1471 사용)")
@@ -417,14 +430,14 @@ man("Neftchi PFK", "2021-22", 1450, "아제르바이잔 1부 2021-22 2위 (추�
 man("Slovan Bratislava", "2021-22", 1450, "슬로바키아 1부 2021-22 1위 (추정, 다른 선수 자료 슬로반 상위권 1450과 같음)")
 man("Slovan Bratislava", "2022-23", 1450, "슬로바키아 1부 2022-23 상위권 (추정, 다른 선수 자료 슬로반 상위권 1450과 같음)")
 e_, lv_ = m_grs2("2021-22", 1, 17)
-man("Levadiakos", "2021-22", e_, "그리스 2부(슈퍼리그 2) 2021-22 남부 조 1위 (추정, 리그 수준 추정)")
+man("Levadiakos", "2021-22", e_, "그리스 2부(슈퍼리그 2) 2021-22 남부 조 1위 (리그 수준 추정)")
 
 E = []
 for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     g = G[gid]; d = ldate(g); cid, rnd = g["competitionId"], g["round"]
     comp = comp_of(cid, rnd); ko = ko_of(cid, rnd)
     elo, lv = opp_elo(opp(g), d, g)
-    et = 1 if (mi > 90 and not dm and g["gameState"] in ("extra_time", "penalty_shootout")) else 0
+    et = 1 if (mi > 90 and (not dm or str(dm).startswith(("105+", "120+"))) and g["gameState"] in ("extra_time", "penalty_shootout")) else 0
     row = [typ, opp(g), elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
     t = tie_of(gid)
     if t: row.append(t)
@@ -443,3 +456,184 @@ if "--debug" in sys.argv:
         if k in seen: continue
         seen.add(k); print(d, o, v)
     sys.exit(0)
+
+# ---------------------------------------------------------------- FotMob 골 대조(2010-11 이후)
+FM_CMP = []
+for gid, evs in EVS.items():
+    if gid not in G or gid not in FME: continue
+    tm = [e for e in evs if e["scorer_id"] == ME and not is_og(e)]
+    fm = [r for r in FME[gid] if r["vb_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(tm) != len(fm):
+        FM_CMP.append(("골 수 다름", gid, ldate(G[gid]), [x["minute"] for x in tm], [x["time"] for x in fm])); continue
+    for t, f in zip(sorted(tm, key=lambda x: mins(x["minute"])[0]), sorted(fm, key=lambda x: int(x["time"]) + int(x["overloadTime"] or 0))):
+        tp = t["goal_desc"] == "Penalty"; fp = "penalty" in (f["goalDescriptionKey"] or "").lower() or "pen" in (f["suffix"] or "").lower()
+        a = mins(t["minute"])[0]; b = int(f["time"]) + int(f["overloadTime"] or 0)
+        if tp != fp or abs(a - b) > 1 or t["score_home_away_after"] != f["newScore_home_away"]:
+            FM_CMP.append(("다름", gid, ldate(G[gid]), t["minute"], t["score_home_away_after"], t["goal_desc"], f["time"], f["overloadTime"], f["newScore_home_away"], f["goalDescriptionKey"]))
+
+# ---------------------------------------------------------------- 같은 경기 다른 선수 자료 대조(수정 없음)
+def cmp_rows(a, b):
+    d = []
+    if abs(a[4] - b[4]) > 2: d.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): d.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: d.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: d.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: d.append(f"lv {a[12]}/{b[12]}")
+    if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None): d.append("단판/합산")
+    if a[10] != b[10]: d.append("연장")
+    return d
+CROSS = []
+for b, (oe, om) in OTHERS.items():
+    for x in oe:     # 다른 선수 도움 → 발부에나 골
+        if x[0] == "a" and "Valbuena" in str(x[13]):
+            hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
+            CROSS.append(("타인 도움(발부에나 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    for r in E:      # 발부에나 도움 → 다른 선수 골
+        if r[0] == "a":
+            hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and (key(x[1]) == key(r[1]) or toks(x[1]) & toks(r[1]))]
+            if hit: CROSS.append(("발부에나 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+    for r in E:
+        for x in oe:
+            if x[9] == r[9] and (key(x[1]) == key(r[1]) or toks(x[1]) & toks(r[1])):
+                dd = [t for t in cmp_rows(r, x) if t.startswith(("Elo", "lv", "대회"))]
+                if dd: CROSS.append(("같은 경기 Elo/lv/대회 다름", b, r[9], r[1], dd))
+                break
+    for m in M:
+        for mm in om:
+            if mm[0] == m[0] and (key(mm[1]) == key(m[1]) or toks(mm[1]) & toks(m[1])) and mm[2] != m[2]:
+                CROSS.append(("같은 경기 출전 행 대회 코드 다름", b, m[0], m[1], mm[1], mm[2], m[2]))
+# 동료 이름(파예·라카제트)의 골에 TM 발부에나 도움이 있는데 그 선수 파일에 골 행이 없는 경우
+MATE = {"pay.js": "Dimitri Payet", "lac.js": "Alexandre Lacazette"}
+for b, nm in MATE.items():
+    oe, om = OTHERS[b]
+    for gid, evs in EVS.items():
+        if gid not in G: continue
+        for e in evs:
+            if e["scorer"] == nm and e["assist_id"] == ME and not is_og(e):
+                d = ldate(G[gid]); mi = mins(e["minute"])[0]
+                if not [x for x in oe if x[0] == "g" and x[9] == d and abs(x[4] - mi) <= 2]:
+                    CROSS.append((f"{nm} 골(발부에나 도움)이 {b}에 없음", d, e["minute"], opp(G[gid])))
+            if e["scorer_id"] == ME and e["assist_player"] == nm:
+                d = ldate(G[gid]); mi = mins(e["minute"])[0]
+                if not [x for x in oe if x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2]:
+                    CROSS.append((f"{nm} 도움(발부에나 골)이 {b}에 없음", d, e["minute"], opp(G[gid])))
+_seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("libvb", "2006-07-01", "리부른", "2004~2006"), ("omvb", "2014-08-02", "마르세유", "2006~2014"),
+         ("dynvb", "2015-08-11", "디나모 모스크바", "2014~2015"), ("lyovb", "2017-07-01", "리옹", "2015~2017"),
+         ("fenvb", "2019-07-01", "페네르바체", "2017~2019"), ("olyvb", "2023-07-23", "올림피아코스", "2019~2023"),
+         ("apovb", "2024-08-05", "아폴론 리마솔", "2023~2024"), ("kalvb", "2025-08-11", "아테네 칼리테아", "2024~2025"),
+         ("slcvb", None, "산타 루치아", "2026~")]
+TM_CLUB = {"2968": "libvb", "244": "omvb", "121": "dynvb", "1041": "lyovb", "36": "fenvb", "683": "olyvb", "429": "apovb", "3062": "kalvb", "37653": "slcvb"}
+def club_of(d):
+    for k, u, n, y in CLUBS:
+        if u is None or d < u: return k
+CN = {k: n for k, u, n, y in CLUBS}; CY = {k: y for k, u, n, y in CLUBS}
+for g in GAMES:
+    if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E if r[0] == "g")
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return f"{v[0]}·{v[1]}·{v[2]}"
+EX = [j for j in judg if j[0] == "도움 제외"]
+UNTYPED = sum(1 for r in raw_rows if r[0] == "a" and not r[8])
+MAN_USED = sorted({(o, v[1], v[2]) for (o, d), v in ELO_LOG.items() if v[0] == "man"}, key=lambda t: t[0])
+def season_of(d, club):
+    y = int(d[:4])
+    if club == "olyvb" and "2020-07-01" <= d <= "2020-09-12": return "2019-20"
+    if club in ("omvb", "dynvb", "lyovb", "fenvb", "olyvb"): s = y if d[5:] >= "07-10" else y - 1
+    else: s = y if int(d[5:7]) >= 8 else y - 1
+    return f"{s}-{str(s + 1)[2:]}"
+if "--stat" in sys.argv:
+    for k, v in ST.items(): print(k, v)
+    print(NG, NGo, NA, NPK, MIN_TOT, len(E), NTIE, NTIEG, dict(ELO_SRC))
+    print("FM 골 대조", FM_CMP)
+    print("FM만 도움", FM_ONLY)
+    for c in CROSS: print(c)
+    for j in judg: print(j)
+    print(collections.Counter(season_of(m[0], club_of(m[0])) for m in M))
+    print("보간", sorted(INTERP_USED))
+    print("score mismatch", SCORE_MISMATCH)
+    sys.exit(0)
+
+# ---------------------------------------------------------------- 설명(NOTE)
+SRC = ELO_SRC
+first, last = M[0], M[-1]
+EXC = {"상대 자책골 유도": 0, "슈팅 리바운드('Shot on goal')": 0, "PK 유도": 0}
+for j in EX: EXC[j[5]] += 1
+def ex_list(why): return ", ".join(f"{d_(j[1])} {j[2]}전 {j[3]}분 {j[4]}" for j in EX if j[5] == why)
+UNC = "; ".join(f"{d_(u[0])} {u[1]}전 {u[2]}분 {u[3]}" for u in unconf)
+NOTE_LINES = [
+    f"마티외 발부에나(리부른·마르세유·디나모 모스크바·리옹·페네르바체·올림피아코스·아폴론 리마솔·아테네 칼리테아·산타 루치아)의 클럽 공식 경기 {NG}경기({d_(first[0])} US 루아전 ~ {d_(last[0])} 타르시엔 레인보스전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·프랑스 대표팀·올림피아코스 B(2군, 그리스 2부 11경기 3골) 제외",
+    "클럽별 경기·골·도움: " + ", ".join(f"{CN[k]} {c3(v)}" for k, v in ST.items()) + f". 출전 분 합계 {MIN_TOT:,}분",
+    "출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트(골·도움이 있거나 리그 밖 대회인 모든 경기; 리포트 골·도움 수가 선수 경기 성적과 경기마다 같음). 2010-11부터는 FotMob 경기 기록과 대조함(골 수·골 뒤 스코어·PK 모두 같고, 분만 다른 골 6개 — 2015.3.8 우파전 20분(FotMob 18분), 2017.9.17 알라니아스포르전 45분(45+2분), 2019.4.27 트라브존스포르전 90+6분(90분), 2021.1.3 AEK전 90+4분(90분), 2023.12.8 오텔로스전 48분(54분), 2024.1.6 AEL전 48분(51분) — 은 Transfermarkt 분을 씀)",
+    "리부른(프랑스 3부 나시오날 2004~2006): Transfermarkt에는 58경기 11골 0도움(리그 55경기·쿠프 드 프랑스 3경기)만 있음. 프랑스어 위키백과 표는 60경기 14골 8도움(쿠프 드 프랑스 경기·골이 더 많음)이나 경기별 날짜·출전·골 시각 자료가 없어 넣지 않음. 리부른 경기 리포트는 골 경기와 컵 경기만 있고, 2005.11.19 쿠프 드 프랑스 브리브전(1-2 패) 리포트에는 발부에나 28분 골만 있어 골 전 스코어는 하프타임 0-1 기준 0-0으로 씀",
+    "출전 분: Transfermarkt 그대로(퇴장·연장 반영). 영어 위키백과와 비교하면 마르세유 2006-07 리그 15경기(Transfermarkt 14), 아폴론·칼리테아 컵 각 2경기(Transfermarkt 3)만 다름 → Transfermarkt를 씀. 2018 튀르키예컵 준결승 2차전 베식타시전은 2018.4.19 57분 0-0에서 관중 소요로 중단되고 5.3 재개 경기에 베식타시가 나오지 않아 페네르바체 3-0 몰수승이 된 경기로, Transfermarkt는 5.3 날짜·출전 11분으로 적었으나 실제로 뛴 날짜인 4.19로 적음(출전 11분, 골 없음)",
+    f"도움: 2014년 8월 이전(리부른·마르세유)은 Transfermarkt 경기 리포트 단일 출처(클로제·인시녜 선례). Transfermarkt 도움 165개에서 상대 자책골에 준 도움 {EXC['상대 자책골 유도']}개({ex_list('상대 자책골 유도')}), 슈팅 리바운드('Shot on goal') {EXC[chr(39).join(['슈팅 리바운드(', 'Shot on goal', ')'])]}개({ex_list(chr(39).join(['슈팅 리바운드(', 'Shot on goal', ')']))}), PK 유도 {EXC['PK 유도']}개({ex_list('PK 유도')})를 뺌. 본인이 얻어 본인이 넣은 PK 골에 본인을 도움으로 적은 2개(2019.9.18 토트넘전 54분, 2021.1.3 AEK전 90+4분)는 도움이 아님. 도움 유형 칸이 빈 {UNTYPED}개는 일반 도움으로 셈",
+    f"2014년 8월 이후 도움은 Transfermarkt와 FotMob 경기 기록이 함께 적은 것만 넣고, 한쪽에만 있는 것은 경기 기사 등 다른 출처 2곳이 확인한 것만 넣음. 확인되어 넣은 것: 2017.1.8 쿠프 드 프랑스 몽펠리에전 4분 라카제트 골(발부에나의 짧은 프리킥, Maxifoot·Lyon Mag), 2017.9.9 바샥셰히르전 78분 슈크르텔 헤더(발부에나 코너킥, TRT Haber·Gzt). 확인하지 못해 뺀 Transfermarkt 도움 {len(unconf)}개: {UNC}. 키프로스(아폴론) 경기는 FotMob이 도움을 하나도 적지 않아 Transfermarkt 도움 5개가 모두 빠짐. FotMob에만 있는 2021.8.26 슬로반 브라티슬라바전 54분 오니에쿠루 골 도움(Sporting Life는 부할라키스 도움으로 적음)과 FotMob 선수 경기 목록에만 있는 2021.4.21 아스테라스전 도움(기사로는 발부에나 코너킥 뒤 다른 선수 헤더 패스)은 넣지 않음. 프랑스어 위키백과·FotMob 경력 합계의 클럽별 도움 수는 쓰지 않음",
+    f"골: 자책골 없음. PK 골 {NPK}개는 Transfermarkt 골 유형 'Penalty'(FotMob과 같음)",
+    "날짜: Transfermarkt 경기 날짜(현지)",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(파예·라카제트 등), 같은 팀·같은 시즌 다른 선수 자료 값, 직접 추정, 그 시즌 순위(Transfermarkt 순위표)를 리그 모형에 넣은 값 순으로 씀(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['기존 팀×시즌 값']}, 순위표+모형 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",
+    "리그 모형: 리그1은 기존 선수 자료의 순위값(빈 순위는 앞뒤 값의 가운데, 2010-11 1위 릴은 가장 가까운 순위값에 순위 곡선 차이를 더한 추정), 프랑스 3부(나시오날)는 리베리 자료와 같은 1311 + 2부 흩어짐 × 순위 곡선(추정), 러시아는 에투 자료의 평균 1520·흩어짐 55(2019-20은 크바라츠헬리아 자료 순위값에 맞춘 평균 1430·흩어짐 63), 튀르키예 2017-18은 2016-17 리그 수준(에투 자료), 2018-19·2019-20은 국가 계수 회귀(팔카오 자료와 같은 식, 2017-18 계수 6.8), 튀르키예 2부는 1부 평균 − 162(판페르시 선례)",
+    f"그리스 슈퍼리그(모두 '리그 수준 추정'): 기존 모형이 없어 튀르키예·우크라이나와 같은 국가 계수 회귀(리그 평균 = 1473 + 23.33 × (앞뒤 3시즌 UEFA 국가 계수 평균 − 7.333), 흩어짐 119, 14팀 순위 곡선)에 그리스 보정 {GR_K:+.0f}점을 더함. 보정값은 통합표에 이미 있던 같은 시기 그리스 팀 값 3개(올림피아코스 2019-20 1위 1680·2020-21 1위 1690, PAOK 2021-22 2위 1590)와 회귀 값의 평균 차. 국가 계수(UAF·football-coefficient.eu): 2018-19 5.1, 2019-20 4.9, 2020-21 5.1, 2021-22 8.0, 2022-23 2.125, 2023-24 11.4, 2024-25 12.688(2024-25는 2025-26이 끝나지 않아 앞 세 시즌 평균). 보정 뒤 리그 평균: 2019-20 {gr_mean('2019-20'):.0f}, 2020-21 {gr_mean('2020-21'):.0f}, 2021-22 {gr_mean('2021-22'):.0f}, 2022-23 {gr_mean('2022-23'):.0f}, 2024-25 {gr_mean('2024-25'):.0f}. 순위는 Transfermarkt 순위표(26라운드 정규 시즌 순서)이고 확인된 최종 순위만 고침(AEK 2022-23 우승, 파나티나이코스 2024-25 2위), 플레이오프·플레이아웃 뒤 최종 순위와 다를 수 있음. 그리스 2부(슈퍼리그 2)는 1부 평균 − 162, 2부 흩어짐(레바디아코스 2021-22 남부 조 1위)",
+    f"키프로스 1부 2023-24(추정): 같은 회귀(2022-23 5.1·2023-24 3.75·2024-25 2.75)로 평균 {CY_MEAN['2023-24']:.0f}, 흩어짐은 작은 리그라 노르웨이 선례 63. 몰타 2부(챌린지 리그) 2026-27(추정, 근거 약함): 몰타 1부 평균 약 1340(같은 회귀, 국가 계수 약 1.5)에서 162를 뺀 1180, 순위 곡선 없이 평평하게 둠(2026.11.8 타르시엔 레인보스전 골 1개에만 쓰임)",
+    "직접 추정(모두 다른 선수 자료의 같은 팀·같은 리그 값에 맞춤): " + ", ".join(f"{o} {e}" for o, e, lv in MAN_USED),
+    "대회 비중: 그리스 슈퍼리그 플레이오프·플레이아웃과 키프로스 2단계 리그는 리그(벨기에 플레이오프 선례). 쿠프 드 프랑스·쿠프 드 라 리그·튀르키예컵·그리스컵·키프로스컵은 국내컵(16강까지·8강·준결승·결승), 트로페 데 샹피옹은 국내컵 결승 비중. 인터토토컵은 유로파 예선, UEFA컵 3라운드·16강·8강과 유로파 32강·16강·8강은 유로파 토너먼트",
+    f"두 경기 합산 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함. UEFA 대회 2020-21까지 원정 다득점·연장(2021-22부터 원정 다득점 없음), 튀르키예컵 2020-21까지 원정 다득점·연장. 그리스컵 2019-20~2022-23 두 경기 라운드는 원정 다득점(연장 원정골 포함)·연장으로 둠(2019-20 16강 파나이톨리코스-파니오니오스 연장 원정골 진출, 2021-22 준결승 올림피아코스-PAOK 1-1 연장 뒤 PAOK 원정골 진출 기사, 2022-23 대회 문서 사본). 못 뛴 차전 스코어는 Transfermarkt 리포트",
+    "시즌 구분: 마르세유·디나모 모스크바·리옹·페네르바체는 7월 10일 기준(2006.7.15 인터토토컵·2015.7 러시아 리그 개막·2017.7.27 유로파 예선은 새 시즌; 파예 마르세유·라카제트 리옹·판페르시 페네르바체 선례), 올림피아코스도 7월 10일 기준이되 2020.7.1~9.12(코로나로 늦게 끝난 2019-20 플레이오프·유로파 16강·그리스컵 결승)는 2019-20, 리부른·아폴론·칼리테아·산타 루치아는 8월 1일 기준. 클럽 구분: 2006.7.1 전 리부른, 2014.8.2 전 마르세유, 2015.8.11 전 디나모, 2017.7.1 전 리옹, 2019.7.1 전 페네르바체, 2023.7.23 전 올림피아코스, 2024.8.5 전 아폴론, 2025.8.11 전 칼리테아, 이후 산타 루치아(Transfermarkt 이적 기록, 경기 클럽과 경계 불일치 0)",
+    "같은 경기 동료 자료: 파예(마르세유 2013-14) 골에 준 도움 2개(2013.8.17 에비앙전 67분, 2014.2.2 툴루즈전 7분)와 라카제트(리옹 2015~2017) 골에 준 도움 3개(2017.1.8 몽펠리에전 4분, 2017.3.9 로마전 90+2분, 2017.5.14 몽펠리에전 90+5분)는 날짜·분·골 전 스코어·대회·상대 Elo·수준 설명이 모두 같음. 2016.1.20 샹블리전 발부에나 22분 골의 라카제트 도움(Transfermarkt)은 FotMob에 없어 라카제트 자료에 없음",
+    "우승 커리어: Transfermarkt 업적 페이지 기준(리그1 2009-10, 그리스 리그 2019-20·2020-21·2021-22, 그리스컵 2019-20, 쿠프 드 라 리그 2009-10·2010-11·2011-12, 트로페 데 샹피옹 2010·2011, 인터토토컵 2006). 개인 수상 없음. 대표팀 기록은 뺌",
+    f"2026.11.12 갱신: 현역(산타 루치아, 몰타 2부 챌린지 리그, 2026.7.27 입단). 2026-27 시즌 6경기 1골(Transfermarkt 2026.11.8 경기까지, FotMob에는 산타 루치아 경기 없음)",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "elk", "elq", "cwc", "MAN", "csa", "lib", "ADD_A"]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6], r[13])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gl = sorted([r for r in rs if r[0] == "g"], key=lambda r: (r[5] + r[6], r[4]))
+    for a, b in zip(gl, gl[1:]):
+        if b[5] < a[5] + 1 or b[6] < a[6]: problems.append(("스코어 역순", d, a[4], b[4]))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 두 경기", d))
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900 or r[2] > 2200: problems.append(("Elo 범위", r))
+mm_ = {m[0]: m for m in M}
+Gstart = {ldate(g): g["isStarting"] == "True" for g in GAMES}
+for r in E:
+    m = mm_.get(r[9])
+    if m and (m[1] != r[1] or m[2] != r[3]): problems.append(("상대/대회 다름", r[9], r[1], m[1], r[3], m[2]))
+    if m and r[4] > m[3] + 3 and not r[10] and Gstart[r[9]]: problems.append(("출전 분보다 늦은 기록(선발)", r[9], r[1], r[4], m[3]))
+for m in M:
+    if not (0 < m[3] <= 125): problems.append(("출전 분 범위", m))
+
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__":
+    open(OUT_JS, "w", encoding="utf-8").write(f"const VAB_E={J(E)};\nconst VAB_M={J(M)};\nconst VAB_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "unconfirmed_assists": unconf,
+               "fotmob_only_assists": FM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
+               "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)}")
+    for k, v in ST.items(): print(" ", k, v)
+    print("점검 문제", len(problems))
+    for p_ in problems: print("  ", p_)
