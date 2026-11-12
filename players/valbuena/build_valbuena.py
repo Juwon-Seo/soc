@@ -297,7 +297,7 @@ def eu(d):
     return f"{s}-{str(s + 1)[2:]}"
 
 # 튀르키예 1부: 2017-18은 2016-17 리그 수준(평균 1479, 에투 자료 선례), 2018-19는 팔카오·메르턴스 자료의 회귀식
-TR_COEF = {2017: 6.8, 2018: 5.5, 2019: 5.0}     # 2017-18 6.8: 위키백과(Turkish football clubs in European competitions) 시즌별 계수
+TR_COEF = {2017: 6.8, 2018: 5.5, 2019: 5.0, 2020: 3.1}     # 2017-18 6.8: 위키백과(Turkish football clubs in European competitions) 시즌별 계수
 def tr_mean(start):
     c = sum(TR_COEF[y] for y in (start - 1, start, start + 1)) / 3
     return 1473 + 23.33 * (c - 7.3333)
@@ -341,13 +341,21 @@ def rank_model(lg, season, r, n):
         return v, f"리그2 {season} {r}위"
     if lg == "FR3":       # 리베리 자료의 나시오날 순위값과 같은 식(1311 + 2부 흩어짐 × 순위 곡선)
         return half_up(1311 + SD2 * curve(r, n)), f"프랑스 3부(나시오날) {season} {r}위 (추정)"
+    if lg == "RU1" and season == "2019-20":   # 크바라츠헬리아 자료의 2019-20 순위값(11위 1399·12위 1392·13위 1380·16위 1344)에 맞는 평균 1430.3·흩어짐 63
+        return half_up(1430.3 + 63 * curve(r, n)), f"러시아 프리미어리그 {season} {r}위 (리그 수준 추정)"
     if lg == "RU1":       # 에투 자료의 러시아 모형(평균 1520·흩어짐 55)
         return half_up(1520 + 55 * curve(r, n)), f"러시아 프리미어리그 {season} {r}위 (리그 수준 추정)"
     if lg == "TR1":
+        m = ents_map("쉬페르리그", season)
+        if r in m: return m[r], f"쉬페르리그 {season} {r}위"
         if season == "2017-18":
             return half_up(1479 + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위 (추정, 2016-17 리그 수준 사용)"
-        if season == "2018-19":
-            return half_up(tr_mean(2018) + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위"
+        if season in ("2012-13", "2018-19", "2019-20"):
+            mean = 1473 if season == "2012-13" else tr_mean(int(season[:4]))
+            return half_up(mean + 119 * curve(r, n)), f"쉬페르리그 {season} {r}위"
+    if lg == "TR2":       # 판페르시 자료 선례: 같은 시즌 쉬페르리그 평균 − 162, 2부 흩어짐
+        mean = 1479 if season == "2017-18" else tr_mean(int(season[:4]))
+        return half_up(mean - 162 + SD2 * curve(r, n)), f"튀르키예 2부 {season} {r}위 (추정, 리그 수준 추정)"
     if lg in MODELS:
         f = MODELS[lg]
         res = f(season, r, n)
@@ -386,6 +394,31 @@ def opp_elo(o, d, g):
                 MISS.append((o, d, cid, s, f"{lg} {r}/{n} 모형 없음")); return 0, "?"
     MISS.append((o, d, cid, s, "")); return 0, "?"
 
+# 순위표 리그가 클럽 리그와 다른 상대(유럽 대회·국내 컵): 순위표 + 리그 모형을 직접 지정
+XLG = {("Eskisehirspor", "2012-13"): "TR1", ("Fenerbahce", "2012-13"): "TR1", ("Basaksehir FK", "2019-20"): "TR1",
+       ("FC Krasnodar", "2019-20"): "RU1", ("Adana Demirspor", "2017-18"): "TR2"}
+for (o, s_), lg in XLG.items():
+    r, n, _ = RANKS[(lg, s_)][key(o)]
+    e, lv = rank_model(lg, s_, r, n); man(o, s_, e, lv)
+r_, n_, _ = RANKS[("RU1", "2010")][key("Spartak Moscow")]
+man("Spartak Moscow", "2010-11", half_up(1520 + 55 * curve(r_, n_)), f"러시아 프리미어리그 2010 {r_}위 (리그 수준 추정)")
+r_, n_, _ = RANKS[("NL1", "2008-09")][key("Ajax Amsterdam")]
+man("Ajax Amsterdam", "2008-09", 1677, f"에레디비시 2008-09 {r_}위")
+man("PSV Eindhoven", "2020-21", 1735, "에레디비시 2020-21 2위")
+man("ESA Brive", "2005-06", 1220, "프랑스 4부(CFA) 2005-06 (추정, 다른 선수 자료 프랑스 4부 1220과 같음)")
+man("Trélissac FC", "2009-10", 1150, "프랑스 5부(CFA 2) 2009-10 (추정, 다른 선수 자료 프랑스 5부 1150과 같음)")
+man("AEL Limassol", "2012-13", 1450, "키프로스 1부 2012-13 5위 (추정, 다른 선수 자료 AEL 2014-15 1450과 같음)")
+man("KAA Gent", "2015-16", 1640, "벨기에 1부 2015-16 2위 (추정, 다른 선수 자료 안데를레흐트 2015-16 1640과 같음)")
+man("SK Sturm Graz", "2017-18", half_up(1471 + 119 * curve(2, 10)), "오스트리아 분데스리가 2017-18 2위 (추정, 다른 선수 자료의 2018-19 리그 평균 1471 사용)")
+man("RSC Anderlecht", "2018-19", 1640, "벨기에 1부 2018-19 4위 (추정, 다른 선수 자료 안데를레흐트 2014-15·2015-16 1640과 같음)")
+man("FC Viktoria Plzen", "2019-20", 1560, "체코 1부 2019-20 2위 (추정, 다른 선수 자료 플젠 2018-19 2위 1560과 같음)")
+man("Omonia Nicosia", "2020-21", 1520, "키프로스 1부 2020-21 1위 (추정, 다른 선수 자료 아포엘 2017-18 1위 1520과 같음)")
+man("Neftchi PFK", "2021-22", 1450, "아제르바이잔 1부 2021-22 2위 (추정, 다른 선수 자료 카라바흐 2010-11 3위 1450과 같음)")
+man("Slovan Bratislava", "2021-22", 1450, "슬로바키아 1부 2021-22 1위 (추정, 다른 선수 자료 슬로반 상위권 1450과 같음)")
+man("Slovan Bratislava", "2022-23", 1450, "슬로바키아 1부 2022-23 상위권 (추정, 다른 선수 자료 슬로반 상위권 1450과 같음)")
+e_, lv_ = m_grs2("2021-22", 1, 17)
+man("Levadiakos", "2021-22", e_, "그리스 2부(슈퍼리그 2) 2021-22 남부 조 1위 (추정, 리그 수준 추정)")
+
 E = []
 for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     g = G[gid]; d = ldate(g); cid, rnd = g["competitionId"], g["round"]
@@ -401,3 +434,12 @@ E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+"))
 if MISS:
     for x in sorted(set(MISS), key=lambda x: x[1]): print("Elo 없음:", x)
     if "--force" not in sys.argv: sys.exit(1)
+
+if "--debug" in sys.argv:
+    print(ELO_SRC)
+    seen = set()
+    for (o, d), v in sorted(ELO_LOG.items(), key=lambda kv: kv[0][1]):
+        k = (o, v[1], v[2])
+        if k in seen: continue
+        seen.add(k); print(d, o, v)
+    sys.exit(0)
