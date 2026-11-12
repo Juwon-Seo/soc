@@ -52,8 +52,10 @@ ADD_CONFIRMED = {
     "3048419|120+1": "2018.8.20 퓌르트전 연장 로이스 결승골: AFP 계열 기사('low right-wing cross from Jadon Sancho')와 다른 기사('Sancho ... cutting the ball back to Reus')",
     "3058521|76": "2018.11.24 마인츠전 피슈체크 골: BVB 공식 기록('Piszczek (Sancho, 76)')·Sportsmole 라이브·경기 기사('Sancho lay the ball to Piszczek')",
     "3203460|83": "2019.9.14 레버쿠젠전 게레이루 골: BVB 공식 기록('Guerreiro (Sancho, 83)')·AFP 계열 기사·Sky Italia 기사. 반대: Sky Sports 라인업 페이지는 도움 없음",
-    "3404450|58": "2020.9.14 뒤스부르크전 로이스 골: worldfootball식 기록('Marco Reus 58. (Jadon Sancho)')·BVB/독일 기사('Sancho-Flanke')",
+    "3404450|58": "2020.9.14 뒤스부르크전 로이스 골: 득점 목록('Marco Reus 58. left-footed shot (Jadon Sancho)', 검색 요약, 사이트 미확인)과 독일 보도('Reus ... following a Sancho cross', 검색 요약). TM 도움 유형은 프리킥",
 }
+# 분 보정: TM이 정각 90으로 적었으나 FotMob이 추가시간(90+4)으로 적은 도움 -> FotMob 추가시간 표기(인시녜·팔카오 선례)
+MIN_FIX = {"3203449|90": (94, "90+4")}   # 2019.8.23 쾰른전 알카세르 골(TM 90, FotMob 90+4)
 # FotMob에만 있는 도움(넣지 않음): gameId -> 이유 (없음 기대)
 FM_ONLY_EXCL = {}
 
@@ -231,6 +233,8 @@ def add_row(typ, mi, dm, gf, ga, pk, note, tie, comp, ko, d, opp, cid):
         missing_elo.add((opp, season_eu(d), cid)); res = (0, "?")
     elo, lv = res
     et = int(mi > 90 and not dm and G_BY_DATE[d]["gameState"] in ("extra_time", "penalty_shootout"))   # 연장 골
+    if dm and str(dm).startswith("120+"):   # 연장 후반 추가시간(퓌르트 120+1): 같은 경기 로이스 자료와 같게 et 1·dm 없음(화면은 같음)
+        et, dm = 1, 0
     row = [typ, opp, elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
     if tie: row.append(tie)
     rows.append(row)
@@ -249,6 +253,7 @@ for e in EVENTS:
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
     mi, dm = minute(e["minute"])
+    if f"{gid}|{e['minute']}" in MIN_FIX: mi, dm = MIN_FIX[f"{gid}|{e['minute']}"]
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     d = g["date_local"]; opp = g["opponent"].strip()

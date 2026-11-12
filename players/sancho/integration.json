@@ -1,0 +1,27 @@
+{
+ "preset": "sancho",
+ "name": "제이든 산초",
+ "prefix": "SCH",
+ "clubs": [
+  {"key": "bvbsa", "name": "보루시아 도르트문트", "short": "도르트문트", "years": "2017~2021", "until": "2021-08-01"},
+  {"key": "munsa", "name": "맨체스터 유나이티드", "short": "맨유", "years": "2021~2024", "until": "2024-01-11"},
+  {"key": "bvbsa", "name": "보루시아 도르트문트", "short": "도르트문트", "years": "2024 (임대)", "until": "2024-07-01"},
+  {"key": "munsa", "name": "맨체스터 유나이티드", "short": "맨유", "years": "2024", "until": "2024-09-01"},
+  {"key": "chesa", "name": "첼시 (임대)", "short": "첼시", "years": "2024~2025", "until": "2025-09-01"},
+  {"key": "avlsa", "name": "애스턴 빌라 (임대)", "short": "애스턴 빌라", "years": "2025~2026", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["bvbsa"]},
+ "pos": "RW",
+ "flag": "ENG",
+ "retired": false,
+ "hon": {
+  "t": {
+   "UEL": ["25/26 애스턴 빌라"],
+   "DC": ["20/21 도르트문트"],
+   "LC": ["2023 맨유"],
+   "SC": ["19/20 도르트문트"]
+  },
+  "o": [["컨퍼런스리그 우승", "24/25 첼시"], ["UCL 준우승", "23/24 도르트문트"]],
+  "a": {"VDV": ["18/19"], "TOP": ["20/21 DFB-포칼 6골", "18/19 분데스리가 도움 1위 (TM 'Best assist provider')"]}
+ }
+}
