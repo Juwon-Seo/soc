@@ -347,7 +347,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.152</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.153</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -502,7 +502,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
       <section id="honSec">
         <h2>우승 커리어와 개인수상 <span class="honwho" id="honWho"></span></h2>
         <div id="honBox"></div>
-        <ul class="hint notes" id="honNotes"><li><b>출처</b> Transfermarkt 선수별 '업적(Titles &amp; achievements)' 페이지(2026.11.4 수집). 다른 출처와 전수 대조하지는 않았고, 챔피언스리그·리그 우승 횟수 같은 큰 숫자만 알려진 기록과 맞춰 봄</li><li><b>포함</b> 클럽 소속으로 딴 우승(리그·국내컵·리그컵·슈퍼컵·UEFA 대회·클럽 월드컵·남미/북중미 대회)과 개인상. 우승 횟수는 그 시즌 소속이었으면 출전이 적어도 Transfermarkt가 넣은 대로 셈(예: 살라 2014-15 첼시 리그 우승)</li><li><b>뺀 것</b> 대표팀 우승·수상(월드컵·유로·코파·아프리카 네이션스컵·네이션스리그·올림픽 등), 유스 대회, 대표팀 대회 득점왕, 'TM 시즌 선수'(Transfermarkt 자체 선정)</li><li><b>없는 것</b> 이달의 선수·시즌 베스트 11(올해의 팀)은 Transfermarkt 업적 페이지에 항목이 없어 넣지 못함. Transfermarkt 목록에 없는 대회(예: 호날두 2023 아랍 클럽 챔피언스컵)도 빠져 있음</li><li><b>준우승</b> 준우승은 '준우승 (합계 제외)' 줄에 따로 보이고 클럽 우승 합계에 넣지 않음</li><li><b>시즌 표기</b> 클럽 월드컵·슈퍼컵처럼 해가 바뀌는 대회는 시즌으로 적음(예: 09/10 = 2009년 12월 클럽 월드컵, 18/19 = 2018년 8월 슈퍼컵)</li><li><b>표기</b> '올해의 선수'는 Transfermarkt가 'Player of the Year'로 적은 리그별 선정, '국가별 올해의 선수'는 'Footballer of the Year'(국가·소속팀 기준), 득점왕은 대회별(공동 포함)이며 괄호 안 숫자는 Transfermarkt에 적힌 골 수. 이 칸은 위 기간·대회 필터와 관계없이 경력 전체를 보여 줌</li></ul>
+        <ul class="hint notes" id="honNotes"><li><b>출처</b> Transfermarkt 선수별 '업적(Titles &amp; achievements)' 페이지(2026.11.4 수집). 다른 출처와 전수 대조하지는 않았고, 챔피언스리그·리그 우승 횟수 같은 큰 숫자만 알려진 기록과 맞춰 봄</li><li><b>포함</b> 클럽 소속으로 딴 우승(리그·국내컵·리그컵·슈퍼컵·UEFA 대회·클럽 월드컵·남미/북중미 대회)과 개인상. 우승 횟수는 그 시즌 소속이었으면 출전이 적어도 Transfermarkt가 넣은 대로 셈(예: 살라 2014-15 첼시 리그 우승)</li><li><b>뺀 것</b> 대표팀 우승·수상(월드컵·유로·코파·아프리카 네이션스컵·네이션스리그·올림픽 등), 유스 대회, 대표팀 대회 득점왕, 'TM 시즌 선수'(Transfermarkt 자체 선정)</li><li><b>없는 것</b> 이달의 선수·시즌 베스트 11(올해의 팀)은 Transfermarkt 업적 페이지에 항목이 없어 넣지 못함. Transfermarkt 목록에 없는 대회(예: 호날두 2023 아랍 클럽 챔피언스컵)도 빠져 있음</li><li><b>준우승</b> 준우승은 '준우승 (합계 제외)' 줄에 따로 보이고 클럽 우승 합계에 넣지 않음</li><li><b>시즌 표기</b> 클럽 월드컵·슈퍼컵처럼 해가 바뀌는 대회는 시즌으로 적음(예: 09/10 = 2009년 12월 클럽 월드컵, 18/19 = 2018년 8월 슈퍼컵)</li><li><b>표기</b> '올해의 선수'는 Transfermarkt가 'Player of the Year'로 적은 리그별 선정, '국가별 올해의 선수'는 'Footballer of the Year'(국가·소속팀 기준), 득점왕은 대회별(공동 포함)이며 괄호 안 숫자는 Transfermarkt에 적힌 골 수. 도움왕은 Transfermarkt 'Best assist provider'(대회별 도움 1위)로, Transfermarkt가 대회 이름을 적은 경우는 대회, 소속 클럽만 적은 경우는 클럽으로 표시하고 같은 시즌에 두 번이면 대회 두 개(예: 리그와 챔스)에서 1위라는 뜻(대표팀 대회 제외). 이 칸은 위 기간·대회 필터와 관계없이 경력 전체를 보여 줌</li></ul>
       </section>
 
       <section>
@@ -1324,7 +1324,7 @@ $("cmpSortReset").addEventListener("click",()=>{st.cmpSort=null;save();renderCom
 {const _r=render;render=function(){_r.apply(this,arguments);renderCompare()}}
 /* 우승 커리어·개인수상 (Transfermarkt 업적) */
 const HON_T=[["UCL","챔피언스리그"],["UEL","유로파리그"],["USC","UEFA 슈퍼컵"],["CWC","클럽 월드컵·인터콘티넨털컵"],["LG","리그 우승"],["DC","국내컵 우승"],["LC","리그컵 우승"],["SC","국내 슈퍼컵 우승"]];
-const HON_A=[["BDO","발롱도르"],["FIFA","FIFA 더 베스트"],["UEFA","UEFA 올해의 유럽 선수"],["GB","골든보이"],["GBOOT","유러피언 골든슈"],["MVP","MLS MVP"],["POY","리그 올해의 선수"],["AFR","아프리카 올해의 선수"],["FOY","국가별 올해의 선수"],["VDV","VDV 시즌 선수"],["TOP","클럽 대회 득점왕"]];
+const HON_A=[["BDO","발롱도르"],["FIFA","FIFA 더 베스트"],["UEFA","UEFA 올해의 유럽 선수"],["GB","골든보이"],["GBOOT","유러피언 골든슈"],["MVP","MLS MVP"],["POY","리그 올해의 선수"],["AFR","아프리카 올해의 선수"],["FOY","국가별 올해의 선수"],["VDV","VDV 시즌 선수"],["TOP","클럽 대회 득점왕"],["AST","클럽 대회 도움왕"]];
 const HON_GRP={T:1,POY:1,FOY:1,AFR:1,MVP:1};
 function honKey(s){let m=s.match(/^(\d\d)\/(\d\d)$/);if(m){const y=+m[1];return (y>=50?1900:2000)+y}return +s||0}
 function honSplit(it){const i=it.indexOf(" ");return i<0?[it,""]:[it.slice(0,i),it.slice(i+1)]}
@@ -1344,7 +1344,7 @@ function renderHon(){const box=$("honBox");if(!box)return;const pl=cur(),d=pl&&H
   if(oR.length)rowT.push(["준우승 (합계 제외)",oR.length,grpO(oR)])
   HON_A.forEach(([c,l])=>{const it=d.a[c];if(!it||!it.length)return;cnt[c]=it.length;rowA.push([l,it.length,honDetail(c,it,false)])});
   const euro=(cnt.UCL||0)+(cnt.UEL||0)+(cnt.USC||0)+(cnt.CWC||0);
-  const chips=[["클럽 우승 합계",tot],["리그 우승",cnt.LG||0],["챔피언스리그",cnt.UCL||0],["발롱도르",cnt.BDO||0],["득점왕",cnt.TOP||0]].filter(x=>x[1]||x[0]==="클럽 우승 합계");
+  const chips=[["클럽 우승 합계",tot],["리그 우승",cnt.LG||0],["챔피언스리그",cnt.UCL||0],["발롱도르",cnt.BDO||0],["득점왕",cnt.TOP||0],["도움왕",cnt.AST||0]].filter(x=>x[1]||x[0]==="클럽 우승 합계");
   const tbl=rows=>rows.length?`<table class="hon"><tbody>${rows.map(r=>`<tr><td>${esc(r[0])}</td><td>${r[1]}</td><td><div class="hd">${r[2].replace(/&amp;/g,"&").replace(/</g,"&lt;")}</div></td></tr>`).join("")}</tbody></table>`:'<p class="honnone">기록 없음</p>';
   box.innerHTML=`<div class="honchips">${chips.map(([l,n])=>`<span>${l}<b>${n}</b></span>`).join("")}</div><div class="honh">클럽 우승</div>${tbl(rowT)}<div class="honh">개인수상</div>${tbl(rowA)}`}
 {const _r2=render;render=function(){_r2.apply(this,arguments);renderHon()}}
