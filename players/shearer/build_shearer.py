@@ -113,13 +113,12 @@ def tie_of(g):
     home = int(inf["home_id"] == g["club_id"])
     fu = ft = 0
     if leg == 2:
-        t = TIES_RAW[gid]
-        oh, oa = score_pair(t["other_leg_final"])
-        club = inf["home"] if home else inf["away"]
-        if t["other_leg_home"] == club: fu, ft = oh, oa
-        elif t["other_leg_away"] == club: fu, ft = oa, oh
+        o = INFO[TIES_RAW[gid]["other_leg_id"]]          # 다른 차전 리포트(홈 팀 기준 스코어)
+        oh, oa = score_pair(o["final"])
+        if o["home_id"] == g["club_id"]: fu, ft = oh, oa
+        elif o["away_id"] == g["club_id"]: fu, ft = oa, oh
         else: sys.exit("다른 차전 팀 불일치 " + gid)
-        if (t["other_leg_home"] == club) == bool(home): sys.exit("합산 홈 판정 이상 " + gid)
+        if (o["home_id"] == g["club_id"]) == bool(home): sys.exit("합산 홈 판정 이상 " + gid)
     # UEFA 대회(2020-21까지)·인터토토컵(램파드 선례)·리그컵 2라운드(긱스 선례): 원정 다득점·연장
     return [leg, home, fu, ft, 1, 1]
 
