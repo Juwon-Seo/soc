@@ -10,7 +10,7 @@
       raw/tm_two_leg_ties.csv, raw/fotmob_events.csv(FotMob 경기 이벤트), raw/ranks.txt(순위표),
       /home/user/soc/elo/ents.json·opponent_elo_by_team_season.csv·aliases.csv(기존 선수 자료),
       src/data/*.js(같은 경기 동료 자료 대조).
-키에사(players/werner/build_werner.py)를 바탕으로 함. 판정 표(대문자 상수)는 judgments.md에 출처와 함께 적혀 있다.
+베르너(players/werner/build_werner.py)를 바탕으로 함. 판정 표(대문자 상수)는 judgments.md에 출처와 함께 적혀 있다.
 """
 import csv, json, os, re, sys, unicodedata, collections
 from datetime import date as Date
