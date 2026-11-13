@@ -336,10 +336,9 @@ def load_js(fn, P):
     m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
     return json.loads(m.group(1))
 MATES = {"Robert Lewandowski": ("lew.js", "LEW"), "Marco Reus": ("reu.js", "REU"), "Pierre-Emerick Aubameyang": ("aub.js", "AUB"),
-         "Ousmane Dembélé": ("dem.js", "DEM"), "Thomas Müller": ("mul.js", "MUL"), "Arjen Robben": ("rob.js", "ROB"),
-         "Franck Ribéry": ("rib.js", "RIB"), "Kingsley Coman": ("com.js", "COM"), "Erling Haaland": ("haa.js", "HAA")}
+         "Mario Götze": ("got.js", "GOT"), "Ciro Immobile": ("imm.js", "IMM"), "Mario Gómez": ("gom.js", "GOM")}
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
-GOT_NAMES = ("Mario Götze", "Mario Gotze", "Mario Goetze")
+GOT_NAMES = ("Jakub Błaszczykowski", "Jakub Blaszczykowski", "Kuba")
 CROSS = []
 def cmp_rows(a, b):
     diffs = []
@@ -356,35 +355,35 @@ for nm, ent in MATE_E.items():
     for r in E:
         if r[0] == "a" and r[13] == nm:
             hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and key(x[1]) == key(r[1]) and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
-            CROSS.append(("괴체 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+            CROSS.append(("브와슈치코프스키 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
     for x in ent:
         if x[0] == "a" and x[13] in GOT_NAMES:
             hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
-            CROSS.append((nm + " 도움→괴체 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append((nm + " 도움→브와슈치코프스키 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     # TM이 동료 도움으로 적은 괴체 골이 동료 파일에 없는 경우
     for e in EVENTS:
         if e["blaszcz_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
             d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
             if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
-                CROSS.append(("TM 동료 도움→괴체 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
+                CROSS.append(("TM 동료 도움→브와슈치코프스키 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
     # 괴체 도움에서 뺀 TM 도움 중 동료 골 행
     for s in A_STATUS:
         if s[3] == nm and s[5].startswith("제외") or (s[3] == nm and s[5] == "TM단독-미확인"):
             hit = [x for x in ent if x[0] == "g" and x[9] == s[1] and abs(x[4] - minute(s[2])[0]) <= 2]
-            CROSS.append(("괴체 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
+            CROSS.append(("브와슈치코프스키 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
 if __name__ == "__main__" and "--cross" in sys.argv:
     for c in CROSS:
         if c[-1] != "같음": print(c)
     print(collections.Counter((c[0], str(c[-1])[:12]) for c in CROSS))
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("bvbgo", "2013-07-01", "보루시아 도르트문트", "2009~2013"), ("baygo", "2016-07-21", "바이에른 뮌헨", "2013~2016"),
-         ("bvbgo", "2020-10-06", "보루시아 도르트문트", "2016~2020"), ("psvgo", "2022-07-01", "PSV 에인트호번", "2020~2022"),
-         ("sgego", None, "아인트라흐트 프랑크푸르트", "2022~")]
+CLUBS = [("wisbl", "2007-07-01", "비스와 크라쿠프", "2004~2007"), ("bvbbl", "2015-08-31", "보루시아 도르트문트", "2007~2015"),
+         ("fiobl", "2016-08-01", "피오렌티나", "2015~2016"), ("wobbl", "2019-02-07", "볼프스부르크", "2016~2019"),
+         ("wisbl", None, "비스와 크라쿠프", "2019~2023")]
 def club_of(d):
     for k, u, _, _ in CLUBS:
         if u is None or d < u: return k
-TMC = {"16": ["bvbgo"], "27": ["baygo"], "383": ["psvgo"], "24": ["sgego"]}
+TMC = {"422": ["wisbl"], "16": ["bvbbl"], "430": ["fiobl"], "82": ["wobbl"]}
 CLUB_KO = collections.OrderedDict()
 for k, u, n, y in CLUBS: CLUB_KO.setdefault(k, n)
 ST = collections.OrderedDict()
@@ -405,7 +404,7 @@ NPK = sum(r[8] for r in E)
 MIN_TOT = sum(m[3] for m in M)
 NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
 SRC = ELO_SRC
-exec(open(os.path.join(HERE, "note_gotze.py"), encoding="utf-8").read())
+exec(open(os.path.join(HERE, "note_blaszczykowski.py"), encoding="utf-8").read())
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "lv"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
@@ -441,7 +440,7 @@ if problems:
 # ---------------------------------------------------------------- 출력
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__" and len(sys.argv) == 1:
-    open(OUT_JS, "w", encoding="utf-8").write(f"const GOT_E={J(E)};\nconst GOT_M={J(M)};\nconst GOT_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const BLA_E={J(E)};\nconst BLA_M={J(M)};\nconst BLA_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS,
                "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
