@@ -1,0 +1,9 @@
+{"preset":"fekir","name":"나빌 페키르","prefix":"FEK",
+ "clubs":[
+  {"key":"lyofk","name":"올랭피크 리옹","short":"리옹","years":"2013~2019","until":"2019-07-23"},
+  {"key":"betfk","name":"레알 베티스","short":"베티스","years":"2019~2024","until":"2024-08-30"},
+  {"key":"jazfk","name":"알자지라","short":"알자지라","years":"2024~2026","until":"2026-08-06"},
+  {"key":"abhfk","name":"아브하","short":"아브하","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["lyofk"],"jul1":[]},
+ "pos":"AM","flag":"FR","retired":false,
+ "hon":{"t":{"DC":["21/22 베티스"],"LC":["24/25 알자지라"]},"o":[],"a":{}}}
