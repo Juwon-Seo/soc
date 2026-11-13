@@ -135,8 +135,14 @@ with open(os.path.join(ELO, "ents.json"), encoding="utf-8") as f:
     ENTS = [x for x in json.load(f) if x["p"] != ME]
 
 def season_eu(d):
-    y, m = int(d[:4]), int(d[5:7])
-    s = y if m >= 7 else y - 1
+    """계산기 시즌 구분과 같게: 도르트문트(2019.7.1 전)는 7월 10일 기준, 첼시·밀란은 8월 1일 기준이고 2020년 8월은 2019-20"""
+    y = int(d[:4])
+    if d < "2019-07-01":
+        s = y if d[5:] >= "07-10" else y - 1
+    elif d.startswith("2020-08"):
+        s = 2019
+    else:
+        s = y if int(d[5:7]) >= 8 else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
 RANKS = collections.defaultdict(dict)
