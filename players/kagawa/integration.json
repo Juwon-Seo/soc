@@ -1,0 +1,29 @@
+{
+ "preset": "kagawa",
+ "name": "가가와 신지",
+ "prefix": "KAG",
+ "clubs": [
+  {"key": "cerkg", "name": "세레소 오사카", "short": "세레소", "years": "2006~2010", "until": "2010-07-01"},
+  {"key": "bvbkg", "name": "보루시아 도르트문트", "short": "도르트문트", "years": "2010~2012", "until": "2012-07-01"},
+  {"key": "munkg", "name": "맨체스터 유나이티드", "short": "맨유", "years": "2012~2014", "until": "2014-08-31"},
+  {"key": "bvbkg", "name": "보루시아 도르트문트", "short": "도르트문트", "years": "2014~2019", "until": "2019-01-31"},
+  {"key": "bjkkg", "name": "베식타시", "short": "베식타시", "years": "2019", "until": "2019-07-01"},
+  {"key": "zarkg", "name": "레알 사라고사", "short": "사라고사", "years": "2019~2020", "until": "2021-01-27"},
+  {"key": "paokg", "name": "PAOK", "short": "PAOK", "years": "2021", "until": "2022-01-10"},
+  {"key": "stvkg", "name": "신트트라위던", "short": "신트트라위던", "years": "2022", "until": "2023-02-01"},
+  {"key": "cerkg", "name": "세레소 오사카", "short": "세레소", "years": "2023~", "until": null}
+ ],
+ "season": {"calendar": ["cerkg"], "jul10": ["bvbkg", "stvkg"], "jul1": []},
+ "pos": "AM",
+ "flag": "JP",
+ "retired": false,
+ "hon": {
+  "t": {
+   "LG": ["12/13 맨유", "11/12 도르트문트", "10/11 도르트문트"],
+   "DC": ["2021 PAOK", "16/17 도르트문트", "11/12 도르트문트"],
+   "SC": ["13/14 맨유"]
+  },
+  "o": [["DFB-포칼 준우승", "15/16 도르트문트"], ["DFB-포칼 준우승", "14/15 도르트문트"]],
+  "a": {"FOY": ["2012 도르트문트"], "TOP": ["2009 J2리그 27골"]}
+ }
+}
