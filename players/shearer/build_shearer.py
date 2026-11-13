@@ -156,6 +156,11 @@ def season_eu(d):
     s = y if m >= 7 else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
+STRIP = {"fc", "afc", "cf"}
+def core(n):
+    """순위표 이름 맞춤용(‘Scarborough FC (- 2007)’ = ‘Scarborough’, ‘Stevenage Borough FC’ = ‘Stevenage Borough’)"""
+    return " ".join(w for w in key(n).split() if w not in STRIP)
+
 # 순위표: 리그 코드 -> 잉글랜드 단계(1~5부) 또는 외국 리그
 TIER = {"EFD1": 1, "GB1": 1, "EFD2": 2, "GB2": 2, "GB3": 3, "GB4": 4}
 RANKS = collections.defaultdict(dict)      # (tier, season) -> {key: (rank, n, label)}
@@ -169,11 +174,15 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if m: tier = int(m.group(3)); src = "wiki"
         elif lg in TIER: tier = TIER[lg]; src = "tm"
         else: continue
-        k = key(p[4])
+        k = core(p[4])
         RANKS_SRC[(tier, season, k)][src] = (int(p[2]), int(p[3]))
-        if src == "tm" or k not in RANKS[(tier, season)]:
+        if src == "wiki" or k not in RANKS[(tier, season)]:   # 영어 위키백과(공식 최종 순위) 우선, 없으면 Transfermarkt
             RANKS[(tier, season)][k] = (int(p[2]), int(p[3]))
 # 순위 출처 불일치(Transfermarkt 표 vs 영어 위키백과 표)
+# 공식 최종 순위로 고친 것(Transfermarkt 표 오류; judgments.md 6절): (단계, 시즌, 이름) -> 순위
+RANK_FIX = {(2, "1997-98", "Sheffield United"): 6}   # 1997-98 1부(2단계) 6위 = 승격 플레이오프 6번 시드(위키백과 플레이오프 표), TM 7위
+for (tier, s, n), r in RANK_FIX.items():
+    RANKS[(tier, s)][core(n)] = (r, RANKS[(tier, s)][core(n)][1])
 RANK_DIFF = [(k, v) for k, v in RANKS_SRC.items() if len(v) > 1 and len({x[0] for x in v.values()}) > 1]
 
 def half_up(x): return int(x + 0.5)
@@ -181,10 +190,10 @@ def half_up(x): return int(x + 0.5)
 def ents_map(prefix, season=None):
     """기존 선수 자료의 '<prefix> <season> N위' 값(괄호 표시 허용), 다수값. season=None이면 시즌 무관"""
     c = collections.defaultdict(collections.Counter)
-    pat = re.compile("^" + re.escape(prefix) + " " + (re.escape(season) if season else r"\d{4}-\d\d") + r" (\d+)위( \(리그 수준 추정\))?$")
+    pat = re.compile("^" + re.escape(prefix) + r"(\([^)]*\))? " + (re.escape(season) if season else r"\d{4}-\d\d") + r" (\d+)위( \(리그 수준 추정\))?$")
     for e in ENTS:
         m = pat.match(e["lv"] or "")
-        if m: c[int(m.group(1))][e["elo"]] += 1
+        if m: c[int(m.group(2))][e["elo"]] += 1
     return {r: v.most_common(1)[0][0] for r, v in c.items()}
 
 def mid(tab, r):
@@ -250,7 +259,21 @@ def model(tier, season, r, n):
 
 # 직접 추정/별도 확인(모두 judgments.md 6절 근거): (key, 시즌) -> (Elo, lv)
 def _k(n): return key(n)
-MAN = {}
+MAN = {
+    (_k("SC Heerenveen"), "2004-05"): (1624, "에레디비시 2004-05 5위"),
+    (_k("Sporting CP"), "2004-05"): (1716, "포르투갈 1부 2004-05 3위"),
+    (_k("Vålerenga Fotball Elite"), "2003"): (1410, "노르웨이 2003 12위/14팀 (추정, 다른 선수 자료 노르웨이 1999 9위 1430과 하위권 1400 사이)"),
+    (_k("FK Zeljeznicar Sarajevo"), "2002-03"): (1400, "보스니아 2002-03 2위 (추정, 다른 선수 자료 크로아티아 2012-13 4위 1430보다 낮게)"),
+    (_k("Dinamo Tbilisi"), "2004-05"): (1400, "조지아 2004-05 1위 (추정, 다른 선수 자료 조지아 2022 3위 1369·4위 1350보다 높게)"),
+    (_k("Ihud Bnei Sakhnin"), "2004-05"): (1400, "이스라엘 2004-05 10위/12팀 (추정, 다른 선수 자료 이스라엘 8위 1425보다 낮게)"),
+    (_k("Trelleborgs FF"), "1994"): (1350, "스웨덴 1994 10위/14팀 (추정, 다른 선수 자료 할름스타드 1994 7위 1390보다 낮게)"),
+    (_k("Ferencvárosi TC"), "1996-97"): (1430, "헝가리 1996-97 3위 (추정, 다른 선수 자료 헝가리 1·2위 1450보다 조금 낮게)"),
+    (_k("FK Partizan Belgrade"), "1998-99"): (1520, "유고슬라비아 1998-99 1위 (추정, 다른 선수 자료 파르티잔 2008-09·2010-11 1위 1520과 같음)"),
+    (_k("CSKA Sofia"), "1999-00"): (1480, "불가리아 1999-00 2위 (추정, 다른 선수 자료 불가리아 2위 1480과 같음)"),
+    (_k("FC Zürich"), "1999-00"): (1450, "스위스 1999-00 (추정, 다른 선수 자료 취리히 1998-99 1450과 같음)"),
+    (_k("Swindon Town"), "1995-96"): (1611, "리그 원(3부) 1995-96 1위 (추정, 다른 선수 자료 잉글랜드 3부 1999-00 1위 1611과 같음)"),
+    (_k("MFK Dubnica"), "2005-06"): (1330, "슬로바키아 2005-06 8위/10팀 (추정, 다른 선수 자료 슬로바키아 1부 하위권 1330과 같음)"),
+}
 
 ELO_SRC = collections.Counter()
 ELO_LOG = []
@@ -279,10 +302,11 @@ def opp_elo(opp, d, cid):
         if (k, s) in MAN:
             e, lv = MAN[(k, s)]; ELO_SRC["직접 추정"] += 1; ELO_LOG.append((d, opp, e, lv, "man"))
             return e, lv
+    ck = core(opp)
     for tier in (1, 2, 3, 4, 5):
         t = RANKS.get((tier, eu))
-        if t and k in t:
-            r, n = t[k]
+        if t and ck in t:
+            r, n = t[ck]
             res = model(tier, eu, r, n)
             if res:
                 ELO_SRC["순위표+리그 모형"] += 1; ELO_LOG.append((d, opp, res[0], res[1], f"model t{tier}"))

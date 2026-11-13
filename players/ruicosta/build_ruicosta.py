@@ -298,6 +298,28 @@ def rank_lookup(k, s):
 
 # 순위표·기존 자료에 없는 상대(직접 추정·외부 순위): (TM 상대 이름, 시즌) -> (Elo, lv) — judgments.md 6절
 MAN = {
+    ("Dynamo Kyiv", "1991-92"): (1600, "소련 1991 5위/16팀 (추정, 다른 선수 자료 디나모 키이우 2006-07 1600과 같음)"),
+    ("Dinamo Moscow", "1992-93"): (1560, "러시아 1992 3위 (추정, 다른 선수 자료 디나모 모스크바 1996 4위 1550보다 조금 높게)"),
+    ("CSKA Sofia", "1993-94"): (1480, "불가리아 1993-94 2위 (추정, 다른 선수 자료 CSKA 소피아 2005-06 2위 1480과 같음)"),
+    ("Bayer 04 Leverkusen", "1993-94"): (1860, "분데스리가 1993-94 3위 (2000-01 순위값 사용)"),
+    ("CF Gloria Bistrita (- 2015)", "1996-97"): (1400, "루마니아 1996-97 (추정, 1995-96 12위·컵 준우승, 다른 선수 자료 글로리아 비스트리차 2007-08 10위 1400과 같음)"),
+    ("Hapoel Tel Aviv", "2001-02"): (1500, "이스라엘 2001-02 2위 (추정, 다른 선수 자료 하포엘 텔아비브 2010-11 2위 1500과 같음)"),
+    ("FC Dinamo 1948", "2006-07"): (1520, "루마니아 2006-07 1위 (추정, 다른 선수 자료 루마니아 1위 FCSB 2012-13 1520과 같음)"),
+    ("US Lecce", "1995-96"): (1417, "세리에C1 1995-96 (승격 팀, 순위 확인 못 함; 세리에C 평균 추정)"),
+    ("Calcio Padova", "1998-99"): (1417, "세리에C1 1998-99 (순위 확인 못 함; 세리에C 평균 추정)"),
+    ("Moreirense FC", "2007-08"): (1250, "포르투갈 3부 2007-08 조 8위 (추정, 다른 선수 자료 포르투갈 3부 1250과 같음)"),
+}
+# 순위표 순위를 공식 최종 순위로 고치거나 순위표에 없는 팀의 순위를 더함(judgments.md 6절, 출처 위키백과·zerozero·futebol365)
+RANK_FIX = {
+    ("CS Marítimo", "1991-92"): ("PO1", 7, 18),          # 파렌스와 35점 동률, 공식 순위 7위
+    ("SC Farense", "1993-94"): ("PO1", 8, 18),          # 33점 3팀 동률, 공식 순위 8위(v1.157 순위 대조와 같음)
+    ("CF União Madeira (-2021)", "1993-94"): ("PO1", 12, 18),   # 31점 3팀 동률(질 비센트 10·살게이루스 11·우니앙 12)
+    ("Calcio Padova", "1994-95"): ("IT1", 14, 18),      # 제노아와 40점 동률, 잔류 플레이오프 승리(제노아 15위)
+    ("US Palermo", "1995-96"): ("IT2", 7, 20),          # 제노아와 52점 동률, 공식 순위 7위
+    ("US Lecce", "1998-99"): ("IT2", 4, 20),            # 레지나와 64점 동률, 공식 순위 4위
+    ("CS Marítimo", "2006-07"): ("PO1", 11, 16),        # 나발과 32점 동률, 공식 순위 11위
+    ("Ancona Calcio", "2002-03"): ("IT2", 4, 20),       # 세리에B 2002-03 4위(승격), 순위표 없음
+    ("Amora FC", "1992-93"): ("PO2", 17, 18),           # 2부(세군다 지비상 드 온라) 1992-93 17위, 순위표 없음
 }
 
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []
@@ -319,6 +341,11 @@ def opp_elo(o, d, cid):
     for s in seasons:
         if (o, s) in MAN:
             e, lv = MAN[(o, s)]; ELO_SRC["직접 추정"] += 1; ELO_LOG[(o, d)] = ("man", e, lv); return e, lv
+    for s in seasons:
+        if (o, s) in RANK_FIX:
+            lg, r, n = RANK_FIX[(o, s)]
+            res = rank_model(lg, s, r, n)
+            ELO_SRC["순위표+리그 모형"] += 1; ELO_LOG[(o, d)] = ("model-fix", res[0], res[1]); return res
     for s in seasons:
         res = rank_lookup(k, s)
         if res:
@@ -343,7 +370,89 @@ if "--debug" in sys.argv:
     print(ELO_SRC)
     for m in MISS: print("Elo 없음:", m)
     for (o, d), v in sorted(ELO_LOG.items(), key=lambda x: x[0][1]):
-        if v[0] != "table": print(d, o, v)
+        print(d, o, v)
     print("SEQ_DIFF", SEQ_DIFF)
     print("ATYPES", ATYPES)
     for j in judg: print(j)
+
+# ---------------------------------------------------------------- 클럽·시즌 (7·8월 초 경기 없음: 전부 기본 8월 1일)
+CLUBS = [("benrc", "1994-07-01", "벤피카", "1991~1994"), ("fiorc", "2001-07-01", "피오렌티나", "1994~2001"),
+         ("acmrc", "2006-07-01", "AC 밀란", "2001~2006"), ("benrc", None, "벤피카", "2006~2008")]
+TM_CLUB = {"294": "benrc", "430": "fiorc", "5": "acmrc"}
+def stint_of(d):
+    for i, (k, u, *_) in enumerate(CLUBS):
+        if u is None or d < u: return i
+for g in GAMES:
+    if CLUBS[stint_of(ldate(g))][0] != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+ST = collections.OrderedDict((i, [0, 0, 0, 0]) for i in range(len(CLUBS)))
+for m in M: ST[stint_of(m[0])][0] += 1; ST[stint_of(m[0])][3] += m[3]
+for r in E: ST[stint_of(r[9])][1 if r[0] == "g" else 2] += 1
+STK = collections.OrderedDict()
+for i, v in ST.items():
+    STK.setdefault(CLUBS[i][0], [0, 0, 0, 0])
+    for j in range(4): STK[CLUBS[i][0]][j] += v[j]
+def season_of(d):
+    y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 8 else y - 1
+    return f"{s}-{str(s + 1)[2:]}"
+SEASON_TM = collections.Counter((season_of(ldate(g)), g["season_tm"]) for g in GAMES)
+if "--debug" in sys.argv:
+    for i, v in ST.items(): print(CLUBS[i], v)
+    print(sorted(SEASON_TM.items()))
+
+# ---------------------------------------------------------------- 동료 자료 대조(다른 파일은 고치지 않음)
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None):
+        diffs.append(f"단판/합산 {a[7]},{a[14] if len(a) > 14 else '-'}/{b[7]},{b[14] if len(b) > 14 else '-'}")
+    if a[10] != b[10]: diffs.append(f"연장 {a[10]}/{b[10]}")
+    return diffs
+MATES = {"she.js": "Andriy Shevchenko", "inz.js": "Filippo Inzaghi", "see.js": "Clarence Seedorf", "riv.js": "Rivaldo",
+         "kak.js": "Kaká", "dim.js": "Ángel Di María", "vie.js(staged)": "Christian Vieri"}
+ALLF = dict(OTHERS); ALLF.update(STAGED)
+TMEV = [(e, ldate(G[e["gameId"]]), mins(e["minute"])[0]) for gid in EVS for e in EVS[gid] if gid in G]
+for fn, nm in MATES.items():
+    if fn not in ALLF: continue
+    P, ent, om = ALLF[fn]
+    for r in E:   # 후이 코스타 도움 -> 동료 골
+        if r[0] == "a" and norm(r[13]) == norm(nm):
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append((f"후이 코스타 도움→{nm} 골", fn, r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for e, d, mi in TMEV:   # 동료 도움 -> 후이 코스타 골 (리포트 도움 선수 기준)
+        if e["rc_scorer"] == "1" and norm(e["assist_player"]) == norm(nm):
+            mine = [r for r in E if r[0] == "g" and r[9] == d and r[4] == mi]
+            hit = sorted([x for x in ent if x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 3], key=lambda x: abs(x[4] - mi))
+            CROSS.append((f"{nm} 도움→후이 코스타 골", fn, d, mi, "동료 파일에 없음" if not hit else (cmp_rows(mine[0], hit[0]) or "같음")))
+    for x in ent:
+        if x[0] == "a" and "Rui Costa" in str(x[13]):
+            if not any(r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3 for r in E):
+                CROSS.append(("동료 파일의 후이 코스타 골 도움이 이 자료에 없음", fn, x[9], x[4]))
+    for e, d, mi in TMEV:   # TM 리포트상 후이 코스타 도움인데 이 자료에서 뺀 동료 골
+        if e["rc_assist_other"] == "1" and norm(e["scorer"]) == norm(nm) and not any(r[0] == "a" and r[9] == d and r[4] == mi for r in E):
+            has = any(x[0] == "g" and x[9] == d and abs(x[4] - mi) <= 3 for x in ent)
+            CROSS.append(("TM 도움을 뺀 동료 골", fn, d, e["minute"], e["assist_type"], "동료 골 행 있음" if has else "동료 골 행 없음"))
+    for x in ent:   # 같은 경기 대회·Elo·lv·합산
+        for r in E:
+            if r[9] == x[9] and key(r[1]) == key(x[1]):
+                dd = [t for t in cmp_rows(r, x) if t.startswith(("Elo", "lv", "대회", "단판"))]
+                CROSS.append(("같은 경기", fn, r[9], r[1], dd or "같음"))
+                break
+    mm_ = {m[0]: m for m in M}
+    for m in om:    # 출전 행 대회
+        if m[0] in mm_ and key(mm_[m[0]][1]) == key(m[1]):
+            CROSS.append(("출전 행", fn, m[0], m[1], "같음" if mm_[m[0]][2] == m[2] else f"대회 {mm_[m[0]][2]}/{m[2]}"))
+# 이 자료의 모든 기록과 같은 날·같은 상대인 다른 선수 기록(동료 외 포함): Elo·lv·대회
+for r in E:
+    for b, x in BYDATE.get(r[9], []):
+        if key(x[1]) == key(r[1]) or toks(x[1]) & toks(r[1]):
+            dd = [t for t in cmp_rows(r, x) if t.startswith(("Elo", "lv", "대회"))]
+            if dd: CROSS.append(("같은 날 다른 선수 기록과 다름", b, r[9], r[1], dd))
+if "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter((c[0], c[1], c[-1] == "같음") for c in CROSS))
