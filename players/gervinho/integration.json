@@ -1,0 +1,16 @@
+{"preset":"gervinho","name":"제르비뉴","prefix":"GRV",
+ "clubs":[
+  {"key":"bevgv","name":"KSK 베베런","short":"베베런","years":"2005~2007","until":"2007-07-01"},
+  {"key":"lmgv","name":"르망","short":"르망","years":"2007~2009","until":"2009-07-21"},
+  {"key":"lilgv","name":"릴","short":"릴","years":"2009~2011","until":"2011-07-12"},
+  {"key":"arsgv","name":"아스널","short":"아스널","years":"2011~2013","until":"2013-08-08"},
+  {"key":"romgv","name":"AS 로마","short":"로마","years":"2013~2016","until":"2016-01-26"},
+  {"key":"hebgv","name":"허베이 화샤 싱푸","short":"허베이","years":"2016~2018","until":"2018-08-17"},
+  {"key":"pargv","name":"파르마","short":"파르마","years":"2018~2021","until":"2021-07-01"},
+  {"key":"trbgv","name":"트라브존스포르","short":"트라브존스포르","years":"2021~2022","until":"2022-07-16"},
+  {"key":"arigv","name":"아리스","short":"아리스","years":"2022~2023","until":null}],
+ "season":{"calendar":["hebgv"],"jul10":["bevgv","lilgv"],"jul1":[]},
+ "pos":"LW","flag":"CI","retired":true,
+ "hon":{"t":{"LG":["10/11 릴","21/22 트라브존스포르"],"DC":["10/11 릴"]},
+        "o":[],
+        "a":{"FOY":["2011 코트디부아르","2010 코트디부아르"],"POY":["09/10 리그1"],"TOP":["13/14 코파 이탈리아 3골"]}}}
