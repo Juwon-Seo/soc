@@ -1,1 +1,1 @@
-NOTE_LINES=["x"]
+NOTE_LINES = ["임시"]
