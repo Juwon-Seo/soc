@@ -194,7 +194,6 @@ EX_BL2 = existing("2. 분데스리가")
 EX_TR = existing("쉬페르리그")
 EX_J1 = existing("J1리그")
 EX_PL = existing("프리미어리그")
-GB2_FIX = pooled_pre = None
 
 def fill(tab, r):
     """같은 시즌(또는 시즌 무관 고정값)에 이웃 순위 값이 있으면 그 사이 직선(한 칸이면 가운데)"""
@@ -213,7 +212,7 @@ def pooled(ex):
     return {r: v.most_common(1)[0][0] for r, v in c.items()}
 L2_FIX = pooled(EX_BL2)
 GB2_FIX = pooled(existing("챔피언십"))
-J1_FIX = pooled(EX_J1)
+J1_FIX = pooled({s: t for s, t in EX_J1.items() if s not in ("2021", "2024", "2025")})   # 18팀 시즌만(2021·2024·2025는 20팀)
 # 분데스리가: 2025-26 기준값 + 시즌 폭(그 시즌 기존 값들과의 차이 중앙값; 외질·클로제 자료와 같은 방식)
 BL_BASE = [2006, 1912, 1860, 1828, 1812, 1797, 1777, 1756, 1737, 1723, 1713, 1702, 1697, 1682, 1661, 1644, 1634, 1613]
 def bl_shift(season):
@@ -249,10 +248,10 @@ def model(lg, season, r, n):
         if sh is not None: return BL_BASE[r - 1] + sh, f"분데스리가 {season} {r}위"
     if lg == "L2":
         e, why = fill(L2_FIX, r)
-        if e: return e, f"2. 분데스리가 {season} {r}위" + ((" (추정," + why[2:]) if why else "")
+        if e: return e, f"2. 분데스리가 {season} {r}위" + ((" (추정, " + why[2:]) if why else "")
     if lg == "JAP1":
         e, why = fill(J1_FIX, r)
-        if e: return e, f"J1리그 {season} {r}위" + ((" (추정," + why[2:]) if why else "")
+        if e: return e, f"J1리그 {season} {r}위" + ((" (추정, " + why[2:]) if why else "")
     if lg == "TR1":
         t = EX_TR.get(season, {})
         if r in t: return t[r], f"쉬페르리그 {season} {r}위"
@@ -263,7 +262,7 @@ def model(lg, season, r, n):
         return round(pl_mean(season) + SD_PL * curve(r, n)), f"엑스트라클라사 {season} {r}위 (리그 수준 추정)"
     if lg == "GB2":
         e, why = fill(GB2_FIX, r)
-        if e: return e, f"챔피언십 {season} {r}위" + ((" (추정," + why[2:]) if why else "")
+        if e: return e, f"챔피언십 {season} {r}위" + ((" (추정, " + why[2:]) if why else "")
     if lg == "GB1":
         t = EX_PL.get(season, {})
         if r in t: return t[r], f"프리미어리그 {season} {r}위"
