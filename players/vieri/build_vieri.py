@@ -143,6 +143,11 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         p = line.rstrip("\n").split("|")
         if p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]))
+# Transfermarkt 순서와 영어 위키백과 최종 순위가 다른 곳(동률): 위키백과 순위를 씀(v1.157 순위 대조 규칙, judgments.md 7절)
+RANK_FIX = {("IT1", "1991-92", "SS Lazio"): 10,      # 34점 동률, 위키백과 10위 라치오·11위 아탈란타(TM은 반대)
+            ("IT2", "1993-94", "Vicenza Calcio"): 10}  # 37점 4팀 공동 10위(위키백과), TM 12위
+for (lg, se, nm), r in RANK_FIX.items():
+    k = key(nm); RANKS[(lg, se)][k] = (r, RANKS[(lg, se)][k][1])
 
 def ents_map(prefix, season):
     """기존 선수 자료의 '<prefix> <season> N위' 값(다수값)"""
@@ -198,7 +203,12 @@ def model(lg, season, r, n):
 RANK_LG = ["IT1", "IT2", "ES1", "FR1"]
 
 # 순위표·모형·기존 자료로 안 되는 상대(직접 추정, 모두 '추정'): (key, 시즌) -> (Elo, lv) — 골·도움 상대만 필요
-MAN = {}
+MAN = {
+    (key("PAOK Thessaloniki"), "1997-98"): (1500, "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)"),
+    (key("SL Benfica"), "2003-04"): (1795, "포르투갈 1부 2003-04 2위 (다른 선수 자료의 포르투갈 1부 2위 값 1795와 같음)"),
+    (key("AEK Athens"), "2007-08"): (1550, "그리스 2007-08 2위 (추정, 다른 선수 자료 AEK 2006-07 2위 1550과 같음)"),
+    (key("FK Mlada Boleslav"), "2007-08"): (1450, "체코 2007-08 7위 (추정, 다른 선수 자료의 믈라다 볼레슬라프 2014-15 4위 1480보다 낮게)"),
+}
 
 ELO_SRC = collections.Counter()
 ELO_LOG = []

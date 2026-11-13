@@ -52,6 +52,10 @@ ADD_CONFIRMED = {
     "2511748|106": "maxifoot 경기 기사·선수 평점(구르퀴프 크로스를 라카제트가 마무리, 1-1 107분) · Lyonmag 경기 기사(구르퀴프가 수비를 버티고 컷백 → 라카제트). FotMob 이벤트는 이 골 도움 칸이 빔",
 }
 
+# Transfermarkt 리포트 골 목록에서 빠진 상대 골: gameId -> [분] (FotMob 경기 이벤트로 채움)
+# 2014.1.5 라 쉬즈쉬르사르트전(쿠프 드 프랑스): TM 목록은 0-6에서 끝나지만 최종 1-6, FotMob 41분 피쇼 골(1-1). 라카제트 자료(58분 3-1)와 같음
+MISSING_OPP = {"2387776": [41]}
+
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"FR1", "IT1"}
 CUP = {"FRC", "FRL", "CIT"}
@@ -286,6 +290,7 @@ for e in EVENTS:
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
     mi, dm = minute(e["minute"])
+    ga += sum(1 for t in MISSING_OPP.get(gid, []) if t < mi)
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     et = int(ko == 1 and not tie and g["gameState"] in ("extra_time", "penalty_shootout") and mi > 90 and not dm)
@@ -431,3 +436,78 @@ for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
 for g in GAMES:
     tm_club = {"273": "rengf", "5": "milgf", "40": "borgf", "1041": "lyogf", "2969": "dijgf"}[g["club_id"]]
     if club_of(ldate(g)) != tm_club: sys.exit("클럽 경계 불일치 " + g["gameId"])
+
+# ---------------------------------------------------------------- 설명(NOTE)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return "·".join(map(str, v[:3]))
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+SRC = ELO_SRC
+N_TM_A = sum(1 for e in EVENTS if e["gameId"] in G and e["gourcuff_assist_other"] == "1")
+NOTE_LINES = [
+    f"요안 구르퀴프(스타드 렌·AC 밀란·보르도·리옹·스타드 렌·디종)의 클럽 공식 경기 {NG}경기({d_(M[0][0])} 크루아 드 사부아전 ~ {d_(M[-1][0])} 릴전)에서 나온 {NGo}골 {NA}도움(PK 골 없음), 친선경기·프랑스 대표팀(유소년 포함)·렌 U19(2003 쿠프 갬바르델라 결승)·리옹 2군(2013 CFA 1경기) 경기 제외",
+    "클럽별 경기·골·도움: " + ", ".join(f"{CLUB_KO[k]} {c3(v)}" for k, v in ST.items()) + f". 출전 분 합계 {MIN_TOT:,}분",
+    f"출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·도움은 Transfermarkt 경기 리포트(골·도움이 있는 경기와 리그 밖 모든 경기), 2010-11부터는 FotMob 경기 이벤트와 대조함(FotMob에는 2010년 전 경기 자료가 없고, 2011.2.18 낭시전·2011.4.10 랑스전·2011.4.27 몽펠리에전은 FotMob 경기 자료가 비어 있음)",
+    "경기·골 수는 프랑스어 위키백과 클럽·시즌별 기록(대표팀 열을 뺀 값)과 모든 시즌에서 같음. 영어 위키백과는 417경기(렌 2003-04 쿠프 드 프랑스 2004.1.25 크루아 드 사부아전 1경기가 빠짐)",
+    "골: 2010-11 이후 골은 Transfermarkt와 FotMob이 수·스코어·분이 같음(FotMob 자료가 빈 2경기 제외). 분은 Transfermarkt 추가시간 표기를 씀. PK 골·자책골 없음",
+    f"도움: 2014년 8월 전은 Transfermarkt 리포트 도움(FotMob 도움 기록이 이 시기에 거의 비어 있음), 이후는 Transfermarkt와 FotMob 경기 이벤트가 함께 센 것 + 다른 출처 2곳이 확인한 것. 도움 {NA} = Transfermarkt {N_TM_A} − PK 유도 1(2012.11.4 바스티아전 90+5분 말브랑크 PK) − 'Shot on goal'(슈팅 리바운드) 2(2009.5.16 르망전 75분 플라뉘스, 2017.4.15 릴전 29분 시오 — 이 골은 FotMob이 구르퀴프 도움으로 셈) − 상대 자책골에 준 도움 2(2008.10.22 클루지전 54분 카두, 2009.9.19 불로뉴전 70분 라쇼르) − 출처가 엇갈린 도움 1",
+    "출처가 엇갈려 뺀 도움: 2010.11.2 벤피카전(챔스 조별) 90+5분 로브렌 헤더 — Transfermarkt는 구르퀴프 프리킥 도움, FotMob은 라카제트, ESPN은 곤살론스 도움으로 적고 경기 기사(maxifoot)는 키커를 밝히지 않음. 구르퀴프를 확인해 주는 다른 출처가 없어 넣지 않음(라카제트 자료도 이 도움을 넣지 않음)",
+    "FotMob에 없지만 다른 출처 2곳이 구르퀴프 도움으로 적어 넣은 1개: 2014.12.17 모나코전(쿠프 드 라 리그 16강) 연장 106분 라카제트 골(maxifoot 경기 기사·평점, Lyonmag 경기 기사: 구르퀴프가 수비를 버티고 내준 공을 라카제트가 마무리, 기사들은 107분으로 적음). 2014년 8월 이후 FotMob에만 있는 도움은 위 릴전 시오 골뿐(넣지 않음)",
+    "2014년 8월 전 도움은 Transfermarkt 한 곳 기준이라 하나하나 다른 출처와 대조하지는 않음(프랑스어 위키백과 시즌 도움 합계는 Transfermarkt보다 8개 적은 62개, FotMob 경력 합계는 2010년 전 자료가 거의 없음)",
+    "Transfermarkt 리포트 골 목록이 최종 스코어보다 짧은 경기: 2014.1.5 라 쉬즈쉬르사르트전(1-6)은 FotMob 이벤트로 41분 상대 골(1-1)을 채워 56분 도움의 골 전 스코어를 2-1로 계산함. 2006.1.7 코르트전(3-2)은 구르퀴프 골·도움이 없어 영향 없음",
+    "날짜는 현지 날짜(Transfermarkt 리포트·일정 날짜). 2009.7.25 트로페 데 샹피옹(몬트리올)·2012.7.28 트로페 데 샹피옹(미국 해리슨)도 현지 날짜와 같음",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(라카제트·카카·세도르프·인자기·호나우두·뎀벨레 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위를 리그 모형에 넣은 값 순으로 씀"
+    f"(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+모형 {SRC['순위표+리그 모형']})",
+    "순위표+모형(추정): 몽펠리에 2005-06 리그2 12위 1521·갱강 2009-10 리그2 18위 1484(프랑스 2부 평균 1540 모형, 다른 선수 자료와 같은 식), 이죄르 2013-14 프랑스 4부(CFA) 1220(다른 선수 자료의 4부 값)",
+    "대회 비중: 쿠프 드 프랑스·쿠프 드 라 리그·코파 이탈리아는 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중), 트로페 데 샹피옹은 국내컵 결승, UEFA컵 1라운드는 유로파 예선, UEFA컵 3라운드·유로파 16강은 유로파 토너먼트로 계산함",
+    f"두 경기 합산(챔스 16강·8강 2009-10 올림피아코스·리옹전) 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함(원정 다득점·연장 있음). 연장 기록 2개(2006.4.12 몽펠리에전 110분, 2014.12.17 모나코전 106분)는 단판 연장으로 계산함",
+    "시즌 구분: 보르도·리옹은 7월 10일 기준(2009.7.25·2012.7.28 트로페 데 샹피옹, 2013.7.30 챔스 예선이 새 시즌), 렌·밀란·디종은 8월 1일 기준. 클럽 구분은 2006.7.1 전 렌, 2008.7.1 전 밀란, 2010.8.24 전 보르도(2008-09 임대 포함, 2010.8.22 PSG전까지), 2015.7.1 전 리옹, 2018.7.1 전 렌, 이후 디종(FotMob 경력 날짜 기준). 렌 2015-16은 부상으로 2016.1.9 로리앙전부터 출전",
+    "수상 기록은 Transfermarkt 업적 페이지 기준: 챔피언스리그 2006-07·클럽 월드컵 2007(밀란, 준결승 2차전·결승과 클럽 월드컵은 출전하지 않았지만 Transfermarkt 표기대로 넣음), 리그1 2008-09·쿠프 드 라 리그 2008-09·트로페 데 샹피옹 2008·2009(보르도), 쿠프 드 프랑스 2011-12·트로페 데 샹피옹 2012(리옹), 올해의 선수 2009(Transfermarkt 'Footballer of the Year'). U19 유럽 선수권 우승은 대표팀 기록이라 뺌",
+    "은퇴(Transfermarkt 2019.1.23 은퇴 표시, 디종과 계약 해지 뒤 복귀 없음 — 본인 2023 인터뷰·부친 발언). 마지막 경기 2018.10.20 릴전",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1] or b[2] < a[2]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+mmin = {m[0]: m[3] for m in M}
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+    if r[4] > 90 and not r[11] and not r[10] and not (len(r) > 14): problems.append(("90분 넘는데 표기 없음", r))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const GOU_E={J(E)};\nconst GOU_M={J(M)};\nconst GOU_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for k, v in ST.items(): print(" ", k, v)
