@@ -247,7 +247,9 @@ for e in EVENTS:
         add_row("g", mi, dm, gf, ga, int(e["penalty"] == "1"), 0, tie, comp, ko, d, opp, cid, et)
     if isa:
         st = None
-        if tag in EXCL_A:
+        if tag in EXCL_HANDBALL or e["assist_type"].startswith("Handball"):
+            st = "제외:핸드볼 PK 허용(상대 골)"
+        elif tag in EXCL_A:
             st = "제외:" + EXCL_A[tag]
         elif e["own_goal"] == "1" or not ours:
             st = "제외:상대 자책골"
@@ -322,7 +324,8 @@ def load_js(fn, P):
     s = open(os.path.join(DATA, fn), encoding="utf-8").read()
     m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
     return json.loads(m.group(1))
-MATES = {"Nicolas Pépé": ("pep.js", "PEP"), "Zlatan Ibrahimović": ("ibr.js", "IBR"), "Christian Pulisic": ("pul.js", "PUL")}
+MATES = {"Nicolas Pépé": ("pep.js", "PEP"), "Zlatan Ibrahimović": ("ibr.js", "IBR"), "Christian Pulisic": ("pul.js", "PUL"),
+         "Bruno Fernandes": ("brf.js", "BRF"), "Leroy Sané": ("san.js", "SAN")}
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
 MY_NAMES = ("Rafael Leão", "Rafael Leao")
 CROSS = []
