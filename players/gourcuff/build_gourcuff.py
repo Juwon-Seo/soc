@@ -186,7 +186,7 @@ def model(lg, season, r, n):
     if lg == "FR3":   # 리베리·발부에나 자료의 나시오날 순위값과 같은 식(1311 + 2부 흩어짐 × 순위 곡선)
         return half_up(1311 + SD2 * curve(r, n)), f"프랑스 3부(나시오날) {season} {r}위 (추정)"
     if lg in ("FR4A", "FR4B"):   # 팔카오·파예 자료의 프랑스 4부(CFA) 1220
-        return 1220, f"프랑스 4부(CFA) {season} {lg[-1]}조 {r}위 (추정)"
+        return 1220, f"프랑스 4부(CFA) {season} {lg[-1]}조 (추정)"   # 4부는 순위와 관계없이 같은 값이라 순위를 적지 않음
     if lg.startswith("FR5"):     # 파스토레 자료의 CFA2(5부) 1150
         return 1150, f"프랑스 5부(CFA2) {season} {lg[-1]}조 {r}위 (추정)"
     return None
@@ -331,3 +331,103 @@ if __name__ == "__main__" and "--debug" in sys.argv:
         k = (x[1], x[2], x[3], x[4][:5])
         if k in seen: continue
         seen.add(k); print(x)
+
+# ---------------------------------------------------------------- FotMob 골 대조(2010-11~)
+FM_CMP = []
+TMG = collections.defaultdict(list)
+for e in EVENTS:
+    if e["gourcuff_scorer"] == "1" and e["gameId"] in G and G[e["gameId"]]["date_local"] >= "2010-08-01":
+        TMG[e["gameId"]].append(e)
+for gid, evs in TMG.items():
+    if not FM_EV.get(gid):
+        FM_CMP.append(("FotMob 없음", gid, G[gid]["date_local"])); continue
+    fg = [r for r in FM_EV[gid] if r["gourcuff_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(fg) != len(evs):
+        FM_CMP.append(("골 수 다름", gid, G[gid]["date_local"], [x["minute"] for x in evs], [r["time"] for r in fg])); continue
+    for t, f in zip(sorted(evs, key=lambda x: minute(x["minute"])[0]), sorted(fg, key=lambda r: int(r["time"]) + int(r["overloadTime"] or 0))):
+        tpk = t["penalty"] == "1"; fpk = (f["goalDescriptionKey"] or "").lower().startswith("penalty") or "pen" in (f["suffix"] or "").lower()
+        tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
+        base = int(t["minute"].split("+")[0])
+        if tpk != fpk or not (abs(tm_min - fm_min) <= 1 or int(f["time"]) == base):
+            FM_CMP.append(("다름", gid, G[gid]["date_local"], t["minute"], f["time"], f["overloadTime"], f["goalDescriptionKey"]))
+if __name__ == "__main__" and "--fm" in sys.argv:
+    for x in FM_CMP: print(x)
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+def load_js(fn, P):
+    s = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
+    return json.loads(m.group(1))
+MATES = {"Alexandre Lacazette": ("lac.js", "LAC", "2010-08-24", "2015-07-01"),
+         "Kaká": ("kak.js", "KAK", "2006-07-01", "2008-07-01"),
+         "Clarence Seedorf": ("see.js", "SEE", "2006-07-01", "2008-07-01"),
+         "Filippo Inzaghi": ("inz.js", "INZ", "2006-07-01", "2008-07-01"),
+         "Ronaldo": ("rno.js", "RNO", "2007-01-01", "2008-07-01"),
+         "Ousmane Dembélé": ("dem.js", "DEM", "2016-01-01", "2016-07-01")}
+MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items()}
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[8] != b[8]: diffs.append(f"PK {a[8]}/{b[8]}")
+    if a[10] != b[10]: diffs.append(f"연장 {a[10]}/{b[10]}")
+    ta = a[14] if len(a) > 14 else None; tb = b[14] if len(b) > 14 else None
+    if a[7] != b[7] or ta != tb:
+        diffs.append(f"단판/합산 {a[7]},{ta}/{b[7]},{tb}")
+    return diffs
+ME_N = lambda s: norm(s or "") in ("yoann gourcuff", "gourcuff")
+for nm, ent in MATE_E.items():
+    lo, hi = MATES[nm][2], MATES[nm][3]
+    for r in E:
+        if r[0] == "a" and norm(r[13]) == norm(nm):
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("구르퀴프 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:
+        if x[0] == "a" and ME_N(x[13]):
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→구르퀴프 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    for x in ent:
+        if lo <= x[9] < hi:
+            for r in E:
+                if r[9] == x[9] and key(r[1]) == key(x[1]):
+                    d = [t for t in cmp_rows(r, x) if not t.startswith(("분", "스코어", "PK", "연장"))]
+                    if d: CROSS.append(("같은 경기 다름", nm, r[9], r[1], d))
+                    break
+    for x in ent:   # Transfermarkt 구르퀴프 도움을 이 계산기에서 뺀 동료 골(참고)
+        if x[0] == "g" and lo <= x[9] < hi:
+            tm = [e for e in EVENTS if e["gourcuff_assist_other"] == "1" and e["gameId"] in G and ldate(G[e["gameId"]]) == x[9] and abs(minute(e["minute"])[0] - x[4]) <= 2]
+            if tm and not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
+                CROSS.append(("TM 구르퀴프 도움을 뺀 동료 골", nm, x[9], x[4], tm[0]["assist_type"]))
+    for e in EVENTS:   # 동료 파일에서 구르퀴프 골의 도움으로 적혔어야 할 것(TM 리포트 기준, 참고)
+        if e["gourcuff_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
+            d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
+            if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움 → 구르퀴프 골인데 동료 파일에 없음", nm, d, e["minute"], e["assist_type"]))
+# 같은 날 같은 상대를 다룬 모든 다른 선수 기록과 Elo·lv·대회 비교
+for r in E:
+    for x in ENTS:
+        if x["date"] == r[9] and key(x["opp"]) == key(r[1]) and (x["elo"] != r[2] or x["lv"] != r[12] or x["comp"] != r[3]):
+            CROSS.append(("같은 경기 다른 선수 값 다름", x["p"], r[9], r[1], (r[2], r[12], r[3]), (x["elo"], x["lv"], x["comp"])))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter((c[0], c[-1] == "같음") for c in CROSS))
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("rengf", "2006-07-01", "스타드 렌", "2003~2006"), ("milgf", "2008-07-01", "AC 밀란", "2006~2008"),
+         ("borgf", "2010-08-24", "보르도", "2008~2010"), ("lyogf", "2015-07-01", "리옹", "2010~2015"),
+         ("rengf", "2018-07-01", "스타드 렌", "2015~2018"), ("dijgf", None, "디종", "2018")]
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+CLUB_KO = {"rengf": "스타드 렌(2003~2006·2015~2018)", "milgf": "AC 밀란", "borgf": "보르도", "lyogf": "리옹", "dijgf": "디종"}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k in ["rengf", "milgf", "borgf", "lyogf", "dijgf"])
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    tm_club = {"273": "rengf", "5": "milgf", "40": "borgf", "1041": "lyogf", "2969": "dijgf"}[g["club_id"]]
+    if club_of(ldate(g)) != tm_club: sys.exit("클럽 경계 불일치 " + g["gameId"])
