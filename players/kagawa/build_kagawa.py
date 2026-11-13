@@ -40,6 +40,7 @@ for r in rd("fotmob_events.csv"):
 # ---------------------------------------------------------------- 판정 표 (judgments.md 4절)
 EXCL_A = {}      # gameId|분 -> 이유 (유형으로 자동 분류되지 않는 제외)
 ADD_CONFIRMED = {}   # 2014.8.1 이후 FotMob에 없지만 다른 출처 2곳이 확인한 도움
+EV_MIN = {}
 FM_SOG_OK = {}   # TM 'Shot on goal'이지만 FotMob이 도움으로 세고 경기 기사가 패스를 확인한 것
 exec(open(os.path.join(HERE, "assist_checks.py"), encoding="utf-8").read())
 
@@ -250,6 +251,8 @@ for e in EVENTS:
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
     mi, dm = minute(e["minute"])
+    tag = f"{gid}|{e['minute']}"
+    if tag in EV_MIN: mi = EV_MIN[tag]
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
     d = g["date_local"]; opp = g["opponent"].strip()
@@ -342,7 +345,8 @@ def load_js(fn, P):
     return json.loads(m.group(1))
 MATES = {"Robert Lewandowski": ("lew.js", "LEW"), "Marco Reus": ("reu.js", "REU"), "Pierre-Emerick Aubameyang": ("aub.js", "AUB"),
          "Mario Götze": ("got.js", "GOT"), "Jadon Sancho": ("sch.js", "SCH"), "Wayne Rooney": ("roo.js", "ROO"),
-         "Robin van Persie": ("van.js", "VAN"), "Ousmane Dembélé": ("dem.js", "DEM")}
+         "Robin van Persie": ("van.js", "VAN"), "Ousmane Dembélé": ("dem.js", "DEM"),
+         "Ciro Immobile": ("imm.js", "IMM"), "Christian Pulisic": ("pul.js", "PUL")}   # pul.js는 병렬 판정 산출물(대조만)
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
 KAG_NAMES = ("Shinji Kagawa", "Kagawa")
 CROSS = []
