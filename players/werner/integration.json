@@ -1,0 +1,15 @@
+{"preset":"werner","name":"티모 베르너","prefix":"WER",
+ "clubs":[
+  {"key":"vfbwe","name":"VfB 슈투트가르트","short":"슈투트가르트","years":"2013~2016","until":"2016-07-01"},
+  {"key":"rblwe","name":"RB 라이프치히","short":"라이프치히","years":"2016~2020","until":"2020-07-01"},
+  {"key":"chewe","name":"첼시","short":"첼시","years":"2020~2022","until":"2022-08-09"},
+  {"key":"rblwe","name":"RB 라이프치히","short":"라이프치히","years":"2022~2024","until":"2024-01-09"},
+  {"key":"totwe","name":"토트넘 홋스퍼","short":"토트넘","years":"2024~2025","until":"2025-06-30"},
+  {"key":"rblwe","name":"RB 라이프치히","short":"라이프치히","years":"2025~2026","until":"2026-01-29"},
+  {"key":"sjwe","name":"산호세 어스퀘이크스","short":"산호세","years":"2026~","until":null}],
+ "season":{"calendar":["sjwe"],"jul10":[],"jul1":[]},
+ "pos":"CF","flag":"DE","retired":false,
+ "hon":{"t":{"UCL":["20/21 첼시"],"UEL":["24/25 토트넘"],"USC":["21/22 첼시"],"CWC":["21/22 첼시"],
+             "DC":["22/23 라이프치히"],"SC":["23/24 라이프치히"]},
+        "o":[["DFB-포칼 준우승","18/19 라이프치히"]],
+        "a":{}}}
