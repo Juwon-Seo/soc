@@ -316,9 +316,12 @@ def opp_elo(opp, d, cid):
 def ldate(g):
     return g["date_local_schedule"]   # 현지 날짜(Transfermarkt 일정·리포트 날짜; API UTC는 쓰지 않음)
 
+# 출전 분 보정: Transfermarkt 교체 기록이 골 시각과 모순(교체 아웃 뒤 골) -> 90분(judgments.md 2절)
+MIN_M_FIX = {"3434689": 90,   # 1989.10.3 요크전: TM 45분(시어러↔도드 교체로 적음), 위키백과 시어러 76분 골·11v11은 도드가 레이 월리스와 교체
+             "998071": 90}    # 2002.12.26 볼턴전: TM 73분(루아루아와 교체)인데 같은 리포트에 시어러 79분 골, 다른 기록(스포츠몰) 89분 시어러 경고
 M = []
 for g in GAMES:
-    M.append([ldate(g), g["opponent"].strip(), comp_of(g["competitionId"], g["round"]), int(g["playedMinutes"])])
+    M.append([ldate(g), g["opponent"].strip(), comp_of(g["competitionId"], g["round"]), MIN_M_FIX.get(g["gameId"], int(g["playedMinutes"]))])
 M.sort(key=lambda r: r[0])
 
 # ---------------------------------------------------------------- 골·도움
@@ -413,3 +416,138 @@ if __name__ == "__main__" and "--debug" in sys.argv:
     print("PL 모형:", sorted(PL_USED.items()))
     print("순위 출처 불일치:", RANK_DIFF)
     print("골 순서 문제:", ORDER_PROB)
+
+# ---------------------------------------------------------------- 요약
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+BOUND = [("1992-07-01", "souas"), ("1996-07-01", "blbas"), ("9999-12-31", "newas")]
+def club_of(d):
+    for u, k in BOUND:
+        if d < u: return k
+PER = collections.OrderedDict((k, [0, 0, 0, 0]) for _, k in BOUND)
+for g in GAMES:
+    if CLUB_KEY[g["club_id"]] != club_of(ldate(g)): sys.exit("클럽 경계 불일치 " + g["gameId"])
+for m in M: PER[club_of(m[0])][0] += 1; PER[club_of(m[0])][3] += m[3]
+for r in E: PER[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+if __name__ == "__main__" and "--stat" in sys.argv:
+    print(NG, NGo, NA, NPK, MIN_TOT, len(E), NTIE, NTIEG, dict(PER))
+    for j in judg: print(j)
+    print("단판", sorted(collections.Counter((r[3], r[7]) for r in E).items()))
+
+# ---------------------------------------------------------------- 같은 경기 다른 선수 자료 대조(다른 파일은 고치지 않음)
+CLUBN = {"180": "Southampton", "164": "Blackburn Rovers", "762": "Newcastle United"}
+OTHER_ROWS = collections.defaultdict(list)
+for fn in sorted(os.listdir(os.path.join(ROOT, "src", "data"))):
+    if not fn.endswith(".js") or fn in ("shr.js", "hon.js"): continue
+    tx = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    mm = re.search(r"const (\w+)_E=(\[.*?\]);\n", tx, re.S)
+    if mm:
+        for r in json.loads(mm.group(2)): OTHER_ROWS[r[9]].append((mm.group(1), r))
+CROSS = []
+GD = {ldate(g): g for g in GAMES}
+for d, g in GD.items():
+    ck = key(CLUBN[g["club_id"]])
+    oth = [(p, r) for p, r in OTHER_ROWS.get(d, []) if key(r[1]) == ck]
+    for dd in (str(Date.fromordinal(Date.fromisoformat(d).toordinal() + k)) for k in (-1, 1)):
+        for p, r in OTHER_ROWS.get(dd, []):
+            if key(r[1]) == ck: CROSS.append(("날짜 하루 차이", d, dd, p, r[1]))
+    if not oth: continue
+    comp = comp_of(g["competitionId"], g["round"])
+    for p, r in oth:
+        if r[3] != comp or r[7] != ko_of(g): CROSS.append(("대회/단판 다름", d, p, r[3], comp, r[7], ko_of(g)))
+        if len(r) > 14:
+            mine = tie_of(g)
+            exp = [mine[0], 1 - mine[1], mine[3], mine[2], mine[4], mine[5]] if mine else None
+            if r[14] != exp: CROSS.append(("합산 다름", d, p, r[14], exp))
+    ev = [(r[4], r[5], r[6]) for r in E if r[9] == d] + [(r[4], r[6], r[5]) for p, r in oth]
+    ev.sort()
+    if not all(b[1] >= a[1] and b[2] >= a[2] for a, b in zip(ev, ev[1:])): CROSS.append(("스코어 순서 어긋남", d, ev))
+    CROSS.append(("같은 경기", d, g["opponent"], sorted({p for p, _ in oth})))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[0] != "같은 경기": print(c)
+    print(collections.Counter(c[0] for c in CROSS), len([c for c in CROSS if c[0] == "같은 경기"]))
+
+# ---------------------------------------------------------------- 설명(NOTE)
+SRC = ELO_SRC
+P = PER
+NOTE_LINES = [
+    f"앨런 시어러(사우샘프턴·블랙번 로버스·뉴캐슬 유나이티드)의 클럽 공식 경기 {NG}경기({d_(M[0][0])} 첼시전 ~ {d_(M[-1][0])} 선덜랜드전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·잉글랜드 대표팀 경기 제외. 2006년 은퇴",
+    f"클럽별 경기·골·도움: 사우샘프턴(1988~1992) {P['souas'][0]}·{P['souas'][1]}·{P['souas'][2]}, 블랙번 로버스(1992~1996) {P['blbas'][0]}·{P['blbas'][1]}·{P['blbas'][2]}, 뉴캐슬 유나이티드(1996~2006) {P['newas'][0]}·{P['newas'][1]}·{P['newas'][2]}. 출전 분 합계 {MIN_TOT:,}분",
+    "출처: 경기 목록·출전 분(연장·교체 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 순서·PK·도움은 Transfermarkt 경기 리포트(골·도움이 있거나 리그 밖 대회인 409경기 리포트를 확인, 리포트 골·도움 수가 선수 경기 성적과 모든 경기에서 같음). FotMob에는 2010-11 이전 경기 기록이 없어 대조하지 못함. 출전 분이 없어 90분으로 추정한 경기는 없음",
+    "경기 수·골은 영어 위키백과 클럽·시즌·대회별 기록과 같음(블랙번 171경기 130골, 뉴캐슬 405경기 206골). 사우샘프턴은 위키백과 158경기 43골과 달리 150경기 38골: 위키백과 '기타' 칸의 풀 멤버스컵(제니스 데이터 시스템스컵) 8경기 5골(1990-91 2경기 2골, 1991-92 6경기 3골)은 Transfermarkt에 경기가 없고, 위키백과 시즌 페이지 경기 상자에도 시어러 출전 여부가 경기마다 나오지 않아(시즌 합계만 있음) 넣지 않음. 이 대회는 1부·2부 클럽만 나간 하위 컵이라 계산기 대회 분류에도 맞는 항목이 없음",
+    "골: 자책골 없음. PK 골 67개는 Transfermarkt 골 유형 'Penalty'(선수 경기 성적 PK 골 수와 같음). PK가 막힌 뒤 리바운드로 넣은 골 2개(1994.12.10 사우샘프턴전 13분, 2004.3.20 찰턴전 77분)는 PK 골이 아님. 1991.1.26 코번트리전(FA컵 4라운드) 50분 골은 위키백과 경기 상자·코번트리 텔레그래프 득점 목록이 PK로 적었지만 같은 기사 본문은 'PK를 옆으로 찼다'고 적고 Transfermarkt도 PK 골이 아니라고 적어 일반 골로 셈",
+    "골 시각 보충: 1989~1996년 컵 경기 29개는 Transfermarkt 리포트에 골 시각이 없고 골 목록이 팀별로 묶여 순서도 실제와 다름(예: 1990.11.27 크리스털 팰리스전, 1991.1.23 맨유전). 이 가운데 시어러 골이 있는 15경기 21골은 다른 출처로 분·골 전 스코어를 정함: 사우샘프턴 10경기 13골은 영어 위키백과 시즌 페이지 경기 상자(1989.10.3 요크 10·76분, 1990.9.25 로치데일 46·75분, 1990.11.27 크리스털 팰리스 59분, 1991.1.16 맨유 71분, 1991.1.23 맨유 52·87분 PK, 1991.9.24 스카버러 17·27분, 1991.10.30 셰필드 웬즈데이 81분, 1992.2.26 볼턴 28분), 1991.1.5 입스위치전 35분 동점골(0-1에서)은 Soccer America 결과표·사우샘프턴 팬 사이트 경기 기록, 1991.1.26 코번트리전 50분(0-1에서)은 코번트리 텔레그래프 기록",
+    "블랙번 리그컵 5경기 8골(1992.9.23 허더즈필드 원정 1골, 1992.10.6 허더즈필드 홈 2골, 1992.10.28 노리치 1골, 1992.12.9 왓퍼드 2골, 1993.9.21 본머스 1골)은 골 시각을 확인한 출처가 없어 45분으로 추정하고, 골 전 스코어는 Transfermarkt 골 목록 순서(시어러 골이 먼저)로 둠(추정). 본머스전은 유일한 골이라 0-0이 확실함. 1992.10.6 허더즈필드전은 연장까지 간 경기지만 시어러 골은 정규시간 골로 둠",
+    "1998.2.4 스티버니지전(FA컵 4라운드 재경기 2-1)은 Transfermarkt 리포트에 스티버니지 골이 빠져 있어 뉴캐슬 구단 경기 기록(nufc.com)·BBC 기사로 확인: 스티버니지 크로쇼 74분 골이 시어러 16·65분 골 뒤라 골 전 스코어는 0-0·1-0",
+    "골 시각이 위키백과 경기 상자와 1~4분 다른 사우샘프턴 리그 경기(1988.4.9 아스널전 34분/33분, 1991.4.13 선덜랜드전 85/83분, 1992.4.4 QPR전 68/64분 등)와 1991.9.7 QPR전(Transfermarkt 45분, 위키백과 1분)은 Transfermarkt 시각을 씀(어느 쪽이든 골 전 스코어 같음). 2002.12.26 볼턴전(3-4 패)은 Transfermarkt가 시어러 8·79분·아메오비 71분, 스포츠몰 경기 기록이 아메오비 8분·시어러 71·80분으로 갈려 Transfermarkt 기록을 씀(첫 골 전 스코어 0-1, 둘째 골 2-4)",
+    f"도움: 모두 2014년 8월 이전이라 Transfermarkt 경기 리포트 단일 출처(클로제·인시녜·긱스 선례). Transfermarkt 도움 94개에서 상대 자책골에 준 도움 1개(2005.5.15 첼시전 33분 제레미 자책골, 유형 'Shot on goal')를 빼 {NA}개. 시어러 본인 PK 골에 본인 도움으로 적힌 7개(PK 유도 표기)는 원래 94개에 들어 있지 않음. PK 유도·슈팅 리바운드로 적힌 다른 도움은 없음. 도움 유형 칸이 빈 21개는 일반 도움으로 셈. 1992년 이전 사우샘프턴 도움은 Transfermarkt에 3개뿐이라 실제보다 적을 수 있음. 프리미어리그 공식 집계(검색 요약)는 리그 도움 64개, Transfermarkt 리그 도움 68개",
+    "출전 분: Transfermarkt 그대로(아래 두 경기만 고침). 1989.10.3 요크전(리그컵)은 Transfermarkt가 45분 교체로 적었지만 위키백과 경기 상자에 시어러 76분 골이 있고 11v11은 그 교체를 다른 선수(레이 월리스)로 적어 90분, 2002.12.26 볼턴전은 Transfermarkt가 73분 교체로 적었지만 같은 리포트에 시어러 79분 골이 있어 90분으로 둠. 연장까지 뛴 경기 10개(120분), 승부차기로 끝난 경기 3개(1992.2.5 맨유전 FA컵 재경기, 1998.11.11 블랙번전 리그컵, 2003.8.27 파르티잔전 챔스 예선)는 Transfermarkt 출전 분 그대로",
+    "날짜: Transfermarkt 일정·리포트 날짜(현지)를 씀. 선수 경기 성적(API)의 UTC 날짜는 726경기 중 354경기가 하루 앞서므로 쓰지 않음. 위키백과 사우샘프턴 시즌 페이지는 1992.2.5 맨유전·1992.2.26 볼턴전 FA컵 재경기를 하루 앞 날짜로 적었지만 Transfermarkt·FA컵 시즌 페이지·11v11 날짜를 따름",
+    f"상대 Elo(기록 {len(E)}개: 같은 팀·시즌 통합표 {SRC['팀×시즌 통합표']}, 순위표+기존 순위값·모형 {SRC['순위표+리그 모형']}, 직접 추정 {SRC['직접 추정']}): 같은 팀·시즌 다른 선수 자료 값 → 직접 추정 → 그 시즌 최종 순위를 기존 리그 순위값에 넣은 값 순으로 씀. 같은 경기 다른 선수 자료(긱스·판니스텔로이·루니·베컴·램파드·제라드·앙리 등 36경기)는 모두 상대 팀 쪽 기록이라 상대 Elo는 겹치지 않음",
+    "순위: 잉글랜드 1부 1989-90~1991-92와 2~4부 1989-90~1995-96·2000-01·2001-02는 영어 위키백과 최종 순위표(공식 순위; Transfermarkt 표는 이 시기 동률 순서가 달라 2부에서만 50팀 가까이 다름), 나머지는 Transfermarkt 순위표. 셰필드 유나이티드 1997-98 2부는 Transfermarkt 7위가 아니라 6위(승격 플레이오프 6번 시드), 파르티잔 1998-99는 Transfermarkt 2위가 아니라 우승(나토 공습으로 24라운드에서 중단, 1위로 확정)",
+    "잉글랜드 1부 1987-88~1996-97은 리그 수준 추정(lv에 '리그 수준 추정'): 같은 시즌 기존 순위값이 있으면 그 사이 직선(한 칸이면 가운데), 없는 순위·시즌은 긱스 판정의 모형(2000-01 프리미어리그 순위값을 곡선으로, 1996-97 기존 값에서 구한 보정 −80, 21·22팀 시즌은 위치 비례 보간)을 씀(1987-88 아스널 6위 1707, 1989-90 QPR 11위·루턴 17위, 1990-91 7개 순위, 1993-94·1995-96 1위 맨유 1898). 1997-98 이후 1부는 기존 순위값(빈 순위는 앞뒤 가운데). 2부는 챔피언십 고정 순위값, 3부는 리그 원 고정 순위값, 4부는 리그 투 고정 순위값(빈 순위는 앞뒤 사이 직선), 5부 컨퍼런스(스티버니지 1997-98 15위)는 1300(추정)",
+    "직접 추정(모두 lv에 '추정'): 스윈던 1995-96 3부 1위 1611, 트렐레보리 1994 10위 1350, 페렌츠바로시 1996-97 3위 1430, 파르티잔 1998-99 1위 1520, CSKA 소피아 1999-00 2위 1480, 취리히 1999-00 1450, 젤레즈니차르 2002-03 보스니아 2위 1400, 발레렝아 2003 12위 1410, 디나모 트빌리시 2004-05 조지아 1위 1400, 브네이 사흐닌 2004-05 10위 1400, 두브니차 2005-06 슬로바키아 8위 1330. 순위표로 확인해 기존 순위값을 쓴 것: 헤이렌베인 2004-05 5위 1624, 스포르팅 2004-05 3위 1716",
+    "대회 비중: 커뮤니티 실드(1994·1996)는 국내컵 결승 비중. FA컵·리그컵은 16강(FA컵 5라운드·리그컵 4라운드)까지 낮은 비중, 8강 이후(FA컵 6라운드·리그컵 5라운드부터)와 준결승·결승, 재경기는 해당 라운드 비중. 챔스 조별(1997-98, 2002-03 1·2차 조별), 챔스 예선 3라운드, UEFA컵 1라운드와 인터토토컵(2005, 3라운드·준결승)은 유로파 예선, UEFA컵 조별(2004-05)은 유로파 조별, UEFA컵 2·3라운드·32강·16강·8강과 컵위너스컵 1998-99 1라운드는 유로파 토너먼트, UEFA컵 준결승(2003-04)은 준결승 비중",
+    f"두 경기 합산(UEFA 대회·인터토토컵·리그컵 2라운드) 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함(원정 다득점·연장 있음). 2차전 기록의 1차전 스코어는 Transfermarkt 경기 리포트로 채움",
+    "시즌 구분: 사우샘프턴·블랙번은 기본 8월 1일 기준, 뉴캐슬은 7월 10일 기준(2005.7.17·7.23·7.27 인터토토컵이 2005-06). 클럽 구분: 1992.7.1 전 사우샘프턴, 1996.7.1 전 블랙번 로버스, 이후 뉴캐슬(마지막 경기 1992.5.2·1996.4.17, 첫 경기 1992.8.15·1996.8.11)",
+    "수상 기록은 Transfermarkt 업적 페이지 기준: 프리미어리그 1994-95(블랙번), 올해의 선수 1994, 프리미어리그 올해의 선수 5회(1994-95·1996-97·1998-99·1999-00·2002-03, Transfermarkt 표기), 득점왕(프리미어리그 1994-95 34골·1995-96 31골·1996-97 25골, UEFA컵 2003-04 6골·2004-05 11골). 유로 1996 득점왕은 대표팀 기록이라 뺌. FA컵 준우승(1998·1999)은 Transfermarkt 페이지에 없어 넣지 않음",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6], r[13])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1] or b[2] < a[2]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[0] == "a" and r[13] in ME_TM: problems.append(("본인 도움", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+    if r[4] > 90 and not r[11] and not r[10]: problems.append(("정규시간 90분 초과인데 연장 표시 없음", r))
+    if len(r) > 14 and r[7] != 0: problems.append(("합산인데 단판", r))
+mm = {m[0]: m for m in M}
+GBYDATE = {ldate(g): g for g in GAMES}
+for r in E:
+    m = mm.get(r[9])
+    if m and m[1] != r[1]: problems.append(("상대 이름 다름", r[9], r[1], m[1]))
+    if m and m[2] != r[3]: problems.append(("대회 다름", r[9], r[3], m[2]))
+    gm = GBYDATE.get(r[9])
+    if gm and gm["gameId"] not in MIN_M_FIX and r[4] <= 90 and int(gm["playedMinutes"]) < 90 and gm["gameState"] == "regularly_terminated":
+        pm = int(gm["playedMinutes"])
+        if gm["isStarting"] == "True" and r[4] > pm + 2: problems.append(("선발인데 골·도움 분이 교체 아웃 뒤", r, pm))
+        if gm["isStarting"] != "True" and r[4] < 90 - pm - 2: problems.append(("교체 투입 전 골·도움", r, pm))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const SHR_E={J(E)};\nconst SHR_M={J(M)};\nconst SHR_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "rank_source_diffs": [[list(k), v] for k, v in RANK_DIFF], "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)} · 클럽 {dict(PER)}")
