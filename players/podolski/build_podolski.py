@@ -194,6 +194,7 @@ EX_BL2 = existing("2. 분데스리가")
 EX_TR = existing("쉬페르리그")
 EX_J1 = existing("J1리그")
 EX_PL = existing("프리미어리그")
+GB2_FIX = pooled_pre = None
 
 def fill(tab, r):
     """같은 시즌(또는 시즌 무관 고정값)에 이웃 순위 값이 있으면 그 사이 직선(한 칸이면 가운데)"""
@@ -211,6 +212,7 @@ def pooled(ex):
         for r, e in t.items(): c[r][e] += 1
     return {r: v.most_common(1)[0][0] for r, v in c.items()}
 L2_FIX = pooled(EX_BL2)
+GB2_FIX = pooled(existing("챔피언십"))
 J1_FIX = pooled(EX_J1)
 # 분데스리가: 2025-26 기준값 + 시즌 폭(그 시즌 기존 값들과의 차이 중앙값; 외질·클로제 자료와 같은 방식)
 BL_BASE = [2006, 1912, 1860, 1828, 1812, 1797, 1777, 1756, 1737, 1723, 1713, 1702, 1697, 1682, 1661, 1644, 1634, 1613]
@@ -259,15 +261,19 @@ def model(lg, season, r, n):
         return round(tr_mean_season(season) - 162 + SD2 * curve(r, n)), f"튀르키예 2부 {season} {r}위 (추정, 쉬페르리그 평균 − 독일 1·2부 평균 차)"
     if lg == "PL1":
         return round(pl_mean(season) + SD_PL * curve(r, n)), f"엑스트라클라사 {season} {r}위 (리그 수준 추정)"
+    if lg == "GB2":
+        e, why = fill(GB2_FIX, r)
+        if e: return e, f"챔피언십 {season} {r}위" + ((" (추정," + why[2:]) if why else "")
     if lg == "GB1":
         t = EX_PL.get(season, {})
         if r in t: return t[r], f"프리미어리그 {season} {r}위"
     return None
-RANK_LG = ["L1", "L2", "GB1", "TR1", "TR2", "JAP1", "PL1"]
+RANK_LG = ["L1", "L2", "GB1", "GB2", "TR1", "TR2", "JAP1", "PL1"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정')
 MAN = {
-    (key("SV Eintracht Trier 05"), "2004-05"): (1300, "독일 4부(오버리가 남서부) 2004-05 (추정, 다른 선수 자료 독일 4부 1300과 같음)"),
+    (key("FC St. Pauli"), "2006-07"): (1450, "독일 3부(레기오날리가 북부) 2006-07 1위 (추정, 다른 선수 자료 독일 3부 1450과 같음)"),
+    (key("Olympiacos Piraeus"), "2012-13"): (1630, "그리스 2012-13 1위 (추정, 다른 선수 자료 올림피아코스 2011-12 1620·2013-14 1640의 가운데)"),
     (key("SC Wiedenbrück"), "2011-12"): (1300, "독일 4부(레기오날리가 서부) 2011-12 (추정, 다른 선수 자료 독일 4부 1300과 같음)"),
     (key("Kickers Emden"), "2009-10"): (1300, "독일 4부(레기오날리가 북부) 2009-10 (추정, 다른 선수 자료 독일 4부 1300과 같음)"),
     (key("Dersim Spor"), "2016-17"): (1000, "튀르키예 아마추어 리그 2016-17 (추정, 다른 선수 자료 튀르키예 4부 990보다 조금 위)"),

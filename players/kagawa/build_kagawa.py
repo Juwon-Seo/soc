@@ -182,6 +182,7 @@ def opp_elo(opp, d, cid):
         seasons = [season_j(d)]
     else:
         eu = season_eu(d); y0 = int(eu[:4])
+        if cid in ("ES2", "ES1P") and "2020-07-01" <= d < "2020-09-01": eu = "2019-20"   # 코로나로 늦게 끝난 2019-20 세군다
         seasons = [eu, str(y0), str(y0 + 1)] if cid in ("CL", "EL", "ELQ", "ECLQ") else [eu]
     for s in seasons:
         if (k, s) in MAN:
