@@ -47,9 +47,21 @@ for r in rd("fotmob_events.csv"):
 # 출전 분 고침: gameId -> (분, 근거)
 MIN_FIX = {}
 # 도움 제외(Transfermarkt 리포트 도움이지만 넣지 않음): gameId|분 -> 이유 (PK 유도·'Shot on goal'·상대 자책골은 일반 규칙)
-EXCL_A = {}
+EXCL_A = {
+    "3030595|86": "TM 단독(FotMob 도움 없음). 경기 기사(Sports Mole 문자 중계 등): 86분 나잉골란 골은 콜라로프가 안으로 파고들어 내준 공 → 제코 도움 아님",
+    "4129784|15": "TM 단독(FotMob 도움 없음). DHA(데미뢰렌 통신) 경기 기사: 제코가 골문 앞으로 내준 공이 수비에 맞고 시만스키 앞에 떨어짐(굴절) → 도움 아님(Cumhuriyet 문자 중계는 제코 패스로 적음)",
+}
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움
-ADD_CONFIRMED = {}
+ADD_CONFIRMED = {
+    "2800309|61": "AP 기사(ESPN 게재) 'Dzeko returned the favor ... with a 40-yard pass, which El Shaarawy controlled' · Sky Sports(AFP 계열 기사, worldsoccertalk 같은 글) 'controlled Dzeko's 40-yard pass'",
+    "3614891|90+4": "인테르 구단 경기 기사(영어 'Edin Dzeko sent in a low cross that Alexis Sanchez converted', 이탈리아어 'su assist di Edin') · Fox Sports 경기 기록 'assisted by E. Dzeko'",
+    "4129466|43": "아나돌루 통신 기사(TGRT Haber·Politikam 게재) 'Dzeko'nun ceza alanında pasında ... İrfan Can Kahveci, topu ağlara gönderdi' · Cumhuriyet 문자 중계 'Dzeko'nun pasında İrfan Can net bir vuruşla ağlara yolladı'",
+    "4893856|98": "샬케 구단 경기 기사 'Edin Džeko laid the ball off and Moussa Sylla ... (98')' · dpa 기사(Volksstimme 게재) 'ließ einen flachen Ball in den Strafraum zu Sylla abtropfen'",
+}
+# Transfermarkt 리포트에 없는 도움(FotMob 선수 경기 목록 + 다른 출처 2곳): (gameId, 분, 표시 분, 골 전 우리, 골 전 상대, 득점자, 근거)
+ADD_ROWS = [
+    ("2897523", 15, 0, 0, 0, "Cengiz Ünder", "FotMob 선수 경기 목록 도움 1 · AS 로마 구단 경기 기사 'Dzeko does well to control the ball and play it into the box for Cengiz' · Forza Italian Football 'latched onto a ball from Edin Dzeko' (Transfermarkt 리포트 없음, 경기 성적 도움 0)"),
+]
 
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"TS1", "L1", "GB1", "IT1", "TR1", "L2"}
@@ -327,6 +339,11 @@ for e in EVENTS:
                 PENDING.append((tag, d, opp, e["minute"], e["scorer"], e["assist_type"])); continue
             used_fm[gid] += 1
         add_row("a", mi, dm, gf, ga, 0, e["scorer"], tie, comp, ko, d, opp, cid)
+
+for gid, mi, dm, gf, ga, sc, why in ADD_ROWS:
+    g = G[gid]
+    add_row("a", mi, dm, gf, ga, 0, sc, tie_of(g), comp_of(g["competitionId"], g["round"]), ko_of(g), ldate(g), g["opponent"].strip(), g["competitionId"])
+    judg.append(("도움 추가(TM 리포트 없음)", ldate(g), g["opponent"], mi, sc, why))
 
 FM_ONLY = []
 for gid, ts in FM_ASSIST.items():
