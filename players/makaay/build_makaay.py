@@ -285,6 +285,10 @@ def rank_model(lg, season, r, n):
         (e, lv), _ = c.most_common(1)[0]
         lv = re.sub(r"\s*\(추정, 선수 간 값.*\)$", "", lv)
         return e, lv
+    if lg == "L2":   # 2. 분데스리가는 기존 값이 시즌과 상관없이 순위마다 같음(2001-02·2004-05 4위 1622, 9위 1584 등) → 같은 순위의 다른 시즌 값
+        other = {e for (l2, s2, rr), cc in RV.items() if l2 == nm and rr == r for (e, _lv) in cc}
+        if len(other) == 1:
+            v = other.pop(); INTERP_USED.add((nm, season, r, v, "같은 순위 다른 시즌 값")); return v, f"{nm} {season} {r}위"
     if lg == "NL1": assert n == 18; return ERE[r - 1], f"에레디비시 {season} {r}위"
     if lg == "L1": assert n == 18; return BUL[r], f"분데스리가 {season} {r}위"
     if lg in ("ES1", "NL2", "L2"):
@@ -311,6 +315,8 @@ MAN = {
     ("SV Deurne", "2007-08"): (1150, NLAM),
     ("HHC Hardenberg", "2008-09"): (1150, NLAM),
     ("VV Harkemase Boys", "2009-10"): (1150, NLAM),
+    # 러시아 2008(달력 연도) 2위(Transfermarkt RU1 2008 표) — 기존 자료의 러시아 2위 값 1604(CSKA 2009·스파르타크 2011-12)와 같게
+    ("CSKA Moscow", "2008"): (1604, "러시아 2008 2위 (추정, 다른 선수 자료의 러시아 2위 값 1604와 같음)"),
 }
 
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []
@@ -322,7 +328,9 @@ def opp_elo(o, d, cid):
     if len(vals) > 1:
         print("  [같은 경기 값 여럿]", o, d, vals)
     k = key(o)
-    seasons = [eu(d), d[:4], str(int(d[:4]) + 1)] if cid in ("CL", "UEFA") else [eu(d)]
+    y = int(d[:4])
+    # 유럽 대회 상대의 달력 연도 리그: 가을 경기는 그해, 봄 경기는 전해·그해 시즌
+    seasons = ([eu(d), str(y)] if d[5:7] >= "07" else [eu(d), str(y - 1), str(y)]) if cid in ("CL", "UEFA") else [eu(d)]
     for s in seasons:
         if (k, s) in TABLE:
             (e, lv), _ = collections.Counter(TABLE[(k, s)]).most_common(1)[0]
