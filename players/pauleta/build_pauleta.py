@@ -330,8 +330,27 @@ def opp_elo(o, d, cid, rnd=""):
 # ---------------------------------------------------------------- 직접 추정(모두 lv에 '추정') — judgments.md 6절
 C4 = 1231      # 프랑스 4부(CFA): 주니뉴·지울리 자료 1231과 같음
 C5 = 1150      # 프랑스 5부(CFA2) 이하 아마추어: 오바메양·주니뉴·지울리 자료 1150과 같음
-MANUAL = []    # (팀, 시즌, 값, lv)
-# @@MAN@@
+C6 = 1100      # 프랑스 6부(DH, 지역 리그): 다른 선수 자료 리나몽레리 2019-20 6부 1100과 같음
+MANUAL = [
+    ("Jerez CF", "1998-99", 1350, "스페인 3부 이하 (추정, 디비전 확인 못 함; 다른 선수 자료 스페인 3부 1350과 같음)"),
+    ("Panathinaikos", "1999-00", 1560, "그리스 1999-00 2위 (추정, 다른 선수 자료 파나티나이코스 2000-01 2위 1560과 같음)"),
+    ("Lierse SK", "2000-01", 1457, "벨기에 1부 2000-01 10위 (추정, 다른 선수 자료 같은 시즌 1위 1764·11위 1423 사이 직선)"),
+    ("US Issoire", "2000-01", C6, "프랑스 6부(DH) 2000-01 (추정, 지역 리그 팀; 다른 선수 자료 프랑스 6부 1100과 같음)"),
+    ("Debreceni VSC", "2001-02", 1380, "헝가리 2001-02 9위 (추정, 다른 선수 자료 헝가리 8위 1380과 같은 수준)"),
+    ("Standard Liège", "2001-02", 1545, "벨기에 1부 2001-02 5위 (추정, 다른 선수 자료 벨기에 1부 5위 1545와 같음)"),
+    ("ÉFC Fréjus Saint-Raphaël", "2001-02", C4, "프랑스 4부(CFA) 2001-02 (추정, 다른 선수 자료 프랑스 4부 1231과 같음)"),
+    ("MSK Púchov", "2002-03", 1330, "슬로바키아 1부 (추정, 다른 선수 자료 푸호프 2003-04 1330과 같음)"),
+    ("JA Armentières", "2002-03", C5, "프랑스 하부 아마추어 2002-03 (추정, 디비전 확인 못 함; 다른 선수 자료 프랑스 하부 아마추어 1150과 같음)"),
+    ("Aviron Bayonnais", "2003-04", C4, "프랑스 4부(CFA) 2003-04 (추정, 다른 선수 자료 프랑스 4부 1231과 같음)"),
+    ("ESA Brive", "2003-04", C4, "프랑스 4부(CFA) 2003-04 (추정, 다른 선수 자료 프랑스 4부 1231과 같음)"),
+    ("US Langueux", "2004-05", C5, "프랑스 하부 아마추어 2004-05 (추정, 디비전 확인 못 함; 다른 선수 자료 프랑스 하부 아마추어 1150과 같음)"),
+    ("US Vermeloise", "2005-06", C6, "프랑스 6부(DH) 2005-06 (추정, 다른 선수 자료 프랑스 6부 1100과 같음)"),
+    ("AS Lyon-Duchère", "2005-06", C4, "프랑스 4부(CFA) 2005-06 (추정, 다른 선수 자료 프랑스 4부 1231과 같음)"),
+    ("Derry City", "2006-07", 1300, "아일랜드 2006 2위 (추정, 다른 선수 자료 아일랜드 1위 보헤미안 2000-01 1300과 같음)"),
+    ("Hapoel Tel Aviv", "2006-07", 1475, "이스라엘 2006-07 4위 (추정, 다른 선수 자료 이스라엘 2위 1500·8위 1425 사이 직선)"),
+    ("Panathinaikos", "2006-07", 1560, "그리스 2006-07 3위 (추정, 다른 선수 자료 그리스 3위 1560과 같음)"),
+    ("US Jeanne d'Arc Carquefou", "2007-08", C5, "프랑스 5부(CFA2) 2007-08 (추정, 다른 선수 자료 프랑스 5부 1150과 같음)"),
+]
 for o, s, e, lv in MANUAL: man(o, s, e, lv)
 
 E = []
@@ -391,15 +410,16 @@ for b, (oe, om) in OTHERS.items():
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_opp(x, r)]
             if hit: CROSS.append(("파울레타 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
 # 같은 경기를 상대 쪽에서 기록한 다른 선수 자료(파울레타 팀이 그 선수의 상대): 날짜가 같고 상대가 파울레타 소속 팀인 행
-MYCLUB = {"1087": "Salamanca", "897": "Deportivo", "40": "Bordeaux", "583": "Paris Saint-Germain"}
+MYCLUB = {"1087": "salamanca", "897": "coruna", "40": "bordeaux", "583": "paris saint germain"}
 GBYDATE = {ldate(g): g for g in GAMES}
-OPPSIDE = []
+OPPSIDE = []      # (파일, 날짜, 종류, 분, 그쪽 골 전 스코어, 파울레타 쪽 같은 경기 행과 모순 여부)
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         g = GBYDATE.get(x[9])
-        if not g: continue
-        if norm(MYCLUB[g["club_id"]]) in norm(x[1]) and (toks(x[1]) & toks(G[g["gameId"]]["club"]) or norm(MYCLUB[g["club_id"]]) in norm(x[1])):
-            OPPSIDE.append((b, x[9], x[0], x[1], x[4], x[5], x[6], x[3], x[13]))
+        if not g or MYCLUB[g["club_id"]] not in norm(x[1]): continue
+        mine = [r for r in E if r[9] == x[9]]
+        bad = [r for r in mine if (r[4] < x[4] and (r[5] > x[6] or r[6] > x[5])) or (r[4] > x[4] and (r[5] < x[6] or r[6] < x[5]))]
+        OPPSIDE.append((b, x[9], x[0], x[4], f"{x[5]}-{x[6]}", "모순" if bad else ("대조" if mine else "파울레타 기록 없는 경기")))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌

@@ -325,3 +325,164 @@ if __name__ == "__main__" and "--debug" in sys.argv:
         k = (x[1], x[2], x[3], x[4][:5])
         if k in seen: continue
         seen.add(k); print(x)
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+def load_js(fn, P):
+    s = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
+    return json.loads(m.group(1))
+MATES = {"Alessandro Del Piero": ("del.js", "DEL"), "Zinédine Zidane": ("zid.js", "ZID"), "Pavel Nedvěd": ("ned.js", "NED"),
+         "Ronaldo": ("rno.js", "RNO"), "Clarence Seedorf": ("see.js", "SEE"), "Andriy Shevchenko": ("she.js", "SHE"),
+         "Kaká": ("kak.js", "KAK"), "Filippo Inzaghi": ("inz.js", "INZ")}
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[8] != b[8]: diffs.append(f"PK {a[8]}/{b[8]}")
+    if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None):
+        diffs.append(f"단판/합산 {a[7]},{a[14] if len(a) > 14 else '-'}/{b[7]},{b[14] if len(b) > 14 else '-'}")
+    return diffs
+for nm, (fn, P) in MATES.items():
+    ent = load_js(fn, P)
+    for r in E:
+        if r[0] == "a" and norm(r[13]) == norm(nm):
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("비에리 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:
+        if x[0] == "a" and x[13] == "Christian Vieri":
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→비에리 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    # TM이 비에리 도움으로 적었지만 뺀 동료 골 / TM 동료 도움이 동료 파일에 없는 비에리 골
+    for e in EVENTS:
+        if e["gameId"] not in G: continue
+        d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
+        if e["vieri_assist_other"] == "1" and norm(e["scorer"]) == norm(nm) and not any(r[0] == "a" and r[9] == d and abs(r[4] - mi) <= 2 for r in E):
+            has = any(x[0] == "g" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent)
+            CROSS.append(("TM 비에리 도움을 뺀 동료 골", nm, d, e["minute"], e["assist_type"], "동료 골 있음" if has else "동료 골 없음"))
+        if e["vieri_scorer"] == "1" and norm(e["assist_player"]) == norm(nm):
+            if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움이 동료 파일에 없음", nm, d, e["minute"], e["assist_type"]))
+# 같은 날·같은 상대의 다른 선수 자료 전체(동료) — 대회·Elo·lv·합산
+SAMEGAME = []
+for fn in sorted(os.listdir(os.path.join(ROOT, "src", "data"))):
+    if not fn.endswith(".js") or fn in ("hon.js", "vie.js"): continue
+    P = fn[:-3].upper()
+    try: ent = load_js(fn, P)
+    except Exception: continue
+    for x in ent:
+        for r in E:
+            if r[9] == x[9] and key(r[1]) == key(x[1]):
+                d = [t for t in cmp_rows(r, x) if not t.startswith(("분", "스코어", "PK"))]
+                SAMEGAME.append((fn, r[9], r[1], d or "같음"))
+                break
+SAMEGAME = sorted(set((a, b, c, tuple(d) if isinstance(d, list) else d) for a, b, c, d in SAMEGAME))
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter((c[0], c[-1] == "같음") for c in CROSS))
+    for s_ in SAMEGAME:
+        if s_[-1] != "같음": print("같은 경기 차이", s_)
+    print("같은 경기", collections.Counter((s_[0], s_[-1] == "같음") for s_ in SAMEGAME))
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("torvi", "1992-11-10", "토리노", "1991~1992"), ("pisvi", "1993-07-01", "피사", "1992~1993"),
+         ("ravvi", "1994-07-01", "라벤나", "1993~1994"), ("venvi", "1995-07-01", "베네치아", "1994~1995"),
+         ("atavi", "1996-07-01", "아탈란타", "1995~1996"), ("juvvi", "1997-07-01", "유벤투스", "1996~1997"),
+         ("atmvi", "1998-07-01", "아틀레티코 마드리드", "1997~1998"), ("lazvi", "1999-07-01", "라치오", "1998~1999"),
+         ("intvi", "2005-07-01", "인테르", "1999~2005"), ("milvi", "2006-01-01", "AC 밀란", "2005~2006"),
+         ("monvi", "2006-07-01", "AS 모나코", "2006"), ("atavi", "2007-07-01", "아탈란타", "2006~2007"),
+         ("fiovi", "2008-07-01", "피오렌티나", "2007~2008"), ("atavi", None, "아탈란타", "2008~2009")]
+TM_CLUB = {"416": "torvi", "4172": "pisvi", "1105": "ravvi", "607": "venvi", "800": "atavi", "506": "juvvi", "13": "atmvi",
+           "398": "lazvi", "46": "intvi", "5": "milvi", "162": "monvi", "430": "fiovi"}
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+ORDER = list(dict.fromkeys(k for k, *_ in CLUBS))
+CLUB_KO = {k: n for k, u, n, y in CLUBS}
+CLUB_Y = {"torvi": "1991~1992", "pisvi": "1992~1993", "ravvi": "1993~1994", "venvi": "1994~1995", "atavi": "1995~1996·2006~2007·2008~2009",
+          "juvvi": "1996~1997", "atmvi": "1997~1998", "lazvi": "1998~1999", "intvi": "1999~2005", "milvi": "2005", "monvi": "2006", "fiovi": "2007~2008"}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k in ORDER)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
+    if season_eu(ldate(g))[:4] != g["seasonId"]: sys.exit("시즌 불일치 " + g["gameId"])
+
+# ---------------------------------------------------------------- 설명(NOTE)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return "·".join(map(str, v[:3]))
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+SRC = ELO_SRC
+NOTE_LINES = [
+    f"크리스티안 비에리(토리노·피사·라벤나·베네치아·아탈란타·유벤투스·아틀레티코 마드리드·라치오·인테르·AC 밀란·AS 모나코·피오렌티나)의 클럽 공식 경기 {NG}경기({d_(M[0][0])} 라치오전 ~ {d_(M[-1][0])} 카타니아전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·이탈리아 대표팀 제외",
+    "클럽별 경기·골·도움: " + ", ".join(f"{CLUB_KO[k]}({CLUB_Y[k]}) {c3(ST[k])}" for k in ORDER)
+    + f". 출전 분 합계 {MIN_TOT:,}분(Transfermarkt 기록, 90분으로 추정한 경기 없음)",
+    "출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(골이나 도움이 있는 경기와 리그 밖 경기 전부). 경기 수·골은 영어·이탈리아어 위키백과 클럽·시즌별 기록과 대조함(통산 Transfermarkt 477경기 236골 = 영어 위키백과 476경기 236골, 라벤나 1993-94 코파 이탈리아 1경기를 영어 위키백과만 뺌). FotMob에는 비에리의 클럽 경기별 자료가 없어(2010년 이전) 골 시각은 Transfermarkt만 근거",
+    "넣지 않은 경기: 이탈리아어 위키백과에만 있는 프라토 1989-90 세리에C 코파 이탈리아 1경기(0골)와 베네치아 1994-95 코파 델레 알피 2경기(1골) — 코파 델레 알피는 이탈리아·스위스 클럽 친선 성격의 지역 대회라 공식 대회로 보지 않았고 Transfermarkt에도 경기가 없음. 토리노 1990-91은 출전 기록 없음",
+    "골: Transfermarkt 리포트 골 236개를 모두 씀(자책골 없음). PK 골 25개는 Transfermarkt 골 유형 'Penalty' 기준(선수 경기 성적의 PK 골 수와 같음)",
+    f"도움: 모두 Transfermarkt 경기 리포트 도움(2014년 이전이라 단일 출처, 경기마다 다른 출처로 대조하지 못함). 도움 {NA} = Transfermarkt 39 − PK 유도 4(1996.12.15 베로나전·1997.2.16 페루자전 델 피에로, 1997.3.1 비첸차전 파도바노, 1997.5.18 파르마전 아모루소) − 슈팅 리바운드('Shot on goal') 2(1999.2.21 인테르전 콘세이상, 2000.12.23 아탈란타전 세도르프) − 상대 자책골에 준 도움 1(1998.5.10 바르셀로나전 페르난두 쿠투). 1998.3.21 살라망카전 비에리 PK 골에 비에리 본인이 PK 유도로 적힌 것은 도움이 아님(Transfermarkt 도움 합계에도 없음). 2007.9.29 리보르노전 산타나 골(비에리 크로스, 슈팅이 굴절돼 들어감)은 크로스 도움이라 남김. 유형 칸이 빈 도움 1개(2004.2.15 우디네세전 크루스)는 일반 도움으로 셈",
+    "출전 분: 2003.4.19 브레시아전 18분은 46분 교체 투입 뒤 63분 퇴장(난투로 빌리카와 함께 퇴장, Transfermarkt 리포트)이라 그대로 씀",
+    "날짜는 경기 현지 날짜(Transfermarkt 리포트·일정표 날짜; 선수 경기 성적의 날짜는 킥오프 시각이 없는 1990년대 세리에B·라리가 경기 등에서 하루 앞섬)",
+    "2005.4.12 챔스 8강 2차전 밀란전(관중 소요로 0-1에서 중단, 0-3 몰수)은 비에리가 벤치에만 있어 출전·기록 없음. 1차전(2005.4.6, 35분 출전)은 골·도움이 없어 합산 계산에 쓰이지 않음",
+    f"상대 Elo는 같은 경기를 다룬 다른 선수 자료 값, 같은 팀·같은 시즌 다른 선수 자료 값, 직접 추정, 그 시즌 최종 순위(Transfermarkt 순위표를 영어 위키백과 최종 순위와 대조)를 기존 리그 모형에 넣은 값 순으로 씀(기록 {len(E)}개: 같은 경기 {SRC['같은 경기 다른 선수 자료']}, 같은 팀·시즌 {SRC['팀×시즌 통합표']}, 순위표+모형 {SRC['순위표+리그 모형']}, 직접 {SRC['직접 추정']})",
+    "세리에A 18팀 시즌(1991-92·1995-96)은 다른 선수 자료의 18팀 순위값(1위 1969 ~ 18위 1614, 7·9·12·16위는 앞뒤 값의 가운데), 세리에B 1992-93~1995-96은 다른 선수 자료와 같은 세리에B 모형(평균 1578, 2부 흩어짐)에 위키백과 최종 순위(동률은 공동 순위: 1993-94 비첸차 공동 10위)를 넣음. 세리에A 1991-92 라치오는 34점 동률로 Transfermarkt 11위·위키백과 10위라 10위로 씀. 라리가 1997-98 살라망카(15위)는 라울·호나우두·지단 자료와 같은 1990년대 라리가 모형(리그 수준 추정)",
+    "직접 추정(다른 선수 자료의 같은 팀·나라 값 기준): PAOK 1997-98 그리스 4위 1500, AEK 아테네 2007-08 그리스 2위 1550, 믈라다 볼레슬라프 2007-08 체코 7위 1450(모두 추정), 벤피카 2003-04 포르투갈 2위 1795(다른 선수 자료의 포르투갈 2위 값)",
+    "대회 비중: 코파 이탈리아·코파 델 레이·쿠프 드 라 리그는 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중), UEFA 슈퍼컵 1996-97(두 경기)은 국내컵 결승, UEFA컵 1라운드는 유로파 예선, UEFA컵 2라운드 이후·32강과 컵위너스컵 8강은 유로파 토너먼트, 2007-08 UEFA컵 조별은 유로파 조별, 컵위너스컵 준결승·결승(1999 마요르카전)은 유로파 준결승·결승, 챔스 2차 조별(2002-03)은 조별로 계산함. 2000.5.23 세리에A 챔스 진출 플레이오프 파르마전(단판, 골·도움 없음)은 리그 비중",
+    f"두 경기 합산(챔스·UEFA컵·컵위너스컵·UEFA 슈퍼컵 1996-97·코파 이탈리아) 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함(원정 다득점·연장 있음). 비에리가 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 리포트로 채움(1997.2.5 UEFA 슈퍼컵 2차전 파리 생제르맹전의 1차전 원정 6-1, 2001.12.6 UEFA컵 3라운드 2차전 입스위치전의 1차전 원정 0-1 등)",
+    "시즌 구분은 기본 8월 1일 기준(7월 경기 없음). 클럽 구분은 1992.11.10 전 토리노, 1993.7.1 전 피사, 1994.7.1 전 라벤나, 1995.7.1 전 베네치아, 1996.7.1 전 아탈란타, 1997.7.1 전 유벤투스, 1998.7.1 전 아틀레티코 마드리드, 1999.7.1 전 라치오, 2005.7.1 전 인테르, 2006.1.1 전 AC 밀란, 2006.7.1 전 AS 모나코, 2007.7.1 전 아탈란타, 2008.7.1 전 피오렌티나, 이후 아탈란타(아탈란타 세 시기는 한 클럽으로 묶음)",
+    "동료 자료 대조: 같은 경기를 다룬 델 피에로·지단·네드베드·호나우두·세도르프·셰브첸코·카카 자료의 대회·상대 Elo·합산 정보가 모두 같음. 세도르프 도움→비에리 골 4개, 델 피에로·호나우두 도움→비에리 골 각 1개, 비에리 도움→셰브첸코 골 2개·호나우두·세도르프 골 각 1개의 날짜·분·스코어가 같음. Transfermarkt가 비에리 도움으로 적었으나 뺀 델 피에로 PK 2개(1996.12.15·1997.2.16)와 세도르프 리바운드 골(2000.12.23)은 동료 자료에도 비에리 도움이 없음",
+    "수상 기록은 Transfermarkt 업적 페이지 기준: 세리에A 1996-97(유벤투스), 코파 이탈리아 1992-93(토리노)·2004-05(인테르), UEFA 슈퍼컵 1996-97, 인터콘티넨털컵 1996(유벤투스, 비에리 출전 없음). 컵위너스컵 1998-99(라치오), 준우승은 챔스 결승 1996-97(유벤투스)과 UEFA컵 1991-92(토리노, 비에리 출전 없음). 개인: 라리가 득점왕 1997-98(24골)·세리에A 득점왕 2002-03(24골), 올해의 선수 1999·2002. U-21 유럽선수권·월드컵 등 대표팀 기록은 뺌",
+    "은퇴: 2009년 아탈란타에서 은퇴(마지막 클럽 경기 2009.2.1 카타니아전)",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1] or b[2] < a[2]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+    if len({(r[1], r[3]) for r in rs}) > 1: problems.append(("같은 날 상대·대회 다름", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+mm = {m[0]: m for m in M}
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+    if mm[r[9]][1] != r[1] or mm[r[9]][2] != r[3]: problems.append(("출전 행과 상대·대회 다름", r))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const VIE_E={J(E)};\nconst VIE_M={J(M)};\nconst VIE_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "same_game": SAMEGAME, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for k, v in ST.items(): print(" ", k, v)
