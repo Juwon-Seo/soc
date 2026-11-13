@@ -46,13 +46,35 @@ for r in rd("fotmob_events.csv"):
 
 # ---------------------------------------------------------------- 판정 표
 # 출전 분 고침: gameId -> (분, 근거)  (없음: Transfermarkt 출전 분 그대로)
-MIN_FIX = {}
+MIN_FIX = {
+    "2770607": (90, "2016.12.14 쿠프 드 라 리그 16강 갱강전(2:2 뒤 승부차기). Transfermarkt 출전 분 120(경기 시간 120으로 잡음)이지만 2016-17 쿠프 드 라 리그는 연장 없이 바로 승부차기(Lyon Capitale·영어 위키백과 2016-17 대회 문서) → 풀타임 90분"),
+}
 # 도움 제외(Transfermarkt 리포트 도움이지만 넣지 않음): gameId|분 -> 이유 (PK 유도·'Shot on goal'·본인 도움은 일반 규칙)
-EXCL_A = {}
+EXCL_A = {
+    "2480869|58": "TM 단독(유형 빈칸, FotMob 도움 없음). 경기 기사: Maxifoot은 '페키르의 왼쪽 돌파 뒤' 라카제트 골로 적고, FK 믈라다 볼레슬라프 구단 기사는 수비수 맞고 굴절된 공으로 적음 → 다른 출처 2곳 확인 안 됨(굴절 가능성)",
+    "2770607|43": "TM 단독('Pass', FotMob 이벤트 도움 없음). fbref 골 기록만 페키르 도움, Lyonmag·Maxifoot 등 경기 기사에 도움 언급 없음 → 다른 출처 1곳뿐",
+    "3047852|85": "TM 단독(유형 빈칸, FotMob 도움 없음). Maxifoot: 은돔벨레의 빗맞은 슛이 페키르 맞고 뎀벨레에게 흘러감(본인 의도 없는 굴절). worldfootball·Fox Sports는 페키르 도움, Goal.com은 데파이 도움 → 굴절이라 뺌",
+    "4579435|45+5": "TM 단독(UAE 리그컵, FotMob 경기 자료 없음). 알아인 구단·알자지라 구단·UAE 프로리그 기사 모두 비니시우스 멜루 골만 적고 도움자 없음 → 확인 안 됨",
+    "4610210|4": "TM 단독(FotMob UAE 경기에 도움 자료 없음). UAE 프로리그 기사: 샤들리가 박스 밖에서 찬 중거리 슛. Soccerway 이벤트 목록에 페키르 이름만 있음 → 확인 안 됨",
+    "4768475|40": "TM 단독(유형 빈칸). 알자지라 구단·Sharjah24·Voice of Emirates 기사에 도움자 없음 → 확인 안 됨",
+    "4807977|50": "TM 단독('Corner'). 알자지라 구단·Sharjah24·Panafrica Football 기사가 반자 헤더만 적고 페키르 코너킥 언급 없음 → 확인 안 됨",
+    "4825100|47": "TM 단독(유형 빈칸). 알이티하드(Aletihad)·Sherepost 기사는 브루누 골만 적고 도움자 없음 → 확인 안 됨",
+}
 # 2014.8.1 이후 FotMob 경기 이벤트에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움
-ADD_CONFIRMED = {}
+ADD_CONFIRMED = {
+    "2814012|9": "Maxifoot 'un but et trois passes décisives' · Lyonmag 'Nabil Fekir centre ... trouve la tête de Mouctar Diakhaby (2-0)'",
+    "2814012|70": "Maxifoot(1골 3도움, 코르네 두 골 모두 페키르 패스) · Lyon Capitale(코르네 두 골 모두 페키르가 만듦)",
+    "2814012|75": "Maxifoot 'troisième passe décisive de Fekir (5-0, 75e)' · Lyon Capitale(코르네 두 골 모두 페키르가 만듦)",
+    "4460969|37": "알자지라 구단 경기 기사(jc.ae) 'Fekir ... squaring it to Bruno De Oliveira' · UAE 프로리그 공식 기사(같은 설명)",
+    "4499200|49": "알자지라 구단 경기 기사(jc.ae): 후반 시작 직후 페키르가 박스로 넣어 준 공을 쿨리발리가 마무리 · valuestats 경기 기록(쿨리발리 49분, 도움 페키르)",
+    "4560611|60": "UAE 프로리그 공식 기사 'Neeskens Kebano converted Fekir's assist to make it 3-0' · 알자지라 구단 경기 기사(jc.ae, 같은 내용)",
+    "4807961|77": "알자지라 구단 경기 기사(jc.ae) 77분 'Nabil Fekir delivered a cross ... Banza rose ... header' · UAE 프로리그 공식 기사(같은 설명)",
+    "4807977|20": "알자지라 구단 경기 기사(jc.ae) 페키르 패스를 받은 브루누 선제골 · Voice of Emirates 'following a precise pass from Nabil Fekir'",
+}
 # FotMob에만 있는 도움(넣지 않음 / 넣음) — judgments.md 4절
-FM_ONLY_DECIDED = {}
+FM_ONLY_DECIDED = {
+    "3748330": "2022.2.9 라요 바예카노전(코파 델 레이 준결승 1차전) 26분 보르하 이글레시아스 골: FotMob 경기 이벤트와 Forza Football(데이터 피드)만 페키르 도움, Transfermarkt 도움 없음, 경기 기사(베티스 구단·스페인 언론)에 도움 언급 없음 → 넣지 않음",
+}
 
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"FR1", "ES1", "UAE1", "SA1"}
@@ -173,11 +195,18 @@ def interp(tab, r):
     return int(tab[lo] + (tab[hi] - tab[lo]) * (r - lo) / (hi - lo) + 0.5)
 
 # 리그2(프랑스 2부): 기존 선수 자료의 순위값(디 마리아·카바니·라카제트 선례, 평균 1540 + 2부 흩어짐 × 곡선) — judgments.md 7절
-FR2_KNOWN = {}
+FR2_KNOWN = {1: 1669, 2: 1624, 4: 1582, 6: 1567, 7: 1559, 8: 1550, 10: 1532, 13: 1516, 14: 1513, 15: 1508, 17: 1490, 19: 1480}
 # 세군다(스페인 2부): 기존 순위값
-ES2_KNOWN = {}
+ES2_KNOWN = {1: 1753, 2: 1712, 3: 1687, 6: 1654, 7: 1647, 8: 1640, 9: 1632, 10: 1623, 11: 1615, 13: 1606, 14: 1601, 16: 1595, 17: 1589, 19: 1572, 20: 1567, 21: 1563, 22: 1554}
 # UAE 프로리그 14팀: 이니에스타 자료(2023-24)의 순위값 3위 1510·4위 1491·6위 1451·9위 1403·11위 1380 + 그 사이 보간
 UAE_KNOWN = {3: 1510, 4: 1491, 6: 1451, 9: 1403, 11: 1380}
+# 기존 순위값 범위 밖(1·2·12~14위)은 4절 UAE 모형(평균 1440·흩어짐 85 × 21칸 순위 곡선, 기존 값을 ±2 안으로 재현)
+_SA20 = [1969, 1890, 1845, 1814, 1798, 1787, 1774, 1757, 1740, 1725, 1714, 1705, 1697, 1692, 1683, 1668, 1651, 1640, 1632, 1614]
+_CV = [(v - 1739) / 91.3 for v in _SA20]
+def curve(r, n):
+    p = (r - 1) / (n - 1) * 19
+    i = min(int(p), 18); t = p - i
+    return _CV[i] + (_CV[i + 1] - _CV[i]) * t
 # 사우디 프로리그 18팀: 다른 선수 자료의 순위값(2025-26·2026-27, 시즌 무관 같은 값)
 SA_KNOWN = {1: 1813, 2: 1703, 3: 1641, 4: 1604, 5: 1585, 6: 1568, 7: 1544, 8: 1519, 9: 1497, 10: 1481,
             11: 1469, 12: 1456, 13: 1450, 14: 1432, 15: 1408, 16: 1389, 17: 1377, 18: 1352}
@@ -187,7 +216,7 @@ def model(lg, season, r, n):
     if lg == "UAE1":
         if r in UAE_KNOWN or (min(UAE_KNOWN) < r < max(UAE_KNOWN)):
             return interp(UAE_KNOWN, r), f"UAE 프로리그 {season} {r}위"
-        return None
+        return int(1440 + 85 * curve(r, n) + 0.5), f"UAE 프로리그 {season} {r}위 (리그 모형값)"
     if lg == "SA1":
         cur = " " + NOW if season == "2026-27" else ""
         return SA_KNOWN[r], f"사우디 프로리그 {season}{cur} {r}위"
@@ -199,7 +228,10 @@ def model(lg, season, r, n):
 RANK_LG = ["UAE1", "SA1", "FR2", "ES2"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정')
-MAN = {}
+MAN = {
+    (key("Ludogorets Razgrad"), "2022-23"): (1520, "불가리아 2022-23 1위 (추정, 다른 선수 자료 루도고레츠 2020-21 1위 1520과 같음)"),
+    (key("CD Ibiza Islas Pitiusas"), "2022-23"): (1150, "스페인 4부(세군다 페데라시온) 2022-23 (추정, 다른 선수 자료 스페인 4부 1150과 같음)"),
+}
 
 ELO_SRC = collections.Counter()
 ELO_LOG = []
@@ -239,7 +271,10 @@ def opp_elo(opp, d, cid):
                     return res
     return None
 # 통합표 값을 쓰되 기록의 상대 수준 설명은 확인한 최종 순위로 적는 것(judgments.md 7절)
-LV_FIX = {}
+LV_FIX = {
+    (key("Al-Wasl SC"), "2024-25"): "UAE 프로리그 2024-25 4위 (추정, 다른 선수 자료 값 1480과 같음)",
+    (key("Shabab Al-Ahli Club"), "2025-26"): "UAE 프로리그 2025-26 2위 (추정, 다른 선수 자료 값 1480과 같음)",
+}
 
 # ---------------------------------------------------------------- 출전
 def ldate(g):
@@ -337,3 +372,167 @@ if UNDECIDED or missing_elo or any(f[0] not in FM_ONLY_DECIDED for f in FM_ONLY)
 
 rows.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 E = rows
+
+if __name__ == "__main__" and "--debug" in sys.argv:
+    print(len(M), "경기", sum(r[0] == "g" for r in E), "골", sum(r[8] for r in E), "PK", sum(r[0] == "a" for r in E), "도움", sum(m[3] for m in M), "분")
+    print(ELO_SRC, "FotMob 전용 도움:", FM_ONLY, EXCL_CNT)
+    for k, v in EXCL_LIST.items(): print(k, v)
+    seen = set()
+    for x in ELO_LOG:
+        k = (x[1], x[2], x[3], x[4][:5])
+        if k in seen: continue
+        seen.add(k); print(x)
+
+# ---------------------------------------------------------------- FotMob 골 대조
+FM_CMP = []
+TMG = collections.defaultdict(list)
+for e in EVENTS:
+    if e["fekir_scorer"] == "1" and e["gameId"] in G:
+        TMG[e["gameId"]].append(e)
+for gid, evs in TMG.items():
+    if not FM_EV.get(gid):
+        FM_CMP.append(("FotMob 없음", gid, G[gid]["date_local"])); continue
+    fg = [r for r in FM_EV[gid] if r["fekir_scorer"] == "1" and r["pen_shootout_event"] != "True"]
+    if len(fg) != len(evs):
+        FM_CMP.append(("골 수 다름", gid, G[gid]["date_local"], [x["minute"] for x in evs], [r["time"] for r in fg])); continue
+    for t, f in zip(sorted(evs, key=lambda x: minute(x["minute"])[0]), sorted(fg, key=lambda r: int(r["time"]) + int(r["overloadTime"] or 0))):
+        tpk = t["penalty"] == "1"; fpk = (f["goalDescriptionKey"] or "").lower().startswith("penalty") or "pen" in (f["suffix"] or "").lower()
+        tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
+        base = int(t["minute"].split("+")[0])
+        if tpk != fpk or not (abs(tm_min - fm_min) <= 1 or int(f["time"]) == base):
+            FM_CMP.append(("다름", gid, G[gid]["date_local"], t["minute"], t["goal_desc"], f["time"], f["overloadTime"], f["goalDescriptionKey"], f["suffix"]))
+for gid, evs in FM_EV.items():
+    n_fm = sum(1 for r in evs if r["fekir_scorer"] == "1" and r["pen_shootout_event"] != "True")
+    if n_fm and gid not in TMG: FM_CMP.append(("FotMob만 골", gid, G[gid]["date_local"] if gid in G else "?"))
+if __name__ == "__main__" and "--fm" in sys.argv:
+    for x in FM_CMP: print(x)
+
+# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+def load_js(fn, P):
+    s = open(os.path.join(ROOT, "src", "data", fn), encoding="utf-8").read()
+    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
+    return json.loads(m.group(1))
+MATES = {"Alexandre Lacazette": ("lac.js", "LAC", "2013-07-01", "2017-07-05"),
+         "Mathieu Valbuena": ("vab.js", "VAB", "2015-07-01", "2017-07-01"),
+         "Yoann Gourcuff": ("gou.js", "GOU", "2013-07-01", "2015-07-01"),
+         "Isco": ("isc.js", "ISC", "2023-07-01", "2024-08-30")}
+MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items()}
+CROSS = []
+def cmp_rows(a, b):
+    diffs = []
+    if abs(a[4] - b[4]) > 2: diffs.append(f"분 {a[4]}/{b[4]}")
+    if (a[5], a[6]) != (b[5], b[6]): diffs.append(f"스코어 {a[5]}-{a[6]}/{b[5]}-{b[6]}")
+    if a[3] != b[3]: diffs.append(f"대회 {a[3]}/{b[3]}")
+    if a[2] != b[2]: diffs.append(f"Elo {a[2]}/{b[2]}")
+    if a[12] != b[12]: diffs.append(f"lv {a[12]}/{b[12]}")
+    if a[8] != b[8]: diffs.append(f"PK {a[8]}/{b[8]}")
+    ta = a[14] if len(a) > 14 else None; tb = b[14] if len(b) > 14 else None
+    if a[7] != b[7] or ta != tb:
+        diffs.append(f"단판/합산 {a[7]},{ta}/{b[7]},{tb}")
+    return diffs
+FK = lambda s: norm(s or "") in ("nabil fekir", "fekir")
+for nm, ent in MATE_E.items():
+    lo, hi = MATES[nm][2], MATES[nm][3]
+    for r in E:
+        if r[0] == "a" and norm(r[13]) == norm(nm):
+            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            CROSS.append(("페키르 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+    for x in ent:
+        if x[0] == "a" and FK(x[13]):
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
+            CROSS.append((nm + " 도움→페키르 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+    for x in ent:
+        if lo <= x[9] < hi:
+            for r in E:
+                if r[9] == x[9] and key(r[1]) == key(x[1]):
+                    d = [t for t in cmp_rows(r, x) if not t.startswith(("분", "스코어", "PK"))]
+                    if d: CROSS.append(("같은 경기 다름", nm, r[9], r[1], d))
+                    break
+    for x in ent:   # Transfermarkt 페키르 도움을 이 계산기에서 뺀 동료 골(참고)
+        if x[0] == "g" and lo <= x[9] < hi:
+            tm = [e for e in EVENTS if e["fekir_assist_other"] == "1" and e["gameId"] in G and ldate(G[e["gameId"]]) == x[9] and abs(minute(e["minute"])[0] - x[4]) <= 2]
+            if tm and not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
+                CROSS.append(("TM 페키르 도움을 뺀 동료 골", nm, x[9], x[4], tm[0]["assist_type"]))
+    for e in EVENTS:   # TM 동료 도움 → 페키르 골인데 동료 파일에 없음(참고)
+        if e["fekir_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
+            d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
+            if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
+                CROSS.append(("TM 동료 도움 → 페키르 골인데 동료 파일에 없음", nm, d, e["minute"], e["assist_type"]))
+SAME_GAME = []
+for r in E:
+    for x in ENTS:
+        if x["date"] == r[9] and (key(x["opp"]) == key(r[1]) or _sub(key(x["opp"]), key(r[1]))):
+            if x.get("comp") and x["comp"] != r[3]:
+                SAME_GAME.append(("대회 다름", r[9], r[1], x["p"], x["comp"], r[3]))
+            break
+if __name__ == "__main__" and "--cross" in sys.argv:
+    for c in CROSS:
+        if c[-1] != "같음": print(c)
+    print(collections.Counter((c[0], c[-1] == "같음") for c in CROSS))
+    for s in SAME_GAME: print(s)
+
+# ---------------------------------------------------------------- 클럽·시즌
+CLUBS = [("lyofk", "2019-07-23", "올랭피크 리옹", "2013~2019"), ("betfk", "2024-08-30", "레알 베티스", "2019~2024"),
+         ("jazfk", "2026-08-06", "알자지라", "2024~2026"), ("abhfk", None, "아브하", "2026~")]
+def club_of(d):
+    for k, u, _, _ in CLUBS:
+        if u is None or d < u: return k
+CLUB_KO = {k: n for k, u, n, y in CLUBS}
+ST = collections.OrderedDict((k, [0, 0, 0, 0]) for k, *_ in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+for g in GAMES:
+    tm_club = {"1041": "lyofk", "150": "betfk", "2524": "jazfk", "40039": "abhfk"}[g["club_id"]]
+    if club_of(ldate(g)) != tm_club: sys.exit("클럽 경계 불일치 " + g["gameId"])
+
+# ---------------------------------------------------------------- 설명(NOTE)
+sys.path.insert(0, HERE)
+from note_fekir import make_note
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E)
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+N_TM_A = sum(1 for e in EVENTS if e["gameId"] in G and e["fekir_assist_other"] == "1")
+NOTE = make_note(dict(M=M, E=E, ST=ST, CLUB_KO=CLUB_KO, NG=NG, NGo=NGo, NA=NA, NPK=NPK, MIN_TOT=MIN_TOT, NTIE=NTIE, NTIEG=NTIEG,
+                      N_TM_A=N_TM_A, EXCL_CNT=EXCL_CNT, EXCL_LIST=EXCL_LIST, SRC=ELO_SRC))
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM "]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
+        sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []
+seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gs = sorted({(r[5], r[6], r[4]) for r in rs}, key=lambda x: (x[0] + x[1], x[2]))
+    for a, b in zip(gs, gs[1:]):
+        if b[0] < a[0] or b[1] < a[1]: problems.append(("스코어 역순", d, a, b))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 출전 2개", d))
+for r in E:
+    if r[4] > 125 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900: problems.append(("Elo 이상", r))
+for m in M:
+    if m[3] < 1 or m[3] > 120: problems.append(("출전 분 범위", m))
+if problems:
+    for p in problems: print("점검:", p)
+    sys.exit(1)
+
+# ---------------------------------------------------------------- 출력
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+if __name__ == "__main__" and len(sys.argv) == 1:
+    open(OUT_JS, "w", encoding="utf-8").write(f"const FEK_E={J(E)};\nconst FEK_M={J(M)};\nconst FEK_NOTE={J(NOTE)};\n")
+    keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+    json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "cross_check": CROSS,
+               "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY, "elo_sources": ELO_SRC, "elo_log": ELO_LOG},
+              open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{NG}경기 {NGo}골({NPK} PK) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE} · Elo {dict(ELO_SRC)}")
+    for k, v in ST.items(): print(" ", k, v)

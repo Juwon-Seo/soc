@@ -279,7 +279,24 @@ def add_row(typ, mi, dm, gf, ga, pk, note, tie, comp, ko, d, opp, cid, et):
     if tie: row.append(tie)
     rows.append(row)
 
-for e in EVENTS:
+# 골 전 스코어: 리포트 골 순서대로 득점 팀별로 셈(리포트의 '골 뒤 스코어' 표시가 자책골에서 뒤바뀐 경우가 있음: 2022.4.8 나사프전)
+BEFORE, SCORE_FIX = {}, []
+EV_BY = collections.defaultdict(list)
+for i, e in enumerate(EVENTS): EV_BY[e["gameId"]].append(i)
+for gid, idx in EV_BY.items():
+    h = a = 0
+    for i in idx:
+        BEFORE[i] = (h, a)
+        if EVENTS[i]["side"] == "home": h += 1
+        else: a += 1
+        if EVENTS[i]["score_home_away_after"] != f"{h}-{a}" and gid in G:
+            SCORE_FIX.append((gid, EVENTS[i]["minute"], EVENTS[i]["score_home_away_after"], f"{h}-{a}"))
+    if gid in INFO and gid in G and G[gid]["gameState"] != "penalty_shootout":
+        fh, fa = map(int, INFO[gid]["final"].split(":"))
+        if (h, a) != (fh, fa) and gid != "1055149":
+            sys.exit(f"리포트 골 수와 최종 스코어 다름: {gid} {(h, a)} {(fh, fa)}")
+
+for i, e in enumerate(EVENTS):
     gid = e["gameId"]; g = G.get(gid)
     if not g: continue
     tag = f"{gid}|{e['minute']}"
@@ -289,10 +306,8 @@ for e in EVENTS:
     if not (isg or isa): continue
     inf = INFO[gid]
     our_home = inf["home_id"] == g["club_id"]
-    h, a = map(int, e["score_home_away_after"].split("-"))
+    h, a = BEFORE[i]
     side_home = e["side"] == "home"
-    if side_home: h -= 1
-    else: a -= 1
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
     mi, dm = minute(e["minute"])
@@ -339,6 +354,7 @@ E = rows
 if __name__ == "__main__" and "--debug" in sys.argv:
     print(len(M), "경기", sum(r[0] == "g" for r in E), "골", sum(r[8] for r in E), "PK", sum(r[0] == "a" for r in E), "도움", sum(m[3] for m in M), "분")
     print(ELO_SRC, "FotMob 전용 도움:", FM_ONLY, EXCL_CNT)
+    print("리포트 스코어 표시 고침:", [x for x in SCORE_FIX])
     for k, v in EXCL_LIST.items(): print(k, v)
     print("라리가 보간:", sorted(LL_INTERP))
     seen = set()
