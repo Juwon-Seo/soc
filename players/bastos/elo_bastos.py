@@ -36,9 +36,12 @@ for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
 STAGED = {}
+for fn in [os.path.join(os.path.dirname(HERE), "govou", "staged", "gov.js")]:   # 병렬 판정 중인 리옹 동료 자료(대조·같은 경기 값)
+    if os.path.exists(fn):
+        P, oe, om = load_js(fn); STAGED["staged/" + os.path.basename(fn)] = (oe, om)
 ENTS = [x for oe, om in OTHERS.values() for x in oe]
 BYDATE = collections.defaultdict(list)
-for b, (oe, om) in OTHERS.items():
+for b, (oe, om) in list(OTHERS.items()) + list(STAGED.items()):
     for x in oe: BYDATE[x[9]].append((b, x))
 STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", "football", "united", "city", "real", "sporting",
         "esporte", "ec", "foot", "ball", "regatas", "atletico", "associacao", "calcio", "sport", "sociedade", "esportiva", "olympique", "cd", "ud", "rcd", "sv", "as", "ss",
