@@ -56,6 +56,7 @@ ADD_CONFIRMED = {
 }
 # FotMob에만 있는 도움(넣지 않음) — judgments.md 4절
 FM_ONLY_DECIDED = {
+    "3589582": "2022.5.14 낭트전 85분 테테 골: FotMob 이벤트는 아우아르 도움이지만 Transfermarkt는 'Shot on goal'(아우아르 슈팅이 막힌 뒤 리바운드 골)로 적어 규칙상 넣지 않음",
     "3199472": "2019.11.2 툴루즈전(리그1) 67분 뎀벨레 골(2:2): FotMob 경기 이벤트만 아우아르 도움, Transfermarkt 도움 없음, 경기 기사(Lyonmag·Maxifoot 등) 검색으로 도움자 확인 안 됨(데이터 사이트 1곳 외 확인 없음) → 넣지 않음",
 }
 
@@ -138,7 +139,7 @@ with open(os.path.join(ELO, "aliases.csv"), encoding="utf-8-sig") as f:
             ALIAS[norm(part.rsplit(":", 1)[0])] = norm(row[0])
 # 통합표와 이름 표기가 다른 같은 팀(Transfermarkt 표기 → 통합표 표기)
 MANUAL_ALIAS = {"al ain fc": "al ain", "al wasl sc": "al wasl", "shabab al ahli club": "shabab al ahli dubai fc",
-                "al nasr sc": "al nasr dubai"}
+                "al nasr sc": "al nasr dubai", "neftchi fergana": "neftchi fargona", "al shorta sc": "al shorta"}
 def key(n):
     k = norm(n); k = MANUAL_ALIAS.get(k, k)
     return ALIAS.get(k, k)
@@ -191,12 +192,12 @@ SA_KNOWN = {1: 1813, 2: 1703, 3: 1641, 4: 1604, 5: 1585, 6: 1568, 7: 1544, 8: 15
 NOW = "(11월 중순 현재)"
 
 def model(lg, season, r, n):
+    cur = " " + NOW if season == "2026-27" else ""
     if lg == "UAE1":
         if r in UAE_KNOWN or (min(UAE_KNOWN) < r < max(UAE_KNOWN)):
-            return interp(UAE_KNOWN, r), f"UAE 프로리그 {season} {r}위"
-        return int(1440 + 85 * curve(r, n) + 0.5), f"UAE 프로리그 {season} {r}위 (리그 모형값)"
+            return interp(UAE_KNOWN, r), f"UAE 프로리그 {season}{cur} {r}위"
+        return int(1440 + 85 * curve(r, n) + 0.5), f"UAE 프로리그 {season}{cur} {r}위 (리그 모형값)"
     if lg == "SA1":
-        cur = " " + NOW if season == "2026-27" else ""
         return SA_KNOWN[r], f"사우디 프로리그 {season}{cur} {r}위"
     if lg == "FR2" and FR2_KNOWN:
         return interp(FR2_KNOWN, r), f"리그2 {season} {r}위"
@@ -207,10 +208,10 @@ RANK_LG = ["UAE1", "SA1", "FR2", "ES2"]
 
 # 순위표·모형으로 안 되는 상대(직접 추정, 모두 '추정')
 MAN = {
-    (key("Ludogorets Razgrad"), "2022-23"): (1520, "불가리아 2022-23 1위 (추정, 다른 선수 자료 루도고레츠 2020-21 1위 1520과 같음)"),
-    (key("CD Ibiza Islas Pitiusas"), "2022-23"): (1150, "스페인 4부(세군다 페데라시온) 2022-23 (추정, 다른 선수 자료 스페인 4부 1150과 같음)"),
+    (key("Football Bourg-en-Bresse Péronnas 01"), "2019-20"): (1344, "프랑스 3부(나시오날) 2019-20 5위 (추정, 다른 선수 자료 나시오날 5위 1344와 같음; 3월 중단 시점 순위)"),
+    (key("Al-Shorta SC"), "2025-26"): (1350, "이라크 1부 (추정, 다른 선수 자료 알쇼르타 2023-24·2024-25 1350과 같음)"),
+    (key("Bröndby IF"), "2021-22"): (1520, "덴마크 2021-22 상위권(정규 라운드 3위) (추정, 다른 선수 자료 브뢴뷔 상위권 1520과 같음)"),
 }
-
 ELO_SRC = collections.Counter()
 ELO_LOG = []
 def _sub(a, b):
@@ -249,10 +250,7 @@ def opp_elo(opp, d, cid):
                     return res
     return None
 # 통합표 값을 쓰되 기록의 상대 수준 설명은 확인한 최종 순위로 적는 것(judgments.md 7절)
-LV_FIX = {
-    (key("Al-Wasl SC"), "2024-25"): "UAE 프로리그 2024-25 4위 (추정, 다른 선수 자료 값 1480과 같음)",
-    (key("Shabab Al-Ahli Club"), "2025-26"): "UAE 프로리그 2025-26 2위 (추정, 다른 선수 자료 값 1480과 같음)",
-}
+LV_FIX = {}
 
 # ---------------------------------------------------------------- 출전
 def ldate(g):
