@@ -245,7 +245,7 @@ for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     g = G[gid]; d = ldate(g); cid, rnd = g["competitionId"], g["round"]
     comp = comp_of(cid, rnd); ko = ko_of(cid, rnd)
     elo, lv = opp_elo(opp(g), d, cid, rnd)
-    et = 1 if (mi > 90 and not dm and g["gameState"] in ("extra_time", "penalty_shootout")) else 0
+    et = 1 if (mi > 90 and not (dm and str(dm).startswith("90+")) and g["gameState"] in ("extra_time", "penalty_shootout")) else 0
     row = [typ, opp(g), elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
     t = tie_of(gid)
     if t: row.append(t)
