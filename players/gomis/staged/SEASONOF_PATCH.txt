@@ -1,0 +1,1 @@
+hilbg seasonOf: if(club==="hilbg"&&d>="2020-09-01"&&d<"2020-10-01")return "2019-20"; before the 2020-08 line
