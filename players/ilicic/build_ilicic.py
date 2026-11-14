@@ -301,7 +301,7 @@ BYDATE = collections.defaultdict(list)
 for b, (oe, om) in OTHERS.items():
     for x in oe: BYDATE[x[9]].append((b, x))
 STOP = {"fc", "cf", "ac", "sc", "club", "de", "the", "afc", "football", "united", "city", "real", "sporting", "calcio",
-        "atletico", "ca", "us", "as", "ss", "ssc", "acf", "olympique", "fk", "sv", "nk", "nd", "ns", "cd", "bc"}
+        "atletico", "ca", "us", "as", "ss", "ssc", "acf", "olympique", "fk", "sv", "nk", "nd", "ns", "cd", "bc", "milan"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_match(o, d):
     cand = [(b, x) for b, x in BYDATE.get(d, []) if (key(x[1]) == key(o) or toks(x[1]) & toks(o))]
@@ -349,7 +349,8 @@ for typ, gid, mi, dm, gf, ga, pk, note in raw_rows:
     row = [typ, opp(g), elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
     if t: row.append(t)
     E.append(row)
-E.sort(key=lambda r: (r[9], r[4], r[0]))
+def tkey(r): return 45 + int(str(r[11])[3:]) / 100 if str(r[11]).startswith("45+") else r[4]
+E.sort(key=lambda r: (r[9], tkey(r), r[0]))
 if MISS:
     for x in sorted(set(MISS), key=lambda t: t[1]): print("MISS", x)
     sys.exit("상대 Elo 없음 %d" % len(MISS))

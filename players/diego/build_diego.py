@@ -219,11 +219,15 @@ def fm_confirms(gid, e):
     if len(pm) == 1 and int(pm[0]["assists"] or 0) >= tm_a: return "FotMob 선수 경기 목록 도움 %s" % pm[0]["assists"]
     return None
 
+# 경기 리포트 골 시각이 비어 있는 경기(모두 '121'로 적힘): 2003.10.19 산투스 3-2 아틀레치쿠 PR(전반 2-1). 기사로 시각을 못 찾아
+#   전반 세 골을 고르게 나눈 시각으로 추정(디에구 PK 11분 0-0, 알렉스 골 23분 1-0 — 리포트 순서)
+EV_MIN_FIX = {("3478107", 0): "11", ("3478107", 1): "23"}
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
     g = G[gid]; side = side_of(gid); cnt = {"h": 0, "a": 0}
-    for e in EVS[gid]:
+    for ei, e in enumerate(EVS[gid]):
+        if (gid, ei) in EV_MIN_FIX: e = dict(e, minute=EV_MIN_FIX[(gid, ei)])
         sd = e["side"][0]
         before = (cnt["h"], cnt["a"])
         cnt[sd] += 1
@@ -303,4 +307,4 @@ if "--ties" in sys.argv:
     print(len(E), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E))
     sys.exit(0)
 
-if "--stat" in sys.argv or True: pass
+exec(open(os.path.join(HERE, "check_diego.py"), encoding="utf-8").read())

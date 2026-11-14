@@ -105,7 +105,9 @@ for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 FPM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
 
 def ldate(g): return g["date_local"]       # 클럽 나라 시간(리포트 날짜와 403경기 모두 같음; 원정·중립 경기도 날짜 바뀌는 시각 없음)
-def opp(g): return g["opponent"].strip()
+# 다른 팀과 이름이 겹쳐 팀×시즌 통합표에서 한 팀으로 묶이는 상대(사우디 알아인 ↔ UAE 알아인): 나라를 붙여 구분
+OPP_NAME = {"Al-Ain SFC": "Al-Ain SFC (KSA)"}
+def opp(g): return OPP_NAME.get(g["opponent"].strip(), g["opponent"].strip())
 
 # ---------------------------------------------------------------- 출전
 M = []
@@ -307,6 +309,7 @@ def same_match(o, d):
 MAN = {}
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []
 def season_keys(d, cid):
+    if cid in ("SA1", "SAKC", "AFCL") and "2020-07-01" <= d < "2020-10-01": return ["2019-20"]   # 사우디 2019-20 시즌은 2020.9.9까지(코로나 중단 뒤 재개)
     if cid in ("JAP1", "JEMP", "JASP") or (cid == "AFCL" and d >= "2023-01-01"): return [d[:4], eu(d)]
     return [eu(d), d[:4]]
 def rank_val(lg, s, o):

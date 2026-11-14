@@ -38,7 +38,10 @@ for r in rd("fotmob_events.csv"):
 
 # ---------------------------------------------------------------- 판정 표
 # 2014.8 이후 Transfermarkt 단독 도움 중 다른 출처로 확인한 것(judgments.md 4절)
-ADD_CONFIRMED = {}
+ADD_CONFIRMED = {
+    "2646154|25": "2016.1.9 선덜랜드전(FA컵 3라운드) 캠벨 골: FotMob 이벤트는 도움자 빈칸. FourFourTwo 경기 기사(Walcott clipped a low cross to the far post)·Camden New Journal 경기 기사(Walcott weaved into the box to tee up Joel Campbell)가 월콧 도움",
+    "2666754|71": "2016.3.8 헐 시티전(FA컵 5라운드 재경기) 지루 골: FotMob 이벤트는 도움자 빈칸. Sky Sports 경기 기사(Giroud volleyed home Walcott's cross)·ESPN 문자 중계(assisted by Theo Walcott with a cross)가 월콧 도움(Eurosport는 크로스가 살짝 굴절됐다고 적음)",
+}
 # 2014.8 이후 TM 단독 도움 중 다른 출처로 확인 못 해 뺀 것은 자동으로 'TM단독-미확인'
 # FotMob에만 있는 도움 중 다른 출처 2곳으로 확인한 것: (TM gameId, TM 골 분) -> 근거
 ADD_FM_ONLY = {}
