@@ -41,7 +41,11 @@ for r in rd("fotmob_events.csv"):
 EXCL_A = {
 }
 ADD_CONFIRMED = {
-}   # FotMob에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움: "gameId|minute": "근거"
+}
+# PK가 막힌 뒤 리바운드로 넣은 골: Transfermarkt는 PK(골 설명 'Penalty rebound')로 적었지만 계산기 규칙상 PK 아님(FotMob도 일반 골)
+PK_NO = {"2604140|87": "2015.12.20 인테르전 PK 리바운드", "2618951|79": "2015.10.22 로센보리전 PK 리바운드"}
+# 골 시간 고침: Transfermarkt 6분 → FotMob·Soccerway 12분(ESPN 11분, Eurosport 13분)
+MIN_FIX = {"1133585|6": "12"}   # FotMob에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움: "gameId|minute": "근거"
 
 # ---------------------------------------------------------------- 대회 코드
 LEAGUE = {"IT1", "IT2", "IT3B", "POSB"}   # 세리에B 승격 플레이오프(POSB) = 리그 비중(브루노 페르난데스·판니스텔로이·카모라네시 선례)
@@ -250,7 +254,8 @@ for e in EVENTS:
     else: a -= 1
     ours = side_home == our_home
     gf, ga = (h, a) if our_home else (a, h)
-    mi, dm = minute(e["minute"])
+    tag = f"{gid}|{e['minute']}"
+    mi, dm = minute(MIN_FIX.get(tag, e["minute"]))
     et = int(int(e["minute"].split("+")[0]) > 90)   # 연장 전·후반(90+x 추가시간 제외)
     cid = g["competitionId"]
     comp = comp_of(cid, g["round"]); ko = ko_of(g); tie = tie_of(g)
@@ -259,7 +264,7 @@ for e in EVENTS:
     if isg:
         if e["own_goal"] == "1" or not ours:
             judg.append(("골 제외", d, opp, e["minute"], "자책골")); continue
-        add_row("g", mi, dm, gf, ga, int(e["penalty"] == "1"), 0, tie, comp, ko, d, opp, cid, et)
+        add_row("g", mi, dm, gf, ga, int(e["penalty"] == "1" and tag not in PK_NO), 0, tie, comp, ko, d, opp, cid, et)
     if isa:
         st = None
         if tag in EXCL_A:
