@@ -61,6 +61,22 @@ G = {g["gameId"]: g for g in games}
 MI = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 EVS = collections.defaultdict(list)
 for e in rd("tm_events.csv"): EVS[e["gameId"]].append(e)
+# 리포트 골 목록에 빠진 골(골 뒤 스코어 순서를 맞추려고 넣음, 고부 기록 아님) — judgments.md 3절
+#   2852277 라옹 1-3 리옹(2007-01-20): 라옹 코프만 19분 골이 빠짐(ESPN 경기 기록 19분, Eurosport 20분, worldfootball 전반 1:1)
+MISSING_GOALS = {"2852277": [dict(minute="19", score_home_away_after="1-0", side="home", scorer="Vincent Koffmann", scorer_id="", own_goal="0",
+                                   assist_id="", assist_type="", assist_player="", penalty="0")]}
+for gid_, adds in MISSING_GOALS.items():
+    evs_ = EVS[gid_]
+    for a_ in adds:
+        evs_.append(a_)
+    def _m(e):
+        mm_ = e["minute"].split("+"); return int(mm_[0]) + (int(mm_[1]) if len(mm_) > 1 else 0)
+    evs_.sort(key=_m)
+    h_ = a_ = 0
+    for e in evs_:                                   # 골 뒤 스코어 다시 계산
+        if e["side"] == "home": h_ += 1
+        else: a_ += 1
+        e["score_home_away_after"] = f"{h_}-{a_}"
 FME = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 
