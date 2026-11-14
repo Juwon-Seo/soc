@@ -56,6 +56,8 @@ POST_GAP = {
     "3130898|62": "BBVA(리가 방코메르) 경기 기사(지냑 터치를 바르가스가 마무리)·El Diario NY 기사(바르가스·지냑 합작)",
     "3291796|10": "Primicias 기사(지냑이 오른쪽에서 내준 패스)·Diario de México 기사(지냑 크로스를 발렌시아가 밀어 넣음)",
 }
+# Transfermarkt만 PK로 적은 골(FotMob·경기 기록은 일반 골): gameId|분 -> (PK 여부, 근거)
+PK_FIX = {"3840595|45+1": (0, "2022.7.23 아틀라스전 45+1분: Transfermarkt만 PK, FotMob·Sportsmole 문자중계는 코르도바 도움의 일반 골, 기사(SI 영상 설명)도 코르도바와의 연계 골")}
 # FotMob 선수 경기 목록에 도움 1이 있어 FotMob 확인으로 본 경기(경기 이벤트의 도움 칸은 빔)
 FM_PM_OK = {"3328962"}
 
@@ -249,7 +251,9 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             else:
                 raw_rows.append(("a", gid, mi, dm, gf, ga, 0, e["scorer"]))
         if is_g:
-            raw_rows.append(("g", gid, mi, dm, gf, ga, 1 if e["penalty"] == "1" else 0, 0))
+            pk = 1 if e["penalty"] == "1" else 0
+            if tag in PK_FIX: pk = PK_FIX[tag][0]
+            raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0))
 
 fm_only_seen = []
 for gid, fs in FME.items():
