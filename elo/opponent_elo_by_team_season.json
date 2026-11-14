@@ -3134,7 +3134,7 @@
   "elo": 1787,
   "basis": "단일값",
   "lv": "세리에A 2016-17 6위",
-  "n": 17,
+  "n": 18,
   "players": [
    "호세 카예혼",
    "페데리코 키에사",
@@ -3143,13 +3143,14 @@
    "에딘 제코",
    "로렌초 인시녜",
    "드리스 메르턴스",
-   "이반 페리시치"
+   "이반 페리시치",
+   "모하메드 살라"
   ],
   "names": [
    "AC Milan"
   ],
   "vals": {
-   "1787": 17
+   "1787": 18
   }
  },
  "AC Milan|2017-18": {
@@ -9812,7 +9813,7 @@
  "Al-Wasl|2024-25": {
   "elo": 1480,
   "basis": "단일값",
-  "lv": "UAE 1위 (추정)",
+  "lv": "UAE 프로리그 2024-25 4위 (추정)",
   "n": 6,
   "players": [
    "나빌 페키르",
@@ -11919,6 +11920,36 @@
    "1150": 1
   }
  },
+ "Arsenal de Sarandí|2012-13": {
+  "elo": 1595,
+  "basis": "단일값",
+  "lv": "아르헨티나 1부 2012-13 피날 8위 (아르센알 데 사란디, 리그 수준 추정)",
+  "n": 4,
+  "players": [
+   "호나우지뉴"
+  ],
+  "names": [
+   "Arsenal de Sarandí"
+  ],
+  "vals": {
+   "1595": 4
+  }
+ },
+ "Arsenal de Sarandí|2017-18": {
+  "elo": 1505,
+  "basis": "단일값",
+  "lv": "아르헨티나 1부 2017-18 27위",
+  "n": 1,
+  "players": [
+   "라우타로 마르티네스"
+  ],
+  "names": [
+   "Arsenal de Sarandí"
+  ],
+  "vals": {
+   "1505": 1
+  }
+ },
  "Arsenal FC|1987-88": {
   "elo": 1707,
   "basis": "단일값",
@@ -12377,18 +12408,27 @@
   }
  },
  "Arsenal FC|2012-13": {
-  "elo": 1595,
+  "elo": 1845,
   "basis": "단일값",
-  "lv": "아르헨티나 1부 2012-13 피날 8위 (아르센알 데 사란디, 리그 수준 추정)",
-  "n": 4,
+  "lv": "프리미어리그 2012-13 4위",
+  "n": 12,
   "players": [
-   "호나우지뉴"
+   "가레스 베일",
+   "에딘 제코",
+   "프랭크 램파드",
+   "토마스 뮐러",
+   "웨인 루니",
+   "다비드 실바",
+   "루이스 수아레스",
+   "페르난도 토레스",
+   "로빈 판페르시"
   ],
   "names": [
-   "Arsenal de Sarandí"
+   "Arsenal FC",
+   "Arsenal"
   ],
   "vals": {
-   "1595": 4
+   "1845": 12
   }
  },
  "Arsenal FC|2013": {
@@ -12536,18 +12576,32 @@
   }
  },
  "Arsenal FC|2017-18": {
-  "elo": 1505,
+  "elo": 1852,
   "basis": "단일값",
-  "lv": "아르헨티나 1부 2017-18 27위",
-  "n": 1,
+  "lv": "프리미어리그 2017-18 6위",
+  "n": 26,
   "players": [
-   "라우타로 마르티네스"
+   "세르히오 아구에로",
+   "베르나르두 실바",
+   "앙투안 그리즈만",
+   "에당 아자르",
+   "해리 케인",
+   "케빈 데 브라위너",
+   "리야드 마레즈",
+   "사디오 마네",
+   "페드로 로드리게스",
+   "웨인 루니",
+   "모하메드 살라",
+   "르로이 자네",
+   "다비드 실바",
+   "제이미 바디"
   ],
   "names": [
-   "Arsenal de Sarandí"
+   "Arsenal FC",
+   "Arsenal"
   ],
   "vals": {
-   "1505": 1
+   "1852": 26
   }
  },
  "Arsenal FC|2018-19": {
@@ -27312,67 +27366,6 @@
    "1351": 2
   }
  },
- "CA Bragantino|2023": {
-  "elo": 1631,
-  "basis": "단일값",
-  "lv": "브라질 세리에 A 2023 6위",
-  "n": 1,
-  "players": [
-   "루이스 수아레스"
-  ],
-  "names": [
-   "Red Bull Bragantino"
-  ],
-  "vals": {
-   "1631": 1
-  }
- },
- "CA Bragantino|2024": {
-  "elo": 1549,
-  "basis": "단일값",
-  "lv": "브라질 세리에 A 2024 16위",
-  "n": 1,
-  "players": [
-   "루카스 모우라"
-  ],
-  "names": [
-   "Red Bull Bragantino"
-  ],
-  "vals": {
-   "1549": 1
-  }
- },
- "CA Bragantino|2025": {
-  "elo": 1588,
-  "basis": "단일값",
-  "lv": "브라질 세리에 A 2025 10위",
-  "n": 1,
-  "players": [
-   "네이마르"
-  ],
-  "names": [
-   "Red Bull Bragantino"
-  ],
-  "vals": {
-   "1588": 1
-  }
- },
- "CA Bragantino|2026": {
-  "elo": 1611,
-  "basis": "단일값",
-  "lv": "브라질 세리에 A 2026 8위",
-  "n": 2,
-  "players": [
-   "루카스 모우라",
-   "네이마르"
-  ],
-  "names": [
-   "Red Bull Bragantino"
-  ],
-  "vals": {
-   "1611": 2
-  }
- },
  "CA Central Norte|2024": {
   "elo": 1253,
   "basis": "단일값",
@@ -34916,52 +34909,6 @@
    "1594": 1
   }
  },
- "CF Montréal|2012": {
-  "elo": 1566,
-  "basis": "단일값",
-  "lv": "MLS 2012 12위",
-  "n": 6,
-  "players": [
-   "데이비드 베컴",
-   "티에리 앙리"
-  ],
-  "names": [
-   "Montreal Impact"
-  ],
-  "vals": {
-   "1566": 6
-  }
- },
- "CF Montréal|2013": {
-  "elo": 1562,
-  "basis": "단일값",
-  "lv": "MLS 2013 11위",
-  "n": 5,
-  "players": [
-   "티에리 앙리"
-  ],
-  "names": [
-   "Montreal Impact"
-  ],
-  "vals": {
-   "1562": 5
-  }
- },
- "CF Montréal|2014": {
-  "elo": 1501,
-  "basis": "단일값",
-  "lv": "MLS 2014 19위",
-  "n": 3,
-  "players": [
-   "티에리 앙리"
-  ],
-  "names": [
-   "Montreal Impact"
-  ],
-  "vals": {
-   "1501": 3
-  }
- },
  "CF Montréal|2015": {
   "elo": 1603,
   "basis": "단일값",
@@ -35011,36 +34958,6 @@
   ],
   "vals": {
    "1542": 1
-  }
- },
- "CF Montréal|2018": {
-  "elo": 1554,
-  "basis": "단일값",
-  "lv": "MLS 2018 15위",
-  "n": 2,
-  "players": [
-   "웨인 루니"
-  ],
-  "names": [
-   "Montreal Impact"
-  ],
-  "vals": {
-   "1554": 2
-  }
- },
- "CF Montréal|2019": {
-  "elo": 1545,
-  "basis": "단일값",
-  "lv": "MLS 2019 18위",
-  "n": 2,
-  "players": [
-   "즐라탄 이브라히모비치"
-  ],
-  "names": [
-   "Montreal Impact"
-  ],
-  "vals": {
-   "1545": 2
   }
  },
  "CF Montréal|2021": {
@@ -44115,6 +44032,21 @@
    "1580": 1
   }
  },
+ "Deportivo A Coruña|2026-27": {
+  "elo": 1767,
+  "basis": "단일값",
+  "lv": "라리가 2026-27 (11월 초 현재) 9위",
+  "n": 1,
+  "players": [
+   "니콜라 페페"
+  ],
+  "names": [
+   "Deportivo A Coruña"
+  ],
+  "vals": {
+   "1767": 1
+  }
+ },
  "Deportivo Alavés|1998-99": {
   "elo": 1648,
   "basis": "단일값",
@@ -44936,21 +44868,6 @@
   ],
   "vals": {
    "1712": 1
-  }
- },
- "Deportivo de La Coruña|2026-27": {
-  "elo": 1767,
-  "basis": "단일값",
-  "lv": "라리가 2026-27 (11월 초 현재) 9위",
-  "n": 1,
-  "players": [
-   "니콜라 페페"
-  ],
-  "names": [
-   "Deportivo A Coruña"
-  ],
-  "vals": {
-   "1767": 1
   }
  },
  "Deportivo Guadalajara|1997-98": {
@@ -62828,21 +62745,6 @@
    "1450": 1
   }
  },
- "FK Puchov|2002-03": {
-  "elo": 1330,
-  "basis": "단일값",
-  "lv": "슬로바키아 1부 (추정, 다른 선수 자료 푸호프 2003-04 1330과 같음)",
-  "n": 2,
-  "players": [
-   "파울레타"
-  ],
-  "names": [
-   "MSK Púchov"
-  ],
-  "vals": {
-   "1330": 2
-  }
- },
  "FK Puchov|2003-04": {
   "elo": 1330,
   "basis": "단일값",
@@ -67975,7 +67877,7 @@
    "1560": 4
   }
  },
- "Guangzhou Evergrande|2015-16": {
+ "Guangzhou Evergrande Taobao|2015-16": {
   "elo": 1560,
   "basis": "단일값",
   "lv": "AFC 챔스 우승팀·중국 (추정)",
@@ -67992,7 +67894,7 @@
    "1560": 4
   }
  },
- "Guangzhou Evergrande|2020-21": {
+ "Guangzhou FC|2020-21": {
   "elo": 1540,
   "basis": "단일값",
   "lv": "중국 슈퍼리그 상위권 (추정, 새 추정)",
@@ -85420,6 +85322,82 @@
    "1582": 5
   }
  },
+ "Montreal Impact|2012": {
+  "elo": 1566,
+  "basis": "단일값",
+  "lv": "MLS 2012 12위",
+  "n": 6,
+  "players": [
+   "데이비드 베컴",
+   "티에리 앙리"
+  ],
+  "names": [
+   "Montreal Impact"
+  ],
+  "vals": {
+   "1566": 6
+  }
+ },
+ "Montreal Impact|2013": {
+  "elo": 1562,
+  "basis": "단일값",
+  "lv": "MLS 2013 11위",
+  "n": 5,
+  "players": [
+   "티에리 앙리"
+  ],
+  "names": [
+   "Montreal Impact"
+  ],
+  "vals": {
+   "1562": 5
+  }
+ },
+ "Montreal Impact|2014": {
+  "elo": 1501,
+  "basis": "단일값",
+  "lv": "MLS 2014 19위",
+  "n": 3,
+  "players": [
+   "티에리 앙리"
+  ],
+  "names": [
+   "Montreal Impact"
+  ],
+  "vals": {
+   "1501": 3
+  }
+ },
+ "Montreal Impact|2018": {
+  "elo": 1554,
+  "basis": "단일값",
+  "lv": "MLS 2018 15위",
+  "n": 2,
+  "players": [
+   "웨인 루니"
+  ],
+  "names": [
+   "Montreal Impact"
+  ],
+  "vals": {
+   "1554": 2
+  }
+ },
+ "Montreal Impact|2019": {
+  "elo": 1545,
+  "basis": "단일값",
+  "lv": "MLS 2019 18위",
+  "n": 2,
+  "players": [
+   "즐라탄 이브라히모비치"
+  ],
+  "names": [
+   "Montreal Impact"
+  ],
+  "vals": {
+   "1545": 2
+  }
+ },
  "Monts d'Or Azergues Foot|2013-14": {
   "elo": 1220,
   "basis": "단일값",
@@ -85603,6 +85581,21 @@
    "1585": 1
   }
  },
+ "MSK Púchov|2002-03": {
+  "elo": 1330,
+  "basis": "단일값",
+  "lv": "슬로바키아 1부 (추정, 다른 선수 자료 푸호프 2003-04 1330과 같음)",
+  "n": 2,
+  "players": [
+   "파울레타"
+  ],
+  "names": [
+   "MSK Púchov"
+  ],
+  "vals": {
+   "1330": 2
+  }
+ },
  "MSK Zilina|2008-09": {
   "elo": 1450,
   "basis": "단일값",
@@ -85731,21 +85724,6 @@
   ],
   "names": [
    "Muaither SC"
-  ],
-  "vals": {
-   "1300": 1
-  }
- },
- "Mura|2012-13": {
-  "elo": 1300,
-  "basis": "단일값",
-  "lv": "슬로베니아 2012-13 9위 (추정, 다른 선수 자료의 무라 2021 1위 1360보다 낮게)",
-  "n": 1,
-  "players": [
-   "미로슬라프 클로제"
-  ],
-  "names": [
-   "NS Mura"
   ],
   "vals": {
    "1300": 1
@@ -89241,6 +89219,21 @@
   ],
   "vals": {
    "1350": 1
+  }
+ },
+ "NS Mura|2012-13": {
+  "elo": 1300,
+  "basis": "단일값",
+  "lv": "슬로베니아 2012-13 9위 (추정, 다른 선수 자료의 무라 2021 1위 1360보다 낮게)",
+  "n": 1,
+  "players": [
+   "미로슬라프 클로제"
+  ],
+  "names": [
+   "NS Mura"
+  ],
+  "vals": {
+   "1300": 1
   }
  },
  "Nyva Ternopil|1995-96": {
@@ -104767,6 +104760,67 @@
    "1632": 3
   }
  },
+ "Red Bull Bragantino|2023": {
+  "elo": 1631,
+  "basis": "단일값",
+  "lv": "브라질 세리에 A 2023 6위",
+  "n": 1,
+  "players": [
+   "루이스 수아레스"
+  ],
+  "names": [
+   "Red Bull Bragantino"
+  ],
+  "vals": {
+   "1631": 1
+  }
+ },
+ "Red Bull Bragantino|2024": {
+  "elo": 1549,
+  "basis": "단일값",
+  "lv": "브라질 세리에 A 2024 16위",
+  "n": 1,
+  "players": [
+   "루카스 모우라"
+  ],
+  "names": [
+   "Red Bull Bragantino"
+  ],
+  "vals": {
+   "1549": 1
+  }
+ },
+ "Red Bull Bragantino|2025": {
+  "elo": 1588,
+  "basis": "단일값",
+  "lv": "브라질 세리에 A 2025 10위",
+  "n": 1,
+  "players": [
+   "네이마르"
+  ],
+  "names": [
+   "Red Bull Bragantino"
+  ],
+  "vals": {
+   "1588": 1
+  }
+ },
+ "Red Bull Bragantino|2026": {
+  "elo": 1611,
+  "basis": "단일값",
+  "lv": "브라질 세리에 A 2026 8위",
+  "n": 2,
+  "players": [
+   "루카스 모우라",
+   "네이마르"
+  ],
+  "names": [
+   "Red Bull Bragantino"
+  ],
+  "vals": {
+   "1611": 2
+  }
+ },
  "Red Bull New York|2020": {
   "elo": 1571,
   "basis": "단일값",
@@ -111734,7 +111788,7 @@
  "Shabab Al-Ahli Dubai FC|2025-26": {
   "elo": 1480,
   "basis": "단일값",
-  "lv": "UAE 1위 (추정)",
+  "lv": "UAE 프로리그 2025-26 2위 (추정)",
   "n": 1,
   "players": [
    "리야드 마레즈"

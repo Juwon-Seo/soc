@@ -229,7 +229,9 @@ for (const [k, L] of groups) {
   const pl = [...new Set(L.map(e => e.player))];
   const [team] = k.split('|');
   const ev2 = [...vals.keys()];
-  rows.push({ team: repName.get(team), key: team, season: L[0].season, elo: r.v, basis, lv, n: L.length, players: pl,
+  // 대표 이름이 이 팀-시즌 표기에 없으면(예: 아르세날 데 사란디가 아스널 이름으로 찍힘) 가장 많이 쓴 표기를 씀
+  const nm = (names.has(repName.get(team)) || norm(repName.get(team)) === team) ? repName.get(team) : [...names].sort((a, b) => b[1] - a[1])[0][0];
+  rows.push({ team: nm, key: team, season: L[0].season, elo: r.v, basis, lv, n: L.length, players: pl,
     names: [...names].sort((a, b) => b[1] - a[1]).map(x => x[0]), vals: [...vals].sort((a, b) => b[1] - a[1] || a[0] - b[0]),
     spread: Math.max(...ev2) - Math.min(...ev2), dateSeason: L.every(e => e.seasonSrc === 'date') });
 }
