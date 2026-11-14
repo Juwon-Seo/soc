@@ -101,8 +101,7 @@ def other_leg(gid):
         if o["home_id"] == club: return (fh, fa)
         if o["away_id"] == club: return (fa, fh)
         sys.exit("다른 차전 편 " + gid)
-    oh, oa = map(int, m["other_leg_score"].split(":"))
-    return (oh, oa) if side_of(gid) == "a" else (oa, oh)   # 다른 차전은 홈·원정이 바뀜
+    sys.exit("다른 차전 리포트 없음 " + gid)
 
 def tie_of(gid):
     g = G[gid]; rnd = rnd_of(g).lower()
