@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
-"""Federico Chiesa: raw/ -> candreva.json + src/data/chi.js (판정 근거는 judgments.md)
+"""Antonio Candreva: raw/ -> candreva.json + src/data/can.js (판정 근거는 judgments.md)
 
-  python3 players/chiesa/build_chiesa.py            # 파일 쓰기
-  python3 players/chiesa/build_chiesa.py --debug    # Elo 출처·도움 판정 로그
-  python3 players/chiesa/build_chiesa.py --cross    # 동료 자료 대조
-  python3 players/chiesa/build_chiesa.py --fm       # FotMob 골 대조
+  python3 players/candreva/build_candreva.py            # 파일 쓰기
+  python3 players/candreva/build_candreva.py --debug    # Elo 출처·도움 판정 로그
+  python3 players/candreva/build_candreva.py --cross    # 다른 선수 자료 대조(모든 src/data/*.js)
+  python3 players/candreva/build_candreva.py --fm       # FotMob 골 대조
 
 입력: raw/tm_games.csv(출전), raw/tm_events.csv(골·도움, Transfermarkt 경기 리포트), raw/tm_match_info.csv,
-      raw/tm_two_leg_ties.csv, raw/fotmob_events.csv(FotMob 경기 이벤트), raw/ranks.txt(순위표),
-      /home/user/soc/elo/ents.json·opponent_elo_by_team_season.csv·aliases.csv(기존 선수 자료),
-      src/data/*.js(같은 경기 동료 자료 대조).
-베르너(players/werner/build_werner.py)를 바탕으로 함. 판정 표(대문자 상수)는 judgments.md에 출처와 함께 적혀 있다.
+      raw/tm_two_leg_ties.csv, raw/fotmob_events.csv·fotmob_tm_map.csv·fotmob_playerMatches.csv(FotMob),
+      raw/ranks.txt(순위표), /home/user/soc/elo/ents.json·opponent_elo_by_team_season.csv·aliases.csv(기존 선수 자료),
+      src/data/*.js(같은 경기 다른 선수 자료 대조).
+키에사(players/chiesa/build_chiesa.py)를 바탕으로 함. 판정 표(대문자 상수)는 judgments.md에 출처와 함께 적혀 있다.
 """
-import csv, json, os, re, sys, unicodedata, collections
+import csv, json, os, re, sys, unicodedata, collections, glob
 from datetime import date as Date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -37,16 +37,16 @@ FM_EV = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"):
     FM_EV[r["tm_gameId"]].append(r)
 
-# ---------------------------------------------------------------- 판정 표
+# ---------------------------------------------------------------- 판정 표(judgments.md 4절)
 EXCL_A = {
 }
 ADD_CONFIRMED = {
-}   # FotMob에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움
+}   # FotMob에 없지만 다른 출처 2곳 이상이 확인해 넣은 도움: "gameId|minute": "근거"
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"IT1", "GB1"}
-CUP = {"CIT", "FAC", "CGB"}
-TIE_UEFA = {"CL", "EL"}
+LEAGUE = {"IT1", "IT2", "IT3B", "POSB"}   # 세리에B 승격 플레이오프(POSB) = 리그 비중(브루노 페르난데스·판니스텔로이·카모라네시 선례)
+CUP = {"CIT"}
+TIE_UEFA = {"CL", "EL", "CLQ", "ELQ"}
 
 def comp_of(cid, rnd):
     r = rnd.lower()
@@ -55,10 +55,12 @@ def comp_of(cid, rnd):
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
         if r.startswith("quarter"): return "dk"
-        return "dc"     # 3·4라운드·16강
-    if cid == "SCI": return "df"      # 수페르코파 이탈리아나 2021(단판 결승)
+        return "dc"     # 1~4라운드·16강
+    if cid == "SCI": return "df"      # 수페르코파 이탈리아나(단판 결승)
+    if cid == "CLQ": return "clq"
+    if cid == "ELQ": return "elq"
     if cid == "CL":
-        if r.startswith("group"): return "clg"     # 조별·2024-25부터 리그 페이즈('Group Stage')
+        if r.startswith("group"): return "clg"
         if r.startswith("last 16"): return "cl16"
         if r.startswith("quarter"): return "clk"
         if r.startswith("semi"): return "clsf"
@@ -67,15 +69,13 @@ def comp_of(cid, rnd):
         if r.startswith("group"): return "elg"
         if r.startswith("semi"): return "elsf"
         if r.startswith("final"): return "elf"
-        return "elk"   # 32강(intermediate stage)·16강·8강
+        return "elk"   # 32강('Second Round'·'intermediate stage')·16강·8강
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
-def CIT_ET(d):
-    return 1
-
 def CIT_RULE(d):
-    """코파 이탈리아 준결승: 원정 다득점 2021-22까지, 연장(judgments.md 5절)"""
-    return int(d < "2022-07-01"), CIT_ET(d)
+    """코파 이탈리아 두 경기 합산: 원정 다득점 2021-22까지, 연장 있음(2019-20 준결승 2차전만 연장 없이 승부차기)"""
+    et = 0 if "2020-06-01" <= d <= "2020-06-30" else 1
+    return int(d < "2022-07-01"), et
 
 def is_leg(g):
     return "leg" in g["round"].lower()
@@ -137,7 +137,7 @@ with open(os.path.join(ELO, "ents.json"), encoding="utf-8") as f:
     ENTS = [x for x in json.load(f) if x["p"] != ME]
 
 def season_eu(d):
-    """계산기 시즌 구분과 같게: 피오렌티나·유벤투스·리버풀 모두 8월 1일 기준(2020년 8월은 2019-20)"""
+    """계산기 시즌 구분과 같게: 모든 클럽 8월 1일 기준(2020년 8월은 2019-20)"""
     y = int(d[:4])
     if d.startswith("2020-08"):
         s = 2019
@@ -160,6 +160,7 @@ def _sub(a, b):
     A, B = set(a.split()), set(b.split())
     return bool(A) and bool(B) and (A <= B or B <= A)
 
+UEFA = {"CL", "EL", "CLQ", "ELQ"}
 def opp_elo(opp, d, cid):
     k = key(opp)
     eu = season_eu(d)
@@ -173,8 +174,7 @@ def opp_elo(opp, d, cid):
         ELO_SRC["같은 경기 다른 선수 자료"] += 1
         ELO_LOG.append((d, opp, e, lv, "same:" + "·".join(sorted({x["p"] for x in same})) + " [" + "/".join(sorted({x["opp"] for x in same})) + "]"))
         return e, lv
-    y0 = int(eu[:4])
-    seasons = [eu]
+    seasons = [eu, d[:4]] if cid in UEFA else [eu]   # 달력 연도 리그(노르웨이 등) 상대는 경기 연도
     for s in seasons:
         if (k, s) in TABLE:
             (e, lv), _ = collections.Counter(TABLE[(k, s)]).most_common(1)[0]
@@ -197,7 +197,7 @@ def opp_elo(opp, d, cid):
 
 # ---------------------------------------------------------------- 출전
 def ldate(g):
-    return g["date_local"]   # 이탈리아·잉글랜드·유럽 대회: TM 리포트 날짜(현지)
+    return g["date_local"]   # 이탈리아·유럽 대회: TM 리포트 날짜(현지), 리포트 없는 리그 경기는 UTC → 로마 시간
 
 M = []
 for g in GAMES:
@@ -216,7 +216,7 @@ for gid, evs in FM_EV.items():
         if r["cand_assist"] == "1":
             FM_ASSIST[gid].append(int(r["time"]))
 
-# FotMob 선수 경기 목록(playerMatches, 2017.2~)의 경기별 도움 수: 경기 이벤트에 도움자가 비어 있을 때 FotMob 쪽 확인으로 씀
+# FotMob 선수 경기 목록(playerMatches: 인테르·삼프도리아·살레르니타나)의 경기별 도움 수
 PM_A = {}
 _PM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
 for r in rd("fotmob_tm_map.csv"):
@@ -282,18 +282,26 @@ for e in EVENTS:
                 judg.append(("도움 미확인", d, opp, e["minute"], e["scorer"])); continue
             used_fm[gid] += 1
             A_STATUS.append((gid, d, e["minute"], e["scorer"], e["assist_type"], "TM∩FotMob"))
+        elif d >= GAP:
+            A_STATUS.append((gid, d, e["minute"], e["scorer"], e["assist_type"], "추가확인:" + ADD_CONFIRMED[tag]))
         else:
-            A_STATUS.append((gid, d, e["minute"], e["scorer"], e["assist_type"], "추가확인"))
+            A_STATUS.append((gid, d, e["minute"], e["scorer"], e["assist_type"], "2014.8 전 TM"))
         add_row("a", mi, dm, gf, ga, 0, e["scorer"], tie, comp, ko, d, opp, cid, et)
 
-# 본인 PK 골의 본인 도움(self assist) 이벤트: 리포트에 도움자 = 키에사로 적힌 것(넣지 않음)
 SELF_A = [(e["gameId"], e["date"], e["minute"]) for e in EVENTS if e["cand_self_assist"] == "1"]
 
-# FotMob에만 있는 도움(넣지 않음) 확인
+# FotMob에만 있는 도움(넣지 않음) 확인: 2014.8 이후만 의미 있음
 FM_ONLY = []
 for gid, ts in FM_ASSIST.items():
-    if len(ts) > used_fm.get(gid, 0) and gid in G:
-        FM_ONLY.append((gid, G[gid]["date_local"], ts))
+    if gid in G and G[gid]["date_local"] >= GAP:
+        tm_a = [e for e in EVENTS if e["gameId"] == gid and e["cand_assist_other"] == "1"]
+        for t in ts:
+            if not any(abs(t - int(e["minute"].split("+")[0])) <= 2 or abs(t - minute(e["minute"])[0]) <= 2 for e in tm_a):
+                FM_ONLY.append((gid, G[gid]["date_local"], t))
+PM_ONLY = []   # FotMob 선수 경기 목록 도움 > Transfermarkt 도움(제외 전) 경기
+for gid, n in PM_A.items():
+    if gid in G and n > int(G[gid]["assists"] or 0):
+        PM_ONLY.append((gid, G[gid]["date_local"], G[gid]["opponent"], n, G[gid]["assists"]))
 
 if missing_elo:
     for x in sorted(missing_elo, key=lambda x: x[1]): print("Elo 없음:", x)
@@ -304,7 +312,7 @@ E = rows
 
 if __name__ == "__main__" and "--debug" in sys.argv:
     print(len(M), "경기", sum(r[0] == "g" for r in E), "골", sum(r[8] for r in E), "PK", sum(r[0] == "a" for r in E), "도움", sum(m[3] for m in M), "분")
-    print(ELO_SRC, "FotMob 전용 도움:", FM_ONLY, "self:", SELF_A)
+    print(ELO_SRC, "\nFotMob 전용 도움:", FM_ONLY, "\n선수 경기 목록 도움 > TM:", PM_ONLY, "\nself:", SELF_A)
     seen = set()
     for x in ELO_LOG:
         k = (x[1], x[2], x[3], x[4][:5])
@@ -312,7 +320,7 @@ if __name__ == "__main__" and "--debug" in sys.argv:
         seen.add(k); print(x)
     print(collections.Counter(s[5][:12] for s in A_STATUS))
     for s in A_STATUS:
-        if s[5] != "TM∩FotMob": print(s)
+        if s[5] not in ("TM∩FotMob", "2014.8 전 TM"): print(s)
 
 # ---------------------------------------------------------------- FotMob 골 대조
 FM_CMP = []
@@ -331,21 +339,20 @@ for gid, evs in TMG.items():
         tm_min = minute(t["minute"])[0]; fm_min = int(f["time"]) + int(f["overloadTime"] or 0)
         base = int(t["minute"].split("+")[0])
         if tpk != fpk or not (abs(tm_min - fm_min) <= 1 or int(f["time"]) == base) or t["score_home_away_after"] != f["newScore_home_away"]:
-            FM_CMP.append(("다름", gid, G[gid]["date_local"], t["minute"], t["score_home_away_after"], t["goal_desc"], f["time"], f["overloadTime"], f["newScore_home_away"], f["goalDescriptionKey"], f["suffix"]))
+            FM_CMP.append(("다름", gid, G[gid]["date_local"], t["minute"], t["score_home_away_after"], t["goal_desc"], t["penalty"], f["time"], f["overloadTime"], f["newScore_home_away"], f["goalDescriptionKey"], f["suffix"]))
 if __name__ == "__main__" and "--fm" in sys.argv:
     for x in FM_CMP: print(x)
 
-# ---------------------------------------------------------------- 같은 경기 동료 자료 대조(다른 파일은 고치지 않음)
+# ---------------------------------------------------------------- 같은 경기 다른 선수 자료 대조(다른 파일은 고치지 않음)
 DATA = os.path.join(ROOT, "src", "data")
-def load_js(fn, P):
-    s = open(os.path.join(DATA, fn), encoding="utf-8").read()
-    m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
-    return json.loads(m.group(1))
-MATES = {"Cristiano Ronaldo": ("ron.js", "RON"), "Paulo Dybala": ("dyb.js", "DYB"), "Ángel Di María": ("dim.js", "DIM"),
-         "Juan Cuadrado": ("cua.js", "CUA"), "Franck Ribéry": ("rib.js", "RIB"), "Mohamed Salah": ("sal.js", "SAL"),
-         "Florian Wirtz": ("wir.js", "WIR"), "Bradley Barcola": ("bcl.js", "BCL")}
-MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
-MY_NAMES = ("Federico Chiesa",)
+OTHERS = {}
+for fn in sorted(glob.glob(os.path.join(DATA, "*.js"))):
+    b = os.path.basename(fn)
+    if b in ("can.js", "hon.js"): continue
+    s = open(fn, encoding="utf-8").read()
+    m = re.search(r"const ([A-Z0-9]+)_E=(\[.*?\]);\n", s, re.S)
+    if m: OTHERS[b] = json.loads(m.group(2))
+MY_NAMES = ("Antonio Candreva",)
 CROSS = []
 def cmp_rows(a, b):
     diffs = []
@@ -358,42 +365,51 @@ def cmp_rows(a, b):
     ta = a[14] if len(a) > 14 else None; tb = b[14] if len(b) > 14 else None
     if a[7] != b[7] or ta != tb: diffs.append(f"단판/합산 {a[7]},{ta}/{b[7]},{tb}")
     return diffs
-for nm, ent in MATE_E.items():
+for fn, ent in OTHERS.items():
     for r in E:
-        if r[0] == "a" and r[13] == nm:
-            hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and key(x[1]) == key(r[1]) and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
-            CROSS.append(("키에사 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+        same = [x for x in ent if x[9] == r[9] and key(x[1]) == key(r[1])]
+        if not same: continue
+        # 칸드레바 도움 → 그 선수 골
+        if r[0] == "a":
+            hit = sorted([x for x in same if x[0] == "g" and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
+            if hit: CROSS.append((fn, "칸드레바 도움→골", r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+        for x in same:
+            if (x[2], x[12], x[3]) != (r[2], r[12], r[3]):
+                CROSS.append((fn, "같은 경기 Elo/lv/대회 다름", r[9], r[1], (r[2], r[12], r[3]), (x[2], x[12], x[3])))
     for x in ent:
         if x[0] == "a" and x[13] in MY_NAMES:
             hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
-            CROSS.append((nm + " 도움→키에사 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
-    for e in EVENTS:
-        if e["cand_scorer"] == "1" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
-            d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
-            if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
-                CROSS.append(("TM 동료 도움→키에사 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
-    for s in A_STATUS:
-        if s[3] == nm and (s[5].startswith("제외") or s[5] == "TM단독-미확인"):
-            hit = [x for x in ent if x[0] == "g" and x[9] == s[1] and abs(x[4] - minute(s[2])[0]) <= 2]
-            CROSS.append(("키에사 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
-    # 같은 경기 다른 동료 골·도움 행의 Elo/lv/대회 대조
-    for r in E:
-        same = [x for x in ent if x[9] == r[9] and key(x[1]) == key(r[1])]
-        for x in same:
-            if (x[2], x[12], x[3]) != (r[2], r[12], r[3]):
-                CROSS.append(("같은 경기 Elo/lv/대회 다름", nm, r[9], r[1], (r[2], r[12], r[3]), (x[2], x[12], x[3])))
+            CROSS.append((fn, "도움→칸드레바 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+# TM 리포트상 칸드레바 골의 도움자가 다른 수록 선수인데 그 선수 파일에 도움 행이 없는 경우 / 칸드레바 도움인데 상대 파일에 골 없음
+SCORER_FILES = collections.defaultdict(set)
+for fn, ent in OTHERS.items():
+    for x in ent:
+        if x[0] == "a" and isinstance(x[13], str): pass
+for e in EVENTS:
+    if e["gameId"] not in G: continue
+    d = ldate(G[e["gameId"]]); opp = G[e["gameId"]]["opponent"]; mi = minute(e["minute"])[0]
+    if e["cand_scorer"] == "1" and e["assist_player"]:
+        for fn, ent in OTHERS.items():
+            gl = [x for x in ent if x[0] == "g" and x[9] == d and key(x[1]) == key(opp)]
+            # 그 선수 파일에 같은 경기 골이 있으면 그 선수가 같은 팀에서 뛴 것
+            if gl and not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
+                CROSS.append((fn, "참고: 같은 경기 골이 있는 선수 파일, 칸드레바 골의 도움 행 없음", d, e["minute"], e["assist_player"], e["assist_type"]))
 if __name__ == "__main__" and "--cross" in sys.argv:
     for c in CROSS:
         if c[-1] != "같음": print(c)
-    print(collections.Counter((c[0], str(c[-1])[:12]) for c in CROSS))
+    print(collections.Counter((c[0], c[1], str(c[-1])[:4]) for c in CROSS))
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("fioch", "2020-10-05", "피오렌티나", "2016~2020"), ("juvch", "2024-08-29", "유벤투스", "2020~2024"),
-         ("livch", None, "리버풀", "2024~")]
+CLUBS = [("tercv", "2007-07-01", "테르나나", "2004~2007"), ("udicv", "2008-07-07", "우디네세", "2007~2008"),
+         ("livcv", "2010-01-21", "리보르노", "2008~2010"), ("juvcv", "2010-08-30", "유벤투스", "2010"),
+         ("parcv", "2011-07-21", "파르마", "2010~2011"), ("cescv", "2012-01-31", "체세나", "2011~2012"),
+         ("lazcv", "2016-08-03", "라치오", "2012~2016"), ("intcv", "2020-09-25", "인테르", "2016~2020"),
+         ("sampcv", "2022-08-12", "삼프도리아", "2020~2022"), ("salcv", None, "살레르니타나", "2022~2024")]
 def club_of(d):
     for k, u, _, _ in CLUBS:
         if u is None or d < u: return k
-TMC = {"430": ["fioch"], "506": ["juvch"], "31": ["livch"]}
+TMC = {"1103": ["tercv"], "410": ["udicv"], "1210": ["livcv"], "506": ["juvcv"], "130": ["parcv"], "1429": ["cescv"],
+       "398": ["lazcv"], "46": ["intcv"], "1038": ["sampcv"], "380": ["salcv"]}
 ST = collections.OrderedDict()
 for i, (k, *_ ) in enumerate(CLUBS): ST[i] = [0, 0, 0, 0]
 def stage(d):
@@ -412,6 +428,7 @@ NPK = sum(r[8] for r in E)
 MIN_TOT = sum(m[3] for m in M)
 NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
 SRC = ELO_SRC
+CNT_A = collections.Counter(s[5].split(":")[0] if s[5].startswith("제외") else s[5] for s in A_STATUS)
 exec(open(os.path.join(HERE, "note_candreva.py"), encoding="utf-8").read())
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "lv"]:
