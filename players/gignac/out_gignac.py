@@ -64,7 +64,9 @@ SHOT = "슈팅 리바운드('Shot on goal')"; UNC = "2014.8 이후 Transfermarkt
 KO_NAME = {"Le Mans Union Club 72": "르망", "Grenoble Foot 38": "그르노블", "Stade Brestois 29": "브레스트", "AC Arles-Avignon": "아를아비뇽",
            "Chiapas FC (- 2017)": "치아파스", "Deportivo Toluca": "톨루카", "CF America": "아메리카", "CF América": "아메리카", "CD Cruz Azul": "크루스 아술",
            "CF Monterrey": "몬테레이", "UNAM Pumas": "푸마스", "Club Tijuana": "티후아나", "Monarcas Morelia": "모렐리아", "Club Necaxa": "네캑사",
-           "Santos Laguna": "산토스 라구나", "CD Olimpia": "올림피아"}
+           "Santos Laguna": "산토스 라구나", "CD Olimpia": "올림피아",
+           "CF Pachuca": "파추카", "Club León FC": "레온", "Tiburones Rojos de Veracruz": "베라크루스", "Deportivo Guadalajara": "과달라하라",
+           "Puebla FC": "푸에블라", "Lobos BUAP (- 2019)": "로보스 BUAP", "Alianza FC": "알리안사", "New York City FC": "뉴욕 시티"}
 def jl(reason):
     return ", ".join(f"{d_(j[1])} {KO_NAME.get(j[2], j[2])}전 {j[3]}분 {j[4]}" for j in judg if j[0] == "도움 제외" and j[5] == reason)
 MAN_USED = sorted({(o, v[1], v[2]) for (o, d), v in ELO_LOG.items() if v[0] == "man"}, key=lambda t: t[0])
@@ -98,7 +100,7 @@ NOTE_LINES = [
     "대회 비중: 쿠프 드 프랑스·쿠프 드 라 리그·코파 MX(조별)는 16강까지·8강·준결승·결승, 캄페온 데 캄페오네스·수페르코파 MX·캄페오네스컵은 국내컵 결승, 멕시코 리길야는 MLS 플레이오프(8강·리길야 진출전, 준결승, 결승), 북중미 챔스는 16강까지·8강·준결승·결승, 리그스컵은 조별·토너먼트, 리베르타도레스 2015 준결승·결승, 클럽 월드컵 2020(2021.2 카타르), UEFA컵 2007-08 1라운드는 유로파 예선으로 계산함",
     f"두 경기 합산 기록 {NTIE}개({NTIEG}경기)는 합산 S로 계산함: UEFA 대회 원정 다득점·연장, 북중미 챔스 2023년까지 원정 다득점·연장 없음·2024년부터 원정 다득점 뒤 연장, 리베르타도레스 2015 준결승 원정 다득점·연장 없음, 멕시코 리길야 8강·준결승은 원정 다득점·연장 없음(실제 규정은 합산 동률이면 정규리그 상위 팀 진출), 리길야 결승은 연장·승부차기",
     "시즌은 티그레스는 7월 1일 기준(아페르투라가 7월 초에 시작: 2022.7.2·2024.7.6 개막전 = 새 시즌, 2023.6.25 캄페온 데 캄페오네스·2024.6.30 수페르코파 = 앞 시즌, 2015.7 리베르타도레스 = 2015-16), 로리앙·툴루즈·마르세유는 8월 1일 기준",
-    "우승 기록은 Transfermarkt 업적 페이지 기준",
+    "우승 기록은 Transfermarkt 업적 페이지 기준: 리가MX 아페르투라 2015·2016·2017과 클라우수라 2019·2023은 리그 우승, 캄페온 데 캄페오네스(2016-17·2017-18·2022-23)는 국내 슈퍼컵, 쿠프 드 라 리그 2010-11·2011-12(마르세유), 북중미 챔스 2020·캄페오네스컵 2회는 그 밖의 우승. 북중미 챔스 2020 최우수 선수상은 들어갈 항목이 없어 넣지 않음",
 ]
 NOTE = "\n".join(l for l in NOTE_LINES if l)
 for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "elq", "lg", "mlp", "ccc", "lcg", "lck"]:
