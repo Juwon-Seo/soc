@@ -1,0 +1,25 @@
+{
+ "preset": "papugomez",
+ "name": "파푸 고메스",
+ "prefix": "PAP",
+ "clubs": [
+  {"key": "arspg", "name": "아르센알 데 사란디", "short": "아르센알", "years": "2005~2008", "until": "2009-01-29"},
+  {"key": "slzpg", "name": "산로렌소", "short": "산로렌소", "years": "2009~2010", "until": "2010-07-21"},
+  {"key": "ctnpg", "name": "카타니아", "short": "카타니아", "years": "2010~2013", "until": "2013-08-02"},
+  {"key": "metpg", "name": "메탈리스트 하르키우", "short": "메탈리스트", "years": "2013~2014", "until": "2014-09-01"},
+  {"key": "atapg", "name": "아탈란타", "short": "아탈란타", "years": "2014~2021", "until": "2021-01-26"},
+  {"key": "sevpg", "name": "세비야", "short": "세비야", "years": "2021~2023", "until": "2023-09-29"},
+  {"key": "mnzpg", "name": "몬차", "short": "몬차", "years": "2023", "until": "2025-07-11"},
+  {"key": "padpg", "name": "파도바", "short": "파도바", "years": "2025~2026", "until": "2026-09-28"},
+  {"key": "fvpg", "name": "포르테 비르투스", "short": "포르테 비르투스", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": ["arspg", "slzpg"], "jul10": ["atapg"], "jul1": []},
+ "pos": "LW",
+ "flag": "AR",
+ "retired": false,
+ "hon": {
+  "t": {"UEL": ["22/23 세비야"]},
+  "o": [["코파 수다메리카나", "06/07 아르센알"], ["스루가 뱅크 챔피언십", "07/08 아르센알"]],
+  "a": {}
+ }
+}

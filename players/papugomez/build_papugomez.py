@@ -166,7 +166,7 @@ def assist_reason(e):
     if t == "Shot on goal": return "슈팅 리바운드('Shot on goal')"
     return None
 
-raw_rows, judg, post_gap_log = [], [], []
+raw_rows, judg, post_gap_log, min_fix = [], [], [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
     g = G[gid]; side = side_of(gid); prev = (0, 0); d = ldate(g)
@@ -180,6 +180,8 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         mi, dm = mins(e["minute"])
         f = fm_ev(gid, e["score_home_away_after"])
         tag = f"{gid}|{mins(e['minute'])[0]}"
+        if dm == 0 and mi in (45, 90) and f and f["overloadTime"] and int(f["time"]) == mi and int(f["overloadTime"]) > 0:
+            dm = f"{mi}+{int(f['overloadTime'])}"; min_fix.append((gid, ldate(g), opp(g), e["minute"], dm)); mi += int(f["overloadTime"])   # 일리치치 선례: Transfermarkt 90분, FotMob 추가시간
         if is_a:
             why = assist_reason(e)
             if why:

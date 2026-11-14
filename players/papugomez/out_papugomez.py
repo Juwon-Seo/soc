@@ -10,13 +10,13 @@ cross = []
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         if x[0] == "a" and is_me(x[13]):
-            hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
+            hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2], key=lambda r: (not same_vals(r, x), abs(r[4] - x[4])))
             cross.append(("동료 도움→고메스 골", b, x[9], x[4], "일치" if hit and same_vals(hit[0], x) else ("값 다름" if hit else "고메스 골 없음"), x[1:9], hit[0][1:9] if hit else None))
     if b in MATE:
         nm, tk = MATE[b]
         for r in E:
             if r[0] == "a" and any(t in str(r[13]) for t in tk):
-                hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2]
+                hit = sorted([x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2], key=lambda x: (not same_vals(x, r), abs(x[4] - r[4])))
                 cross.append(("고메스 도움→동료 골", b, r[9], r[4], "일치" if hit and same_vals(hit[0], r) else ("값 다름" if hit else "동료 골 없음"), r[1:9], hit[0][1:9] if hit else None))
         # Transfermarkt에서 동료가 고메스 골을 도왔는데 동료 파일에 그 도움이 없는 경우 / 고메스가 동료 골을 도왔는데 여기서 뺀 경우
         for gid, evs in EVS.items():
@@ -86,7 +86,7 @@ KO = {"AC Cesena": "체세나", "US Palermo": "팔레르모", "Brescia Calcio": 
       "Dynamo Kyiv": "디나모 키이우", "Metalurg Zaporizhya": "메탈루르흐 자포리자", "Chornomorets Odesa": "초르노모레츠",
       "ACF Fiorentina": "피오렌티나", "AS Roma": "로마", "Udinese Calcio": "우디네세", "Torino FC": "토리노", "FK Sarajevo": "사라예보",
       "SS Lazio": "라치오", "AC Milan": "밀란", "GNK Dinamo Zagreb": "디나모 자그레브", "CA Osasuna": "오사수나", "CA Lanús": "라누스",
-      "CA Banfield": "반필드", "CD Motagua Tegucigalpa": "모타과", "Hellas Verona": "베로나", "Parma Calcio 1913": "파르마",
+      "CA Banfield": "반필드", "AA Argentinos Juniors": "아르헨티노스 주니어스", "CD Motagua Tegucigalpa": "모타과", "Hellas Verona": "베로나", "Parma Calcio 1913": "파르마",
       "Catania Calcio": "카타니아", "Inter Milan": "인테르", "CA Independiente": "인데펜디엔테", "Racing Club": "라싱",
       "Club Atlético Gimnasia y Esgrima (Jujuy)": "힘나시아 후후이", "CA Colón": "콜론", "US Sassuolo": "사수올로"}
 def jl(reason):
@@ -101,7 +101,8 @@ for gid, e in FMG:
     if abs(fmin - mins(e["minute"])[0]) > 1: FM_DIFF.append((gid, ldate(G[gid]), e["minute"], f"FotMob {f['time']}" + (f"+{f['overloadTime']}" if f["overloadTime"] else "")))
     if ("pen" in (f["goalDescriptionKey"] or f["goalDescription"] or "").lower()) != (e["goal_desc"] == "Penalty"): FM_DIFF.append((gid, ldate(G[gid]), e["minute"], "PK 표시 다름"))
 FM_N_G = len(FMG); FM_N_GAMES = len({gid for gid, e in FMG})
-ARG_DATE_SHIFT = sum(1 for g in GAMES if g["club_id"] in ("4673", "1775") and g["date_local_tm_report"] and g["date_local_tm_report"] != g["date_local"])
+_SCH = {r["gameId"]: datetime.datetime.strptime(r["date_tm"][4:], "%d/%m/%Y").date().isoformat() for r in rd("tm_schedule_all.csv")}
+ARG_DATE_SHIFT = sum(1 for g in GAMES if g["club_id"] in ("4673", "1775") and _SCH.get(g["gameId"], g["date_local"]) != g["date_local"])
 
 # ---------------------------------------------------------------- 설명(NOTE)
 first, last = M[0], M[-1]
@@ -111,17 +112,17 @@ NOTE_LINES = [
     f"클럽별 경기·골·도움: {st_txt}. 출전 분 합계 {MIN_TOT:,}분",
     "현역(포르테 비르투스, UAE 2부): 2026.11.6 두바이 시티전까지 반영",
     "도핑 징계로 2년 가까이 경기 기록이 없음: 세비야 시절(2022년 10~11월) 도핑 검사에서 금지 약물 테르부탈린이 나와 2023.10.20 2년 출전 정지가 발표됨. 몬차에서 2경기(2023.10.2·10.8)를 뛴 뒤 2023.10.9부터 2025.11.21까지 공식 경기 출전이 없고(몬차와 계약 종료, 징계 중 레나테에서 훈련만 함), 2025년 7월 파도바(세리에B)와 계약해 징계가 끝난 뒤 2025.11.22 베네치아전으로 복귀",
-    f"경기·출전 분·골 시간·골 뒤 스코어·PK는 Transfermarkt 선수 경기 성적(클럽 공식 경기 {NG}경기)과 경기 리포트 기준. 출전 시간 90분 추정 경기는 없음. 클럽별 경기 수는 Transfermarkt·스페인어 위키백과와 같음(영어·이탈리아어 위키백과는 산로렌소 58경기 9골)",
+    f"경기·출전 분·골 시간·골 뒤 스코어·PK는 Transfermarkt 선수 경기 성적(클럽 공식 경기 {NG}경기)과 경기 리포트 기준. 출전 시간 90분 추정 경기는 없음. 클럽별 경기 수는 Transfermarkt·스페인어 위키백과(포르테 비르투스는 아직 0경기로 적힘)와 같음(영어·이탈리아어 위키백과는 산로렌소 58경기 9골, 이탈리아어 위키백과는 아르센알 100경기)",
     "소속 팀 리그: 아르헨티나 1부·세리에A·우크라이나 1부·라리가는 프로 1부, 파도바(2025-26)는 세리에B(이탈리아 2부, 프로)라 넣음. 포르테 비르투스(2026-27)는 UAE 2부(퍼스트 디비전) 팀으로 프로 리그인지 자료에 분명하지 않지만, Transfermarkt 통산 기록과 이탈리아어 위키백과 선수 정보(3경기 2골)가 이 시즌을 통산에 넣고 있어 넣음",
     "산로렌소 2009-10: 영어·이탈리아어 위키백과·FotMob 통산은 산로렌소 58경기 9골, Transfermarkt는 57경기 8골. 산로렌소 기록 사이트(estadisticascasla.com)는 57경기 9골로, 2010.3.20 콜론전(2-2) 89분 동점골을 Transfermarkt가 콜론 선수 리카르도 고메스의 골로 잘못 적은 것으로 확인됨(경기 기록: 90분 고메스 골, 91분 유니폼을 벗는 세리머니로 퇴장; 디아리오 데 쿠요 경기 기사도 고메스의 마지막 분 동점골). 이 골을 넣음(분은 Transfermarkt 89분, 골 전 1-2). 위키백과의 1경기 차이는 경기별 출처가 없어 넣지 않음",
-    f"골 {NGo}개 중 PK {NPK}개(Transfermarkt 골 유형 'Penalty', 선수 경기 성적 PK 골 수와 경기마다 같음). 자책골 없음. 2010-11 이후 골 {FM_N_G}개({FM_N_GAMES}경기)는 FotMob 경기 기록과 대조함(수·골 뒤 스코어·PK 같음; 2012.8.18 사수올로전(코파 이탈리아)은 Transfermarkt 73분·FotMob 71분이라 Transfermarkt를 씀). 2010년 전 아르헨티나 경기는 FotMob 자료가 없음",
+    f"골 {NGo}개 중 PK {NPK}개(Transfermarkt 골 유형 'Penalty', 선수 경기 성적 PK 골 수와 경기마다 같음). 자책골 없음. 2010-11 이후 골 {FM_N_G}개({FM_N_GAMES}경기)는 FotMob 경기 기록과 대조함(수·골 뒤 스코어·PK 같음). 분 차이: 2012.8.18 사수올로전(코파 이탈리아) Transfermarkt 73분·FotMob 71분, 2011.5.15·2011.8.21 경기 Transfermarkt 90+5·90+2분·FotMob 90분은 Transfermarkt를 쓰고, Transfermarkt가 90분으로만 적은 2018.8.20 프로시노네전·2018.11.11 인테르전 골은 FotMob 추가시간(90+2·90+4분)을 씀(일리치치 선례). 2010년 전 아르헨티나 경기는 FotMob 자료가 없음",
     "도움은 2014.8.1 이전은 Transfermarkt 리포트 도움(단일 출처 허용), 그 뒤는 Transfermarkt와 FotMob 경기 기록이 같이 적은 도움을 기준으로 하고, 한쪽에만 있는 도움은 다른 출처 2곳이 확인한 것만 넣음. UAE 2부 경기는 Transfermarkt 도움이 없음(FotMob은 포르테 비르투스 경기 자료가 없음)",
     f"도움 {NA}개 = Transfermarkt 리포트 도움 {TM_A}개 − PK 유도 {EX['PK 유도']}개 − 상대 자책골 유도 {EX['상대 자책골 유도']}개 − 슈팅 리바운드 {EX[SHOT]}개 − 고메스가 핸드볼로 내준 PK 줄 1개 − 2014.8 이후 Transfermarkt에만 있고 다른 출처 2곳으로 확인되지 않은 {EX['2014.8 이후 Transfermarkt 단일 출처(다른 출처 2곳 확인 못 함)']}개 + FotMob에만 있고 기사 2곳이 확인한 1개(2019.3.31 파르마전 24분 파샬리치). Transfermarkt 선수 경기 성적의 도움은 {TM_A_API}개(리포트의 2022.8.12 오사수나전 74분 'Handball by Papu Gómez'는 고메스가 핸드볼 반칙으로 내준 PK라 도움이 아님)",
     "PK 유도로 뺀 도움: " + jl("PK 유도") + ". 상대 자책골 유도로 뺀 도움: " + jl("상대 자책골 유도") + ". 슈팅 리바운드로 뺀 도움: " + jl("슈팅 리바운드('Shot on goal')"),
     "Transfermarkt에만 있어 뺀 도움: " + jl("2014.8 이후 Transfermarkt 단일 출처(다른 출처 2곳 확인 못 함)") + "(경기 기사에 고메스 도움 언급 없음). 2016.1.6 우디네세전 75분 달레산드로 골 도움은 FotMob에 없지만 Sports Mole 경기 기사와 이탈리아 문자 중계가 고메스 크로스로 적어 넣음",
     "FotMob에만 있어 뺀 도움: 2017.10.25 베로나전 50분 프로일러(다른 기록 사이트 1곳만 고메스 도움, 판타지 공식 도움은 다른 선수), 2012.9.26 아탈란타전 52분 스폴리(2014 이전이라 Transfermarkt 기준: 로디 코너킥 도움)",
     f"2014.8.1 이전 도움 {PRE_A}개는 Transfermarkt 단일 출처(FotMob은 2010-11~2013-14 도움 칸이 거의 비어 있고 2010년 이전 아르헨티나 경기 자료가 없음)",
-    "날짜는 경기 현지 날짜. 아르헨티나 클럽 경기는 Transfermarkt 경기 시각(UTC)을 아르헨티나 시간(UTC−3)으로 바꾼 날짜(저녁 경기는 Transfermarkt 일정·리포트 날짜보다 하루 앞; 2009.10.16 로사리오 센트랄전은 경기 기사 날짜와 같음), 유럽 경기는 Transfermarkt 리포트 날짜, UAE 경기는 두바이 시간",
+    f"날짜는 경기 현지 날짜. 아르헨티나 클럽 경기는 Transfermarkt 경기 시각(UTC)을 아르헨티나 시간(UTC−3)으로 바꾼 날짜(저녁 경기 {ARG_DATE_SHIFT}경기는 Transfermarkt 일정·리포트 날짜보다 하루 앞; 2009.10.16 로사리오 센트랄전은 경기 기사 날짜와 같음), 유럽 경기는 Transfermarkt 리포트 날짜, UAE 경기는 두바이 시간",
     "출전 분: Transfermarkt 그대로. 다만 연장 없이 바로 승부차기로 끝난 코파 수다메리카나 두 경기는 Transfermarkt가 120분 경기로 계산해 90분 기준으로 고침: 2009.11.4 8강 2차전 리버 플레이트(몬테비데오)전 120분 → 90분(선발 풀타임), 2007.11.14 준결승 2차전 리버 플레이트전 49분 → 19분(71분 교체 투입). 연장 경기(2012.12.4 치타델라전 코파 이탈리아, 2018.8.30 코펜하겐전 유로파 예선(연장 뒤 승부차기), 2021.3.3 바르셀로나전·2021.12.1 코르도바전·2021.12.15 안드라츠전 코파 델 레이, 2023.5.18 유벤투스전 유로파 준결승)은 연장 포함",
     f"상대 Elo는 같은 경기를 다룬 다른 선수 자료(일리치치·이스코 등) 값을 먼저 쓰고({ELO_SRC['같은 경기 다른 선수 자료']}개 기록), 없으면 직접 추정, 기존 선수 자료의 같은 팀·같은 시즌 값({ELO_SRC['기존 팀×시즌 값']}개), 그다음 그 시즌 최종 순위를 리그 모형에 넣은 값({ELO_SRC['순위표+리그 모형']}개)",
     "리그 수준: 아르헨티나 1부는 반시즌(아페르투라·클라우수라) Transfermarkt 순위표를 평균 1583·흩어짐 63 모형에 넣음(리그 경기는 그 경기가 속한 대회, 대륙 대회의 아르헨티나 상대는 그때 진행 중인 대회 순위). 아페르투라 2008은 3팀 결정전 뒤 최종 순위(보카 1·티그레 2·산로렌소 3). 통합표 시즌 키가 연도라 같은 팀이 한 해 두 대회 값이 다르면 평균(리켈메·포를란 선례). 브라질 세리에 A 2007은 기존 모형(평균 1598). 멕시코 2007-08(과달라하라)은 아페르투라·클라우수라 조별 표 승점 합 18팀 순위(2위)를 기존 멕시코 모형(1604.25 + 73.41 × 곡선)에 넣은 추정(리켈메 자료의 아틀라스 2007-08 15위와 같은 표)",
@@ -184,7 +185,7 @@ J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 open(OUT_JS, "w", encoding="utf-8").write(f"const PAP_E={J(E)};\nconst PAP_M={J(M)};\nconst PAP_NOTE={J(NOTE)};\n")
 keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
 json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "assist_judgments": judg, "post_gap_tm_only": post_gap_log,
-           "fm_only": fm_only_seen, "added_goal": ADD_GOAL, "minute_fixes": MIN_FIX, "cross_check": cross, "elo_sources": ELO_SRC,
+           "fm_only": fm_only_seen, "added_goal": ADD_GOAL, "stoppage_from_fotmob": min_fix, "minute_fixes": MIN_FIX, "cross_check": cross, "elo_sources": ELO_SRC,
            "arg_averages": ARG_AVG, "fotmob_goal_diffs": FM_DIFF, "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
           open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)} → {OUT_JS}")

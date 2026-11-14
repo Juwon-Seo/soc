@@ -1,0 +1,1 @@
+atapg: remove from jul10 list; add if(club==="atapg"){if(d>="2020-07-01"&&d<"2020-09-01")return "2019-20";const s=d.slice(5)>="07-10"?y:y-1;return s+"-"+String(s+1).slice(2)}
