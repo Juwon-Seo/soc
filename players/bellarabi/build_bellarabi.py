@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Theo Walcott(시오 월콧): raw/ -> walcott.json + src/data/wal.js (판정 근거는 judgments.md)
+"""Karim Bellarabi(카림 벨라라비): raw/ -> bellarabi.json + src/data/blr.js (판정 근거는 judgments.md)
 
-  python3 players/walcott/build_walcott.py            # 파일 쓰기
-  python3 players/walcott/build_walcott.py --debug    # Elo 출처·도움 판정 로그
-  python3 players/walcott/build_walcott.py --cross    # 동료 자료 대조
-  python3 players/walcott/build_walcott.py --fm       # FotMob 골 대조
+  python3 players/bellarabi/build_bellarabi.py            # 파일 쓰기
+  python3 players/bellarabi/build_bellarabi.py --debug    # Elo 출처·도움 판정 로그
+  python3 players/bellarabi/build_bellarabi.py --cross    # 동료 자료 대조
+  python3 players/bellarabi/build_bellarabi.py --fm       # FotMob 골 대조
 
 입력: raw/tm_games.csv(출전), raw/tm_events.csv(골·도움, Transfermarkt 경기 리포트), raw/tm_match_info.csv,
       raw/tm_two_leg_ties.csv, raw/fotmob_events.csv, raw/fotmob_playerMatches.csv, raw/ranks.txt,
       /home/user/soc/elo/ents.json·opponent_elo_by_team_season.csv·aliases.csv(기존 선수 자료), src/data/*.js(동료 대조).
-제르비뉴(players/gervinho/build_gervinho.py)를 바탕으로 함.
+시오 월콧(players/walcott/build_walcott.py)을 바탕으로 함.
 """
 import csv, json, os, re, sys, unicodedata, collections
 from datetime import date as Date
@@ -18,29 +18,38 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(HERE, "raw")
 ROOT = os.path.dirname(os.path.dirname(HERE))
 ELO = os.path.join(ROOT, "elo")
-OUT_JS = os.path.join(ROOT, "src", "data", "wal.js")
-OUT_JSON = os.path.join(HERE, "walcott.json")
-ME = "시오 월콧"
+OUT_JS = os.path.join(ROOT, "src", "data", "blr.js")
+OUT_JSON = os.path.join(HERE, "bellarabi.json")
+ME = "카림 벨라라비"
+OUT_ENV = os.environ.get("BLR_OUT")   # 검증용 스크래치 경로(있으면 그쪽에 씀)
+if OUT_ENV: OUT_JS = OUT_ENV
 GAP = "2014-08-01"   # 전: Transfermarkt 도움 단독 허용, 후: Transfermarkt ∩ FotMob(또는 다른 출처 2곳)
 
 def rd(name):
     with open(os.path.join(RAW, name), encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
-GAMES = rd("tm_games.csv")   # 성인 클럽 played 564경기(유소년·U21·대표팀·'다른 팀으로 출전' 행은 수집 단계에서 이미 빠짐)
+# 성인 1군 played 경기 중 프로 리그 소속 팀(브라운슈바이크 23·레버쿠젠 15)만. FC 오버노일란트(115, 2007-08 오버리가 노르트 = 4부 아마추어)는
+# 프로 리그 규칙으로 뺌. 2군·19세 이하(youth_reserve_games.csv)는 수집 단계에서 이미 별도 목록.
+GAMES_ALL = rd("tm_games.csv")
+GAMES = [g for g in GAMES_ALL if g["club_id"] in ("23", "15")]
+EXCL = [g for g in GAMES_ALL if g["club_id"] not in ("23", "15")]
 G = {g["gameId"]: g for g in GAMES}
 EVENTS = rd("tm_events.csv")
+for e in EVENTS:
+    e["pl_scorer"], e["pl_assist_other"], e["pl_self_assist"] = e["bellarabi_scorer"], e["bellarabi_assist_other"], e["bellarabi_self_assist"]
 INFO = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 TIES_RAW = {r["gameId"]: r for r in rd("tm_two_leg_ties.csv")}
 FM_EV = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"):
+    r["pl_assist"] = r["bellarabi_assist"]; r["pl_scorer"] = r["bellarabi_scorer"]
     FM_EV[r["tm_gameId"]].append(r)
 
 # ---------------------------------------------------------------- 판정 표
 # 2014.8 이후 Transfermarkt 단독 도움 중 다른 출처로 확인한 것(judgments.md 4절)
 ADD_CONFIRMED = {
-    "2646154|25": "2016.1.9 선덜랜드전(FA컵 3라운드) 캠벨 골: FotMob 이벤트는 도움자 빈칸. FourFourTwo 경기 기사(Walcott clipped a low cross to the far post)·Camden New Journal 경기 기사(Walcott weaved into the box to tee up Joel Campbell)가 월콧 도움",
-    "2666754|71": "2016.3.8 헐 시티전(FA컵 5라운드 재경기) 지루 골: FotMob 이벤트는 도움자 빈칸. Sky Sports 경기 기사(Giroud volleyed home Walcott's cross)·ESPN 문자 중계(assisted by Theo Walcott with a cross)가 월콧 도움(Eurosport는 크로스가 살짝 굴절됐다고 적음)",
+    "2458316|60": "2014.8.15 발트알게스하임전(DFB-포칼 1라운드) 60분 키슬링 골: FotMob 이벤트는 도움자 빈칸. Sports Mole 경기 기사(Kiessling completed his haul by firing in from Karim Bellarabi's layoff)·FBref 경기 기록(벨라라비 도움 1)",
+    "3422872|12": "2020.9.13 노르더슈테트전(DFB-포칼 1라운드) 12분 알라리오 골: FotMob 이벤트는 도움자 빈칸. 바이어 04 레버쿠젠 구단 경기 리포트(Lucas Alario headed in a Karim Bellarabi cross)·LiveSoccerTV 경기 기록(Assist: K. Bellarabi)",
 }
 # 2014.8 이후 TM 단독 도움 중 다른 출처로 확인 못 해 뺀 것은 자동으로 'TM단독-미확인'
 # FotMob에만 있는 도움 중 다른 출처 2곳으로 확인한 것: (TM gameId, TM 골 분) -> 근거
@@ -49,38 +58,39 @@ ADD_FM_ONLY = {}
 SOG_KEEP = {}
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"GB1", "GB2"}
-CUP = {"FAC", "CGB", "GBCS"}
+LEAGUE = {"L1", "L3"}
+CUP = {"DFB", "NDSP"}
 
 def comp_of(cid, rnd):
     r = rnd.lower()
     if cid in LEAGUE: return "lg"
-    if cid == "GBCS": return "df"                       # 커뮤니티 실드 = 국내컵 결승 비중
+    if cid == "NDSP": return "dc"                       # 니더작센 주 컵(지역 컵) 결승: 국내컵 낮은 비중으로 둠(골·도움 없음)
     if cid in CUP:
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter") or r.startswith("sixth round"): return "dk"   # FA컵 6라운드 = 8강
-        if cid == "CGB" and r.startswith("fifth round"): return "dk"            # 리그컵 5라운드 = 8강(이 선수에겐 없음)
-        return "dc"     # 2·3·4라운드·16강, FA컵 5라운드(16강)와 재경기
+        if r.startswith("quarter"): return "dk"
+        return "dc"     # 1·2라운드·16강
     if cid == "CLQ": return "clq"
     if cid == "CL":
         if r.startswith("group"): return "clg"
         if r.startswith("last 16"): return "cl16"
-        if r.startswith("quarter"): return "clk"
-        if r.startswith("semi"): return "clsf"
         sys.exit("CL " + rnd)
     if cid == "EL":
         if r.startswith("group"): return "elg"
+        if r.startswith("intermediate") or r.startswith("last 16") or r.startswith("quarter"): return "elk"
         sys.exit("EL " + rnd)
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
-# 월콧이 뛰지 않은 다른 차전 5경기: tm_match_info.csv에 없어 저장된 Transfermarkt 리포트(raw/tm_reports/<id>.html)에서 홈·원정·최종 스코어를 읽음
+# 벨라라비가 뛰지 않은 다른 차전: tm_match_info.csv에 없으면 저장된 Transfermarkt 리포트(raw/tm_reports/<id>.html)에서 읽음
 def _other_leg(oid):
     s = open(os.path.join(RAW, "tm_reports", oid + ".html"), encoding="utf-8").read()
     h, a = re.findall(r'sb-team sb-heim.*?/verein/(\d+).*?sb-team sb-gast.*?/verein/(\d+)', s, re.S)[0]
     fin = re.findall(r'sb-endstand">\s*([0-9]+:[0-9]+)', s)[0]
     return {"home_id": h, "away_id": a, "final": fin}
-OTHER_LEG_REPORT = {oid: _other_leg(oid) for oid in ("63078", "1083668", "66498", "81162", "933240")}
+OTHER_LEG_REPORT = {}
+for _r in TIES_RAW.values():
+    if _r["other_leg_id"] not in INFO and os.path.exists(os.path.join(RAW, "tm_reports", _r["other_leg_id"] + ".html")):
+        OTHER_LEG_REPORT[_r["other_leg_id"]] = _other_leg(_r["other_leg_id"])
 
 def is_leg(g):
     return "leg" in g["round"].lower()
@@ -107,9 +117,6 @@ def tie_of(g):
         else: sys.exit("다른 차전 팀 불일치 " + gid)
     if cid in ("CL", "CLQ", "EL"):
         ag, et = int(d < "2021-07-01"), 1
-    elif cid == "CGB":
-        if d >= "2018-07-01": sys.exit("리그컵 2018-19 이후 준결승 규칙 확인 필요 " + gid)
-        ag, et = 1, 1      # 잉글랜드 리그컵 준결승: 2017-18까지 원정 다득점·연장
     else:
         sys.exit("합산 규칙 없음 " + cid)
     return [leg, home, fu, ft, ag, et]
@@ -143,12 +150,12 @@ with open(os.path.join(ELO, "ents.json"), encoding="utf-8") as f:
     ENTS = [x for x in json.load(f) if x["p"] != ME]
 
 def season_eu(d):
-    """계산기 시즌 구분과 같게: 모든 클럽 8월 1일 기준(2020년 8월은 2019-20)"""
+    """계산기 시즌 구분과 같게: 두 클럽 모두 7월 10일 기준, 2020.7.1~8.31(레버쿠젠 2019-20 유로파 8강)은 2019-20"""
     y = int(d[:4])
-    if d.startswith("2020-08"):
+    if "2020-07-01" <= d < "2020-09-01":
         s = 2019
     else:
-        s = y if int(d[5:7]) >= 8 else y - 1
+        s = y if d[5:] >= "07-10" else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
 RANKS = collections.defaultdict(dict)
@@ -196,7 +203,7 @@ def opp_elo(opp, d, cid):
 
 # ---------------------------------------------------------------- 출전
 def ldate(g):
-    return g["date_local"]   # 모두 잉글랜드·유럽 경기: Transfermarkt 리포트 날짜(현지)
+    return g["date_local"]   # 모두 유럽 경기: Transfermarkt 리포트 날짜(현지)
 
 M = []
 for g in GAMES:
@@ -262,8 +269,8 @@ for e in EVENTS:
         st = None
         if e["own_goal"] == "1" or not ours:
             st = "제외:상대 자책골"
-        elif e["assist_type"] == "Penalty: Fouled player":
-            st = "제외:PK 유도"
+        elif e["assist_type"] == "Penalty: Fouled player" or e["penalty"] == "1":
+            st = "제외:PK 유도"   # PK 골에 적힌 도움(도움 종류 빈칸 포함)은 PK 유도로 봄
         elif e["assist_type"] == "Shot on goal" and tag not in SOG_KEEP:
             st = "제외:Shot on goal"
         if st:
@@ -351,13 +358,9 @@ def load_js(fn, P):
     s = open(os.path.join(DATA, fn), encoding="utf-8").read()
     m = re.search(r"const " + P + r"_E=(\[.*?\]);\n", s, re.S)
     return json.loads(m.group(1))
-MATES = {"Thierry Henry": ("hen.js", "HEN"), "Robin van Persie": ("van.js", "VAN"), "Cesc Fàbregas": ("fab.js", "FAB"),
-         "Mesut Özil": ("ozi.js", "OZI"), "Santi Cazorla": ("caz.js", "CAZ"), "Freddie Ljungberg": ("lju.js", "LJU"),
-         "Lukas Podolski": ("pod.js", "POD"), "Pierre-Emerick Aubameyang": ("aub.js", "AUB"),
-         "Alexandre Lacazette": ("lac.js", "LAC"), "Gervinho": ("grv.js", "GRV"), "Wayne Rooney": ("roo.js", "ROO"),
-         "José Antonio Reyes": ("rey.js", "REY"), "Gareth Bale": ("bal.js", "BAL")}
+MATES = {"Heung-min Son": ("son.js", "SON"), "Florian Wirtz": ("wir.js", "WIR"), "Michael Ballack": ("blk.js", "BLK")}
 MATE_E = {nm: load_js(v[0], v[1]) for nm, v in MATES.items() if os.path.exists(os.path.join(DATA, v[0]))}
-MY_NAMES = ("Theo Walcott",)
+MY_NAMES = ("Karim Bellarabi", "Bellarabi")
 CROSS = []
 def cmp_rows(a, b):
     diffs = []
@@ -374,20 +377,20 @@ for nm, ent in MATE_E.items():
     for r in E:
         if r[0] == "a" and norm(r[13]) == norm(nm):
             hit = sorted([x for x in ent if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 3], key=lambda x: abs(x[4] - r[4]))
-            CROSS.append(("월콧 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
+            CROSS.append(("벨라라비 도움→" + nm + " 골", r[9], r[4], "없음" if not hit else (cmp_rows(r, hit[0]) or "같음")))
     for x in ent:
         if x[0] == "a" and x[13] in MY_NAMES:
             hit = sorted([r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 3], key=lambda r: abs(r[4] - x[4]))
-            CROSS.append((nm + " 도움→월콧 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append((nm + " 도움→벨라라비 골", x[9], x[4], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for e in EVENTS:
         if e["pl_scorer"] == "1" and e["own_goal"] == "0" and e["gameId"] in G and e["assist_player"] and norm(e["assist_player"]) == norm(nm):
             d = ldate(G[e["gameId"]]); mi = minute(e["minute"])[0]
             if not any(x[0] == "a" and x[9] == d and abs(x[4] - mi) <= 2 for x in ent):
-                CROSS.append(("TM 동료 도움→월콧 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
+                CROSS.append(("TM 동료 도움→벨라라비 골인데 동료 파일에 도움 없음", nm, d, e["minute"], e["assist_type"]))
     for s in A_STATUS:
         if norm(s[3]) == norm(nm) and (s[5].startswith("제외") or s[5] == "TM단독-미확인"):
             hit = [x for x in ent if x[0] == "g" and x[9] == s[1] and abs(x[4] - minute(s[2])[0]) <= 2]
-            CROSS.append(("월콧 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
+            CROSS.append(("벨라라비 도움에서 뺀 TM 도움(참고)", nm, s[1], s[2], s[5][:20], "동료 골 행 있음" if hit else "동료 골 행 없음"))
     for r in E:
         same = [x for x in ent if x[9] == r[9] and key(x[1]) == key(r[1])]
         for x in same:
@@ -399,12 +402,12 @@ if __name__ == "__main__" and "--cross" in sys.argv:
     print(collections.Counter((c[0], str(c[-1])[:12]) for c in CROSS))
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("souwc", "2006-01-20", "사우샘프턴", "2005~2006"), ("arswc", "2018-01-17", "아스널", "2006~2018"),
-         ("evewc", "2020-10-05", "에버턴", "2018~2020"), ("souwc", None, "사우샘프턴", "2020~2023")]
+CLUBS = [("ebsbl", "2011-07-01", "브라운슈바이크", "2008~2011"), ("levbl", "2013-08-21", "레버쿠젠", "2011~2013"),
+         ("ebsbl", "2014-07-01", "브라운슈바이크", "2013~2014"), ("levbl", None, "레버쿠젠", "2014~2023")]
 def club_of(d):
     for k, u, _, _ in CLUBS:
         if u is None or d < u: return k
-TMC = {"180": "souwc", "11": "arswc", "29": "evewc"}
+TMC = {"23": "ebsbl", "15": "levbl"}
 ST = collections.OrderedDict()
 for i, (k, u, n, y) in enumerate(CLUBS): ST[i] = [0, 0, 0, 0]
 def club_idx(d):
@@ -423,7 +426,7 @@ NPK = sum(r[8] for r in E)
 MIN_TOT = sum(m[3] for m in M)
 NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
 SRC = ELO_SRC
-exec(open(os.path.join(HERE, "note_walcott.py"), encoding="utf-8").read())
+exec(open(os.path.join(HERE, "note_bellarabi.py"), encoding="utf-8").read())
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "TM ", "lv"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE):
@@ -460,7 +463,7 @@ if problems:
 # ---------------------------------------------------------------- 출력
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__" and len(sys.argv) == 1:
-    open(OUT_JS, "w", encoding="utf-8").write(f"const WAL_E={J(E)};\nconst WAL_M={J(M)};\nconst WAL_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const BLR_E={J(E)};\nconst BLR_M={J(M)};\nconst BLR_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS,
                "self_assist_events": SELF_A, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "fotmob_only_assists": FM_ONLY,

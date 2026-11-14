@@ -1,0 +1,11 @@
+{"preset":"bellarabi","name":"카림 벨라라비","prefix":"BLR",
+ "clubs":[
+  {"key":"ebsbl","name":"아인트라흐트 브라운슈바이크","short":"브라운슈바이크","years":"2008~2011","until":"2011-07-01"},
+  {"key":"levbl","name":"바이어 레버쿠젠","short":"레버쿠젠","years":"2011~2013","until":"2013-08-21"},
+  {"key":"ebsbl","name":"아인트라흐트 브라운슈바이크","short":"브라운슈바이크","years":"2013~2014","until":"2014-07-01"},
+  {"key":"levbl","name":"바이어 레버쿠젠","short":"레버쿠젠","years":"2014~2023","until":null}],
+ "season":{"calendar":[],"jul10":["ebsbl","levbl"],"jul1":[]},
+ "pos":"RW","flag":"DE","retired":true,
+ "hon":{"t":{},
+        "o":[["DFB-포칼 준우승","19/20 레버쿠젠"],["독일 3부 우승","10/11 브라운슈바이크"]],
+        "a":{}}}
