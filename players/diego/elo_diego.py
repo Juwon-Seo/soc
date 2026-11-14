@@ -124,6 +124,7 @@ def opp_elo(o, d, cid, rnd=""):
         ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
     if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
     k = key(o); y = d[:4]
+    if cid == "BRA1" and "2021-01-01" <= d <= "2021-03-01": y = "2020"   # 2020 세리에 A는 2021.2.25까지(코로나로 늦춰진 시즌)
     if cid in SOUTH and cid != "KLUB":
         seasons = [y]
     elif cid in ("KLUB",):

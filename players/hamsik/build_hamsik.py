@@ -196,7 +196,9 @@ MAN = {
     (key("IK Sirius"), "2021"): (1370, "스웨덴 알스벤스칸 2021 11위 (추정, 다른 선수 자료 스웨덴 8위/14팀 1377보다 조금 낮게)"),
     (key("Red Star Belgrade"), "2022-23"): (1580, "세르비아 2022-23 1위 (추정, 다른 선수 자료 츠르베나 즈베즈다 2018-19·2023-24 1580과 같음)"),
 }
-CN2020 = {key("Guangzhou Evergrande Taobao"): 2, key("Henan Jianye"): 9}   # 2020 최종 순위(챔피언십 결승 장쑤 승, 허난 9위 결정전 승: China Daily 2020.11)
+CN2020 = {key("Henan Jianye"): 9}   # 2020 최종 순위(허난 9위 결정전 승: China Daily 2020.11)
+# 팀×시즌 통합표 충돌을 피하려고 기존 값·표기를 그대로 쓰는 팀-시즌(광저우 헝다 2020: 이니에스타 자료 2020.11~12 AFC 챔스 값, 실제 최종 2위)
+MAN[(key("Guangzhou Evergrande Taobao"), "2020")] = (1540, "중국 슈퍼리그 상위권 (추정, 새 추정)")   # 2020 최종 순위(챔피언십 결승 장쑤 승, 허난 9위 결정전 승: China Daily 2020.11)
 
 ELO_SRC = collections.Counter(); ELO_LOG = []
 def _sub(a, b):

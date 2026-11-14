@@ -212,7 +212,7 @@ def fm_pm_assists(g):
 def fm_confirms(gid, e):
     mi = mins(e["minute"])[0]
     for r in FME.get(gid, []):
-        if r["time"] and abs(int(r["time"]) + int(r["overloadTime"] or 0) - mi) <= 2 and "Diego" in (r["assistStr"] or "") and "Alves" not in r["assistStr"]:
+        if r["diego_assist"] == "1" and r["newScore_home_away"] == e["score_home_away_after"]:
             return "FotMob 경기 이벤트 도움"
     g = G[gid]; tm_a = sum(1 for x in EVS[gid] if x["assist_id"] == ME and x["scorer_id"] != ME and not assist_reason(x) and x["diego_conceded_penalty_note"] != "1")
     pm = fm_pm_assists(g)

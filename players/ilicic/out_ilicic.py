@@ -1,0 +1,1 @@
+print(len(E), sum(r[0]=="g" for r in E), sum(r[0]=="a" for r in E), dict(ELO_SRC)); import collections; print(collections.Counter(j[5] for j in judg)); [print(r) for r in E if r[1] in ("NK Maribor","US Palermo") or len(r)>14]
