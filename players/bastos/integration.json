@@ -1,0 +1,31 @@
+{
+ "preset": "bastos",
+ "name": "미셸 바스투스",
+ "prefix": "BAS",
+ "clubs": [
+  {"key": "excmb", "name": "엑셀시오르", "short": "엑셀시오르", "years": "2002~2003", "until": "2003-07-01"},
+  {"key": "capmb", "name": "아틀레치쿠 파라나엔시", "short": "아틀레치쿠 PR", "years": "2003, 2006", "until": "2004-01-01"},
+  {"key": "gremb", "name": "그레미우", "short": "그레미우", "years": "2004", "until": "2005-01-01"},
+  {"key": "figmb", "name": "피게이렌시", "short": "피게이렌시", "years": "2005", "until": "2006-01-01"},
+  {"key": "capmb", "name": "아틀레치쿠 파라나엔시", "short": "아틀레치쿠 PR", "years": "2003, 2006", "until": "2006-07-01"},
+  {"key": "lilmb", "name": "릴 OSC", "short": "릴", "years": "2006~2009", "until": "2009-07-13"},
+  {"key": "lyomb", "name": "올랭피크 리옹", "short": "리옹", "years": "2009~2013", "until": "2013-01-29"},
+  {"key": "s04mb", "name": "샬케 04", "short": "샬케", "years": "2013", "until": "2013-08-01"},
+  {"key": "ainmb", "name": "알아인", "short": "알아인", "years": "2013~2014", "until": "2014-01-20"},
+  {"key": "romb", "name": "AS 로마", "short": "로마", "years": "2014", "until": "2014-07-01"},
+  {"key": "ainmb", "name": "알아인", "short": "알아인", "years": "2013~2014", "until": "2014-08-13"},
+  {"key": "saomb", "name": "상파울루", "short": "상파울루", "years": "2014~2016", "until": "2017-01-01"},
+  {"key": "palmb", "name": "팔메이라스", "short": "팔메이라스", "years": "2017~2018", "until": "2018-04-28"},
+  {"key": "spomb", "name": "스포르트 헤시피", "short": "스포르트", "years": "2018", "until": "2019-05-24"},
+  {"key": "amemb", "name": "아메리카 미네이루", "short": "아메리카 MG", "years": "2019", "until": null}
+ ],
+ "season": {"calendar": ["capmb", "gremb", "figmb", "saomb", "palmb", "spomb", "amemb"], "jul10": [], "jul1": []},
+ "pos": "LW",
+ "flag": "BR",
+ "retired": true,
+ "hon": {
+  "t": {"LG": ["2018 팔메이라스"], "DC": ["11/12 리옹"]},
+  "o": [],
+  "a": {}
+ }
+}

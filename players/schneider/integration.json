@@ -1,0 +1,53 @@
+{
+ "preset": "schneider",
+ "name": "베른트 슈나이더",
+ "prefix": "SNB",
+ "clubs": [
+  {
+   "key": "jensb",
+   "name": "카를 차이스 예나",
+   "short": "예나",
+   "years": "1991~1998",
+   "until": "1998-07-01"
+  },
+  {
+   "key": "frasb",
+   "name": "아인트라흐트 프랑크푸르트",
+   "short": "프랑크푸르트",
+   "years": "1998~1999",
+   "until": "1999-07-01"
+  },
+  {
+   "key": "levsb",
+   "name": "바이어 레버쿠젠",
+   "short": "레버쿠젠",
+   "years": "1999~2009",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [],
+  "jul10": [
+   "jensb",
+   "levsb"
+  ],
+  "jul1": []
+ },
+ "pos": "RW",
+ "flag": "DE",
+ "retired": true,
+ "hon": {
+  "t": {},
+  "o": [
+   [
+    "UCL 준우승",
+    "01/02 레버쿠젠"
+   ],
+   [
+    "DFB-포칼 준우승",
+    "01/02 레버쿠젠"
+   ]
+  ],
+  "a": {}
+ }
+}

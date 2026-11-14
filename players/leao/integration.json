@@ -1,0 +1,20 @@
+{
+ "preset": "leao",
+ "name": "하파엘 레앙",
+ "prefix": "LEA",
+ "clubs": [
+  {"key": "scprl", "name": "스포르팅 CP", "short": "스포르팅", "years": "2017~2018", "until": "2018-07-01"},
+  {"key": "lilrl", "name": "릴", "short": "릴", "years": "2018~2019", "until": "2019-07-01"},
+  {"key": "acmrl", "name": "AC 밀란", "short": "밀란", "years": "2019~2026", "until": "2026-08-29"},
+  {"key": "galrl", "name": "갈라타사라이", "short": "갈라타사라이", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": []},
+ "pos": "LW",
+ "flag": "PT",
+ "retired": false,
+ "hon": {
+  "t": {"LG": ["21/22 AC 밀란"], "SC": ["24/25 AC 밀란"]},
+  "o": [],
+  "a": {"POY": ["21/22 세리에A"], "FOY": ["2022 AC 밀란"]}
+ }
+}

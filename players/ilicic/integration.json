@@ -1,0 +1,14 @@
+{"preset":"ilicic","name":"요십 일리치치","prefix":"ILI",
+ "clubs":[
+  {"key":"ibji","name":"인터블록 류블랴나","short":"인터블록","years":"2008~2010","until":"2010-07-01"},
+  {"key":"marji","name":"마리보르","short":"마리보르","years":"2010","until":"2010-08-27"},
+  {"key":"palji","name":"팔레르모","short":"팔레르모","years":"2010~2013","until":"2013-07-23"},
+  {"key":"fioji","name":"피오렌티나","short":"피오렌티나","years":"2013~2017","until":"2017-07-05"},
+  {"key":"ataji","name":"아탈란타","short":"아탈란타","years":"2017~2022","until":"2022-10-05"},
+  {"key":"marji","name":"마리보르","short":"마리보르","years":"2022~2025","until":"2025-07-01"},
+  {"key":"kopji","name":"코페르","short":"코페르","years":"2025~","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":["ibji","marji","palji","kopji"]},
+ "pos":"RW","flag":"SI","retired":false,
+ "hon":{"t":{"LG":["10/11 마리보르"],"DC":["08/09 인터블록"]},
+        "o":[],
+        "a":{"FOY":["2019 아탈란타"]}}}

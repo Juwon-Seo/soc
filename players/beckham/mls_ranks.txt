@@ -1,0 +1,46 @@
+# MLS 정규시즌 전체 순위(서포터스 실드 순위). league|season|rank|teams|team(TM 표기)
+# 2007~2009: 영어 위키백과 'Template:<연도> Major League Soccer season table'(출처 mlssoccer.com/standings/<연도>/supporters-shield)의 표시 순서.
+#   Transfermarkt 표(raw/ranks.txt)와 다른 곳: 2007 시카고 7위·캔자스시티 8위(TM은 반대, 둘 다 40점), 2008 LA 갤럭시 13위·산호세 14위(TM은 반대, 둘 다 33점), 2009 LA 갤럭시 2위·휴스턴 3위(TM은 반대, 둘 다 48점).
+# 2010~2012: raw/fotmob/leagues/130_<연도>.json.gz 'Supporters Shield' 표(build_beckham.py가 직접 읽음, 여기에는 적지 않음).
+MLS1|2007|1|13|D.C. United
+MLS1|2007|2|13|CD Chivas USA (2004 - 2014)
+MLS1|2007|3|13|Houston Dynamo
+MLS1|2007|4|13|New England Revolution
+MLS1|2007|5|13|FC Dallas
+MLS1|2007|6|13|New York Red Bulls
+MLS1|2007|7|13|Chicago Fire
+MLS1|2007|8|13|Kansas City Wizards
+MLS1|2007|9|13|Columbus Crew
+MLS1|2007|10|13|Colorado Rapids
+MLS1|2007|11|13|Los Angeles Galaxy
+MLS1|2007|12|13|Real Salt Lake City
+MLS1|2007|13|13|Toronto FC
+MLS1|2008|1|14|Columbus Crew
+MLS1|2008|2|14|Houston Dynamo
+MLS1|2008|3|14|Chicago Fire
+MLS1|2008|4|14|CD Chivas USA (2004 - 2014)
+MLS1|2008|5|14|New England Revolution
+MLS1|2008|6|14|Kansas City Wizards
+MLS1|2008|7|14|Real Salt Lake City
+MLS1|2008|8|14|New York Red Bulls
+MLS1|2008|9|14|Colorado Rapids
+MLS1|2008|10|14|D.C. United
+MLS1|2008|11|14|FC Dallas
+MLS1|2008|12|14|Toronto FC
+MLS1|2008|13|14|Los Angeles Galaxy
+MLS1|2008|14|14|San Jose Earthquakes
+MLS1|2009|1|15|Columbus Crew
+MLS1|2009|2|15|Los Angeles Galaxy
+MLS1|2009|3|15|Houston Dynamo
+MLS1|2009|4|15|Seattle Sounders FC
+MLS1|2009|5|15|Chicago Fire
+MLS1|2009|6|15|CD Chivas USA (2004 - 2014)
+MLS1|2009|7|15|New England Revolution
+MLS1|2009|8|15|Real Salt Lake City
+MLS1|2009|9|15|Colorado Rapids
+MLS1|2009|10|15|D.C. United
+MLS1|2009|11|15|FC Dallas
+MLS1|2009|12|15|Toronto FC
+MLS1|2009|13|15|Kansas City Wizards
+MLS1|2009|14|15|San Jose Earthquakes
+MLS1|2009|15|15|New York Red Bulls

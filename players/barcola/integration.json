@@ -1,0 +1,26 @@
+{
+ "preset": "barcola",
+ "name": "브래들리 바르콜라",
+ "prefix": "BCL",
+ "clubs": [
+  {"key": "lyobc", "name": "올랭피크 리옹", "short": "리옹", "years": "2021~2023", "until": "2023-08-31"},
+  {"key": "psgbc", "name": "파리 생제르맹", "short": "PSG", "years": "2023~2026", "until": "2026-08-31"},
+  {"key": "livbc", "name": "리버풀", "short": "리버풀", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": []},
+ "pos": "LW",
+ "flag": "FR",
+ "retired": false,
+ "hon": {
+  "t": {
+   "UCL": ["25/26 PSG", "24/25 PSG"],
+   "USC": ["26/27 PSG", "25/26 PSG"],
+   "CWC": ["25/26 PSG"],
+   "LG": ["25/26 PSG", "24/25 PSG", "23/24 PSG"],
+   "DC": ["24/25 PSG", "23/24 PSG"],
+   "SC": ["25/26 PSG", "24/25 PSG", "23/24 PSG"]
+  },
+  "o": [],
+  "a": {}
+ }
+}
