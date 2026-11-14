@@ -1,13 +1,13 @@
 # 클럽 SOC 계산기 (축구력 계산기) — Claude Code 작업 규칙
 
 축구 선수의 클럽 경력 SOC(축구력)를 계산하는 단일 페이지 계산기. 답변은 **한국어**로 한다.
-현재 **v1.160**, 수록 **120명**(마지막으로 추가된 선수: 티모 베르너). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
+현재 **v1.161**, 수록 **130명**(마지막으로 추가된 선수: 앙드레피에르 지냑). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
 
 ## 저장소 구조
 
 ```
-src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 121개
-src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 120개 + hon.js(HON_DATA 우승·수상)
+src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 131개
+src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 130개 + hon.js(HON_DATA 우승·수상)
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
@@ -27,7 +27,7 @@ players/            (선택) 선수별 원자료·build 스크립트·순위표 
 1. **기존 선수 수치는 바뀌지 않아야 한다.** 새 선수 추가·화면 수정 뒤 `npm run check`가 "통과"여야 한다. 일부러 값을 바꾼 선수는 `--allow 이름`으로 허용하고, 바뀐 선수·수치를 **표로 요약해 알린다**.
 2. **초기 렌더 순서(TDZ)**: `render()`는 스크립트 앞부분에서 처음 실행된다. render 안에서 부르는 코드가 뒤에 선언된 `const`를 건드리면 스크립트 전체가 멈춘다. render에서 쓸 새 상수는 `const DEF=` 앞에, 새 함수는 `function` 선언으로 둔다.
 3. **데이터 `<script src>`는 본문 `<script>`보다 앞**에 둔다(상수가 먼저 있어야 `PRESETS`가 만들어짐). 데이터 파일을 추가하면 `index.html`에 태그를 반드시 같이 추가한다(build.py가 짝이 안 맞으면 멈춘다).
-4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.160</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
+4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.161</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
 5. 기록은 **출처로 확인된 것만** 넣는다. 추정하거나 뺀 내용과 출처 간 차이는 그 선수의 설명(`XXX_NOTE`)에 남긴다. 근거는 '데이터 출처와 처리 방식'(게시본 설명)이 정본이다.
 6. 별도의 '○○추가.md'를 만들지 않는다. 바뀐 내용은 `docs/`의 인수인계 문서에 반영한다.
 7. 설명(`XXX_NOTE`)·`lv` 문구에 작업용 코드/변수명(dc·dk·dsf·ko·OTHER_LEG·seasonOf·v1.xxx 등)을 쓰지 않는다. 도움·골을 더하거나 빼면 설명 첫 줄 합계와 '클럽별 경기·골·도움' 줄도 같이 고친다(docs 17절).
@@ -59,7 +59,7 @@ SOC = Σ 기본값 × S × O × C
 3. `src/data/xxx.js` 새로 만들기: `XXX_E`·`XXX_M`·`XXX_NOTE` 세 상수. 접두어는 상수 이름 앞부분 소문자(파일명).
 4. `src/index.html`에 `<script src="data/xxx.js"></script>`를 **마지막 data 태그 뒤, 본문 `<script>` 앞**에 추가.
 5. `src/data/hon.js`의 `HON_DATA` 한 줄에 우승·개인수상 항목 추가(프리셋 id 키, Transfermarkt 업적 페이지. 준우승은 `o`에 이름에 '준우승' 포함, 클럽 월드컵·슈퍼컵은 시즌 표기).
-6. `src/index.html` 나머지(**`players/<선수>/integration.json`을 만들어 `ADD_PLAYERS_REAL=1 python3 tools/add_players.py <마지막 선수 id> <json…>`로 한 번에 넣는다** — 정본 보호 장치 때문에 환경 변수가 필요, 검증은 복사본에서, v1.150): `PRESETS`·`PCLUBS`·`CLUBS2`·클럽 판정 함수·`pClub`·`seasonOf`(필요 시)·`CL`·`CLN`·`RETIRED`(은퇴 시)·`POS_OF`·국기(`FLAG`, 새 나라는 `flagBody`)·그래프 색 `--s<N>`(라이트 1곳·다크 2곳)·`slotOf`의 `(i%N)+1`·버전. `MAXSEL`은 7로 고정이라 올리지 않는다. 앵커는 **마지막 선수(티모 베르너, 프리셋 `werner`) 기준**으로 잡고, 정확히 지정 횟수만큼 있는지 검사하는 `rep()` 방식 패치 스크립트를 쓴다.
+6. `src/index.html` 나머지(**`players/<선수>/integration.json`을 만들어 `ADD_PLAYERS_REAL=1 python3 tools/add_players.py <마지막 선수 id> <json…>`로 한 번에 넣는다** — 정본 보호 장치 때문에 환경 변수가 필요, 검증은 복사본에서, v1.150): `PRESETS`·`PCLUBS`·`CLUBS2`·클럽 판정 함수·`pClub`·`seasonOf`(필요 시)·`CL`·`CLN`·`RETIRED`(은퇴 시)·`POS_OF`·국기(`FLAG`, 새 나라는 `flagBody`)·그래프 색 `--s<N>`(라이트 1곳·다크 2곳)·`slotOf`의 `(i%N)+1`·버전. `MAXSEL`은 7로 고정이라 올리지 않는다. 앵커는 **마지막 선수(앙드레피에르 지냑, 프리셋 `gignac`) 기준**으로 잡고, 정확히 지정 횟수만큼 있는지 검사하는 `rep()` 방식 패치 스크립트를 쓴다.
 7. `npm run check` → 기존 선수 동일·새 선수 '추가'로 표시, 콘솔 오류 없음 확인. 화면이 바뀌면 넓은 화면·휴대폰 폭(390px)·다크 모드를 playwright로 캡처해 확인.
 8. `tests/baseline-latest.json`을 새 스냅숏(`dist/snapshot.json`)으로 교체, `docs/`에 반영(5절 표, 선수별 규칙, 새 리그 수준, 새 시즌 규칙, 버전 이력), 후보 풀(`football_200_등록표시.md`) 등록 표시.
 
