@@ -215,6 +215,7 @@ th.num .thbtn{justify-content:flex-end}
 th.sorted .thbtn{color:var(--fg)}
 .thbtn .arr{display:inline-block;width:.8em;font-size:.65rem;color:var(--pitch);text-align:center}
 .cmpsorthint{margin:0 0 6px}
+.linkbtn:disabled{opacity:.45;cursor:default;text-decoration:none}
 .linkbtn{all:unset;cursor:pointer;color:var(--pitch);font-weight:600;text-decoration:underline;text-underline-offset:2px}
 .linkbtn:focus-visible{outline:2px solid var(--pitch);outline-offset:2px}
 .compare tr.on td{font-weight:700}
@@ -367,7 +368,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.170</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.171</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -405,7 +406,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
         <label class="chk" style="padding:0"><input type="radio" name="chartX" value="date" checked> 날짜</label>
         <label class="chk" style="padding:0"><input type="radio" name="chartX" value="games"> 출전 경기 수</label></span></div>
       <input type="search" id="chartQ" class="chartq" placeholder="선수 이름 검색" aria-label="그래프 선수 이름 검색" autocomplete="off"><div class="chipwin" id="chipWin"><div class="chips" id="chartChips" role="group" aria-label="그래프에 표시할 선수 (최대 7명)"></div></div>
-      <p class="hint" id="chipNote">이름을 눌러 켜고 끄기 · 최대 7명 · 선수가 많으면 휠이나 끌기로 좌우 이동</p>
+      <p class="hint"><span id="chipNote">이름을 눌러 켜고 끄기 · 최대 7명 · 선수가 많으면 휠이나 끌기로 좌우 이동</span> · <button type="button" class="linkbtn" id="chipClear">선택 모두 해제</button></p>
       <div class="chartbox" id="chartBox">
         <svg id="cumChart" role="img" aria-label="선수별 누적 SOC 추이" tabindex="0"></svg>
         <div class="ctip" id="chartTip" hidden></div>
@@ -1363,7 +1364,7 @@ let CH=null;
 function renderChart(S){
   S=S||st.players.map(p=>pStats(p,st.coef));const sel=chartSel(),X=st.chartX||"date";
   const box=$("chartChips");const keepL=box.scrollLeft||0;box.innerHTML="";
-  [...st.players].sort(byPlayerOrder).forEach(p=>{const on=sel.includes(p.id);const b=document.createElement("button");b.type="button";b.className="chip";b.dataset.n=p.name;b.setAttribute("aria-pressed",on);if(!on&&sel.length>=MAXSEL)b.setAttribute("aria-disabled","true");const kk=document.createElement("span");kk.className="key";kk.style.setProperty("--k","var(--s"+slotOf(p.id)+")");b.appendChild(kk);b.appendChild(document.createTextNode(p.name));b.addEventListener("click",()=>{const s2=chartSel();if(s2.includes(p.id))st.chartSel=s2.filter(x=>x!==p.id);else{if(s2.length>=MAXSEL)return;st.chartSel=[...s2,p.id]}save();renderChart()});box.appendChild(b)});box.scrollLeft=keepL;chipEdges();chipFilter();
+  [...st.players].sort(byPlayerOrder).forEach(p=>{const on=sel.includes(p.id);const b=document.createElement("button");b.type="button";b.className="chip";b.dataset.n=p.name;b.setAttribute("aria-pressed",on);if(!on&&sel.length>=MAXSEL)b.setAttribute("aria-disabled","true");const kk=document.createElement("span");kk.className="key";kk.style.setProperty("--k","var(--s"+slotOf(p.id)+")");b.appendChild(kk);b.appendChild(document.createTextNode(p.name));b.addEventListener("click",()=>{const s2=chartSel();if(s2.includes(p.id))st.chartSel=s2.filter(x=>x!==p.id);else{if(s2.length>=MAXSEL)return;st.chartSel=[...s2,p.id]}save();renderChart()});box.appendChild(b)});box.scrollLeft=keepL;chipEdges();chipFilter();{const cb=$("chipClear");if(cb){cb.disabled=!sel.length;cb.textContent=sel.length?`선택 모두 해제 (${sel.length}명)`:"선택 모두 해제";}}
   const dnum=d=>Date.parse(d+"T00:00:00Z")/864e5;
   const series=S.filter(s=>sel.includes(s.p.id)).map(s=>{const pts=[];let cum=0;
     if(X==="games"){const byDate={};s.L.forEach(({e,r})=>{byDate[e.date]=(byDate[e.date]||0)+r.v});s.M.forEach((m,i)=>{cum+=byDate[m.date]||0;pts.push({x:i+1,y:cum,d:m.date})})}
@@ -1396,7 +1397,7 @@ function renderChart(S){
     tip.hidden=!rows.length;const bw=$("chartBox").getBoundingClientRect();let left=ev.clientX-bw.left+14;if(left>bw.width-170)left=ev.clientX-bw.left-180;tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,ev.clientY-bw.top-20)+"px"});
   sv.addEventListener("pointerleave",()=>{tip.hidden=true;const xh=$("chartXh");if(xh)xh.setAttribute("visibility","hidden")})})();
 function setView(v){st.cmpView=v;$("viewTable").setAttribute("aria-pressed",v!=="chart");$("viewChart").setAttribute("aria-pressed",v==="chart");$("cmpTableWrap").hidden=v==="chart";$("cmpChartWrap").hidden=v!=="chart";save();renderCompare()}
-$("viewTable").addEventListener("click",()=>setView("table"));$("viewChart").addEventListener("click",()=>setView("chart"));
+$("viewTable").addEventListener("click",()=>setView("table"));$("chipClear").addEventListener("click",()=>{st.chartSel=[];save();renderChart()});$("viewChart").addEventListener("click",()=>setView("chart"));
 document.querySelectorAll('input[name="chartX"]').forEach(r=>{r.checked=r.value===(st.chartX||"date");r.addEventListener("change",()=>{st.chartX=r.value;save();renderChart()})});
 const YEAR_COLS=[["yr","시즌"],["soc","SOC"],["n","경기"],["min","출전(분)"],["g","골"],["a","도움"],["p90","SOC/90"],["pm","경기당 SOC"],["pap","SOC/공격P"],["dv","가치 차이"],["ratio","가치 배율"],["ep","기대 승점"],["avgS","평균 S"],["avgO","평균 상대"]];
 const plainLb=s=>String(s).replace(/<br>/g," ").replace(/<[^>]+>/g,"");
