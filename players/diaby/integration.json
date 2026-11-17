@@ -1,0 +1,12 @@
+{"preset":"diaby","name":"무사 디아비","prefix":"DIA",
+ "clubs":[
+  {"key":"crodi","name":"크로토네","short":"크로토네","years":"2018","until":"2018-07-01"},
+  {"key":"psgdi","name":"파리 생제르맹","short":"PSG","years":"2018~2019","until":"2019-07-01"},
+  {"key":"levdi","name":"바이어 레버쿠젠","short":"레버쿠젠","years":"2019~2023, 2026~","until":"2023-07-22"},
+  {"key":"avldi","name":"애스턴 빌라","short":"애스턴 빌라","years":"2023~2024","until":"2024-07-24"},
+  {"key":"ittdi","name":"알이티하드","short":"알이티하드","years":"2024~2026","until":"2026-09-01"},
+  {"key":"levdi","name":"바이어 레버쿠젠","short":"레버쿠젠","years":"2019~2023, 2026~","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "season_manual":"levdi: 바이에른 묶음(bayt·baymu·baygn·baycm·levbl)과 같은 분기 — 7월 10일 기준 + 2020.7.1~8.31은 2019-20 (2022.7.30 DFB-포칼 1라운드 엘버스베르크전이 2022-23으로 들어가야 함)",
+ "pos":"RW","flag":"FR","retired":false,
+ "hon":{"t":{"LG":["24/25 알이티하드","18/19 PSG"],"DC":["24/25 알이티하드(사우디 컵)"],"SC":["18/19 PSG"]},"o":[["DFB-포칼 준우승","19/20 레버쿠젠"]],"a":{}}}
