@@ -1,0 +1,9 @@
+{"preset":"greenwood","name":"메이슨 그린우드","prefix":"GRW",
+ "clubs":[
+  {"key":"mungw","name":"맨체스터 유나이티드","short":"맨유","years":"2019~2022","until":"2023-09-01"},
+  {"key":"getgw","name":"헤타페 (임대)","short":"헤타페","years":"2023~2024","until":"2024-07-18"},
+  {"key":"omgw","name":"마르세유","short":"마르세유","years":"2024~2026","until":"2026-07-14"},
+  {"key":"fengw","name":"페네르바체","short":"페네르바체","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["fengw"],"jul1":[]},
+ "pos":"RW","flag":"ENG","retired":false,
+ "hon":{"t":{},"o":[["UEL 준우승","20/21 맨유"]],"a":{"TOP":["24/25 리그1 21골"]}}}
