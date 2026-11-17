@@ -1,0 +1,12 @@
+{"preset":"odegaard","name":"마르틴 외데고르","prefix":"ODE",
+ "clubs":[
+  {"key":"sgsod","name":"스트룀스고세","short":"스트룀스고세","years":"2014~2015","until":"2015-01-22"},
+  {"key":"rmaod","name":"레알 마드리드","short":"레알 마드리드","years":"2015~2017, 2020~2021","until":"2017-01-09"},
+  {"key":"heeod","name":"SC 헤이렌베인","short":"헤이렌베인","years":"2017~2018","until":"2018-08-21"},
+  {"key":"vitod","name":"비테서","short":"비테서","years":"2018~2019","until":"2019-07-05"},
+  {"key":"rsood","name":"레알 소시에다드","short":"레알 소시에다드","years":"2019~2020","until":"2020-08-12"},
+  {"key":"rmaod","name":"레알 마드리드","short":"레알 마드리드","years":"2015~2017, 2020~2021","until":"2021-01-27"},
+  {"key":"arsod","name":"아스널","short":"아스널","years":"2021~","until":null}],
+ "season":{"calendar":["sgsod"],"jul10":[],"jul1":[]},
+ "pos":"AM","flag":"NO","retired":false,
+ "hon":{"t":{"LG":["25/26 아스널"],"DC":["19/20 레알 소시에다드"],"SC":["26/27 아스널","23/24 아스널"]},"o":[],"a":{"FOY":["2019 노르웨이"]}}}
