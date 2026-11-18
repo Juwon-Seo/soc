@@ -1,0 +1,13 @@
+{"preset":"bailey","name":"레온 베일리","prefix":"BLY",
+ "clubs":[
+  {"key":"genlb","name":"KRC 헹크","short":"헹크","years":"2015~2017","until":"2017-01-31"},
+  {"key":"levlb","name":"바이어 레버쿠젠","short":"레버쿠젠","years":"2017~2021","until":"2021-08-04"},
+  {"key":"avllb","name":"애스턴 빌라","short":"애스턴 빌라","years":"2021~2025","until":"2025-08-20"},
+  {"key":"romlb","name":"AS 로마 (임대)","short":"로마","years":"2025~2026","until":"2026-01-21"},
+  {"key":"avllb","name":"애스턴 빌라","short":"애스턴 빌라","years":"2026","until":"2026-09-02"},
+  {"key":"olylb","name":"올림피아코스","short":"올림피아코스","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["genlb","levlb","avllb"],"jul1":[]},
+ "pos":"RW","flag":"JM","retired":false,
+ "hon":{"t":{"UEL":["25/26 애스턴 빌라"]},
+        "o":[["DFB-포칼 준우승","19/20 레버쿠젠"]],
+        "a":{"XI":["17/18 분데스리가 · VDV(선수협회)"]}}}
