@@ -1,0 +1,97 @@
+{{#invoke:Sports table|main|style=WDL|title=2020 MLS overall standings
+|update=complete|source=MLS<ref name="Standings-Shield">{{cite web |title=Supporters' Shield Standings – 2020 |url=https://www.mlssoccer.com/standings/2023/supporters-shield#season=2020&live=false |publisher=Major League Soccer |accessdate=January 21, 2024}}</ref>
+|teamwidth=200|use_tie=y|loss_before_tie=true
+|ranking_style=ppgpts
+
+<!-- Display order is listed below. Change team # to change order. -->
+|team_order=PHI, TOR, SKC, CLB, ORL, SEA, NYC, POR, MIN, COL, DAL, LFC, NYR, NSH, NEW, SJO, VAN, MTL, MIA, LAX, RSL, CHI, ATL, DCU, HOU, CIN
+|result1=CCL1 |result2=CCL5 |result4=CCL2 |result8=CCL3 |result23=CCL4
+|result3=LC1 |result5=LC2 |result6=LC3 |result7=LC4
+
+<!--At the appropriate times during the season, add status_XXX=S (Supporters' Shield winner), status_XXX=C (MLS Cup champion), and resultX=CCL for the appropriate teams.-->
+|win_ATL=6 |draw_ATL=4 |loss_ATL=13|gf_ATL=23|ga_ATL=30|status_ATL=U<!-- Atlanta United -->
+|win_CHI=5 |draw_CHI=8 |loss_CHI=10|gf_CHI=33|ga_CHI=39|status_CHI= <!-- Chicago Fire FC -->
+|win_CIN=4 |draw_CIN=4 |loss_CIN=15|gf_CIN=12|ga_CIN=36|status_CIN= <!-- FC Cincinnati -->
+|win_COL=8 |draw_COL=4 |loss_COL=6 |gf_COL=32|ga_COL=28|status_COL= <!-- Colorado Rapids -->
+|win_CLB=12|draw_CLB=5 |loss_CLB=6 |gf_CLB=36|ga_CLB=21|status_CLB=C<!-- Columbus Crew -->
+|win_DAL=9 |draw_DAL=7 |loss_DAL=6 |gf_DAL=28|ga_DAL=24|status_DAL= <!-- FC Dallas -->
+|win_DCU=5 |draw_DCU=6 |loss_DCU=12|gf_DCU=25|ga_DCU=41|status_DCU= <!-- DC United --> 
+|win_HOU=4 |draw_HOU=9 |loss_HOU=10|gf_HOU=30|ga_HOU=40|status_HOU= <!-- Houston Dynamo FC-->
+|win_MIA=7 |draw_MIA=3 |loss_MIA=13|gf_MIA=25|ga_MIA=35|status_MIA= <!-- Inter Miami CF -->
+|win_LAX=6 |draw_LAX=4 |loss_LAX=12|gf_LAX=27|ga_LAX=46|status_LAX= <!-- LA Galaxy -->
+|win_LFC=9 |draw_LFC=5 |loss_LFC=8 |gf_LFC=47|ga_LFC=39|status_LFC= <!-- Los Angeles FC -->
+|win_MIN=9 |draw_MIN=7 |loss_MIN=5 |gf_MIN=36|ga_MIN=26|status_MIN= <!-- Minnesota United -->
+|win_MTL=8 |draw_MTL=2 |loss_MTL=13|gf_MTL=33|ga_MTL=43|status_MTL= <!-- CF Montréal -->
+|win_NSH=8 |draw_NSH=8 |loss_NSH=7 |gf_NSH=24|ga_NSH=22|status_NSH= <!-- Nashville SC -->
+|win_NEW=8 |draw_NEW=8 |loss_NEW=7 |gf_NEW=26|ga_NEW=25|status_NEW= <!-- New England Revolution -->
+|win_NYC=12|draw_NYC=3 |loss_NYC=8 |gf_NYC=37|ga_NYC=25|status_NYC= <!-- New York City FC -->
+|win_NYR=9 |draw_NYR=5 |loss_NYR=9 |gf_NYR=29|ga_NYR=31|status_NYR= <!-- New York Red Bulls -->
+|win_ORL=11|draw_ORL=8 |loss_ORL=4 |gf_ORL=40|ga_ORL=25|status_ORL= <!-- Orlando City -->
+|win_PHI=14|draw_PHI=5 |loss_PHI=4 |gf_PHI=44|ga_PHI=20|status_PHI=S<!-- Philadelphia Union -->
+|win_POR=11|draw_POR=6 |loss_POR=6 |gf_POR=46|ga_POR=35|status_POR=M<!-- Portland Timbers -->
+|win_RSL=5 |draw_RSL=7 |loss_RSL=10|gf_RSL=25|ga_RSL=35|status_RSL= <!-- Real Salt Lake -->
+|win_SEA=11|draw_SEA=6 |loss_SEA=5 |gf_SEA=44|ga_SEA=23|status_SEA= <!-- Seattle Sounders FC-->
+|win_SJO=8 |draw_SJO=6 |loss_SJO=9 |gf_SJO=35|ga_SJO=51|status_SJO= <!-- San Jose Earthquakes -->
+|win_SKC=12|draw_SKC=3 |loss_SKC=6 |gf_SKC=38|ga_SKC=25|status_SKC= <!-- Sporting Kansas City -->
+|win_TOR=13|draw_TOR=5 |loss_TOR=5 |gf_TOR=33|ga_TOR=26|status_TOR=V<!-- Toronto FC -->
+|win_VAN=9 |draw_VAN=0 |loss_VAN=14|gf_VAN=27|ga_VAN=44|status_VAN= <!-- Vancouver Whitecaps -->
+
+|name_ATL=[[Atlanta United FC]]
+|name_CHI=[[Chicago Fire FC]]
+|name_CIN=[[FC Cincinnati]]
+|name_COL=[[Colorado Rapids]] 
+|name_CLB=[[Columbus Crew SC]]
+|name_DCU=[[D.C. United]]
+|name_DAL=[[FC Dallas]]
+|name_HOU=[[Houston Dynamo FC|Houston Dynamo]]
+|name_MIA=[[Inter Miami CF]]
+|name_LAX=[[LA Galaxy]]
+|name_LFC=[[Los Angeles FC]]
+|name_MIN=[[Minnesota United FC]]
+|name_MTL=[[CF Montréal|Montreal Impact]]
+|name_NSH=[[Nashville SC]]
+|name_NEW=[[New England Revolution]]
+|name_NYC=[[New York City FC]]
+|name_NYR=[[New York Red Bulls]]
+|name_ORL=[[Orlando City SC]]
+|name_PHI=[[Philadelphia Union]]
+|name_POR=[[Portland Timbers]]
+|name_RSL=[[Real Salt Lake]]
+|name_SJO=[[San Jose Earthquakes]]
+|name_SEA=[[Seattle Sounders FC]]
+|name_SKC=[[Sporting Kansas City]]
+|name_TOR=[[Toronto FC]]
+|name_VAN=[[Vancouver Whitecaps FC]]
+
+|col_CCL1=green1 |text_CCL1=Qualification for the [[2021 CONCACAF Champions League|CONCACAF Champions League]]
+|col_CCL2=green1 |text_CCL2=Qualification for the [[2021 CONCACAF Champions League|CONCACAF Champions League]]
+|col_CCL3=green1 |text_CCL3=Qualification for the [[2021 CONCACAF Champions League|CONCACAF Champions League]]
+|col_CCL4=green1 |text_CCL4=Qualification for the [[2021 CONCACAF Champions League|CONCACAF Champions League]]
+|col_CCL5=green1 |text_CCL5=Qualification for the [[2021 CONCACAF Champions League|CONCACAF Champions League]]
+|col_LC1=blue1 |text_LC1=Qualification for the [[2021 Leagues Cup|Leagues Cup]]
+|col_LC2=blue1 |text_LC2=Qualification for the [[2021 Leagues Cup|Leagues Cup]]
+|col_LC3=blue1 |text_LC3=Qualification for the [[2021 Leagues Cup|Leagues Cup]]
+|col_LC4=blue1 |text_LC4=Qualification for the [[2021 Leagues Cup|Leagues Cup]]
+
+|note_res_CCL1=As Supporters' Shield winners (USA2)
+|note_res_CCL2=As [[MLS Cup 2020]] champions (USA1)
+|note_res_CCL3=As [[MLS is Back Tournament]] winners (USA3)
+|note_res_CCL4=As [[2019 U.S. Open Cup]] winners (USA4)
+|note_res_CCL5=As [[2020 Canadian Championship]] finalists (awarded by [[Canadian Soccer Association|Canada Soccer]]) (CAN1)
+|note_res_LC1=As first place in [[2020 Major League Soccer season#Western Conference|Western Conference]] (MLS1)
+|note_res_LC2=As fourth place in [[2020 Major League Soccer season#Eastern Conference|Eastern Conference]] (MLS2)
+|note_res_LC3=As second place in [[2020 Major League Soccer season#Western Conference|Western Conference]] (MLS3)
+|note_res_LC4=As fifth place in [[2020 Major League Soccer season#Eastern Conference|Eastern Conference]] (MLS4)
+
+|status_text_S=[[Supporters' Shield]] winners
+|status_text_M=[[MLS is Back Tournament]] champions
+|status_text_U=[[U.S. Open Cup]] winners
+|status_text_V=[[Canadian Championship]] finalists
+
+|class_rules=1) points per game; 2) total wins per match played; 3) total goal differential per match played; 4) total goals scored per match played; 5) fewest disciplinary points per match played; 6) away goal differential per away match played; 7) away goals scored per away match played; 8) home goal differential per home match played; 9) home goals scored per home match played; 10) coin toss or drawing of lots.
+}}<noinclude>
+----
+{{Major League Soccer standings template}}
+[[Category:Major League Soccer standings templates‎‎|2020]]
+[[Category:2020 association football standings in North America templates|United States]]
+</noinclude>
