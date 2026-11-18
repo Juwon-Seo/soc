@@ -1,0 +1,16 @@
+{"preset":"niang","name":"마마두 니앙","prefix":"NIA",
+ "clubs":[
+  {"key":"trong","name":"ESTAC 트루아","short":"트루아","years":"2000~2002","until":"2003-01-27"},
+  {"key":"metng","name":"FC 메스","short":"메스","years":"2003","until":"2003-07-01"},
+  {"key":"strng","name":"RC 스트라스부르","short":"스트라스부르","years":"2003~2005","until":"2005-07-01"},
+  {"key":"omng","name":"올랭피크 마르세유","short":"마르세유","years":"2005~2010","until":"2010-08-15"},
+  {"key":"fenng","name":"페네르바체","short":"페네르바체","years":"2010~2011","until":"2011-07-06"},
+  {"key":"sadng","name":"알사드","short":"알사드","years":"2011~2012","until":"2013-01-31"},
+  {"key":"besng","name":"베식타시","short":"베식타시","years":"2013","until":"2013-07-01"},
+  {"key":"sadng","name":"알사드","short":"알사드","years":"2014","until":"2014-08-29"},
+  {"key":"arlng","name":"AC 아를아비뇽","short":"아를아비뇽","years":"2014~2015","until":null}],
+ "season":{"calendar":[],"jul10":["omng"],"jul1":["trong"]},
+ "pos":"CF","flag":"SN","retired":true,
+ "hon":{"t":{"LG":["09/10 마르세유","10/11 페네르바체","12/13 알사드"],"LC":["09/10 마르세유","04/05 스트라스부르"]},
+        "o":[["AFC 챔피언스리그 우승","10/11 알사드"],["UEFA 인터토토컵","06/07 마르세유"],["UEFA 인터토토컵","05/06 마르세유"],["UEFA 인터토토컵","01/02 트루아"]],
+        "a":{"TOP":["09/10 리그1 18골"],"XI":["09/10 리그1 · UNFP(선수협회)","07/08 리그1 · UNFP(선수협회)"]}}}
