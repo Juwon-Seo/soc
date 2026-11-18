@@ -1,0 +1,10 @@
+{"preset":"politano","name":"마테오 폴리타노","prefix":"POL",
+ "clubs":[
+  {"key":"perpo","name":"페루자","short":"페루자","years":"2012~2013","until":"2013-07-01"},
+  {"key":"pespo","name":"페스카라","short":"페스카라","years":"2013~2015","until":"2015-07-02"},
+  {"key":"saspo","name":"사수올로","short":"사수올로","years":"2015~2018","until":"2018-07-01"},
+  {"key":"intpo","name":"인테르","short":"인테르","years":"2018~2020","until":"2020-01-28"},
+  {"key":"nappo","name":"나폴리","short":"나폴리","years":"2020~","until":null}],
+ "season":{"calendar":[],"jul10":["saspo"],"jul1":[]},
+ "pos":"RW","flag":"IT","retired":false,
+ "hon":{"t":{"LG":["24/25 나폴리","22/23 나폴리"],"DC":["19/20 나폴리"],"SC":["25/26 나폴리"]},"o":[],"a":{}}}
