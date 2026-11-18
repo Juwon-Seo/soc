@@ -1,0 +1,10 @@
+{"preset":"terrier","name":"마르탱 테리에","prefix":"TER",
+ "clubs":[
+  {"key":"lilmt","name":"LOSC 릴","short":"릴","years":"2016~2017","until":"2017-08-18"},
+  {"key":"strmt","name":"RC 스트라스부르","short":"스트라스부르","years":"2017~2018","until":"2018-07-01"},
+  {"key":"lyomt","name":"올랭피크 리옹","short":"리옹","years":"2018~2020","until":"2020-07-06"},
+  {"key":"renmt","name":"스타드 렌","short":"렌","years":"2020~2024","until":"2024-07-18"},
+  {"key":"levmt","name":"바이어 04 레버쿠젠","short":"레버쿠젠","years":"2024~","until":null}],
+ "season":{"calendar":[],"jul10":["renmt","levmt"],"jul1":[]},
+ "pos":"LW","flag":"FR","retired":false,
+ "hon":{"t":{"SC":["24/25 레버쿠젠"]},"o":[],"a":{"XI":["21/22 리그1 · UNFP(선수협회)"]}}}
