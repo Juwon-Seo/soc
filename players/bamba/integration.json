@@ -1,0 +1,13 @@
+{"preset":"bamba","name":"조나탕 밤바","prefix":"BAM",
+ "clubs":[
+  {"key":"stebm","name":"AS 생테티엔","short":"생테티엔","years":"2014~2016","until":"2016-01-18"},
+  {"key":"pfcbm","name":"파리 FC","short":"파리 FC","years":"2016","until":"2016-08-17"},
+  {"key":"stvbm","name":"신트트라위던 VV","short":"신트트라위던","years":"2016","until":"2017-01-04"},
+  {"key":"angbm","name":"앙제 SCO","short":"앙제","years":"2017","until":"2017-06-30"},
+  {"key":"stebm","name":"AS 생테티엔","short":"생테티엔","years":"2017~2018","until":"2018-07-02"},
+  {"key":"lilbm","name":"LOSC 릴","short":"릴","years":"2018~2023","until":"2023-07-18"},
+  {"key":"celbm","name":"셀타 비고","short":"셀타","years":"2023~2025","until":"2025-01-31"},
+  {"key":"chibm","name":"시카고 파이어","short":"시카고","years":"2025~","until":null}],
+ "season":{"calendar":["chibm"],"jul10":["lilbm"],"jul1":[]},
+ "pos":"LW","flag":"CI","retired":false,
+ "hon":{"t":{"LG":["20/21 릴"],"SC":["21/22 릴"]},"o":[],"a":{}}}

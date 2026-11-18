@@ -1,0 +1,10 @@
+{"preset":"marvinmartin","name":"마르뱅 마르탱","prefix":"MVM",
+ "clubs":[
+  {"key":"socmv","name":"FC 소쇼몽벨리아르","short":"소쇼","years":"2008~2012","until":"2012-07-01"},
+  {"key":"lilmv","name":"LOSC 릴","short":"릴","years":"2012~2016","until":"2016-07-13"},
+  {"key":"dijmv","name":"디종 FCO","short":"디종","years":"2016~2017","until":"2017-08-14"},
+  {"key":"reimv","name":"스타드 드 랭스","short":"랭스","years":"2017~2019","until":"2019-09-23"},
+  {"key":"chamv","name":"FC 샹블리 우아즈","short":"샹블리","years":"2019~2021","until":null}],
+ "season":{"calendar":[],"jul10":["socmv","lilmv","dijmv","reimv","chamv"]},
+ "pos":"AM","flag":"FR","retired":true,
+ "hon":{"t":{"LG":["17/18 랭스(프랑스 2부)"]},"o":[],"a":{}}}
