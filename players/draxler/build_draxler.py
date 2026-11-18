@@ -184,6 +184,11 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if p[0] == "league": continue
         lg = p[0].split("(")[0].split("#")[0]
         RANKS[(lg, p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]))
+# QSL 2025-26 공식 최종 순위(v1.203): 2026.4.3 카타르 SC 1-4 알와크라가 징계위원회 결정으로 카타르 SC 3-0 승리 처리됨.
+# Transfermarkt 표는 경기 결과대로라 알아라비 6·알와크라 7·카타르 SC 8 — 공식(QSL·영어 위키백과·RSSSF)은 카타르 SC 6·알아라비 7·알와크라 8
+for _t, _r in (("Qatar SC", 6), ("Al-Arabi SC", 7), ("Al-Wakrah SC", 8)):
+    if ("QSL", "2025-26") in RANKS and key(_t) in RANKS[("QSL", "2025-26")]:
+        RANKS[("QSL", "2025-26")][key(_t)] = (_r, 12)
 
 def mid(tab, r):
     """기존 순위값에 없는 순위는 앞뒤 기존 값의 단순 중간값(병렬 판정과 맞추기 위한 규칙)"""
