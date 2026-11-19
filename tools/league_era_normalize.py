@@ -104,12 +104,21 @@ if '--apply' in sys.argv:
     json.dump(out, open(os.path.join(ROOT, 'elo', 'league_season_mean.json'), 'w'), ensure_ascii=False, indent=0)
     print('적용:', len(cnt), '파일', sum(cnt.values()), '행')
 
-# ── 다른 UEFA 리그(v1.216): 튀르키예·벨기에·오스트리아·그리스·우크라이나·러시아·스위스·스코틀랜드 ──
+# ── 다른 UEFA 리그(v1.216): 튀르키예·벨기에·오스트리아·그리스·우크라이나·러시아·스위스·스코틀랜드, v1.222에 15개 나라 추가 ──
+# 새 15개 나라는 순위 없는 행도 라벨 연도로 시즌을 정함(같은 팀·시즌 값이 갈리지 않게). 기존 8개 나라는 예전 방식(경기 날짜) 그대로.
 # 라벨이 나라 이름(또는 리그 이름)으로 시작하는 모든 행을 그 나라의 시즌 이동량만큼 옮긴다(하부 리그·순위 없는 추정값 포함).
 # 시즌 평균은 'YYYY-YY N위' 라벨 행으로 계산하고, 시즌은 경기 날짜(8월 1일 기준)로 정한다. 모든 시즌(2025-26 이후 포함)에 공식 적용.
 OTHER = [('쉬페르리그', 'Turkey'), ('튀르키예', 'Turkey'), ('벨기에', 'Belgium'), ('오스트리아', 'Austria'), ('그리스', 'Greece'),
-         ('우크라이나', 'Ukraine'), ('러시아', 'Russia'), ('스위스', 'Switzerland'), ('스코틀랜드', 'Scotland')]
-OTEAMS = {'Turkey': 18, 'Belgium': 18, 'Austria': 10, 'Greece': 16, 'Ukraine': 16, 'Russia': 16, 'Switzerland': 10, 'Scotland': 12}
+         ('우크라이나', 'Ukraine'), ('러시아', 'Russia'), ('스위스', 'Switzerland'), ('스코틀랜드', 'Scotland'),
+         # v1.222: UEFA 랭킹 10~30위권 15개 나라 추가
+         ('체코', 'Czechia'), ('폴란드', 'Poland'), ('엑스트라클라사', 'Poland'), ('덴마크', 'Denmark'), ('노르웨이', 'Norway'), ('엘리테세리엔', 'Norway'),
+         ('키프로스', 'Cyprus'), ('스웨덴', 'Sweden'), ('알스벤스칸', 'Sweden'), ('수페레탄', 'Sweden'), ('크로아티아', 'Croatia'), ('이스라엘', 'Israel'),
+         ('헝가리', 'Hungary'), ('세르비아', 'Serbia'), ('루마니아', 'Romania'), ('슬로베니아', 'Slovenia'), ('아제르바이잔', 'Azerbaijan'),
+         ('슬로바키아', 'Slovakia'), ('불가리아', 'Bulgaria')]
+OCAL = {'Norway', 'Sweden'}   # 달력 연도 리그: 시즌 Y는 UEFA 시즌 끝 연도 Y와 Y+1 목표의 평균
+OTEAMS = {'Turkey': 18, 'Belgium': 18, 'Austria': 10, 'Greece': 16, 'Ukraine': 16, 'Russia': 16, 'Switzerland': 10, 'Scotland': 12,
+          'Czechia': 16, 'Poland': 18, 'Denmark': 12, 'Norway': 16, 'Cyprus': 14, 'Sweden': 16, 'Croatia': 10, 'Israel': 14, 'Hungary': 12,
+          'Serbia': 16, 'Romania': 16, 'Slovenia': 10, 'Azerbaijan': 10, 'Slovakia': 12, 'Bulgaria': 14}
 OPAT = re.compile(r'^(\S+(?: (?:1부|프리미어리그|슈퍼리그|분데스리가))?) (\d{4})-(\d{2}) (\d+)위(?:/(\d+)팀)?')
 def octry(lv):
     if lv.startswith('튀르키예 2부'): return None   # v1.219부터 tools/league_second_tier_x.py가 맡음
@@ -117,17 +126,33 @@ def octry(lv):
         if lv.startswith(pre) and not lv.startswith('오스트리아 분데스리가') or (pre == '오스트리아' and lv.startswith('오스트리아')):
             if lv.startswith(pre): return cn
     return None
-def dseason(d):  # 날짜 → 시즌 끝 연도
-    y, m = int(d[:4]), int(d[5:7]); return y + 1 if m >= 8 else y
+def dseason(d, cn=None):  # 날짜 → 시즌 끝 연도(달력 연도 리그는 그 해)
+    y, m = int(d[:4]), int(d[5:7])
+    return y if cn in OCAL else (y + 1 if m >= 8 else y)
+CPAT = re.compile(r'^\S+(?: (?:1부|프리미어리그|슈퍼리그|분데스리가))? (\d{4}) (\d+)위(?:/(\d+)팀)?')
+def oparse(lv, cn):  # 순위 라벨 → (시즌 키, 순위, 팀 수) 또는 None
+    mm = OPAT.match(lv)
+    if mm and mm.group(4): return int(mm.group(2)) + 1, int(mm.group(4)), (int(mm.group(5)) if mm.group(5) else None)
+    if cn in OCAL:
+        mm = CPAT.match(lv)
+        if mm: return int(mm.group(1)), int(mm.group(2)), (int(mm.group(3)) if mm.group(3) else None)
+    return None
+def oseason(lv, d, cn):  # 행의 시즌 키: 라벨 연도(YYYY-YY는 끝 연도, 달력 연도 리그는 YYYY) 또는 경기 날짜
+    m = re.search(r'(\d{4})-(\d{2})', lv)
+    if m: return int(m.group(1)) + 1
+    if cn in OCAL:
+        m = re.search(r'(\d{4})', lv)
+        if m: return int(m.group(1))
+    return dseason(d, cn)
 def is_lower(lv): return bool(re.match(r'^\S+ [2-9]부', lv)) or '2부' in lv.split(' (')[0]
 OD = collections.defaultdict(dict)
 for f, (t, m, E) in data.items():
     for r in E:
         lv = str(r[12]); cn = octry(lv)
         if not cn or is_lower(lv): continue
-        mm = OPAT.match(lv)
-        if not mm or not mm.group(4): continue
-        y = int(mm.group(2)) + 1; rk = int(mm.group(4)); n = int(mm.group(5)) if mm.group(5) else OTEAMS[cn]
+        pr = oparse(lv, cn)
+        if not pr: continue
+        y, rk, n = pr; n = n or OTEAMS[cn]
         if rk <= n: OD[(cn, y)][r[1]] = (rk, n, r[2])
 OSD, OMEAN = {}, {}
 for cn in OTEAMS:
@@ -140,7 +165,8 @@ for cn in OTEAMS:
     OSD[cn] = num / den if den else 100
     for (c, y), v in OD.items():
         if c == cn: OMEAN[(cn, y)] = st.mean(e - OSD[cn] * cv(rk, n) for rk, n, e in v.values())
-def otarget(cn, y): return B + S_SLOPE * (c3(cn, y) - c5(y)) * (AREF / c5(y))
+def otarget_raw(cn, y): return B + S_SLOPE * (c3(cn, y) - c5(y)) * (AREF / c5(y))
+def otarget(cn, y): return (otarget_raw(cn, y) + otarget_raw(cn, y + 1)) / 2 if cn in OCAL else otarget_raw(cn, y)
 OSHIFT = {k: int(round(otarget(k[0], k[1]) - OMEAN[k])) for k in OMEAN if k[0] in C}
 def oshift_for(cn, y):
     if (cn, y) in OSHIFT: return OSHIFT[(cn, y)]
@@ -149,7 +175,7 @@ def oshift_for(cn, y):
     return OSHIFT[(cn, min(ys, key=lambda y2: abs(y2 - y)))]
 print('\n다른 UEFA 리그 목표 평균(이동):')
 for cn in OTEAMS:
-    print(cn, ' '.join(f"{y-1}-{y%100:02d}:{otarget(cn,y):.0f}({OSHIFT[(cn,y)]:+d})" for (c, y) in sorted(OSHIFT) if c == cn))
+    print(cn, ' '.join(f"{(str(y) if cn in OCAL else f'{y-1}-{y%100:02d}')}:{otarget(cn,y):.0f}({OSHIFT[(cn,y)]:+d})" for (c, y) in sorted(OSHIFT) if c == cn))
 if '--apply' in sys.argv:
     cnt = 0
     for f in data:
@@ -157,8 +183,8 @@ if '--apply' in sys.argv:
         for r in E:
             lv = str(r[12]); cn = octry(lv)
             if not cn: continue
-            mm = OPAT.match(lv)
-            y = int(mm.group(2)) + 1 if (mm and not is_lower(lv)) else dseason(str(r[9]))
+            pr = oparse(lv, cn)
+            y = pr[0] if (pr and not is_lower(lv)) else (oseason(lv, str(r[9]), cn) if cn in OCAL or cn not in ('Turkey', 'Belgium', 'Austria', 'Greece', 'Ukraine', 'Russia', 'Switzerland', 'Scotland') else dseason(str(r[9])))
             d = oshift_for(cn, y)
             if d: r[2] = int(r[2]) + d; n += 1
         if n:
