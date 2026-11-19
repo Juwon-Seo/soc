@@ -58,7 +58,7 @@ KO = {
  '온두라스': 'HON', '캐나다': 'CAN', '홍콩': 'HKG',
  '코스타리카': 'Costa Rica', '엘살바도르': 'El Salvador', '자메이카': 'Jamaica', '과테말라': 'Guatemala', '파나마': 'Panama', '트리니다드 토바고': 'Trinidad and Tobago',
  '튀니지': 'Tunisia', '모로코': 'Morocco', '알제리': 'Algeria', '케냐': 'Kenya', '콩고민주공화국': 'Congo DR', '남아프리카공화국': 'South Africa', '나이지리아': 'Nigeria',
- '가나': 'Ghana', '코트디부아르': 'Ivory Coast', '세네갈': 'Senegal', '카메룬': 'Cameroon', '말리': 'Mali',
+ '도미니카공화국': 'Dominican Republic', '가나': 'Ghana', '코트디부아르': 'Ivory Coast', '세네갈': 'Senegal', '카메룬': 'Cameroon', '말리': 'Mali',
  '요르단': 'Jordan', '태국': 'Thailand', '타지키스탄': 'Tajikistan', '투르크메니스탄': 'Turkmenistan', '뉴질랜드': 'New Zealand', '쿠웨이트': 'Kuwait',
  '바레인': 'Bahrain', '오만': 'Oman', '레바논': 'Lebanon', '시리아': 'Syria', '베트남': 'Vietnam', '인도네시아': 'Indonesia', '말레이시아': 'Malaysia',
  '싱가포르': 'Singapore', '키르기스스탄': 'Kyrgyzstan', '마르티니크': 'Martinique', '레위니옹': 'Reunion', '프랑스령 기아나': 'French Guiana',
