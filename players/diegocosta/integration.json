@@ -1,0 +1,39 @@
+{
+ "preset": "diegocosta",
+ "name": "디에구 코스타",
+ "prefix": "DCO",
+ "clubs": [
+  {"key": "pendco", "name": "FC 페나피엘", "short": "페나피엘", "years": "2006", "until": "2007-01-01"},
+  {"key": "bradco", "name": "SC 브라가", "short": "브라가", "years": "2007", "until": "2007-08-25"},
+  {"key": "celdco", "name": "셀타 비고", "short": "셀타", "years": "2007~2008", "until": "2008-08-23"},
+  {"key": "albdco", "name": "알바세테", "short": "알바세테", "years": "2008~2009", "until": "2009-07-01"},
+  {"key": "valdco", "name": "레알 바야돌리드", "short": "바야돌리드", "years": "2009~2010", "until": "2010-07-01"},
+  {"key": "atmdco", "name": "아틀레티코 마드리드", "short": "아틀레티코", "years": "2010~2011", "until": "2012-01-24"},
+  {"key": "raydco", "name": "라요 바예카노", "short": "라요", "years": "2012", "until": "2012-07-01"},
+  {"key": "atmdco", "name": "아틀레티코 마드리드", "short": "아틀레티코", "years": "2012~2014", "until": "2014-07-01"},
+  {"key": "chedco", "name": "첼시", "short": "첼시", "years": "2014~2017", "until": "2018-01-01"},
+  {"key": "atmdco", "name": "아틀레티코 마드리드", "short": "아틀레티코", "years": "2018~2020", "until": "2021-08-14"},
+  {"key": "camdco", "name": "아틀레치쿠 미네이루", "short": "아틀레치쿠-MG", "years": "2021", "until": "2022-09-12"},
+  {"key": "wlvdco", "name": "울버햄프턴", "short": "울버햄프턴", "years": "2022~2023", "until": "2023-08-12"},
+  {"key": "botdco", "name": "보타포구", "short": "보타포구", "years": "2023", "until": "2024-02-08"},
+  {"key": "gredco", "name": "그레미우", "short": "그레미우", "years": "2024", "until": null}
+ ],
+ "season": {"calendar": ["camdco", "botdco", "gredco"], "jul10": [], "jul1": []},
+ "pos": "CF",
+ "flag": "ES",
+ "retired": true,
+ "hon": {
+  "t": {
+   "LG": ["16/17 첼시", "14/15 첼시", "20/21 아틀레티코", "13/14 아틀레티코", "2021 아틀레치쿠-MG"],
+   "UEL": ["17/18 아틀레티코"],
+   "USC": ["18/19 아틀레티코", "12/13 아틀레티코", "10/11 아틀레티코"],
+   "DC": ["12/13 아틀레티코", "2021 아틀레치쿠-MG"],
+   "LC": ["2015 첼시"]
+  },
+  "o": [["캄페오나투 가우슈", "2024 그레미우"]],
+  "a": {
+   "XI": ["14/15 프리미어리그 · PFA(선수협회)", "13/14 라리가 · 사무국"],
+   "TOP": ["12/13 코파 델 레이 8골"]
+  }
+ }
+}
