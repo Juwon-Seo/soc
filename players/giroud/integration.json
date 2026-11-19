@@ -1,0 +1,44 @@
+{
+ "preset": "giroud",
+ "name": "올리비에 지루",
+ "prefix": "GIR",
+ "clubs": [
+  {"key": "greog", "name": "그르노블 풋 38", "short": "그르노블", "years": "2005~2007", "until": "2008-09-01"},
+  {"key": "touog", "name": "투르 FC", "short": "투르", "years": "2008~2010", "until": "2010-07-01"},
+  {"key": "mtpog", "name": "몽펠리에 HSC", "short": "몽펠리에", "years": "2010~2012", "until": "2012-07-01"},
+  {"key": "arsog", "name": "아스널", "short": "아스널", "years": "2012~2018", "until": "2018-01-31"},
+  {"key": "cheog", "name": "첼시", "short": "첼시", "years": "2018~2021", "until": "2021-07-17"},
+  {"key": "milog", "name": "AC 밀란", "short": "밀란", "years": "2021~2024", "until": "2024-07-18"},
+  {"key": "lafog", "name": "로스앤젤레스 FC", "short": "LAFC", "years": "2024~2025", "until": "2025-07-01"},
+  {"key": "lilog", "name": "LOSC 릴", "short": "릴", "years": "2025~", "until": null}
+ ],
+ "season": {"calendar": ["lafog"], "jul10": ["greog", "touog", "mtpog"], "jul1": []},
+ "pos": "CF",
+ "flag": "FR",
+ "retired": false,
+ "colors": {
+  "greog": ["#0055A4", "#FFFFFF"],
+  "touog": ["#5DC6ED", "#000000"],
+  "mtpog": ["#000055", "#FF6600"],
+  "arsog": ["#EF0107", "#FFFFFF"],
+  "cheog": ["#034694", "#FFFFFF", "#DBA111"],
+  "milog": ["#C90C0F", "#000000"],
+  "lafog": ["#000000", "#C39E6D"],
+  "lilog": ["#E83C34", "#24216A", "#FFFFFF"]
+ },
+ "hon": {
+  "t": {
+   "UCL": ["20/21 첼시"],
+   "UEL": ["18/19 첼시"],
+   "LG": ["21/22 AC 밀란", "11/12 몽펠리에"],
+   "DC": ["2018 첼시", "2017 아스널", "2015 아스널", "2014 아스널", "2024 LAFC(US 오픈컵)"],
+   "SC": ["17/18 아스널", "15/16 아스널", "14/15 아스널"]
+  },
+  "o": [],
+  "a": {
+   "TOP": ["18/19 유로파리그 11골", "11/12 리그1 21골", "09/10 리그2 21골"],
+   "POY": ["09/10 리그2 · UNFP(선수협회)"],
+   "XI": ["11/12 리그1 · UNFP(선수협회)"]
+  }
+ }
+}
