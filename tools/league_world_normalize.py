@@ -102,7 +102,9 @@ def target(cc, y):
     lv0 = OA + OB * OPTA[LG[cc][1]]
     a, ref = lr(cc, y), lr(cc, 2026)
     return lv0 if a is None or ref is None else lv0 + SHRINK * MV_SLOPE * (a - ref)
+X2 = ('브라질 세리에 B', 'J2리그', '아르헨티나 2부', 'USL', 'NASL', '사우디 2부', '카타르 2부')   # v1.219부터 tools/league_second_tier_x.py가 맡음
 def country(lv):
+    if lv.startswith(X2): return None
     for cc, (pre, *_r) in LG.items():
         for p in pre:
             if lv.startswith(p): return cc

@@ -112,6 +112,7 @@ OTHER = [('쉬페르리그', 'Turkey'), ('튀르키예', 'Turkey'), ('벨기에'
 OTEAMS = {'Turkey': 18, 'Belgium': 18, 'Austria': 10, 'Greece': 16, 'Ukraine': 16, 'Russia': 16, 'Switzerland': 10, 'Scotland': 12}
 OPAT = re.compile(r'^(\S+(?: (?:1부|프리미어리그|슈퍼리그|분데스리가))?) (\d{4})-(\d{2}) (\d+)위(?:/(\d+)팀)?')
 def octry(lv):
+    if lv.startswith('튀르키예 2부'): return None   # v1.219부터 tools/league_second_tier_x.py가 맡음
     for pre, cn in OTHER:
         if lv.startswith(pre) and not lv.startswith('오스트리아 분데스리가') or (pre == '오스트리아' and lv.startswith('오스트리아')):
             if lv.startswith(pre): return cn
