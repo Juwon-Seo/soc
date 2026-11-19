@@ -1,0 +1,153 @@
+{
+ "preset": "chicharito",
+ "name": "하비에르 에르난데스",
+ "prefix": "HDZ",
+ "clubs": [
+  {
+   "key": "gdljh",
+   "name": "과달라하라",
+   "short": "과달라하라",
+   "years": "2006~2010",
+   "until": "2010-07-01"
+  },
+  {
+   "key": "mujh",
+   "name": "맨체스터 유나이티드",
+   "short": "맨유",
+   "years": "2010~2014",
+   "until": "2014-09-01"
+  },
+  {
+   "key": "rmjh",
+   "name": "레알 마드리드",
+   "short": "레알",
+   "years": "2014~2015",
+   "until": "2015-07-01"
+  },
+  {
+   "key": "mujh",
+   "name": "맨체스터 유나이티드",
+   "short": "맨유",
+   "years": "2015",
+   "until": "2015-08-31"
+  },
+  {
+   "key": "levjh",
+   "name": "바이어 레버쿠젠",
+   "short": "레버쿠젠",
+   "years": "2015~2017",
+   "until": "2017-07-24"
+  },
+  {
+   "key": "whujh",
+   "name": "웨스트햄 유나이티드",
+   "short": "웨스트햄",
+   "years": "2017~2019",
+   "until": "2019-09-02"
+  },
+  {
+   "key": "sevjh",
+   "name": "세비야",
+   "short": "세비야",
+   "years": "2019~2020",
+   "until": "2020-01-21"
+  },
+  {
+   "key": "lagjh",
+   "name": "LA 갤럭시",
+   "short": "갤럭시",
+   "years": "2020~2023",
+   "until": "2024-01-24"
+  },
+  {
+   "key": "gdljh",
+   "name": "과달라하라",
+   "short": "과달라하라",
+   "years": "2024~2025",
+   "until": "2026-07-27"
+  },
+  {
+   "key": "adljh",
+   "name": "아틀레티코 댈러스",
+   "short": "댈러스",
+   "years": "2026~",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [
+   "lagjh",
+   "adljh"
+  ],
+  "jul10": [],
+  "jul1": [
+   "gdljh"
+  ]
+ },
+ "pos": "CF",
+ "flag": "MX",
+ "flag_new": "MX is not in flagBody yet. Proposed case (same 30x20 style as IT/PE): case \"MX\":return `<rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"10\" height=\"20\" fill=\"#006847\"/><rect x=\"20\" width=\"10\" height=\"20\" fill=\"#ce1126\"/><ellipse cx=\"15\" cy=\"9.6\" rx=\"2.4\" ry=\"2.2\" fill=\"#8c5a2b\"/><path d=\"M12.7 11.3q2.3 2.1 4.6 0\" fill=\"none\" stroke=\"#006847\" stroke-width=\".6\"/>`;",
+ "retired": false,
+ "colors": {
+  "gdljh": [
+   "#FF0000",
+   "#FFFFFF",
+   "#000040"
+  ],
+  "mujh": [
+   "#DA020E",
+   "#FFFFFF",
+   "#000000"
+  ],
+  "rmjh": [
+   "#FFFFFF",
+   "#00529F",
+   "#FEBE10"
+  ],
+  "levjh": [
+   "#E32221",
+   "#000000"
+  ],
+  "whujh": [
+   "#7A263A",
+   "#1BB1E7"
+  ],
+  "sevjh": [
+   "#FFFFFF",
+   "#E20000"
+  ],
+  "lagjh": [
+   "#FFFFFF",
+   "#15284B",
+   "#FFCE00"
+  ],
+  "adljh": [
+   "#C1C1C1",
+   "#000000"
+  ]
+ },
+ "hon": {
+  "t": {
+   "CWC": [
+    "14/15 레알 마드리드"
+   ],
+   "UEL": [
+    "19/20 세비야"
+   ],
+   "LG": [
+    "12/13 맨유",
+    "10/11 맨유",
+    "06/07 과달라하라(아페르투라)"
+   ],
+   "SC": [
+    "10/11 맨유"
+   ]
+  },
+  "o": [],
+  "a": {
+   "TOP": [
+    "09/10 리가MX 비센테나리오 10골 (요한 파노·에르쿨레스 고메스와 공동)"
+   ]
+  }
+ }
+}
