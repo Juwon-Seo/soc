@@ -1,0 +1,7513 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Cúcuta Deportivo",
+   "elo": 1331,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 2부 2016 10위/16팀 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Universitario Popayán",
+   "elo": 1378,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 2부 2016 5위/16팀 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atlético FC Cali",
+   "elo": 1282,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 2부 2017 아페르투라 16위/16팀 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Cerro Porteño",
+   "elo": 1500,
+   "comp": "csa",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "파라과이 1부 2017 클라우수라 1위 (추정, 다른 선수 자료 세로 포르테뇨·파라과이 상위 팀 1500과 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Atlético Bucaramanga",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 아페르투라 16위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Once Caldas",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 아페르투라 8위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Once Caldas",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 아페르투라 8위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Club Alianza Lima",
+   "elo": 1400,
+   "comp": "lib",
+   "min": 83,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "페루 1부 2018 상위 팀 (추정, 2017 우승 팀, 다른 선수 자료 페루 상위 팀 1400과 같음)",
+   "note": "Jonatan Álvez"
+  },
+  {
+   "type": "g",
+   "opp": "CA Lanús",
+   "elo": 1588,
+   "comp": "csa",
+   "min": 81,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "아르헨티나 1부 2018-19 11위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Asociación Deportivo Pasto",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 18위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Envigado FC",
+   "elo": 1551,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 13위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Deportivo Atlético Huila",
+   "elo": 1519,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 17위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Deportivo Atlético Huila",
+   "elo": 1519,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 17위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Independiente Medellín",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 5위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CD La Equidad",
+   "elo": 1653,
+   "comp": "lg",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 3위/20팀 (리그 수준 추정)",
+   "note": "Yony González"
+  },
+  {
+   "type": "g",
+   "opp": "CD La Equidad",
+   "elo": 1653,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-22",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "콜롬비아 1부 2018 피날리사시온 3위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Defensa y Justicia",
+   "elo": 1700,
+   "comp": "csak",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "아르헨티나 1부 2018-19 2위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Defensa y Justicia",
+   "elo": 1700,
+   "comp": "csak",
+   "min": 72,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "아르헨티나 1부 2018-19 2위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Independiente Santa Fe",
+   "elo": 1450,
+   "comp": "csasf",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 상위 팀 (추정, 다른 선수 자료 콜롬비아 상위 팀 1450과 같음)",
+   "note": "Marlon Piedrahita",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "CD La Equidad",
+   "elo": 1653,
+   "comp": "mlp",
+   "min": 82,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 3위/20팀 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Rionegro Águilas",
+   "elo": 1604,
+   "comp": "mlpsf",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 7위/20팀 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Rionegro Águilas",
+   "elo": 1604,
+   "comp": "mlpsf",
+   "min": 70,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 7위/20팀 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Independiente Medellín",
+   "elo": 1621,
+   "comp": "mlpf",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2018 피날리사시온 5위/20팀 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportes Tolima",
+   "elo": 1653,
+   "comp": "df",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2019 아페르투라 3위/20팀 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Independiente Medellín",
+   "elo": 1581,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2019 아페르투라 9위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Independiente Santa Fe",
+   "elo": 1494,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "콜롬비아 1부 2019 아페르투라 20위/20팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1492,
+   "comp": "clq",
+   "min": 76,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 3위 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 16위",
+   "note": "Zé Luís"
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "BSC Young Boys",
+   "elo": 1620,
+   "comp": "elg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 2019-20 1위 (추정, 다른 선수 자료 영 보이스 2018-19·2020-21 1위 1620과 같음)",
+   "note": "Tiquinho Soares"
+  },
+  {
+   "type": "g",
+   "opp": "SC Coimbrões",
+   "elo": 1250,
+   "comp": "dc",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 3부 2019-20 B조 12위 (추정, 다른 선수 자료 포르투갈 3부 값과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Coimbrões",
+   "elo": 1250,
+   "comp": "dc",
+   "min": 68,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 3부 2019-20 B조 12위 (추정, 다른 선수 자료 포르투갈 3부 값과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rangers FC",
+   "elo": 1600,
+   "comp": "elg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "스코틀랜드 2019-20 2위 (추정, 다른 선수 자료 레인저스 2018-19·2021-22 2위 1600과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Famalicão",
+   "elo": 1652,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Casa Pia AC",
+   "elo": 1297,
+   "comp": "dc",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 2부 2019-20 18위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Feyenoord Rotterdam",
+   "elo": 1677,
+   "comp": "elg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2019-20 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Chaves",
+   "elo": 1343,
+   "comp": "dc",
+   "min": 80,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 2부 2019-20 12위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1600,
+   "comp": "lg",
+   "min": 72,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Moreirense FC",
+   "elo": 1600,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 8위",
+   "note": "Jesús Corona"
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-01",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "포르투갈 1부 2019-20 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1789,
+   "comp": "elk",
+   "min": 73,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 5위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "B SAD (2018-2024)",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 92,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-05",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "포르투갈 1부 2020-21 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1600,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Boavista FC",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 92,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-26",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "포르투갈 1부 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sporting CP",
+   "elo": 1912,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 1위",
+   "note": "Jesús Corona"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 2070,
+   "comp": "clg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1776,
+   "comp": "clg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2020-21 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Santa Clara",
+   "elo": 1652,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-28",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "포르투갈 1부 2020-21 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CD Tondela",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 12위",
+   "note": "Moussa Marega"
+  },
+  {
+   "type": "g",
+   "opp": "FC Paços de Ferreira",
+   "elo": 1670,
+   "comp": "dk",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1730,
+   "comp": "df",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1627,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 7위",
+   "note": "Mehdi Taremi"
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1627,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Famalicão",
+   "elo": 1576,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 9위",
+   "note": "João Mário"
+  },
+  {
+   "type": "g",
+   "opp": "CD Nacional",
+   "elo": 1421,
+   "comp": "dc",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gil Vicente FC",
+   "elo": 1546,
+   "comp": "dk",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 11위",
+   "note": "Jesús Corona"
+  },
+  {
+   "type": "g",
+   "opp": "Rio Ave FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Farense",
+   "elo": 1448,
+   "comp": "lg",
+   "min": 20,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rio Ave FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Rio Ave FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 68,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2020-21 16위",
+   "note": "Sérgio Oliveira"
+  },
+  {
+   "type": "g",
+   "opp": "B SAD (2018-2024)",
+   "elo": 1421,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CS Marítimo",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Arouca",
+   "elo": 1482,
+   "comp": "lg",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 15위",
+   "note": "Mehdi Taremi"
+  },
+  {
+   "type": "g",
+   "opp": "Sporting CP",
+   "elo": 1795,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1461,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Paços de Ferreira",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1969,
+   "comp": "clg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Boavista FC",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Boavista FC",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 96,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-30",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "포르투갈 1부 2021-22 12위",
+   "note": "Danny Namaso"
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1969,
+   "comp": "clg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Santa Clara",
+   "elo": 1627,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Santa Clara",
+   "elo": 1627,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1652,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Braga",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Vizela",
+   "elo": 1507,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Vizela",
+   "elo": 1507,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 14위",
+   "note": "Otávio"
+  },
+  {
+   "type": "a",
+   "opp": "SL Benfica",
+   "elo": 1730,
+   "comp": "dc",
+   "min": 31,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 3위",
+   "note": "Evanilson"
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1576,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "GD Estoril Praia",
+   "elo": 1576,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 9위",
+   "note": "Francisco Conceição"
+  },
+  {
+   "type": "g",
+   "opp": "FC Famalicão",
+   "elo": 1600,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Cardiff City",
+   "elo": 1572,
+   "comp": "dc",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2021-22 18위",
+   "note": "Takumi Minamino"
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 81,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1843,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SL Benfica",
+   "elo": 1730,
+   "comp": "clk",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 3위",
+   "note": "Sadio Mané",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1730,
+   "comp": "clk",
+   "min": 87,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 3위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1893,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1893,
+   "comp": "lg",
+   "min": 68,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 6위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "a",
+   "opp": "Everton FC",
+   "elo": 1766,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 16위",
+   "note": "Divock Origi"
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1799,
+   "comp": "clsf",
+   "min": 67,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 7위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1922,
+   "comp": "lg",
+   "min": 74,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 14위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1755,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1755,
+   "comp": "lg",
+   "min": 85,
+   "gf": 8,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1969,
+   "comp": "clg",
+   "min": 49,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-09-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 6위",
+   "note": "Roberto Firmino"
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal FC",
+   "elo": 1976,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 2위",
+   "note": "Darwin Núñez"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 5,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1889,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LASK",
+   "elo": 1539,
+   "comp": "elg",
+   "min": 63,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2023-24 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1731,
+   "comp": "lg",
+   "min": 95,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-05",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LASK",
+   "elo": 1539,
+   "comp": "elg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2023-24 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1723,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": "Diogo Jota"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1998,
+   "comp": "dc",
+   "min": 95,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-07",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "프리미어리그 2023-24 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1792,
+   "comp": "dsf",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 13위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1889,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 6위",
+   "note": "Conor Bradley"
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1889,
+   "comp": "lg",
+   "min": 79,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1723,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brentford FC",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 86,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 16위",
+   "note": "Cody Gakpo"
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1731,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Sparta Praha",
+   "elo": 1600,
+   "comp": "elk",
+   "min": 53,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1위 (추정, 홀란드 자료와 같음)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1811,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield United",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 20위",
+   "note": "Alexis Mac Allister"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1857,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 9위",
+   "note": "Andrew Robertson"
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brentford FC",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 10위",
+   "note": "Mohamed Salah"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal FC",
+   "elo": 1995,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 2위",
+   "note": "Virgil van Dijk"
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1853,
+   "comp": "dc",
+   "min": 85,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1919,
+   "comp": "clg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1919,
+   "comp": "clg",
+   "min": 83,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1919,
+   "comp": "clg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-05",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "분데스리가 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 85,
+   "gf": 5,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1784,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1758,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1897,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 5위",
+   "note": "Dominik Szoboszlai"
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 20위",
+   "note": "Darwin Núñez"
+  },
+  {
+   "type": "a",
+   "opp": "Everton FC",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 13위",
+   "note": "Diogo Jota"
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1807,
+   "comp": "lg",
+   "min": 72,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1784,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1995,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "df",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 74,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1737,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-30",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "분데스리가 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 29,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Werder Bremen",
+   "elo": 1661,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 15위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 8위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Brugge KV",
+   "elo": 1834,
+   "comp": "clg",
+   "min": 34,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 (ClubElo 2026-10)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1682,
+   "comp": "dc",
+   "min": 36,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1682,
+   "comp": "dc",
+   "min": 72,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 14위",
+   "note": "Michael Olise"
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1955,
+   "comp": "clg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1955,
+   "comp": "clg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Union Berlin",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC St. Pauli",
+   "elo": 1613,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 18위",
+   "note": "Raphaël Guerreiro"
+  },
+  {
+   "type": "g",
+   "opp": "FC St. Pauli",
+   "elo": 1613,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-29",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "분데스리가 2025-26 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 78,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": "Josip Stanisic"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1634,
+   "comp": "lg",
+   "min": 86,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1644,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1644,
+   "comp": "lg",
+   "min": 69,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 16위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1644,
+   "comp": "lg",
+   "min": 76,
+   "gf": 6,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 16위",
+   "note": "Michael Olise"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 14위",
+   "note": "Lennart Karl"
+  },
+  {
+   "type": "a",
+   "opp": "PSV Eindhoven",
+   "elo": 1837,
+   "comp": "clg",
+   "min": 84,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2025-26 1위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 47,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-08",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "분데스리가 2025-26 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 62,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 89,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "dk",
+   "min": 67,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Werder Bremen",
+   "elo": 1661,
+   "comp": "lg",
+   "min": 25,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 15위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1702,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1702,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-06",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "분데스리가 2025-26 12위",
+   "note": "Konrad Laimer"
+  },
+  {
+   "type": "a",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "cl16",
+   "min": 52,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": "Nicolas Jackson",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "cl16",
+   "min": 56,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": "Lennart Karl",
+   "tie": [
+    2,
+    1,
+    6,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "cl16",
+   "min": 70,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    6,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 1931,
+   "comp": "clk",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2025-26 2위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 1931,
+   "comp": "clk",
+   "min": 89,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2025-26 2위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 33,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 37,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": "Alphonso Davies"
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1797,
+   "comp": "dsf",
+   "min": 93,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-04-22",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "분데스리가 2025-26 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1955,
+   "comp": "clsf",
+   "min": 68,
+   "gf": 3,
+   "ga": 5,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2025-26 1위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 83,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 14위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "df",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-05-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1767,
+   "comp": "lg",
+   "min": 92,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-28",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "분데스리가 2026-27 (11월 중순 현재) 8위 (추정, 다른 선수 자료 6위 1797·9위 1737의 중간)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Viking FK",
+   "elo": 1550,
+   "comp": "clg",
+   "min": 71,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "노르웨이 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 26,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 6위",
+   "note": "Aleksandar Pavlovic"
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 47,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 69,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 6위",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2016-04-13",
+   "Jaguares de Córdoba",
+   "dc",
+   34
+  ],
+  [
+   "2016-04-25",
+   "Deportivo Pereira",
+   "lg",
+   27
+  ],
+  [
+   "2016-05-05",
+   "CD Real Cartagena",
+   "dc",
+   18
+  ],
+  [
+   "2016-05-08",
+   "Real Cundinamarca",
+   "lg",
+   10
+  ],
+  [
+   "2016-05-14",
+   "Cúcuta Deportivo",
+   "lg",
+   20
+  ],
+  [
+   "2016-05-21",
+   "Real Santander",
+   "lg",
+   12
+  ],
+  [
+   "2016-05-27",
+   "Universitario Popayán",
+   "lg",
+   6
+  ],
+  [
+   "2016-07-16",
+   "Deportes Quindío",
+   "lg",
+   20
+  ],
+  [
+   "2016-07-26",
+   "CD Real Cartagena",
+   "lg",
+   25
+  ],
+  [
+   "2016-07-31",
+   "Unión Magdalena",
+   "lg",
+   38
+  ],
+  [
+   "2016-08-07",
+   "Atlético FC Cali",
+   "lg",
+   73
+  ],
+  [
+   "2016-08-14",
+   "Orsomarso SC",
+   "lg",
+   76
+  ],
+  [
+   "2016-08-21",
+   "CD Real Cartagena",
+   "lg",
+   84
+  ],
+  [
+   "2016-09-03",
+   "Bogotá FC",
+   "lg",
+   86
+  ],
+  [
+   "2016-09-07",
+   "Llaneros FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-12",
+   "Deportivo Pereira",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-19",
+   "CD América de Cali",
+   "lg",
+   67
+  ],
+  [
+   "2016-09-25",
+   "Real Cundinamarca",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-04",
+   "Cúcuta Deportivo",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-12",
+   "Real Santander",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-16",
+   "Universitario Popayán",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-19",
+   "Cúcuta Deportivo",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-01",
+   "Bogotá FC",
+   "lg",
+   9
+  ],
+  [
+   "2017-03-05",
+   "Real Cundinamarca",
+   "lg",
+   10
+  ],
+  [
+   "2017-03-08",
+   "Jaguares de Córdoba",
+   "dc",
+   90
+  ],
+  [
+   "2017-03-11",
+   "Universitario Popayán",
+   "lg",
+   23
+  ],
+  [
+   "2017-03-15",
+   "Junior FC",
+   "dc",
+   90
+  ],
+  [
+   "2017-03-19",
+   "CD Real Cartagena",
+   "lg",
+   18
+  ],
+  [
+   "2017-03-26",
+   "Unión Magdalena",
+   "lg",
+   82
+  ],
+  [
+   "2017-04-02",
+   "Real Cundinamarca",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-06",
+   "Deportes Quindío",
+   "lg",
+   28
+  ],
+  [
+   "2017-04-09",
+   "Leones FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-13",
+   "CD Real Cartagena",
+   "dc",
+   90
+  ],
+  [
+   "2017-04-16",
+   "Fortaleza CEIF",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-19",
+   "Boyacá Chicó FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-23",
+   "Orsomarso SC",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-26",
+   "CD Real Cartagena",
+   "dc",
+   33
+  ],
+  [
+   "2017-04-30",
+   "Llaneros FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-03",
+   "Junior FC",
+   "dc",
+   90
+  ],
+  [
+   "2017-05-07",
+   "Atlético FC Cali",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-13",
+   "Deportivo Pereira",
+   "lg",
+   85
+  ],
+  [
+   "2017-05-17",
+   "Jaguares de Córdoba",
+   "dc",
+   90
+  ],
+  [
+   "2017-07-05",
+   "Once Caldas",
+   "dc",
+   71
+  ],
+  [
+   "2017-08-09",
+   "Millonarios FC",
+   "dk",
+   14
+  ],
+  [
+   "2017-08-23",
+   "Millonarios FC",
+   "dk",
+   15
+  ],
+  [
+   "2017-08-26",
+   "Once Caldas",
+   "lg",
+   15
+  ],
+  [
+   "2017-09-03",
+   "Internacional de Palmira",
+   "lg",
+   23
+  ],
+  [
+   "2017-09-16",
+   "Tigres FC",
+   "lg",
+   13
+  ],
+  [
+   "2017-09-19",
+   "Club Cerro Porteño",
+   "csa",
+   74
+  ],
+  [
+   "2017-09-30",
+   "Deportivo Cali",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-08",
+   "Boyacá Patriotas FC",
+   "dsf",
+   90
+  ],
+  [
+   "2017-10-11",
+   "Boyacá Patriotas FC",
+   "dsf",
+   72
+  ],
+  [
+   "2017-10-15",
+   "Independiente Medellín",
+   "lg",
+   8
+  ],
+  [
+   "2017-10-18",
+   "Independiente Medellín",
+   "df",
+   16
+  ],
+  [
+   "2017-10-21",
+   "Independiente Santa Fe",
+   "lg",
+   68
+  ],
+  [
+   "2017-10-30",
+   "Atlético Bucaramanga",
+   "lg",
+   31
+  ],
+  [
+   "2017-11-02",
+   "Sport Club do Recife",
+   "csak",
+   19
+  ],
+  [
+   "2017-11-08",
+   "Independiente Medellín",
+   "df",
+   15
+  ],
+  [
+   "2017-11-11",
+   "Boyacá Patriotas FC",
+   "lg",
+   68
+  ],
+  [
+   "2017-11-15",
+   "Rionegro Águilas",
+   "lg",
+   36
+  ],
+  [
+   "2017-11-18",
+   "Asociación Deportivo Pasto",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-23",
+   "CR Flamengo",
+   "csasf",
+   28
+  ],
+  [
+   "2017-11-27",
+   "CD América de Cali",
+   "mlp",
+   74
+  ],
+  [
+   "2017-11-30",
+   "CR Flamengo",
+   "csasf",
+   32
+  ],
+  [
+   "2017-12-02",
+   "CD América de Cali",
+   "mlp",
+   90
+  ],
+  [
+   "2018-02-01",
+   "Club Olimpia",
+   "lib",
+   69
+  ],
+  [
+   "2018-02-04",
+   "Atlético Bucaramanga",
+   "lg",
+   26
+  ],
+  [
+   "2018-02-08",
+   "Club Olimpia",
+   "lib",
+   17
+  ],
+  [
+   "2018-02-11",
+   "Asociación Deportivo Pasto",
+   "lg",
+   76
+  ],
+  [
+   "2018-02-15",
+   "Club Guaraní",
+   "lib",
+   20
+  ],
+  [
+   "2018-02-18",
+   "Club Deportivo Atlético Huila",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-25",
+   "Boyacá Chicó FC",
+   "lg",
+   45
+  ],
+  [
+   "2018-03-01",
+   "Sociedade Esportiva Palmeiras",
+   "lib",
+   17
+  ],
+  [
+   "2018-03-04",
+   "Independiente Medellín",
+   "lg",
+   7
+  ],
+  [
+   "2018-03-09",
+   "Deportivo Cali",
+   "lg",
+   57
+  ],
+  [
+   "2018-03-15",
+   "Rionegro Águilas",
+   "lg",
+   17
+  ],
+  [
+   "2018-03-18",
+   "Millonarios FC",
+   "lg",
+   68
+  ],
+  [
+   "2018-03-21",
+   "Envigado FC",
+   "lg",
+   51
+  ],
+  [
+   "2018-03-24",
+   "Once Caldas",
+   "lg",
+   73
+  ],
+  [
+   "2018-03-28",
+   "CD La Equidad",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-31",
+   "Leones FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-04",
+   "CA Boca Juniors",
+   "lib",
+   31
+  ],
+  [
+   "2018-04-08",
+   "Deportes Tolima",
+   "lg",
+   22
+  ],
+  [
+   "2018-04-11",
+   "Independiente Santa Fe",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-19",
+   "Club Alianza Lima",
+   "lib",
+   90
+  ],
+  [
+   "2018-04-22",
+   "CD América de Cali",
+   "lg",
+   55
+  ],
+  [
+   "2018-04-26",
+   "Club Alianza Lima",
+   "lib",
+   89
+  ],
+  [
+   "2018-04-29",
+   "Alianza FC",
+   "lg",
+   78
+  ],
+  [
+   "2018-05-02",
+   "CA Boca Juniors",
+   "lib",
+   12
+  ],
+  [
+   "2018-05-06",
+   "Jaguares de Córdoba",
+   "lg",
+   8
+  ],
+  [
+   "2018-05-13",
+   "Independiente Medellín",
+   "mlp",
+   45
+  ],
+  [
+   "2018-05-16",
+   "Sociedade Esportiva Palmeiras",
+   "lib",
+   35
+  ],
+  [
+   "2018-05-20",
+   "Independiente Medellín",
+   "mlp",
+   90
+  ],
+  [
+   "2018-07-17",
+   "CA Lanús",
+   "csa",
+   90
+  ],
+  [
+   "2018-07-21",
+   "Atlético Bucaramanga",
+   "lg",
+   26
+  ],
+  [
+   "2018-07-24",
+   "CA Lanús",
+   "csa",
+   90
+  ],
+  [
+   "2018-07-29",
+   "Asociación Deportivo Pasto",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-04",
+   "Envigado FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-12",
+   "Club Deportivo Atlético Huila",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-18",
+   "Boyacá Chicó FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-25",
+   "Independiente Medellín",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-02",
+   "Deportivo Cali",
+   "lg",
+   51
+  ],
+  [
+   "2018-09-13",
+   "Atlético Nacional",
+   "dk",
+   45
+  ],
+  [
+   "2018-09-16",
+   "Once Caldas",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-19",
+   "Atlético Nacional",
+   "dk",
+   90
+  ],
+  [
+   "2018-09-22",
+   "CD La Equidad",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-26",
+   "CA Colón",
+   "csa",
+   60
+  ],
+  [
+   "2018-09-29",
+   "Leones FC",
+   "lg",
+   27
+  ],
+  [
+   "2018-10-04",
+   "CA Colón",
+   "csa",
+   74
+  ],
+  [
+   "2018-10-09",
+   "Deportes Tolima",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-17",
+   "Boyacá Patriotas FC",
+   "lg",
+   75
+  ],
+  [
+   "2018-10-21",
+   "Atlético Nacional",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-25",
+   "Defensa y Justicia",
+   "csak",
+   90
+  ],
+  [
+   "2018-11-01",
+   "Defensa y Justicia",
+   "csak",
+   90
+  ],
+  [
+   "2018-11-08",
+   "Independiente Santa Fe",
+   "csasf",
+   90
+  ],
+  [
+   "2018-11-15",
+   "CD La Equidad",
+   "mlp",
+   86
+  ],
+  [
+   "2018-11-18",
+   "CD La Equidad",
+   "mlp",
+   90
+  ],
+  [
+   "2018-11-22",
+   "Rionegro Águilas",
+   "mlpsf",
+   90
+  ],
+  [
+   "2018-11-25",
+   "Rionegro Águilas",
+   "mlpsf",
+   90
+  ],
+  [
+   "2018-11-29",
+   "Independiente Santa Fe",
+   "csasf",
+   84
+  ],
+  [
+   "2018-12-05",
+   "Atlético Paranaense",
+   "csaf",
+   90
+  ],
+  [
+   "2018-12-08",
+   "Independiente Medellín",
+   "mlpf",
+   90
+  ],
+  [
+   "2018-12-12",
+   "Atlético Paranaense",
+   "csaf",
+   120
+  ],
+  [
+   "2018-12-16",
+   "Independiente Medellín",
+   "mlpf",
+   62
+  ],
+  [
+   "2019-01-23",
+   "Deportes Tolima",
+   "df",
+   90
+  ],
+  [
+   "2019-01-27",
+   "Deportes Tolima",
+   "df",
+   90
+  ],
+  [
+   "2019-01-30",
+   "Boyacá Patriotas FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-02",
+   "Independiente Medellín",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-10",
+   "CD América de Cali",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-16",
+   "Rionegro Águilas",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-20",
+   "Deportes Tolima",
+   "lg",
+   32
+  ],
+  [
+   "2019-02-24",
+   "Independiente Santa Fe",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-27",
+   "Envigado FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-02",
+   "Once Caldas",
+   "lg",
+   14
+  ],
+  [
+   "2019-03-06",
+   "Sociedade Esportiva Palmeiras",
+   "lib",
+   90
+  ],
+  [
+   "2019-03-13",
+   "CA San Lorenzo de Almagro",
+   "lib",
+   90
+  ],
+  [
+   "2019-04-02",
+   "FBC Melgar",
+   "lib",
+   90
+  ],
+  [
+   "2019-04-10",
+   "Sociedade Esportiva Palmeiras",
+   "lib",
+   59
+  ],
+  [
+   "2019-04-14",
+   "Atlético Nacional",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-17",
+   "Deportivo Cali",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-21",
+   "Asociación Deportivo Pasto",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-25",
+   "CA San Lorenzo de Almagro",
+   "lib",
+   90
+  ],
+  [
+   "2019-04-28",
+   "Millonarios FC",
+   "lg",
+   45
+  ],
+  [
+   "2019-05-02",
+   "Alianza FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-12",
+   "Atlético Nacional",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-16",
+   "Deportivo Cali",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-19",
+   "Deportes Tolima",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-26",
+   "Deportes Tolima",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-07",
+   "FC Krasnodar",
+   "clq",
+   35
+  ],
+  [
+   "2019-08-10",
+   "Gil Vicente FC",
+   "lg",
+   32
+  ],
+  [
+   "2019-08-13",
+   "FC Krasnodar",
+   "clq",
+   90
+  ],
+  [
+   "2019-08-17",
+   "Vitória Setúbal FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-24",
+   "SL Benfica",
+   "lg",
+   81
+  ],
+  [
+   "2019-09-01",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-15",
+   "Portimonense SAD",
+   "lg",
+   72
+  ],
+  [
+   "2019-09-19",
+   "BSC Young Boys",
+   "elg",
+   66
+  ],
+  [
+   "2019-09-22",
+   "CD Santa Clara",
+   "lg",
+   69
+  ],
+  [
+   "2019-09-25",
+   "CD Santa Clara",
+   "dc",
+   1
+  ],
+  [
+   "2019-09-29",
+   "Rio Ave FC",
+   "lg",
+   8
+  ],
+  [
+   "2019-10-03",
+   "Feyenoord Rotterdam",
+   "elg",
+   37
+  ],
+  [
+   "2019-10-19",
+   "SC Coimbrões",
+   "dc",
+   71
+  ],
+  [
+   "2019-10-24",
+   "Rangers FC",
+   "elg",
+   63
+  ],
+  [
+   "2019-10-27",
+   "FC Famalicão",
+   "lg",
+   79
+  ],
+  [
+   "2019-10-30",
+   "CS Marítimo",
+   "lg",
+   80
+  ],
+  [
+   "2019-11-03",
+   "Desportivo Aves (- 2020)",
+   "lg",
+   56
+  ],
+  [
+   "2019-11-07",
+   "Rangers FC",
+   "elg",
+   41
+  ],
+  [
+   "2019-11-28",
+   "BSC Young Boys",
+   "elg",
+   16
+  ],
+  [
+   "2019-12-05",
+   "Casa Pia AC",
+   "dc",
+   69
+  ],
+  [
+   "2019-12-12",
+   "Feyenoord Rotterdam",
+   "elg",
+   74
+  ],
+  [
+   "2019-12-16",
+   "CD Tondela",
+   "lg",
+   74
+  ],
+  [
+   "2019-12-19",
+   "CD Santa Clara",
+   "dc",
+   68
+  ],
+  [
+   "2019-12-22",
+   "GD Chaves",
+   "dc",
+   26
+  ],
+  [
+   "2020-01-05",
+   "Sporting CP",
+   "lg",
+   24
+  ],
+  [
+   "2020-01-10",
+   "Moreirense FC",
+   "lg",
+   31
+  ],
+  [
+   "2020-01-14",
+   "Varzim SC",
+   "dk",
+   85
+  ],
+  [
+   "2020-01-17",
+   "SC Braga",
+   "lg",
+   14
+  ],
+  [
+   "2020-01-22",
+   "Vitória Guimarães SC",
+   "dsf",
+   90
+  ],
+  [
+   "2020-01-25",
+   "SC Braga",
+   "df",
+   90
+  ],
+  [
+   "2020-01-28",
+   "Gil Vicente FC",
+   "lg",
+   22
+  ],
+  [
+   "2020-02-01",
+   "Vitória Setúbal FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-04",
+   "Académico Viseu FC",
+   "dsf",
+   64
+  ],
+  [
+   "2020-02-08",
+   "SL Benfica",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-12",
+   "Académico Viseu FC",
+   "dsf",
+   70
+  ],
+  [
+   "2020-02-16",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-20",
+   "Bayer 04 Leverkusen",
+   "elk",
+   77
+  ],
+  [
+   "2020-02-23",
+   "Portimonense SAD",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-27",
+   "Bayer 04 Leverkusen",
+   "elk",
+   29
+  ],
+  [
+   "2020-06-03",
+   "FC Famalicão",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-10",
+   "CS Marítimo",
+   "lg",
+   77
+  ],
+  [
+   "2020-06-16",
+   "Desportivo Aves (- 2020)",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-23",
+   "Boavista FC",
+   "lg",
+   45
+  ],
+  [
+   "2020-06-29",
+   "FC Paços de Ferreira",
+   "lg",
+   21
+  ],
+  [
+   "2020-07-05",
+   "B SAD (2018-2024)",
+   "lg",
+   18
+  ],
+  [
+   "2020-07-09",
+   "CD Tondela",
+   "lg",
+   22
+  ],
+  [
+   "2020-07-15",
+   "Sporting CP",
+   "lg",
+   85
+  ],
+  [
+   "2020-07-20",
+   "Moreirense FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-25",
+   "SC Braga",
+   "lg",
+   53
+  ],
+  [
+   "2020-08-01",
+   "SL Benfica",
+   "df",
+   38
+  ],
+  [
+   "2020-09-26",
+   "Boavista FC",
+   "lg",
+   33
+  ],
+  [
+   "2020-10-03",
+   "CS Marítimo",
+   "lg",
+   54
+  ],
+  [
+   "2020-10-17",
+   "Sporting CP",
+   "lg",
+   59
+  ],
+  [
+   "2020-10-21",
+   "Manchester City",
+   "clg",
+   55
+  ],
+  [
+   "2020-10-30",
+   "FC Paços de Ferreira",
+   "lg",
+   45
+  ],
+  [
+   "2020-11-03",
+   "Olympique Marseille",
+   "clg",
+   75
+  ],
+  [
+   "2020-11-08",
+   "Portimonense SAD",
+   "lg",
+   68
+  ],
+  [
+   "2020-11-21",
+   "GD Fabril Barreiro",
+   "dc",
+   29
+  ],
+  [
+   "2020-11-25",
+   "Olympique Marseille",
+   "clg",
+   79
+  ],
+  [
+   "2020-11-28",
+   "CD Santa Clara",
+   "lg",
+   86
+  ],
+  [
+   "2020-12-01",
+   "Manchester City",
+   "clg",
+   27
+  ],
+  [
+   "2020-12-05",
+   "CD Tondela",
+   "lg",
+   66
+  ],
+  [
+   "2020-12-09",
+   "Olympiacos Piraeus",
+   "clg",
+   27
+  ],
+  [
+   "2020-12-13",
+   "CD Tondela",
+   "dc",
+   38
+  ],
+  [
+   "2020-12-16",
+   "FC Paços de Ferreira",
+   "dk",
+   86
+  ],
+  [
+   "2020-12-20",
+   "CD Nacional",
+   "lg",
+   20
+  ],
+  [
+   "2020-12-23",
+   "SL Benfica",
+   "df",
+   13
+  ],
+  [
+   "2020-12-29",
+   "Vitória Guimarães SC",
+   "lg",
+   58
+  ],
+  [
+   "2021-01-03",
+   "Moreirense FC",
+   "lg",
+   89
+  ],
+  [
+   "2021-01-08",
+   "FC Famalicão",
+   "lg",
+   22
+  ],
+  [
+   "2021-01-12",
+   "CD Nacional",
+   "dc",
+   104
+  ],
+  [
+   "2021-01-15",
+   "SL Benfica",
+   "lg",
+   82
+  ],
+  [
+   "2021-01-29",
+   "Gil Vicente FC",
+   "dk",
+   86
+  ],
+  [
+   "2021-02-01",
+   "Rio Ave FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-04",
+   "B SAD (2018-2024)",
+   "lg",
+   33
+  ],
+  [
+   "2021-02-07",
+   "SC Braga",
+   "lg",
+   75
+  ],
+  [
+   "2021-02-10",
+   "SC Braga",
+   "dsf",
+   70
+  ],
+  [
+   "2021-02-17",
+   "Juventus FC",
+   "cl16",
+   33
+  ],
+  [
+   "2021-02-22",
+   "CS Marítimo",
+   "lg",
+   81
+  ],
+  [
+   "2021-02-27",
+   "Sporting CP",
+   "lg",
+   12
+  ],
+  [
+   "2021-03-03",
+   "SC Braga",
+   "dsf",
+   90
+  ],
+  [
+   "2021-03-06",
+   "Gil Vicente FC",
+   "lg",
+   45
+  ],
+  [
+   "2021-03-09",
+   "Juventus FC",
+   "cl16",
+   49
+  ],
+  [
+   "2021-03-14",
+   "FC Paços de Ferreira",
+   "lg",
+   19
+  ],
+  [
+   "2021-03-20",
+   "Portimonense SAD",
+   "lg",
+   13
+  ],
+  [
+   "2021-04-03",
+   "CD Santa Clara",
+   "lg",
+   86
+  ],
+  [
+   "2021-04-07",
+   "Chelsea FC",
+   "clk",
+   90
+  ],
+  [
+   "2021-04-10",
+   "CD Tondela",
+   "lg",
+   23
+  ],
+  [
+   "2021-04-13",
+   "Chelsea FC",
+   "clk",
+   15
+  ],
+  [
+   "2021-04-18",
+   "CD Nacional",
+   "lg",
+   87
+  ],
+  [
+   "2021-04-22",
+   "Vitória Guimarães SC",
+   "lg",
+   16
+  ],
+  [
+   "2021-04-26",
+   "Moreirense FC",
+   "lg",
+   29
+  ],
+  [
+   "2021-04-30",
+   "FC Famalicão",
+   "lg",
+   45
+  ],
+  [
+   "2021-05-06",
+   "SL Benfica",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-10",
+   "SC Farense",
+   "lg",
+   63
+  ],
+  [
+   "2021-05-15",
+   "Rio Ave FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-19",
+   "B SAD (2018-2024)",
+   "lg",
+   60
+  ],
+  [
+   "2021-08-08",
+   "B SAD (2018-2024)",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-15",
+   "FC Famalicão",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-22",
+   "CS Marítimo",
+   "lg",
+   81
+  ],
+  [
+   "2021-08-28",
+   "FC Arouca",
+   "lg",
+   80
+  ],
+  [
+   "2021-09-11",
+   "Sporting CP",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-15",
+   "Atlético de Madrid",
+   "clg",
+   84
+  ],
+  [
+   "2021-09-19",
+   "Moreirense FC",
+   "lg",
+   76
+  ],
+  [
+   "2021-09-24",
+   "Gil Vicente FC",
+   "lg",
+   84
+  ],
+  [
+   "2021-09-28",
+   "Liverpool FC",
+   "clg",
+   90
+  ],
+  [
+   "2021-10-02",
+   "FC Paços de Ferreira",
+   "lg",
+   89
+  ],
+  [
+   "2021-10-19",
+   "AC Milan",
+   "clg",
+   90
+  ],
+  [
+   "2021-10-23",
+   "CD Tondela",
+   "lg",
+   82
+  ],
+  [
+   "2021-10-26",
+   "CD Santa Clara",
+   "dc",
+   45
+  ],
+  [
+   "2021-10-30",
+   "Boavista FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-03",
+   "AC Milan",
+   "clg",
+   79
+  ],
+  [
+   "2021-11-07",
+   "CD Santa Clara",
+   "lg",
+   84
+  ],
+  [
+   "2021-11-20",
+   "CD Feirense",
+   "dc",
+   17
+  ],
+  [
+   "2021-11-24",
+   "Liverpool FC",
+   "clg",
+   90
+  ],
+  [
+   "2021-11-28",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-03",
+   "Portimonense SAD",
+   "lg",
+   82
+  ],
+  [
+   "2021-12-07",
+   "Atlético de Madrid",
+   "clg",
+   90
+  ],
+  [
+   "2021-12-12",
+   "SC Braga",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-19",
+   "FC Vizela",
+   "lg",
+   59
+  ],
+  [
+   "2021-12-23",
+   "SL Benfica",
+   "dc",
+   90
+  ],
+  [
+   "2022-01-08",
+   "GD Estoril Praia",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-12",
+   "FC Vizela",
+   "dk",
+   90
+  ],
+  [
+   "2022-01-16",
+   "B SAD (2018-2024)",
+   "lg",
+   82
+  ],
+  [
+   "2022-01-23",
+   "FC Famalicão",
+   "lg",
+   79
+  ],
+  [
+   "2022-02-06",
+   "Cardiff City",
+   "dc",
+   32
+  ],
+  [
+   "2022-02-10",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-16",
+   "Inter Milan",
+   "cl16",
+   31
+  ],
+  [
+   "2022-02-19",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-23",
+   "Leeds United",
+   "lg",
+   85
+  ],
+  [
+   "2022-02-27",
+   "Chelsea FC",
+   "df",
+   97
+  ],
+  [
+   "2022-03-02",
+   "Norwich City",
+   "dc",
+   6
+  ],
+  [
+   "2022-03-05",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-08",
+   "Inter Milan",
+   "cl16",
+   7
+  ],
+  [
+   "2022-03-12",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-16",
+   "Arsenal FC",
+   "lg",
+   56
+  ],
+  [
+   "2022-03-20",
+   "Nottingham Forest",
+   "dk",
+   26
+  ],
+  [
+   "2022-04-05",
+   "SL Benfica",
+   "clk",
+   90
+  ],
+  [
+   "2022-04-10",
+   "Manchester City",
+   "lg",
+   20
+  ],
+  [
+   "2022-04-13",
+   "SL Benfica",
+   "clk",
+   66
+  ],
+  [
+   "2022-04-16",
+   "Manchester City",
+   "dsf",
+   85
+  ],
+  [
+   "2022-04-19",
+   "Manchester United",
+   "lg",
+   70
+  ],
+  [
+   "2022-04-24",
+   "Everton FC",
+   "lg",
+   30
+  ],
+  [
+   "2022-04-27",
+   "Villarreal CF",
+   "clsf",
+   81
+  ],
+  [
+   "2022-04-30",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-03",
+   "Villarreal CF",
+   "clsf",
+   45
+  ],
+  [
+   "2022-05-07",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-10",
+   "Aston Villa",
+   "lg",
+   72
+  ],
+  [
+   "2022-05-14",
+   "Chelsea FC",
+   "df",
+   98
+  ],
+  [
+   "2022-05-22",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-28",
+   "Real Madrid",
+   "clf",
+   65
+  ],
+  [
+   "2022-07-30",
+   "Manchester City",
+   "df",
+   90
+  ],
+  [
+   "2022-08-06",
+   "Fulham FC",
+   "lg",
+   78
+  ],
+  [
+   "2022-08-15",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-22",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-27",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-31",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2022-09-03",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-09-07",
+   "SSC Napoli",
+   "clg",
+   90
+  ],
+  [
+   "2022-09-13",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-01",
+   "Brighton & Hove Albion",
+   "lg",
+   45
+  ],
+  [
+   "2022-10-04",
+   "Rangers FC",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-09",
+   "Arsenal FC",
+   "lg",
+   42
+  ],
+  [
+   "2023-04-17",
+   "Leeds United",
+   "lg",
+   9
+  ],
+  [
+   "2023-04-22",
+   "Nottingham Forest",
+   "lg",
+   9
+  ],
+  [
+   "2023-04-26",
+   "West Ham United",
+   "lg",
+   31
+  ],
+  [
+   "2023-04-30",
+   "Tottenham Hotspur",
+   "lg",
+   63
+  ],
+  [
+   "2023-05-03",
+   "Fulham FC",
+   "lg",
+   66
+  ],
+  [
+   "2023-05-06",
+   "Brentford FC",
+   "lg",
+   25
+  ],
+  [
+   "2023-05-15",
+   "Leicester City",
+   "lg",
+   74
+  ],
+  [
+   "2023-05-20",
+   "Aston Villa",
+   "lg",
+   72
+  ],
+  [
+   "2023-05-28",
+   "Southampton FC",
+   "lg",
+   33
+  ],
+  [
+   "2023-08-13",
+   "Chelsea FC",
+   "lg",
+   77
+  ],
+  [
+   "2023-08-19",
+   "AFC Bournemouth",
+   "lg",
+   86
+  ],
+  [
+   "2023-08-27",
+   "Newcastle United",
+   "lg",
+   33
+  ],
+  [
+   "2023-09-03",
+   "Aston Villa",
+   "lg",
+   65
+  ],
+  [
+   "2023-09-16",
+   "Wolverhampton Wanderers",
+   "lg",
+   45
+  ],
+  [
+   "2023-09-21",
+   "LASK",
+   "elg",
+   90
+  ],
+  [
+   "2023-09-24",
+   "West Ham United",
+   "lg",
+   81
+  ],
+  [
+   "2023-09-30",
+   "Tottenham Hotspur",
+   "lg",
+   73
+  ],
+  [
+   "2023-10-05",
+   "Union Saint-Gilloise",
+   "elg",
+   45
+  ],
+  [
+   "2023-10-08",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2023-10-21",
+   "Everton FC",
+   "lg",
+   81
+  ],
+  [
+   "2023-11-05",
+   "Luton Town",
+   "lg",
+   7
+  ],
+  [
+   "2023-11-09",
+   "FC Toulouse",
+   "elg",
+   81
+  ],
+  [
+   "2023-11-12",
+   "Brentford FC",
+   "lg",
+   7
+  ],
+  [
+   "2023-11-25",
+   "Manchester City",
+   "lg",
+   36
+  ],
+  [
+   "2023-11-30",
+   "LASK",
+   "elg",
+   56
+  ],
+  [
+   "2023-12-03",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-06",
+   "Sheffield United",
+   "lg",
+   67
+  ],
+  [
+   "2023-12-09",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-17",
+   "Manchester United",
+   "lg",
+   78
+  ],
+  [
+   "2023-12-20",
+   "West Ham United",
+   "dk",
+   12
+  ],
+  [
+   "2023-12-23",
+   "Arsenal FC",
+   "lg",
+   68
+  ],
+  [
+   "2023-12-26",
+   "Burnley FC",
+   "lg",
+   23
+  ],
+  [
+   "2024-01-01",
+   "Newcastle United",
+   "lg",
+   64
+  ],
+  [
+   "2024-01-07",
+   "Arsenal FC",
+   "dc",
+   90
+  ],
+  [
+   "2024-01-10",
+   "Fulham FC",
+   "dsf",
+   90
+  ],
+  [
+   "2024-01-21",
+   "AFC Bournemouth",
+   "lg",
+   64
+  ],
+  [
+   "2024-01-24",
+   "Fulham FC",
+   "dsf",
+   90
+  ],
+  [
+   "2024-01-28",
+   "Norwich City",
+   "dc",
+   11
+  ],
+  [
+   "2024-01-31",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-04",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-10",
+   "Burnley FC",
+   "lg",
+   82
+  ],
+  [
+   "2024-02-17",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-21",
+   "Luton Town",
+   "lg",
+   89
+  ],
+  [
+   "2024-02-25",
+   "Chelsea FC",
+   "df",
+   120
+  ],
+  [
+   "2024-03-02",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-07",
+   "AC Sparta Praha",
+   "elk",
+   74
+  ],
+  [
+   "2024-03-10",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-17",
+   "Manchester United",
+   "dk",
+   114
+  ],
+  [
+   "2024-03-31",
+   "Brighton & Hove Albion",
+   "lg",
+   89
+  ],
+  [
+   "2024-04-04",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-07",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-11",
+   "Atalanta BC",
+   "elk",
+   30
+  ],
+  [
+   "2024-04-14",
+   "Crystal Palace",
+   "lg",
+   66
+  ],
+  [
+   "2024-04-18",
+   "Atalanta BC",
+   "elk",
+   66
+  ],
+  [
+   "2024-04-21",
+   "Fulham FC",
+   "lg",
+   74
+  ],
+  [
+   "2024-04-24",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-27",
+   "West Ham United",
+   "lg",
+   79
+  ],
+  [
+   "2024-05-05",
+   "Tottenham Hotspur",
+   "lg",
+   75
+  ],
+  [
+   "2024-05-13",
+   "Aston Villa",
+   "lg",
+   76
+  ],
+  [
+   "2024-05-19",
+   "Wolverhampton Wanderers",
+   "lg",
+   71
+  ],
+  [
+   "2024-08-17",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-25",
+   "Brentford FC",
+   "lg",
+   72
+  ],
+  [
+   "2024-09-01",
+   "Manchester United",
+   "lg",
+   66
+  ],
+  [
+   "2024-09-14",
+   "Nottingham Forest",
+   "lg",
+   61
+  ],
+  [
+   "2024-09-17",
+   "AC Milan",
+   "clg",
+   22
+  ],
+  [
+   "2024-09-21",
+   "AFC Bournemouth",
+   "lg",
+   72
+  ],
+  [
+   "2024-09-28",
+   "Wolverhampton Wanderers",
+   "lg",
+   73
+  ],
+  [
+   "2024-10-02",
+   "Bologna FC 1909",
+   "clg",
+   72
+  ],
+  [
+   "2024-10-05",
+   "Crystal Palace",
+   "lg",
+   17
+  ],
+  [
+   "2024-10-20",
+   "Chelsea FC",
+   "lg",
+   24
+  ],
+  [
+   "2024-10-23",
+   "RB Leipzig",
+   "clg",
+   27
+  ],
+  [
+   "2024-10-27",
+   "Arsenal FC",
+   "lg",
+   63
+  ],
+  [
+   "2024-10-30",
+   "Brighton & Hove Albion",
+   "dc",
+   90
+  ],
+  [
+   "2024-11-02",
+   "Brighton & Hove Albion",
+   "lg",
+   24
+  ],
+  [
+   "2024-11-05",
+   "Bayer 04 Leverkusen",
+   "clg",
+   90
+  ],
+  [
+   "2024-11-09",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-24",
+   "Southampton FC",
+   "lg",
+   28
+  ],
+  [
+   "2024-11-27",
+   "Real Madrid",
+   "clg",
+   90
+  ],
+  [
+   "2024-12-01",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-04",
+   "Newcastle United",
+   "lg",
+   23
+  ],
+  [
+   "2024-12-10",
+   "Girona FC",
+   "clg",
+   88
+  ],
+  [
+   "2024-12-14",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-22",
+   "Tottenham Hotspur",
+   "lg",
+   87
+  ],
+  [
+   "2024-12-29",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-05",
+   "Manchester United",
+   "lg",
+   61
+  ],
+  [
+   "2025-01-08",
+   "Tottenham Hotspur",
+   "dsf",
+   30
+  ],
+  [
+   "2025-01-14",
+   "Nottingham Forest",
+   "lg",
+   75
+  ],
+  [
+   "2025-01-18",
+   "Brentford FC",
+   "lg",
+   65
+  ],
+  [
+   "2025-01-21",
+   "LOSC Lille",
+   "clg",
+   74
+  ],
+  [
+   "2025-01-25",
+   "Ipswich Town",
+   "lg",
+   86
+  ],
+  [
+   "2025-02-01",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-06",
+   "Tottenham Hotspur",
+   "dsf",
+   8
+  ],
+  [
+   "2025-02-09",
+   "Plymouth Argyle",
+   "dc",
+   90
+  ],
+  [
+   "2025-02-12",
+   "Everton FC",
+   "lg",
+   88
+  ],
+  [
+   "2025-02-16",
+   "Wolverhampton Wanderers",
+   "lg",
+   71
+  ],
+  [
+   "2025-02-19",
+   "Aston Villa",
+   "lg",
+   9
+  ],
+  [
+   "2025-02-23",
+   "Manchester City",
+   "lg",
+   79
+  ],
+  [
+   "2025-02-26",
+   "Newcastle United",
+   "lg",
+   87
+  ],
+  [
+   "2025-03-05",
+   "Paris Saint-Germain",
+   "cl16",
+   67
+  ],
+  [
+   "2025-03-08",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-11",
+   "Paris Saint-Germain",
+   "cl16",
+   101
+  ],
+  [
+   "2025-03-16",
+   "Newcastle United",
+   "df",
+   74
+  ],
+  [
+   "2025-04-02",
+   "Everton FC",
+   "lg",
+   86
+  ],
+  [
+   "2025-04-06",
+   "Fulham FC",
+   "lg",
+   35
+  ],
+  [
+   "2025-04-13",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-20",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-27",
+   "Tottenham Hotspur",
+   "lg",
+   76
+  ],
+  [
+   "2025-05-11",
+   "Arsenal FC",
+   "lg",
+   79
+  ],
+  [
+   "2025-05-19",
+   "Brighton & Hove Albion",
+   "lg",
+   27
+  ],
+  [
+   "2025-05-25",
+   "Crystal Palace",
+   "lg",
+   69
+  ],
+  [
+   "2025-08-16",
+   "VfB Stuttgart",
+   "df",
+   90
+  ],
+  [
+   "2025-08-22",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-27",
+   "SV Wehen Wiesbaden",
+   "dc",
+   90
+  ],
+  [
+   "2025-08-30",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-13",
+   "Hamburger SV",
+   "lg",
+   76
+  ],
+  [
+   "2025-09-17",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2025-09-20",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-26",
+   "SV Werder Bremen",
+   "lg",
+   84
+  ],
+  [
+   "2025-09-30",
+   "Pafos FC",
+   "clg",
+   45
+  ],
+  [
+   "2025-10-04",
+   "Eintracht Frankfurt",
+   "lg",
+   88
+  ],
+  [
+   "2025-10-18",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-22",
+   "Club Brugge KV",
+   "clg",
+   81
+  ],
+  [
+   "2025-10-25",
+   "Borussia Mönchengladbach",
+   "lg",
+   76
+  ],
+  [
+   "2025-10-29",
+   "1.FC Köln",
+   "dc",
+   88
+  ],
+  [
+   "2025-11-01",
+   "Bayer 04 Leverkusen",
+   "lg",
+   31
+  ],
+  [
+   "2025-11-04",
+   "Paris Saint-Germain",
+   "clg",
+   45
+  ],
+  [
+   "2025-11-08",
+   "1.FC Union Berlin",
+   "lg",
+   90
+  ],
+  [
+   "2025-11-22",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2025-11-29",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-03",
+   "1.FC Union Berlin",
+   "dc",
+   90
+  ],
+  [
+   "2025-12-06",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-21",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-11",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-14",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-17",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-21",
+   "Union Saint-Gilloise",
+   "clg",
+   90
+  ],
+  [
+   "2026-01-24",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-28",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2026-01-31",
+   "Hamburger SV",
+   "lg",
+   45
+  ],
+  [
+   "2026-02-08",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-11",
+   "RB Leipzig",
+   "dk",
+   90
+  ],
+  [
+   "2026-02-14",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-21",
+   "Eintracht Frankfurt",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-28",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2026-03-06",
+   "Borussia Mönchengladbach",
+   "lg",
+   61
+  ],
+  [
+   "2026-03-10",
+   "Atalanta BC",
+   "cl16",
+   90
+  ],
+  [
+   "2026-03-14",
+   "Bayer 04 Leverkusen",
+   "lg",
+   84
+  ],
+  [
+   "2026-03-18",
+   "Atalanta BC",
+   "cl16",
+   90
+  ],
+  [
+   "2026-04-04",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-07",
+   "Real Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2026-04-11",
+   "FC St. Pauli",
+   "lg",
+   31
+  ],
+  [
+   "2026-04-15",
+   "Real Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2026-04-19",
+   "VfB Stuttgart",
+   "lg",
+   45
+  ],
+  [
+   "2026-04-22",
+   "Bayer 04 Leverkusen",
+   "dsf",
+   90
+  ],
+  [
+   "2026-04-25",
+   "1.FSV Mainz 05",
+   "lg",
+   45
+  ],
+  [
+   "2026-04-28",
+   "Paris Saint-Germain",
+   "clsf",
+   90
+  ],
+  [
+   "2026-05-02",
+   "1.FC Heidenheim 1846",
+   "lg",
+   45
+  ],
+  [
+   "2026-05-06",
+   "Paris Saint-Germain",
+   "clsf",
+   90
+  ],
+  [
+   "2026-05-09",
+   "VfL Wolfsburg",
+   "lg",
+   30
+  ],
+  [
+   "2026-05-16",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2026-05-23",
+   "VfB Stuttgart",
+   "df",
+   90
+  ],
+  [
+   "2026-08-22",
+   "Borussia Dortmund",
+   "df",
+   90
+  ],
+  [
+   "2026-08-28",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-02",
+   "VfL Osnabrück",
+   "dc",
+   90
+  ],
+  [
+   "2026-09-05",
+   "FC Schalke 04",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-10",
+   "FK Bodø/Glimt",
+   "clg",
+   80
+  ],
+  [
+   "2026-09-13",
+   "SV 07 Elversberg",
+   "lg",
+   25
+  ],
+  [
+   "2026-09-18",
+   "1.FC Union Berlin",
+   "lg",
+   63
+  ],
+  [
+   "2026-10-10",
+   "FC Augsburg",
+   "lg",
+   87
+  ],
+  [
+   "2026-10-13",
+   "Viking FK",
+   "clg",
+   76
+  ],
+  [
+   "2026-10-17",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-21",
+   "Arsenal FC",
+   "clg",
+   22
+  ]
+ ],
+ "note": "루이스 디아스(바랑키야·주니오르·포르투·리버풀·바이에른 뮌헨)의 클럽 공식 경기 483경기(2016.4.13 하과레스 데 코르도바전 ~ 2026.10.21 아스널전)에서 나온 136골 54도움, 친선경기 제외\n클럽별 경기·골·도움: 바랑키야 42·3·0, 주니오르 106·20·3, 포르투 125·41·14, 리버풀 148·41·17, 바이에른 뮌헨 62·31·20. 출전 분 합계 32,278분\n경기·출전 분·골 시간·골 뒤 스코어는 Transfermarkt 선수 경기 성적(API)과 경기 리포트 기준. 출전 시간 90분 추정 경기는 없음(퇴장 2경기 2017.9.19 세로 포르테뇨전 74분·2021.2.10 브라가전 70분은 퇴장 시각까지)\n클럽별·시즌별 경기 수와 골은 영어·스페인어 위키백과 경력 표와 모두 같음(영어 위키백과 통산 줄의 484경기 139골은 자체 클럽 합계 483경기 136골과 다른 표기 오류). FotMob 경력 합계는 포르투 124경기 39골로 1경기 2골 적음\n바랑키야 FC(2016~2017)는 콜롬비아 2부 프리메라 B(디마요르 주관 프로 리그) 소속이라 넣음(주니오르와 같은 소유주의 별도 클럽, 위키백과·Transfermarkt 통산에 포함). 이 시기는 FotMob 경기 자료가 없어 Transfermarkt만 근거\n콜롬비아 대표팀·U-20 대표팀 경기는 뺌\nPK 골은 없음. 2018.9.22 라 에키다드전 골(Transfermarkt 90+1분, FotMob 90분) 등 추가시간 표기는 Transfermarkt를 씀. 2020.1.10 모레이렌스전 골은 Transfermarkt 72분, FotMob 66분이라 Transfermarkt를 씀(골 순서는 같음)\n도움은 Transfermarkt와 FotMob 경기 이벤트(또는 FotMob 선수 경기 목록)가 같이 적은 것을 기준으로 함. 콜롬비아 시기와 일부 포르투갈 컵 경기는 FotMob 이벤트에 도움자가 없어 Transfermarkt 단일 출처이므로 다른 출처 2곳이 확인한 것만 넣음\n도움 54개 = Transfermarkt 도움 76개 − PK 유도 10개 − 상대 자책골 유도 3개 − 슈팅 리바운드 1개 − 확인 못 한 단일 출처 8개\nPK 유도로 뺀 도움: 2020.7.5 B SAD (2018-2024) 75분 Alex Telles, 2020.7.20 Moreirense FC 56분 Alex Telles, 2022.10.4 Rangers FC 53분 Mohamed Salah, 2023.9.21 LASK 56분 Darwin Núñez, 2024.12.1 Manchester City 78분 Mohamed Salah, 2024.12.10 Girona FC 63분 Mohamed Salah, 2025.2.16 Wolverhampton Wanderers 37분 Mohamed Salah, 2026.2.8 TSG 1899 Hoffenheim 20분 Harry Kane, 2026.2.8 TSG 1899 Hoffenheim 45분 Harry Kane, 2026.4.28 Paris Saint-Germain 17분 Harry Kane\n상대 자책골에 붙은 도움으로 뺀 것: 2021.12.3 Portimonense SAD 45+3분 Pedro Sá, 2024.2.4 Arsenal FC 45+3분 Gabriel, 2026.1.11 VfL Wolfsburg 5분 Kilian Fischer\n슈팅 리바운드로 뺀 것: 2020.12.9 Olympiacos Piraeus 77분 Matheus Uribe (FotMob도 도움 없음)\nTransfermarkt 유형이 'Shot on goal'이지만 넣은 도움: 2022.4.24 에버턴전 85분 오리기 골(디아스의 오버헤드킥이 튀어 오른 공을 오리기가 머리로 넣은 골로 골키퍼·골대에 맞은 리바운드가 아님, FotMob도 디아스 도움)\n다른 출처 2곳으로 확인해 넣은 단일 출처 도움: 2018.4.19 리베르타도레스 알리안사 리마전 83분 알베스 골: futbolperuano.com 기사(디아스 패스 뒤 골)·footballcritic 경기 기록(도움 L. Díaz); 2018.9.22 라 에키다드전 34분 요니 곤살레스 골: La FM·Win Sports 기사(디아스 도움); 2018.11.8 수다메리카나 4강 1차전 산타페전 48분 피에드라이타 골: ESPN 문자중계(코너킥 뒤 디아스 도움)·fussballtransfers 경기 기록; 2021.10.30 보아비스타전 90+6분 나마소 골: FotMob 선수 경기 목록 도움 1(경기 이벤트엔 도움자 없음); 2021.12.23 타사 벤피카전 31분 에바닐송 골: Record 문자중계·La FM 기사(디아스가 에바닐송에게 내줌); 2022.2.6 FA컵 카디프전 68분 미나미노 골: This Is Anfield·리버풀 구단 기사(디아스 도움, FotMob은 조타 도움으로 적음)\n확인하지 못해 뺀 단일 출처 도움: 2017.4.30 야네로스전 74분 스카르페타 골(코너킥): FotMob 기록 없음, 기사 확인 못 함; 2018.2.15 리베르타도레스 과라니전 81분 차라 골: El Heraldo(Rincón Juniorista) 한 곳만 디아스 패스로 서술; 2018.4.11 산타페전 12분 테오 구티에레스 골: 금지 출처 외에 도움자를 적은 기사 없음; 2018.10.9 톨리마전 58분 바레라 골: ESPN 문자중계(Opta 계열) 한 곳만 디아스 도움; 2018.10.9 톨리마전 83분 테오 구티에레스 골: ESPN 문자중계 한 곳만 디아스 도움; 2019.1.30 파트리오타스전 43분 피에드라이타 골: 금지 출처(worldfootball) 외 확인 없음; 2019.2.10 아메리카 데 칼리전 23분 삼부에사 골: ESPN은 여러 선수의 연결 플레이로만 서술, 도움자 명시는 금지 출처뿐; 2019.10.19 타사 코임브로이스전 8분 치키뉴 소아레스 골: Bola na Rede 한 곳만 디아스 패스로 서술\n2017.4.30 야네로스전 Transfermarkt 리포트는 최종 3-1인데 골 목록에 야네로스의 세 번째 골(90+4분)이 빠져 있음(골·도움 기록에는 영향 없음)\n날짜는 경기 현지 날짜. 콜롬비아 클럽 경기는 UTC를 콜롬비아 시간으로 바꿔 Transfermarkt 리포트 날짜(중부 유럽 기준)보다 하루 앞인 경우가 많음\n상대 Elo는 기존 선수 자료의 같은 팀·같은 시즌 값을 먼저 쓰고, 없으면 그 시즌 순위를 리그 모형에 넣음. 산타페 2018은 다른 선수 자료 값 1450(추정)을 그대로 씀\n콜롬비아 1부는 콰드라도·팔카오 자료와 같은 리그 수준 추정(평균 1580·흩어짐 63, 근거 약함). 순위는 그 대회(2018 아페르투라·피날리사시온, 2019 아페르투라)의 정규 단계 순위(스페인어 위키백과 순위표, FotMob과 같음)이고 결선·코파·슈페르리가 경기도 그 해 대회 순위를 씀\n콜롬비아 2부(프리메라 B)는 1부 평균에서 잉글랜드 1·2부 평균 차이를 뺀 약 1352에 2부 흩어짐을 둔 추정(아르헨티나·포르투갈 2부 선례, 근거 약함). 순위는 스페인어 위키백과 2016 정규 단계·2017 아페르투라 순위표\n아르헨티나 상대(라누스·데펜사 이 후스티시아 2018)는 2018-19 시즌 최종 순위(26팀)를 아르헨티나 1부 모형에 넣음. 포르투갈 2부(카사 피아·샤베스 2019-20)는 2부 모형(추정), 코임브로이스(3부 캄페오나투 드 포르투갈)는 다른 선수 자료의 포르투갈 3부 값 1250(추정)\n리그 표가 없는 남미 상대는 당시 수준을 추정함(모두 '추정'): Club Cerro Porteño 2017 1500, Club Alianza Lima 2018 1400\n콜롬비아 리그 결선의 4팀 리그(2019 아페르투라 쿠아드랑굴라르)는 리그 경기로, 녹아웃(8강·4강·결승 두 경기)은 멕시코 리길야와 같은 플레이오프 비중으로 계산함. 코파 콜롬비아는 국내컵(조별은 리그식), 슈페르리가는 국내컵 결승과 같은 비중\n코파 리베르타도레스 예선·조별은 남미 대회 낮은 단계, 코파 수다메리카나 16강까지는 낮은 단계·8강 이후는 높은 단계로 계산함. 타사 다 리가 조별은 리그식 국내컵, 수페르타사·커뮤니티 실드·DFL 슈퍼컵은 국내컵 결승, 2024-25부터 챔스 리그 단계는 조별과 같은 비중\n두 경기 합산 기록 23개(20경기)는 합산 S로 계산함. UEFA 대회는 2020-21까지 원정 다득점·연장, 2021-22부터 연장만. 2017~2018 남미 대회(결승 제외)는 원정 다득점 있고 연장 없이 승부차기. 콜롬비아 리그 결선·슈페르리가와 잉글랜드 리그컵 준결승은 원정 다득점·연장 없이 승부차기. 다른 차전 스코어는 Transfermarkt 리포트\n연장·승부차기 경기의 출전 분은 Transfermarkt 그대로(2018.12.12 수다메리카나 결승 2차전 120분 등). 연장 시간의 골·도움은 없음\n시즌은 콜롬비아 클럽은 달력 연도(2017년은 바랑키야·주니오르 합침), 리버풀은 7월 10일 기준(2022.7.30 커뮤니티 실드는 2022-23), 포르투·바이에른은 8월 1일 기준(2020.8.1 타사 결승은 2019-20)\n우승·수상 기록은 Transfermarkt 업적 페이지 기준(콜롬비아 리그 우승은 실제 대회 연도 2018 피날리사시온·2019 아페르투라로 적음, 코파 아메리카 득점왕은 대표팀 기록이라 뺌). 선수협회 올해의 팀: 2025-26 분데스리가 VDV(FC 바이에른 발표), 2018 콜롬비아 1부 Acolfutpro(El Heraldo)\n2026.11.18 기준: 마지막 출전은 2026.10.21 챔스 아스널전(교체 22분). 그 뒤 햄스트링 부상으로 결장 중(FotMob 11월 말 복귀 예상)",
+ "assist_judgments": [
+  [
+   "단일 출처 도움 뺌",
+   "2017-04-30",
+   "Llaneros FC",
+   "74",
+   "Iván Scarpeta",
+   "2017.4.30 야네로스전 74분 스카르페타 골(코너킥): FotMob 기록 없음, 기사 확인 못 함"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2018-02-15",
+   "Club Guaraní",
+   "81",
+   "Yimmi Chará",
+   "2018.2.15 리베르타도레스 과라니전 81분 차라 골: El Heraldo(Rincón Juniorista) 한 곳만 디아스 패스로 서술"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2018-04-11",
+   "Independiente Santa Fe",
+   "12",
+   "Teófilo Gutiérrez",
+   "2018.4.11 산타페전 12분 테오 구티에레스 골: 금지 출처 외에 도움자를 적은 기사 없음"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2018-04-19",
+   "Club Alianza Lima",
+   "83",
+   "Jonatan Álvez",
+   "2018.4.19 리베르타도레스 알리안사 리마전 83분 알베스 골: futbolperuano.com 기사(디아스 패스 뒤 골)·footballcritic 경기 기록(도움 L. Díaz)"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2018-09-22",
+   "CD La Equidad",
+   "34",
+   "Yony González",
+   "2018.9.22 라 에키다드전 34분 요니 곤살레스 골: La FM·Win Sports 기사(디아스 도움)"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2018-10-09",
+   "Deportes Tolima",
+   "58",
+   "Jarlan Barrera",
+   "2018.10.9 톨리마전 58분 바레라 골: ESPN 문자중계(Opta 계열) 한 곳만 디아스 도움"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2018-10-09",
+   "Deportes Tolima",
+   "83",
+   "Teófilo Gutiérrez",
+   "2018.10.9 톨리마전 83분 테오 구티에레스 골: ESPN 문자중계 한 곳만 디아스 도움"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2018-11-08",
+   "Independiente Santa Fe",
+   "48",
+   "Marlon Piedrahita",
+   "2018.11.8 수다메리카나 4강 1차전 산타페전 48분 피에드라이타 골: ESPN 문자중계(코너킥 뒤 디아스 도움)·fussballtransfers 경기 기록"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2019-01-30",
+   "Boyacá Patriotas FC",
+   "43",
+   "Marlon Piedrahita",
+   "2019.1.30 파트리오타스전 43분 피에드라이타 골: 금지 출처(worldfootball) 외 확인 없음"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2019-02-10",
+   "CD América de Cali",
+   "23",
+   "Fabián Sambueza",
+   "2019.2.10 아메리카 데 칼리전 23분 삼부에사 골: ESPN은 여러 선수의 연결 플레이로만 서술, 도움자 명시는 금지 출처뿐"
+  ],
+  [
+   "단일 출처 도움 뺌",
+   "2019-10-19",
+   "SC Coimbrões",
+   "8",
+   "Tiquinho Soares",
+   "2019.10.19 타사 코임브로이스전 8분 치키뉴 소아레스 골: Bola na Rede 한 곳만 디아스 패스로 서술"
+  ],
+  [
+   "도움 제외",
+   "2020-07-05",
+   "B SAD (2018-2024)",
+   "75",
+   "Alex Telles",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-07-20",
+   "Moreirense FC",
+   "56",
+   "Alex Telles",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-12-09",
+   "Olympiacos Piraeus",
+   "77",
+   "Matheus Uribe",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2021-10-30",
+   "Boavista FC",
+   "90+6",
+   "Danny Namaso",
+   "2021.10.30 보아비스타전 90+6분 나마소 골: FotMob 선수 경기 목록 도움 1(경기 이벤트엔 도움자 없음)"
+  ],
+  [
+   "도움 제외",
+   "2021-12-03",
+   "Portimonense SAD",
+   "45+3",
+   "Pedro Sá",
+   "상대 자책골 유도"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2021-12-23",
+   "SL Benfica",
+   "31",
+   "Evanilson",
+   "2021.12.23 타사 벤피카전 31분 에바닐송 골: Record 문자중계·La FM 기사(디아스가 에바닐송에게 내줌)"
+  ],
+  [
+   "단일 출처 도움 넣음",
+   "2022-02-06",
+   "Cardiff City",
+   "68",
+   "Takumi Minamino",
+   "2022.2.6 FA컵 카디프전 68분 미나미노 골: This Is Anfield·리버풀 구단 기사(디아스 도움, FotMob은 조타 도움으로 적음)"
+  ],
+  [
+   "도움 넣음(Shot on goal)",
+   "2022-04-24",
+   "Everton FC",
+   "85",
+   "Divock Origi",
+   "2022.4.24 에버턴전 85분 오리기 골: 디아스의 오버헤드킥이 튀어 오른 공을 오리기가 머리로 넣음(골키퍼·골대 리바운드 아님), FotMob 경기 이벤트·선수 경기 목록도 디아스 도움"
+  ],
+  [
+   "도움 제외",
+   "2022-10-04",
+   "Rangers FC",
+   "53",
+   "Mohamed Salah",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2023-09-21",
+   "LASK",
+   "56",
+   "Darwin Núñez",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-02-04",
+   "Arsenal FC",
+   "45+3",
+   "Gabriel",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-12-01",
+   "Manchester City",
+   "78",
+   "Mohamed Salah",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-12-10",
+   "Girona FC",
+   "63",
+   "Mohamed Salah",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2025-02-16",
+   "Wolverhampton Wanderers",
+   "37",
+   "Mohamed Salah",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2026-01-11",
+   "VfL Wolfsburg",
+   "5",
+   "Kilian Fischer",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2026-02-08",
+   "TSG 1899 Hoffenheim",
+   "20",
+   "Harry Kane",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2026-02-08",
+   "TSG 1899 Hoffenheim",
+   "45",
+   "Harry Kane",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2026-04-28",
+   "Paris Saint-Germain",
+   "17",
+   "Harry Kane",
+   "PK 유도"
+  ]
+ ],
+ "cross_check": [
+  [
+   "동료 도움→디아스 골",
+   "gna.js",
+   "2025-08-16",
+   77,
+   "일치",
+   [
+    1828,
+    "df",
+    77,
+    1,
+    0
+   ],
+   [
+    1828,
+    "df",
+    77,
+    1,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "gna.js",
+   "2025-08-22",
+   32,
+   "일치",
+   [
+    1860,
+    "lg",
+    32,
+    1,
+    0
+   ],
+   [
+    1860,
+    "lg",
+    32,
+    1,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "gna.js",
+   "2025-10-04",
+   1,
+   "일치",
+   [
+    1756,
+    "lg",
+    1,
+    0,
+    0
+   ],
+   [
+    1756,
+    "lg",
+    1,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "gna.js",
+   "2026-04-07",
+   41,
+   "일치",
+   [
+    1931,
+    "clk",
+    41,
+    0,
+    0
+   ],
+   [
+    1931,
+    "clk",
+    41,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "kan.js",
+   "2026-02-08",
+   47,
+   "일치",
+   [
+    1812,
+    "lg",
+    47,
+    2,
+    1
+   ],
+   [
+    1812,
+    "lg",
+    47,
+    2,
+    1
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "kan.js",
+   "2026-04-28",
+   68,
+   "일치",
+   [
+    1955,
+    "clsf",
+    68,
+    3,
+    5
+   ],
+   [
+    1955,
+    "clsf",
+    68,
+    3,
+    5
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "kan.js",
+   "2026-10-17",
+   47,
+   "일치",
+   [
+    1797,
+    "lg",
+    47,
+    3,
+    0
+   ],
+   [
+    1797,
+    "lg",
+    47,
+    3,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2025-08-22",
+   64,
+   "일치",
+   [
+    1860,
+    "lg",
+    64,
+    3,
+    0
+   ],
+   [
+    1860,
+    "lg",
+    64,
+    3,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2025-08-22",
+   74,
+   "일치",
+   [
+    1860,
+    "lg",
+    74,
+    4,
+    0
+   ],
+   [
+    1860,
+    "lg",
+    74,
+    4,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2025-09-26",
+   65,
+   "일치",
+   [
+    1661,
+    "lg",
+    65,
+    2,
+    0
+   ],
+   [
+    1661,
+    "lg",
+    65,
+    2,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2025-10-04",
+   27,
+   "일치",
+   [
+    1756,
+    "lg",
+    27,
+    1,
+    0
+   ],
+   [
+    1756,
+    "lg",
+    27,
+    1,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2026-01-11",
+   69,
+   "일치",
+   [
+    1644,
+    "lg",
+    69,
+    5,
+    1
+   ],
+   [
+    1644,
+    "lg",
+    69,
+    5,
+    1
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2026-01-28",
+   84,
+   "일치",
+   [
+    1837,
+    "clg",
+    84,
+    1,
+    1
+   ],
+   [
+    1837,
+    "clg",
+    84,
+    1,
+    1
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2026-02-14",
+   25,
+   "일치",
+   [
+    1661,
+    "lg",
+    25,
+    1,
+    0
+   ],
+   [
+    1661,
+    "lg",
+    25,
+    1,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "kan.js",
+   "2026-05-23",
+   80,
+   "일치",
+   [
+    1828,
+    "df",
+    80,
+    1,
+    0
+   ],
+   [
+    1828,
+    "df",
+    80,
+    1,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "mus.js",
+   "2026-02-08",
+   89,
+   "일치",
+   [
+    1812,
+    "lg",
+    89,
+    4,
+    1
+   ],
+   [
+    1812,
+    "lg",
+    89,
+    4,
+    1
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "mus.js",
+   "2026-04-15",
+   89,
+   "일치",
+   [
+    1931,
+    "clk",
+    89,
+    2,
+    3
+   ],
+   [
+    1931,
+    "clk",
+    89,
+    2,
+    3
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2022-04-19",
+   5,
+   "일치",
+   [
+    1893,
+    "lg",
+    5,
+    0,
+    0
+   ],
+   [
+    1893,
+    "lg",
+    5,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2023-08-13",
+   18,
+   "일치",
+   [
+    1889,
+    "lg",
+    18,
+    0,
+    0
+   ],
+   [
+    1889,
+    "lg",
+    18,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2024-09-01",
+   35,
+   "일치",
+   [
+    1774,
+    "lg",
+    35,
+    0,
+    0
+   ],
+   [
+    1774,
+    "lg",
+    35,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2024-09-01",
+   42,
+   "일치",
+   [
+    1774,
+    "lg",
+    42,
+    1,
+    0
+   ],
+   [
+    1774,
+    "lg",
+    42,
+    1,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2024-11-05",
+   83,
+   "일치",
+   [
+    1919,
+    "clg",
+    83,
+    2,
+    0
+   ],
+   [
+    1919,
+    "clg",
+    83,
+    2,
+    0
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2024-12-22",
+   85,
+   "일치",
+   [
+    1740,
+    "lg",
+    85,
+    5,
+    3
+   ],
+   [
+    1740,
+    "lg",
+    85,
+    5,
+    3
+   ]
+  ],
+  [
+   "동료 도움→디아스 골",
+   "sal.js",
+   "2025-04-13",
+   18,
+   "일치",
+   [
+    1784,
+    "lg",
+    18,
+    0,
+    0
+   ],
+   [
+    1784,
+    "lg",
+    18,
+    0,
+    0
+   ]
+  ],
+  [
+   "디아스 도움→동료 골",
+   "sal.js",
+   "2024-08-25",
+   70,
+   "일치",
+   [
+    1819,
+    "lg",
+    70,
+    1,
+    0
+   ],
+   [
+    1819,
+    "lg",
+    70,
+    1,
+    0
+   ]
+  ]
+ ],
+ "elo_sources": {
+  "순위표+리그 모형": 59,
+  "직접 추정": 2,
+  "기존 팀×시즌 값": 126,
+  "기존 순위값·같은 팀 값": 3
+ },
+ "elo_log": {
+  "Cúcuta Deportivo|2016": [
+   "model",
+   1331,
+   "콜롬비아 2부 2016 10위/16팀 (추정)"
+  ],
+  "Universitario Popayán|2016": [
+   "model",
+   1378,
+   "콜롬비아 2부 2016 5위/16팀 (추정)"
+  ],
+  "Atlético FC Cali|2017": [
+   "model",
+   1282,
+   "콜롬비아 2부 2017 아페르투라 16위/16팀 (추정)"
+  ],
+  "Club Cerro Porteño|2017": [
+   "man",
+   1500,
+   "파라과이 1부 2017 클라우수라 1위 (추정, 다른 선수 자료 세로 포르테뇨·파라과이 상위 팀 1500과 같음)"
+  ],
+  "Atlético Bucaramanga|2018": [
+   "model",
+   1531,
+   "콜롬비아 1부 2018 아페르투라 16위/20팀 (리그 수준 추정)"
+  ],
+  "Once Caldas|2018": [
+   "model",
+   1592,
+   "콜롬비아 1부 2018 아페르투라 8위/20팀 (리그 수준 추정)"
+  ],
+  "Club Alianza Lima|2018": [
+   "man",
+   1400,
+   "페루 1부 2018 상위 팀 (추정, 2017 우승 팀, 다른 선수 자료 페루 상위 팀 1400과 같음)"
+  ],
+  "CA Lanús|2018-19": [
+   "model",
+   1588,
+   "아르헨티나 1부 2018-19 11위"
+  ],
+  "Asociación Deportivo Pasto|2018": [
+   "model",
+   1512,
+   "콜롬비아 1부 2018 피날리사시온 18위/20팀 (리그 수준 추정)"
+  ],
+  "Envigado FC|2018": [
+   "model",
+   1551,
+   "콜롬비아 1부 2018 피날리사시온 13위/20팀 (리그 수준 추정)"
+  ],
+  "Club Deportivo Atlético Huila|2018": [
+   "model",
+   1519,
+   "콜롬비아 1부 2018 피날리사시온 17위/20팀 (리그 수준 추정)"
+  ],
+  "Independiente Medellín|2018": [
+   "model",
+   1621,
+   "콜롬비아 1부 2018 피날리사시온 5위/20팀 (리그 수준 추정)"
+  ],
+  "CD La Equidad|2018": [
+   "model",
+   1653,
+   "콜롬비아 1부 2018 피날리사시온 3위/20팀 (리그 수준 추정)"
+  ],
+  "Defensa y Justicia|2018-19": [
+   "model",
+   1700,
+   "아르헨티나 1부 2018-19 2위"
+  ],
+  "Independiente Santa Fe|2018": [
+   "table",
+   1450,
+   "콜롬비아 상위 팀 (추정, 다른 선수 자료 콜롬비아 상위 팀 1450과 같음)"
+  ],
+  "Rionegro Águilas|2018": [
+   "model",
+   1604,
+   "콜롬비아 1부 2018 피날리사시온 7위/20팀 (리그 수준 추정)"
+  ],
+  "Deportes Tolima|2019": [
+   "model",
+   1653,
+   "콜롬비아 1부 2019 아페르투라 3위/20팀 (리그 수준 추정)"
+  ],
+  "Independiente Medellín|2019": [
+   "model",
+   1581,
+   "콜롬비아 1부 2019 아페르투라 9위/20팀 (리그 수준 추정)"
+  ],
+  "Independiente Santa Fe|2019": [
+   "model",
+   1494,
+   "콜롬비아 1부 2019 아페르투라 20위/20팀 (리그 수준 추정)"
+  ],
+  "FC Krasnodar|2019-20": [
+   "table",
+   1492,
+   "러시아 프리미어리그 2019-20 3위 (리그 수준 추정)"
+  ],
+  "Vitória Setúbal FC|2019-20": [
+   "table",
+   1461,
+   "포르투갈 1부 2019-20 16위"
+  ],
+  "BSC Young Boys|2019-20": [
+   "table",
+   1620,
+   "스위스 2019-20 1위 (추정, 다른 선수 자료 영 보이스 2018-19·2020-21 1위 1620과 같음)"
+  ],
+  "SC Coimbrões|2019-20": [
+   "model",
+   1250,
+   "포르투갈 3부 2019-20 B조 12위 (추정, 다른 선수 자료 포르투갈 3부 값과 같음)"
+  ],
+  "Rangers FC|2019-20": [
+   "table",
+   1600,
+   "스코틀랜드 2019-20 2위 (추정, 다른 선수 자료 레인저스 2018-19·2021-22 2위 1600과 같음)"
+  ],
+  "FC Famalicão|2019-20": [
+   "model",
+   1652,
+   "포르투갈 1부 2019-20 6위"
+  ],
+  "Casa Pia AC|2019-20": [
+   "model",
+   1297,
+   "포르투갈 2부 2019-20 18위 (추정)"
+  ],
+  "Feyenoord Rotterdam|2019-20": [
+   "fixed",
+   1677,
+   "에레디비시 2019-20 3위"
+  ],
+  "GD Chaves|2019-20": [
+   "model",
+   1343,
+   "포르투갈 2부 2019-20 12위 (추정)"
+  ],
+  "Moreirense FC|2019-20": [
+   "model",
+   1600,
+   "포르투갈 1부 2019-20 8위"
+  ],
+  "Bayer 04 Leverkusen|2019-20": [
+   "table",
+   1789,
+   "분데스리가 2019-20 5위"
+  ],
+  "B SAD (2018-2024)|2020-21": [
+   "model",
+   1560,
+   "포르투갈 1부 2020-21 10위"
+  ],
+  "Moreirense FC|2020-21": [
+   "model",
+   1600,
+   "포르투갈 1부 2020-21 8위"
+  ],
+  "Boavista FC|2020-21": [
+   "model",
+   1527,
+   "포르투갈 1부 2020-21 13위"
+  ],
+  "Sporting CP|2020-21": [
+   "model",
+   1912,
+   "포르투갈 1부 2020-21 1위"
+  ],
+  "Manchester City|2020-21": [
+   "table",
+   2070,
+   "프리미어리그 2020-21 1위"
+  ],
+  "Olympique Marseille|2020-21": [
+   "table",
+   1776,
+   "리그1 2020-21 5위"
+  ],
+  "CD Santa Clara|2020-21": [
+   "model",
+   1652,
+   "포르투갈 1부 2020-21 6위"
+  ],
+  "CD Tondela|2020-21": [
+   "model",
+   1533,
+   "포르투갈 1부 2020-21 12위"
+  ],
+  "FC Paços de Ferreira|2020-21": [
+   "model",
+   1670,
+   "포르투갈 1부 2020-21 5위"
+  ],
+  "SL Benfica|2020-21": [
+   "table",
+   1730,
+   "포르투갈 1부 2020-21 3위"
+  ],
+  "Vitória Guimarães SC|2020-21": [
+   "model",
+   1627,
+   "포르투갈 1부 2020-21 7위"
+  ],
+  "FC Famalicão|2020-21": [
+   "model",
+   1576,
+   "포르투갈 1부 2020-21 9위"
+  ],
+  "CD Nacional|2020-21": [
+   "model",
+   1421,
+   "포르투갈 1부 2020-21 18위"
+  ],
+  "Gil Vicente FC|2020-21": [
+   "model",
+   1546,
+   "포르투갈 1부 2020-21 11위"
+  ],
+  "Rio Ave FC|2020-21": [
+   "table",
+   1461,
+   "포르투갈 1부 2020-21 16위"
+  ],
+  "SC Farense|2020-21": [
+   "model",
+   1448,
+   "포르투갈 1부 2020-21 17위"
+  ],
+  "B SAD (2018-2024)|2021-22": [
+   "model",
+   1421,
+   "포르투갈 1부 2021-22 18위"
+  ],
+  "CS Marítimo|2021-22": [
+   "model",
+   1560,
+   "포르투갈 1부 2021-22 10위"
+  ],
+  "FC Arouca|2021-22": [
+   "model",
+   1482,
+   "포르투갈 1부 2021-22 15위"
+  ],
+  "Sporting CP|2021-22": [
+   "table",
+   1795,
+   "포르투갈 1부 2021-22 2위"
+  ],
+  "Moreirense FC|2021-22": [
+   "model",
+   1461,
+   "포르투갈 1부 2021-22 16위"
+  ],
+  "FC Paços de Ferreira|2021-22": [
+   "table",
+   1546,
+   "포르투갈 1부 2021-22 11위"
+  ],
+  "AC Milan|2021-22": [
+   "table",
+   1969,
+   "세리에A 2021-22 1위"
+  ],
+  "Boavista FC|2021-22": [
+   "model",
+   1533,
+   "포르투갈 1부 2021-22 12위"
+  ],
+  "CD Santa Clara|2021-22": [
+   "model",
+   1627,
+   "포르투갈 1부 2021-22 7위"
+  ],
+  "Vitória Guimarães SC|2021-22": [
+   "model",
+   1652,
+   "포르투갈 1부 2021-22 6위"
+  ],
+  "SC Braga|2021-22": [
+   "model",
+   1690,
+   "포르투갈 1부 2021-22 4위"
+  ],
+  "FC Vizela|2021-22": [
+   "model",
+   1507,
+   "포르투갈 1부 2021-22 14위"
+  ],
+  "SL Benfica|2021-22": [
+   "table",
+   1730,
+   "포르투갈 1부 2021-22 3위"
+  ],
+  "GD Estoril Praia|2021-22": [
+   "model",
+   1576,
+   "포르투갈 1부 2021-22 9위"
+  ],
+  "FC Famalicão|2021-22": [
+   "model",
+   1600,
+   "포르투갈 1부 2021-22 8위"
+  ],
+  "Cardiff City|2021-22": [
+   "fixed",
+   1572,
+   "챔피언십 2021-22 18위"
+  ],
+  "Norwich City|2021-22": [
+   "table",
+   1708,
+   "프리미어리그 2021-22 20위"
+  ],
+  "Brighton & Hove Albion|2021-22": [
+   "table",
+   1843,
+   "프리미어리그 2021-22 9위"
+  ],
+  "Manchester United|2021-22": [
+   "table",
+   1893,
+   "프리미어리그 2021-22 6위"
+  ],
+  "Everton FC|2021-22": [
+   "table",
+   1766,
+   "프리미어리그 2021-22 16위"
+  ],
+  "Villarreal CF|2021-22": [
+   "table",
+   1799,
+   "라리가 2021-22 7위"
+  ],
+  "Tottenham Hotspur|2021-22": [
+   "table",
+   1922,
+   "프리미어리그 2021-22 4위"
+  ],
+  "Aston Villa|2021-22": [
+   "table",
+   1792,
+   "프리미어리그 2021-22 14위"
+  ],
+  "Crystal Palace|2022-23": [
+   "table",
+   1788,
+   "프리미어리그 2022-23 11위"
+  ],
+  "AFC Bournemouth|2022-23": [
+   "table",
+   1755,
+   "프리미어리그 2022-23 15위"
+  ],
+  "SSC Napoli|2022-23": [
+   "table",
+   1969,
+   "세리에A 2022-23 1위"
+  ],
+  "Brighton & Hove Albion|2022-23": [
+   "table",
+   1866,
+   "프리미어리그 2022-23 6위"
+  ],
+  "Arsenal FC|2022-23": [
+   "table",
+   1976,
+   "프리미어리그 2022-23 2위"
+  ],
+  "Tottenham Hotspur|2022-23": [
+   "table",
+   1834,
+   "프리미어리그 2022-23 8위"
+  ],
+  "Chelsea FC|2023-24": [
+   "table",
+   1889,
+   "프리미어리그 2023-24 6위"
+  ],
+  "AFC Bournemouth|2023-24": [
+   "table",
+   1802,
+   "프리미어리그 2023-24 12위"
+  ],
+  "LASK|2023-24": [
+   "table",
+   1539,
+   "오스트리아 분데스리가 2023-24 3위"
+  ],
+  "Luton Town|2023-24": [
+   "table",
+   1731,
+   "프리미어리그 2023-24 18위"
+  ],
+  "Burnley FC|2023-24": [
+   "table",
+   1723,
+   "프리미어리그 2023-24 19위"
+  ],
+  "Arsenal FC|2023-24": [
+   "table",
+   1998,
+   "프리미어리그 2023-24 2위"
+  ],
+  "Fulham FC|2023-24": [
+   "table",
+   1792,
+   "프리미어리그 2023-24 13위"
+  ],
+  "Brentford FC|2023-24": [
+   "table",
+   1762,
+   "프리미어리그 2023-24 16위"
+  ],
+  "AC Sparta Praha|2023-24": [
+   "table",
+   1600,
+   "체코 1위 (추정, 홀란드 자료와 같음)"
+  ],
+  "Brighton & Hove Albion|2023-24": [
+   "table",
+   1811,
+   "프리미어리그 2023-24 11위"
+  ],
+  "Sheffield United|2023-24": [
+   "table",
+   1703,
+   "프리미어리그 2023-24 20위"
+  ],
+  "Manchester United|2023-24": [
+   "table",
+   1857,
+   "프리미어리그 2023-24 8위"
+  ],
+  "West Ham United|2023-24": [
+   "table",
+   1839,
+   "프리미어리그 2023-24 9위"
+  ],
+  "Brentford FC|2024-25": [
+   "table",
+   1819,
+   "프리미어리그 2024-25 10위"
+  ],
+  "Manchester United|2024-25": [
+   "table",
+   1774,
+   "프리미어리그 2024-25 15위"
+  ],
+  "AFC Bournemouth|2024-25": [
+   "table",
+   1835,
+   "프리미어리그 2024-25 9위"
+  ],
+  "Arsenal FC|2024-25": [
+   "table",
+   1995,
+   "프리미어리그 2024-25 2위"
+  ],
+  "Brighton & Hove Albion|2024-25": [
+   "table",
+   1853,
+   "프리미어리그 2024-25 8위"
+  ],
+  "Bayer 04 Leverkusen|2024-25": [
+   "table",
+   1919,
+   "분데스리가 2024-25 2위"
+  ],
+  "Tottenham Hotspur|2024-25": [
+   "table",
+   1740,
+   "프리미어리그 2024-25 17위"
+  ],
+  "West Ham United|2024-25": [
+   "table",
+   1784,
+   "프리미어리그 2024-25 14위"
+  ],
+  "Wolverhampton Wanderers|2024-25": [
+   "table",
+   1758,
+   "프리미어리그 2024-25 16위"
+  ],
+  "Newcastle United|2024-25": [
+   "table",
+   1897,
+   "프리미어리그 2024-25 5위"
+  ],
+  "Southampton FC|2024-25": [
+   "table",
+   1700,
+   "프리미어리그 2024-25 20위"
+  ],
+  "Everton FC|2024-25": [
+   "table",
+   1789,
+   "프리미어리그 2024-25 13위"
+  ],
+  "Fulham FC|2024-25": [
+   "table",
+   1807,
+   "프리미어리그 2024-25 11위"
+  ],
+  "VfB Stuttgart|2025-26": [
+   "table",
+   1828,
+   "분데스리가 2025-26 4위"
+  ],
+  "RB Leipzig|2025-26": [
+   "table",
+   1860,
+   "분데스리가 2025-26 3위"
+  ],
+  "FC Augsburg|2025-26": [
+   "table",
+   1737,
+   "분데스리가 2025-26 9위"
+  ],
+  "Hamburger SV|2025-26": [
+   "table",
+   1697,
+   "분데스리가 2025-26 13위"
+  ],
+  "SV Werder Bremen|2025-26": [
+   "table",
+   1661,
+   "분데스리가 2025-26 15위"
+  ],
+  "Eintracht Frankfurt|2025-26": [
+   "table",
+   1756,
+   "분데스리가 2025-26 8위"
+  ],
+  "Club Brugge KV|2025-26": [
+   "table",
+   1834,
+   "벨기에 (ClubElo 2026-10)"
+  ],
+  "1.FC Köln|2025-26": [
+   "table",
+   1682,
+   "분데스리가 2025-26 14위"
+  ],
+  "Paris Saint-Germain|2025-26": [
+   "table",
+   1955,
+   "리그1 2025-26 1위"
+  ],
+  "1.FC Union Berlin|2025-26": [
+   "table",
+   1713,
+   "분데스리가 2025-26 11위"
+  ],
+  "FC St. Pauli|2025-26": [
+   "table",
+   1613,
+   "분데스리가 2025-26 18위"
+  ],
+  "1.FC Heidenheim 1846|2025-26": [
+   "table",
+   1634,
+   "분데스리가 2025-26 17위"
+  ],
+  "VfL Wolfsburg|2025-26": [
+   "table",
+   1644,
+   "분데스리가 2025-26 16위"
+  ],
+  "PSV Eindhoven|2025-26": [
+   "table",
+   1837,
+   "에레디비시 2025-26 1위"
+  ],
+  "TSG 1899 Hoffenheim|2025-26": [
+   "table",
+   1812,
+   "분데스리가 2025-26 5위"
+  ],
+  "Borussia Mönchengladbach|2025-26": [
+   "table",
+   1702,
+   "분데스리가 2025-26 12위"
+  ],
+  "Atalanta BC|2025-26": [
+   "table",
+   1774,
+   "세리에A 2025-26 7위"
+  ],
+  "Bayer 04 Leverkusen|2025-26": [
+   "table",
+   1797,
+   "분데스리가 2025-26 6위"
+  ],
+  "Real Madrid|2025-26": [
+   "table",
+   1931,
+   "라리가 2025-26 2위"
+  ],
+  "VfB Stuttgart|2026-27": [
+   "table",
+   1767,
+   "분데스리가 2026-27 (11월 중순 현재) 8위 (추정, 다른 선수 자료 6위 1797·9위 1737의 중간)"
+  ],
+  "Viking FK|2026-27": [
+   "fixed",
+   1550,
+   "노르웨이 (추정)"
+  ],
+  "RB Leipzig|2026-27": [
+   "table",
+   1797,
+   "분데스리가 2026-27 6위"
+  ]
+ }
+}
