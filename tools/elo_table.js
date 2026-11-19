@@ -118,7 +118,13 @@ const sharesRare = (a, b) => { const B = toks(b); return toks(a).some(t => t.len
 // ---------- 3) 시즌 ----------
 // 괄호 안(출처 설명: 'ClubElo 2026-10', '다른 선수 자료의 2021·2022 값')은 보지 않는다.
 // 'YYYY-YY'는 뒤 연도가 앞 연도+1일 때만 시즌으로 본다(2026-10 같은 연-월 제외).
+// v1.226: 한 해에 단계(아페르투라·클라우수라 등)가 둘 이상인 리그는 경기 날짜의 단계 순위를 쓰므로 단계를 시즌 키에 붙인다
+const STAGE = /(Apertura|Clausura|Inicial|Torneo Final|Torneo I{1,2}\b|Copa de la Liga|아페르투라|클라우수라)/;
 function lvSeason(lv) {
+  const s = lvSeason0(lv), g = lv.match(STAGE);
+  return s && g ? s + '/' + g[1].replace('아페르투라', 'Apertura').replace('클라우수라', 'Clausura') : s;
+}
+function lvSeason0(lv) {
   let t = lv; for (let i = 0; i < 3; i++) t = t.replace(/\([^()]*\)/g, ' ');
   for (const m of t.matchAll(/((?:19|20)\d\d)\s*[-–/]\s*(\d{2}|\d{4})(?!\d)/g)) {
     const y = +m[1], z = +m[2];
