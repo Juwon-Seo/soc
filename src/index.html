@@ -391,7 +391,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.235</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.236</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -422,6 +422,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
         <li><b>포지션</b> 주 포지션 기준(공격수·윙어·미드필더) · 이름 위에 마우스를 올리면 세부 포지션 · 센터포워드·세컨드 스트라이커 = 공격수, 좌우 윙어 = 윙어, 공격형 미드필더 = 미드필더 (국가대표판과 같은 분류)</li>
         <li><b>*</b> 은퇴한 선수(클럽 통산 확정) · 나머지 선수는 2026년 11월 9일까지</li>
         <li><b>챔스 비중</b> 전체 SOC 중 챔피언스리그 몫 · <b>최고 시즌</b> 시즌 SOC가 가장 높은 시즌</li>
+        <li><b>SOC-CAR</b> 커리어 점수(Career, 소리가 사커와 비슷) = 누적 SOC × 0.5 + 최고 5시즌 SOC 합 × 0.25 + 최고 3시즌 SOC 합 × 0.25 · 야구의 JAWS(통산 WAR과 전성기 WAR의 평균)처럼 오래 꾸준한 선수와 짧고 굵은 전성기를 한 잣대로 · 최고 시즌은 아래 3·5-peak와 같은 목록(최소 출전 시간 이상 시즌) · <b>*</b> 기준을 넘는 시즌이 5개보다 적어 있는 시즌만 더한 값 · 기간은 통산, 위의 '대회' 선택은 적용</li>
         <li><b>3-peak·5-peak 평균</b> 그 시즌 출전이 최소 출전 시간(기본 900분, 계수 조정에서 바꿀 수 있음) 이상인 시즌만 골라 시즌 SOC가 높은 순으로 3개·5개를 평균 (야구 WAR의 전성기 지표처럼, 연속 시즌이 아니어도 됨) · 숫자에 마우스를 올리거나 누르면 들어간 시즌 · <b>*</b> 기준을 넘는 시즌이 3개·5개보다 적어 있는 시즌만 평균한 값(0으로 채우지 않음, 몇 시즌인지는 숫자에 마우스를 올리면 보임) · 한 시즌에 두 클럽에서 뛰었으면 합쳐서 셈 · 연도 시즌(MLS·브라질 등)과 유럽식 시즌이 겹치는 해는 서로 다른 시즌으로 셈 · 위의 '대회' 선택이 적용되며(리그만 고르면 출전 시간도 리그만), 기간은 통산 · '모든 대회'·'리그만' 이외의 대회를 고르면 시즌별 출전이 적으므로 최소 출전 시간을 90분으로 낮춰 적용</li>
       </ul>
     </div>
@@ -539,6 +540,8 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
           <dt>기준 SOC (모든 포인트가 평균일 때)</dt><dd id="base90">–</dd>
           <dt>상황 가치 차이 (SOC − 기준)</dt><dd id="diff90">–</dd>
           <dt>가치 배율 (SOC ÷ 기준)</dt><dd id="ratio">–</dd>
+          <hr>
+          <dt>SOC-CAR (커리어 점수 · 통산)</dt><dd id="sCar">–</dd>
           <hr>
           <dt>출전 경기</dt><dd id="sMatches">0</dd>
           <dt>출전 시간</dt><dd id="sMins">0분</dd>
@@ -902,6 +905,11 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 const PEAK_MIN=900;
 // 최고 N시즌: 출전 PEAK_MIN분 이상 시즌을 시즌 SOC 높은 순으로 [시즌, SOC, 분] (대회 필터 적용, 기간은 통산, 한 시즌 두 클럽은 합침)
 function peakMin(c){const v=c&&+c.minMin;const b=isFinite(v)&&v>=0?v:PEAK_MIN;const f=st.compF||"all";return f==="all"||f==="lg"?b:Math.min(b,90)}
+/* SOC-CAR(커리어 점수, v1.236): 누적 SOC × 0.5 + 최고 5시즌 SOC 합 × 0.25 + 최고 3시즌 SOC 합 × 0.25 (야구 JAWS처럼 통산과 전성기를 함께, 시즌은 3·5-peak와 같은 목록) */
+function socCar(soc,PQ){const sm=k=>PQ.slice(0,k).reduce((a,x)=>a+x[1],0),s5=sm(5),s3=sm(3);return {v:.5*soc+.25*s5+.25*s3,soc,s5,s3,k:Math.min(5,PQ.length),ss:PQ.slice(0,5)}}
+function carHtml(o){if(!o)return "–";const tip="SOC-CAR(커리어 점수) = 누적 SOC × 0.5 + 최고 5시즌 합 × 0.25 + 최고 3시즌 합 × 0.25\n= "+f2(o.soc)+" × 0.5 + "+f2(o.s5)+" × 0.25 + "+f2(o.s3)+" × 0.25"+
+  "\n최고 시즌(출전 "+peakMin(st.coef)+"분 이상"+(o.k<5?", 기준을 넘는 시즌이 "+o.k+"개뿐":"")+")\n"+(o.ss.length?o.ss.map((x,i)=>(i+1)+". "+x[0]+"  "+f2(x[1])+" · "+x[2].toLocaleString("ko-KR")+"분").join("\n"):"없음");
+  return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${f2(o.v)}${o.k<5?'<span class="pkst">*</span>':""}</span>`}
 function peakSeasons(p,c){const Y={},YM={};p.matches.filter(m=>inC(m.comp)).forEach(m=>{const s=seasonOf(m.date,pClub(p,m.date));YM[s]=(YM[s]||0)+(+m.min||0)});p.entries.filter(e=>inC(e.comp)).forEach(e=>{const s=seasonOf(e.date,pClub(p,e.date));Y[s]=(Y[s]||0)+value(e,c).v});return Object.keys(YM).filter(s=>YM[s]>=peakMin(c)).map(s=>[s,Y[s]||0,YM[s]]).sort((x,y)=>y[1]-x[1])}
 const RETIRED=new Set(["benarfa","henry","drogba","robben","aguero","ribery","ibrahimovic","hazard","iniesta","immobile","rooney","bale","torres","vanpersie","fabregas","kaka","higuain","villa","payet","lampard","ronaldinho","silva","klose","etoo","gerrard","totti","delpiero","ballack","mertens","vannistelrooy","raul","ronaldonazario","zidane","ozil","shevchenko","pastore","callejon","figo","giggs","nedved","seedorf","sneijder","inzaghi","pizarro","malouda","juninho","gomez","camoranesi","giuly","beckham","forlan","rivaldo","gourcuff","vieri","pauleta","podolski","blaszczykowski","shearer","ruicosta","pedro","cazorla","pires","menez","ljungberg","riquelme","turan","makaay","zeroberto","altintop","gervinho","gignac","elber","diego","vandervaart","hamsik","candreva","reyes","joaquin","gomis","walcott","valencia","duff","bellarabi","schneider","govou","bastos","ashleyyoung","dinatale","kiessling","lennon","wrightphillips","navas","cassano","valeron","ailton","scholl","rothen","vicente","marin","micoud","niang","capel","simonepepe","marvinmartin","owen","trezeguet","crespo","berbatov","tevez","milito","batistuta","kluivert","lucatoni","adriano","robinho","parkjisung","diegocosta","mandzukic","baggio","overmars","anelka","gilardino","simao","saviola"]);
 const DEF={scap:2.83,minMin:900,ast:0.6,pk:0.8,lam:1.35,end:94,ref:1500,k:0.0015,min:0.3,max:2.6,lg:25,dc:10,dk:20,clq:25,clg:30,cl16:45,clk:45,elq:20,elg:25,elk:30,ecq:15,ecg:20,eck:25,mlp:30,ccc:25,ccck:30,lcg:15,lck:20,cwc:35,acl:25,aclk:30,ac2:15,ac2k:20,arab:15,arabk:20,lib:25,libk:30,csa:15,csak:20,sf:1.15,f:1.5,gamma:1};
@@ -1326,7 +1334,7 @@ function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
   $("ap90").textContent=mins>0?f2(nAP/mins*90):"–";
   $("base90").textContent=base>0||tot>0?f2(base):"–";
   $("diff90").innerHTML=base>0||tot>0?dv(tot-base):"–";
-  $("ratio").textContent=base>0?f2(tot/base)+"배":"–";
+  $("ratio").textContent=base>0?f2(tot/base)+"배":"–";$("sCar").innerHTML=carHtml(pStats(pl,c).car);
   if($("sAvgS")){const eS=list.reduce((s,x)=>s+x.r.S,0),eO=list.reduce((s,x)=>s+(+x.e.elo||0),0);$("sAvgS").textContent=list.length?f2(eS/list.length):"–";$("sAvgO").textContent=list.length?Math.round(eO/list.length):"–"}
   const pw=$("perWarn");
   if(mins===0){pw.hidden=false;pw.textContent="출전 경기를 넣으면 SOC/90이 계산됩니다."}
@@ -1461,14 +1469,14 @@ let saved=null;try{saved=localStorage.getItem("clubsoc-ctab")}catch(_){}const st
 
 /* ---- 선수 비교: 표 · 누적 SOC 그래프 ---- */
 const MAXSEL=7;
-const CMPCOLS=[["name","선수"],["pos","포지션"],["clubs","클럽"],["soc","누적<br>SOC"],["n","경기"],["min","출전<br>(분)"],["g","골"],["a","도움"],["p90","SOC<br>/90"],["pm","경기당<br>SOC"],["pap","SOC/<br>공격P"],["ge1","SOC<br>≥1"],["ratio","가치<br>배율"],["ep","기대<br>승점"],["avgS","평균<br>S"],["avgO","평균<br>상대"],["ucl","챔스<br>비중"],["best","최고<br>시즌"],["pk3","3-peak<br>평균"],["pk5","5-peak<br>평균"]];
+const CMPCOLS=[["name","선수"],["pos","포지션"],["clubs","클럽"],["soc","누적<br>SOC"],["car","SOC-<br>CAR"],["n","경기"],["min","출전<br>(분)"],["g","골"],["a","도움"],["p90","SOC<br>/90"],["pm","경기당<br>SOC"],["pap","SOC/<br>공격P"],["ge1","SOC<br>≥1"],["ratio","가치<br>배율"],["ep","기대<br>승점"],["avgS","평균<br>S"],["avgO","평균<br>상대"],["ucl","챔스<br>비중"],["best","최고<br>시즌"],["pk3","3-peak<br>평균"],["pk5","5-peak<br>평균"]];
 function pStats(p,c){
   const L=p.entries.filter(e=>inC(e.comp)).map(e=>({e,r:value(e,c)})).sort((x,y)=>(x.e.date||"")<(y.e.date||"")?-1:1);
   const M=p.matches.filter(m=>inC(m.comp)).sort((x,y)=>(x.date||"")<(y.date||"")?-1:1);
   let soc=0,ep=0,base=0,g=0,a=0,sS=0,eS=0,eW=0,ucl=0,ge1=0;const Y={};
   L.forEach(({e,r})=>{soc+=r.v;if(r.v>=1)ge1++;ep+=r.raw;sS+=r.S;base+=e.type==="goal"?1:c.ast;if(e.type==="goal")g++;else a++;if(+e.elo>0){eS+=+e.elo;eW++}if(/^cl/.test(e.comp))ucl+=r.v;const s=seasonOf(e.date,pClub(p,e.date));Y[s]=(Y[s]||0)+r.v});
   const min=M.reduce((s,m)=>s+(+m.min||0),0),n=M.length,ap=g+a;
-  const PQ=peakSeasons(p,c);const pkOf=k=>{const t=PQ.slice(0,k);return t.length?{v:t.reduce((a,x)=>a+x[1],0)/t.length,k:t.length,ss:t}:null};const pk3=pkOf(3),pk5=pkOf(5);
+  const PQ=peakSeasons(p,c);const pkOf=k=>{const t=PQ.slice(0,k);return t.length?{v:t.reduce((a,x)=>a+x[1],0)/t.length,k:t.length,ss:t}:null};const pk3=pkOf(3),pk5=pkOf(5);const car=socCar(soc,PQ);
   let best=null;for(const [s,v] of Object.entries(Y))if(!best||v>best[1])best=[s,v];
   const cl=[...new Set([...M.map(m=>pClub(p,m.date)),...L.map(x=>pClub(p,x.e.date))].filter(Boolean))];
   const cs={};cl.forEach(k=>cs[k]=0);L.forEach(({e,r})=>{const k=pClub(p,e.date);if(k)cs[k]=(cs[k]||0)+r.v});
@@ -1476,7 +1484,7 @@ function pStats(p,c){
   const clubs=order.map(k=>CLN[k]||k).join(" · ");
   const clubTop=order.length?(CLN[order[0]]||order[0]):"";const clubMore=Math.max(0,order.length-1);
   const clubTip=order.map(k=>(CLN[k]||k)+"  "+f2(cs[k])+(soc>0?" ("+Math.round(cs[k]/soc*100)+"%)":"")).join("\n");
-  return {p,L,M,soc,ep,g,a,n,min,clubs,clubTop,clubMore,clubTip,p90:min?soc/min*90:null,pm:n?soc/n:null,pap:ap?soc/ap:null,ge1:ap?ge1/ap:null,ge1n:ge1,ap,ratio:base?soc/base:null,avgS:ap?sS/ap:null,avgO:eW?eS/eW:null,ucl:soc?ucl/soc:null,best,pk3,pk5,PQ}}
+  return {p,L,M,soc,ep,g,a,n,min,clubs,clubTop,clubMore,clubTip,p90:min?soc/min*90:null,pm:n?soc/n:null,pap:ap?soc/ap:null,ge1:ap?ge1/ap:null,ge1n:ge1,ap,ratio:base?soc/base:null,avgS:ap?sS/ap:null,avgO:eW?eS/eW:null,ucl:soc?ucl/soc:null,best,pk3,pk5,car,PQ}}
 const POS_OF={son:"LW",yamal:"RW",sterling:"LW",mbappe:"CF",kane:"CF",ronaldo:"LW",messi:"RW",haaland:"CF",mane:"LW",hazard:"LW",drogba:"CF",vinicius:"LW",debruyne:"AM",salah:"RW",aguero:"CF",lewandowski:"CF",benzema:"CF",griezmann:"CF",henry:"CF",lautaro:"CF",neymar:"LW",suarez:"CF",saka:"RW",bellingham:"AM",ribery:"LW",robben:"RW",ibrahimovic:"CF",raphinha:"RW",iniesta:"CM",immobile:"CF",muller:"SS",dimaria:"RW",aubameyang:"CF",dybala:"SS",rooney:"CF",cavani:"CF",bale:"RW",kvaratskhelia:"LW",silva:"AM",torres:"CF",vanpersie:"CF",reus:"LW",lacazette:"CF",fabregas:"CM",bernardosilva:"RW",ronaldinho:"AM",kaka:"AM",higuain:"CF",villa:"CF",payet:"AM",musiala:"AM",mahrez:"RW",cuadrado:"RW",lampard:"CM",isco:"AM",klose:"CF",insigne:"LW",barcola:"LW",falcao:"CF",etoo:"CF",gerrard:"CM",totti:"SS",delpiero:"SS",ballack:"CM",sane:"LW",gnabry:"RW",dembele:"RW",mertens:"SS",vannistelrooy:"CF",lucasmoura:"RW",raul:"SS",ronaldonazario:"CF",zidane:"AM",ozil:"AM",foden:"AM",gotze:"AM",coman:"LW",shevchenko:"CF",pastore:"AM",callejon:"RW",figo:"RW",giggs:"LW",nedved:"LW",seedorf:"AM",sneijder:"AM",inzaghi:"CF",pizarro:"CF",sancho:"RW",malouda:"LW",juninho:"AM",gomez:"CF",camoranesi:"RW",giuly:"RW",valbuena:"RW",benarfa:"RW",beckham:"RW",forlan:"CF",rivaldo:"AM",brunofernandes:"AM",wirtz:"AM",gourcuff:"AM",vieri:"CF",pauleta:"CF",pulisic:"RW",kagawa:"AM",podolski:"LW",blaszczykowski:"RW",shearer:"CF",ruicosta:"AM",eriksen:"AM",perisic:"LW",dzeko:"CF",pedro:"RW",cazorla:"AM",pires:"LW",vardy:"CF",menez:"RW",fekir:"AM",pepe:"RW",werner:"CF",ljungberg:"RW",riquelme:"AM",turan:"LW",leao:"LW",chiesa:"RW",makaay:"CF",zeroberto:"LW",altintop:"RW",gervinho:"LW",gignac:"CF",elber:"CF",diego:"AM",vandervaart:"AM",hamsik:"AM",candreva:"RW",ilicic:"RW",reyes:"LW",joaquin:"RW",gomis:"CF",walcott:"RW",valencia:"RW",duff:"LW",bellarabi:"RW",schneider:"RW",papugomez:"LW",govou:"RW",bastos:"LW",benyedder:"CF",cabella:"AM",aouar:"AM",odegaard:"AM",rashford:"LW",rodrygo:"RW",oyarzabal:"LW",calhanoglu:"AM",lookman:"LW",diaby:"RW",draxler:"LW",greenwood:"RW",jdavid:"CF",martinelli:"LW",ashleyyoung:"LW",aspas:"CF",nicowilliams:"LW",dinatale:"CF",berardi:"RW",kiessling:"CF",kostic:"LW",gouiri:"LW",doue:"RW",lennon:"RW",wrightphillips:"RW",carrasco:"LW",navas:"RW",luisalberto:"AM",cassano:"SS",hofmann:"RW",thazard:"LW",terrier:"LW",thauvin:"RW",pedri:"CM",valeron:"AM",politano:"RW",elshaarawy:"LW",ailton:"CF",bailey:"RW",scholl:"AM",savanier:"AM",ikone:"RW",rothen:"LW",vicente:"LW",bernardeschi:"RW",marin:"LW",micoud:"AM",niang:"CF",capel:"LW",simonepepe:"RW",bamba:"LW",marvinmartin:"AM",belhanda:"AM",owen:"CF",trezeguet:"CF",crespo:"CF",berbatov:"CF",nani:"RW",tevez:"CF",milito:"CF",alexis:"SS",lukaku:"CF",luisdiaz:"LW",batistuta:"CF",kluivert:"CF",lucatoni:"CF",adriano:"CF",robinho:"LW",parkjisung:"AM",diegocosta:"CF",mandzukic:"CF",osimhen:"CF",julianalvarez:"CF",baggio:"SS",overmars:"LW",anelka:"CF",gilardino:"CF",simao:"LW",saviola:"SS",giroud:"CF",chicharito:"CF",isak:"CF",olise:"RW"},POSG={CF:"FW",SS:"FW",LW:"WG",RW:"WG",LM:"WG",RM:"WG",AM:"MF",CM:"MF",DM:"MF"},POSL={FW:"공격수",WG:"윙어",MF:"미드필더"},POSN={CF:"센터포워드",SS:"세컨드 스트라이커",LW:"왼쪽 윙어",RW:"오른쪽 윙어",LM:"왼쪽 미드필더",RM:"오른쪽 미드필더",AM:"공격형 미드필더",CM:"중앙 미드필더",DM:"수비형 미드필더"};
 const posGrp=p=>{const x=p&&p.preset?POS_OF[p.preset]:null;return x?POSL[POSG[x]]:""};
 const FLAG_NAME={"CL": "칠레", "BG": "불가리아", "KR": "대한민국", "RS": "세르비아", "NG": "나이지리아", "JM": "자메이카", "MA": "모로코", "CA": "캐나다", "ES": "스페인", "ENG": "잉글랜드", "FR": "프랑스", "PT": "포르투갈", "AR": "아르헨티나", "NO": "노르웨이", "SN": "세네갈", "BE": "벨기에", "CI": "코트디부아르", "CM": "카메룬", "UA": "우크라이나", "CZ": "체코", "PE": "페루", "JP": "일본", "US": "미국", "DK": "덴마크", "IE": "아일랜드", "EC": "에콰도르", "SK": "슬로바키아", "SI": "슬로베니아", "TR": "튀르키예", "HR": "크로아티아", "BA": "보스니아 헤르체고비나", "BR": "브라질", "EG": "이집트", "PL": "폴란드", "UY": "우루과이", "NL": "네덜란드", "SE": "스웨덴", "IT": "이탈리아", "DE": "독일", "GA": "가봉", "WLS": "웨일스", "GE": "조지아", "DZ": "알제리", "CO": "콜롬비아"};
@@ -1539,9 +1547,10 @@ function cmpCell(k,s){const n=x=>x==null?"–":f2(x);
   case "ge1":{if(s.ge1==null)return "–";const tip=`SOC 1 이상인 공격포인트: 전체 ${s.ap}개 중 ${s.ge1n}개 (${(s.ge1*100).toFixed(1)}%)`;return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${Math.round(s.ge1*100)}%</span>`}
   case "ratio":return s.ratio==null?"–":f2(s.ratio)+"배";case "ep":return fEpS(s.ep);case "avgO":return s.avgO==null?"–":Math.round(s.avgO);
   case "ucl":return s.ucl==null?"–":Math.round(s.ucl*100)+"%";case "best":return s.best?`${f2(s.best[1])} <span class="sub">${esc(String(s.best[0]).replace(/^\d{2}(\d{2})-(\d{2})$/,"$1-$2"))}</span>`:"–";
+  case "car":return carHtml(s.car);
   case "pk3":case "pk5":{const o=s[k],N=k==="pk3"?3:5;if(!o)return "–";const tip=N+"-peak 평균: 출전 "+peakMin(st.coef)+"분 이상 시즌 중 SOC 상위 "+N+"개"+(o.k<N?" (기준을 넘는 시즌이 "+o.k+"개뿐이라 "+o.k+"시즌 평균)":"")+"\n"+o.ss.map((x,i)=>(i+1)+". "+x[0]+"  "+f2(x[1])+" · "+x[2].toLocaleString("ko-KR")+"분").join("\n");return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${f2(o.v)}${o.k<N?'<span class="pkst">*</span>':""}</span>`}
   default:return n(s[k])}}
-function cmpVal(k,s){if(k==="name")return s.p.name;if(k==="clubs")return s.clubs;if(k==="pos")return posGrp(s.p);if(k==="best")return s.best?s.best[1]:-1;if(k==="pk3"||k==="pk5")return s[k]?s[k].v:-1;const v=s[k];return v==null?-1e9:v}
+function cmpVal(k,s){if(k==="name")return s.p.name;if(k==="clubs")return s.clubs;if(k==="pos")return posGrp(s.p);if(k==="best")return s.best?s.best[1]:-1;if(k==="pk3"||k==="pk5")return s[k]?s[k].v:-1;if(k==="car")return s.car?s.car.v:-1;const v=s[k];return v==null?-1e9:v}
 // 비교 표: 기본 10명 높이, 표 안을 끝까지 스크롤한 뒤에 페이지가 움직임(overscroll 기본 동작)
 const CMP_ROWS=10;
 function cmpCap(){const box=$("cmpBox");if(!box)return;const t=$("compareTbl"),rows=t.tBodies[0]?t.tBodies[0].rows:[];if(!box.offsetParent)return;if(rows.length<=CMP_ROWS){box.style.maxHeight="";return}const r=rows[CMP_ROWS-1];const sb=box.offsetHeight-box.clientHeight;box.style.maxHeight=Math.ceil(r.offsetTop+r.offsetHeight+sb+1)+"px"}
@@ -1716,13 +1725,13 @@ addEventListener("resize",()=>{if(st.cmpView==="chart")renderChart()});
   let cur=null,shownAt=0;
   const show=el=>{if(cur!==el)shownAt=Date.now();cur=el;tip.textContent=el.dataset.tip;tip.classList.add("on");const r=el.getBoundingClientRect();const w=tip.offsetWidth,h=tip.offsetHeight;let x=r.left,y=r.bottom+6;if(x+w>innerWidth-8)x=innerWidth-8-w;if(y+h>innerHeight-8)y=r.top-h-6;tip.style.left=Math.max(8,x)+"px";tip.style.top=y+"px"};
   const hide=()=>{cur=null;tip.classList.remove("on")};
-  const box=document.getElementById("compareTbl");
+  for(const box of [document.getElementById("compareTbl"),document.querySelector("section.board")].filter(Boolean)){
   box.addEventListener("mouseover",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el)show(el)});
   let lastTouch=0;box.addEventListener("touchstart",()=>{lastTouch=Date.now()},{passive:true});
   box.addEventListener("mouseout",ev=>{if(Date.now()-lastTouch<1000)return;const el=ev.target.closest(".clubtip,.flag");if(el&&!el.contains(ev.relatedTarget))hide()});
   box.addEventListener("focusin",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el)show(el)});
   box.addEventListener("focusout",()=>{if(Date.now()-lastTouch>=1000)hide()});
-  box.addEventListener("click",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el){ev.stopPropagation();if(cur===el&&Date.now()-shownAt>400)hide();else show(el)}});
+  box.addEventListener("click",ev=>{const el=ev.target.closest(".clubtip,.flag");if(el){ev.stopPropagation();if(cur===el&&Date.now()-shownAt>400)hide();else show(el)}})}
   document.addEventListener("click",ev=>{if(cur&&!ev.target.closest(".clubtip,.flag"))hide()});
   addEventListener("scroll",hide,{passive:true});
 })();
