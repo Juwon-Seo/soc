@@ -364,7 +364,10 @@ def wiki_rank(lg, s, tm_name):
     hit = [v for x, v in sc if x == top]
     if len(hit) != 1: sys.exit(f"위키 순위표 이름 맞추기 실패 {lg} {s} {tm_name} {hit}")
     return hit[0]
-RANK_FIX = {}
+RANK_FIX = {   # TM 순위표가 1단계 순위인 리그: 최종 순위(스플릿·플레이오프 뒤, 위키백과 시즌 문서)
+    (key("FK Partizan Belgrade"), "2018-19"): (3, 16, "세르비아 수페르리가 2018-19: 챔피언십 라운드 3위 = 최종 3위/16팀(위키백과 2018–19 Serbian SuperLiga)"),
+    (key("Maccabi Tel Aviv"), "2011-12"): (6, 16, "이스라엘 2011-12: 정규 7위 → 상위 플레이오프 6위 = 최종 6위/16팀(위키백과 2011–12 Israeli Premier League)"),
+}
 
 BIGL = {"PO1": "포르투갈 1부", "ES1": "라리가", "GB1": "프리미어리그", "IT1": "세리에A", "FR1": "리그1", "L1": "분데스리가", "NL1": "에레디비시"}
 OTHL = {"BE1": ("벨기에", "Belgian First Division A"), "DK1": ("덴마크", "Danish Superliga"), "GR1": ("그리스", "Super League Greece"),
@@ -554,6 +557,15 @@ def c3(v): return f"{v[0]}·{v[1]}·{v[2]}"
 EXJ = [j for j in judg if j[0] == "도움 제외"]
 TM_A = sum(1 for gid in EVS if gid in G for e in EVS[gid] if e["assist_id"] == ME and e["scorer_id"] != ME)
 UNTYPED = sum(1 for r in raw_rows if r[0] == "a" and not r[8])
+if "--facts" in sys.argv:
+    FM_GAMES = [gid for gid in EVS if gid in G and any(r["time"] for r in FME.get(gid, [])) and any(e["scorer_id"] == ME and not is_og(e) for e in EVS[gid])]
+    print("FM goal games", len(FM_GAMES), sum(1 for gid in FM_GAMES for e in EVS[gid] if e["scorer_id"] == ME and not is_og(e)))
+    print("ET rows", [(r[9], r[1], r[4], r[3]) for r in E if r[10]])
+    print("ET games", [(g["date_local_tm_report"], opp(g), g["competitionId"], g["round"], g["gameState"], g["playedMinutes"]) for g in GAMES if g["gameState"] != "regularly_terminated"])
+    print("TM goals no FM events", [(ldate(G[gid]), opp(G[gid])) for gid in EVS if gid in G and not any(r["time"] for r in FME.get(gid, [])) and ldate(G[gid]) >= "2010-07-01" and any(e["scorer_id"] == ME for e in EVS[gid])])
+    print("UNTYPED", UNTYPED, collections.Counter(r[8] for r in raw_rows if r[0] == "a"))
+    print("min diffs", [(ldate(G[gid]), opp(G[gid])) for gid in []])
+    sys.exit(0)
 if "--stat" in sys.argv:
     for k, v in ST.items(): print(k, v)
     print(NG, NGo, NA, NPK, MIN_TOT, len(E), NTIE, NTIEG, dict(ELO_SRC), TM_A, UNTYPED)
