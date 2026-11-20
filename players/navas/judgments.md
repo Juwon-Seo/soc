@@ -86,4 +86,4 @@ TM 업적 페이지: UEL(UEFA컵 포함) 05/06·06/07·19/20·22/23 세비야, U
 - §16 점검(중복·스코어 순서·분 범위·E 날짜가 M에 있음·같은 날 2경기·도움 득점자·본인 도움·Elo 범위) 빌드 안에서 0건.
 
 ## v1.260 추가 (2026-11-20)
-- 2009-11-10 Sevilla 5-1 Atlético Ciudad (Copa del Rey R32 2nd leg): Navas goal 51' at 0-1. TM lists him "not in squad"; en.wiki 2009–10 Sevilla FC season football box (RFEF acta link) and ESPN gameId 284888 both credit Navas 51'. Added to nav.js directly (E row + M row, 90 min estimated, Elo 1342, tie [2,1,4,2,1,1]); build_navas.py not changed, so re-running it would drop this game unless the row is added there.
+- 2009-11-10 Sevilla 5-1 Atlético Ciudad (Copa del Rey R32 2nd leg): Navas goal 51' at 0-1. TM lists him "not in squad"; en.wiki 2009–10 Sevilla FC season football box (RFEF acta link) and ESPN gameId 284888 both credit Navas 51'. Added as ADDED_M + an add_row(...) goal row in build_navas.py (90 min estimated, flag 1; tie [2,1,4,2,1,1]; Elo from the same team-season, 1342) and the NOTE lines in note_navas.py. The rebuilt output differs from the previous build only by this game.

@@ -232,6 +232,11 @@ M = []
 for g in GAMES:
     mins = MIN_FIX[g["gameId"]][0] if g["gameId"] in MIN_FIX else int(g["playedMinutes"])
     M.append([ldate(g), g["opponent"].strip(), comp_of(g["competitionId"], g["round"]), mins])
+# Transfermarkt에 없는 경기(v1.260): 2009.11.10 코파 델 레이 32강 2차전 아틀레티코 시우다드전 — TM은 명단 제외로 적었으나
+# 영어 위키백과 2009-10 세비야 시즌 경기 상자(스페인 축구협회 공식 보고서 링크)·ESPN 경기 기록(gameId 284888)이 51분 나바스 골로 적음.
+# 출전 분은 몰라 90분 추정(5번째 값 1 = 추정 표시). 골 전 스코어 0-1(46분 아틀레티코 시우다드 조수 골), 1차전 4-2 승.
+ADDED_M = [["2009-11-10", "Atlético Ciudad (- 2010)", "dc", 90, 1]]
+M.extend(ADDED_M)
 M.sort(key=lambda r: r[0])
 
 # ---------------------------------------------------------------- 골·도움
@@ -337,6 +342,7 @@ if missing_elo:
     bad = True
 if bad and "--force" not in sys.argv: sys.exit(1)
 
+add_row("g", 51, 0, 0, 1, 0, 0, [2, 1, 4, 2, 1, 1], "dc", 0, "2009-11-10", "Atlético Ciudad (- 2010)", "CDR", 0)  # 위 ADDED_M 경기의 골
 rows.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 E = rows
 
