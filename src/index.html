@@ -319,6 +319,9 @@ th.sorted .thbtn{color:var(--fg)}
 .chip:disabled,.chip[aria-disabled="true"]{opacity:.45;cursor:not-allowed}
 .chartbox{position:relative;margin-top:10px}
 #cumChart{width:100%;height:auto;display:block;overflow:visible}
+#cumScroll{overflow-x:auto;overflow-y:hidden;touch-action:pan-x pan-y}
+#cumYAxis{position:absolute;left:0;top:0;z-index:2;pointer-events:none;background:linear-gradient(90deg,var(--surface) 80%,transparent)}#cumYAxis text{fill:var(--muted);font-family:var(--mono);font-size:11px;font-variant-numeric:tabular-nums}
+#chartBox .ctip{z-index:6}
 #cumChart:focus-visible{outline:2px solid var(--pitch);outline-offset:4px}
 #cumChart .grid line{stroke:var(--line);stroke-width:1}
 #cumChart .wc line{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 4;opacity:.6}
@@ -402,7 +405,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.248</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.249</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -444,7 +447,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
       <input type="search" id="chartQ" class="chartq" placeholder="선수 이름 검색" aria-label="그래프 선수 이름 검색" autocomplete="off"><div class="chipwin" id="chipWin"><div class="chips" id="chartChips" role="group" aria-label="그래프에 표시할 선수 (최대 7명)"></div></div>
       <p class="hint"><span id="chipNote">이름을 눌러 켜고 끄기 · 켠 선수는 맨 왼쪽에 모임 · 최대 7명 · 선수가 많으면 휠이나 끌기로 좌우 이동</span> · <button type="button" class="linkbtn" id="chipClear">선택 모두 해제</button></p>
       <div class="chartbox" id="chartBox">
-        <svg id="cumChart" role="img" aria-label="선수별 누적 SOC 추이" tabindex="0"></svg>
+        <svg id="cumYAxis" aria-hidden="true" hidden></svg><div id="cumScroll"><svg id="cumChart" role="img" aria-label="선수별 누적 SOC 추이" tabindex="0"></svg></div>
         <div class="ctip" id="chartTip" hidden></div>
       </div>
       <p class="hint" id="chartCap"></p>
@@ -1618,6 +1621,20 @@ function slotOf(id){const i=st.players.findIndex(p=>p.id===id);return (i%230)+1}
 function chipFilter(){const q=$("chartQ"),box=$("chartChips"),note=$("chipNote");if(!q||!box)return;const f=s=>s.toLowerCase().replace(/\s+/g,""),k=f(q.value||"");let n=0;box.querySelectorAll(".chip").forEach(b=>{const ok=!k||f(b.dataset.n||"").includes(k);b.style.display=ok?"":"none";if(ok)n++});if(note){if(note.dataset.o===undefined)note.dataset.o=note.textContent;note.textContent=k&&!n?"검색 결과 없음":note.dataset.o}box.scrollLeft=0;chipEdges()}
 document.addEventListener("input",e=>{if(e.target&&e.target.id==="chartQ")chipFilter()});
 let CH=null;
+/* 누적 SOC 그래프 두 손가락 확대·축소: 가로 배율 1~8배(st.cumZoom), 동작 중에는 그래프를 가로로만 늘리고 손을 떼면 다시 그림 */
+function cumZoomMax(){return 8}
+document.addEventListener("click",ev=>{if(ev.target.closest&&ev.target.closest("#cumFit")){st.cumZoom=1;try{save()}catch(e){}renderChart();const s=$("cumScroll");if(s)s.scrollLeft=0}});
+(()=>{const sc=document.getElementById("cumScroll");if(!sc)return;let g=null,raf=0;const D=t=>Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY);
+  const hide=()=>{const t=document.getElementById("chartTip");if(t)t.hidden=true;const xh=document.getElementById("chartXh");if(xh)xh.setAttribute("visibility","hidden")};
+  sc.addEventListener("touchstart",e=>{if(e.touches.length!==2||!CH)return;hide();const r=sc.getBoundingClientRect(),cx=(e.touches[0].clientX+e.touches[1].clientX)/2-r.left,z0=Math.max(1,+st.cumZoom||1);
+    g={d0:D(e.touches),z0,cx,X:sc.scrollLeft+cx,base:sc.clientWidth}},{passive:true});
+  sc.addEventListener("touchmove",e=>{if(!g||e.touches.length!==2)return;e.preventDefault();g.z=Math.max(1,Math.min(cumZoomMax(),g.z0*D(e.touches)/g.d0));if(!raf)raf=requestAnimationFrame(apply)},{passive:false});
+  function apply(){raf=0;if(!g||g.z==null)return;const s=document.getElementById("cumChart");
+    if(!g.h){const r=s.getBoundingClientRect();g.h=r.height;g.w0=r.width;s.style.height=g.h+"px";s.setAttribute("preserveAspectRatio","none")}
+    const w=g.base*g.z;s.style.width=w+"px";sc.scrollLeft=Math.max(0,g.X*w/g.w0-g.cx)}
+  const end=e=>{if(g&&(!e.touches||e.touches.length<2)){if(raf){cancelAnimationFrame(raf);apply()}const s=document.getElementById("cumChart");
+    if(g.h){const w0=g.w0,z=g.z;s.style.height="";s.removeAttribute("preserveAspectRatio");st.cumZoom=z>1.05?z:1;renderChart();const w=s.getBoundingClientRect().width;sc.scrollLeft=Math.max(0,g.X*w/w0-g.cx)}
+    g=null;try{save()}catch(x){}}};sc.addEventListener("touchend",end);sc.addEventListener("touchcancel",end);sc.addEventListener("scroll",hide,{passive:true})})();
 function renderChart(S){
   S=S||st.players.map(p=>pStats(p,st.coef));const sel=chartSel(),X=st.chartX||"date";
   const box=$("chartChips");const keepL=box.scrollLeft||0;box.innerHTML="";
@@ -1627,14 +1644,15 @@ function renderChart(S){
     if(X==="games"){const byDate={};s.L.forEach(({e,r})=>{byDate[e.date]=(byDate[e.date]||0)+r.v});s.M.forEach((m,i)=>{cum+=byDate[m.date]||0;pts.push({x:i+1,y:cum,d:m.date})})}
     else{const by={};s.L.forEach(({e,r})=>{if(e.date)by[e.date]=(by[e.date]||0)+r.v});const ds=[...new Set([...s.M.map(m=>m.date),...Object.keys(by)])].filter(Boolean).sort();ds.forEach(d=>{cum+=by[d]||0;pts.push({x:dnum(d),y:cum,d})})}
     return {s,pts,slot:slotOf(s.p.id)}}).filter(o=>o.pts.length);
-  const svg=$("cumChart");const cw=Math.round(svg.getBoundingClientRect().width||900);const W=Math.max(320,Math.min(1200,cw)),H=W<600?300:400,ml=40,mr=W<600?96:120,mt=14,mb=34;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const svg=$("cumChart"),csc=$("cumScroll");const cw0=Math.round((csc&&csc.clientWidth)||svg.getBoundingClientRect().width||900),cz=Math.max(1,Math.min(cumZoomMax(),+st.cumZoom||1)),czoom=cz>1.02;
+  svg.style.width=czoom?Math.round(cw0*cz)+"px":"";const cw=czoom?Math.round(cw0*cz):cw0;const W=czoom?cw:Math.max(320,Math.min(1200,cw)),H=(czoom?cw0:W)<600?300:400,ml=40,mr=W<600?96:120,mt=14,mb=34;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
   if(!series.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle">표시할 선수를 고르세요</text>`;CH=null;$("chartCap").textContent="";return}
   const xs=series.flatMap(o=>o.pts.map(p=>p.x)),x0=X==="games"?0:Math.min(...xs),x1=Math.max(...xs),ymax=Math.max(1,...series.map(o=>o.pts[o.pts.length-1].y));
   const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const step=nice(ymax/5),ytop=Math.ceil(ymax/step)*step;
   const sx=x=>ml+(x-x0)/((x1-x0)||1)*(W-ml-mr),sy=y=>H-mb-(y/ytop)*(H-mt-mb);
   let g='<g class="grid">';for(let y=0;y<=ytop+1e-9;y+=step)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-6}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
-  let xa='<g class="yr">';if(X==="games"){const st2=nice(x1/8);for(let v=0;v<=x1;v+=st2)xa+=`<line x1="${sx(v)}" x2="${sx(v)}" y1="${H-mb}" y2="${H-mb+4}"/><text class="num" x="${sx(v)}" y="${H-mb+18}" text-anchor="middle">${v}</text>`}
-  else{const y0=new Date(x0*864e5).getUTCFullYear(),y1=new Date(x1*864e5).getUTCFullYear();const yst=Math.max(1,Math.ceil((y1-y0+1)/12));for(let y=y0+1;y<=y1;y+=yst){const xv=dnum(y+"-01-01");xa+=`<line x1="${sx(xv)}" x2="${sx(xv)}" y1="${mt}" y2="${H-mb}" opacity=".5"/><text class="num" x="${sx(xv)}" y="${H-mb+18}" text-anchor="middle">${y}</text>`}}
+  let xa='<g class="yr">';if(X==="games"){const st2=nice(x1/(8*cz));for(let v=0;v<=x1;v+=st2)xa+=`<line x1="${sx(v)}" x2="${sx(v)}" y1="${H-mb}" y2="${H-mb+4}"/><text class="num" x="${sx(v)}" y="${H-mb+18}" text-anchor="middle">${v}</text>`}
+  else{const y0=new Date(x0*864e5).getUTCFullYear(),y1=new Date(x1*864e5).getUTCFullYear();const yst=Math.max(1,Math.ceil((y1-y0+1)/(12*cz)));for(let y=y0+1;y<=y1;y+=yst){const xv=dnum(y+"-01-01");xa+=`<line x1="${sx(xv)}" x2="${sx(xv)}" y1="${mt}" y2="${H-mb}" opacity=".5"/><text class="num" x="${sx(xv)}" y="${H-mb+18}" text-anchor="middle">${y}</text>`}}
   xa+="</g>";
   let ser='<g class="series">';const labs=[];
   series.forEach(o=>{const col="var(--s"+o.slot+")";let d="";o.pts.forEach((p,i)=>{d+=(i?"L":"M")+sx(p.x).toFixed(1)+" "+sy(p.y).toFixed(1)});ser+=`<path d="${d}" stroke="${col}"/>`;const lp=o.pts[o.pts.length-1];ser+=`<circle cx="${sx(lp.x)}" cy="${sy(lp.y)}" r="3.5" fill="${col}"/>`;labs.push({y:sy(lp.y),x:sx(lp.x),t:o.s.p.name+" "+f2(lp.y),col})});ser+="</g>";
@@ -1642,17 +1660,20 @@ function renderChart(S){
   let lb='<g class="leaders">';labs.forEach(l=>{lb+=`<path d="M${l.x+5} ${l.y} H${W-mr+6}" stroke="${l.col}"/><text class="endlab" x="${W-mr+10}" y="${l.y+4}">${esc(l.t)}</text>`});lb+="</g>";
   svg.innerHTML=g+xa+ser+lb+`<line class="xh" id="chartXh" x1="0" x2="0" y1="${mt}" y2="${H-mb}" visibility="hidden"/>`;
   CH={series,sx,sy,W,H,ml,mr,mt,mb,x0,x1,X};
-  $("chartCap").textContent=(X==="games"?"가로축: 출전 경기 수 (공식 경기 순서)":"가로축: 날짜")+" · 세로축: 누적 SOC · 위의 '대회' 선택이 적용됨";
+  {/* 넓힌 그래프: 세로축 숫자만 왼쪽에 고정 */const ya=$("cumYAxis");if(ya){ya.toggleAttribute("hidden",!czoom);if(czoom){ya.setAttribute("viewBox",`0 0 ${ml} ${H}`);ya.style.width=ml+"px";ya.style.height=svg.getBoundingClientRect().height+"px";
+    let s="";for(let y=0;y<=ytop+1e-9;y+=step)s+=`<text x="${ml-6}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;ya.innerHTML=s}}}
+  $("chartCap").innerHTML=esc((X==="games"?"가로축: 출전 경기 수 (공식 경기 순서)":"가로축: 날짜")+" · 세로축: 누적 SOC · 위의 '대회' 선택이 적용됨 · 휴대폰에서 두 손가락으로 가로 간격 확대·축소")+(czoom?` <button type="button" class="linkbtn" id="cumFit">↔ 한 화면에 보기 (${cz.toFixed(1)}배)</button>`:"");
 }
 (()=>{const sv=$("cumChart"),tip=$("chartTip");if(!sv)return;
   const at=(pts,x)=>{let v=null;for(const p of pts){if(p.x<=x)v=p;else break}return v};
-  sv.addEventListener("pointermove",ev=>{if(!CH)return;const r=sv.getBoundingClientRect();const px=(ev.clientX-r.left)/r.width*CH.W;if(px<CH.ml||px>CH.W-CH.mr){tip.hidden=true;$("chartXh").setAttribute("visibility","hidden");return}
+  const mv=ev=>{if(!CH)return;const r=sv.getBoundingClientRect();const px=(ev.clientX-r.left)/r.width*CH.W;if(px<CH.ml||px>CH.W-CH.mr){tip.hidden=true;$("chartXh").setAttribute("visibility","hidden");return}
     const x=CH.x0+(px-CH.ml)/(CH.W-CH.ml-CH.mr)*(CH.x1-CH.x0);const xh=$("chartXh");xh.setAttribute("x1",px);xh.setAttribute("x2",px);xh.setAttribute("visibility","visible");
     const rows=CH.series.map(o=>({o,p:at(o.pts,x)})).filter(z=>z.p).sort((a,b)=>b.p.y-a.p.y);
     const t=CH.X==="games"?Math.round(x)+"번째 경기":new Date(x*864e5).toISOString().slice(0,7).replace("-",".");
     tip.innerHTML=`<div class="t">${t}</div>`+rows.map(z=>`<div class="r"><i style="--k:var(--s${z.o.slot})"></i><span>${esc(z.o.s.p.name)}</span><b>${f2(z.p.y)}</b></div>`).join("");
-    tip.hidden=!rows.length;const bw=$("chartBox").getBoundingClientRect();let left=ev.clientX-bw.left+14;if(left>bw.width-170)left=ev.clientX-bw.left-180;tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,ev.clientY-bw.top-20)+"px"});
-  sv.addEventListener("pointerleave",()=>{tip.hidden=true;const xh=$("chartXh");if(xh)xh.setAttribute("visibility","hidden")})})();
+    tip.hidden=!rows.length;const bw=$("chartBox").getBoundingClientRect();let left=ev.clientX-bw.left+14;if(left>bw.width-170)left=ev.clientX-bw.left-180;tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,ev.clientY-bw.top-20)+"px"};
+  sv.addEventListener("pointermove",mv);sv.addEventListener("pointerdown",mv);document.addEventListener("pointerdown",ev=>{if(!ev.target.closest||!ev.target.closest("#cumChart")){tip.hidden=true;const xh=$("chartXh");if(xh)xh.setAttribute("visibility","hidden")}});addEventListener("scroll",()=>{tip.hidden=true},{passive:true});
+  sv.addEventListener("pointerleave",ev=>{if(ev.pointerType!=="mouse")return;tip.hidden=true;const xh=$("chartXh");if(xh)xh.setAttribute("visibility","hidden")})})();
 function setView(v){st.cmpView=v;$("viewTable").setAttribute("aria-pressed",v!=="chart");$("viewChart").setAttribute("aria-pressed",v==="chart");$("cmpTableWrap").hidden=v==="chart";$("cmpChartWrap").hidden=v!=="chart";save();renderCompare()}
 $("viewTable").addEventListener("click",()=>setView("table"));$("chipClear").addEventListener("click",()=>{st.chartSel=[];save();renderChart()});$("viewChart").addEventListener("click",()=>setView("chart"));
 document.querySelectorAll('input[name="chartX"]').forEach(r=>{r.checked=r.value===(st.chartX||"date");r.addEventListener("change",()=>{st.chartX=r.value;save();renderChart()})});
