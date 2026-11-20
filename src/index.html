@@ -385,7 +385,8 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 #compareTbl thead .thbtn .lb,#compareTbl th.num .thbtn .lb{text-align:center}
 .chartq{width:100%;max-width:16rem;margin:0 0 8px}
 .finSum{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin:-4px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:.92rem}.finSum .pt{font-weight:700;font-size:1.15rem}.finSum .pt b{color:var(--win-goal)}.finSum .k{color:var(--muted,inherit);opacity:.85}.finSum .w{color:var(--win-goal);font-weight:700}.finSum .e{font-weight:700}@media(max-width:600px){.finSum .k{display:none}}
-.mono.fin-eq{font-weight:700}.mono.fin-w{font-weight:700;color:var(--win-goal)}
+.mono.fin-eq{font-weight:700}
+#yrLeg .fk{display:inline-flex;align-items:center;gap:5px}#yrLeg .fk b{display:inline-block;width:6px;height:11px;border-radius:1px}#yrLeg .fk b.w{background:var(--win-goal)}#yrLeg .fk b.e{border:1.6px solid var(--fg);box-sizing:border-box}#yrLeg .fk strong{color:var(--win-goal)}.mono.fin-w{font-weight:700;color:var(--win-goal)}
 .clubtip{cursor:help;border-bottom:1px dashed var(--line);white-space:nowrap}
 .clubtip:focus-visible{outline:2px solid var(--pitch);outline-offset:2px;border-radius:2px}
 .srcbox ul.notes{font-size:.82rem;color:var(--muted);max-height:calc(10 * 1.55em + 22px);overflow-y:auto;overscroll-behavior:auto;padding-right:10px;scrollbar-width:thin}
@@ -395,7 +396,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.244</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.245</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -1330,9 +1331,15 @@ function finKind(pl,e){const v=pl.preset&&finMap(pl.preset)[e.date];if(!v)return
   if(!t){bF=e.gf;bA=e.ga;aF=v[0];aA=v[1];pen=v[2]}
   else if(t.leg===1){if(v.length<6)return null;bF=e.gf;bA=e.ga;aF=v[0]+v[3];aA=v[1]+v[4];pen=v[5];const ta=t.home?v[3]:v[0],oa=t.home?v[1]:v[4];awayW=ta>oa?1:ta<oa?-1:0}
   else{if(!t.f)return null;const [fu,ft]=t.f;bF=fu+e.gf;bA=ft+e.ga;aF=fu+v[0];aA=ft+v[1];pen=v[2];const ta=t.home?fu:v[0],oa=t.home?v[1]:ft;awayW=ta>oa?1:ta<oa?-1:0}
+  finKind.last={aF,aA,pen,awayW,tie:!!t};
   if(aF>aA)return bF===aA?"w":null;
   if(aF===aA&&bF+1===aF&&bA===aA)return t&&!pen&&t.ag&&awayW>0?"w":"e";
   return null}
+/* 결승·동점 포인트의 경기 결과 한 줄(한 시즌 꺾은선 툴팁용): 예 '결승골 · 3:2 승리', '합산 결승 도움 · 합산 4:4 (원정 다득점)' */
+function finTxt(pl,e){const k=finKind(pl,e);if(!k)return "";const s=finKind.last,as=e.type==="assist";
+  const nm=(s.tie?"합산 ":"")+(k==="w"?(as?"결승 도움":"결승골"):(as?"동점 도움":"마지막 동점골"));
+  const sc=(s.tie?"합산 ":"")+s.aF+":"+s.aA;const rs=s.aF>s.aA?" 승리":s.pen?(s.pen>0?" (승부차기 승)":" (승부차기 패)"):s.tie&&s.awayW?" (원정 다득점 "+(s.awayW>0?"진출":"탈락")+")":" 무승부";
+  return nm+" · "+sc+rs}
 function finAgg(pl,es){if(!(typeof FINALS!=="undefined"&&pl.preset&&FINALS[pl.preset]))return null;const c={wg:0,wa:0,eg:0,ea:0};es.forEach(e=>{const k=finKind(pl,e);if(k)c[k+(e.type==="goal"?"g":"a")]++});
   c.W=c.wg+c.wa;c.D=c.eg+c.ea;c.pts=c.W*3+c.D;return c}
 function finTipTxt(c){return `기여 승점 ${c.pts}점 = ${c.W}승 × 3 + ${c.D}무 × 1\n결승골 ${c.wg} · 결승 도움 ${c.wa}\n마지막 동점골 ${c.eg} · 동점 도움 ${c.ea}`}
@@ -1393,7 +1400,7 @@ function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
   {const cf=COMPFL[st.compF||"all"]||"",pf=st.period&&st.period!=="all"?perLabel(pl):"";$("compTag").textContent=pf;$("clubTag").textContent=cf;$("yrTag").textContent=[pf,cf].filter(Boolean).join(" · ");$("compAll").hidden=!cf;$("clubAll").hidden=!String(st.period||"").startsWith("c:");
    const nv=seasonNav(pl);["comp","yr"].forEach(k=>[["Prev",nv.prev,"이전 시즌"],["Next",nv.next,"다음 시즌"]].forEach(([d,s,lb])=>{const b=$("sn"+k+d);b.hidden=!s;if(s){b.dataset.per="s:"+s;b.setAttribute("aria-label",lb+" "+s);b.title=lb+" ("+s+")"}}))}
   drawYearChart.opts=new Set(periodOpts(pl).map(o=>o[0]));$("yrAll").hidden=(st.period||"all")==="all";
-  drawYearChart(ys.map(k=>Y[k]),peakMin(c),String(st.period||"").startsWith("s:")?list.map(({e,r})=>({d:e.date||"",m:+e.min||0,t:e.type,pk:!!e.pk,opp:e.opp||"",comp:e.comp,v:r.v,b:e.type==="goal"?1:c.ast,team:CLN[pClub(pl,e.date)]||"",cl:pClub(pl,e.date)})).sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:a.m-b.m):null);
+  drawYearChart(ys.map(k=>Y[k]),peakMin(c),String(st.period||"").startsWith("s:")?list.map(({e,r})=>({d:e.date||"",m:+e.min||0,t:e.type,pk:!!e.pk,opp:e.opp||"",comp:e.comp,v:r.v,b:e.type==="goal"?1:c.ast,team:CLN[pClub(pl,e.date)]||"",cl:pClub(pl,e.date),fk:finKind(pl,e),ft:finTxt(pl,e)})).sort((a,b)=>a.d<b.d?-1:a.d>b.d?1:a.m-b.m):null);
   // 대회별
   const G={};const gOf=cp=>COMPF.lg.includes(cp)?"lg":COMPF.dom.includes(cp)?"dom":COMPF.ucl.includes(cp)?"ucl":COMPF.cont.includes(cp)?"cont":"cup";list.forEach(({e,r})=>{const k=gOf(e.comp);const o=G[k]=G[k]||{soc:0,g:0,a:0,m:0};o.soc+=r.v;if(e.type==="goal")o.g++;else o.a++});MM.forEach(({m})=>{const k=gOf(m.comp);(G[k]=G[k]||{soc:0,g:0,a:0,m:0}).m++});
   const GL={lg:"리그",dom:"국내 컵",ucl:"챔피언스리그",cont:"그 외 대회",cup:"MLS 플레이오프·리그스컵"},CFOF={lg:"lg",dom:"dom",ucl:"ucl",cont:"ocont",cup:"mls"};
@@ -1773,7 +1780,7 @@ addEventListener("resize",()=>{if(st.cmpView==="chart")renderChart()});
 /* 시즌별 SOC 막대그래프(시즌이 4개보다 적으면 4시즌 폭의 칸을 가운데 정렬): 시즌마다 막대 하나, 팀마다 색(처음 나온 순서로 10색 순환), 한 시즌에 두 팀이면 쌓음 */
 function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};const L=drawYearChart.last;const svg=$("yrChart"),leg=$("yrLeg"),tip=$("yrTip");if(!svg||!L)return;
   const R=L.rows.filter(o=>o.soc>0||o.min>0);const W=Math.max(300,Math.min(1200,Math.round(svg.getBoundingClientRect().width||900))),H=W<600?220:260,ml=36,mr=8,mt=16,mb=34;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);tip.hidden=true;
-  const hint=$("yrHint");if(hint){if(!hint.dataset.o)hint.dataset.o=hint.textContent;hint.textContent=L.pts?"가로축은 이 시즌 공격포인트 순서(날짜·시간순), 세로축은 누적 SOC · 채운 점은 골, 빈 점은 도움 · 선 색은 그 포인트의 팀 · 가로 점선은 이 시즌 기준 SOC(골 1·도움 "+f2(st.coef.ast)+"를 모두 더한 값)로, 선 끝이 그보다 위면 가치 차이 + · 굵은 테두리 점(1·2·3)은 이 시즌 SOC 증가가 가장 큰 공격포인트 3개 · 점을 누르거나 올리면 자세한 값 · 아래 팀 이름을 누르면 그 팀 기간, '전체 시즌 보기'로 되돌아감":hint.dataset.o}
+  const hint=$("yrHint");if(hint){if(!hint.dataset.o)hint.dataset.o=hint.textContent;hint.textContent=L.pts?"가로축은 이 시즌 공격포인트 순서(날짜·시간순), 세로축은 누적 SOC · 채운 점은 골, 빈 점은 도움 · 선 색은 그 포인트의 팀 · 가로 점선은 이 시즌 기준 SOC(골 1·도움 "+f2(st.coef.ast)+"를 모두 더한 값)로, 선 끝이 그보다 위면 가치 차이 + · 굵은 테두리 점(1·2·3)은 이 시즌 SOC 증가가 가장 큰 공격포인트 3개 · 가로축 아래 파란 막대는 결승골·결승 도움, 테두리 막대는 무승부 경기의 마지막 동점골·동점 도움 · 점을 누르거나 올리면 자세한 값 · 아래 팀 이름을 누르면 그 팀 기간, '전체 시즌 보기'로 되돌아감":hint.dataset.o}
   if(!R.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle">기록이 없습니다</text>`;leg.innerHTML="";drawYearChart.segs=[];drawYearChart.cols=[];drawYearChart.pts=null;return}
   if(L.pts){drawSeasonLine(L.pts,svg,leg,W,H);return}drawYearChart.pts=null;
   const nm=o=>CLN[o.cl]||o.cl||"팀 미상";const team={};let ti=0;R.forEach(o=>{const n=nm(o);if(!(n in team))team[n]=++ti});const tdefs=yrColors(team,R.map(o=>({n:nm(o),cl:o.cl,w:o.soc})));
@@ -1806,7 +1813,7 @@ function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};con
   document.addEventListener("pointerdown",ev=>{if(!ev.target.closest||!ev.target.closest("#yrChart"))off()});
   addEventListener("resize",()=>{if(st.yrView==="chart")drawYearChart()})})();
 /* 한 시즌 필터일 때: 가로축 = 공격포인트 순서, 세로축 = 누적 SOC, 이 시즌 기준 SOC 가로선 */
-function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=58,mt=16,mb=34,N=P.length;drawYearChart.cols=[];drawYearChart.segs=[];
+function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=58,mt=16,FK=P.some(p=>p.fk),mb=FK?44:34,N=P.length;drawYearChart.cols=[];drawYearChart.segs=[];
   if(!N){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle">이 시즌 공격포인트가 없습니다</text>`;leg.innerHTML="";drawYearChart.pts=[];return}
   const team={};let ti=0;P.forEach(p=>{if(!(p.team in team))team[p.team]=++ti});const tdefs=yrColors(team,P.map(p=>({n:p.team,cl:p.cl,w:p.v})));
   let cum=0,cb=0;const Q=P.map((p,i)=>{cum+=p.v;cb+=p.b;return {...p,i:i+1,cum,cb,slot:team[p.team]}});
@@ -1814,7 +1821,7 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=58,mt=16,mb=34,N=P.length;
   const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const step=nice(ymax/4),ytop=Math.ceil(ymax/step)*step;
   const sx=i=>ml+i/N*(W-ml-mr),sy=y=>H-mb-(y/ytop)*(H-mt-mb);
   let g='<g class="grid">';for(let y=0;y<=ytop+1e-9;y+=step)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
-  const xs=Math.max(1,nice(N/8));let xa="";for(let v=0;v<=N;v+=xs)xa+=`<text class="num" x="${sx(v).toFixed(1)}" y="${H-mb+16}" text-anchor="middle">${v}</text>`;
+  const xs=Math.max(1,nice(N/8));let xa="";for(let v=0;v<=N;v+=xs)xa+=`<text class="num" x="${sx(v).toFixed(1)}" y="${H-mb+(FK?26:16)}" text-anchor="middle">${v}</text>`;
   let path="",dots="",hits="";const hw=(W-ml-mr)/N;
   Q.forEach((q,k)=>{const x0=sx(k),y0=sy(k?Q[k-1].cum:0),x1=sx(q.i),y1=sy(q.cum);path+=`<line class="ln" x1="${x0.toFixed(1)}" y1="${y0.toFixed(1)}" x2="${x1.toFixed(1)}" y2="${y1.toFixed(1)}" stroke="${yrBase(q.slot)}"${yrHat(q.slot)?' stroke-dasharray="6 3"':""}/>`;
     dots+=`<circle class="pt${q.t==="goal"?"":" as"}" data-p="${k}" cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="${N>60?2.5:3.5}" style="--k:${yrBase(q.slot)}"/>`;
@@ -1826,11 +1833,15 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=58,mt=16,mb=34,N=P.length;
     let lx=x-rr-1,ly=y-rr+1,an="end";const hit=(a,b)=>lab.some(o=>Math.abs(o[0]-a)<12&&Math.abs(o[1]-b)<12);
     if(ly<11||lx<ml+8||hit(lx,ly)){lx=x+rr+1;ly=y+rr+9;an="start"}lab.push([lx,ly]);
     tp+=`<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${an}">${r+1}</text>`});
+  /* 결승·마지막 동점 표시 띠(가로축 바로 아래): 파란 막대 = 결승, 테두리 막대 = 마지막 동점. 폭은 포인트 간격의 70%(최대 6px) */
+  let fm="";const fw=Math.max(1.5,Math.min(6,(W-ml-mr)/N*.7));let fW=0,fD=0;
+  Q.forEach(q=>{if(!q.fk)return;const x=sx(q.i),w=q.fk==="w";if(w)fW++;else fD++;
+    fm+=`<rect class="fmk" x="${(x-fw/2).toFixed(1)}" y="${H-mb+3}" width="${fw.toFixed(1)}" height="9" rx="1" style="${w?"fill:var(--win-goal)":"fill:none;stroke:var(--fg);stroke-width:"+(fw<3?1:1.6)}"/>`});
   const yb=sy(base).toFixed(1);
   const bl=`<g class="bands"><line class="bu" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/><line class="bl dn" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/></g><text class="num" x="${W-mr+4}" y="${(+yb+4).toFixed(1)}">기준 ${f2(base)}</text><text class="num" x="${W-mr+(top.includes(N-1)?10:4)}" y="${(sy(cum)+(Math.abs(sy(cum)-yb)<14?(sy(cum)<yb?-6:14):4)).toFixed(1)}" style="fill:var(--fg);font-weight:600">${f2(cum)}</text>`;
-  svg.innerHTML=`<defs>${tdefs}</defs>`+g+xa+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/><text x="${W-mr}" y="${H-4}" text-anchor="end">공격포인트 (번째)</text>`+bl+`<g>${path}</g><g>${dots}</g><g class="top3">${tp}</g><g>${hits}</g>`;
+  svg.innerHTML=`<defs>${tdefs}</defs>`+g+xa+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/><text x="${W-mr}" y="${H-4}" text-anchor="end">공격포인트 (번째)</text>`+bl+`<g>${path}</g><g>${fm}</g><g>${dots}</g><g class="top3">${tp}</g><g>${hits}</g>`;
   drawYearChart.pts=Q;
-  leg.innerHTML=yrLegend(P.map(p=>({n:p.team,cl:p.cl})),team)+`<span class="bk"><b class="dsh"></b>기준 SOC (골 1·도움 ${f2(st.coef.ast)})</span>`+(top.length?`<span class="tp"><b></b>SOC 증가 상위 ${top.length}개 (1·2·3)</span>`:"");
+  leg.innerHTML=yrLegend(P.map(p=>({n:p.team,cl:p.cl})),team)+`<span class="bk"><b class="dsh"></b>기준 SOC (골 1·도움 ${f2(st.coef.ast)})</span>`+(top.length?`<span class="tp"><b></b>SOC 증가 상위 ${top.length}개 (1·2·3)</span>`:"")+(FK?`<span class="fk"><b class="w"></b>결승</span><span class="fk"><b class="e"></b>마지막 동점</span><span class="fk">이 시즌 기여 승점 <strong>+${fW*3+fD}</strong> (${fW}승 ${fD}무)</span>`:"");
   svg.setAttribute("aria-label",`한 시즌 누적 SOC 꺾은선 그래프: 공격포인트 ${N}개, 누적 ${f2(cum)}, 기준 ${f2(base)}`+(top.length?`, SOC 증가 상위 ${top.map(k=>Q[k].i+"번째("+f2(Q[k].v)+")").join("·")}`:""))}
 /* 이 시즌 SOC 증가(그 공격포인트의 SOC)가 가장 큰 점 3개의 순번(0부터). 그려진 점 가운데서만, 같으면 앞선 점, 0 이하는 제외 */
 /* 팀 상징 색(v1.227, v1.231 보정): 그래프 한 장 안에서 SOC 비중이 큰 팀부터 주 색. 이미 쓴 색과 가까우면(보정한 색이 yrApart로 구별 안 됨) 보조 색·셋째 색,
@@ -1878,7 +1889,7 @@ function seasonTop3(Q){return Q.map((q,k)=>[q.v,k]).filter(x=>x[0]>0).sort((a,b)
   const off=()=>{if(on){on.classList.remove("on");on=null}};
   const show=ev=>{const Q=drawYearChart.pts;if(!Q)return;const el=ev.target.closest&&ev.target.closest("[data-p]");if(!el){off();tip.hidden=true;return}const q=Q[+el.dataset.p];if(!q)return;
     const c=sv.querySelector(`circle.pt[data-p="${el.dataset.p}"]`);if(on!==c){off();on=c;if(c)c.classList.add("on")}
-    tip.innerHTML=`<div class="t">${q.i}번째 공격포인트 · ${esc(q.d)}</div>${q.rk?`<div class="d rk">이 시즌 SOC 증가 ${q.rk}위</div>`:""}<div class="r">${yrSw(q.slot)}<span>${esc(q.team||"")} · ${q.t==="goal"?(q.pk?"PK 골":"골"):"도움"}${q.m?" "+q.m+"′":""}</span><b>${f2(q.v)}</b></div><div class="d">상대 ${esc(q.opp||"—")} · ${esc(COMP[q.comp]||q.comp||"")}</div><div class="r sum"><i></i><span>누적 SOC</span><b>${f2(q.cum)}</b></div><div class="d">누적 기준 ${f2(q.cb)} · 가치 차이 ${dv(q.cum-q.cb)}</div>`;
+    tip.innerHTML=`<div class="t">${q.i}번째 공격포인트 · ${esc(q.d)}</div>${q.rk?`<div class="d rk">이 시즌 SOC 증가 ${q.rk}위</div>`:""}${q.ft?`<div class="d" style="font-weight:700${q.fk==="w"?";color:var(--win-goal)":""}">${esc(q.ft)}</div>`:""}<div class="r">${yrSw(q.slot)}<span>${esc(q.team||"")} · ${q.t==="goal"?(q.pk?"PK 골":"골"):"도움"}${q.m?" "+q.m+"′":""}</span><b>${f2(q.v)}</b></div><div class="d">상대 ${esc(q.opp||"—")} · ${esc(COMP[q.comp]||q.comp||"")}</div><div class="r sum"><i></i><span>누적 SOC</span><b>${f2(q.cum)}</b></div><div class="d">누적 기준 ${f2(q.cb)} · 가치 차이 ${dv(q.cum-q.cb)}</div>`;
     tip.hidden=false;const b=box.getBoundingClientRect();const tw=tip.offsetWidth||180;let left=ev.clientX-b.left+14;if(left>b.width-tw)left=ev.clientX-b.left-tw-14;tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,ev.clientY-b.top-20)+"px"};
   sv.addEventListener("pointermove",show);sv.addEventListener("pointerdown",show);sv.addEventListener("pointerleave",ev=>{if(ev.pointerType==="mouse")off()});
   document.addEventListener("pointerdown",ev=>{if(!ev.target.closest||!ev.target.closest("#yrChart"))off()})})();
