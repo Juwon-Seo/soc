@@ -139,6 +139,13 @@ for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
     if not g["playedMinutes"]: sys.exit("출전 분 없음 " + g["gameId"])
     M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), int(g["playedMinutes"])])
 
+# UAE 대통령컵 2012-13 8강(Transfermarkt에 없음): 2013.2.11 알아흘리 1-0 디바 알푸자이라, 콰레스마 결승골(약 62분, 도움 없음).
+# Gulf News('Quaresma off the mark for Al Ahli': 52분 기회 'ten minutes later' 콰레스마 골, 전반에도 슈팅), The National('President's Cup: Al Ahli 1 Dibba Al Fujairah 0',
+# 두 번째 출전·그라피치 출전 정지로 공격수로 나섬). 날짜: 영어 위키백과 2012–13 UAE President's Cup. 출전 분 출처 없음 → 90분 추정(선발로 보고 교체 기록 없음).
+MANUAL_M = [["2013-02-11", "Dibba Al-Fujairah Club", "dk", 90, 1]]
+MANUAL_E = [("g", "2013-02-11", "Dibba Al-Fujairah Club", "UAEC", 62, 0, 0, 0, 0, 1)]   # (유형, 날짜, 상대, 대회, 분, gf, ga, pk, dm, ko)
+M.extend(MANUAL_M); M.sort(key=lambda m: m[0])
+
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
     s = s.strip()
@@ -150,10 +157,16 @@ def is_og(e): return e["own_goal"] == "1" or e["goal_desc"] == "Own-goal"
 
 # 2014.8 이후 단일 출처 도움(FotMob 도움 없음) 웹 확인: 키 = gameId|분
 A_CHECK = {
-    "2633925|85": (False, "느슨한 공: 시망 프리킥을 뭄바이 골키퍼가 수비수(Pavel Čmovš)와 엉켜 놓친 공을 카마라가 밀어 넣음(AIFF·PTI 기사 "
-                          "the-aiff.com 'NorthEast United FC prove two good for Mumbai City FC', business-standard PTI, indiansuperleague.com 경기 기사 'keeper ... spilled the ball') → 도움 아님"),
-    "2633929|55": (True, "시망 코너킥을 멘디가 헤더(ESPN 경기 기사 gameId 434728 'attacking Simao's inch-perfect cross', AIFF/ISL 공식 기사 "
-                         "'Simao ... delivered a quality corner into the six-yard area which substitute Mendy ... headed') — 독립 출처 2곳"),
+    "2466867|87": (True, "아부바카르 87분 골: Bola na Rede 경기 기사('Quaresma ... fez uma assistência para Aboubakar ... finalizar com frieza'), "
+                         "IANS 기사(business-standard, 'following a brilliant pass from Quaresma'), ESPN 경기 이벤트(도움 Ricardo Quaresma) — 독립 출처 3곳"),
+    "2512211|32": (True, "아부바카르 32분 헤더: ESPN 경기 이벤트(도움 Ricardo Quaresma), IANS/신화 기사(business-standard, 'with a header, following a cross by Quaresma') — 독립 출처 2곳"),
+    "2526205|33": (True, "올리베르 토레스 33분 헤더: Bola na Rede 경기 기사('duas assistências ... dois cruzamentos praticamente iguais'), FourFourTwo('head Quaresma's cross'), "
+                         "Gazeta Esportiva('Ricardo Quaresma realizou belo cruzamento ... Óliver') — 독립 출처 3곳"),
+    "2526205|45": (True, "아부바카르 45분(ESPN 45+1) 골: Bola na Rede 기사(두 번째 도움), FourFourTwo('Quaresma's delivery from the right wing ... Aboubakar touched the ball home'), "
+                           "Gazeta Esportiva('cruzou rasteiro para Aboubakar') — 독립 출처 3곳"),
+    "2526248|12": (True, "잭슨 마르티네스 12분 헤더: Bola na Rede 경기 기사('excelente cruzamento para a cabeça de Jackson'), EFE 계열 El Colombiano('Quaresma, también pasador en el primer tanto') "
+                         "— 독립 출처 2곳. Reuters(SBS 게재)는 브라이미의 크로스로 적어 출처가 갈림"),
+    "2526248|86": (True, "잭슨 마르티네스 86분 바이시클킥: Bola na Rede 기사('Ricardo Quaresma cruzou de forma perfeita para Jackson'), El Colombiano('al recibir una asistencia de Quaresma') — 독립 출처 2곳"),
 }
 def a_key(gid, minute): return f"{gid}|{minute}"
 
@@ -164,7 +177,7 @@ def fm_min_match(f, tm_min_str, tol=2):
     return base is not None and not f["overloadTime"] and int(f["time"]) == base
 def fm_assist(gid, e):
     for f in FME.get(gid, []):
-        if f["time"] and (f["quaresma_assist"] == "1") and fm_min_match(f, e["minute"]): return True
+        if f["time"] and f["quaresma_assist"] == "1" and fm_min_match(f, e["minute"], 3): return True   # 3분: 2021.2.8 B SAD전 TM 38분·FotMob 41분(같은 1-1 골)
     return False
 
 def norm(n):
@@ -189,9 +202,9 @@ def assist_reason(e, d, gid):
     if k in A_CHECK:
         ok, why = A_CHECK[k]
         A_STATUS.append((d, gid, e["minute"], e["scorer"], ("넣음: " if ok else "뺌: ") + why))
-        return None if ok else "느슨한 공(골키퍼가 놓친 공) — 도움 아님"
+        return None if ok else "2014.8 이후 단일 출처, 확인 못 함"
     A_STATUS.append((d, gid, e["minute"], e["scorer"], "판정 없음"))
-    return "2014.8 이후 단일 출처(판정 없음)"
+    sys.exit("2014.8 이후 단일 출처 도움 판정 없음 " + k)
 
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
@@ -220,9 +233,11 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             if e["penalty"] == "1" and not pk and e["goal_desc"] != "Penalty rebound": sys.exit("PK 판정 확인 " + gid)
             if e["goal_desc"] == "Penalty rebound": judg.append(("PK 리바운드 골(PK 아님)", ldate(g), opp(g), e["minute"]))
             raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0, e["goal_desc"]))
-# 3570351 타사 5라운드 투리젠스전(0:2): API 도움 1개, 리포트에 골 목록이 없음. 골은 Robert 66'·Nuno Gomes 79'(위키백과 2005-06 타사 문서)
-# 이지만 어느 골의 도움인지 확인할 출처가 없어 넣지 않음(골 시각·스코어를 정할 수 없음).
-judg.append(("도움 제외", "2006-01-11", "GD Tourizense", "?", "Robert 또는 Nuno Gomes", "TM API 도움 1개, 리포트 골 목록 없음 — 어느 골인지 확인 못 함"))
+# FotMob에만 있는 콰레스마 도움(Transfermarkt는 다른 판정): 넣지 않음
+judg.append(("FotMob 단독 도움 제외", "2010-08-26", "HJK Helsinki", "67", "Guti",
+             "FotMob은 콰레스마 도움, Transfermarkt 리포트는 보부(Bobô) 도움 — 2014.8 전 기준 출처(Transfermarkt)와 다름"))
+judg.append(("FotMob 단독 도움 제외", "2016-12-17", "Kasimpasa", "31", "Cenk Tosun",
+             "FotMob만 콰레스마 도움, Transfermarkt는 도움 없음('Tap-in'). NTV·파나틱 기사: 콰레스마 슈팅을 골키퍼가 막고 나온 공을 젱크 토순이 머리로 넣음 = 슈팅 리바운드라 도움 아님"))
 
 cnt_ = collections.Counter()
 for r in raw_rows: cnt_[(r[1], r[0])] += 1
@@ -237,10 +252,10 @@ for gid, evs in EVS.items():
     fh, fa = map(int, MI[gid]["final"].split(":")) if MI[gid]["final"] else (h, a)
     if MI[gid]["result_flag"] == "pens" and h == a: continue   # 승부차기 경기: 리포트 최종 = 승부차기 스코어
     if (h, a) != (fh, fa): SCORE_MISMATCH.append((gid, ldate(G[gid]), (h, a), (fh, fa)))
-# 3989308(2004.12.21 올리베이렌스 4:1 연장): 4번째 벤피카 골이 리포트에 없음 — 시망 골(50' PK, 1-1)은 그 앞이라 골 전 스코어는 영향 없음
-SM_OK = {"3989308"}
+# 3000411(2018.5.3 페네르바체 원정 몰수 3:0)·3495414(2020.12.13 산타클라라전 0:1, 골 목록 없음): 콰레스마 골·도움 없음
+SM_OK = set()
 for gid, *_ in SCORE_MISMATCH:
-    if any(r[1] == gid for r in raw_rows) and gid not in SM_OK: sys.exit("골 목록이 모자란 리포트에 시망 기록 " + gid)
+    if any(r[1] == gid for r in raw_rows) and gid not in SM_OK: sys.exit("골 목록이 모자란 리포트에 콰레스마 기록 " + gid)
 
 # ---------------------------------------------------------------- 이름·기존 자료
 ALIAS = {}
@@ -314,18 +329,11 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
 # 순위 고침(출처로 확인; judgments.md 'Elo·순위' 절). TM 순위표는 승점 동률 순서가 공식 규정(포르투갈 상대 전적, 벨기에 승수 등)과
 # 다를 수 있어서, 아래 리그·시즌은 영어 위키백과 시즌 문서의 순위표(wiki_tables/, action=raw로 받음)의 순서를 씀.
 WT = os.path.join(HERE, "wiki_tables")
-WIKI = {("PO1", "1996-97"): "1996–97_Primeira_Divisão.txt", ("PO1", "1997-98"): "1997–98_Primeira_Divisão.txt",
-        ("PO1", "1998-99"): "1998–99_Primeira_Divisão.txt", ("PO1", "2001-02"): "2001–02_Primeira_Liga.txt",
-        ("PO1", "2002-03"): "2002–03_Primeira_Liga.txt", ("PO1", "2003-04"): "2003–04_Primeira_Liga.txt",
-        ("PO1", "2004-05"): "2004–05_Primeira_Liga.txt", ("PO1", "2005-06"): "2005–06_Primeira_Liga.txt",
-        ("PO1", "2006-07"): "2006–07_Primeira_Liga.txt", ("ES2", "2013-14"): "2013–14_Segunda_División.txt",
-        ("TR1", "2010-11"): "2010–11_Süper_Lig.txt", ("TR1", "2011-12"): "2011–12_Süper_Lig.txt",
-        ("BE1", "2003-04"): "2003–04_Belgian_First_Division.txt", ("BE1", "2004-05"): "2004–05_Belgian_First_Division.txt",
-        ("SLO1", "2004-05"): "2004–05_Slovak_Superliga.txt", ("PO2", "2005-06"): "2005–06_Liga_de_Honra.txt",
-        ("UKR1", "2011-12"): "2011–12_Ukrainian_Premier_League.txt", ("IND1", "2015"): "isl2015.txt"}
+WIKI = {("PO1", f"{y}-{str(y + 1)[2:]}"): f"{y}–{str(y + 1)[2:]}_Primeira_Liga.txt" for y in (2001, 2002, 2003, 2004, 2005, 2006, 2007, 2013, 2014, 2020, 2021)}
+WIKI.update({("TR1", f"{y}-{str(y + 1)[2:]}"): f"{y}–{str(y + 1)[2:]}_Süper_Lig.txt" for y in (2010, 2011, 2015, 2016, 2017, 2018, 2019)})
 def wiki_order(fn):
     t = open(os.path.join(WT, fn), encoding="utf-8").read()
-    i = t.find("#invoke:sports table"); t = t[i:]; t = t[:t.find("\n}}")]
+    i = t.lower().find("#invoke:sports table"); t = t[i:]; t = t[:t.find("\n}}")]
     names = {m.group(1): re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*([^\n]+)", t)}
     out = {}
     for m in re.finditer(r"\|team(\d+)\s*=\s*([^|\n]+)", t):
@@ -350,16 +358,15 @@ def wiki_rank(lg, s, tm_name):
     hit = [v for x, v in sc if x == top]
     if len(hit) != 1: sys.exit(f"위키 순위표 이름 맞추기 실패 {lg} {s} {tm_name} {hit}")
     return hit[0]
-RANK_FIX = {("gnk dinamo zagreb", "2004-05"): (7, 12, "1. HNL 2004-05: 1단계 7위 → 강등 그룹 1위 = 최종 7위/12팀(위키백과 2004–05 Croatian First Football League)")}
+RANK_FIX = {}
 
 BIGL = {"PO1": "포르투갈 1부", "ES1": "라리가", "GB1": "프리미어리그", "IT1": "세리에A", "FR1": "리그1", "L1": "분데스리가", "NL1": "에레디비시"}
-OTHL = {"BE1": ("벨기에", "Belgian First Division"), "DK1": ("덴마크", "Danish Superliga"), "GR1": ("그리스", "Super League Greece"),
-        "ISR1": ("이스라엘", "Israeli Premier League"), "NO1": ("노르웨이", "Eliteserien"), "RO1": ("루마니아", "Liga I"),
-        "RU1": ("러시아", "Russian Premier League"), "SC1": ("스코틀랜드", "Scottish Premier League"), "SE1": ("스웨덴", "Allsvenskan"),
-        "SER1": ("세르비아", "Serbian SuperLiga"), "SLO1": ("슬로바키아", "Slovak Superliga"), "TR1": ("튀르키예", "Süper Lig"),
-        "TS1": ("체코", "Czech First League"), "UKR1": ("우크라이나", "Ukrainian Premier League"), "ZYP1": ("키프로스", "Cypriot First Division"),
-        "KR1": ("크로아티아", "Prva HNL")}
-CAL_LG = {"NO1", "SE1", "RU1", "IND1"}
+OTHL = {"BE1": ("벨기에", "Belgian First Division A"), "DK1": ("덴마크", "Danish Superliga"), "GR1": ("그리스", "Super League Greece"),
+        "ISR1": ("이스라엘", "Israeli Premier League"), "SE1": ("스웨덴", "Allsvenskan"), "SER1": ("세르비아", "Serbian SuperLiga"),
+        "TR1": ("튀르키예", "Süper Lig"), "TS1": ("체코", "Czech First League"), "UKR1": ("우크라이나", "Ukrainian Premier League"),
+        "ALB1": ("알바니아", "Kategoria Superiore"), "FARO": ("페로 제도", "Effodeildin"), "FI1": ("핀란드", "Veikkausliiga"),
+        "WER1": ("벨라루스", "Belarusian Premier League"), "UAE1": ("UAE", "UAE Pro League")}
+CAL_LG = {"SE1", "FARO", "FI1", "WER1"}
 def make_label(lg, season, r, n):
     if lg in BIGL:
         pre = BIGL[lg]; y = int(season[:4]) + 1
@@ -368,8 +375,6 @@ def make_label(lg, season, r, n):
     if lg in OTHL:
         cn, nm = OTHL[lg]
         return f"{cn} 1부 {season} {r}위/{n}팀 ({nm})"
-    if lg == "IND1":
-        return f"인도 슈퍼리그 {season} {r}위/{n}팀 (추정: 1위 1300~꼴찌 1200 직선)"   # 말루다 2015 같은 리그·시즌 라벨 형식
     if lg == "ES2": return f"세군다 {season} {r}위" + ("" if n == 22 else f"/{n}팀")
     if lg == "PO2": return f"포르투갈 2부 {season} {r}위/{n}팀"
     if lg == "TR2": return f"튀르키예 2부 {season} {r}위/{n}팀"
@@ -390,7 +395,7 @@ def opp_elo(o, d, cid):
         ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
     if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
     k = key(o)
-    seasons = [d[:4], eu(d)] if cid == "IND1" else [eu(d), d[:4]]
+    seasons = [eu(d), d[:4]]
     for s in seasons:
         if (k, s) in MAN:
             lv = MAN[(k, s)]; e = lv_value(lv, d)
@@ -430,6 +435,9 @@ for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     t = tie_of(gid)
     if t: row.append(t)
     E.append(row)
+for typ, d, o, cid, mi, gf, ga, pk, dm, ko in MANUAL_E:
+    elo, lv = opp_elo(o, d, cid)
+    E.append([typ, o, elo, comp_of(cid, "Quarter-Finals"), mi, gf, ga, ko, pk, d, 0, dm, lv, 0])
 
 E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 
@@ -479,16 +487,16 @@ def cmp_rows(a, b):
 CROSS = []
 for b, (oe, om) in OTHERS.items():
     for x in oe:
-        if x[0] == "a" and re.search(r"Sim[aã]o", x[13] or ""):
+        if x[0] == "a" and re.search(r"Quaresma", x[13] or ""):
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(시망 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(콰레스마 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1])]
-            if hit: CROSS.append(("시망 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("콰레스마 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
         if r[0] == "g":
             hit = [x for x in oe if x[0] == "a" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1])]
-            if hit: CROSS.append(("타인 도움 행이 시망 골과 같은 시각", b, r[9], r[4], hit[0][13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("타인 도움 행이 콰레스마 골과 같은 시각", b, r[9], r[4], hit[0][13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and same_team(x[1], r[1]):
@@ -504,13 +512,14 @@ for b, (oe, om) in OTHERS.items():
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and j[3] != "?" and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2]):
-                    CROSS.append(("TM 시망 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
+                    CROSS.append(("TM 콰레스마 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("scpsm", "1999-07-01"), ("fcbsm", "2001-07-27"), ("bensm", "2007-07-01"), ("atmsm", "2011-01-01"),
-         ("bjksm", "2012-08-17"), ("espsm", "2015-07-01"), ("neusm", None)]
-TM_CLUB = {"336": "scpsm", "131": "fcbsm", "294": "bensm", "13": "atmsm", "114": "bjksm", "714": "espsm", "45276": "neusm"}
+CLUBS = [("scpqr", "2003-07-09"), ("fcbqr", "2004-07-06"), ("fcpqr", "2008-09-01"), ("intqr", "2009-02-02"), ("cheqr", "2009-06-30"),
+         ("intqr", "2010-07-01"), ("bjkqr", "2013-01-07"), ("ahlqr", "2014-01-01"), ("fcpqr", "2015-07-22"), ("bjkqr", "2019-08-29"),
+         ("kasqr", "2020-09-07"), ("vitqr", None)]
+TM_CLUB = {"336": "scpqr", "131": "fcbqr", "720": "fcpqr", "46": "intqr", "631": "cheqr", "114": "bjkqr", "15541": "ahlqr", "10484": "kasqr", "2420": "vitqr"}
 def club_of(d):
     for k, u in CLUBS:
         if u is None or d < u: return k
@@ -518,15 +527,16 @@ for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
 def season_of(d, club):
     y, m = int(d[:4]), int(d[5:7])
-    if club == "neusm": return str(y)
     s_ = y if m >= 8 else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("스포르팅 CP", "1999-07-01"), ("바르셀로나", "2001-07-27"), ("벤피카", "2007-07-01"), ("아틀레티코 마드리드", "2011-01-01"),
-          ("베식타시", "2012-08-17"), ("에스파뇰", "2015-07-01"), ("노스이스트 유나이티드", "9999")]
+STINTS = [("스포르팅 CP 2001~2003", "2003-07-09"), ("바르셀로나 2003~2004", "2004-07-06"), ("포르투 2004~2008", "2008-09-01"),
+          ("인테르 2008~2010", "2009-02-02"), ("첼시(임대) 2009", "2009-06-30"), ("인테르 2008~2010 ", "2010-07-01"),
+          ("베식타시 2010~2012", "2013-01-07"), ("알아흘리(두바이) 2013", "2014-01-01"), ("포르투 2014~2015", "2015-07-22"),
+          ("베식타시 2015~2019", "2019-08-29"), ("카슴파샤 2019~2020", "2020-09-07"), ("비토리아 기마랑이스 2020~2022", "9999")]
 def stint(d):
     for n, u in STINTS:
-        if d < u: return n
-ST = collections.OrderedDict((n, [0, 0, 0, 0]) for n, u in STINTS)
+        if d < u: return n.strip()
+ST = collections.OrderedDict((n.strip(), [0, 0, 0, 0]) for n, u in STINTS)
 for m in M: ST[stint(m[0])][0] += 1; ST[stint(m[0])][3] += m[3]
 for r in E: ST[stint(r[9])][1 if r[0] == "g" else 2] += 1
 NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)

@@ -1,0 +1,69 @@
+{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[http://www.ligaportugal.pt/oou/classificacao/20142015/primeiraliga LPFP]
+
+<!--Update team positions here-->
+|team1=BEN |team2=POR |team3=SCP |team4=BRA |team5=VGU |team6=BEL |team7=NAC |team8=PAÇ |team9=MAR |team10=RAV |team11=MFC |team12=EST |team13=BOA |team14=VSE |team15=ACA |team16=FCA |team17=GVI |team18=PEN
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=EL3Q |result6=EL3Q |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed positions above). Dont forget to update the date above (update parameter)-->
+|win_ACA=4 |draw_ACA=17|loss_ACA=13|gf_ACA=26|ga_ACA=46 <!-- Académica de Coimbra -->
+|win_FCA=7 |draw_FCA=7 |loss_FCA=20|gf_FCA=26|ga_FCA=50 <!-- Arouca -->
+|win_BEL=12|draw_BEL=12|loss_BEL=10|gf_BEL=34|ga_BEL=35 <!-- Belenenses-->
+|win_BEN=27|draw_BEN=4 |loss_BEN=3 |gf_BEN=86|ga_BEN=16|status_BEN=C <!-- Benfica -->
+|win_BOA=9 |draw_BOA=7 |loss_BOA=18|gf_BOA=27|ga_BOA=50 <!-- Boavista -->
+|win_BRA=17|draw_BRA=7 |loss_BRA=10|gf_BRA=55|ga_BRA=28 <!-- Braga-->
+|win_EST=9 |draw_EST=13|loss_EST=12|gf_EST=38|ga_EST=56 <!-- Estoril -->
+|win_GVI=4 |draw_GVI=11|loss_GVI=19|gf_GVI=25|ga_GVI=60|status_GVI=R <!-- Gil Vicente -->
+|win_MAR=12|draw_MAR=8 |loss_MAR=14|gf_MAR=46|ga_MAR=45 <!-- Marítimo -->
+|win_MFC=11|draw_MFC=10|loss_MFC=13|gf_MFC=33|ga_MFC=42 <!-- Moreirense -->
+|win_NAC=13|draw_NAC=8 |loss_NAC=13|gf_NAC=45|ga_NAC=46 <!-- Nacional -->
+|win_PAÇ=12|draw_PAÇ=11|loss_PAÇ=11|gf_PAÇ=40|ga_PAÇ=45 <!-- Paços de Ferreira -->
+|win_PEN=5 |draw_PEN=7 |loss_PEN=22|gf_PEN=29|ga_PEN=69|status_PEN=R <!-- Penafiel -->
+|win_POR=25|draw_POR=7 |loss_POR=2 |gf_POR=74|ga_POR=13 <!-- Porto -->
+|win_RAV=10|draw_RAV=13|loss_RAV=11|gf_RAV=38|ga_RAV=42 <!-- Rio Ave -->
+|win_SCP=22|draw_SCP=10|loss_SCP=2 |gf_SCP=67|ga_SCP=29 <!-- Sporting -->
+|win_VGU=15|draw_VGU=10|loss_VGU=9 |gf_VGU=50|ga_VGU=35 <!-- Vitória de Guimarães -->
+|win_VSE=7 |draw_VSE=8 |loss_VSE=19|gf_VSE=24|ga_VSE=56 <!-- Vitória de Setúbal -->
+
+<!-- Status -->
+|status_text_X=Team is assured of at least Europa League, but can still qualify for Champions League
+
+<!--Team definitions (wikilinks in table)-->
+|name_ACA=[[Associação Académica de Coimbra – O.A.F.|Académica]]
+|name_FCA=[[F.C. Arouca|Arouca]]
+|name_BEL=[[C.F. Os Belenenses|Belenenses]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_GVI=[[Gil Vicente F.C.|Gil Vicente]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MFC=[[Moreirense F.C.|Moreirense]]
+|name_NAC=[[C.D. Nacional|Nacional]]
+|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_PEN=[[F.C. Penafiel|Penafiel]]
+|name_POR=[[FC Porto|Porto]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_SCP=[[Sporting Clube de Portugal|Sporting CP]]
+|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) points; 2) points in matches between tied teams; 3) goal difference in matches between tied teams; 4) away goals in matches between tied teams; 5) goal difference; 6) wins; 7) goals scored. The [[Portuguese League for Professional Football|LPFP]] decided that only criteria 1, 5, 6 and 7 would be applied to establish the classification during the competition.<ref>{{cite web|url=http://www.ligaportugal.pt/media/6772/regulamento-competicoes.pdf |title=Regulamento das Competições Organizadas pela Liga Portuguesa de Futebol Profissional |publisher= [[Portuguese League for Professional Football|LPFP]] |date=15 August 2014 |accessdate=30 November 2014 |language=Portuguese |trans-title=Regulation of Competitions Organised by Portuguese League for Professional Football}}</ref> Qualification for the 2015–16 Europa League has changed:<ref>{{cite web |url=http://www.uefa.org/about-uefa/executive-committee/news/newsid=1999120.html |title=Strategic talks in Dubrovnik |date=20 September 2013 |publisher=UEFA |accessdate=15 September 2014}}</ref> the best-placed non-qualified domestic championship club will enter the UEFA Europa League from the 2015–16 season, rather than the domestic cup runners-up, should the domestic cup winners also qualify for the UEFA Champions League via the final championship standings.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2015–16 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2015–16 UEFA Champions League#Play-off round|Champions League play-off round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2015–16 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2015–16 UEFA Europa League#Third qualifying round|Europa League third qualifying round]] 
+|col_REL=red1    |text_REL=Relegation to [[2015–16 LigaPro|LigaPro]]
+|note_res_ELGS=Since [[Sporting Clube de Portugal|Sporting CP]] won the [[2014–15 Taça de Portugal]], the spot awarded to the cup winner ([[2015–16 UEFA Europa League#Group stage|Europa League group stage]]) was passed to the fourth-placed team and the spot originally meant for the fourth-placed team ([[2015–16 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]) was given to the sixth-placed team.
+}}<noinclude>
+{{template-reflist}}
+[[Category:Portugal football standings templates]]
+</noinclude>

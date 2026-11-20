@@ -1,0 +1,59 @@
+{{#invoke:sports table|main|style=WDL
+|res_col_header=QR
+|show_limit=5
+|team1=BEN|name_BEN=[[S.L. Benfica|Benfica]]
+|team2=SCP|name_SCP=[[Sporting Clube de Portugal|Sporting CP]]
+|team3=POR|name_POR=[[FC Porto|Porto]]
+|team4=EST|name_EST=[[G.D. Estoril Praia|Estoril]]
+|team5=NAC|name_NAC=[[C.D. Nacional|Nacional]]
+|team6=MAR|name_MAR=[[C.S. Marítimo|Marítimo]]
+|team7=VSE|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+|team8=ACA|name_ACA=[[Associação Académica de Coimbra – O.A.F.|Académica]]
+|team9=BRA|name_BRA=[[S.C. Braga|Braga]]
+|team10=VGU|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|team11=RAV|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|team12=ARO|name_ARO=[[F.C. Arouca|Arouca]]
+|team13=GVI|name_GVI=[[Gil Vicente F.C.|Gil Vicente]]
+|team14=BEL|name_BEL=[[C.F. Os Belenenses|Belenenses]]
+|team15=PAÇ|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|team16=OLH|name_OLH=[[S.C. Olhanense|Olhanense]]
+|win_BEN=23|draw_BEN=5|loss_BEN=2|gf_BEN=58|ga_BEN=18|status_BEN=C
+|win_SCP=20|draw_SCP=7|loss_SCP=3|gf_SCP=54|ga_SCP=20
+|win_POR=19|draw_POR=4|loss_POR=7|gf_POR=57|ga_POR=25
+|win_EST=15|draw_EST=9|loss_EST=6|gf_EST=42|ga_EST=26
+|win_NAC=11|draw_NAC=12|loss_NAC=7|gf_NAC=43|ga_NAC=33
+|win_MAR=11|draw_MAR=8|loss_MAR=11|gf_MAR=40|ga_MAR=44
+|win_VSE=10|draw_VSE=9|loss_VSE=11|gf_VSE=41|ga_VSE=41
+|win_ACA=9|draw_ACA=10|loss_ACA=11|gf_ACA=25|ga_ACA=35
+|win_BRA=10|draw_BRA=7|loss_BRA=13|gf_BRA=39|ga_BRA=37
+|win_VGU=10|draw_VGU=5|loss_VGU=15|gf_VGU=30|ga_VGU=35
+|win_RAV=8|draw_RAV=8|loss_RAV=14|gf_RAV=21|ga_RAV=35
+|win_ARO=8|draw_ARO=7|loss_ARO=15|gf_ARO=28|ga_ARO=42
+|win_GVI=8|draw_GVI=7|loss_GVI=15|gf_GVI=23|ga_GVI=37
+|win_BEL=6|draw_BEL=10|loss_BEL=14|gf_BEL=19|ga_BEL=33
+|win_PAÇ=6|draw_PAÇ=6|loss_PAÇ=18|gf_PAÇ=28|ga_PAÇ=59|status_PAÇ=O
+|win_OLH=6|draw_OLH=6|loss_OLH=18|gf_OLH=21|ga_OLH=49|status_OLH=R
+|hth_ACA=Académica ahead of Braga on head-to-head record; Académica–Braga 1–1, Braga–Académica 0–1 |hth_BRA=ACA
+|hth_ARO=Arouca ahead of Gil Vicente on head-to-head record; Gil Vicente–Arouca 0–3, Arouca–Gil Vicente 1–0 |hth_GVI=ARO
+|hth_PAÇ=Paços de Ferreira ahead of Olhanense on head-to-head record; Paços de Ferreira–Olhanense 3–1, Olhanense–Paços de Ferreira 1–0 |hth_OLH=PAÇ
+|col_CLGS=green1|text_CLGS=Qualification to [[2014–15 UEFA Champions League#Group stage|Champions League group stage]]
+|result1=CLGS|result2=CLGS
+|col_CLPOR=green2|text_CLPOR=Qualification to [[2014–15 UEFA Champions League#Play-off round|Champions League play-off round]]
+|result3=CLPOR
+|col_ELGS=blue1|text_ELGS=Qualification to [[2014–15 UEFA Europa League#Group stage|Europa League group stage]] 
+|result4=ELGS
+|col_ELPOR=blue2|text_ELPOR=Qualification to [[2014–15 UEFA Europa League#Play-off round|Europa League play-off round]]
+|result5=ELPOR
+|col_EL3=blue3|text_EL3=Qualification to [[2014–15 UEFA Europa League#Third qualifying round|Europa League third qualifying round]] 
+|result11=EL3
+|note_res_EL3=Since the [[2013–14 Taça de Portugal]] winners Benfica qualified for the [[2014–15 UEFA Champions League]], runners-up Rio Ave took the [[2014-15 UEFA Europa League]] third qualifying round spot.
+|col_RPO=red2|text_RPO=Qualification to [[2013–14 Primeira Liga#Relegation play-offs|relegation play-offs]]
+|result15=RPO
+|col_R=red1|text_R=Relegation to [[2014–15 Segunda Liga|Segunda Liga]]
+|result16=R
+|update=complete
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.<br />(Note: [[Portuguese League for Professional Football|LPFP]] decided that only criteria 1, 5, 6 and 7 would be applied to establish the classification during the competition.)
+|source=[http://www.ligaportugal.pt/oou/classificacao/20132014/primeiraliga LPFP] {{in lang|pt}}
+}}<noinclude>
+[[Category:Portugal football standings templates]]
+</noinclude>

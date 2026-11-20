@@ -1,0 +1,44 @@
+{
+ "preset": "morientes",
+ "name": "페르난도 모리엔테스",
+ "prefix": "MOR",
+ "clubs": [
+  {"key": "albmor", "name": "알바세테", "short": "알바세테", "years": "1993~1995", "until": "1995-07-01"},
+  {"key": "zarmor", "name": "레알 사라고사", "short": "사라고사", "years": "1995~1997", "until": "1997-07-01"},
+  {"key": "rmmor", "name": "레알 마드리드", "short": "레알 마드리드", "years": "1997~2005", "until": "2003-08-31"},
+  {"key": "monmor", "name": "AS 모나코", "short": "모나코", "years": "2003~2004", "until": "2004-07-01"},
+  {"key": "rmmor", "name": "레알 마드리드", "short": "레알 마드리드", "years": "1997~2005", "until": "2005-01-13"},
+  {"key": "livmor", "name": "리버풀", "short": "리버풀", "years": "2005~2006", "until": "2006-07-01"},
+  {"key": "valmor", "name": "발렌시아", "short": "발렌시아", "years": "2006~2009", "until": "2009-07-28"},
+  {"key": "ommor", "name": "올랭피크 드 마르세유", "short": "마르세유", "years": "2009~2010", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["livmor"]},
+ "pos": "CF",
+ "flag": "ES",
+ "retired": true,
+ "colors": {
+  "albmor": ["#FFFFFF", "#E2001A"],
+  "zarmor": ["#FFFFFF", "#0000BB"],
+  "rmmor": ["#FFFFFF", "#FEBE10", "#00529F"],
+  "monmor": ["#E11A22", "#FFFFFF"],
+  "livmor": ["#C8102E", "#FFFFFF"],
+  "valmor": ["#FFFFFF", "#000000", "#EE3524"],
+  "ommor": ["#FFFFFF", "#009CDC"]
+ },
+ "hon": {
+  "t": {
+   "UCL": ["01/02 레알 마드리드", "99/00 레알 마드리드", "97/98 레알 마드리드"],
+   "USC": ["05/06 리버풀"],
+   "CWC": ["02/03 레알 마드리드", "98/99 레알 마드리드"],
+   "LG": ["09/10 마르세유", "02/03 레알 마드리드", "00/01 레알 마드리드"],
+   "DC": ["07/08 발렌시아", "2006 리버풀"],
+   "LC": ["09/10 마르세유"],
+   "SC": ["01/02 레알 마드리드"]
+  },
+  "o": [],
+  "a": {
+   "TOP": ["03/04 챔피언스리그 9골"],
+   "XI": ["03/04 리그1 · UNFP(선수협회)"]
+  }
+ }
+}
