@@ -1,0 +1,14 @@
+{"preset":"kanoute","name":"프레데리크 카누테","prefix":"KNT",
+ "clubs":[
+  {"key":"lyokt","name":"올랭피크 리옹","short":"리옹","years":"1997~2000","until":"2000-03-01"},
+  {"key":"whukt","name":"웨스트햄 유나이티드","short":"웨스트햄","years":"2000~2003","until":"2003-08-05"},
+  {"key":"totkt","name":"토트넘 홋스퍼","short":"토트넘","years":"2003~2005","until":"2005-08-17"},
+  {"key":"sevkt","name":"세비야","short":"세비야","years":"2005~2012","until":"2012-07-01"},
+  {"key":"bjgkt","name":"베이징 궈안","short":"베이징 궈안","years":"2012~2013","until":null}],
+ "season":{"calendar":["bjgkt"],"jul10":[],"jul1":["lyokt"]},
+ "pos":"CF","flag":"ML","retired":true,
+ "colors":{"lyokt":["#FFFFFF","#CA0000","#1112AB"],"whukt":["#7A263A","#1BB1E7"],"totkt":["#FFFFFF","#132257"],
+  "sevkt":["#FFFFFF","#E20000"],"bjgkt":["#006B3F","#FFFFFF"]},
+ "hon":{"t":{"UEL":["06/07 세비야","05/06 세비야"],"USC":["06/07 세비야"],"DC":["09/10 세비야","06/07 세비야"],"SC":["07/08 세비야"]},
+  "o":[["UEFA 인터토토컵","97/98 리옹"]],
+  "a":{"AFR":["2007 세비야"],"TOP":["07/08 수페르코파 3골"]}}}

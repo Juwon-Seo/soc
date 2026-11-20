@@ -19,7 +19,7 @@ RAW = os.path.join(HERE, "raw")
 ROOT = os.environ.get("SOC_ROOT") or os.path.dirname(os.path.dirname(HERE))
 ELO = os.path.join(ROOT, "elo")
 OUT_ROOT = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else ROOT
-OUT_JS = os.path.join(OUT_ROOT, "src", "data", "knt.js")
+OUT_JS = os.path.join(OUT_ROOT, "src", "data", "knt.js") if "--out" in sys.argv else os.path.join(HERE, "knt.js")
 OUT_JSON = os.path.join(HERE, "kanoute.json")
 ME = "3700"
 ME_KO = "프레데리크 카누테"
@@ -322,7 +322,7 @@ def label(lg, s, r, n):
     if lg == "JAP1": return f"일본 1부 {s} {r}위/{n}팀 (J1리그)"
     if lg == "RSK1": return f"한국 1부 {s} {r}위/{n}팀 (K리그 클래식)"
     if lg == "UZ1": return f"우즈베키스탄 1부 {s} {r}위/{n}팀"
-    if lg.startswith("ES3"): return f"스페인 3부 {s} {r}위/{n}팀 (Segunda División B Group {'ABCD'.index(lg[-1]) + 1}, 리그 수준 추정)"
+    if lg.startswith("ES3"): return f"스페인 3부 {s} {r}위/{n}팀 (Segunda División B Grupo {['I', 'II', 'III', 'IV']['ABCD'.index(lg[-1])]}, 리그 수준 추정)"
     return None
 RANK_LG = ["ES1", "GB1", "FR1", "CSL", "IT1", "L1", "GB2", "GB3", "FR2", "CLO", "PL1", "A1", "TR1", "DK1", "SER1", "BE1", "SL1", "FI1",
            "RU1", "PO1", "GR1", "TS1", "RO1", "UKR1", "SC1", "JAP1", "RSK1", "UZ1", "ES3A", "ES3B", "ES3C", "ES3D"]
@@ -343,6 +343,13 @@ def ra_value(lv, d):
 MANUAL_LV = {   # 잉글랜드 2부(Football League First Division) 2003-04 최종 순위: 영어 위키백과 2003–04 Football League First Division(raw/wiki/tbl_…, raw/ranks_wiki.txt)
     ("Coventry City", "2003-09-24"): "챔피언십 2003-04 12위/24팀 (Football League First Division)",
     ("Crystal Palace", "2004-01-03"): "챔피언십 2003-04 6위/24팀 (Football League First Division)",   # 6위로 플레이오프 승격
+    # 폴란드 1부 1996-97: Transfermarkt 표 4위(GKS 카토비체 3위). 영어 위키백과 1996–97 Ekstraklasa 순위표는 오드라 3위(승점 55 동률, 득실차 같고 다득점 51 대 47),
+    # 오드라는 1997-98 UEFA컵 예선에 나감(UEFA.com 클럽 기록·위키백과 Polish clubs in European competitions), 카토비체는 유럽 대회 없음 → 3위
+    ("Odra Wodzislaw Slaski", "1997-06-28"): "폴란드 1부 1996-97 3위/18팀 (Ekstraklasa)",
+    # 세군다 B 2011-12 4조: Transfermarkt 표는 7위/21팀(카세레뇨 6위, 시즌 중 제명된 AD 세우타 포함). 영어 위키백과 2011–12 Segunda División B
+    # 순위표(20팀): 산 로케·카세레뇨 승점 61 동률, 맞대결(0-0, 2-1) 산 로케 우위 → 6위(스페인 공식 동률 규칙 = 맞대결)
+    ("CD San Roque de Lepe", "2011-12-13"): "스페인 3부 2011-12 6위/20팀 (Segunda División B Grupo IV, 리그 수준 추정)",
+    ("CD San Roque de Lepe", "2011-12-20"): "스페인 3부 2011-12 6위/20팀 (Segunda División B Grupo IV, 리그 수준 추정)",
 }
 NORANK = {}
 
