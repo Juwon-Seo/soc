@@ -84,3 +84,6 @@ TM 업적 페이지: UEL(UEFA컵 포함) 05/06·06/07·19/20·22/23 세비야, U
 - 클럽별 SOC: 세비야 131.07(705경기 39골 107도움, 84%) · 맨시티 24.74(183·8·34).
 - 상위 기록: 2009-02-21 아틀레티코 87' 골 3.86, 2012-02-26 발렌시아 70' 골 3.26, 2017-09-20 라스팔마스 83' 골 2.88, 2020-08-16 맨유(EL 준결승) 78' 데 용 도움 2.77, 2013-12-21 풀럼 78' 골 2.57, 2011-03-13 바르셀로나 48' 골 2.55, 2007-05-16 에스파뇰(UEFA컵 결승) 105' 카누테 도움 2.51, 2019-02-23 바르셀로나 22' 골 2.50, 2013-12-10 바이에른(CL) 64' 밀너 도움 2.49, 2021-04-04 아틀레티코 70' 아쿠냐 도움 2.40.
 - §16 점검(중복·스코어 순서·분 범위·E 날짜가 M에 있음·같은 날 2경기·도움 득점자·본인 도움·Elo 범위) 빌드 안에서 0건.
+
+## v1.260 추가 (2026-11-20)
+- 2009-11-10 Sevilla 5-1 Atlético Ciudad (Copa del Rey R32 2nd leg): Navas goal 51' at 0-1. TM lists him "not in squad"; en.wiki 2009–10 Sevilla FC season football box (RFEF acta link) and ESPN gameId 284888 both credit Navas 51'. Added to nav.js directly (E row + M row, 90 min estimated, Elo 1342, tie [2,1,4,2,1,1]); build_navas.py not changed, so re-running it would drop this game unless the row is added there.
