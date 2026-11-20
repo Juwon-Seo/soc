@@ -30,12 +30,15 @@ def get(url, path):
         except Exception as e:  # 네트워크 오류는 잠깐 쉬고 다시
             print('  다시 시도', url, e)
             time.sleep(3 * (k + 1))
-    raise SystemExit('가져오기 실패: ' + url)
+    print('  가져오기 실패: ' + url)
+    return None
 
 
 def shootout_score(cache, gid, venue):
     """승부차기 경기의 연장 120분 스코어(우리 팀, 상대)."""
-    d = get(f'https://tmapi.transfermarkt.technology/game/{gid}', os.path.join(cache, f'game_{gid}.json'))['data']
+    D = get(f'https://tmapi.transfermarkt.technology/game/{gid}', os.path.join(cache, f'game_{gid}.json'))
+    if not D: return None
+    d = D['data']
     h = a = 0
     for x in d.get('actions', []):
         if x.get('type') == 'GOAL' and x.get('score'):
@@ -61,7 +64,9 @@ def main():
         if m: finals = json.loads(m.group(1))
     for spec in sys.argv[2:]:
         pid, prefix, tmid = spec.split(':')
-        perf = get(f'https://tmapi.transfermarkt.technology/player/{tmid}/performance-game', os.path.join(cache, f'perf_{tmid}.json'))['data']['performance']
+        P = get(f'https://tmapi.transfermarkt.technology/player/{tmid}/performance-game', os.path.join(cache, f'perf_{tmid}.json'))
+        if not P: print(f'{pid}: 건너뜀(TM 선수 id {tmid} 실패)'); continue
+        perf = P['data']['performance']
         games = []
         for g in perf:
             gi = g['gameInformation']
@@ -75,7 +80,9 @@ def main():
 
         def score(g):
             if g['state'] == 'penalty_shootout':
-                F, A = shootout_score(cache, g['gid'], g['venue'])
+                s = shootout_score(cache, g['gid'], g['venue'])
+                if s is None: return None
+                F, A = s
                 return [F, A, 1 if g['F'] > g['A'] else -1]
             return [g['F'], g['A'], 0]
 
@@ -94,9 +101,11 @@ def main():
                 g = find(date)
                 if not g: miss.append(key); continue
                 v = score(g)
+                if v is None: miss.append(key); continue
                 if tie and tie[0] == 1:  # 1차전: 같은 대회·같은 상대의 다음 경기(70일 안)를 2차전으로
                     n = [x for x in games if x['comp'] == g['comp'] and x['opp'] == g['opp'] and 0 < (x['d'] - g['d']).days <= 70]
-                    if n: v = v + score(n[0])
+                    s2 = score(n[0]) if n else None
+                    if s2: v = v + s2
                     else: noleg2.append(key)
                 out[key] = v
             if v[0] < gf + 1 or v[1] < ga:  # 기록의 골 뒤 스코어가 최종 스코어보다 크면 날짜 맞춤이 틀린 것
