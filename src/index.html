@@ -391,7 +391,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.236</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.237</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -422,7 +422,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
         <li><b>포지션</b> 주 포지션 기준(공격수·윙어·미드필더) · 이름 위에 마우스를 올리면 세부 포지션 · 센터포워드·세컨드 스트라이커 = 공격수, 좌우 윙어 = 윙어, 공격형 미드필더 = 미드필더 (국가대표판과 같은 분류)</li>
         <li><b>*</b> 은퇴한 선수(클럽 통산 확정) · 나머지 선수는 2026년 11월 9일까지</li>
         <li><b>챔스 비중</b> 전체 SOC 중 챔피언스리그 몫 · <b>최고 시즌</b> 시즌 SOC가 가장 높은 시즌</li>
-        <li><b>SOC-CAR</b> 커리어 점수(Career, 소리가 사커와 비슷) = 누적 SOC × 0.5 + 최고 5시즌 SOC 합 × 0.25 + 최고 3시즌 SOC 합 × 0.25 · 야구의 JAWS(통산 WAR과 전성기 WAR의 평균)처럼 오래 꾸준한 선수와 짧고 굵은 전성기를 한 잣대로 · 최고 시즌은 아래 3·5-peak와 같은 목록(최소 출전 시간 이상 시즌) · <b>*</b> 기준을 넘는 시즌이 5개보다 적어 있는 시즌만 더한 값 · 기간은 통산, 위의 '대회' 선택은 적용</li>
+        <li><b>SOC-CAR</b> 커리어 점수(Career, 소리가 사커와 비슷) = 누적 SOC × 0.5 + 3-peak 평균 + 5-peak 평균(최고 3시즌 하나하나에 약 0.53, 4·5번째 시즌에 0.2의 무게) · 야구의 JAWS(통산 WAR과 전성기 WAR의 평균)처럼 오래 꾸준한 선수와 짧고 굵은 전성기를 한 잣대로 · 최고 시즌은 아래 3·5-peak와 같은 목록(최소 출전 시간 이상 시즌) · <b>*</b> 기준을 넘는 시즌이 5개보다 적어 있는 시즌만 평균한 값 · 기간은 통산, 위의 '대회' 선택은 적용</li>
         <li><b>3-peak·5-peak 평균</b> 그 시즌 출전이 최소 출전 시간(기본 900분, 계수 조정에서 바꿀 수 있음) 이상인 시즌만 골라 시즌 SOC가 높은 순으로 3개·5개를 평균 (야구 WAR의 전성기 지표처럼, 연속 시즌이 아니어도 됨) · 숫자에 마우스를 올리거나 누르면 들어간 시즌 · <b>*</b> 기준을 넘는 시즌이 3개·5개보다 적어 있는 시즌만 평균한 값(0으로 채우지 않음, 몇 시즌인지는 숫자에 마우스를 올리면 보임) · 한 시즌에 두 클럽에서 뛰었으면 합쳐서 셈 · 연도 시즌(MLS·브라질 등)과 유럽식 시즌이 겹치는 해는 서로 다른 시즌으로 셈 · 위의 '대회' 선택이 적용되며(리그만 고르면 출전 시간도 리그만), 기간은 통산 · '모든 대회'·'리그만' 이외의 대회를 고르면 시즌별 출전이 적으므로 최소 출전 시간을 90분으로 낮춰 적용</li>
       </ul>
     </div>
@@ -905,10 +905,10 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 const PEAK_MIN=900;
 // 최고 N시즌: 출전 PEAK_MIN분 이상 시즌을 시즌 SOC 높은 순으로 [시즌, SOC, 분] (대회 필터 적용, 기간은 통산, 한 시즌 두 클럽은 합침)
 function peakMin(c){const v=c&&+c.minMin;const b=isFinite(v)&&v>=0?v:PEAK_MIN;const f=st.compF||"all";return f==="all"||f==="lg"?b:Math.min(b,90)}
-/* SOC-CAR(커리어 점수, v1.236): 누적 SOC × 0.5 + 최고 5시즌 SOC 합 × 0.25 + 최고 3시즌 SOC 합 × 0.25 (야구 JAWS처럼 통산과 전성기를 함께, 시즌은 3·5-peak와 같은 목록) */
-function socCar(soc,PQ){const sm=k=>PQ.slice(0,k).reduce((a,x)=>a+x[1],0),s5=sm(5),s3=sm(3);return {v:.5*soc+.25*s5+.25*s3,soc,s5,s3,k:Math.min(5,PQ.length),ss:PQ.slice(0,5)}}
-function carHtml(o){if(!o)return "–";const tip="SOC-CAR(커리어 점수) = 누적 SOC × 0.5 + 최고 5시즌 합 × 0.25 + 최고 3시즌 합 × 0.25\n= "+f2(o.soc)+" × 0.5 + "+f2(o.s5)+" × 0.25 + "+f2(o.s3)+" × 0.25"+
-  "\n최고 시즌(출전 "+peakMin(st.coef)+"분 이상"+(o.k<5?", 기준을 넘는 시즌이 "+o.k+"개뿐":"")+")\n"+(o.ss.length?o.ss.map((x,i)=>(i+1)+". "+x[0]+"  "+f2(x[1])+" · "+x[2].toLocaleString("ko-KR")+"분").join("\n"):"없음");
+/* SOC-CAR(커리어 점수, v1.236, v1.237 식 변경): 누적 SOC × 0.5 + 3-peak 평균 + 5-peak 평균 (야구 JAWS처럼 통산과 전성기를 함께, 시즌은 3·5-peak와 같은 목록, 시즌이 모자라면 있는 시즌만 평균) */
+function socCar(soc,PQ){const av=k=>{const t=PQ.slice(0,k);return t.length?t.reduce((a,x)=>a+x[1],0)/t.length:0},a5=av(5),a3=av(3);return {v:.5*soc+a3+a5,soc,a5,a3,k:Math.min(5,PQ.length),ss:PQ.slice(0,5)}}
+function carHtml(o){if(!o)return "–";const tip="SOC-CAR(커리어 점수) = 누적 SOC × 0.5 + 3-peak 평균 + 5-peak 평균\n= "+f2(o.soc)+" × 0.5 + "+f2(o.a3)+" + "+f2(o.a5)+(o.k<5?"\n(기준을 넘는 시즌이 "+o.k+"개뿐이라 있는 시즌만 평균)":"")+
+  "\n최고 시즌(출전 "+peakMin(st.coef)+"분 이상)\n"+(o.ss.length?o.ss.map((x,i)=>(i+1)+". "+x[0]+"  "+f2(x[1])+" · "+x[2].toLocaleString("ko-KR")+"분").join("\n"):"없음");
   return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">${f2(o.v)}${o.k<5?'<span class="pkst">*</span>':""}</span>`}
 function peakSeasons(p,c){const Y={},YM={};p.matches.filter(m=>inC(m.comp)).forEach(m=>{const s=seasonOf(m.date,pClub(p,m.date));YM[s]=(YM[s]||0)+(+m.min||0)});p.entries.filter(e=>inC(e.comp)).forEach(e=>{const s=seasonOf(e.date,pClub(p,e.date));Y[s]=(Y[s]||0)+value(e,c).v});return Object.keys(YM).filter(s=>YM[s]>=peakMin(c)).map(s=>[s,Y[s]||0,YM[s]]).sort((x,y)=>y[1]-x[1])}
 const RETIRED=new Set(["benarfa","henry","drogba","robben","aguero","ribery","ibrahimovic","hazard","iniesta","immobile","rooney","bale","torres","vanpersie","fabregas","kaka","higuain","villa","payet","lampard","ronaldinho","silva","klose","etoo","gerrard","totti","delpiero","ballack","mertens","vannistelrooy","raul","ronaldonazario","zidane","ozil","shevchenko","pastore","callejon","figo","giggs","nedved","seedorf","sneijder","inzaghi","pizarro","malouda","juninho","gomez","camoranesi","giuly","beckham","forlan","rivaldo","gourcuff","vieri","pauleta","podolski","blaszczykowski","shearer","ruicosta","pedro","cazorla","pires","menez","ljungberg","riquelme","turan","makaay","zeroberto","altintop","gervinho","gignac","elber","diego","vandervaart","hamsik","candreva","reyes","joaquin","gomis","walcott","valencia","duff","bellarabi","schneider","govou","bastos","ashleyyoung","dinatale","kiessling","lennon","wrightphillips","navas","cassano","valeron","ailton","scholl","rothen","vicente","marin","micoud","niang","capel","simonepepe","marvinmartin","owen","trezeguet","crespo","berbatov","tevez","milito","batistuta","kluivert","lucatoni","adriano","robinho","parkjisung","diegocosta","mandzukic","baggio","overmars","anelka","gilardino","simao","saviola"]);
