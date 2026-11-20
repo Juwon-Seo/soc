@@ -1,0 +1,116 @@
+#!/usr/bin/env python3
+"""경기 최종 스코어 수집(v1.239): 골·도움 기록의 결승골·마지막 동점골 표시용.
+
+출처: Transfermarkt performance-game API(선수 1명당 1회, 경기마다 우리 팀·상대 최종 득점, 연장 포함).
+승부차기 경기는 goalsTotal에 승부차기가 섞여 있으므로 경기 상세 API(game/<id>)의 GOAL 동작으로 120분 스코어를 구함.
+
+python3 tools/final_scores.py <캐시 폴더> <프리셋id:접두어:TM선수id> ...
+  예: python3 tools/final_scores.py /tmp/fs son:SON:91845 drogba:DRO:3924
+결과: src/data/finals.js 의 FINALS[프리셋id] 에 '날짜|상대' → 값 을 합쳐 씀(다른 선수 값은 그대로 둠).
+  값 = [우리 팀 최종, 상대 최종, 승부차기(1 이김·-1 짐·0 없음)]
+  두 경기 합산 1차전 기록은 2차전 결과를 덧붙임: [F, A, p, 2차전 F, 2차전 A, 2차전 p]
+"""
+import json, os, re, sys, time, datetime, urllib.request
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT = os.path.join(ROOT, 'src/data/finals.js')
+UA = {'User-Agent': 'Mozilla/5.0', 'Accept': '*/*'}
+
+
+def get(url, path):
+    if os.path.exists(path):
+        return json.load(open(path))
+    for k in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+                d = json.load(r)
+            json.dump(d, open(path, 'w'))
+            time.sleep(1.5)
+            return d
+        except Exception as e:  # 네트워크 오류는 잠깐 쉬고 다시
+            print('  다시 시도', url, e)
+            time.sleep(3 * (k + 1))
+    raise SystemExit('가져오기 실패: ' + url)
+
+
+def shootout_score(cache, gid, venue):
+    """승부차기 경기의 연장 120분 스코어(우리 팀, 상대)."""
+    d = get(f'https://tmapi.transfermarkt.technology/game/{gid}', os.path.join(cache, f'game_{gid}.json'))['data']
+    h = a = 0
+    for x in d.get('actions', []):
+        if x.get('type') == 'GOAL' and x.get('score'):
+            h = max(h, x['score']['home']); a = max(a, x['score']['away'])
+    return (h, a) if venue == 'home' else (a, h)
+
+
+def load_rows(prefix):
+    f = [p for p in os.listdir(os.path.join(ROOT, 'src/data')) if p.endswith('.js')]
+    for p in f:
+        t = open(os.path.join(ROOT, 'src/data', p), encoding='utf-8').read()
+        m = re.search(r'const ' + prefix + r'_E=(\[.*?\]\]);', t, re.S)
+        if m:
+            return json.loads(m.group(1))
+    raise SystemExit('데이터 없음: ' + prefix)
+
+
+def main():
+    cache = sys.argv[1]; os.makedirs(cache, exist_ok=True)
+    finals = {}
+    if os.path.exists(OUT):
+        m = re.search(r'const FINALS=(\{.*\});', open(OUT, encoding='utf-8').read(), re.S)
+        if m: finals = json.loads(m.group(1))
+    for spec in sys.argv[2:]:
+        pid, prefix, tmid = spec.split(':')
+        perf = get(f'https://tmapi.transfermarkt.technology/player/{tmid}/performance-game', os.path.join(cache, f'perf_{tmid}.json'))['data']['performance']
+        games = []
+        for g in perf:
+            gi = g['gameInformation']
+            if gi.get('isNationalGame'): continue
+            c = g['clubsInformation']['club']; o = g['clubsInformation']['opponent']
+            if c.get('goalsTotal') is None: continue
+            d = datetime.date.fromisoformat(gi['date']['dateTimeUTC'][:10])
+            games.append(dict(d=d, gid=gi['gameId'], comp=gi['competitionId'], opp=o['clubId'], venue=c['venue'],
+                              F=c['goalsTotal'], A=o['goalsTotal'], state=gi['gameState']))
+        games.sort(key=lambda x: x['d'])
+
+        def score(g):
+            if g['state'] == 'penalty_shootout':
+                F, A = shootout_score(cache, g['gid'], g['venue'])
+                return [F, A, 1 if g['F'] > g['A'] else -1]
+            return [g['F'], g['A'], 0]
+
+        def find(date):
+            d = datetime.date.fromisoformat(date)
+            c = [g for g in games if abs((g['d'] - d).days) <= 1]
+            c.sort(key=lambda g: (abs((g['d'] - d).days), g['d'] != d - datetime.timedelta(days=1)))
+            return c[0] if c else None
+
+        out = {}; miss = []; bad = []; noleg2 = []
+        for r in load_rows(prefix):
+            date, opp, gf, ga, tie = r[9], r[1], r[5], r[6], (r[14] if len(r) > 14 else 0)
+            key = f'{date}|{opp}'
+            if key in out: v = out[key]
+            else:
+                g = find(date)
+                if not g: miss.append(key); continue
+                v = score(g)
+                if tie and tie[0] == 1:  # 1차전: 같은 대회·같은 상대의 다음 경기(70일 안)를 2차전으로
+                    n = [x for x in games if x['comp'] == g['comp'] and x['opp'] == g['opp'] and 0 < (x['d'] - g['d']).days <= 70]
+                    if n: v = v + score(n[0])
+                    else: noleg2.append(key)
+                out[key] = v
+            if v[0] < gf + 1 or v[1] < ga:  # 기록의 골 뒤 스코어가 최종 스코어보다 크면 날짜 맞춤이 틀린 것
+                bad.append((key, gf, ga, v[:2]))
+        for k, *_ in bad: out.pop(k, None)
+        finals[pid] = out
+        print(f'{pid}: 경기 {len(out)} · TM에 없음 {len(miss)} · 스코어 모순(빼냄) {len(bad)} · 2차전 못 찾음 {len(noleg2)}')
+        for x in (miss[:5] + bad[:5] + noleg2[:5]): print('   ', x)
+    body = json.dumps(finals, ensure_ascii=False, separators=(',', ':'), sort_keys=True)
+    open(OUT, 'w', encoding='utf-8').write(
+        '/* 경기 최종 스코어(v1.239): 프리셋 id → "날짜|상대" → [우리 팀, 상대, 승부차기(1 이김·-1 짐·0)] (두 경기 합산 1차전은 2차전 결과 3칸을 덧붙임). '
+        '출처 Transfermarkt performance-game·경기 상세. 결승골·마지막 동점골 표시에만 쓰고 SOC 계산에는 쓰지 않음. tools/final_scores.py로 만듦. */\n'
+        f'const FINALS={body};\n')
+
+
+if __name__ == '__main__':
+    main()
