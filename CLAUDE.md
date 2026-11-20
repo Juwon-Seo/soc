@@ -1,13 +1,13 @@
 # 클럽 SOC 계산기 (축구력 계산기) — Claude Code 작업 규칙
 
 축구 선수의 클럽 경력 SOC(축구력)를 계산하는 단일 페이지 계산기. 답변은 **한국어**로 한다.
-현재 **v1.256**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
+현재 **v1.257**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
 
 ## 저장소 구조
 
 ```
 src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 233개
-src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.256)
+src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.257)
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일, gzip 압축본) · club-soc.packed-test.html(압축본 시험용) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
@@ -28,7 +28,7 @@ players/            (선택) 선수별 원자료·build 스크립트·순위표 
 1. **기존 선수 수치는 바뀌지 않아야 한다.** 새 선수 추가·화면 수정 뒤 `npm run check`가 "통과"여야 한다. 일부러 값을 바꾼 선수는 `--allow 이름`으로 허용하고, 바뀐 선수·수치를 **표로 요약해 알린다**.
 2. **초기 렌더 순서(TDZ)**: `render()`는 스크립트 앞부분에서 처음 실행된다. render 안에서 부르는 코드가 뒤에 선언된 `const`를 건드리면 스크립트 전체가 멈춘다. render에서 쓸 새 상수는 `const DEF=` 앞에, 새 함수는 `function` 선언으로 둔다.
 3. **데이터 `<script src>`는 본문 `<script>`보다 앞**에 둔다(상수가 먼저 있어야 `PRESETS`가 만들어짐). 데이터 파일을 추가하면 `index.html`에 태그를 반드시 같이 추가한다(build.py가 짝이 안 맞으면 멈춘다).
-4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.256</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
+4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.257</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
 5. 기록은 **출처로 확인된 것만** 넣는다. 추정하거나 뺀 내용과 출처 간 차이는 그 선수의 설명(`XXX_NOTE`)에 남긴다. 근거는 '데이터 출처와 처리 방식'(게시본 설명)이 정본이다.
 6. 별도의 '○○추가.md'를 만들지 않는다. 바뀐 내용은 `docs/`의 인수인계 문서에 반영한다.
 7. 설명(`XXX_NOTE`)·`lv` 문구에 작업용 코드/변수명(dc·dk·dsf·ko·OTHER_LEG·seasonOf·v1.xxx 등)을 쓰지 않는다. 도움·골을 더하거나 빼면 설명 첫 줄 합계와 '클럽별 경기·골·도움' 줄도 같이 고친다(docs 17절).
@@ -73,7 +73,7 @@ SOC = Σ 기본값 × S × O × C
 ## 게시 (링크로 확인하기)
 
 - 정본 게시본(채팅에서 만든 기존 링크): https://claude.ai/artifact/QAwELkPtyT2ZGvpPfmvUDt — slug `bba54db4-c9db-4117-bd38-c8859144fe7f`. 파일은 `src/index.html`→`index.html`, `src/data/*.js`→`data/*.js` 그대로 대응한다. **claude.ai 채팅 세션에서** `publish_files`로 바뀐 파일만 올리면 같은 링크가 갱신된다(slug·base_version 필요, 파일은 작업 폴더 아래). 올린 뒤 `list_files` sha256으로 확인.
-- Claude Code에서 직접 게시하면 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`을 게시한다. v1.256부터 데이터·본문 스크립트를 gzip+base64로 압축해 넣고 열 때 브라우저(DecompressionStream)가 풀어 실행하므로 약 4.7MB(원본 약 15MB, 16MiB 한도). 압축본 확인은 `dist/club-soc.packed-test.html`을 열어 보면 됨. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
+- Claude Code에서 직접 게시하면 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`을 게시한다. v1.257부터 데이터·본문 스크립트를 gzip+base64로 압축해 넣고 열 때 브라우저(DecompressionStream)가 풀어 실행하므로 약 4.7MB(원본 약 15MB, 16MiB 한도). 압축본 확인은 `dist/club-soc.packed-test.html`을 열어 보면 됨. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
 - Claude Code 게시본(2026-11-10 v1.146부터): https://claude.ai/artifact/1GGsVtJ4cca2x1h6VwUc4A — 다음 세션에서 갱신할 때는 이 URL을 `url`로 넘겨 같은 링크를 유지한다(안 넘기면 또 새 링크가 생김). 채팅 정본 링크(위)와는 따로 관리되므로 둘 중 어느 쪽이 최신인지 버전 문구로 확인한다.
 - 게시 직전에 다른 세션이 올렸는지(버전·sha256) 확인한다.
 
