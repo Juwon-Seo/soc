@@ -334,8 +334,14 @@ WIKI.update({("TR1", f"{y}-{str(y + 1)[2:]}"): f"{y}–{str(y + 1)[2:]}_Süper_L
 def wiki_order(fn):
     t = open(os.path.join(WT, fn), encoding="utf-8").read()
     i = t.lower().find("#invoke:sports table"); t = t[i:]; t = t[:t.find("\n}}")]
-    names = {m.group(1): re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*([^\n]+)", t)}
+    names = {m.group(1): re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*(\[\[[^\]]*\]\]|[^|\n]+)", t)}
+    for m in re.finditer(r"\|win_([A-Z0-9_]+)\s*=[^\n]*?<!--\s*([^-]+?)\s*-->", t):   # team_order 형식: 이름은 주석
+        names.setdefault(m.group(1), m.group(2))
     out = {}
+    mo = re.search(r"\|team_order\s*=\s*([^\n|]+)", t)
+    if mo:
+        for n, c in enumerate([x.strip() for x in mo.group(1).split(",") if x.strip()], 1): out[n] = names.get(c, c)
+        return out
     for m in re.finditer(r"\|team(\d+)\s*=\s*([^|\n]+)", t):
         n = int(m.group(1))
         if n not in out: out[n] = names.get(m.group(2).strip(), m.group(2).strip())

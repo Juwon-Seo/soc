@@ -42,7 +42,7 @@ const OUT = APPLY ? path.join(ROOT, 'elo') : path.resolve(POS[0] || path.join(RO
 // ---------- 자료 읽기 ----------
 const DATA = path.join(ROOT, 'src', 'data');
 const ctx = {}; vm.createContext(ctx);
-const files = fs.readdirSync(DATA).filter(f => f.endsWith('.js') && f !== 'hon.js' && f !== 'clubcolors.js').sort();
+const files = fs.readdirSync(DATA).filter(f => f.endsWith('.js') && !['hon.js','clubcolors.js','finals.js'].includes(f)).sort();
 for (const f of files) vm.runInContext(fs.readFileSync(path.join(DATA, f), 'utf8').replace(/(^|\*\/|;)\s*const /gm, '$1var '), ctx, { filename: f });
 // 선수 이름: index.html PRESETS 에서 접두어 → 이름
 const html = fs.readFileSync(path.join(ROOT, 'src', 'index.html'), 'utf8');
