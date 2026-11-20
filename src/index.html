@@ -392,7 +392,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.239</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.240</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -1318,7 +1318,9 @@ function lvHtml(lv){lv=String(lv);const i=lv.indexOf(" (");if(i<0)return esc(lv)
   return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(d)}" aria-label="${esc(lv)}">${esc(lv.slice(0,i))}</span>`}
 /* 결승골·마지막 동점골(v1.239): 최종 스코어(FINALS, 두 경기 합산은 합산 스코어)로 판정. 'w' = 결승골(이긴 경기에서 상대 최종 득점 + 1번째 우리 골,
    합산 동점을 원정 다득점으로 이긴 경우의 마지막 합산 동점골 포함), 'e' = 무승부(승부차기 포함)로 끝난 경기의 마지막 동점골. 도움은 도운 골 기준. 최종 스코어 자료가 없으면 표시 안 함 */
-function finKind(pl,e){const F=typeof FINALS!=="undefined"&&pl.preset&&FINALS[pl.preset];const v=F&&F[e.date+"|"+e.opp];if(!v)return null;
+function finMap(id){const c=finMap.c||(finMap.c={});if(id in c)return c[id];const s=typeof FINALS!=="undefined"&&FINALS[id];const m=c[id]={};
+  if(s)s.split(";").forEach(x=>{if(!x)return;const a=x.split(","),y=+a[0].slice(0,2),v=a.slice(1).map(Number);if(v.length===2)v.push(0);m[(y>80?1900+y:2000+y)+"-"+a[0].slice(2,4)+"-"+a[0].slice(4,6)]=v});return m}
+function finKind(pl,e){const v=pl.preset&&finMap(pl.preset)[e.date];if(!v)return null;
   const t=e.tie;let bF,bA,aF,aA,pen=0,awayW=0;
   if(!t){bF=e.gf;bA=e.ga;aF=v[0];aA=v[1];pen=v[2]}
   else if(t.leg===1){if(v.length<6)return null;bF=e.gf;bA=e.ga;aF=v[0]+v[3];aA=v[1]+v[4];pen=v[5];const ta=t.home?v[3]:v[0],oa=t.home?v[1]:v[4];awayW=ta>oa?1:ta<oa?-1:0}

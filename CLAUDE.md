@@ -1,18 +1,18 @@
 # 클럽 SOC 계산기 (축구력 계산기) — Claude Code 작업 규칙
 
 축구 선수의 클럽 경력 SOC(축구력)를 계산하는 단일 페이지 계산기. 답변은 **한국어**로 한다.
-현재 **v1.239**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
+현재 **v1.240**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
 
 ## 저장소 구조
 
 ```
 src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 233개
-src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.239)
+src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.240)
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
 tools/add_players.py  새 선수를 index.html·hon.js 에 넣는 패치(integration.json 사용)
-tools/final_scores.py  경기 최종 스코어 수집(TM performance-game API) → src/data/finals.js
+tools/final_scores.py  경기 최종 스코어 수집(TM performance-game API) → src/data/finals.js. 선수별 인자는 tools/final_scores_specs.txt(프리셋id:접두어:TM선수id, 230명)
 tools/elo_table.js  src/data 에서 상대 Elo 팀×시즌 통합표 만들기(npm run elo → elo/)
 elo/                상대 Elo 팀×시즌 통합표·별칭·충돌 목록(ents.json 덤프는 git 제외)
 tests/baseline-latest.json   기존 선수 수치 기준 스냅숏(작업이 끝나면 갱신)
@@ -65,7 +65,7 @@ SOC = Σ 기본값 × S × O × C
 2. `players/<선수>/`에 원자료·`build_<선수>.py`·순위표를 둔다(`<선수>.json` → `mk()` 행으로 변환).
 3. `src/data/xxx.js` 새로 만들기: `XXX_E`·`XXX_M`·`XXX_NOTE` 세 상수. 접두어는 상수 이름 앞부분 소문자(파일명).
 4. `src/index.html`에 `<script src="data/xxx.js"></script>`를 **마지막 data 태그 뒤, 본문 `<script>` 앞**에 추가.
-5. 새 클럽 키가 생기면(integration.json의 `colors`, add_players.py는 색을 넣지 않으므로 따로) `src/data/clubcolors.js`의 `CLUB_COLORS`에 [주 색, 보조 색, 셋째 색](위키백과 유니폼·클럽 색) 추가(없으면 그래프가 기본 팔레트를 씀). `python3 tools/final_scores.py <캐시 폴더> <프리셋id:접두어:TM선수id>`로 `finals.js`에 최종 스코어 추가(결승골·동점골 표시, 스코어 모순 0 확인). `src/data/hon.js`의 `HON_DATA` 한 줄에 우승·개인수상 항목 추가(프리셋 id 키, Transfermarkt 업적 페이지. 준우승은 넣지 않음(v1.220), 클럽 월드컵·슈퍼컵은 시즌 표기).
+5. 새 클럽 키가 생기면(integration.json의 `colors`, add_players.py는 색을 넣지 않으므로 따로) `src/data/clubcolors.js`의 `CLUB_COLORS`에 [주 색, 보조 색, 셋째 색](위키백과 유니폼·클럽 색) 추가(없으면 그래프가 기본 팔레트를 씀). `python3 tools/final_scores.py <캐시 폴더> <프리셋id:접두어:TM선수id>`로 `finals.js`에 최종 스코어 추가하고 `tools/final_scores_specs.txt`에 한 줄 추가(결승골·동점골 표시, TM에 없음·스코어 모순 확인). `src/data/hon.js`의 `HON_DATA` 한 줄에 우승·개인수상 항목 추가(프리셋 id 키, Transfermarkt 업적 페이지. 준우승은 넣지 않음(v1.220), 클럽 월드컵·슈퍼컵은 시즌 표기).
 6. `src/index.html` 나머지(**`players/<선수>/integration.json`을 만들어 `ADD_PLAYERS_REAL=1 python3 tools/add_players.py <마지막 선수 id> <json…>`로 한 번에 넣는다** — 정본 보호 장치 때문에 환경 변수가 필요, 검증은 복사본에서, v1.150): `PRESETS`·`PCLUBS`·`CLUBS2`·클럽 판정 함수·`pClub`·`seasonOf`(필요 시)·`CL`·`CLN`·`RETIRED`(은퇴 시)·`POS_OF`·국기(`FLAG`, 새 나라는 `flagBody`)·그래프 색 `--s<N>`(라이트 1곳·다크 2곳)·`slotOf`의 `(i%N)+1`·버전. `MAXSEL`은 7로 고정이라 올리지 않는다. 앵커는 **마지막 선수(마이클 올리세, 프리셋 `olise`) 기준**으로 잡고, 정확히 지정 횟수만큼 있는지 검사하는 `rep()` 방식 패치 스크립트를 쓴다.
 7. `npm run check` → 기존 선수 동일·새 선수 '추가'로 표시, 콘솔 오류 없음 확인. 화면이 바뀌면 넓은 화면·휴대폰 폭(390px)·다크 모드를 playwright로 캡처해 확인.
 8. `tests/baseline-latest.json`을 새 스냅숏(`dist/snapshot.json`)으로 교체, `docs/`에 반영(5절 표, 선수별 규칙, 새 리그 수준, 새 시즌 규칙, 버전 이력), 후보 풀(`football_200_등록표시.md`) 등록 표시.
@@ -73,7 +73,7 @@ SOC = Σ 기본값 × S × O × C
 ## 게시 (링크로 확인하기)
 
 - 정본 게시본(채팅에서 만든 기존 링크): https://claude.ai/artifact/QAwELkPtyT2ZGvpPfmvUDt — slug `bba54db4-c9db-4117-bd38-c8859144fe7f`. 파일은 `src/index.html`→`index.html`, `src/data/*.js`→`data/*.js` 그대로 대응한다. **claude.ai 채팅 세션에서** `publish_files`로 바뀐 파일만 올리면 같은 링크가 갱신된다(slug·base_version 필요, 파일은 작업 폴더 아래). 올린 뒤 `list_files` sha256으로 확인.
-- Claude Code에서 직접 게시하면 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`(약 4MB)을 게시한다. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
+- Claude Code에서 직접 게시하면 **새 링크**가 생기고 **한 파일만** 가능하다(상대 경로 불가, 렌더 후 16MiB 이하). 이때는 `dist/club-soc.artifact.html`(v1.240 기준 약 15.3MB, 16MiB 한도에 가까우니 크기를 확인)을 게시한다. 기존 링크를 Claude Code에서 갱신할 수 있는지는 아직 확인 못 함.
 - Claude Code 게시본(2026-11-10 v1.146부터): https://claude.ai/artifact/1GGsVtJ4cca2x1h6VwUc4A — 다음 세션에서 갱신할 때는 이 URL을 `url`로 넘겨 같은 링크를 유지한다(안 넘기면 또 새 링크가 생김). 채팅 정본 링크(위)와는 따로 관리되므로 둘 중 어느 쪽이 최신인지 버전 문구로 확인한다.
 - 게시 직전에 다른 세션이 올렸는지(버전·sha256) 확인한다.
 

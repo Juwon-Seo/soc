@@ -46,6 +46,25 @@ def shootout_score(cache, gid, venue):
     return (h, a) if venue == 'home' else (a, h)
 
 
+def encode(d):
+    out = []
+    for k in sorted(d):
+        v = list(d[k])
+        if len(v) == 3 and v[2] == 0: v = v[:2]
+        out.append(','.join([k[2:4] + k[5:7] + k[8:10]] + [str(x) for x in v]))
+    return ';'.join(out)
+
+
+def decode(s):
+    d = {}
+    for part in filter(None, s.split(';')):
+        a = part.split(','); y = int(a[0][:2])
+        k = f'{1900 + y if y > 80 else 2000 + y}-{a[0][2:4]}-{a[0][4:6]}'
+        v = [int(x) for x in a[1:]]
+        d[k] = v + [0] if len(v) == 2 else v
+    return d
+
+
 def load_rows(prefix):
     f = [p for p in os.listdir(os.path.join(ROOT, 'src/data')) if p.endswith('.js')]
     for p in f:
@@ -61,7 +80,7 @@ def main():
     finals = {}
     if os.path.exists(OUT):
         m = re.search(r'const FINALS=(\{.*\});', open(OUT, encoding='utf-8').read(), re.S)
-        if m: finals = json.loads(m.group(1))
+        if m: finals = {k: decode(v) for k, v in json.loads(m.group(1)).items()}
     for spec in sys.argv[2:]:
         pid, prefix, tmid = spec.split(':')
         P = get(f'https://tmapi.transfermarkt.technology/player/{tmid}/performance-game', os.path.join(cache, f'perf_{tmid}.json'))
@@ -95,7 +114,7 @@ def main():
         out = {}; miss = []; bad = []; noleg2 = []
         for r in load_rows(prefix):
             date, opp, gf, ga, tie = r[9], r[1], r[5], r[6], (r[14] if len(r) > 14 else 0)
-            key = f'{date}|{opp}'
+            key = date
             if key in out: v = out[key]
             else:
                 g = find(date)
@@ -114,9 +133,9 @@ def main():
         finals[pid] = out
         print(f'{pid}: 경기 {len(out)} · TM에 없음 {len(miss)} · 스코어 모순(빼냄) {len(bad)} · 2차전 못 찾음 {len(noleg2)}')
         for x in (miss[:5] + bad[:5] + noleg2[:5]): print('   ', x)
-    body = json.dumps(finals, ensure_ascii=False, separators=(',', ':'), sort_keys=True)
+    body = json.dumps({k: encode(v) for k, v in finals.items()}, ensure_ascii=False, separators=(',', ':'), sort_keys=True)
     open(OUT, 'w', encoding='utf-8').write(
-        '/* 경기 최종 스코어(v1.239): 프리셋 id → "날짜|상대" → [우리 팀, 상대, 승부차기(1 이김·-1 짐·0)] (두 경기 합산 1차전은 2차전 결과 3칸을 덧붙임). '
+        '/* 경기 최종 스코어(v1.239, v1.240 압축): 프리셋 id → "yymmdd,우리,상대[,승부차기(1 이김·-1 짐)[,2차전 우리,2차전 상대,2차전 승부차기]];…" (날짜는 기록의 현지 날짜, 두 경기 합산 1차전은 2차전 결과를 덧붙임). '
         '출처 Transfermarkt performance-game·경기 상세. 결승골·마지막 동점골 표시에만 쓰고 SOC 계산에는 쓰지 않음. tools/final_scores.py로 만듦. */\n'
         f'const FINALS={body};\n')
 
