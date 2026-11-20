@@ -412,7 +412,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.257</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.258</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -1819,6 +1819,14 @@ function yrPxMax(){return drawYearChart.last&&!drawYearChart.last.pts?64:14}
 function yrPxGet(){return drawYearChart.last&&!drawYearChart.last.pts?+st.yrBarPx||0:+st.yrPx||0}
 function yrPxSet(v){if(drawYearChart.last&&!drawYearChart.last.pts)st.yrBarPx=v;else st.yrPx=v}
 function yrPxN(){const L=drawYearChart.last;if(!L)return 1;return L.pts?L.pts.length||1:new Set(L.rows.filter(o=>o.soc>0||o.min>0).map(o=>o.y)).size||1}
+/* 시즌별 SOC 그래프(막대·한 시즌 꺾은선) 세로축: 위 끝 = 넘긴 10단위 + 10(91→100, 109→110, 100→110, 7→10).
+   눈금 간격은 1·2·5·10·20·25·50·100…(×10배) 가운데 위 끝을 나누어떨어뜨리고 칸이 3~6개인 것(4칸에 가까운 것, 같으면 작은 간격),
+   없으면 칸이 3~6개인 간격으로 안쪽 눈금을 긋고 위 끝 선을 따로 그음(위 끝과 너무 가까운 안쪽 눈금은 뺌) */
+function yrTicks(ymax){const ytop=Math.floor(ymax/10)*10+10,C=[];for(let e=1;e<=1e6;e*=10)[1,2,5].concat(e>=10?[2.5]:[]).forEach(m=>C.push(m*e));C.sort((a,b)=>a-b);
+  const pick=ok=>{let b=0,bd=1e9;C.forEach(c=>{const n=ytop/c;if(n>=3-1e-9&&n<=6+1e-9&&ok(c)){const d=Math.abs(n-4);if(d<bd-1e-9){b=c;bd=d}}});return b};
+  let step=pick(c=>Math.abs(ytop/c-Math.round(ytop/c))<1e-9);const ticks=[];
+  if(step){for(let i=0;i*step<=ytop+1e-9;i++)ticks.push(i*step);return {ytop,ticks}}
+  step=pick(()=>true);for(let y=0;y<ytop-.4*step+1e-9;y+=step)ticks.push(y);ticks.push(ytop);return {ytop,ticks}}
 function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};const L=drawYearChart.last;const svg=$("yrChart"),leg=$("yrLeg"),tip=$("yrTip");if(!svg||!L)return;
   const R=L.rows.filter(o=>o.soc>0||o.min>0);const sc=$("yrScroll"),base0=Math.round((sc&&sc.clientWidth)||svg.getBoundingClientRect().width||900);
   /* 한 시즌 꺾은선 '간격 넓히기': 포인트당 14px로 그래프를 넓히고 가로 스크롤 */
@@ -1831,9 +1839,9 @@ function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};con
   const seasons=[],by={};R.forEach(o=>{if(!by[o.y]){by[o.y]=[];seasons.push(o.y)}by[o.y].push(o)});
   seasons.forEach(s=>by[s].sort((a,b)=>(a.d0||"")<(b.d0||"")?-1:1));
   const tots=seasons.map(s=>by[s].reduce((q,o)=>q+o.soc,0)),bases=seasons.map(s=>by[s].reduce((q,o)=>q+o.base,0)),ymax=Math.max(1,...tots,...bases);
-  const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const step=nice(ymax/4),ytop=Math.ceil(ymax/step)*step;
+  const {ytop,ticks}=yrTicks(ymax);
   const bw=(W-ml-mr)/Math.max(4,seasons.length),x0=ml+((W-ml-mr)-bw*seasons.length)/2,gap=Math.min(6,bw*.2),sy=y=>H-mb-(y/ytop)*(H-mt-mb);
-  let g='<g class="grid">';for(let y=0;y<=ytop+1e-9;y+=step)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
+  let g='<g class="grid">';for(const y of ticks)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
   const sh=s=>s.replace(/^\d{2}(\d{2}-\d{2})$/,"$1"),lstep=Math.max(1,Math.ceil(40/bw)),segs=[],cols=[];let bars="",lab="",hits="",bands="";
   seasons.forEach((s,i)=>{const x=x0+i*bw+gap/2,w=Math.max(1,bw-gap);let acc=0;const smin=by[s].reduce((q,o)=>q+o.min,0);cols.push({s,ks:[]});
     hits+=`<rect class="hit" data-c="${i}" x="${(x0+i*bw).toFixed(1)}" y="${mt}" width="${bw.toFixed(1)}" height="${H-mt-mb}"/>`;
@@ -1841,7 +1849,7 @@ function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};con
       bars+=`<rect class="seg${smin&&smin<L.pm?" low":""}" data-k="${k}" data-c="${i}" x="${x.toFixed(1)}" y="${y1.toFixed(1)}" width="${w.toFixed(1)}" height="${Math.max(o.soc>0?1:0,y0-y1).toFixed(1)}" fill="${yrFill(team[nm(o)])}" tabindex="-1"/>`});
     if(bases[i]>0){const yb=sy(bases[i]).toFixed(1),bx=(x-1.5).toFixed(1),bx2=(x+w+1.5).toFixed(1);bands+=`<line class="bu" x1="${bx}" x2="${bx2}" y1="${yb}" y2="${yb}"/><line class="bl${acc>=bases[i]?" up":" dn"}" x1="${bx}" x2="${bx2}" y1="${yb}" y2="${yb}"/>`}
     if(i%lstep===0||i===seasons.length-1&&lstep===1)lab+=`<text class="num" x="${(x+w/2).toFixed(1)}" y="${H-mb+16}" text-anchor="middle">${esc(sh(s))}</text>`});
-  yrAxisFix(svg,H,ml,ytop,step,sy);svg.innerHTML=`<defs>${tdefs}</defs>`+g+`<g>${bars}</g>`+lab+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/>`+`<g class="bands">${bands}</g><g>${hits}</g>`;drawYearChart.segs=segs;drawYearChart.cols=cols;
+  yrAxisFix(svg,H,ml,ticks,sy);svg.innerHTML=`<defs>${tdefs}</defs>`+g+`<g>${bars}</g>`+lab+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/>`+`<g class="bands">${bands}</g><g>${hits}</g>`;drawYearChart.segs=segs;drawYearChart.cols=cols;
   const zdb=!!(svg.parentNode&&svg.parentNode.classList.contains("zoomed"));
   leg.innerHTML=(zdb?`<button type="button" class="zbtn" id="yrZoom" aria-pressed="true">↔ 한 화면에 보기</button>`:"")+yrLegend(R.map(o=>({n:nm(o),cl:o.cl})),team)+`<span class="bk"><b></b>기준 SOC (골 1·도움 ${f2(st.coef.ast)})</span>`;
   svg.setAttribute("aria-label","시즌별 SOC 막대그래프: "+seasons.map((s,i)=>s+" "+f2(tots[i])).join(", "))}
@@ -1863,9 +1871,9 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=14,mt=16,FK=P.some(p=>p.fk
   const team={};let ti=0;P.forEach(p=>{if(!(p.team in team))team[p.team]=++ti});const tdefs=yrColors(team,P.map(p=>({n:p.team,cl:p.cl,w:p.v})));
   let cum=0,cb=0;const Q=P.map((p,i)=>{cum+=p.v;cb+=p.b;return {...p,i:i+1,cum,cb,slot:team[p.team]}});
   const base=cb,ymax=Math.max(1,cum,base,...Q.map(q=>q.cum));
-  const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const step=nice(ymax/4),ytop=Math.ceil(ymax/step)*step;
+  const nice=v=>{const e=Math.pow(10,Math.floor(Math.log10(v))),m=v/e;return (m<=1?1:m<=2?2:m<=5?5:10)*e};const {ytop,ticks}=yrTicks(ymax);
   const sx=i=>ml+i/N*(W-ml-mr),sy=y=>H-mb-(y/ytop)*(H-mt-mb);
-  let g='<g class="grid">';for(let y=0;y<=ytop+1e-9;y+=step)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
+  let g='<g class="grid">';for(const y of ticks)g+=`<line x1="${ml}" x2="${W-mr}" y1="${sy(y)}" y2="${sy(y)}"/><text class="num" x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;g+="</g>";
   const xs=Math.max(1,nice(N/8));let xa="";for(let v=0;v<=N;v+=xs)xa+=`<text class="num" x="${sx(v).toFixed(1)}" y="${H-mb+(FK?26:16)}" text-anchor="middle">${v}</text>`;
   let path="",dots="",hits="";const hw=(W-ml-mr)/N;
   Q.forEach((q,k)=>{const x0=sx(k),y0=sy(k?Q[k-1].cum:0),x1=sx(q.i),y1=sy(q.cum);path+=`<line class="ln" x1="${x0.toFixed(1)}" y1="${y0.toFixed(1)}" x2="${x1.toFixed(1)}" y2="${y1.toFixed(1)}" stroke="${yrBase(q.slot)}"${yrHat(q.slot)?' stroke-dasharray="6 3"':""}/>`;
@@ -1883,12 +1891,12 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=14,mt=16,FK=P.some(p=>p.fk
   Q.forEach(q=>{if(!q.fk)return;const x=sx(q.i),w=q.fk==="w";if(w)fW++;else fD++;
     fm+=`<rect class="fmk" x="${(x-fw/2).toFixed(1)}" y="${H-mb+3}" width="${fw.toFixed(1)}" height="9" rx="1" style="${w?"fill:var(--win-goal)":"fill:none;stroke:var(--fg);stroke-width:"+(fw<3?1:1.6)}"/>`});
   const yb=sy(base).toFixed(1);
-  const bl=`<g class="bands"><line class="bu" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/><line class="bl dn" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/></g>${(()=>{/* 숫자는 그래프 안쪽 오른쪽: 누적값은 선 끝 위, 기준값은 기준선 위(겹치면 아래) */const yc=sy(cum),cx=W-mr-(top.includes(N-1)?12:6),cy=yc-9;
+  const bl=`<g class="bands"><line class="bu" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/><line class="bl dn" x1="${ml}" x2="${W-mr}" y1="${yb}" y2="${yb}"/></g>${(()=>{/* 숫자는 그래프 안쪽 오른쪽: 누적값은 선 끝 위, 기준값은 기준선 위(겹치면 아래) */const yc=sy(cum),cx=W-mr-(top.includes(N-1)?12:6),cy=Math.max(11,yc-9);
     /* 기준값은 왼쪽 끝(선이 아직 낮은 쪽) 기준선 위, 왼쪽 선이 기준선 근처면 아래 */const y0=sy(Q[Math.min(N-1,Math.floor(N*.12))].cum),by=Math.abs(y0-yb)<16&&y0<yb+4?yb+14:yb-5;
     {const bl=$("yrBaseLab"),zd=svg.parentNode&&svg.parentNode.classList.contains("zoomed");if(bl){bl.toggleAttribute("hidden",!zd);if(zd){bl.textContent="기준 "+f2(base);bl.style.left=(ml+4)+"px";bl.style.top=(svg.parentNode.offsetTop+by-12)+"px"}}
      if(zd)return `<text class="num lab" x="${cx}" y="${cy.toFixed(1)}" text-anchor="end" style="fill:var(--fg);font-weight:600">${f2(cum)}</text>`}
     return `<text class="num lab" x="${ml+4}" y="${by.toFixed(1)}">기준 ${f2(base)}</text><text class="num lab" x="${cx}" y="${cy.toFixed(1)}" text-anchor="end" style="fill:var(--fg);font-weight:600">${f2(cum)}</text>`})()}`;
-  yrAxisFix(svg,H,ml,ytop,step,sy);
+  yrAxisFix(svg,H,ml,ticks,sy);
   svg.innerHTML=`<defs>${tdefs}</defs>`+g+xa+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/><text x="${W-mr}" y="${H-4}" text-anchor="end">공격포인트 (번째)</text>`+bl+`<g>${path}</g><g>${fm}</g><g>${dots}</g><g class="top3">${tp}</g><g>${hits}</g>`;
   drawYearChart.pts=Q;
   const zd=!!(svg.parentNode&&svg.parentNode.classList.contains("zoomed")),zb=N*yrPxMax()+60>((svg.parentNode&&svg.parentNode.clientWidth)||W)?`<button type="button" class="zbtn" id="yrZoom" aria-pressed="${zd}">${zd?"↔ 한 화면에 보기":"↔ 간격 넓히기"}</button>`:"";
@@ -1956,9 +1964,9 @@ function yrTipPlace(tip,box,ev,a){tip.hidden=false;const b=box.getBoundingClient
   else{left=Math.max(0,Math.min((a.left+a.right)/2-b.left-tw/2,b.width-tw));top=a.top-b.top-th-G;if(top<0)top=a.bottom-b.top+G}
   tip.style.left=Math.max(0,left)+"px";tip.style.top=Math.max(0,top)+"px"}
 /* 넓힌 그래프는 1:1 크기라 세로축 숫자만 따로 왼쪽에 고정 */
-function yrAxisFix(svg,H,ml,ytop,step,sy){const ya=$("yrYAxis"),sc=svg.parentNode,zoomed=!!(sc&&sc.classList.contains("zoomed"));if(!ya)return;ya.toggleAttribute("hidden",!zoomed);if(!zoomed)return;
+function yrAxisFix(svg,H,ml,ticks,sy){const ya=$("yrYAxis"),sc=svg.parentNode,zoomed=!!(sc&&sc.classList.contains("zoomed"));if(!ya)return;ya.toggleAttribute("hidden",!zoomed);if(!zoomed)return;
   ya.setAttribute("viewBox",`0 0 ${ml} ${H}`);ya.style.width=ml+"px";ya.style.height=svg.getBoundingClientRect().height+"px";ya.style.top=sc.offsetTop+"px";
-  let s="";for(let y=0;y<=ytop+1e-9;y+=step)s+=`<text x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;ya.innerHTML=s}
+  let s="";for(const y of ticks)s+=`<text x="${ml-5}" y="${sy(y)+4}" text-anchor="end">${Math.round(y)}</text>`;ya.innerHTML=s}
 function yrTipHide(){const t=$("yrTip");if(t)t.hidden=true;document.querySelectorAll("#yrChart circle.pt.on,#yrChart rect.seg.on").forEach(c=>c.classList.remove("on"))}
 /* 두 손가락 확대·축소(한 시즌 꺾은선·시즌별 막대): 손가락 사이 거리 비율만큼 간격을 바꾸고, 두 손가락 가운데 있던 포인트가 그 자리에 머물도록 스크롤 */
 (()=>{const sc=$("yrScroll");if(!sc)return;let g=null,raf=0;const D=t=>Math.hypot(t[0].clientX-t[1].clientX,t[0].clientY-t[1].clientY);
