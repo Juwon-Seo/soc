@@ -1,13 +1,13 @@
 # 클럽 SOC 계산기 (축구력 계산기) — Claude Code 작업 규칙
 
 축구 선수의 클럽 경력 SOC(축구력)를 계산하는 단일 페이지 계산기. 답변은 **한국어**로 한다.
-현재 **v1.240**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
+현재 **v1.241**, 수록 **230명**(마지막으로 추가된 선수: 마이클 올리세). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
 
 ## 저장소 구조
 
 ```
 src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 233개
-src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.240)
+src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 230개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.241)
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
