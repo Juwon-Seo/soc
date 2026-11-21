@@ -1,0 +1,33 @@
+{
+ "preset": "vlahovic",
+ "name": "두샨 블라호비치",
+ "prefix": "VLA",
+ "clubs": [
+  {"key": "parvl", "name": "파르티잔", "short": "파르티잔", "years": "2016~2018", "until": "2018-07-01"},
+  {"key": "fiovl", "name": "피오렌티나", "short": "피오렌티나", "years": "2018~2022", "until": "2022-01-28"},
+  {"key": "juvvl", "name": "유벤투스", "short": "유벤투스", "years": "2022~2026", "until": "2026-08-13"},
+  {"key": "besvl", "name": "베식타시", "short": "베식타시", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["parvl"], "jul1": []},
+ "pos": "CF",
+ "flag": "RS",
+ "retired": false,
+ "colors": {
+  "parvl": ["#000000", "#FFFFFF"],
+  "fiovl": ["#552A79", "#FFFFFF"],
+  "juvvl": ["#000000", "#FFFFFF"],
+  "besvl": ["#000000", "#FFFFFF"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["16/17 파르티잔"],
+   "DC": ["23/24 유벤투스", "16/17 파르티잔", "15/16 파르티잔"]
+  },
+  "o": [],
+  "a": {
+   "FOY": ["2024 세르비아"],
+   "TOP": ["21/22 코파 이탈리아 4골"],
+   "XI": ["21/22 세리에A · AIC(선수협회)"]
+  }
+ }
+}
