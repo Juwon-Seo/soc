@@ -231,6 +231,7 @@ QAT = []   # [날짜, 상대, 시즌, 골 행[(분, pk, gf, ga)]]
 for r in rd("qatar_rsssf_games.csv"):
     if r["section"] != "league" or "Rayyan" not in (r["home"], r["away"]) or "Sonny Anderson" not in r["scorers_v1"]: continue
     hs, as_ = parse_scorers(r["scorers_v1"])
+    if r["score"].startswith("0-") and hs and not as_: hs, as_ = [], hs   # 홈 무득점 경기는 RSSSF가 ';' 없이 원정 득점자만 적음
     home = r["home"] == "Rayyan"
     ours, theirs = (hs, as_) if home else (as_, hs)
     if not any(n == "Sonny Anderson" for _, n, _, _ in ours): continue
@@ -323,7 +324,58 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] == "league" or p[0].startswith("INVALID"): continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
-RANK_FIX = {}
+WT = os.path.join(HERE, "wiki_tables")
+WIKI = {   # 새로 만드는 팀-시즌의 순위: 영어 위키백과 시즌 문서 순위표(action=raw; 1994-95·1995-96·1999-2000 디비지옹 1은 빌토르 자료에서 복사, 나머지 2026-11-21 받음)
+    ("FR1", "1993-94"): "1993–94_French_Division_1.txt", ("FR1", "1994-95"): "1994–95_French_Division_1.txt",
+    ("FR1", "1995-96"): "1995–96_French_Division_1.txt", ("FR1", "1996-97"): "1996–97_French_Division_1.txt",
+    ("FR1", "1999-00"): "1999–2000_French_Division_1.txt", ("FR1", "2000-01"): "2000–01_French_Division_1.txt",
+    ("FR2", "1996-97"): "1996–97_French_Division_2.txt", ("FR2", "1999-00"): "1999–2000_French_Division_2.txt",
+    ("FR2", "2000-01"): "2000–01_French_Division_2.txt",
+}
+def wiki_order(fn):
+    t = open(os.path.join(WT, fn), encoding="utf-8").read()   # 팀 이름은 링크 대상(문서 이름)
+    i = t.lower().find("#invoke:sports table"); t = t[i:]; t = t[:t.find("\n}}")]
+    names = {m.group(1): re.sub(r"\[\[([^|\]]*)(?:\|[^\]]*)?\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*(\[\[[^\]]*\]\]|[^|\n]+)", t)}
+    for m in re.finditer(r"\|win_([A-Z0-9_]+)\s*=[^\n]*?<!--\s*([^-]+?)\s*-->", t):   # team_order 형식: 이름은 주석
+        names.setdefault(m.group(1), m.group(2))
+    out = {}
+    mo = re.search(r"\|team_order\s*=\s*([^\n|]+)", t)
+    if mo:
+        for n, c in enumerate([x.strip() for x in mo.group(1).split(",") if x.strip()], 1): out[n] = names.get(c, c)
+        return out
+    for m in re.finditer(r"\|team(\d+)\s*=\s*([^|\n]+)", t):
+        n = int(m.group(1))
+        if n not in out: out[n] = names.get(m.group(2).strip(), m.group(2).strip())
+    return out
+WSTOP = {"fc", "sc", "cf", "cd", "ud", "cs", "gd", "sl", "jk", "de", "da", "das", "os", "vitoria", "clube", "futebol", "real", "ad", "kv", "sk", "rsc", "raa", "ksk", "krc", "kvc", "ksc", "kaa", "vv", "royal", "fk", "mfk", "msk", "as", "pfc"}
+WALIAS = {"niort": "chamois niortais", "olympique lyonnais": "olympique lyon", "olympique de marseille": "olympique marseille", "asoa valence": "origine armenienne valence",
+          "association sportive d origine armenienne de valence": "origine armenienne valence"}
+def wtoks(n):
+    n = norm(n); n = WALIAS.get(n, n)
+    return {t for t in n.split() if t not in WSTOP and len(t) > 2}
+WIKI_RANK = {}
+for (lg, s), fn in WIKI.items():
+    o = wiki_order(fn); n = len(o)
+    for r, nm in o.items(): WIKI_RANK[(lg, s, frozenset(wtoks(nm)))] = (r, n, nm)
+def wiki_rank(lg, s, tm_name):
+    if (lg, s) not in WIKI: return None
+    tt = wtoks(tm_name)
+    sc = [(len(w & tt) / len(w | tt), v) for (l2, s2, w), v in WIKI_RANK.items() if l2 == lg and s2 == s and (w & tt)]
+    top = max([x for x, _ in sc], default=0)
+    hit = [v for x, v in sc if x == top]
+    if len(hit) != 1: sys.exit(f"위키 순위표 이름 맞추기 실패 {lg} {s} {tm_name} {hit}")
+    return hit[0]
+# 스위스 1부: Transfermarkt 표는 챔피언십 라운드 순서가 공식과 다름. 영어 위키백과 1992–93·1993–94 Nationalliga A 문서
+# (예선 → 상위 8팀 챔피언십 그룹(예선 승점 절반 가산, 동률은 예선 순위) / 9~12위는 승강 그룹, 순위는 예선 순서) 최종 순위로 고침.
+RANK_FIX = {
+    (key("FC Lausanne-Sport"), "1992-93"): (8, 12, "챔피언십 그룹 8위"),
+    (key("Grasshopper Club Zurich"), "1992-93"): (9, 12, "예선 9위 → 승강 그룹(잔류)"),
+    (key("FC Sion"), "1992-93"): (6, 12, "챔피언십 그룹 6위(뇌샤텔 크사막스와 승점 같고 예선 순위가 앞섬)"),
+    (key("FC St. Gallen 1879"), "1992-93"): (10, 12, "예선 10위 → 승강 그룹(강등)"),
+    (key("FC Luzern"), "1993-94"): (8, 12, "챔피언십 그룹 8위"),
+    (key("FC Zürich"), "1993-94"): (9, 12, "예선 9위 → 승강 그룹"),
+}
+RANK_LOG = []
 
 BIGL = {"PO1": "포르투갈 1부", "ES1": "라리가", "GB1": "프리미어리그", "IT1": "세리에A", "FR1": "리그1", "L1": "분데스리가", "NL1": "에레디비시"}
 CAL_LG = set()
@@ -333,6 +385,7 @@ def make_label(lg, season, r, n):
         n0 = _LRA['ERA']['teams'](pre, y)
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "")
     if lg == "FR2": return f"리그2 {season} {r}위/{n}팀"
+    if lg == "C1": return f"스위스 1부 {season} {r}위/{n}팀 (Nationalliga A, 챔피언십·승강 그룹 뒤 최종 순위)"
     return None
 
 def eu(d):
@@ -364,7 +417,14 @@ def opp_elo(o, d, cid):
     for (lg, s), t in RANKS.items():
         if k in t and (s == eu(d) or (lg in CAL_LG and s == d[:4])):
             r, n, nm, _ = t[k]
-            if (k, s) in RANK_FIX: r, n, _why = RANK_FIX[(k, s)]
+            if (k, s) in RANK_FIX:
+                r0 = r; r, n, _why = RANK_FIX[(k, s)]
+                if r0 != r: RANK_LOG.append((lg, s, nm, r0, r, _why))
+            else:
+                w = wiki_rank(lg, s, nm)
+                if w:
+                    if w[0] != r: RANK_LOG.append((lg, s, nm, r, w[0], w[2]))
+                    r, n = w[0], w[1]
             lv = make_label(lg, s, r, n)
             if lv:
                 e = lv_value(lv, d)
@@ -402,6 +462,7 @@ if "--debug" in sys.argv:
         if k in seen: continue
         seen.add(k); print(d, o, v)
     print("TABLE_DIFF", TABLE_DIFF)
+    for x in RANK_LOG: print("RANK", x)
     for x in sorted(NEW_TS.items()): print("NEW", x)
     sys.exit(0)
 if "--ties" in sys.argv:
@@ -453,7 +514,7 @@ for b, (oe, om) in OTHERS.items():
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("vassa", "1991-07-01"), ("guasa", "1992-07-01"), ("sersa", "1993-11-05"), ("omsa", "1994-07-01"), ("monsa", "1997-07-01"),
+CLUBS = [("vassa", "1991-07-01"), ("guasa", "1992-07-01"), ("sersa", "1993-11-22"), ("omsa", "1994-07-01"), ("monsa", "1997-07-01"),
          ("fcbsa", "1999-07-01"), ("olsa", "2003-07-11"), ("vilsa", "2004-10-16"), ("raysa", None)]   # = integration.json
 TM_CLUB = {"978": "vassa", "1755": "guasa", "61": "sersa", "244": "omsa", "162": "monsa", "131": "fcbsa", "1041": "olsa", "1050": "vilsa", "3229": "raysa"}
 def club_of(d):
@@ -467,7 +528,7 @@ def season_of(d, club):
     if club in CAL: return str(y)
     s_ = y if (m >= 8 or (club in JUL10 and (m, dd) >= (7, 10)) or (club in JUL1 and m >= 7)) else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("바스쿠 다 가마(1988~1991)", "1991-07-01"), ("과라니(1991~1992)", "1992-07-01"), ("세르베트(1992~1993)", "1993-11-05"),
+STINTS = [("바스쿠 다 가마(1988~1991)", "1991-07-01"), ("과라니(1991~1992)", "1992-07-01"), ("세르베트(1992~1993)", "1993-11-22"),
           ("마르세유(1993~1994, 임대)", "1994-07-01"), ("AS 모나코(1994~1997)", "1997-07-01"), ("바르셀로나(1997~1999)", "1999-07-01"),
           ("리옹(1999~2003)", "2003-07-11"), ("비야레알(2003~2004)", "2004-10-16"), ("알라이얀(2004~2006)", "9999")]
 def stint(d):
