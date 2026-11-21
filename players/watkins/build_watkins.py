@@ -330,3 +330,58 @@ for k_, v in chk.items():
 if MISS:
     for x in MISS: print("상대 Elo 없음:", x)
     sys.exit(1)
+
+# ---------------------------------------------------------------- 동료·같은 경기 대조(보고용)
+cross = []
+for b, (oe, om) in OTHERS.items():
+    for x in oe:
+        if x[0] == "a" and x[13] and re.search(r"Watkins", str(x[13])):
+            hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
+            ok = hit and (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3], hit[0][7]) == (x[5], x[6], x[2], x[12], x[3], x[7])
+            cross.append(("동료 도움→왓킨스 골", b, x[9], x[4], "일치" if ok else ("값 다름" if hit else "왓킨스 골 없음"), x[2:8], hit[0][2:8] if hit else None))
+    for r in E:
+        if r[0] == "a":
+            hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and key(x[1]) == key(r[1]) and abs(x[4] - r[4]) <= 2]
+            if hit:
+                ok = (hit[0][5], hit[0][6], hit[0][2], hit[0][12], hit[0][3], hit[0][7]) == (r[5], r[6], r[2], r[12], r[3], r[7])
+                cross.append(("왓킨스 도움→동료 골", b, r[9], r[4], r[13], "일치" if ok else "값 다름", r[2:8], hit[0][2:8]))
+    for r in E:
+        for x in oe:
+            if x[9] == r[9] and key(x[1]) == key(r[1]) and (x[2] != r[2] or x[12] != r[12] or x[3] != r[3] or x[7] != r[7]):
+                cross.append(("같은 경기 Elo/lv/대회 다름", b, r[9], r[1], (x[2], x[3], x[7], x[12]), (r[2], r[3], r[7], r[12])))
+        if x[9:10] and False: pass
+    mm = {(m[0], key(m[1])): m[2] for m in om}
+    for m in M:
+        c = mm.get((m[0], key(m[1])))
+        if c and c != m[2]: cross.append(("같은 경기 출전 행 대회 다름", b, m[0], m[1], c, m[2]))
+    # 동료 파일의 골 중 TM이 왓킨스 도움으로 적었는데 이 자료에 도움 행이 없는 것
+    for x in oe:
+        if x[0] != "g": continue
+        for gid, evs in EVS.items():
+            if gid not in G or ldate(G[gid]) != x[9] or key(G[gid]["opponent"]) != key(x[1]): continue
+            for e in evs:
+                if e["assist_id"] == PID and abs(mins(e["minute"])[0] - x[4]) <= 2 and e["scorer_id"] != PID:
+                    if not any(r[0] == "a" and r[9] == x[9] and abs(r[4] - x[4]) <= 2 for r in E):
+                        cross.append(("동료 골에 TM 왓킨스 도움, 이 자료에서 뺌", b, x[9], x[4], e["scorer"], e["assist_type"]))
+DUP = set(); cross = [c for c in cross if not (str(c) in DUP or DUP.add(str(c)))]
+
+# ---------------------------------------------------------------- 합계
+CLUBS = [("2017-07-18", "엑서터 시티"), ("2020-09-09", "브렌트퍼드"), ("2026-08-30", "애스턴 빌라"), ("9999-12-31", "알힐랄")]
+def club_of(d):
+    for u, n in CLUBS:
+        if d < u: return n
+ST = collections.OrderedDict((n, [0, 0, 0, 0]) for _, n in CLUBS)
+for m in M: ST[club_of(m[0])][0] += 1; ST[club_of(m[0])][3] += m[3]
+for r in E: ST[club_of(r[9])][1 if r[0] == "g" else 2] += 1
+NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
+NPK = sum(r[8] for r in E if r[0] == "g")
+MIN_TOT = sum(m[3] for m in M)
+NTIE = sum(1 for r in E if len(r) > 14); NTIEG = len({r[9] for r in E if len(r) > 14})
+TM_A_API = sum(int(g["assists"]) for g in games)
+TM_G_API = sum(int(g["goals"]) for g in games)
+def d_(s): y, m, d = s.split("-"); return f"{int(y)}.{int(m)}.{int(d)}"
+def c3(v): return f"{v[0]}·{v[1]}·{v[2]}"
+EX = collections.Counter(j[5] for j in judg if j[0] == "도움 제외")
+SKIP = [j for j in judg if j[0] == "단일 출처 도움 뺌"]
+ADDS = [j for j in judg if j[0] in ("단일 출처 도움 넣음", "FotMob 등에만 있는 도움 넣음")]
+first, last = M[0], M[-1]
