@@ -1,0 +1,6 @@
+# 순위표(TM) 밖 상대 라벨 — 순위는 raw/ranks_wiki.txt(독일어 위키백과 오스트리아 선수권 시즌 문서의 지역 리그 표), raw/ranks.txt(MAL1·RO1)
+man("SC Mannsdorf", "2016-17", "오스트리아 3부 2016-17 5위/15팀 (Regionalliga Ost, 리그 수준 추정)")
+man("Deutschlandsberger SC", "2016-17", "오스트리아 3부 2016-17 5위/16팀 (Regionalliga Mitte, 리그 수준 추정)")
+man("SK Austria Klagenfurt", "2017-18", "오스트리아 3부 2017-18 5위/16팀 (Regionalliga Mitte, 리그 수준 추정)")
+man("Hibernians FC", "2016-17", "몰타 1부 2016-17 1위/12팀 (Maltese Premier League)")
+man("FC Viitorul Constanta", "2017-18", "루마니아 1부 2017-18 4위/14팀 (Liga I, 플레이오프·스플릿 뒤 최종 순위)")
