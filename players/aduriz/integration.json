@@ -1,0 +1,18 @@
+{"preset":"aduriz","name":"아리츠 아두리스","prefix":"ADU",
+ "clubs":[
+  {"key":"athad","name":"아틀레틱 빌바오","short":"아틀레틱","years":"2002~2003","until":"2004-07-01"},
+  {"key":"vllad","name":"레알 바야돌리드","short":"바야돌리드","years":"2004~2005","until":"2006-01-01"},
+  {"key":"athad","name":"아틀레틱 빌바오","short":"아틀레틱","years":"2006~2008","until":"2008-08-01"},
+  {"key":"malad","name":"마요르카","short":"마요르카","years":"2008~2010","until":"2010-07-01"},
+  {"key":"valad","name":"발렌시아","short":"발렌시아","years":"2010~2012","until":"2012-07-01"},
+  {"key":"athad","name":"아틀레틱 빌바오","short":"아틀레틱","years":"2012~2020","until":null}],
+ "season":{"calendar":[],"jul10":["athad"],"jul1":[]},
+ "pos":"CF","flag":"ES","retired":true,
+ "colors":{
+  "athad":["#EE2523","#FFFFFF","#000000"],
+  "vllad":["#5E2B7E","#FFFFFF"],
+  "malad":["#FF0000","#000000"],
+  "valad":["#FFFFFF","#000000","#EE3524"]},
+ "hon":{"t":{"SC":["15/16 아틀레틱 빌바오"]},
+  "o":[],
+  "a":{"TOP":["17/18 유로파리그 8골","15/16 유로파리그 10골"]}}}
