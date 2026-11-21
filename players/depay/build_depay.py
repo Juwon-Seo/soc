@@ -288,7 +288,7 @@ def key(n):
 TABLE = collections.defaultdict(list)
 with open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig") as f:
     for r in csv.DictReader(f):
-        if ME_KO in r["선수"].split("·"): continue
+        if r["선수"] == ME_KO: continue   # 데파이만 쓴 팀×시즌(스크래치에서 다시 만든 표)은 기존 값이 아님
         for nm in [r["팀"]] + r["이름 표기"].split(" / "):
             TABLE[(key(nm), r["시즌"])].append((int(r["Elo"]), r["수준 라벨(lv)"]))
 
