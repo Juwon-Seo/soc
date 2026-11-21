@@ -77,6 +77,7 @@ CUPS = {"CDR", "FRC", "FRL", "DFB", "FAC", "CGB", "POPO", "POCP", "GRP", "QEC1",
 def comp_of(cid, rnd):
     r = rnd.lower()
     if cid in LEAGUE: return "lg"
+    if cid in ("BCP1", "BCPF"): return "dc"   # 캄페오나투 파울리스타: 모든 단계 국내컵 하위 라운드 비중(네이마르·루카스 모우라 자료)
     if cid in CUPS:
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
@@ -177,7 +178,7 @@ def mins(s):
 
 def is_og(e): return e["own_goal"] == "1" or e["goal_desc"] == "Own-goal"
 
-A_CHECK = {}
+A_CHECK = {}; ADD_A = []
 def a_key(gid, minute): return f"{gid}|{minute}"
 exec(open(os.path.join(HERE, "assist_checks.py"), encoding="utf-8").read())   # A_CHECK 채움(근거 포함)
 
@@ -253,6 +254,12 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             if e["penalty"] == "1" and not pk and e["goal_desc"] != "Penalty rebound": sys.exit("PK 판정 확인 " + gid)
             if e["goal_desc"] == "Penalty rebound": judg.append(("PK 리바운드 골(PK 아님)", ldate(g), opp(g), e["minute"]))
             raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0, e["goal_desc"]))
+
+# FotMob에만 있는 도움 중 다른 출처 2곳으로 확인한 것(assist_checks.py ADD_A): (gid, 분, 원정 여부 무관 우리 팀 기준 gf, ga, pk, 득점자, 근거)
+for gid, mi, gf, ga, pk, scorer, why in ADD_A:
+    raw_rows.append(("a", gid, mi, 0, gf, ga, 0, scorer, "added"))
+    judg.append(("도움 추가(FotMob 단독 + 다른 출처 2곳)", ldate(G[gid]), opp(G[gid]), str(mi), scorer, why))
+    A_STATUS.append((ldate(G[gid]), gid, str(mi), scorer, "넣음(FotMob 단독): " + why))
 
 # FotMob 전용 도움(TM 도움 없음): 판정 기록만(A_CHECK에 있으면 넣음)
 FM_ONLY = []
@@ -497,7 +504,7 @@ def cmp_rows(a, b):
     return d
 G_BYDATE = {ldate(g): g["competitionId"] for g in GAMES}
 CROSS = []
-JRE = re.compile(r"\bJames\b|Rodr[ií]guez|하메스")
+JRE = re.compile(r"James Rodr|^James$|하메스")
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         if x[0] == "a" and JRE.search(str(x[13] or "")) and x[9] in G_BYDATE:
