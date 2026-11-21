@@ -229,7 +229,7 @@ def parse_scorers(s):
     return out
 QAT = []   # [날짜, 상대, 시즌, 골 행[(분, pk, gf, ga)]]
 for r in rd("qatar_rsssf_games.csv"):
-    if r["section"] != "league" or "Rayyan" not in (r["home"], r["away"]): continue
+    if r["section"] != "league" or "Rayyan" not in (r["home"], r["away"]) or "Sonny Anderson" not in r["scorers_v1"]: continue
     hs, as_ = parse_scorers(r["scorers_v1"])
     home = r["home"] == "Rayyan"
     ours, theirs = (hs, as_) if home else (as_, hs)
