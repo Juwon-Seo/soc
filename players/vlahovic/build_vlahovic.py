@@ -349,7 +349,7 @@ RANKS = collections.defaultdict(dict)
 with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
     for line in f:
         p = line.rstrip("\n").split("|")
-        if len(p) < 5 or p[0] == "league" or " group" in p[1]: continue   # 스플릿 리그는 'overall'(우승 조 1-8, 강등 조 9-16) 줄만
+        if len(p) < 5 or p[0] == "league" or re.match(r"^\S+ group\d", p[1]): continue   # 스플릿 리그는 'overall'(우승 조 1-8, 강등 조 9-16) 줄만
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
 
 EU_LG = {"IT1": "세리에A", "FR1": "리그1"}
@@ -524,9 +524,13 @@ def club_of(d):
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
 SCAL = ()
+JUL10 = ("parvl",)   # 세르비아 리그는 7월 중순 개막(2016.7.21 유로파 예선·7.31 리그 = 2016-17)
 def season_of(d, club):
     y, m = int(d[:4]), int(d[5:7])
     if club in SCAL: return str(y)
+    if club in JUL10:
+        s_ = y if d[5:] >= "07-10" else y - 1
+        return f"{s_}-{str(s_ + 1)[2:]}"
     s_ = y if m >= 8 else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
 STINTS = [("파르티잔", "2018-07-01"), ("피오렌티나", "2022-01-28"), ("유벤투스", "2026-08-13"), ("베식타시", "9999")]
