@@ -183,6 +183,7 @@ def fm_confirmed(gid):
     return sum(1 for e in EVS.get(gid, []) if e["assist_id"] == ME and e["scorer_id"] != ME and fm_assist(gid, e))
 def assist_reason(e, d, gid):
     t = e["assist_type"]
+    if t.startswith("Handball"): return "상대 골에 적힌 '기라시 핸드볼' 항목(도움 아님)"
     if is_og(e): return "상대 자책골 유도"
     if t.startswith("Penalty"): return "PK 유도"
     if t == "Shot on goal": return "슈팅 리바운드('Shot on goal')"
@@ -203,7 +204,7 @@ def assist_reason(e, d, gid):
     A_STATUS.append((d, gid, e["minute"], e["scorer"], f"판정 없음 FMpm={pm}"))
     return "2014.8 이후 단일 출처(판정 없음)"
 
-MIN_FIX = {}   # 골·도움 시각은 모두 Transfermarkt 그대로
+MIN_FIX = {("3195260", "72"): "70"}   # 2019.8.17 릴전 골: TM 72분, FotMob·ESPN 70분(maxifoot만 72) → 70분. 나머지는 Transfermarkt 그대로
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
@@ -216,7 +217,7 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         is_a = e["assist_id"] == ME and e["scorer_id"] != ME
         if e["scorer_id"] == ME and e["assist_id"] == ME:
             judg.append(("도움 아님(본인 PK 골의 본인 도움 표기)", ldate(g), opp(g), e["minute"], e["assist_type"]))
-        if e["scorer_id"] == ME and is_og(e): sys.exit("자책골 " + gid)
+        if e["scorer_id"] == ME and is_og(e): judg.append(("본인 자책골(골 아님)", ldate(g), opp(g), e["minute"]))
         if not (is_g or is_a): continue
         gf, ga = (before[0], before[1]) if side == "h" else (before[1], before[0])
         mi, dm = mins(MIN_FIX.get((gid, e["minute"]), e["minute"]))
@@ -302,7 +303,7 @@ for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
 # 이번 회차에 함께 판정한 선수(판정 끝남, 읽기만): 같은 경기면 같은 Elo/lv
-for slug, fn in (("palmer", "pal.js"), ("trossard", "tro.js"), ("aduriz", "adu.js"), ("quagliarella", "qua.js")):
+for slug, fn in (("palmer", "pal.js"),):
     pth = os.path.join(os.path.dirname(HERE), slug, fn)
     if os.path.exists(pth):
         P, oe, om = load_js(pth); OTHERS["players/" + slug + "/" + fn] = (oe, om)
@@ -367,7 +368,7 @@ def make_label(lg, season, v):
     if lg == "SFA1": return f"남아프리카공화국 1부 {season} {r}위/{n}팀 (Premiership)"
     if lg in EU_LG:
         pre = EU_LG[lg]; n0 = _LRA["ERA"]["teams"](pre, int(season[:4]) + 1)
-        return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "") + (f" ({cur[2:]})" if cur else "")
+        return f"{pre} {season} {r}위" + (f"/{n}팀" if (n != n0 or cur) else "") + (f" ({cur[2:]})" if cur else "")
     return None
 
 # 시즌: 기본 8월 1일 기준(유럽 상대). 클럽 월드컵 2025 상대: 브라질·한국 = 달력 연도 2025, 그 밖 = 2024-25(기존 자료와 같음).
@@ -377,6 +378,7 @@ def seasons_for(cid, d, o, g):
     y, m = int(d[:4]), int(d[5:7])
     s_ = y if m >= 8 else y - 1
     if cid == "KLUB": return [str(y), f"{s_}-{str(s_ + 1)[2:]}"]
+    if cid in ("CL", "EL", "ECLQ", "UCOL"): return [f"{s_}-{str(s_ + 1)[2:]}", str(y)]   # 달력 연도 리그 상대(노르웨이·벨라루스)는 경기 연도
     return [f"{s_}-{str(s_ + 1)[2:]}"]
 FRA = ["FR1", "FR2"]; GER = ["L1", "L2", "L3", "RLSW"]
 def lg_cands(cid, d, o, g):
@@ -510,26 +512,24 @@ for b, (oe, om) in OTHERS.items():
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("bassh", "2012-07-01", "FC 바젤", "바젤", "2009~2012"), ("baysh", "2015-01-09", "바이에른 뮌헨", "바이에른", "2012~2015"),
-         ("intsh", "2015-08-11", "인테르", "인테르", "2015"), ("stksh", "2018-07-13", "스토크 시티", "스토크", "2015~2018"),
-         ("livsh", "2021-08-23", "리버풀", "리버풀", "2018~2021"), ("lyosh", "2022-02-09", "올랭피크 리옹", "리옹", "2021~2022"),
-         ("chfsh", "2024-08-16", "시카고 파이어", "시카고", "2022~2024"), ("bassh", None, "FC 바젤", "바젤", "2024~")]
-TM_CLUB = {"26": "bassh", "27": "baysh", "46": "intsh", "512": "stksh", "31": "livsh", "1041": "lyosh", "432": "chfsh"}
+CLUBS = [("lavgu", "2015-07-02", "스타드 라발", "라발", "2013~2015"), ("lilgu", "2016-01-20", "LOSC 릴", "릴", "2015~2016"),
+         ("auxgu", "2016-07-01", "AJ 오세르", "오세르", "2016 (임대)"), ("kolgu", "2019-01-31", "1. FC 쾰른", "쾰른", "2016~2019"),
+         ("amigu", "2020-08-27", "아미앵 SC", "아미앵", "2019~2020"), ("rengu", "2022-09-01", "스타드 렌", "렌", "2020~2022"),
+         ("vfbgu", "2024-07-18", "VfB 슈투트가르트", "슈투트가르트", "2022~2024"), ("bvbgu", None, "보루시아 도르트문트", "도르트문트", "2024~")]
+TM_CLUB = {"1080": "lavgu", "1082": "lilgu", "290": "auxgu", "3": "kolgu", "1416": "amigu", "273": "rengu", "79": "vfbgu", "16": "bvbgu"}
 def club_of(d):
     for k, u, n, sh, y in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
-SJUL10 = ("bassh", "baysh")   # 스위스 리그 7월 중순 개막(살라 basl 선례), 바이에른 2013.7.27 DFL-슈퍼컵 = 2013-14
-SCAL = ("chfsh",)             # MLS 달력 연도(가을~봄 리그에서 옮긴 선수도 시즌을 따로 셈)
+SJUL10 = ("bvbgu",)   # 도르트문트 7월 10일 기준(벨링엄 bvbb·로이스 bvbr 선례; 2025.7 클럽 월드컵 = 2024-25)
 def season_of(d, club):
     y, m, dd = int(d[:4]), int(d[5:7]), int(d[8:10])
-    if club in SCAL: return str(y)
     if club in SJUL10: s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
-    else: s_ = y if m >= 8 else y - 1
+    else: s_ = y if m >= 8 else y - 1   # 2020.8.22 아미앵(리그2)·2020.8.29 렌(리그1) = 2020-21
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("FC 바젤(2009~2012)", "2012-07-01"), ("바이에른 뮌헨", "2015-01-09"), ("인테르", "2015-08-11"), ("스토크 시티", "2018-07-13"),
-          ("리버풀", "2021-08-23"), ("올랭피크 리옹", "2022-02-09"), ("시카고 파이어", "2024-08-16"), ("FC 바젤(2024~)", "9999")]
+STINTS = [("스타드 라발", "2015-07-02"), ("LOSC 릴", "2016-01-20"), ("AJ 오세르", "2016-07-01"), ("1. FC 쾰른", "2019-01-31"),
+          ("아미앵 SC", "2020-08-27"), ("스타드 렌", "2022-09-01"), ("VfB 슈투트가르트", "2024-07-18"), ("보루시아 도르트문트", "9999")]
 def stint(d):
     for n, u in STINTS:
         if d < u: return n
