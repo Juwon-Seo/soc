@@ -306,11 +306,18 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
 # 순위 고침(출처로 확인; judgments.md 'Elo·순위' 절). TM 순위표는 승점 동률 순서가 공식 규정(포르투갈 상대 전적, 벨기에 승수 등)과
 # 다를 수 있어서, 아래 리그·시즌은 영어 위키백과 시즌 문서의 순위표(wiki_tables/, action=raw로 받음)의 순서를 씀.
 WT = os.path.join(HERE, "wiki_tables")
-WIKI = {}   # Transfermarkt 순위표를 그대로 쓰되, 바꾼 것은 RANK_FIX(출처: judgments.md)
+WIKI = {   # 새로 만드는 팀-시즌의 순위: 영어 위키백과 시즌 문서 순위표(action=raw, 2026-11-21 받음)로 확인. Transfermarkt 순위와 다르면 RANK_LOG
+    ("FR2", "1993-94"): "1993–94_French_Division_2.txt", ("FR2", "1994-95"): "1994–95_French_Division_2.txt",
+    ("FR2", "1995-96"): "1995–96_French_Division_2.txt", ("FR2", "2004-05"): "2004–05_Ligue_2.txt",
+    ("FR2", "2009-10"): "2009–10_Ligue_2.txt", ("FR2", "2011-12"): "2011–12_Ligue_2.txt",
+    ("FR1", "1994-95"): "1994–95_French_Division_1.txt", ("FR1", "1995-96"): "1995–96_French_Division_1.txt",
+    ("FR1", "1997-98"): "1997–98_French_Division_1.txt", ("FR1", "1998-99"): "1998–99_French_Division_1.txt",
+    ("FR1", "1999-00"): "1999–2000_French_Division_1.txt", ("FR3", "2007-08"): "2007–08_Championnat_National.txt",
+}
 def wiki_order(fn):
-    t = open(os.path.join(WT, fn), encoding="utf-8").read()
+    t = open(os.path.join(WT, fn), encoding="utf-8").read()   # 팀 이름은 링크 대상(문서 이름)
     i = t.lower().find("#invoke:sports table"); t = t[i:]; t = t[:t.find("\n}}")]
-    names = {m.group(1): re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*(\[\[[^\]]*\]\]|[^|\n]+)", t)}
+    names = {m.group(1): re.sub(r"\[\[([^|\]]*)(?:\|[^\]]*)?\]\]", r"\1", m.group(2)).strip() for m in re.finditer(r"\|name_([^=\s]+)\s*=\s*(\[\[[^\]]*\]\]|[^|\n]+)", t)}
     for m in re.finditer(r"\|win_([A-Z0-9_]+)\s*=[^\n]*?<!--\s*([^-]+?)\s*-->", t):   # team_order 형식: 이름은 주석
         names.setdefault(m.group(1), m.group(2))
     out = {}
@@ -323,8 +330,8 @@ def wiki_order(fn):
         if n not in out: out[n] = names.get(m.group(2).strip(), m.group(2).strip())
     return out
 WSTOP = {"fc", "sc", "cf", "cd", "ud", "cs", "gd", "sl", "jk", "de", "da", "das", "os", "vitoria", "clube", "futebol", "real", "ad", "kv", "sk", "rsc", "raa", "ksk", "krc", "kvc", "ksc", "kaa", "vv", "royal", "fk", "mfk", "msk", "as", "pfc"}
-WALIAS = {"uniao de leiria": "leiria", "academica": "academica coimbra", "istanbul b b": "buyuksehir belediyespor", "desportivo das aves": "desportivo aves",
-          "estoril": "estoril praia"}
+WALIAS = {"niort": "chamois niortais", "olympique lyonnais": "olympique lyon", "olympique de marseille": "olympique marseille", "asoa valence": "origine armenienne valence",
+          "association sportive d origine armenienne de valence": "origine armenienne valence"}
 def wtoks(n):
     n = norm(n); n = WALIAS.get(n, n)
     return {t for t in n.split() if t not in WSTOP and len(t) > 2}
@@ -492,22 +499,21 @@ for b, (oe, om) in OTHERS.items():
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("psvhu", "2003-01-01"), ("dghu", "2003-07-01"), ("agohu", "2004-07-01"), ("heehu", "2006-01-01"), ("ajahu", "2009-01-01"),
-         ("rmahu", "2009-08-07"), ("milhu", "2010-08-30"), ("s04hu", "2017-07-01"), ("ajahu", "2021-01-19"), ("s04hu", None)]   # = integration.json (PSV 복귀 기간 2003.6.30·2004.6.30은 경기 없음)
-TM_CLUB = {"383": "psvhu", "642": "dghu", "1389": "agohu", "306": "heehu", "610": "ajahu", "418": "rmahu", "5": "milhu", "33": "s04hu"}
+CLUBS = [("renwi", "1997-07-01"), ("borwi", "2000-08-26"), ("arswi", "2004-08-31"), ("olwi", "2007-08-22"), ("renwi", "2009-01-15"),
+         ("omwi", "2010-01-30"), ("metwi", "2011-07-18"), ("nanwi", None)]   # = integration.json (Transfermarkt 이적일)
+TM_CLUB = {"273": "renwi", "40": "borwi", "11": "arswi", "1041": "olwi", "244": "omwi", "347": "metwi", "995": "nanwi"}
 def club_of(d):
     for k, u in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
-JUL10 = {"ajahu", "s04hu"}   # 아약스(수아레스 ajxs)·샬케(라울 s04rau) 7월 10일 기준 선례
+JUL10 = {"renwi", "borwi", "olwi", "omwi", "metwi", "nanwi"}   # 프랑스 리그는 7월 개막(1993.7.24·1995.7.19 렌, 1999.7.24 트로페·7.30 보르도, 2005.7.31 리옹, 2011.7.29 낭트)
 def season_of(d, club):
     y, m, dd = int(d[:4]), int(d[5:7]), int(d[8:10])
     s_ = y if (m >= 8 or (club in JUL10 and (m, dd) >= (7, 10))) else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("PSV 2002", "2003-01-01"), ("더흐라프스합(임대) 2003", "2003-07-01"), ("AGOVV 아펠도른(임대) 2003~2004", "2004-07-01"),
-          ("헤이렌베인 2004~2005", "2006-01-01"), ("아약스 2006~2008", "2009-01-01"), ("레알 마드리드 2009", "2009-08-07"),
-          ("AC 밀란 2009~2010", "2010-08-30"), ("샬케 04 2010~2017", "2017-07-01"), ("아약스 2017~2021", "2021-01-19"), ("샬케 04 2021", "9999")]
+STINTS = [("렌 1992~1997(1996-97 데포르티보에서 임대)", "1997-07-01"), ("보르도 1997~2000", "2000-08-26"), ("아스널 2000~2004", "2004-08-31"), ("리옹 2004~2007", "2007-08-22"),
+          ("렌 2007~2009", "2009-01-15"), ("마르세유 2009", "2010-01-30"), ("메스 2010", "2011-07-18"), ("낭트 2011~2012", "9999")]
 def stint(d):
     for n, u in STINTS:
         if d < u: return n.strip()
