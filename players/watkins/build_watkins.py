@@ -385,3 +385,75 @@ EX = collections.Counter(j[5] for j in judg if j[0] == "도움 제외")
 SKIP = [j for j in judg if j[0] == "단일 출처 도움 뺌"]
 ADDS = [j for j in judg if j[0] in ("단일 출처 도움 넣음", "FotMob 등에만 있는 도움 넣음")]
 first, last = M[0], M[-1]
+SKIPTXT = {"2016-03-19": "2016.3.19 노츠 카운티전 71분 히베이루 골(FotMob·ESPN은 트로이 브라운 도움)",
+           "2016-04-19": "2016.4.19 맨스필드전 79분 히베이루 골(ESPN 문자 중계에만 왓킨스 도움, 구단·지역 기사에는 도움 언급 없음)",
+           "2016-08-13": "2016.8.13 하틀풀전 31분 매캘린든 골(FotMob·ESPN은 무어테일러 도움)",
+           "2016-10-18": "2016.10.18 EFL 트로피 첼시 U-23전 24분 휠러 골(기사는 휠러 개인 돌파 골)",
+           "2017-01-14": "2017.1.14 그림즈비전 41분 리드 골(구단·스카이 기사는 코너킥 뒤 리드가 밀어 넣은 골로 적고 왓킨스 언급 없음)"}
+assert sorted(SKIPTXT) == sorted(j[1] for j in SKIP), [j[1] for j in SKIP]
+NOTE_LINES = [
+    f"올리 왓킨스(엑서터 시티·브렌트퍼드·애스턴 빌라·알힐랄)의 클럽 공식 경기 {NG}경기({d_(first[0])} 하틀풀 유나이티드전 ~ {d_(last[0])} 샤바브 알아흘리전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기 제외",
+    f"클럽별 경기·골·도움: 엑서터 시티 {c3(ST['엑서터 시티'])}, 브렌트퍼드 {c3(ST['브렌트퍼드'])}, 애스턴 빌라 {c3(ST['애스턴 빌라'])}, 알힐랄 {c3(ST['알힐랄'])}. 출전 분 합계 {MIN_TOT:,}분",
+    "출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적(90분 추정 없음), 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트(골·도움이 있는 경기와 리그 밖 경기 전부, Transfermarkt 경기 자료(JSON)와 대조), FotMob·ESPN 경기 기록과 대조. 엑서터·브렌트퍼드·애스턴 빌라의 시즌·대회별 경기 수·골 수는 영어 위키백과와 모두 같음(알힐랄은 위키백과 표가 덜 갱신됨: 7경기 5골, Transfermarkt·FotMob 11경기 8골)",
+    "뺀 기록: 웨스트소퍼메어 임대(2014.12~2015.5, 내셔널 리그 사우스 = 잉글랜드 6부 비프로 리그; 영어 위키백과 25경기 10골, FotMob 경기 이벤트 9골, 경기별 출전 자료 없음)는 프로 리그 규칙으로 뺌. 엑서터 유소년, 잉글랜드 대표팀, 애스턴 빌라 친선경기(FotMob 7경기 5골)도 뺌",
+    "EFL 트로피(풋볼 리그 트로피) 3경기는 엑서터 1군 경기라 국내컵으로 넣음: 2014.10.7 코번트리전 86분 골(단판), 2016.10.18 첼시 U-23전 2분 골(조별 리그), 2016.11.8 스윈던전(조별, 1-1 뒤 보너스 승점용 승부차기 — 승부차기 골은 셈하지 않음)",
+    "골: 191골 모두 Transfermarkt와 FotMob이 같은 경기·같은 순서. 추가시간 골은 Transfermarkt 분을 씀(FotMob이 2016~2019 풋볼 리그 경기에서 90분·45분으로만 적은 2016.4.2 플리머스전 90+2분, 2016.12.31 뉴포트전 90+5분, 2017.1.31 위컴전 90+5분, 2017.2.25 블랙풀전 45+5분, 2019.10.19 밀월전 90+4분, 2019.10.28 QPR전 90+4분 골과 2019.2.2 블랙번전 90+2분 도움). PK 골 6개, PK 실축 7개(골 아님). 왓킨스 자책골 없음",
+    "도움은 Transfermarkt와 FotMob 경기 이벤트가 같이 적은 것을 기준으로 하고, 한쪽에만 있는 것은 다른 출처 2곳이 확인한 것만 넣음",
+    f"도움 {NA}개 = Transfermarkt 도움 {TM_A_API}개 − PK 유도 {EX['PK 유도']}개 − 상대 자책골 유도 {EX['상대 자책골 유도']}개 − 확인 못 한 단일 출처 {len(SKIP)}개 + FotMob·ESPN·구단 기사로 확인한 도움 1개",
+    "PK 유도로 뺀 도움(FotMob·ESPN도 도움 없음): 2017.1.2 레이턴 오리엔트전 65분 할리, 2018.10.6 리즈전 62분 모페, 2019.1.28 FA컵 바닛전 60분 모페, 2019.3.2 QPR전 50분 모페, 2023.8.20 에버턴전 24분 더글라스 루이스, 2023.9.16 크리스털 팰리스전 90+8분 더글라스 루이스",
+    "상대 자책골에 붙은 도움으로 뺀 것: 2018.3.6 버턴전 60분 맥패드진 자책골. 2024.12.4 브렌트퍼드전 28분 본인 PK 골에 Transfermarkt 리포트가 본인을 PK 유도자로 적은 것은 도움 아님(골로만 셈)",
+    "다른 출처로 확인해 넣은 도움: 2016.3.28 크롤리전 28분 제이크 테일러 골(Transfermarkt만; 스카이 스포츠 경기 기사·엑서터 구단 경기 기사), 2016.8.9 리그컵 브렌트퍼드전 연장 100분 할리 골(Transfermarkt·ESPN; 브렌트퍼드 구단 기사·West London Sport), 2020.1.1 브리스틀 시티전 26분 벤라마 골(FotMob·ESPN, Transfermarkt에는 없음; 브렌트퍼드 구단 기사 ‘왓킨스가 흘러나온 공을 벤라마에게 내줌’)",
+    "확인하지 못해 뺀 단일 출처 도움(Transfermarkt만 또는 Transfermarkt·ESPN만): " + "; ".join(SKIPTXT[k] for k in sorted(SKIPTXT)),
+    "출전 분은 Transfermarkt 그대로. 연장 경기는 2016.8.9 리그컵 브렌트퍼드전(1-0 연장 승, 100분 도움), 2017.8.8 리그컵 AFC 윔블던전(3-1 연장 승, 105+1분 골), 2020.8.4 챔피언십 플레이오프 결승 풀럼전(1-2 연장 패), 2024.4.18 컨퍼런스리그 8강 2차전 릴전(연장 뒤 승부차기 승) 넷. 승부차기 경기(2016 스윈던, 2019 케임브리지, 2024 릴, 2025 브렌트퍼드)의 승부차기 골은 셈하지 않음",
+    "날짜는 경기 현지 날짜(잉글랜드 경기는 런던, 알힐랄은 리야드, 유럽 원정은 개최지 시간; Transfermarkt 일정 날짜와 차이 없음)",
+    "상대 Elo는 같은 경기를 다룬 다른 선수 자료(음뵈모·베일리·디아비·마르티넬리 등)의 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위(Transfermarkt 순위표, 진행 중 시즌은 2026년 11월 중순 순위) 순으로 씀. 리그 원·리그 투·내셔널 리그 상대는 순위에 하부 리그 수준을 붙인 추정",
+    "첼시 U-23(2016-17 EFL 트로피)은 리저브 리그(프리미어리그 2) 팀이라 순위가 없어 잉글랜드 4부 기준점 값으로 추정",
+    "대회 비중: 리그 투·챔피언십 승격 플레이오프는 리그 비중(준결승 두 경기 합산 — 원정 다득점 없이 연장, 결승 단판). FA컵·리그컵·EFL 트로피는 국내컵(16강까지 낮은 비중, 8강부터 높은 비중), EFL 트로피 조별은 리그식. 컨퍼런스리그 2023-24(플레이오프 라운드 히버니언 포함)·챔스 2024-25(리그 단계는 조별 비중)·유로파리그 2025-26(우승, 결승 프라이부르크전 출전)·AFC 챔피언스리그 엘리트 2026-27 리그 단계",
+    f"두 경기 합산 기록 {NTIE}개({NTIEG}경기): 2017 리그 투 플레이오프 준결승 칼라일전, 2020 챔피언십 플레이오프 준결승 2차전 스완지전, 2023 컨퍼런스리그 플레이오프 히버니언전, 2024 컨퍼런스리그 아약스·릴·올림피아코스전, 2026 유로파리그 릴·볼로냐·노팅엄 포리스트전(2021-22부터 원정 다득점 없음)",
+    "시즌 구분: 모든 클럽 8월 1일 기준(2020.8.4 플레이오프 결승은 2019-20, 알힐랄은 다른 선수 자료처럼 7월 10일 기준이지만 7월 경기 없음). 클럽 구분 2017.7.18 브렌트퍼드, 2020.9.9 애스턴 빌라, 2026.8.30 알힐랄(Transfermarkt 이적일)",
+    "우승·수상: 유로파리그 2025-26(애스턴 빌라). EFL 챔피언십 올해의 선수 2019-20(리그 사무국), PFA 올해의 팀 2019-20 챔피언십·2023-24 프리미어리그. 2017 리그 투·2020 챔피언십 플레이오프는 결승 패배. 프리미어리그 플레이메이커 상 2023-24·팬 투표 올해의 팀 등은 표 항목 밖",
+    f"{d_(CUTOFF)} 기준 현역(알힐랄). 마지막 반영 경기 {d_(last[0])} AFC 챔피언스리그 엘리트 샤바브 알아흘리전(2-0 승, 90분 2골)",
+]
+NOTE = "\n".join(NOTE_LINES)
+for bad in ["dc", "dk", "dsf", "ko", "OTHER_LEG", "seasonOf", "v1.", "SELFA", "GAP", "cwc", "clg", "cl16", "clk", "df", "lg", "acl", "ecq"]:
+    if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
+
+# ---------------------------------------------------------------- 일관성 점검(§16)
+problems = []; seen = set()
+for r in E:
+    k = (r[0], r[9], r[4], r[5], r[6], r[13])
+    if k in seen: problems.append(("중복", r))
+    seen.add(k)
+by = collections.defaultdict(list)
+for r in E: by[r[9]].append(r)
+mdates = collections.Counter(m[0] for m in M)
+for d, rs in by.items():
+    gl = sorted([r for r in rs if r[0] == "g"], key=lambda r: (r[5] + r[6], r[4]))
+    for a, b in zip(gl, gl[1:]):
+        if b[5] < a[5] + 1 or b[6] < a[6]: problems.append(("스코어 역순", d, a[4], b[4]))
+    if d not in mdates: problems.append(("출전 없음", d))
+for d, c in mdates.items():
+    if c > 1: problems.append(("같은 날 두 경기", d))
+for r in E:
+    if r[4] > 130 or r[4] < 1: problems.append(("분 범위", r))
+    if r[0] == "a" and not r[13]: problems.append(("도움 득점자 없음", r))
+    if r[2] < 900 or r[2] > 2200: problems.append(("Elo 범위", r))
+for m in M:
+    if not (0 < m[3] <= 125): problems.append(("출전 분 범위", m))
+
+J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
+open(OUT_JS, "w", encoding="utf-8").write(f"const WAT_E={J(E)};\nconst WAT_M={J(M)};\nconst WAT_NOTE={J(NOTE)};\n")
+keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
+json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "assist_judgments": judg, "cross_check": cross,
+           "elo_sources": ELO_SRC, "elo_log": {f"{o}|{s}": v for (o, s), v in ELO_LOG.items()},
+           "new_team_seasons": {f"{o}|{s}": v for (o, s), v in NEW_TS.items()}, "table_label_diff": TABLE_DIFF},
+          open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · TM {TM_G_API}골 {TM_A_API}도움 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)}")
+for n, v in ST.items(): print(" ", n, v)
+print("점검 문제", len(problems))
+for p_ in problems: print("  ", p_)
+for c in cross:
+    if "일치" not in c: print("  대조:", c)
+print("일치 대조", sum(1 for c in cross if "일치" in c))
+print("새 팀-시즌", len(NEW_TS))
+print("통합표 라벨 재계산 차이", TABLE_DIFF)

@@ -56,6 +56,10 @@ for gid, g in G.items():
         if gid not in UTC_SCHED: sys.exit("날짜 불일치 " + gid)
         DATE_LOG.append((gid, g["date_local_schedule"], c, "보타포구 저녁 경기(UTC 날짜 → 브라질 현지 날짜)"))
     LD[gid] = c
+# 카타르컵 준결승 알가라파전: TM 2025.4.22(시각 15:00 UTC)이지만 Gulf Times(2025.4.23 기사 '수요일')·The Peninsula(4.24 기사)·FotMob(4.23 16:00 UTC) 모두 4.23 → 4.23
+DATE_FIX = {"4601025": ("2025-04-23", "카타르컵 준결승 알가라파전: Gulf Times·The Peninsula·FotMob 2025.4.23(수), TM만 4.22")}
+for gid, (d, why) in DATE_FIX.items():
+    DATE_LOG.append((gid, LD[gid], d, why)); LD[gid] = d
 def ldate(g): return LD[g["gameId"]]
 def opp(g): return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
@@ -145,10 +149,12 @@ def tie_of(gid):
 
 # ---------------------------------------------------------------- 출전
 MIN_EST = {}   # 모든 경기에 TM 출전 분 있음
+# TM 출전 분 고침: 카타르컵 결승 알사드전(2025.5.10)은 연장까지 120분(알두하일 구단 경기 기사), FotMob 교체 투입 75분 → 120 − 75 = 45분(TM 15분은 90분 경기로 계산)
+MIN_FIX = {"4601325": 45}
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
     if g["gameId"] in MIN_EST: M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), MIN_EST[g["gameId"]], 1]); continue
-    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), int(g["playedMinutes"])])
+    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), MIN_FIX.get(g["gameId"], int(g["playedMinutes"]))])
 
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
@@ -363,25 +369,25 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if len(p) < 5 or p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
 
-EU_LG = {"IT1": "세리에A", "FR1": "리그1"}
+EU_LG = {"NL1": "에레디비시", "GB1": "프리미어리그"}
 SIMPLE = {   # 리그 코드 -> (라벨 머리, 괄호 설명)
     "TR1": ("쉬페르리그", ""),
+    "NL2": ("에이르스터 디비시(네덜란드 2부)", " (Eerste Divisie)"),
+    "GB3": ("잉글랜드 3부", " (EFL League One, 리그 수준 추정)"),
+    "QSL": ("카타르 1부", " (Qatar Stars League)"),
+    "QU2L": ("카타르 2부", " (Qatari Second Division)"),
+    "MAR1": ("모로코 1부", " (Botola Pro, 리그 수준 추정)"),
+    "RO1": ("루마니아 1부", " (Liga I)"),
     "AZ1": ("아제르바이잔 1부", " (Azerbaijan Premier League)"),
-    "SC1": ("스코틀랜드 1부", " (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"),
-    "ISR1": ("이스라엘 1부", " (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)"),
-    "TS1": ("체코 1부", " (Czech First League)"),
-    "IS1": ("아이슬란드 1부", " (Úrvalsdeild karla (Pepsideild))"),
-    "FR3": ("프랑스 3부", " (Championnat National, 리그 수준 추정)"),
-    "IT3B": ("이탈리아 3부", " (Serie C Girone B, 리그 수준 추정)"),
-    "TR3A": ("튀르키예 3부", " (TFF 2. Lig Beyaz Grup, 리그 수준 추정)"),
-    "TR3B": ("튀르키예 3부", " (TFF 2. Lig Kırmızı Grup, 리그 수준 추정)"),
+    "GR1": ("그리스 1부", " (Super League Greece, 플레이오프·스플릿 뒤 최종 순위)"),
 }
 RANK_FIX = {}   # (리그, 시즌, 팀 키) -> (순위, 팀 수, 근거): TM 순위표가 최종 순위와 다른 경우
+# 보톨라 2025-26 TM 표의 공동 순위(승점 같음)를 foot-africa 최종 순위표(득실차 순서와도 같음)로 나눔
+RANK_FIX[("MAR1", "2025-26", key("COD Meknès"))] = (10, 16, "승점 36 KACM(득실 +1) 9위, COD 메크네스(−9) 10위")
+RANK_FIX[("MAR1", "2025-26", key("Hassania d'Agadir"))] = (12, 16, "승점 33 제마므라(−9) 11위, 하사니아 아가디르(−12) 12위")
 def make_label(lg, season, v):
     r, n, nm, sraw = v
     if (lg, season, key(nm)) in RANK_FIX: r, n = RANK_FIX[(lg, season, key(nm))][:2]
-    if lg == "IT2": return f"세리에B {season} {r}위/{n}팀"
-    if lg == "FR2": return f"리그2 {season} {r}위/{n}팀"
     if lg in SIMPLE:
         h, t = SIMPLE[lg]; return f"{h} {season} {r}위/{n}팀{t}"
     if lg in EU_LG:
@@ -389,8 +395,8 @@ def make_label(lg, season, v):
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "")
     return None
 
-def eu(d):
-    y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 7 else y - 1
+def eu(d):   # 8월 1일 기준 시즌(7월 예선 상대는 막 끝난 시즌 — 리그가 이미 시작한 경우는 MAN에서 따로)
+    y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 8 else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
 def seasons_for(cid, d, o, g):
@@ -398,7 +404,7 @@ def seasons_for(cid, d, o, g):
 
 def lg_cands(cid, d, o, g):
     s = eu(d)
-    return [(lg, s) for lg in ("IT1", "FR1", "TR1", "IT2", "FR2", "FR3", "IT3B", "AZ1", "SC1", "ISR1", "TS1", "TR3A", "TR3B")] + [("IS1", d[:4])]
+    return [(lg, s) for lg in ("NL1", "GB1", "TR1", "NL2", "GB3", "QSL", "QU2L", "MAR1", "RO1", "AZ1", "GR1")]
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계산)
 def man(o, s, lv): MAN[(key(o), s)] = lv
@@ -520,21 +526,24 @@ for b, (oe, om) in OTHERS.items():
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("sampic", "2013-07-09", "삼프도리아", "삼프도리아", "2011~2013"), ("intic", "2019-09-02", "인테르", "인테르", "2013~2019"),
-         ("psgic", "2022-09-08", "파리 생제르맹", "PSG", "2019~2022"), ("galic", None, "갈라타사라이", "갈라타사라이", "2022~2026")]
-TM_CLUB = {"1038": "sampic", "46": "intic", "583": "psgic", "141": "galic"}
+CLUBS = [("heezy", "2014-08-18", "SC 헤이렌베인", "헤이렌베인", "2012~2014"), ("twezy", "2016-08-30", "FC 트벤테", "트벤테", "2014~2016"),
+         ("ajazy", "2020-07-01", "아약스", "아약스", "2016~2020"), ("chezy", "2023-08-19", "첼시", "첼시", "2020~2023"),
+         ("galzy", "2025-01-30", "갈라타사라이", "갈라타사라이", "2023~2025"), ("duhzy", "2025-10-23", "알두하일", "알두하일", "2025"),
+         ("wydzy", "2026-09-10", "위다드 카사블랑카", "위다드", "2026"), ("botzy", None, "보타포구", "보타포구", "2026~")]
+TM_CLUB = {"306": "heezy", "317": "twezy", "610": "ajazy", "631": "chezy", "141": "galzy", "26091": "duhzy", "6603": "wydzy", "537": "botzy"}
 def club_of(d):
     for k, u, n, sh, y in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
-SCAL = ()
+SCAL = ("botzy",); SJUL10 = ("ajazy",)
 def season_of(d, club):
     y, m = int(d[:4]), int(d[5:7])
     if club in SCAL: return str(y)
-    s_ = y if m >= 8 else y - 1
+    if club in SJUL10: s_ = y if d[5:] >= "07-10" else y - 1
+    else: s_ = y if m >= 8 else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("삼프도리아", "2013-07-09"), ("인테르", "2019-09-02"), ("파리 생제르맹", "2022-09-08"), ("갈라타사라이", "9999")]
+STINTS = [(c[2], c[1] or "9999") for c in CLUBS]
 def stint(d):
     for n, u in STINTS:
         if d < u: return n
