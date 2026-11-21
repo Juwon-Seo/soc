@@ -1,0 +1,29 @@
+{
+ "preset": "palmer",
+ "name": "콜 파머",
+ "prefix": "PAL",
+ "clubs": [
+  {"key": "mcicp", "name": "맨체스터 시티", "short": "맨시티", "years": "2020~2023", "until": "2023-09-01"},
+  {"key": "checp", "name": "첼시", "short": "첼시", "years": "2023~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": [], "jul1": []},
+ "pos": "AM",
+ "flag": "ENG",
+ "retired": false,
+ "colors": {
+  "mcicp": ["#6CADDE", "#FFFFFF", "#001B40"],
+  "checp": ["#034694", "#FFFFFF", "#DBA111"]
+ },
+ "hon": {
+  "t": {
+   "UCL": ["22/23 맨시티"],
+   "USC": ["23/24 맨시티"],
+   "CWC": ["24/25 첼시"],
+   "LG": ["23/24 맨시티", "22/23 맨시티", "21/22 맨시티", "20/21 맨시티"],
+   "DC": ["2023 맨시티"],
+   "LC": ["2021 맨시티"]
+  },
+  "o": [["컨퍼런스리그 우승", "24/25 첼시"]],
+  "a": {}
+ }
+}
