@@ -178,6 +178,7 @@ def a_key(gid, minute): return f"{gid}|{minute}"
 exec(open(os.path.join(HERE, "assist_checks.py"), encoding="utf-8").read())   # A_CHECK 채움(근거 포함)
 # 골 판정(TM 골을 빼는 것): gid|분 -> 이유
 G_EXCL = {}
+G_ADD = {}
 exec(open(os.path.join(HERE, "goal_checks.py"), encoding="utf-8").read())
 
 def fm_min_match(f, tm_min_str, tol=2):
@@ -237,6 +238,9 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         cnt[sd] += 1
         is_g = e["scorer_id"] == ME and not is_og(e)
         is_a = e["assist_id"] == ME and e["scorer_id"] != ME
+        if a_key(gid, e["minute"]) in G_ADD:   # TM이 다른 선수 골로 적은 쿠티뉴 골(judgments 3절)
+            judg.append(("골 추가(TM 다른 선수 골)", ldate(g), opp(g), e["minute"], G_ADD[a_key(gid, e["minute"])]))
+            is_g, is_a = True, False
         if e["scorer_id"] == ME and e["assist_id"] == ME:
             judg.append(("도움 아님(본인 PK 골의 본인 도움 표기)", ldate(g), opp(g), e["minute"], e["assist_type"]))
         if e["scorer_id"] == ME and is_og(e): sys.exit("쿠티뉴 자책골 " + gid)
@@ -253,7 +257,7 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             k = a_key(gid, e["minute"])
             if k in G_EXCL:
                 judg.append(("골 제외", ldate(g), opp(g), e["minute"], G_EXCL[k])); continue
-            pk = 1 if e["goal_desc"] == "Penalty" else 0
+            pk = 1 if e["goal_desc"] == "Penalty" and a_key(gid, e["minute"]) not in G_ADD else 0
             if e["penalty"] == "1" and not pk and e["goal_desc"] != "Penalty rebound": sys.exit("PK 판정 확인 " + gid)
             if e["goal_desc"] == "Penalty rebound": judg.append(("PK 리바운드 골(PK 아님)", ldate(g), opp(g), e["minute"]))
             raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0, e["goal_desc"]))
@@ -272,7 +276,8 @@ cnt_ = collections.Counter()
 for r in raw_rows: cnt_[(r[1], r[0])] += 1
 for gid, g in G.items():
     excl = sum(1 for k in G_EXCL if k.split("|")[0] == gid)
-    if cnt_[(gid, "g")] + excl != int(g["goals"] or 0): sys.exit("골 수 불일치 " + gid)
+    add = sum(1 for k in G_ADD if k.split("|")[0] == gid)
+    if cnt_[(gid, "g")] + excl - add != int(g["goals"] or 0): sys.exit("골 수 불일치 " + gid)
     if int(g["penGoals"] or 0) != sum(r[6] for r in raw_rows if r[1] == gid and r[0] == "g"): sys.exit("PK 수 불일치 " + gid)
 
 SCORE_MISMATCH = []
@@ -345,8 +350,13 @@ _argv = sys.argv; sys.argv = ["x"]
 with contextlib.redirect_stdout(io.StringIO()):
     exec(compile(open(_LRA["__file__"], encoding="utf-8").read().split("if __name__ == '__main__':")[0], "lra", "exec"), _LRA)
 sys.argv = _argv
+# 브라질 주 리그만 하는 팀(그해 전국 리그 A~D 밖, '브라질 5부 YYYY 순위 없음'): 파투 선례대로 같은 해 기존 자료의 같은 범주 값
+# (2010 아드리아누 1281 — 티그리스·방구·아메리카누·올라리아, 2025 파예 1269 — 웅이앙 혼도노폴리스). tools base()(약 1050)와 다름(judgments 6절).
+BRA5_NORANK = {"2010": 1281, "2025": 1269}
 def lv_value(lv, d):
     m_ = re.match(r"^(\S+) (\d)부 (\d{4})(?:-(\d{2}))? 순위 없음", lv)
+    if m_ and m_.group(1) == "브라질" and m_.group(2) == "5" and m_.group(3) in BRA5_NORANK:
+        return BRA5_NORANK[m_.group(3)]
     if m_:   # 순위를 못 찾은 상대: 그 나라·단계 기준점(tools/league_rank_apply.py base())
         cal = m_.group(4) is None; y = int(m_.group(3)) + (0 if cal else 1)
         return int(round(_LRA["base"](_LRA["KO"][m_.group(1)], int(m_.group(2)), y, cal)))

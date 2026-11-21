@@ -1,0 +1,46 @@
+{
+ "preset": "coutinho",
+ "name": "필리페 쿠티뉴",
+ "prefix": "COU",
+ "clubs": [
+  {"key": "vascou", "name": "바스쿠 다 가마", "short": "바스쿠", "years": "2009~2010", "until": "2010-07-01"},
+  {"key": "intcou", "name": "인테르", "short": "인테르", "years": "2010~2012", "until": "2012-01-30"},
+  {"key": "espcou", "name": "에스파뇰", "short": "에스파뇰", "years": "2012", "until": "2012-07-01"},
+  {"key": "intcou", "name": "인테르", "short": "인테르", "years": "2012", "until": "2013-01-30"},
+  {"key": "livcou", "name": "리버풀", "short": "리버풀", "years": "2013~2018", "until": "2018-01-08"},
+  {"key": "barcou", "name": "바르셀로나", "short": "바르셀로나", "years": "2018~2019", "until": "2019-08-19"},
+  {"key": "baycou", "name": "바이에른 뮌헨", "short": "바이에른", "years": "2019~2020", "until": "2020-08-31"},
+  {"key": "barcou", "name": "바르셀로나", "short": "바르셀로나", "years": "2020~2021", "until": "2022-01-07"},
+  {"key": "avlcou", "name": "애스턴 빌라", "short": "애스턴 빌라", "years": "2022~2023", "until": "2023-09-08"},
+  {"key": "duhcou", "name": "알두하일", "short": "알두하일", "years": "2023~2024", "until": "2024-07-10"},
+  {"key": "vascou", "name": "바스쿠 다 가마", "short": "바스쿠", "years": "2024~2026", "until": "2026-09-14"},
+  {"key": "sancou", "name": "산투스", "short": "산투스", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": ["vascou", "sancou"], "jul10": [], "jul1": []},
+ "pos": "AM",
+ "flag": "BR",
+ "retired": false,
+ "colors": {
+  "vascou": ["#000000", "#FFFFFF"],
+  "intcou": ["#0068A8", "#000000"],
+  "espcou": ["#007FC8", "#FFFFFF"],
+  "livcou": ["#C8102E", "#FFFFFF"],
+  "barcou": ["#A50044", "#004D98", "#EDBB00"],
+  "baycou": ["#DC052D", "#FFFFFF", "#0066B2"],
+  "avlcou": ["#670E36", "#95BFE5"],
+  "duhcou": ["#CE0000", "#FFFFFF"],
+  "sancou": ["#FFFFFF", "#000000"]
+ },
+ "hon": {
+  "t": {
+   "UCL": ["19/20 바이에른"],
+   "LG": ["19/20 바이에른", "18/19 바르셀로나", "17/18 바르셀로나"],
+   "DC": ["19/20 바이에른", "17/18 바르셀로나", "10/11 인테르"],
+   "SC": ["18/19 바르셀로나", "10/11 인테르"]
+  },
+  "o": [["브라질 2부 우승", "2009 바스쿠"]],
+  "a": {
+   "XI": ["14/15 프리미어리그 · PFA(선수협회)"]
+  }
+ }
+}
