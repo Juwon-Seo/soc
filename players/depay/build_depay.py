@@ -37,7 +37,7 @@ EVS = collections.defaultdict(list)
 for e in rd("tm_events.csv"): EVS[e["gameId"]].append(e)
 FME = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
-FMMAP = {r["tm_gameId"]: r for r in rd("fotmob_tm_map.csv") if r["status"] == "OK"}
+FMMAP = {r["tm_gameId"]: r for r in rd("fotmob_tm_map.csv") if r["fotmob_matchId"]}
 FMPM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
 
 # ---------------------------------------------------------------- 날짜
@@ -316,7 +316,7 @@ STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", 
         "rio", "ave", "al", "sc", "qatar", "rayyan", "atletico", "mexico", "cruz", "azul", "guadalajara", "deportivo", "once", "caldas", "medellin", "bogota", "leon", "minnesota"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_team(a, b): return key(a) == key(b) or bool(toks(a) & toks(b))
-SA_DOM = {"ARG1", "ARGC", "CLI", "CS", "BRA1", "BCP1", "BCPF", "MEX1", "MEXA", "POME", "USMX", "MLS1", "MLSP", "COL1", "COPO", "QSL", "QEC1", "KLUB"}
+SA_DOM = {"CLI", "CS", "BRA1", "BCP1", "BRC", "SCBR"}
 def same_match(o, d, cid):
     if cid in SA_DOM:
         cand = [(b, x) for b, x in BYDATE.get(d, []) if key(x[1]) == key(o)]
@@ -348,46 +348,39 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if len(p) < 5 or p[0] in ("league",) or p[0].startswith("#") or p[0].startswith("FOTMOB"): continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
 
-EU_LG = {"FR1": "리그1", "ES1": "라리가", "L1": "분데스리가", "GB1": "프리미어리그", "PO1": "포르투갈 1부"}
-ARG_KO = {"ARG1": "아페르투라", "ARGC": "클라우수라"}
+EU_LG = {"FR1": "리그1", "ES1": "라리가", "GB1": "프리미어리그", "PO1": "포르투갈 1부", "NL1": "에레디비시"}
 def make_label(lg, season, v):
     r, n, nm, sraw = v
-    if lg in ARG_KO:   # 아르헨티나 반시즌: 라베치·아구에로 자료와 같은 형식
-        y = int(season[:4]) + (0 if lg == "ARG1" else 1)
-        return f"아르헨티나 1부 {ARG_KO[lg]} {y} {r}위/{n}팀"
-    if lg == "GR1": return f"그리스 슈퍼리그 {season} {r}위/{n}팀 (리그 수준 추정)"   # 같은 시즌 다른 선수 자료(OFI·파네톨리코스·라미아) 형식
-    if lg == "QSL": return f"카타르 1부 {season} {r}위/{n}팀 (Qatar Stars League)"
-    if lg == "MEX1": return f"멕시코 1부 {season} {r}위/{n}팀 (Liga MX 클라우수라 2025, 경기 날짜에 진행 중이던 단계의 정규리그 순위)"
-    if lg == "MEXA": return f"멕시코 1부 {season} {r}위/{n}팀 (Liga MX 아페르투라 2025, 경기 날짜에 진행 중이던 단계의 정규리그 순위)"
-    if lg == "COL1": return f"콜롬비아 1부 {season} {r}위/{n}팀 (리그 수준 추정)"
     if lg in EU_LG:
         pre = EU_LG[lg]; n0 = _LRA["ERA"]["teams"](pre, int(season[:4]) + 1)
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "")
+    if lg == "BRA1": return f"브라질 세리에 A {season} {r}위/{n}팀"
+    if lg == "BRA2": return f"브라질 세리에 B {season} {r}위/{n}팀"
+    if lg == "BE1": return f"벨기에 1부 {season} {r}위/{n}팀 (플레이오프·스플릿 뒤 최종 순위)"
+    if lg == "GR1": return f"그리스 1부 {season} {r}위/{n}팀 (Super League Greece)"
+    if lg == "RU1": return f"러시아 1부 {season} {r}위/{n}팀 (Russian Premier League)"
+    if lg == "KR1": return f"크로아티아 1부 {season} {r}위/{n}팀 (Prva HNL)"
+    if lg == "A2": return f"오스트리아 2부 {season} {r}위/{n}팀 (Erste Liga, 리그 수준 추정)"
+    if lg == "NL2": return f"에이르스터 디비시(네덜란드 2부) {season} {r}위/{n}팀 (Eerste Divisie)"
+    if lg == "GB3": return f"잉글랜드 3부 {season} {r}위/{n}팀 (Football League One, 리그 수준 추정)"
+    if lg == "FR3": return f"프랑스 3부 {season} {r}위/{n}팀 (Championnat National, 리그 수준 추정)"
+    if lg == "E3G1": return f"스페인 3부 {season} {r}위/{n}팀 (Primera Federación Grupo 1, 리그 수준 추정)"
     return None
 
 def eu(d):
     y, mo = int(d[:4]), int(d[5:7]); s = y if mo >= 7 else y - 1
     return f"{s}-{str(s + 1)[2:]}"
 
-CAL = {"BRA1", "BCP1", "BCPF", "MLS1", "MLSP", "USMX", "COL1", "COPO"}
-def arg_stage(cid, g):
-    y = int(g["seasonId"])
-    return (f"{y}/Apertura", ("ARG1", f"{y}-{str(y + 1)[2:]}")) if cid == "ARG1" else (f"{y + 1}/Clausura", ("ARGC", f"{y}-{str(y + 1)[2:]}"))
+CAL = {"BRA1", "BCP1", "BRC", "SCBR"}
 def seasons_for(cid, d, o, g):
-    if cid in ("ARG1", "ARGC"): return [arg_stage(cid, g)[0]]
     if cid in ("CLI", "CS"): return [d[:4], eu(d)]
-    if cid == "MEX1": return [f"{eu(d)}/Clausura", eu(d)]
-    if cid in ("MEXA",): return [f"{eu(d)}/Apertura", eu(d)]
     if cid in CAL: return [d[:4]]
     return [eu(d), d[:4]]
 
 def lg_cands(cid, d, o, g):
-    if cid in ("ARG1", "ARGC"): return [arg_stage(cid, g)[1]]
-    if cid in ("COL1", "COPO"): return [("COL1", d[:4])]
-    if cid == "MEX1": return [("MEX1", eu(d))]
-    if cid == "MEXA": return [("MEXA", eu(d))]
+    if cid in CAL or cid in ("CLI", "CS"): return [("BRA1", d[:4]), ("BRA2", d[:4])]
     s = eu(d)
-    return [("PO1", s), ("GR1", s), ("QSL", s), ("FR1", s), ("ES1", s)]
+    return [(lg, s) for lg in ("NL1", "BE1", "GR1", "RU1", "KR1", "A2", "NL2", "GB3", "FR3", "E3G1", "PO1", "GB1", "FR1", "ES1")]
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계산)
 def man(o, s, lv): MAN[(key(o), s)] = lv
