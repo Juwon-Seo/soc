@@ -1,0 +1,17 @@
+{"preset":"candreva","name":"안토니오 칸드레바","prefix":"CAN",
+ "clubs":[
+  {"key":"tercv","name":"테르나나","short":"테르나나","years":"2004~2007","until":"2007-07-01"},
+  {"key":"udicv","name":"우디네세","short":"우디네세","years":"2007~2008","until":"2008-07-07"},
+  {"key":"livcv","name":"리보르노","short":"리보르노","years":"2008~2010","until":"2010-01-21"},
+  {"key":"juvcv","name":"유벤투스","short":"유벤투스","years":"2010","until":"2010-08-30"},
+  {"key":"parcv","name":"파르마","short":"파르마","years":"2010~2011","until":"2011-07-21"},
+  {"key":"cescv","name":"체세나","short":"체세나","years":"2011~2012","until":"2012-01-31"},
+  {"key":"lazcv","name":"라치오","short":"라치오","years":"2012~2016","until":"2016-08-03"},
+  {"key":"intcv","name":"인테르","short":"인테르","years":"2016~2020","until":"2020-09-25"},
+  {"key":"sampcv","name":"삼프도리아","short":"삼프도리아","years":"2020~2022","until":"2022-08-12"},
+  {"key":"salcv","name":"살레르니타나","short":"살레르니타나","years":"2022~2024","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "pos":"RW","flag":"IT","retired":true,
+ "hon":{"t":{"DC":["12/13 라치오"]},
+        "o":[["UEL 준우승","19/20 인테르"]],
+        "a":{}}}

@@ -1,0 +1,13 @@
+{"preset":"duff","name":"데미안 더프","prefix":"DUF",
+ "clubs":[
+  {"key":"blbdf","name":"블랙번 로버스","short":"블랙번","years":"1996~2003","until":"2003-07-26"},
+  {"key":"chedf","name":"첼시","short":"첼시","years":"2003~2006","until":"2006-07-26"},
+  {"key":"newdf","name":"뉴캐슬 유나이티드","short":"뉴캐슬","years":"2006~2009","until":"2009-08-18"},
+  {"key":"fuldf","name":"풀럼","short":"풀럼","years":"2009~2014","until":"2014-07-01"},
+  {"key":"mcydf","name":"멜버른 시티","short":"멜버른 시티","years":"2014~2015","until":"2015-07-14"},
+  {"key":"shrdf","name":"섐록 로버스","short":"섐록 로버스","years":"2015","until":null}],
+ "season":{"calendar":["shrdf"],"jul10":[],"jul1":[]},
+ "pos":"LW","flag":"IE","retired":true,
+ "hon":{"t":{"LG":["05/06 첼시","04/05 첼시"],"LC":["2005 첼시","2002 블랙번"],"SC":["05/06 첼시"]},
+        "o":[["챔피언십(2부) 우승","09/10 뉴캐슬"],["UEL 준우승","09/10 풀럼"]],
+        "a":{"FOY":["2002 블랙번"]}}}

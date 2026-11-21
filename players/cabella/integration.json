@@ -1,0 +1,108 @@
+{
+ "preset": "cabella",
+ "name": "레미 카벨라",
+ "prefix": "CAB",
+ "clubs": [
+  {
+   "key": "arlcab",
+   "name": "아를아비뇽",
+   "short": "아를아비뇽",
+   "years": "2010~2011",
+   "until": "2011-07-01"
+  },
+  {
+   "key": "mtpcab",
+   "name": "몽펠리에",
+   "short": "몽펠리에",
+   "years": "2011~2014",
+   "until": "2014-07-13"
+  },
+  {
+   "key": "ncucab",
+   "name": "뉴캐슬 유나이티드",
+   "short": "뉴캐슬",
+   "years": "2014~2015",
+   "until": "2015-08-19"
+  },
+  {
+   "key": "omcab",
+   "name": "올랭피크 드 마르세유",
+   "short": "마르세유",
+   "years": "2015~2017",
+   "until": "2017-08-31"
+  },
+  {
+   "key": "stecab",
+   "name": "AS 생테티엔",
+   "short": "생테티엔",
+   "years": "2017~2019",
+   "until": "2019-07-26"
+  },
+  {
+   "key": "krcab",
+   "name": "크라스노다르",
+   "short": "크라스노다르",
+   "years": "2019~2022",
+   "until": "2022-04-06"
+  },
+  {
+   "key": "mtpcab",
+   "name": "몽펠리에",
+   "short": "몽펠리에",
+   "years": "2022",
+   "until": "2022-07-10"
+  },
+  {
+   "key": "lilcab",
+   "name": "릴",
+   "short": "릴",
+   "years": "2022~2025",
+   "until": "2025-07-01"
+  },
+  {
+   "key": "olycab",
+   "name": "올림피아코스",
+   "short": "올림피아코스",
+   "years": "2025",
+   "until": "2026-01-01"
+  },
+  {
+   "key": "nancab",
+   "name": "낭트",
+   "short": "낭트",
+   "years": "2026",
+   "until": "2026-09-14"
+  },
+  {
+   "key": "volcab",
+   "name": "볼로스",
+   "short": "볼로스",
+   "years": "2026~",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [],
+  "jul10": [
+   "mtpcab"
+  ],
+  "jul1": []
+ },
+ "pos": "AM",
+ "flag": "FR",
+ "retired": false,
+ "hon": {
+  "t": {
+   "LG": [
+    "11/12 몽펠리에"
+   ]
+  },
+  "o": [
+   [
+    "쿠프 드 프랑스 준우승",
+    "15/16 마르세유"
+   ]
+  ],
+  "a": {}
+ }
+}

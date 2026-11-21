@@ -1,0 +1,89 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligaportugal.pt/en/liga/classificacao/20202021/liganos Liga Portugal]
+
+<!--Update team positions here-->
+|team_order=SPO, POR, BEN, BRA, PAC, STA, VSC, MOR, FAM, BEL, GIL, TON, BOA, PTM, MAR, RIO, FAR, NAC
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=ECL3Q |result6=ECL2Q  |result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_BEL=9 |draw_BEL=13|loss_BEL=12|gf_BEL=25|ga_BEL=35<!-- Belenenses SAD -->
+|win_BEN=23|draw_BEN=7 |loss_BEN=4 |gf_BEN=69|ga_BEN=27<!-- Benfica -->
+|win_BOA=8 |draw_BOA=12|loss_BOA=14|gf_BOA=39|ga_BOA=49<!-- Boavista -->
+|win_BRA=19|draw_BRA=7 |loss_BRA=8 |gf_BRA=53|ga_BRA=33<!-- Braga -->
+|win_FAM=10|draw_FAM=10|loss_FAM=14|gf_FAM=40|ga_FAM=48<!-- Famalicão -->
+|win_FAR=7 |draw_FAR=10|loss_FAR=17|gf_FAR=31|ga_FAR=48<!-- Farense -->
+|win_GIL=11|draw_GIL=6 |loss_GIL=17|gf_GIL=33|ga_GIL=42<!-- Gil Vicente -->
+|win_MAR=10|draw_MAR=5 |loss_MAR=19|gf_MAR=27|ga_MAR=47<!-- Marítimo -->
+|win_MOR=10|draw_MOR=13|loss_MOR=11|gf_MOR=37|ga_MOR=43<!-- Moreirense -->
+|win_NAC=6 |draw_NAC=7 |loss_NAC=21|gf_NAC=30|ga_NAC=59<!-- Nacional -->
+|win_PAC=15|draw_PAC=8 |loss_PAC=11|gf_PAC=40|ga_PAC=41<!-- Paços de Ferreira -->
+|win_PTM=9 |draw_PTM=8 |loss_PTM=17|gf_PTM=34|ga_PTM=41<!-- Portimonense -->
+|win_POR=24|draw_POR=8 |loss_POR=2 |gf_POR=74|ga_POR=29<!-- Porto -->
+|win_RIO=7 |draw_RIO=13|loss_RIO=14|gf_RIO=25|ga_RIO=40<!-- Rio Ave -->
+|win_STA=13|draw_STA=7 |loss_STA=14|gf_STA=44|ga_STA=36<!-- Santa Clara -->
+|win_SPO=26|draw_SPO=7 |loss_SPO=1 |gf_SPO=65|ga_SPO=20<!-- Sporting CP -->
+|win_TON=10|draw_TON=6 |loss_TON=18|gf_TON=36|ga_TON=57<!-- Tondela -->
+|win_VSC=12|draw_VSC=7 |loss_VSC=15|gf_VSC=37|ga_VSC=44<!-- Vitória de Guimarães -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_BEL=[[B-SAD]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_FAM=[[F.C. Famalicão|Famalicão]]
+|name_FAR=[[S.C. Farense|Farense]]
+|name_GIL=[[Gil Vicente F.C.|Gil Vicente]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_NAC=[[C.D. Nacional|Nacional]]
+|name_PAC=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_PTM=[[Portimonense S.C.|Portimonense]]
+|name_RIO=[[Rio Ave F.C.|Rio Ave]]
+|name_STA=[[C.D. Santa Clara|Santa Clara]]
+|name_SPO=[[Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_VSC=[[Vitória S.C.|Vitória de Guimarães]]
+
+<!--Status-->
+|status_SPO=C
+|status_RIO=R
+|status_FAR=R
+|status_NAC=R
+
+<!--Head-to-head-->
+|hth_VSC=Vitória de Guimarães are ranked ahead of Moreirense on head-to-head points: Vitória de Guimarães 4, Moreirense 1.
+|hth_MOR=VSC
+|hth_FAM=Famalicão are ranked ahead of Belenenses SAD on head-to-head points: Famalicão 4, Belenenses SAD 1.
+|hth_BEL=FAM
+|hth_TON=Tondela are ranked ahead of Boavista on head-to-head points: Tondela 4, Boavista 1.
+|hth_BOA=TON
+|hth_PTM=Portimonense are ranked ahead of Marítimo on head-to-head points: Portimonense 4, Marítimo 1.
+|hth_MAR=PTM
+
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2021–22 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2021–22 UEFA Champions League#Play-off round|Champions League third qualifying round]]
+|col_ELGS=blue1    |text_ELGS=Qualification for the [[2021–22 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECL3Q=yellow1 |text_ECL3Q=Qualification for the [[2021–22 UEFA Europa Conference League#Third qualifying round|Europa Conference League third qualifying round]]
+|col_ECL2Q=yellow2 |text_ECL2Q=Qualification for the [[2021–22 UEFA Europa Conference League#Second qualifying round|Europa Conference League second qualifying round]]
+|col_RPO=red2      |text_RPO=Qualification for the [[2020–21 Primeira Liga#Relegation play-offs|Relegation play-offs]]
+|col_REL=red1      |text_REL=Relegation to [[2021–22 Liga Portugal 2|Liga Portugal 2]]
+
+|note_res_ELGS=Braga qualified for the Europa League group stage by winning the [[2020–21 Taça de Portugal]]. Since they would have qualified for the Europa Conference League third qualifying round by finishing fourth, the berth was awarded to the fifth-placed team (Paços de Ferreira), and the Europa Conference League second qualifying round berth reserved to the fifth-placed team was awarded to the sixth-placed team (Santa Clara).
+|note_res_ECL3Q=ELGS
+|note_res_ECL2Q=ELGS
+}}</onlyinclude>
+
+[[Category:2020–21 association football standings in Europe templates|Portugal ]]

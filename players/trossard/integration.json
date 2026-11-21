@@ -1,0 +1,23 @@
+{"preset":"trossard","name":"레안드로 트로사르","prefix":"TRO",
+ "clubs":[
+  {"key":"gnktr","name":"KRC 헹크","short":"헹크","years":"2012~2013","until":"2013-01-29"},
+  {"key":"lomtr","name":"로멀 유나이티드","short":"로멀","years":"2013","until":"2013-07-01"},
+  {"key":"wsttr","name":"KVC 베스터를로","short":"베스터를로","years":"2013~2014","until":"2014-07-01"},
+  {"key":"lomtr","name":"로멀 유나이티드","short":"로멀","years":"2014~2015","until":"2015-07-06"},
+  {"key":"ohltr","name":"OH 뢰번","short":"뢰번","years":"2015~2016","until":"2016-06-30"},
+  {"key":"gnktr","name":"KRC 헹크","short":"헹크","years":"2016~2019","until":"2019-07-01"},
+  {"key":"brhtr","name":"브라이턴 앤드 호브 앨비언","short":"브라이턴","years":"2019~2023","until":"2023-01-20"},
+  {"key":"arstr","name":"아스널","short":"아스널","years":"2023~2026","until":"2026-07-15"},
+  {"key":"bjktr","name":"베식타시","short":"베식타시","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["gnktr","ohltr"],"jul1":[]},
+ "pos":"LW","flag":"BE","retired":false,
+ "colors":{
+  "gnktr":["#007AFF","#FFFFFF"],
+  "lomtr":["#009150","#FFFFFF"],
+  "wsttr":["#FFFF00","#0000FF"],
+  "ohltr":["#FFFFFF","#008000","#FF0000"],
+  "brhtr":["#0057B8","#FFFFFF"],
+  "arstr":["#EF0107","#FFFFFF"],
+  "bjktr":["#000000","#FFFFFF"]},
+ "hon":{"t":{"LG":["25/26 아스널","18/19 헹크"],"DC":["2013 헹크"],"SC":["23/24 아스널"]},
+   "o":[["벨기에 2부 우승","13/14 베스터를로"]],"a":{}}}

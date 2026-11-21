@@ -1,0 +1,20 @@
+{
+ "preset": "mbeumo",
+ "name": "브라이언 음뵈모",
+ "prefix": "MBE",
+ "clubs": [
+  {"key": "tromb", "name": "트루아", "short": "트루아", "years": "2018~2019", "until": "2019-08-05"},
+  {"key": "bremb", "name": "브렌트퍼드", "short": "브렌트퍼드", "years": "2019~2025", "until": "2025-07-21"},
+  {"key": "munmb", "name": "맨체스터 유나이티드", "short": "맨유", "years": "2025~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": [], "jul1": ["tromb"]},
+ "pos": "RW",
+ "flag": "CM",
+ "retired": false,
+ "colors": {
+  "tromb": ["#0055A4", "#FFFFFF"],
+  "bremb": ["#E30613", "#FFFFFF", "#000000"],
+  "munmb": ["#DA020E", "#FFFFFF", "#000000"]
+ },
+ "hon": {"t": {}, "o": [], "a": {}}
+}

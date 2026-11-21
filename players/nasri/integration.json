@@ -1,0 +1,30 @@
+{
+ "preset": "nasri",
+ "name": "사미르 나스리",
+ "prefix": "NAS",
+ "clubs": [
+  {"key": "omnri", "name": "올랭피크 마르세유", "short": "마르세유", "years": "2004~2008", "until": "2008-07-11"},
+  {"key": "arsnri", "name": "아스널", "short": "아스널", "years": "2008~2011", "until": "2011-08-24"},
+  {"key": "mcinri", "name": "맨체스터 시티", "short": "맨시티", "years": "2011~2016", "until": "2016-08-31"},
+  {"key": "sevnri", "name": "세비야(임대)", "short": "세비야", "years": "2016~2017", "until": "2017-08-21"},
+  {"key": "antnri", "name": "안탈리아스포르", "short": "안탈리아", "years": "2017", "until": "2019-01-01"},
+  {"key": "whunri", "name": "웨스트햄 유나이티드", "short": "웨스트햄", "years": "2019", "until": "2019-07-05"},
+  {"key": "andnri", "name": "안데를레흐트", "short": "안데를레흐트", "years": "2019", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["omnri", "andnri"], "jul1": []},
+ "pos": "AM",
+ "flag": "FR",
+ "retired": true,
+ "colors": {
+  "omnri": ["#FFFFFF", "#009CDC"],
+  "arsnri": ["#EF0107", "#FFFFFF"],
+  "mcinri": ["#6CADDE", "#FFFFFF", "#001B40"],
+  "sevnri": ["#FFFFFF", "#E20000"],
+  "antnri": ["#E30A17", "#FFFFFF"],
+  "whunri": ["#7A263A", "#1BB1E7"],
+  "andnri": ["#5C2195", "#FFFFFF"]
+ },
+ "hon": {"t": {"LG": ["13/14 맨시티", "11/12 맨시티"], "LC": ["13/14 맨시티"], "SC": ["12/13 맨시티"]},
+         "o": [["UEFA 인터토토컵", "06/07 마르세유"], ["UEFA 인터토토컵", "05/06 마르세유"]],
+         "a": {"FOY": ["2010 아스널"], "XI": ["10/11 프리미어리그 · PFA(선수협회)", "06/07 리그1 · UNFP(선수협회)"]}}
+}

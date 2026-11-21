@@ -1,0 +1,10 @@
+{"preset":"vicente","name":"비센테 로드리게스","prefix":"VIC",
+ "clubs":[
+  {"key":"levvc","name":"레반테","short":"레반테","years":"1997~2000","until":"2000-07-01"},
+  {"key":"valvc","name":"발렌시아","short":"발렌시아","years":"2000~2011","until":"2011-07-01"},
+  {"key":"brivc","name":"브라이턴 앤드 호브 앨비언","short":"브라이턴","years":"2011~2013","until":null}],
+ "season":{"calendar":[],"jul10":["valvc"],"jul1":[]},
+ "pos":"LW","flag":"ES","retired":true,
+ "hon":{"t":{"LG":["03/04 발렌시아","01/02 발렌시아"],"UEL":["03/04 발렌시아"],"USC":["04/05 발렌시아"],"DC":["07/08 발렌시아"]},
+        "o":[["UCL 준우승","00/01 발렌시아"]],
+        "a":{"FOY":["2004 발렌시아"]}}}

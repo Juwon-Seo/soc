@@ -1,0 +1,43 @@
+{
+ "preset": "pato",
+ "name": "알레샨드리 파투",
+ "prefix": "PAT",
+ "clubs": [
+  {"key": "intpt", "name": "인테르나시오나우", "short": "인테르나시오나우", "years": "2006~2007", "until": "2007-08-02"},
+  {"key": "acmpt", "name": "AC 밀란", "short": "밀란", "years": "2007~2013", "until": "2013-01-03"},
+  {"key": "corpt", "name": "코린치안스", "short": "코린치안스", "years": "2013~2014", "until": "2014-02-14"},
+  {"key": "saopt", "name": "상파울루", "short": "상파울루", "years": "2014~2015", "until": "2016-01-29"},
+  {"key": "chept", "name": "첼시", "short": "첼시", "years": "2016", "until": "2016-07-26"},
+  {"key": "vilpt", "name": "비야레알", "short": "비야레알", "years": "2016~2017", "until": "2017-01-30"},
+  {"key": "tqjpt", "name": "톈진 취안젠", "short": "톈진", "years": "2017~2018", "until": "2019-03-27"},
+  {"key": "saopt", "name": "상파울루", "short": "상파울루", "years": "2019~2020", "until": "2021-02-13"},
+  {"key": "orlpt", "name": "올랜도 시티", "short": "올랜도", "years": "2021~2022", "until": "2023-05-26"},
+  {"key": "saopt", "name": "상파울루", "short": "상파울루", "years": "2023", "until": null}
+ ],
+ "season": {"calendar": ["intpt", "corpt", "saopt", "tqjpt", "orlpt"], "jul10": [], "jul1": []},
+ "pos": "CF",
+ "flag": "BR",
+ "retired": true,
+ "colors": {
+  "intpt": ["#E5050F", "#FFFFFF"],
+  "acmpt": ["#C90C0F", "#000000"],
+  "corpt": ["#FFFFFF", "#000000"],
+  "saopt": ["#FFFFFF", "#ED1C24", "#000000"],
+  "chept": ["#034694", "#FFFFFF", "#DBA111"],
+  "vilpt": ["#FFE114", "#005187"],
+  "tqjpt": ["#D7141A", "#FFFFFF"],
+  "orlpt": ["#633492", "#FDE192"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["10/11 밀란"],
+   "CWC": ["06/07 인테르나시오나우"],
+   "DC": ["2023 상파울루", "2022 올랜도(US 오픈컵)"],
+   "SC": ["11/12 밀란"]
+  },
+  "o": [["레코파 수다메리카나", "12/13 코린치안스"], ["레코파 수다메리카나", "06/07 인테르나시오나우"], ["캄페오나투 파울리스타", "2013 코린치안스"]],
+  "a": {
+   "GB": ["2009"]
+  }
+ }
+}

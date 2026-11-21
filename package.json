@@ -3,7 +3,10 @@
   "private": true,
   "scripts": {
     "build": "python3 tools/build.py",
-    "check": "python3 tools/build.py && node tools/verify.js check dist/club-soc.html"
+    "check": "python3 tools/build.py && node tools/verify.js check dist/club-soc.html",
+    "elo": "node tools/elo_table.js"
   },
-  "devDependencies": { "playwright": "^1.48.0" }
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
 }

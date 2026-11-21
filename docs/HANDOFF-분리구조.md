@@ -15,6 +15,7 @@
 - `python3 tools/build.py` → `dist/club-soc.html`(데이터 인라인 단독 실행, 약 4.0MB) · `dist/club-soc.artifact.html`(껍데기 없는 한 파일, Claude Code 아티팩트 게시용) · `dist/dev.html`(개발용, `src/data`를 따로 읽음).
 - `node tools/verify.js check dist/club-soc.html`: 스냅숏을 만들어 `tests/baseline-latest.json`과 비교. 새 선수는 '추가'로 따로 표시, 기존 선수가 바뀌면 `[차이]`로 표시. 바꾼 선수는 `--allow 이름`.
 - 스냅숏 내용: `st.players.map(pl=>pStats(pl,st.coef))`(soc·n·g·a·min·pk3·pk5)와 탭마다 `#clubTbl`·`#yearTbl`·`#honSec` 글자. 바깥 요청(구글 폰트)은 막고 연다.
+- 작업이 끝나면 `dist/snapshot.json`을 `tests/baseline-latest.json`(다음 비교 기준)과 `tests/baseline-v1.xxx.json`(버전 기록)으로 복사한다. 버전 기록은 **최근 20개만 남긴다**(2026-11-21 정리, 하나 약 1.7MB). 더 오래된 기준은 git 기록의 `baseline-latest.json`에서 꺼낸다.
 - 클럽 SOC 합 = 선수 누적 SOC(0.1 이내)로 팀별 표를 검증할 수 있다(55명 전원 일치 확인).
 
 ## 3. 게시

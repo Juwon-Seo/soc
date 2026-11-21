@@ -1,0 +1,11 @@
+{"preset":"wrightphillips","name":"숀 라이트필립스","prefix":"SWP",
+ "clubs":[
+  {"key":"mcisw","name":"맨체스터 시티","short":"맨시티","years":"1999~2005","until":"2005-07-18"},
+  {"key":"chesw","name":"첼시","short":"첼시","years":"2005~2008","until":"2008-08-28"},
+  {"key":"mcisw","name":"맨체스터 시티","short":"맨시티","years":"2008~2011","until":"2011-08-31"},
+  {"key":"qprsw","name":"퀸스 파크 레인저스","short":"QPR","years":"2011~2015","until":"2015-07-27"},
+  {"key":"nyrsw","name":"뉴욕 레드불스","short":"뉴욕 레드불스","years":"2015~2016","until":"2017-02-24"},
+  {"key":"phxsw","name":"피닉스 라이징","short":"피닉스","years":"2017","until":null}],
+ "season":{"calendar":["nyrsw","phxsw"],"jul10":[],"jul1":[]},
+ "pos":"RW","flag":"ENG","retired":true,
+ "hon":{"t":{"LG":["05/06 첼시"],"DC":["2011 맨시티","2007 첼시"],"LC":["2007 첼시"],"SC":["05/06 첼시"]},"o":[["잉글랜드 2부 우승","01/02 맨시티"],["서포터스 실드","14/15 뉴욕 레드불스"],["UCL 준우승","07/08 첼시"],["리그컵 준우승","07/08 첼시"]],"a":{"XI":["04/05 프리미어리그 · PFA(선수협회)"]}}}

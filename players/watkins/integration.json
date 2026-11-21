@@ -1,0 +1,22 @@
+{
+ "preset": "watkins",
+ "name": "올리 왓킨스",
+ "prefix": "WAT",
+ "clubs": [
+  {"key": "exeow", "name": "엑서터 시티", "short": "엑서터", "years": "2014~2017", "until": "2017-07-18"},
+  {"key": "breow", "name": "브렌트퍼드", "short": "브렌트퍼드", "years": "2017~2020", "until": "2020-09-09"},
+  {"key": "avlow", "name": "애스턴 빌라", "short": "빌라", "years": "2020~2026", "until": "2026-08-30"},
+  {"key": "hilow", "name": "알힐랄", "short": "알힐랄", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["hilow"], "jul1": []},
+ "pos": "CF",
+ "flag": "ENG",
+ "retired": false,
+ "colors": {
+  "exeow": ["#FF0000", "#FFFFFF", "#000000"],
+  "breow": ["#E30613", "#FFFFFF", "#000000"],
+  "avlow": ["#670E36", "#95BFE5"],
+  "hilow": ["#0000DF", "#FFFFFF"]
+ },
+ "hon": {"t": {"UEL": ["25/26 애스턴 빌라"]}, "o": [], "a": {"POY": ["19/20 챔피언십 · 사무국"], "XI": ["23/24 프리미어리그 · PFA(선수협회)", "19/20 챔피언십 · PFA(선수협회)"]}}
+}

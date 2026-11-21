@@ -1,0 +1,7551 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Swansea City",
+   "elo": 1722,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1810,
+   "comp": "dc",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 6위",
+   "note": "Santi Cazorla"
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 16위",
+   "note": "Lennart Thy"
+  },
+  {
+   "type": "g",
+   "opp": "SV Darmstadt 98",
+   "elo": 1558,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1858,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1627,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1606,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 62,
+   "gf": 2,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 91,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-18",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "분데스리가 2017-18 8위",
+   "note": "Mark Uth"
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 62,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Werder Bremen",
+   "elo": 1653,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 11위",
+   "note": "Benjamin Hübner"
+  },
+  {
+   "type": "a",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1752,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 5위",
+   "note": "Ádám Szalai"
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 1947,
+   "comp": "lg",
+   "min": 12,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 14위",
+   "note": "Ádám Szalai"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1585,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1553,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1553,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hannover 96",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 13위",
+   "note": "Andrej Kramaric"
+  },
+  {
+   "type": "a",
+   "opp": "FC Augsburg",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 15위",
+   "note": "Arjen Robben"
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 2위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ajax Amsterdam",
+   "elo": 1837,
+   "comp": "clg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2018-19 1위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "Hannover 96",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 7,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 48,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 75,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1754,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1754,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 6위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1615,
+   "comp": "dk",
+   "min": 65,
+   "gf": 3,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 43,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 89,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 2위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "a",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 10위",
+   "note": "Kingsley Coman"
+  },
+  {
+   "type": "g",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Nuremberg",
+   "elo": 1569,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2018-19 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Energie Cottbus",
+   "elo": 1250,
+   "comp": "dc",
+   "min": 85,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 4부 (추정)",
+   "note": "Leon Goretzka"
+  },
+  {
+   "type": "a",
+   "opp": "Hertha BSC",
+   "elo": 1701,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 10위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "SC Paderborn 07",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Paderborn 07",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 18위",
+   "note": "Philippe Coutinho"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1883,
+   "comp": "clg",
+   "min": 53,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1883,
+   "comp": "clg",
+   "min": 55,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1883,
+   "comp": "clg",
+   "min": 83,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1883,
+   "comp": "clg",
+   "min": 88,
+   "gf": 6,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Augsburg",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 15위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1592,
+   "comp": "dc",
+   "min": 83,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1890,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1612,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 17위",
+   "note": "Corentin Tolisso"
+  },
+  {
+   "type": "g",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1612,
+   "comp": "lg",
+   "min": 34,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Werder Bremen",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 16위",
+   "note": "Philippe Coutinho"
+  },
+  {
+   "type": "a",
+   "opp": "SC Freiburg",
+   "elo": 1734,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-18",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "분데스리가 2019-20 8위",
+   "note": "Joshua Zirkzee"
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1734,
+   "comp": "lg",
+   "min": 95,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-18",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "분데스리가 2019-20 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1755,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 89,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1659,
+   "comp": "lg",
+   "min": 12,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1659,
+   "comp": "lg",
+   "min": 66,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Paderborn 07",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Paderborn 07",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 18위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "a",
+   "opp": "SC Paderborn 07",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 18위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1911,
+   "comp": "cl16",
+   "min": 51,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 4위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1911,
+   "comp": "cl16",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 4위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1775,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Augsburg",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-08",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "분데스리가 2019-20 15위",
+   "note": "Leon Goretzka"
+  },
+  {
+   "type": "a",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1612,
+   "comp": "lg",
+   "min": 50,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-05-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 17위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 45,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-06-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1789,
+   "comp": "df",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-07-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 1939,
+   "comp": "clk",
+   "min": 21,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 2위",
+   "note": "Ivan Perisic"
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 1939,
+   "comp": "clk",
+   "min": 27,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1750,
+   "comp": "clsf",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1750,
+   "comp": "clsf",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1594,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1594,
+   "comp": "lg",
+   "min": 47,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1594,
+   "comp": "lg",
+   "min": 59,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hertha BSC",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 14위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-31",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "분데스리가 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1487,
+   "comp": "clg",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 3위 (리그 수준 추정)",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "g",
+   "opp": "Holstein Kiel",
+   "elo": 1636,
+   "comp": "dc",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1694,
+   "comp": "lg",
+   "min": 63,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al Ahly FC",
+   "elo": 1550,
+   "comp": "cwc",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "이집트·아프리카 챔피언 (추정)",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 82,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 86,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1616,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 9위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1737,
+   "comp": "lg",
+   "min": 85,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 8위",
+   "note": "Leroy Sané"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1678,
+   "comp": "lg",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1888,
+   "comp": "df",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 2위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bremer SV",
+   "elo": 1180,
+   "comp": "dc",
+   "min": 80,
+   "gf": 8,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "브레멘리가(독일 5부) 2021-22 1위 (추정, 뮐러 자료의 독일 5부 값과 같음)",
+   "note": "Michaël Cuisance"
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1672,
+   "comp": "lg",
+   "min": 32,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1600,
+   "comp": "clg",
+   "min": 68,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 35,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 37,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1712,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1730,
+   "comp": "clg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 72,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 74,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 59,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 12위",
+   "note": "Leroy Sané"
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 79,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SpVgg Greuther Fürth",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-20",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "분데스리가 2021-22 18위",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "g",
+   "opp": "Red Bull Salzburg",
+   "elo": 1735,
+   "comp": "cl16",
+   "min": 31,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 분데스리가 2021-22 1위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Freiburg",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 96,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-02",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "분데스리가 2021-22 6위",
+   "note": "Marcel Sabitzer"
+  },
+  {
+   "type": "g",
+   "opp": "Arminia Bielefeld",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-17",
+   "et": 0,
+   "dm": "45+7",
+   "lv": "분데스리가 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1888,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1852,
+   "comp": "df",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 3위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1852,
+   "comp": "df",
+   "min": 65,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 29,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 7위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 43,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1673,
+   "comp": "lg",
+   "min": 76,
+   "gf": 6,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Viktoria Köln",
+   "elo": 1429,
+   "comp": "dc",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 3부 리가 2022-23 9위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "g",
+   "opp": "FC Viktoria Plzen",
+   "elo": 1560,
+   "comp": "clg",
+   "min": 13,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Freiburg",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 55,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 5위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "a",
+   "opp": "FC Augsburg",
+   "elo": 1652,
+   "comp": "dc",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 15위",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "a",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 12위",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 1999,
+   "comp": "clg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 1위",
+   "note": "Sadio Mané"
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 1999,
+   "comp": "clg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 1위",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 1999,
+   "comp": "clg",
+   "min": 95,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-26",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "라리가 2022-23 1위",
+   "note": "Benjamin Pavard"
+  },
+  {
+   "type": "g",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 28,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 82,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1852,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 3위",
+   "note": "Eric-Maxim Choupo-Moting"
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1673,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1955,
+   "comp": "cl16",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 1위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1604,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 50,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 65,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1852,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 11위",
+   "note": "Jamal Musiala"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1857,
+   "comp": "clg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 66,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Darmstadt 98",
+   "elo": 1613,
+   "comp": "lg",
+   "min": 74,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 8위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1998,
+   "comp": "clk",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 2위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "SSV Ulm 1846",
+   "elo": 1541,
+   "comp": "dc",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2024-25 17위",
+   "note": "Thomas Müller"
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1719,
+   "comp": "lg",
+   "min": 82,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Freiburg",
+   "elo": 1818,
+   "comp": "lg",
+   "min": 78,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 5위",
+   "note": "Thomas Müller"
+  },
+  {
+   "type": "a",
+   "opp": "Holstein Kiel",
+   "elo": 1641,
+   "comp": "lg",
+   "min": 7,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 17위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1763,
+   "comp": "lg",
+   "min": 65,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 2030,
+   "comp": "clg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2024-25 1위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 66,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Holstein Kiel",
+   "elo": 1641,
+   "comp": "lg",
+   "min": 54,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1867,
+   "comp": "lg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "분데스리가 2024-25 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Bochum",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 18위",
+   "note": "Raphaël Guerreiro"
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Inter Milan",
+   "elo": 1890,
+   "comp": "clk",
+   "min": 76,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 2위",
+   "note": "Eric Dier",
+   "tie": [
+    2,
+    0,
+    1,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1651,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 16위",
+   "note": "Konrad Laimer"
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1784,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 7위",
+   "note": "Michael Olise"
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Auckland City FC",
+   "elo": 1250,
+   "comp": "cwc",
+   "min": 89,
+   "gf": 9,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-06-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "뉴질랜드 (추정, 벤제마 자료의 2023 값과 같음)",
+   "note": "Thomas Müller"
+  },
+  {
+   "type": "a",
+   "opp": "VfB Stuttgart",
+   "elo": 1828,
+   "comp": "df",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": "Luis Díaz"
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": "Luis Díaz"
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 42,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": "Michael Olise"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1737,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 99,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-20",
+   "et": 0,
+   "dm": "90+9",
+   "lv": "분데스리가 2025-26 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 8위",
+   "note": "Luis Díaz"
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal FC",
+   "elo": 2083,
+   "comp": "clg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 1위",
+   "note": "Lennart Karl"
+  },
+  {
+   "type": "g",
+   "opp": "Sporting CP",
+   "elo": 1795,
+   "comp": "clg",
+   "min": 65,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sporting CP",
+   "elo": 1795,
+   "comp": "clg",
+   "min": 77,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2025-26 2위",
+   "note": "Jonathan Tah"
+  },
+  {
+   "type": "a",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1723,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 10위",
+   "note": "Lennart Karl"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1634,
+   "comp": "lg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-21",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "분데스리가 2025-26 17위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-14",
+   "et": 0,
+   "dm": "45+5",
+   "lv": "분데스리가 2025-26 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1912,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 2위",
+   "note": "Harry Kane"
+  },
+  {
+   "type": "a",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "cl16",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": "Josip Stanisic",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1774,
+   "comp": "cl16",
+   "min": 25,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 7위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Union Berlin",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-21",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "분데스리가 2025-26 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Union Berlin",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 67,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1931,
+   "comp": "clk",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2025-26 2위",
+   "note": "Luis Díaz",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 (11월 초 현재) 3위",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2012-09-26",
+   "Coventry City",
+   "dc",
+   18
+  ],
+  [
+   "2012-10-20",
+   "Norwich City",
+   "lg",
+   7
+  ],
+  [
+   "2012-10-24",
+   "FC Schalke 04",
+   "clg",
+   7
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   "dc",
+   62
+  ],
+  [
+   "2013-09-22",
+   "Stoke City",
+   "lg",
+   73
+  ],
+  [
+   "2013-09-25",
+   "West Bromwich Albion",
+   "dc",
+   120
+  ],
+  [
+   "2013-09-28",
+   "Swansea City",
+   "lg",
+   78
+  ],
+  [
+   "2013-10-22",
+   "Borussia Dortmund",
+   "clg",
+   1
+  ],
+  [
+   "2013-10-26",
+   "Crystal Palace",
+   "lg",
+   61
+  ],
+  [
+   "2013-11-10",
+   "Manchester United",
+   "lg",
+   7
+  ],
+  [
+   "2013-12-14",
+   "Manchester City",
+   "lg",
+   18
+  ],
+  [
+   "2014-01-04",
+   "Tottenham Hotspur",
+   "dc",
+   90
+  ],
+  [
+   "2014-01-13",
+   "Aston Villa",
+   "lg",
+   69
+  ],
+  [
+   "2014-01-18",
+   "Fulham FC",
+   "lg",
+   71
+  ],
+  [
+   "2014-01-24",
+   "Coventry City",
+   "dc",
+   90
+  ],
+  [
+   "2014-01-28",
+   "Southampton FC",
+   "lg",
+   70
+  ],
+  [
+   "2014-02-22",
+   "Sunderland AFC",
+   "lg",
+   17
+  ],
+  [
+   "2014-03-11",
+   "FC Bayern Munich",
+   "cl16",
+   13
+  ],
+  [
+   "2015-08-23",
+   "Chelsea FC",
+   "lg",
+   12
+  ],
+  [
+   "2015-08-25",
+   "Port Vale FC",
+   "dc",
+   57
+  ],
+  [
+   "2015-09-23",
+   "Norwich City",
+   "dc",
+   68
+  ],
+  [
+   "2016-09-11",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-17",
+   "Borussia Mönchengladbach",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-21",
+   "1.FSV Mainz 05",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-24",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-01",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Bayer 04 Leverkusen",
+   "lg",
+   45
+  ],
+  [
+   "2016-10-23",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-29",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-06",
+   "FC Schalke 04",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-20",
+   "Eintracht Frankfurt",
+   "lg",
+   77
+  ],
+  [
+   "2016-11-26",
+   "Hamburger SV",
+   "lg",
+   69
+  ],
+  [
+   "2016-12-03",
+   "FC Ingolstadt 04",
+   "lg",
+   86
+  ],
+  [
+   "2016-12-10",
+   "Hertha BSC",
+   "lg",
+   88
+  ],
+  [
+   "2016-12-17",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-21",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-21",
+   "Borussia Dortmund",
+   "lg",
+   27
+  ],
+  [
+   "2017-01-28",
+   "FC Bayern Munich",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-05",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-11",
+   "Borussia Mönchengladbach",
+   "lg",
+   80
+  ],
+  [
+   "2017-02-18",
+   "1.FSV Mainz 05",
+   "lg",
+   76
+  ],
+  [
+   "2017-02-24",
+   "VfL Wolfsburg",
+   "lg",
+   82
+  ],
+  [
+   "2017-03-04",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-22",
+   "FC Ingolstadt 04",
+   "lg",
+   23
+  ],
+  [
+   "2017-04-29",
+   "Hertha BSC",
+   "lg",
+   13
+  ],
+  [
+   "2017-05-05",
+   "1.FC Köln",
+   "lg",
+   36
+  ],
+  [
+   "2017-05-13",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   54
+  ],
+  [
+   "2017-05-20",
+   "Borussia Dortmund",
+   "lg",
+   45
+  ],
+  [
+   "2017-08-12",
+   "Rot-Weiß Erfurt",
+   "dc",
+   34
+  ],
+  [
+   "2017-08-15",
+   "Liverpool FC",
+   "clq",
+   70
+  ],
+  [
+   "2017-08-19",
+   "SV Werder Bremen",
+   "lg",
+   23
+  ],
+  [
+   "2017-08-23",
+   "Liverpool FC",
+   "clq",
+   56
+  ],
+  [
+   "2017-09-23",
+   "FC Schalke 04",
+   "lg",
+   54
+  ],
+  [
+   "2017-11-18",
+   "Eintracht Frankfurt",
+   "lg",
+   37
+  ],
+  [
+   "2017-11-23",
+   "SC Braga",
+   "elg",
+   45
+  ],
+  [
+   "2017-11-26",
+   "Hamburger SV",
+   "lg",
+   57
+  ],
+  [
+   "2017-12-02",
+   "RB Leipzig",
+   "lg",
+   65
+  ],
+  [
+   "2017-12-10",
+   "Hannover 96",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-13",
+   "VfB Stuttgart",
+   "lg",
+   77
+  ],
+  [
+   "2017-12-16",
+   "Borussia Dortmund",
+   "lg",
+   63
+  ],
+  [
+   "2018-01-13",
+   "SV Werder Bremen",
+   "lg",
+   76
+  ],
+  [
+   "2018-01-20",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-27",
+   "FC Bayern Munich",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-03",
+   "Hertha BSC",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-10",
+   "1.FSV Mainz 05",
+   "lg",
+   84
+  ],
+  [
+   "2018-02-24",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-03",
+   "FC Augsburg",
+   "lg",
+   63
+  ],
+  [
+   "2018-03-10",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-17",
+   "Borussia Mönchengladbach",
+   "lg",
+   75
+  ],
+  [
+   "2018-03-31",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-08",
+   "Eintracht Frankfurt",
+   "lg",
+   83
+  ],
+  [
+   "2018-04-14",
+   "Hamburger SV",
+   "lg",
+   58
+  ],
+  [
+   "2018-04-21",
+   "RB Leipzig",
+   "lg",
+   54
+  ],
+  [
+   "2018-04-27",
+   "Hannover 96",
+   "lg",
+   20
+  ],
+  [
+   "2018-09-01",
+   "VfB Stuttgart",
+   "lg",
+   13
+  ],
+  [
+   "2018-09-15",
+   "Bayer 04 Leverkusen",
+   "lg",
+   59
+  ],
+  [
+   "2018-09-19",
+   "SL Benfica",
+   "clg",
+   28
+  ],
+  [
+   "2018-09-22",
+   "FC Schalke 04",
+   "lg",
+   6
+  ],
+  [
+   "2018-09-25",
+   "FC Augsburg",
+   "lg",
+   59
+  ],
+  [
+   "2018-09-28",
+   "Hertha BSC",
+   "lg",
+   27
+  ],
+  [
+   "2018-10-02",
+   "Ajax Amsterdam",
+   "clg",
+   15
+  ],
+  [
+   "2018-10-06",
+   "Borussia Mönchengladbach",
+   "lg",
+   45
+  ],
+  [
+   "2018-10-20",
+   "VfL Wolfsburg",
+   "lg",
+   65
+  ],
+  [
+   "2018-10-23",
+   "AEK Athens",
+   "clg",
+   75
+  ],
+  [
+   "2018-10-27",
+   "1.FSV Mainz 05",
+   "lg",
+   57
+  ],
+  [
+   "2018-10-30",
+   "SV Rödinghausen",
+   "dc",
+   15
+  ],
+  [
+   "2018-11-03",
+   "SC Freiburg",
+   "lg",
+   83
+  ],
+  [
+   "2018-11-07",
+   "AEK Athens",
+   "clg",
+   87
+  ],
+  [
+   "2018-11-10",
+   "Borussia Dortmund",
+   "lg",
+   74
+  ],
+  [
+   "2018-12-01",
+   "SV Werder Bremen",
+   "lg",
+   80
+  ],
+  [
+   "2018-12-08",
+   "1.FC Nuremberg",
+   "lg",
+   75
+  ],
+  [
+   "2018-12-12",
+   "Ajax Amsterdam",
+   "clg",
+   62
+  ],
+  [
+   "2018-12-15",
+   "Hannover 96",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-19",
+   "RB Leipzig",
+   "lg",
+   28
+  ],
+  [
+   "2019-01-18",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   17
+  ],
+  [
+   "2019-01-27",
+   "VfB Stuttgart",
+   "lg",
+   45
+  ],
+  [
+   "2019-02-02",
+   "Bayer 04 Leverkusen",
+   "lg",
+   16
+  ],
+  [
+   "2019-02-06",
+   "Hertha BSC",
+   "dc",
+   89
+  ],
+  [
+   "2019-02-09",
+   "FC Schalke 04",
+   "lg",
+   89
+  ],
+  [
+   "2019-02-15",
+   "FC Augsburg",
+   "lg",
+   64
+  ],
+  [
+   "2019-02-19",
+   "Liverpool FC",
+   "cl16",
+   90
+  ],
+  [
+   "2019-02-23",
+   "Hertha BSC",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-02",
+   "Borussia Mönchengladbach",
+   "lg",
+   83
+  ],
+  [
+   "2019-03-09",
+   "VfL Wolfsburg",
+   "lg",
+   55
+  ],
+  [
+   "2019-03-13",
+   "Liverpool FC",
+   "cl16",
+   90
+  ],
+  [
+   "2019-03-30",
+   "SC Freiburg",
+   "lg",
+   35
+  ],
+  [
+   "2019-04-03",
+   "1.FC Heidenheim 1846",
+   "dk",
+   90
+  ],
+  [
+   "2019-04-06",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-14",
+   "Fortuna Düsseldorf",
+   "lg",
+   80
+  ],
+  [
+   "2019-04-20",
+   "SV Werder Bremen",
+   "lg",
+   87
+  ],
+  [
+   "2019-04-24",
+   "SV Werder Bremen",
+   "dsf",
+   57
+  ],
+  [
+   "2019-04-28",
+   "1.FC Nuremberg",
+   "lg",
+   45
+  ],
+  [
+   "2019-05-04",
+   "Hannover 96",
+   "lg",
+   71
+  ],
+  [
+   "2019-05-11",
+   "RB Leipzig",
+   "lg",
+   78
+  ],
+  [
+   "2019-05-18",
+   "Eintracht Frankfurt",
+   "lg",
+   67
+  ],
+  [
+   "2019-05-25",
+   "RB Leipzig",
+   "df",
+   73
+  ],
+  [
+   "2019-08-12",
+   "FC Energie Cottbus",
+   "dc",
+   20
+  ],
+  [
+   "2019-08-16",
+   "Hertha BSC",
+   "lg",
+   87
+  ],
+  [
+   "2019-08-24",
+   "FC Schalke 04",
+   "lg",
+   57
+  ],
+  [
+   "2019-09-14",
+   "RB Leipzig",
+   "lg",
+   62
+  ],
+  [
+   "2019-09-18",
+   "Red Star Belgrade",
+   "clg",
+   24
+  ],
+  [
+   "2019-09-21",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-28",
+   "SC Paderborn 07",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-01",
+   "Tottenham Hotspur",
+   "clg",
+   90
+  ],
+  [
+   "2019-10-05",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-19",
+   "FC Augsburg",
+   "lg",
+   86
+  ],
+  [
+   "2019-10-22",
+   "Olympiacos Piraeus",
+   "clg",
+   90
+  ],
+  [
+   "2019-10-26",
+   "1.FC Union Berlin",
+   "lg",
+   25
+  ],
+  [
+   "2019-10-29",
+   "VfL Bochum",
+   "dc",
+   90
+  ],
+  [
+   "2019-11-02",
+   "Eintracht Frankfurt",
+   "lg",
+   69
+  ],
+  [
+   "2019-11-06",
+   "Olympiacos Piraeus",
+   "clg",
+   88
+  ],
+  [
+   "2019-11-09",
+   "Borussia Dortmund",
+   "lg",
+   70
+  ],
+  [
+   "2019-11-23",
+   "Fortuna Düsseldorf",
+   "lg",
+   63
+  ],
+  [
+   "2019-11-30",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-11",
+   "Tottenham Hotspur",
+   "clg",
+   90
+  ],
+  [
+   "2019-12-14",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-18",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-21",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-19",
+   "Hertha BSC",
+   "lg",
+   3
+  ],
+  [
+   "2020-01-25",
+   "FC Schalke 04",
+   "lg",
+   22
+  ],
+  [
+   "2020-02-01",
+   "1.FSV Mainz 05",
+   "lg",
+   25
+  ],
+  [
+   "2020-02-05",
+   "TSG 1899 Hoffenheim",
+   "dc",
+   90
+  ],
+  [
+   "2020-02-09",
+   "RB Leipzig",
+   "lg",
+   60
+  ],
+  [
+   "2020-02-16",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-21",
+   "SC Paderborn 07",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-25",
+   "Chelsea FC",
+   "cl16",
+   85
+  ],
+  [
+   "2020-02-29",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2020-03-03",
+   "FC Schalke 04",
+   "dk",
+   90
+  ],
+  [
+   "2020-03-08",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-05-17",
+   "1.FC Union Berlin",
+   "lg",
+   85
+  ],
+  [
+   "2020-05-23",
+   "Eintracht Frankfurt",
+   "lg",
+   26
+  ],
+  [
+   "2020-05-26",
+   "Borussia Dortmund",
+   "lg",
+   87
+  ],
+  [
+   "2020-05-30",
+   "Fortuna Düsseldorf",
+   "lg",
+   78
+  ],
+  [
+   "2020-06-06",
+   "Bayer 04 Leverkusen",
+   "lg",
+   74
+  ],
+  [
+   "2020-06-13",
+   "Borussia Mönchengladbach",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-16",
+   "SV Werder Bremen",
+   "lg",
+   82
+  ],
+  [
+   "2020-06-27",
+   "VfL Wolfsburg",
+   "lg",
+   62
+  ],
+  [
+   "2020-07-04",
+   "Bayer 04 Leverkusen",
+   "df",
+   87
+  ],
+  [
+   "2020-08-08",
+   "Chelsea FC",
+   "cl16",
+   81
+  ],
+  [
+   "2020-08-14",
+   "FC Barcelona",
+   "clk",
+   75
+  ],
+  [
+   "2020-08-19",
+   "Olympique Lyon",
+   "clsf",
+   75
+  ],
+  [
+   "2020-08-23",
+   "Paris Saint-Germain",
+   "clf",
+   68
+  ],
+  [
+   "2020-09-18",
+   "FC Schalke 04",
+   "lg",
+   73
+  ],
+  [
+   "2020-09-24",
+   "Sevilla FC",
+   "df",
+   120
+  ],
+  [
+   "2020-09-27",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-30",
+   "Borussia Dortmund",
+   "df",
+   36
+  ],
+  [
+   "2020-10-04",
+   "Hertha BSC",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-17",
+   "Arminia Bielefeld",
+   "lg",
+   65
+  ],
+  [
+   "2020-10-27",
+   "Lokomotiv Moscow",
+   "clg",
+   45
+  ],
+  [
+   "2020-10-31",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-03",
+   "Red Bull Salzburg",
+   "clg",
+   90
+  ],
+  [
+   "2020-11-07",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-21",
+   "SV Werder Bremen",
+   "lg",
+   27
+  ],
+  [
+   "2020-11-25",
+   "Red Bull Salzburg",
+   "clg",
+   62
+  ],
+  [
+   "2020-11-28",
+   "VfB Stuttgart",
+   "lg",
+   69
+  ],
+  [
+   "2020-12-01",
+   "Atlético de Madrid",
+   "clg",
+   29
+  ],
+  [
+   "2020-12-05",
+   "RB Leipzig",
+   "lg",
+   26
+  ],
+  [
+   "2020-12-09",
+   "Lokomotiv Moscow",
+   "clg",
+   45
+  ],
+  [
+   "2020-12-12",
+   "1.FC Union Berlin",
+   "lg",
+   88
+  ],
+  [
+   "2020-12-16",
+   "VfL Wolfsburg",
+   "lg",
+   70
+  ],
+  [
+   "2020-12-19",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-03",
+   "1.FSV Mainz 05",
+   "lg",
+   76
+  ],
+  [
+   "2021-01-13",
+   "Holstein Kiel",
+   "dc",
+   90
+  ],
+  [
+   "2021-01-17",
+   "SC Freiburg",
+   "lg",
+   28
+  ],
+  [
+   "2021-01-20",
+   "FC Augsburg",
+   "lg",
+   67
+  ],
+  [
+   "2021-01-24",
+   "FC Schalke 04",
+   "lg",
+   64
+  ],
+  [
+   "2021-01-30",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   70
+  ],
+  [
+   "2021-02-05",
+   "Hertha BSC",
+   "lg",
+   73
+  ],
+  [
+   "2021-02-08",
+   "Al Ahly FC",
+   "cwc",
+   62
+  ],
+  [
+   "2021-02-11",
+   "Tigres UANL",
+   "cwc",
+   64
+  ],
+  [
+   "2021-02-27",
+   "1.FC Köln",
+   "lg",
+   26
+  ],
+  [
+   "2021-03-06",
+   "Borussia Dortmund",
+   "lg",
+   24
+  ],
+  [
+   "2021-03-13",
+   "SV Werder Bremen",
+   "lg",
+   79
+  ],
+  [
+   "2021-03-17",
+   "SS Lazio",
+   "cl16",
+   90
+  ],
+  [
+   "2021-03-20",
+   "VfB Stuttgart",
+   "lg",
+   61
+  ],
+  [
+   "2021-04-03",
+   "RB Leipzig",
+   "lg",
+   18
+  ],
+  [
+   "2021-04-24",
+   "1.FSV Mainz 05",
+   "lg",
+   20
+  ],
+  [
+   "2021-05-08",
+   "Borussia Mönchengladbach",
+   "lg",
+   30
+  ],
+  [
+   "2021-05-15",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-22",
+   "FC Augsburg",
+   "lg",
+   61
+  ],
+  [
+   "2021-08-13",
+   "Borussia Mönchengladbach",
+   "lg",
+   75
+  ],
+  [
+   "2021-08-17",
+   "Borussia Dortmund",
+   "df",
+   73
+  ],
+  [
+   "2021-08-22",
+   "1.FC Köln",
+   "lg",
+   76
+  ],
+  [
+   "2021-08-25",
+   "Bremer SV",
+   "dc",
+   29
+  ],
+  [
+   "2021-08-28",
+   "Hertha BSC",
+   "lg",
+   67
+  ],
+  [
+   "2021-09-11",
+   "RB Leipzig",
+   "lg",
+   45
+  ],
+  [
+   "2021-09-14",
+   "FC Barcelona",
+   "clg",
+   20
+  ],
+  [
+   "2021-09-18",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-24",
+   "SpVgg Greuther Fürth",
+   "lg",
+   14
+  ],
+  [
+   "2021-09-29",
+   "Dynamo Kyiv",
+   "clg",
+   69
+  ],
+  [
+   "2021-10-03",
+   "Eintracht Frankfurt",
+   "lg",
+   70
+  ],
+  [
+   "2021-10-17",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-20",
+   "SL Benfica",
+   "clg",
+   24
+  ],
+  [
+   "2021-10-23",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   76
+  ],
+  [
+   "2021-10-27",
+   "Borussia Mönchengladbach",
+   "dc",
+   67
+  ],
+  [
+   "2021-10-30",
+   "1.FC Union Berlin",
+   "lg",
+   10
+  ],
+  [
+   "2021-11-02",
+   "SL Benfica",
+   "clg",
+   85
+  ],
+  [
+   "2021-11-06",
+   "SC Freiburg",
+   "lg",
+   24
+  ],
+  [
+   "2021-11-19",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-27",
+   "Arminia Bielefeld",
+   "lg",
+   19
+  ],
+  [
+   "2021-12-04",
+   "Borussia Dortmund",
+   "lg",
+   25
+  ],
+  [
+   "2021-12-11",
+   "1.FSV Mainz 05",
+   "lg",
+   25
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   "lg",
+   75
+  ],
+  [
+   "2021-12-17",
+   "VfL Wolfsburg",
+   "lg",
+   80
+  ],
+  [
+   "2022-01-07",
+   "Borussia Mönchengladbach",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-15",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-23",
+   "Hertha BSC",
+   "lg",
+   80
+  ],
+  [
+   "2022-02-05",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-12",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-16",
+   "Red Bull Salzburg",
+   "cl16",
+   77
+  ],
+  [
+   "2022-02-20",
+   "SpVgg Greuther Fürth",
+   "lg",
+   65
+  ],
+  [
+   "2022-02-26",
+   "Eintracht Frankfurt",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-05",
+   "Bayer 04 Leverkusen",
+   "lg",
+   74
+  ],
+  [
+   "2022-03-08",
+   "Red Bull Salzburg",
+   "cl16",
+   45
+  ],
+  [
+   "2022-03-12",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-19",
+   "1.FC Union Berlin",
+   "lg",
+   22
+  ],
+  [
+   "2022-04-02",
+   "SC Freiburg",
+   "lg",
+   18
+  ],
+  [
+   "2022-04-06",
+   "Villarreal CF",
+   "clk",
+   62
+  ],
+  [
+   "2022-04-09",
+   "FC Augsburg",
+   "lg",
+   45
+  ],
+  [
+   "2022-04-12",
+   "Villarreal CF",
+   "clk",
+   8
+  ],
+  [
+   "2022-04-17",
+   "Arminia Bielefeld",
+   "lg",
+   89
+  ],
+  [
+   "2022-04-23",
+   "Borussia Dortmund",
+   "lg",
+   63
+  ],
+  [
+   "2022-04-30",
+   "1.FSV Mainz 05",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-08",
+   "VfB Stuttgart",
+   "lg",
+   85
+  ],
+  [
+   "2022-05-14",
+   "VfL Wolfsburg",
+   "lg",
+   67
+  ],
+  [
+   "2022-07-30",
+   "RB Leipzig",
+   "df",
+   78
+  ],
+  [
+   "2022-08-05",
+   "Eintracht Frankfurt",
+   "lg",
+   65
+  ],
+  [
+   "2022-08-14",
+   "VfL Wolfsburg",
+   "lg",
+   45
+  ],
+  [
+   "2022-08-21",
+   "VfL Bochum",
+   "lg",
+   24
+  ],
+  [
+   "2022-08-27",
+   "Borussia Mönchengladbach",
+   "lg",
+   22
+  ],
+  [
+   "2022-08-31",
+   "FC Viktoria Köln",
+   "dc",
+   90
+  ],
+  [
+   "2022-09-03",
+   "1.FC Union Berlin",
+   "lg",
+   17
+  ],
+  [
+   "2022-09-07",
+   "Inter Milan",
+   "clg",
+   15
+  ],
+  [
+   "2022-09-10",
+   "VfB Stuttgart",
+   "lg",
+   81
+  ],
+  [
+   "2022-09-13",
+   "FC Barcelona",
+   "clg",
+   20
+  ],
+  [
+   "2022-09-17",
+   "FC Augsburg",
+   "lg",
+   28
+  ],
+  [
+   "2022-09-30",
+   "Bayer 04 Leverkusen",
+   "lg",
+   25
+  ],
+  [
+   "2022-10-04",
+   "FC Viktoria Plzen",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-08",
+   "Borussia Dortmund",
+   "lg",
+   45
+  ],
+  [
+   "2022-10-16",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-19",
+   "FC Augsburg",
+   "dc",
+   90
+  ],
+  [
+   "2022-10-22",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   76
+  ],
+  [
+   "2022-10-26",
+   "FC Barcelona",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-29",
+   "1.FSV Mainz 05",
+   "lg",
+   60
+  ],
+  [
+   "2022-11-01",
+   "Inter Milan",
+   "clg",
+   24
+  ],
+  [
+   "2022-11-05",
+   "Hertha BSC",
+   "lg",
+   75
+  ],
+  [
+   "2022-11-08",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2022-11-12",
+   "FC Schalke 04",
+   "lg",
+   90
+  ],
+  [
+   "2023-01-20",
+   "RB Leipzig",
+   "lg",
+   83
+  ],
+  [
+   "2023-01-24",
+   "1.FC Köln",
+   "lg",
+   45
+  ],
+  [
+   "2023-01-28",
+   "Eintracht Frankfurt",
+   "lg",
+   20
+  ],
+  [
+   "2023-02-01",
+   "1.FSV Mainz 05",
+   "dc",
+   11
+  ],
+  [
+   "2023-02-05",
+   "VfL Wolfsburg",
+   "lg",
+   35
+  ],
+  [
+   "2023-02-11",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2023-02-14",
+   "Paris Saint-Germain",
+   "cl16",
+   14
+  ],
+  [
+   "2023-02-18",
+   "Borussia Mönchengladbach",
+   "lg",
+   45
+  ],
+  [
+   "2023-02-26",
+   "1.FC Union Berlin",
+   "lg",
+   25
+  ],
+  [
+   "2023-03-04",
+   "VfB Stuttgart",
+   "lg",
+   27
+  ],
+  [
+   "2023-03-08",
+   "Paris Saint-Germain",
+   "cl16",
+   4
+  ],
+  [
+   "2023-03-11",
+   "FC Augsburg",
+   "lg",
+   72
+  ],
+  [
+   "2023-03-19",
+   "Bayer 04 Leverkusen",
+   "lg",
+   45
+  ],
+  [
+   "2023-04-01",
+   "Borussia Dortmund",
+   "lg",
+   21
+  ],
+  [
+   "2023-04-04",
+   "SC Freiburg",
+   "dk",
+   26
+  ],
+  [
+   "2023-04-08",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-11",
+   "Manchester City",
+   "clk",
+   80
+  ],
+  [
+   "2023-04-15",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-22",
+   "1.FSV Mainz 05",
+   "lg",
+   10
+  ],
+  [
+   "2023-04-30",
+   "Hertha BSC",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-06",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-13",
+   "FC Schalke 04",
+   "lg",
+   71
+  ],
+  [
+   "2023-05-20",
+   "RB Leipzig",
+   "lg",
+   69
+  ],
+  [
+   "2023-05-27",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-12",
+   "RB Leipzig",
+   "df",
+   90
+  ],
+  [
+   "2023-08-27",
+   "FC Augsburg",
+   "lg",
+   71
+  ],
+  [
+   "2023-09-02",
+   "Borussia Mönchengladbach",
+   "lg",
+   21
+  ],
+  [
+   "2023-09-15",
+   "Bayer 04 Leverkusen",
+   "lg",
+   70
+  ],
+  [
+   "2023-09-20",
+   "Manchester United",
+   "clg",
+   63
+  ],
+  [
+   "2023-09-26",
+   "Preußen Münster",
+   "dc",
+   11
+  ],
+  [
+   "2023-11-01",
+   "1.FC Saarbrücken",
+   "dc",
+   30
+  ],
+  [
+   "2023-11-08",
+   "Galatasaray",
+   "clg",
+   3
+  ],
+  [
+   "2023-11-11",
+   "1.FC Heidenheim 1846",
+   "lg",
+   61
+  ],
+  [
+   "2023-11-29",
+   "FC Copenhagen",
+   "clg",
+   26
+  ],
+  [
+   "2023-12-09",
+   "Eintracht Frankfurt",
+   "lg",
+   5
+  ],
+  [
+   "2024-03-05",
+   "SS Lazio",
+   "cl16",
+   1
+  ],
+  [
+   "2024-03-09",
+   "1.FSV Mainz 05",
+   "lg",
+   28
+  ],
+  [
+   "2024-03-16",
+   "SV Darmstadt 98",
+   "lg",
+   19
+  ],
+  [
+   "2024-03-30",
+   "Borussia Dortmund",
+   "lg",
+   27
+  ],
+  [
+   "2024-04-06",
+   "1.FC Heidenheim 1846",
+   "lg",
+   67
+  ],
+  [
+   "2024-04-09",
+   "Arsenal FC",
+   "clk",
+   70
+  ],
+  [
+   "2024-04-30",
+   "Real Madrid",
+   "clsf",
+   10
+  ],
+  [
+   "2024-05-04",
+   "VfB Stuttgart",
+   "lg",
+   64
+  ],
+  [
+   "2024-05-08",
+   "Real Madrid",
+   "clsf",
+   27
+  ],
+  [
+   "2024-08-16",
+   "SSV Ulm 1846",
+   "dc",
+   77
+  ],
+  [
+   "2024-08-25",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-01",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-14",
+   "Holstein Kiel",
+   "lg",
+   45
+  ],
+  [
+   "2024-09-17",
+   "GNK Dinamo Zagreb",
+   "clg",
+   90
+  ],
+  [
+   "2024-09-21",
+   "SV Werder Bremen",
+   "lg",
+   34
+  ],
+  [
+   "2024-09-28",
+   "Bayer 04 Leverkusen",
+   "lg",
+   65
+  ],
+  [
+   "2024-10-02",
+   "Aston Villa",
+   "clg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "Eintracht Frankfurt",
+   "lg",
+   67
+  ],
+  [
+   "2024-10-19",
+   "VfB Stuttgart",
+   "lg",
+   68
+  ],
+  [
+   "2024-10-23",
+   "FC Barcelona",
+   "clg",
+   60
+  ],
+  [
+   "2024-10-30",
+   "1.FSV Mainz 05",
+   "dc",
+   90
+  ],
+  [
+   "2024-11-06",
+   "SL Benfica",
+   "clg",
+   72
+  ],
+  [
+   "2024-11-09",
+   "FC St. Pauli",
+   "lg",
+   21
+  ],
+  [
+   "2024-11-22",
+   "FC Augsburg",
+   "lg",
+   14
+  ],
+  [
+   "2024-11-26",
+   "Paris Saint-Germain",
+   "clg",
+   18
+  ],
+  [
+   "2024-12-03",
+   "Bayer 04 Leverkusen",
+   "dc",
+   17
+  ],
+  [
+   "2025-01-11",
+   "Borussia Mönchengladbach",
+   "lg",
+   17
+  ],
+  [
+   "2025-01-15",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   29
+  ],
+  [
+   "2025-01-18",
+   "VfL Wolfsburg",
+   "lg",
+   23
+  ],
+  [
+   "2025-01-22",
+   "Feyenoord Rotterdam",
+   "clg",
+   28
+  ],
+  [
+   "2025-01-25",
+   "SC Freiburg",
+   "lg",
+   63
+  ],
+  [
+   "2025-01-29",
+   "Slovan Bratislava",
+   "clg",
+   28
+  ],
+  [
+   "2025-02-01",
+   "Holstein Kiel",
+   "lg",
+   45
+  ],
+  [
+   "2025-02-12",
+   "Celtic FC",
+   "cl16",
+   25
+  ],
+  [
+   "2025-02-15",
+   "Bayer 04 Leverkusen",
+   "lg",
+   22
+  ],
+  [
+   "2025-02-18",
+   "Celtic FC",
+   "cl16",
+   64
+  ],
+  [
+   "2025-02-23",
+   "Eintracht Frankfurt",
+   "lg",
+   5
+  ],
+  [
+   "2025-02-28",
+   "VfB Stuttgart",
+   "lg",
+   3
+  ],
+  [
+   "2025-03-08",
+   "VfL Bochum",
+   "lg",
+   63
+  ],
+  [
+   "2025-03-11",
+   "Bayer 04 Leverkusen",
+   "cl16",
+   32
+  ],
+  [
+   "2025-03-15",
+   "1.FC Union Berlin",
+   "lg",
+   65
+  ],
+  [
+   "2025-03-29",
+   "FC St. Pauli",
+   "lg",
+   12
+  ],
+  [
+   "2025-04-04",
+   "FC Augsburg",
+   "lg",
+   23
+  ],
+  [
+   "2025-04-08",
+   "Inter Milan",
+   "clk",
+   16
+  ],
+  [
+   "2025-04-12",
+   "Borussia Dortmund",
+   "lg",
+   26
+  ],
+  [
+   "2025-04-16",
+   "Inter Milan",
+   "clk",
+   25
+  ],
+  [
+   "2025-04-19",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-26",
+   "1.FSV Mainz 05",
+   "lg",
+   72
+  ],
+  [
+   "2025-05-03",
+   "RB Leipzig",
+   "lg",
+   88
+  ],
+  [
+   "2025-05-10",
+   "Borussia Mönchengladbach",
+   "lg",
+   6
+  ],
+  [
+   "2025-05-17",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2025-06-15",
+   "Auckland City FC",
+   "cwc",
+   45
+  ],
+  [
+   "2025-06-20",
+   "CA Boca Juniors",
+   "cwc",
+   57
+  ],
+  [
+   "2025-06-24",
+   "SL Benfica",
+   "cwc",
+   45
+  ],
+  [
+   "2025-06-29",
+   "CR Flamengo",
+   "cwc",
+   72
+  ],
+  [
+   "2025-07-05",
+   "Paris Saint-Germain",
+   "cwc",
+   45
+  ],
+  [
+   "2025-08-16",
+   "VfB Stuttgart",
+   "df",
+   80
+  ],
+  [
+   "2025-08-22",
+   "RB Leipzig",
+   "lg",
+   69
+  ],
+  [
+   "2025-08-27",
+   "SV Wehen Wiesbaden",
+   "dc",
+   23
+  ],
+  [
+   "2025-08-30",
+   "FC Augsburg",
+   "lg",
+   86
+  ],
+  [
+   "2025-09-13",
+   "Hamburger SV",
+   "lg",
+   45
+  ],
+  [
+   "2025-09-17",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2025-09-20",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   28
+  ],
+  [
+   "2025-09-26",
+   "SV Werder Bremen",
+   "lg",
+   61
+  ],
+  [
+   "2025-09-30",
+   "Pafos FC",
+   "clg",
+   45
+  ],
+  [
+   "2025-10-04",
+   "Eintracht Frankfurt",
+   "lg",
+   71
+  ],
+  [
+   "2025-10-25",
+   "Borussia Mönchengladbach",
+   "lg",
+   31
+  ],
+  [
+   "2025-10-29",
+   "1.FC Köln",
+   "dc",
+   62
+  ],
+  [
+   "2025-11-01",
+   "Bayer 04 Leverkusen",
+   "lg",
+   59
+  ],
+  [
+   "2025-11-04",
+   "Paris Saint-Germain",
+   "clg",
+   45
+  ],
+  [
+   "2025-11-08",
+   "1.FC Union Berlin",
+   "lg",
+   59
+  ],
+  [
+   "2025-11-26",
+   "Arsenal FC",
+   "clg",
+   72
+  ],
+  [
+   "2025-11-29",
+   "FC St. Pauli",
+   "lg",
+   25
+  ],
+  [
+   "2025-12-03",
+   "1.FC Union Berlin",
+   "dc",
+   17
+  ],
+  [
+   "2025-12-09",
+   "Sporting CP",
+   "clg",
+   88
+  ],
+  [
+   "2025-12-14",
+   "1.FSV Mainz 05",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-21",
+   "1.FC Heidenheim 1846",
+   "lg",
+   27
+  ],
+  [
+   "2026-01-14",
+   "1.FC Köln",
+   "lg",
+   67
+  ],
+  [
+   "2026-01-17",
+   "RB Leipzig",
+   "lg",
+   87
+  ],
+  [
+   "2026-01-21",
+   "Union Saint-Gilloise",
+   "clg",
+   1
+  ],
+  [
+   "2026-01-28",
+   "PSV Eindhoven",
+   "clg",
+   28
+  ],
+  [
+   "2026-01-31",
+   "Hamburger SV",
+   "lg",
+   65
+  ],
+  [
+   "2026-02-08",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   63
+  ],
+  [
+   "2026-02-11",
+   "RB Leipzig",
+   "dk",
+   69
+  ],
+  [
+   "2026-02-14",
+   "SV Werder Bremen",
+   "lg",
+   69
+  ],
+  [
+   "2026-02-21",
+   "Eintracht Frankfurt",
+   "lg",
+   12
+  ],
+  [
+   "2026-02-28",
+   "Borussia Dortmund",
+   "lg",
+   62
+  ],
+  [
+   "2026-03-10",
+   "Atalanta BC",
+   "cl16",
+   45
+  ],
+  [
+   "2026-03-18",
+   "Atalanta BC",
+   "cl16",
+   18
+  ],
+  [
+   "2026-03-21",
+   "1.FC Union Berlin",
+   "lg",
+   87
+  ],
+  [
+   "2026-04-04",
+   "SC Freiburg",
+   "lg",
+   65
+  ],
+  [
+   "2026-04-07",
+   "Real Madrid",
+   "clk",
+   69
+  ],
+  [
+   "2026-04-15",
+   "Real Madrid",
+   "clk",
+   61
+  ],
+  [
+   "2026-09-18",
+   "1.FC Union Berlin",
+   "lg",
+   13
+  ],
+  [
+   "2026-10-10",
+   "FC Augsburg",
+   "lg",
+   23
+  ],
+  [
+   "2026-10-17",
+   "RB Leipzig",
+   "lg",
+   31
+  ],
+  [
+   "2026-10-21",
+   "Arsenal FC",
+   "clg",
+   68
+  ],
+  [
+   "2026-10-25",
+   "SC Freiburg",
+   "lg",
+   61
+  ],
+  [
+   "2026-10-28",
+   "1.FC Magdeburg",
+   "dc",
+   45
+  ],
+  [
+   "2026-10-31",
+   "Borussia Dortmund",
+   "lg",
+   31
+  ]
+ ],
+ "note": "세르주 그나브리(아스널·웨스트 브로미치 앨비언·베르더 브레멘·TSG 호펜하임·바이에른 뮌헨)의 클럽 공식 경기 403경기(2012.9.26 코번트리 시티전 ~ 2026.10.31 도르트문트전)에서 나온 126골 69도움(PK 골 2개), 친선경기·독일 대표팀·유소년과 2군(아스널 U21·U23·UEFA 유스리그, 웨스트 브롬 U21, 호펜하임 2군 1경기, 슈투트가르트 U17) 경기 제외\n클럽별 경기·골·도움: 아스널 18·1·1, 웨스트 브로미치 앨비언 3·0·0, 베르더 브레멘 27·11·1, TSG 호펜하임 26·10·5, 바이에른 뮌헨 329·104·62. 출전 분 합계 23,612분\n출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(출전한 403경기 전부), 골·도움은 FotMob 경기 이벤트와 대조함\n경기 수·골은 영어 위키백과 클럽·시즌별 기록과 같음(바이에른 2023-24 챔스만 위키백과 8경기 vs Transfermarkt·FotMob 7경기 — Transfermarkt를 씀). FotMob 경력 합계(403경기 126골)와도 같음\n골: Transfermarkt와 FotMob이 모든 경기에서 수·스코어·PK 여부가 같음. PK 골 2개(2016.11.6 샬케전 42분, 2023.2.11 보훔전 73분)는 Transfermarkt 리포트가 그나브리를 도움(PK 유도)으로도 적었지만 본인 골의 본인 도움이라 도움으로 세지 않음\n도움: 2014년 7월까지는 Transfermarkt 도움(2014.1.4 토트넘전 FA컵 31분 카소를라 골 1개, FotMob 경기 이벤트에는 도움 없음), 그 뒤는 Transfermarkt와 FotMob 경기 이벤트가 함께 센 것. 도움 69 = Transfermarkt 82 − PK 유도 4(2017.2.5 아우크스부르크전 크루제, 2018.3.17 묀헨글라트바흐전 크라마리치, 2021.1.3 마인츠전 레반도프스키, 2024.5.4 슈투트가르트전 케인) − 상대 자책골에 준 도움 7(2018.3.10 볼프스부르크전, 2019.1.27 슈투트가르트전, 2019.3.13 리버풀전, 2020.5.23 프랑크푸르트전, 2021.5.22 아우크스부르크전, 2021.10.20 벤피카전, 2022.8.21 보훔전) − Transfermarkt 단독이고 확인 못 했거나 리바운드인 2\n뺀 Transfermarkt 단독 도움 2개: 2019.10.1 토트넘전(챔스 조별) 45분 레반도프스키 골(경기 기사들은 문전 혼전 뒤 골로 적고 그나브리 패스를 적은 독립 출처를 못 찾음), 2021.8.25 브레머 SV전(DFB-포칼) 88분 톨리소 골(독일어 라이브 티커: 그나브리 슛을 골키퍼가 막은 뒤 흐른 공을 톨리소가 밀어 넣음 — 리바운드)\nFotMob 경기 이벤트에 없지만 다른 출처 2곳이 그나브리 도움으로 적어 넣은 5개: 2019.8.12 코트부스전(DFB-포칼) 85분 고레츠카 골(bundesliga.com 라이브 블로그·worldfootball.net), 2021.2.8 알아흘리전(클럽 월드컵 준결승) 17분 레반도프스키 골(로이터 계열 기사·Ahram Online, laliga.com 문자중계도 같음), 2021.8.25 브레머 SV전 80분 퀴장스 골(독일 라이브 티커·바이에른 구단 경기 기사), 2022.8.31 빅토리아 쾰른전(DFB-포칼) 53분 마네 골(바이에른 구단 경기 기사·t-online 라이브 티커), 2024.8.16 울름전(DFB-포칼) 14분 뮐러 골(바이에른 구단 경기 기사·bundesliga.com)\nFotMob 선수 경기 목록에만 있는 도움 1개(2025.9.17 첼시전 챔스 리그 페이즈, 케인 63분 골)는 넣지 않음: Transfermarkt는 도움 없음, bundesliga.com은 파블로비치 도움, 여러 기사는 상대 구스토의 패스 실수로 적음\n도움 합계 비교: Transfermarkt 82·FotMob 경력 69·이 계산기 69\n같은 경기 동료 자료(뮐러·레반도프스키·무시알라·케인·자네·마네·로번)와 그나브리 도움 → 동료 골, 동료 도움 → 그나브리 골의 날짜·분·스코어·대회·상대 Elo가 모두 같음. Transfermarkt가 동료 도움으로 적은 그나브리 골 4개(2018.12.1 브레멘전·2021.8.22 쾰른전 뮐러, 2019.2.6 헤르타전 레반도프스키, 2023.5.6 브레멘전 무시알라)는 FotMob에 도움이 없어 동료 자료에서도 도움으로 세지 않았음(골 기록에는 영향 없음)\n출전 분은 Transfermarkt. FotMob 선수 경기 목록과 1분 차이가 흔하고 큰 차이는 2018.3.31 쾰른전(호펜하임) 1경기(Transfermarkt 90분, FotMob 78분)\n날짜는 현지 날짜. 클럽 월드컵 2025 보카 주니어스전은 미국 현지 날짜 2025.6.20(Transfermarkt 리포트는 6.21)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(뮐러·레반도프스키·무시알라·케인·자네·마네·로번·리베리 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 순위를 리그 모형에 넣은 값 순으로 씀(기록 195개: 같은 경기 150, 같은 팀·시즌 43, 순위표+모형 2)\n순위표+모형 2개: 2020.12.9 로코모티프 모스크바전은 러시아 프리미어리그 2020-21 3위(16팀)를 크바라츠헬리아 자료의 같은 시즌 2위(1508)·5위(1446) 값 사이로 보간한 1487(리그 수준 추정; 다른 선수 자료의 2019-20 1640·2021-22 1600 추정값과 차이가 큼), 2026.10.25 프라이부르크전은 분데스리가 2026-27 진행 중 순위(11월 초 3위)에 다른 선수 자료와 같은 순위값 1860\n대회 비중: DFB-포칼·FA컵·리그컵은 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중), DFL-슈퍼컵·UEFA 슈퍼컵은 국내컵 결승, 클럽 월드컵(2021 카타르·2025 미국)은 클럽 월드컵으로 계산함. 챔스 리그 페이즈(2024-25부터)는 조별과 같고, 녹아웃 플레이오프는 16강, 호펜하임의 2017 챔스 플레이오프(리버풀전)는 챔스 예선으로 계산함. 2020년 8월 챔스 8강·4강·결승은 단판. 클럽 월드컵 2025 조별은 리그식(무승부 1점)\n두 경기 합산(챔스 토너먼트·예선) 기록 9개(7경기)는 합산 S로 계산함. 원정 다득점은 UEFA 대회 2020-21까지. 그나브리가 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 리포트로 채움\n시즌 구분: 바이에른은 뮐러·무시알라 자료와 같이 7월 10일 기준이되 2020.7.1~9.1(코로나로 늦게 끝난 2019-20 DFB-포칼 결승·챔스)은 2019-20. 아스널·웨스트 브롬·브레멘·호펜하임은 8월 1일 기준. 클럽 구분은 2015.8.7 전 아스널, 2016.2.1 전 웨스트 브롬(임대), 2016.8.31 전 아스널(복귀, 경기 없음), 2017.7.1 전 브레멘, 2018.7.1 전 호펜하임(임대), 이후 바이에른\n수상 기록은 Transfermarkt 업적 페이지 기준: 챔스 2019-20, 분데스리가 우승 7회(2018-19~2022-23·2024-25·2025-26), DFB-포칼 2018-19·2019-20·2025-26, DFL-슈퍼컵 5회, UEFA 슈퍼컵 2020, 클럽 월드컵 2020-21, FA컵 2014·2015와 커뮤니티 실드 2014(아스널, 결승 출전 없음). 올림픽 득점왕(2016)·U-21 유로 우승 등 대표팀 기록은 뺌\n현재 선수(바이에른). 마지막 반영 경기 2026.10.31 도르트문트전(2026.11.11 수집)",
+ "judgments": [
+  [
+   "도움 제외",
+   "2017-02-05",
+   "FC Augsburg",
+   "65",
+   "Max Kruse",
+   "PK 유도(막스 크루제 PK)"
+  ],
+  [
+   "도움 제외",
+   "2018-03-10",
+   "VfL Wolfsburg",
+   "80",
+   "Josuha Guilavogui",
+   "상대 자책골(길라보기)"
+  ],
+  [
+   "도움 제외",
+   "2018-03-17",
+   "Borussia Mönchengladbach",
+   "58",
+   "Andrej Kramaric",
+   "PK 유도(안드레이 크라마리치 PK)"
+  ],
+  [
+   "도움 제외",
+   "2019-01-27",
+   "VfB Stuttgart",
+   "55",
+   "Christian Gentner",
+   "상대 자책골(겐트너)"
+  ],
+  [
+   "도움 제외",
+   "2019-03-13",
+   "Liverpool FC",
+   "39",
+   "Joël Matip",
+   "상대 자책골(마티프)"
+  ],
+  [
+   "도움 제외",
+   "2020-05-23",
+   "Eintracht Frankfurt",
+   "74",
+   "Martin Hinteregger",
+   "상대 자책골(힌터레거)"
+  ],
+  [
+   "도움 제외",
+   "2019-10-01",
+   "Tottenham Hotspur",
+   "45",
+   "Robert Lewandowski",
+   "확인 못 함(토트넘전 레반도프스키 45분: 경기 기사는 문전 혼전 뒤 골로 묘사, 그나브리 패스를 적은 독립 출처 없음; FotMob 선수 경기 목록만 도움 1)"
+  ],
+  [
+   "도움 제외",
+   "2021-05-22",
+   "FC Augsburg",
+   "9",
+   "Jeffrey Gouweleeuw",
+   "상대 자책골(하우블레이우)"
+  ],
+  [
+   "도움 제외",
+   "2021-01-03",
+   "1.FSV Mainz 05",
+   "76",
+   "Robert Lewandowski",
+   "PK 유도(레반도프스키 PK)"
+  ],
+  [
+   "도움 제외",
+   "2021-08-25",
+   "Bremer SV",
+   "88",
+   "Corentin Tolisso",
+   "리바운드(Goal.com 독일어 라이브 티커: 그나브리 슛을 골키퍼 바르가 막은 뒤 톨리소가 흐른 공을 밀어 넣음)"
+  ],
+  [
+   "도움 제외",
+   "2021-10-20",
+   "SL Benfica",
+   "80",
+   "Everton",
+   "상대 자책골(에베르통)"
+  ],
+  [
+   "도움 제외",
+   "2022-08-21",
+   "VfL Bochum",
+   "69",
+   "Cristian Gamboa",
+   "상대 자책골(감보아)"
+  ],
+  [
+   "도움 제외",
+   "2024-05-04",
+   "VfB Stuttgart",
+   "37",
+   "Harry Kane",
+   "PK 유도(해리 케인 PK)"
+  ]
+ ],
+ "cross_check": [
+  [
+   "그나브리 도움→Thomas Müller 골",
+   "2024-08-16",
+   14,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Thomas Müller 골",
+   "2024-09-01",
+   78,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Thomas Müller 골",
+   "2025-06-15",
+   89,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2019-03-09",
+   34,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2019-04-06",
+   43,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2019-04-14",
+   55,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2019-11-09",
+   48,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2019-11-23",
+   34,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2020-02-29",
+   2,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2021-03-13",
+   35,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2021-09-18",
+   32,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2021-10-17",
+   35,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2021-12-14",
+   53,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2022-08-05",
+   43,
+   "같음"
+  ],
+  [
+   "Thomas Müller 도움→그나브리 골",
+   "2023-05-20",
+   25,
+   "같음"
+  ],
+  [
+   "TM 동료 도움 → 그나브리 골인데 동료 파일에 없음",
+   "Thomas Müller",
+   "2018-12-01",
+   "50",
+   "Cross"
+  ],
+  [
+   "TM 동료 도움 → 그나브리 골인데 동료 파일에 없음",
+   "Thomas Müller",
+   "2021-08-22",
+   "59",
+   "Cross"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2018-11-10",
+   26,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2018-12-12",
+   13,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2019-03-09",
+   37,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2019-04-06",
+   89,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2019-08-16",
+   24,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2019-10-19",
+   14,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2020-02-21",
+   70,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2020-02-21",
+   88,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2020-05-30",
+   50,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2020-10-04",
+   40,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2021-02-08",
+   17,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2021-03-20",
+   18,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2021-08-17",
+   41,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2021-12-14",
+   69,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Robert Lewandowski 골",
+   "2021-12-14",
+   72,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2019-02-09",
+   57,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2019-12-21",
+   89,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2020-02-25",
+   51,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2020-02-25",
+   54,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2020-08-19",
+   33,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2021-11-02",
+   32,
+   "같음"
+  ],
+  [
+   "Robert Lewandowski 도움→그나브리 골",
+   "2022-05-08",
+   35,
+   "같음"
+  ],
+  [
+   "TM 그나브리 도움을 뺀 동료 골",
+   "Robert Lewandowski",
+   "2019-10-01",
+   45,
+   ""
+  ],
+  [
+   "TM 그나브리 도움을 뺀 동료 골",
+   "Robert Lewandowski",
+   "2021-01-03",
+   76,
+   "Penalty: Fouled player"
+  ],
+  [
+   "TM 그나브리 도움을 뺀 동료 골",
+   "Robert Lewandowski",
+   "2021-10-20",
+   82,
+   "Pass"
+  ],
+  [
+   "TM 동료 도움 → 그나브리 골인데 동료 파일에 없음",
+   "Robert Lewandowski",
+   "2019-02-06",
+   "7",
+   "Pass"
+  ],
+  [
+   "그나브리 도움→Jamal Musiala 골",
+   "2023-05-27",
+   89,
+   "같음"
+  ],
+  [
+   "Jamal Musiala 도움→그나브리 골",
+   "2021-10-23",
+   16,
+   "같음"
+  ],
+  [
+   "Jamal Musiala 도움→그나브리 골",
+   "2022-11-12",
+   38,
+   "같음"
+  ],
+  [
+   "Jamal Musiala 도움→그나브리 골",
+   "2023-09-20",
+   32,
+   "같음"
+  ],
+  [
+   "Jamal Musiala 도움→그나브리 골",
+   "2024-03-16",
+   74,
+   "같음"
+  ],
+  [
+   "TM 동료 도움 → 그나브리 골인데 동료 파일에 없음",
+   "Jamal Musiala",
+   "2023-05-06",
+   "62",
+   "Pass"
+  ],
+  [
+   "그나브리 도움→Harry Kane 골",
+   "2024-04-06",
+   38,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Harry Kane 골",
+   "2024-09-14",
+   7,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Harry Kane 골",
+   "2024-10-23",
+   18,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Harry Kane 골",
+   "2025-12-21",
+   92,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Harry Kane 골",
+   "2026-02-28",
+   54,
+   "같음"
+  ],
+  [
+   "Harry Kane 도움→그나브리 골",
+   "2024-08-25",
+   82,
+   "같음"
+  ],
+  [
+   "Harry Kane 도움→그나브리 골",
+   "2024-09-21",
+   65,
+   "같음"
+  ],
+  [
+   "Harry Kane 도움→그나브리 골",
+   "2025-05-17",
+   80,
+   "같음"
+  ],
+  [
+   "Harry Kane 도움→그나브리 골",
+   "2025-08-30",
+   28,
+   "같음"
+  ],
+  [
+   "TM 그나브리 도움을 뺀 동료 골",
+   "Harry Kane",
+   "2024-05-04",
+   37,
+   "Penalty: Fouled player"
+  ],
+  [
+   "그나브리 도움→Leroy Sané 골",
+   "2021-05-08",
+   85,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Leroy Sané 골",
+   "2021-12-17",
+   59,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2020-09-18",
+   47,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2020-09-18",
+   59,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2021-03-20",
+   22,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2021-09-29",
+   68,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2021-12-14",
+   40,
+   "같음"
+  ],
+  [
+   "Leroy Sané 도움→그나브리 골",
+   "2022-11-08",
+   28,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Sadio Mané 골",
+   "2022-07-30",
+   31,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Sadio Mané 골",
+   "2022-08-05",
+   29,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Sadio Mané 골",
+   "2022-08-31",
+   53,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Sadio Mané 골",
+   "2022-10-16",
+   55,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Sadio Mané 골",
+   "2022-10-26",
+   10,
+   "같음"
+  ],
+  [
+   "Sadio Mané 도움→그나브리 골",
+   "2022-10-29",
+   5,
+   "같음"
+  ],
+  [
+   "그나브리 도움→Arjen Robben 골",
+   "2018-09-25",
+   48,
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [],
+ "fotmob_only_assists": [],
+ "elo_sources": {
+  "팀×시즌 통합표": 43,
+  "같은 경기 다른 선수 자료": 150,
+  "순위표+리그 모형": 2
+ },
+ "elo_log": [
+  [
+   "2013-09-28",
+   "Swansea City",
+   1722,
+   "프리미어리그 2013-14 12위",
+   "table 2013-14"
+  ],
+  [
+   "2014-01-04",
+   "Tottenham Hotspur",
+   1810,
+   "프리미어리그 2013-14 6위",
+   "table 2013-14"
+  ],
+  [
+   "2016-09-17",
+   "Borussia Mönchengladbach",
+   1682,
+   "분데스리가 2016-17 9위",
+   "table 2016-17"
+  ],
+  [
+   "2016-09-24",
+   "VfL Wolfsburg",
+   1590,
+   "분데스리가 2016-17 16위",
+   "table 2016-17"
+  ],
+  [
+   "2016-10-01",
+   "SV Darmstadt 98",
+   1558,
+   "분데스리가 2016-17 18위",
+   "table 2016-17"
+  ],
+  [
+   "2016-10-23",
+   "RB Leipzig",
+   1858,
+   "분데스리가 2016-17 2위",
+   "table 2016-17"
+  ],
+  [
+   "2016-11-06",
+   "FC Schalke 04",
+   1669,
+   "분데스리가 2016-17 10위",
+   "table 2016-17"
+  ],
+  [
+   "2016-11-26",
+   "Hamburger SV",
+   1627,
+   "분데스리가 2016-17 14위",
+   "table 2016-17"
+  ],
+  [
+   "2016-12-17",
+   "1.FC Köln",
+   1757,
+   "분데스리가 2016-17 5위",
+   "table 2016-17"
+  ],
+  [
+   "2016-12-21",
+   "TSG 1899 Hoffenheim",
+   1773,
+   "분데스리가 2016-17 4위",
+   "table 2016-17"
+  ],
+  [
+   "2017-02-18",
+   "1.FSV Mainz 05",
+   1606,
+   "분데스리가 2016-17 15위",
+   "table 2016-17"
+  ],
+  [
+   "2017-02-24",
+   "VfL Wolfsburg",
+   1590,
+   "분데스리가 2016-17 16위",
+   "table 2016-17"
+  ],
+  [
+   "2017-02-24",
+   "VfL Wolfsburg",
+   1590,
+   "분데스리가 2016-17 16위",
+   "table 2016-17"
+  ],
+  [
+   "2017-05-05",
+   "1.FC Köln",
+   1757,
+   "분데스리가 2016-17 5위",
+   "table 2016-17"
+  ],
+  [
+   "2018-01-13",
+   "SV Werder Bremen",
+   1653,
+   "분데스리가 2017-18 11위",
+   "table 2017-18"
+  ],
+  [
+   "2018-01-20",
+   "Bayer 04 Leverkusen",
+   1752,
+   "분데스리가 2017-18 5위",
+   "table 2017-18"
+  ],
+  [
+   "2018-01-27",
+   "FC Bayern Munich",
+   1947,
+   "분데스리가 2017-18 1위",
+   "table 2017-18"
+  ],
+  [
+   "2018-02-10",
+   "1.FSV Mainz 05",
+   1622,
+   "분데스리가 2017-18 14위",
+   "table 2017-18"
+  ],
+  [
+   "2018-03-10",
+   "VfL Wolfsburg",
+   1585,
+   "분데스리가 2017-18 16위",
+   "table 2017-18"
+  ],
+  [
+   "2017-12-02",
+   "RB Leipzig",
+   1738,
+   "분데스리가 2017-18 6위",
+   "table 2017-18"
+  ],
+  [
+   "2017-12-02",
+   "RB Leipzig",
+   1738,
+   "분데스리가 2017-18 6위",
+   "table 2017-18"
+  ],
+  [
+   "2017-11-18",
+   "Eintracht Frankfurt",
+   1697,
+   "분데스리가 2017-18 8위",
+   "table 2017-18"
+  ],
+  [
+   "2018-03-31",
+   "1.FC Köln",
+   1553,
+   "분데스리가 2017-18 18위",
+   "table 2017-18"
+  ],
+  [
+   "2018-03-31",
+   "1.FC Köln",
+   1553,
+   "분데스리가 2017-18 18위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-08",
+   "Eintracht Frankfurt",
+   1697,
+   "분데스리가 2017-18 8위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-14",
+   "Hamburger SV",
+   1575,
+   "분데스리가 2017-18 17위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-21",
+   "RB Leipzig",
+   1738,
+   "분데스리가 2017-18 6위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-27",
+   "Hannover 96",
+   1638,
+   "분데스리가 2017-18 13위",
+   "table 2017-18"
+  ],
+  [
+   "2018-03-03",
+   "FC Augsburg",
+   1643,
+   "분데스리가 2017-18 12위",
+   "table 2017-18"
+  ],
+  [
+   "2018-09-25",
+   "FC Augsburg",
+   1618,
+   "분데스리가 2018-19 15위",
+   "same:아르연 로번 [FC Augsburg]"
+  ],
+  [
+   "2018-11-03",
+   "SC Freiburg",
+   1654,
+   "분데스리가 2018-19 13위",
+   "table 2018-19"
+  ],
+  [
+   "2018-11-10",
+   "Borussia Dortmund",
+   1869,
+   "분데스리가 2018-19 2위",
+   "same:로베르트 레반도프스키 [Borussia Dortmund]"
+  ],
+  [
+   "2018-12-01",
+   "SV Werder Bremen",
+   1713,
+   "분데스리가 2018-19 8위",
+   "table 2018-19"
+  ],
+  [
+   "2018-12-01",
+   "SV Werder Bremen",
+   1713,
+   "분데스리가 2018-19 8위",
+   "table 2018-19"
+  ],
+  [
+   "2018-12-15",
+   "Hannover 96",
+   1591,
+   "분데스리가 2018-19 17위",
+   "same:로베르트 레반도프스키 [Hannover 96]"
+  ],
+  [
+   "2019-02-09",
+   "FC Schalke 04",
+   1638,
+   "분데스리가 2018-19 14위",
+   "same:로베르트 레반도프스키 [FC Schalke 04]"
+  ],
+  [
+   "2019-03-02",
+   "Borussia Mönchengladbach",
+   1768,
+   "분데스리가 2018-19 5위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Borussia Mönchengladbach]"
+  ],
+  [
+   "2019-03-09",
+   "VfL Wolfsburg",
+   1754,
+   "분데스리가 2018-19 6위",
+   "same:로베르트 레반도프스키·토마스 뮐러·프랑크 리베리 [VfL Wolfsburg]"
+  ],
+  [
+   "2019-03-09",
+   "VfL Wolfsburg",
+   1754,
+   "분데스리가 2018-19 6위",
+   "same:로베르트 레반도프스키·토마스 뮐러·프랑크 리베리 [VfL Wolfsburg]"
+  ],
+  [
+   "2019-04-06",
+   "Borussia Dortmund",
+   1869,
+   "분데스리가 2018-19 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2019-04-06",
+   "Borussia Dortmund",
+   1869,
+   "분데스리가 2018-19 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2019-04-14",
+   "Fortuna Düsseldorf",
+   1680,
+   "분데스리가 2018-19 10위",
+   "same:토마스 뮐러 [Fortuna Düsseldorf]"
+  ],
+  [
+   "2019-04-14",
+   "Fortuna Düsseldorf",
+   1680,
+   "분데스리가 2018-19 10위",
+   "same:토마스 뮐러 [Fortuna Düsseldorf]"
+  ],
+  [
+   "2019-04-28",
+   "1.FC Nuremberg",
+   1569,
+   "분데스리가 2018-19 18위",
+   "table 2018-19"
+  ],
+  [
+   "2018-12-12",
+   "Ajax Amsterdam",
+   1837,
+   "에레디비시 2018-19 1위",
+   "same:로베르트 레반도프스키 [Ajax Amsterdam]"
+  ],
+  [
+   "2019-02-06",
+   "Hertha BSC",
+   1669,
+   "분데스리가 2018-19 11위",
+   "same:로베르트 레반도프스키 [Hertha BSC]"
+  ],
+  [
+   "2019-02-06",
+   "Hertha BSC",
+   1669,
+   "분데스리가 2018-19 11위",
+   "same:로베르트 레반도프스키 [Hertha BSC]"
+  ],
+  [
+   "2019-04-03",
+   "1.FC Heidenheim 1846",
+   1615,
+   "2. 분데스리가 2018-19 5위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [1.FC Heidenheim 1846]"
+  ],
+  [
+   "2019-08-12",
+   "FC Energie Cottbus",
+   1250,
+   "독일 4부 (추정)",
+   "same:로베르트 레반도프스키 [FC Energie Cottbus]"
+  ],
+  [
+   "2019-08-16",
+   "Hertha BSC",
+   1701,
+   "분데스리가 2019-20 10위",
+   "same:로베르트 레반도프스키 [Hertha BSC]"
+  ],
+  [
+   "2019-09-28",
+   "SC Paderborn 07",
+   1590,
+   "분데스리가 2019-20 18위",
+   "same:로베르트 레반도프스키 [SC Paderborn 07]"
+  ],
+  [
+   "2019-09-28",
+   "SC Paderborn 07",
+   1590,
+   "분데스리가 2019-20 18위",
+   "same:로베르트 레반도프스키 [SC Paderborn 07]"
+  ],
+  [
+   "2019-10-19",
+   "FC Augsburg",
+   1639,
+   "분데스리가 2019-20 15위",
+   "same:로베르트 레반도프스키 [FC Augsburg]"
+  ],
+  [
+   "2019-10-19",
+   "FC Augsburg",
+   1639,
+   "분데스리가 2019-20 15위",
+   "same:로베르트 레반도프스키 [FC Augsburg]"
+  ],
+  [
+   "2019-11-09",
+   "Borussia Dortmund",
+   1890,
+   "분데스리가 2019-20 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2019-11-23",
+   "Fortuna Düsseldorf",
+   1612,
+   "분데스리가 2019-20 17위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Fortuna Düsseldorf]"
+  ],
+  [
+   "2019-11-23",
+   "Fortuna Düsseldorf",
+   1612,
+   "분데스리가 2019-20 17위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Fortuna Düsseldorf]"
+  ],
+  [
+   "2019-12-14",
+   "SV Werder Bremen",
+   1622,
+   "분데스리가 2019-20 16위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [SV Werder Bremen]"
+  ],
+  [
+   "2019-12-18",
+   "SC Freiburg",
+   1734,
+   "분데스리가 2019-20 8위",
+   "same:로베르트 레반도프스키 [SC Freiburg]"
+  ],
+  [
+   "2019-12-18",
+   "SC Freiburg",
+   1734,
+   "분데스리가 2019-20 8위",
+   "same:로베르트 레반도프스키 [SC Freiburg]"
+  ],
+  [
+   "2019-12-21",
+   "VfL Wolfsburg",
+   1755,
+   "분데스리가 2019-20 7위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [VfL Wolfsburg]"
+  ],
+  [
+   "2020-01-25",
+   "FC Schalke 04",
+   1679,
+   "분데스리가 2019-20 12위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [FC Schalke 04]"
+  ],
+  [
+   "2020-02-16",
+   "1.FC Köln",
+   1659,
+   "분데스리가 2019-20 14위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [1.FC Köln]"
+  ],
+  [
+   "2020-02-16",
+   "1.FC Köln",
+   1659,
+   "분데스리가 2019-20 14위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [1.FC Köln]"
+  ],
+  [
+   "2020-02-21",
+   "SC Paderborn 07",
+   1590,
+   "분데스리가 2019-20 18위",
+   "same:로베르트 레반도프스키 [SC Paderborn 07]"
+  ],
+  [
+   "2020-02-21",
+   "SC Paderborn 07",
+   1590,
+   "분데스리가 2019-20 18위",
+   "same:로베르트 레반도프스키 [SC Paderborn 07]"
+  ],
+  [
+   "2020-02-21",
+   "SC Paderborn 07",
+   1590,
+   "분데스리가 2019-20 18위",
+   "same:로베르트 레반도프스키 [SC Paderborn 07]"
+  ],
+  [
+   "2020-02-29",
+   "TSG 1899 Hoffenheim",
+   1775,
+   "분데스리가 2019-20 6위",
+   "same:토마스 뮐러 [TSG 1899 Hoffenheim]"
+  ],
+  [
+   "2020-03-08",
+   "FC Augsburg",
+   1639,
+   "분데스리가 2019-20 15위",
+   "same:토마스 뮐러 [FC Augsburg]"
+  ],
+  [
+   "2020-05-30",
+   "Fortuna Düsseldorf",
+   1612,
+   "분데스리가 2019-20 17위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Fortuna Düsseldorf]"
+  ],
+  [
+   "2020-06-06",
+   "Bayer 04 Leverkusen",
+   1789,
+   "분데스리가 2019-20 5위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Bayer 04 Leverkusen]"
+  ],
+  [
+   "2019-10-29",
+   "VfL Bochum",
+   1592,
+   "2. 분데스리가 2019-20 8위",
+   "same:토마스 뮐러 [VfL Bochum]"
+  ],
+  [
+   "2019-10-01",
+   "Tottenham Hotspur",
+   1883,
+   "프리미어리그 2019-20 6위",
+   "same:로베르트 레반도프스키 [Tottenham Hotspur]"
+  ],
+  [
+   "2019-10-01",
+   "Tottenham Hotspur",
+   1883,
+   "프리미어리그 2019-20 6위",
+   "same:로베르트 레반도프스키 [Tottenham Hotspur]"
+  ],
+  [
+   "2019-10-01",
+   "Tottenham Hotspur",
+   1883,
+   "프리미어리그 2019-20 6위",
+   "same:로베르트 레반도프스키 [Tottenham Hotspur]"
+  ],
+  [
+   "2019-10-01",
+   "Tottenham Hotspur",
+   1883,
+   "프리미어리그 2019-20 6위",
+   "same:로베르트 레반도프스키 [Tottenham Hotspur]"
+  ],
+  [
+   "2020-02-25",
+   "Chelsea FC",
+   1911,
+   "프리미어리그 2019-20 4위",
+   "same:로베르트 레반도프스키 [Chelsea FC]"
+  ],
+  [
+   "2020-02-25",
+   "Chelsea FC",
+   1911,
+   "프리미어리그 2019-20 4위",
+   "same:로베르트 레반도프스키 [Chelsea FC]"
+  ],
+  [
+   "2020-07-04",
+   "Bayer 04 Leverkusen",
+   1789,
+   "분데스리가 2019-20 5위",
+   "same:로베르트 레반도프스키 [Bayer 04 Leverkusen]"
+  ],
+  [
+   "2021-05-22",
+   "FC Augsburg",
+   1678,
+   "분데스리가 2020-21 13위",
+   "same:로베르트 레반도프스키 [FC Augsburg]"
+  ],
+  [
+   "2020-09-18",
+   "FC Schalke 04",
+   1594,
+   "분데스리가 2020-21 18위",
+   "same:로베르트 레반도프스키·르로이 자네·자말 무시알라·토마스 뮐러 [FC Schalke 04]"
+  ],
+  [
+   "2020-09-18",
+   "FC Schalke 04",
+   1594,
+   "분데스리가 2020-21 18위",
+   "same:로베르트 레반도프스키·르로이 자네·자말 무시알라·토마스 뮐러 [FC Schalke 04]"
+  ],
+  [
+   "2020-09-18",
+   "FC Schalke 04",
+   1594,
+   "분데스리가 2020-21 18위",
+   "same:로베르트 레반도프스키·르로이 자네·자말 무시알라·토마스 뮐러 [FC Schalke 04]"
+  ],
+  [
+   "2021-05-08",
+   "Borussia Mönchengladbach",
+   1737,
+   "분데스리가 2020-21 8위",
+   "same:로베르트 레반도프스키·르로이 자네·자말 무시알라·토마스 뮐러 [Borussia Mönchengladbach]"
+  ],
+  [
+   "2020-10-04",
+   "Hertha BSC",
+   1663,
+   "분데스리가 2020-21 14위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Hertha BSC]"
+  ],
+  [
+   "2020-10-31",
+   "1.FC Köln",
+   1626,
+   "분데스리가 2020-21 16위",
+   "same:토마스 뮐러 [1.FC Köln]"
+  ],
+  [
+   "2021-03-20",
+   "VfB Stuttgart",
+   1718,
+   "분데스리가 2020-21 9위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-03-20",
+   "VfB Stuttgart",
+   1718,
+   "분데스리가 2020-21 9위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-03-13",
+   "SV Werder Bremen",
+   1616,
+   "분데스리가 2020-21 17위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [SV Werder Bremen]"
+  ],
+  [
+   "2021-02-27",
+   "1.FC Köln",
+   1626,
+   "분데스리가 2020-21 16위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [1.FC Köln]"
+  ],
+  [
+   "2021-02-27",
+   "1.FC Köln",
+   1626,
+   "분데스리가 2020-21 16위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [1.FC Köln]"
+  ],
+  [
+   "2021-01-30",
+   "TSG 1899 Hoffenheim",
+   1694,
+   "분데스리가 2020-21 11위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [TSG 1899 Hoffenheim]"
+  ],
+  [
+   "2020-08-14",
+   "FC Barcelona",
+   1939,
+   "라리가 2019-20 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [FC Barcelona]"
+  ],
+  [
+   "2020-08-14",
+   "FC Barcelona",
+   1939,
+   "라리가 2019-20 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [FC Barcelona]"
+  ],
+  [
+   "2020-08-19",
+   "Olympique Lyon",
+   1750,
+   "리그1 2019-20 7위",
+   "same:로베르트 레반도프스키 [Olympique Lyon]"
+  ],
+  [
+   "2020-08-19",
+   "Olympique Lyon",
+   1750,
+   "리그1 2019-20 7위",
+   "same:로베르트 레반도프스키 [Olympique Lyon]"
+  ],
+  [
+   "2020-12-09",
+   "Lokomotiv Moscow",
+   1487,
+   "러시아 프리미어리그 2020-21 3위 (리그 수준 추정)",
+   "model"
+  ],
+  [
+   "2021-01-13",
+   "Holstein Kiel",
+   1636,
+   "2. 분데스리가 2020-21 3위",
+   "same:르로이 자네 [Holstein Kiel]"
+  ],
+  [
+   "2021-02-08",
+   "Al Ahly FC",
+   1550,
+   "이집트·아프리카 챔피언 (추정)",
+   "same:로베르트 레반도프스키·르로이 자네 [Al Ahly FC]"
+  ],
+  [
+   "2021-08-17",
+   "Borussia Dortmund",
+   1888,
+   "분데스리가 2021-22 2위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2021-08-22",
+   "1.FC Köln",
+   1753,
+   "분데스리가 2021-22 7위",
+   "same:로베르트 레반도프스키·자말 무시알라 [1.FC Köln]"
+  ],
+  [
+   "2021-08-22",
+   "1.FC Köln",
+   1753,
+   "분데스리가 2021-22 7위",
+   "same:로베르트 레반도프스키·자말 무시알라 [1.FC Köln]"
+  ],
+  [
+   "2021-09-18",
+   "VfL Bochum",
+   1672,
+   "분데스리가 2021-22 13위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfL Bochum]"
+  ],
+  [
+   "2021-10-17",
+   "Bayer 04 Leverkusen",
+   1835,
+   "분데스리가 2021-22 3위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Bayer 04 Leverkusen]"
+  ],
+  [
+   "2021-10-17",
+   "Bayer 04 Leverkusen",
+   1835,
+   "분데스리가 2021-22 3위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [Bayer 04 Leverkusen]"
+  ],
+  [
+   "2021-10-23",
+   "TSG 1899 Hoffenheim",
+   1712,
+   "분데스리가 2021-22 9위",
+   "same:로베르트 레반도프스키·자말 무시알라·토마스 뮐러 [TSG 1899 Hoffenheim]"
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-12-14",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-12-17",
+   "VfL Wolfsburg",
+   1677,
+   "분데스리가 2021-22 12위",
+   "same:로베르트 레반도프스키·르로이 자네·자말 무시알라·토마스 뮐러 [VfL Wolfsburg]"
+  ],
+  [
+   "2022-01-23",
+   "Hertha BSC",
+   1620,
+   "분데스리가 2021-22 16위",
+   "same:르로이 자네·토마스 뮐러 [Hertha BSC]"
+  ],
+  [
+   "2022-02-20",
+   "SpVgg Greuther Fürth",
+   1588,
+   "분데스리가 2021-22 18위",
+   "same:로베르트 레반도프스키 [SpVgg Greuther Fürth]"
+  ],
+  [
+   "2022-04-02",
+   "SC Freiburg",
+   1773,
+   "분데스리가 2021-22 6위",
+   "table 2021-22"
+  ],
+  [
+   "2022-04-02",
+   "SC Freiburg",
+   1773,
+   "분데스리가 2021-22 6위",
+   "table 2021-22"
+  ],
+  [
+   "2022-04-17",
+   "Arminia Bielefeld",
+   1610,
+   "분데스리가 2021-22 17위",
+   "same:로베르트 레반도프스키·자말 무시알라 [Arminia Bielefeld]"
+  ],
+  [
+   "2022-04-23",
+   "Borussia Dortmund",
+   1888,
+   "분데스리가 2021-22 2위",
+   "same:로베르트 레반도프스키·자말 무시알라·토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2022-05-08",
+   "VfB Stuttgart",
+   1636,
+   "분데스리가 2021-22 15위",
+   "same:로베르트 레반도프스키·토마스 뮐러 [VfB Stuttgart]"
+  ],
+  [
+   "2021-08-25",
+   "Bremer SV",
+   1180,
+   "브레멘리가(독일 5부) 2021-22 1위 (추정, 뮐러 자료의 독일 5부 값과 같음)",
+   "same:르로이 자네·자말 무시알라 [Bremer SV]"
+  ],
+  [
+   "2021-09-29",
+   "Dynamo Kyiv",
+   1600,
+   "우크라이나 (추정)",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [Dynamo Kyiv]"
+  ],
+  [
+   "2021-11-02",
+   "SL Benfica",
+   1730,
+   "포르투갈 1부 2021-22 3위",
+   "same:로베르트 레반도프스키·르로이 자네 [SL Benfica]"
+  ],
+  [
+   "2022-03-08",
+   "Red Bull Salzburg",
+   1735,
+   "오스트리아 분데스리가 2021-22 1위",
+   "same:로베르트 레반도프스키·르로이 자네·토마스 뮐러 [Red Bull Salzburg]"
+  ],
+  [
+   "2022-07-30",
+   "RB Leipzig",
+   1852,
+   "분데스리가 2022-23 3위",
+   "same:르로이 자네·사디오 마네·자말 무시알라 [RB Leipzig]"
+  ],
+  [
+   "2022-07-30",
+   "RB Leipzig",
+   1852,
+   "분데스리가 2022-23 3위",
+   "same:르로이 자네·사디오 마네·자말 무시알라 [RB Leipzig]"
+  ],
+  [
+   "2022-08-31",
+   "FC Viktoria Köln",
+   1429,
+   "독일 3부 리가 2022-23 9위",
+   "same:르로이 자네·사디오 마네·자말 무시알라·토마스 뮐러 [FC Viktoria Köln/Viktoria Köln 1904]"
+  ],
+  [
+   "2022-08-05",
+   "Eintracht Frankfurt",
+   1769,
+   "분데스리가 2022-23 7위",
+   "same:르로이 자네·사디오 마네·자말 무시알라·토마스 뮐러 [Eintracht Frankfurt]"
+  ],
+  [
+   "2022-08-05",
+   "Eintracht Frankfurt",
+   1769,
+   "분데스리가 2022-23 7위",
+   "same:르로이 자네·사디오 마네·자말 무시알라·토마스 뮐러 [Eintracht Frankfurt]"
+  ],
+  [
+   "2022-08-21",
+   "VfL Bochum",
+   1673,
+   "분데스리가 2022-23 14위",
+   "same:르로이 자네·사디오 마네 [VfL Bochum]"
+  ],
+  [
+   "2022-10-16",
+   "SC Freiburg",
+   1803,
+   "분데스리가 2022-23 5위",
+   "same:르로이 자네·사디오 마네 [Freiburg/SC Freiburg]"
+  ],
+  [
+   "2022-10-16",
+   "SC Freiburg",
+   1803,
+   "분데스리가 2022-23 5위",
+   "same:르로이 자네·사디오 마네 [Freiburg/SC Freiburg]"
+  ],
+  [
+   "2022-10-22",
+   "TSG 1899 Hoffenheim",
+   1693,
+   "분데스리가 2022-23 12위",
+   "same:자말 무시알라 [TSG 1899 Hoffenheim]"
+  ],
+  [
+   "2022-10-29",
+   "1.FSV Mainz 05",
+   1728,
+   "분데스리가 2022-23 9위",
+   "same:사디오 마네·자말 무시알라 [1.FSV Mainz 05/Mainz 05]"
+  ],
+  [
+   "2022-11-08",
+   "SV Werder Bremen",
+   1688,
+   "분데스리가 2022-23 13위",
+   "same:르로이 자네·자말 무시알라 [SV Werder Bremen]"
+  ],
+  [
+   "2022-11-08",
+   "SV Werder Bremen",
+   1688,
+   "분데스리가 2022-23 13위",
+   "same:르로이 자네·자말 무시알라 [SV Werder Bremen]"
+  ],
+  [
+   "2022-11-08",
+   "SV Werder Bremen",
+   1688,
+   "분데스리가 2022-23 13위",
+   "same:르로이 자네·자말 무시알라 [SV Werder Bremen]"
+  ],
+  [
+   "2022-11-12",
+   "FC Schalke 04",
+   1626,
+   "분데스리가 2022-23 17위",
+   "same:자말 무시알라 [FC Schalke 04]"
+  ],
+  [
+   "2023-01-20",
+   "RB Leipzig",
+   1852,
+   "분데스리가 2022-23 3위",
+   "table 2022-23"
+  ],
+  [
+   "2023-02-11",
+   "VfL Bochum",
+   1673,
+   "분데스리가 2022-23 14위",
+   "same:자말 무시알라·토마스 뮐러 [VfL Bochum]"
+  ],
+  [
+   "2023-04-30",
+   "Hertha BSC",
+   1604,
+   "분데스리가 2022-23 18위",
+   "table 2022-23"
+  ],
+  [
+   "2023-05-06",
+   "SV Werder Bremen",
+   1688,
+   "분데스리가 2022-23 13위",
+   "same:르로이 자네 [SV Werder Bremen]"
+  ],
+  [
+   "2023-05-13",
+   "FC Schalke 04",
+   1626,
+   "분데스리가 2022-23 17위",
+   "same:르로이 자네·사디오 마네·자말 무시알라·토마스 뮐러 [FC Schalke 04/Schalke 04]"
+  ],
+  [
+   "2023-05-13",
+   "FC Schalke 04",
+   1626,
+   "분데스리가 2022-23 17위",
+   "same:르로이 자네·사디오 마네·자말 무시알라·토마스 뮐러 [FC Schalke 04/Schalke 04]"
+  ],
+  [
+   "2023-05-20",
+   "RB Leipzig",
+   1852,
+   "분데스리가 2022-23 3위",
+   "same:토마스 뮐러 [RB Leipzig]"
+  ],
+  [
+   "2023-05-27",
+   "1.FC Köln",
+   1704,
+   "분데스리가 2022-23 11위",
+   "same:르로이 자네·자말 무시알라 [1.FC Köln]"
+  ],
+  [
+   "2022-10-26",
+   "FC Barcelona",
+   1999,
+   "라리가 2022-23 1위",
+   "same:사디오 마네 [Barcelona]"
+  ],
+  [
+   "2022-10-26",
+   "FC Barcelona",
+   1999,
+   "라리가 2022-23 1위",
+   "same:사디오 마네 [Barcelona]"
+  ],
+  [
+   "2022-10-26",
+   "FC Barcelona",
+   1999,
+   "라리가 2022-23 1위",
+   "same:사디오 마네 [Barcelona]"
+  ],
+  [
+   "2022-10-04",
+   "FC Viktoria Plzen",
+   1560,
+   "체코 1위 (추정)",
+   "same:르로이 자네·사디오 마네·자말 무시알라 [FC Viktoria Plzen/Viktoria Plzen]"
+  ],
+  [
+   "2022-10-19",
+   "FC Augsburg",
+   1652,
+   "분데스리가 2022-23 15위",
+   "same:자말 무시알라·토마스 뮐러 [FC Augsburg]"
+  ],
+  [
+   "2023-03-08",
+   "Paris Saint-Germain",
+   1955,
+   "리그1 2022-23 1위",
+   "table 2022-23"
+  ],
+  [
+   "2024-03-09",
+   "1.FSV Mainz 05",
+   1697,
+   "분데스리가 2023-24 13위",
+   "same:자말 무시알라·토마스 뮐러·해리 케인 [1.FSV Mainz 05/Mainz 05]"
+  ],
+  [
+   "2024-03-16",
+   "SV Darmstadt 98",
+   1613,
+   "분데스리가 2023-24 18위",
+   "same:자말 무시알라·해리 케인 [Darmstadt/SV Darmstadt 98]"
+  ],
+  [
+   "2024-04-06",
+   "1.FC Heidenheim 1846",
+   1756,
+   "분데스리가 2023-24 8위",
+   "same:해리 케인 [FC Heidenheim]"
+  ],
+  [
+   "2024-04-06",
+   "1.FC Heidenheim 1846",
+   1756,
+   "분데스리가 2023-24 8위",
+   "same:해리 케인 [FC Heidenheim]"
+  ],
+  [
+   "2023-09-20",
+   "Manchester United",
+   1857,
+   "프리미어리그 2023-24 8위",
+   "same:르로이 자네·자말 무시알라·해리 케인 [Manchester United]"
+  ],
+  [
+   "2024-04-09",
+   "Arsenal FC",
+   1998,
+   "프리미어리그 2023-24 2위",
+   "same:해리 케인 [Arsenal]"
+  ],
+  [
+   "2024-08-16",
+   "SSV Ulm 1846",
+   1541,
+   "2. 분데스리가 2024-25 17위",
+   "same:토마스 뮐러·해리 케인 [SSV Ulm 1846/Ulm]"
+  ],
+  [
+   "2024-08-25",
+   "VfL Wolfsburg",
+   1719,
+   "분데스리가 2024-25 11위",
+   "same:자말 무시알라·해리 케인 [VfL Wolfsburg/Wolfsburg]"
+  ],
+  [
+   "2024-09-01",
+   "SC Freiburg",
+   1818,
+   "분데스리가 2024-25 5위",
+   "same:토마스 뮐러·해리 케인 [Freiburg/SC Freiburg]"
+  ],
+  [
+   "2024-09-14",
+   "Holstein Kiel",
+   1641,
+   "분데스리가 2024-25 17위",
+   "same:자말 무시알라·해리 케인 [Holstein Kiel]"
+  ],
+  [
+   "2024-09-21",
+   "SV Werder Bremen",
+   1763,
+   "분데스리가 2024-25 8위",
+   "same:자말 무시알라·해리 케인 [SV Werder Bremen/Werder Bremen]"
+  ],
+  [
+   "2025-01-15",
+   "TSG 1899 Hoffenheim",
+   1668,
+   "분데스리가 2024-25 15위",
+   "same:르로이 자네·토마스 뮐러·해리 케인 [Hoffenheim/TSG 1899 Hoffenheim]"
+  ],
+  [
+   "2025-02-01",
+   "Holstein Kiel",
+   1641,
+   "분데스리가 2024-25 17위",
+   "same:자말 무시알라·해리 케인 [Holstein Kiel]"
+  ],
+  [
+   "2025-02-23",
+   "Eintracht Frankfurt",
+   1867,
+   "분데스리가 2024-25 3위",
+   "same:르로이 자네·자말 무시알라 [Eintracht Frankfurt]"
+  ],
+  [
+   "2025-03-08",
+   "VfL Bochum",
+   1620,
+   "분데스리가 2024-25 18위",
+   "same:토마스 뮐러 [VfL Bochum]"
+  ],
+  [
+   "2025-04-12",
+   "Borussia Dortmund",
+   1835,
+   "분데스리가 2024-25 4위",
+   "same:토마스 뮐러 [Borussia Dortmund]"
+  ],
+  [
+   "2025-04-19",
+   "1.FC Heidenheim 1846",
+   1651,
+   "분데스리가 2024-25 16위",
+   "same:해리 케인 [FC Heidenheim]"
+  ],
+  [
+   "2025-05-03",
+   "RB Leipzig",
+   1784,
+   "분데스리가 2024-25 7위",
+   "same:르로이 자네 [RB Leipzig]"
+  ],
+  [
+   "2025-05-17",
+   "TSG 1899 Hoffenheim",
+   1668,
+   "분데스리가 2024-25 15위",
+   "same:해리 케인 [Hoffenheim]"
+  ],
+  [
+   "2024-10-23",
+   "FC Barcelona",
+   2030,
+   "라리가 2024-25 1위",
+   "same:해리 케인 [Barcelona]"
+  ],
+  [
+   "2025-06-15",
+   "Auckland City FC",
+   1250,
+   "뉴질랜드 (추정, 벤제마 자료의 2023 값과 같음)",
+   "same:자말 무시알라·토마스 뮐러 [Auckland City FC]"
+  ],
+  [
+   "2025-04-16",
+   "Inter Milan",
+   1890,
+   "세리에A 2024-25 2위",
+   "same:해리 케인 [Inter]"
+  ],
+  [
+   "2025-08-16",
+   "VfB Stuttgart",
+   1828,
+   "분데스리가 2025-26 4위",
+   "same:해리 케인 [VfB Stuttgart]"
+  ],
+  [
+   "2025-08-22",
+   "RB Leipzig",
+   1860,
+   "분데스리가 2025-26 3위",
+   "same:해리 케인 [RB Leipzig]"
+  ],
+  [
+   "2025-08-22",
+   "RB Leipzig",
+   1860,
+   "분데스리가 2025-26 3위",
+   "same:해리 케인 [RB Leipzig]"
+  ],
+  [
+   "2025-08-30",
+   "FC Augsburg",
+   1737,
+   "분데스리가 2025-26 9위",
+   "same:해리 케인 [Augsburg]"
+  ],
+  [
+   "2025-09-13",
+   "Hamburger SV",
+   1697,
+   "분데스리가 2025-26 13위",
+   "same:해리 케인 [Hamburger SV]"
+  ],
+  [
+   "2025-09-20",
+   "TSG 1899 Hoffenheim",
+   1812,
+   "분데스리가 2025-26 5위",
+   "same:해리 케인 [Hoffenheim]"
+  ],
+  [
+   "2025-10-04",
+   "Eintracht Frankfurt",
+   1756,
+   "분데스리가 2025-26 8위",
+   "same:해리 케인 [Eintracht Frankfurt]"
+  ],
+  [
+   "2025-11-01",
+   "Bayer 04 Leverkusen",
+   1797,
+   "분데스리가 2025-26 6위",
+   "table 2025-26"
+  ],
+  [
+   "2025-12-14",
+   "1.FSV Mainz 05",
+   1723,
+   "분데스리가 2025-26 10위",
+   "same:해리 케인 [Mainz 05]"
+  ],
+  [
+   "2025-12-21",
+   "1.FC Heidenheim 1846",
+   1634,
+   "분데스리가 2025-26 17위",
+   "same:해리 케인 [FC Heidenheim]"
+  ],
+  [
+   "2026-01-14",
+   "1.FC Köln",
+   1682,
+   "분데스리가 2025-26 14위",
+   "table 2025-26"
+  ],
+  [
+   "2026-01-17",
+   "RB Leipzig",
+   1860,
+   "분데스리가 2025-26 3위",
+   "same:자말 무시알라·해리 케인 [RB Leipzig]"
+  ],
+  [
+   "2026-02-28",
+   "Borussia Dortmund",
+   1912,
+   "분데스리가 2025-26 2위",
+   "same:해리 케인 [Borussia Dortmund]"
+  ],
+  [
+   "2026-03-21",
+   "1.FC Union Berlin",
+   1713,
+   "분데스리가 2025-26 11위",
+   "same:해리 케인 [Union Berlin]"
+  ],
+  [
+   "2026-03-21",
+   "1.FC Union Berlin",
+   1713,
+   "분데스리가 2025-26 11위",
+   "same:해리 케인 [Union Berlin]"
+  ],
+  [
+   "2025-12-09",
+   "Sporting CP",
+   1795,
+   "포르투갈 1부 2025-26 2위",
+   "table 2025-26"
+  ],
+  [
+   "2025-12-09",
+   "Sporting CP",
+   1795,
+   "포르투갈 1부 2025-26 2위",
+   "table 2025-26"
+  ],
+  [
+   "2025-11-26",
+   "Arsenal FC",
+   2083,
+   "프리미어리그 2025-26 1위",
+   "table 2025-26"
+  ],
+  [
+   "2026-03-10",
+   "Atalanta BC",
+   1774,
+   "세리에A 2025-26 7위",
+   "same:자말 무시알라 [Atalanta BC]"
+  ],
+  [
+   "2026-03-10",
+   "Atalanta BC",
+   1774,
+   "세리에A 2025-26 7위",
+   "same:자말 무시알라 [Atalanta BC]"
+  ],
+  [
+   "2026-04-07",
+   "Real Madrid",
+   1931,
+   "라리가 2025-26 2위",
+   "same:해리 케인 [Real Madrid]"
+  ],
+  [
+   "2026-10-25",
+   "SC Freiburg",
+   1860,
+   "분데스리가 2026-27 (11월 초 현재) 3위",
+   "model"
+  ]
+ ]
+}

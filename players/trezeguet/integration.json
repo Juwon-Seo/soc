@@ -1,0 +1,15 @@
+{"preset":"trezeguet","name":"다비드 트레제게","prefix":"TRZ",
+ "clubs":[
+  {"key":"montz","name":"AS 모나코","short":"모나코","years":"1995~2000","until":"2000-07-01"},
+  {"key":"juvtz","name":"유벤투스","short":"유벤투스","years":"2000~2010","until":"2010-09-01"},
+  {"key":"hertz","name":"에르쿨레스 CF","short":"에르쿨레스","years":"2010~2011","until":"2011-07-01"},
+  {"key":"bantz","name":"바니야스 SC","short":"바니야스","years":"2011","until":"2012-01-01"},
+  {"key":"rivtz","name":"리버 플레이트","short":"리버 플레이트","years":"2012~2013","until":"2013-07-01"},
+  {"key":"newtz","name":"뉴웰스 올드 보이스","short":"뉴웰스","years":"2013~2014","until":"2014-07-01"},
+  {"key":"puntz","name":"FC 푸네 시티","short":"푸네 시티","years":"2014","until":null}],
+ "season":{"calendar":["puntz"],"jul10":["montz"],"jul1":[]},
+ "pos":"CF","flag":"FR","retired":true,
+ "hon":{"t":{"LG":["02/03 유벤투스","01/02 유벤투스","99/00 모나코","96/97 모나코"],
+             "SC":["03/04 유벤투스","97/98 모나코"]},
+        "o":[["UCL 준우승","02/03 유벤투스"],["세리에B 우승","06/07 유벤투스"],["아르헨티나 2부 우승","11/12 리버 플레이트"]],
+        "a":{"TOP":["01/02 세리에A 24골"],"POY":["01/02 세리에A · AIC(선수협회)"]}}}

@@ -1,0 +1,29 @@
+{
+ "preset": "gourcuff",
+ "name": "요안 구르퀴프",
+ "prefix": "GOU",
+ "clubs": [
+  {"key": "rengf", "name": "스타드 렌", "short": "렌", "years": "2003~2006", "until": "2006-07-01"},
+  {"key": "milgf", "name": "AC 밀란", "short": "밀란", "years": "2006~2008", "until": "2008-07-01"},
+  {"key": "borgf", "name": "보르도", "short": "보르도", "years": "2008~2010", "until": "2010-08-24"},
+  {"key": "lyogf", "name": "리옹", "short": "리옹", "years": "2010~2015", "until": "2015-07-01"},
+  {"key": "rengf", "name": "스타드 렌", "short": "렌", "years": "2015~2018", "until": "2018-07-01"},
+  {"key": "dijgf", "name": "디종", "short": "디종", "years": "2018", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["borgf", "lyogf"], "jul1": []},
+ "pos": "AM",
+ "flag": "FR",
+ "retired": true,
+ "hon": {
+  "t": {
+   "UCL": ["06/07 AC 밀란"],
+   "CWC": ["07/08 AC 밀란"],
+   "LG": ["08/09 보르도"],
+   "DC": ["11/12 리옹"],
+   "LC": ["08/09 보르도"],
+   "SC": ["12/13 리옹", "09/10 보르도", "08/09 보르도"]
+  },
+  "o": [],
+  "a": {"FOY": ["2009 보르도"]}
+ }
+}

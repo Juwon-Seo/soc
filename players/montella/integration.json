@@ -1,0 +1,106 @@
+{
+ "preset": "montella",
+ "name": "빈첸초 몬텔라",
+ "prefix": "MNT",
+ "clubs": [
+  {
+   "key": "empmt",
+   "name": "엠폴리",
+   "short": "엠폴리",
+   "years": "1990~1995",
+   "until": "1995-07-01"
+  },
+  {
+   "key": "genmt",
+   "name": "제노아",
+   "short": "제노아",
+   "years": "1995~1996",
+   "until": "1996-07-01"
+  },
+  {
+   "key": "sammt",
+   "name": "삼프도리아",
+   "short": "삼프도리아",
+   "years": "1996~1999, 2007~2008",
+   "until": "1999-07-01"
+  },
+  {
+   "key": "rommt",
+   "name": "AS 로마",
+   "short": "로마",
+   "years": "1999~2007, 2008~2009",
+   "until": "2007-01-04"
+  },
+  {
+   "key": "fulmt",
+   "name": "풀럼",
+   "short": "풀럼",
+   "years": "2007",
+   "until": "2007-07-12"
+  },
+  {
+   "key": "sammt",
+   "name": "삼프도리아",
+   "short": "삼프도리아",
+   "years": "1996~1999, 2007~2008",
+   "until": "2008-07-01"
+  },
+  {
+   "key": "rommt",
+   "name": "AS 로마",
+   "short": "로마",
+   "years": "1999~2007, 2008~2009",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [],
+  "jul10": [],
+  "jul1": [
+   "sammt"
+  ]
+ },
+ "pos": "CF",
+ "flag": "IT",
+ "retired": true,
+ "hon": {
+  "t": {
+   "LG": [
+    "00/01 로마"
+   ],
+   "SC": [
+    "01/02 로마"
+   ]
+  },
+  "o": [
+   [
+    "앵글로-이탈리안컵 우승",
+    "95/96 제노아"
+   ]
+  ],
+  "a": {}
+ },
+ "colors": {
+  "empmt": [
+   "#0055FF",
+   "#FFFFFF"
+  ],
+  "genmt": [
+   "#AD1919",
+   "#001E50"
+  ],
+  "sammt": [
+   "#2345C0",
+   "#FFFFFF",
+   "#E2001A"
+  ],
+  "rommt": [
+   "#990A2C",
+   "#FBB900"
+  ],
+  "fulmt": [
+   "#FFFFFF",
+   "#000000"
+  ]
+ }
+}

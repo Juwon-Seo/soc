@@ -1,0 +1,11 @@
+{"preset":"ikone","name":"조나탕 이코네","prefix":"IKO",
+ "clubs":[
+  {"key":"psgik","name":"파리 생제르맹","short":"PSG","years":"2016~2017","until":"2017-01-18"},
+  {"key":"mtpik","name":"몽펠리에 HSC","short":"몽펠리에","years":"2017~2018","until":"2018-07-02"},
+  {"key":"lilik","name":"LOSC 릴","short":"릴","years":"2018~2022","until":"2022-01-03"},
+  {"key":"fioik","name":"ACF 피오렌티나","short":"피오렌티나","years":"2022~2025","until":"2025-01-31"},
+  {"key":"comik","name":"코모 1907","short":"코모","years":"2025","until":"2025-09-01"},
+  {"key":"pfcik","name":"파리 FC","short":"파리 FC","years":"2025~","until":null}],
+ "season":{"calendar":[],"jul10":["lilik"],"jul1":[]},
+ "pos":"RW","flag":"FR","retired":false,
+ "hon":{"t":{"LG":["20/21 릴"],"LC":["16/17 PSG"],"SC":["21/22 릴","16/17 PSG"]},"o":[["컨퍼런스리그 준우승","23/24 피오렌티나"],["컨퍼런스리그 준우승","22/23 피오렌티나"]],"a":{}}}

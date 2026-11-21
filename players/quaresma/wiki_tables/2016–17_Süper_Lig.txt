@@ -1,0 +1,86 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.tff.org/default.aspx?pageID=486 Süper Lig], [https://www.soccerway.com/turkey/super-lig-2016-2017/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=BEŞ |team2=BAŞ |team3=FEN |team4=GAL |team5=ANT |team6=TRA |team7=AKH |team8=GEN |team9=KON |team10=KSM |team11=KAR |team12=ALN |team13=OSM |team14=BUR |team15=KAY |team16=ÇAY |team17=GAZ |team18=ADN
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=EL3Q |result4=EL2Q |result9=ELGS |result16=REL |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ADN=6 |draw_ADN=7 |loss_ADN=21|gf_ADN=33|ga_ADN=62<!-- Adanaspor --> 
+|win_AKH=14|draw_AKH=6 |loss_AKH=14|gf_AKH=46|ga_AKH=42<!-- Akhisar Belediyespor -->
+|win_ALN=12|draw_ALN=4 |loss_ALN=18|gf_ALN=54|ga_ALN=65<!-- Alanyaspor -->
+|win_ANT=17|draw_ANT=7 |loss_ANT=10|gf_ANT=47|ga_ANT=40<!-- Antalyaspor --> 
+|win_BAŞ=21|draw_BAŞ=10|loss_BAŞ=3 |gf_BAŞ=63|ga_BAŞ=28<!-- Başakşehir -->
+|win_BEŞ=23|draw_BEŞ=8 |loss_BEŞ=3 |gf_BEŞ=73|ga_BEŞ=30<!-- Beşiktaş -->
+|win_BUR=11|draw_BUR=5 |loss_BUR=18|gf_BUR=34|ga_BUR=58<!-- Bursaspor -->
+|win_ÇAY=10|draw_ÇAY=6 |loss_ÇAY=18|gf_ÇAY=44|ga_ÇAY=53<!-- Çaykur Rizespor -->
+|win_FEN=18|draw_FEN=10|loss_FEN=6 |gf_FEN=60|ga_FEN=32<!-- Fenerbahçe -->
+|win_GAL=20|draw_GAL=4 |loss_GAL=10|gf_GAL=65|ga_GAL=40<!-- Galatasaray -->
+|win_GAZ=7 |draw_GAZ=5 |loss_GAZ=22|gf_GAZ=30|ga_GAZ=65<!-- Gaziantepspor -->
+|win_GEN=12|draw_GEN=10|loss_GEN=12|gf_GEN=33|ga_GEN=34<!-- Gençlerbirliği -->
+|win_KAR=12|draw_KAR=7 |loss_KAR=15|gf_KAR=38|ga_KAR=48<!-- Kardemir Karabükspor -->
+|win_KSM=12|draw_KSM=7 |loss_KSM=15|gf_KSM=46|ga_KSM=50<!-- Kasımpaşa -->
+|win_KAY=10|draw_KAY=8 |loss_KAY=16|gf_KAY=47|ga_KAY=58<!-- Kayserispor -->
+|win_KON=11|draw_KON=10|loss_KON=13|gf_KON=40|ga_KON=45<!-- Konyaspor -->
+|win_OSM=9 |draw_OSM=11|loss_OSM=14|gf_OSM=37|ga_OSM=45<!-- Osmanlıspor -->
+|win_TRA=14|draw_TRA=9 |loss_TRA=11|gf_TRA=39|ga_TRA=34<!-- Trabzonspor -->
+
+|hth_FEN=Fenerbahçe ahead of Galatasaray on head-to-head points: Fenerbahçe 6 pts, Galatasaray 0 pts.
+|hth_GAL=FEN
+|hth_KON=Konyaspor ahead of Kasımpaşa and Kardemir Karabükspor on head-to-head points: Konyaspor 8 pts, Kasımpaşa 3 pts, Kardemir Karabükspor 3 pts. Kasımpaşa ahead of Kardemir Karabükspor on head-to-head goal difference.
+|hth_KSM=KON
+|hth_KAR=KON
+|hth_OSM=Osmanlıspor were ahead of Bursaspor and Kayserispor on head-to-head points: Osmanlıspor 6 pts, Bursaspor 5 pts, Kayserispor 4 pts. 
+|hth_BUR=OSM
+|hth_KAY=OSM
+
+<!--Team definitions (wikilinks in table)-->
+|name_ADN=[[Adanaspor]]
+|name_AKH=[[Akhisar Belediyespor]]
+|name_ALN=[[Alanyaspor]]
+|name_ANT=[[Antalyaspor]]
+|name_BEŞ=[[Beşiktaş J.K.|Beşiktaş]]
+|name_BUR=[[Bursaspor]]
+|name_ÇAY=[[Çaykur Rizespor]]
+|name_FEN=[[Fenerbahçe S.K. (football)|Fenerbahçe]]
+|name_GAL=[[Galatasaray S.K. (football)|Galatasaray]]
+|name_GAZ=[[Gaziantepspor]]
+|name_GEN=[[Gençlerbirliği S.K.|Gençlerbirliği]]
+|name_BAŞ=[[İstanbul Başakşehir F.K.|Başakşehir]]
+|name_KAR=[[Kardemir Karabükspor]]
+|name_KSM=[[Kasımpaşa Spor Kulübü|Kasımpaşa]]
+|name_KAY=[[Kayserispor]]
+|name_KON=[[Konyaspor]]
+|name_OSM=[[Osmanlıspor]]
+|name_TRA=[[Trabzonspor]]
+
+<!--Status-->
+|status_BEŞ=C
+|status_GAZ=R
+|status_ADN=R
+|status_ÇAY=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head goals scored; 5) Goal difference; 6) Goals scored; 7) Play-off.<ref>{{cite web |url=http://www.scoresway.com/?sport=soccer&page=season&id=12658&view=rules |title=Süper Lig 2016/2017 - Season rules |publisher=Scoresway |access-date=8 September 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2017–18 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2017–18 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2017–18 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2017–18 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2017–18 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2017–18 TFF First League|TFF First League]]
+
+|note_res_ELGS=[[Konyaspor]] qualified for the [[2017–18 UEFA Europa League#Group stage|Europa League group stage]] by winning the [[2016–17 Turkish Cup]].
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Turkey football league templates]]
+[[Category:Turkey football standings templates]]
+</noinclude>

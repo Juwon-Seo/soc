@@ -1,0 +1,14 @@
+{"preset":"lucasmoura","name":"루카스 모우라","prefix":"LUC",
+ "clubs":[
+  {"key":"spluc","name":"상파울루 FC","short":"상파울루","years":"2010~2012","until":"2013-01-01"},
+  {"key":"psgluc","name":"파리 생제르맹","short":"PSG","years":"2013~2018","until":"2018-01-31"},
+  {"key":"totluc","name":"토트넘 홋스퍼","short":"토트넘","years":"2018~2023","until":"2023-08-02"},
+  {"key":"spluc","name":"상파울루 FC","short":"상파울루","years":"2023~","until":null}],
+ "season":{"calendar":["spluc"],"jul10":[]},
+ "pos":"RW","flag":"BR","retired":false,
+ "hon":{"t":{"LG":["17/18 PSG","15/16 PSG","14/15 PSG","13/14 PSG","12/13 PSG"],
+             "DC":["2023 상파울루","16/17 PSG","15/16 PSG","14/15 PSG"],
+             "LC":["17/18 PSG","16/17 PSG","15/16 PSG","14/15 PSG","13/14 PSG"],
+             "SC":["2024 상파울루","17/18 PSG","16/17 PSG","15/16 PSG","14/15 PSG","13/14 PSG"]},
+        "o":[["코파 수다메리카나","11/12 상파울루"]],
+        "a":{}}}

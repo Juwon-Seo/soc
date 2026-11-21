@@ -1,0 +1,3467 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Wycombe Wanderers",
+   "elo": 1485,
+   "comp": "dc",
+   "min": 88,
+   "gf": 5,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2021-22 6위/24팀 (EFL League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Brugge KV",
+   "elo": 1854,
+   "comp": "clg",
+   "min": 67,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 1부 2021-22 1위/18팀 (Belgian First Division A, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Swindon Town",
+   "elo": 1385,
+   "comp": "dc",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 2021-22 6위/24팀 (EFL League Two, 리그 수준 추정)",
+   "note": "Bernardo Silva"
+  },
+  {
+   "type": "g",
+   "opp": "Swindon Town",
+   "elo": 1385,
+   "comp": "dc",
+   "min": 82,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 2021-22 6위/24팀 (EFL League Two, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1714,
+   "comp": "dk",
+   "min": 68,
+   "gf": 4,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2022-23 1위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 12위",
+   "note": "Julián Álvarez"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 2021,
+   "comp": "df",
+   "min": 77,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1702,
+   "comp": "df",
+   "min": 63,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1833,
+   "comp": "dc",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 11위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-10-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 74,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 2021,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1512,
+   "comp": "dc",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 2023-24 19위/24팀",
+   "note": "Raheem Sterling"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1923,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1923,
+   "comp": "lg",
+   "min": 97,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-06",
+   "et": 0,
+   "dm": "90+7",
+   "lv": "프리미어리그 2023-24 5위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 2106,
+   "comp": "lg",
+   "min": 95,
+   "gf": 3,
+   "ga": 4,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-11-12",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "프리미어리그 2023-24 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield United",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield United",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 20위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Luton Town",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 70,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Preston North End",
+   "elo": 1564,
+   "comp": "dc",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 2023-24 10위/24팀",
+   "note": "Thiago Silva"
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-01-13",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "프리미어리그 2023-24 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Middlesbrough FC",
+   "elo": 1582,
+   "comp": "dsf",
+   "min": 42,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 2023-24 8위/24팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Middlesbrough FC",
+   "elo": 1582,
+   "comp": "dsf",
+   "min": 77,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 2023-24 8위/24팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-12",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "프리미어리그 2023-24 10위",
+   "note": "Conor Gallagher"
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 94,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-12",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "프리미어리그 2023-24 10위",
+   "note": "Enzo Fernández"
+  },
+  {
+   "type": "a",
+   "opp": "Brentford FC",
+   "elo": 1784,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 16위",
+   "note": "Axel Disasi"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1897,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 7위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1897,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1709,
+   "comp": "dk",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-03-17",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "챔피언십(2부) 2023-24 1위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Leicester City",
+   "elo": 1709,
+   "comp": "dk",
+   "min": 92,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-03-17",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "챔피언십(2부) 2023-24 1위/24팀",
+   "note": "Carney Chukwuemeka"
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 78,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 100,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-04-04",
+   "et": 0,
+   "dm": "90+10",
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 101,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-04",
+   "et": 0,
+   "dm": "90+11",
+   "lv": "프리미어리그 2023-24 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield United",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 20위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1800,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1800,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1800,
+   "comp": "lg",
+   "min": 29,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1800,
+   "comp": "lg",
+   "min": 64,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1861,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Nottingham Forest",
+   "elo": 1765,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 17위",
+   "note": "Mykhaylo Mudryk"
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1833,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 12위",
+   "note": "Raheem Sterling"
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 58,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 63,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 12위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1813,
+   "comp": "lg",
+   "min": 47,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 31,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 41,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Nottingham Forest",
+   "elo": 1901,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 7위",
+   "note": "Noni Madueke"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1927,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1915,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 6위",
+   "note": "Enzo Fernández"
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1915,
+   "comp": "lg",
+   "min": 83,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1730,
+   "comp": "lg",
+   "min": 76,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 84,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1865,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": "Enzo Fernández"
+  },
+  {
+   "type": "a",
+   "opp": "Ipswich Town",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 19위",
+   "note": "Jadon Sancho"
+  },
+  {
+   "type": "a",
+   "opp": "Djurgårdens IF",
+   "elo": 1469,
+   "comp": "ecsf",
+   "min": 59,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "스웨덴 1부 2025 5위/16팀 (Allsvenskan)",
+   "note": "Nicolas Jackson",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Liverpool FC",
+   "elo": 2110,
+   "comp": "lg",
+   "min": 96,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-05-04",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "프리미어리그 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1803,
+   "comp": "ecf",
+   "min": 65,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2024-25 6위",
+   "note": "Enzo Fernández"
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1803,
+   "comp": "ecf",
+   "min": 70,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-05-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2024-25 6위",
+   "note": "Nicolas Jackson"
+  },
+  {
+   "type": "a",
+   "opp": "SL Benfica",
+   "elo": 1846,
+   "comp": "cwc",
+   "min": 117,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-06-28",
+   "et": 1,
+   "dm": 0,
+   "lv": "포르투갈 1부 2024-25 2위",
+   "note": "Kiernan Dewsbury-Hall"
+  },
+  {
+   "type": "g",
+   "opp": "Sociedade Esportiva Palmeiras",
+   "elo": 1767,
+   "comp": "cwc",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-07-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "브라질 세리에 A 2025 2위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1915,
+   "comp": "cwc",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-07-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1915,
+   "comp": "cwc",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-07-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Paris Saint-Germain",
+   "elo": 1915,
+   "comp": "cwc",
+   "min": 43,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-07-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 1위",
+   "note": "João Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 1996,
+   "comp": "clg",
+   "min": 29,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1911,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SSC Napoli",
+   "elo": 1909,
+   "comp": "clg",
+   "min": 61,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 2위",
+   "note": "João Pedro"
+  },
+  {
+   "type": "a",
+   "opp": "SSC Napoli",
+   "elo": 1909,
+   "comp": "clg",
+   "min": 82,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 2위",
+   "note": "João Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 38,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Leeds United",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 14위",
+   "note": "João Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1940,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sunderland AFC",
+   "elo": 1897,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1846,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 15위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": "João Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1846,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 15위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 2067,
+   "comp": "lg",
+   "min": 74,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 2위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1907,
+   "comp": "dc",
+   "min": 53,
+   "gf": 0,
+   "ga": 2,
+   "ko": 1,
+   "pk": 1,
+   "date": "2026-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 9위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1907,
+   "comp": "dc",
+   "min": 55,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 9위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hull City",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 13위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": "João Pedro"
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1943,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 7위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": "Jordan Henderson"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1799,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2026-27 18위/20팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2020-09-30",
+   "Burnley FC",
+   "dc",
+   90
+  ],
+  [
+   "2020-10-27",
+   "Olympique Marseille",
+   "clg",
+   8
+  ],
+  [
+   "2021-08-07",
+   "Leicester City",
+   "df",
+   74
+  ],
+  [
+   "2021-08-21",
+   "Norwich City",
+   "lg",
+   21
+  ],
+  [
+   "2021-09-21",
+   "Wycombe Wanderers",
+   "dc",
+   18
+  ],
+  [
+   "2021-10-16",
+   "Burnley FC",
+   "lg",
+   1
+  ],
+  [
+   "2021-10-19",
+   "Club Brugge KV",
+   "clg",
+   25
+  ],
+  [
+   "2021-10-27",
+   "West Ham United",
+   "dc",
+   76
+  ],
+  [
+   "2021-11-03",
+   "Club Brugge KV",
+   "clg",
+   10
+  ],
+  [
+   "2021-11-21",
+   "Everton FC",
+   "lg",
+   87
+  ],
+  [
+   "2021-12-07",
+   "RB Leipzig",
+   "clg",
+   3
+  ],
+  [
+   "2021-12-19",
+   "Newcastle United",
+   "lg",
+   13
+  ],
+  [
+   "2022-01-07",
+   "Swindon Town",
+   "dc",
+   86
+  ],
+  [
+   "2022-08-07",
+   "West Ham United",
+   "lg",
+   2
+  ],
+  [
+   "2022-08-27",
+   "Crystal Palace",
+   "lg",
+   1
+  ],
+  [
+   "2022-08-31",
+   "Nottingham Forest",
+   "lg",
+   35
+  ],
+  [
+   "2022-09-06",
+   "Sevilla FC",
+   "clg",
+   20
+  ],
+  [
+   "2022-09-17",
+   "Wolverhampton Wanderers",
+   "lg",
+   13
+  ],
+  [
+   "2022-10-02",
+   "Manchester United",
+   "lg",
+   15
+  ],
+  [
+   "2022-10-05",
+   "FC Copenhagen",
+   "clg",
+   45
+  ],
+  [
+   "2022-10-08",
+   "Southampton FC",
+   "lg",
+   20
+  ],
+  [
+   "2022-10-22",
+   "Brighton & Hove Albion",
+   "lg",
+   13
+  ],
+  [
+   "2022-10-25",
+   "Borussia Dortmund",
+   "clg",
+   2
+  ],
+  [
+   "2022-11-02",
+   "Sevilla FC",
+   "clg",
+   70
+  ],
+  [
+   "2022-11-09",
+   "Chelsea FC",
+   "dc",
+   90
+  ],
+  [
+   "2022-12-22",
+   "Liverpool FC",
+   "dc",
+   73
+  ],
+  [
+   "2022-12-28",
+   "Leeds United",
+   "lg",
+   2
+  ],
+  [
+   "2023-01-08",
+   "Chelsea FC",
+   "dc",
+   90
+  ],
+  [
+   "2023-01-11",
+   "Southampton FC",
+   "dk",
+   45
+  ],
+  [
+   "2023-01-22",
+   "Wolverhampton Wanderers",
+   "lg",
+   9
+  ],
+  [
+   "2023-02-28",
+   "Bristol City",
+   "dc",
+   7
+  ],
+  [
+   "2023-03-18",
+   "Burnley FC",
+   "dk",
+   27
+  ],
+  [
+   "2023-04-01",
+   "Liverpool FC",
+   "lg",
+   1
+  ],
+  [
+   "2023-04-15",
+   "Leicester City",
+   "lg",
+   28
+  ],
+  [
+   "2023-04-22",
+   "Sheffield United",
+   "dsf",
+   23
+  ],
+  [
+   "2023-05-21",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-24",
+   "Brighton & Hove Albion",
+   "lg",
+   39
+  ],
+  [
+   "2023-05-28",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-06",
+   "Arsenal FC",
+   "df",
+   26
+  ],
+  [
+   "2023-08-11",
+   "Burnley FC",
+   "lg",
+   10
+  ],
+  [
+   "2023-08-16",
+   "Sevilla FC",
+   "df",
+   85
+  ],
+  [
+   "2023-09-02",
+   "Nottingham Forest",
+   "lg",
+   28
+  ],
+  [
+   "2023-09-17",
+   "AFC Bournemouth",
+   "lg",
+   27
+  ],
+  [
+   "2023-09-24",
+   "Aston Villa",
+   "lg",
+   22
+  ],
+  [
+   "2023-09-27",
+   "Brighton & Hove Albion",
+   "dc",
+   75
+  ],
+  [
+   "2023-10-02",
+   "Fulham FC",
+   "lg",
+   78
+  ],
+  [
+   "2023-10-07",
+   "Burnley FC",
+   "lg",
+   86
+  ],
+  [
+   "2023-10-21",
+   "Arsenal FC",
+   "lg",
+   84
+  ],
+  [
+   "2023-10-28",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-01",
+   "Blackburn Rovers",
+   "dc",
+   87
+  ],
+  [
+   "2023-11-06",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-12",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-25",
+   "Newcastle United",
+   "lg",
+   75
+  ],
+  [
+   "2023-12-03",
+   "Brighton & Hove Albion",
+   "lg",
+   24
+  ],
+  [
+   "2023-12-06",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-10",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-16",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-19",
+   "Newcastle United",
+   "dk",
+   90
+  ],
+  [
+   "2023-12-24",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-30",
+   "Luton Town",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-06",
+   "Preston North End",
+   "dc",
+   76
+  ],
+  [
+   "2024-01-09",
+   "Middlesbrough FC",
+   "dsf",
+   90
+  ],
+  [
+   "2024-01-13",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-23",
+   "Middlesbrough FC",
+   "dsf",
+   90
+  ],
+  [
+   "2024-01-26",
+   "Aston Villa",
+   "dc",
+   90
+  ],
+  [
+   "2024-01-31",
+   "Liverpool FC",
+   "lg",
+   85
+  ],
+  [
+   "2024-02-04",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-07",
+   "Aston Villa",
+   "dc",
+   81
+  ],
+  [
+   "2024-02-12",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-17",
+   "Manchester City",
+   "lg",
+   71
+  ],
+  [
+   "2024-02-25",
+   "Liverpool FC",
+   "df",
+   120
+  ],
+  [
+   "2024-02-28",
+   "Leeds United",
+   "dc",
+   16
+  ],
+  [
+   "2024-03-02",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-11",
+   "Newcastle United",
+   "lg",
+   86
+  ],
+  [
+   "2024-03-17",
+   "Leicester City",
+   "dk",
+   90
+  ],
+  [
+   "2024-03-30",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-04",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-07",
+   "Sheffield United",
+   "lg",
+   74
+  ],
+  [
+   "2024-04-15",
+   "Everton FC",
+   "lg",
+   80
+  ],
+  [
+   "2024-04-20",
+   "Manchester City",
+   "dsf",
+   90
+  ],
+  [
+   "2024-04-27",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-02",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-05",
+   "West Ham United",
+   "lg",
+   89
+  ],
+  [
+   "2024-05-11",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-15",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-19",
+   "AFC Bournemouth",
+   "lg",
+   89
+  ],
+  [
+   "2024-08-18",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-22",
+   "Servette FC",
+   "ecq",
+   33
+  ],
+  [
+   "2024-08-25",
+   "Wolverhampton Wanderers",
+   "lg",
+   83
+  ],
+  [
+   "2024-08-29",
+   "Servette FC",
+   "ecq",
+   17
+  ],
+  [
+   "2024-09-01",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-14",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-21",
+   "West Ham United",
+   "lg",
+   64
+  ],
+  [
+   "2024-09-28",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-20",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-27",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-03",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-10",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-23",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-01",
+   "Aston Villa",
+   "lg",
+   86
+  ],
+  [
+   "2024-12-04",
+   "Southampton FC",
+   "lg",
+   79
+  ],
+  [
+   "2024-12-08",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-15",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-22",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-26",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-30",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-04",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-14",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-20",
+   "Wolverhampton Wanderers",
+   "lg",
+   84
+  ],
+  [
+   "2025-01-25",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-03",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-08",
+   "Brighton & Hove Albion",
+   "dc",
+   90
+  ],
+  [
+   "2025-02-14",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-22",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-25",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-06",
+   "FC Copenhagen",
+   "eck",
+   72
+  ],
+  [
+   "2025-03-09",
+   "Leicester City",
+   "lg",
+   73
+  ],
+  [
+   "2025-03-13",
+   "FC Copenhagen",
+   "eck",
+   45
+  ],
+  [
+   "2025-04-03",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-06",
+   "Brentford FC",
+   "lg",
+   31
+  ],
+  [
+   "2025-04-10",
+   "Legia Warszawa",
+   "eck",
+   45
+  ],
+  [
+   "2025-04-13",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-17",
+   "Legia Warszawa",
+   "eck",
+   57
+  ],
+  [
+   "2025-04-20",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-26",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-01",
+   "Djurgårdens IF",
+   "ecsf",
+   45
+  ],
+  [
+   "2025-05-04",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-11",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-16",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-25",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-28",
+   "Real Betis Balompié",
+   "ecf",
+   87
+  ],
+  [
+   "2025-06-16",
+   "Los Angeles FC",
+   "cwc",
+   84
+  ],
+  [
+   "2025-06-20",
+   "CR Flamengo",
+   "cwc",
+   82
+  ],
+  [
+   "2025-06-28",
+   "SL Benfica",
+   "cwc",
+   120
+  ],
+  [
+   "2025-07-04",
+   "Sociedade Esportiva Palmeiras",
+   "cwc",
+   90
+  ],
+  [
+   "2025-07-08",
+   "Fluminense Football Club",
+   "cwc",
+   90
+  ],
+  [
+   "2025-07-13",
+   "Paris Saint-Germain",
+   "cwc",
+   90
+  ],
+  [
+   "2025-08-17",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-13",
+   "Brentford FC",
+   "lg",
+   34
+  ],
+  [
+   "2025-09-17",
+   "FC Bayern Munich",
+   "clg",
+   90
+  ],
+  [
+   "2025-09-20",
+   "Manchester United",
+   "lg",
+   21
+  ],
+  [
+   "2025-12-03",
+   "Leeds United",
+   "lg",
+   29
+  ],
+  [
+   "2025-12-06",
+   "AFC Bournemouth",
+   "lg",
+   58
+  ],
+  [
+   "2025-12-13",
+   "Everton FC",
+   "lg",
+   58
+  ],
+  [
+   "2025-12-20",
+   "Newcastle United",
+   "lg",
+   79
+  ],
+  [
+   "2025-12-27",
+   "Aston Villa",
+   "lg",
+   72
+  ],
+  [
+   "2025-12-30",
+   "AFC Bournemouth",
+   "lg",
+   63
+  ],
+  [
+   "2026-01-04",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-07",
+   "Fulham FC",
+   "lg",
+   75
+  ],
+  [
+   "2026-01-17",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-28",
+   "SSC Napoli",
+   "clg",
+   45
+  ],
+  [
+   "2026-01-31",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-03",
+   "Arsenal FC",
+   "dsf",
+   30
+  ],
+  [
+   "2026-02-07",
+   "Wolverhampton Wanderers",
+   "lg",
+   61
+  ],
+  [
+   "2026-02-10",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-21",
+   "Burnley FC",
+   "lg",
+   75
+  ],
+  [
+   "2026-03-01",
+   "Arsenal FC",
+   "lg",
+   86
+  ],
+  [
+   "2026-03-04",
+   "Aston Villa",
+   "lg",
+   85
+  ],
+  [
+   "2026-03-11",
+   "Paris Saint-Germain",
+   "cl16",
+   83
+  ],
+  [
+   "2026-03-14",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2026-03-17",
+   "Paris Saint-Germain",
+   "cl16",
+   59
+  ],
+  [
+   "2026-03-21",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-04",
+   "Port Vale FC",
+   "dk",
+   62
+  ],
+  [
+   "2026-04-12",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-18",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-26",
+   "Leeds United",
+   "dsf",
+   19
+  ],
+  [
+   "2026-05-04",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2026-05-09",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-05-16",
+   "Manchester City",
+   "df",
+   90
+  ],
+  [
+   "2026-05-19",
+   "Tottenham Hotspur",
+   "lg",
+   89
+  ],
+  [
+   "2026-05-24",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "2026-08-24",
+   "Fulham FC",
+   "lg",
+   83
+  ],
+  [
+   "2026-08-27",
+   "Luton Town",
+   "dc",
+   90
+  ],
+  [
+   "2026-08-30",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-06",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-09",
+   "Leeds United",
+   "dc",
+   45
+  ],
+  [
+   "2026-09-12",
+   "Hull City",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-18",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-10",
+   "AFC Bournemouth",
+   "lg",
+   88
+  ],
+  [
+   "2026-10-17",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-24",
+   "Tottenham Hotspur",
+   "lg",
+   80
+  ],
+  [
+   "2026-10-31",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-08",
+   "Sunderland AFC",
+   "lg",
+   90
+  ]
+ ],
+ "note": "콜 파머(맨체스터 시티·첼시)의 클럽 공식 경기 184경기(2020.9.30 리그컵 번리전 ~ 2026.11.8 선덜랜드전)에서 나온 65골 36도움(PK 골 20개), 친선경기 제외\n클럽별 경기·골·도움: 맨체스터 시티 41·6·2, 첼시 143·59·34. 출전 분 합계 12,802분\n출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적(90분 추정 없음), 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트(골·도움이 있는 경기와 리그 밖 경기 전부, Transfermarkt 경기 자료(JSON)와 대조), FotMob·ESPN 경기 기록과 대조. 시즌·대회별 경기 수·골 수는 영어 위키백과와 모두 같음\n뺀 기록: 맨체스터 시티 U-21·U-23(프리미어리그 2와 EFL 트로피 3경기 1골 1도움 포함, 2군)·U-18·U-19(유소년), 잉글랜드 대표팀, 친선경기(FotMob 기준 맨체스터 시티 8경기·첼시 7경기)\n골: 65골 모두 Transfermarkt·FotMob·ESPN이 같은 경기·같은 순서로 적음. PK 골 20개, PK 실축 2개(2025.3.9 레스터전, 2026.5.4 노팅엄 포리스트전 — 골 아님). 파머 자책골 없음\n도움은 Transfermarkt와 FotMob 경기 이벤트가 같이 적은 것을 기준으로 하고, 한쪽에만 있는 것은 다른 출처 2곳이 확인한 것만 넣음\n도움 36개 = Transfermarkt 도움 37개 − 상대 자책골에 붙은 도움 1개. Transfermarkt가 본인 PK 골에 본인을 PK 유도자로 적은 2개(2024.4.15 에버턴전 64분, 2024.12.8 토트넘전 84분)는 도움이 아님(골로만 셈)\n상대 자책골에 붙은 도움으로 뺀 것: 2025.2.3 웨스트햄전 74분 완비사카 자책골(Transfermarkt 유형 '슈팅'; FotMob·ESPN은 도움자 없음, FotMob 경기 목록도 도움 0)\n다른 출처로 확인해 넣은 도움: 2022.1.7 FA컵 스윈던전 14분 베르나르두 실바 골(Transfermarkt·ESPN, FotMob은 도움자 없음; 잉글랜드 축구협회 경기 기사·아이리시 타임스 기사·PA 통신 기사가 파머의 돌파 뒤 크로스로 적음). 확인하지 못해 뺀 도움은 없음\n출전 분은 Transfermarkt 그대로. 연장 경기는 2024.2.25 리그컵 결승 리버풀전(0-1 연장 패, 120분)과 2025.6.28 클럽 월드컵 16강 벤피카전(4-1 연장 승, 117분 도움) 둘. 승부차기 경기(2021 리그컵 웨스트햄, 2023 커뮤니티 실드 아스널, 2023 UEFA 슈퍼컵 세비야, 2023 리그컵 뉴캐슬)의 승부차기 골은 스코어에 넣지 않음\n2023.8.6 커뮤니티 실드 아스널전(웸블리 중립 경기)은 Transfermarkt가 아스널을 홈, FotMob이 맨체스터 시티를 홈으로 적었지만 77분 파머 골 전 스코어는 0-0으로 같음(다른 선수 자료와 같은 값)\n날짜는 경기 현지 날짜(잉글랜드 경기는 런던, 유럽 원정은 개최지 시간). 클럽 월드컵 2025 8강 팔메이라스전은 필라델피아 저녁 경기라 2025.7.4(Transfermarkt 일정은 UTC 기준 7.5)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(데 브라위너·스털링·산초 등)의 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위(Transfermarkt 순위표, 진행 중인 2026-27 시즌은 2026년 11월 중순 순위) 순으로 씀. 리그 원·리그 투 상대는 순위에 하부 리그 수준을 붙인 추정\n대회 비중: FA컵·리그컵은 국내컵(16강까지 낮은 비중, 8강부터 높은 비중), 커뮤니티 실드·UEFA 슈퍼컵은 국내컵 결승 비중. 챔스 리그 단계(2025-26)는 조별 비중. 컨퍼런스리그 2024-25(플레이오프 라운드 세르베트전 포함, 우승). 클럽 월드컵 2025는 조별 리그식, 16강부터 단판(우승). 2024.2.7 FA컵 4라운드 재경기 애스턴 빌라전은 단판\n두 경기 합산 기록 3개(2경기): 2024 리그컵 준결승 2차전 미들즈브러전(원정 다득점·연장 없이 승부차기), 2025 컨퍼런스리그 준결승 1차전 유르고르덴전(2021-22부터 원정 다득점 없음)\n시즌 구분: 8월 1일 기준(클럽 월드컵 2025는 2024-25). 클럽 구분 2023.9.1 첼시(Transfermarkt 이적일)\n우승·수상: 챔피언스리그 2022-23·UEFA 슈퍼컵 2023-24·프리미어리그 4회(2020-21~2023-24, 맨체스터 시티 소속 시즌; Transfermarkt 기준 — 영어 위키백과는 2022-23만 적음, 2020-21은 리그 출전 없음·2023-24는 1경기)·FA컵 2023·리그컵 2021(맨체스터 시티), 컨퍼런스리그 2024-25·클럽 월드컵 2025(첼시). 클럽 월드컵 2025 골든볼과 PFA·프리미어리그 영플레이어상은 칸이 없어 적지 않음\n2026.11.21 기준 현역(첼시). 마지막 반영 경기 2026.11.8 프리미어리그 선덜랜드전(0-1 패, 90분)",
+ "assist_judgments": [
+  [
+   "단일 출처 도움 넣음",
+   "2022-01-07",
+   "Swindon Town",
+   "14",
+   "Bernardo Silva",
+   "2022.1.7 FA컵 3라운드 스윈던전 14분 베르나르두 실바 골: Transfermarkt(유형 Pass)·ESPN('ast: Cole Palmer')이 파머 도움, FotMob은 도움자 없음. 잉글랜드 축구협회 경기 기사(thefa.com ‘fine work by Palmer down the right helped set up Silva for a simple finish’), 아이리시 타임스 기사(‘waltzing past Ellis Iandolo … sending in a delicious cross into the six-yard box, where Silva was on hand to tap in’), PA 통신 기사(FourFourTwo 게재, ‘Teenager Palmer played the ball into the box and Silva timed his run perfectly’) → 넣음"
+  ],
+  [
+   "도움 제외",
+   "2024-04-15",
+   "Everton FC",
+   "64",
+   "Cole Palmer",
+   "본인 PK 골의 본인 도움"
+  ],
+  [
+   "도움 제외",
+   "2024-12-08",
+   "Tottenham Hotspur",
+   "84",
+   "Cole Palmer",
+   "본인 PK 골의 본인 도움"
+  ],
+  [
+   "도움 제외",
+   "2025-02-03",
+   "West Ham United",
+   "74",
+   "Aaron Wan-Bissaka",
+   "상대 자책골 유도"
+  ]
+ ],
+ "cross_check": [
+  [
+   "파머 도움→동료 골",
+   "bsi.js",
+   "2022-01-07",
+   14,
+   "Bernardo Silva",
+   "일치",
+   [
+    1385,
+    "dc",
+    14,
+    0,
+    0,
+    1
+   ],
+   [
+    1385,
+    "dc",
+    14,
+    0,
+    0,
+    1
+   ]
+  ],
+  [
+   "파머 도움→동료 골",
+   "jal.js",
+   "2023-05-21",
+   12,
+   "Julián Álvarez",
+   "일치",
+   [
+    1834,
+    "lg",
+    12,
+    0,
+    0,
+    0
+   ],
+   [
+    1834,
+    "lg",
+    12,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "kdb.js",
+   "2023-08-06",
+   77,
+   "일치",
+   [
+    2021,
+    "df",
+    77,
+    0,
+    0,
+    1
+   ],
+   [
+    2021,
+    "df",
+    77,
+    0,
+    0,
+    1
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "sch.js",
+   "2024-09-28",
+   41,
+   "일치",
+   [
+    1883,
+    "lg",
+    41,
+    3,
+    2,
+    0
+   ],
+   [
+    1883,
+    "lg",
+    41,
+    3,
+    2,
+    0
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "sch.js",
+   "2025-01-04",
+   14,
+   "일치",
+   [
+    1828,
+    "lg",
+    14,
+    0,
+    0,
+    0
+   ],
+   [
+    1828,
+    "lg",
+    14,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   "파머 도움→동료 골",
+   "sch.js",
+   "2025-04-13",
+   79,
+   "Jadon Sancho",
+   "일치",
+   [
+    1750,
+    "lg",
+    79,
+    1,
+    2,
+    0
+   ],
+   [
+    1750,
+    "lg",
+    79,
+    1,
+    2,
+    0
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "ste.js",
+   "2021-10-19",
+   67,
+   "일치",
+   [
+    1854,
+    "clg",
+    67,
+    3,
+    0,
+    0
+   ],
+   [
+    1854,
+    "clg",
+    67,
+    3,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "ste.js",
+   "2023-12-16",
+   54,
+   "일치",
+   [
+    1725,
+    "lg",
+    54,
+    0,
+    0,
+    0
+   ],
+   [
+    1725,
+    "lg",
+    54,
+    0,
+    0,
+    0
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "ste.js",
+   "2024-03-17",
+   46,
+   "일치",
+   [
+    1709,
+    "dk",
+    46,
+    1,
+    0,
+    1
+   ],
+   [
+    1709,
+    "dk",
+    46,
+    1,
+    0,
+    1
+   ]
+  ],
+  [
+   "동료 도움→파머 골",
+   "ste.js",
+   "2024-03-30",
+   78,
+   "일치",
+   [
+    1745,
+    "lg",
+    78,
+    1,
+    1,
+    0
+   ],
+   [
+    1745,
+    "lg",
+    78,
+    1,
+    1,
+    0
+   ]
+  ],
+  [
+   "파머 도움→동료 골",
+   "ste.js",
+   "2023-11-01",
+   59,
+   "Raheem Sterling",
+   "일치",
+   [
+    1512,
+    "dc",
+    59,
+    1,
+    0,
+    1
+   ],
+   [
+    1512,
+    "dc",
+    59,
+    1,
+    0,
+    1
+   ]
+  ],
+  [
+   "파머 도움→동료 골",
+   "ste.js",
+   "2024-05-19",
+   48,
+   "Raheem Sterling",
+   "일치",
+   [
+    1823,
+    "lg",
+    48,
+    1,
+    0,
+    0
+   ],
+   [
+    1823,
+    "lg",
+    48,
+    1,
+    0,
+    0
+   ]
+  ]
+ ],
+ "elo_sources": {
+  "같은 경기 다른 선수 자료": 37,
+  "기존 팀×시즌 값": 60,
+  "순위표 → 라벨": 4
+ },
+ "elo_log": {
+  "Wycombe Wanderers|2021-09-21": [
+   "same",
+   1485,
+   "잉글랜드 3부 2021-22 6위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Club Brugge KV|2021-10-19": [
+   "same",
+   1854,
+   "벨기에 1부 2021-22 1위/18팀 (Belgian First Division A, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Swindon Town|2022-01-07": [
+   "same",
+   1385,
+   "잉글랜드 4부 2021-22 6위/24팀 (EFL League Two, 리그 수준 추정)"
+  ],
+  "Burnley FC|2023-03-18": [
+   "same",
+   1714,
+   "챔피언십 2022-23 1위/24팀"
+  ],
+  "Chelsea FC|2023-05-21": [
+   "same",
+   1834,
+   "프리미어리그 2022-23 12위"
+  ],
+  "Arsenal FC|2023-08-06": [
+   "same",
+   2021,
+   "프리미어리그 2023-24 2위"
+  ],
+  "Sevilla FC|2023-08-16": [
+   "table",
+   1702,
+   "라리가 2023-24 14위",
+   "2023-24"
+  ],
+  "Brighton & Hove Albion|2023-09-27": [
+   "table",
+   1833,
+   "프리미어리그 2023-24 11위",
+   "2023-24"
+  ],
+  "Burnley FC|2023-10-07": [
+   "same",
+   1745,
+   "프리미어리그 2023-24 19위"
+  ],
+  "Arsenal FC|2023-10-21": [
+   "table",
+   2021,
+   "프리미어리그 2023-24 2위",
+   "2023-24"
+  ],
+  "Blackburn Rovers|2023-11-01": [
+   "same",
+   1512,
+   "챔피언십(2부) 2023-24 19위/24팀"
+  ],
+  "Tottenham Hotspur|2023-11-06": [
+   "same",
+   1923,
+   "프리미어리그 2023-24 5위"
+  ],
+  "Manchester City|2023-11-12": [
+   "same",
+   2106,
+   "프리미어리그 2023-24 1위"
+  ],
+  "Manchester United|2023-12-06": [
+   "table",
+   1879,
+   "프리미어리그 2023-24 8위",
+   "2023-24"
+  ],
+  "Sheffield United|2023-12-16": [
+   "same",
+   1725,
+   "프리미어리그 2023-24 20위"
+  ],
+  "Luton Town|2023-12-30": [
+   "table",
+   1753,
+   "프리미어리그 2023-24 18위",
+   "2023-24"
+  ],
+  "Preston North End|2024-01-06": [
+   "same",
+   1564,
+   "챔피언십(2부) 2023-24 10위/24팀"
+  ],
+  "Fulham FC|2024-01-13": [
+   "table",
+   1814,
+   "프리미어리그 2023-24 13위",
+   "2023-24"
+  ],
+  "Middlesbrough FC|2024-01-23": [
+   "same",
+   1582,
+   "챔피언십(2부) 2023-24 8위/24팀"
+  ],
+  "Wolverhampton Wanderers|2024-02-04": [
+   "table",
+   1809,
+   "프리미어리그 2023-24 14위",
+   "2023-24"
+  ],
+  "Crystal Palace|2024-02-12": [
+   "table",
+   1844,
+   "프리미어리그 2023-24 10위",
+   "2023-24"
+  ],
+  "Brentford FC|2024-03-02": [
+   "table",
+   1784,
+   "프리미어리그 2023-24 16위",
+   "2023-24"
+  ],
+  "Newcastle United|2024-03-11": [
+   "table",
+   1897,
+   "프리미어리그 2023-24 7위",
+   "2023-24"
+  ],
+  "Leicester City|2024-03-17": [
+   "same",
+   1709,
+   "챔피언십(2부) 2023-24 1위/24팀"
+  ],
+  "Burnley FC|2024-03-30": [
+   "same",
+   1745,
+   "프리미어리그 2023-24 19위"
+  ],
+  "Manchester United|2024-04-04": [
+   "table",
+   1879,
+   "프리미어리그 2023-24 8위",
+   "2023-24"
+  ],
+  "Sheffield United|2024-04-07": [
+   "table",
+   1725,
+   "프리미어리그 2023-24 20위",
+   "2023-24"
+  ],
+  "Everton FC|2024-04-15": [
+   "table",
+   1800,
+   "프리미어리그 2023-24 15위",
+   "2023-24"
+  ],
+  "West Ham United|2024-05-05": [
+   "table",
+   1861,
+   "프리미어리그 2023-24 9위",
+   "2023-24"
+  ],
+  "Nottingham Forest|2024-05-11": [
+   "same",
+   1765,
+   "프리미어리그 2023-24 17위"
+  ],
+  "Brighton & Hove Albion|2024-05-15": [
+   "table",
+   1833,
+   "프리미어리그 2023-24 11위",
+   "2023-24"
+  ],
+  "AFC Bournemouth|2024-05-19": [
+   "same",
+   1823,
+   "프리미어리그 2023-24 12위"
+  ],
+  "Wolverhampton Wanderers|2024-08-25": [
+   "table",
+   1788,
+   "프리미어리그 2024-25 16위",
+   "2024-25"
+  ],
+  "Crystal Palace|2024-09-01": [
+   "table",
+   1828,
+   "프리미어리그 2024-25 12위",
+   "2024-25"
+  ],
+  "West Ham United|2024-09-21": [
+   "same",
+   1813,
+   "프리미어리그 2024-25 14위"
+  ],
+  "Brighton & Hove Albion|2024-09-28": [
+   "same",
+   1883,
+   "프리미어리그 2024-25 8위"
+  ],
+  "Nottingham Forest|2024-10-06": [
+   "table",
+   1901,
+   "프리미어리그 2024-25 7위",
+   "2024-25"
+  ],
+  "Newcastle United|2024-10-27": [
+   "table",
+   1927,
+   "프리미어리그 2024-25 5위",
+   "2024-25"
+  ],
+  "Aston Villa|2024-12-01": [
+   "table",
+   1915,
+   "프리미어리그 2024-25 6위",
+   "2024-25"
+  ],
+  "Southampton FC|2024-12-04": [
+   "same",
+   1730,
+   "프리미어리그 2024-25 20위"
+  ],
+  "Tottenham Hotspur|2024-12-08": [
+   "same",
+   1769,
+   "프리미어리그 2024-25 17위"
+  ],
+  "Fulham FC|2024-12-26": [
+   "table",
+   1837,
+   "프리미어리그 2024-25 11위",
+   "2024-25"
+  ],
+  "Crystal Palace|2025-01-04": [
+   "same",
+   1828,
+   "프리미어리그 2024-25 12위"
+  ],
+  "AFC Bournemouth|2025-01-14": [
+   "table",
+   1865,
+   "프리미어리그 2024-25 9위",
+   "2024-25"
+  ],
+  "Tottenham Hotspur|2025-04-03": [
+   "table",
+   1769,
+   "프리미어리그 2024-25 17위",
+   "2024-25"
+  ],
+  "Ipswich Town|2025-04-13": [
+   "same",
+   1750,
+   "프리미어리그 2024-25 19위"
+  ],
+  "Djurgårdens IF|2025-05-01": [
+   "same",
+   1469,
+   "스웨덴 1부 2025 5위/16팀 (Allsvenskan)"
+  ],
+  "Liverpool FC|2025-05-04": [
+   "table",
+   2110,
+   "프리미어리그 2024-25 1위",
+   "2024-25"
+  ],
+  "Real Betis Balompié|2025-05-28": [
+   "same",
+   1803,
+   "라리가 2024-25 6위"
+  ],
+  "SL Benfica|2025-06-28": [
+   "table",
+   1846,
+   "포르투갈 1부 2024-25 2위",
+   "2024-25"
+  ],
+  "Sociedade Esportiva Palmeiras|2025-07-04": [
+   "table",
+   1767,
+   "브라질 세리에 A 2025 2위/20팀",
+   "2025"
+  ],
+  "Paris Saint-Germain|2025-07-13": [
+   "table",
+   1915,
+   "리그1 2024-25 1위",
+   "2024-25"
+  ],
+  "Brentford FC|2025-09-13": [
+   "table",
+   1860,
+   "프리미어리그 2025-26 9위",
+   "2025-26"
+  ],
+  "FC Bayern Munich|2025-09-17": [
+   "table",
+   1996,
+   "분데스리가 2025-26 1위",
+   "2025-26"
+  ],
+  "Everton FC|2025-12-13": [
+   "table",
+   1814,
+   "프리미어리그 2025-26 13위",
+   "2025-26"
+  ],
+  "AFC Bournemouth|2025-12-30": [
+   "table",
+   1911,
+   "프리미어리그 2025-26 6위",
+   "2025-26"
+  ],
+  "Brentford FC|2026-01-17": [
+   "table",
+   1860,
+   "프리미어리그 2025-26 9위",
+   "2025-26"
+  ],
+  "SSC Napoli|2026-01-28": [
+   "table",
+   1909,
+   "세리에A 2025-26 2위",
+   "2025-26"
+  ],
+  "Wolverhampton Wanderers|2026-02-07": [
+   "table",
+   1725,
+   "프리미어리그 2025-26 20위",
+   "2025-26"
+  ],
+  "Leeds United|2026-02-10": [
+   "table",
+   1809,
+   "프리미어리그 2025-26 14위",
+   "2025-26"
+  ],
+  "Aston Villa|2026-03-04": [
+   "table",
+   1940,
+   "프리미어리그 2025-26 4위",
+   "2025-26"
+  ],
+  "Sunderland AFC|2026-05-24": [
+   "table",
+   1897,
+   "프리미어리그 2025-26 7위",
+   "2025-26"
+  ],
+  "Fulham FC|2026-08-24": [
+   "rank",
+   1846,
+   "프리미어리그 2026-27 15위/20팀 (2026년 11월 중순 현재 순위)"
+  ],
+  "Brighton & Hove Albion|2026-08-30": [
+   "table",
+   2067,
+   "프리미어리그 2026-27 2위/20팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Leeds United|2026-09-09": [
+   "rank",
+   1907,
+   "프리미어리그 2026-27 9위/20팀 (2026년 11월 중순 현재 순위)"
+  ],
+  "Hull City|2026-09-12": [
+   "table",
+   1860,
+   "프리미어리그 2026-27 13위/20팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "AFC Bournemouth|2026-10-10": [
+   "table",
+   1943,
+   "프리미어리그 2026-27 7위/20팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Manchester United|2026-10-31": [
+   "table",
+   1799,
+   "프리미어리그 2026-27 18위/20팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ]
+ },
+ "new_team_seasons": {
+  "Fulham FC|2026-27": [
+   1846,
+   "프리미어리그 2026-27 15위/20팀 (2026년 11월 중순 현재 순위)"
+  ],
+  "Leeds United|2026-27": [
+   1907,
+   "프리미어리그 2026-27 9위/20팀 (2026년 11월 중순 현재 순위)"
+  ]
+ },
+ "table_label_diff": []
+}

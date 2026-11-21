@@ -1,0 +1,11 @@
+{"preset":"lennon","name":"아론 레넌","prefix":"LEN",
+ "clubs":[
+  {"key":"leeln","name":"리즈 유나이티드","short":"리즈","years":"2003~2005","until":"2005-07-01"},
+  {"key":"totln","name":"토트넘 홋스퍼","short":"토트넘","years":"2005~2015","until":"2015-02-02"},
+  {"key":"eveln","name":"에버턴","short":"에버턴","years":"2015~2018","until":"2018-01-23"},
+  {"key":"burln","name":"번리","short":"번리","years":"2018~2020","until":"2020-09-03"},
+  {"key":"kayln","name":"카이세리스포르","short":"카이세리스포르","years":"2020~2021","until":"2021-08-25"},
+  {"key":"burln","name":"번리","short":"번리","years":"2021~2022","until":null}],
+ "season":{"calendar":[],"jul10":["burln"],"jul1":[]},
+ "pos":"RW","flag":"ENG","retired":true,
+ "hon":{"t":{"LC":["2008 토트넘"]},"o":[],"a":{}}}

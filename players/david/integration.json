@@ -1,0 +1,9 @@
+{"preset":"jdavid","name":"조너선 데이비드","prefix":"JDV",
+ "clubs":[
+  {"key":"genjd","name":"KAA 헨트","short":"헨트","years":"2018~2020","until":"2020-08-11"},
+  {"key":"liljd","name":"LOSC 릴","short":"릴","years":"2020~2025","until":"2025-07-04"},
+  {"key":"juvjd","name":"유벤투스","short":"유벤투스","years":"2025~2026","until":"2026-09-01"},
+  {"key":"atmjd","name":"아틀레티코 마드리드","short":"아틀레티코","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["genjd","liljd"],"jul1":[]},
+ "pos":"CF","flag":"CA","retired":false,
+ "hon":{"t":{"LG":["20/21 릴"],"SC":["21/22 릴"]},"o":[],"a":{"TOP":["19/20 벨기에 1부 18골"]}}}

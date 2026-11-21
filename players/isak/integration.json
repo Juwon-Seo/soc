@@ -1,0 +1,36 @@
+{
+ "preset": "isak",
+ "name": "알렉산데르 이사크",
+ "prefix": "ISA",
+ "clubs": [
+  {"key": "aikis", "name": "AIK", "short": "AIK", "years": "2016", "until": "2017-01-23"},
+  {"key": "bvbis", "name": "보루시아 도르트문트", "short": "도르트문트", "years": "2017~2018", "until": "2019-01-25"},
+  {"key": "wilis", "name": "빌럼 II", "short": "빌럼 II", "years": "2019", "until": "2019-07-01"},
+  {"key": "rsois", "name": "레알 소시에다드", "short": "소시에다드", "years": "2019~2022", "until": "2022-08-26"},
+  {"key": "newis", "name": "뉴캐슬 유나이티드", "short": "뉴캐슬", "years": "2022~2025", "until": "2025-09-01"},
+  {"key": "livis", "name": "리버풀", "short": "리버풀", "years": "2025~", "until": null}
+ ],
+ "season": {"calendar": ["aikis"], "jul10": [], "jul1": []},
+ "pos": "CF",
+ "flag": "SE",
+ "retired": false,
+ "colors": {
+  "aikis": ["#000000", "#FFFFFF", "#FFDD00"],
+  "bvbis": ["#FDE100", "#000000"],
+  "wilis": ["#E30613", "#FFFFFF", "#002F6C"],
+  "rsois": ["#0042FF", "#FFFFFF"],
+  "newis": ["#000000", "#FFFFFF"],
+  "livis": ["#C8102E", "#FFFFFF"]
+ },
+ "hon": {
+  "t": {
+   "DC": ["19/20 레알 소시에다드", "16/17 도르트문트"],
+   "LC": ["2025 뉴캐슬"]
+  },
+  "o": [],
+  "a": {
+   "TOP": ["19/20 코파 델 레이 7골"],
+   "XI": ["24/25 프리미어리그 · PFA(선수협회)"]
+  }
+ }
+}

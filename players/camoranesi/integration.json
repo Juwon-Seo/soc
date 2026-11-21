@@ -1,0 +1,23 @@
+{
+ "preset": "camoranesi",
+ "name": "마우로 카모라네시",
+ "prefix": "CAM",
+ "clubs": [
+  {"key": "aldcam", "name": "알도시비", "short": "알도시비", "years": "1995", "until": "1996-01-01"},
+  {"key": "czcam", "name": "크루스 아술", "short": "크루스 아술", "years": "1998~2000", "until": "2000-07-01"},
+  {"key": "vercam", "name": "헬라스 베로나", "short": "베로나", "years": "2000~2002", "until": "2002-07-11"},
+  {"key": "juvcam", "name": "유벤투스", "short": "유벤투스", "years": "2002~2010", "until": "2010-08-31"},
+  {"key": "vfbcam", "name": "슈투트가르트", "short": "슈투트가르트", "years": "2010~2011", "until": "2011-02-02"},
+  {"key": "lancam", "name": "라누스", "short": "라누스", "years": "2011~2012", "until": "2012-07-22"},
+  {"key": "raccam", "name": "라싱 클루브", "short": "라싱", "years": "2012~2014", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["juvcam"], "jul1": []},
+ "pos": "RW",
+ "flag": "IT",
+ "retired": true,
+ "hon": {
+  "t": {"LG": ["02/03 유벤투스"], "SC": ["03/04 유벤투스", "02/03 유벤투스"]},
+  "o": [["UCL 준우승", "02/03 유벤투스"], ["세리에B 우승", "06/07 유벤투스"]],
+  "a": {}
+ }
+}

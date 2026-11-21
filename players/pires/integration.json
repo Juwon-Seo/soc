@@ -1,0 +1,26 @@
+{
+ "preset": "pires",
+ "name": "로베르 피레스",
+ "prefix": "PIR",
+ "clubs": [
+  {"key": "metrp", "name": "메스", "short": "메스", "years": "1992~1998", "until": "1998-07-01"},
+  {"key": "omrp", "name": "마르세유", "short": "마르세유", "years": "1998~2000", "until": "2000-07-03"},
+  {"key": "arsrp", "name": "아스널", "short": "아스널", "years": "2000~2006", "until": "2006-07-01"},
+  {"key": "vilrp", "name": "비야레알", "short": "비야레알", "years": "2006~2010", "until": "2010-07-01"},
+  {"key": "avlrp", "name": "애스턴 빌라", "short": "애스턴 빌라", "years": "2010~2011", "until": "2014-09-20"},
+  {"key": "goarp", "name": "FC 고아", "short": "고아", "years": "2014", "until": null}
+ ],
+ "season": {"calendar": ["goarp"], "jul10": ["omrp", "vilrp"], "jul1": ["metrp"]},
+ "pos": "LW",
+ "flag": "FR",
+ "retired": true,
+ "hon": {
+  "t": {
+   "LG": ["03/04 아스널", "01/02 아스널"],
+   "DC": ["2005 아스널", "2003 아스널", "2002 아스널"],
+   "LC": ["95/96 메스"]
+  },
+  "o": [["UCL 준우승", "05/06 아스널"], ["UEL 준우승", "98/99 마르세유"]],
+  "a": {"FOY": ["2002 아스널"]}
+ }
+}

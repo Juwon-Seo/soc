@@ -1,0 +1,12 @@
+{"preset":"micoud","name":"요한 미쿠","prefix":"MIC",
+ "clubs":[
+  {"key":"canmc","name":"AS 칸","short":"칸","years":"1992~1996","until":"1996-07-01"},
+  {"key":"bdxmc","name":"보르도","short":"보르도","years":"1996~2000","until":"2000-07-01"},
+  {"key":"parmc","name":"파르마","short":"파르마","years":"2000~2002","until":"2002-08-30"},
+  {"key":"svwmc","name":"베르더 브레멘","short":"브레멘","years":"2002~2006","until":"2006-07-01"},
+  {"key":"bdxmc","name":"보르도","short":"보르도","years":"2006~2008","until":null}],
+ "season":{"calendar":[],"jul10":["bdxmc","svwmc"],"jul1":["canmc"]},
+ "pos":"AM","flag":"FR","retired":true,
+ "hon":{"t":{"LG":["03/04 브레멘","98/99 보르도"],"DC":["03/04 브레멘","01/02 파르마"],"LC":["06/07 보르도"]},
+        "o":[],
+        "a":{"XI":["98/99 리그1 · UNFP(선수협회)","97/98 리그1 · UNFP(선수협회)"],"AST":["05/06 브레멘"]}}}

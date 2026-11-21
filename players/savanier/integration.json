@@ -1,0 +1,9 @@
+{"preset":"savanier","name":"테지 사바니에","prefix":"SAV",
+ "clubs":[
+  {"key":"arlsv","name":"AC 아를아비뇽","short":"아를아비뇽","years":"2011~2015","until":"2015-08-06"},
+  {"key":"nimsv","name":"님 올랭피크","short":"님","years":"2015~2019","until":"2019-07-02"},
+  {"key":"mtpsv","name":"몽펠리에 HSC","short":"몽펠리에","years":"2019~2026","until":"2026-08-10"},
+  {"key":"metsv","name":"FC 메스","short":"메스","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["arlsv","nimsv","mtpsv","metsv"],"jul1":[]},
+ "pos":"AM","flag":"FR","retired":false,
+ "hon":{"t":{},"o":[],"a":{}}}

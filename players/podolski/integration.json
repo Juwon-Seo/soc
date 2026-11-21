@@ -1,0 +1,29 @@
+{
+ "preset": "podolski",
+ "name": "루카스 포돌스키",
+ "prefix": "POD",
+ "clubs": [
+  {"key": "kolpd", "name": "1. FC 쾰른", "short": "쾰른", "years": "2003~2006", "until": "2006-07-01"},
+  {"key": "baypd", "name": "바이에른 뮌헨", "short": "바이에른", "years": "2006~2009", "until": "2009-07-01"},
+  {"key": "kolpd", "name": "1. FC 쾰른", "short": "쾰른", "years": "2009~2012", "until": "2012-07-01"},
+  {"key": "arspd", "name": "아스널", "short": "아스널", "years": "2012~2015", "until": "2015-01-05"},
+  {"key": "intpd", "name": "인테르", "short": "인테르", "years": "2015", "until": "2015-07-01"},
+  {"key": "galpd", "name": "갈라타사라이", "short": "갈라타사라이", "years": "2015~2017", "until": "2017-07-01"},
+  {"key": "kobpd", "name": "비셀 고베", "short": "고베", "years": "2017~2020", "until": "2020-01-23"},
+  {"key": "antpd", "name": "안탈리아스포르", "short": "안탈리아스포르", "years": "2020~2021", "until": "2021-07-01"},
+  {"key": "gorpd", "name": "고르니크 자브제", "short": "고르니크", "years": "2021~2026", "until": null}
+ ],
+ "season": {"calendar": ["kobpd"], "jul10": ["kolpd", "baypd", "gorpd"]},
+ "pos": "LW",
+ "flag": "DE",
+ "retired": true,
+ "hon": {
+  "t": {
+   "LG": ["07/08 바이에른"],
+   "DC": ["25/26 고르니크 자브제", "2019 비셀 고베", "15/16 갈라타사라이", "2014 아스널", "07/08 바이에른"],
+   "SC": ["16/17 갈라타사라이", "15/16 갈라타사라이", "14/15 아스널"]
+  },
+  "o": [["독일 2부 우승", "04/05 쾰른"]],
+  "a": {"TOP": ["04/05 2.분데스리가 24골"]}
+ }
+}

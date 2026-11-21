@@ -1,0 +1,17 @@
+{"preset":"osimhen","name":"빅터 오시멘","prefix":"OSI",
+ "clubs":[
+  {"key":"wobos","name":"VfL 볼프스부르크","short":"볼프스부르크","years":"2017~2018","until":"2018-08-22"},
+  {"key":"chlos","name":"스포르팅 샤를루아","short":"샤를루아","years":"2018~2019","until":"2019-08-01"},
+  {"key":"lilos","name":"LOSC 릴","short":"릴","years":"2019~2020","until":"2020-09-01"},
+  {"key":"napos","name":"나폴리","short":"나폴리","years":"2020~2024","until":"2024-09-04"},
+  {"key":"galos","name":"갈라타사라이","short":"갈라타사라이","years":"2024~","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "pos":"CF","flag":"NG","retired":false,
+ "hon":{"t":{"LG":["25/26 갈라타사라이","24/25 갈라타사라이","22/23 나폴리"],
+             "DC":["24/25 갈라타사라이"]},
+        "o":[],
+        "a":{"AFR":["2023 나폴리"],
+             "FOY":["2025 갈라타사라이"],
+             "TOP":["24/25 쉬페르리그 26골","22/23 세리에A 26골"],
+             "POY":["22/23 세리에A · AIC(선수협회)"],
+             "XI":["22/23 세리에A · AIC(선수협회)"]}}}
