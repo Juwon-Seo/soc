@@ -43,45 +43,57 @@ ESPN = collections.defaultdict(list)
 for r in rd("espn_ziy_check.csv"): ESPN[r["gameId"]].append(r)
 
 # ---------------------------------------------------------------- 날짜
-# 이탈리아·프랑스·튀르키예와 유럽 원정 경기뿐: TM 일정 날짜 = 경기 시각(UTC)을 경기장 시간대로 바꾼 날짜(빌드에서 모두 확인).
+# TM 일정 날짜 = 경기 시각(UTC)을 경기장 시간대로 바꾼 날짜인지 모두 확인. 다른 것은 보타포구 저녁 경기 3개뿐(TM 일정 날짜가 UTC 날짜):
+# 브라질 현지 날짜(UTC −3)로 씀(raw/tm_date_disagreements.csv, FotMob 변환 날짜와 같음).
 DATE_LOG = []
 def _conv(utc, tz):
     return datetime.datetime.fromisoformat(utc.replace("Z", "+00:00")).astimezone(ZoneInfo(tz)).date().isoformat()
 LD = {}
+UTC_SCHED = {"4810768", "4810736", "4810680"}
 for gid, g in G.items():
-    if _conv(g["date_utc"], g["tz_used"]) != g["date_local_schedule"]: sys.exit("날짜 불일치 " + gid)
-    LD[gid] = g["date_local_schedule"]
+    c = _conv(g["date_utc"], g["tz_used"])
+    if c != g["date_local_schedule"]:
+        if gid not in UTC_SCHED: sys.exit("날짜 불일치 " + gid)
+        DATE_LOG.append((gid, g["date_local_schedule"], c, "보타포구 저녁 경기(UTC 날짜 → 브라질 현지 날짜)"))
+    LD[gid] = c
 def ldate(g): return LD[g["gameId"]]
 def opp(g): return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
+CAF_TIE = (1, 0)   # 원정 다득점 있음, 연장 없이 승부차기(judgments.md 근거)
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"IT1", "IT2", "FR1", "TR1"}
+LEAGUE = {"NL1", "GB1", "TR1", "QSL", "MAR1", "BRA1", "PONL"}   # PONL = 에레디비시 유럽 대항전 플레이오프(리그 비중, 훈텔라르·수아레스·스네이더르 선례)
+CUP = {"NLP", "FAC", "CGB", "QEC1", "QUC1"}   # KNVB컵·FA컵·리그컵·에미르컵·카타르컵(카소를라 선례)
 
 def comp_of(cid, rnd):
     r = rnd.lower()
     if cid in LEAGUE: return "lg"
-    if cid in ("CIT", "FRC", "FRL", "TRP"):   # 코파 이탈리아·쿠프 드 프랑스·쿠프 드 라 리그·튀르키예컵 = 국내컵
+    if cid in CUP:
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter"): return "dk"
+        if r.startswith("quarter") or r.startswith("sixth round"): return "dk"   # FA컵 8강(6라운드)
         return "dc"
-    if cid == "FRCH": return "df"   # 트로페 데 샹피옹 = 국내컵 결승 비중(docs 3절)
-    if cid == "TRS": return "dsf" if r.startswith("semi") else "df"   # 튀르키예 슈퍼컵(2025-26 4팀: 준결승 dsf, 결승 df — 사네 san.js와 같음)
+    if cid in ("NLSC", "USC", "TRS"): return "df"   # 요한 크라위프 실드·UEFA 슈퍼컵·튀르키예 슈퍼컵(단판) = 국내컵 결승 비중
+    if cid == "KLUB": return "cwc"
+    if cid == "CAFC":   # CAF 컨페더레이션컵 = 대륙 2부 대회 비중(벤 예데르 선례: 조별 csa, 8강 csak)
+        if r.startswith("group"): return "csa"
+        if r.startswith("quarter"): return "csak"
+        sys.exit("CAFC 라운드 " + rnd)
     if cid == "CL":
-        if r.startswith("group"): return "clg"   # 2025-26 리그 페이즈('Group Stage') 포함
-        if r.startswith("intermediate") or r.startswith("last 16"): return "cl16"   # 녹아웃 플레이오프 = 16강(사네 선례)
+        if r.startswith("group"): return "clg"
+        if r.startswith("last 16"): return "cl16"
         if r.startswith("quarter"): return "clk"
         if r.startswith("semi"): return "clsf"
         if r.startswith("final"): return "clf"
+        sys.exit("CL 라운드 " + rnd)
     if cid == "CLQ": return "clq"
     if cid == "ELQ": return "elq"
     if cid == "EL":
-        if r.startswith("group"): return "elg"   # 2024-25 리그 페이즈 포함
+        if r.startswith("group"): return "elg"   # 2024-25 리그 페이즈('Group Stage') 포함
         if r.startswith("semi"): return "elsf"
         if r.startswith("final"): return "elf"
-        return "elk"   # 32강(intermediate stage)·16강
+        return "elk"   # 32강(intermediate stage)·16강·8강
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
 def rnd_of(g):
@@ -98,7 +110,9 @@ def ko_of(cid, rnd):
 def tie_rule(cid, d, rnd):
     """(원정 다득점, 연장)"""
     if cid in ("CL", "CLQ", "EL", "ELQ"): return (int(d < "2021-07-01"), 1)   # UEFA 대회: 2021-22부터 원정 다득점 없음
-    if cid == "CIT": return (1, 1)   # 코파 이탈리아 준결승(2021-22까지 원정 다득점, 2차전 연장)
+    if cid == "PONL": return (1, 1)   # 에레디비시 플레이오프(훈텔라르·수아레스 선례)
+    if cid == "CGB": return (0, 0)    # 리그컵 준결승 2018-19부터 원정 다득점·연장 없이 승부차기
+    if cid == "CAFC": return CAF_TIE  # CAF 클럽 대회 2025-26(judgments.md)
     sys.exit("합산 규칙 없음 " + cid)
 
 def side_of(gid):
