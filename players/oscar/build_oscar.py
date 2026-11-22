@@ -373,6 +373,7 @@ with contextlib.redirect_stdout(io.StringIO()):
 sys.argv = _argv
 def lv_value(lv, d):
     m_ = re.match(r"^(\S+) (\d)부 (\d{4})(?:-(\d{2}))? 순위 없음", lv)
+    if m_ and lv.split(" 순위 없음")[0] in NORANK_VAL: return NORANK_VAL[lv.split(" 순위 없음")[0]]
     if m_:
         cal = m_.group(4) is None; y = int(m_.group(3)) + (0 if cal else 1)
         return int(round(_LRA["base"](_LRA["KO"][m_.group(1)], int(m_.group(2)), y, cal)))
@@ -417,6 +418,7 @@ ALL_LG = sorted({k[0] for k in RANKS})
 def lg_cands(cid, d, o, g):
     return [(lg, s) for s in seasons_for(cid, d, o, g) for lg in ALL_LG]
 
+NORANK_VAL = {}
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계산)
 def man(o, s, lv): MAN[(key(o), s)] = lv
 FORCE = {}   # gameId -> lv (이름이 겹쳐 통합표 값을 잘못 집는 경기: 라벨을 직접 지정, 값은 라벨에서 계산)

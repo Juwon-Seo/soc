@@ -1,0 +1,13 @@
+{"preset":"mitoma","name":"미토마 가오루","prefix":"MIT",
+ "clubs":[
+  {"key":"kawmi","name":"가와사키 프론탈레","short":"가와사키","years":"2019~2021","until":"2021-08-11"},
+  {"key":"usgmi","name":"로열 위니옹 생질루아즈","short":"위니옹","years":"2021~2022","until":"2022-06-30"},
+  {"key":"brhmi","name":"브라이턴 앤드 호브 앨비언","short":"브라이턴","years":"2022~","until":null}],
+ "season":{"calendar":["kawmi"],"jul10":[],"jul1":[]},
+ "pos":"LW","flag":"JP","retired":false,
+ "colors":{
+  "kawmi":["#23B1EA","#000000","#FFFFFF"],
+  "usgmi":["#FFD200","#0047AB"],
+  "brhmi":["#0057B8","#FFFFFF"]},
+ "hon":{"t":{"LG":["2020 가와사키"],"DC":["2020 가와사키"],"SC":["2021 가와사키"]},
+   "o":[],"a":{"FOY":["2022 브라이턴","2020 가와사키"],"XI":["2020 J리그 · 사무국"]}}}
