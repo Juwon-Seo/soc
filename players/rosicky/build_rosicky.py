@@ -28,7 +28,8 @@ def rd(n):
     with open(os.path.join(RAW, n), encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
-# 스트라스부르 2군(CFA, 2004-05)은 Transfermarkt 경기 기록 없음(제외 대상, raw/career.txt). 나머지 715경기는 모두 프로 1·2부 클럽 공식 경기.
+# 아스널 U23(2015-16, 4경기)은 raw/youth_reserve_games.csv에 따로 있어 tm_games.csv에 없음. 스파르타 B(1998-99)는 경기 기록 없음.
+# tm_games.csv 511경기는 모두 1부 프로 리그 클럽(스파르타 프라하·도르트문트·아스널) 공식 경기.
 EXCL_CLUB = {}
 GAMES_ALL = rd("tm_games.csv")
 EXCLUDED = [g for g in GAMES_ALL if g["club_id"] in EXCL_CLUB]
@@ -44,7 +45,7 @@ FMPM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
 
 # ---------------------------------------------------------------- 날짜
 # 기본: TM API 경기 시각(UTC)을 경기장 시간대로 바꾼 현지 날짜(raw/tm_games.csv date_local_tz_conv; TM 일정 날짜와 모두 같음).
-# 715경기 모두 TM 일정 날짜와 같음(현지 시간대 변환 뒤 UTC와 다른 경기 1개, raw/README.md). 고친 날짜 없음.
+# 990079 라치오-스파르타(CL 2000-09-20)는 API가 2000-09-19T22:00Z(= 현지 자정, 날짜만 있음)로 저장 → 현지 변환 2000-09-20(TM 리포트·일정과 같음).
 DATE_FIX = {}
 DATE_LOG = []
 LD = {}
@@ -58,40 +59,37 @@ def opp(g): return OPP_NAME.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"FR1", "FR2", "ES1"}
-CUPS = {"CDR", "FRC", "FRL"}
+LEAGUE = {"TS1", "L1", "GB1"}
+CUPS = {"TSP", "DFB", "FAC", "CGB"}
 
 def comp_of(cid, rnd):
     r = rnd.lower()
     if cid in LEAGUE: return "lg"
-    if cid in CUPS:   # 코파 델 레이·쿠프 드 프랑스·쿠프 드 라 리그: 16강까지 국내컵, 8강 이후 단계별(docs 3절; 쿠프 드 프랑스 'Sixth/Seventh Round'는 32강 전후 = 국내컵)
+    if cid in CUPS:   # 체코컵·DFB 포칼·FA컵·리그컵: 16강까지 국내컵, 8강 이후 단계별(docs 3절; FA컵 6라운드 = 8강, 재경기 'deciders'는 그 라운드)
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter"): return "dk"
+        if r.startswith("quarter") or r.startswith("sixth"): return "dk"
         return "dc"
-    if cid == "SUC":   # 수페르코파 2019-20(4팀, 사우디 단판 준결승) 준결승 = 국내컵 준결승 비중(docs 3절 '4팀 슈퍼컵 준결승은 dsf', 이스코·그리즈만 같은 대회 선례)
+    if cid == "LPO":   # DFB-리가포칼: 첫 경기 dk, 준결승 dsf, 결승 df(클로제·외질·엘베르·알틴톱·아일톤·발라크 선례)
         if r.startswith("semi"): return "dsf"
-        return "df"
-    if cid == "USC": return "df"   # UEFA 슈퍼컵 2015 = 국내컵 결승 비중
-    if cid == "ELQ": return "elq"
-    if cid == "UEFA":   # UEFA컵 2005-06: 조별 = 유로파 조별, 32강(intermediate stage) = 유로파 토너먼트
+        if r.startswith("final"): return "df"
+        return "dk"
+    if cid == "GBCS": return "df"   # 커뮤니티 실드 = 국내컵 결승 비중(발라크 등 선례)
+    if cid == "CLQ": return "clq"
+    if cid in ("ELQ", "UI"): return "elq"   # 유로파 예선·인터토토컵 = 유로파 예선(아일톤 선례)
+    if cid == "UEFA":   # UEFA컵(2009년 전): 1라운드 = 예선, 2·3라운드·16강·8강 = 토너먼트, 준결승·결승 단계별
         if r.startswith("first round"): return "elq"
         if r.startswith("group"): return "elg"
         if r.startswith("semi"): return "elsf"
         if r.startswith("final"): return "elf"
         return "elk"
-    if cid == "CL":
+    if cid == "CL":   # 2002-03 2차 조별(Group 3)도 조별
         if r.startswith("group"): return "clg"
         if r.startswith("last 16"): return "cl16"
         if r.startswith("quarter"): return "clk"
         if r.startswith("semi"): return "clsf"
         if r.startswith("final"): return "clf"
         sys.exit("CL 라운드 " + rnd)
-    if cid == "EL":
-        if r.startswith("group"): return "elg"
-        if r.startswith("semi"): return "elsf"
-        if r.startswith("final"): return "elf"
-        return "elk"   # 32강(2013-14 'Second Round'·'intermediate stage')·16강·8강
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
 def rnd_of(g):
@@ -107,9 +105,8 @@ def ko_of(cid, rnd):
 # ---------------------------------------------------------------- 두 경기 합산
 def tie_rule(cid, d, rnd):
     """(원정 다득점, 연장)"""
-    if cid in ("CL", "EL", "ELQ", "UEFA"): return (1, 1) if d < "2021-07-01" else (0, 1)   # UEFA 2020-21까지 원정 다득점(연장 포함)
-    if cid in ("CDR", "SUC"): return (1, 1)             # 코파 델 레이·수페르코파 2018-19까지 원정 다득점·연장(아두리스·비야 선례)
-    if cid == "CGB": return (1, 1) if d < "2018-08-01" else (0, 0)   # 리그컵 준결승 2017-18까지 원정 다득점·연장, 2018-19부터 둘 다 없음
+    if cid in ("CL", "CLQ", "ELQ", "UEFA", "UI"): return (1, 1)   # UEFA 대회 2020-21까지 원정 다득점(연장 포함)
+    if cid == "CGB": return (1, 1)   # 리그컵 준결승 2017-18까지 원정 다득점·연장
     sys.exit("합산 규칙 없음 " + cid)
 
 def side_of(gid):
@@ -150,10 +147,16 @@ def tie_of(gid):
     return [2, 1 if s == "h" else 0, ours, theirs, ag, et]
 
 # ---------------------------------------------------------------- 출전
-MIN_EST = {}   # 모든 경기에 TM 출전 분 있음
+MIN_EST = {}   # TM 경기는 모두 출전 분 있음
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
     M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), int(g["playedMinutes"])])
+# Transfermarkt에 없는 체코컵 경기 중 경기별 자료(날짜·상대·골 시각)가 있는 1경기(사용자 확인 필요, judgments.md 1절):
+# 1999.8.3 체코컵 2라운드 로우드니체 0-8 스파르타 — 영어 위키백과 '1999–2000 AC Sparta Prague season' 경기 상자 로시츠키 90분 골(8번째 골).
+# 출전 분 기록이 없어 90분 추정(크레스포·리켈메 선례). 도움 자료 없음.
+EXTRA_M = [["1999-08-03", "SK Roudnice nad Labem", "dc", 90, 1]]
+EXTRA_E = [("g", "SK Roudnice nad Labem", "dc", 90, 7, 0, 1, 0, "1999-08-03", 0, 0, "체코 4부 1999-00 7위/16팀 (Divize B, 리그 수준 추정)", 0)]
+M = sorted(M + EXTRA_M, key=lambda m: m[0])
 
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
@@ -164,7 +167,7 @@ def mins(s):
 
 def is_og(e): return e["own_goal"] == "1" or e["goal_desc"] == "Own-goal"
 
-OG_TO_ME = set()   # 상대 자책골을 가메이로 골로 바꾼 것 없음
+OG_TO_ME = set()   # 상대 자책골을 로시츠키 골로 바꾼 것 없음
 GOAL_ADJ = collections.Counter()
 
 A_CHECK = {}; ADD_A = []
@@ -444,6 +447,9 @@ for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     if t: row.append(t)
     E.append(row)
 
+for typ, o_, comp_, mi_, gf_, ga_, ko_, pk_, d_x, et_, dm_, lv_, note_ in EXTRA_E:
+    E.append([typ, o_, lv_value(lv_, d_x), comp_, mi_, gf_, ga_, ko_, pk_, d_x, et_, dm_, lv_, note_]); ELO_SRC["직접 라벨(순위표 밖)"] += 1
+    NEW_TS[(o_, "1999-00")] = (E[-1][2], lv_)
 E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 
 if MISS:
