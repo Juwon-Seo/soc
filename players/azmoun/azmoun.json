@@ -1,0 +1,7391 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Molde FK",
+   "elo": 1421,
+   "comp": "elq",
+   "min": 84,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "노르웨이 1부 2013 6위/16팀 (Eliteserien)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1524,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-06",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "러시아 1부 2013-14 16위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Volga Nizhniy Novgorod",
+   "elo": 1537,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2013-14 15위/16팀 (Russian Premier League)",
+   "note": "Marko Devic"
+  },
+  {
+   "type": "g",
+   "opp": "FC Rostov",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2013-14 7위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Zenit St. Petersburg",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 64,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2013-14 2위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1545,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2013-14 14위/16팀 (리그 수준 추정)",
+   "note": "Pavel Mogilevets"
+  },
+  {
+   "type": "g",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1545,
+   "comp": "lg",
+   "min": 74,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2013-14 14위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Terek Grozny",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-08-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2014-15 9위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CSKA Moscow",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2014-15 2위/16팀 (Russian Premier League)",
+   "note": "Gökdeniz Karadeniz"
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Moscow",
+   "elo": 1618,
+   "comp": "dc",
+   "min": 125,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 1,
+   "date": "2014-10-30",
+   "et": 1,
+   "dm": "120+5",
+   "lv": "러시아 1부 2014-15 6위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kuban Krasnodar",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2014-15 10위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Ufa",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2014-15 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2014-15 4위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Tosno",
+   "elo": 1287,
+   "comp": "lg",
+   "min": 88,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-06-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 2부 2014-15 3위/18팀 (Russian Football National League, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "CSKA Moscow",
+   "elo": 1767,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 1위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Mordovia Saransk",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2015-16 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Lokomotiv Moskau",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2015-16 6위/16팀 (리그 수준 추정)",
+   "note": "Moussa Doumbia"
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1656,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 4위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CSKA Moscow",
+   "elo": 1767,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 1위/16팀 (Russian Premier League)",
+   "note": "Dmitriy Poloz"
+  },
+  {
+   "type": "g",
+   "opp": "Zenit St. Petersburg",
+   "elo": 1674,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 3위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Mordovia Saransk",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 67,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2015-16 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moskau",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2015-16 6위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1547,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 15위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1547,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 15위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1608,
+   "comp": "lg",
+   "min": 74,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 8위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Terek Grozny",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2015-16 7위/16팀 (Russian Premier League)",
+   "note": "Aleksandr Erokhin"
+  },
+  {
+   "type": "g",
+   "opp": "RSC Anderlecht",
+   "elo": 1830,
+   "comp": "clq",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 1부 2016-17 1위/16팀 (추정, 다른 선수 자료 벨기에 1부 1위 1764와 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ajax Amsterdam",
+   "elo": 1666,
+   "comp": "clq",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2016-17 2위 (추정: 모형값)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "PSV Eindhoven",
+   "elo": 1609,
+   "comp": "clg",
+   "min": 37,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2016-17 3위",
+   "note": "Dmitriy Poloz"
+  },
+  {
+   "type": "g",
+   "opp": "Atlético de Madrid",
+   "elo": 2023,
+   "comp": "clg",
+   "min": 30,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal Tula",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 14위/16팀 (Russian Premier League)",
+   "note": "Aleksandr Erokhin"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal Tula",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 14위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 1976,
+   "comp": "clg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 12위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Sparta Praha",
+   "elo": 1522,
+   "comp": "elk",
+   "min": 68,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1부 2016-17 3위/16팀 (Czech First League)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Tom Tomsk",
+   "elo": 1514,
+   "comp": "lg",
+   "min": 78,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 16위/16팀 (Russian Premier League)",
+   "note": "Aleksandr Erokhin"
+  },
+  {
+   "type": "g",
+   "opp": "Tom Tomsk",
+   "elo": 1514,
+   "comp": "lg",
+   "min": 80,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 16위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tom Tomsk",
+   "elo": 1514,
+   "comp": "lg",
+   "min": 91,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-03",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "러시아 1부 2016-17 16위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rubin Kazan",
+   "elo": 1579,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 9위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rubin Kazan",
+   "elo": 1579,
+   "comp": "lg",
+   "min": 51,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 9위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2016-17 12위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SKA Khabarovsk",
+   "elo": 1482,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 16위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SKA Khabarovsk",
+   "elo": 1482,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 16위/16팀 (Russian Premier League)",
+   "note": "Magomed Ozdoev"
+  },
+  {
+   "type": "a",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1503,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 14위/16팀 (Russian Premier League)",
+   "note": "Ivelin Popov"
+  },
+  {
+   "type": "a",
+   "opp": "Akhmat Grozny",
+   "elo": 1548,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 9위/16팀 (Russian Premier League)",
+   "note": "Ivelin Popov"
+  },
+  {
+   "type": "g",
+   "opp": "Akhmat Grozny",
+   "elo": 1548,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 9위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Amkar Perm",
+   "elo": 1516,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 13위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Amkar Perm",
+   "elo": 1516,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 13위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2017-18 4위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Akhmat Grozny",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 84,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 8위/16팀 (Russian Premier League)",
+   "note": "Khoren Bayramyan"
+  },
+  {
+   "type": "a",
+   "opp": "Enisey Krasnoyarsk",
+   "elo": 1438,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 16위/16팀 (Russian Premier League)",
+   "note": "Dmitriy Poloz"
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal Tula",
+   "elo": 1539,
+   "comp": "lg",
+   "min": 77,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 6위/16팀 (Russian Premier League)",
+   "note": "Igor Konovalov"
+  },
+  {
+   "type": "a",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 13위/16팀 (Russian Premier League)",
+   "note": "Vyacheslav Podberezkin"
+  },
+  {
+   "type": "g",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-01",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "러시아 1부 2018-19 13위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1496,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 10위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1484,
+   "comp": "dc",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2018-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 12위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fenerbahce",
+   "elo": 1525,
+   "comp": "elk",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2018-19 6위/18팀",
+   "note": "Magomed Ozdoev",
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1525,
+   "comp": "elk",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2018-19 6위/18팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1525,
+   "comp": "elk",
+   "min": 76,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2018-19 6위/18팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1496,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 10위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1808,
+   "comp": "elk",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 14위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Ufa",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 14위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Orenburg",
+   "elo": 1525,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 7위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Orenburg",
+   "elo": 1525,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 7위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1451,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 15위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Anzhi Makhachkala",
+   "elo": 1451,
+   "comp": "lg",
+   "min": 9,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 15위/16팀 (Russian Premier League)",
+   "note": "Branislav Ivanovic"
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1484,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 12위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 13위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 13위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Enisey Krasnoyarsk",
+   "elo": 1438,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2019-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 16위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Enisey Krasnoyarsk",
+   "elo": 1438,
+   "comp": "lg",
+   "min": 71,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2018-19 16위/16팀 (Russian Premier League)",
+   "note": "Sebastián Driussi"
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1583,
+   "comp": "df",
+   "min": 47,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-07-06",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "러시아 1부 2019-20 2위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1583,
+   "comp": "df",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-07-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 2위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochi",
+   "elo": 1456,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2019-07-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Orenburg",
+   "elo": 1410,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-07-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Krasnodar",
+   "elo": 1550,
+   "comp": "lg",
+   "min": 91,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-03",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "러시아 프리미어리그 2019-20 3위/16팀 (리그 수준 추정)",
+   "note": "Artem Dzyuba"
+  },
+  {
+   "type": "a",
+   "opp": "Dinamo Moscow",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 6위/16팀 (Russian Premier League)",
+   "note": "Artem Dzyuba"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1671,
+   "comp": "clg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1798,
+   "comp": "clg",
+   "min": 78,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2019-20 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": "Magomed Ozdoev"
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 63,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Rostov",
+   "elo": 1523,
+   "comp": "lg",
+   "min": 44,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 5위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Rostov",
+   "elo": 1523,
+   "comp": "lg",
+   "min": 92,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "러시아 1부 2019-20 5위/16팀 (Russian Premier League)",
+   "note": "Wilmar Barrios"
+  },
+  {
+   "type": "a",
+   "opp": "Krylya Sovetov Samara",
+   "elo": 1423,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-27",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "러시아 1부 2019-20 15위/16팀 (Russian Premier League)",
+   "note": "Artem Dzyuba"
+  },
+  {
+   "type": "a",
+   "opp": "Tom Tomsk",
+   "elo": 1179,
+   "comp": "dc",
+   "min": 81,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 2부 2019-20 9위/20팀 (Russian Football National League, 리그 수준 추정)",
+   "note": "Oleg Shatov"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal Tula",
+   "elo": 1484,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 8위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rubin Kazan",
+   "elo": 1468,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 10위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dinamo Moscow",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 6위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 15,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 61,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 69,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "note": "Sebastián Driussi"
+  },
+  {
+   "type": "g",
+   "opp": "FK Tambov",
+   "elo": 1431,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 14위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1550,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 3위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1550,
+   "comp": "lg",
+   "min": 52,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 3위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochi",
+   "elo": 1456,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Orenburg",
+   "elo": 1410,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Orenburg",
+   "elo": 1410,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Orenburg",
+   "elo": 1410,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-15",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "note": "Artem Dzyuba"
+  },
+  {
+   "type": "g",
+   "opp": "FC Rostov",
+   "elo": 1523,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2019-20 5위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Rostov",
+   "elo": 1431,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2020-21 9위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CSKA Moscow",
+   "elo": 1467,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2020-21 6위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CSKA Moscow",
+   "elo": 1467,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2020-21 6위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "PFK Tambov",
+   "elo": 1366,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 16위/16팀 (리그 수준 추정)",
+   "note": "Malcom"
+  },
+  {
+   "type": "g",
+   "opp": "PFK Tambov",
+   "elo": 1366,
+   "comp": "lg",
+   "min": 74,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 16위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Ufa",
+   "elo": 1399,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 13위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Ufa",
+   "elo": 1399,
+   "comp": "lg",
+   "min": 61,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 13위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1412,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1412,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1412,
+   "comp": "lg",
+   "min": 44,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 12위/16팀 (리그 수준 추정)",
+   "note": "Douglas Santos"
+  },
+  {
+   "type": "g",
+   "opp": "Ural Yekaterinburg",
+   "elo": 1412,
+   "comp": "lg",
+   "min": 76,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 12위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Moscow",
+   "elo": 1453,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2020-21 7위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Moscow",
+   "elo": 1539,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 2위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rubin Kazan",
+   "elo": 1488,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 4위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Akhmat Grozny",
+   "elo": 1418,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 11위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochi",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 5위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochi",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 5위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1424,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 10위/16팀 (리그 수준 추정, 같은 시즌 5위 1446·11위 1381 사이 직선 보간)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 3위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 48,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-05-02",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "러시아 프리미어리그 2020-21 3위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 46,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2020-21 3위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lokomotiv Moscow",
+   "elo": 1446,
+   "comp": "df",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-07-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2021-22 6위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Khimki",
+   "elo": 1378,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-07-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 13위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Rostov",
+   "elo": 1409,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-08-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 9위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1467,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2021-22 4위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Krasnodar",
+   "elo": 1467,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2021-22 4위/16팀 (Russian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CSKA Moscow",
+   "elo": 1457,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 5위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Moscow",
+   "elo": 1402,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 10위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Moscow",
+   "elo": 1402,
+   "comp": "lg",
+   "min": 36,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 10위/16팀 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Dynamo Moscow",
+   "elo": 1484,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2021-22 3위/16팀 (리그 수준 추정)",
+   "note": "Wendel"
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1851,
+   "comp": "clg",
+   "min": 92,
+   "gf": 1,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-02",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2021-22 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1963,
+   "comp": "clg",
+   "min": 41,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SpVgg Greuther Fürth",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SpVgg Greuther Fürth",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 58,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 18위",
+   "note": "Paulinho"
+  },
+  {
+   "type": "a",
+   "opp": "SV 07 Elversberg",
+   "elo": 1531,
+   "comp": "dc",
+   "min": 5,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 3부 2022-23 1위/20팀 (3. Liga, 리그 수준 추정)",
+   "note": "Adam Hlozek"
+  },
+  {
+   "type": "a",
+   "opp": "SV 07 Elversberg",
+   "elo": 1531,
+   "comp": "dc",
+   "min": 30,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 3부 2022-23 1위/20팀 (3. Liga, 리그 수준 추정)",
+   "note": "Charles Aránguiz"
+  },
+  {
+   "type": "a",
+   "opp": "1.FSV Mainz 05",
+   "elo": 1712,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 9위",
+   "note": "Nadiem Amiri"
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 67,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-01",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "분데스리가 2022-23 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1753,
+   "comp": "lg",
+   "min": 95,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-08",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "분데스리가 2022-23 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Union Saint-Gilloise",
+   "elo": 1708,
+   "comp": "elk",
+   "min": 82,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 2022-23 3위/18팀 (추정, 다른 선수 자료 벨기에 2위 1670과 같음)",
+   "note": "Florian Wirtz",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1721,
+   "comp": "lg",
+   "min": 91,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-05",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "US Cremonese",
+   "elo": 1529,
+   "comp": "dc",
+   "min": 77,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 2023-24 4위/20팀",
+   "note": "Romelu Lukaku"
+  },
+  {
+   "type": "g",
+   "opp": "Frosinone Calcio",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sepahan FC",
+   "elo": 1398,
+   "comp": "acl",
+   "min": 62,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "이란 1부 2023-24 3위/16팀 (Persian Gulf Pro League, 2024-25 시즌 개막 전 경기라 직전 시즌 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ajman Club",
+   "elo": 1363,
+   "comp": "dc",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 10위/14팀",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ajman Club",
+   "elo": 1363,
+   "comp": "dc",
+   "min": 63,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 10위/14팀",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Bataeh CSC",
+   "elo": 1351,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-24",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "UAE 프로리그 2024-25 11위/14팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ajman Club",
+   "elo": 1363,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 10위/14팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Hussein SC (Irbid)",
+   "elo": 1399,
+   "comp": "ac2",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wahda FC",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 3위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wahda FC",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 48,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-22",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "UAE 1부 2024-25 3위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Wahda FC",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 87,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 3위/14팀 (UAE Pro League)",
+   "note": "Munas Dabbur"
+  },
+  {
+   "type": "g",
+   "opp": "FC Baniyas",
+   "elo": 1335,
+   "comp": "lg",
+   "min": 63,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 12위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dibba Al-Hisn SC",
+   "elo": 1326,
+   "comp": "dc",
+   "min": 8,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 13위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sharjah FC",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 2위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Hussein SC (Irbid)",
+   "elo": 1399,
+   "comp": "ac2",
+   "min": 42,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Hussein SC (Irbid)",
+   "elo": 1399,
+   "comp": "ac2",
+   "min": 91,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-27",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": "Munas Dabbur"
+  },
+  {
+   "type": "a",
+   "opp": "Nasaf Qarshi",
+   "elo": 1409,
+   "comp": "ac2",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "우즈베키스탄 1부 2024 1위/14팀 (Uzbekistan Super League)",
+   "note": "Mateusão"
+  },
+  {
+   "type": "g",
+   "opp": "Nasaf Qarshi",
+   "elo": 1409,
+   "comp": "ac2",
+   "min": 32,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "우즈베키스탄 1부 2024 1위/14팀 (Uzbekistan Super League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nasaf Qarshi",
+   "elo": 1409,
+   "comp": "ac2",
+   "min": 34,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "우즈베키스탄 1부 2024 1위/14팀 (Uzbekistan Super League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Wasl SC",
+   "elo": 1430,
+   "comp": "df",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-12-13",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "note": "Guilherme Bala"
+  },
+  {
+   "type": "a",
+   "opp": "Al-Wasl SC",
+   "elo": 1430,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "note": "Guilherme Bala"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Nasr SC (UAE)",
+   "elo": 1402,
+   "comp": "dk",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 6위/14팀",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Nasr SC (UAE)",
+   "elo": 1402,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-01-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 6위/14팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Ain FC",
+   "elo": 1418,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 5위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Rayyan SC",
+   "elo": 1313,
+   "comp": "df",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "카타르 1부 2024-25 5위/12팀 (Qatar Stars League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wehdat SC",
+   "elo": 1325,
+   "comp": "ac2",
+   "min": 53,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wehdat SC",
+   "elo": 1325,
+   "comp": "ac2",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wehdat SC",
+   "elo": 1325,
+   "comp": "ac2",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Al-Wehdat SC",
+   "elo": 1325,
+   "comp": "ac2",
+   "min": 81,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": "Mateusão",
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wehdat SC",
+   "elo": 1325,
+   "comp": "ac2",
+   "min": 84,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Al-Orooba FC",
+   "elo": 1312,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 14위/14팀 (리그 모형값)",
+   "note": "Guilherme Bala"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Orooba FC",
+   "elo": 1312,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 14위/14팀 (리그 모형값)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Baniyas",
+   "elo": 1335,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 12위/14팀 (UAE Pro League)",
+   "note": "Yuri César"
+  },
+  {
+   "type": "g",
+   "opp": "Sharjah FC",
+   "elo": 1479,
+   "comp": "ac2k",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 2위/14팀 (UAE Pro League)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Al-Jazira Club",
+   "elo": 1387,
+   "comp": "df",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 7위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Khor Fakkan SSC",
+   "elo": 1376,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 8위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Khor Fakkan SSC",
+   "elo": 1376,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 8위/14팀 (UAE Pro League)",
+   "note": "Kauan Santos"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wahda FC",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2024-25 3위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Wasl SC",
+   "elo": 1430,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "note": "Saeed Ezatolahi"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Nasr SC (UAE)",
+   "elo": 1397,
+   "comp": "lg",
+   "min": 95,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-20",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "UAE 1부 2025-26 6위/14팀 (UAE Pro League)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Dhafra FC",
+   "elo": 1329,
+   "comp": "lg",
+   "min": 77,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2025-26 12위/14팀 (UAE Pro League)",
+   "note": "Mohammad Juma"
+  },
+  {
+   "type": "g",
+   "opp": "Kalba FC",
+   "elo": 1346,
+   "comp": "lg",
+   "min": 77,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2025-26 11위/14팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Jazira Club",
+   "elo": 1424,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2025-26 4위/14팀 (UAE Pro League)",
+   "note": "Yuri César"
+  },
+  {
+   "type": "g",
+   "opp": "Khor Fakkan SSC",
+   "elo": 1362,
+   "comp": "lg",
+   "min": 96,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-29",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "UAE 프로리그 2025-26 9위/14팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Khor Fakkan SSC",
+   "elo": 1376,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2026-27 9위/14팀 (UAE Pro League, 2026년 11월 22일 현재 순위)",
+   "note": "Saeed Ezatolahi"
+  },
+  {
+   "type": "g",
+   "opp": "Khor Fakkan SSC",
+   "elo": 1376,
+   "comp": "lg",
+   "min": 87,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 1부 2026-27 9위/14팀 (UAE Pro League, 2026년 11월 22일 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Ittihad Club",
+   "elo": 1534,
+   "comp": "acl",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 1부 2026-27 4위/18팀 (Saudi Pro League, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Ittihad Club",
+   "elo": 1534,
+   "comp": "acl",
+   "min": 16,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 1부 2026-27 4위/18팀 (Saudi Pro League, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Ain FC",
+   "elo": 1452,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "UAE 1부 2026-27 3위/14팀 (UAE Pro League, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Esteghlal FC",
+   "elo": 1355,
+   "comp": "acl",
+   "min": 69,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "이란 1부 2026-27 5위/18팀 (Persian Gulf Pro League, 2026년 11월 22일 현재 순위)",
+   "note": "Mateusão"
+  },
+  {
+   "type": "a",
+   "opp": "Esteghlal FC",
+   "elo": 1355,
+   "comp": "acl",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "이란 1부 2026-27 5위/18팀 (Persian Gulf Pro League, 2026년 11월 22일 현재 순위)",
+   "note": "Juan Bezerra"
+  }
+ ],
+ "M": [
+  [
+   "2013-07-25",
+   "FK Jagodina",
+   "elq",
+   17
+  ],
+  [
+   "2013-08-29",
+   "Molde FK",
+   "elq",
+   26
+  ],
+  [
+   "2013-10-06",
+   "Anzhi Makhachkala",
+   "lg",
+   17
+  ],
+  [
+   "2013-10-30",
+   "Luch-Energia Vladivostok",
+   "dc",
+   45
+  ],
+  [
+   "2013-11-03",
+   "FC Rostov",
+   "lg",
+   21
+  ],
+  [
+   "2013-11-10",
+   "FC Krasnodar",
+   "lg",
+   56
+  ],
+  [
+   "2013-11-23",
+   "Tom Tomsk",
+   "lg",
+   30
+  ],
+  [
+   "2013-12-02",
+   "Amkar Perm",
+   "lg",
+   66
+  ],
+  [
+   "2013-12-07",
+   "Lokomotiv Moskau",
+   "lg",
+   71
+  ],
+  [
+   "2014-03-16",
+   "Volga Nizhniy Novgorod",
+   "lg",
+   70
+  ],
+  [
+   "2014-03-23",
+   "Dinamo Moscow",
+   "lg",
+   70
+  ],
+  [
+   "2014-03-30",
+   "FC Rostov",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-06",
+   "Zenit St. Petersburg",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-13",
+   "Kuban Krasnodar",
+   "lg",
+   77
+  ],
+  [
+   "2014-04-20",
+   "Spartak Moscow",
+   "lg",
+   80
+  ],
+  [
+   "2014-05-04",
+   "Ural Yekaterinburg",
+   "lg",
+   21
+  ],
+  [
+   "2014-05-10",
+   "Krylya Sovetov Samara",
+   "lg",
+   35
+  ],
+  [
+   "2014-08-01",
+   "Spartak Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-09",
+   "Terek Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-13",
+   "Arsenal Tula",
+   "lg",
+   82
+  ],
+  [
+   "2014-08-23",
+   "CSKA Moscow",
+   "lg",
+   17
+  ],
+  [
+   "2014-08-31",
+   "FC Ufa",
+   "lg",
+   15
+  ],
+  [
+   "2014-09-13",
+   "FC Rostov",
+   "lg",
+   24
+  ],
+  [
+   "2014-09-20",
+   "Kuban Krasnodar",
+   "lg",
+   17
+  ],
+  [
+   "2014-09-24",
+   "Luch-Energia Vladivostok",
+   "dc",
+   17
+  ],
+  [
+   "2014-10-20",
+   "Mordovia Saransk",
+   "lg",
+   8
+  ],
+  [
+   "2014-10-27",
+   "Dinamo Moscow",
+   "lg",
+   28
+  ],
+  [
+   "2014-10-30",
+   "Spartak Moscow",
+   "dc",
+   56
+  ],
+  [
+   "2014-11-03",
+   "Amkar Perm",
+   "lg",
+   32
+  ],
+  [
+   "2014-11-09",
+   "FC Krasnodar",
+   "lg",
+   27
+  ],
+  [
+   "2014-11-22",
+   "Ural Yekaterinburg",
+   "lg",
+   16
+  ],
+  [
+   "2014-12-08",
+   "Mordovia Saransk",
+   "lg",
+   87
+  ],
+  [
+   "2015-03-08",
+   "Lokomotiv Moskau",
+   "lg",
+   19
+  ],
+  [
+   "2015-03-16",
+   "Kuban Krasnodar",
+   "lg",
+   17
+  ],
+  [
+   "2015-04-05",
+   "Ural Yekaterinburg",
+   "lg",
+   8
+  ],
+  [
+   "2015-04-09",
+   "FC Ufa",
+   "lg",
+   29
+  ],
+  [
+   "2015-04-13",
+   "Spartak Moscow",
+   "lg",
+   87
+  ],
+  [
+   "2015-04-20",
+   "Torpedo Moskau",
+   "lg",
+   36
+  ],
+  [
+   "2015-04-26",
+   "Dinamo Moscow",
+   "lg",
+   84
+  ],
+  [
+   "2015-05-02",
+   "Terek Grozny",
+   "lg",
+   62
+  ],
+  [
+   "2015-05-10",
+   "Zenit St. Petersburg",
+   "lg",
+   45
+  ],
+  [
+   "2015-05-15",
+   "Mordovia Saransk",
+   "lg",
+   19
+  ],
+  [
+   "2015-05-24",
+   "FC Krasnodar",
+   "lg",
+   34
+  ],
+  [
+   "2015-06-07",
+   "FC Tosno",
+   "lg",
+   23
+  ],
+  [
+   "2015-07-25",
+   "FC Ufa",
+   "lg",
+   19
+  ],
+  [
+   "2015-08-02",
+   "FC Krasnodar",
+   "lg",
+   33
+  ],
+  [
+   "2015-08-16",
+   "Krylya Sovetov Samara",
+   "lg",
+   33
+  ],
+  [
+   "2015-08-22",
+   "CSKA Moscow",
+   "lg",
+   74
+  ],
+  [
+   "2015-08-28",
+   "Amkar Perm",
+   "lg",
+   77
+  ],
+  [
+   "2015-09-13",
+   "Spartak Moscow",
+   "lg",
+   58
+  ],
+  [
+   "2015-09-28",
+   "Kuban Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-03",
+   "Zenit St. Petersburg",
+   "lg",
+   58
+  ],
+  [
+   "2015-10-19",
+   "Mordovia Saransk",
+   "lg",
+   31
+  ],
+  [
+   "2015-10-26",
+   "Lokomotiv Moskau",
+   "lg",
+   10
+  ],
+  [
+   "2015-11-02",
+   "Dinamo Moscow",
+   "lg",
+   14
+  ],
+  [
+   "2015-11-23",
+   "FC Ufa",
+   "lg",
+   23
+  ],
+  [
+   "2015-11-30",
+   "FC Krasnodar",
+   "lg",
+   37
+  ],
+  [
+   "2016-03-05",
+   "Krylya Sovetov Samara",
+   "lg",
+   63
+  ],
+  [
+   "2016-03-12",
+   "CSKA Moscow",
+   "lg",
+   73
+  ],
+  [
+   "2016-04-02",
+   "Spartak Moscow",
+   "lg",
+   67
+  ],
+  [
+   "2016-04-08",
+   "Anzhi Makhachkala",
+   "lg",
+   60
+  ],
+  [
+   "2016-04-17",
+   "Kuban Krasnodar",
+   "lg",
+   68
+  ],
+  [
+   "2016-04-24",
+   "Zenit St. Petersburg",
+   "lg",
+   64
+  ],
+  [
+   "2016-05-01",
+   "Mordovia Saransk",
+   "lg",
+   27
+  ],
+  [
+   "2016-05-06",
+   "Lokomotiv Moskau",
+   "lg",
+   78
+  ],
+  [
+   "2016-05-12",
+   "Dinamo Moscow",
+   "lg",
+   72
+  ],
+  [
+   "2016-05-16",
+   "Ural Yekaterinburg",
+   "lg",
+   77
+  ],
+  [
+   "2016-05-21",
+   "Terek Grozny",
+   "lg",
+   70
+  ],
+  [
+   "2016-07-26",
+   "RSC Anderlecht",
+   "clq",
+   34
+  ],
+  [
+   "2016-07-30",
+   "FC Orenburg",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-03",
+   "RSC Anderlecht",
+   "clq",
+   57
+  ],
+  [
+   "2016-08-07",
+   "Ural Yekaterinburg",
+   "lg",
+   23
+  ],
+  [
+   "2016-08-16",
+   "Ajax Amsterdam",
+   "clq",
+   33
+  ],
+  [
+   "2016-08-24",
+   "Ajax Amsterdam",
+   "clq",
+   73
+  ],
+  [
+   "2016-08-28",
+   "Terek Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-09",
+   "Krylya Sovetov Samara",
+   "lg",
+   26
+  ],
+  [
+   "2016-09-13",
+   "FC Bayern Munich",
+   "clg",
+   64
+  ],
+  [
+   "2016-09-18",
+   "FC Krasnodar",
+   "lg",
+   32
+  ],
+  [
+   "2016-09-24",
+   "Lokomotiv Moskau",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-28",
+   "PSV Eindhoven",
+   "clg",
+   77
+  ],
+  [
+   "2016-10-02",
+   "CSKA Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Spartak Moscow",
+   "lg",
+   45
+  ],
+  [
+   "2016-10-19",
+   "Atlético de Madrid",
+   "clg",
+   75
+  ],
+  [
+   "2016-10-22",
+   "FC Ufa",
+   "lg",
+   12
+  ],
+  [
+   "2016-10-29",
+   "Amkar Perm",
+   "lg",
+   62
+  ],
+  [
+   "2016-11-01",
+   "Atlético de Madrid",
+   "clg",
+   70
+  ],
+  [
+   "2016-11-06",
+   "Arsenal Tula",
+   "lg",
+   86
+  ],
+  [
+   "2016-11-18",
+   "Rubin Kazan",
+   "lg",
+   78
+  ],
+  [
+   "2016-11-23",
+   "FC Bayern Munich",
+   "clg",
+   82
+  ],
+  [
+   "2016-11-27",
+   "Anzhi Makhachkala",
+   "lg",
+   64
+  ],
+  [
+   "2016-12-03",
+   "Zenit St. Petersburg",
+   "lg",
+   45
+  ],
+  [
+   "2016-12-06",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2017-02-16",
+   "AC Sparta Praha",
+   "elk",
+   23
+  ],
+  [
+   "2017-02-23",
+   "AC Sparta Praha",
+   "elk",
+   45
+  ],
+  [
+   "2017-03-03",
+   "Tom Tomsk",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-09",
+   "Manchester United",
+   "elk",
+   16
+  ],
+  [
+   "2017-03-12",
+   "Terek Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-16",
+   "Manchester United",
+   "elk",
+   61
+  ],
+  [
+   "2017-03-19",
+   "Krylya Sovetov Samara",
+   "lg",
+   9
+  ],
+  [
+   "2017-04-03",
+   "FC Krasnodar",
+   "lg",
+   69
+  ],
+  [
+   "2017-04-09",
+   "Lokomotiv Moskau",
+   "lg",
+   65
+  ],
+  [
+   "2017-04-15",
+   "CSKA Moscow",
+   "lg",
+   66
+  ],
+  [
+   "2017-04-22",
+   "Spartak Moscow",
+   "lg",
+   29
+  ],
+  [
+   "2017-04-25",
+   "FC Ufa",
+   "lg",
+   66
+  ],
+  [
+   "2017-04-30",
+   "Amkar Perm",
+   "lg",
+   45
+  ],
+  [
+   "2017-05-06",
+   "Arsenal Tula",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-14",
+   "Rubin Kazan",
+   "lg",
+   63
+  ],
+  [
+   "2017-05-17",
+   "Anzhi Makhachkala",
+   "lg",
+   45
+  ],
+  [
+   "2017-05-21",
+   "FC Orenburg",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-16",
+   "FC Krasnodar",
+   "lg",
+   28
+  ],
+  [
+   "2017-07-22",
+   "Zenit St. Petersburg",
+   "lg",
+   26
+  ],
+  [
+   "2017-07-29",
+   "Arsenal Tula",
+   "lg",
+   45
+  ],
+  [
+   "2017-08-06",
+   "CSKA Moscow",
+   "lg",
+   70
+  ],
+  [
+   "2017-08-09",
+   "Lokomotiv Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-13",
+   "SKA Khabarovsk",
+   "lg",
+   22
+  ],
+  [
+   "2017-08-19",
+   "Anzhi Makhachkala",
+   "lg",
+   45
+  ],
+  [
+   "2017-08-26",
+   "FC Tosno",
+   "lg",
+   22
+  ],
+  [
+   "2017-09-17",
+   "Ural Yekaterinburg",
+   "lg",
+   33
+  ],
+  [
+   "2017-09-20",
+   "FC Orenburg",
+   "dc",
+   66
+  ],
+  [
+   "2017-09-25",
+   "Akhmat Grozny",
+   "lg",
+   76
+  ],
+  [
+   "2017-09-30",
+   "Amkar Perm",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-15",
+   "FC Rostov",
+   "lg",
+   29
+  ],
+  [
+   "2017-10-21",
+   "Dinamo Moscow",
+   "lg",
+   45
+  ],
+  [
+   "2017-10-25",
+   "Krylya Sovetov Samara",
+   "dc",
+   90
+  ],
+  [
+   "2017-10-30",
+   "FC Ufa",
+   "lg",
+   60
+  ],
+  [
+   "2017-11-05",
+   "Zenit St. Petersburg",
+   "lg",
+   15
+  ],
+  [
+   "2017-11-18",
+   "Arsenal Tula",
+   "lg",
+   19
+  ],
+  [
+   "2017-11-26",
+   "CSKA Moscow",
+   "lg",
+   32
+  ],
+  [
+   "2017-12-02",
+   "Lokomotiv Moscow",
+   "lg",
+   83
+  ],
+  [
+   "2017-12-09",
+   "SKA Khabarovsk",
+   "lg",
+   64
+  ],
+  [
+   "2018-03-02",
+   "Anzhi Makhachkala",
+   "lg",
+   73
+  ],
+  [
+   "2018-04-01",
+   "Ural Yekaterinburg",
+   "lg",
+   22
+  ],
+  [
+   "2018-04-07",
+   "Akhmat Grozny",
+   "lg",
+   78
+  ],
+  [
+   "2018-04-14",
+   "Amkar Perm",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-30",
+   "Dinamo Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-07",
+   "FC Ufa",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-13",
+   "FC Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2018-07-29",
+   "FC Krasnodar",
+   "lg",
+   72
+  ],
+  [
+   "2018-08-03",
+   "Dinamo Moscow",
+   "lg",
+   19
+  ],
+  [
+   "2018-08-13",
+   "Zenit St. Petersburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-18",
+   "Akhmat Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-25",
+   "CSKA Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-31",
+   "FC Rostov",
+   "lg",
+   85
+  ],
+  [
+   "2018-09-15",
+   "Enisey Krasnoyarsk",
+   "lg",
+   79
+  ],
+  [
+   "2018-09-22",
+   "Arsenal Tula",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-26",
+   "FC Khimki",
+   "dc",
+   120
+  ],
+  [
+   "2018-10-01",
+   "Krylya Sovetov Samara",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-06",
+   "Ural Yekaterinburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-20",
+   "FC Ufa",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-25",
+   "Dinamo Moscow",
+   "dc",
+   80
+  ],
+  [
+   "2018-11-11",
+   "Lokomotiv Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-24",
+   "Anzhi Makhachkala",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-30",
+   "Dinamo Moscow",
+   "lg",
+   84
+  ],
+  [
+   "2018-12-05",
+   "Lokomotiv Moscow",
+   "dk",
+   90
+  ],
+  [
+   "2019-02-12",
+   "Fenerbahce",
+   "elk",
+   16
+  ],
+  [
+   "2019-02-21",
+   "Fenerbahce",
+   "elk",
+   80
+  ],
+  [
+   "2019-03-02",
+   "Ural Yekaterinburg",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-07",
+   "Villarreal CF",
+   "elk",
+   75
+  ],
+  [
+   "2019-03-10",
+   "FC Ufa",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-14",
+   "Villarreal CF",
+   "elk",
+   70
+  ],
+  [
+   "2019-03-17",
+   "Spartak Moscow",
+   "lg",
+   74
+  ],
+  [
+   "2019-03-31",
+   "FC Orenburg",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-07",
+   "Lokomotiv Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-14",
+   "Anzhi Makhachkala",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-20",
+   "FC Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-24",
+   "Dinamo Moscow",
+   "lg",
+   76
+  ],
+  [
+   "2019-04-28",
+   "Krylya Sovetov Samara",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-04",
+   "Akhmat Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-12",
+   "CSKA Moscow",
+   "lg",
+   61
+  ],
+  [
+   "2019-05-26",
+   "Enisey Krasnoyarsk",
+   "lg",
+   90
+  ],
+  [
+   "2019-07-06",
+   "Lokomotiv Moscow",
+   "df",
+   77
+  ],
+  [
+   "2019-07-14",
+   "FK Tambov",
+   "lg",
+   88
+  ],
+  [
+   "2019-07-21",
+   "FC Sochi",
+   "lg",
+   83
+  ],
+  [
+   "2019-07-28",
+   "FC Orenburg",
+   "lg",
+   69
+  ],
+  [
+   "2019-08-03",
+   "FC Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-10",
+   "Dinamo Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-17",
+   "Akhmat Grozny",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-24",
+   "FC Ufa",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-01",
+   "Spartak Moscow",
+   "lg",
+   76
+  ],
+  [
+   "2019-09-13",
+   "Arsenal Tula",
+   "lg",
+   75
+  ],
+  [
+   "2019-09-17",
+   "Olympique Lyon",
+   "clg",
+   45
+  ],
+  [
+   "2019-09-28",
+   "Lokomotiv Moscow",
+   "lg",
+   60
+  ],
+  [
+   "2019-10-02",
+   "SL Benfica",
+   "clg",
+   81
+  ],
+  [
+   "2019-10-06",
+   "Ural Yekaterinburg",
+   "lg",
+   83
+  ],
+  [
+   "2019-10-19",
+   "FC Rostov",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-23",
+   "RB Leipzig",
+   "clg",
+   75
+  ],
+  [
+   "2019-10-27",
+   "Krylya Sovetov Samara",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-30",
+   "Tom Tomsk",
+   "dc",
+   15
+  ],
+  [
+   "2019-11-02",
+   "CSKA Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-05",
+   "RB Leipzig",
+   "clg",
+   90
+  ],
+  [
+   "2019-11-10",
+   "Arsenal Tula",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-23",
+   "Rubin Kazan",
+   "lg",
+   87
+  ],
+  [
+   "2019-11-27",
+   "Olympique Lyon",
+   "clg",
+   83
+  ],
+  [
+   "2019-12-01",
+   "Spartak Moscow",
+   "lg",
+   63
+  ],
+  [
+   "2019-12-06",
+   "Dinamo Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-10",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2020-02-29",
+   "Lokomotiv Moscow",
+   "lg",
+   21
+  ],
+  [
+   "2020-03-09",
+   "FC Ufa",
+   "lg",
+   45
+  ],
+  [
+   "2020-03-14",
+   "Ural Yekaterinburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-20",
+   "CSKA Moscow",
+   "lg",
+   74
+  ],
+  [
+   "2020-06-26",
+   "Krylya Sovetov Samara",
+   "lg",
+   85
+  ],
+  [
+   "2020-07-01",
+   "FK Tambov",
+   "lg",
+   67
+  ],
+  [
+   "2020-07-05",
+   "FC Krasnodar",
+   "lg",
+   65
+  ],
+  [
+   "2020-07-08",
+   "FC Sochi",
+   "lg",
+   25
+  ],
+  [
+   "2020-07-15",
+   "FC Orenburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-19",
+   "Spartak Moscow",
+   "dsf",
+   89
+  ],
+  [
+   "2020-07-22",
+   "FC Rostov",
+   "lg",
+   45
+  ],
+  [
+   "2020-07-25",
+   "FC Khimki",
+   "df",
+   88
+  ],
+  [
+   "2020-08-07",
+   "Lokomotiv Moscow",
+   "df",
+   90
+  ],
+  [
+   "2020-08-11",
+   "Rotor Volgograd",
+   "lg",
+   70
+  ],
+  [
+   "2020-08-15",
+   "FC Rostov",
+   "lg",
+   85
+  ],
+  [
+   "2020-08-19",
+   "CSKA Moscow",
+   "lg",
+   89
+  ],
+  [
+   "2020-08-22",
+   "PFK Tambov",
+   "lg",
+   90
+  ],
+  [
+   "2020-08-26",
+   "Dynamo Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2020-08-30",
+   "Lokomotiv Moscow",
+   "lg",
+   73
+  ],
+  [
+   "2020-09-14",
+   "Arsenal Tula",
+   "lg",
+   76
+  ],
+  [
+   "2020-09-19",
+   "Ural Yekaterinburg",
+   "lg",
+   65
+  ],
+  [
+   "2020-09-26",
+   "FC Ufa",
+   "lg",
+   79
+  ],
+  [
+   "2020-10-03",
+   "Spartak Moscow",
+   "lg",
+   18
+  ],
+  [
+   "2020-10-17",
+   "FC Sochi",
+   "lg",
+   66
+  ],
+  [
+   "2020-10-20",
+   "Club Brugge KV",
+   "clg",
+   90
+  ],
+  [
+   "2020-11-24",
+   "SS Lazio",
+   "clg",
+   17
+  ],
+  [
+   "2020-11-28",
+   "Arsenal Tula",
+   "lg",
+   28
+  ],
+  [
+   "2020-12-02",
+   "Club Brugge KV",
+   "clg",
+   90
+  ],
+  [
+   "2020-12-05",
+   "Ural Yekaterinburg",
+   "lg",
+   81
+  ],
+  [
+   "2020-12-08",
+   "Borussia Dortmund",
+   "clg",
+   90
+  ],
+  [
+   "2020-12-12",
+   "Dynamo Moscow",
+   "lg",
+   19
+  ],
+  [
+   "2020-12-16",
+   "Spartak Moscow",
+   "lg",
+   88
+  ],
+  [
+   "2021-02-27",
+   "FC Rostov",
+   "lg",
+   81
+  ],
+  [
+   "2021-03-08",
+   "Rubin Kazan",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-13",
+   "Akhmat Grozny",
+   "lg",
+   78
+  ],
+  [
+   "2021-03-17",
+   "CSKA Moscow",
+   "lg",
+   63
+  ],
+  [
+   "2021-04-05",
+   "FC Khimki",
+   "lg",
+   88
+  ],
+  [
+   "2021-04-11",
+   "FC Sochi",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-17",
+   "FC Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-02",
+   "Lokomotiv Moscow",
+   "lg",
+   70
+  ],
+  [
+   "2021-05-08",
+   "FC Ufa",
+   "lg",
+   71
+  ],
+  [
+   "2021-07-17",
+   "Lokomotiv Moscow",
+   "df",
+   60
+  ],
+  [
+   "2021-07-24",
+   "FC Khimki",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-01",
+   "FC Rostov",
+   "lg",
+   81
+  ],
+  [
+   "2021-08-07",
+   "FC Krasnodar",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-15",
+   "Lokomotiv Moscow",
+   "lg",
+   88
+  ],
+  [
+   "2021-08-21",
+   "FC Ufa",
+   "lg",
+   19
+  ],
+  [
+   "2021-08-26",
+   "CSKA Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-11",
+   "Akhmat Grozny",
+   "lg",
+   58
+  ],
+  [
+   "2021-09-14",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2021-09-25",
+   "Krylya Sovetov Samara",
+   "lg",
+   10
+  ],
+  [
+   "2021-09-29",
+   "Malmö FF",
+   "clg",
+   14
+  ],
+  [
+   "2021-10-03",
+   "FC Sochi",
+   "lg",
+   42
+  ],
+  [
+   "2021-10-20",
+   "Juventus FC",
+   "clg",
+   29
+  ],
+  [
+   "2021-10-24",
+   "Spartak Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-29",
+   "Dynamo Moscow",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-02",
+   "Juventus FC",
+   "clg",
+   90
+  ],
+  [
+   "2021-11-07",
+   "Ural Yekaterinburg",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-19",
+   "FC Nizhniy Novgorod",
+   "lg",
+   18
+  ],
+  [
+   "2021-11-28",
+   "CSKA Moscow",
+   "lg",
+   67
+  ],
+  [
+   "2021-12-03",
+   "FC Rostov",
+   "lg",
+   45
+  ],
+  [
+   "2021-12-08",
+   "Chelsea FC",
+   "clg",
+   79
+  ],
+  [
+   "2022-03-05",
+   "FC Bayern Munich",
+   "lg",
+   1
+  ],
+  [
+   "2022-03-10",
+   "Atalanta BC",
+   "elk",
+   5
+  ],
+  [
+   "2022-03-13",
+   "1.FC Köln",
+   "lg",
+   26
+  ],
+  [
+   "2022-03-17",
+   "Atalanta BC",
+   "elk",
+   29
+  ],
+  [
+   "2022-03-20",
+   "VfL Wolfsburg",
+   "lg",
+   73
+  ],
+  [
+   "2022-04-02",
+   "Hertha BSC",
+   "lg",
+   25
+  ],
+  [
+   "2022-04-17",
+   "RB Leipzig",
+   "lg",
+   2
+  ],
+  [
+   "2022-04-23",
+   "SpVgg Greuther Fürth",
+   "lg",
+   73
+  ],
+  [
+   "2022-05-02",
+   "Eintracht Frankfurt",
+   "lg",
+   86
+  ],
+  [
+   "2022-05-07",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   64
+  ],
+  [
+   "2022-05-14",
+   "SC Freiburg",
+   "lg",
+   7
+  ],
+  [
+   "2022-07-30",
+   "SV 07 Elversberg",
+   "dc",
+   45
+  ],
+  [
+   "2022-08-06",
+   "Borussia Dortmund",
+   "lg",
+   24
+  ],
+  [
+   "2022-08-13",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-20",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   76
+  ],
+  [
+   "2022-08-27",
+   "1.FSV Mainz 05",
+   "lg",
+   7
+  ],
+  [
+   "2022-09-03",
+   "SC Freiburg",
+   "lg",
+   30
+  ],
+  [
+   "2022-09-07",
+   "Club Brugge KV",
+   "clg",
+   4
+  ],
+  [
+   "2022-09-10",
+   "Hertha BSC",
+   "lg",
+   15
+  ],
+  [
+   "2022-09-13",
+   "Atlético de Madrid",
+   "clg",
+   1
+  ],
+  [
+   "2022-09-17",
+   "SV Werder Bremen",
+   "lg",
+   6
+  ],
+  [
+   "2022-09-30",
+   "FC Bayern Munich",
+   "lg",
+   29
+  ],
+  [
+   "2023-01-25",
+   "VfL Bochum",
+   "lg",
+   18
+  ],
+  [
+   "2023-01-29",
+   "Borussia Dortmund",
+   "lg",
+   10
+  ],
+  [
+   "2023-02-19",
+   "1.FSV Mainz 05",
+   "lg",
+   90
+  ],
+  [
+   "2023-02-23",
+   "AS Monaco",
+   "elk",
+   5
+  ],
+  [
+   "2023-02-26",
+   "SC Freiburg",
+   "lg",
+   86
+  ],
+  [
+   "2023-03-05",
+   "Hertha BSC",
+   "lg",
+   69
+  ],
+  [
+   "2023-03-09",
+   "Ferencvárosi TC",
+   "elk",
+   60
+  ],
+  [
+   "2023-03-12",
+   "SV Werder Bremen",
+   "lg",
+   2
+  ],
+  [
+   "2023-03-16",
+   "Ferencvárosi TC",
+   "elk",
+   71
+  ],
+  [
+   "2023-04-01",
+   "FC Schalke 04",
+   "lg",
+   24
+  ],
+  [
+   "2023-04-08",
+   "Eintracht Frankfurt",
+   "lg",
+   20
+  ],
+  [
+   "2023-04-13",
+   "Union Saint-Gilloise",
+   "elk",
+   23
+  ],
+  [
+   "2023-04-16",
+   "VfL Wolfsburg",
+   "lg",
+   62
+  ],
+  [
+   "2023-04-20",
+   "Union Saint-Gilloise",
+   "elk",
+   4
+  ],
+  [
+   "2023-04-23",
+   "RB Leipzig",
+   "lg",
+   22
+  ],
+  [
+   "2023-04-29",
+   "1.FC Union Berlin",
+   "lg",
+   28
+  ],
+  [
+   "2023-05-05",
+   "1.FC Köln",
+   "lg",
+   9
+  ],
+  [
+   "2023-05-11",
+   "AS Roma",
+   "elsf",
+   18
+  ],
+  [
+   "2023-05-14",
+   "VfB Stuttgart",
+   "lg",
+   88
+  ],
+  [
+   "2023-05-18",
+   "AS Roma",
+   "elsf",
+   90
+  ],
+  [
+   "2023-05-21",
+   "Borussia Mönchengladbach",
+   "lg",
+   23
+  ],
+  [
+   "2023-05-27",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-17",
+   "FC Empoli",
+   "lg",
+   7
+  ],
+  [
+   "2023-09-28",
+   "Genoa CFC",
+   "lg",
+   12
+  ],
+  [
+   "2023-10-01",
+   "Frosinone Calcio",
+   "lg",
+   1
+  ],
+  [
+   "2023-10-22",
+   "AC Monza",
+   "lg",
+   27
+  ],
+  [
+   "2023-10-29",
+   "Inter Milan",
+   "lg",
+   1
+  ],
+  [
+   "2023-11-05",
+   "US Lecce",
+   "lg",
+   17
+  ],
+  [
+   "2023-11-12",
+   "SS Lazio",
+   "lg",
+   8
+  ],
+  [
+   "2023-11-26",
+   "Udinese Calcio",
+   "lg",
+   27
+  ],
+  [
+   "2023-12-03",
+   "US Sassuolo",
+   "lg",
+   45
+  ],
+  [
+   "2023-12-10",
+   "ACF Fiorentina",
+   "lg",
+   37
+  ],
+  [
+   "2023-12-17",
+   "Bologna FC 1909",
+   "lg",
+   26
+  ],
+  [
+   "2023-12-23",
+   "SSC Napoli",
+   "lg",
+   19
+  ],
+  [
+   "2023-12-30",
+   "Juventus FC",
+   "lg",
+   10
+  ],
+  [
+   "2024-01-03",
+   "US Cremonese",
+   "dc",
+   23
+  ],
+  [
+   "2024-01-10",
+   "SS Lazio",
+   "dk",
+   32
+  ],
+  [
+   "2024-02-10",
+   "Inter Milan",
+   "lg",
+   3
+  ],
+  [
+   "2024-02-18",
+   "Frosinone Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-26",
+   "Torino FC",
+   "lg",
+   65
+  ],
+  [
+   "2024-03-07",
+   "Brighton & Hove Albion",
+   "elk",
+   2
+  ],
+  [
+   "2024-03-14",
+   "Brighton & Hove Albion",
+   "elk",
+   90
+  ],
+  [
+   "2024-03-17",
+   "US Sassuolo",
+   "lg",
+   4
+  ],
+  [
+   "2024-04-22",
+   "Bologna FC 1909",
+   "lg",
+   38
+  ],
+  [
+   "2024-04-25",
+   "Udinese Calcio",
+   "lg",
+   19
+  ],
+  [
+   "2024-04-28",
+   "SSC Napoli",
+   "lg",
+   69
+  ],
+  [
+   "2024-05-02",
+   "Bayer 04 Leverkusen",
+   "elsf",
+   11
+  ],
+  [
+   "2024-05-05",
+   "Juventus FC",
+   "lg",
+   22
+  ],
+  [
+   "2024-05-09",
+   "Bayer 04 Leverkusen",
+   "elsf",
+   72
+  ],
+  [
+   "2024-05-12",
+   "Atalanta BC",
+   "lg",
+   4
+  ],
+  [
+   "2024-05-26",
+   "FC Empoli",
+   "lg",
+   20
+  ],
+  [
+   "2024-08-06",
+   "Sepahan FC",
+   "acl",
+   59
+  ],
+  [
+   "2024-08-13",
+   "Al-Gharafa SC",
+   "acl",
+   33
+  ],
+  [
+   "2024-08-18",
+   "Ajman Club",
+   "dc",
+   71
+  ],
+  [
+   "2024-08-24",
+   "Al-Bataeh CSC",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-30",
+   "Ajman Club",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-18",
+   "Al-Hussein SC (Irbid)",
+   "ac2",
+   76
+  ],
+  [
+   "2024-09-22",
+   "Al-Wahda FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-27",
+   "Al-Orooba FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "FC Baniyas",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-19",
+   "Dibba Al-Hisn SC",
+   "dc",
+   32
+  ],
+  [
+   "2024-10-23",
+   "Kuwait SC",
+   "ac2",
+   13
+  ],
+  [
+   "2024-10-27",
+   "Sharjah FC",
+   "lg",
+   77
+  ],
+  [
+   "2024-11-06",
+   "Kuwait SC",
+   "ac2",
+   90
+  ],
+  [
+   "2024-11-27",
+   "Al-Hussein SC (Irbid)",
+   "ac2",
+   90
+  ],
+  [
+   "2024-12-04",
+   "Nasaf Qarshi",
+   "ac2",
+   90
+  ],
+  [
+   "2024-12-13",
+   "Al-Wasl SC",
+   "df",
+   90
+  ],
+  [
+   "2024-12-17",
+   "Al-Wasl SC",
+   "lg",
+   88
+  ],
+  [
+   "2024-12-23",
+   "Al-Nasr SC (UAE)",
+   "dk",
+   90
+  ],
+  [
+   "2025-01-05",
+   "Al-Nasr SC (UAE)",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-10",
+   "Al-Ain FC",
+   "lg",
+   79
+  ],
+  [
+   "2025-01-16",
+   "Al-Rayyan SC",
+   "df",
+   90,
+   1
+  ],
+  [
+   "2025-01-21",
+   "Al-Jazira Club",
+   "lg",
+   13
+  ],
+  [
+   "2025-02-08",
+   "Ajman Club",
+   "lg",
+   45
+  ],
+  [
+   "2025-02-12",
+   "Al-Wehdat SC",
+   "ac2",
+   74
+  ],
+  [
+   "2025-02-19",
+   "Al-Wehdat SC",
+   "ac2",
+   90
+  ],
+  [
+   "2025-02-23",
+   "Al-Orooba FC",
+   "lg",
+   88
+  ],
+  [
+   "2025-02-28",
+   "FC Baniyas",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-05",
+   "Sharjah FC",
+   "ac2k",
+   90
+  ],
+  [
+   "2025-03-12",
+   "Sharjah FC",
+   "ac2k",
+   120
+  ],
+  [
+   "2025-03-28",
+   "Sharjah FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-02",
+   "Al-Wasl SC",
+   "dsf",
+   106
+  ],
+  [
+   "2025-04-07",
+   "Al-Ain FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-11",
+   "Kalba FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-19",
+   "Al-Jazira Club",
+   "df",
+   90
+  ],
+  [
+   "2025-04-23",
+   "Khor Fakkan SSC",
+   "lg",
+   27
+  ],
+  [
+   "2025-04-27",
+   "Al-Wahda FC",
+   "lg",
+   45
+  ],
+  [
+   "2025-05-03",
+   "Al-Wasl SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-09",
+   "Sharjah FC",
+   "df",
+   79
+  ],
+  [
+   "2025-05-13",
+   "Al-Nasr SC (UAE)",
+   "lg",
+   13
+  ],
+  [
+   "2025-05-20",
+   "Dibba Al-Hisn SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-20",
+   "Al-Nasr SC (UAE)",
+   "lg",
+   13
+  ],
+  [
+   "2025-09-25",
+   "Al-Ain FC",
+   "lg",
+   17
+  ],
+  [
+   "2025-09-30",
+   "Al-Ittihad Club",
+   "acl",
+   25
+  ],
+  [
+   "2026-02-20",
+   "Al-Dhafra FC",
+   "lg",
+   15
+  ],
+  [
+   "2026-02-25",
+   "Al-Wasl SC",
+   "lg",
+   26
+  ],
+  [
+   "2026-03-07",
+   "Al-Wahda FC",
+   "lg",
+   21
+  ],
+  [
+   "2026-03-11",
+   "Kalba FC",
+   "lg",
+   24
+  ],
+  [
+   "2026-03-16",
+   "Dibba SCC",
+   "lg",
+   69
+  ],
+  [
+   "2026-03-21",
+   "Al-Jazira Club",
+   "dsf",
+   19
+  ],
+  [
+   "2026-04-04",
+   "Al-Jazira Club",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-10",
+   "Al-Ain FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-04-14",
+   "Tractor FC",
+   "acl",
+   70
+  ],
+  [
+   "2026-04-29",
+   "Khor Fakkan SSC",
+   "lg",
+   45
+  ],
+  [
+   "2026-05-10",
+   "FC Baniyas",
+   "lg",
+   21
+  ],
+  [
+   "2026-05-16",
+   "Al-Bataeh CSC",
+   "lg",
+   26
+  ],
+  [
+   "2026-08-15",
+   "Khor Fakkan SSC",
+   "lg",
+   45
+  ],
+  [
+   "2026-08-22",
+   "Al-Dhafra FC",
+   "lg",
+   45
+  ],
+  [
+   "2026-08-28",
+   "Al-Wasl SC",
+   "lg",
+   75
+  ],
+  [
+   "2026-09-05",
+   "Al-Jazira Club",
+   "lg",
+   58
+  ],
+  [
+   "2026-09-10",
+   "United FC (UAE)",
+   "lg",
+   90
+  ],
+  [
+   "2026-09-14",
+   "Tractor FC",
+   "acl",
+   64
+  ],
+  [
+   "2026-10-13",
+   "Al-Ittihad Club",
+   "acl",
+   90
+  ],
+  [
+   "2026-10-17",
+   "Al-Ain FC",
+   "lg",
+   84
+  ],
+  [
+   "2026-10-22",
+   "Al-Ain FC",
+   "dc",
+   95
+  ],
+  [
+   "2026-10-27",
+   "Esteghlal FC",
+   "acl",
+   87
+  ],
+  [
+   "2026-11-03",
+   "Al-Hilal SFC",
+   "acl",
+   90
+  ],
+  [
+   "2026-11-07",
+   "Sharjah FC",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-20",
+   "Ajman Club",
+   "lg",
+   15
+  ]
+ ],
+ "note": "사르다르 아즈문(루빈 카잔·FC 로스토프·제니트 상트페테르부르크·바이어 레버쿠젠·AS 로마·샤바브 알아흘리)의 클럽 공식 경기 399경기(2013.7.25 FK 야고디나전 ~ 2026.11.20 아즈만전)에서 나온 146골 51도움(PK 골 10개), 친선경기·이란 대표팀(A·연령별)·유소년 팀 경기 제외\n클럽별 경기·골·도움: 루빈 카잔(2013~2015) 32·7·3, FC 로스토프(임대 2015~2016, 이적 2016~2017) 77·25·6, 루빈 카잔(2017~2019) 45·10·7, 제니트 상트페테르부르크 104·62·14, 바이어 레버쿠젠 44·5·5, AS 로마(임대) 29·3·1, 샤바브 알아흘리 68·34·15. 출전 분 합계 23,198분(2025.1.16 카타르-UAE 챌린지 실드 1경기만 90분 추정, 나머지는 Transfermarkt 기록)\n제외한 경기: 루빈 카잔 U19(2013, 러시아 유소년 리그 13경기 6골)·로스토프 유스(2015, 1경기)는 유소년 팀이라 넣지 않음(14경기 6골, 863분). 세파한(이란)은 유소년 소속뿐이고 1군 공식 경기 없음\n출처: 경기 목록·출전 분(교체·연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트. 골 137개(111경기)는 FotMob 경기 기록과 대조함(러시아컵·러시아 승강 플레이오프·UAE 리그컵·UAE 대통령컵은 FotMob 경기 자료가 없음). ESPN 경기 기록도 대조한 골 114개가 모두 같음. 클럽·시즌·대회별 경기 수와 골은 영어 위키백과 표와 같음(위키백과는 2025-26 시즌 중간까지만 적혀 있고, 2024-25 '기타' 칸에 챌린지 실드 1경기 1골이 더 있음)\n추가한 경기: 2025.1.16 카타르-UAE 슈퍼컵 '챌린지 실드'(카타르 스타스 리그·UAE 프로리그 공동 개최 단판 경기) 알라얀 원정 3-1 승리. Transfermarkt 경기 목록에는 없지만 카타르 스타스 리그 공식 기사·The Peninsula·Gulf News·Gulf Times가 모두 아즈문의 52분 골(1-1에서 2-1)을 적음. 출전 분 자료가 없어 90분으로 추정. 슈퍼컵류라 국내컵 결승 비중\n넣지 않은 경기: 2026.10.8 UAE 리그컵 조별 유나이티드 FC전(FotMob 선수 경기 목록에만 33분 출전·도움 1, Transfermarkt 경기 목록과 경기 기사에서 출전을 확인하지 못함)\n골 판정: 2019.12.10 챔스 벤피카 원정 79분 자책골은 골이 아님. 2020.8.15 로스토프전 23분 골은 PK가 막힌 뒤 리바운드 골이라 PK 골이 아님. 2018.4.7 아흐마트전 70분 골은 FotMob만 아즈문 골로 적고 Transfermarkt·ESPN은 포포프 골(아즈문 슈팅을 밀어 넣음)이라 포포프 골로 둠(아즈문 도움도 슈팅 리바운드라 넣지 않음). 2025.1.10 알아인 원정 34분 골은 FotMob 경기 이벤트가 가스톤 수아레스로 적었지만 Transfermarkt와 FotMob 선수 경기 목록(골 1)이 아즈문이라 아즈문 골. 2025.1.5 바니야스전 PK 골은 Transfermarkt 76분(FotMob 74분)\n도움: Transfermarkt 도움 68개에서 PK 유도 10개(2013.10.6 안지전 에레멘코, 2017.7.29 아르세날 툴라전 착타시, 2020.7.19 러시아컵 스파르타크전 쥬바, 2020.9.26 우파전 쥬바, 2020.12.5 우랄전 쥬바, 2021.8.15 로코모티프전 수토르민, 2021.10.24 스파르타크전 쥬바, 2024.2.26 토리노전 디발라, 2024.4.28 나폴리전 디발라, 2024.5.9 유로파 레버쿠젠전 파레데스), 슈팅 리바운드 3개(2018.4.7 아흐마트전 70분 포포프, 2020.10.17 소치전 카라바예프, 2021.5.2 로코모티프전 쥬바), 상대 자책골 유도 1개(2020.7.15 오렌부르크전 말리흐 자책골)를 뺌. 본인 PK 골에 본인 도움으로 적힌 2개(2019.7.21 소치전, 2021.8.1 로스토프전)도 도움이 아님\n2014년 8월 뒤 도움은 Transfermarkt와 FotMob(경기 이벤트 또는 선수 경기 목록)이 같이 적은 것, 아니면 다른 독립 출처 2곳이 확인한 것만 셈. UAE 경기는 FotMob 경기 이벤트에 도움자가 거의 없어 FotMob 선수 경기 목록의 도움 수로 대조함(샤바브 알아흘리 도움 11개). 2022.7.30 DFB-포칼 엘버스베르크전 도움 2개는 FotMob 선수 경기 목록(도움 2)·ESPN이 같이 적음\n다른 출처로 확인해 넣은 도움: 2016.5.21 테레크전 50분 예로힌(Sports.ru 경기 중계·Sport-Express 경기 기록), 2019.10.30 러시아컵 톰전 81분 샤토프(Sport24 기사·Sport-Express 경기 평), 2020.8.22 탐보프전 47분 말콤(FotMob 경기 이벤트는 크루고보이 도움으로 적었지만 Sports.ru 경기 기록·Sport-Express 경기 평이 크루고보이 크로스를 아즈문이 이어 준 것으로 적고 FotMob 선수 경기 목록도 도움 1)\n확인하지 못해 넣지 않은 Transfermarkt 도움 3개: 2017.9.20 러시아컵 오렌부르크전 29분 소로킨(Sports.ru 중계: 코너킥을 오즈도예프가 떨궈 줌), 2021.10.29 디나모 모스크바전 69분 쥬바(RT 기사: 아즈문 슈팅이 골키퍼 맞고 튄 공 — 슈팅 리바운드), 2026.9.14 ACL 엘리트 트락토르전 22분 유리 세자르(다른 출처에 도움자 없음, FotMob 선수 경기 목록 0)\nFotMob 경기 이벤트에만 있는 도움 2개도 넣지 않음: 2021.3.13 아흐마트전 74분 쥬바 골, 2021.9.29 챔스 말뫼전 90+4분 벤델 골(두 경기 모두 FotMob 선수 경기 목록 도움 0, Transfermarkt 도움 없음)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값(레버쿠젠 동료 디아비·비르츠, 로마 동료 디발라·루카쿠), 같은 팀·같은 시즌 기존 값, 그 시즌 순위를 순위 규칙(리그·시즌 기준 평균 + 흩어짐 × 순위 곡선)에 넣은 값 순으로 씀 (기록 197개: 순위표 → 라벨 93, 기존 팀×시즌 값 94, 같은 경기 다른 선수 자료 9, 직접 라벨(순위표 밖) 1)\n새로 정한 팀-시즌 순위: FC Baniyas UAE 1부 2024-25 12위/14팀 1335, Dibba Al-Hisn SC UAE 1부 2024-25 13위/14팀 1326, Sharjah FC UAE 1부 2024-25 2위/14팀 1479, Al-Wahda FC UAE 1부 2024-25 3위/14팀 1444, Al-Jazira Club UAE 1부 2024-25 7위/14팀 1387, Khor Fakkan SSC UAE 1부 2024-25 8위/14팀 1376, Al-Dhafra FC UAE 1부 2025-26 12위/14팀 1329, Al-Jazira Club UAE 1부 2025-26 4위/14팀 1424, Al-Nasr SC (UAE) UAE 1부 2025-26 6위/14팀 1397, Khor Fakkan SSC UAE 1부 2026-27 9위/14팀 1376, Molde FK 노르웨이 1부 2013 6위/16팀 1421, Volga Nizhniy Novgorod 러시아 1부 2013-14 15위/16팀 1537, Anzhi Makhachkala 러시아 1부 2013-14 16위/16팀 1524, Kuban Krasnodar 러시아 1부 2014-15 10위/16팀 1575, Dinamo Moscow 러시아 1부 2014-15 4위/16팀 1639, Spartak Moscow 러시아 1부 2014-15 6위/16팀 1618, Dinamo Moscow 러시아 1부 2015-16 15위/16팀 1547, FC Krasnodar 러시아 1부 2015-16 4위/16팀 1656, Terek Grozny 러시아 1부 2015-16 7위/16팀 1621, Ural Yekaterinburg 러시아 1부 2015-16 8위/16팀 1608, Anzhi Makhachkala 러시아 1부 2016-17 12위/16팀 1560, Arsenal Tula 러시아 1부 2016-17 14위/16팀 1535, Tom Tomsk 러시아 1부 2016-17 16위/16팀 1514, Rubin Kazan 러시아 1부 2016-17 9위/16팀 1579, Amkar Perm 러시아 1부 2017-18 13위/16팀 1516, Anzhi Makhachkala 러시아 1부 2017-18 14위/16팀 1503, SKA Khabarovsk 러시아 1부 2017-18 16위/16팀 1482, FC Krasnodar 러시아 1부 2017-18 4위/16팀 1605, Akhmat Grozny 러시아 1부 2017-18 9위/16팀 1548, Ural Yekaterinburg 러시아 1부 2018-19 10위/16팀 1496, Dinamo Moscow 러시아 1부 2018-19 12위/16팀 1484, Krylya Sovetov Samara 러시아 1부 2018-19 13위/16팀 1471, FC Ufa 러시아 1부 2018-19 14위/16팀 1458, Anzhi Makhachkala 러시아 1부 2018-19 15위/16팀 1451, Enisey Krasnoyarsk 러시아 1부 2018-19 16위/16팀 1438, Arsenal Tula 러시아 1부 2018-19 6위/16팀 1539, FC Orenburg 러시아 1부 2018-19 7위/16팀 1525, Akhmat Grozny 러시아 1부 2018-19 8위/16팀 1512, FK Tambov 러시아 1부 2019-20 14위/16팀 1431, Krylya Sovetov Samara 러시아 1부 2019-20 15위/16팀 1423, FC Rostov 러시아 1부 2019-20 5위/16팀 1523, Dinamo Moscow 러시아 1부 2019-20 6위/16팀 1512, Arsenal Tula 러시아 1부 2019-20 8위/16팀 1484, CSKA Moscow 러시아 1부 2020-21 6위/16팀 1467, Dynamo Moscow 러시아 1부 2020-21 7위/16팀 1453, FC Rostov 러시아 1부 2020-21 9위/16팀 1431, FC Krasnodar 러시아 1부 2021-22 4위/16팀 1467, FC Tosno 러시아 2부 2014-15 3위/18팀 1287, Tom Tomsk 러시아 2부 2019-20 9위/20팀 1179, Al-Hussein SC (Irbid) 요르단 1부 2024-25 1위/12팀 1399, Al-Wehdat SC 요르단 1부 2024-25 2위/12팀 1325, Nasaf Qarshi 우즈베키스탄 1부 2024 1위/14팀 1409, Sepahan FC 이란 1부 2023-24 3위/16팀 1398, Esteghlal FC 이란 1부 2026-27 5위/18팀 1355, AC Sparta Praha 체코 1부 2016-17 3위/16팀 1522. 순위는 Transfermarkt 최종 순위표(우승 팀 확인), 진행 중인 2026-27 시즌은 2026.11.22 현재 순위. 2024.8.6 ACL 엘리트 예선 세파한은 이란 리그 2024-25 개막(8.15) 전이라 끝난 2023-24 시즌 3위(영어 위키백과 순위표). 쿠웨이트 SC 2024-25는 FotMob 순위표(정규 시즌·챔피언십 그룹 1위). 요르단·쿠웨이트·러시아 2부·독일 3부·UAE 2부는 리그 수준 추정\n대회 비중: 러시아 프리미어리그·분데스리가·세리에A·UAE 프로리그는 리그, 2015.6.7 러시아 승강 플레이오프 2차전 토스노전(1차전 원정 1-0 승)은 리그 비중 + 두 경기 합산. 러시아컵·DFB-포칼·코파 이탈리아·UAE 대통령컵·UAE 리그컵은 국내컵(16강까지·8강·준결승·결승), 러시아 슈퍼컵·UAE 슈퍼컵·카타르-UAE 챌린지 실드는 국내컵 결승 비중. 챔스 예선·조별, 유로파 예선·32강~8강·준결승, AFC 챔피언스리그 엘리트(예선·리그 단계·16강), AFC 챔피언스리그 투(조별·16강, 8강)는 각 대회 단계 비중(조별·리그 단계는 리그식)\n두 경기 합산 기록 19개: 유럽 대회는 2020-21까지 원정 다득점·연장, 러시아 승강 플레이오프는 원정 다득점·연장, AFC 챔피언스리그 투 2024-25는 원정 다득점 없이 연장, UAE 리그컵은 원정 다득점·연장 없이 바로 승부차기. 승부차기 경기의 골 뒤 스코어는 연장까지의 스코어\n시즌 구분: 루빈·로스토프는 7월 1일 기준(러시아 리그 7월 개막), 제니트는 7월 1일 기준이되 2020년 7월(코로나로 늦게 끝난 2019-20 시즌)은 2019-20, 레버쿠젠은 7월 10일 기준(2022.7.30 DFB-포칼 1라운드 = 2022-23), 로마·샤바브 알아흘리는 8월 1일 기준. 클럽 구분은 Transfermarkt 이적일(2015.2.26 로스토프 임대, 2017.7.14 루빈 복귀, 2019.2.1 제니트, 2022.1.30 레버쿠젠, 2023.8.26 로마 임대, 2024.7.28 샤바브 알아흘리)\n날짜는 경기 현지 날짜. 2025.4.7 알아인전은 Transfermarkt가 4.6으로 적었지만 UAE 프로리그 공식 기사('월요일')·FotMob이 4.7\n동료 자료 대조: 레버쿠젠 디아비(2023.4.1 샬케전 90+1분 아즈문 골 도움)·비르츠(2023.4.13 유로파 위니옹전 82분 비르츠 골 아즈문 도움), 로마 루카쿠(2024.1.3 코파 이탈리아 크레모네세전 77분)의 같은 경기 기록과 날짜·분·골 전 스코어·상대 Elo가 같음. 디발라의 2024.2.26 토리노전·4.28 나폴리전 PK 골은 아즈문이 얻은 PK라 양쪽 모두 도움 없음\n우승·수상은 Transfermarkt 업적 페이지 기준: 러시아 프리미어리그 2018-19·2019-20·2020-21·2021-22(제니트, 2021-22는 1월 이적 전 전반기), 러시아컵 2019-20, 러시아 슈퍼컵 2020·2021, UAE 프로리그·UAE 대통령컵·UAE 슈퍼컵 2024-25(샤바브 알아흘리), 러시아 프리미어리그 득점왕 2019-20(17골), AFC 챔피언스리그 투 득점왕 2024-25(9골), 올해의 선수 2021(Transfermarkt 'Footballer of the Year', 제니트). 카타르-UAE 챌린지 실드 2025 우승은 Transfermarkt 업적에 없어 넣지 않음. 대표팀 기록은 뺌\n현역(샤바브 알아흘리, 2028.6까지). 2026.11.21 기준 마지막 반영 경기 2026.11.20 UAE 프로리그 9라운드 아즈만전(홈 3-1, 교체 15분)",
+ "judgments": [
+  [
+   "도움 제외",
+   "2013-10-06",
+   "Anzhi Makhachkala",
+   "90+4",
+   "Roman Eremenko",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2017-07-29",
+   "Arsenal Tula",
+   "75",
+   "Mijo Caktas",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2017-09-20",
+   "FC Orenburg",
+   "29",
+   "Egor Sorokin",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2018-04-07",
+   "Akhmat Grozny",
+   "70",
+   "Ivelin Popov",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2019-07-21",
+   "FC Sochi",
+   "30",
+   "Penalty: Fouled player"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2019-12-10",
+   "SL Benfica",
+   "79"
+  ],
+  [
+   "도움 제외",
+   "2020-07-15",
+   "FC Orenburg",
+   "2",
+   "Andrey Malykh",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-07-19",
+   "Spartak Moscow",
+   "24",
+   "Artem Dzyuba",
+   "PK 유도"
+  ],
+  [
+   "PK 리바운드 골(PK 아님)",
+   "2020-08-15",
+   "FC Rostov",
+   "23"
+  ],
+  [
+   "도움 제외",
+   "2020-09-26",
+   "FC Ufa",
+   "32",
+   "Artem Dzyuba",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-10-17",
+   "FC Sochi",
+   "16",
+   "Vyacheslav Karavaev",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2020-12-05",
+   "Ural Yekaterinburg",
+   "30",
+   "Artem Dzyuba",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2021-05-02",
+   "Lokomotiv Moscow",
+   "51",
+   "Artem Dzyuba",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2021-08-01",
+   "FC Rostov",
+   "35",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 제외",
+   "2021-08-15",
+   "Lokomotiv Moscow",
+   "85",
+   "Aleksey Sutormin",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2021-10-24",
+   "Spartak Moscow",
+   "80",
+   "Artem Dzyuba",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2021-10-29",
+   "Dynamo Moscow",
+   "69",
+   "Artem Dzyuba",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2024-02-26",
+   "Torino FC",
+   "42",
+   "Paulo Dybala",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-04-28",
+   "SSC Napoli",
+   "59",
+   "Paulo Dybala",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-05-09",
+   "Bayer 04 Leverkusen",
+   "43",
+   "Leandro Paredes",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2026-09-14",
+   "Tractor FC",
+   "22",
+   "Yuri César",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2014-08-23",
+   "2487347",
+   "83",
+   "Gökdeniz Karadeniz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-10-26",
+   "2629986",
+   "85",
+   "Moussa Doumbia",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-03-12",
+   "2654342",
+   "45",
+   "Dmitriy Poloz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-05-21",
+   "2683508",
+   "50",
+   "Aleksandr Erokhin",
+   "넣음: Sports.ru 경기 문자 중계·기록(아즈문이 수비 둘을 제치고 내준 공을 예로힌이 빈 골문에 넣음)·Sport-Express 경기 기록(예로힌, 도움 아즈문)"
+  ],
+  [
+   "2016-09-28",
+   "2754913",
+   "37",
+   "Dmitriy Poloz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-11-06",
+   "2771351",
+   "26",
+   "Aleksandr Erokhin",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-03-03",
+   "2813592",
+   "78",
+   "Aleksandr Erokhin",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-09-20",
+   "2921869",
+   "29",
+   "Egor Sorokin",
+   "뺌: Sports.ru 경기 중계: 쿠드랴쇼프 코너킥을 오즈도예프가 떨궈 줌(아즈문 관여 없음), Sport-Express 기사 도움자 없음"
+  ],
+  [
+   "2017-12-09",
+   "2921434",
+   "49",
+   "Magomed Ozdoev",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-03-02",
+   "2982762",
+   "36",
+   "Ivelin Popov",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-04-07",
+   "3023531",
+   "49",
+   "Ivelin Popov",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-08-18",
+   "3088888",
+   "84",
+   "Khoren Bayramyan",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-09-15",
+   "3100100",
+   "6",
+   "Dmitriy Poloz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-09-22",
+   "3100170",
+   "77",
+   "Igor Konovalov",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-01",
+   "3107624",
+   "27",
+   "Vyacheslav Podberezkin",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-02-21",
+   "3135873",
+   "4",
+   "Magomed Ozdoev",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-04-14",
+   "3174475",
+   "9",
+   "Branislav Ivanovic",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-05-26",
+   "3183732",
+   "71",
+   "Sebastián Driussi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-08-03",
+   "3224725",
+   "90+1",
+   "Artem Dzyuba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-08-10",
+   "3234728",
+   "10",
+   "Artem Dzyuba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-06",
+   "3264427",
+   "27",
+   "Magomed Ozdoev",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-19",
+   "3264943",
+   "90+2",
+   "Wilmar Barrios",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-27",
+   "3266907",
+   "90+3",
+   "Artem Dzyuba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-30",
+   "3263724",
+   "81",
+   "Oleg Shatov",
+   "넣음: Sport24 기사(교체 투입된 아즈문이 샤토프에게 골 도움)·Sport-Express 경기 평(아즈문과 샤토프의 2 대 1 역습에서 샤토프 골)"
+  ],
+  [
+   "2020-03-14",
+   "3298472",
+   "69",
+   "Sebastián Driussi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-07-15",
+   "3335182",
+   "90+1",
+   "Artem Dzyuba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-08-22",
+   "3409238",
+   "47",
+   "Malcom",
+   "넣음: Sports.ru 경기 기록(말콤 골, 도움 아즈문; 중계 '크루고보이가 올린 공을 아즈문이 방향을 바꿔 주고 말콤이 마무리')·Sport-Express 경기 평(크루고보이의 크로스를 아즈문이 고쳐 놓았고 말콤이 넣음)·FotMob 선수 경기 목록 도움 1"
+  ],
+  [
+   "2020-12-05",
+   "3464306",
+   "44",
+   "Douglas Santos",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-29",
+   "3602502",
+   "66",
+   "Wendel",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-29",
+   "3602502",
+   "69",
+   "Artem Dzyuba",
+   "뺌: RT 경기 기사: 아즈문의 슈팅이 골키퍼 슈닌에 맞고 튄 공을 쥬바가 밀어 넣음(슈팅 리바운드, 도움 아님)"
+  ],
+  [
+   "2022-04-23",
+   "3588615",
+   "58",
+   "Paulinho",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-07-30",
+   "3825596",
+   "5",
+   "Adam Hlozek",
+   "TM+FotMob 선수 경기 목록(도움 2)"
+  ],
+  [
+   "2022-07-30",
+   "3825596",
+   "30",
+   "Charles Aránguiz",
+   "TM+FotMob 선수 경기 목록(도움 2)"
+  ],
+  [
+   "2023-02-19",
+   "3839367",
+   "32",
+   "Nadiem Amiri",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-04-13",
+   "4041610",
+   "82",
+   "Florian Wirtz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-01-03",
+   "4221301",
+   "77",
+   "Romelu Lukaku",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-09-22",
+   "4460957",
+   "87",
+   "Munas Dabbur",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2024-11-27",
+   "4434558",
+   "90+1",
+   "Munas Dabbur",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2024-12-04",
+   "4434574",
+   "23",
+   "Mateusão",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2024-12-13",
+   "4511053",
+   "45+2",
+   "Guilherme Bala",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-12-17",
+   "4499199",
+   "39",
+   "Guilherme Bala",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2025-02-19",
+   "4509737",
+   "81",
+   "Mateusão",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2025-02-23",
+   "4560610",
+   "54",
+   "Guilherme Bala",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2025-02-28",
+   "4560624",
+   "84",
+   "Yuri César",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2025-04-23",
+   "4590900",
+   "66",
+   "Kauan Santos",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2025-05-03",
+   "4590903",
+   "79",
+   "Saeed Ezatolahi",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2026-02-20",
+   "4807968",
+   "77",
+   "Mohammad Juma",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2026-04-04",
+   "4857458",
+   "19",
+   "Yuri César",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2026-08-15",
+   "5022603",
+   "57",
+   "Saeed Ezatolahi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-09-14",
+   "5021637",
+   "22",
+   "Yuri César",
+   "뺌: The National 기사에 도움자 없음('기회를 놓치지 않은 슈팅'), FotMob 선수 경기 목록 도움 0 — 두 번째 출처 없음"
+  ],
+  [
+   "2026-10-27",
+   "5021797",
+   "69",
+   "Mateusão",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-10-27",
+   "5021797",
+   "84",
+   "Juan Bezerra",
+   "TM+FotMob 이벤트"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "2021-03-13",
+   "3522854",
+   74,
+   "Artem Dzyuba"
+  ],
+  [
+   "2021-09-29",
+   "3651075",
+   94,
+   "Wendel"
+  ]
+ ],
+ "fotmob_playermatches_only": [],
+ "cross_check": [
+  [
+   "타인 도움(아즈문 골)",
+   "dia.js",
+   "2023-04-01",
+   91,
+   "FC Schalke 04",
+   "같음"
+  ],
+  [
+   "아즈문 도움→타인 골",
+   "luk.js",
+   "2024-01-03",
+   77,
+   "Romelu Lukaku",
+   "같음"
+  ],
+  [
+   "아즈문 도움→타인 골",
+   "wir.js",
+   "2023-04-13",
+   82,
+   "Florian Wirtz",
+   "같음"
+  ],
+  [
+   "TM 아즈문 도움을 뺀 타인 골",
+   "dyb.js",
+   "2024-02-26",
+   42,
+   "PK 유도"
+  ],
+  [
+   "TM 아즈문 도움을 뺀 타인 골",
+   "dyb.js",
+   "2024-04-28",
+   59,
+   "PK 유도"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "골 수 다름",
+   "3023531",
+   "2018-04-07",
+   [
+    "63"
+   ],
+   [
+    "63",
+    "70"
+   ]
+  ],
+  [
+   "골 수 다름",
+   "3252238",
+   "2019-12-10",
+   [],
+   [
+    "79"
+   ]
+  ],
+  [
+   "골 수 다름",
+   "4484454",
+   "2025-01-10",
+   [
+    "34"
+   ],
+   []
+  ],
+  [
+   "다름",
+   "4499206",
+   "2025-01-05",
+   "76",
+   "Penalty",
+   "74",
+   "",
+   "penalty"
+  ]
+ ],
+ "elo_sources": {
+  "순위표 → 라벨": 93,
+  "기존 팀×시즌 값": 94,
+  "같은 경기 다른 선수 자료": 9,
+  "직접 라벨(순위표 밖)": 1
+ },
+ "new_team_seasons": {
+  "Molde FK|2013-14": [
+   1421,
+   "노르웨이 1부 2013 6위/16팀 (Eliteserien)"
+  ],
+  "Anzhi Makhachkala|2013-14": [
+   1524,
+   "러시아 1부 2013-14 16위/16팀 (Russian Premier League)"
+  ],
+  "Volga Nizhniy Novgorod|2013-14": [
+   1537,
+   "러시아 1부 2013-14 15위/16팀 (Russian Premier League)"
+  ],
+  "Spartak Moscow|2014-15": [
+   1618,
+   "러시아 1부 2014-15 6위/16팀 (Russian Premier League)"
+  ],
+  "Kuban Krasnodar|2014-15": [
+   1575,
+   "러시아 1부 2014-15 10위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2014-15": [
+   1639,
+   "러시아 1부 2014-15 4위/16팀 (Russian Premier League)"
+  ],
+  "FC Tosno|2014-15": [
+   1287,
+   "러시아 2부 2014-15 3위/18팀 (Russian Football National League, 리그 수준 추정)"
+  ],
+  "FC Krasnodar|2015-16": [
+   1656,
+   "러시아 1부 2015-16 4위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2015-16": [
+   1547,
+   "러시아 1부 2015-16 15위/16팀 (Russian Premier League)"
+  ],
+  "Ural Yekaterinburg|2015-16": [
+   1608,
+   "러시아 1부 2015-16 8위/16팀 (Russian Premier League)"
+  ],
+  "Terek Grozny|2015-16": [
+   1621,
+   "러시아 1부 2015-16 7위/16팀 (Russian Premier League)"
+  ],
+  "Arsenal Tula|2016-17": [
+   1535,
+   "러시아 1부 2016-17 14위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2016-17": [
+   1560,
+   "러시아 1부 2016-17 12위/16팀 (Russian Premier League)"
+  ],
+  "AC Sparta Praha|2016-17": [
+   1522,
+   "체코 1부 2016-17 3위/16팀 (Czech First League)"
+  ],
+  "Tom Tomsk|2016-17": [
+   1514,
+   "러시아 1부 2016-17 16위/16팀 (Russian Premier League)"
+  ],
+  "Rubin Kazan|2016-17": [
+   1579,
+   "러시아 1부 2016-17 9위/16팀 (Russian Premier League)"
+  ],
+  "SKA Khabarovsk|2017-18": [
+   1482,
+   "러시아 1부 2017-18 16위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2017-18": [
+   1503,
+   "러시아 1부 2017-18 14위/16팀 (Russian Premier League)"
+  ],
+  "Akhmat Grozny|2017-18": [
+   1548,
+   "러시아 1부 2017-18 9위/16팀 (Russian Premier League)"
+  ],
+  "Amkar Perm|2017-18": [
+   1516,
+   "러시아 1부 2017-18 13위/16팀 (Russian Premier League)"
+  ],
+  "FC Krasnodar|2017-18": [
+   1605,
+   "러시아 1부 2017-18 4위/16팀 (Russian Premier League)"
+  ],
+  "Akhmat Grozny|2018-19": [
+   1512,
+   "러시아 1부 2018-19 8위/16팀 (Russian Premier League)"
+  ],
+  "Enisey Krasnoyarsk|2018-19": [
+   1438,
+   "러시아 1부 2018-19 16위/16팀 (Russian Premier League)"
+  ],
+  "Arsenal Tula|2018-19": [
+   1539,
+   "러시아 1부 2018-19 6위/16팀 (Russian Premier League)"
+  ],
+  "Krylya Sovetov Samara|2018-19": [
+   1471,
+   "러시아 1부 2018-19 13위/16팀 (Russian Premier League)"
+  ],
+  "Ural Yekaterinburg|2018-19": [
+   1496,
+   "러시아 1부 2018-19 10위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2018-19": [
+   1484,
+   "러시아 1부 2018-19 12위/16팀 (Russian Premier League)"
+  ],
+  "FC Ufa|2018-19": [
+   1458,
+   "러시아 1부 2018-19 14위/16팀 (Russian Premier League)"
+  ],
+  "FC Orenburg|2018-19": [
+   1525,
+   "러시아 1부 2018-19 7위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2018-19": [
+   1451,
+   "러시아 1부 2018-19 15위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2019-20": [
+   1512,
+   "러시아 1부 2019-20 6위/16팀 (Russian Premier League)"
+  ],
+  "FC Rostov|2019-20": [
+   1523,
+   "러시아 1부 2019-20 5위/16팀 (Russian Premier League)"
+  ],
+  "Krylya Sovetov Samara|2019-20": [
+   1423,
+   "러시아 1부 2019-20 15위/16팀 (Russian Premier League)"
+  ],
+  "Tom Tomsk|2019-20": [
+   1179,
+   "러시아 2부 2019-20 9위/20팀 (Russian Football National League, 리그 수준 추정)"
+  ],
+  "Arsenal Tula|2019-20": [
+   1484,
+   "러시아 1부 2019-20 8위/16팀 (Russian Premier League)"
+  ],
+  "FK Tambov|2019-20": [
+   1431,
+   "러시아 1부 2019-20 14위/16팀 (Russian Premier League)"
+  ],
+  "FC Rostov|2020-21": [
+   1431,
+   "러시아 1부 2020-21 9위/16팀 (Russian Premier League)"
+  ],
+  "CSKA Moscow|2020-21": [
+   1467,
+   "러시아 1부 2020-21 6위/16팀 (Russian Premier League)"
+  ],
+  "Dynamo Moscow|2020-21": [
+   1453,
+   "러시아 1부 2020-21 7위/16팀 (Russian Premier League)"
+  ],
+  "FC Krasnodar|2021-22": [
+   1467,
+   "러시아 1부 2021-22 4위/16팀 (Russian Premier League)"
+  ],
+  "Sepahan FC|2023-24": [
+   1398,
+   "이란 1부 2023-24 3위/16팀 (Persian Gulf Pro League, 2024-25 시즌 개막 전 경기라 직전 시즌 순위)"
+  ],
+  "Al-Hussein SC (Irbid)|2024-25": [
+   1399,
+   "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Al-Wahda FC|2024-25": [
+   1444,
+   "UAE 1부 2024-25 3위/14팀 (UAE Pro League)"
+  ],
+  "FC Baniyas|2024-25": [
+   1335,
+   "UAE 1부 2024-25 12위/14팀 (UAE Pro League)"
+  ],
+  "Dibba Al-Hisn SC|2024-25": [
+   1326,
+   "UAE 1부 2024-25 13위/14팀 (UAE Pro League)"
+  ],
+  "Sharjah FC|2024-25": [
+   1479,
+   "UAE 1부 2024-25 2위/14팀 (UAE Pro League)"
+  ],
+  "Nasaf Qarshi|2024-25": [
+   1409,
+   "우즈베키스탄 1부 2024 1위/14팀 (Uzbekistan Super League)"
+  ],
+  "Al-Wehdat SC|2024-25": [
+   1325,
+   "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Al-Jazira Club|2024-25": [
+   1387,
+   "UAE 1부 2024-25 7위/14팀 (UAE Pro League)"
+  ],
+  "Khor Fakkan SSC|2024-25": [
+   1376,
+   "UAE 1부 2024-25 8위/14팀 (UAE Pro League)"
+  ],
+  "Al-Nasr SC (UAE)|2025-26": [
+   1397,
+   "UAE 1부 2025-26 6위/14팀 (UAE Pro League)"
+  ],
+  "Al-Dhafra FC|2025-26": [
+   1329,
+   "UAE 1부 2025-26 12위/14팀 (UAE Pro League)"
+  ],
+  "Al-Jazira Club|2025-26": [
+   1424,
+   "UAE 1부 2025-26 4위/14팀 (UAE Pro League)"
+  ],
+  "Khor Fakkan SSC|2026-27": [
+   1376,
+   "UAE 1부 2026-27 9위/14팀 (UAE Pro League, 2026년 11월 22일 현재 순위)"
+  ],
+  "Esteghlal FC|2026-27": [
+   1355,
+   "이란 1부 2026-27 5위/18팀 (Persian Gulf Pro League, 2026년 11월 22일 현재 순위)"
+  ]
+ },
+ "table_label_diffs": [],
+ "date_changes": [
+  [
+   "4560599",
+   "2025-04-06",
+   "2025-04-07",
+   "Shabab Al-Ahli Dubai FC",
+   "Al-Ain FC"
+  ]
+ ],
+ "elo_log": {
+  "Molde FK|2013-08-29": [
+   "model",
+   1421,
+   "노르웨이 1부 2013 6위/16팀 (Eliteserien)"
+  ],
+  "Anzhi Makhachkala|2013-10-06": [
+   "model",
+   1524,
+   "러시아 1부 2013-14 16위/16팀 (Russian Premier League)"
+  ],
+  "Volga Nizhniy Novgorod|2014-03-16": [
+   "model",
+   1537,
+   "러시아 1부 2013-14 15위/16팀 (Russian Premier League)"
+  ],
+  "FC Rostov|2014-03-30": [
+   "table",
+   1611,
+   "러시아 1부 2013-14 7위/16팀 (Russian Premier League)",
+   "2013-14"
+  ],
+  "Zenit St. Petersburg|2014-04-06": [
+   "table",
+   1697,
+   "러시아 1부 2013-14 2위/16팀 (Russian Premier League)",
+   "2013-14"
+  ],
+  "Krylya Sovetov Samara|2014-05-10": [
+   "table",
+   1545,
+   "러시아 프리미어리그 2013-14 14위/16팀 (리그 수준 추정)",
+   "2013-14"
+  ],
+  "Terek Grozny|2014-08-09": [
+   "table",
+   1582,
+   "러시아 프리미어리그 2014-15 9위/16팀 (리그 수준 추정)",
+   "2014-15"
+  ],
+  "CSKA Moscow|2014-08-23": [
+   "table",
+   1690,
+   "러시아 1부 2014-15 2위/16팀 (Russian Premier League)",
+   "2014-15"
+  ],
+  "Spartak Moscow|2014-10-30": [
+   "model",
+   1618,
+   "러시아 1부 2014-15 6위/16팀 (Russian Premier League)"
+  ],
+  "Kuban Krasnodar|2015-03-16": [
+   "model",
+   1575,
+   "러시아 1부 2014-15 10위/16팀 (Russian Premier League)"
+  ],
+  "FC Ufa|2015-04-09": [
+   "table",
+   1563,
+   "러시아 프리미어리그 2014-15 12위/16팀 (리그 수준 추정)",
+   "2014-15"
+  ],
+  "Dinamo Moscow|2015-04-26": [
+   "model",
+   1639,
+   "러시아 1부 2014-15 4위/16팀 (Russian Premier League)"
+  ],
+  "FC Tosno|2015-06-07": [
+   "model",
+   1287,
+   "러시아 2부 2014-15 3위/18팀 (Russian Football National League, 리그 수준 추정)"
+  ],
+  "CSKA Moscow|2015-08-22": [
+   "table",
+   1767,
+   "러시아 1부 2015-16 1위/16팀 (Russian Premier League)",
+   "2015-16"
+  ],
+  "Mordovia Saransk|2015-10-19": [
+   "table",
+   1533,
+   "러시아 프리미어리그 2015-16 16위/16팀 (리그 수준 추정)",
+   "2015-16"
+  ],
+  "Lokomotiv Moskau|2015-10-26": [
+   "table",
+   1635,
+   "러시아 프리미어리그 2015-16 6위/16팀 (리그 수준 추정)",
+   "2015-16"
+  ],
+  "FC Krasnodar|2015-11-30": [
+   "model",
+   1656,
+   "러시아 1부 2015-16 4위/16팀 (Russian Premier League)"
+  ],
+  "CSKA Moscow|2016-03-12": [
+   "table",
+   1767,
+   "러시아 1부 2015-16 1위/16팀 (Russian Premier League)",
+   "2015-16"
+  ],
+  "Zenit St. Petersburg|2016-04-24": [
+   "table",
+   1674,
+   "러시아 1부 2015-16 3위/16팀 (Russian Premier League)",
+   "2015-16"
+  ],
+  "Mordovia Saransk|2016-05-01": [
+   "table",
+   1533,
+   "러시아 프리미어리그 2015-16 16위/16팀 (리그 수준 추정)",
+   "2015-16"
+  ],
+  "Lokomotiv Moskau|2016-05-06": [
+   "table",
+   1635,
+   "러시아 프리미어리그 2015-16 6위/16팀 (리그 수준 추정)",
+   "2015-16"
+  ],
+  "Dinamo Moscow|2016-05-12": [
+   "model",
+   1547,
+   "러시아 1부 2015-16 15위/16팀 (Russian Premier League)"
+  ],
+  "Ural Yekaterinburg|2016-05-16": [
+   "model",
+   1608,
+   "러시아 1부 2015-16 8위/16팀 (Russian Premier League)"
+  ],
+  "Terek Grozny|2016-05-21": [
+   "model",
+   1621,
+   "러시아 1부 2015-16 7위/16팀 (Russian Premier League)"
+  ],
+  "RSC Anderlecht|2016-08-03": [
+   "table",
+   1830,
+   "벨기에 1부 2016-17 1위/16팀 (추정, 다른 선수 자료 벨기에 1부 1위 1764와 같음)",
+   "2016-17"
+  ],
+  "Ajax Amsterdam|2016-08-24": [
+   "table",
+   1666,
+   "에레디비시 2016-17 2위 (추정: 모형값)",
+   "2016-17"
+  ],
+  "PSV Eindhoven|2016-09-28": [
+   "table",
+   1609,
+   "에레디비시 2016-17 3위",
+   "2016-17"
+  ],
+  "Atlético de Madrid|2016-11-01": [
+   "table",
+   2023,
+   "라리가 2016-17 3위",
+   "2016-17"
+  ],
+  "Arsenal Tula|2016-11-06": [
+   "model",
+   1535,
+   "러시아 1부 2016-17 14위/16팀 (Russian Premier League)"
+  ],
+  "FC Bayern Munich|2016-11-23": [
+   "table",
+   1976,
+   "분데스리가 2016-17 1위",
+   "2016-17"
+  ],
+  "Anzhi Makhachkala|2016-11-27": [
+   "model",
+   1560,
+   "러시아 1부 2016-17 12위/16팀 (Russian Premier League)"
+  ],
+  "AC Sparta Praha|2017-02-16": [
+   "model",
+   1522,
+   "체코 1부 2016-17 3위/16팀 (Czech First League)"
+  ],
+  "Tom Tomsk|2017-03-03": [
+   "model",
+   1514,
+   "러시아 1부 2016-17 16위/16팀 (Russian Premier League)"
+  ],
+  "Rubin Kazan|2017-05-14": [
+   "model",
+   1579,
+   "러시아 1부 2016-17 9위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2017-05-17": [
+   "model",
+   1560,
+   "러시아 1부 2016-17 12위/16팀 (Russian Premier League)"
+  ],
+  "SKA Khabarovsk|2017-12-09": [
+   "model",
+   1482,
+   "러시아 1부 2017-18 16위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2018-03-02": [
+   "model",
+   1503,
+   "러시아 1부 2017-18 14위/16팀 (Russian Premier League)"
+  ],
+  "Akhmat Grozny|2018-04-07": [
+   "model",
+   1548,
+   "러시아 1부 2017-18 9위/16팀 (Russian Premier League)"
+  ],
+  "Amkar Perm|2018-04-14": [
+   "model",
+   1516,
+   "러시아 1부 2017-18 13위/16팀 (Russian Premier League)"
+  ],
+  "FC Krasnodar|2018-05-13": [
+   "model",
+   1605,
+   "러시아 1부 2017-18 4위/16팀 (Russian Premier League)"
+  ],
+  "FC Krasnodar|2018-07-29": [
+   "table",
+   1611,
+   "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "2018-19"
+  ],
+  "Akhmat Grozny|2018-08-18": [
+   "model",
+   1512,
+   "러시아 1부 2018-19 8위/16팀 (Russian Premier League)"
+  ],
+  "Enisey Krasnoyarsk|2018-09-15": [
+   "model",
+   1438,
+   "러시아 1부 2018-19 16위/16팀 (Russian Premier League)"
+  ],
+  "Arsenal Tula|2018-09-22": [
+   "model",
+   1539,
+   "러시아 1부 2018-19 6위/16팀 (Russian Premier League)"
+  ],
+  "Krylya Sovetov Samara|2018-10-01": [
+   "model",
+   1471,
+   "러시아 1부 2018-19 13위/16팀 (Russian Premier League)"
+  ],
+  "Ural Yekaterinburg|2018-10-06": [
+   "model",
+   1496,
+   "러시아 1부 2018-19 10위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2018-10-25": [
+   "model",
+   1484,
+   "러시아 1부 2018-19 12위/16팀 (Russian Premier League)"
+  ],
+  "Fenerbahce|2019-02-21": [
+   "table",
+   1525,
+   "쉬페르리그 2018-19 6위/18팀",
+   "2018-19"
+  ],
+  "Ural Yekaterinburg|2019-03-02": [
+   "model",
+   1496,
+   "러시아 1부 2018-19 10위/16팀 (Russian Premier League)"
+  ],
+  "Villarreal CF|2019-03-07": [
+   "table",
+   1808,
+   "라리가 2018-19 14위",
+   "2018-19"
+  ],
+  "FC Ufa|2019-03-10": [
+   "model",
+   1458,
+   "러시아 1부 2018-19 14위/16팀 (Russian Premier League)"
+  ],
+  "FC Orenburg|2019-03-31": [
+   "model",
+   1525,
+   "러시아 1부 2018-19 7위/16팀 (Russian Premier League)"
+  ],
+  "Anzhi Makhachkala|2019-04-14": [
+   "model",
+   1451,
+   "러시아 1부 2018-19 15위/16팀 (Russian Premier League)"
+  ],
+  "Dinamo Moscow|2019-04-24": [
+   "model",
+   1484,
+   "러시아 1부 2018-19 12위/16팀 (Russian Premier League)"
+  ],
+  "Krylya Sovetov Samara|2019-04-28": [
+   "model",
+   1471,
+   "러시아 1부 2018-19 13위/16팀 (Russian Premier League)"
+  ],
+  "Enisey Krasnoyarsk|2019-05-26": [
+   "model",
+   1438,
+   "러시아 1부 2018-19 16위/16팀 (Russian Premier League)"
+  ],
+  "Lokomotiv Moscow|2019-07-06": [
+   "table",
+   1583,
+   "러시아 1부 2019-20 2위/16팀 (Russian Premier League)",
+   "2019-20"
+  ],
+  "FC Sochi|2019-07-21": [
+   "table",
+   1456,
+   "러시아 프리미어리그 2019-20 12위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Orenburg|2019-07-28": [
+   "table",
+   1410,
+   "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Krasnodar|2019-08-03": [
+   "table",
+   1550,
+   "러시아 프리미어리그 2019-20 3위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "Dinamo Moscow|2019-08-10": [
+   "model",
+   1512,
+   "러시아 1부 2019-20 6위/16팀 (Russian Premier League)"
+  ],
+  "Olympique Lyon|2019-09-17": [
+   "table",
+   1671,
+   "리그1 2019-20 7위",
+   "2019-20"
+  ],
+  "SL Benfica|2019-10-02": [
+   "table",
+   1798,
+   "포르투갈 1부 2019-20 2위",
+   "2019-20"
+  ],
+  "Ural Yekaterinburg|2019-10-06": [
+   "table",
+   1462,
+   "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Rostov|2019-10-19": [
+   "model",
+   1523,
+   "러시아 1부 2019-20 5위/16팀 (Russian Premier League)"
+  ],
+  "Krylya Sovetov Samara|2019-10-27": [
+   "model",
+   1423,
+   "러시아 1부 2019-20 15위/16팀 (Russian Premier League)"
+  ],
+  "Tom Tomsk|2019-10-30": [
+   "model",
+   1179,
+   "러시아 2부 2019-20 9위/20팀 (Russian Football National League, 리그 수준 추정)"
+  ],
+  "Arsenal Tula|2019-11-10": [
+   "model",
+   1484,
+   "러시아 1부 2019-20 8위/16팀 (Russian Premier League)"
+  ],
+  "Rubin Kazan|2019-11-23": [
+   "table",
+   1468,
+   "러시아 프리미어리그 2019-20 10위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "Dinamo Moscow|2019-12-06": [
+   "model",
+   1512,
+   "러시아 1부 2019-20 6위/16팀 (Russian Premier League)"
+  ],
+  "Ural Yekaterinburg|2020-03-14": [
+   "table",
+   1462,
+   "러시아 프리미어리그 2019-20 11위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FK Tambov|2020-07-01": [
+   "model",
+   1431,
+   "러시아 1부 2019-20 14위/16팀 (Russian Premier League)"
+  ],
+  "FC Krasnodar|2020-07-05": [
+   "table",
+   1550,
+   "러시아 프리미어리그 2019-20 3위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Sochi|2020-07-08": [
+   "table",
+   1456,
+   "러시아 프리미어리그 2019-20 12위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Orenburg|2020-07-15": [
+   "table",
+   1410,
+   "러시아 프리미어리그 2019-20 16위/16팀 (리그 수준 추정)",
+   "2019-20"
+  ],
+  "FC Rostov|2020-07-22": [
+   "model",
+   1523,
+   "러시아 1부 2019-20 5위/16팀 (Russian Premier League)"
+  ],
+  "FC Rostov|2020-08-15": [
+   "model",
+   1431,
+   "러시아 1부 2020-21 9위/16팀 (Russian Premier League)"
+  ],
+  "CSKA Moscow|2020-08-19": [
+   "model",
+   1467,
+   "러시아 1부 2020-21 6위/16팀 (Russian Premier League)"
+  ],
+  "PFK Tambov|2020-08-22": [
+   "table",
+   1366,
+   "러시아 프리미어리그 2020-21 16위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "FC Ufa|2020-09-26": [
+   "table",
+   1399,
+   "러시아 프리미어리그 2020-21 13위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "Ural Yekaterinburg|2020-12-05": [
+   "table",
+   1412,
+   "러시아 프리미어리그 2020-21 12위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "Dynamo Moscow|2020-12-12": [
+   "model",
+   1453,
+   "러시아 1부 2020-21 7위/16팀 (Russian Premier League)"
+  ],
+  "Spartak Moscow|2020-12-16": [
+   "table",
+   1539,
+   "러시아 프리미어리그 2020-21 2위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "Rubin Kazan|2021-03-08": [
+   "table",
+   1488,
+   "러시아 프리미어리그 2020-21 4위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "Akhmat Grozny|2021-03-13": [
+   "table",
+   1418,
+   "러시아 프리미어리그 2020-21 11위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "FC Sochi|2021-04-11": [
+   "table",
+   1479,
+   "러시아 프리미어리그 2020-21 5위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "FC Krasnodar|2021-04-17": [
+   "table",
+   1424,
+   "러시아 프리미어리그 2020-21 10위/16팀 (리그 수준 추정, 같은 시즌 5위 1446·11위 1381 사이 직선 보간)",
+   "2020-21"
+  ],
+  "Lokomotiv Moscow|2021-05-02": [
+   "table",
+   1506,
+   "러시아 프리미어리그 2020-21 3위/16팀 (리그 수준 추정)",
+   "2020-21"
+  ],
+  "Lokomotiv Moscow|2021-07-17": [
+   "table",
+   1446,
+   "러시아 1부 2021-22 6위/16팀 (Russian Premier League)",
+   "2021-22"
+  ],
+  "FC Khimki|2021-07-24": [
+   "table",
+   1378,
+   "러시아 프리미어리그 2021-22 13위/16팀 (리그 수준 추정)",
+   "2021-22"
+  ],
+  "FC Rostov|2021-08-01": [
+   "table",
+   1409,
+   "러시아 프리미어리그 2021-22 9위/16팀 (리그 수준 추정)",
+   "2021-22"
+  ],
+  "FC Krasnodar|2021-08-07": [
+   "model",
+   1467,
+   "러시아 1부 2021-22 4위/16팀 (Russian Premier League)"
+  ],
+  "CSKA Moscow|2021-08-26": [
+   "table",
+   1457,
+   "러시아 프리미어리그 2021-22 5위/16팀 (리그 수준 추정)",
+   "2021-22"
+  ],
+  "Spartak Moscow|2021-10-24": [
+   "table",
+   1402,
+   "러시아 프리미어리그 2021-22 10위/16팀 (리그 수준 추정)",
+   "2021-22"
+  ],
+  "Dynamo Moscow|2021-10-29": [
+   "table",
+   1484,
+   "러시아 프리미어리그 2021-22 3위/16팀 (리그 수준 추정)",
+   "2021-22"
+  ],
+  "Juventus FC|2021-11-02": [
+   "table",
+   1851,
+   "세리에A 2021-22 4위",
+   "2021-22"
+  ],
+  "Chelsea FC|2021-12-08": [
+   "table",
+   1963,
+   "프리미어리그 2021-22 3위",
+   "2021-22"
+  ],
+  "SpVgg Greuther Fürth|2022-04-23": [
+   "table",
+   1618,
+   "분데스리가 2021-22 18위",
+   "2021-22"
+  ],
+  "SV 07 Elversberg|2022-07-30": [
+   "same",
+   1531,
+   "독일 3부 2022-23 1위/20팀 (3. Liga, 리그 수준 추정)",
+   [
+    "dia.js"
+   ]
+  ],
+  "1.FSV Mainz 05|2023-02-19": [
+   "same",
+   1712,
+   "분데스리가 2022-23 9위",
+   [
+    "wir.js"
+   ]
+  ],
+  "SC Freiburg|2023-02-26": [
+   "table",
+   1787,
+   "분데스리가 2022-23 5위",
+   "2022-23"
+  ],
+  "Hertha BSC|2023-03-05": [
+   "same",
+   1588,
+   "분데스리가 2022-23 18위",
+   [
+    "dia.js",
+    "wir.js"
+   ]
+  ],
+  "FC Schalke 04|2023-04-01": [
+   "same",
+   1610,
+   "분데스리가 2022-23 17위",
+   [
+    "dia.js",
+    "wir.js"
+   ]
+  ],
+  "Eintracht Frankfurt|2023-04-08": [
+   "same",
+   1753,
+   "분데스리가 2022-23 7위",
+   [
+    "dia.js",
+    "wir.js"
+   ]
+  ],
+  "Union Saint-Gilloise|2023-04-13": [
+   "same",
+   1708,
+   "벨기에 2022-23 3위/18팀 (추정, 다른 선수 자료 벨기에 2위 1670과 같음)",
+   [
+    "wir.js"
+   ]
+  ],
+  "US Lecce|2023-11-05": [
+   "same",
+   1721,
+   "세리에A 2023-24 14위",
+   [
+    "dyb.js",
+    "luk.js"
+   ]
+  ],
+  "US Cremonese|2024-01-03": [
+   "same",
+   1529,
+   "세리에B 2023-24 4위/20팀",
+   [
+    "dyb.js",
+    "luk.js"
+   ]
+  ],
+  "Frosinone Calcio|2024-02-18": [
+   "table",
+   1669,
+   "세리에A 2023-24 18위",
+   "2023-24"
+  ],
+  "Bologna FC 1909|2024-04-22": [
+   "table",
+   1827,
+   "세리에A 2023-24 5위",
+   "2023-24"
+  ],
+  "Sepahan FC|2024-08-06": [
+   "man",
+   1398,
+   "이란 1부 2023-24 3위/16팀 (Persian Gulf Pro League, 2024-25 시즌 개막 전 경기라 직전 시즌 순위)"
+  ],
+  "Ajman Club|2024-08-18": [
+   "table",
+   1363,
+   "UAE 프로리그 2024-25 10위/14팀",
+   "2024-25"
+  ],
+  "Al-Bataeh CSC|2024-08-24": [
+   "table",
+   1351,
+   "UAE 프로리그 2024-25 11위/14팀",
+   "2024-25"
+  ],
+  "Ajman Club|2024-08-30": [
+   "table",
+   1363,
+   "UAE 프로리그 2024-25 10위/14팀",
+   "2024-25"
+  ],
+  "Al-Hussein SC (Irbid)|2024-09-18": [
+   "model",
+   1399,
+   "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Al-Wahda FC|2024-09-22": [
+   "model",
+   1444,
+   "UAE 1부 2024-25 3위/14팀 (UAE Pro League)"
+  ],
+  "FC Baniyas|2024-10-06": [
+   "model",
+   1335,
+   "UAE 1부 2024-25 12위/14팀 (UAE Pro League)"
+  ],
+  "Dibba Al-Hisn SC|2024-10-19": [
+   "model",
+   1326,
+   "UAE 1부 2024-25 13위/14팀 (UAE Pro League)"
+  ],
+  "Sharjah FC|2024-10-27": [
+   "model",
+   1479,
+   "UAE 1부 2024-25 2위/14팀 (UAE Pro League)"
+  ],
+  "Al-Hussein SC (Irbid)|2024-11-27": [
+   "model",
+   1399,
+   "요르단 1부 2024-25 1위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Nasaf Qarshi|2024-12-04": [
+   "model",
+   1409,
+   "우즈베키스탄 1부 2024 1위/14팀 (Uzbekistan Super League)"
+  ],
+  "Al-Wasl SC|2024-12-13": [
+   "table",
+   1430,
+   "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "2024-25"
+  ],
+  "Al-Wasl SC|2024-12-17": [
+   "table",
+   1430,
+   "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "2024-25"
+  ],
+  "Al-Nasr SC (UAE)|2024-12-23": [
+   "table",
+   1402,
+   "UAE 프로리그 2024-25 6위/14팀",
+   "2024-25"
+  ],
+  "Al-Nasr SC (UAE)|2025-01-05": [
+   "table",
+   1402,
+   "UAE 프로리그 2024-25 6위/14팀",
+   "2024-25"
+  ],
+  "Al-Ain FC|2025-01-10": [
+   "table",
+   1418,
+   "UAE 1부 2024-25 5위/14팀 (UAE Pro League)",
+   "2024-25"
+  ],
+  "Al-Rayyan SC|2025-01-16": [
+   "table",
+   1313,
+   "카타르 1부 2024-25 5위/12팀 (Qatar Stars League)",
+   "2024-25"
+  ],
+  "Al-Wehdat SC|2025-02-12": [
+   "model",
+   1325,
+   "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Al-Wehdat SC|2025-02-19": [
+   "model",
+   1325,
+   "요르단 1부 2024-25 2위/12팀 (Jordanian Pro League, 리그 수준 추정)"
+  ],
+  "Al-Orooba FC|2025-02-23": [
+   "table",
+   1312,
+   "UAE 프로리그 2024-25 14위/14팀 (리그 모형값)",
+   "2024-25"
+  ],
+  "FC Baniyas|2025-02-28": [
+   "model",
+   1335,
+   "UAE 1부 2024-25 12위/14팀 (UAE Pro League)"
+  ],
+  "Sharjah FC|2025-03-05": [
+   "model",
+   1479,
+   "UAE 1부 2024-25 2위/14팀 (UAE Pro League)"
+  ],
+  "Al-Jazira Club|2025-04-19": [
+   "model",
+   1387,
+   "UAE 1부 2024-25 7위/14팀 (UAE Pro League)"
+  ],
+  "Khor Fakkan SSC|2025-04-23": [
+   "model",
+   1376,
+   "UAE 1부 2024-25 8위/14팀 (UAE Pro League)"
+  ],
+  "Al-Wahda FC|2025-04-27": [
+   "model",
+   1444,
+   "UAE 1부 2024-25 3위/14팀 (UAE Pro League)"
+  ],
+  "Al-Wasl SC|2025-05-03": [
+   "table",
+   1430,
+   "UAE 프로리그 2024-25 4위/14팀 (추정)",
+   "2024-25"
+  ],
+  "Al-Nasr SC (UAE)|2025-09-20": [
+   "model",
+   1397,
+   "UAE 1부 2025-26 6위/14팀 (UAE Pro League)"
+  ],
+  "Al-Dhafra FC|2026-02-20": [
+   "model",
+   1329,
+   "UAE 1부 2025-26 12위/14팀 (UAE Pro League)"
+  ],
+  "Kalba FC|2026-03-11": [
+   "table",
+   1346,
+   "UAE 프로리그 2025-26 11위/14팀",
+   "2025-26"
+  ],
+  "Al-Jazira Club|2026-04-04": [
+   "model",
+   1424,
+   "UAE 1부 2025-26 4위/14팀 (UAE Pro League)"
+  ],
+  "Khor Fakkan SSC|2026-04-29": [
+   "table",
+   1362,
+   "UAE 프로리그 2025-26 9위/14팀",
+   "2025-26"
+  ],
+  "Khor Fakkan SSC|2026-08-15": [
+   "model",
+   1376,
+   "UAE 1부 2026-27 9위/14팀 (UAE Pro League, 2026년 11월 22일 현재 순위)"
+  ],
+  "Al-Ittihad Club|2026-10-13": [
+   "table",
+   1534,
+   "사우디 1부 2026-27 4위/18팀 (Saudi Pro League, 2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Al-Ain FC|2026-10-17": [
+   "table",
+   1452,
+   "UAE 1부 2026-27 3위/14팀 (UAE Pro League, 2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Esteghlal FC|2026-10-27": [
+   "model",
+   1355,
+   "이란 1부 2026-27 5위/18팀 (Persian Gulf Pro League, 2026년 11월 22일 현재 순위)"
+  ]
+ }
+}

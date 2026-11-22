@@ -180,6 +180,18 @@ A_CHECK = {}; ADD_A = []
 def a_key(gid, minute): return f"{gid}|{minute}"
 # 2014.8 이후 TM 도움 중 FotMob(경기 이벤트·선수 경기 목록)이 같이 적지 않은 것: TM 외 독립 출처 2곳으로 확인한 것만 넣음(근거는 judgments.md)
 A_CHECK = {
+ # 2016.5.21 테레크 원정 50분 예로힌: Sports.ru 경기 문자 중계('아즈문이 왼쪽으로 파고들어 중앙으로 옮겨 수비수 둘을 제치고 예로힌에게 내줌', 경기 기록 Ерохин/Азмун)·Sport-Express 경기 기록('Ерохин (Азмун) 50')
+ "2683508|50": (True, "Sports.ru 경기 문자 중계·기록(아즈문이 수비 둘을 제치고 내준 공을 예로힌이 빈 골문에 넣음)·Sport-Express 경기 기록(예로힌, 도움 아즈문)"),
+ # 2017.9.20 러시아컵 오렌부르크 원정 29분 소로킨: Sports.ru 중계 '쿠드랴쇼프 코너킥, 오즈도예프가 중앙으로 떨궈 소로킨이 밀어 넣음', Sport-Express 기사도 아즈문 언급 없음
+ "2921869|29": (False, "Sports.ru 경기 중계: 쿠드랴쇼프 코너킥을 오즈도예프가 떨궈 줌(아즈문 관여 없음), Sport-Express 기사 도움자 없음"),
+ # 2019.10.30 러시아컵 톰전 81분 샤토프: Sport24 '교체 투입된 아즈문이 샤토프에게 골 도움', Sport-Express 경기 평('아즈문과 샤토프가 2 대 1로 달려 나가 샤토프가 마무리')
+ "3263724|81": (True, "Sport24 기사(교체 투입된 아즈문이 샤토프에게 골 도움)·Sport-Express 경기 평(아즈문과 샤토프의 2 대 1 역습에서 샤토프 골)"),
+ # 2020.8.22 탐보프전 47분 말콤: FotMob 경기 이벤트는 크루고보이 도움, FotMob 선수 경기 목록은 아즈문 도움 1 → 기사로 판정
+ "3409238|47": (True, "Sports.ru 경기 기록(말콤 골, 도움 아즈문; 중계 '크루고보이가 올린 공을 아즈문이 방향을 바꿔 주고 말콤이 마무리')·Sport-Express 경기 평(크루고보이의 크로스를 아즈문이 고쳐 놓았고 말콤이 넣음)·FotMob 선수 경기 목록 도움 1"),
+ # 2021.10.29 디나모전 69분 쥬바: RT 경기 기사 '코너킥 뒤 아즈문 슈팅이 슈닌(골키퍼) 맞고 튀어 오르자 쥬바가 밀어 넣음' → 슈팅 리바운드
+ "3602502|69": (False, "RT 경기 기사: 아즈문의 슈팅이 골키퍼 슈닌에 맞고 튄 공을 쥬바가 밀어 넣음(슈팅 리바운드, 도움 아님)"),
+ # 2026.9.14 ACL 엘리트 트락토르전 22분 유리 세자르: The National '유리 세자르의 기회를 놓치지 않은 슈팅', 도움자 언급 없음; FotMob 선수 경기 목록 도움 0, TM 공식 도움 칸 0
+ "5021637|22": (False, "The National 기사에 도움자 없음('기회를 놓치지 않은 슈팅'), FotMob 선수 경기 목록 도움 0 — 두 번째 출처 없음"),
 }
 ADD_A = []
 
@@ -393,7 +405,7 @@ OTH = {  # TM 리그 코드 → (라벨 머리, 괄호 안 리그 이름)
  "SER1": ("세르비아 1부", "Serbian SuperLiga"), "NO1": ("노르웨이 1부", "Eliteserien"), "SE1": ("스웨덴 1부", "Allsvenskan"), "UNG1": ("헝가리 1부", "Nemzeti Bajnokság I"),
  "L3": ("독일 3부", "3. Liga, 리그 수준 추정"), "UAE1": ("UAE 1부", "UAE Pro League"), "UAE2": ("UAE 2부", "UAE First Division League, 리그 수준 추정"),
  "IRN1": ("이란 1부", "Persian Gulf Pro League"), "SA1": ("사우디 1부", "Saudi Pro League"), "QSL": ("카타르 1부", "Qatar Stars League"),
- "JO1L": ("요르단 1부", "Jordanian Pro League"), "UZ1": ("우즈베키스탄 1부", "Uzbekistan Super League"), "KUW1": ("쿠웨이트 1부", "Kuwait Premier League"),
+ "JO1L": ("요르단 1부", "Jordanian Pro League, 리그 수준 추정"), "UZ1": ("우즈베키스탄 1부", "Uzbekistan Super League"), "KUW1": ("쿠웨이트 1부", "Kuwait Premier League, 리그 수준 추정"),
 }
 RUNNING = {"2026-27"}   # 진행 중 시즌: 2026.11.22 현재 순위
 def make_label(lg, season, v):
@@ -403,7 +415,7 @@ def make_label(lg, season, v):
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "")
     if lg in OTH:
         head, desc = OTH[lg]
-        if season in RUNNING: desc += ", 2026년 11월 하순 현재 순위"
+        if season in RUNNING: desc += ", 2026년 11월 22일 현재 순위"
         if lg == "BE1": sys.exit("벨기에 표는 플레이오프 뒤 순위 확인 필요 " + nm)
         return f"{head} {season} {r}위/{n}팀 ({desc})"
     return None
@@ -439,6 +451,10 @@ def lg_cands(cid, d, o, g):
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계산)
 def man(o, s, lv): MAN[(key(o), s)] = lv
+# 2024.8.6 ACL 엘리트 예선 세파한 원정: 이란 리그 2024-25는 2024.8.15 개막(영어 위키백과·Tehran Times) → 끝난 2023-24 최종 3위/16팀
+# (영어 위키백과 'Template:2023–24 Persian Gulf Pro League table' 순서 PRS, EST, SEP …)
+SEASON_OVR["4398162"] = "2023-24"
+man("Sepahan FC", "2023-24", "이란 1부 2023-24 3위/16팀 (Persian Gulf Pro League, 2024-25 시즌 개막 전 경기라 직전 시즌 순위)")
 FORCE = {}
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
 def opp_elo(o, d, cid, g):
