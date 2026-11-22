@@ -410,7 +410,9 @@ def split_s(d):
     return f"{s_}-{str(s_ + 1)[2:]}"
 def seasons_for(cid, d, o, g):
     sp, yr = split_s(d), d[:4]
-    return [sp, yr] if cid in EURO else [yr, sp]
+    if cid in EURO: return [sp, yr]
+    if d[5:7] == "01" and cid in ("CSL", "CHFA", "CHSC", "ACLQ", "AFCL"): yr = str(int(yr) - 1)   # 1월 경기(중국 슈퍼리그 2021 2단계·중국 FA컵 결승·AFC 예선): 그 나라 새 시즌 시작 전 → 막 끝난 시즌(순위 규칙)
+    return [yr, sp]
 ALL_LG = sorted({k[0] for k in RANKS})
 def lg_cands(cid, d, o, g):
     return [(lg, s) for s in seasons_for(cid, d, o, g) for lg in ALL_LG]
