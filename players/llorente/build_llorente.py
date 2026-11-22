@@ -339,7 +339,8 @@ STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", 
         "rio", "ave", "al", "sc", "qatar", "rayyan", "atletico", "mexico", "cruz", "azul", "guadalajara", "deportivo", "once", "caldas", "medellin", "bogota", "leon", "minnesota"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_team(a, b): return key(a) == key(b) or bool(toks(a) & toks(b))
-SA_DOM = {"ES2", "ARG1", "ARGC", "CLI", "CS", "BRA1", "BCP1", "BCPF", "MEX1", "MEXA", "POME", "USMX", "MLS1", "MLSP", "COL1", "COPO", "QSL", "QEC1", "KLUB", "AUS1", "AUSF", "JAP1"}
+SA_DOM = {"ES1", "IT1", "GB1", "CDR", "CIT", "FAC", "CGB", "SCI", "SUC", "ES1P", "ES2",   # 국내 경기는 팀 이름(별칭 포함)이 정확히 같을 때만 같은 경기(에스파뇰 바르셀로나/FC 바르셀로나 혼동 방지)
+   "ARG1", "ARGC", "CLI", "CS", "BRA1", "BCP1", "BCPF", "MEX1", "MEXA", "POME", "USMX", "MLS1", "MLSP", "COL1", "COPO", "QSL", "QEC1", "KLUB", "AUS1", "AUSF", "JAP1"}
 def same_match(o, d, cid):
     if cid in SA_DOM:
         cand = [(b, x) for b, x in BYDATE.get(d, []) if key(x[1]) == key(o)]
