@@ -1,0 +1,8632 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 5위/22팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Queens Park Rangers",
+   "elo": 1684,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 11위/22팀",
+   "note": "Dean Saunders"
+  },
+  {
+   "type": "a",
+   "opp": "FC Kuusysi",
+   "elo": 1520,
+   "comp": "elq",
+   "min": 78,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "핀란드 1부 1991 1위/12팀 (Futisliiga, 우승 팀)",
+   "note": "Dean Saunders",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1428,
+   "comp": "dc",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-10-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 1991-92 4위/24팀 (Football League Third Division, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1656,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 14위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Port Vale FC",
+   "elo": 1394,
+   "comp": "dc",
+   "min": 8,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "1991-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Port Vale FC",
+   "elo": 1394,
+   "comp": "dc",
+   "min": 65,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "1991-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 24위/24팀",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "g",
+   "opp": "Port Vale FC",
+   "elo": 1394,
+   "comp": "dc",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1991-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1650,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 15위/22팀",
+   "note": "Ray Houghton"
+  },
+  {
+   "type": "g",
+   "opp": "Crewe Alexandra",
+   "elo": 1307,
+   "comp": "dc",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 1991-92 6위/22팀 (Football League Fourth Division, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crewe Alexandra",
+   "elo": 1307,
+   "comp": "dc",
+   "min": 28,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 1991-92 6위/22팀 (Football League Fourth Division, 리그 수준 추정)",
+   "note": "John Barnes"
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 20위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Oldham Athletic",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 17위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol Rovers",
+   "elo": 1461,
+   "comp": "dc",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 13위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bristol Rovers",
+   "elo": 1461,
+   "comp": "dc",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 13위/24팀",
+   "note": "Dean Saunders"
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1629,
+   "comp": "dc",
+   "min": 100,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-02-26",
+   "et": 1,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 1위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Notts County",
+   "elo": 1584,
+   "comp": "lg",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1991-92 21위/22팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sunderland AFC",
+   "elo": 1440,
+   "comp": "df",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1991-92 18위/24팀",
+   "note": "Michael Thomas"
+  },
+  {
+   "type": "g",
+   "opp": "Wimbledon FC",
+   "elo": 1664,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 12위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Apollon Limassol",
+   "elo": 1474,
+   "comp": "elk",
+   "min": 68,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "키프로스 1부 1992-93 2위/14팀 (Cypriot First Division)",
+   "note": "Don Hutchison",
+   "tie": [
+    2,
+    0,
+    6,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Moscow",
+   "elo": 1753,
+   "comp": "elk",
+   "min": 78,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 1992 1위/20팀 (Russian Top League, 우승 팀; 1992.10 경기)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Middlesbrough FC",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 45,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 21위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield United",
+   "elo": 1647,
+   "comp": "dc",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-11-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 14위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield United",
+   "elo": 1647,
+   "comp": "dc",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1992-11-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 14위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 20위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 9,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 20위 (리그 수준 추정)",
+   "note": "Mike Marsh"
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 18,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 20위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 61,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 20위 (리그 수준 추정)",
+   "note": "Ronny Rosenthal"
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 4위 (리그 수준 추정)",
+   "note": "Mark Walters"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester City",
+   "elo": 1706,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-12-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 9위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "a",
+   "opp": "Queens Park Rangers",
+   "elo": 1759,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 5위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "a",
+   "opp": "Oldham Athletic",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1992-93 19위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "g",
+   "opp": "Swindon Town",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Swindon Town",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 61,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Swindon Town",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 80,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "note": "Mike Marsh"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 15위 (리그 수준 추정)",
+   "note": "Nigel Clough"
+  },
+  {
+   "type": "a",
+   "opp": "Queens Park Rangers",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 9위 (리그 수준 추정)",
+   "note": "John Barnes"
+  },
+  {
+   "type": "a",
+   "opp": "Queens Park Rangers",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 9위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "a",
+   "opp": "Swindon Town",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "note": "Mark Wright"
+  },
+  {
+   "type": "a",
+   "opp": "Oldham Athletic",
+   "elo": 1497,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 21위 (리그 수준 추정)",
+   "note": "Julian Dicks"
+  },
+  {
+   "type": "a",
+   "opp": "Oldham Athletic",
+   "elo": 1497,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 21위 (리그 수준 추정)",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "a",
+   "opp": "Coventry City",
+   "elo": 1597,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1993-94 11위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1514,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1514,
+   "comp": "lg",
+   "min": 69,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal FC",
+   "elo": 1587,
+   "comp": "lg",
+   "min": 29,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 12위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 10위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1578,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1578,
+   "comp": "lg",
+   "min": 86,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1366,
+   "comp": "dc",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1994-95 22위/24팀",
+   "note": "Jamie Redknapp",
+   "tie": [
+    2,
+    0,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1530,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 18위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1859,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 1위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Wimbledon FC",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 9위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wimbledon FC",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 9위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Stoke City",
+   "elo": 1432,
+   "comp": "dc",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1994-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1994-95 11위/24팀",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester City",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-12-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 17위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Nottingham Forest",
+   "elo": 1734,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 3위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1514,
+   "comp": "dsf",
+   "min": 92,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-02-15",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "note": "Robbie Fowler",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1578,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1514,
+   "comp": "dsf",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "note": "Robbie Fowler",
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bolton Wanderers",
+   "elo": 1513,
+   "comp": "df",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1995-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1994-95 3위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bolton Wanderers",
+   "elo": 1513,
+   "comp": "df",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1995-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1994-95 3위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arsenal FC",
+   "elo": 1587,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 12위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1994-95 17위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 8위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Spartak Vladikavkaz",
+   "elo": 1696,
+   "comp": "elq",
+   "min": 33,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 1995 1위/16팀 (Russian Top League, 우승 팀; 1995.9 경기)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Spartak Vladikavkaz",
+   "elo": 1696,
+   "comp": "elq",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 1995 1위/16팀 (Russian Top League, 우승 팀; 1995.9 경기)",
+   "note": "Jamie Redknapp",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1686,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 7위 (리그 수준 추정)",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "g",
+   "opp": "Sunderland AFC",
+   "elo": 1604,
+   "comp": "dc",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 1995-96 1위/24팀",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1515,
+   "comp": "lg",
+   "min": 67,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 20위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 1위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1555,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 17위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1555,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 17위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1555,
+   "comp": "lg",
+   "min": 74,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 17위 (리그 수준 추정)",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1515,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 20위 (리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 1위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 11위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 11위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Rochdale AFC",
+   "elo": 1230,
+   "comp": "dc",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 1995-96 15위/24팀 (Football League Third Division, 리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "a",
+   "opp": "Leeds United",
+   "elo": 1604,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "note": "Neil Ruddock"
+  },
+  {
+   "type": "a",
+   "opp": "Leeds United",
+   "elo": 1604,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Shrewsbury Town",
+   "elo": 1320,
+   "comp": "dc",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 1995-96 18위/24팀 (Football League Second Division, 리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "a",
+   "opp": "Shrewsbury Town",
+   "elo": 1320,
+   "comp": "dc",
+   "min": 84,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 1995-96 18위/24팀 (Football League Second Division, 리그 수준 추정)",
+   "note": "Jason McAteer"
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1686,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 7위 (리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 5,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Wimbledon FC",
+   "elo": 1599,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 14위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1604,
+   "comp": "dk",
+   "min": 57,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1604,
+   "comp": "dk",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1729,
+   "comp": "dsf",
+   "min": 90,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "note": "Jason McAteer"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1810,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 2위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester City",
+   "elo": 1543,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1995-96 18위 (리그 수준 추정)",
+   "note": "Ian Rush"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 3위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 3위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1571,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 16위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Leicester City",
+   "elo": 1648,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 9위 (리그 수준 추정)",
+   "note": "Patrik Berger"
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1699,
+   "comp": "lg",
+   "min": 49,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 6위 (리그 수준 추정)",
+   "note": "Patrik Berger"
+  },
+  {
+   "type": "a",
+   "opp": "Myllykosken Pallo -47",
+   "elo": 1465,
+   "comp": "elk",
+   "min": 78,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "핀란드 1부 1996 2위/12팀 (Veikkausliiga, 챔피언십 그룹 뒤 최종 순위; 1996.9 경기)",
+   "note": "John Barnes",
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1597,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 14위 (리그 수준 추정)",
+   "note": "Michael Thomas"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sion",
+   "elo": 1751,
+   "comp": "elk",
+   "min": 28,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "FC Sion",
+   "elo": 1751,
+   "comp": "elk",
+   "min": 71,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)",
+   "note": "Robbie Fowler",
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "FC Sion",
+   "elo": 1751,
+   "comp": "elk",
+   "min": 72,
+   "gf": 4,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)",
+   "note": "Robbie Fowler",
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-11-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 11위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1760,
+   "comp": "dc",
+   "min": 26,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 3위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 10위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Middlesbrough FC",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 77,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 19위 (리그 수준 추정)",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 2위",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Middlesbrough FC",
+   "elo": 1533,
+   "comp": "dk",
+   "min": 65,
+   "gf": 0,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "1997-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 19위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Leeds United",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 37,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 11위 (리그 수준 추정)",
+   "note": "Stan Collymore"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sunderland AFC",
+   "elo": 1541,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1996-97 18위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1752,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield Wednesday",
+   "elo": 1613,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 16위",
+   "note": "Michael Thomas"
+  },
+  {
+   "type": "g",
+   "opp": "Celtic FC",
+   "elo": 1644,
+   "comp": "elq",
+   "min": 89,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "스코틀랜드 1997-98 1위/10팀 (추정, 다른 선수 자료 셀틱 2001-02·2003-04 1위 1620과 같음)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1726,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 4위",
+   "note": "Patrik Berger"
+  },
+  {
+   "type": "a",
+   "opp": "Derby County",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 9위",
+   "note": "Øyvind Leonhardsen"
+  },
+  {
+   "type": "a",
+   "opp": "Derby County",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 9위",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Derby County",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 88,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1649,
+   "comp": "elk",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 1997-98 13위",
+   "note": "Karl-Heinz Riedle",
+   "tie": [
+    2,
+    1,
+    0,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Grimsby Town",
+   "elo": 1439,
+   "comp": "dc",
+   "min": 57,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1997-11-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 1997-98 3위/24팀 (Football League Second Division, 리그 수준 추정)",
+   "note": "Michael Owen"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1935,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 1위 (추정, 이웃 순위값에 기준 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1554,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Coventry City",
+   "elo": 1662,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-12-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 11위",
+   "note": "Michael Owen"
+  },
+  {
+   "type": "a",
+   "opp": "Leeds United",
+   "elo": 1752,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 5위",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-12-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-12-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wimbledon FC",
+   "elo": 1629,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 15위",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield Wednesday",
+   "elo": 1613,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 16위",
+   "note": "Michael Owen"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Barnsley FC",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1554,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 20위",
+   "note": "David Thompson"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-08-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 13위",
+   "note": "Michael Owen"
+  },
+  {
+   "type": "a",
+   "opp": "Coventry City",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 15위",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Kosice (1951 - 2004)",
+   "elo": 1469,
+   "comp": "elq",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "슬로바키아 1998-99 4위/16팀 (추정, 다른 선수 자료 슬로바키아 4위 1400과 같음)",
+   "note": "Karl-Heinz Riedle",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1615,
+   "comp": "lg",
+   "min": 23,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1953,
+   "comp": "elk",
+   "min": 80,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1998-99 4위 (리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Derby County",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 84,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 8위",
+   "note": "Jamie Redknapp"
+  },
+  {
+   "type": "g",
+   "opp": "Coventry City",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 5위 (추정, 다른 선수 자료 4위 1775·6위 1747의 가운데)",
+   "note": "Michael Owen"
+  },
+  {
+   "type": "a",
+   "opp": "Everton FC",
+   "elo": 1698,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 14위",
+   "note": "Robbie Fowler"
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1722,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wimbledon FC",
+   "elo": 1673,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1998-99 16위",
+   "note": "Karl-Heinz Riedle"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1853,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 10위",
+   "note": "Fernando Morientes"
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1841,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1894,
+   "comp": "clg",
+   "min": 24,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1999-00 1위/18팀 (추정, 다른 선수 자료의 올림피아코스 1위 1690과 같음)",
+   "note": "Sávio"
+  },
+  {
+   "type": "a",
+   "opp": "Real Oviedo",
+   "elo": 1791,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-03-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 16위",
+   "note": "Raúl"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 2007,
+   "comp": "clk",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1999-00 1위",
+   "note": "Raúl",
+   "tie": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Racing Santander",
+   "elo": 1807,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1985,
+   "comp": "clf",
+   "min": 67,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2000-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 3위 (추정, 앞뒤 순위값 사이)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sporting CP",
+   "elo": 1718,
+   "comp": "clg",
+   "min": 62,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2000-01 3위",
+   "note": "Fernando Morientes"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1900,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 9위",
+   "note": "Fernando Morientes"
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 87,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Zaragoza",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 17위",
+   "note": "Raúl"
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1853,
+   "comp": "lg",
+   "min": 87,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 7위",
+   "note": "Guti"
+  },
+  {
+   "type": "a",
+   "opp": "Galatasaray",
+   "elo": 1717,
+   "comp": "clk",
+   "min": 37,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2000-01 2위/18팀 (추정, 2000 UEFA컵 우승팀, 다른 선수 자료 갈라타사라이 1위 1680보다 조금 낮게)",
+   "note": "Raúl",
+   "tie": [
+    2,
+    1,
+    2,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Real Zaragoza",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 17위",
+   "note": "Raúl"
+  },
+  {
+   "type": "a",
+   "opp": "Real Valladolid CF",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-06-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 16위",
+   "note": "Raúl"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1864,
+   "comp": "lg",
+   "min": 70,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RSC Anderlecht",
+   "elo": 1649,
+   "comp": "clg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 1부 2001-02 3위/18팀 (추정, 다른 선수 자료 안더레흐트 2010-11 3위 1597과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1855,
+   "comp": "lg",
+   "min": 63,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Zaragoza",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": "Fernando Hierro"
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 1998,
+   "comp": "clsf",
+   "min": 92,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-23",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2001-02 4위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1777,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-09-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 78,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 19위",
+   "note": "Ronaldo"
+  },
+  {
+   "type": "g",
+   "opp": "AEK Athens",
+   "elo": 1689,
+   "comp": "clg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1부 2002-03 3위/16팀 (Alpha Ethniki)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AEK Athens",
+   "elo": 1689,
+   "comp": "clg",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1부 2002-03 3위/16팀 (Alpha Ethniki)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Oviedo",
+   "elo": 1552,
+   "comp": "dc",
+   "min": 52,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2002-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 21위/22팀",
+   "note": "Tote"
+  },
+  {
+   "type": "a",
+   "opp": "Terrassa FC",
+   "elo": 1599,
+   "comp": "dc",
+   "min": 77,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 12위/22팀",
+   "note": "Javier Portillo",
+   "tie": [
+    2,
+    1,
+    3,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Terrassa FC",
+   "elo": 1599,
+   "comp": "dc",
+   "min": 84,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 12위/22팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    3,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1875,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 9위",
+   "note": "Ronaldo"
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 1865,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2003-04 4위",
+   "note": "Shaun Wright-Phillips"
+  }
+ ],
+ "M": [
+  [
+   "1990-12-15",
+   "Sheffield United",
+   "lg",
+   10
+  ],
+  [
+   "1991-01-08",
+   "Blackburn Rovers",
+   "dc",
+   4
+  ],
+  [
+   "1991-05-11",
+   "Tottenham Hotspur",
+   "lg",
+   18
+  ],
+  [
+   "1991-08-17",
+   "Oldham Athletic",
+   "lg",
+   90
+  ],
+  [
+   "1991-08-21",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1991-08-24",
+   "Luton Town",
+   "lg",
+   90
+  ],
+  [
+   "1991-08-27",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1991-08-31",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1991-09-07",
+   "Notts County",
+   "lg",
+   90
+  ],
+  [
+   "1991-09-14",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1991-09-18",
+   "FC Kuusysi",
+   "elq",
+   90
+  ],
+  [
+   "1991-09-21",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1991-09-25",
+   "Stoke City",
+   "dc",
+   90
+  ],
+  [
+   "1991-09-28",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1991-10-02",
+   "FC Kuusysi",
+   "elq",
+   90
+  ],
+  [
+   "1991-10-06",
+   "Manchester United",
+   "lg",
+   45
+  ],
+  [
+   "1991-10-09",
+   "Stoke City",
+   "dc",
+   90
+  ],
+  [
+   "1991-10-19",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1991-10-23",
+   "AJ Auxerre",
+   "elk",
+   90
+  ],
+  [
+   "1991-10-29",
+   "Port Vale FC",
+   "dc",
+   79
+  ],
+  [
+   "1991-11-06",
+   "AJ Auxerre",
+   "elk",
+   90
+  ],
+  [
+   "1991-11-17",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1991-11-20",
+   "Port Vale FC",
+   "dc",
+   90
+  ],
+  [
+   "1991-11-23",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1991-11-27",
+   "FC Wacker Innsbruck",
+   "elk",
+   90
+  ],
+  [
+   "1991-11-30",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1991-12-03",
+   "Peterborough United",
+   "dc",
+   90
+  ],
+  [
+   "1991-12-07",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1991-12-11",
+   "FC Wacker Innsbruck",
+   "elk",
+   90
+  ],
+  [
+   "1991-12-14",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1991-12-18",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1991-12-21",
+   "Manchester City",
+   "lg",
+   79
+  ],
+  [
+   "1991-12-28",
+   "Everton FC",
+   "lg",
+   45
+  ],
+  [
+   "1992-01-01",
+   "Sheffield United",
+   "lg",
+   45
+  ],
+  [
+   "1992-01-06",
+   "Crewe Alexandra",
+   "dc",
+   90
+  ],
+  [
+   "1992-01-11",
+   "Luton Town",
+   "lg",
+   90
+  ],
+  [
+   "1992-01-18",
+   "Oldham Athletic",
+   "lg",
+   90
+  ],
+  [
+   "1992-02-01",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-02-05",
+   "Bristol Rovers",
+   "dc",
+   90
+  ],
+  [
+   "1992-02-08",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1992-02-11",
+   "Bristol Rovers",
+   "dc",
+   90
+  ],
+  [
+   "1992-02-16",
+   "Ipswich Town",
+   "dc",
+   90
+  ],
+  [
+   "1992-02-22",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1992-02-26",
+   "Ipswich Town",
+   "dc",
+   120
+  ],
+  [
+   "1992-02-29",
+   "Southampton FC",
+   "lg",
+   60
+  ],
+  [
+   "1992-03-04",
+   "Genoa CFC",
+   "elk",
+   90
+  ],
+  [
+   "1992-03-08",
+   "Aston Villa",
+   "dk",
+   77
+  ],
+  [
+   "1992-03-11",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1992-03-18",
+   "Genoa CFC",
+   "elk",
+   90
+  ],
+  [
+   "1992-03-21",
+   "Tottenham Hotspur",
+   "lg",
+   31
+  ],
+  [
+   "1992-03-28",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "1992-03-31",
+   "Notts County",
+   "lg",
+   81
+  ],
+  [
+   "1992-04-05",
+   "Portsmouth FC",
+   "dsf",
+   94
+  ],
+  [
+   "1992-05-09",
+   "Sunderland AFC",
+   "df",
+   90
+  ],
+  [
+   "1992-08-16",
+   "Nottingham Forest",
+   "lg",
+   45
+  ],
+  [
+   "1992-08-19",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "1992-08-23",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-08-25",
+   "Ipswich Town",
+   "lg",
+   13
+  ],
+  [
+   "1992-09-01",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-09-05",
+   "Chelsea FC",
+   "lg",
+   73
+  ],
+  [
+   "1992-09-26",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-09-29",
+   "Apollon Limassol",
+   "elk",
+   90
+  ],
+  [
+   "1992-10-03",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1992-10-06",
+   "Chesterfield FC",
+   "dc",
+   90
+  ],
+  [
+   "1992-10-18",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1992-10-22",
+   "Spartak Moscow",
+   "elk",
+   90
+  ],
+  [
+   "1992-10-25",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1992-10-28",
+   "Sheffield United",
+   "dc",
+   90
+  ],
+  [
+   "1992-10-31",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1992-11-04",
+   "Spartak Moscow",
+   "elk",
+   90
+  ],
+  [
+   "1992-11-07",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-11-11",
+   "Sheffield United",
+   "dc",
+   90
+  ],
+  [
+   "1992-11-23",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1992-11-28",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "1992-12-01",
+   "Crystal Palace",
+   "dc",
+   90
+  ],
+  [
+   "1992-12-07",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-12-13",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1992-12-16",
+   "Crystal Palace",
+   "dc",
+   51
+  ],
+  [
+   "1992-12-28",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1993-01-03",
+   "Bolton Wanderers",
+   "dc",
+   90
+  ],
+  [
+   "1993-01-09",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1993-01-31",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-06",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-10",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-13",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-20",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-27",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1993-03-06",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1993-03-10",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1993-03-13",
+   "Middlesbrough FC",
+   "lg",
+   66
+  ],
+  [
+   "1993-03-20",
+   "Everton FC",
+   "lg",
+   74
+  ],
+  [
+   "1993-03-23",
+   "Crystal Palace",
+   "lg",
+   26
+  ],
+  [
+   "1993-04-03",
+   "Blackburn Rovers",
+   "lg",
+   34
+  ],
+  [
+   "1993-04-10",
+   "Oldham Athletic",
+   "lg",
+   64
+  ],
+  [
+   "1993-08-18",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1993-08-22",
+   "Swindon Town",
+   "lg",
+   90
+  ],
+  [
+   "1993-08-25",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1993-08-28",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1993-09-01",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1993-09-12",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1993-09-18",
+   "Everton FC",
+   "lg",
+   65
+  ],
+  [
+   "1993-09-22",
+   "Fulham FC",
+   "dc",
+   22
+  ],
+  [
+   "1993-09-25",
+   "Chelsea FC",
+   "lg",
+   33
+  ],
+  [
+   "1993-12-08",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1993-12-11",
+   "Swindon Town",
+   "lg",
+   90
+  ],
+  [
+   "1993-12-14",
+   "Wimbledon FC",
+   "dc",
+   120
+  ],
+  [
+   "1993-12-18",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1993-12-26",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "1993-12-28",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-01-01",
+   "Ipswich Town",
+   "lg",
+   76
+  ],
+  [
+   "1994-01-04",
+   "Manchester United",
+   "lg",
+   77
+  ],
+  [
+   "1994-01-15",
+   "Oldham Athletic",
+   "lg",
+   90
+  ],
+  [
+   "1994-01-19",
+   "Bristol City",
+   "dc",
+   90
+  ],
+  [
+   "1994-01-22",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1994-01-25",
+   "Bristol City",
+   "dc",
+   90
+  ],
+  [
+   "1994-02-05",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1994-02-14",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-02-19",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1994-02-26",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-05",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-13",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-19",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-26",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-30",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-02",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-04",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-09",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-16",
+   "Newcastle United",
+   "lg",
+   71
+  ],
+  [
+   "1994-08-20",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "1994-08-28",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-08-31",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-10",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-17",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-21",
+   "Burnley FC",
+   "dc",
+   90
+  ],
+  [
+   "1994-09-24",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-01",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-05",
+   "Burnley FC",
+   "dc",
+   75
+  ],
+  [
+   "1994-10-08",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-15",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-22",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-25",
+   "Stoke City",
+   "dc",
+   90
+  ],
+  [
+   "1994-10-29",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-31",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-05",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-09",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-21",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-26",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-30",
+   "Blackburn Rovers",
+   "dc",
+   90
+  ],
+  [
+   "1994-12-03",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1994-12-26",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1994-12-28",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1994-12-31",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-02",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-07",
+   "Birmingham City",
+   "dc",
+   90
+  ],
+  [
+   "1995-01-11",
+   "Arsenal FC",
+   "dk",
+   90
+  ],
+  [
+   "1995-01-14",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-18",
+   "Birmingham City",
+   "dc",
+   120
+  ],
+  [
+   "1995-01-24",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-28",
+   "Burnley FC",
+   "dc",
+   90
+  ],
+  [
+   "1995-02-04",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1995-02-07",
+   "Burnley FC",
+   "dc",
+   90
+  ],
+  [
+   "1995-02-11",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1995-02-15",
+   "Crystal Palace",
+   "dsf",
+   90
+  ],
+  [
+   "1995-02-19",
+   "Wimbledon FC",
+   "dc",
+   90
+  ],
+  [
+   "1995-02-25",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1995-02-28",
+   "Wimbledon FC",
+   "dc",
+   90
+  ],
+  [
+   "1995-03-04",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1995-03-08",
+   "Crystal Palace",
+   "dsf",
+   90
+  ],
+  [
+   "1995-03-11",
+   "Tottenham Hotspur",
+   "dk",
+   90
+  ],
+  [
+   "1995-03-14",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1995-03-19",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1995-03-22",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-02",
+   "Bolton Wanderers",
+   "df",
+   90
+  ],
+  [
+   "1995-04-05",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-09",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-12",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-14",
+   "Manchester City",
+   "lg",
+   72
+  ],
+  [
+   "1995-04-17",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-29",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-02",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-06",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-10",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-14",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1995-08-19",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1995-08-21",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1995-08-26",
+   "Tottenham Hotspur",
+   "lg",
+   79
+  ],
+  [
+   "1995-08-30",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-09",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-12",
+   "Spartak Vladikavkaz",
+   "elq",
+   90
+  ],
+  [
+   "1995-09-16",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-20",
+   "Sunderland AFC",
+   "dc",
+   90
+  ],
+  [
+   "1995-09-23",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-26",
+   "Spartak Vladikavkaz",
+   "elq",
+   90
+  ],
+  [
+   "1995-10-01",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1995-10-04",
+   "Sunderland AFC",
+   "dc",
+   90
+  ],
+  [
+   "1995-10-14",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1995-10-17",
+   "Bröndby IF",
+   "elk",
+   90
+  ],
+  [
+   "1995-10-22",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-10-25",
+   "Manchester City",
+   "dc",
+   90
+  ],
+  [
+   "1995-10-28",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1995-10-31",
+   "Bröndby IF",
+   "elk",
+   90
+  ],
+  [
+   "1995-11-04",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1995-11-18",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-11-22",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1995-11-25",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-11-29",
+   "Newcastle United",
+   "dc",
+   90
+  ],
+  [
+   "1995-12-02",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-12-09",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "1995-12-17",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1995-12-23",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1995-12-30",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-01",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-06",
+   "Rochdale AFC",
+   "dc",
+   90
+  ],
+  [
+   "1996-01-13",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-20",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-31",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-03",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-11",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-18",
+   "Shrewsbury Town",
+   "dc",
+   90
+  ],
+  [
+   "1996-02-24",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-28",
+   "Charlton Athletic",
+   "dc",
+   90
+  ],
+  [
+   "1996-03-03",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-10",
+   "Leeds United",
+   "dk",
+   90
+  ],
+  [
+   "1996-03-13",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-16",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-20",
+   "Leeds United",
+   "dk",
+   90
+  ],
+  [
+   "1996-03-23",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-31",
+   "Aston Villa",
+   "dsf",
+   90
+  ],
+  [
+   "1996-04-03",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-06",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-08",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-16",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-27",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-05-01",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-05-05",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "1996-05-11",
+   "Manchester United",
+   "df",
+   90
+  ],
+  [
+   "1996-08-17",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-08-19",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-08-24",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "1996-09-04",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1996-09-07",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-09-12",
+   "Myllykosken Pallo -47",
+   "elk",
+   90
+  ],
+  [
+   "1996-09-15",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1996-09-21",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-09-26",
+   "Myllykosken Pallo -47",
+   "elk",
+   90
+  ],
+  [
+   "1996-09-29",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1996-10-12",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1996-10-17",
+   "FC Sion",
+   "elk",
+   90
+  ],
+  [
+   "1996-10-23",
+   "Charlton Athletic",
+   "dc",
+   90
+  ],
+  [
+   "1996-10-27",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "1996-10-31",
+   "FC Sion",
+   "elk",
+   90
+  ],
+  [
+   "1996-11-03",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1996-11-13",
+   "Charlton Athletic",
+   "dc",
+   90
+  ],
+  [
+   "1996-11-16",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1996-11-20",
+   "Everton FC",
+   "lg",
+   17
+  ],
+  [
+   "1996-11-27",
+   "Arsenal FC",
+   "dc",
+   90
+  ],
+  [
+   "1996-12-02",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-07",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-14",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-17",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-23",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-26",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1996-12-29",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-01-01",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-01-04",
+   "Burnley FC",
+   "dc",
+   90
+  ],
+  [
+   "1997-01-08",
+   "Middlesbrough FC",
+   "dk",
+   90
+  ],
+  [
+   "1997-01-11",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1997-01-18",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1997-01-26",
+   "Chelsea FC",
+   "dc",
+   90
+  ],
+  [
+   "1997-02-01",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "1997-02-19",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1997-02-22",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-02",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-06",
+   "SK Brann",
+   "elk",
+   90
+  ],
+  [
+   "1997-03-10",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-15",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-20",
+   "SK Brann",
+   "elk",
+   90
+  ],
+  [
+   "1997-03-24",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-06",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-10",
+   "Paris Saint-Germain",
+   "elsf",
+   90
+  ],
+  [
+   "1997-04-13",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-16",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-19",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-24",
+   "Paris Saint-Germain",
+   "elsf",
+   90
+  ],
+  [
+   "1997-05-03",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1997-05-06",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-05-11",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1997-08-09",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-08-13",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1997-08-23",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1997-08-26",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-13",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-16",
+   "Celtic FC",
+   "elq",
+   90
+  ],
+  [
+   "1997-09-20",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-22",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-27",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-30",
+   "Celtic FC",
+   "elq",
+   90
+  ],
+  [
+   "1997-10-05",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-10-15",
+   "West Bromwich Albion",
+   "dc",
+   90
+  ],
+  [
+   "1997-10-18",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-10-21",
+   "RC Strasbourg Alsace",
+   "elk",
+   90
+  ],
+  [
+   "1997-10-25",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "1997-11-01",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "1997-11-04",
+   "RC Strasbourg Alsace",
+   "elk",
+   90
+  ],
+  [
+   "1997-11-08",
+   "Tottenham Hotspur",
+   "lg",
+   87
+  ],
+  [
+   "1997-11-18",
+   "Grimsby Town",
+   "dc",
+   90
+  ],
+  [
+   "1997-11-22",
+   "Barnsley FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-11-30",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-12-06",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1997-12-13",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "1997-12-20",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1997-12-26",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1997-12-28",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1998-01-03",
+   "Coventry City",
+   "dc",
+   90
+  ],
+  [
+   "1998-01-07",
+   "Newcastle United",
+   "dk",
+   120
+  ],
+  [
+   "1998-01-10",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-01-17",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1998-01-20",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "1998-01-27",
+   "Middlesbrough FC",
+   "dsf",
+   90
+  ],
+  [
+   "1998-01-31",
+   "Blackburn Rovers",
+   "lg",
+   45
+  ],
+  [
+   "1998-02-07",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-14",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-18",
+   "Middlesbrough FC",
+   "dsf",
+   90
+  ],
+  [
+   "1998-02-23",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-28",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-07",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-14",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-28",
+   "Barnsley FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-04-10",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1998-04-13",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "1998-04-19",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1998-04-25",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-05-06",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-08-16",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-08-22",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-08-30",
+   "Newcastle United",
+   "lg",
+   88
+  ],
+  [
+   "1998-09-09",
+   "Coventry City",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-12",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-15",
+   "1.FC Kosice (1951 - 2004)",
+   "elq",
+   78
+  ],
+  [
+   "1998-09-19",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-24",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1998-10-17",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-10-20",
+   "Valencia CF",
+   "elk",
+   90
+  ],
+  [
+   "1998-10-24",
+   "Nottingham Forest",
+   "lg",
+   78
+  ],
+  [
+   "1998-10-31",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1998-11-03",
+   "Valencia CF",
+   "elk",
+   90
+  ],
+  [
+   "1998-11-07",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "1998-12-26",
+   "Middlesbrough FC",
+   "lg",
+   14
+  ],
+  [
+   "1998-12-28",
+   "Newcastle United",
+   "lg",
+   25
+  ],
+  [
+   "1999-01-30",
+   "Coventry City",
+   "lg",
+   22
+  ],
+  [
+   "1999-02-06",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-13",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-20",
+   "West Ham United",
+   "lg",
+   66
+  ],
+  [
+   "1999-02-27",
+   "Chelsea FC",
+   "lg",
+   81
+  ],
+  [
+   "1999-04-03",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-05",
+   "Nottingham Forest",
+   "lg",
+   64
+  ],
+  [
+   "1999-04-12",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-17",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-21",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-24",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-01",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-05",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-08",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-16",
+   "Wimbledon FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-08-21",
+   "RCD Mallorca",
+   "lg",
+   26
+  ],
+  [
+   "1999-08-29",
+   "CD Numancia",
+   "lg",
+   45
+  ],
+  [
+   "1999-09-12",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "1999-09-15",
+   "Olympiacos Piraeus",
+   "clg",
+   90
+  ],
+  [
+   "1999-09-18",
+   "Deportivo de La Coruña",
+   "lg",
+   90
+  ],
+  [
+   "1999-09-21",
+   "Molde FK",
+   "clg",
+   63
+  ],
+  [
+   "1999-09-25",
+   "Málaga CF",
+   "lg",
+   16
+  ],
+  [
+   "1999-09-28",
+   "FC Porto",
+   "clg",
+   57
+  ],
+  [
+   "1999-10-26",
+   "Olympiacos Piraeus",
+   "clg",
+   19
+  ],
+  [
+   "1999-11-06",
+   "Rayo Vallecano",
+   "lg",
+   66
+  ],
+  [
+   "1999-12-18",
+   "RCD Espanyol Barcelona",
+   "lg",
+   26
+  ],
+  [
+   "2000-01-05",
+   "Al-Nassr FC",
+   "cwc",
+   24
+  ],
+  [
+   "2000-01-07",
+   "Sport Club Corinthians Paulista",
+   "cwc",
+   20
+  ],
+  [
+   "2000-01-10",
+   "Raja Club Athletic",
+   "cwc",
+   45
+  ],
+  [
+   "2000-01-14",
+   "Club Necaxa",
+   "cwc",
+   120
+  ],
+  [
+   "2000-01-16",
+   "RCD Mallorca",
+   "lg",
+   60
+  ],
+  [
+   "2000-01-19",
+   "Real Zaragoza",
+   "dc",
+   87
+  ],
+  [
+   "2000-01-23",
+   "CD Numancia",
+   "lg",
+   60
+  ],
+  [
+   "2000-01-26",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-30",
+   "Athletic Bilbao",
+   "lg",
+   57
+  ],
+  [
+   "2000-02-03",
+   "Real Zaragoza",
+   "dc",
+   32
+  ],
+  [
+   "2000-02-06",
+   "Deportivo de La Coruña",
+   "lg",
+   27
+  ],
+  [
+   "2000-02-09",
+   "CP Mérida",
+   "dk",
+   79
+  ],
+  [
+   "2000-02-12",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-15",
+   "Real Valladolid CF",
+   "lg",
+   57
+  ],
+  [
+   "2000-02-20",
+   "Valencia CF",
+   "lg",
+   45
+  ],
+  [
+   "2000-02-26",
+   "FC Barcelona",
+   "lg",
+   10
+  ],
+  [
+   "2000-02-29",
+   "FC Bayern Munich",
+   "clg",
+   28
+  ],
+  [
+   "2000-03-04",
+   "Real Oviedo",
+   "lg",
+   21
+  ],
+  [
+   "2000-03-08",
+   "FC Bayern Munich",
+   "clg",
+   27
+  ],
+  [
+   "2000-03-11",
+   "Sevilla FC",
+   "lg",
+   80
+  ],
+  [
+   "2000-03-14",
+   "Dynamo Kyiv",
+   "clg",
+   61
+  ],
+  [
+   "2000-03-18",
+   "Atlético de Madrid",
+   "lg",
+   7
+  ],
+  [
+   "2000-03-22",
+   "Rosenborg BK",
+   "clg",
+   90
+  ],
+  [
+   "2000-03-25",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2000-04-01",
+   "Real Sociedad",
+   "lg",
+   75
+  ],
+  [
+   "2000-04-04",
+   "Manchester United",
+   "clk",
+   90
+  ],
+  [
+   "2000-04-09",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2000-04-12",
+   "RCD Espanyol Barcelona",
+   "dsf",
+   73
+  ],
+  [
+   "2000-04-15",
+   "Real Zaragoza",
+   "lg",
+   89
+  ],
+  [
+   "2000-04-19",
+   "Manchester United",
+   "clk",
+   89
+  ],
+  [
+   "2000-04-22",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "2000-04-26",
+   "RCD Espanyol Barcelona",
+   "dsf",
+   90
+  ],
+  [
+   "2000-04-29",
+   "RCD Espanyol Barcelona",
+   "lg",
+   89
+  ],
+  [
+   "2000-05-03",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2000-05-06",
+   "Deportivo Alavés",
+   "lg",
+   67
+  ],
+  [
+   "2000-05-09",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2000-05-14",
+   "Real Betis Balompié",
+   "lg",
+   73
+  ],
+  [
+   "2000-05-19",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-05-24",
+   "Valencia CF",
+   "clf",
+   90
+  ],
+  [
+   "2000-09-16",
+   "Málaga CF",
+   "lg",
+   21
+  ],
+  [
+   "2000-09-20",
+   "Spartak Moscow",
+   "clg",
+   25
+  ],
+  [
+   "2000-10-25",
+   "Sporting CP",
+   "clg",
+   38
+  ],
+  [
+   "2000-11-01",
+   "RCD Mallorca",
+   "lg",
+   24
+  ],
+  [
+   "2000-11-04",
+   "CD Numancia",
+   "lg",
+   90
+  ],
+  [
+   "2000-11-07",
+   "Spartak Moscow",
+   "clg",
+   90
+  ],
+  [
+   "2000-11-12",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2000-11-18",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-11-22",
+   "Leeds United",
+   "clg",
+   90
+  ],
+  [
+   "2000-11-28",
+   "CA Boca Juniors",
+   "cwc",
+   67
+  ],
+  [
+   "2000-12-02",
+   "CA Osasuna",
+   "lg",
+   69
+  ],
+  [
+   "2000-12-07",
+   "RSC Anderlecht",
+   "clg",
+   90
+  ],
+  [
+   "2000-12-10",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-16",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-19",
+   "Rayo Vallecano",
+   "lg",
+   54
+  ],
+  [
+   "2001-01-14",
+   "Real Oviedo",
+   "lg",
+   25
+  ],
+  [
+   "2001-01-21",
+   "Real Valladolid CF",
+   "lg",
+   8
+  ],
+  [
+   "2001-01-24",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2001-01-28",
+   "Valencia CF",
+   "lg",
+   77
+  ],
+  [
+   "2001-02-04",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-10",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-13",
+   "SS Lazio",
+   "clg",
+   76
+  ],
+  [
+   "2001-02-24",
+   "Deportivo de La Coruña",
+   "lg",
+   31
+  ],
+  [
+   "2001-03-03",
+   "FC Barcelona",
+   "lg",
+   75
+  ],
+  [
+   "2001-03-06",
+   "Leeds United",
+   "clg",
+   90
+  ],
+  [
+   "2001-03-11",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2001-03-18",
+   "RCD Mallorca",
+   "lg",
+   65
+  ],
+  [
+   "2001-03-31",
+   "CD Numancia",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-03",
+   "Galatasaray",
+   "clk",
+   89
+  ],
+  [
+   "2001-04-08",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-14",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-18",
+   "Galatasaray",
+   "clk",
+   90
+  ],
+  [
+   "2001-04-22",
+   "Real Zaragoza",
+   "lg",
+   66
+  ],
+  [
+   "2001-04-28",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2001-05-01",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2001-05-09",
+   "FC Bayern Munich",
+   "clsf",
+   61
+  ],
+  [
+   "2001-05-20",
+   "Rayo Vallecano",
+   "lg",
+   64
+  ],
+  [
+   "2001-05-26",
+   "Deportivo Alavés",
+   "lg",
+   26
+  ],
+  [
+   "2001-06-10",
+   "Real Oviedo",
+   "lg",
+   90
+  ],
+  [
+   "2001-06-17",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-08-19",
+   "Real Zaragoza",
+   "df",
+   20
+  ],
+  [
+   "2001-09-08",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-09-11",
+   "AS Roma",
+   "clg",
+   90
+  ],
+  [
+   "2001-09-15",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2001-09-19",
+   "Lokomotiv Moscow",
+   "clg",
+   2
+  ],
+  [
+   "2001-09-22",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2001-09-29",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-10-10",
+   "UD Pájara Playas de Jandía",
+   "dc",
+   90
+  ],
+  [
+   "2001-10-16",
+   "RSC Anderlecht",
+   "clg",
+   70
+  ],
+  [
+   "2001-10-21",
+   "Celta de Vigo",
+   "lg",
+   82
+  ],
+  [
+   "2001-10-27",
+   "Villarreal CF",
+   "lg",
+   77
+  ],
+  [
+   "2001-10-30",
+   "Lokomotiv Moscow",
+   "clg",
+   61
+  ],
+  [
+   "2001-11-04",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2001-11-11",
+   "Real Zaragoza",
+   "lg",
+   58
+  ],
+  [
+   "2001-11-17",
+   "Sevilla FC",
+   "lg",
+   13
+  ],
+  [
+   "2001-11-21",
+   "AC Sparta Praha",
+   "clg",
+   5
+  ],
+  [
+   "2001-11-28",
+   "UD Lanzarote",
+   "dc",
+   45
+  ],
+  [
+   "2002-01-13",
+   "Valencia CF",
+   "lg",
+   1
+  ],
+  [
+   "2002-01-16",
+   "Rayo Vallecano",
+   "dk",
+   90
+  ],
+  [
+   "2002-02-06",
+   "Real Valladolid CF",
+   "lg",
+   45
+  ],
+  [
+   "2002-02-10",
+   "UD Las Palmas",
+   "lg",
+   18
+  ],
+  [
+   "2002-02-16",
+   "Athletic Bilbao",
+   "lg",
+   10
+  ],
+  [
+   "2002-02-19",
+   "FC Porto",
+   "clg",
+   73
+  ],
+  [
+   "2002-02-23",
+   "Deportivo Alavés",
+   "lg",
+   55
+  ],
+  [
+   "2002-02-27",
+   "FC Porto",
+   "clg",
+   63
+  ],
+  [
+   "2002-03-02",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2002-03-06",
+   "Deportivo de La Coruña",
+   "df",
+   7
+  ],
+  [
+   "2002-03-09",
+   "Villarreal CF",
+   "lg",
+   30
+  ],
+  [
+   "2002-03-12",
+   "AC Sparta Praha",
+   "clg",
+   53
+  ],
+  [
+   "2002-03-16",
+   "FC Barcelona",
+   "lg",
+   1
+  ],
+  [
+   "2002-03-20",
+   "Panathinaikos",
+   "clg",
+   80
+  ],
+  [
+   "2002-03-24",
+   "Real Zaragoza",
+   "lg",
+   19
+  ],
+  [
+   "2002-03-30",
+   "Sevilla FC",
+   "lg",
+   62
+  ],
+  [
+   "2002-04-02",
+   "FC Bayern Munich",
+   "clk",
+   14
+  ],
+  [
+   "2002-04-06",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-20",
+   "CD Tenerife",
+   "lg",
+   14
+  ],
+  [
+   "2002-04-23",
+   "FC Barcelona",
+   "clsf",
+   10
+  ],
+  [
+   "2002-05-01",
+   "FC Barcelona",
+   "clsf",
+   22
+  ],
+  [
+   "2002-05-05",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2002-05-10",
+   "Deportivo de La Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2002-05-15",
+   "Bayer 04 Leverkusen",
+   "clf",
+   29
+  ],
+  [
+   "2002-09-02",
+   "RCD Espanyol Barcelona",
+   "lg",
+   10
+  ],
+  [
+   "2002-09-11",
+   "UD San Sebastián de los Reyes",
+   "dc",
+   90
+  ],
+  [
+   "2002-09-17",
+   "AS Roma",
+   "clg",
+   11
+  ],
+  [
+   "2002-10-02",
+   "AEK Athens",
+   "clg",
+   3
+  ],
+  [
+   "2002-10-06",
+   "Deportivo Alavés",
+   "lg",
+   15
+  ],
+  [
+   "2002-10-08",
+   "Real Betis Balompié",
+   "lg",
+   15
+  ],
+  [
+   "2002-10-19",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "2002-10-22",
+   "AEK Athens",
+   "clg",
+   82
+  ],
+  [
+   "2002-10-26",
+   "Villarreal CF",
+   "lg",
+   63
+  ],
+  [
+   "2002-11-06",
+   "Real Oviedo",
+   "dc",
+   90
+  ],
+  [
+   "2002-11-12",
+   "KRC Genk",
+   "clg",
+   23
+  ],
+  [
+   "2002-11-23",
+   "FC Barcelona",
+   "lg",
+   26
+  ],
+  [
+   "2002-12-21",
+   "Málaga CF",
+   "lg",
+   2
+  ],
+  [
+   "2003-01-08",
+   "Terrassa FC",
+   "dc",
+   90
+  ],
+  [
+   "2003-01-14",
+   "Terrassa FC",
+   "dc",
+   90
+  ],
+  [
+   "2003-01-23",
+   "RCD Mallorca",
+   "dk",
+   90
+  ],
+  [
+   "2003-01-29",
+   "RCD Mallorca",
+   "dk",
+   90
+  ],
+  [
+   "2003-02-02",
+   "RCD Espanyol Barcelona",
+   "lg",
+   31
+  ],
+  [
+   "2003-02-08",
+   "Real Betis Balompié",
+   "lg",
+   9
+  ],
+  [
+   "2003-02-22",
+   "Real Valladolid CF",
+   "lg",
+   61
+  ],
+  [
+   "2003-04-23",
+   "Manchester United",
+   "clk",
+   69
+  ],
+  [
+   "2003-04-27",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2003-05-03",
+   "RCD Mallorca",
+   "lg",
+   52
+  ],
+  [
+   "2003-05-10",
+   "Recreativo Huelva",
+   "lg",
+   90
+  ],
+  [
+   "2003-05-14",
+   "Juventus FC",
+   "clsf",
+   14
+  ],
+  [
+   "2003-05-18",
+   "Málaga CF",
+   "lg",
+   15
+  ],
+  [
+   "2003-06-15",
+   "Atlético de Madrid",
+   "lg",
+   17
+  ],
+  [
+   "2003-09-14",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2003-09-20",
+   "Fulham FC",
+   "lg",
+   85
+  ],
+  [
+   "2003-09-24",
+   "KSC Lokeren",
+   "elq",
+   90
+  ],
+  [
+   "2003-09-28",
+   "Tottenham Hotspur",
+   "lg",
+   84
+  ],
+  [
+   "2003-10-15",
+   "KSC Lokeren",
+   "elq",
+   90
+  ],
+  [
+   "2003-10-18",
+   "Bolton Wanderers",
+   "lg",
+   57
+  ],
+  [
+   "2003-11-01",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-06",
+   "Dyskobolia Grodzisk Wielkopolski",
+   "elk",
+   64
+  ],
+  [
+   "2003-11-09",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-22",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-27",
+   "Dyskobolia Grodzisk Wielkopolski",
+   "elk",
+   90
+  ],
+  [
+   "2003-12-03",
+   "Tottenham Hotspur",
+   "dc",
+   19
+  ],
+  [
+   "2003-12-07",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2003-12-13",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2003-12-22",
+   "Leeds United",
+   "lg",
+   70
+  ],
+  [
+   "2003-12-26",
+   "Birmingham City",
+   "lg",
+   69
+  ],
+  [
+   "2003-12-28",
+   "Liverpool FC",
+   "lg",
+   79
+  ],
+  [
+   "2004-01-03",
+   "Leicester City",
+   "dc",
+   45
+  ],
+  [
+   "2004-02-01",
+   "Arsenal FC",
+   "lg",
+   14
+  ],
+  [
+   "2004-02-04",
+   "Tottenham Hotspur",
+   "dc",
+   10
+  ],
+  [
+   "2004-02-08",
+   "Birmingham City",
+   "lg",
+   20
+  ],
+  [
+   "2004-02-11",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-14",
+   "Manchester United",
+   "dc",
+   90
+  ],
+  [
+   "2004-02-21",
+   "Bolton Wanderers",
+   "lg",
+   89
+  ],
+  [
+   "2004-02-28",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2004-03-14",
+   "Manchester United",
+   "lg",
+   45
+  ],
+  [
+   "2004-04-04",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2004-04-10",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2004-04-12",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2004-04-17",
+   "Southampton FC",
+   "lg",
+   11
+  ],
+  [
+   "2004-08-28",
+   "Charlton Athletic",
+   "lg",
+   14
+  ],
+  [
+   "2004-09-25",
+   "Arsenal FC",
+   "lg",
+   14
+  ],
+  [
+   "2004-10-16",
+   "Chelsea FC",
+   "lg",
+   47
+  ],
+  [
+   "2004-10-24",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2004-11-01",
+   "Norwich City",
+   "lg",
+   81
+  ],
+  [
+   "2004-11-07",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2004-11-13",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-01",
+   "Southampton FC",
+   "lg",
+   4
+  ],
+  [
+   "2005-01-08",
+   "Oldham Athletic",
+   "dc",
+   21
+  ],
+  [
+   "2005-01-15",
+   "Crystal Palace",
+   "lg",
+   45
+  ],
+  [
+   "2005-01-22",
+   "West Bromwich Albion",
+   "lg",
+   22
+  ],
+  [
+   "2005-02-06",
+   "Chelsea FC",
+   "lg",
+   5
+  ],
+  [
+   "2005-02-13",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2005-03-07",
+   "Bolton Wanderers",
+   "lg",
+   45
+  ]
+ ],
+ "note": "스티브 맥마나만(리버풀·레알 마드리드·맨체스터 시티)의 클럽 공식 경기 566경기(1990.12.15 셰필드 유나이티드전 ~ 2005.3.7 볼턴 원더러스전)에서 나온 80골 97도움(PK 골 없음), 친선경기 제외\n클럽별 경기·골·도움: 리버풀 364·66·80, 레알 마드리드 158·14·16, 맨체스터 시티 44·0·1. 출전 분 합계 43,596분\n출처: 경기 목록·출전 분(연장·교체 반영)은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·도움은 Transfermarkt 경기 리포트(골·도움이 있는 경기와 리그 외 모든 경기). 리버풀 경기는 클럽 기록 사이트 lfchistory.net의 경기별 출전·골·도움 목록과 대조함. 잉글랜드 대표팀·21세 이하 대표팀 경기는 뺌. 2군·유스 경기는 어느 출처에도 없음\n경기·골 수는 Transfermarkt·영어(스페인어) 위키백과·lfchistory.net이 클럽·시즌·대회별로 모두 같음(리버풀 364경기 66골, 레알 마드리드 158경기 14골, 맨체스터 시티 44경기 0골). 2000.11.28 인터콘티넨털컵 보카 주니어스전은 Transfermarkt 시즌 표기가 1999-00이지만 날짜대로 2000-01 시즌(영어 위키백과와 같음). FotMob은 2010년 이전 경기 자료가 없어 대조하지 못함\n골: 상대 자책골·본인 자책골·PK 골 없음. 리버풀 골 66개의 시각은 lfchistory.net과 1분 안에서 같고, 1995.10.22 사우샘프턴전 두 번째 골만 Transfermarkt 56분·lfchistory 54분(Transfermarkt 시각을 씀). 골 전 스코어는 리포트 골 순서로 셈\n도움: 모든 경기가 2014.8.1 이전이라 Transfermarkt 경기 리포트 도움을 씀(다른 선수 선례). 리버풀 도움 80개는 모두 lfchistory.net도 같은 골의 맥마나만 도움으로 적음(두 출처), 레알 마드리드·맨체스터 시티 도움 17개는 Transfermarkt 단일 출처(다른 경기별 출처를 찾지 못함). 도움 유형 칸이 빈 27개(대부분 1990년대)는 PK·자책골 표시가 없어 일반 도움으로 셈\n뺀 도움: 도움 97 = Transfermarkt 107 − PK 유도 3(1991.11.6 오세르전 4분 묄뷔 PK, 1994.11.26 토트넘전 39분 파울러 PK, 2000.4.29 에스파뇰전 77분 라울 PK) − 슈팅 리바운드 4(1992.3.31 노츠 카운티전 58분 러시, 1995.11.4 뉴캐슬전 11분 러시, 2001.3.3 바르셀로나전 37분 라울, 2001.3.11 레알 소시에다드전 35분 모리엔테스, Transfermarkt 'Shot on goal') − 상대 자책골에 준 도움 3(1994.10.1 셰필드 웬즈데이전 66분 데스 워커, 1995.3.19 맨유전 85분 팰리스터, 2000.11.18 비야레알전 67분 아모르)\n1995.11.4 뉴캐슬전 11분 러시 골은 lfchistory.net이 맥마나만 도움으로 적지만 Transfermarkt는 'Shot on goal'이고, lfchistory.net 경기 기사('Watson sinks Liverpool')도 '하크니스 크로스, 맥마나만의 골문을 가로지르는 오른발 슈팅, 러시가 가까이서 밀어 넣음'이라 슈팅에서 이어진 골로 보고 도움에서 뺌\nlfchistory.net에만 있는 도움 4개는 넣지 않음(Transfermarkt는 같은 골에 도움자 없음, 다른 출처를 찾지 못한 단일 출처): 1991.8.17 올덤전 78분 반스, 1991.10.19 첼시전 59분 러시, 1992.1.1 셰필드 유나이티드전 52분 호턴·79분 손더스\n날짜: 경기 현지 날짜(Transfermarkt 리포트 날짜, 없으면 경기 시각을 중부 유럽 시간으로 바꾼 날짜). Transfermarkt와 lfchistory.net이 다른 3경기는 세 번째 출처로 확인한 날짜를 씀: 1992.12.7 에버턴 원정(월요일 경기, Transfermarkt 12.5), 1993.9.22 리그컵 풀럼 원정(파울러 데뷔전, Transfermarkt 9.21), 1996.3.3 애스턴 빌라 홈(일요일 경기, Transfermarkt 3.2). 2000.1.26 레알 베티스 홈 경기(라리가 18라운드 연기 경기, 2-1)는 Transfermarkt가 2000.1.5(클럽 세계 선수권 알나스르전과 같은 날)로 적어 영어 위키백과 레알 베티스 1999-2000 시즌 문서·soccer-spain.com 경기 기사 날짜로 고침\n출전 분: Transfermarkt 그대로. 연장 경기: 1992.2.26 FA컵 5라운드 재경기 입스위치전(120분, 3-2), 1992.4.5 FA컵 준결승 포츠머스전(94분), 1992.12.16 리그컵 4라운드 재경기 크리스털 팰리스전(51분), 1998.1.7 리그컵 8강 뉴캐슬전(120분). 승부차기 경기 3개(1993.12.14 리그컵 윔블던전, 1995.1.18 FA컵 버밍엄전, 2000.1.14 클럽 세계 선수권 3위 결정전 네카사전)에는 골·도움이 없음(1993.12.14 리버풀의 90분 동점 골은 윔블던 골키퍼 세거스 자책골)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(오언·라울·모리엔테스·피구·지단·호나우두·숀 라이트필립스 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 출처로 확인한 그 시즌 최종 순위의 리그·순위 값 순으로 씀(기록 177개: 같은 경기 48, 같은 팀·시즌 99, 순위로 새로 정한 값 30)\n순위로 새로 정한 상대(영어 위키백과 시즌 순위표): 1991-92 1부 노츠 카운티 21위/22팀, 2부 입스위치 1위·브리스틀 로버스 13위·선덜랜드 18위·포트 베일 24위, 3부 스토크 4위, 4부 크루 6위/22팀(올더숏 기록 말소), 1994-95 2부 볼턴 3위(플레이오프 승격)·스토크 11위·번리 22위, 1995-96 2부 선덜랜드 1위·3부 슈루즈버리 18위·4부 로치데일 15위, 세군다 2002-03 테라사 12위/22팀, 키프로스 1992-93 아폴론 2위, 러시아 1992 스파르타크 모스크바 1위·1995 스파르타크 블라디캅카스 1위, 핀란드 1991 쿠시시 1위·1996 MyPa 2위(챔피언십 그룹 뒤 최종 순위), 스위스 1996-97 시옹 1위(챔피언십 라운드 뒤). 달력 연도 리그는 경기가 열린 해의 시즌 순위. 1991-92 이전 1부(풋볼 리그 퍼스트 디비전)는 프리미어리그와 같은 단계로 봄(다른 선수 자료와 같음)\n대회 비중: FA컵·리그컵·코파 델 레이는 국내컵(16강까지 낮은 비중, 8강부터 높은 비중·준결승·결승; FA컵 6라운드와 그 재경기·리그컵 5라운드 = 8강, 재경기는 단판), 수페르코파는 국내컵 결승, UEFA컵 1라운드는 유로파 예선, 2라운드 이후 유로파 토너먼트, 컵위너스컵은 1라운드~8강 유로파 토너먼트·준결승 유로파 준결승(다른 선수 자료와 같음), 챔스 1·2차 조별은 조별, 클럽 세계 선수권 2000 조별은 리그식(무승부 1점), 3위 결정전·인터콘티넨털컵 2000은 클럽 월드컵 단판\n두 경기 합산 기록 23개(19경기)는 합산 S로 계산함. UEFA 대회·컵위너스컵·리그컵 2라운드와 준결승·코파 델 레이·수페르코파 모두 원정 다득점·연장 있음(당시 규칙). 맥마나만이 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 자료\n시즌 구분: 세 클럽 모두 8월 1일 기준. 클럽 구분: 1999.7.1 레알 마드리드(보스만 자유 이적), 2003.8.30 맨체스터 시티(자유 이적; 2003-04 레알 공식 경기 명단에는 들지 않음)\n은퇴: 마지막 공식 경기 2005.3.7 볼턴전(2004-05 시즌 뒤 계약 만료로 은퇴). 자료 기준일 2026.11.21",
+ "judgments": [
+  [
+   "도움 제외",
+   "1991-11-06",
+   "AJ Auxerre",
+   "4",
+   "Jan Mølby",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "1992-03-31",
+   "Notts County",
+   "58",
+   "Ian Rush",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "1994-10-01",
+   "Sheffield Wednesday",
+   "66",
+   "Des Walker",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "1994-11-26",
+   "Tottenham Hotspur",
+   "39",
+   "Robbie Fowler",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "1995-03-19",
+   "Manchester United",
+   "85",
+   "Gary Pallister",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "1995-11-04",
+   "Newcastle United",
+   "11",
+   "Ian Rush",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2000-04-29",
+   "RCD Espanyol Barcelona",
+   "77",
+   "Raúl",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2000-11-18",
+   "Villarreal CF",
+   "67",
+   "Guillermo Amor",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2001-03-03",
+   "FC Barcelona",
+   "37",
+   "Raúl",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2001-03-11",
+   "Real Sociedad",
+   "35",
+   "Fernando Morientes",
+   "슈팅 리바운드('Shot on goal')"
+  ]
+ ],
+ "assist_status": [
+  [
+   "1991-08-27",
+   "2527808",
+   "62",
+   "Dean Saunders",
+   "TM+lfchistory"
+  ],
+  [
+   "1991-09-18",
+   "1067933",
+   "78",
+   "Dean Saunders",
+   "TM+lfchistory"
+  ],
+  [
+   "1991-10-29",
+   "3322791",
+   "65",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1991-12-18",
+   "2549312",
+   "81",
+   "Ray Houghton",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-01-06",
+   "3144653",
+   "28",
+   "John Barnes",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-02-11",
+   "3144655",
+   "77",
+   "Dean Saunders",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-05-09",
+   "2301282",
+   "47",
+   "Michael Thomas",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-09-29",
+   "1098819",
+   "68",
+   "Don Hutchison",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-11-28",
+   "1111438",
+   "9",
+   "Mike Marsh",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-11-28",
+   "1111438",
+   "61",
+   "Ronny Rosenthal",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-12-13",
+   "1111466",
+   "85",
+   "Mark Walters",
+   "TM+lfchistory"
+  ],
+  [
+   "1992-12-28",
+   "1111492",
+   "49",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-03-10",
+   "1111607",
+   "72",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-04-10",
+   "1111671",
+   "60",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-08-22",
+   "1111752",
+   "80",
+   "Mike Marsh",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-08-25",
+   "1111762",
+   "18",
+   "Nigel Clough",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-12-08",
+   "1111923",
+   "25",
+   "John Barnes",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-12-08",
+   "1111923",
+   "32",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1993-12-11",
+   "1111932",
+   "86",
+   "Mark Wright",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-01-15",
+   "1111984",
+   "47",
+   "Julian Dicks",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-01-15",
+   "1111984",
+   "80",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-02-26",
+   "1112038",
+   "2",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-08-28",
+   "1112213",
+   "29",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-08-31",
+   "1112220",
+   "21",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-10-05",
+   "3290388",
+   "15",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-10-08",
+   "1112277",
+   "57",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-10-15",
+   "1112286",
+   "29",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-10-22",
+   "1112296",
+   "35",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-10-25",
+   "3279859",
+   "4",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1994-12-28",
+   "1112407",
+   "82",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-02-04",
+   "1112463",
+   "90",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-02-15",
+   "3277611",
+   "90+2",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-03-08",
+   "3277609",
+   "27",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-04-12",
+   "1112576",
+   "90",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-08-26",
+   "1112672",
+   "55",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-09-12",
+   "1170021",
+   "52",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-09-16",
+   "1112698",
+   "12",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-09-23",
+   "1112707",
+   "67",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-10-01",
+   "1112722",
+   "32",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-10-22",
+   "1112743",
+   "74",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-12-09",
+   "1112806",
+   "61",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1995-12-17",
+   "1112822",
+   "87",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-01-06",
+   "3252274",
+   "43",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-01-20",
+   "1112875",
+   "27",
+   "Neil Ruddock",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-01-20",
+   "1112875",
+   "89",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-01-31",
+   "1112842",
+   "65",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-02-18",
+   "3097572",
+   "8",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-02-18",
+   "3097572",
+   "84",
+   "Jason McAteer",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-02-24",
+   "1112917",
+   "11",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-03-03",
+   "1112925",
+   "5",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-03-31",
+   "3097576",
+   "90",
+   "Jason McAteer",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-04-03",
+   "1112971",
+   "55",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-05-05",
+   "1113018",
+   "41",
+   "Ian Rush",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-09-15",
+   "1113083",
+   "58",
+   "Patrik Berger",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-09-21",
+   "1113088",
+   "49",
+   "Patrik Berger",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-09-26",
+   "1098540",
+   "78",
+   "John Barnes",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-09-29",
+   "1113103",
+   "55",
+   "Michael Thomas",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-10-31",
+   "1098562",
+   "71",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-10-31",
+   "1098562",
+   "72",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-12-14",
+   "1113215",
+   "77",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1996-12-23",
+   "1113203",
+   "45",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-02-19",
+   "1113335",
+   "37",
+   "Stan Collymore",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-09-13",
+   "941356",
+   "68",
+   "Michael Thomas",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-10-05",
+   "941403",
+   "57",
+   "Patrik Berger",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-10-25",
+   "941418",
+   "65",
+   "Øyvind Leonhardsen",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-10-25",
+   "941418",
+   "84",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-11-04",
+   "2267052",
+   "84",
+   "Karl-Heinz Riedle",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-11-18",
+   "3242540",
+   "57",
+   "Michael Owen",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-12-20",
+   "941490",
+   "14",
+   "Michael Owen",
+   "TM+lfchistory"
+  ],
+  [
+   "1997-12-26",
+   "941495",
+   "79",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-01-10",
+   "942120",
+   "71",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-02-14",
+   "942155",
+   "27",
+   "Michael Owen",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-04-13",
+   "942240",
+   "85",
+   "David Thompson",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-08-30",
+   "1149627",
+   "18",
+   "Michael Owen",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-09-09",
+   "1149638",
+   "48",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-09-15",
+   "2266706",
+   "23",
+   "Karl-Heinz Riedle",
+   "TM+lfchistory"
+  ],
+  [
+   "1998-11-07",
+   "1149713",
+   "84",
+   "Jamie Redknapp",
+   "TM+lfchistory"
+  ],
+  [
+   "1999-02-20",
+   "1149849",
+   "45",
+   "Michael Owen",
+   "TM+lfchistory"
+  ],
+  [
+   "1999-04-03",
+   "1149904",
+   "21",
+   "Robbie Fowler",
+   "TM+lfchistory"
+  ],
+  [
+   "1999-05-16",
+   "1149975",
+   "50",
+   "Karl-Heinz Riedle",
+   "TM+lfchistory"
+  ],
+  [
+   "1999-08-21",
+   "1183634",
+   "87",
+   "Fernando Morientes",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "1999-09-15",
+   "984674",
+   "24",
+   "Sávio",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2000-03-04",
+   "1183981",
+   "75",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2000-04-19",
+   "984690",
+   "50",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2000-10-25",
+   "990097",
+   "62",
+   "Fernando Morientes",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2000-12-16",
+   "1091501",
+   "4",
+   "Fernando Morientes",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2001-01-24",
+   "1091477",
+   "56",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2001-04-14",
+   "1091675",
+   "49",
+   "Guti",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2001-04-18",
+   "990233",
+   "37",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2001-04-22",
+   "1091690",
+   "32",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2001-06-17",
+   "1091761",
+   "24",
+   "Raúl",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2002-03-24",
+   "1089808",
+   "79",
+   "Fernando Hierro",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2002-10-06",
+   "998938",
+   "78",
+   "Ronaldo",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2002-11-06",
+   "2423298",
+   "52",
+   "Tote",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2003-01-14",
+   "2423281",
+   "77",
+   "Javier Portillo",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2003-05-03",
+   "1004456",
+   "10",
+   "Ronaldo",
+   "TM 단독(2014.8 전 허용)"
+  ],
+  [
+   "2004-02-11",
+   "5124",
+   "50",
+   "Shaun Wright-Phillips",
+   "TM 단독(2014.8 전 허용)"
+  ]
+ ],
+ "lfchistory_only_assists": [
+  [
+   "1991-08-17",
+   "Oldham Athletic",
+   78,
+   "John Barnes"
+  ],
+  [
+   "1991-10-19",
+   "Chelsea FC",
+   59,
+   "Ian Rush"
+  ],
+  [
+   "1992-01-01",
+   "Sheffield United",
+   52,
+   "Ray Houghton"
+  ],
+  [
+   "1992-01-01",
+   "Sheffield United",
+   79,
+   "Dean Saunders"
+  ]
+ ],
+ "cross_check": [
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "bec.js",
+   "1995-04-17",
+   "1995-04-15",
+   "Leicester City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "bec.js",
+   "1996-04-06",
+   "1996-04-08",
+   "Coventry City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "gig.js",
+   "1994-12-26",
+   "1994-12-28",
+   "Leicester City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "gig.js",
+   "1996-04-06",
+   "1996-04-08",
+   "Coventry City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "kew.js",
+   "1998-12-28",
+   "1998-12-26",
+   "Newcastle United"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "kew.js",
+   "1999-04-05",
+   "1999-04-03",
+   "Nottingham Forest"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "lam.js",
+   "1996-08-19",
+   "1996-08-17",
+   "Arsenal FC"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "mor.js",
+   "2000-04-22",
+   57,
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "mor.js",
+   "1999-08-21",
+   87,
+   "Fernando Morientes",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "mor.js",
+   "2000-04-22",
+   57,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "mor.js",
+   "2000-10-25",
+   62,
+   "Fernando Morientes",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "mor.js",
+   "2000-12-16",
+   4,
+   "Fernando Morientes",
+   "같음"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "owe.js",
+   "1997-12-28",
+   43,
+   "Newcastle United",
+   "같음"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "owe.js",
+   "1998-03-14",
+   21,
+   "Tottenham Hotspur",
+   "같음"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "owe.js",
+   "1998-11-03",
+   80,
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "owe.js",
+   "1997-11-18",
+   57,
+   "Michael Owen",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "owe.js",
+   "1997-12-20",
+   14,
+   "Michael Owen",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "owe.js",
+   "1997-12-28",
+   43,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "owe.js",
+   "1998-02-14",
+   27,
+   "Michael Owen",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "owe.js",
+   "1998-03-14",
+   21,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "owe.js",
+   "1998-08-30",
+   18,
+   "Michael Owen",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "owe.js",
+   "1998-11-03",
+   80,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "owe.js",
+   "1999-02-20",
+   45,
+   "Michael Owen",
+   "같음"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "rau.js",
+   "1999-08-29",
+   69,
+   "CD Numancia",
+   "같음"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "rau.js",
+   "2002-09-02",
+   88,
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "rau.js",
+   "1999-08-29",
+   69,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2000-03-04",
+   75,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2000-04-19",
+   50,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2001-01-24",
+   56,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2001-04-18",
+   37,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2001-04-22",
+   32,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rau.js",
+   "2001-06-17",
+   24,
+   "Raúl",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "rau.js",
+   "2002-09-02",
+   88,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "rey.js",
+   "2002-10-08",
+   "2002-10-06",
+   "Real Betis Balompié"
+  ],
+  [
+   "타인 도움(맥마나만 골)",
+   "rno.js",
+   "2002-10-22",
+   43,
+   "AEK Athens",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rno.js",
+   "2002-10-06",
+   78,
+   "Ronaldo",
+   "같음"
+  ],
+  [
+   "타인 도움 행이 맥마나만 골과 같은 시각",
+   "rno.js",
+   "2002-10-22",
+   43,
+   "Steve McManaman",
+   "같음"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "rno.js",
+   "2003-05-03",
+   10,
+   "Ronaldo",
+   "같음"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "roo.js",
+   "2003-12-26",
+   "2003-12-28",
+   "Birmingham City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "shr.js",
+   "1994-12-28",
+   "1994-12-26",
+   "Manchester City"
+  ],
+  [
+   "같은 상대 출전 행 날짜 1~2일 차이",
+   "shr.js",
+   "1995-11-04",
+   "1995-11-06",
+   "Newcastle United"
+  ],
+  [
+   "맥마나만 도움→타인 골",
+   "swp.js",
+   "2004-02-11",
+   50,
+   "Shaun Wright-Phillips",
+   "같음"
+  ],
+  [
+   "TM 맥마나만 도움을 뺀 타인 골",
+   "mor.js",
+   "2001-03-11",
+   35,
+   "Fernando Morientes",
+   "슈팅 리바운드('Shot on goal')",
+   0
+  ],
+  [
+   "TM 맥마나만 도움을 뺀 타인 골",
+   "rau.js",
+   "2000-04-29",
+   77,
+   "Raúl",
+   "PK 유도",
+   0
+  ],
+  [
+   "TM 맥마나만 도움을 뺀 타인 골",
+   "rau.js",
+   "2001-03-03",
+   37,
+   "Raúl",
+   "슈팅 리바운드('Shot on goal')",
+   0
+  ]
+ ],
+ "elo_sources": {
+  "기존 팀×시즌 값": 99,
+  "순위 라벨(직접 확인)": 30,
+  "같은 경기 다른 선수 자료": 48
+ },
+ "date_changes": [
+  [
+   "1111455",
+   "1992-12-05",
+   "1992-12-07",
+   "Everton FC",
+   "에버턴 원정: 1992.12.7(월) — statto.com·englishfootballleaguetables.co.uk·lfchistory"
+  ],
+  [
+   "3305877",
+   "1993-09-21",
+   "1993-09-22",
+   "Fulham FC",
+   "리그컵 풀럼 원정: 1993.9.22 — 리버풀 구단 기사(파울러 데뷔)·lfchistory 신문 스캔 19930922"
+  ],
+  [
+   "1112925",
+   "1996-03-02",
+   "1996-03-03",
+   "Aston Villa",
+   "애스턴 빌라 홈: 1996.3.3(일) — englishfootballleaguetables.co.uk·sportsmole·avfchistory·lfchistory"
+  ],
+  [
+   "1183884",
+   "2000-01-05",
+   "2000-01-26",
+   "Real Betis Balompié",
+   "레알 베티스 홈(라리가 18라운드 연기 경기): 2000.1.26 — 영어 위키백과 1999-2000 레알 베티스 시즌·soccer-spain.com 경기 기사(맥마나만 선발). TM 1.5는 클럽 세계 선수권 알나스르전과 같은 날이라 불가능"
+  ]
+ ],
+ "new_team_seasons": {
+  "FC Kuusysi|1991-92": [
+   1520,
+   "핀란드 1부 1991 1위/12팀 (Futisliiga, 우승 팀)"
+  ],
+  "Stoke City|1991-92": [
+   1428,
+   "잉글랜드 3부 1991-92 4위/24팀 (Football League Third Division, 리그 수준 추정)"
+  ],
+  "Port Vale FC|1991-92": [
+   1394,
+   "챔피언십(2부) 1991-92 24위/24팀"
+  ],
+  "Crewe Alexandra|1991-92": [
+   1307,
+   "잉글랜드 4부 1991-92 6위/22팀 (Football League Fourth Division, 리그 수준 추정)"
+  ],
+  "Bristol Rovers|1991-92": [
+   1461,
+   "챔피언십(2부) 1991-92 13위/24팀"
+  ],
+  "Ipswich Town|1991-92": [
+   1629,
+   "챔피언십(2부) 1991-92 1위/24팀"
+  ],
+  "Notts County|1991-92": [
+   1584,
+   "프리미어리그 1991-92 21위/22팀"
+  ],
+  "Sunderland AFC|1991-92": [
+   1440,
+   "챔피언십(2부) 1991-92 18위/24팀"
+  ],
+  "Apollon Limassol|1992-93": [
+   1474,
+   "키프로스 1부 1992-93 2위/14팀 (Cypriot First Division)"
+  ],
+  "Spartak Moscow|1992-93": [
+   1753,
+   "러시아 1부 1992 1위/20팀 (Russian Top League, 우승 팀; 1992.10 경기)"
+  ],
+  "Burnley FC|1994-95": [
+   1366,
+   "챔피언십(2부) 1994-95 22위/24팀"
+  ],
+  "Stoke City|1994-95": [
+   1432,
+   "챔피언십(2부) 1994-95 11위/24팀"
+  ],
+  "Bolton Wanderers|1994-95": [
+   1513,
+   "챔피언십(2부) 1994-95 3위/24팀"
+  ],
+  "Spartak Vladikavkaz|1995-96": [
+   1696,
+   "러시아 1부 1995 1위/16팀 (Russian Top League, 우승 팀; 1995.9 경기)"
+  ],
+  "Sunderland AFC|1995-96": [
+   1604,
+   "챔피언십(2부) 1995-96 1위/24팀"
+  ],
+  "Rochdale AFC|1995-96": [
+   1230,
+   "잉글랜드 4부 1995-96 15위/24팀 (Football League Third Division, 리그 수준 추정)"
+  ],
+  "Shrewsbury Town|1995-96": [
+   1320,
+   "잉글랜드 3부 1995-96 18위/24팀 (Football League Second Division, 리그 수준 추정)"
+  ],
+  "Myllykosken Pallo -47|1996-97": [
+   1465,
+   "핀란드 1부 1996 2위/12팀 (Veikkausliiga, 챔피언십 그룹 뒤 최종 순위; 1996.9 경기)"
+  ],
+  "FC Sion|1996-97": [
+   1751,
+   "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)"
+  ],
+  "Terrassa FC|2002-03": [
+   1599,
+   "세군다(2부) 2002-03 12위/22팀"
+  ]
+ },
+ "elo_log": {
+  "Manchester City|1991-08-21": [
+   "table",
+   1768,
+   "프리미어리그 1991-92 5위/22팀",
+   "1991-92"
+  ],
+  "Queens Park Rangers|1991-08-27": [
+   "table",
+   1684,
+   "프리미어리그 1991-92 11위/22팀",
+   "1991-92"
+  ],
+  "FC Kuusysi|1991-09-18": [
+   "man",
+   1520,
+   "핀란드 1부 1991 1위/12팀 (Futisliiga, 우승 팀)"
+  ],
+  "Stoke City|1991-10-09": [
+   "man",
+   1428,
+   "잉글랜드 3부 1991-92 4위/24팀 (Football League Third Division, 리그 수준 추정)"
+  ],
+  "Chelsea FC|1991-10-19": [
+   "table",
+   1656,
+   "프리미어리그 1991-92 14위/22팀",
+   "1991-92"
+  ],
+  "Port Vale FC|1991-10-29": [
+   "man",
+   1394,
+   "챔피언십(2부) 1991-92 24위/24팀"
+  ],
+  "Port Vale FC|1991-11-20": [
+   "man",
+   1394,
+   "챔피언십(2부) 1991-92 24위/24팀"
+  ],
+  "Tottenham Hotspur|1991-12-18": [
+   "table",
+   1650,
+   "프리미어리그 1991-92 15위/22팀",
+   "1991-92"
+  ],
+  "Crewe Alexandra|1992-01-06": [
+   "man",
+   1307,
+   "잉글랜드 4부 1991-92 6위/22팀 (Football League Fourth Division, 리그 수준 추정)"
+  ],
+  "Luton Town|1992-01-11": [
+   "table",
+   1591,
+   "프리미어리그 1991-92 20위/22팀",
+   "1991-92"
+  ],
+  "Oldham Athletic|1992-01-18": [
+   "table",
+   1633,
+   "프리미어리그 1991-92 17위/22팀",
+   "1991-92"
+  ],
+  "Bristol Rovers|1992-02-11": [
+   "man",
+   1461,
+   "챔피언십(2부) 1991-92 13위/24팀"
+  ],
+  "Ipswich Town|1992-02-26": [
+   "man",
+   1629,
+   "챔피언십(2부) 1991-92 1위/24팀"
+  ],
+  "Notts County|1992-03-31": [
+   "man",
+   1584,
+   "프리미어리그 1991-92 21위/22팀"
+  ],
+  "Sunderland AFC|1992-05-09": [
+   "man",
+   1440,
+   "챔피언십(2부) 1991-92 18위/24팀"
+  ],
+  "Wimbledon FC|1992-09-26": [
+   "table",
+   1664,
+   "프리미어리그 1992-93 12위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Apollon Limassol|1992-09-29": [
+   "man",
+   1474,
+   "키프로스 1부 1992-93 2위/14팀 (Cypriot First Division)"
+  ],
+  "Spartak Moscow|1992-10-22": [
+   "man",
+   1753,
+   "러시아 1부 1992 1위/20팀 (Russian Top League, 우승 팀; 1992.10 경기)"
+  ],
+  "Middlesbrough FC|1992-11-07": [
+   "table",
+   1575,
+   "프리미어리그 1992-93 21위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Sheffield United|1992-11-11": [
+   "table",
+   1647,
+   "프리미어리그 1992-93 14위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Crystal Palace|1992-11-28": [
+   "table",
+   1582,
+   "프리미어리그 1992-93 20위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Blackburn Rovers|1992-12-13": [
+   "table",
+   1778,
+   "프리미어리그 1992-93 4위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Manchester City|1992-12-28": [
+   "table",
+   1706,
+   "프리미어리그 1992-93 9위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Queens Park Rangers|1993-03-10": [
+   "table",
+   1759,
+   "프리미어리그 1992-93 5위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Oldham Athletic|1993-04-10": [
+   "table",
+   1592,
+   "프리미어리그 1992-93 19위 (리그 수준 추정)",
+   "1992-93"
+  ],
+  "Swindon Town|1993-08-22": [
+   "table",
+   1479,
+   "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Tottenham Hotspur|1993-08-25": [
+   "table",
+   1563,
+   "프리미어리그 1993-94 15위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Queens Park Rangers|1993-12-08": [
+   "table",
+   1628,
+   "프리미어리그 1993-94 9위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Swindon Town|1993-12-11": [
+   "table",
+   1479,
+   "프리미어리그 1993-94 22위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Oldham Athletic|1994-01-15": [
+   "table",
+   1497,
+   "프리미어리그 1993-94 21위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Coventry City|1994-02-26": [
+   "table",
+   1597,
+   "프리미어리그 1993-94 11위 (리그 수준 추정)",
+   "1993-94"
+  ],
+  "Crystal Palace|1994-08-20": [
+   "table",
+   1514,
+   "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Arsenal FC|1994-08-28": [
+   "table",
+   1587,
+   "프리미어리그 1994-95 12위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Southampton FC|1994-08-31": [
+   "table",
+   1611,
+   "프리미어리그 1994-95 10위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Sheffield Wednesday|1994-10-01": [
+   "table",
+   1578,
+   "프리미어리그 1994-95 13위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Burnley FC|1994-10-05": [
+   "man",
+   1366,
+   "챔피언십(2부) 1994-95 22위/24팀"
+  ],
+  "Aston Villa|1994-10-08": [
+   "table",
+   1530,
+   "프리미어리그 1994-95 18위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Blackburn Rovers|1994-10-15": [
+   "table",
+   1859,
+   "프리미어리그 1994-95 1위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Wimbledon FC|1994-10-22": [
+   "table",
+   1628,
+   "프리미어리그 1994-95 9위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Stoke City|1994-10-25": [
+   "man",
+   1432,
+   "챔피언십(2부) 1994-95 11위/24팀"
+  ],
+  "Manchester City|1994-12-28": [
+   "table",
+   1546,
+   "프리미어리그 1994-95 17위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Nottingham Forest|1995-02-04": [
+   "table",
+   1734,
+   "프리미어리그 1994-95 3위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Crystal Palace|1995-02-15": [
+   "table",
+   1514,
+   "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Sheffield Wednesday|1995-02-25": [
+   "table",
+   1578,
+   "프리미어리그 1994-95 13위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Crystal Palace|1995-03-08": [
+   "table",
+   1514,
+   "프리미어리그 1994-95 19위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Bolton Wanderers|1995-04-02": [
+   "man",
+   1513,
+   "챔피언십(2부) 1994-95 3위/24팀"
+  ],
+  "Arsenal FC|1995-04-12": [
+   "table",
+   1587,
+   "프리미어리그 1994-95 12위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Manchester City|1995-04-14": [
+   "table",
+   1546,
+   "프리미어리그 1994-95 17위 (리그 수준 추정)",
+   "1994-95"
+  ],
+  "Tottenham Hotspur|1995-08-26": [
+   "table",
+   1668,
+   "프리미어리그 1995-96 8위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Spartak Vladikavkaz|1995-09-12": [
+   "man",
+   1696,
+   "러시아 1부 1995 1위/16팀 (Russian Top League, 우승 팀; 1995.9 경기)"
+  ],
+  "Blackburn Rovers|1995-09-16": [
+   "table",
+   1686,
+   "프리미어리그 1995-96 7위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Sunderland AFC|1995-09-20": [
+   "man",
+   1604,
+   "챔피언십(2부) 1995-96 1위/24팀"
+  ],
+  "Bolton Wanderers|1995-09-23": [
+   "table",
+   1515,
+   "프리미어리그 1995-96 20위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Manchester United|1995-10-01": [
+   "table",
+   1895,
+   "프리미어리그 1995-96 1위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Southampton FC|1995-10-22": [
+   "table",
+   1555,
+   "프리미어리그 1995-96 17위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Bolton Wanderers|1995-12-09": [
+   "table",
+   1515,
+   "프리미어리그 1995-96 20위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Manchester United|1995-12-17": [
+   "table",
+   1895,
+   "프리미어리그 1995-96 1위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Chelsea FC|1995-12-30": [
+   "table",
+   1622,
+   "프리미어리그 1995-96 11위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Rochdale AFC|1996-01-06": [
+   "man",
+   1230,
+   "잉글랜드 4부 1995-96 15위/24팀 (Football League Third Division, 리그 수준 추정)"
+  ],
+  "Leeds United|1996-01-20": [
+   "table",
+   1604,
+   "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Aston Villa|1996-01-31": [
+   "table",
+   1729,
+   "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Shrewsbury Town|1996-02-18": [
+   "man",
+   1320,
+   "잉글랜드 3부 1995-96 18위/24팀 (Football League Second Division, 리그 수준 추정)"
+  ],
+  "Blackburn Rovers|1996-02-24": [
+   "table",
+   1686,
+   "프리미어리그 1995-96 7위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Aston Villa|1996-03-03": [
+   "table",
+   1729,
+   "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Wimbledon FC|1996-03-13": [
+   "table",
+   1599,
+   "프리미어리그 1995-96 14위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Leeds United|1996-03-20": [
+   "table",
+   1604,
+   "프리미어리그 1995-96 13위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Aston Villa|1996-03-31": [
+   "table",
+   1729,
+   "프리미어리그 1995-96 4위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Newcastle United|1996-04-03": [
+   "table",
+   1810,
+   "프리미어리그 1995-96 2위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Manchester City|1996-05-05": [
+   "table",
+   1543,
+   "프리미어리그 1995-96 18위 (리그 수준 추정)",
+   "1995-96"
+  ],
+  "Arsenal FC|1996-08-19": [
+   "table",
+   1760,
+   "프리미어리그 1996-97 3위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Southampton FC|1996-09-07": [
+   "table",
+   1571,
+   "프리미어리그 1996-97 16위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Leicester City|1996-09-15": [
+   "table",
+   1648,
+   "프리미어리그 1996-97 9위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Chelsea FC|1996-09-21": [
+   "table",
+   1699,
+   "프리미어리그 1996-97 6위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Myllykosken Pallo -47|1996-09-26": [
+   "man",
+   1465,
+   "핀란드 1부 1996 2위/12팀 (Veikkausliiga, 챔피언십 그룹 뒤 최종 순위; 1996.9 경기)"
+  ],
+  "West Ham United|1996-09-29": [
+   "table",
+   1597,
+   "프리미어리그 1996-97 14위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "FC Sion|1996-10-31": [
+   "man",
+   1751,
+   "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)"
+  ],
+  "Leeds United|1996-11-16": [
+   "table",
+   1620,
+   "프리미어리그 1996-97 11위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Arsenal FC|1996-11-27": [
+   "table",
+   1760,
+   "프리미어리그 1996-97 3위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Tottenham Hotspur|1996-12-02": [
+   "table",
+   1632,
+   "프리미어리그 1996-97 10위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Middlesbrough FC|1996-12-14": [
+   "table",
+   1533,
+   "프리미어리그 1996-97 19위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Newcastle United|1996-12-23": [
+   "table",
+   1808,
+   "프리미어리그 1996-97 2위",
+   "1996-97"
+  ],
+  "Middlesbrough FC|1997-01-08": [
+   "table",
+   1533,
+   "프리미어리그 1996-97 19위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Leeds United|1997-02-19": [
+   "table",
+   1620,
+   "프리미어리그 1996-97 11위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Newcastle United|1997-03-10": [
+   "table",
+   1808,
+   "프리미어리그 1996-97 2위",
+   "1996-97"
+  ],
+  "Sunderland AFC|1997-04-13": [
+   "table",
+   1541,
+   "프리미어리그 1996-97 18위 (리그 수준 추정)",
+   "1996-97"
+  ],
+  "Leeds United|1997-08-26": [
+   "table",
+   1752,
+   "프리미어리그 1997-98 5위",
+   "1997-98"
+  ],
+  "Sheffield Wednesday|1997-09-13": [
+   "table",
+   1613,
+   "프리미어리그 1997-98 16위",
+   "1997-98"
+  ],
+  "Celtic FC|1997-09-16": [
+   "same",
+   1644,
+   "스코틀랜드 1997-98 1위/10팀 (추정, 다른 선수 자료 셀틱 2001-02·2003-04 1위 1620과 같음)",
+   [
+    "owe.js"
+   ]
+  ],
+  "Aston Villa|1997-09-22": [
+   "same",
+   1726,
+   "프리미어리그 1997-98 7위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Chelsea FC|1997-10-05": [
+   "table",
+   1769,
+   "프리미어리그 1997-98 4위",
+   "1997-98"
+  ],
+  "Derby County|1997-10-25": [
+   "same",
+   1690,
+   "프리미어리그 1997-98 9위",
+   [
+    "owe.js"
+   ]
+  ],
+  "RC Strasbourg Alsace|1997-11-04": [
+   "table",
+   1649,
+   "리그1 1997-98 13위",
+   "1997-98"
+  ],
+  "Tottenham Hotspur|1997-11-08": [
+   "same",
+   1638,
+   "프리미어리그 1997-98 14위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Grimsby Town|1997-11-18": [
+   "same",
+   1439,
+   "잉글랜드 3부 1997-98 3위/24팀 (Football League Second Division, 리그 수준 추정)",
+   [
+    "owe.js"
+   ]
+  ],
+  "Arsenal FC|1997-11-30": [
+   "table",
+   1935,
+   "프리미어리그 1997-98 1위 (추정, 이웃 순위값에 기준 곡선 차이)",
+   "1997-98"
+  ],
+  "Crystal Palace|1997-12-13": [
+   "same",
+   1554,
+   "프리미어리그 1997-98 20위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Coventry City|1997-12-20": [
+   "same",
+   1662,
+   "프리미어리그 1997-98 11위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Leeds United|1997-12-26": [
+   "same",
+   1752,
+   "프리미어리그 1997-98 5위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Newcastle United|1997-12-28": [
+   "same",
+   1643,
+   "프리미어리그 1997-98 13위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Wimbledon FC|1998-01-10": [
+   "same",
+   1629,
+   "프리미어리그 1997-98 15위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Sheffield Wednesday|1998-02-14": [
+   "same",
+   1613,
+   "프리미어리그 1997-98 16위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Tottenham Hotspur|1998-03-14": [
+   "same",
+   1638,
+   "프리미어리그 1997-98 14위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Barnsley FC|1998-03-28": [
+   "table",
+   1575,
+   "프리미어리그 1997-98 19위",
+   "1997-98"
+  ],
+  "Crystal Palace|1998-04-13": [
+   "table",
+   1554,
+   "프리미어리그 1997-98 20위",
+   "1997-98"
+  ],
+  "Newcastle United|1998-08-30": [
+   "same",
+   1703,
+   "프리미어리그 1998-99 13위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Coventry City|1998-09-09": [
+   "table",
+   1689,
+   "프리미어리그 1998-99 15위",
+   "1998-99"
+  ],
+  "1.FC Kosice (1951 - 2004)|1998-09-15": [
+   "same",
+   1469,
+   "슬로바키아 1998-99 4위/16팀 (추정, 다른 선수 자료 슬로바키아 4위 1400과 같음)",
+   [
+    "owe.js"
+   ]
+  ],
+  "Nottingham Forest|1998-10-24": [
+   "same",
+   1615,
+   "프리미어리그 1998-99 20위",
+   [
+    "owe.js"
+   ]
+  ],
+  "Valencia CF|1998-11-03": [
+   "same",
+   1953,
+   "라리가 1998-99 4위 (리그 수준 추정)",
+   [
+    "owe.js"
+   ]
+  ],
+  "Derby County|1998-11-07": [
+   "table",
+   1768,
+   "프리미어리그 1998-99 8위",
+   "1998-99"
+  ],
+  "Coventry City|1999-01-30": [
+   "table",
+   1689,
+   "프리미어리그 1998-99 15위",
+   "1998-99"
+  ],
+  "West Ham United|1999-02-20": [
+   "same",
+   1812,
+   "프리미어리그 1998-99 5위 (추정, 다른 선수 자료 4위 1775·6위 1747의 가운데)",
+   [
+    "owe.js"
+   ]
+  ],
+  "Everton FC|1999-04-03": [
+   "table",
+   1698,
+   "프리미어리그 1998-99 14위",
+   "1998-99"
+  ],
+  "Blackburn Rovers|1999-04-24": [
+   "table",
+   1635,
+   "프리미어리그 1998-99 19위",
+   "1998-99"
+  ],
+  "Tottenham Hotspur|1999-05-01": [
+   "table",
+   1722,
+   "프리미어리그 1998-99 11위",
+   "1998-99"
+  ],
+  "Wimbledon FC|1999-05-16": [
+   "table",
+   1673,
+   "프리미어리그 1998-99 16위",
+   "1998-99"
+  ],
+  "RCD Mallorca|1999-08-21": [
+   "same",
+   1853,
+   "라리가 1999-00 10위",
+   [
+    "mor.js",
+    "rau.js"
+   ]
+  ],
+  "CD Numancia|1999-08-29": [
+   "same",
+   1771,
+   "라리가 1999-00 17위",
+   [
+    "rau.js"
+   ]
+  ],
+  "Athletic Bilbao|1999-09-12": [
+   "same",
+   1841,
+   "라리가 1999-00 11위",
+   [
+    "anl.js"
+   ]
+  ],
+  "Olympiacos Piraeus|1999-09-15": [
+   "same",
+   1894,
+   "그리스 1999-00 1위/18팀 (추정, 다른 선수 자료의 올림피아코스 1위 1690과 같음)",
+   [
+    "rau.js"
+   ]
+  ],
+  "Real Oviedo|2000-03-04": [
+   "same",
+   1791,
+   "라리가 1999-00 16위",
+   [
+    "rau.js"
+   ]
+  ],
+  "Manchester United|2000-04-19": [
+   "same",
+   2007,
+   "프리미어리그 1999-00 1위",
+   [
+    "rau.js"
+   ]
+  ],
+  "Racing Santander|2000-04-22": [
+   "same",
+   1807,
+   "라리가 1999-00 15위",
+   [
+    "mor.js"
+   ]
+  ],
+  "Valencia CF|2000-05-24": [
+   "same",
+   1985,
+   "라리가 1999-00 3위 (추정, 앞뒤 순위값 사이)",
+   [
+    "mor.js",
+    "rau.js"
+   ]
+  ],
+  "Sporting CP|2000-10-25": [
+   "same",
+   1718,
+   "포르투갈 1부 2000-01 3위",
+   [
+    "mor.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2000-12-16": [
+   "same",
+   1900,
+   "라리가 2000-01 9위",
+   [
+    "fig.js",
+    "mor.js"
+   ]
+  ],
+  "Real Oviedo|2001-01-14": [
+   "same",
+   1790,
+   "라리가 2000-01 18위",
+   [
+    "fig.js",
+    "mor.js",
+    "rau.js"
+   ]
+  ],
+  "Real Zaragoza|2001-01-24": [
+   "same",
+   1802,
+   "라리가 2000-01 17위",
+   [
+    "fig.js",
+    "rau.js"
+   ]
+  ],
+  "Real Sociedad|2001-03-11": [
+   "same",
+   1853,
+   "라리가 2000-01 13위",
+   [
+    "fig.js",
+    "mor.js",
+    "rau.js"
+   ]
+  ],
+  "Villarreal CF|2001-04-14": [
+   "table",
+   1938,
+   "라리가 2000-01 7위",
+   "2000-01"
+  ],
+  "Galatasaray|2001-04-18": [
+   "same",
+   1717,
+   "튀르키예 2000-01 2위/18팀 (추정, 2000 UEFA컵 우승팀, 다른 선수 자료 갈라타사라이 1위 1680보다 조금 낮게)",
+   [
+    "fig.js",
+    "rau.js"
+   ]
+  ],
+  "Real Zaragoza|2001-04-22": [
+   "same",
+   1802,
+   "라리가 2000-01 17위",
+   [
+    "fig.js",
+    "rau.js"
+   ]
+  ],
+  "Real Valladolid CF|2001-06-17": [
+   "same",
+   1822,
+   "라리가 2000-01 16위",
+   [
+    "rau.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2001-09-22": [
+   "same",
+   1864,
+   "라리가 2001-02 14위",
+   [
+    "fig.js",
+    "rau.js",
+    "zid.js"
+   ]
+  ],
+  "RSC Anderlecht|2001-10-16": [
+   "same",
+   1649,
+   "벨기에 1부 2001-02 3위/18팀 (추정, 다른 선수 자료 안더레흐트 2010-11 3위 1597과 같음)",
+   [
+    "fig.js"
+   ]
+  ],
+  "Villarreal CF|2002-03-09": [
+   "same",
+   1855,
+   "라리가 2001-02 15위",
+   [
+    "rau.js"
+   ]
+  ],
+  "Real Zaragoza|2002-03-24": [
+   "same",
+   1778,
+   "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   [
+    "zid.js"
+   ]
+  ],
+  "FC Barcelona|2002-04-23": [
+   "same",
+   1998,
+   "라리가 2001-02 4위",
+   [
+    "rau.js",
+    "zid.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2002-09-02": [
+   "same",
+   1777,
+   "라리가 2002-03 17위",
+   [
+    "fig.js",
+    "rau.js"
+   ]
+  ],
+  "Deportivo Alavés|2002-10-06": [
+   "same",
+   1756,
+   "라리가 2002-03 19위",
+   [
+    "fig.js",
+    "rno.js",
+    "zid.js"
+   ]
+  ],
+  "AEK Athens|2002-10-22": [
+   "same",
+   1689,
+   "그리스 1부 2002-03 3위/16팀 (Alpha Ethniki)",
+   [
+    "rno.js"
+   ]
+  ],
+  "Real Oviedo|2002-11-06": [
+   "table",
+   1552,
+   "세군다(2부) 2002-03 21위/22팀",
+   "2002-03"
+  ],
+  "Terrassa FC|2003-01-14": [
+   "man",
+   1599,
+   "세군다(2부) 2002-03 12위/22팀"
+  ],
+  "RCD Mallorca|2003-05-03": [
+   "same",
+   1875,
+   "라리가 2002-03 9위",
+   [
+    "rno.js"
+   ]
+  ],
+  "Liverpool FC|2004-02-11": [
+   "same",
+   1865,
+   "프리미어리그 2003-04 4위",
+   [
+    "swp.js"
+   ]
+  ]
+ }
+}
