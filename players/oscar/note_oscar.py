@@ -6,7 +6,7 @@ DROPPED = [k for k, (ok, why) in A_CHECK.items() if not ok]
 def ak(k):
     gid, mi = k.split("|"); g = G[gid]
     return f"{d_(ldate(g))} {opp(g)} {mi}분"
-NEWL = sorted({(o, lv, e) for (o, s_), (e, lv) in NEW_TS.items()}, key=lambda t: t[1])
+NEWL = sorted({(o, lv, e) for (o, s_), (e, lv) in NEW_TS.items()}, key=lambda t: (t[1], t[0]))
 NOTE_LINES = [
     f"오스카(상파울루·인테르나시오나우·첼시·상하이 상강(현 상하이 하이강)·상파울루)의 클럽 공식 경기 {NG}경기({d_(first[0])} 아틀레치쿠 파라나엔시전 ~ {d_(last[0])} 코린치안스전)에서 나온 {NGo}골 {NA}도움(PK 골 {NPK}개), 친선경기·브라질 대표팀 제외",
     "클럽별 경기·골·도움: " + ", ".join(f"{k} {c3(v)}" for k, v in ST.items())
