@@ -226,7 +226,8 @@ th.sorted .thbtn{color:var(--fg)}
 .cmppos{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 8px}
 .cmppos .seg button{padding:4px 12px;white-space:nowrap;flex:none}
 .cmppos .seg{max-width:100%;flex-wrap:wrap}
-@media (max-width:480px){.cmppos{gap:6px}.cmppos .seg button{padding:4px 7px;font-size:.85rem}}
+.cmppos .cmpconf{padding:0;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+@media (max-width:480px){.cmppos{gap:6px}}
 .cmppos .cnt{font-size:.85em;color:var(--muted)}
 .linkbtn:disabled{opacity:.45;cursor:default;text-decoration:none}
 .linkbtn{all:unset;cursor:pointer;color:var(--pitch);font-weight:600;text-decoration:underline;text-underline-offset:2px}
@@ -419,7 +420,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.282</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.283</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -439,8 +440,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
       <div class="seg" role="group" aria-label="보기 방식"><button type="button" id="viewTable" aria-pressed="true">표</button><button type="button" id="viewChart" aria-pressed="false">그래프</button></div>
     </div>
     <div id="cmpTableWrap">
-      <div class="cmppos"><span class="hint" style="margin:0">포지션</span><div class="seg" role="group" aria-label="포지션 필터" id="cmpPosSeg"><button type="button" data-pos="" aria-pressed="true">전체</button><button type="button" data-pos="FW" aria-pressed="false">공격수</button><button type="button" data-pos="WG" aria-pressed="false">윙어</button><button type="button" data-pos="MF" aria-pressed="false">미드필더</button></div></div>
-      <div class="cmppos"><span class="hint" style="margin:0">대륙</span><div class="seg" role="group" aria-label="출신 대륙 필터" id="cmpConfSeg"><button type="button" data-conf="" aria-pressed="true">전체</button><button type="button" data-conf="UEFA" aria-pressed="false" title="유럽축구연맹(UEFA)">유럽</button><button type="button" data-conf="CONMEBOL" aria-pressed="false" title="남미축구연맹(CONMEBOL)">남미</button><button type="button" data-conf="CAF" aria-pressed="false" title="아프리카축구연맹(CAF)">아프리카</button><button type="button" data-conf="AFC" aria-pressed="false" title="아시아축구연맹(AFC)">아시아</button><button type="button" data-conf="CONCACAF" aria-pressed="false" title="북중미카리브축구연맹(CONCACAF)">북중미</button></div><span class="cnt" id="cmpPosCnt"></span></div>
+      <div class="cmppos"><span class="hint" style="margin:0">포지션</span><div class="seg" role="group" aria-label="포지션 필터" id="cmpPosSeg"><button type="button" data-pos="" aria-pressed="true">전체</button><button type="button" data-pos="FW" aria-pressed="false">공격수</button><button type="button" data-pos="WG" aria-pressed="false">윙어</button><button type="button" data-pos="MF" aria-pressed="false">미드필더</button></div><label class="chk cmpconf">대륙 <select id="cmpConf" aria-label="출신 대륙(대륙축구연맹)"><option value="">모든 대륙</option><option value="UEFA">유럽 (UEFA)</option><option value="CONMEBOL">남미 (CONMEBOL)</option><option value="CAF">아프리카 (CAF)</option><option value="AFC">아시아 (AFC)</option><option value="CONCACAF">북중미 (CONCACAF)</option><option value="OFC">오세아니아 (OFC)</option></select></label><span class="cnt" id="cmpPosCnt"></span></div>
       <p class="hint cmpsorthint">머리행 클릭: 큰 순 → 작은 순 → 기본 순서 · 선수 이름을 누르면 그 선수 탭으로 이동 · 위의 '대회' 선택이 적용되고 기간은 통산 <button type="button" class="linkbtn" id="cmpSortReset" hidden>기본 순서로</button> · <button type="button" class="linkbtn colbtn" data-ct="compareTbl" aria-expanded="false" aria-controls="cmpColPanel">열 편집</button></p>
       <div class="colpanel" id="cmpColPanel" data-ct="compareTbl" hidden></div>
       <div class="tablebox cmpbox capped" id="cmpBox"><table id="compareTbl"></table></div>
@@ -449,7 +449,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
         <li><b>SOC≥1</b> 골·도움 하나하나의 SOC가 1 이상(평균적인 골 1개 이상의 가치)인 공격포인트의 비율 · 숫자에 마우스를 올리거나 누르면 전체 공격포인트 중 몇 개인지</li>
         <li><b>가치 배율</b> SOC ÷ 기준 SOC (모든 골·도움이 평균 상황·평균 상대·리그 경기에서 나왔다고 가정한 값)</li>
         <li><b>평균 S·평균 상대</b> 골·도움을 1개씩 같은 비중으로 평균 · 평균 상대는 추정 Elo</li>
-        <li><b>포지션</b> 주 포지션 기준(공격수·윙어·미드필더, 표 위 버튼으로 골라 보기 — # 번호는 고른 포지션 안의 순서) · 대륙 버튼은 국기(대표팀) 나라가 속한 대륙축구연맹 기준(유럽 UEFA·남미 CONMEBOL·아프리카 CAF·아시아 AFC·북중미 CONCACAF, 호주는 AFC), 포지션과 함께 고를 수 있음 · 이름 위에 마우스를 올리면 세부 포지션 · 센터포워드·세컨드 스트라이커 = 공격수, 좌우 윙어 = 윙어, 공격형 미드필더 = 미드필더 (국가대표판과 같은 분류)</li>
+        <li><b>포지션</b> 주 포지션 기준(공격수·윙어·미드필더, 표 위 버튼으로 골라 보기 — # 번호는 고른 포지션 안의 순서) · 대륙 선택은 국기(대표팀) 나라가 속한 대륙축구연맹 기준(유럽 UEFA·남미 CONMEBOL·아프리카 CAF·아시아 AFC·북중미 CONCACAF·오세아니아 OFC, 호주는 AFC), 포지션과 함께 고를 수 있음 · 이름 위에 마우스를 올리면 세부 포지션 · 센터포워드·세컨드 스트라이커 = 공격수, 좌우 윙어 = 윙어, 공격형 미드필더 = 미드필더 (국가대표판과 같은 분류)</li>
         <li><b>*</b> 은퇴한 선수(클럽 통산 확정) · 나머지 선수는 2026년 11월 9일까지</li>
         <li><b>챔스 비중</b> 전체 SOC 중 챔피언스리그 몫 · <b>최고 시즌</b> 시즌 SOC가 가장 높은 시즌</li>
         <li><b>SOC-CAR</b> 커리어 점수(Career, 소리가 사커와 비슷) = 누적 SOC × 0.5 + 3-peak 평균 + 5-peak 평균(최고 3시즌 하나하나에 약 0.53, 4·5번째 시즌에 0.2의 무게) · 야구의 JAWS(통산 WAR과 전성기 WAR의 평균)처럼 오래 꾸준한 선수와 짧고 굵은 전성기를 한 잣대로 · 최고 시즌은 아래 3·5-peak와 같은 목록(최소 출전 시간 이상 시즌) · <b>*</b> 기준을 넘는 시즌이 5개보다 적어 있는 시즌만 평균한 값 · 기간은 통산, 위의 '대회' 선택은 적용</li>
@@ -1719,11 +1719,11 @@ const CMP_ROWS=10;
 function cmpCap(){const box=$("cmpBox");if(!box)return;const t=$("compareTbl"),rows=t.tBodies[0]?t.tBodies[0].rows:[];if(!box.offsetParent)return;if(rows.length<=CMP_ROWS){box.style.maxHeight="";return}const r=rows[CMP_ROWS-1];const sb=box.offsetHeight-box.clientHeight;box.style.maxHeight=Math.ceil(r.offsetTop+r.offsetHeight+sb+1)+"px"}
 window.addEventListener("resize",()=>{try{cmpCap()}catch(e){}});
 /* 출신 대륙(대륙축구연맹, 국기 기준, v1.282). 호주는 2006년부터 AFC */
-function confOf(c){const M={UEFA:"FR ES ENG IT DE PT NL BE SE TR NO PL WLS CZ HR RS GE UA DK BA SK SI IE BG CH SCO NIR AT HU RU GR IS FI RO AL MK ME XK IL",CONMEBOL:"BR AR CO UY PE EC CL PY VE BO",CAF:"CI DZ SN CM NG MA EG GA ML GN GH TN ZA BF TG CD AO CV ZM",AFC:"KR JP AU IR CN SA QA AE IQ UZ",CONCACAF:"US CA JM MX CR HN PA TT"};for(const k in M)if(M[k].split(" ").includes(c))return k;return ""}
+function confOf(c){const M={UEFA:"FR ES ENG IT DE PT NL BE SE TR NO PL WLS CZ HR RS GE UA DK BA SK SI IE BG CH SCO NIR AT HU RU GR IS FI RO AL MK ME XK IL",CONMEBOL:"BR AR CO UY PE EC CL PY VE BO",CAF:"CI DZ SN CM NG MA EG GA ML GN GH TN ZA BF TG CD AO CV ZM",AFC:"KR JP AU IR CN SA QA AE IQ UZ",CONCACAF:"US CA JM MX CR HN PA TT",OFC:"NZ FJ PG SB VU NC TA"};for(const k in M)if(M[k].split(" ").includes(c))return k;return ""}
 function renderCompare(){
   const c=st.coef;const S=st.players.map(p=>pStats(p,c));
   const k=st.cmpSort,dir=st.cmpDir||-1;const fp=st.cmpPos||"",fc=st.cmpConf||"";let rows=(fp||fc)?S.filter(s=>{const pr=s.p.preset;if(fp){const x=pr?POS_OF[pr]:null;if(!(x&&POSG[x]===fp))return false}if(fc&&!(pr&&confOf(FLAG_OF[pr])===fc))return false;return true}):[...S];
-  document.querySelectorAll("#cmpPosSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.pos===fp));document.querySelectorAll("#cmpConfSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.conf===fc));$("cmpPosCnt").textContent=(fp||fc)?`${rows.length}명 / 전체 ${S.length}명`:`${S.length}명`;
+  document.querySelectorAll("#cmpPosSeg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.pos===fp));{const sel=$("cmpConf");sel.value=fc;const cnt={};S.forEach(x=>{const k=x.p.preset?confOf(FLAG_OF[x.p.preset]):"";cnt[k]=(cnt[k]||0)+1});[...sel.options].forEach(o=>{if(!o.dataset.lb)o.dataset.lb=o.textContent;o.textContent=o.dataset.lb+(o.value?` · ${cnt[o.value]||0}명`:"")})}$("cmpPosCnt").textContent=(fp||fc)?`${rows.length}명 / 전체 ${S.length}명`:`${S.length}명`;
   if(k){rows.sort((x,y)=>{const a=cmpVal(k,x),b=cmpVal(k,y);if(typeof a==="string")return a.localeCompare(b,"ko")*(dir<0?1:-1);return (b-a)*(dir<0?1:-1)})}
   $("cmpSortReset").hidden=!k;
   const head=CMPCOLS.map(([ck,lb])=>{const num=!["name","pos","clubs"].includes(ck);const on=k===ck;return `<th class="${num?"num ":""}sortable${on?" sorted":""}"${ck==="soc"?' data-sort="soc"':""} aria-sort="${on?(dir<0?"descending":"ascending"):"none"}"><button type="button" class="thbtn" data-ck="${ck}"><span class="lb">${lb}</span><span class="arr" aria-hidden="true">${on?(dir<0?"▼":"▲"):""}</span></button></th>`}).join("");
@@ -1876,7 +1876,7 @@ colDrag("compareTbl");colDrag("yearTbl");applyCols("yearTbl");
 $("compareTbl").addEventListener("click",ev=>{const go=ev.target.closest("[data-go]");if(go){st.active=go.dataset.go;st.period="all";render();return}
   const b=ev.target.closest(".thbtn[data-ck]");if(!b)return;const k=b.dataset.ck;if(st.cmpSort!==k){st.cmpSort=k;st.cmpDir=-1}else if(st.cmpDir===-1)st.cmpDir=1;else{st.cmpSort=null;st.cmpDir=-1}save();renderCompare()});
 $("cmpSortReset").addEventListener("click",()=>{st.cmpSort=null;save();renderCompare()});
-$("cmpConfSeg").addEventListener("click",ev=>{const b=ev.target.closest("button[data-conf]");if(!b)return;st.cmpConf=b.dataset.conf;save();renderCompare()});
+$("cmpConf").addEventListener("change",ev=>{st.cmpConf=ev.target.value;save();renderCompare()});
 $("cmpPosSeg").addEventListener("click",ev=>{const b=ev.target.closest("button[data-pos]");if(!b)return;st.cmpPos=b.dataset.pos;save();renderCompare()});
 {const _r=render;render=function(){_r.apply(this,arguments);renderCompare()}}
 /* 우승 커리어·개인수상 (Transfermarkt 업적) */
