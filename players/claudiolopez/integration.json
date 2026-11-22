@@ -1,0 +1,16 @@
+{"preset": "claudiolopez", "name": "클라우디오 로페스", "prefix": "CLO",
+ "clubs": [
+  {"key": "racclo", "name": "라싱 클루브", "short": "라싱", "years": "1992~1996, 2007", "until": "1996-08-08"},
+  {"key": "valclo", "name": "발렌시아", "short": "발렌시아", "years": "1996~2000", "until": "2000-07-01"},
+  {"key": "lazclo", "name": "라치오", "short": "라치오", "years": "2000~2004", "until": "2004-07-30"},
+  {"key": "ameclo", "name": "클루브 아메리카", "short": "아메리카", "years": "2004~2006", "until": "2007-01-17"},
+  {"key": "racclo", "name": "라싱 클루브", "short": "라싱", "years": "1992~1996, 2007", "until": "2008-03-10"},
+  {"key": "kcclo", "name": "캔자스시티 위저즈", "short": "캔자스시티", "years": "2008~2009", "until": "2010-01-01"},
+  {"key": "colclo", "name": "콜로라도 래피즈", "short": "콜로라도", "years": "2010", "until": null}],
+ "season": {"calendar": ["racclo", "kcclo", "colclo"], "jul10": ["valclo"], "jul1": ["ameclo"]},
+ "pos": "CF", "flag": "AR", "retired": true,
+ "colors": {"racclo": ["#009DDD", "#FFFFFF"], "valclo": ["#FFFFFF", "#000000", "#EE3524"], "lazclo": ["#86D9F8", "#FFFFFF"],
+            "ameclo": ["#FFE600", "#002D72"], "kcclo": ["#93B1D7", "#002F65"], "colclo": ["#862633", "#8BB8E8", "#A2AAAD"]},
+ "hon": {"t": {"LG": ["04/05 아메리카(클라우수라)"], "DC": ["03/04 라치오", "98/99 발렌시아"], "SC": ["04/05 아메리카", "00/01 라치오", "99/00 발렌시아"]},
+         "o": [["MLS컵 우승", "2010 콜로라도 래피즈"], ["북중미 챔피언스리그", "05/06 아메리카"], ["UEFA 인터토토컵", "98/99 발렌시아"]],
+         "a": {"TOP": ["98/99 코파 델 레이 8골"]}}}
