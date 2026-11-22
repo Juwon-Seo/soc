@@ -53,7 +53,7 @@ for gid, g in G.items():
     LD[gid] = g["date_local_computed"]
     if g["date_local_tm_report"] and LD[gid] != g["date_local_tm_report"]: DATE_LOG.append((gid, g["date_local_tm_report"], LD[gid], g["club"], g["opponent"]))
 # 2005.12.15 클럽 월드 챔피언십 준결승 사프리사전(요코하마): Transfermarkt 시각(UTC 12.14 23:00)이 맞지 않아 일본 현지 날짜(제라드 자료와 같음)
-LD["1023411"] = "2005-12-15"; DATE_LOG.append(("1023411", "2005-12-15", "2005-12-14→2005-12-15(일본 현지)", "Liverpool FC", "Deportivo Saprissa"))
+LD["1023411"] = "2005-12-15"   # 리포트 날짜도 12.15
 def ldate(g): return LD[g["gameId"]]
 def opp(g): return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
@@ -630,7 +630,7 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const NAS_E={J(E)};\nconst NAS_M={J(M)};\nconst NAS_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const CIS_E={J(E)};\nconst CIS_M={J(M)};\nconst CIS_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "fotmob_playermatches_only": PM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
