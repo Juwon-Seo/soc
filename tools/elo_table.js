@@ -102,6 +102,7 @@ function fixKey(k, e) {
   if (k === 'boavista' && /브라질/.test(e.lv)) return 'boavista (brasil)';
   if ((k === 'al ahli') && /카타르|도하/.test(e.lv)) return 'al ahli (qatar)';
   if (k === 'arsenal' && /아르헨티나/.test(e.lv)) return 'arsenal sarandi';
+  if (k === 'nacional' && /우루과이/.test(e.lv)) return 'nacional (uruguay)';
   if ((k === 'al ahli' || k === 'al ahly') && /이집트/.test(e.lv)) return 'al ahly (egypt)';
   return k;
 }
