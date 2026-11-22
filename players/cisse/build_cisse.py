@@ -52,6 +52,8 @@ LD = {}
 for gid, g in G.items():
     LD[gid] = g["date_local_computed"]
     if g["date_local_tm_report"] and LD[gid] != g["date_local_tm_report"]: DATE_LOG.append((gid, g["date_local_tm_report"], LD[gid], g["club"], g["opponent"]))
+# 2005.12.15 클럽 월드 챔피언십 준결승 사프리사전(요코하마): Transfermarkt 시각(UTC 12.14 23:00)이 맞지 않아 일본 현지 날짜(제라드 자료와 같음)
+LD["1023411"] = "2005-12-15"; DATE_LOG.append(("1023411", "2005-12-15", "2005-12-14→2005-12-15(일본 현지)", "Liverpool FC", "Deportivo Saprissa"))
 def ldate(g): return LD[g["gameId"]]
 def opp(g): return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
