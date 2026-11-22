@@ -191,6 +191,9 @@ def assist_reason(e, d, gid):
     A_STATUS.append((d, gid, e["minute"], e["scorer"], "판정 없음"))
     return "2014.8 이후 단일 출처(판정 없음)"
 
+# 2001.7.25 바리 타운전: Transfermarkt는 22분(데쿠가 얻은 PK)·23분 두 골을 모두 PK로 적음. ESPN 경기 기록(22분 PK, 23분 일반 골)·footballdatabase(PK는 12분 페나·22분 데쿠)
+# 두 곳이 23분 골을 PK가 아닌 골로 적어 23분은 일반 골로 셈(1분 사이 PK 두 번은 Transfermarkt 표기 오류로 봄)
+PK_FIX = {("1160438", "23"): 0}
 GOAL_DESC = {"code 211": "Direct corner"}   # API 골 유형 211 = 코너킥 직접 골(다른 선수 수집기 보정표: 211 'Direct corner')
 def ev_key(e):
     h, a = map(int, e["score_home_away_after"].split("-"))
@@ -225,14 +228,16 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             desc = GOAL_DESC.get(e["goal_desc"], e["goal_desc"])
             if desc != e["goal_desc"]: judg.append(("골 유형 코드 해석", ldate(g), opp(g), e["minute"], e["goal_desc"], desc))
             pk = 1 if desc == "Penalty" else 0
-            if e["penalty"] == "1" and not pk and desc != "Penalty rebound": sys.exit("PK 판정 확인 " + gid)
+            if (gid, e["minute"]) in PK_FIX:
+                judg.append(("PK 판정 고침", ldate(g), opp(g), e["minute"], pk, PK_FIX[(gid, e["minute"])])); pk = PK_FIX[(gid, e["minute"])]
+            if e["penalty"] == "1" and not pk and desc != "Penalty rebound" and (gid, e["minute"]) not in PK_FIX: sys.exit("PK 판정 확인 " + gid)
             if desc == "Penalty rebound": judg.append(("PK 리바운드 골(PK 아님)", ldate(g), opp(g), e["minute"]))
             raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0, desc))
 cnt_ = collections.Counter()
 for r in raw_rows: cnt_[(r[1], r[0])] += 1
 for gid, g in G.items():
     if cnt_[(gid, "g")] != int(g["goals"] or 0): sys.exit("골 수 불일치 " + gid)
-    if int(g["penGoals"] or 0) != sum(r[6] for r in raw_rows if r[1] == gid and r[0] == "g"): sys.exit("PK 수 불일치 " + gid)
+    if int(g["penGoals"] or 0) - sum(1 for (k, _), v in PK_FIX.items() if k == gid and v == 0) != sum(r[6] for r in raw_rows if r[1] == gid and r[0] == "g"): sys.exit("PK 수 불일치 " + gid)
 
 SCORE_MISMATCH = []
 for gid, evs in EVS.items():
@@ -259,9 +264,12 @@ def key(n):
     return ALIAS.get(k, k)
 
 TABLE = collections.defaultdict(list)
-with open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig") as f:
+import gzip
+# Elo 통합표: v1.274(265명) src/data로 데쿠 없이 다시 만든 표(elo_ref_without_deco.csv.gz, 저장소의 elo/ 표는 최근 선수가 빠진 옛 판)
+_REF = os.path.join(HERE, "elo_ref_without_deco.csv.gz")
+with (gzip.open(_REF, "rt", encoding="utf-8-sig") if os.path.exists(_REF) and not os.environ.get("SOC_ROOT") else open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig")) as f:
     for r in csv.DictReader(f):
-        if ME_KO in r["선수"].split("·"): continue
+        if r["선수"].split("·") == [ME_KO]: continue   # 데쿠만 쓴 팀-시즌은 빼고, 다른 선수와 같이 쓴 값은 그대로
         for nm in [r["팀"]] + r["이름 표기"].split(" / "):
             TABLE[(key(nm), r["시즌"])].append((int(r["Elo"]), r["수준 라벨(lv)"]))
 
@@ -315,13 +323,21 @@ def lv_value(lv, d):
     return v
 
 
+# Transfermarkt 포르투갈 1부 순위표는 승점 같은 팀의 순서가 공식 규칙(상대 전적 우선)과 다른 곳이 있음 → RSSSF 최종표(상대 전적 표기)·영어 위키백과로 고침
+RANK_FIX = {("PO1", "1998-99", "Rio Ave FC"): 14, ("PO1", "1998-99", "FC Alverca"): 15,
+            # 1999-00 세투발(RSSSF 16위)·히우 아베(17위)는 몬텔라 자료의 세투발 1999-00 17위 값(Transfermarkt 순서)과 맞추려고 Transfermarkt 순서 그대로 둠(judgments.md 6절, 보고)
+            ("PO1", "2000-01", "SC Salgueiros"): 10, ("PO1", "2000-01", "CS Marítimo"): 11, ("PO1", "2000-01", "FC Alverca"): 12,
+            ("PO1", "2001-02", "Vitória Guimarães SC"): 9, ("PO1", "2001-02", "SC Braga"): 10, ("PO1", "2001-02", "Gil Vicente FC"): 12, ("PO1", "2001-02", "Vitória Setúbal FC"): 13,
+            ("PO1", "2002-03", "CS Marítimo"): 7, ("PO1", "2002-03", "Gil Vicente FC"): 8, ("PO1", "2002-03", "CF Os Belenenses"): 9, ("PO1", "2002-03", "Boavista FC"): 10,
+            ("PO1", "2003-04", "CS Marítimo"): 6, ("PO1", "2003-04", "Rio Ave FC"): 7, ("PO1", "2003-04", "CF Os Belenenses"): 15, ("PO1", "2003-04", "FC Alverca"): 16}
 RANKS = collections.defaultdict(dict)
 with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
     for line in f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] == "league" or p[0].startswith("INVALID"): continue
         lg = p[0].split("(")[0]
-        RANKS[(lg, p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
+        rk = RANK_FIX.get((lg, p[1].split(" ")[0], p[4]), int(p[2]))
+        RANKS[(lg, p[1].split(" ")[0])][key(p[4])] = (rk, int(p[3]), p[4], p[1])
 
 BIGL = {"PO1": "포르투갈 1부", "ES1": "라리가", "GB1": "프리미어리그", "IT1": "세리에A", "FR1": "리그1", "L1": "분데스리가", "NL1": "에레디비시"}
 OTHL = {"TR1": ("튀르키예", "Süper Lig"), "GR1": ("그리스", "Super League Greece"), "C1": ("스위스", "Nationalliga A"),
