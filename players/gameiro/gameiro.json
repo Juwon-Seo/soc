@@ -1,0 +1,12018 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Red Star Belgrade",
+   "elo": 1575,
+   "comp": "elg",
+   "min": 78,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세르비아·몬테네그로 2005-06 1위/16팀 (추정, 다른 선수 자료 파르티잔 2004-05·레드스타 2006-07 1위 1520과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Red Star Belgrade",
+   "elo": 1575,
+   "comp": "elg",
+   "min": 94,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-12-14",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "세르비아·몬테네그로 2005-06 1위/16팀 (추정, 다른 선수 자료 파르티잔 2004-05·레드스타 2006-07 1위 1520과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1653,
+   "comp": "dc",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1653,
+   "comp": "dc",
+   "min": 83,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "ESTAC Troyes",
+   "elo": 1596,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 17위",
+   "note": "Amara Diané"
+  },
+  {
+   "type": "g",
+   "opp": "FC Istres Ouest Provence",
+   "elo": 1329,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2006-07 19위/20팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Ostwald",
+   "elo": 689,
+   "comp": "dc",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 9부 2006-07 순위 없음 (District (Alsace); 리그 수준 추정)",
+   "note": "Hervé Tum"
+  },
+  {
+   "type": "g",
+   "opp": "FC Ostwald",
+   "elo": 689,
+   "comp": "dc",
+   "min": 54,
+   "gf": 4,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 9부 2006-07 순위 없음 (District (Alsace); 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gazélec Football Club Olympique Ajaccio",
+   "elo": 1202,
+   "comp": "dc",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2007-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 4부 2006-07 7위/18팀 (CFA Groupe B, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1643,
+   "comp": "dc",
+   "min": 66,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2007-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2006-07 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Gueugnon",
+   "elo": 1381,
+   "comp": "lg",
+   "min": 83,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2006-07 10위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Istres Ouest Provence",
+   "elo": 1329,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2006-07 19위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AJ Auxerre",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1568,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1568,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SM Caen",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1772,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-05-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2007-08 3위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valenciennes FC",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SM Caen",
+   "elo": 1548,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 18위",
+   "note": "Rafik Saïfi"
+  },
+  {
+   "type": "a",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1894,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 1위",
+   "note": "Michaël Ciani"
+  },
+  {
+   "type": "a",
+   "opp": "Paris Saint-Germain",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 6위",
+   "note": "Fabrice Abriel"
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1540,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 17위",
+   "note": "Bertrand Robert"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 70,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 17위",
+   "note": "Bertrand Robert"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1811,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1731,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1593,
+   "comp": "lg",
+   "min": 83,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Le Havre AC",
+   "elo": 1520,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 20위",
+   "note": "Yazid Mansouri"
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1520,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-14",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "리그1 2008-09 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Alençon 61",
+   "elo": 1106,
+   "comp": "dc",
+   "min": 70,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 2008-09 6위/17팀 (CFA 2 Groupe G, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tours FC",
+   "elo": 1413,
+   "comp": "dc",
+   "min": 108,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-01-24",
+   "et": 1,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2008-09 6위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1603,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 17위",
+   "note": "Morgan Amalfitano"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 13,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 17위",
+   "note": "Marama Vahirua"
+  },
+  {
+   "type": "g",
+   "opp": "Grenoble Foot 38",
+   "elo": 1608,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1811,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1593,
+   "comp": "lg",
+   "min": 53,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1593,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 4위 (추정: 모형값)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1712,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 60,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Grenoble Foot 38",
+   "elo": 1517,
+   "comp": "dc",
+   "min": 71,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Paris Saint-Germain",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 13위",
+   "note": "Arnold Mvuemba"
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 15위",
+   "note": "Arnold Mvuemba"
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 15위",
+   "note": "Sigamary Diarra"
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1623,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 11위",
+   "note": "Franco Sosa"
+  },
+  {
+   "type": "g",
+   "opp": "US Boulogne",
+   "elo": 1537,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Boulogne",
+   "elo": 1537,
+   "comp": "lg",
+   "min": 48,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Grenoble Foot 38",
+   "elo": 1517,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-28",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "리그1 2009-10 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Valenciennes FC",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 10위",
+   "note": "Morgan Amalfitano"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1808,
+   "comp": "dk",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 26,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1600,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 17위",
+   "note": "Morgan Amalfitano"
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 73,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Grenoble Foot 38",
+   "elo": 1517,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AJ Auxerre",
+   "elo": 1761,
+   "comp": "lg",
+   "min": 83,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 8위",
+   "note": "Morgan Amalfitano"
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 4위 (추정: 모형값)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2010-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valenciennes FC",
+   "elo": 1629,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2010-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Arles-Avignon",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Arles-Avignon",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 20위",
+   "note": "Lynel Kitambala"
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1650,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1650,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stade Rennais FC",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 6위",
+   "note": "Jérémy Morel"
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-05",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": "Lynel Kitambala"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Metz",
+   "elo": 1343,
+   "comp": "dc",
+   "min": 52,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2011-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2010-11 17위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Metz",
+   "elo": 1343,
+   "comp": "dc",
+   "min": 91,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2011-02-01",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그2 2010-11 17위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SM Caen",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1701,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1701,
+   "comp": "lg",
+   "min": 38,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1701,
+   "comp": "lg",
+   "min": 88,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Arles-Avignon",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 20위",
+   "note": "Morgan Amalfitano"
+  },
+  {
+   "type": "g",
+   "opp": "AC Arles-Avignon",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1552,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1552,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AJ Auxerre",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-05-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1687,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Differdange 03",
+   "elo": 1366,
+   "comp": "elq",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "룩셈부르크 1부 2011-12 4위/14팀 (Luxembourg National Division)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valenciennes FC",
+   "elo": 1601,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1656,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2011-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1562,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1562,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1562,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SM Caen",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 18위",
+   "note": "Jérémy Ménez"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1587,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sablé-sur-Sarthe FC",
+   "elo": 1064,
+   "comp": "dc",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 2011-12 9위/16팀 (Championnat de France Amateur 2 (CFA 2) Groupe H, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sablé-sur-Sarthe FC",
+   "elo": 1064,
+   "comp": "dc",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 2011-12 9위/16팀 (Championnat de France Amateur 2 (CFA 2) Groupe H, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1638,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dijon FCO",
+   "elo": 1524,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-11",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그1 2011-12 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AJ Auxerre",
+   "elo": 1505,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 20위",
+   "note": "Nenê"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1567,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1542,
+   "comp": "lg",
+   "min": 86,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1484,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arras Football Association",
+   "elo": 1089,
+   "comp": "dc",
+   "min": 68,
+   "gf": 3,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 2012-13 5위/14팀 (Championnat de France Amateur 2 (CFA 2) Groupe A, 리그 수준 추정)",
+   "note": "Ezequiel Lavezzi"
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1601,
+   "comp": "dc",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Valencia CF",
+   "elo": 1968,
+   "comp": "cl16",
+   "min": 66,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 5위",
+   "note": "Ezequiel Lavezzi",
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Lorient",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 8위",
+   "note": "Zlatan Ibrahimović"
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Slask Wroclaw",
+   "elo": 1417,
+   "comp": "elq",
+   "min": 85,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "엑스트라클라사 2013-14 9위/16팀 (추정, 다른 선수 자료 엑스트라클라사 2019-20 5위 1400·2018-19 12위 1320 사이 직선)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1905,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1905,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1703,
+   "comp": "elg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2013-14 4위 (추정, 다른 선수 자료 16팀 시즌 4위 값 1679와 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1953,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Rayo Vallecano",
+   "elo": 1896,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 12위",
+   "note": "Carlos Bacca"
+  },
+  {
+   "type": "g",
+   "opp": "UD Almería",
+   "elo": 1836,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1703,
+   "comp": "elg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2013-14 4위 (추정, 다른 선수 자료 16팀 시즌 4위 값 1679와 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1871,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "NK Maribor",
+   "elo": 1530,
+   "comp": "elk",
+   "min": 47,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "슬로베니아 2013-14 1위/10팀 (추정, 다른 선수 자료 마리보르 1위 1420과 같음)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "NK Maribor",
+   "elo": 1530,
+   "comp": "elk",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "슬로베니아 2013-14 1위/10팀 (추정, 다른 선수 자료 마리보르 1위 1420과 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1971,
+   "comp": "lg",
+   "min": 77,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "UD Almería",
+   "elo": 1836,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 17위",
+   "note": "Carlos Bacca"
+  },
+  {
+   "type": "g",
+   "opp": "UD Almería",
+   "elo": 1836,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Valladolid CF",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Valladolid CF",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2014-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1881,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1881,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Porto",
+   "elo": 1740,
+   "comp": "elk",
+   "min": 79,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2013-14 3위 (추정: 순위표 직접 확인 못 함)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1795,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2014-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1795,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1871,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1871,
+   "comp": "lg",
+   "min": 58,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 15위",
+   "note": "Stéphane Mbia"
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 2015,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1874,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CE Sabadell FC",
+   "elo": 1575,
+   "comp": "dc",
+   "min": 66,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2014-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2014-15 21위/22팀",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Standard Liège",
+   "elo": 1630,
+   "comp": "elg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 1부 2014-15 4위/16팀 (추정, 다른 선수 자료 벨기에 1부 2011-12 4위 값과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 17위",
+   "note": "Stéphane Mbia"
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 92,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-30",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2014-15 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CE Sabadell FC",
+   "elo": 1575,
+   "comp": "dc",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-12-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2014-15 21위/22팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    6,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "dc",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 17위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "dc",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 17위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "dc",
+   "min": 55,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 17위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1823,
+   "comp": "dc",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 17위",
+   "note": "Denis Suárez",
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 78,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1878,
+   "comp": "elk",
+   "min": 79,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2014-15 3위 (추정, 다른 선수 자료 2위 1882·4위 1797의 중간)",
+   "note": "Vitolo",
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo de La Coruña",
+   "elo": 1843,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 1973,
+   "comp": "elk",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 6위",
+   "note": "Vitolo",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1973,
+   "comp": "elk",
+   "min": 50,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 6위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1874,
+   "comp": "lg",
+   "min": 81,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 14위",
+   "note": "José Antonio Reyes"
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2173,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Zenit St. Petersburg",
+   "elo": 1750,
+   "comp": "elk",
+   "min": 85,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 1부 2014-15 1위/16팀 (Russian Premier League)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "ACF Fiorentina",
+   "elo": 1808,
+   "comp": "elsf",
+   "min": 75,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2014-15 4위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1940,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2185,
+   "comp": "df",
+   "min": 72,
+   "gf": 2,
+   "ga": 4,
+   "ko": 1,
+   "pk": 1,
+   "date": "2015-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1798,
+   "comp": "clg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2015-16 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rayo Vallecano",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Barcelona",
+   "elo": 2185,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 1위",
+   "note": "Michael Krohn-Dehli"
+  },
+  {
+   "type": "g",
+   "opp": "SD Eibar",
+   "elo": 1880,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Getafe CF",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Getafe CF",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Getafe CF",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 60,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1997,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1997,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1916,
+   "comp": "dc",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 10위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1952,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1952,
+   "comp": "lg",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 20위",
+   "note": "Vicente Iborra"
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1985,
+   "comp": "dsf",
+   "min": 60,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 6위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1985,
+   "comp": "dsf",
+   "min": 62,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 6위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1904,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Molde FK",
+   "elo": 1426,
+   "comp": "elk",
+   "min": 72,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "노르웨이 2015 6위/16팀 (추정, 다른 선수 자료 노르웨이 2015 4위 1392에 맞춘 리그 모형, 흩어짐 63)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 2014,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 4위",
+   "note": "Vicente Iborra"
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1727,
+   "comp": "elk",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 슈퍼리그 2015-16 1위/10팀 (추정, 다른 선수 자료 바젤 2014-15 1위 1764와 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1727,
+   "comp": "elk",
+   "min": 45,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 슈퍼리그 2015-16 1위/10팀 (추정, 다른 선수 자료 바젤 2014-15 1위 1764와 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1933,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1997,
+   "comp": "elk",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 5위",
+   "note": "Vicente Iborra",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1997,
+   "comp": "elk",
+   "min": 59,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 5위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1916,
+   "comp": "lg",
+   "min": 67,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1707,
+   "comp": "elsf",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "note": "Vitolo",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1707,
+   "comp": "elsf",
+   "min": 82,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1707,
+   "comp": "elsf",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1707,
+   "comp": "elsf",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Liverpool FC",
+   "elo": 1790,
+   "comp": "elf",
+   "min": 46,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-05-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 93,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-08-21",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "라리가 2016-17 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sporting Gijón",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 18위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 5,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo de La Coruña",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 16위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "Valencia CF",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 12위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-02",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "라리가 2016-17 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 44,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "PSV Eindhoven",
+   "elo": 1609,
+   "comp": "clg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "UD Las Palmas",
+   "elo": 1854,
+   "comp": "dc",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 14위",
+   "note": "Antoine Griezmann",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "SD Eibar",
+   "elo": 1891,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 10위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "SD Eibar",
+   "elo": 1891,
+   "comp": "dk",
+   "min": 68,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 10위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2072,
+   "comp": "dsf",
+   "min": 83,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 2위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1860,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 13위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 81,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1671,
+   "comp": "cl16",
+   "min": 25,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 12위",
+   "note": "Antoine Griezmann",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1671,
+   "comp": "cl16",
+   "min": 59,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 12위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1854,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1854,
+   "comp": "lg",
+   "min": 18,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1847,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1816,
+   "comp": "clg",
+   "min": 85,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2017-18 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1832,
+   "comp": "lg",
+   "min": 29,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1832,
+   "comp": "lg",
+   "min": 59,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1832,
+   "comp": "lg",
+   "min": 65,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 15위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "Club Lleida Esportiu",
+   "elo": 1367,
+   "comp": "dc",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2017-18 7위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   "note": "Fernando Torres",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Club Lleida Esportiu",
+   "elo": 1367,
+   "comp": "dc",
+   "min": 74,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2017-18 7위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    4,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SD Eibar",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1932,
+   "comp": "dk",
+   "min": 13,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 7위",
+   "note": "Antoine Griezmann",
+   "tie": [
+    2,
+    0,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Copenhagen",
+   "elo": 1507,
+   "comp": "elk",
+   "min": 37,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "덴마크 1부 2017-18 4위/14팀 (Danish Superliga, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 67,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 16위",
+   "note": "Diego Costa"
+  },
+  {
+   "type": "g",
+   "opp": "FC Copenhagen",
+   "elo": 1507,
+   "comp": "elk",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "덴마크 1부 2017-18 4위/14팀 (Danish Superliga, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    4,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo de La Coruña",
+   "elo": 1785,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2018-04-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1842,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2018-04-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1861,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rayo Vallecano",
+   "elo": 1722,
+   "comp": "lg",
+   "min": 76,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1614,
+   "comp": "dc",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2018-19 9위/22팀",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Sporting Gijón",
+   "elo": 1614,
+   "comp": "dc",
+   "min": 89,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2018-19 9위/22팀",
+   "note": "Ferran Torres",
+   "tie": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1763,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 17위",
+   "note": "Rodrigo"
+  },
+  {
+   "type": "a",
+   "opp": "Getafe CF",
+   "elo": 1925,
+   "comp": "dk",
+   "min": 93,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-29",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "라리가 2018-19 5위",
+   "note": "Rodrigo",
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2112,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1844,
+   "comp": "dsf",
+   "min": 70,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 10위",
+   "note": "Denis Cheryshev",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1844,
+   "comp": "dsf",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-07",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2018-19 10위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celtic FC",
+   "elo": 1642,
+   "comp": "elk",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "스코틀랜드 1부 2018-19 1위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1844,
+   "comp": "dsf",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 10위",
+   "note": "Rodrigo",
+   "tie": [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Krasnodar",
+   "elo": 1611,
+   "comp": "elk",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "note": "Rodrigo",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "FC Krasnodar",
+   "elo": 1611,
+   "comp": "elk",
+   "min": 93,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-03-14",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "note": "Gonçalo Guedes",
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Atlético de Madrid",
+   "elo": 2025,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1938,
+   "comp": "elsf",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 5위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1938,
+   "comp": "elsf",
+   "min": 58,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 5위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1832,
+   "comp": "lg",
+   "min": 68,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2112,
+   "comp": "df",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-05-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1888,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2000,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1713,
+   "comp": "clg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2019-20 4위",
+   "note": "Denis Cheryshev"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 10위",
+   "note": "Rodrigo"
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1798,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1798,
+   "comp": "lg",
+   "min": 59,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1834,
+   "comp": "cl16",
+   "min": 21,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 3위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    4,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1834,
+   "comp": "cl16",
+   "min": 51,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 3위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    4,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Real Valladolid CF",
+   "elo": 1788,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 13위",
+   "note": "Maxi Gómez"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1723,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 16위",
+   "note": "Manu Vallejo"
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1821,
+   "comp": "lg",
+   "min": 98,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-20",
+   "et": 0,
+   "dm": "90+8",
+   "lv": "라리가 2020-21 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cádiz CF",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 53,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1608,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1548,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1521,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1521,
+   "comp": "lg",
+   "min": 48,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 20위",
+   "note": "Dimitri Liénard"
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1608,
+   "comp": "lg",
+   "min": 86,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Clermont Foot 63",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1521,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1521,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Angers SCO",
+   "elo": 1603,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 3위",
+   "note": "Alexander Djiku"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Rennais FC",
+   "elo": 1732,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 4위",
+   "note": "Ludovic Ajorque"
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2021-22 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Angers SCO",
+   "elo": 1530,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-29",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2022-23 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 17,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1821,
+   "comp": "lg",
+   "min": 16,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1821,
+   "comp": "lg",
+   "min": 84,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1904,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1695,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 8위",
+   "note": "Emmanuel Emegha"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1580,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Avoine Olympique Chinon Cinais",
+   "elo": 1155,
+   "comp": "dc",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 4부 2023-24 12위/14팀 (National 2 Groupe B, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1624,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Metz",
+   "elo": 1589,
+   "comp": "lg",
+   "min": 89,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2023-24 16위",
+   "note": "Emmanuel Emegha"
+  }
+ ],
+ "M": [
+  [
+   "2005-09-10",
+   "Paris Saint-Germain",
+   "lg",
+   30
+  ],
+  [
+   "2005-12-14",
+   "Red Star Belgrade",
+   "elg",
+   90
+  ],
+  [
+   "2005-12-17",
+   "Olympique Marseille",
+   "lg",
+   26
+  ],
+  [
+   "2006-01-07",
+   "AS Nancy-Lorraine",
+   "dc",
+   83
+  ],
+  [
+   "2006-01-11",
+   "AS Monaco",
+   "lg",
+   10
+  ],
+  [
+   "2006-01-14",
+   "FC Metz",
+   "lg",
+   77
+  ],
+  [
+   "2006-01-21",
+   "FC Girondins Bordeaux",
+   "lg",
+   42
+  ],
+  [
+   "2006-02-04",
+   "RC Lens",
+   "lg",
+   74
+  ],
+  [
+   "2006-02-15",
+   "Litex Lovech",
+   "elk",
+   65
+  ],
+  [
+   "2006-02-18",
+   "FC Toulouse",
+   "lg",
+   64
+  ],
+  [
+   "2006-02-23",
+   "Litex Lovech",
+   "elk",
+   30
+  ],
+  [
+   "2006-02-26",
+   "ESTAC Troyes",
+   "lg",
+   64
+  ],
+  [
+   "2006-09-20",
+   "AJ Auxerre",
+   "dc",
+   27
+  ],
+  [
+   "2006-10-13",
+   "Grenoble Foot 38",
+   "lg",
+   19
+  ],
+  [
+   "2006-10-22",
+   "SM Caen",
+   "lg",
+   75
+  ],
+  [
+   "2006-10-27",
+   "FC Gueugnon",
+   "lg",
+   64
+  ],
+  [
+   "2006-11-03",
+   "FC Istres Ouest Provence",
+   "lg",
+   81
+  ],
+  [
+   "2006-11-07",
+   "Stade Reims",
+   "lg",
+   72
+  ],
+  [
+   "2006-11-10",
+   "FC Libourne-Saint-Seurin",
+   "lg",
+   62
+  ],
+  [
+   "2006-11-20",
+   "Stade Brestois 29",
+   "lg",
+   35
+  ],
+  [
+   "2006-12-01",
+   "SC Bastia",
+   "lg",
+   65
+  ],
+  [
+   "2006-12-08",
+   "FC Metz",
+   "lg",
+   21
+  ],
+  [
+   "2006-12-16",
+   "FC Ostwald",
+   "dc",
+   62
+  ],
+  [
+   "2007-01-06",
+   "Gazélec Football Club Olympique Ajaccio",
+   "dc",
+   66
+  ],
+  [
+   "2007-01-20",
+   "LOSC Lille",
+   "dc",
+   90
+  ],
+  [
+   "2007-04-06",
+   "FC Gueugnon",
+   "lg",
+   22
+  ],
+  [
+   "2007-04-13",
+   "FC Istres Ouest Provence",
+   "lg",
+   28
+  ],
+  [
+   "2007-04-17",
+   "Grenoble Foot 38",
+   "lg",
+   45
+  ],
+  [
+   "2007-04-23",
+   "Stade Reims",
+   "lg",
+   18
+  ],
+  [
+   "2007-04-27",
+   "FC Libourne-Saint-Seurin",
+   "lg",
+   84
+  ],
+  [
+   "2007-05-18",
+   "FC Metz",
+   "lg",
+   15
+  ],
+  [
+   "2007-05-25",
+   "Dijon FCO",
+   "lg",
+   90
+  ],
+  [
+   "2007-08-04",
+   "Olympique Marseille",
+   "lg",
+   27
+  ],
+  [
+   "2007-08-11",
+   "OGC Nice",
+   "lg",
+   28
+  ],
+  [
+   "2007-08-15",
+   "AJ Auxerre",
+   "lg",
+   8
+  ],
+  [
+   "2007-08-18",
+   "FC Toulouse",
+   "lg",
+   40
+  ],
+  [
+   "2007-08-25",
+   "RC Lens",
+   "lg",
+   88
+  ],
+  [
+   "2007-08-29",
+   "AS Saint-Étienne",
+   "lg",
+   59
+  ],
+  [
+   "2007-09-01",
+   "FC Lorient",
+   "lg",
+   79
+  ],
+  [
+   "2007-09-15",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2007-09-22",
+   "Le Mans Union Club 72",
+   "lg",
+   15
+  ],
+  [
+   "2007-09-26",
+   "Amiens SC",
+   "dc",
+   90
+  ],
+  [
+   "2007-10-06",
+   "FC Metz",
+   "lg",
+   4
+  ],
+  [
+   "2007-10-20",
+   "FC Girondins Bordeaux",
+   "lg",
+   67
+  ],
+  [
+   "2007-10-27",
+   "LOSC Lille",
+   "lg",
+   18
+  ],
+  [
+   "2007-11-03",
+   "Paris Saint-Germain",
+   "lg",
+   61
+  ],
+  [
+   "2007-11-24",
+   "Valenciennes FC",
+   "lg",
+   54
+  ],
+  [
+   "2007-12-02",
+   "Olympique Lyon",
+   "lg",
+   76
+  ],
+  [
+   "2007-12-16",
+   "AS Nancy-Lorraine",
+   "lg",
+   16
+  ],
+  [
+   "2007-12-22",
+   "SM Caen",
+   "lg",
+   5
+  ],
+  [
+   "2008-01-12",
+   "OGC Nice",
+   "lg",
+   21
+  ],
+  [
+   "2008-01-19",
+   "AJ Auxerre",
+   "lg",
+   75
+  ],
+  [
+   "2008-01-23",
+   "FC Toulouse",
+   "lg",
+   68
+  ],
+  [
+   "2008-01-26",
+   "RC Lens",
+   "lg",
+   75
+  ],
+  [
+   "2008-02-01",
+   "FC Metz",
+   "dc",
+   16
+  ],
+  [
+   "2008-02-09",
+   "AS Saint-Étienne",
+   "lg",
+   72
+  ],
+  [
+   "2008-02-16",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2008-02-23",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   20
+  ],
+  [
+   "2008-03-01",
+   "Le Mans Union Club 72",
+   "lg",
+   69
+  ],
+  [
+   "2008-03-08",
+   "FC Metz",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-16",
+   "FC Girondins Bordeaux",
+   "lg",
+   81
+  ],
+  [
+   "2008-03-22",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2008-04-02",
+   "Paris Saint-Germain",
+   "lg",
+   45
+  ],
+  [
+   "2008-04-05",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2008-04-12",
+   "Valenciennes FC",
+   "lg",
+   75
+  ],
+  [
+   "2008-04-26",
+   "Stade Rennais FC",
+   "lg",
+   36
+  ],
+  [
+   "2008-05-10",
+   "SM Caen",
+   "lg",
+   82
+  ],
+  [
+   "2008-05-17",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-09",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-17",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-23",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-30",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-13",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-20",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-27",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-04",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-18",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-25",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-29",
+   "AS Saint-Étienne",
+   "lg",
+   83
+  ],
+  [
+   "2008-11-01",
+   "Grenoble Foot 38",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-08",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-15",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-22",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-29",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-07",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-14",
+   "Le Havre AC",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-20",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-01-03",
+   "US Alençon 61",
+   "dc",
+   120
+  ],
+  [
+   "2009-01-10",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2009-01-17",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-01-24",
+   "Tours FC",
+   "dc",
+   120
+  ],
+  [
+   "2009-01-31",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-07",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-14",
+   "SM Caen",
+   "lg",
+   85
+  ],
+  [
+   "2009-02-21",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   77
+  ],
+  [
+   "2009-03-07",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-14",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-22",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-04",
+   "Grenoble Foot 38",
+   "lg",
+   80
+  ],
+  [
+   "2009-04-11",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-19",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-26",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-02",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-13",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-16",
+   "Le Havre AC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-23",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-30",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-09",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-15",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-22",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-29",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2009-09-12",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2009-09-19",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2009-09-22",
+   "Grenoble Foot 38",
+   "dc",
+   31
+  ],
+  [
+   "2009-09-26",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2009-10-18",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2009-10-24",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2009-10-31",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2009-11-07",
+   "US Boulogne",
+   "lg",
+   82
+  ],
+  [
+   "2009-11-22",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2009-11-28",
+   "Grenoble Foot 38",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-05",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-12",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-16",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-19",
+   "FC Girondins Bordeaux",
+   "lg",
+   35
+  ],
+  [
+   "2009-12-23",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-01-13",
+   "RC Lens",
+   "dc",
+   90
+  ],
+  [
+   "2010-01-16",
+   "Le Mans Union Club 72",
+   "lg",
+   6
+  ],
+  [
+   "2010-01-20",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2010-01-24",
+   "AS Saint-Étienne",
+   "dc",
+   65
+  ],
+  [
+   "2010-01-27",
+   "Olympique Lyon",
+   "dk",
+   90
+  ],
+  [
+   "2010-01-30",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2010-02-06",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2010-02-14",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2010-02-17",
+   "FC Girondins Bordeaux",
+   "dsf",
+   57
+  ],
+  [
+   "2010-03-07",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-13",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-20",
+   "US Boulogne",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-28",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-03",
+   "Grenoble Foot 38",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-10",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-17",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-24",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-02",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-05",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-08",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-15",
+   "LOSC Lille",
+   "lg",
+   81
+  ],
+  [
+   "2010-08-14",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2010-08-21",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2010-08-28",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-12",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-18",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-21",
+   "Stade Brestois 29",
+   "dc",
+   25
+  ],
+  [
+   "2010-09-25",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-02",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-17",
+   "Valenciennes FC",
+   "lg",
+   88
+  ],
+  [
+   "2010-10-23",
+   "AS Nancy-Lorraine",
+   "lg",
+   85
+  ],
+  [
+   "2010-10-26",
+   "AS Monaco",
+   "dc",
+   59
+  ],
+  [
+   "2010-10-30",
+   "AC Arles-Avignon",
+   "lg",
+   86
+  ],
+  [
+   "2010-11-06",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-14",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-20",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-27",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-05",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-18",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-21",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-15",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-22",
+   "Vendée Fontenay Foot",
+   "dc",
+   120
+  ],
+  [
+   "2011-01-29",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-01",
+   "FC Metz",
+   "dc",
+   90
+  ],
+  [
+   "2011-02-05",
+   "SM Caen",
+   "lg",
+   89
+  ],
+  [
+   "2011-02-12",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-19",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-26",
+   "Valenciennes FC",
+   "lg",
+   89
+  ],
+  [
+   "2011-03-02",
+   "LOSC Lille",
+   "dk",
+   120
+  ],
+  [
+   "2011-03-05",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-12",
+   "AC Arles-Avignon",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-19",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2011-04-02",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2011-04-09",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2011-04-16",
+   "Stade Rennais FC",
+   "lg",
+   82
+  ],
+  [
+   "2011-04-24",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2011-04-30",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-07",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-11",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-15",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-21",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-29",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2011-08-06",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2011-08-13",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-08-18",
+   "FC Differdange 03",
+   "elq",
+   66
+  ],
+  [
+   "2011-08-21",
+   "Valenciennes FC",
+   "lg",
+   88
+  ],
+  [
+   "2011-08-25",
+   "FC Differdange 03",
+   "elq",
+   12
+  ],
+  [
+   "2011-08-28",
+   "FC Toulouse",
+   "lg",
+   88
+  ],
+  [
+   "2011-09-11",
+   "Stade Brestois 29",
+   "lg",
+   80
+  ],
+  [
+   "2011-09-15",
+   "Red Bull Salzburg",
+   "elg",
+   26
+  ],
+  [
+   "2011-09-18",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   88
+  ],
+  [
+   "2011-09-21",
+   "OGC Nice",
+   "lg",
+   80
+  ],
+  [
+   "2011-09-24",
+   "Montpellier HSC",
+   "lg",
+   68
+  ],
+  [
+   "2011-10-02",
+   "Olympique Lyon",
+   "lg",
+   86
+  ],
+  [
+   "2011-10-16",
+   "AC Ajaccio",
+   "lg",
+   75
+  ],
+  [
+   "2011-10-20",
+   "Slovan Bratislava",
+   "elg",
+   19
+  ],
+  [
+   "2011-10-23",
+   "Dijon FCO",
+   "lg",
+   87
+  ],
+  [
+   "2011-10-26",
+   "Dijon FCO",
+   "dc",
+   20
+  ],
+  [
+   "2011-10-29",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-03",
+   "Slovan Bratislava",
+   "elg",
+   3
+  ],
+  [
+   "2011-11-06",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-20",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-27",
+   "Olympique Marseille",
+   "lg",
+   59
+  ],
+  [
+   "2011-12-01",
+   "Red Bull Salzburg",
+   "elg",
+   28
+  ],
+  [
+   "2011-12-04",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-10",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   88
+  ],
+  [
+   "2011-12-14",
+   "Athletic Bilbao",
+   "elg",
+   75
+  ],
+  [
+   "2011-12-18",
+   "LOSC Lille",
+   "lg",
+   80
+  ],
+  [
+   "2011-12-21",
+   "AS Saint-Étienne",
+   "lg",
+   86
+  ],
+  [
+   "2012-01-14",
+   "FC Toulouse",
+   "lg",
+   27
+  ],
+  [
+   "2012-01-20",
+   "Sablé-sur-Sarthe FC",
+   "dc",
+   78
+  ],
+  [
+   "2012-01-28",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-04",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-12",
+   "OGC Nice",
+   "lg",
+   61
+  ],
+  [
+   "2012-02-15",
+   "Dijon FCO",
+   "dc",
+   16
+  ],
+  [
+   "2012-02-19",
+   "Montpellier HSC",
+   "lg",
+   62
+  ],
+  [
+   "2012-02-25",
+   "Olympique Lyon",
+   "lg",
+   28
+  ],
+  [
+   "2012-03-11",
+   "Dijon FCO",
+   "lg",
+   11
+  ],
+  [
+   "2012-03-17",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-21",
+   "Olympique Lyon",
+   "dk",
+   70
+  ],
+  [
+   "2012-03-25",
+   "FC Girondins Bordeaux",
+   "lg",
+   16
+  ],
+  [
+   "2012-03-31",
+   "AS Nancy-Lorraine",
+   "lg",
+   11
+  ],
+  [
+   "2012-04-15",
+   "AJ Auxerre",
+   "lg",
+   73
+  ],
+  [
+   "2012-04-22",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   4
+  ],
+  [
+   "2012-04-29",
+   "LOSC Lille",
+   "lg",
+   65
+  ],
+  [
+   "2012-05-06",
+   "Valenciennes FC",
+   "lg",
+   16
+  ],
+  [
+   "2012-05-20",
+   "FC Lorient",
+   "lg",
+   45
+  ],
+  [
+   "2012-08-11",
+   "FC Lorient",
+   "lg",
+   17
+  ],
+  [
+   "2012-08-19",
+   "AC Ajaccio",
+   "lg",
+   25
+  ],
+  [
+   "2012-09-02",
+   "LOSC Lille",
+   "lg",
+   9
+  ],
+  [
+   "2012-09-22",
+   "SC Bastia",
+   "lg",
+   18
+  ],
+  [
+   "2012-09-29",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   80
+  ],
+  [
+   "2012-10-07",
+   "Olympique Marseille",
+   "lg",
+   45
+  ],
+  [
+   "2012-10-20",
+   "Stade Reims",
+   "lg",
+   72
+  ],
+  [
+   "2012-10-27",
+   "AS Nancy-Lorraine",
+   "lg",
+   45
+  ],
+  [
+   "2012-11-11",
+   "Montpellier HSC",
+   "lg",
+   14
+  ],
+  [
+   "2012-11-17",
+   "Stade Rennais FC",
+   "lg",
+   27
+  ],
+  [
+   "2012-12-08",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   4
+  ],
+  [
+   "2012-12-21",
+   "Stade Brestois 29",
+   "lg",
+   19
+  ],
+  [
+   "2013-01-06",
+   "Arras Football Association",
+   "dc",
+   90
+  ],
+  [
+   "2013-01-11",
+   "AC Ajaccio",
+   "lg",
+   5
+  ],
+  [
+   "2013-01-23",
+   "FC Toulouse",
+   "dc",
+   45
+  ],
+  [
+   "2013-02-08",
+   "SC Bastia",
+   "lg",
+   66
+  ],
+  [
+   "2013-02-17",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   28
+  ],
+  [
+   "2013-02-27",
+   "Olympique Marseille",
+   "dc",
+   90
+  ],
+  [
+   "2013-03-02",
+   "Stade Reims",
+   "lg",
+   13
+  ],
+  [
+   "2013-03-06",
+   "Valencia CF",
+   "cl16",
+   32
+  ],
+  [
+   "2013-03-09",
+   "AS Nancy-Lorraine",
+   "lg",
+   33
+  ],
+  [
+   "2013-03-17",
+   "AS Saint-Étienne",
+   "lg",
+   14
+  ],
+  [
+   "2013-03-29",
+   "Montpellier HSC",
+   "lg",
+   18
+  ],
+  [
+   "2013-04-02",
+   "FC Barcelona",
+   "clk",
+   14
+  ],
+  [
+   "2013-04-06",
+   "Stade Rennais FC",
+   "lg",
+   65
+  ],
+  [
+   "2013-04-10",
+   "FC Barcelona",
+   "clk",
+   9
+  ],
+  [
+   "2013-04-13",
+   "ESTAC Troyes",
+   "lg",
+   64
+  ],
+  [
+   "2013-04-17",
+   "FC Évian Thonon Gaillard",
+   "dk",
+   22
+  ],
+  [
+   "2013-04-21",
+   "OGC Nice",
+   "lg",
+   4
+  ],
+  [
+   "2013-05-05",
+   "Valenciennes FC",
+   "lg",
+   21
+  ],
+  [
+   "2013-05-18",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-26",
+   "FC Lorient",
+   "lg",
+   72
+  ],
+  [
+   "2013-08-18",
+   "Atlético de Madrid",
+   "lg",
+   17
+  ],
+  [
+   "2013-08-22",
+   "Slask Wroclaw",
+   "elq",
+   90
+  ],
+  [
+   "2013-08-25",
+   "Levante UD",
+   "lg",
+   83
+  ],
+  [
+   "2013-09-01",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-14",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-19",
+   "GD Estoril Praia",
+   "elg",
+   25
+  ],
+  [
+   "2013-09-22",
+   "Valencia CF",
+   "lg",
+   63
+  ],
+  [
+   "2013-09-25",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-28",
+   "Real Sociedad",
+   "lg",
+   79
+  ],
+  [
+   "2013-10-06",
+   "UD Almería",
+   "lg",
+   45
+  ],
+  [
+   "2013-10-20",
+   "Real Valladolid CF",
+   "lg",
+   10
+  ],
+  [
+   "2013-10-24",
+   "FC Slovan Liberec",
+   "elg",
+   90
+  ],
+  [
+   "2013-10-27",
+   "CA Osasuna",
+   "lg",
+   64
+  ],
+  [
+   "2013-10-30",
+   "Real Madrid",
+   "lg",
+   28
+  ],
+  [
+   "2013-11-02",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2013-11-24",
+   "Real Betis Balompié",
+   "lg",
+   14
+  ],
+  [
+   "2013-11-28",
+   "GD Estoril Praia",
+   "elg",
+   90
+  ],
+  [
+   "2013-12-01",
+   "Granada CF",
+   "lg",
+   10
+  ],
+  [
+   "2013-12-06",
+   "Racing Santander",
+   "dc",
+   90
+  ],
+  [
+   "2013-12-15",
+   "Athletic Bilbao",
+   "lg",
+   12
+  ],
+  [
+   "2013-12-21",
+   "Villarreal CF",
+   "lg",
+   6
+  ],
+  [
+   "2014-01-05",
+   "Getafe CF",
+   "lg",
+   73
+  ],
+  [
+   "2014-01-11",
+   "Elche CF",
+   "lg",
+   24
+  ],
+  [
+   "2014-01-19",
+   "Atlético de Madrid",
+   "lg",
+   45
+  ],
+  [
+   "2014-01-25",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2014-02-01",
+   "Málaga CF",
+   "lg",
+   45
+  ],
+  [
+   "2014-02-09",
+   "FC Barcelona",
+   "lg",
+   64
+  ],
+  [
+   "2014-02-16",
+   "Valencia CF",
+   "lg",
+   31
+  ],
+  [
+   "2014-02-20",
+   "NK Maribor",
+   "elk",
+   90
+  ],
+  [
+   "2014-02-23",
+   "Rayo Vallecano",
+   "lg",
+   12
+  ],
+  [
+   "2014-02-27",
+   "NK Maribor",
+   "elk",
+   81
+  ],
+  [
+   "2014-03-02",
+   "Real Sociedad",
+   "lg",
+   17
+  ],
+  [
+   "2014-03-09",
+   "UD Almería",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-13",
+   "Real Betis Balompié",
+   "elk",
+   45
+  ],
+  [
+   "2014-03-16",
+   "Real Valladolid CF",
+   "lg",
+   71
+  ],
+  [
+   "2014-03-20",
+   "Real Betis Balompié",
+   "elk",
+   90
+  ],
+  [
+   "2014-03-23",
+   "CA Osasuna",
+   "lg",
+   16
+  ],
+  [
+   "2014-03-26",
+   "Real Madrid",
+   "lg",
+   7
+  ],
+  [
+   "2014-03-29",
+   "Celta de Vigo",
+   "lg",
+   84
+  ],
+  [
+   "2014-04-03",
+   "FC Porto",
+   "elk",
+   27
+  ],
+  [
+   "2014-04-06",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-10",
+   "FC Porto",
+   "elk",
+   21
+  ],
+  [
+   "2014-04-13",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-20",
+   "Granada CF",
+   "lg",
+   66
+  ],
+  [
+   "2014-04-24",
+   "Valencia CF",
+   "elsf",
+   17
+  ],
+  [
+   "2014-04-27",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2014-05-01",
+   "Valencia CF",
+   "elsf",
+   24
+  ],
+  [
+   "2014-05-04",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-05-14",
+   "SL Benfica",
+   "elf",
+   16
+  ],
+  [
+   "2014-10-19",
+   "Elche CF",
+   "lg",
+   30
+  ],
+  [
+   "2014-10-23",
+   "Standard Liège",
+   "elg",
+   63
+  ],
+  [
+   "2014-10-26",
+   "Villarreal CF",
+   "lg",
+   74
+  ],
+  [
+   "2014-10-29",
+   "CE Sabadell FC",
+   "dc",
+   45
+  ],
+  [
+   "2014-11-02",
+   "Athletic Bilbao",
+   "lg",
+   45
+  ],
+  [
+   "2014-11-06",
+   "Standard Liège",
+   "elg",
+   90
+  ],
+  [
+   "2014-11-09",
+   "Levante UD",
+   "lg",
+   13
+  ],
+  [
+   "2014-11-22",
+   "FC Barcelona",
+   "lg",
+   29
+  ],
+  [
+   "2014-11-27",
+   "Feyenoord Rotterdam",
+   "elg",
+   90
+  ],
+  [
+   "2014-11-30",
+   "Granada CF",
+   "lg",
+   4
+  ],
+  [
+   "2014-12-03",
+   "CE Sabadell FC",
+   "dc",
+   76
+  ],
+  [
+   "2014-12-07",
+   "Rayo Vallecano",
+   "lg",
+   7
+  ],
+  [
+   "2014-12-11",
+   "HNK Rijeka",
+   "elg",
+   24
+  ],
+  [
+   "2014-12-14",
+   "SD Eibar",
+   "lg",
+   71
+  ],
+  [
+   "2015-01-03",
+   "Celta de Vigo",
+   "lg",
+   21
+  ],
+  [
+   "2015-01-08",
+   "Granada CF",
+   "dc",
+   90
+  ],
+  [
+   "2015-01-11",
+   "UD Almería",
+   "lg",
+   15
+  ],
+  [
+   "2015-01-14",
+   "Granada CF",
+   "dc",
+   70
+  ],
+  [
+   "2015-01-18",
+   "Málaga CF",
+   "lg",
+   20
+  ],
+  [
+   "2015-01-22",
+   "RCD Espanyol Barcelona",
+   "dk",
+   77
+  ],
+  [
+   "2015-01-25",
+   "Valencia CF",
+   "lg",
+   19
+  ],
+  [
+   "2015-01-29",
+   "RCD Espanyol Barcelona",
+   "dk",
+   90
+  ],
+  [
+   "2015-02-22",
+   "Real Sociedad",
+   "lg",
+   20
+  ],
+  [
+   "2015-02-26",
+   "Borussia Mönchengladbach",
+   "elk",
+   12
+  ],
+  [
+   "2015-03-01",
+   "Atlético de Madrid",
+   "lg",
+   11
+  ],
+  [
+   "2015-03-07",
+   "Deportivo de La Coruña",
+   "lg",
+   30
+  ],
+  [
+   "2015-03-12",
+   "Villarreal CF",
+   "elk",
+   64
+  ],
+  [
+   "2015-03-15",
+   "Elche CF",
+   "lg",
+   18
+  ],
+  [
+   "2015-03-19",
+   "Villarreal CF",
+   "elk",
+   65
+  ],
+  [
+   "2015-04-04",
+   "Athletic Bilbao",
+   "lg",
+   25
+  ],
+  [
+   "2015-04-07",
+   "Levante UD",
+   "lg",
+   79
+  ],
+  [
+   "2015-04-11",
+   "FC Barcelona",
+   "lg",
+   15
+  ],
+  [
+   "2015-04-16",
+   "Zenit St. Petersburg",
+   "elk",
+   64
+  ],
+  [
+   "2015-04-19",
+   "Granada CF",
+   "lg",
+   9
+  ],
+  [
+   "2015-04-23",
+   "Zenit St. Petersburg",
+   "elk",
+   17
+  ],
+  [
+   "2015-04-26",
+   "Rayo Vallecano",
+   "lg",
+   69
+  ],
+  [
+   "2015-04-29",
+   "SD Eibar",
+   "lg",
+   29
+  ],
+  [
+   "2015-05-02",
+   "Real Madrid",
+   "lg",
+   12
+  ],
+  [
+   "2015-05-07",
+   "ACF Fiorentina",
+   "elsf",
+   16
+  ],
+  [
+   "2015-05-10",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-14",
+   "ACF Fiorentina",
+   "elsf",
+   20
+  ],
+  [
+   "2015-05-17",
+   "UD Almería",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-23",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-27",
+   "Dnipro Dnipropetrovsk",
+   "elf",
+   8
+  ],
+  [
+   "2015-08-11",
+   "FC Barcelona",
+   "df",
+   80
+  ],
+  [
+   "2015-08-21",
+   "Málaga CF",
+   "lg",
+   81
+  ],
+  [
+   "2015-08-30",
+   "Atlético de Madrid",
+   "lg",
+   21
+  ],
+  [
+   "2015-09-11",
+   "Levante UD",
+   "lg",
+   77
+  ],
+  [
+   "2015-09-15",
+   "Borussia Mönchengladbach",
+   "clg",
+   71
+  ],
+  [
+   "2015-09-20",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-23",
+   "UD Las Palmas",
+   "lg",
+   35
+  ],
+  [
+   "2015-09-26",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-30",
+   "Juventus FC",
+   "clg",
+   66
+  ],
+  [
+   "2015-10-03",
+   "FC Barcelona",
+   "lg",
+   72
+  ],
+  [
+   "2015-10-17",
+   "SD Eibar",
+   "lg",
+   85
+  ],
+  [
+   "2015-10-21",
+   "Manchester City",
+   "clg",
+   90
+  ],
+  [
+   "2015-10-24",
+   "Getafe CF",
+   "lg",
+   71
+  ],
+  [
+   "2015-10-31",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-21",
+   "Real Sociedad",
+   "lg",
+   14
+  ],
+  [
+   "2015-11-25",
+   "Borussia Mönchengladbach",
+   "clg",
+   76
+  ],
+  [
+   "2015-12-05",
+   "Deportivo de La Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-08",
+   "Juventus FC",
+   "clg",
+   13
+  ],
+  [
+   "2015-12-12",
+   "Sporting Gijón",
+   "lg",
+   21
+  ],
+  [
+   "2015-12-19",
+   "Real Betis Balompié",
+   "lg",
+   82
+  ],
+  [
+   "2015-12-30",
+   "RCD Espanyol Barcelona",
+   "lg",
+   14
+  ],
+  [
+   "2016-01-03",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-06",
+   "Real Betis Balompié",
+   "dc",
+   26
+  ],
+  [
+   "2016-01-09",
+   "Athletic Bilbao",
+   "lg",
+   83
+  ],
+  [
+   "2016-01-12",
+   "Real Betis Balompié",
+   "dc",
+   17
+  ],
+  [
+   "2016-01-16",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-21",
+   "CD Mirandés",
+   "dk",
+   90
+  ],
+  [
+   "2016-01-24",
+   "Atlético de Madrid",
+   "lg",
+   20
+  ],
+  [
+   "2016-01-31",
+   "Levante UD",
+   "lg",
+   80
+  ],
+  [
+   "2016-02-04",
+   "Celta de Vigo",
+   "dsf",
+   79
+  ],
+  [
+   "2016-02-07",
+   "Celta de Vigo",
+   "lg",
+   21
+  ],
+  [
+   "2016-02-11",
+   "Celta de Vigo",
+   "dsf",
+   90
+  ],
+  [
+   "2016-02-14",
+   "UD Las Palmas",
+   "lg",
+   79
+  ],
+  [
+   "2016-02-18",
+   "Molde FK",
+   "elk",
+   32
+  ],
+  [
+   "2016-02-21",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-25",
+   "Molde FK",
+   "elk",
+   28
+  ],
+  [
+   "2016-02-28",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-02",
+   "SD Eibar",
+   "lg",
+   25
+  ],
+  [
+   "2016-03-05",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-10",
+   "FC Basel 1893",
+   "elk",
+   73
+  ],
+  [
+   "2016-03-13",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-17",
+   "FC Basel 1893",
+   "elk",
+   69
+  ],
+  [
+   "2016-03-20",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-03",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-07",
+   "Athletic Bilbao",
+   "elk",
+   90
+  ],
+  [
+   "2016-04-10",
+   "Valencia CF",
+   "lg",
+   30
+  ],
+  [
+   "2016-04-14",
+   "Athletic Bilbao",
+   "elk",
+   120
+  ],
+  [
+   "2016-04-24",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-28",
+   "Shakhtar Donetsk",
+   "elsf",
+   90
+  ],
+  [
+   "2016-05-05",
+   "Shakhtar Donetsk",
+   "elsf",
+   82
+  ],
+  [
+   "2016-05-18",
+   "Liverpool FC",
+   "elf",
+   89
+  ],
+  [
+   "2016-05-22",
+   "FC Barcelona",
+   "df",
+   120
+  ],
+  [
+   "2016-08-21",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-27",
+   "CD Leganés",
+   "lg",
+   58
+  ],
+  [
+   "2016-09-10",
+   "Celta de Vigo",
+   "lg",
+   27
+  ],
+  [
+   "2016-09-13",
+   "PSV Eindhoven",
+   "clg",
+   65
+  ],
+  [
+   "2016-09-17",
+   "Sporting Gijón",
+   "lg",
+   60
+  ],
+  [
+   "2016-09-21",
+   "FC Barcelona",
+   "lg",
+   60
+  ],
+  [
+   "2016-09-25",
+   "Deportivo de La Coruña",
+   "lg",
+   31
+  ],
+  [
+   "2016-09-28",
+   "FC Bayern Munich",
+   "clg",
+   18
+  ],
+  [
+   "2016-10-02",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Granada CF",
+   "lg",
+   62
+  ],
+  [
+   "2016-10-19",
+   "FC Rostov",
+   "clg",
+   33
+  ],
+  [
+   "2016-10-23",
+   "Sevilla FC",
+   "lg",
+   66
+  ],
+  [
+   "2016-10-29",
+   "Málaga CF",
+   "lg",
+   65
+  ],
+  [
+   "2016-11-01",
+   "FC Rostov",
+   "clg",
+   32
+  ],
+  [
+   "2016-11-05",
+   "Real Sociedad",
+   "lg",
+   67
+  ],
+  [
+   "2016-11-19",
+   "Real Madrid",
+   "lg",
+   28
+  ],
+  [
+   "2016-11-23",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2016-11-27",
+   "CA Osasuna",
+   "lg",
+   71
+  ],
+  [
+   "2016-12-03",
+   "RCD Espanyol Barcelona",
+   "lg",
+   83
+  ],
+  [
+   "2016-12-06",
+   "FC Bayern Munich",
+   "clg",
+   30
+  ],
+  [
+   "2016-12-12",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-17",
+   "UD Las Palmas",
+   "lg",
+   84
+  ],
+  [
+   "2016-12-20",
+   "CD Guijuelo",
+   "dc",
+   16
+  ],
+  [
+   "2017-01-03",
+   "UD Las Palmas",
+   "dc",
+   64
+  ],
+  [
+   "2017-01-07",
+   "SD Eibar",
+   "lg",
+   19
+  ],
+  [
+   "2017-01-14",
+   "Real Betis Balompié",
+   "lg",
+   20
+  ],
+  [
+   "2017-01-19",
+   "SD Eibar",
+   "dk",
+   27
+  ],
+  [
+   "2017-01-22",
+   "Athletic Bilbao",
+   "lg",
+   65
+  ],
+  [
+   "2017-01-25",
+   "SD Eibar",
+   "dk",
+   61
+  ],
+  [
+   "2017-01-28",
+   "Deportivo Alavés",
+   "lg",
+   60
+  ],
+  [
+   "2017-02-01",
+   "FC Barcelona",
+   "dsf",
+   20
+  ],
+  [
+   "2017-02-07",
+   "FC Barcelona",
+   "dsf",
+   28
+  ],
+  [
+   "2017-02-12",
+   "Celta de Vigo",
+   "lg",
+   14
+  ],
+  [
+   "2017-02-18",
+   "Sporting Gijón",
+   "lg",
+   28
+  ],
+  [
+   "2017-02-21",
+   "Bayer 04 Leverkusen",
+   "cl16",
+   71
+  ],
+  [
+   "2017-02-26",
+   "FC Barcelona",
+   "lg",
+   73
+  ],
+  [
+   "2017-03-02",
+   "Deportivo de La Coruña",
+   "lg",
+   65
+  ],
+  [
+   "2017-03-05",
+   "Valencia CF",
+   "lg",
+   71
+  ],
+  [
+   "2017-03-19",
+   "Sevilla FC",
+   "lg",
+   63
+  ],
+  [
+   "2017-04-22",
+   "RCD Espanyol Barcelona",
+   "lg",
+   25
+  ],
+  [
+   "2017-04-25",
+   "Villarreal CF",
+   "lg",
+   34
+  ],
+  [
+   "2017-04-29",
+   "UD Las Palmas",
+   "lg",
+   58
+  ],
+  [
+   "2017-05-02",
+   "Real Madrid",
+   "clsf",
+   57
+  ],
+  [
+   "2017-05-10",
+   "Real Madrid",
+   "clsf",
+   34
+  ],
+  [
+   "2017-05-14",
+   "Real Betis Balompié",
+   "lg",
+   64
+  ],
+  [
+   "2017-05-21",
+   "Athletic Bilbao",
+   "lg",
+   26
+  ],
+  [
+   "2017-09-09",
+   "Valencia CF",
+   "lg",
+   18
+  ],
+  [
+   "2017-09-23",
+   "Sevilla FC",
+   "lg",
+   9
+  ],
+  [
+   "2017-10-18",
+   "Qarabağ FK",
+   "clg",
+   72
+  ],
+  [
+   "2017-10-22",
+   "Celta de Vigo",
+   "lg",
+   61
+  ],
+  [
+   "2017-10-28",
+   "Villarreal CF",
+   "lg",
+   75
+  ],
+  [
+   "2017-10-31",
+   "Qarabağ FK",
+   "clg",
+   69
+  ],
+  [
+   "2017-11-04",
+   "Deportivo de La Coruña",
+   "lg",
+   29
+  ],
+  [
+   "2017-11-18",
+   "Real Madrid",
+   "lg",
+   13
+  ],
+  [
+   "2017-11-22",
+   "AS Roma",
+   "clg",
+   23
+  ],
+  [
+   "2017-11-25",
+   "Levante UD",
+   "lg",
+   69
+  ],
+  [
+   "2017-12-02",
+   "Real Sociedad",
+   "lg",
+   70
+  ],
+  [
+   "2017-12-10",
+   "Real Betis Balompié",
+   "lg",
+   76
+  ],
+  [
+   "2017-12-16",
+   "Deportivo Alavés",
+   "lg",
+   69
+  ],
+  [
+   "2017-12-22",
+   "RCD Espanyol Barcelona",
+   "lg",
+   20
+  ],
+  [
+   "2018-01-03",
+   "Club Lleida Esportiu",
+   "dc",
+   90
+  ],
+  [
+   "2018-01-09",
+   "Club Lleida Esportiu",
+   "dc",
+   28
+  ],
+  [
+   "2018-01-13",
+   "SD Eibar",
+   "lg",
+   69
+  ],
+  [
+   "2018-01-20",
+   "Girona FC",
+   "lg",
+   29
+  ],
+  [
+   "2018-01-23",
+   "Sevilla FC",
+   "dk",
+   90
+  ],
+  [
+   "2018-02-15",
+   "FC Copenhagen",
+   "elk",
+   69
+  ],
+  [
+   "2018-02-18",
+   "Athletic Bilbao",
+   "lg",
+   31
+  ],
+  [
+   "2018-02-22",
+   "FC Copenhagen",
+   "elk",
+   68
+  ],
+  [
+   "2018-02-25",
+   "Sevilla FC",
+   "lg",
+   13
+  ],
+  [
+   "2018-02-28",
+   "CD Leganés",
+   "lg",
+   17
+  ],
+  [
+   "2018-03-04",
+   "FC Barcelona",
+   "lg",
+   24
+  ],
+  [
+   "2018-03-08",
+   "Lokomotiv Moscow",
+   "elk",
+   15
+  ],
+  [
+   "2018-03-11",
+   "Celta de Vigo",
+   "lg",
+   21
+  ],
+  [
+   "2018-04-01",
+   "Deportivo de La Coruña",
+   "lg",
+   72
+  ],
+  [
+   "2018-04-05",
+   "Sporting CP",
+   "elk",
+   37
+  ],
+  [
+   "2018-04-08",
+   "Real Madrid",
+   "lg",
+   8
+  ],
+  [
+   "2018-04-15",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-19",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-26",
+   "Arsenal FC",
+   "elsf",
+   65
+  ],
+  [
+   "2018-04-29",
+   "Deportivo Alavés",
+   "lg",
+   27
+  ],
+  [
+   "2018-05-06",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-12",
+   "Getafe CF",
+   "lg",
+   28
+  ],
+  [
+   "2018-08-20",
+   "Atlético de Madrid",
+   "lg",
+   23
+  ],
+  [
+   "2018-08-26",
+   "RCD Espanyol Barcelona",
+   "lg",
+   23
+  ],
+  [
+   "2018-09-02",
+   "Levante UD",
+   "lg",
+   68
+  ],
+  [
+   "2018-09-15",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-19",
+   "Juventus FC",
+   "clg",
+   20
+  ],
+  [
+   "2018-09-23",
+   "Villarreal CF",
+   "lg",
+   61
+  ],
+  [
+   "2018-09-26",
+   "Celta de Vigo",
+   "lg",
+   7
+  ],
+  [
+   "2018-09-29",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-02",
+   "Manchester United",
+   "clg",
+   17
+  ],
+  [
+   "2018-10-07",
+   "FC Barcelona",
+   "lg",
+   67
+  ],
+  [
+   "2018-10-20",
+   "CD Leganés",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-23",
+   "BSC Young Boys",
+   "clg",
+   24
+  ],
+  [
+   "2018-10-27",
+   "Athletic Bilbao",
+   "lg",
+   45
+  ],
+  [
+   "2018-10-30",
+   "CD Ebro",
+   "dc",
+   45
+  ],
+  [
+   "2018-11-03",
+   "Girona FC",
+   "lg",
+   6
+  ],
+  [
+   "2018-11-07",
+   "BSC Young Boys",
+   "clg",
+   22
+  ],
+  [
+   "2018-11-10",
+   "Getafe CF",
+   "lg",
+   21
+  ],
+  [
+   "2018-11-24",
+   "Rayo Vallecano",
+   "lg",
+   23
+  ],
+  [
+   "2018-11-27",
+   "Juventus FC",
+   "clg",
+   45
+  ],
+  [
+   "2018-12-01",
+   "Real Madrid",
+   "lg",
+   72
+  ],
+  [
+   "2018-12-04",
+   "CD Ebro",
+   "dc",
+   64
+  ],
+  [
+   "2019-01-08",
+   "Sporting Gijón",
+   "dc",
+   80
+  ],
+  [
+   "2019-01-12",
+   "Real Valladolid CF",
+   "lg",
+   10
+  ],
+  [
+   "2019-01-15",
+   "Sporting Gijón",
+   "dc",
+   90
+  ],
+  [
+   "2019-01-19",
+   "Celta de Vigo",
+   "lg",
+   29
+  ],
+  [
+   "2019-01-22",
+   "Getafe CF",
+   "dk",
+   67
+  ],
+  [
+   "2019-01-29",
+   "Getafe CF",
+   "dk",
+   4
+  ],
+  [
+   "2019-02-02",
+   "FC Barcelona",
+   "lg",
+   40
+  ],
+  [
+   "2019-02-07",
+   "Real Betis Balompié",
+   "dsf",
+   32
+  ],
+  [
+   "2019-02-10",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-14",
+   "Celtic FC",
+   "elk",
+   12
+  ],
+  [
+   "2019-02-17",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-21",
+   "Celtic FC",
+   "elk",
+   22
+  ],
+  [
+   "2019-02-24",
+   "CD Leganés",
+   "lg",
+   20
+  ],
+  [
+   "2019-02-28",
+   "Real Betis Balompié",
+   "dsf",
+   85
+  ],
+  [
+   "2019-03-03",
+   "Athletic Bilbao",
+   "lg",
+   20
+  ],
+  [
+   "2019-03-07",
+   "FC Krasnodar",
+   "elk",
+   79
+  ],
+  [
+   "2019-03-10",
+   "Girona FC",
+   "lg",
+   58
+  ],
+  [
+   "2019-03-14",
+   "FC Krasnodar",
+   "elk",
+   2
+  ],
+  [
+   "2019-03-17",
+   "Getafe CF",
+   "lg",
+   77
+  ],
+  [
+   "2019-03-31",
+   "Sevilla FC",
+   "lg",
+   75
+  ],
+  [
+   "2019-04-03",
+   "Real Madrid",
+   "lg",
+   85
+  ],
+  [
+   "2019-04-06",
+   "Rayo Vallecano",
+   "lg",
+   30
+  ],
+  [
+   "2019-04-11",
+   "Villarreal CF",
+   "elk",
+   69
+  ],
+  [
+   "2019-04-14",
+   "Levante UD",
+   "lg",
+   19
+  ],
+  [
+   "2019-04-18",
+   "Villarreal CF",
+   "elk",
+   90
+  ],
+  [
+   "2019-04-21",
+   "Real Betis Balompié",
+   "lg",
+   13
+  ],
+  [
+   "2019-04-24",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-28",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-02",
+   "Arsenal FC",
+   "elsf",
+   19
+  ],
+  [
+   "2019-05-05",
+   "SD Huesca",
+   "lg",
+   32
+  ],
+  [
+   "2019-05-09",
+   "Arsenal FC",
+   "elsf",
+   90
+  ],
+  [
+   "2019-05-12",
+   "Deportivo Alavés",
+   "lg",
+   25
+  ],
+  [
+   "2019-05-18",
+   "Real Valladolid CF",
+   "lg",
+   26
+  ],
+  [
+   "2019-05-25",
+   "FC Barcelona",
+   "df",
+   72
+  ],
+  [
+   "2019-08-17",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-24",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-01",
+   "RCD Mallorca",
+   "lg",
+   84
+  ],
+  [
+   "2019-09-14",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-17",
+   "Chelsea FC",
+   "clg",
+   70
+  ],
+  [
+   "2019-09-25",
+   "Getafe CF",
+   "lg",
+   10
+  ],
+  [
+   "2019-10-19",
+   "Atlético de Madrid",
+   "lg",
+   25
+  ],
+  [
+   "2019-10-23",
+   "LOSC Lille",
+   "clg",
+   65
+  ],
+  [
+   "2019-10-27",
+   "CA Osasuna",
+   "lg",
+   85
+  ],
+  [
+   "2019-11-05",
+   "LOSC Lille",
+   "clg",
+   1
+  ],
+  [
+   "2019-11-09",
+   "Granada CF",
+   "lg",
+   38
+  ],
+  [
+   "2019-11-23",
+   "Real Betis Balompié",
+   "lg",
+   25
+  ],
+  [
+   "2019-11-27",
+   "Chelsea FC",
+   "clg",
+   23
+  ],
+  [
+   "2019-11-30",
+   "Villarreal CF",
+   "lg",
+   21
+  ],
+  [
+   "2019-12-07",
+   "Levante UD",
+   "lg",
+   79
+  ],
+  [
+   "2019-12-10",
+   "Ajax Amsterdam",
+   "clg",
+   54
+  ],
+  [
+   "2020-01-04",
+   "SD Eibar",
+   "lg",
+   19
+  ],
+  [
+   "2020-01-08",
+   "Real Madrid",
+   "dsf",
+   70
+  ],
+  [
+   "2020-01-19",
+   "RCD Mallorca",
+   "lg",
+   61
+  ],
+  [
+   "2020-01-22",
+   "UD Logroñés",
+   "dc",
+   14
+  ],
+  [
+   "2020-01-25",
+   "FC Barcelona",
+   "lg",
+   59
+  ],
+  [
+   "2020-01-29",
+   "Cultural Leonesa",
+   "dc",
+   98
+  ],
+  [
+   "2020-02-01",
+   "Celta de Vigo",
+   "lg",
+   5
+  ],
+  [
+   "2020-02-14",
+   "Atlético de Madrid",
+   "lg",
+   30
+  ],
+  [
+   "2020-02-19",
+   "Atalanta BC",
+   "cl16",
+   17
+  ],
+  [
+   "2020-02-22",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-29",
+   "Real Betis Balompié",
+   "lg",
+   74
+  ],
+  [
+   "2020-03-06",
+   "Deportivo Alavés",
+   "lg",
+   72
+  ],
+  [
+   "2020-03-10",
+   "Atalanta BC",
+   "cl16",
+   90
+  ],
+  [
+   "2020-06-12",
+   "Levante UD",
+   "lg",
+   34
+  ],
+  [
+   "2020-06-18",
+   "Real Madrid",
+   "lg",
+   30
+  ],
+  [
+   "2020-06-25",
+   "SD Eibar",
+   "lg",
+   45
+  ],
+  [
+   "2020-06-28",
+   "Villarreal CF",
+   "lg",
+   11
+  ],
+  [
+   "2020-07-01",
+   "Athletic Bilbao",
+   "lg",
+   16
+  ],
+  [
+   "2020-07-04",
+   "Granada CF",
+   "lg",
+   81
+  ],
+  [
+   "2020-07-07",
+   "Real Valladolid CF",
+   "lg",
+   64
+  ],
+  [
+   "2020-07-12",
+   "CD Leganés",
+   "lg",
+   86
+  ],
+  [
+   "2020-07-16",
+   "RCD Espanyol Barcelona",
+   "lg",
+   78
+  ],
+  [
+   "2020-07-19",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-26",
+   "SD Huesca",
+   "lg",
+   26
+  ],
+  [
+   "2020-09-29",
+   "Real Sociedad",
+   "lg",
+   20
+  ],
+  [
+   "2020-10-03",
+   "Real Betis Balompié",
+   "lg",
+   80
+  ],
+  [
+   "2020-10-18",
+   "Villarreal CF",
+   "lg",
+   7
+  ],
+  [
+   "2020-10-23",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-08",
+   "Real Madrid",
+   "lg",
+   9
+  ],
+  [
+   "2020-11-22",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-28",
+   "Atlético de Madrid",
+   "lg",
+   20
+  ],
+  [
+   "2020-12-07",
+   "SD Eibar",
+   "lg",
+   20
+  ],
+  [
+   "2020-12-30",
+   "Granada CF",
+   "lg",
+   66
+  ],
+  [
+   "2021-01-04",
+   "Cádiz CF",
+   "lg",
+   26
+  ],
+  [
+   "2021-01-21",
+   "CA Osasuna",
+   "lg",
+   32
+  ],
+  [
+   "2021-01-24",
+   "Atlético de Madrid",
+   "lg",
+   11
+  ],
+  [
+   "2021-02-14",
+   "Real Madrid",
+   "lg",
+   45
+  ],
+  [
+   "2021-02-20",
+   "Celta de Vigo",
+   "lg",
+   19
+  ],
+  [
+   "2021-02-27",
+   "Getafe CF",
+   "lg",
+   22
+  ],
+  [
+   "2021-03-05",
+   "Villarreal CF",
+   "lg",
+   24
+  ],
+  [
+   "2021-03-12",
+   "Levante UD",
+   "lg",
+   76
+  ],
+  [
+   "2021-04-04",
+   "Cádiz CF",
+   "lg",
+   89
+  ],
+  [
+   "2021-04-11",
+   "Real Sociedad",
+   "lg",
+   27
+  ],
+  [
+   "2021-04-18",
+   "Real Betis Balompié",
+   "lg",
+   67
+  ],
+  [
+   "2021-04-21",
+   "CA Osasuna",
+   "lg",
+   80
+  ],
+  [
+   "2021-04-24",
+   "Deportivo Alavés",
+   "lg",
+   77
+  ],
+  [
+   "2021-05-02",
+   "FC Barcelona",
+   "lg",
+   11
+  ],
+  [
+   "2021-05-09",
+   "Real Valladolid CF",
+   "lg",
+   13
+  ],
+  [
+   "2021-05-12",
+   "Sevilla FC",
+   "lg",
+   11
+  ],
+  [
+   "2021-05-16",
+   "SD Eibar",
+   "lg",
+   10
+  ],
+  [
+   "2021-08-08",
+   "Angers SCO",
+   "lg",
+   29
+  ],
+  [
+   "2021-08-14",
+   "Paris Saint-Germain",
+   "lg",
+   76
+  ],
+  [
+   "2021-08-22",
+   "ESTAC Troyes",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-29",
+   "Stade Brestois 29",
+   "lg",
+   71
+  ],
+  [
+   "2021-09-12",
+   "Olympique Lyon",
+   "lg",
+   77
+  ],
+  [
+   "2021-09-17",
+   "FC Metz",
+   "lg",
+   22
+  ],
+  [
+   "2021-09-22",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-25",
+   "LOSC Lille",
+   "lg",
+   59
+  ],
+  [
+   "2021-10-02",
+   "Montpellier HSC",
+   "lg",
+   89
+  ],
+  [
+   "2021-10-17",
+   "AS Saint-Étienne",
+   "lg",
+   81
+  ],
+  [
+   "2021-10-24",
+   "Stade Rennais FC",
+   "lg",
+   41
+  ],
+  [
+   "2021-11-21",
+   "Stade Reims",
+   "lg",
+   72
+  ],
+  [
+   "2021-11-28",
+   "AS Monaco",
+   "lg",
+   18
+  ],
+  [
+   "2021-12-01",
+   "FC Girondins Bordeaux",
+   "lg",
+   78
+  ],
+  [
+   "2021-12-05",
+   "OGC Nice",
+   "lg",
+   16
+  ],
+  [
+   "2021-12-12",
+   "Olympique Marseille",
+   "lg",
+   19
+  ],
+  [
+   "2021-12-16",
+   "Valenciennes FC",
+   "dc",
+   71
+  ],
+  [
+   "2022-01-02",
+   "Montpellier HSC",
+   "dc",
+   90
+  ],
+  [
+   "2022-01-09",
+   "FC Metz",
+   "lg",
+   77
+  ],
+  [
+   "2022-01-16",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-19",
+   "Clermont Foot 63",
+   "lg",
+   72
+  ],
+  [
+   "2022-01-23",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-13",
+   "Angers SCO",
+   "lg",
+   80
+  ],
+  [
+   "2022-02-20",
+   "AS Saint-Étienne",
+   "lg",
+   86
+  ],
+  [
+   "2022-02-26",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-06",
+   "Stade Reims",
+   "lg",
+   16
+  ],
+  [
+   "2022-03-13",
+   "AS Monaco",
+   "lg",
+   79
+  ],
+  [
+   "2022-03-20",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-03",
+   "RC Lens",
+   "lg",
+   83
+  ],
+  [
+   "2022-04-10",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-17",
+   "ESTAC Troyes",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-20",
+   "Stade Rennais FC",
+   "lg",
+   23
+  ],
+  [
+   "2022-04-24",
+   "LOSC Lille",
+   "lg",
+   70
+  ],
+  [
+   "2022-04-29",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-07",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-14",
+   "Clermont Foot 63",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-21",
+   "Olympique Marseille",
+   "lg",
+   72
+  ],
+  [
+   "2022-08-06",
+   "AS Monaco",
+   "lg",
+   24
+  ],
+  [
+   "2022-08-14",
+   "OGC Nice",
+   "lg",
+   81
+  ],
+  [
+   "2022-08-21",
+   "Stade Reims",
+   "lg",
+   88
+  ],
+  [
+   "2022-08-27",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-31",
+   "FC Nantes",
+   "lg",
+   72
+  ],
+  [
+   "2022-09-04",
+   "Stade Brestois 29",
+   "lg",
+   6
+  ],
+  [
+   "2022-09-11",
+   "Clermont Foot 63",
+   "lg",
+   45
+  ],
+  [
+   "2022-09-17",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-01",
+   "Stade Rennais FC",
+   "lg",
+   76
+  ],
+  [
+   "2022-10-09",
+   "Angers SCO",
+   "lg",
+   45
+  ],
+  [
+   "2022-10-14",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-23",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-29",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2022-11-05",
+   "AC Ajaccio",
+   "lg",
+   90
+  ],
+  [
+   "2022-11-13",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2022-12-28",
+   "Paris Saint-Germain",
+   "lg",
+   78
+  ],
+  [
+   "2023-01-02",
+   "ESTAC Troyes",
+   "lg",
+   23
+  ],
+  [
+   "2023-01-06",
+   "Angers SCO",
+   "dc",
+   71
+  ],
+  [
+   "2023-01-11",
+   "RC Lens",
+   "lg",
+   73
+  ],
+  [
+   "2023-01-14",
+   "Olympique Lyon",
+   "lg",
+   68
+  ],
+  [
+   "2023-01-29",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2023-02-12",
+   "LOSC Lille",
+   "lg",
+   80
+  ],
+  [
+   "2023-02-18",
+   "Angers SCO",
+   "lg",
+   80
+  ],
+  [
+   "2023-02-26",
+   "Clermont Foot 63",
+   "lg",
+   86
+  ],
+  [
+   "2023-03-05",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-12",
+   "Olympique Marseille",
+   "lg",
+   67
+  ],
+  [
+   "2023-03-19",
+   "AJ Auxerre",
+   "lg",
+   73
+  ],
+  [
+   "2023-04-07",
+   "RC Lens",
+   "lg",
+   19
+  ],
+  [
+   "2023-04-16",
+   "AC Ajaccio",
+   "lg",
+   75
+  ],
+  [
+   "2023-04-23",
+   "Stade Reims",
+   "lg",
+   29
+  ],
+  [
+   "2023-04-28",
+   "Olympique Lyon",
+   "lg",
+   20
+  ],
+  [
+   "2023-05-13",
+   "OGC Nice",
+   "lg",
+   19
+  ],
+  [
+   "2023-05-21",
+   "ESTAC Troyes",
+   "lg",
+   7
+  ],
+  [
+   "2023-05-27",
+   "Paris Saint-Germain",
+   "lg",
+   14
+  ],
+  [
+   "2023-06-03",
+   "FC Lorient",
+   "lg",
+   45
+  ],
+  [
+   "2023-08-13",
+   "Olympique Lyon",
+   "lg",
+   22
+  ],
+  [
+   "2023-08-20",
+   "AS Monaco",
+   "lg",
+   59
+  ],
+  [
+   "2023-08-27",
+   "FC Toulouse",
+   "lg",
+   1
+  ],
+  [
+   "2023-09-03",
+   "OGC Nice",
+   "lg",
+   6
+  ],
+  [
+   "2023-09-17",
+   "Montpellier HSC",
+   "lg",
+   61
+  ],
+  [
+   "2023-09-29",
+   "RC Lens",
+   "lg",
+   29
+  ],
+  [
+   "2023-10-06",
+   "FC Nantes",
+   "lg",
+   68
+  ],
+  [
+   "2023-10-29",
+   "Stade Rennais FC",
+   "lg",
+   32
+  ],
+  [
+   "2023-11-05",
+   "Clermont Foot 63",
+   "lg",
+   22
+  ],
+  [
+   "2023-11-25",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-01",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-07",
+   "Stade Brestois 29",
+   "lg",
+   79
+  ],
+  [
+   "2023-12-10",
+   "Le Havre AC",
+   "lg",
+   30
+  ],
+  [
+   "2023-12-17",
+   "FC Lorient",
+   "lg",
+   76
+  ],
+  [
+   "2023-12-20",
+   "LOSC Lille",
+   "lg",
+   63
+  ],
+  [
+   "2024-01-06",
+   "Avoine Olympique Chinon Cinais",
+   "dc",
+   63
+  ],
+  [
+   "2024-01-12",
+   "Olympique Marseille",
+   "lg",
+   64
+  ],
+  [
+   "2024-01-21",
+   "Clermont Foot 63",
+   "dc",
+   27
+  ],
+  [
+   "2024-02-18",
+   "FC Lorient",
+   "lg",
+   34
+  ],
+  [
+   "2024-02-24",
+   "Stade Brestois 29",
+   "lg",
+   67
+  ],
+  [
+   "2024-02-27",
+   "Olympique Lyon",
+   "dk",
+   64
+  ],
+  [
+   "2024-03-03",
+   "Montpellier HSC",
+   "lg",
+   30
+  ],
+  [
+   "2024-03-16",
+   "FC Nantes",
+   "lg",
+   76
+  ],
+  [
+   "2024-03-31",
+   "Stade Rennais FC",
+   "lg",
+   75
+  ],
+  [
+   "2024-04-07",
+   "FC Toulouse",
+   "lg",
+   67
+  ],
+  [
+   "2024-04-13",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-21",
+   "LOSC Lille",
+   "lg",
+   45
+  ],
+  [
+   "2024-04-28",
+   "OGC Nice",
+   "lg",
+   12
+  ],
+  [
+   "2024-05-04",
+   "Le Havre AC",
+   "lg",
+   28
+  ],
+  [
+   "2024-05-12",
+   "FC Metz",
+   "lg",
+   30
+  ]
+ ],
+ "note": "케빈 가메이로(RC 스트라스부르·FC 로리앙·파리 생제르맹·세비야·아틀레티코 마드리드·발렌시아·RC 스트라스부르)의 클럽 공식 경기 715경기(2005.9.10 파리 생제르맹 원정 ~ 2024.5.12 메스전)에서 나온 240골 66도움(PK 골 23개), 친선경기·프랑스 대표팀 제외\n클럽별 경기·골·도움: RC 스트라스부르(2005-2008) 68·17·2, FC 로리앙 120·56·19, 파리 생제르맹 77·23·5, 세비야 145·67·13, 아틀레티코 마드리드 82·27·11, 발렌시아 121·24·11, RC 스트라스부르(2021-2024) 102·26·5. 출전 분 합계 42,381분(90분 추정 경기 없음)\n제외한 시즌: 스트라스부르 2군 2004-05(CFA = 4부, 아마추어 리그·2군, 영어 위키백과 서술 20경기 4골, Transfermarkt 경기 기록 없음). 경기·골 수는 Transfermarkt와 영어 위키백과 시즌별 표가 모두 같음(세비야 2013-14 유럽 대회만 위키백과 12경기·Transfermarkt 13경기: 2013.8.22 유로파 예선 플레이오프 1차전 실롱스크 브로츠와프전 90분 1골을 Transfermarkt대로 넣음). 프랑스어 위키백과는 715경기 239골(발렌시아 2018-19 코파 델 레이 2골)로 아래 2019.1.8 스포르팅 히혼전 골 1개가 다름\n출처: 경기 목록·출전 분(교체·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트(7경기는 Transfermarkt 경기 자료 API, 리포트와 같은 내용). 2010-11 이후 골 175개(146경기)는 FotMob 경기 기록과 대조해 수·순서·PK가 같음(아래 1골 제외, FotMob 자료가 빈 2010-11 로리앙 13경기는 ESPN과 대조). 2010-11 전 골은 ESPN 경기 기록과 대조(ESPN 자료가 없는 3경기는 위키백과 시즌별 골 수와 같음)\n2019.1.8 코파 델 레이 16강 1차전 스포르팅 히혼 원정 45분 골: FotMob·스카이스포츠·Sports Mole은 파레호 골, Transfermarkt·ESPN·Sporting Life·영어 위키백과 2018-19 발렌시아 시즌 문서는 가메이로 골 → 가메이로 골로 셈\n도움: Transfermarkt 도움 78개에서 PK 유도 8개(2008.8.9 르망전 57분 잘레 골, 2008.11.1 그르노블전 59분 아브리엘 골, 2011.4.30 랑스전 90+2분 아말피타노 골, 2011.10.29 캉전 76분 네네 골, 2015.9.15 묀헨글라트바흐전 66분 바네가 골, 2018.11.10 헤타페전 81분 파레호 골, 2022.4.17 트루아전 56분 하비브 디알로 골, 2022.10.1 렌전 72분 하비브 디알로 골), 슈팅 리바운드('Shot on goal') 2개(2009.10.18 니스전 48분 바이루아 골, 2015.1.8 그라나다전 32분 데울로페우 골), 상대 자책골 유도 1개(2014.4.20 그라나다전 14분 디에고 마인스(그라나다) 골)를 뺌. Transfermarkt가 본인 PK 골에 본인 도움으로 적은 2개(2015.10.24 헤타페전 60분, 2017.2.21 레버쿠젠 원정 59분)는 도움이 아님. 2014년 8월 전 도움은 Transfermarkt 기록을 씀(FotMob 경기 기록이 없는 2010-11 전 포함, 유형 칸이 빈 2개(2006.12.16 오스트발트전·2013.1.6 아라스전)는 일반 도움으로 셈). 2014년 8월 이후는 Transfermarkt와 FotMob 경기 기록이 같이 적은 것을 셈\nTransfermarkt에만 있어 다른 출처 2곳으로 확인해 넣은 도움: 2015.1.14 코파 델 레이 그라나다전 64분 데니스 수아레스 골(ESPN·Sports Mole 문자 중계), 2017.1.3 코파 델 레이 라스팔마스 원정 51분 그리즈만 골(ESPN·FourFourTwo 경기 기사, 헤더 패스). 뺀 도움: 2016.2.21 라요 바예카노 원정 20분 이보라 골(Transfermarkt·ESPN, 라리가 공식 기사는 가메이로 슈팅을 골키퍼가 막은 리바운드)\nFotMob이 2017.12.30 알아흘리전 3골을 적었으나 친선경기라 넣지 않음. PK: 2022.10.23 툴루즈전 73분 골은 PK가 막힌 뒤 리바운드 골이라 일반 골\n날짜는 경기 현지 날짜(Transfermarkt 일정과 모두 같음)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값(그리즈만·레예스·메넨·파스토레·라베치·이브라히모비치·요렌테 등), 같은 팀·같은 시즌 기존 값, 그 시즌 순위를 순위 규칙(리그·시즌 기준 평균 + 흩어짐 × 순위 곡선)에 넣은 값 순으로 씀 (기록 306개: 기존 팀×시즌 값 209, 순위표 → 라벨 8, 직접 라벨(순위표 밖) 5, 같은 경기 다른 선수 자료 84)\n새로 정한 팀-시즌 순위: FC Gueugnon 리그2 2006-07 10위/20팀 1381, FC Istres Ouest Provence 리그2 2006-07 19위/20팀 1329, FC Metz 리그2 2010-11 17위/20팀 1343, Sporting Gijón 세군다 2018-19 9위/22팀 1614, Celtic FC 스코틀랜드 1부 2018-19 1위/12팀 1642, Gazélec Football Club Olympique Ajaccio 프랑스 4부 2006-07 7위/18팀 1202, Avoine Olympique Chinon Cinais 프랑스 4부 2023-24 12위/14팀 1155, US Alençon 61 프랑스 5부 2008-09 6위/17팀 1106, FC Ostwald 프랑스 9부 2006-07 순위 없음 689. 쿠프 드 프랑스 아마추어 상대의 단계·순위는 프랑스어 위키백과 대회·리그 시즌 문서: 가젤렉 아작시오(CFA B조), US 알랑송(CFA 2 G조), 아부안 시농(National 2 B조)은 리그 수준 추정, FC 오스트발트 2006-07은 '디스트릭트' 리그(알자스 지역 리그 아래)라 9부로 보고 순위 없이 그 단계 기준값(추정)\n대회 비중: 쿠프 드 프랑스·쿠프 드 라 리그·코파 델 레이는 국내컵(16강까지·8강·준결승·결승), 수페르코파 2019-20 준결승(단판)은 국내컵 준결승, UEFA 슈퍼컵 2015는 국내컵 결승 비중, 유로파 예선(2011 플레이오프·2013 플레이오프)은 예선, UEFA컵 2005-06 조별·32강과 유로파 32강~8강은 조별·토너먼트, 준결승·결승은 단계별\n두 경기 합산 기록 52개(41경기)는 합산 S로 계산함(UEFA 대회·코파 델 레이 2018-19까지 원정 다득점·연장; 코파 델 레이 2019-20은 단판). 다른 차전 스코어는 Transfermarkt 리포트\n연장 골: 2009.1.24 쿠프 드 프랑스 투르전 108분(연장). 나머지 연장·승부차기 경기의 골·도움은 정규시간\n시즌 구분: 8월 1일 기준(7월 경기 없음). 클럽 구분은 Transfermarkt 이적일(2008.7.1 로리앙, 2011.7.1 PSG, 2013.7.25 세비야, 2016.7.30 아틀레티코, 2018.8.12 발렌시아, 2021.7.18 스트라스부르)\n동료 자료 대조: 그리즈만·디에구 코스타·토레스·레예스·이브라히모비치·메넨·파스토레·라베치·마린·아스파스 자료와 같은 경기의 대회·상대 Elo가 같고, 서로 주고받은 골·도움의 날짜·분·스코어가 같음\n우승·수상 기록은 Transfermarkt 업적 페이지와 프랑스어 위키백과 UNFP 시상 문서 기준(준우승·대표팀 기록 제외)\n은퇴(2025.3.16 발표, 2024.7 이후 무소속). 마지막 클럽 경기 2024.5.12 리그1 메스전",
+ "judgments": [
+  [
+   "도움 제외",
+   "2008-08-09",
+   "Le Mans Union Club 72",
+   "57",
+   "Christophe Jallet",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2008-11-01",
+   "Grenoble Foot 38",
+   "59",
+   "Fabrice Abriel",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2009-10-18",
+   "OGC Nice",
+   "48",
+   "Marama Vahirua",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2011-04-30",
+   "RC Lens",
+   "90+2",
+   "Morgan Amalfitano",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2011-10-29",
+   "SM Caen",
+   "76",
+   "Nenê",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2014-04-20",
+   "Granada CF",
+   "14",
+   "Diego Maínz",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2015-01-08",
+   "Granada CF",
+   "32",
+   "Gerard Deulofeu",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2015-09-15",
+   "Borussia Mönchengladbach",
+   "66",
+   "Éver Banega",
+   "PK 유도"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2015-10-24",
+   "Getafe CF",
+   "60",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 제외",
+   "2016-02-21",
+   "Rayo Vallecano",
+   "20",
+   "Vicente Iborra",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2017-02-21",
+   "Bayer 04 Leverkusen",
+   "59",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 제외",
+   "2018-11-10",
+   "Getafe CF",
+   "81",
+   "Dani Parejo",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2022-04-17",
+   "ESTAC Troyes",
+   "56",
+   "Habib Diallo",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2022-10-01",
+   "Stade Rennais FC",
+   "72",
+   "Habib Diallo",
+   "PK 유도"
+  ],
+  [
+   "PK 리바운드 골(PK 아님)",
+   "2022-10-23",
+   "FC Toulouse",
+   "73"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2014-11-30",
+   "2475306",
+   "89",
+   "Stéphane Mbia",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-01-14",
+   "2518536",
+   "64",
+   "Denis Suárez",
+   "넣음: 코파 델 레이 16강 2차전 그라나다전 64분 데니스 수아레스 골: ESPN 경기 기록(gameId 410785) 가메이로 도움 + Sports Mole 문자 중계('Graneiro[가메이로] picked up the ball inside the area ... lay it off to Suarez alongside him who picked his spot')"
+  ],
+  [
+   "2015-02-26",
+   "2531136",
+   "79",
+   "Vitolo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-03-12",
+   "2538959",
+   "1",
+   "Vitolo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-04-07",
+   "2475475",
+   "37",
+   "José Antonio Reyes",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-10-03",
+   "2594531",
+   "52",
+   "Michael Krohn-Dehli",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-01-31",
+   "2594682",
+   "47",
+   "Vicente Iborra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-02-21",
+   "2594711",
+   "20",
+   "Vicente Iborra",
+   "뺌: 라리가 라요 원정 20분 이보라 골: ESPN만 가메이로 도움. 라리가 공식 경기 기사('an effort from Kevin Gameiro was pushed away by Juan Carlos, but Vicente Iborra was first to react') = 골키퍼가 막은 슈팅 리바운드 → 도움 아님"
+  ],
+  [
+   "2016-03-13",
+   "2594753",
+   "23",
+   "Vicente Iborra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-04-07",
+   "2675303",
+   "83",
+   "Vicente Iborra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-04-28",
+   "2682270",
+   "6",
+   "Vitolo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-09-17",
+   "2718747",
+   "2",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-09-25",
+   "2718766",
+   "70",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-10-02",
+   "2718775",
+   "63",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-01-03",
+   "2810016",
+   "51",
+   "Antoine Griezmann",
+   "넣음: 코파 델 레이 16강 1차전 라스팔마스 원정 51분 그리즈만 골: ESPN 경기 기록(gameId 470815) 가메이로 도움 + FourFourTwo 경기 기사('Vrsaljko's right-wing cross brilliantly picked out Kevin Gameiro at the back post and the Frenchman nodded the ball across the face of goal for his compatriot Griezmann to head into an empty net')"
+  ],
+  [
+   "2017-01-07",
+   "2718870",
+   "74",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-02-12",
+   "2718927",
+   "88",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-02-21",
+   "2805642",
+   "25",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-11-25",
+   "2899928",
+   "65",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-01-03",
+   "2978831",
+   "37",
+   "Fernando Torres",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-01-23",
+   "2989787",
+   "13",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-02-18",
+   "2899785",
+   "80",
+   "Diego Costa",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-15",
+   "3142969",
+   "89",
+   "Ferran Torres",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-19",
+   "3080764",
+   "84",
+   "Rodrigo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-29",
+   "3148387",
+   "90+3",
+   "Rodrigo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-02-07",
+   "3153157",
+   "70",
+   "Denis Cheryshev",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-02-28",
+   "3153159",
+   "56",
+   "Rodrigo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-03-07",
+   "3160733",
+   "12",
+   "Rodrigo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-03-14",
+   "3160734",
+   "90+3",
+   "Gonçalo Guedes",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-23",
+   "3252201",
+   "63",
+   "Denis Cheryshev",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-10-27",
+   "3208729",
+   "14",
+   "Rodrigo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-07-07",
+   "3210122",
+   "30",
+   "Maxi Gómez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-11-22",
+   "3451000",
+   "72",
+   "Manu Vallejo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-12-01",
+   "3589264",
+   "48",
+   "Dimitri Liénard",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-03-13",
+   "3589447",
+   "23",
+   "Alexander Djiku",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-04-20",
+   "3589542",
+   "77",
+   "Ludovic Ajorque",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-11-25",
+   "4094687",
+   "6",
+   "Emmanuel Emegha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-05-12",
+   "4094867",
+   "89",
+   "Emmanuel Emegha",
+   "TM+FotMob 이벤트"
+  ]
+ ],
+ "fotmob_only_assists": [],
+ "fotmob_playermatches_only": [],
+ "cross_check": [
+  [
+   "타인 도움(가메이로 골)",
+   "asp.js",
+   "2015-05-10",
+   8,
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "crr.js",
+   "2017-02-12",
+   88,
+   "Antoine Griezmann",
+   [
+    "스코어 2-2/1-2"
+   ]
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "dco.js",
+   "2018-02-18",
+   80,
+   "Diego Costa",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2016-10-29",
+   44,
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2016-11-23",
+   55,
+   "PSV Eindhoven",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-01-19",
+   68,
+   "SD Eibar",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-02-07",
+   83,
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-02-18",
+   80,
+   "Sporting Gijón",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-02-18",
+   85,
+   "Sporting Gijón",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-11-22",
+   85,
+   "AS Roma",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2017-11-25",
+   59,
+   "Levante UD",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2018-01-13",
+   27,
+   "SD Eibar",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "grz.js",
+   "2018-02-18",
+   67,
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2016-09-17",
+   2,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2016-09-25",
+   70,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2016-10-02",
+   63,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2017-01-03",
+   51,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2017-01-07",
+   74,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2017-02-12",
+   88,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2017-02-21",
+   25,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2017-11-25",
+   65,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "grz.js",
+   "2018-01-23",
+   13,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "ibr.js",
+   "2013-03-29",
+   80,
+   "Montpellier HSC",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "ibr.js",
+   "2013-05-26",
+   62,
+   "FC Lorient",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "ibr.js",
+   "2013-05-26",
+   50,
+   "Zlatan Ibrahimović",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "lav.js",
+   "2013-01-23",
+   8,
+   "FC Toulouse",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "lav.js",
+   "2013-01-06",
+   68,
+   "Ezequiel Lavezzi",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "lav.js",
+   "2013-03-06",
+   66,
+   "Ezequiel Lavezzi",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2011-08-13",
+   73,
+   "Stade Rennais FC",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2011-08-21",
+   39,
+   "Valenciennes FC",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2011-12-10",
+   20,
+   "FC Sochaux-Montbéliard",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2012-01-20",
+   65,
+   "Sablé-sur-Sarthe FC",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2012-03-11",
+   91,
+   "Dijon FCO",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "men.js",
+   "2012-12-08",
+   86,
+   "FC Évian Thonon Gaillard",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "men.js",
+   "2011-10-29",
+   55,
+   "Jérémy Ménez",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "mrn.js",
+   "2013-09-19",
+   77,
+   "GD Estoril Praia",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "mrn.js",
+   "2014-03-16",
+   41,
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "mrn.js",
+   "2014-04-06",
+   84,
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "pas.js",
+   "2011-08-28",
+   56,
+   "FC Toulouse",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "pas.js",
+   "2012-09-29",
+   11,
+   "FC Sochaux-Montbéliard",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "pas.js",
+   "2013-05-26",
+   65,
+   "FC Lorient",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "rey.js",
+   "2013-11-28",
+   7,
+   "GD Estoril Praia",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "rey.js",
+   "2015-04-07",
+   10,
+   "Levante UD",
+   "같음"
+  ],
+  [
+   "타인 도움(가메이로 골)",
+   "rey.js",
+   "2016-03-17",
+   44,
+   "FC Basel 1893",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "rey.js",
+   "2015-04-07",
+   37,
+   "José Antonio Reyes",
+   "같음"
+  ],
+  [
+   "가메이로 도움→타인 골",
+   "tor.js",
+   "2018-01-03",
+   37,
+   "Fernando Torres",
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "다름",
+   "2341078",
+   "2013-09-01",
+   "73",
+   "Left-footed shot",
+   "71",
+   "",
+   ""
+  ],
+  [
+   "골 수 다름",
+   "3142944",
+   "2019-01-08",
+   [
+    "45"
+   ],
+   []
+  ]
+ ],
+ "elo_sources": {
+  "기존 팀×시즌 값": 209,
+  "순위표 → 라벨": 8,
+  "직접 라벨(순위표 밖)": 5,
+  "같은 경기 다른 선수 자료": 84
+ },
+ "new_team_seasons": {
+  "FC Istres Ouest Provence|2006-07": [
+   1329,
+   "리그2 2006-07 19위/20팀"
+  ],
+  "FC Ostwald|2006-07": [
+   689,
+   "프랑스 9부 2006-07 순위 없음 (District (Alsace); 리그 수준 추정)"
+  ],
+  "Gazélec Football Club Olympique Ajaccio|2006-07": [
+   1202,
+   "프랑스 4부 2006-07 7위/18팀 (CFA Groupe B, 리그 수준 추정)"
+  ],
+  "FC Gueugnon|2006-07": [
+   1381,
+   "리그2 2006-07 10위/20팀"
+  ],
+  "US Alençon 61|2008-09": [
+   1106,
+   "프랑스 5부 2008-09 6위/17팀 (CFA 2 Groupe G, 리그 수준 추정)"
+  ],
+  "FC Metz|2010-11": [
+   1343,
+   "리그2 2010-11 17위/20팀"
+  ],
+  "Sporting Gijón|2018-19": [
+   1614,
+   "세군다 2018-19 9위/22팀"
+  ],
+  "Celtic FC|2018-19": [
+   1642,
+   "스코틀랜드 1부 2018-19 1위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Avoine Olympique Chinon Cinais|2023-24": [
+   1155,
+   "프랑스 4부 2023-24 12위/14팀 (National 2 Groupe B, 리그 수준 추정)"
+  ]
+ },
+ "table_label_diffs": [],
+ "date_changes": [],
+ "elo_log": {
+  "Red Star Belgrade|2005-12-14": [
+   "table",
+   1575,
+   "세르비아·몬테네그로 2005-06 1위/16팀 (추정, 다른 선수 자료 파르티잔 2004-05·레드스타 2006-07 1위 1520과 같음)",
+   "2005-06"
+  ],
+  "AS Nancy-Lorraine|2006-01-07": [
+   "table",
+   1653,
+   "리그1 2005-06 12위",
+   "2005-06"
+  ],
+  "RC Lens|2006-02-04": [
+   "table",
+   1768,
+   "리그1 2005-06 4위",
+   "2005-06"
+  ],
+  "ESTAC Troyes|2006-02-26": [
+   "table",
+   1596,
+   "리그1 2005-06 17위",
+   "2005-06"
+  ],
+  "FC Istres Ouest Provence|2006-11-03": [
+   "model",
+   1329,
+   "리그2 2006-07 19위/20팀"
+  ],
+  "FC Ostwald|2006-12-16": [
+   "man",
+   689,
+   "프랑스 9부 2006-07 순위 없음 (District (Alsace); 리그 수준 추정)"
+  ],
+  "Gazélec Football Club Olympique Ajaccio|2007-01-06": [
+   "man",
+   1202,
+   "프랑스 4부 2006-07 7위/18팀 (CFA Groupe B, 리그 수준 추정)"
+  ],
+  "LOSC Lille|2007-01-20": [
+   "table",
+   1643,
+   "리그1 2006-07 10위",
+   "2006-07"
+  ],
+  "FC Gueugnon|2007-04-06": [
+   "model",
+   1381,
+   "리그2 2006-07 10위/20팀"
+  ],
+  "FC Istres Ouest Provence|2007-04-13": [
+   "model",
+   1329,
+   "리그2 2006-07 19위/20팀"
+  ],
+  "AJ Auxerre|2007-08-15": [
+   "table",
+   1602,
+   "리그1 2007-08 15위",
+   "2007-08"
+  ],
+  "FC Toulouse|2007-08-18": [
+   "table",
+   1568,
+   "리그1 2007-08 17위",
+   "2007-08"
+  ],
+  "FC Girondins Bordeaux|2007-10-20": [
+   "table",
+   1819,
+   "리그1 2007-08 2위",
+   "2007-08"
+  ],
+  "FC Toulouse|2008-01-23": [
+   "table",
+   1568,
+   "리그1 2007-08 17위",
+   "2007-08"
+  ],
+  "SM Caen|2008-05-10": [
+   "table",
+   1635,
+   "리그1 2007-08 11위",
+   "2007-08"
+  ],
+  "Olympique Marseille|2008-05-17": [
+   "table",
+   1772,
+   "리그1 2007-08 3위/20팀",
+   "2007-08"
+  ],
+  "Valenciennes FC|2008-08-23": [
+   "table",
+   1617,
+   "리그1 2008-09 12위",
+   "2008-09"
+  ],
+  "SM Caen|2008-09-20": [
+   "table",
+   1548,
+   "리그1 2008-09 18위",
+   "2008-09"
+  ],
+  "FC Girondins Bordeaux|2008-10-04": [
+   "table",
+   1894,
+   "리그1 2008-09 1위",
+   "2008-09"
+  ],
+  "Paris Saint-Germain|2008-10-18": [
+   "table",
+   1703,
+   "리그1 2008-09 6위",
+   "2008-09"
+  ],
+  "FC Nantes|2008-10-25": [
+   "table",
+   1540,
+   "리그1 2008-09 19위",
+   "2008-09"
+  ],
+  "AS Saint-Étienne|2008-10-29": [
+   "table",
+   1559,
+   "리그1 2008-09 17위",
+   "2008-09"
+  ],
+  "Olympique Marseille|2008-11-15": [
+   "table",
+   1811,
+   "리그1 2008-09 2위",
+   "2008-09"
+  ],
+  "FC Toulouse|2008-11-22": [
+   "table",
+   1731,
+   "리그1 2008-09 4위",
+   "2008-09"
+  ],
+  "AS Nancy-Lorraine|2008-12-07": [
+   "table",
+   1593,
+   "리그1 2008-09 15위",
+   "2008-09"
+  ],
+  "Le Havre AC|2008-12-14": [
+   "table",
+   1520,
+   "리그1 2008-09 20위",
+   "2008-09"
+  ],
+  "US Alençon 61|2009-01-03": [
+   "man",
+   1106,
+   "프랑스 5부 2008-09 6위/17팀 (CFA 2 Groupe G, 리그 수준 추정)"
+  ],
+  "Tours FC|2009-01-24": [
+   "table",
+   1413,
+   "리그2(프랑스 2부) 2008-09 6위/20팀",
+   "2008-09"
+  ],
+  "FC Sochaux-Montbéliard|2009-02-21": [
+   "table",
+   1603,
+   "리그1 2008-09 14위",
+   "2008-09"
+  ],
+  "AS Saint-Étienne|2009-03-22": [
+   "table",
+   1559,
+   "리그1 2008-09 17위",
+   "2008-09"
+  ],
+  "Grenoble Foot 38|2009-04-04": [
+   "table",
+   1608,
+   "리그1 2008-09 13위",
+   "2008-09"
+  ],
+  "Olympique Marseille|2009-04-19": [
+   "table",
+   1811,
+   "리그1 2008-09 2위",
+   "2008-09"
+  ],
+  "AS Nancy-Lorraine|2009-05-13": [
+   "table",
+   1593,
+   "리그1 2008-09 15위",
+   "2008-09"
+  ],
+  "LOSC Lille|2009-08-09": [
+   "table",
+   1728,
+   "리그1 2009-10 4위 (추정: 모형값)",
+   "2009-10"
+  ],
+  "Montpellier HSC|2009-08-15": [
+   "table",
+   1712,
+   "리그1 2009-10 5위",
+   "2009-10"
+  ],
+  "AS Nancy-Lorraine|2009-09-19": [
+   "table",
+   1614,
+   "리그1 2009-10 12위",
+   "2009-10"
+  ],
+  "Grenoble Foot 38|2009-09-22": [
+   "table",
+   1517,
+   "리그1 2009-10 20위",
+   "2009-10"
+  ],
+  "Paris Saint-Germain|2009-09-26": [
+   "table",
+   1605,
+   "리그1 2009-10 13위",
+   "2009-10"
+  ],
+  "OGC Nice|2009-10-18": [
+   "table",
+   1591,
+   "리그1 2009-10 15위",
+   "2009-10"
+  ],
+  "RC Lens|2009-10-31": [
+   "table",
+   1623,
+   "리그1 2009-10 11위",
+   "2009-10"
+  ],
+  "US Boulogne|2009-11-07": [
+   "table",
+   1537,
+   "리그1 2009-10 19위",
+   "2009-10"
+  ],
+  "Grenoble Foot 38|2009-11-28": [
+   "table",
+   1517,
+   "리그1 2009-10 20위",
+   "2009-10"
+  ],
+  "FC Girondins Bordeaux|2009-12-19": [
+   "table",
+   1700,
+   "리그1 2009-10 6위",
+   "2009-10"
+  ],
+  "Valenciennes FC|2009-12-23": [
+   "table",
+   1635,
+   "리그1 2009-10 10위",
+   "2009-10"
+  ],
+  "Olympique Lyon|2010-01-27": [
+   "table",
+   1808,
+   "리그1 2009-10 2위",
+   "2009-10"
+  ],
+  "Paris Saint-Germain|2010-02-06": [
+   "table",
+   1605,
+   "리그1 2009-10 13위",
+   "2009-10"
+  ],
+  "FC Toulouse|2010-02-14": [
+   "table",
+   1600,
+   "리그1 2009-10 14위",
+   "2009-10"
+  ],
+  "AS Saint-Étienne|2010-03-28": [
+   "table",
+   1557,
+   "리그1 2009-10 17위",
+   "2009-10"
+  ],
+  "Grenoble Foot 38|2010-04-03": [
+   "table",
+   1517,
+   "리그1 2009-10 20위",
+   "2009-10"
+  ],
+  "AJ Auxerre|2010-04-17": [
+   "table",
+   1761,
+   "리그1 2009-10 3위",
+   "2009-10"
+  ],
+  "FC Girondins Bordeaux|2010-04-24": [
+   "table",
+   1700,
+   "리그1 2009-10 6위",
+   "2009-10"
+  ],
+  "AS Monaco|2010-05-05": [
+   "table",
+   1669,
+   "리그1 2009-10 8위",
+   "2009-10"
+  ],
+  "LOSC Lille|2010-05-15": [
+   "table",
+   1728,
+   "리그1 2009-10 4위 (추정: 모형값)",
+   "2009-10"
+  ],
+  "Olympique Lyon|2010-08-28": [
+   "table",
+   1776,
+   "리그1 2010-11 3위",
+   "2010-11"
+  ],
+  "AS Monaco|2010-09-25": [
+   "table",
+   1560,
+   "리그1 2010-11 18위",
+   "2010-11"
+  ],
+  "Valenciennes FC|2010-10-17": [
+   "table",
+   1629,
+   "리그1 2010-11 12위",
+   "2010-11"
+  ],
+  "AC Arles-Avignon|2010-10-30": [
+   "table",
+   1532,
+   "리그1 2010-11 20위",
+   "2010-11"
+  ],
+  "AS Saint-Étienne|2010-11-06": [
+   "table",
+   1650,
+   "리그1 2010-11 10위",
+   "2010-11"
+  ],
+  "Stade Rennais FC|2010-11-27": [
+   "table",
+   1715,
+   "리그1 2010-11 6위",
+   "2010-11"
+  ],
+  "LOSC Lille|2010-12-05": [
+   "table",
+   1907,
+   "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2010-11"
+  ],
+  "Stade Brestois 29|2011-01-29": [
+   "table",
+   1590,
+   "리그1 2010-11 16위",
+   "2010-11"
+  ],
+  "FC Metz|2011-02-01": [
+   "model",
+   1343,
+   "리그2 2010-11 17위/20팀"
+  ],
+  "SM Caen|2011-02-05": [
+   "table",
+   1605,
+   "리그1 2010-11 15위",
+   "2010-11"
+  ],
+  "AS Monaco|2011-02-12": [
+   "table",
+   1560,
+   "리그1 2010-11 18위",
+   "2010-11"
+  ],
+  "FC Girondins Bordeaux|2011-02-19": [
+   "table",
+   1701,
+   "리그1 2010-11 7위",
+   "2010-11"
+  ],
+  "AC Arles-Avignon|2011-03-12": [
+   "table",
+   1532,
+   "리그1 2010-11 20위",
+   "2010-11"
+  ],
+  "Stade Rennais FC|2011-04-16": [
+   "table",
+   1715,
+   "리그1 2010-11 6위",
+   "2010-11"
+  ],
+  "LOSC Lille|2011-04-24": [
+   "table",
+   1907,
+   "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2010-11"
+  ],
+  "RC Lens|2011-04-30": [
+   "table",
+   1552,
+   "리그1 2010-11 19위",
+   "2010-11"
+  ],
+  "Olympique Marseille|2011-05-15": [
+   "table",
+   1823,
+   "리그1 2010-11 2위",
+   "2010-11"
+  ],
+  "AJ Auxerre|2011-05-29": [
+   "table",
+   1665,
+   "리그1 2010-11 9위",
+   "2010-11"
+  ],
+  "Stade Rennais FC|2011-08-13": [
+   "same",
+   1687,
+   "리그1 2011-12 6위",
+   [
+    "men.js"
+   ]
+  ],
+  "FC Differdange 03|2011-08-18": [
+   "same",
+   1366,
+   "룩셈부르크 1부 2011-12 4위/14팀 (Luxembourg National Division)",
+   [
+    "men.js",
+    "pas.js"
+   ]
+  ],
+  "Valenciennes FC|2011-08-21": [
+   "same",
+   1601,
+   "리그1 2011-12 12위",
+   [
+    "men.js"
+   ]
+  ],
+  "FC Toulouse|2011-08-28": [
+   "same",
+   1656,
+   "리그1 2011-12 8위",
+   [
+    "men.js",
+    "pas.js"
+   ]
+  ],
+  "OGC Nice|2011-09-21": [
+   "table",
+   1592,
+   "리그1 2011-12 13위",
+   "2011-12"
+  ],
+  "Montpellier HSC|2011-09-24": [
+   "same",
+   1879,
+   "리그1 2011-12 1위",
+   [
+    "pas.js"
+   ]
+  ],
+  "AC Ajaccio|2011-10-16": [
+   "table",
+   1562,
+   "리그1 2011-12 16위",
+   "2011-12"
+  ],
+  "SM Caen|2011-10-29": [
+   "same",
+   1532,
+   "리그1 2011-12 18위",
+   [
+    "men.js",
+    "pas.js"
+   ]
+  ],
+  "FC Sochaux-Montbéliard|2011-12-10": [
+   "same",
+   1587,
+   "리그1 2011-12 14위",
+   [
+    "men.js"
+   ]
+  ],
+  "Sablé-sur-Sarthe FC|2012-01-20": [
+   "same",
+   1064,
+   "프랑스 5부 2011-12 9위/16팀 (Championnat de France Amateur 2 (CFA 2) Groupe H, 리그 수준 추정)",
+   [
+    "men.js"
+   ]
+  ],
+  "FC Évian Thonon Gaillard|2012-02-04": [
+   "same",
+   1638,
+   "리그1 2011-12 9위",
+   [
+    "men.js"
+   ]
+  ],
+  "Dijon FCO|2012-03-11": [
+   "same",
+   1524,
+   "리그1 2011-12 19위",
+   [
+    "men.js"
+   ]
+  ],
+  "AJ Auxerre|2012-04-15": [
+   "table",
+   1505,
+   "리그1 2011-12 20위",
+   "2011-12"
+  ],
+  "FC Sochaux-Montbéliard|2012-09-29": [
+   "same",
+   1557,
+   "리그1 2012-13 15위",
+   [
+    "pas.js"
+   ]
+  ],
+  "Stade Reims|2012-10-20": [
+   "table",
+   1567,
+   "리그1 2012-13 14위",
+   "2012-13"
+  ],
+  "FC Évian Thonon Gaillard|2012-12-08": [
+   "same",
+   1542,
+   "리그1 2012-13 16위",
+   [
+    "ibr.js",
+    "lav.js",
+    "men.js",
+    "pas.js"
+   ]
+  ],
+  "Stade Brestois 29|2012-12-21": [
+   "same",
+   1484,
+   "리그1 2012-13 20위",
+   [
+    "ibr.js"
+   ]
+  ],
+  "Arras Football Association|2013-01-06": [
+   "same",
+   1089,
+   "프랑스 5부 2012-13 5위/14팀 (Championnat de France Amateur 2 (CFA 2) Groupe A, 리그 수준 추정)",
+   [
+    "lav.js",
+    "pas.js"
+   ]
+  ],
+  "FC Toulouse|2013-01-23": [
+   "same",
+   1601,
+   "리그1 2012-13 10위",
+   [
+    "lav.js",
+    "men.js",
+    "pas.js"
+   ]
+  ],
+  "Valencia CF|2013-03-06": [
+   "same",
+   1968,
+   "라리가 2012-13 5위",
+   [
+    "lav.js"
+   ]
+  ],
+  "Montpellier HSC|2013-03-29": [
+   "same",
+   1617,
+   "리그1 2012-13 9위",
+   [
+    "ibr.js"
+   ]
+  ],
+  "FC Lorient|2013-05-26": [
+   "same",
+   1635,
+   "리그1 2012-13 8위",
+   [
+    "ibr.js",
+    "pas.js"
+   ]
+  ],
+  "Slask Wroclaw|2013-08-22": [
+   "same",
+   1417,
+   "엑스트라클라사 2013-14 9위/16팀 (추정, 다른 선수 자료 엑스트라클라사 2019-20 5위 1400·2018-19 12위 1320 사이 직선)",
+   [
+    "mrn.js"
+   ]
+  ],
+  "Málaga CF|2013-09-01": [
+   "table",
+   1905,
+   "라리가 2013-14 11위",
+   "2013-14"
+  ],
+  "GD Estoril Praia|2013-09-19": [
+   "same",
+   1703,
+   "포르투갈 1부 2013-14 4위 (추정, 다른 선수 자료 16팀 시즌 4위 값 1679와 같음)",
+   [
+    "mrn.js"
+   ]
+  ],
+  "Valencia CF|2013-09-22": [
+   "table",
+   1953,
+   "라리가 2013-14 8위",
+   "2013-14"
+  ],
+  "Rayo Vallecano|2013-09-25": [
+   "table",
+   1896,
+   "라리가 2013-14 12위",
+   "2013-14"
+  ],
+  "UD Almería|2013-10-06": [
+   "same",
+   1836,
+   "라리가 2013-14 17위",
+   [
+    "mrn.js"
+   ]
+  ],
+  "GD Estoril Praia|2013-11-28": [
+   "same",
+   1703,
+   "포르투갈 1부 2013-14 4위 (추정, 다른 선수 자료 16팀 시즌 4위 값 1679와 같음)",
+   [
+    "rey.js"
+   ]
+  ],
+  "Granada CF|2013-12-01": [
+   "table",
+   1871,
+   "라리가 2013-14 15위",
+   "2013-14"
+  ],
+  "NK Maribor|2014-02-20": [
+   "table",
+   1530,
+   "슬로베니아 2013-14 1위/10팀 (추정, 다른 선수 자료 마리보르 1위 1420과 같음)",
+   "2013-14"
+  ],
+  "NK Maribor|2014-02-27": [
+   "same",
+   1530,
+   "슬로베니아 2013-14 1위/10팀 (추정, 다른 선수 자료 마리보르 1위 1420과 같음)",
+   [
+    "rey.js"
+   ]
+  ],
+  "Real Sociedad|2014-03-02": [
+   "table",
+   1971,
+   "라리가 2013-14 7위",
+   "2013-14"
+  ],
+  "UD Almería|2014-03-09": [
+   "same",
+   1836,
+   "라리가 2013-14 17위",
+   [
+    "rey.js"
+   ]
+  ],
+  "Real Valladolid CF|2014-03-16": [
+   "same",
+   1816,
+   "라리가 2013-14 19위",
+   [
+    "mrn.js",
+    "rey.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2014-04-06": [
+   "same",
+   1881,
+   "라리가 2013-14 14위",
+   [
+    "mrn.js"
+   ]
+  ],
+  "FC Porto|2014-04-10": [
+   "table",
+   1740,
+   "포르투갈 1부 2013-14 3위 (추정: 순위표 직접 확인 못 함)",
+   "2013-14"
+  ],
+  "Real Betis Balompié|2014-04-13": [
+   "table",
+   1795,
+   "라리가 2013-14 20위",
+   "2013-14"
+  ],
+  "Granada CF|2014-04-20": [
+   "table",
+   1871,
+   "라리가 2013-14 15위",
+   "2013-14"
+  ],
+  "Athletic Bilbao|2014-04-27": [
+   "table",
+   2015,
+   "라리가 2013-14 4위",
+   "2013-14"
+  ],
+  "Elche CF|2014-10-19": [
+   "table",
+   1874,
+   "라리가 2014-15 13위",
+   "2014-15"
+  ],
+  "CE Sabadell FC|2014-10-29": [
+   "same",
+   1575,
+   "세군다(2부) 2014-15 21위/22팀",
+   [
+    "asp.js",
+    "rey.js"
+   ]
+  ],
+  "Standard Liège|2014-11-06": [
+   "same",
+   1630,
+   "벨기에 1부 2014-15 4위/16팀 (추정, 다른 선수 자료 벨기에 1부 2011-12 4위 값과 같음)",
+   [
+    "rey.js"
+   ]
+  ],
+  "Granada CF|2014-11-30": [
+   "same",
+   1823,
+   "라리가 2014-15 17위",
+   [
+    "rey.js"
+   ]
+  ],
+  "CE Sabadell FC|2014-12-03": [
+   "same",
+   1575,
+   "세군다(2부) 2014-15 21위/22팀",
+   [
+    "asp.js",
+    "rey.js"
+   ]
+  ],
+  "Granada CF|2015-01-08": [
+   "table",
+   1823,
+   "라리가 2014-15 17위",
+   "2014-15"
+  ],
+  "Granada CF|2015-01-14": [
+   "same",
+   1823,
+   "라리가 2014-15 17위",
+   [
+    "asp.js"
+   ]
+  ],
+  "Real Sociedad|2015-02-22": [
+   "table",
+   1883,
+   "라리가 2014-15 12위",
+   "2014-15"
+  ],
+  "Borussia Mönchengladbach|2015-02-26": [
+   "table",
+   1878,
+   "분데스리가 2014-15 3위 (추정, 다른 선수 자료 2위 1882·4위 1797의 중간)",
+   "2014-15"
+  ],
+  "Deportivo de La Coruña|2015-03-07": [
+   "table",
+   1843,
+   "라리가 2014-15 16위",
+   "2014-15"
+  ],
+  "Villarreal CF|2015-03-12": [
+   "table",
+   1973,
+   "라리가 2014-15 6위",
+   "2014-15"
+  ],
+  "Elche CF|2015-03-15": [
+   "table",
+   1874,
+   "라리가 2014-15 13위",
+   "2014-15"
+  ],
+  "Levante UD|2015-04-07": [
+   "same",
+   1869,
+   "라리가 2014-15 14위",
+   [
+    "rey.js"
+   ]
+  ],
+  "FC Barcelona|2015-04-11": [
+   "table",
+   2173,
+   "라리가 2014-15 1위",
+   "2014-15"
+  ],
+  "Zenit St. Petersburg|2015-04-23": [
+   "table",
+   1750,
+   "러시아 1부 2014-15 1위/16팀 (Russian Premier League)",
+   "2014-15"
+  ],
+  "ACF Fiorentina|2015-05-07": [
+   "table",
+   1808,
+   "세리에A 2014-15 4위",
+   "2014-15"
+  ],
+  "Celta de Vigo|2015-05-10": [
+   "same",
+   1940,
+   "라리가 2014-15 8위",
+   [
+    "asp.js"
+   ]
+  ],
+  "FC Barcelona|2015-08-11": [
+   "same",
+   2185,
+   "라리가 2015-16 1위",
+   [
+    "imm.js",
+    "rey.js"
+   ]
+  ],
+  "Borussia Mönchengladbach|2015-09-15": [
+   "table",
+   1798,
+   "분데스리가 2015-16 4위",
+   "2015-16"
+  ],
+  "Rayo Vallecano|2015-09-26": [
+   "same",
+   1823,
+   "라리가 2015-16 18위",
+   [
+    "rey.js"
+   ]
+  ],
+  "FC Barcelona|2015-10-03": [
+   "table",
+   2185,
+   "라리가 2015-16 1위",
+   "2015-16"
+  ],
+  "SD Eibar|2015-10-17": [
+   "table",
+   1880,
+   "라리가 2015-16 14위",
+   "2015-16"
+  ],
+  "Getafe CF|2015-10-24": [
+   "table",
+   1814,
+   "라리가 2015-16 19위",
+   "2015-16"
+  ],
+  "Sporting Gijón|2015-12-12": [
+   "table",
+   1835,
+   "라리가 2015-16 17위",
+   "2015-16"
+  ],
+  "Athletic Bilbao|2016-01-09": [
+   "table",
+   1997,
+   "라리가 2015-16 5위",
+   "2015-16"
+  ],
+  "Real Betis Balompié|2016-01-12": [
+   "same",
+   1916,
+   "라리가 2015-16 10위",
+   [
+    "rey.js"
+   ]
+  ],
+  "Málaga CF|2016-01-16": [
+   "table",
+   1952,
+   "라리가 2015-16 8위",
+   "2015-16"
+  ],
+  "Levante UD|2016-01-31": [
+   "table",
+   1794,
+   "라리가 2015-16 20위",
+   "2015-16"
+  ],
+  "Celta de Vigo|2016-02-04": [
+   "table",
+   1985,
+   "라리가 2015-16 6위",
+   "2015-16"
+  ],
+  "UD Las Palmas|2016-02-14": [
+   "table",
+   1904,
+   "라리가 2015-16 11위",
+   "2015-16"
+  ],
+  "Molde FK|2016-02-18": [
+   "same",
+   1426,
+   "노르웨이 2015 6위/16팀 (추정, 다른 선수 자료 노르웨이 2015 4위 1392에 맞춘 리그 모형, 흩어짐 63)",
+   [
+    "llo.js"
+   ]
+  ],
+  "Villarreal CF|2016-03-13": [
+   "same",
+   2014,
+   "라리가 2015-16 4위",
+   [
+    "rey.js"
+   ]
+  ],
+  "FC Basel 1893|2016-03-17": [
+   "same",
+   1727,
+   "스위스 슈퍼리그 2015-16 1위/10팀 (추정, 다른 선수 자료 바젤 2014-15 1위 1764와 같음)",
+   [
+    "rey.js"
+   ]
+  ],
+  "Real Sociedad|2016-04-03": [
+   "table",
+   1933,
+   "라리가 2015-16 9위",
+   "2015-16"
+  ],
+  "Athletic Bilbao|2016-04-07": [
+   "table",
+   1997,
+   "라리가 2015-16 5위",
+   "2015-16"
+  ],
+  "Valencia CF|2016-04-10": [
+   "table",
+   1895,
+   "라리가 2015-16 12위",
+   "2015-16"
+  ],
+  "Athletic Bilbao|2016-04-14": [
+   "table",
+   1997,
+   "라리가 2015-16 5위",
+   "2015-16"
+  ],
+  "Real Betis Balompié|2016-04-24": [
+   "table",
+   1916,
+   "라리가 2015-16 10위",
+   "2015-16"
+  ],
+  "Shakhtar Donetsk|2016-04-28": [
+   "table",
+   1707,
+   "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "2015-16"
+  ],
+  "Shakhtar Donetsk|2016-05-05": [
+   "table",
+   1707,
+   "우크라이나 1부 2015-16 2위/14팀 (Ukrainian Premier League)",
+   "2015-16"
+  ],
+  "Liverpool FC|2016-05-18": [
+   "table",
+   1790,
+   "프리미어리그 2015-16 8위",
+   "2015-16"
+  ],
+  "Deportivo Alavés|2016-08-21": [
+   "table",
+   1907,
+   "라리가 2016-17 9위",
+   "2016-17"
+  ],
+  "Sporting Gijón|2016-09-17": [
+   "same",
+   1797,
+   "라리가 2016-17 18위",
+   [
+    "grz.js",
+    "tor.js"
+   ]
+  ],
+  "Deportivo de La Coruña|2016-09-25": [
+   "same",
+   1828,
+   "라리가 2016-17 16위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Valencia CF|2016-10-02": [
+   "same",
+   1869,
+   "라리가 2016-17 12위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Málaga CF|2016-10-29": [
+   "same",
+   1879,
+   "라리가 2016-17 11위",
+   [
+    "crr.js",
+    "grz.js"
+   ]
+  ],
+  "PSV Eindhoven|2016-11-23": [
+   "same",
+   1609,
+   "에레디비시 2016-17 3위",
+   [
+    "grz.js"
+   ]
+  ],
+  "CA Osasuna|2016-11-27": [
+   "same",
+   1789,
+   "라리가 2016-17 19위",
+   [
+    "crr.js"
+   ]
+  ],
+  "UD Las Palmas|2017-01-03": [
+   "same",
+   1854,
+   "라리가 2016-17 14위",
+   [
+    "grz.js"
+   ]
+  ],
+  "SD Eibar|2017-01-07": [
+   "same",
+   1891,
+   "라리가 2016-17 10위",
+   [
+    "grz.js"
+   ]
+  ],
+  "SD Eibar|2017-01-19": [
+   "same",
+   1891,
+   "라리가 2016-17 10위",
+   [
+    "grz.js"
+   ]
+  ],
+  "FC Barcelona|2017-02-07": [
+   "same",
+   2072,
+   "라리가 2016-17 2위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Celta de Vigo|2017-02-12": [
+   "same",
+   1860,
+   "라리가 2016-17 13위",
+   [
+    "crr.js",
+    "grz.js",
+    "tor.js"
+   ]
+  ],
+  "Sporting Gijón|2017-02-18": [
+   "same",
+   1797,
+   "라리가 2016-17 18위",
+   [
+    "crr.js",
+    "grz.js"
+   ]
+  ],
+  "Bayer 04 Leverkusen|2017-02-21": [
+   "same",
+   1671,
+   "분데스리가 2016-17 12위",
+   [
+    "grz.js",
+    "tor.js"
+   ]
+  ],
+  "Valencia CF|2017-03-05": [
+   "same",
+   1869,
+   "라리가 2016-17 12위",
+   [
+    "grz.js"
+   ]
+  ],
+  "UD Las Palmas|2017-04-29": [
+   "same",
+   1854,
+   "라리가 2016-17 14위",
+   [
+    "tor.js"
+   ]
+  ],
+  "Celta de Vigo|2017-10-22": [
+   "table",
+   1847,
+   "라리가 2017-18 13위",
+   "2017-18"
+  ],
+  "AS Roma|2017-11-22": [
+   "same",
+   1816,
+   "세리에A 2017-18 3위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Levante UD|2017-11-25": [
+   "same",
+   1832,
+   "라리가 2017-18 15위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Club Lleida Esportiu|2018-01-03": [
+   "same",
+   1367,
+   "스페인 3부 2017-18 7위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   [
+    "crr.js",
+    "dco.js",
+    "grz.js",
+    "tor.js"
+   ]
+  ],
+  "Club Lleida Esportiu|2018-01-09": [
+   "same",
+   1367,
+   "스페인 3부 2017-18 7위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   [
+    "crr.js",
+    "dco.js",
+    "tor.js"
+   ]
+  ],
+  "SD Eibar|2018-01-13": [
+   "same",
+   1895,
+   "라리가 2017-18 9위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Sevilla FC|2018-01-23": [
+   "same",
+   1932,
+   "라리가 2017-18 7위",
+   [
+    "grz.js"
+   ]
+  ],
+  "FC Copenhagen|2018-02-15": [
+   "same",
+   1507,
+   "덴마크 1부 2017-18 4위/14팀 (Danish Superliga, 플레이오프·스플릿 뒤 최종 순위)",
+   [
+    "crr.js",
+    "grz.js"
+   ]
+  ],
+  "Athletic Bilbao|2018-02-18": [
+   "same",
+   1816,
+   "라리가 2017-18 16위",
+   [
+    "dco.js",
+    "grz.js"
+   ]
+  ],
+  "FC Copenhagen|2018-02-22": [
+   "table",
+   1507,
+   "덴마크 1부 2017-18 4위/14팀 (Danish Superliga, 플레이오프·스플릿 뒤 최종 순위)",
+   "2017-18"
+  ],
+  "Deportivo de La Coruña|2018-04-01": [
+   "table",
+   1785,
+   "라리가 2017-18 18위",
+   "2017-18"
+  ],
+  "Deportivo Alavés|2018-04-29": [
+   "table",
+   1842,
+   "라리가 2017-18 14위",
+   "2017-18"
+  ],
+  "Real Sociedad|2018-09-29": [
+   "table",
+   1861,
+   "라리가 2018-19 9위",
+   "2018-19"
+  ],
+  "Rayo Vallecano|2018-11-24": [
+   "table",
+   1722,
+   "라리가 2018-19 20위",
+   "2018-19"
+  ],
+  "Sporting Gijón|2019-01-08": [
+   "model",
+   1614,
+   "세군다 2018-19 9위/22팀"
+  ],
+  "Sporting Gijón|2019-01-15": [
+   "model",
+   1614,
+   "세군다 2018-19 9위/22팀"
+  ],
+  "Celta de Vigo|2019-01-19": [
+   "table",
+   1763,
+   "라리가 2018-19 17위",
+   "2018-19"
+  ],
+  "Getafe CF|2019-01-29": [
+   "table",
+   1925,
+   "라리가 2018-19 5위",
+   "2018-19"
+  ],
+  "FC Barcelona|2019-02-02": [
+   "table",
+   2112,
+   "라리가 2018-19 1위",
+   "2018-19"
+  ],
+  "Real Betis Balompié|2019-02-07": [
+   "table",
+   1844,
+   "라리가 2018-19 10위",
+   "2018-19"
+  ],
+  "Celtic FC|2019-02-21": [
+   "model",
+   1642,
+   "스코틀랜드 1부 2018-19 1위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Real Betis Balompié|2019-02-28": [
+   "table",
+   1844,
+   "라리가 2018-19 10위",
+   "2018-19"
+  ],
+  "Athletic Bilbao|2019-03-03": [
+   "table",
+   1879,
+   "라리가 2018-19 8위",
+   "2018-19"
+  ],
+  "FC Krasnodar|2019-03-07": [
+   "table",
+   1611,
+   "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "2018-19"
+  ],
+  "FC Krasnodar|2019-03-14": [
+   "table",
+   1611,
+   "러시아 프리미어리그 2018-19 2위/16팀 (리그 수준 추정)",
+   "2018-19"
+  ],
+  "Atlético de Madrid|2019-04-24": [
+   "table",
+   2025,
+   "라리가 2018-19 2위",
+   "2018-19"
+  ],
+  "Arsenal FC|2019-05-09": [
+   "table",
+   1938,
+   "프리미어리그 2018-19 5위",
+   "2018-19"
+  ],
+  "Deportivo Alavés|2019-05-12": [
+   "table",
+   1832,
+   "라리가 2018-19 11위",
+   "2018-19"
+  ],
+  "FC Barcelona|2019-05-25": [
+   "table",
+   2112,
+   "라리가 2018-19 1위",
+   "2018-19"
+  ],
+  "Real Sociedad|2019-08-17": [
+   "table",
+   1888,
+   "라리가 2019-20 6위",
+   "2019-20"
+  ],
+  "FC Barcelona|2019-09-14": [
+   "table",
+   2000,
+   "라리가 2019-20 2위",
+   "2019-20"
+  ],
+  "LOSC Lille|2019-10-23": [
+   "table",
+   1713,
+   "리그1 2019-20 4위",
+   "2019-20"
+  ],
+  "CA Osasuna|2019-10-27": [
+   "table",
+   1819,
+   "라리가 2019-20 10위",
+   "2019-20"
+  ],
+  "Levante UD|2019-12-07": [
+   "table",
+   1798,
+   "라리가 2019-20 12위",
+   "2019-20"
+  ],
+  "Real Betis Balompié|2020-02-29": [
+   "table",
+   1773,
+   "라리가 2019-20 15위",
+   "2019-20"
+  ],
+  "Atalanta BC|2020-03-10": [
+   "table",
+   1834,
+   "세리에A 2019-20 3위",
+   "2019-20"
+  ],
+  "Real Valladolid CF|2020-07-07": [
+   "table",
+   1788,
+   "라리가 2019-20 13위",
+   "2019-20"
+  ],
+  "RCD Espanyol Barcelona|2020-07-16": [
+   "table",
+   1697,
+   "라리가 2019-20 20위",
+   "2019-20"
+  ],
+  "Deportivo Alavés|2020-11-22": [
+   "table",
+   1723,
+   "라리가 2020-21 16위",
+   "2020-21"
+  ],
+  "Granada CF|2020-12-30": [
+   "table",
+   1802,
+   "라리가 2020-21 9위",
+   "2020-21"
+  ],
+  "Celta de Vigo|2021-02-20": [
+   "table",
+   1821,
+   "라리가 2020-21 8위",
+   "2020-21"
+  ],
+  "Cádiz CF|2021-04-04": [
+   "table",
+   1764,
+   "라리가 2020-21 12위",
+   "2020-21"
+  ],
+  "CA Osasuna|2021-04-21": [
+   "table",
+   1774,
+   "라리가 2020-21 11위",
+   "2020-21"
+  ],
+  "Paris Saint-Germain|2021-08-14": [
+   "table",
+   1895,
+   "리그1 2021-22 1위",
+   "2021-22"
+  ],
+  "Montpellier HSC|2021-10-02": [
+   "table",
+   1608,
+   "리그1 2021-22 13위",
+   "2021-22"
+  ],
+  "AS Saint-Étienne|2021-10-17": [
+   "table",
+   1548,
+   "리그1 2021-22 18위",
+   "2021-22"
+  ],
+  "FC Girondins Bordeaux|2021-12-01": [
+   "table",
+   1521,
+   "리그1 2021-22 20위",
+   "2021-22"
+  ],
+  "Montpellier HSC|2022-01-16": [
+   "table",
+   1608,
+   "리그1 2021-22 13위",
+   "2021-22"
+  ],
+  "Clermont Foot 63|2022-01-19": [
+   "table",
+   1560,
+   "리그1 2021-22 17위",
+   "2021-22"
+  ],
+  "FC Girondins Bordeaux|2022-01-23": [
+   "table",
+   1521,
+   "리그1 2021-22 20위",
+   "2021-22"
+  ],
+  "Angers SCO|2022-02-13": [
+   "table",
+   1603,
+   "리그1 2021-22 14위",
+   "2021-22"
+  ],
+  "AS Monaco|2022-03-13": [
+   "table",
+   1764,
+   "리그1 2021-22 3위",
+   "2021-22"
+  ],
+  "Stade Rennais FC|2022-04-20": [
+   "table",
+   1732,
+   "리그1 2021-22 4위",
+   "2021-22"
+  ],
+  "Paris Saint-Germain|2022-04-29": [
+   "table",
+   1895,
+   "리그1 2021-22 1위",
+   "2021-22"
+  ],
+  "Stade Brestois 29|2022-05-07": [
+   "table",
+   1626,
+   "리그1 2021-22 11위",
+   "2021-22"
+  ],
+  "OGC Nice|2022-08-14": [
+   "table",
+   1663,
+   "리그1 2022-23 9위",
+   "2022-23"
+  ],
+  "Angers SCO|2022-10-09": [
+   "table",
+   1530,
+   "리그1 2022-23 20위",
+   "2022-23"
+  ],
+  "FC Toulouse|2022-10-23": [
+   "table",
+   1617,
+   "리그1 2022-23 13위",
+   "2022-23"
+  ],
+  "Olympique Marseille|2022-10-29": [
+   "table",
+   1773,
+   "리그1 2022-23 3위",
+   "2022-23"
+  ],
+  "AC Ajaccio|2022-11-05": [
+   "table",
+   1557,
+   "리그1 2022-23 18위",
+   "2022-23"
+  ],
+  "RC Lens|2023-01-11": [
+   "table",
+   1821,
+   "리그1 2022-23 2위",
+   "2022-23"
+  ],
+  "FC Toulouse|2023-01-29": [
+   "table",
+   1617,
+   "리그1 2022-23 13위",
+   "2022-23"
+  ],
+  "RC Lens|2023-04-07": [
+   "table",
+   1821,
+   "리그1 2022-23 2위",
+   "2022-23"
+  ],
+  "AC Ajaccio|2023-04-16": [
+   "table",
+   1557,
+   "리그1 2022-23 18위",
+   "2022-23"
+  ],
+  "Paris Saint-Germain|2023-05-27": [
+   "table",
+   1904,
+   "리그1 2022-23 1위",
+   "2022-23"
+  ],
+  "Olympique Marseille|2023-11-25": [
+   "table",
+   1695,
+   "리그1 2023-24 8위",
+   "2023-24"
+  ],
+  "Stade Reims|2023-12-01": [
+   "table",
+   1677,
+   "리그1 2023-24 9위",
+   "2023-24"
+  ],
+  "FC Lorient|2023-12-17": [
+   "table",
+   1580,
+   "리그1 2023-24 17위",
+   "2023-24"
+  ],
+  "Avoine Olympique Chinon Cinais|2024-01-06": [
+   "man",
+   1155,
+   "프랑스 4부 2023-24 12위/14팀 (National 2 Groupe B, 리그 수준 추정)"
+  ],
+  "FC Nantes|2024-03-16": [
+   "table",
+   1624,
+   "리그1 2023-24 14위",
+   "2023-24"
+  ],
+  "Stade Reims|2024-04-13": [
+   "table",
+   1677,
+   "리그1 2023-24 9위",
+   "2023-24"
+  ],
+  "FC Metz|2024-05-12": [
+   "table",
+   1589,
+   "리그1 2023-24 16위",
+   "2023-24"
+  ]
+ }
+}
