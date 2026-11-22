@@ -397,7 +397,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 .chartq{width:100%;max-width:16rem;margin:0 0 8px}
 .finSum{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 14px;margin:-4px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font-size:.92rem}.finSum .pt{font-weight:700;font-size:1.15rem}.finSum .pt b{color:var(--win-goal)}.finSum .k{color:var(--muted,inherit);opacity:.85}.finSum .w{color:var(--win-goal);font-weight:700}.finSum .e{font-weight:700}@media(max-width:600px){.finSum .k{display:none}}
 .mono.fin-eq{font-weight:700}
-/* 결승·마지막 동점 칩(v1.251): 결승 = 연한 파란 바탕(다크 모드는 바탕 없이 파란 테두리), 동점 = 테두리만 */
+/* 결승·최종 동점 칩(v1.251): 결승 = 연한 파란 바탕(다크 모드는 바탕 없이 파란 테두리), 동점 = 테두리만 */
 .fchip{display:inline-block;padding:1px 7px;border-radius:999px;font-weight:700;white-space:nowrap;border:1.5px solid transparent;line-height:1.35}
 /* 번호 상자: 칩 폭은 숫자 길이에 맞추고, 칩이 없는 줄도 같은 여백·투명 테두리라 숫자 끝이 오른쪽에 맞음 */
 .fnum{display:inline-block;box-sizing:border-box;padding:1px 7px;border:1.5px solid transparent;border-radius:999px;text-align:right;font-variant-numeric:tabular-nums;line-height:1.35}
@@ -414,7 +414,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.274</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.275</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -519,7 +519,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
         </span>
         <label class="chk" style="padding:0"><input type="checkbox" id="sortVal"> 기여도순 정렬</label>
       </div>
-      <p class="hint" id="finLeg" style="margin:6px 0 0" title="도움은 도운 골 기준 · 두 경기 합산은 합산 스코어 기준(원정 다득점으로 이긴 합산 동점골은 결승골) · 승부차기는 무승부로 봄 · 최종 스코어 자료가 있는 선수만 표시">스코어: <span class="fchip fw">결승</span> 결승골 · <span class="fchip fe">동점</span> 무승부 경기의 마지막 동점골 (도움은 도운 골, 두 경기는 합산 기준)</p>
+      <p class="hint" id="finLeg" style="margin:6px 0 0" title="도움은 도운 골 기준 · 두 경기 합산은 합산 스코어 기준(원정 다득점으로 이긴 합산 동점골은 결승골) · 승부차기는 무승부로 봄 · 최종 스코어 자료가 있는 선수만 표시">스코어: <span class="fchip fw">결승</span> 결승골 · <span class="fchip fe">동점</span> 무승부 경기의 최종 동점골(패배를 막은 골) (도움은 도운 골, 두 경기는 합산 기준)</p>
       <div class="tablebox capped" id="recBox" style="margin-top:8px;max-height:720px">
         <table class="rec">
           <thead><tr><th>#</th><th>구분</th><th class="num">S</th><th class="num">O</th><th class="num">C</th><th class="num">SOC</th><th>상대</th><th class="num">Elo</th><th>대회</th><th class="num">시간</th><th>스코어</th><th></th></tr></thead>
@@ -1410,8 +1410,8 @@ const CLN={arss:"아스널",hsv:"함부르크",lev:"레버쿠젠",tot:"토트넘
 /* 상대 순위 라벨: 첫 ' (' 앞(리그·시즌·순위)만 보이고, 괄호 안 설명(추정·조 이름·순위 기준 등)은 마우스를 올리거나 누르면 뜸 */
 function lvHtml(lv){lv=String(lv);const i=lv.indexOf(" (");if(i<0)return esc(lv);let d=lv.slice(i+1).trim();if(d.startsWith("(")&&d.endsWith(")"))d=d.slice(1,-1);
   return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(d)}" aria-label="${esc(lv)}">${esc(lv.slice(0,i))}</span>`}
-/* 결승골·마지막 동점골(v1.239): 최종 스코어(FINALS, 두 경기 합산은 합산 스코어)로 판정. 'w' = 결승골(이긴 경기에서 상대 최종 득점 + 1번째 우리 골,
-   합산 동점을 원정 다득점으로 이긴 경우의 마지막 합산 동점골 포함), 'e' = 무승부(승부차기 포함)로 끝난 경기의 마지막 동점골. 도움은 도운 골 기준. 최종 스코어 자료가 없으면 표시 안 함 */
+/* 결승골·최종 동점골(v1.239, v1.275 기준 변경): 최종 스코어(FINALS, 두 경기 합산은 합산 스코어)로 판정. 'w' = 결승골(이긴 경기에서 상대 최종 득점 + 1번째 우리 골,
+   합산 동점을 원정 다득점으로 이긴 경우의 마지막 합산 동점골 포함), 'e' = 무승부(승부차기 포함)로 끝난 경기의 최종 동점골(패배를 막은 골: 결승골처럼 골 번호로 정해 상대 최종 득점과 같아진 번째 우리 골, 앞서가는 골이었다가 동점으로 끝나도 포함, v1.275). 도움은 도운 골 기준. 최종 스코어 자료가 없으면 표시 안 함 */
 function finMap(id){const c=finMap.c||(finMap.c={});if(id in c)return c[id];const s=typeof FINALS!=="undefined"&&FINALS[id];const m=c[id]={};
   if(s)s.split(";").forEach(x=>{if(!x)return;const a=x.split(","),y=+a[0].slice(0,2),v=a.slice(1).map(Number);if(v.length===2)v.push(0);m[(y>80?1900+y:2000+y)+"-"+a[0].slice(2,4)+"-"+a[0].slice(4,6)]=v});return m}
 function finKind(pl,e){const v=pl.preset&&finMap(pl.preset)[e.date];if(!v)return null;
@@ -1421,19 +1421,19 @@ function finKind(pl,e){const v=pl.preset&&finMap(pl.preset)[e.date];if(!v)return
   else{if(!t.f)return null;const [fu,ft]=t.f;bF=fu+e.gf;bA=ft+e.ga;aF=fu+v[0];aA=ft+v[1];pen=v[2];const ta=t.home?fu:v[0],oa=t.home?v[1]:ft;awayW=ta>oa?1:ta<oa?-1:0}
   finKind.last={aF,aA,pen,awayW,tie:!!t};
   if(aF>aA)return bF===aA?"w":null;
-  /* 합산 동점이 원정 다득점으로 갈렸으면 무승부가 아님: 진출이면 결승골, 탈락이면 표시 안 함 */if(aF===aA&&bF+1===aF&&bA===aA)return t&&!pen&&t.ag&&awayW?(awayW>0?"w":null):"e";
+  /* 합산 동점이 원정 다득점으로 갈렸으면 무승부가 아님: 진출이면 결승골, 탈락이면 표시 안 함 */if(aF===aA&&bF+1===aF)return t&&!pen&&t.ag&&awayW?(awayW>0?"w":null):"e";
   return null}
 /* 결승·동점 포인트의 경기 결과 한 줄(한 시즌 꺾은선 툴팁용): 예 '결승골 · 3:2 승리', '합산 결승 도움 · 합산 4:4 (원정 다득점)' */
 function finTxt(pl,e){const k=finKind(pl,e);if(!k)return "";const s=finKind.last,as=e.type==="assist";
-  const nm=(s.tie?"합산 ":"")+(k==="w"?(as?"결승 도움":"결승골"):(as?"동점 도움":"마지막 동점골"));
+  const nm=(s.tie?"합산 ":"")+(k==="w"?(as?"결승 도움":"결승골"):(as?"동점 도움":"최종 동점골"));
   const sc=(s.tie?"합산 ":"")+s.aF+":"+s.aA;const rs=s.aF>s.aA?" 승리":s.pen?(s.pen>0?" (승부차기 승)":" (승부차기 패)"):s.tie&&s.awayW?" (원정 다득점 "+(s.awayW>0?"진출":"탈락")+")":" 무승부";
   return nm+" · "+sc+rs}
 function finAgg(pl,es){if(!(typeof FINALS!=="undefined"&&pl.preset&&FINALS[pl.preset]))return null;const c={wg:0,wa:0,eg:0,ea:0};es.forEach(e=>{const k=finKind(pl,e);if(k)c[k+(e.type==="goal"?"g":"a")]++});
   c.W=c.wg+c.wa;c.D=c.eg+c.ea;c.pts=c.W*3+c.D;return c}
-function finTipTxt(c){return `기여 승점 ${c.pts}점 = ${c.W}승 × 3 + ${c.D}무 × 1\n결승골 ${c.wg} · 결승 도움 ${c.wa}\n마지막 동점골 ${c.eg} · 동점 도움 ${c.ea}`}
+function finTipTxt(c){return `기여 승점 ${c.pts}점 = ${c.W}승 × 3 + ${c.D}무 × 1\n결승골 ${c.wg} · 결승 도움 ${c.wa}\n최종 동점골 ${c.eg} · 동점 도움 ${c.ea}`}
 function finHtml(c){if(!c)return "–";const tip=finTipTxt(c);return `<span class="clubtip" tabindex="0" role="button" data-tip="${esc(tip)}" aria-label="${esc(tip)}">+${c.pts}</span>`}
 function finCls(pl,e){const k=finKind(pl,e);return k==="w"?" fin-w":k==="e"?" fin-eq":""}
-function finTip(pl,e){const k=finKind(pl,e);if(!k)return "";const s=(e.tie?"합산 ":"")+(k==="w"?"결승골":"마지막 동점골")+(e.type==="assist"?"(도움)":"");return ` title="${s}"`}
+function finTip(pl,e){const k=finKind(pl,e);if(!k)return "";const s=(e.tie?"합산 ":"")+(k==="w"?"결승골":"최종 동점골")+(e.type==="assist"?"(도움)":"");return ` title="${s}"`}
 function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
   const c=st.coef, pl=cur(), tb=$("rows"); let g=0,a=0,ng=0,na=0,epSum=0;
   const list=pl.entries.map((e,i)=>({e,i,r:value(e,c)})).filter(x=>inP(pl,x.e.date)&&inC(x.e.comp));
@@ -1441,7 +1441,7 @@ function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
   list.forEach(({e,r})=>{if(e.type==="goal"){g+=r.v;ng++}else{a+=r.v;na++}epSum+=r.raw});
   let shown=(st.typeF==='goal'||st.typeF==='assist')?list.filter(x=>x.e.type===st.typeF):list;
   if(st.sortVal)shown=[...shown].sort((x,y)=>y.r.v-x.r.v);
-  tb.innerHTML=shown.map(({e,i,r},n)=>`<tr><td class="num">${(k=>`<span class="fnum${k?` fchip ${k==="w"?"fw":"fe"}`:""}"${k?` title="${k==="w"?"결승":"마지막 동점"}"`:""}>${n+1}</span>`)(finKind(pl,e))}</td><td><span class="pill ${e.type==="goal"?"g":""}">${e.type==="goal"?"골":"도움"}</span>${e.pk&&e.type==="goal"?' <span class="pill">PK</span>':""}</td><td class="num">${f2(r.S)}</td><td class="num">${f2(r.O)}</td><td class="num">${f2(r.C)}</td><td class="num val">${f2(r.v)}</td>
+  tb.innerHTML=shown.map(({e,i,r},n)=>`<tr><td class="num">${(k=>`<span class="fnum${k?` fchip ${k==="w"?"fw":"fe"}`:""}"${k?` title="${k==="w"?"결승":"최종 동점"}"`:""}>${n+1}</span>`)(finKind(pl,e))}</td><td><span class="pill ${e.type==="goal"?"g":""}">${e.type==="goal"?"골":"도움"}</span>${e.pk&&e.type==="goal"?' <span class="pill">PK</span>':""}</td><td class="num">${f2(r.S)}</td><td class="num">${f2(r.O)}</td><td class="num">${f2(r.C)}</td><td class="num val">${f2(r.v)}</td>
     <td>${esc(e.opp||"—")}<div class="sub">${esc(e.date||"")}${e.type==="assist"&&e.note?" · "+(e.note==="?"?"득점자 미확인(보수적)":esc(e.note)+" 골"):""}</div>${e.lv?'<div class="sub">'+lvHtml(e.lv)+"</div>":""}</td><td class="num">${e.elo}</td><td>${COMP[e.comp]||e.comp}${e.tie?'<div class="sub" title="두 경기 합산">'+tieTxt(e)+'</div>':e.ko?'<div class="sub">KO</div>':""}</td>
     <td class="num">${minTxt(e,c)}</td><td class="mono"${finTip(pl,e)}>${(k=>k?`<span class="fchip ${k==="w"?"fw":"fe"}">${e.gf}:${e.ga} → ${e.gf+1}:${e.ga}</span>`:`${e.gf}:${e.ga} → ${e.gf+1}:${e.ga}`)(finKind(pl,e))}</td>
     <td><button class="del" data-i="${i}" aria-label="${n+1}번 기록 삭제">×</button></td></tr>`).join("");
@@ -1449,8 +1449,8 @@ function render(){(window.requestAnimationFrame||setTimeout)(()=>fitRec());
   {const fs=$("finSum"),has=typeof FINALS!=="undefined"&&pl.preset&&FINALS[pl.preset];
    if(!has){fs.hidden=true}else{const c=finAgg(pl,shown.map(x=>x.e));
     const W=c.W,D=c.D,tf=st.typeF==="goal"?"골만":st.typeF==="assist"?"도움만":"";
-    fs.hidden=false;fs.title="결승골·결승 도움(이 골이 없었으면 이기지 못함) 3점, 무승부 경기의 마지막 동점골·동점 도움 1점 · 두 경기 합산은 합산 기준(합산 결승골은 1승으로 셈) · 위 기간·대회와 아래 골/도움 선택이 적용됨 · 최종 스코어를 못 찾은 경기는 빠짐";
-    fs.innerHTML=`<span class="pt">기여 승점 <b>${W*3+D}</b>점</span><span>${W}승 ${D}무${tf?" · "+tf:""}</span><span class="k">|</span><span><span class="w">결승골 ${c.wg}</span> · <span class="w">결승 도움 ${c.wa}</span></span><span><span class="e">마지막 동점골 ${c.eg}</span> · <span class="e">동점 도움 ${c.ea}</span></span>`}}
+    fs.hidden=false;fs.title="결승골·결승 도움(이 골이 없었으면 이기지 못함) 3점, 무승부 경기의 최종 동점골(패배를 막은 골)·동점 도움 1점 · 두 경기 합산은 합산 기준(합산 결승골은 1승으로 셈) · 위 기간·대회와 아래 골/도움 선택이 적용됨 · 최종 스코어를 못 찾은 경기는 빠짐";
+    fs.innerHTML=`<span class="pt">기여 승점 <b>${W*3+D}</b>점</span><span>${W}승 ${D}무${tf?" · "+tf:""}</span><span class="k">|</span><span><span class="w">결승골 ${c.wg}</span> · <span class="w">결승 도움 ${c.wa}</span></span><span><span class="e">최종 동점골 ${c.eg}</span> · <span class="e">동점 도움 ${c.ea}</span></span>`}}
   $("total").textContent=f2(g+a);
   $("capPer").textContent="("+perLabel(pl)+(COMPFL[st.compF]?" · "+COMPFL[st.compF]:"")+")";
   $("boardWho").textContent=pl.name;
@@ -1908,7 +1908,7 @@ function drawYearChart(rows,pm,pts){if(rows)drawYearChart.last={rows,pm,pts};con
   /* 한 시즌 꺾은선 '간격 넓히기': 포인트당 14px로 그래프를 넓히고 가로 스크롤 */
   if(st.yrZoom===true&&!st.yrPx)st.yrPx=yrPxMax();delete st.yrZoom;const zN=yrPxN(),zpx=Math.min(yrPxMax(),yrPxGet()),zoom=!!(zpx&&zN*zpx+60>base0+2),Wz=zoom?Math.round(zN*zpx+60):0;svg.style.width=zoom?Wz+"px":"";if(sc)sc.classList.toggle("zoomed",zoom);
   const W=zoom?Wz:Math.max(300,Math.min(1200,base0)),H=W<600?220:260,ml=36,mr=8,mt=16,mb=34;svg.setAttribute("viewBox",`0 0 ${W} ${H}`);tip.hidden=true;
-  const hint=$("yrHint");if(hint){if(!hint.dataset.o)hint.dataset.o=hint.textContent;hint.textContent=L.pts?"가로축은 이 시즌 공격포인트 순서(날짜·시간순), 세로축은 누적 SOC · 채운 점은 골, 빈 점은 도움 · 선 색은 그 포인트의 팀 · 가로 점선은 이 시즌 기준 SOC(골 1·도움 "+f2(st.coef.ast)+"를 모두 더한 값)로, 선 끝이 그보다 위면 가치 차이 + · 굵은 테두리 점(1·2·3)은 이 시즌 SOC 증가가 가장 큰 공격포인트 3개 · 가로축 아래 파란 막대는 결승골·결승 도움, 테두리 막대는 무승부 경기의 마지막 동점골·동점 도움 · 점을 누르거나 올리면 자세한 값 · 아래 팀 이름을 누르면 그 팀 기간, '전체 시즌 보기'로 되돌아감":hint.dataset.o}
+  const hint=$("yrHint");if(hint){if(!hint.dataset.o)hint.dataset.o=hint.textContent;hint.textContent=L.pts?"가로축은 이 시즌 공격포인트 순서(날짜·시간순), 세로축은 누적 SOC · 채운 점은 골, 빈 점은 도움 · 선 색은 그 포인트의 팀 · 가로 점선은 이 시즌 기준 SOC(골 1·도움 "+f2(st.coef.ast)+"를 모두 더한 값)로, 선 끝이 그보다 위면 가치 차이 + · 굵은 테두리 점(1·2·3)은 이 시즌 SOC 증가가 가장 큰 공격포인트 3개 · 가로축 아래 파란 막대는 결승골·결승 도움, 테두리 막대는 무승부 경기의 최종 동점골(패배를 막은 골)·동점 도움 · 점을 누르거나 올리면 자세한 값 · 아래 팀 이름을 누르면 그 팀 기간, '전체 시즌 보기'로 되돌아감":hint.dataset.o}
   if(!R.length){svg.innerHTML=`<text x="${W/2}" y="${H/2}" text-anchor="middle">기록이 없습니다</text>`;leg.innerHTML="";drawYearChart.segs=[];drawYearChart.cols=[];drawYearChart.pts=null;return}
   if(L.pts){drawSeasonLine(L.pts,svg,leg,W,H);return}drawYearChart.pts=null;{const bl=$("yrBaseLab");if(bl)bl.setAttribute("hidden","")}
   const nm=o=>CLN[o.cl]||o.cl||"팀 미상";const team={};let ti=0;R.forEach(o=>{const n=nm(o);if(!(n in team))team[n]=++ti});const tdefs=yrColors(team,R.map(o=>({n:nm(o),cl:o.cl,w:o.soc})));
@@ -1966,7 +1966,7 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=14,mt=16,FK=P.some(p=>p.fk
     let lx=x-rr-1,ly=y-rr+1,an="end";const hit=(a,b)=>lab.some(o=>Math.abs(o[0]-a)<12&&Math.abs(o[1]-b)<12);
     if(ly<11||lx<ml+8||hit(lx,ly)){lx=x+rr+1;ly=y+rr+9;an="start"}lab.push([lx,ly]);
     tp+=`<text x="${lx.toFixed(1)}" y="${ly.toFixed(1)}" text-anchor="${an}">${r+1}</text>`});
-  /* 결승·마지막 동점 표시 띠(가로축 바로 아래): 파란 막대 = 결승, 테두리 막대 = 마지막 동점. 폭은 포인트 간격의 70%(최대 6px) */
+  /* 결승·최종 동점 표시 띠(가로축 바로 아래): 파란 막대 = 결승, 테두리 막대 = 최종 동점. 폭은 포인트 간격의 70%(최대 6px) */
   let fm="";const fw=Math.max(1.5,Math.min(6,(W-ml-mr)/N*.7));let fW=0,fD=0;
   Q.forEach(q=>{if(!q.fk)return;const x=sx(q.i),w=q.fk==="w";if(w)fW++;else fD++;
     fm+=`<rect class="fmk" x="${(x-fw/2).toFixed(1)}" y="${H-mb+3}" width="${fw.toFixed(1)}" height="9" rx="1" style="${w?"fill:var(--win-goal)":"fill:none;stroke:var(--fg);stroke-width:"+(fw<3?1:1.6)}"/>`});
@@ -1980,7 +1980,7 @@ function drawSeasonLine(P,svg,leg,W,H){const ml=36,mr=14,mt=16,FK=P.some(p=>p.fk
   svg.innerHTML=`<defs>${tdefs}</defs>`+g+xa+`<line x1="${ml}" x2="${W-mr}" y1="${H-mb}" y2="${H-mb}" stroke="var(--line)"/><text x="${W-mr}" y="${H-4}" text-anchor="end">공격포인트 (번째)</text>`+bl+`<g>${path}</g><g>${fm}</g><g>${dots}</g><g class="top3">${tp}</g><g>${hits}</g>`;
   drawYearChart.pts=Q;
   const zd=!!(svg.parentNode&&svg.parentNode.classList.contains("zoomed")),zb=N*yrPxMax()+60>((svg.parentNode&&svg.parentNode.clientWidth)||W)?`<button type="button" class="zbtn" id="yrZoom" aria-pressed="${zd}">${zd?"↔ 한 화면에 보기":"↔ 간격 넓히기"}</button>`:"";
-  leg.innerHTML=zb+yrLegend(P.map(p=>({n:p.team,cl:p.cl})),team)+`<span class="bk"><b class="dsh"></b>기준 SOC (골 1·도움 ${f2(st.coef.ast)})</span>`+(top.length?`<span class="tp"><b></b>SOC 증가 상위 ${top.length}개 (1·2·3)</span>`:"")+(FK?`<span class="fk"><b class="w"></b>결승</span><span class="fk"><b class="e"></b>마지막 동점</span><span class="fk">이 시즌 기여 승점 <span class="fchip fe fksum"><strong>+${fW*3+fD}</strong> · ${fW}승 ${fD}무</span></span>`:"");
+  leg.innerHTML=zb+yrLegend(P.map(p=>({n:p.team,cl:p.cl})),team)+`<span class="bk"><b class="dsh"></b>기준 SOC (골 1·도움 ${f2(st.coef.ast)})</span>`+(top.length?`<span class="tp"><b></b>SOC 증가 상위 ${top.length}개 (1·2·3)</span>`:"")+(FK?`<span class="fk"><b class="w"></b>결승</span><span class="fk"><b class="e"></b>최종 동점</span><span class="fk">이 시즌 기여 승점 <span class="fchip fe fksum"><strong>+${fW*3+fD}</strong> · ${fW}승 ${fD}무</span></span>`:"");
   svg.setAttribute("aria-label",`한 시즌 누적 SOC 꺾은선 그래프: 공격포인트 ${N}개, 누적 ${f2(cum)}, 기준 ${f2(base)}`+(top.length?`, SOC 증가 상위 ${top.map(k=>Q[k].i+"번째("+f2(Q[k].v)+")").join("·")}`:""))}
 /* 이 시즌 SOC 증가(그 공격포인트의 SOC)가 가장 큰 점 3개의 순번(0부터). 그려진 점 가운데서만, 같으면 앞선 점, 0 이하는 제외 */
 /* 팀 상징 색(v1.227, v1.231 보정): 그래프 한 장 안에서 SOC 비중이 큰 팀부터 주 색. 이미 쓴 색과 가까우면(보정한 색이 yrApart로 구별 안 됨) 보조 색·셋째 색,

@@ -1,13 +1,13 @@
 # 클럽 SOC 계산기 (축구력 계산기) — Claude Code 작업 규칙
 
 축구 선수의 클럽 경력 SOC(축구력)를 계산하는 단일 페이지 계산기. 답변은 **한국어**로 한다.
-현재 **v1.274**, 수록 **265명**(마지막으로 추가된 선수: 파블로 아이마르). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
+현재 **v1.275**, 수록 **265명**(마지막으로 추가된 선수: 파블로 아이마르). 국가대표 SOC 계산기와는 별개 프로젝트이며 디자인·데이터 처리 규칙을 섞지 않는다.
 
 ## 저장소 구조
 
 ```
 src/index.html      화면·계산 코드 (약 246KB). 본문 <script> 앞에 <script src="data/xxx.js"> 268개
-src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 265개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·동점골 표시용, v1.257)
+src/data/xxx.js     선수 1명당 파일 1개 (XXX_E·XXX_M·XXX_NOTE 상수) 265개 + hon.js(HON_DATA 우승·수상) + clubcolors.js(CLUB_COLORS 클럽 상징 색, v1.227) + finals.js(FINALS 경기 최종 스코어, 결승골·최종 동점골 표시용, v1.257)
 tools/build.py      dist/ 만들기: club-soc.html(단독 실행) · club-soc.artifact.html(게시용 한 파일, gzip 압축본) · club-soc.packed-test.html(압축본 시험용) · dev.html
 tools/verify.js     playwright 검증: snap(스냅숏) / cmp(비교) / check(한 번에)
 tools/unbundle.py   프로젝트의 *_bundle.b85.txt 원자료 묶음을 players/<선수>/ 로 풀기
@@ -28,7 +28,7 @@ players/            (선택) 선수별 원자료·build 스크립트·순위표 
 1. **기존 선수 수치는 바뀌지 않아야 한다.** 새 선수 추가·화면 수정 뒤 `npm run check`가 "통과"여야 한다. 일부러 값을 바꾼 선수는 `--allow 이름`으로 허용하고, 바뀐 선수·수치를 **표로 요약해 알린다**.
 2. **초기 렌더 순서(TDZ)**: `render()`는 스크립트 앞부분에서 처음 실행된다. render 안에서 부르는 코드가 뒤에 선언된 `const`를 건드리면 스크립트 전체가 멈춘다. render에서 쓸 새 상수는 `const DEF=` 앞에, 새 함수는 `function` 선언으로 둔다.
 3. **데이터 `<script src>`는 본문 `<script>`보다 앞**에 둔다(상수가 먼저 있어야 `PRESETS`가 만들어짐). 데이터 파일을 추가하면 `index.html`에 태그를 반드시 같이 추가한다(build.py가 짝이 안 맞으면 멈춘다).
-4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.274</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
+4. 바꿀 때마다 **버전을 올린다**: `index.html`의 `v1.275</span>` 한 곳(제목 `<h1>` 안). 형식 v1.xx.
 5. 기록은 **출처로 확인된 것만** 넣는다. 추정하거나 뺀 내용과 출처 간 차이는 그 선수의 설명(`XXX_NOTE`)에 남긴다. 근거는 '데이터 출처와 처리 방식'(게시본 설명)이 정본이다.
 6. 별도의 '○○추가.md'를 만들지 않는다. 바뀐 내용은 `docs/`의 인수인계 문서에 반영한다.
 7. 설명(`XXX_NOTE`)·`lv` 문구에 작업용 코드/변수명(dc·dk·dsf·ko·OTHER_LEG·seasonOf·v1.xxx 등)을 쓰지 않는다. 도움·골을 더하거나 빼면 설명 첫 줄 합계와 '클럽별 경기·골·도움' 줄도 같이 고친다(docs 17절).
