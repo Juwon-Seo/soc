@@ -326,6 +326,7 @@ def lv_value(lv, d):
 # Transfermarkt 포르투갈 1부 순위표는 승점 같은 팀의 순서가 공식 규칙(상대 전적 우선)과 다른 곳이 있음 → RSSSF 최종표(상대 전적 표기)·영어 위키백과로 고침
 RANK_FIX = {("PO1", "1998-99", "Rio Ave FC"): 14, ("PO1", "1998-99", "FC Alverca"): 15,
             # 1999-00 세투발(RSSSF 16위)·히우 아베(17위)는 몬텔라 자료의 세투발 1999-00 17위 값(Transfermarkt 순서)과 맞추려고 Transfermarkt 순서 그대로 둠(judgments.md 6절, 보고)
+            ("PO1", "1999-00", "Vitória Setúbal FC"): 16, ("PO1", "1999-00", "Rio Ave FC"): 17,
             ("PO1", "2000-01", "SC Salgueiros"): 10, ("PO1", "2000-01", "CS Marítimo"): 11, ("PO1", "2000-01", "FC Alverca"): 12,
             ("PO1", "2001-02", "Vitória Guimarães SC"): 9, ("PO1", "2001-02", "SC Braga"): 10, ("PO1", "2001-02", "Gil Vicente FC"): 12, ("PO1", "2001-02", "Vitória Setúbal FC"): 13,
             ("PO1", "2002-03", "CS Marítimo"): 7, ("PO1", "2002-03", "Gil Vicente FC"): 8, ("PO1", "2002-03", "CF Os Belenenses"): 9, ("PO1", "2002-03", "Boavista FC"): 10,
