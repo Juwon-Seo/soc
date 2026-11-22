@@ -37,9 +37,10 @@ def far_color(existing, light):
     """기존 색과 RGB 거리가 가장 먼 색(채도 높은 후보 중)"""
     ex = [hexrgb(c) for c in existing]
     best, bd = None, -1
-    for hi in range(72):
-        for sat, val in ((0.85, 0.75), (0.7, 0.9), (0.95, 0.55)) if light else ((0.55, 0.95), (0.75, 0.9), (0.35, 1.0)):
-            r, g, b = colorsys.hsv_to_rgb(hi / 72, sat, val)
+    # v1.280: 후보 216개(72색상×3)가 270명을 넘기며 바닥나 같은 색이 반복됨 → 색상 360 × 채도·명도 6단계로 넓힘
+    for hi in range(360):
+        for sat, val in ((0.85, 0.75), (0.7, 0.9), (0.95, 0.55), (0.6, 0.65), (0.45, 0.8), (1.0, 0.4)) if light else ((0.55, 0.95), (0.75, 0.9), (0.35, 1.0), (0.45, 0.8), (0.65, 0.75), (0.25, 0.9)):
+            r, g, b = colorsys.hsv_to_rgb(hi / 360, sat, val)
             d = min(((r - x) ** 2 + (g - y) ** 2 + (b - z) ** 2) for x, y, z in ex)
             if d > bd:
                 bd, best = d, (r, g, b)
