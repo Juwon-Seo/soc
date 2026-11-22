@@ -377,7 +377,8 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] == "league": continue
         se = p[1].split(" ")[0]
-        if p[0] == "QSL" and se == "2017-18": continue   # TM 표는 4·5위 순서가 틀림(QSL 공식 기사: 알가라파 4위, 움 살랄 5위) — 기존 표 값 사용
+        if p[0] == "QSL" and se == "2017-18": continue
+        if p[0] == "UAE1" and se == "2026-27": continue   # 다른 선수 폴더에서 복사한 TM 표(예전 시점) 대신 FotMob 2026.11.22 현재 순위   # TM 표는 4·5위 순서가 틀림(QSL 공식 기사: 알가라파 4위, 움 살랄 5위) — 기존 표 값 사용
         addr(p[0], se, p[2], p[3], p[4], "TM")
 WIKI_LG = {"Azadegan_League": "IRN2", "Iran_Pro_League": "IRN1", "Persian_Gulf_Pro_League": "IRN1", "Persian_Gulf_Cup": "IRN1", "Qatar_Stars_League": "QSL", "Campeonato_de_Portugal": "PT3"}
 with open(os.path.join(RAW, "ranks_wiki.txt"), encoding="utf-8") as f:
@@ -428,10 +429,10 @@ def make_label(lg, season, v):
         grp = re.search(r"Group ([AB])", src)
         return f"이란 2부 {season} {r}위/{n}팀 (Azadegan League" + (f" {grp.group(1)}조(두 조 리그)" if grp else "") + ", 리그 수준 추정)"
     if lg == "QSL": return f"카타르 1부 {season} {r}위/{n}팀 (Qatar Stars League)"
-    if lg == "UAE1": return f"UAE 1부 {season} {r}위/{n}팀 (UAE Pro League" + (", 2026년 11월 현재 순위)" if season == "2026-27" else ")")
+    if lg == "UAE1": return f"UAE 1부 {season} {r}위/{n}팀 (UAE Pro League" + (", 2026년 11월 22일 현재 순위)" if season == "2026-27" else ")")
     if lg == "SA1": return f"사우디 1부 {season} {r}위/{n}팀 (Saudi Pro League)"
     if lg == "UZ1": return f"우즈베키스탄 1부 {season} {r}위/{n}팀 (Uzbekistan Super League)"
-    if lg == "IRQ1": return f"이라크 1부 {season} {r}위/{n}팀 (Iraq Stars League, 2026년 11월 현재 순위)"
+    if lg == "IRQ1": return f"이라크 1부 {season} {r}위/{n}팀 (Iraq Stars League, 2026년 11월 22일 현재 순위)"
     if lg == "KAZ1": return f"카자흐스탄 1부 {season} {r}위/{n}팀 (Kazakhstan Premier League)"
     if lg == "GR1": return f"그리스 1부 {season} {r}위/{n}팀 (Super League Greece, 플레이오프 뒤 최종 순위)"
     if lg == "PO2": return f"포르투갈 2부 {season} {r}위/{n}팀 (Liga Portugal 2)"
