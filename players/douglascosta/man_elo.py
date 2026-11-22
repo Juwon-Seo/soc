@@ -1,0 +1,23 @@
+# 순위표 밖·이름이 다른 상대(통합표에 없는 팀-시즌): 순위는 출처로 확인(judgments.md 6절), 값은 라벨에서 tools/league_rank_apply.py로 계산(build가 exec로 읽음)
+# 우크라이나 2012-13: Transfermarkt 순위표 'Goverla-Zakarpattya Uzhgorod' 15위(영어 위키백과 2012-13 Ukrainian Premier League 15위, 강등 없이 잔류)
+man("Goverla Uzhgorod", "2012-13", "우크라이나 1부 2012-13 15위/16팀 (Ukrainian Premier League)")
+# 우크라이나컵 2013-14 16강 MFK 미콜라이우(TM 'Evis Mykolaiv'): 영어 위키백과 2013-14 Ukrainian First League 최종 16위/16팀(2부)
+man("Evis Mykolaiv", "2013-14", "우크라이나 2부 2013-14 16위/16팀 (Persha Liha, 리그 수준 추정)")
+# 챔스 2014-15 조별 BATE: 벨라루스 2014(달력 연도, 12팀) 우승(영어 위키백과 2014 Belarusian Premier League, BATE 9연패)
+man("BATE Borisov", "2014", "벨라루스 1부 2014 1위/12팀 (Belarusian Premier League)")
+# MLS 전체 순위(서포터스 실드 표, 영어 위키백과 Template:2022/2023 Major League Soccer season table team_order; 기존 자료 순위와 모두 같은 순서)
+man("FC Dallas", "2022", "MLS 2022 7위/28팀")
+for o, r in (("St. Louis CITY SC", 4), ("Seattle Sounders FC", 7), ("Real Salt Lake City", 11), ("Sporting Kansas City", 15),
+             ("San Jose Earthquakes", 16), ("Chicago Fire FC", 24)):
+    man(o, "2023", f"MLS 2023 {r}위/29팀")
+# 리베르타도레스 2024 조별 알리안사 리마(2024.4.3): 페루 리가 1 아페르투라 2024 진행 중 → 아페르투라 최종 4위/18팀(FotMob 표)
+man("Club Alianza Lima", "2024", "페루 1부 2024 4위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)")
+# AFC 챔스 투 2024-25 16강 방콕 유나이티드(2025.2): 타이 리그 1 2024-25 진행 중 → 최종 2위/16팀(FotMob 표, 부리람 우승)
+man("True Bangkok United", "2024-25", "태국 1부 2024-25 2위/16팀 (Thai League 1, 리그 수준 추정)")
+# AFC 챔스 투 2024-25 8강 전북(2025.3.13): K리그1 2025(2.15 개막) 진행 중 → 2025 최종 1위/12팀(우승, 코리아헤럴드·코리아타임스)
+man("Jeonbuk Hyundai Motors", "2025", "한국 1부 2025 1위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)")
+# AFC 챔스 투 2024-25 조별 이스턴(홍콩, 2024.9.19): 홍콩 프리미어리그 2024-25 진행 중 → 최종 3위/9팀(영어 위키백과 2024-25 Hong Kong Premier League)
+man("Eastern", "2024-25", "홍콩 1부 2024-25 3위/9팀 (Hong Kong Premier League, 리그 수준 추정)")
+# AFC 챔스 투 2024-25 조별 카야-일로일로(필리핀, 2024.10.3): 필리핀 풋볼 리그 2024-25(2024.9.28 개막) 진행 중 → 최종 1위/10팀(우승, 영어 위키백과).
+# 필리핀은 순위 도구의 나라 목록 밖이라 값은 Opta 리그 수준 회귀(도구 T1과 같은 식) + 1위 곡선 = 1115(파투 자료 세레스 2017 1위 1115와 같은 방식·같은 값)
+manv("Kaya FC-Iloilo", "2024-25", "필리핀 1부 2024-25 1위/10팀 (Philippines Football League, 리그 수준 추정)", 1115)

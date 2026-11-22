@@ -315,13 +315,15 @@ def load_js(fn):
 OTHERS = {}
 for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     b = os.path.basename(fn)
-    if b in ("hon.js", "clubcolors.js", "finals.js", "gam.js") or "src/data/" + b not in TRACKED: continue
+    if b in ("hon.js", "clubcolors.js", "finals.js", "ros.js") or "src/data/" + b not in TRACKED: continue
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
-# 이번 차례 병행 판정이 끝난 선수 자료(아직 src/data에 없음): 요렌테(llo.js)·시세(cis.js)·아이마르(aim.js)·클라우디오 로페스
-for fn in [os.path.join(os.path.dirname(HERE), d_, f_) for d_, f_ in (("llorente", "llo.js"), ("cisse", "cis.js"), ("aimar", "aim.js"), ("claudiolopez", "clo.js"))]:
-    if os.path.exists(fn) and os.path.basename(fn) not in OTHERS:
-        P, oe, om = load_js(fn); OTHERS[os.path.basename(fn)] = (oe, om)
+# 이번 차례 병행 판정 선수 자료(아직 src/data에 없음): 데쿠·오스카·더글라스 코스타·미토마(있으면 대조만)
+for fn in sorted(sum([glob.glob(os.path.join(os.path.dirname(HERE), d_, "*.js")) for d_ in ("deco", "oscar", "douglascosta", "mitoma")], [])):
+    if os.path.basename(fn) not in OTHERS:
+        try:
+            P, oe, om = load_js(fn); OTHERS[os.path.basename(fn)] = (oe, om)
+        except Exception: pass
 BYDATE = collections.defaultdict(list)
 for b, (oe, om) in OTHERS.items():
     for x in oe: BYDATE[x[9]].append((b, x))
@@ -369,13 +371,11 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
 EU_LG = {"FR1": "리그1", "ES1": "라리가", "L1": "분데스리가", "GB1": "프리미어리그", "PO1": "포르투갈 1부", "IT1": "세리에A", "NL1": "에레디비시"}
 def make_label(lg, season, v):
     r, n, nm, sraw = v
-    if lg == "ES2": return f"세군다 {season} {r}위/{n}팀"
-    if lg == "FR2": return f"리그2 {season} {r}위/{n}팀"
-    if lg == "FR3": return f"프랑스 3부 {season} {r}위/{n}팀 (Championnat National, 리그 수준 추정)"
-    if lg == "SC1": return f"스코틀랜드 1부 {season} {r}위/{n}팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
-    if lg in ("ES3A", "ES3B", "ES3C", "ES3D"):
-        grp = {"ES3A": "I", "ES3B": "II", "ES3C": "III", "ES3D": "IV"}[lg]
-        return f"스페인 3부 {season} {r}위/{n}팀 (Segunda División B Grupo {grp}, 리그 수준 추정)"
+    if lg == "TS1": return f"체코 1부 {season} {r}위/{n}팀 (Czech First League)"
+    if lg == "UKR1":   # TM 2001-02 표는 시즌 중 CSKA 키이우 → 아르세날 키이우 교체로 15줄, 실제 14팀(통합표 디나모 키이우 2001-02 '2위/14팀'과 같게)
+        return f"우크라이나 1부 {season} {r}위/{14 if season == '2001-02' else n}팀 (Ukrainian Premier League)"
+    if lg == "GB3": return f"잉글랜드 3부 {season} {r}위/{n}팀 (Football League One, 리그 수준 추정)"
+    if lg == "A1": return f"오스트리아 1부 {season} {r}위/{n}팀 (Austrian Bundesliga)"
     if lg in EU_LG:
         pre = EU_LG[lg]; n0 = _LRA["ERA"]["teams"](pre, int(season[:4]) + 1)
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 else "")
@@ -387,7 +387,7 @@ def eu(d):
 # 상대 시즌: 8월 1일 기준(7월 경기 없음). J1(달력 연도) 상대는 경기 연도.
 # UEFA 대회 상대는 달력 연도 리그(핀란드·벨라루스 등)도 있으므로 경기 연도도 찾음(7월 예선은 8월 1일 기준으로 끝난 시즌).
 def seasons_for(cid, d, o, g):
-    y, m = int(d[:4]), int(d[5:7]); s_ = y if m >= 8 else y - 1
+    y, m = int(d[:4]), int(d[5:7]); s_ = y if (m >= 8 or (m == 7 and cid in LEAGUE)) else y - 1   # 7월 리그 경기(분데스리가 2001.7.28·체코 2017.7.30) = 새 시즌 상대
     ss = [f"{s_}-{str(s_ + 1)[2:]}"]
     if cid in ("CL", "CLQ", "EL", "ELQ"):
         ss.append(d[:4])
@@ -497,16 +497,16 @@ def cmp_rows(a, b):
     return d
 G_BYDATE = {ldate(g): g["competitionId"] for g in GAMES}
 CROSS = []
-JRE = re.compile(r"Gameiro|가메이로")
+JRE = re.compile(r"Rosick|로시츠키")
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         if x[0] == "a" and JRE.search(str(x[13] or "")) and x[9] in G_BYDATE:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(가메이로 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(로시츠키 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1])]
-            if hit: CROSS.append(("가메이로 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("로시츠키 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and (key(x[1]) == key(r[1]) if G_BYDATE.get(r[9], "BRA1") in SA_DOM else same_team(x[1], r[1])):
@@ -522,28 +522,26 @@ for b, (oe, om) in OTHERS.items():
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2]):
-                    CROSS.append(("TM 가메이로 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
+                    CROSS.append(("TM 로시츠키 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-# 클럽 경계: Transfermarkt 이적일(raw/tm_transfer_history.json). 스트라스부르 두 시기는 같은 키(strgam, 이모빌레 torim 선례).
-CLUBS = [("strgam", "2008-07-01", "RC 스트라스부르", "스트라스부르", "2005~2008"), ("lorgam", "2011-07-01", "FC 로리앙", "로리앙", "2008~2011"),
-         ("psggam", "2013-07-25", "파리 생제르맹", "PSG", "2011~2013"), ("sevgam", "2016-07-30", "세비야", "세비야", "2013~2016"),
-         ("atmgam", "2018-08-12", "아틀레티코 마드리드", "아틀레티코", "2016~2018"), ("valgam", "2021-07-18", "발렌시아", "발렌시아", "2018~2021"),
-         ("strgam", None, "RC 스트라스부르", "스트라스부르", "2021~2024")]
-TM_CLUB = {"667": "strgam", "1158": "lorgam", "583": "psggam", "368": "sevgam", "13": "atmgam", "1049": "valgam"}
+# 클럽 경계: Transfermarkt 이적일(raw/tm_transfer_history.json). 스파르타 두 시기는 같은 키(sparos, 이모빌레 torim 선례).
+CLUBS = [("sparos", "2001-01-01", "스파르타 프라하", "스파르타", "1998~2001"), ("bvbros", "2006-07-01", "보루시아 도르트문트", "도르트문트", "2001~2006"),
+         ("arsros", "2016-08-30", "아스널", "아스널", "2006~2016"), ("sparos", None, "스파르타 프라하", "스파르타", "2016~2017")]
+TM_CLUB = {"197": "sparos", "16": "bvbros", "11": "arsros"}
 def club_of(d):
     for k, u, n, sh, y in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
 SCAL = ()
-JUL10 = ()   # 모두 8월 1일 기준(7월 경기 없음)
+JUL10 = ("sparos", "bvbros")   # 7월 10일 기준(도르트문트 2001.7.11 리가포칼·2001.7.28 분데스리가·2005.7 인터토토, 스파르타 2017.7.30 리그 = 새 시즌; 다른 도르트문트 선수 키와 같음)
 def season_of(d, club):
     if club in SCAL: return d[:4]
     y, m = int(d[:4]), int(d[5:7]); s_ = y if (m >= 8 or (club in JUL10 and m == 7 and int(d[8:10]) >= 10)) else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [(f"{n}({y.replace('~', '-')})" if k == "strgam" else n, u or "9999") for k, u, n, sh, y in CLUBS]
+STINTS = [(f"{n}({y.replace('~', '-')})" if k == "sparos" else n, u or "9999") for k, u, n, sh, y in CLUBS]
 def stint(d):
     for n, u in STINTS:
         if d < u: return n
@@ -575,7 +573,7 @@ if "--stat" in sys.argv:
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
-exec(open(os.path.join(HERE, "note_gameiro.py"), encoding="utf-8").read())   # NOTE_LINES
+exec(open(os.path.join(HERE, "note_rosicky.py"), encoding="utf-8").read())   # NOTE_LINES
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "csa", "lib", "elk", "elq", "cwc", "acl", "mlp", "lcg", "lck"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
@@ -609,7 +607,7 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const GAM_E={J(E)};\nconst GAM_M={J(M)};\nconst GAM_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const ROS_E={J(E)};\nconst ROS_M={J(M)};\nconst ROS_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "fotmob_playermatches_only": PM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
