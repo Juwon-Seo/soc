@@ -1,0 +1,3209 @@
+{
+ "rule": "공식 최종 순위가 승점 감점·우승 박탈·행정 처분으로 경기장 성적과 달라진 시즌은 감점 전 순위(감점을 되돌린 승점 순)를 라벨에 씀. 라벨 괄호 첫머리에 '감점 전 순위'. 시즌 중 퇴출·경기 무효·몰수패(경기 결과 변경)·취소된 감점·진행 중 시즌은 제외.",
+ "changes": [
+  {
+   "line": "2. 분데스리가 1995-96 [18팀]",
+   "team": "VfB Leipzig",
+   "official": 9,
+   "onfield": 10,
+   "reason": "헤르타 BSC 승점 3 감점·1. FC 뉘른베르크 승점 6 감점(전 시즌 라이선스 규정 위반, 영문판 표에는 감점 미기재 → 독일어판으로 확인). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga ; https://de.wikipedia.org/wiki/2._Fu%C3%9Fball-Bundesliga_1995/96"
+  },
+  {
+   "line": "2. 분데스리가 1995-96 [18팀]",
+   "team": "VfB Lübeck",
+   "official": 13,
+   "onfield": 14,
+   "reason": "헤르타 BSC 승점 3 감점·1. FC 뉘른베르크 승점 6 감점(전 시즌 라이선스 규정 위반, 영문판 표에는 감점 미기재 → 독일어판으로 확인). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga ; https://de.wikipedia.org/wiki/2._Fu%C3%9Fball-Bundesliga_1995/96"
+  },
+  {
+   "line": "2. 분데스리가 1995-96 [18팀]",
+   "team": "Hannover 96",
+   "official": 16,
+   "onfield": 17,
+   "reason": "헤르타 BSC 승점 3 감점·1. FC 뉘른베르크 승점 6 감점(전 시즌 라이선스 규정 위반, 영문판 표에는 감점 미기재 → 독일어판으로 확인). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga ; https://de.wikipedia.org/wiki/2._Fu%C3%9Fball-Bundesliga_1995/96"
+  },
+  {
+   "line": "2. 분데스리가 1995-96 [18팀]",
+   "team": "1.FC Nuremberg",
+   "official": 17,
+   "onfield": 16,
+   "reason": "헤르타 BSC 승점 3 감점·1. FC 뉘른베르크 승점 6 감점(전 시즌 라이선스 규정 위반, 영문판 표에는 감점 미기재 → 독일어판으로 확인). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/1995%E2%80%9396_2._Bundesliga ; https://de.wikipedia.org/wiki/2._Fu%C3%9Fball-Bundesliga_1995/96"
+  },
+  {
+   "line": "2. 분데스리가 2007-08 [18팀]",
+   "team": "SV Wehen Wiesbaden",
+   "official": 8,
+   "onfield": 9,
+   "reason": "TuS 코블렌츠 승점 6 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_2._Bundesliga"
+  },
+  {
+   "line": "2. 분데스리가 2008-09 [18팀]",
+   "team": "FC Augsburg",
+   "official": 11,
+   "onfield": 12,
+   "reason": "TuS 코블렌츠 승점 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_2._Bundesliga"
+  },
+  {
+   "line": "독일 3부 2010-11 [20팀]",
+   "team": "SV Wacker Burghausen",
+   "official": 17,
+   "onfield": 18,
+   "reason": "로트바이스 알렌 승점 3 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_3._Liga"
+  },
+  {
+   "line": "독일 3부 2010-11 [20팀]",
+   "team": "SV Werder Bremen II",
+   "official": 18,
+   "onfield": 19,
+   "reason": "로트바이스 알렌 승점 3 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_3._Liga"
+  },
+  {
+   "line": "독일 3부 2010-11 [20팀]",
+   "team": "Rot Weiss Ahlen",
+   "official": 20,
+   "onfield": 16,
+   "reason": "로트바이스 알렌 승점 3 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_3._Liga"
+  },
+  {
+   "line": "독일 3부 2012-13 [20팀]",
+   "team": "FC Hansa Rostock",
+   "official": 12,
+   "onfield": 13,
+   "reason": "키커스 오펜바흐 승점 2 감점(DFB 기금 유용), 아헨 5점 감점(최하위 그대로). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_3._Liga"
+  },
+  {
+   "line": "독일 3부 2012-13 [20팀]",
+   "team": "VfB Stuttgart II",
+   "official": 14,
+   "onfield": 15,
+   "reason": "키커스 오펜바흐 승점 2 감점(DFB 기금 유용), 아헨 5점 감점(최하위 그대로). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_3._Liga"
+  },
+  {
+   "line": "독일 3부 2012-13 [20팀]",
+   "team": "Kickers Offenbach",
+   "official": 15,
+   "onfield": 12,
+   "reason": "키커스 오펜바흐 승점 2 감점(DFB 기금 유용), 아헨 5점 감점(최하위 그대로). 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_3._Liga"
+  },
+  {
+   "line": "독일 3부 2020-21 [20팀]",
+   "team": "MSV Duisburg",
+   "official": 15,
+   "onfield": 16,
+   "reason": "KFC 위어딩겐 승점 3 감점(파산 신청)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_3._Liga"
+  },
+  {
+   "line": "라리가 2003-04",
+   "team": "RCD Espanyol Barcelona",
+   "official": 16,
+   "onfield": 17,
+   "reason": "라싱 산탄데르 승점 1 감점(외국인 출전 한도 초과). 43점 동률: 상대전적 1승1패·동률 → 전체 골득실",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_La_Liga"
+  },
+  {
+   "line": "라리가 2003-04",
+   "team": "RCD Espanyol",
+   "official": 16,
+   "onfield": 17,
+   "reason": "라싱 산탄데르 승점 1 감점(외국인 출전 한도 초과). 43점 동률: 상대전적 1승1패·동률 → 전체 골득실",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_La_Liga"
+  },
+  {
+   "line": "라리가 2003-04",
+   "team": "Racing Santander",
+   "official": 17,
+   "onfield": 16,
+   "reason": "라싱 산탄데르 승점 1 감점(외국인 출전 한도 초과). 43점 동률: 상대전적 1승1패·동률 → 전체 골득실",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_La_Liga"
+  },
+  {
+   "line": "리그1 2012-13",
+   "team": "FC Sochaux-Montbéliard",
+   "official": 15,
+   "onfield": 16,
+   "reason": "AC 아작시오 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1"
+  },
+  {
+   "line": "리그1 2012-13",
+   "team": "Sochaux",
+   "official": 15,
+   "onfield": 16,
+   "reason": "AC 아작시오 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1"
+  },
+  {
+   "line": "리그1 2012-13",
+   "team": "FC Évian Thonon Gaillard",
+   "official": 16,
+   "onfield": 17,
+   "reason": "AC 아작시오 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1"
+  },
+  {
+   "line": "리그1 2012-13",
+   "team": "AC Ajaccio",
+   "official": 17,
+   "onfield": 15,
+   "reason": "AC 아작시오 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1"
+  },
+  {
+   "line": "리그1 2012-13",
+   "team": "Ajaccio",
+   "official": 17,
+   "onfield": 15,
+   "reason": "AC 아작시오 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "Stade Rennais FC",
+   "official": 4,
+   "onfield": 5,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "Rennes",
+   "official": 4,
+   "onfield": 5,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "OGC Nice",
+   "official": 5,
+   "onfield": 4,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "RC Lens",
+   "official": 7,
+   "onfield": 8,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "Lens",
+   "official": 7,
+   "onfield": 8,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "Olympique Lyon",
+   "official": 8,
+   "onfield": 7,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "리그1 2021-22",
+   "team": "Lyon",
+   "official": 8,
+   "onfield": 7,
+   "reason": "니스·리옹 각 승점 1 감점(관중 소요). 리옹-랑스 62점 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_Ligue_1"
+  },
+  {
+   "line": "분데스리가 1999-00",
+   "team": "Borussia Dortmund",
+   "official": 11,
+   "onfield": 12,
+   "reason": "아인트라흐트 프랑크푸르트 승점 2 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Bundesliga"
+  },
+  {
+   "line": "분데스리가 1999-00",
+   "team": "SC Freiburg",
+   "official": 12,
+   "onfield": 13,
+   "reason": "아인트라흐트 프랑크푸르트 승점 2 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Bundesliga"
+  },
+  {
+   "line": "분데스리가 1999-00",
+   "team": "FC Schalke 04",
+   "official": 13,
+   "onfield": 14,
+   "reason": "아인트라흐트 프랑크푸르트 승점 2 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Bundesliga"
+  },
+  {
+   "line": "분데스리가 1999-00",
+   "team": "Eintracht Frankfurt",
+   "official": 13,
+   "onfield": 11,
+   "reason": "아인트라흐트 프랑크푸르트 승점 2 감점(라이선스 위반)",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Bundesliga"
+  },
+  {
+   "line": "분데스리가 2003-04",
+   "team": "SC Freiburg",
+   "official": 13,
+   "onfield": 14,
+   "reason": "1. FC 카이저슬라우테른 승점 3 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Bundesliga"
+  },
+  {
+   "line": "분데스리가 2003-04",
+   "team": "Hannover 96",
+   "official": 14,
+   "onfield": 15,
+   "reason": "1. FC 카이저슬라우테른 승점 3 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Bundesliga"
+  },
+  {
+   "line": "분데스리가 2003-04",
+   "team": "1.FC Kaiserslautern",
+   "official": 15,
+   "onfield": 13,
+   "reason": "1. FC 카이저슬라우테른 승점 3 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Bundesliga"
+  },
+  {
+   "line": "세리에A 1986-87 [16팀]",
+   "team": "FC Empoli",
+   "official": 13,
+   "onfield": 14,
+   "reason": "우디네세 승점 9 감점(토토네로 1986)",
+   "source": "https://en.wikipedia.org/wiki/1986%E2%80%9387_Serie_A"
+  },
+  {
+   "line": "세리에A 1987-88 [16팀]",
+   "team": "Ascoli Calcio 1898",
+   "official": 12,
+   "onfield": 13,
+   "reason": "엠폴리 승점 5 감점. 엠폴리(감점 전 25점)는 베로나·코모와 동률권으로 올라가고 아스콜리·피사·페스카라가 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Serie_A"
+  },
+  {
+   "line": "세리에A 1987-88 [16팀]",
+   "team": "AC Pisa 1909",
+   "official": 13,
+   "onfield": 14,
+   "reason": "엠폴리 승점 5 감점. 엠폴리(감점 전 25점)는 베로나·코모와 동률권으로 올라가고 아스콜리·피사·페스카라가 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Serie_A"
+  },
+  {
+   "line": "세리에A 1987-88 [16팀]",
+   "team": "Pescara Calcio",
+   "official": 14,
+   "onfield": 15,
+   "reason": "엠폴리 승점 5 감점. 엠폴리(감점 전 25점)는 베로나·코모와 동률권으로 올라가고 아스콜리·피사·페스카라가 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1987%E2%80%9388_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Inter Milan",
+   "official": 1,
+   "onfield": 3,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "AS Roma",
+   "official": 2,
+   "onfield": 5,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "AC Milan",
+   "official": 3,
+   "onfield": 2,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Chievo Verona",
+   "official": 4,
+   "onfield": 7,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "US Palermo",
+   "official": 5,
+   "onfield": 8,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "AS Livorno",
+   "official": 6,
+   "onfield": 9,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Parma FC",
+   "official": 7,
+   "onfield": 10,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Parma Calcio 1913",
+   "official": 7,
+   "onfield": 10,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "FC Empoli",
+   "official": 8,
+   "onfield": 11,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "ACF Fiorentina",
+   "official": 9,
+   "onfield": 4,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Fiorentina",
+   "official": 9,
+   "onfield": 4,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Ascoli Calcio 1898",
+   "official": 10,
+   "onfield": 12,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Ascoli",
+   "official": 10,
+   "onfield": 12,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Udinese Calcio",
+   "official": 11,
+   "onfield": 13,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "UC Sampdoria",
+   "official": 12,
+   "onfield": 14,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Reggina Calcio",
+   "official": 13,
+   "onfield": 15,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Cagliari Calcio",
+   "official": 14,
+   "onfield": 16,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "AC Siena",
+   "official": 15,
+   "onfield": 17,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "SS Lazio",
+   "official": 16,
+   "onfield": 6,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Lazio",
+   "official": 16,
+   "onfield": 6,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "FC Messina Peloro",
+   "official": 17,
+   "onfield": 18,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Messina",
+   "official": 17,
+   "onfield": 18,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "US Lecce",
+   "official": 18,
+   "onfield": 19,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Treviso FBC 1993",
+   "official": 19,
+   "onfield": 20,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Treviso",
+   "official": 19,
+   "onfield": 20,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2005-06",
+   "team": "Juventus FC",
+   "official": 20,
+   "onfield": 1,
+   "reason": "칼치오폴리: 유벤투스 최하위 처리(실제 1위), 밀란·피오렌티나·라치오 승점 30 감점",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "SS Lazio",
+   "official": 3,
+   "onfield": 5,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Lazio",
+   "official": 3,
+   "onfield": 5,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "US Palermo",
+   "official": 5,
+   "onfield": 6,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "ACF Fiorentina",
+   "official": 6,
+   "onfield": 3,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Atalanta BC",
+   "official": 8,
+   "onfield": 9,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Atalanta",
+   "official": 8,
+   "onfield": 9,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "UC Sampdoria",
+   "official": 9,
+   "onfield": 10,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Udinese Calcio",
+   "official": 10,
+   "onfield": 11,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "AS Livorno",
+   "official": 11,
+   "onfield": 12,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Parma FC",
+   "official": 12,
+   "onfield": 13,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Parma Calcio 1913",
+   "official": 12,
+   "onfield": 13,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Calcio Catania",
+   "official": 13,
+   "onfield": 15,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "Reggina Calcio",
+   "official": 14,
+   "onfield": 8,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2006-07",
+   "team": "AC Siena",
+   "official": 15,
+   "onfield": 14,
+   "reason": "칼치오폴리 감점: 피오렌티나 15·레지나 11·밀란 8·라치오 3, 시에나 1점 감점. 시에나-카타니아 41점 동률: 상대전적 1-1·1-1 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_A"
+  },
+  {
+   "line": "세리에A 2010-11",
+   "team": "AC Cesena",
+   "official": 15,
+   "onfield": 16,
+   "reason": "볼로냐 승점 3 감점(임금 미지급). 45점 동률 칼리아리가 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_A"
+  },
+  {
+   "line": "세리에A 2010-11",
+   "team": "Bologna FC 1909",
+   "official": 16,
+   "onfield": 15,
+   "reason": "볼로냐 승점 3 감점(임금 미지급). 45점 동률 칼리아리가 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_A"
+  },
+  {
+   "line": "세리에A 2011-12",
+   "team": "Bologna FC 1909",
+   "official": 9,
+   "onfield": 10,
+   "reason": "아탈란타 승점 6 감점(2011-12 승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A"
+  },
+  {
+   "line": "세리에A 2011-12",
+   "team": "Chievo Verona",
+   "official": 10,
+   "onfield": 11,
+   "reason": "아탈란타 승점 6 감점(2011-12 승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A"
+  },
+  {
+   "line": "세리에A 2011-12",
+   "team": "Calcio Catania",
+   "official": 11,
+   "onfield": 12,
+   "reason": "아탈란타 승점 6 감점(2011-12 승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A"
+  },
+  {
+   "line": "세리에A 2011-12",
+   "team": "Catania FC",
+   "official": 11,
+   "onfield": 12,
+   "reason": "아탈란타 승점 6 감점(2011-12 승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A"
+  },
+  {
+   "line": "세리에A 2011-12",
+   "team": "Atalanta BC",
+   "official": 12,
+   "onfield": 9,
+   "reason": "아탈란타 승점 6 감점(2011-12 승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_A"
+  },
+  {
+   "line": "세리에A 2012-13",
+   "team": "US Palermo",
+   "official": 18,
+   "onfield": 19,
+   "reason": "시에나 승점 6 감점 등(승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_A"
+  },
+  {
+   "line": "세리에A 2012-13",
+   "team": "Palermo FC",
+   "official": 18,
+   "onfield": 19,
+   "reason": "시에나 승점 6 감점 등(승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_A"
+  },
+  {
+   "line": "세리에A 2012-13",
+   "team": "AC Siena",
+   "official": 19,
+   "onfield": 18,
+   "reason": "시에나 승점 6 감점 등(승부조작 수사)",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_A"
+  },
+  {
+   "line": "세리에A 2014-15",
+   "team": "AC Cesena",
+   "official": 19,
+   "onfield": 20,
+   "reason": "파르마 승점 7 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A"
+  },
+  {
+   "line": "세리에A 2014-15",
+   "team": "Cesena FC",
+   "official": 19,
+   "onfield": 20,
+   "reason": "파르마 승점 7 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A"
+  },
+  {
+   "line": "세리에A 2014-15",
+   "team": "Parma FC",
+   "official": 20,
+   "onfield": 19,
+   "reason": "파르마 승점 7 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A"
+  },
+  {
+   "line": "세리에A 2014-15",
+   "team": "Parma Calcio 1913",
+   "official": 20,
+   "onfield": 19,
+   "reason": "파르마 승점 7 감점(재정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "Inter Milan",
+   "official": 3,
+   "onfield": 4,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "AC Milan",
+   "official": 4,
+   "onfield": 5,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "Milan",
+   "official": 4,
+   "onfield": 5,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "Atalanta BC",
+   "official": 5,
+   "onfield": 6,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "AS Roma",
+   "official": 6,
+   "onfield": 7,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "Juventus FC",
+   "official": 7,
+   "onfield": 3,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에A 2022-23",
+   "team": "Juventus",
+   "official": 7,
+   "onfield": 3,
+   "reason": "유벤투스 승점 10 감점(플러스발렌차 회계). 72점 동률 인테르와는 상대전적(유벤투스 2-0·1-0 2승) 적용 → 유벤투스 3위",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Serie_A"
+  },
+  {
+   "line": "세리에B 1993-94 [20팀]",
+   "team": "Pescara Calcio",
+   "official": 15,
+   "onfield": 10,
+   "reason": "페스카라 승점 3 감점. 입력 파일의 동률 공동 순위 표기를 유지하고 페스카라가 올라간 만큼 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_B"
+  },
+  {
+   "line": "세리에B 1993-94 [20팀]",
+   "team": "AS Cosenza Calcio",
+   "official": 10,
+   "onfield": 11,
+   "reason": "페스카라 승점 3 감점. 입력 파일의 동률 공동 순위 표기를 유지하고 페스카라가 올라간 만큼 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_B"
+  },
+  {
+   "line": "세리에B 1993-94 [20팀]",
+   "team": "Vicenza Calcio",
+   "official": 10,
+   "onfield": 11,
+   "reason": "페스카라 승점 3 감점. 입력 파일의 동률 공동 순위 표기를 유지하고 페스카라가 올라간 만큼 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_B"
+  },
+  {
+   "line": "세리에B 1993-94 [20팀]",
+   "team": "AS Lucchese Libertas",
+   "official": 11,
+   "onfield": 12,
+   "reason": "페스카라 승점 3 감점. 입력 파일의 동률 공동 순위 표기를 유지하고 페스카라가 올라간 만큼 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_B"
+  },
+  {
+   "line": "세리에B 1993-94 [20팀]",
+   "team": "US Palermo",
+   "official": 14,
+   "onfield": 15,
+   "reason": "페스카라 승점 3 감점. 입력 파일의 동률 공동 순위 표기를 유지하고 페스카라가 올라간 만큼 한 칸씩 밀림",
+   "source": "https://en.wikipedia.org/wiki/1993%E2%80%9394_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "AC Cesena",
+   "official": 8,
+   "onfield": 9,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "Hellas Verona",
+   "official": 10,
+   "onfield": 11,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "Pescara Calcio",
+   "official": 11,
+   "onfield": 12,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "US Palermo",
+   "official": 12,
+   "onfield": 13,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "AS Fidelis Andria",
+   "official": 13,
+   "onfield": 14,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1994-95 [20팀]",
+   "team": "Chievo Verona",
+   "official": 14,
+   "onfield": 15,
+   "reason": "코센차 승점 9 감점. 51점 동률 체세나와는 상대전적(코센차 원정 2-0 승) 우위",
+   "source": "https://en.wikipedia.org/wiki/1994%E2%80%9395_Serie_B"
+  },
+  {
+   "line": "세리에B 1996-97 [20팀]",
+   "team": "US Ravenna",
+   "official": 8,
+   "onfield": 6,
+   "reason": "라벤나 승점 3 감점",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "US Ravenna",
+   "official": 11,
+   "onfield": 12,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "Cosenza Calcio 1914",
+   "official": 12,
+   "onfield": 13,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "Pescara Calcio",
+   "official": 13,
+   "onfield": 14,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "Calcio Monza",
+   "official": 14,
+   "onfield": 15,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "Chievo Verona",
+   "official": 15,
+   "onfield": 16,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 1999-00 [20팀]",
+   "team": "AC Pistoiese",
+   "official": 17,
+   "onfield": 11,
+   "reason": "피스토이에세 승점 4 감점. 49점 동률 테르나나와 상대전적 1승1패 → 골득실로 테르나나 우위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "FC Empoli",
+   "official": 1,
+   "onfield": 2,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Torino Calcio",
+   "official": 2,
+   "onfield": 3,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "AC Perugia",
+   "official": 3,
+   "onfield": 4,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "UC AlbinoLeffe",
+   "official": 11,
+   "onfield": 12,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Calcio Catania",
+   "official": 12,
+   "onfield": 13,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "FC Crotone",
+   "official": 16,
+   "onfield": 14,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Vicenza Calcio",
+   "official": 17,
+   "onfield": 18,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "US Triestina",
+   "official": 18,
+   "onfield": 19,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Pescara Calcio",
+   "official": 19,
+   "onfield": 20,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "AC Venezia 1907",
+   "official": 20,
+   "onfield": 21,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "US Catanzaro",
+   "official": 21,
+   "onfield": 22,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Genoa CFC",
+   "official": 22,
+   "onfield": 1,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Ascoli Calcio 1898",
+   "official": 5,
+   "onfield": 6,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "Hellas Verona",
+   "official": 6,
+   "onfield": 8,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "AC Arezzo",
+   "official": 13,
+   "onfield": 15,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2004-05 [22팀]",
+   "team": "US Salernitana",
+   "official": 14,
+   "onfield": 16,
+   "reason": "제노아 승부조작으로 최하위 처리(실제 1위), 모데나·바리 1점·크로토네 3점 감점. 62점 동률 아스콜리가 모데나에 상대전적 2승",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Vicenza Calcio",
+   "official": 11,
+   "onfield": 12,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Frosinone Calcio",
+   "official": 12,
+   "onfield": 13,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Treviso FBC 1993",
+   "official": 13,
+   "onfield": 14,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "AS Bari",
+   "official": 14,
+   "onfield": 15,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "AC Cesena",
+   "official": 15,
+   "onfield": 17,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Modena FC",
+   "official": 16,
+   "onfield": 18,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "US Triestina",
+   "official": 17,
+   "onfield": 16,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Hellas Verona",
+   "official": 18,
+   "onfield": 19,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "Spezia Calcio 1906",
+   "official": 19,
+   "onfield": 20,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2006-07 [22팀]",
+   "team": "AC Arezzo",
+   "official": 20,
+   "onfield": 11,
+   "reason": "아레초 승점 6 감점, 트리에스티나 1점 감점(유벤투스 9점 감점은 1위 그대로). 49점 3팀 동률은 상대전적(트리에스티나가 체세나 2승·모데나 1승1패)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Serie_B"
+  },
+  {
+   "line": "세리에B 2008-09 [22팀]",
+   "team": "Salernitana Calcio 1919",
+   "official": 14,
+   "onfield": 15,
+   "reason": "아스콜리 승점 1 감점",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Serie_B"
+  },
+  {
+   "line": "세리에B 2009-10 [22팀]",
+   "team": "Reggina Calcio",
+   "official": 13,
+   "onfield": 14,
+   "reason": "안코나 승점 2 감점. 54점 3팀(안코나·모데나·레지나) 동률은 골득실 적용(상대전적 미니리그 미확인)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Serie_B"
+  },
+  {
+   "line": "세리에B 2010-11 [22팀]",
+   "team": "FC Crotone",
+   "official": 11,
+   "onfield": 12,
+   "reason": "아스콜리 승점 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_B"
+  },
+  {
+   "line": "세리에B 2010-11 [22팀]",
+   "team": "Vicenza Calcio",
+   "official": 12,
+   "onfield": 13,
+   "reason": "아스콜리 승점 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_B"
+  },
+  {
+   "line": "세리에B 2010-11 [22팀]",
+   "team": "US Grosseto FC",
+   "official": 15,
+   "onfield": 16,
+   "reason": "아스콜리 승점 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_B"
+  },
+  {
+   "line": "세리에B 2010-11 [22팀]",
+   "team": "US Sassuolo",
+   "official": 16,
+   "onfield": 17,
+   "reason": "아스콜리 승점 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_B"
+  },
+  {
+   "line": "세리에B 2010-11 [22팀]",
+   "team": "Ascoli Calcio 1898",
+   "official": 17,
+   "onfield": 10,
+   "reason": "아스콜리 승점 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "Brescia Calcio",
+   "official": 8,
+   "onfield": 9,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "Brescia Calcio (- 2025)",
+   "official": 8,
+   "onfield": 9,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "SS Juve Stabia",
+   "official": 9,
+   "onfield": 8,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "FC Crotone",
+   "official": 11,
+   "onfield": 13,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "Modena",
+   "official": 12,
+   "onfield": 14,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "Modena FC",
+   "official": 12,
+   "onfield": 14,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "US Grosseto FC",
+   "official": 14,
+   "onfield": 15,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "AS Bari",
+   "official": 13,
+   "onfield": 11,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2011-12 [22팀]",
+   "team": "Ascoli Calcio 1898",
+   "official": 15,
+   "onfield": 10,
+   "reason": "유베 스타비아 4·크로토네 2·바리 6·아스콜리 7점 감점(재정 위반·승부조작). 56점 동률 아스콜리-바리는 상대전적(아스콜리 3-1 승, 0-0) 아스콜리 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "Ternana Calcio",
+   "official": 9,
+   "onfield": 11,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "AS Bari",
+   "official": 10,
+   "onfield": 8,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "FC Crotone",
+   "official": 12,
+   "onfield": 10,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "AC Cesena",
+   "official": 14,
+   "onfield": 15,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "AS Cittadella",
+   "official": 15,
+   "onfield": 16,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "SS Juve Stabia",
+   "official": 16,
+   "onfield": 17,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2012-13 [22팀]",
+   "team": "FC Pro Vercelli 1892",
+   "official": 21,
+   "onfield": 22,
+   "reason": "2011 승부조작 등 감점: 노바라 3·바레세 1·모데나 2·바리 7·크로토네 2·레지나 2·아스콜리 1·그로세토 6. 51점 동률 스페치아가 레지나에 상대전적 우위",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "US Latina Calcio",
+   "official": 3,
+   "onfield": 4,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "AC Cesena",
+   "official": 4,
+   "onfield": 6,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "Modena FC",
+   "official": 5,
+   "onfield": 7,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "AS Bari",
+   "official": 7,
+   "onfield": 5,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "Spezia Calcio",
+   "official": 8,
+   "onfield": 9,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2013-14 [22팀]",
+   "team": "AC Siena",
+   "official": 9,
+   "onfield": 3,
+   "reason": "시에나 승점 8·바리 4·레지나 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Serie_B"
+  },
+  {
+   "line": "세리에B 2015-16 [22팀]",
+   "team": "Novara Calcio 1908",
+   "official": 8,
+   "onfield": 7,
+   "reason": "노바라 승점 2·비르투스 란차노 4 감점",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Serie_B"
+  },
+  {
+   "line": "세리에B 2023-24 [20팀]",
+   "team": "UC Sampdoria",
+   "official": 7,
+   "onfield": 6,
+   "reason": "삼프도리아 승점 2 감점(세금 미납)",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_B"
+  },
+  {
+   "line": "세리에B 2024-25 [20팀]",
+   "team": "Frosinone Calcio",
+   "official": 15,
+   "onfield": 16,
+   "reason": "브레시아 승점 4 감점(세금 미납, 이후 리그 제외)·코센차 4 감점. 43점 동률 프로시노네와는 상대전적(브레시아 4-0 승, 1-2 패) 득실 우위",
+   "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_B"
+  },
+  {
+   "line": "세리에B 2024-25 [20팀]",
+   "team": "US Salernitana 1919",
+   "official": 16,
+   "onfield": 17,
+   "reason": "브레시아 승점 4 감점(세금 미납, 이후 리그 제외)·코센차 4 감점. 43점 동률 프로시노네와는 상대전적(브레시아 4-0 승, 1-2 패) 득실 우위",
+   "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_B"
+  },
+  {
+   "line": "세리에B 2024-25 [20팀]",
+   "team": "UC Sampdoria",
+   "official": 17,
+   "onfield": 18,
+   "reason": "브레시아 승점 4 감점(세금 미납, 이후 리그 제외)·코센차 4 감점. 43점 동률 프로시노네와는 상대전적(브레시아 4-0 승, 1-2 패) 득실 우위",
+   "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_B"
+  },
+  {
+   "line": "세리에B 2024-25 [20팀]",
+   "team": "Brescia Calcio (- 2025)",
+   "official": 18,
+   "onfield": 15,
+   "reason": "브레시아 승점 4 감점(세금 미납, 이후 리그 제외)·코센차 4 감점. 43점 동률 프로시노네와는 상대전적(브레시아 4-0 승, 1-2 패) 득실 우위",
+   "source": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_B"
+  },
+  {
+   "line": "이탈리아 3부 2003-04 [18팀]",
+   "team": "AC Martina 1947",
+   "official": 12,
+   "onfield": 11,
+   "reason": "AC 마르티나 승점 1 감점",
+   "source": "https://en.wikipedia.org/wiki/2003%E2%80%9304_Serie_C1"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "Sorrento Calcio",
+   "official": 2,
+   "onfield": 3,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "SS Virtus Lanciano",
+   "official": 8,
+   "onfield": 9,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "AC Pisa 1909",
+   "official": 10,
+   "onfield": 11,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "SS Barletta Calcio",
+   "official": 11,
+   "onfield": 12,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "AS Andria BAT",
+   "official": 13,
+   "onfield": 14,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "Cavese 1919",
+   "official": 18,
+   "onfield": 16,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "Foligno Calcio",
+   "official": 16,
+   "onfield": 17,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2010-11 [18팀]",
+   "team": "FC Esperia Viareggio",
+   "official": 17,
+   "onfield": 18,
+   "reason": "감점 다수(지로네 A 살레르니타나 5점 등 → 소렌토 3위로; 지로네 B 코센차 6·카베세 6·폴리뇨 4·테르나나 2·포자 2점). 44점 4팀 동률은 골득실, 35점 폴리뇨-카베세는 상대전적(카베세 1승1무) 우위",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2011-12 [18팀]",
+   "team": "US Triestina",
+   "official": 15,
+   "onfield": 16,
+   "reason": "피아첸차 승점 9·페르고크레마 5 감점 등",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "이탈리아 3부 2012-13 [16팀]",
+   "team": "AS Andria BAT",
+   "official": 13,
+   "onfield": 12,
+   "reason": "안드리아 BAT 승점 2 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Lega_Pro_Prima_Divisione"
+  },
+  {
+   "line": "잉글랜드 3부 2004-05 [24팀]",
+   "team": "Oldham Athletic",
+   "official": 19,
+   "onfield": 20,
+   "reason": "렉섬 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Football_League_One"
+  },
+  {
+   "line": "잉글랜드 3부 2007-08 [24팀]",
+   "team": "Luton Town",
+   "official": 24,
+   "onfield": 23,
+   "reason": "루턴 타운 승점 10 감점(법정관리)·리즈 15·본머스 10 감점",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Football_League_One"
+  },
+  {
+   "line": "잉글랜드 3부 2010-11 [24팀]",
+   "team": "Notts County",
+   "official": 19,
+   "onfield": 20,
+   "reason": "플리머스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_One"
+  },
+  {
+   "line": "잉글랜드 3부 2010-11 [24팀]",
+   "team": "Walsall",
+   "official": 20,
+   "onfield": 21,
+   "reason": "플리머스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_One"
+  },
+  {
+   "line": "잉글랜드 3부 2010-11 [24팀]",
+   "team": "Bristol Rovers",
+   "official": 22,
+   "onfield": 23,
+   "reason": "플리머스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Football_League_One"
+  },
+  {
+   "line": "잉글랜드 3부 2023-24 [24팀]",
+   "team": "Wigan Athletic",
+   "official": 12,
+   "onfield": 10,
+   "reason": "위건 승점 8 감점(임금 미지급)·레딩 6점 감점",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_EFL_League_One"
+  },
+  {
+   "line": "잉글랜드 5부 2018-19 [24팀]",
+   "team": "Barnet FC",
+   "official": 12,
+   "onfield": 13,
+   "reason": "게이츠헤드 승점 9 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_National_League"
+  },
+  {
+   "line": "챔피언십 2009-10 [24팀]",
+   "team": "Watford FC",
+   "official": 16,
+   "onfield": 17,
+   "reason": "크리스털 팰리스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2009-10 [24팀]",
+   "team": "Preston North End",
+   "official": 17,
+   "onfield": 18,
+   "reason": "크리스털 팰리스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2009-10 [24팀]",
+   "team": "Barnsley FC",
+   "official": 18,
+   "onfield": 19,
+   "reason": "크리스털 팰리스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2009-10 [24팀]",
+   "team": "Scunthorpe United",
+   "official": 20,
+   "onfield": 21,
+   "reason": "크리스털 팰리스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2009-10 [24팀]",
+   "team": "Crystal Palace",
+   "official": 21,
+   "onfield": 13,
+   "reason": "크리스털 팰리스 승점 10 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2011-12 [24팀]",
+   "team": "Nottingham Forest",
+   "official": 19,
+   "onfield": 20,
+   "reason": "포츠머스 승점 10 감점(법정관리). 50점 3팀 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십 2018-19 [24팀]",
+   "team": "Preston North End",
+   "official": 14,
+   "onfield": 15,
+   "reason": "버밍엄 승점 9 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2018-19 [24팀]",
+   "team": "Blackburn Rovers",
+   "official": 15,
+   "onfield": 16,
+   "reason": "버밍엄 승점 9 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2018-19 [24팀]",
+   "team": "Stoke City",
+   "official": 16,
+   "onfield": 17,
+   "reason": "버밍엄 승점 9 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Queens Park Rangers",
+   "official": 13,
+   "onfield": 14,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Reading FC",
+   "official": 14,
+   "onfield": 15,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Stoke City",
+   "official": 15,
+   "onfield": 16,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Sheffield Wednesday",
+   "official": 16,
+   "onfield": 17,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Middlesbrough FC",
+   "official": 17,
+   "onfield": 18,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Huddersfield Town",
+   "official": 18,
+   "onfield": 19,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Luton Town",
+   "official": 19,
+   "onfield": 20,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Barnsley FC",
+   "official": 21,
+   "onfield": 22,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Barnsley",
+   "official": 21,
+   "onfield": 22,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Charlton Athletic",
+   "official": 22,
+   "onfield": 23,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2019-20 [24팀]",
+   "team": "Wigan Athletic",
+   "official": 23,
+   "onfield": 13,
+   "reason": "위건 승점 12 감점(법정관리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2020-21 [24팀]",
+   "team": "Derby County",
+   "official": 21,
+   "onfield": 22,
+   "reason": "셰필드 웬즈데이 승점 6 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2020-21 [24팀]",
+   "team": "Wycombe Wanderers",
+   "official": 22,
+   "onfield": 23,
+   "reason": "셰필드 웬즈데이 승점 6 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2020-21 [24팀]",
+   "team": "Rotherham United",
+   "official": 23,
+   "onfield": 24,
+   "reason": "셰필드 웬즈데이 승점 6 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2020-21 [24팀]",
+   "team": "Sheffield Wednesday",
+   "official": 24,
+   "onfield": 21,
+   "reason": "셰필드 웬즈데이 승점 6 감점(수익·지속성 규정 위반)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2021-22 [24팀]",
+   "team": "Bristol City",
+   "official": 17,
+   "onfield": 18,
+   "reason": "더비 카운티 승점 21·레딩 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2021-22 [24팀]",
+   "team": "Cardiff City",
+   "official": 18,
+   "onfield": 19,
+   "reason": "더비 카운티 승점 21·레딩 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2021-22 [24팀]",
+   "team": "Reading FC",
+   "official": 21,
+   "onfield": 22,
+   "reason": "더비 카운티 승점 21·레딩 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2021-22 [24팀]",
+   "team": "Peterborough United",
+   "official": 22,
+   "onfield": 23,
+   "reason": "더비 카운티 승점 21·레딩 6 감점",
+   "source": "https://en.wikipedia.org/wiki/2021%E2%80%9322_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2022-23 [24팀]",
+   "team": "Queens Park Rangers",
+   "official": 20,
+   "onfield": 21,
+   "reason": "레딩 승점 6·위건 6(→3) 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2022-23 [24팀]",
+   "team": "Cardiff City",
+   "official": 21,
+   "onfield": 22,
+   "reason": "레딩 승점 6·위건 6(→3) 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2022-23 [24팀]",
+   "team": "Reading FC",
+   "official": 22,
+   "onfield": 20,
+   "reason": "레딩 승점 6·위건 6(→3) 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2022-23 [24팀]",
+   "team": "Blackpool FC",
+   "official": 23,
+   "onfield": 24,
+   "reason": "레딩 승점 6·위건 6(→3) 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship"
+  },
+  {
+   "line": "챔피언십 2022-23 [24팀]",
+   "team": "Wigan Athletic",
+   "official": 24,
+   "onfield": 23,
+   "reason": "레딩 승점 6·위건 6(→3) 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_EFL_Championship"
+  },
+  {
+   "line": "챔피언십(2부) 2011-12 [24팀]",
+   "team": "Peterborough United",
+   "official": 18,
+   "onfield": 19,
+   "reason": "포츠머스 승점 10 감점(법정관리). 50점 3팀 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십(2부) 2011-12 [24팀]",
+   "team": "Portsmouth",
+   "official": 22,
+   "onfield": 18,
+   "reason": "포츠머스 승점 10 감점(법정관리). 50점 3팀 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship"
+  },
+  {
+   "line": "챔피언십(2부) 2011-12 [24팀]",
+   "team": "Portsmouth FC",
+   "official": 22,
+   "onfield": 18,
+   "reason": "포츠머스 승점 10 감점(법정관리). 50점 3팀 동률은 골득실",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Football_League_Championship"
+  },
+  {
+   "line": "프랑스 3부 2008-09 [20팀]",
+   "team": "Rodez AF",
+   "official": 15,
+   "onfield": 16,
+   "reason": "세트·루앙-퀴조 각 승점 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Championnat_National"
+  },
+  {
+   "line": "프랑스 3부 2011-12 [20팀]",
+   "team": "Gazélec Football Club Olympique Ajaccio",
+   "official": 3,
+   "onfield": 2,
+   "reason": "가젤렉 아작시오 승점 2 감점. 68점 동률 님은 골득실 우위",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Championnat_National"
+  },
+  {
+   "line": "프랑스 3부 2012-13 [20팀]",
+   "team": "FC Rouen 1899",
+   "official": 5,
+   "onfield": 3,
+   "reason": "FC 루앙 승점 3 감점",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Championnat_National"
+  },
+  {
+   "line": "프랑스 3부 2025-26 [17팀]",
+   "team": "Football Bourg-en-Bresse Péronnas 01",
+   "official": 15,
+   "onfield": 16,
+   "reason": "샤토루 승점 1 감점. 31점 동률: 상대전적 무승부 2회 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Championnat_National"
+  },
+  {
+   "line": "프랑스 4부 2015-16 [16팀]",
+   "team": "Wasquehal Football",
+   "official": 12,
+   "onfield": 5,
+   "reason": "바스케알 승점 10 감점. 76점 동률 앙탕트 SSG와는 상대전적 미확인 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Championnat_de_France_Amateur"
+  },
+  {
+   "line": "프랑스 4부 2022-23 [16팀]",
+   "team": "Hyères 83 FC",
+   "official": 7,
+   "onfield": 8,
+   "reason": "알레스 승점 5 감점",
+   "source": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Championnat_National_2"
+  },
+  {
+   "line": "프랑스 4부 2023-24 [14팀]",
+   "team": "Bergerac Périgord FC",
+   "official": 5,
+   "onfield": 4,
+   "reason": "베르주라크 승점 3 감점. 40점 동률 리부른과는 상대전적 미확인 → 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Championnat_National_2"
+  },
+  {
+   "line": "프랑스 5부 2025-26 [14팀]",
+   "team": "Vendée Fontenay Foot",
+   "official": 6,
+   "onfield": 7,
+   "reason": "파나졸 승점 4 감점",
+   "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Championnat_National_3"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "West Ham United",
+   "official": 14,
+   "onfield": 15,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "Everton FC",
+   "official": 15,
+   "onfield": 16,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "Southampton FC",
+   "official": 16,
+   "onfield": 17,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "Coventry City",
+   "official": 17,
+   "onfield": 18,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "Sunderland AFC",
+   "official": 18,
+   "onfield": 19,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 1996-97",
+   "team": "Middlesbrough FC",
+   "official": 19,
+   "onfield": 14,
+   "reason": "미들즈브러 승점 3 감점(경기 불참). 42점 동률은 골득실·다득점(웨스트햄과 골득실 같고 다득점 우위)",
+   "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "AFC Bournemouth",
+   "official": 12,
+   "onfield": 13,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "Fulham FC",
+   "official": 13,
+   "onfield": 14,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "Fulham",
+   "official": 13,
+   "onfield": 14,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "Wolverhampton Wanderers",
+   "official": 14,
+   "onfield": 15,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "Everton FC",
+   "official": 15,
+   "onfield": 12,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "프리미어리그 2023-24",
+   "team": "Everton",
+   "official": 15,
+   "onfield": 12,
+   "reason": "에버턴 승점 8 감점(수익·지속성 규정 위반)·노팅엄 4점 감점. 48점 동률 본머스와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Premier_League"
+  },
+  {
+   "line": "세리에B 2014-15 [22팀]",
+   "team": "Modena FC",
+   "official": 18,
+   "onfield": 19,
+   "reason": "브레시아 승점 6 감점(카타니아 승부조작 최하위 처리는 입력 순위에 이미 미반영 상태). 48점 동률 크로토네와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_B"
+  },
+  {
+   "line": "세리에B 2014-15 [22팀]",
+   "team": "AS Cittadella",
+   "official": 20,
+   "onfield": 21,
+   "reason": "브레시아 승점 6 감점(카타니아 승부조작 최하위 처리는 입력 순위에 이미 미반영 상태). 48점 동률 크로토네와 골득실",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_B"
+  },
+  {
+   "line": "프랑스 3부 2006-07 [20팀]",
+   "team": "Vannes OC",
+   "official": 15,
+   "onfield": 12,
+   "reason": "반 OC·칸 각 승점 3 감점(DNCG). 45점 동률 칸과는 골득실(특정 상대 득실 미확인)",
+   "source": "https://fr.wikipedia.org/wiki/Championnat_de_France_de_football_de_troisi%C3%A8me_division_2006-2007"
+  },
+  {
+   "line": "프랑스 4부 2009-10 [18팀]",
+   "team": "FC Montceau Bourgogne",
+   "official": 11,
+   "onfield": 9,
+   "reason": "FC 몽소 부르고뉴 승점 3 감점(CFA 승4·무2·패1 점수제)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Championnat_de_France_Amateur"
+  },
+  {
+   "line": "프랑스 4부 2003-04 [18팀]",
+   "team": "Aviron Bayonnais",
+   "official": 1,
+   "onfield": 2,
+   "reason": "SC 툴롱 승점 1 감점 → 101점 동률. 상대전적 미확인 → 골득실(툴롱 +24 > 바욘 +20)",
+   "source": "https://fr.wikipedia.org/wiki/Championnat_de_France_de_football_de_quatri%C3%A8me_division_2003-2004"
+  },
+  {
+   "line": "쉬페르리그 2023-24 [20팀]",
+   "team": "Gaziantep FK",
+   "official": 11,
+   "onfield": 12,
+   "reason": "카이세리스포르 승점 3점 감점(FIFA 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_S%C3%BCper_Lig"
+  },
+  {
+   "line": "쉬페르리그 2023-24 [20팀]",
+   "team": "Adana Demirspor",
+   "official": 12,
+   "onfield": 13,
+   "reason": "카이세리스포르 승점 3점 감점(FIFA 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_S%C3%BCper_Lig"
+  },
+  {
+   "line": "쉬페르리그 2023-24 [20팀]",
+   "team": "Samsunspor",
+   "official": 13,
+   "onfield": 14,
+   "reason": "카이세리스포르 승점 3점 감점(FIFA 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_S%C3%BCper_Lig"
+  },
+  {
+   "line": "쉬페르리그 2023-24 [20팀]",
+   "team": "Kayserispor",
+   "official": 14,
+   "onfield": 11,
+   "reason": "카이세리스포르 승점 3점 감점(FIFA 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_S%C3%BCper_Lig"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "BSC Young Boys",
+   "official": 3,
+   "onfield": 4,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "Servette FC",
+   "official": 4,
+   "onfield": 5,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "FC Zürich",
+   "official": 6,
+   "onfield": 7,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "FC Lausanne-Sport",
+   "official": 7,
+   "onfield": 8,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "Grasshopper Club Zurich",
+   "official": 8,
+   "onfield": 9,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 1부 2011-12 [10팀]",
+   "team": "FC Sion",
+   "official": 9,
+   "onfield": 3,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "스위스 슈퍼리그 2011-12 [10팀]",
+   "team": "FC Thun",
+   "official": 5,
+   "onfield": 6,
+   "reason": "시옹 승점 36점 감점(자격 없는 선수 출전 징계) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Swiss_Super_League"
+  },
+  {
+   "line": "슬로베니아 2009-10 [10팀]",
+   "team": "ND Gorica",
+   "official": 3,
+   "onfield": 4,
+   "reason": "올림피야 승점 2점 감점 되돌림(55점 동률, 상대 전적 올림피야 우위)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Slovenian_PrvaLiga"
+  },
+  {
+   "line": "슬로베니아 2009-10 [10팀]",
+   "team": "NK Olimpija Ljubljana",
+   "official": 4,
+   "onfield": 3,
+   "reason": "올림피야 승점 2점 감점 되돌림(55점 동률, 상대 전적 올림피야 우위)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Slovenian_PrvaLiga"
+  },
+  {
+   "line": "에레디비시 2014-15",
+   "team": "FC Groningen",
+   "official": 8,
+   "onfield": 9,
+   "reason": "트벤테 재정 규정 위반 승점 6점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eredivisie"
+  },
+  {
+   "line": "에레디비시 2014-15",
+   "team": "Willem II Tilburg",
+   "official": 9,
+   "onfield": 10,
+   "reason": "트벤테 재정 규정 위반 승점 6점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eredivisie"
+  },
+  {
+   "line": "에레디비시 2014-15",
+   "team": "FC Twente Enschede",
+   "official": 10,
+   "onfield": 8,
+   "reason": "트벤테 재정 규정 위반 승점 6점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Eredivisie"
+  },
+  {
+   "line": "에레디비시 2015-16",
+   "team": "SC Heerenveen",
+   "official": 12,
+   "onfield": 13,
+   "reason": "트벤테 재정 규정 위반 승점 3점 감점 되돌림(트벤테 43점, ADO와 동률이나 골득실로 ADO 11위)",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Eredivisie"
+  },
+  {
+   "line": "에이르스터 디비시(네덜란드 2부) 2007-08 [20팀]",
+   "team": "BV Veendam",
+   "official": 15,
+   "onfield": 14,
+   "reason": "페인담·AGOVV 재정 문제 승점 3점씩 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie"
+  },
+  {
+   "line": "에이르스터 디비시(네덜란드 2부) 2007-08 [20팀]",
+   "team": "Fortuna Sittard",
+   "official": 16,
+   "onfield": 17,
+   "reason": "페인담·AGOVV 재정 문제 승점 3점씩 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie"
+  },
+  {
+   "line": "에이르스터 디비시(네덜란드 2부) 2007-08 [20팀]",
+   "team": "Cambuur-Leeuwarden bvo",
+   "official": 17,
+   "onfield": 18,
+   "reason": "페인담·AGOVV 재정 문제 승점 3점씩 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Eerste_Divisie"
+  },
+  {
+   "line": "에이르스터 디비시(네덜란드 2부) 2008-09 [20팀]",
+   "team": "SC Telstar",
+   "official": 17,
+   "onfield": 18,
+   "reason": "에인트호번·페인담 승점 3점씩 감점 되돌림(페인담은 텔스타와 동점이나 골득실로 19위 유지)",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Eerste_Divisie"
+  },
+  {
+   "line": "에이르스터 디비시(네덜란드 2부) 2008-09 [20팀]",
+   "team": "FC Eindhoven",
+   "official": 18,
+   "onfield": 16,
+   "reason": "에인트호번·페인담 승점 3점씩 감점 되돌림(페인담은 텔스타와 동점이나 골득실로 19위 유지)",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Eerste_Divisie"
+  },
+  {
+   "line": "엑스트라클라사 2009-10 [16팀]",
+   "team": "Korona Kielce",
+   "official": 6,
+   "onfield": 7,
+   "reason": "야기엘로니아 승부조작 연루 승점 10점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ekstraklasa"
+  },
+  {
+   "line": "엑스트라클라사 2009-10 [16팀]",
+   "team": "Polonia Bytom",
+   "official": 7,
+   "onfield": 8,
+   "reason": "야기엘로니아 승부조작 연루 승점 10점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ekstraklasa"
+  },
+  {
+   "line": "엑스트라클라사 2009-10 [16팀]",
+   "team": "Slask Wroclaw",
+   "official": 9,
+   "onfield": 10,
+   "reason": "야기엘로니아 승부조작 연루 승점 10점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ekstraklasa"
+  },
+  {
+   "line": "엑스트라클라사 2009-10 [16팀]",
+   "team": "Zaglebie Lubin",
+   "official": 10,
+   "onfield": 11,
+   "reason": "야기엘로니아 승부조작 연루 승점 10점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ekstraklasa"
+  },
+  {
+   "line": "엑스트라클라사 2009-10 [16팀]",
+   "team": "Jagiellonia Bialystok",
+   "official": 11,
+   "onfield": 6,
+   "reason": "야기엘로니아 승부조작 연루 승점 10점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Ekstraklasa"
+  },
+  {
+   "line": "오스트리아 2006-07 [10팀]",
+   "team": "Austria Vienna",
+   "official": 6,
+   "onfield": 7,
+   "reason": "슈투름 그라츠 13점·GAK 28점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "오스트리아 분데스리가 2013-14 [10팀]",
+   "team": "Wolfsberger AC",
+   "official": 7,
+   "onfield": 8,
+   "reason": "아드미라 라이선스 규정 위반 승점 5점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "오스트리아 분데스리가 2013-14 [10팀]",
+   "team": "Wiener Neustadt",
+   "official": 8,
+   "onfield": 9,
+   "reason": "아드미라 라이선스 규정 위반 승점 5점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "오스트리아 분데스리가 2013-14 [10팀]",
+   "team": "Adm/Modling",
+   "official": 9,
+   "onfield": 7,
+   "reason": "아드미라 라이선스 규정 위반 승점 5점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "오스트리아 분데스리가 2019-20 [12팀]",
+   "team": "Wolfsberger AC",
+   "official": 3,
+   "onfield": 4,
+   "reason": "LASK 코로나 방역 규정 위반 감점(챔피언십 라운드 기준 최종 4점) 되돌림 → LASK 37점",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "오스트리아 분데스리가 2019-20 [12팀]",
+   "team": "LASK",
+   "official": 4,
+   "onfield": 3,
+   "reason": "LASK 코로나 방역 규정 위반 감점(챔피언십 라운드 기준 최종 4점) 되돌림 → LASK 37점",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "우크라이나 1부 2013-14 [16팀]",
+   "team": "Goverla Uzhgorod",
+   "official": 12,
+   "onfield": 13,
+   "reason": "볼린 루츠크 승점 3점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2013-14 [16팀]",
+   "team": "Volyn Lutsk",
+   "official": 13,
+   "onfield": 12,
+   "reason": "볼린 루츠크 승점 3점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2014-15 [14팀]",
+   "team": "Metalurg Zaporizhya",
+   "official": 7,
+   "onfield": 9,
+   "reason": "볼린 9점·메탈루르흐 도네츠크 6점·카르파티 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2014-15 [14팀]",
+   "team": "Volyn Lutsk",
+   "official": 9,
+   "onfield": 7,
+   "reason": "볼린 9점·메탈루르흐 도네츠크 6점·카르파티 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2014-15 [14팀]",
+   "team": "Metalurg Donetsk",
+   "official": 10,
+   "onfield": 8,
+   "reason": "볼린 9점·메탈루르흐 도네츠크 6점·카르파티 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2014-15 [14팀]",
+   "team": "Chornomorets Odesa",
+   "official": 11,
+   "onfield": 12,
+   "reason": "볼린 9점·메탈루르흐 도네츠크 6점·카르파티 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2014-15 [14팀]",
+   "team": "Goverla Uzhgorod",
+   "official": 12,
+   "onfield": 13,
+   "reason": "볼린 9점·메탈루르흐 도네츠크 6점·카르파티 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2015-16 [14팀]",
+   "team": "Volyn Lutsk",
+   "official": 12,
+   "onfield": 7,
+   "reason": "볼린 18점·호베를라 9점 감점 되돌림(볼린 38점, 올렉산드리야와 동점이나 골득실로 7위)",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Ukrainian_Premier_League"
+  },
+  {
+   "line": "체코 2004-05 [16팀]",
+   "team": "FC Slovan Liberec",
+   "official": 5,
+   "onfield": 4,
+   "reason": "리베레츠 6점·슬로바츠코 12점·오파바 6점 승부조작 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Czech_First_League"
+  },
+  {
+   "line": "체코 2004-05 [16팀]",
+   "team": "FC Banik Ostrava",
+   "official": 7,
+   "onfield": 8,
+   "reason": "리베레츠 6점·슬로바츠코 12점·오파바 6점 승부조작 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Czech_First_League"
+  },
+  {
+   "line": "튀르키예 2부 2016-17 [18팀]",
+   "team": "Elazigspor",
+   "official": 10,
+   "onfield": 9,
+   "reason": "엘라즈으스포르 6점 등 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_TFF_1._Lig"
+  },
+  {
+   "line": "튀르키예 2부 2017-18 [18팀]",
+   "team": "Adana Demirspor",
+   "official": 13,
+   "onfield": 14,
+   "reason": "발르케시르·에스키셰히르 3점, 마니사·가지안테프 9점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_TFF_1._Lig"
+  },
+  {
+   "line": "튀르키예 2부 2019-20 [18팀]",
+   "team": "Akhisarspor",
+   "official": 4,
+   "onfield": 5,
+   "reason": "부르사스포르 3점 등 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_TFF_1._Lig"
+  },
+  {
+   "line": "튀르키예 3부 2015-16 [18팀]",
+   "team": "Amed SK",
+   "official": 8,
+   "onfield": 6,
+   "reason": "아메드·앙카라귀쥐·부자스포르 등 3점씩 감점 되돌림(아메드 50점, 귀뮈쉬하네와 동점이나 상대 전적 열세로 6위)",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_TFF_2._Lig"
+  },
+  {
+   "line": "포르투갈 1부 2007-08",
+   "team": "SC Braga",
+   "official": 7,
+   "onfield": 8,
+   "reason": "벨레넨세스 자격 없는 선수 출전 승점 3점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Primeira_Liga"
+  },
+  {
+   "line": "포르투갈 1부 2007-08",
+   "team": "CF Os Belenenses",
+   "official": 8,
+   "onfield": 7,
+   "reason": "벨레넨세스 자격 없는 선수 출전 승점 3점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Primeira_Liga"
+  },
+  {
+   "line": "폴란드 2부 2007-08 [18팀]",
+   "team": "Slask Wroclaw",
+   "official": 2,
+   "onfield": 4,
+   "reason": "아르카 5점·포드베스키지에 6점 승부조작 감점 되돌림(포드베스키지에·실롱스크 64점 동률, 상대 전적 골득실로 포드베스키지에 3위)",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_I_liga"
+  },
+  {
+   "line": "폴란드 2부 2007-08 [18팀]",
+   "team": "Piast Gliwice",
+   "official": 3,
+   "onfield": 5,
+   "reason": "아르카 5점·포드베스키지에 6점 승부조작 감점 되돌림(포드베스키지에·실롱스크 64점 동률, 상대 전적 골득실로 포드베스키지에 3위)",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_I_liga"
+  },
+  {
+   "line": "폴란드 2부 2007-08 [18팀]",
+   "team": "Arka Gdynia",
+   "official": 4,
+   "onfield": 2,
+   "reason": "아르카 5점·포드베스키지에 6점 승부조작 감점 되돌림(포드베스키지에·실롱스크 64점 동률, 상대 전적 골득실로 포드베스키지에 3위)",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_I_liga"
+  },
+  {
+   "line": "헝가리 2004-05 [16팀]",
+   "team": "Ferencvárosi TC",
+   "official": 2,
+   "onfield": 3,
+   "reason": "MTK 1점·페헤르바르 3점·베케슈처버 15점 감점 되돌림(MTK 57점으로 2위)",
+   "source": "https://en.wikipedia.org/wiki/2004%E2%80%9305_Nemzeti_Bajnoks%C3%A1g_I"
+  },
+  {
+   "line": "그리스 1부 2015-16 [16팀]",
+   "team": "Atromitos Athens",
+   "official": 8,
+   "onfield": 7,
+   "reason": "아트로미토스 등 4팀 관중 소요 승점 3점씩 감점 되돌림(아트로미토스 42점, PAS와 동점이나 상대 전적 열세로 7위)",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Super_League_Greece"
+  },
+  {
+   "line": "그리스 2015-16 [16팀]",
+   "team": "Asteras Tripolis",
+   "official": 7,
+   "onfield": 8,
+   "reason": "아트로미토스 승점 3점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2015%E2%80%9316_Super_League_Greece"
+  },
+  {
+   "line": "그리스 1부 2017-18 [16팀]",
+   "team": "Panathinaikos",
+   "official": 11,
+   "onfield": 7,
+   "reason": "파나티나이코스 8점(관중 2점·재정 6점) 감점 되돌림(40점, 파니오니오스와 동점이나 상대 전적 골득실 우위로 7위)",
+   "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Super_League_Greece"
+  },
+  {
+   "line": "그리스 슈퍼리그 2017-18 [16팀]",
+   "team": "PAS Giannina",
+   "official": 9,
+   "onfield": 10,
+   "reason": "파나티나이코스 8점 감점 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Super_League_Greece"
+  },
+  {
+   "line": "그리스 슈퍼리그 2016-17 [16팀]",
+   "team": "Asteras Tripolis",
+   "official": 12,
+   "onfield": 13,
+   "reason": "이라클리스(29점, 실제 12위)를 리그 이사회가 재정 문제로 15위에 배치한 행정 처분을 되돌림",
+   "source": "https://el.wikipedia.org/wiki/%CE%A3%CE%BF%CF%8D%CF%80%CE%B5%CF%81_%CE%9B%CE%AF%CE%B3%CE%BA%CE%B1_2016%E2%80%9317"
+  },
+  {
+   "line": "그리스 슈퍼리그 2019-20 [14팀]",
+   "team": "PAS Lamia 1964",
+   "official": 10,
+   "onfield": 11,
+   "reason": "크산티 12점(공동 소유)·파니오니오스 6점(라이선스) 감점 되돌림(크산티 36점, AEL과 동점이나 상대 전적 골득실로 10위; 파네톨리코스가 상대 전적으로 파니오니오스 앞)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Super_League_Greece"
+  },
+  {
+   "line": "그리스 슈퍼리그 2019-20 [14팀]",
+   "team": "Volos NFC",
+   "official": 11,
+   "onfield": 12,
+   "reason": "크산티 12점(공동 소유)·파니오니오스 6점(라이선스) 감점 되돌림(크산티 36점, AEL과 동점이나 상대 전적 골득실로 10위; 파네톨리코스가 상대 전적으로 파니오니오스 앞)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Super_League_Greece"
+  },
+  {
+   "line": "그리스 슈퍼리그 2019-20 [14팀]",
+   "team": "Panetolikos",
+   "official": 12,
+   "onfield": 13,
+   "reason": "크산티 12점(공동 소유)·파니오니오스 6점(라이선스) 감점 되돌림(크산티 36점, AEL과 동점이나 상대 전적 골득실로 10위; 파네톨리코스가 상대 전적으로 파니오니오스 앞)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Super_League_Greece"
+  },
+  {
+   "line": "그리스 슈퍼리그 2019-20 [14팀]",
+   "team": "Xanthi FC",
+   "official": 13,
+   "onfield": 10,
+   "reason": "크산티 12점(공동 소유)·파니오니오스 6점(라이선스) 감점 되돌림(크산티 36점, AEL과 동점이나 상대 전적 골득실로 10위; 파네톨리코스가 상대 전적으로 파니오니오스 앞)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Super_League_Greece"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Goiás EC",
+   "official": 6,
+   "onfield": 7,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Sport Club Internacional",
+   "official": 8,
+   "onfield": 9,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Fluminense Football Club",
+   "official": 9,
+   "onfield": 10,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Associação Atlética Ponte Preta",
+   "official": 10,
+   "onfield": 11,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Figueirense Futebol Clube",
+   "official": 11,
+   "onfield": 12,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Coritiba Foot Ball Club",
+   "official": 12,
+   "onfield": 13,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Cruzeiro Esporte Clube",
+   "official": 13,
+   "onfield": 14,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Paysandu SC",
+   "official": 14,
+   "onfield": 15,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Paraná Clube",
+   "official": 15,
+   "onfield": 16,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "Clube de Regatas Vasco da Gama",
+   "official": 16,
+   "onfield": 17,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "CR Flamengo",
+   "official": 17,
+   "onfield": 18,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2004 [24팀]",
+   "team": "AD São Caetano (SP)",
+   "official": 18,
+   "onfield": 5,
+   "reason": "상파울루 상카에타누 -24점(세르지뉴 사망 사건) 되돌림: 77점 5위",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "Esporte Clube Bahia",
+   "official": 12,
+   "onfield": 14,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "Sport Club Internacional",
+   "official": 13,
+   "onfield": 15,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "Criciúma EC",
+   "official": 14,
+   "onfield": 16,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "Fluminense Football Club",
+   "official": 15,
+   "onfield": 17,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "CR Flamengo",
+   "official": 16,
+   "onfield": 11,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2013 [20팀]",
+   "team": "Portuguesa",
+   "official": 17,
+   "onfield": 12,
+   "reason": "플라멩구·포르투게자 각 -4점(38라운드 출전정지 선수 기용, 상대 승점 변화 없음) 되돌림; 승점 동률은 승수→득실",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2018 [20팀]",
+   "team": "América Futebol Clube (MG)",
+   "official": 17,
+   "onfield": 18,
+   "reason": "스포르트 헤시피 -3점(선수 급여 체불) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2018_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 2018 [20팀]",
+   "team": "Sport Club do Recife",
+   "official": 18,
+   "onfield": 17,
+   "reason": "스포르트 헤시피 -3점(선수 급여 체불) 되돌림",
+   "source": "https://en.wikipedia.org/wiki/2018_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 B 2004 [24팀]",
+   "team": "Marília AC (SP)",
+   "official": 6,
+   "onfield": 7,
+   "reason": "산투안드레 -12점(1·2라운드 부정 선수 기용, 상대 승점 부여 없음) 되돌림: 41점 5위 (1단계 순위표)",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_B"
+  },
+  {
+   "line": "브라질 세리에 B 2004 [24팀]",
+   "team": "EC Santo André",
+   "official": 14,
+   "onfield": 5,
+   "reason": "산투안드레 -12점(1·2라운드 부정 선수 기용, 상대 승점 부여 없음) 되돌림: 41점 5위 (1단계 순위표)",
+   "source": "https://en.wikipedia.org/wiki/2004_Campeonato_Brasileiro_S%C3%A9rie_B"
+  },
+  {
+   "line": "브라질 세리에 B 2006 [20팀]",
+   "team": "Portuguesa",
+   "official": 14,
+   "onfield": 15,
+   "reason": "과라니 -3점(FIFA 징계) 되돌림: 47점 12위",
+   "source": "https://en.wikipedia.org/wiki/2006_Campeonato_Brasileiro_S%C3%A9rie_B"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "Club de Gimnasia y Esgrima La Plata",
+   "official": 12,
+   "onfield": 13,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "CA Newell's Old Boys",
+   "official": 13,
+   "onfield": 14,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "CA Unión (Santa Fe)",
+   "official": 15,
+   "onfield": 16,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "Instituto ACC",
+   "official": 16,
+   "onfield": 12,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "CA Colón",
+   "official": 17,
+   "onfield": 18,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 1999 [20팀]",
+   "team": "Club Atlético Belgrano",
+   "official": 18,
+   "onfield": 17,
+   "reason": "아페르투라 1999: 산로렌소·벨레스·인스티투토·벨그라노 각 -3점(관중 폭력 등) 되돌림; 동률은 득실",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2000 [20팀]",
+   "team": "CA Independiente",
+   "official": 2,
+   "onfield": 3,
+   "reason": "클라우수라 2000: 보카 주니어스·라누스 각 -3점 되돌림; 36점 동률(보카·인데펜디엔테·콜론·산로렌소)은 득실로 보카 2위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2000 [20팀]",
+   "team": "CA San Lorenzo de Almagro",
+   "official": 4,
+   "onfield": 5,
+   "reason": "클라우수라 2000: 보카 주니어스·라누스 각 -3점 되돌림; 36점 동률(보카·인데펜디엔테·콜론·산로렌소)은 득실로 보카 2위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2000 [20팀]",
+   "team": "CA Newell's Old Boys",
+   "official": 5,
+   "onfield": 6,
+   "reason": "클라우수라 2000: 보카 주니어스·라누스 각 -3점 되돌림; 36점 동률(보카·인데펜디엔테·콜론·산로렌소)은 득실로 보카 2위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2000 [20팀]",
+   "team": "CA Vélez Sarsfield",
+   "official": 6,
+   "onfield": 7,
+   "reason": "클라우수라 2000: 보카 주니어스·라누스 각 -3점 되돌림; 36점 동률(보카·인데펜디엔테·콜론·산로렌소)은 득실로 보카 2위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2000 [20팀]",
+   "team": "CA Boca Juniors",
+   "official": 7,
+   "onfield": 2,
+   "reason": "클라우수라 2000: 보카 주니어스·라누스 각 -3점 되돌림; 36점 동률(보카·인데펜디엔테·콜론·산로렌소)은 득실로 보카 2위",
+   "source": "https://en.wikipedia.org/wiki/1999%E2%80%932000_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 1999 [20팀]",
+   "team": "Club de Gimnasia y Esgrima La Plata",
+   "official": 8,
+   "onfield": 9,
+   "reason": "클라우수라 1999: 콜론 -3점 되돌림(26점, 득실 +6으로 힘나시아 LP(-4)보다 앞서 8위)",
+   "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 1999 [20팀]",
+   "team": "Club Atlético Gimnasia y Esgrima (Jujuy)",
+   "official": 10,
+   "onfield": 11,
+   "reason": "클라우수라 1999: 콜론 -3점 되돌림(26점, 득실 +6으로 힘나시아 LP(-4)보다 앞서 8위)",
+   "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 1999 [20팀]",
+   "team": "AA Argentinos Juniors",
+   "official": 11,
+   "onfield": 12,
+   "reason": "클라우수라 1999: 콜론 -3점 되돌림(26점, 득실 +6으로 힘나시아 LP(-4)보다 앞서 8위)",
+   "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 1999 [20팀]",
+   "team": "CA Colón",
+   "official": 12,
+   "onfield": 8,
+   "reason": "클라우수라 1999: 콜론 -3점 되돌림(26점, 득실 +6으로 힘나시아 LP(-4)보다 앞서 8위)",
+   "source": "https://en.wikipedia.org/wiki/1998%E2%80%9399_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2001 [20팀]",
+   "team": "Club Atlético Belgrano",
+   "official": 16,
+   "onfield": 17,
+   "reason": "클라우수라 2001: 로스안데스 -3점 되돌림(21점, 15위)",
+   "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2001 [20팀]",
+   "team": "CA Independiente",
+   "official": 17,
+   "onfield": 18,
+   "reason": "클라우수라 2001: 로스안데스 -3점 되돌림(21점, 15위)",
+   "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2001 [20팀]",
+   "team": "Club de Gimnasia y Esgrima La Plata",
+   "official": 18,
+   "onfield": 19,
+   "reason": "클라우수라 2001: 로스안데스 -3점 되돌림(21점, 15위)",
+   "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "아르헨티나 1부 클라우수라 2001 [20팀]",
+   "team": "CA Los Andes",
+   "official": 19,
+   "onfield": 15,
+   "reason": "클라우수라 2001: 로스안데스 -3점 되돌림(21점, 15위)",
+   "source": "https://en.wikipedia.org/wiki/2000%E2%80%9301_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "멕시코 1부 2006-07 [18팀]",
+   "team": "Club Atlético Morelia",
+   "official": 12,
+   "onfield": 13,
+   "reason": "아페르투라 2006: 산루이스 -3점(21세 이하 출전 규정 위반) 되돌림 → 23점 동률에서 득실 +2로 모렐리아(-2) 앞섬 (케레타로 -3점은 순위 변동 없음)",
+   "source": "https://en.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_M%C3%A9xico_Apertura_2006"
+  },
+  {
+   "line": "우루과이 1부 2014-15 연간 [16팀]",
+   "team": "Montevideo Wanderers",
+   "official": 11,
+   "onfield": 12,
+   "reason": "연간표: 세로 -1점 되돌림 → 35점으로 34점 동률군(완더러스·아테나스·렌티스타스) 위 11위",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Campeonato_Uruguayo_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "이란 1부 2017-18 [16팀]",
+   "team": "Gostaresh Foolad FC",
+   "official": 9,
+   "onfield": 10,
+   "reason": "파디데 -6점(FIFA 징계) 되돌림: 39점 9위",
+   "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Persian_Gulf_Pro_League"
+  },
+  {
+   "line": "이란 1부 2017-18 [16팀]",
+   "team": "Tractor FC",
+   "official": 10,
+   "onfield": 11,
+   "reason": "파디데 -6점(FIFA 징계) 되돌림: 39점 9위",
+   "source": "https://en.wikipedia.org/wiki/2017%E2%80%9318_Persian_Gulf_Pro_League"
+  },
+  {
+   "line": "이란 2부 2013-14 [13팀]",
+   "team": "Yazd Louleh FC",
+   "official": 10,
+   "onfield": 11,
+   "reason": "B조: 바드르 호르모즈간(Albadr Bandar Kong) -6점(전 시즌 승부조작 연루) 되돌림 → 31점 동률 3팀 중 득실 -9로 9위",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Azadegan_League"
+  },
+  {
+   "line": "이란 2부 2013-14 [13팀]",
+   "team": "Badr Hormozgan FC",
+   "official": 11,
+   "onfield": 9,
+   "reason": "B조: 바드르 호르모즈간(Albadr Bandar Kong) -6점(전 시즌 승부조작 연루) 되돌림 → 31점 동률 3팀 중 득실 -9로 9위",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Azadegan_League"
+  },
+  {
+   "line": "페루 1부 2012 [16팀]",
+   "team": "Club Alianza Lima",
+   "official": 14,
+   "onfield": 12,
+   "reason": "통합표: 알리안사 리마 -4점(선수 임금 체불)·우니베르시타리오 -1점 되돌림(보너스 +점은 유지) → 57점 동률(시엔시아노 득실 -1·58득점, 알리안사 -1·50득점, 우니온 코메르시오 -10)에서 12위",
+   "source": "https://en.wikipedia.org/wiki/2012_Torneo_Descentralizado"
+  }
+ ],
+ "excluded": [
+  {
+   "line": "세군다 2018-19 [22팀]",
+   "reason": "CF 레우스 시즌 중(전반기 후) 퇴출, 후반기 경기 무효 처리 — 감점이 아니라 퇴출이므로 제외(우리 팀 순위 영향 없음)",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n"
+  },
+  {
+   "line": "세군다(2부) 2018-19 [22팀]",
+   "reason": "같은 사례(레우스 퇴출) — 제외",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Segunda_Divisi%C3%B3n"
+  },
+  {
+   "line": "리그1 1992-93",
+   "reason": "영문판 표에 마르세유·발랑시엔 승점 -1이 있으나 각주 없음. 프랑스어판은 OM 22승9무7패 53점, VA 9승11무18패 29점으로 무/패 기록 자체가 다름(VA-OM 경기 결과 처리 차이로 보임). 감점이 아닌 기록 차이라 판단 애매 → 제외(릴 17위 유지). 마르세유 우승 박탈은 1위 자리 그대로",
+   "source": "https://en.wikipedia.org/wiki/1992%E2%80%9393_French_Division_1 ; https://fr.wikipedia.org/wiki/Championnat_de_France_de_football_1992-1993"
+  },
+  {
+   "line": "리그1 2019-20",
+   "reason": "코로나 조기 종료로 경기당 승점 순위(앙제·스트라스부르 순서 차이는 감점 아님) — 제외",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Ligue_1"
+  },
+  {
+   "line": "잉글랜드 3부 2019-20 [23팀]",
+   "reason": "경기당 승점 순위(코로나). 볼턴 12점 감점·버리 퇴출이 있으나 감점 전 PPG로 다시 세워도 볼턴은 22위로만 올라 우리 팀(옥스퍼드 4·피터버러 7·블랙풀 13·로치데일 18·트랜미어 21) 순위 불변",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_League_One"
+  },
+  {
+   "line": "잉글랜드 4부 2019-20 [24팀]",
+   "reason": "경기당 승점 순위(코로나). 매클스필드 17점 감점 되돌려도 22위로만 올라 우리 팀(콜체스터·노샘프턴·포트베일·그림즈비) 순위 불변",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_EFL_League_Two"
+  },
+  {
+   "line": "챔피언십 2026-27 [24팀]",
+   "reason": "진행 중 시즌. 사우샘프턴 4점 감점 있음(현재 표 27점, 감점 전 31점 → 현재 기준 3위권). 입력 순위(울브스 4·QPR 8)는 다른 시점 스냅숏이라 현재 표와 맞지 않아 감점 전 순위를 확정하지 않음 — 시즌 끝난 뒤 재확인 필요",
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_EFL_Championship"
+  },
+  {
+   "line": "세리에B 2026-27 [20팀]",
+   "reason": "진행 중 시즌. 유베 스타비아 4점 감점(감점 전 16점)이나 우리 팀(팔레르모 1·아벨리노·카탄차로 20) 순위에는 영향 없음 — 시즌 종료 후 재확인",
+   "source": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_B"
+  },
+  {
+   "line": "잉글랜드 8부 2020-21 [19팀]",
+   "reason": "코로나로 시즌 무효(순위표 효력 없음) — 확인 대상 아님",
+   "source": ""
+  },
+  {
+   "line": "독일 4부 2013-14 [18팀]",
+   "reason": "SV 빌헬름스하펜 FIFA 징계로 강제 강등(18위 처리)이나 입력 파일은 이미 경기장 순위 16위로 되어 있음 — 변경 불필요",
+   "source": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_Nord_2013/14"
+  },
+  {
+   "line": "챔피언십 2006-07 [24팀]",
+   "reason": "리즈 10점 감점(최하위). 입력 파일이 이미 감점 전 순서(리즈 22·사우스엔드 23·루턴 24)로 되어 있어 변경 불필요",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Football_League_Championship"
+  },
+  {
+   "line": "세리에B 2014-15 [22팀]",
+   "reason": "(참고) 카타니아 승부조작 최하위 처리는 입력 순위에 이미 반영 안 됨(경기장 기준). 브레시아 6점 감점분만 changes에 반영",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Serie_B"
+  },
+  {
+   "line": "독일 3부 2004-05 [19팀]",
+   "reason": "영문판 표의 헤르타 BSC II 승무패가 틀림(독일어판 11승11무14패 44점, 12위). 감점 없음 — 변경 불필요",
+   "source": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Regionalliga_2004/05"
+  },
+  {
+   "line": "그리스 1부 2010-11",
+   "reason": "올림피아코스 볼로스·카발라 승부조작으로 시즌 뒤 행정 강등(감점은 다음 시즌 적용) — 2010-11 순위표 승점·순위는 그대로라 해당 없음",
+   "source": "https://en.wikipedia.org/wiki/2010%E2%80%9311_Super_League_Greece"
+  },
+  {
+   "line": "그리스 1부 2014-15",
+   "reason": "OFI·니키 볼로스 시즌 중 기권(감점·잔여 경기 처리), 케르키라 행정 처분 18위 — 파일 팀(올림피아코스 1·파나티나이코스 2·아스테라스 4) 순위 영향 없음, 기권 팀 처리 애매해 제외",
+   "source": "https://en.wikipedia.org/wiki/2014%E2%80%9315_Super_League_Greece"
+  },
+  {
+   "line": "그리스 1부 2023-24",
+   "reason": "올림피아코스 1점 감점 결정이 CAS에서 취소 — 최종표에 감점 없음",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Super_League_Greece"
+  },
+  {
+   "line": "포르투갈 1부 2007-08",
+   "reason": "포르투 6점 감점(아피투 도라두)은 1위 그대로, 보아비스타 행정 강등은 9위 그대로 — 순위 변동 없는 처분(벨레넨세스 3점 감점만 changes에 반영)",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Primeira_Liga"
+  },
+  {
+   "line": "키프로스 1부 2018-19",
+   "reason": "아노르토시스·파포스 6점 감점 되돌리면 아노르토시스가 정규리그 7위→5위로 상위 스플릿에 들어가 이후 일정 자체가 달라짐 — 감점 전 순위 계산 불가(애매), 파일 팀 아폴론 3·AEK 4는 그대로 둠",
+   "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Cypriot_First_Division"
+  },
+  {
+   "line": "벨기에 1부 2012-13",
+   "reason": "코르트레이크 3점 감점은 플레이오프 II 조 안의 일 — 최종 순위(정규리그)와 무관",
+   "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_Belgian_Pro_League"
+  },
+  {
+   "line": "루마니아 1부 2016-17",
+   "reason": "CFR 클루지 6점 감점: 챔피언십 라운드 반감 뒤 +3점 해도 4위 그대로, 하위 라운드 감점 팀(파두리·ACS 폴리 등)은 파일에 없음 — 파일 팀 순위 변화 없음",
+   "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Liga_I"
+  },
+  {
+   "line": "루마니아 1부 2019-20",
+   "reason": "아스트라 3점 감점: 정규리그 순서만 바뀌고 파일 팀 비토룰 7위(하위 라운드)는 그대로",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Liga_I"
+  },
+  {
+   "line": "덴마크 2011-12",
+   "reason": "륑비 3점 감점이 뒤에 취소 — 최종표에 감점 없음",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Danish_Superliga"
+  },
+  {
+   "line": "우크라이나 1부 2011-12",
+   "reason": "카르파티·메탈리스트 9점 감점 발표됐으나 법원 판단으로 적용 안 됨 — 최종표 감점 없음",
+   "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Ukrainian_Premier_League"
+  },
+  {
+   "line": "우크라이나 1부 2007-08",
+   "reason": "메탈리스트 승부조작으로 동메달만 박탈, 순위표 승점·순위는 그대로",
+   "source": "https://en.wikipedia.org/wiki/2007%E2%80%9308_Vyshcha_Liha"
+  },
+  {
+   "line": "오스트리아 분데스리가 2023-24",
+   "reason": "스플릿 리그의 정규리그 승점 반감(adjust_points 음수)일 뿐 감점 아님 — 오스트리아 2018-19~2025-26 챔피언십·예선 라운드, 1990-91·1992-93 2단계 모두 같은 이유로 제외",
+   "source": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Austrian_Football_Bundesliga"
+  },
+  {
+   "line": "세르비아 2016-17",
+   "reason": "스플릿 뒤 승점 반감 표기(감점 아님) — 세르비아 2017-18·2018-19도 동일",
+   "source": "https://en.wikipedia.org/wiki/2016%E2%80%9317_Serbian_SuperLiga"
+  },
+  {
+   "line": "이스라엘 1부 2009-10",
+   "reason": "플레이오프 진입 시 승점 반감 표기(감점 아님)",
+   "source": "https://en.wikipedia.org/wiki/2009%E2%80%9310_Israeli_Premier_League"
+  },
+  {
+   "line": "불가리아 1부 2001-02",
+   "reason": "2단계 진입 시 승점 반감 표기(감점 아님)",
+   "source": "https://en.wikipedia.org/wiki/2001%E2%80%9302_A_Group"
+  },
+  {
+   "line": "엑스트라클라사 2013-14",
+   "reason": "챔피언십 라운드 승점 반감 표기(감점 아님) — 폴란드 2015-16·2016-17도 동일",
+   "source": "https://en.wikipedia.org/wiki/2013%E2%80%9314_Ekstraklasa"
+  },
+  {
+   "line": "브라질 세리에 A 1988 [24팀]",
+   "reason": "승부차기 보너스 승점(+)이며 감점 아님",
+   "source": "https://en.wikipedia.org/wiki/1988_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "아르헨티나 1부 1988-89 [20팀]",
+   "reason": "무승부 뒤 승부차기 보너스 승점(+)이며 감점 아님",
+   "source": "https://en.wikipedia.org/wiki/1988%E2%80%9389_Argentine_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "브라질 세리에 A 2003 [24팀]",
+   "reason": "파이산두 -8·폰치 프레타 -1은 특정 경기 승점 박탈+상대 팀에 승점 부여(몰수성). 또 파일 순위가 위키 순위와 여러 곳 불일치",
+   "source": "https://en.wikipedia.org/wiki/2003_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 1997 [26팀]",
+   "reason": "아틀레치쿠 파라나엔시 -5점(위키 citation needed). 파일 순위(아틀레치쿠 PR 13위, 코리치바 16위)가 위키 최종 순위(18위·15위)와 달라 대응 불가 — 감점 되돌리면 아틀레치쿠 PR 12위, 아메리카 RN 16→17, 코린치앙스 17→18",
+   "source": "https://en.wikipedia.org/wiki/1997_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "브라질 세리에 A 1996 [24팀]",
+   "reason": "코리치바 -1점이 위키에 \"1 point deducted?\"로 불확실. 되돌리면 플라멩구 13→14(30점 동률, 승수 동일·득실)",
+   "source": "https://en.wikipedia.org/wiki/1996_Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "line": "우루과이 1부 2006 아페르투라 [16팀]",
+   "reason": "세리토 -3점이 위키에 \"3 points deducted?\"로 불확실(RSSSF 근거). 되돌리면 세리토 13→10, 미라마르 미시오네스 12→13",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Campeonato_Uruguayo_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "우루과이 1부 2005-06 연간 [18팀]",
+   "reason": "아페르투라 나시오날 -3(?)·클라우수라 페냐롤 -12·세로 -6 감점 있으나 파일 연간 순위가 위키 표(아페르투라·클라우수라 합산)와 대응 안 됨",
+   "source": "https://en.wikipedia.org/wiki/2005%E2%80%9306_Campeonato_Uruguayo_Primera_Divisi%C3%B3n"
+  },
+  {
+   "line": "볼리비아 1부 2007 [12팀]",
+   "reason": "볼리바르 +3/오리엔테 -3, 스트롱기스트 +2/산호세 -1은 부정 선수로 경기 승점 재배정(몰수성)",
+   "source": "https://en.wikipedia.org/wiki/2007_Liga_de_F%C3%BAtbol_Profesional_Boliviano"
+  },
+  {
+   "line": "온두라스 1부 2008-09 [10팀]",
+   "reason": "레알 에스파냐 +2/사비오 -1 경기 승점 재배정(몰수성)",
+   "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_Honduran_Liga_Nacional"
+  },
+  {
+   "line": "에콰도르 1부 2000 [10팀]",
+   "reason": "엘나시오날 -3점은 2단계 표(2→1위). 파일 2위는 최종 리길야 순위로 보여 해당 표 아님(리길야에는 감점 없음) — 2단계 표 기준이면 엘나시오날 2→1",
+   "source": "https://en.wikipedia.org/wiki/2000_Campeonato_Ecuatoriano_de_F%C3%BAtbol_Serie_A"
+  },
+  {
+   "line": "브라질 3부 2011 [20팀]",
+   "reason": "브라질 지 펠로타스 -6점(조별리그). 최종 순위가 단계별 규칙이라 감점 전 순위 산정 애매. 감점 없으면 D조에서 펠로타스 4위·산투안드레 5위(강등)로 바뀜",
+   "source": "https://en.wikipedia.org/wiki/2011_Campeonato_Brasileiro_S%C3%A9rie_C"
+  },
+  {
+   "line": "리가MX 2019-20 누적 [19팀]",
+   "reason": "베라크루스 퇴출로 상대 경기 승점·득점 무효(퇴출 처리)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Liga_MX_season"
+  },
+  {
+   "line": "멕시코 1부 2019-20 [19팀]",
+   "reason": "위와 같음(베라크루스 퇴출, 경기 무효)",
+   "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Liga_MX_season"
+  },
+  {
+   "line": "리가MX 2020-21 누적 [18팀]",
+   "reason": "아메리카 부정 선수 → 0-2 승리를 아틀라스 3-0 몰수승으로 변경(경기 결과 변경)",
+   "source": "https://en.wikipedia.org/wiki/2020%E2%80%9321_Liga_MX_season"
+  },
+  {
+   "line": "아르헨티나 1부 2024 리가 [28팀]",
+   "reason": "고도이 크루스 -3점(산로렌소전 관중 폭력) 기사 있으나 위키 리그 순위표(35점 15위)에 반영 안 됨 — 파일 팀 순위 영향 확인 불가",
+   "source": "https://en.wikipedia.org/wiki/2024_AFA_Liga_Profesional_de_F%C3%BAtbol"
+  },
+  {
+   "line": "아르헨티나 1부 아페르투라 2025 조 [30팀]",
+   "reason": "고도이 크루스 -3점(탈레레스전) 언급 있으나 위키 순위표에 반영 안 됨",
+   "source": "https://en.wikipedia.org/wiki/2025_AFA_Liga_Profesional_de_F%C3%BAtbol"
+  },
+  {
+   "line": "페루 1부 2009 [16팀]",
+   "reason": "산마르틴 -3점은 외국인 4명 기용 경기 0-3 패 처리(상대 승점 없음) — 경기 결과 변경 성격, 파일 팀(우니베르시타리오 1, 산마르틴 5) 순위는 위키 그대로",
+   "source": "https://en.wikipedia.org/wiki/2009_Torneo_Descentralizado"
+  },
+  {
+   "line": "사우디 프로리그 2024-25 [18팀]",
+   "reason": "알오로바 부정 선수로 알나스르전 승점 박탈·상대 승점 부여(몰수성)",
+   "source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Saudi_Pro_League"
+  },
+  {
+   "line": "브라질 4부 2012 [40팀] / 2013 [40팀] / 2019 [68팀]",
+   "reason": "위키 일반 표(wikitable)에 조별 감점 각주 있으나 단계별 최종 순위라 미검증",
+   "source": "https://en.wikipedia.org/wiki/2013_Campeonato_Brasileiro_S%C3%A9rie_D"
+  },
+  {
+   "line": "(위키백과 영어 시즌 문서 없음·미검증) UAE 2부 2026-27 / USL 2008 / 볼리비아 1부 1995 / 브라질 3부 2000 / 브라질 5부 2013 / 사우디 2부 2026-27 / 아르헨티나 3부 2020-21 / 아르헨티나 4부 2022 / 에콰도르 1부 2001 아페르투라 / 엘살바도르 1부 2012-13 / 온두라스 1부 2022-23 / 카타르 2부 2009-10·2012-13·2018-19·2022-23·2025-26 / 코스타리카 1부 2005-06·2006-07 / 콩고민주공화국 1부 2010 / 파라과이 1부 2000·2001 아페르투라·2002·2007·2008 합산·2026",
+   "reason": "영어 위키 시즌 문서를 찾지 못해 확인 못 함",
+   "source": "https://en.wikipedia.org/"
+  },
+  {
+   "line": "멕시코 2006-07 합산",
+   "reason": "합산표를 직접 더한 결과와 기존 순위가 한 칸 어긋나 확정하지 못해 적용하지 않음(톨루카 8→9 후보)",
+   "source": "https://en.wikipedia.org/wiki/2006%E2%80%9307_Primera_Divisi%C3%B3n_de_M%C3%A9xico_season"
+  }
+ ]
+}
