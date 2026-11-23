@@ -18,6 +18,7 @@
 """
 import json, re, glob, os, sys, csv, math, statistics as st, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'tools')); import league_points as _LP   # v1.290: 승점·득실 모형 행은 평균 추정에서 뺌
 LC = [2.51, 1.668, 1.189, 0.842, 0.664, 0.555, 0.43, 0.259, 0.079, -0.096, -0.231, -0.321, -0.412, -0.502, -0.531, -0.649, -0.814, -0.999, -1.103, -1.177, -1.378]
 def cv(r, n):
     n = max(n, 2); r = min(max(r, 1), n)
@@ -127,6 +128,7 @@ for f, (t, m, E) in data.items():
     for r in E:
         lv = str(r[12]); cc = country(lv)
         if not cc or is_lower(lv): continue
+        if _LP.covered(lv, r[1]): continue
         mm = YPAT.search(lv)
         if not mm: continue
         y = label_year(lv, LG[cc][3]); rk = int(mm.group(3)); n = int(mm.group(4)) if mm.group(4) else LG[cc][4]
@@ -139,7 +141,7 @@ for cc in LG:
         L = [(cv(rk, n), e) for rk, n, e in v.values()]
         mx = st.mean(a for a, _ in L); my = st.mean(e for _, e in L)
         num += sum((a - mx) * (e - my) for a, e in L); den += sum((a - mx) ** 2 for a, _ in L)
-    SD[cc] = num / den if den > 0 and num > 0 else 60.0
+    SD[cc] = _LP.sd_fix(cc, 1)   # v1.290: 고정 흩어짐
     for (c, y), v in PTS.items():
         if c == cc: MEAN[(cc, y)] = st.mean(e - SD[cc] * cv(rk, n) for rk, n, e in v.values())
 SHIFT = {k: int(round(target(k[0], k[1]) - MEAN[k])) for k in MEAN}

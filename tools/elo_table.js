@@ -103,6 +103,7 @@ function fixKey(k, e) {
   if ((k === 'al ahli') && /카타르|도하/.test(e.lv)) return 'al ahli (qatar)';
   if (k === 'arsenal' && /아르헨티나/.test(e.lv)) return 'arsenal sarandi';
   if (k === 'nacional' && /우루과이/.test(e.lv)) return 'nacional (uruguay)';
+  if (/dinamo/.test(k) && /루마니아/.test(e.lv)) return 'dinamo bucuresti';   // v1.290: FC Dinamo 1948(부쿠레슈티)과 디나모 자그레브가 'dinamo'로 묶이지 않게
   if ((k === 'al ahli' || k === 'al ahly') && /이집트/.test(e.lv)) return 'al ahly (egypt)';
   return k;
 }

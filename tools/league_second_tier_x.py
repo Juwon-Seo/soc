@@ -13,6 +13,7 @@
 """
 import json, re, glob, os, sys, statistics as st, collections, io, contextlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'tools')); import league_points as _LP   # v1.290: 승점·득실 모형 행은 평균 추정에서 뺌
 OPTA = json.load(open(os.path.join(ROOT, 'elo', 'opta_league_2026-11-19.json')))['리그']
 def opta(prefix): return next(v for k, v in OPTA.items() if k.startswith(prefix))
 # 라벨 앞부분: (기준 도구, 나라, Opta 1부, Opta 2부, 달력 연도 여부, 기본 팀 수)
@@ -58,6 +59,7 @@ for f, (t, m, E) in data.items():
     for r in E:
         lv = str(r[12]); k = which(lv)
         if not k: continue
+        if _LP.covered(lv, r[1]): continue
         y = year_of(lv, str(r[9]), X[k][4])
         mm = re.search(r'(\d+)위(?:/(\d+)팀)?', lv)
         if mm:

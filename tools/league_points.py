@@ -86,8 +86,15 @@ def other_score(lv, opp):
     if not E or 'skip' in E or E.get('ongoing'): return None
     rk = re.search(r'(\d+)위', head).group(1)
     pos = E.get('map', {}).get(f'{rk}={opp}') or E.get('map', {}).get(f'{opp}@{rk}') or E.get('map', {}).get(opp)   # 같은 팀이 한 줄에 순위 둘이면 '순위=팀' 키
+    if not pos:   # 같은 팀 다른 표기: 같은 순위 행에 붙은 이름과 비슷하면 그 행
+        cands = [(sim(opp, re.sub(r'^\d+=|@\d+$', '', nm)), p_) for nm, p_ in E.get('map', {}).items() if p_ and p_[1] + 1 == int(rk)]
+        cands = [c for c in cands if c[0] >= 0.6]
+        if len(cands) >= 1 and len({tuple(c[1]) for c in cands}) == 1: pos = cands[0][1]
     if not pos: return None
     ti, ri = pos; ck = (mm.group(1), ti)
+    R = E['tables'][ti]['rows']
+    if st.median(r[1] for r in R) < 10: return None                  # 너무 일찍 끝난 시즌(코로나 중단 등)은 순위 곡선
+    if R[ri][2] == 0 and R[ri][3] == 0 and R[ri][5] == 0: return None  # 전 경기 몰수패(기록이 실력이 아님)
     if ck not in _OS: _OS[ck] = table_scores(E['tables'][ti]['rows'])
     return _OS[ck][ri], len(E['tables'][ti]['rows'])
 def value_other(lv, opp, key, tier, b, sd, cv):
@@ -100,3 +107,9 @@ def value_other(lv, opp, key, tier, b, sd, cv):
 def covered(lv, opp):
     """이 행 값이 승점·득실 모형으로 정해지는가(평균 추정 도구들이 이 행을 빼는 데 씀)."""
     return bool(team_score(lv, opp)) or bool(other_score(lv, opp) and True)
+
+# 순위 곡선 흩어짐(tools/league_rank_apply.py의 SDFIX·SD1·SDL과 같은 값, 평균 추정 도구들이 고정값으로 씀)
+_RA = open(os.path.join(ROOT, 'tools', 'league_rank_apply.py'), encoding='utf-8').read()
+SDFIX = eval(re.search(r'^SDFIX = (\{.*?\})$', _RA, re.M | re.S).group(1))
+SD1, SDL = 60.0, 51.24
+def sd_fix(key, tier): return SDFIX.get(f'{key}|{tier}', SD1 if tier == 1 else SDL)

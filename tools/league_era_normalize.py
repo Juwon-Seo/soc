@@ -17,6 +17,7 @@
 """
 import json, re, glob, os, sys, statistics as st, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'tools')); import league_points as _LP   # v1.290: 승점·득실 모형 행은 평균 추정에서 뺌
 LC = [2.51, 1.668, 1.189, 0.842, 0.664, 0.555, 0.43, 0.259, 0.079, -0.096, -0.231, -0.321, -0.412, -0.502, -0.531, -0.649, -0.814, -0.999, -1.103, -1.177, -1.378]
 def cv(r, n):
     x = (r - 1) / (n - 1) * 20; i = min(19, int(x)); t = x - i
@@ -158,6 +159,7 @@ for f, (t, m, E) in data.items():
     for r in E:
         lv = str(r[12]); cn = octry(lv)
         if not cn or is_lower(lv): continue
+        if _LP.covered(lv, r[1]): continue
         pr = oparse(lv, cn)
         if not pr: continue
         y, rk, n = pr; n = n or OTEAMS[cn]
@@ -170,7 +172,7 @@ for cn in OTEAMS:
         L = [(cv(rk, n), e) for rk, n, e in v.values()]
         mx = st.mean(c_ for c_, _ in L); my = st.mean(e for _, e in L)
         num += sum((c_ - mx) * (e - my) for c_, e in L); den += sum((c_ - mx) ** 2 for c_, _ in L)
-    OSD[cn] = num / den if den else 100
+    OSD[cn] = _LP.sd_fix(cn, 1)   # v1.290: 순위 적용 도구와 같은 고정 흩어짐(남은 순위 곡선 행만으로 추정하면 흔들림)
     for (c, y), v in OD.items():
         if c == cn: OMEAN[(cn, y)] = st.mean(e - OSD[cn] * cv(rk, n) for rk, n, e in v.values())
 def otarget_raw(cn, y): return B + S_SLOPE * (c3(cn, y) - c5(y)) * (AREF / c5(y))

@@ -14,6 +14,7 @@
 """
 import json, re, glob, os, sys, statistics as st, collections, io, contextlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(ROOT, 'tools')); import league_points as _LP   # v1.290: 승점·득실 모형 행은 평균 추정에서 뺌
 OPTA_SLOPE = 27.01
 OPTA = json.load(open(os.path.join(ROOT, 'elo', 'opta_league_2026-11-19.json')))['리그']
 def opta(prefix): return next(v for k, v in OPTA.items() if k.startswith(prefix))
@@ -51,6 +52,7 @@ for f, (t, m, E) in data.items():
     for r in E:
         lv = str(r[12]); lab, top = which(lv)
         if not top: continue
+        if _LP.covered(lv, r[1]): continue
         mm = PAT.match(lv)
         if not mm: continue
         y = int(mm.group(1)) + 1; rk = int(mm.group(3)); n = int(mm.group(4)) if mm.group(4) else TIER2[top][3](y)
