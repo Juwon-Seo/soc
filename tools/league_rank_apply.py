@@ -192,6 +192,7 @@ def value(key, tier, y, cal, rk, n):
     return int(round(b + sd(key, tier) * cv(rk, n)))
 
 if __name__ == '__main__':
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import league_points as PTS
     data = {}
     for f in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', '*.js'))):
         t = open(f, encoding='utf-8').read(); m = re.search(r'const (\w+)_E=(\[.*?\]\]);', t, re.S)
@@ -203,6 +204,9 @@ if __name__ == '__main__':
             p = parse(str(r[12]), str(r[9]))
             if not p: nofit += 1; continue
             v = value(*p)
+            if v is not None and p[1] == 1 and p[0] in BIG:   # v1.288: 5대 리그는 그 시즌 승점·득실 편차(tools/league_points.py)
+                vp = PTS.value(str(r[12]), r[1], base(p[0], 1, p[2], p[3]), sd(p[0], 1), cv)
+                if vp is not None: v = vp; stat['승점 모형'] += 1
             if v is None: stat['기준 없음'] += 1; continue
             stat['적용 대상'] += 1
             if v != r[2]:
@@ -211,6 +215,7 @@ if __name__ == '__main__':
         if ch and '--apply' in sys.argv:
             open(f, 'w', encoding='utf-8').write(t[:m.start(2)] + json.dumps(E, ensure_ascii=False, separators=(',', ':')) + t[m.end(2):])
     print('순위 라벨 행', stat['적용 대상'], '· 기준 없음', stat['기준 없음'], '· 순위 라벨 아님(건드리지 않음)', nofit)
+    print('5대 리그 승점·득실 모형 행', stat['승점 모형'])
     print('바뀌는 행', sum(moved.values()))
     for k, v in sorted(moved.items(), key=lambda x: -x[1])[:60]:
         dl = delta[k]; print(f'  {k[0]} {k[1]}부: {v}행, 차이 중앙값 {st.median(dl):+.0f}, 최대 |{max(abs(x) for x in dl)}|')

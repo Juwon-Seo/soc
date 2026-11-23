@@ -46,14 +46,19 @@ for f in sorted(glob.glob(os.path.join(ROOT, 'src', 'data', '*.js'))):
     m = re.search(r'const (\w+)_E=(\[.*?\]\]);', t, re.S)
     if m: data[f] = (t, m, json.loads(m.group(2)))
 pts = collections.defaultdict(dict)
+# v1.288: 5대 리그 중 승점·득실 표가 있는 시즌(tools/league_points.py)은 순위 곡선이 아니므로 평균·흩어짐 추정에서 빼고 목표 평균 그대로 둔다.
+PTS_SEASONS = set(json.load(open(os.path.join(ROOT, 'elo', 'league_points_big5.json'), encoding='utf-8'))['seasons'])
+PTS_DONE = set()
 for f, (t, m, E) in data.items():
     for r in E:
         mm = PAT.match(str(r[12]))
         if not mm or mm.group(1) not in LEAGUE or not mm.group(4): continue
+        if f"{mm.group(1)} {mm.group(2)}-{mm.group(3)}" in PTS_SEASONS: PTS_DONE.add((mm.group(1), int(mm.group(2)) + 1)); continue
         lg, y, rk = mm.group(1), int(mm.group(2)) + 1, int(mm.group(4))
         n = int(mm.group(5)) if mm.group(5) else teams(lg, y)
         if rk <= n: pts[(lg, y)][r[1]] = (rk, n, r[2])
 SD, MEAN = {}, {}
+SD_SAVED = json.load(open(os.path.join(ROOT, 'elo', 'league_season_mean.json'), encoding='utf-8'))['흩어짐']
 for lg in LEAGUE:
     num = den = 0
     for (l, y), v in pts.items():
@@ -61,13 +66,16 @@ for lg in LEAGUE:
         L = [(cv(rk, n), e) for rk, n, e in v.values()]
         mx = st.mean(c for c, _ in L); my = st.mean(e for _, e in L)
         num += sum((c - mx) * (e - my) for c, e in L); den += sum((c - mx) ** 2 for c, _ in L)
-    SD[lg] = num / den
+    SD[lg] = num / den if den > 1e-9 else SD_SAVED[lg]
     for (l, y), v in pts.items():
         if l == lg: MEAN[(lg, y)] = st.mean(e - SD[lg] * cv(rk, n) for rk, n, e in v.values())
+for (lg, y) in PTS_DONE: MEAN[(lg, y)] = None   # 아래에서 목표 평균으로 채움(이동 0)
 B = 1762.1   # 2025-26 ClubElo 스냅숏(2026-10-30) 5대 리그 평균. 상수로 고정(다시 돌려도 같은 결과)
 c5 = lambda y: st.mean(c3(LEAGUE[l], y) for l in BIG5)
 AREF = c5(2026)
 def target(lg, y): return B + S_SLOPE * (c3(LEAGUE[lg], y) - c5(y)) * (AREF / c5(y))
+for (lg, y) in list(MEAN):
+    if MEAN[(lg, y)] is None: MEAN[(lg, y)] = target(lg, y)
 SHIFT = {}
 for (lg, y) in MEAN:
     if y <= LAST: SHIFT[(lg, y)] = int(round(target(lg, y) - MEAN[(lg, y)]))
