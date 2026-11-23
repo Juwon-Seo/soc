@@ -223,6 +223,16 @@ th.num .thbtn{justify-content:flex-end}
 th.sorted .thbtn{color:var(--fg)}
 .thbtn .arr{display:inline-block;width:.8em;font-size:.65rem;color:var(--pitch);text-align:center}
 .cmpsorthint{margin:0 0 6px}
+.cmpfind{position:relative;margin:0 0 8px;max-width:360px}
+.cmpfind input{width:100%;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface);color:var(--fg);font:inherit}
+.findlist{position:absolute;left:0;right:0;top:100%;margin:2px 0 0;padding:4px 0;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,.18);z-index:30;max-height:300px;overflow:auto}
+.findlist li{padding:6px 10px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.findlist li[aria-selected="true"],.findlist li:hover{background:var(--soc-bg)}
+.findlist li .sub{margin-left:auto;font-size:.8em;color:var(--muted)}
+.findlist li .out{font-size:.75em;color:var(--muted)}
+.findlist mark{background:none;color:inherit;font-weight:700;text-decoration:underline}
+#compareTbl tr.flash td{animation:cmpflash 1.6s ease-out}
+@keyframes cmpflash{0%,40%{background:var(--soc-bg)}100%{background:transparent}}
 .cmppos{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 8px}
 .cmppos .seg button{padding:4px 12px;white-space:nowrap;flex:none}
 .cmppos .seg{max-width:100%;flex-wrap:wrap}
@@ -421,7 +431,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
 <div class="wrap">
   <header>
     <button type="button" class="reload" id="reloadBtn" title="페이지를 새로 불러옵니다" aria-label="페이지 새로고침"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg><span>새로고침</span></button>
-    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.285</span></h1>
+    <h1>클럽 SOC <span style="font-size:.72em">(축구력) 계산기</span> <span style="font-size:.5em;color:var(--muted);letter-spacing:.04em">v1.286</span></h1>
     <p>국가대표 SOC 계산기와 같은 방식으로 클럽 경력의 누적 기여도를 셉니다. 골·도움마다 그 순간 팀의 기대 승점이 얼마나 올랐는지(S), 상대 팀의 수준을 추정 Elo로 환산한 상대 보정(O), 리그·컵·대륙 대회의 비중(C)을 곱해 값어치를 매기고 클럽 경력 전체를 더합니다.</p>
     <div class="formula">SOC = Σ 기본값 × S × O × C<br>기본값 = 골 1.0 (PK 골 <span id="fPk">0.8</span>) · 도움 <span id="fAst">0.6</span><br>S = [ 골 넣은 뒤 기대 승점 − 골 넣기 전 기대 승점 ] ÷ 평균적인 골 1개의 기대 승점 증가량 · 리그는 무승부 1점, 단판 토너먼트는 1.5점<br>두 경기 합산 토너먼트의 S = [ 골 뒤 진출 기대값 − 골 전 진출 기대값 ] ÷ 평균적인 골 1개의 기대 승점 증가량(단판과 같은 기준, 최대 2.83) · 진출 기대값 = 3 × 진출 확률 (원정 다득점·연장·승부차기 반영)<br>O = e^(계수 × (상대 추정 Elo − 기준 Elo)) · 추정 Elo = 리그 수준 + 그 시즌 최종 순위 (리그 표가 없는 상대는 당시 수준 추정)<br>C = (대회 중요도 ÷ 25)^강도 · 국내컵 &lt; 리그 = 유로파 &lt; 챔스 리그·조별 &lt; 챔스 토너먼트 · 준결승·결승은 가산</div>
   </header>
@@ -443,6 +453,7 @@ thead th.dropR{box-shadow:inset -3px 0 0 var(--pitch)}
       <div class="seg" role="group" aria-label="보기 방식"><button type="button" id="viewTable" aria-pressed="true">표</button><button type="button" id="viewChart" aria-pressed="false">그래프</button></div>
     </div>
     <div id="cmpTableWrap">
+      <div class="cmpfind"><input type="search" id="cmpFind" placeholder="선수 이름 찾기 (초성도 됨: ㅅㅎㅁ)" autocomplete="off" aria-label="비교 표에서 선수 찾기" role="combobox" aria-expanded="false" aria-controls="cmpFindList"><ul id="cmpFindList" class="findlist" role="listbox" hidden></ul></div>
       <div class="cmppos"><span class="hint" style="margin:0">포지션</span><div class="seg" role="group" aria-label="포지션 필터" id="cmpPosSeg"><button type="button" data-pos="" aria-pressed="true">전체</button><button type="button" data-pos="FW" aria-pressed="false">공격수</button><button type="button" data-pos="WG" aria-pressed="false">윙어</button><button type="button" data-pos="MF" aria-pressed="false">미드필더</button></div><label class="chk cmpconf">대륙 <select id="cmpConf" aria-label="출신 대륙(대륙축구연맹)"><option value="">모든 대륙</option><option value="UEFA">유럽 (UEFA)</option><option value="CONMEBOL">남미 (CONMEBOL)</option><option value="CAF">아프리카 (CAF)</option><option value="AFC">아시아 (AFC)</option><option value="CONCACAF">북중미 (CONCACAF)</option><option value="OFC">오세아니아 (OFC)</option></select></label><label class="chk cmpconf" id="cmpNatWrap" hidden>국가 <select id="cmpNat" aria-label="국가"></select></label><span class="cnt" id="cmpPosCnt"></span></div>
       <p class="hint cmpsorthint">머리행 클릭: 큰 순 → 작은 순 → 기본 순서 · 선수 이름을 누르면 그 선수 탭으로 이동 · 위의 '대회' 선택이 적용되고 기간은 통산 <button type="button" class="linkbtn" id="cmpSortReset" hidden>기본 순서로</button> · <button type="button" class="linkbtn colbtn" data-ct="compareTbl" aria-expanded="false" aria-controls="cmpColPanel">열 편집</button></p>
       <div class="colpanel" id="cmpColPanel" data-ct="compareTbl" hidden></div>
@@ -1731,6 +1742,19 @@ function cmpCap(){const box=$("cmpBox");if(!box)return;const t=$("compareTbl"),r
 window.addEventListener("resize",()=>{try{cmpCap()}catch(e){}});
 /* 출신 대륙(대륙축구연맹, 국기 기준, v1.282). 호주는 2006년부터 AFC */
 function confOf(c){const M={UEFA:"FR ES ENG IT DE PT NL BE SE TR NO PL WLS CZ HR RS GE UA DK BA SK SI IE BG CH SCO NIR AT HU RU GR IS FI RO AL MK ME XK IL",CONMEBOL:"BR AR CO UY PE EC CL PY VE BO",CAF:"CI DZ SN CM NG MA EG GA ML GN GH TN ZA BF TG CD AO CV ZM",AFC:"KR JP AU IR CN SA QA AE IQ UZ",CONCACAF:"US CA JM MX CR HN PA TT",OFC:"NZ FJ PG SB VU NC TA"};for(const k in M)if(M[k].split(" ").includes(c))return k;return ""}
+/* 비교 표 선수 찾기(v1.286): 이름 앞부분 > 단어 앞부분 > 글자 포함 > 초성 앞부분 > 초성 포함 순으로 최대 8명 */
+function chosung(t){const C="ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ";return [...t].map(ch=>{const c=ch.charCodeAt(0)-0xAC00;return c>=0&&c<11172?C[Math.floor(c/588)]:ch}).join("")}
+function findScore(name,q){const n=name.replace(/\s+/g," ").toLowerCase(),qq=q.toLowerCase().trim();if(!qq)return -1;const nn=n.replace(/ /g,""),qn=qq.replace(/ /g,"");if(nn.startsWith(qn))return 100-n.length*.01;if(n.split(" ").some(w=>w.startsWith(qq)))return 80-n.length*.01;if(nn.includes(qn))return 60-nn.indexOf(qn)-n.length*.01;if(/^[ㄱ-ㅎ]+$/.test(qn)){const c=chosung(nn);if(c.startsWith(qn))return 40;if(c.includes(qn))return 20-c.indexOf(qn)*.1}return -1}
+function cmpFindRender(){const q=$("cmpFind").value,ul=$("cmpFindList");const R=st.players.map(p=>({p,s:findScore(p.name,q)})).filter(x=>x.s>=0).sort((a,b)=>b.s-a.s||a.p.name.localeCompare(b.p.name,"ko")).slice(0,8);
+  const vis=new Set([...$("compareTbl").querySelectorAll("tbody tr[data-pid]")].map(r=>r.dataset.pid));cmpFindRender.sel=0;
+  if(!q.trim()||!R.length){ul.innerHTML=q.trim()?'<li class="none" aria-disabled="true">맞는 선수 없음</li>':"";ul.hidden=!q.trim();$("cmpFind").setAttribute("aria-expanded",String(!ul.hidden));return}
+  const esc_=t=>t.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  ul.innerHTML=R.map((x,i)=>{const nm=x.p.name,qq=q.trim(),k=nm.toLowerCase().indexOf(qq.toLowerCase());const lab=k>=0?esc_(nm.slice(0,k))+"<mark>"+esc_(nm.slice(k,k+qq.length))+"</mark>"+esc_(nm.slice(k+qq.length)):esc_(nm);const pr=x.p.preset;return `<li role="option" data-pid="${x.p.id}" aria-selected="${i===0}">${pr&&FLAG_OF[pr]?flagSVG(FLAG_OF[pr]):""}<span>${lab}</span>${vis.has(x.p.id)?"":'<span class="out">(필터 밖 · 누르면 필터 해제)</span>'}<span class="sub">${pr&&POS_OF[pr]?POSL[POSG[POS_OF[pr]]]:""}</span></li>`}).join("");ul.hidden=false;$("cmpFind").setAttribute("aria-expanded","true")}
+function cmpFindGo(pid){const ul=$("cmpFindList");ul.hidden=true;$("cmpFind").setAttribute("aria-expanded","false");let tr=$("compareTbl").querySelector(`tbody tr[data-pid="${pid}"]`);
+  if(!tr){st.cmpPos="";st.cmpConf="";st.cmpNat="";save();renderCompare();tr=$("compareTbl").querySelector(`tbody tr[data-pid="${pid}"]`)}
+  if(!tr)return;const box=$("cmpBox");const top=box.scrollTop+(tr.getBoundingClientRect().top-box.getBoundingClientRect().top)-box.clientHeight/2+tr.offsetHeight/2;box.scrollTo({top:Math.max(0,top),behavior:"smooth"});
+  const r=box.getBoundingClientRect();if(r.top<0||r.top>innerHeight*.6)box.scrollIntoView({block:"start",behavior:"smooth"});
+  tr.classList.remove("flash");void tr.offsetWidth;tr.classList.add("flash");$("cmpFind").value=""}
 function renderCompare(){
   const c=st.coef;const S=st.players.map(p=>pStats(p,c));
   const k=st.cmpSort,dir=st.cmpDir||-1;const fp=st.cmpPos||"",fc=st.cmpConf||"",fn=fc?(st.cmpNat||""):"";let rows=(fp||fc)?S.filter(s=>{const pr=s.p.preset;if(fp){const x=pr?POS_OF[pr]:null;if(!(x&&POSG[x]===fp))return false}if(fc&&!(pr&&confOf(FLAG_OF[pr])===fc))return false;if(fn&&FLAG_OF[pr]!==fn)return false;return true}):[...S];
@@ -1738,7 +1762,7 @@ function renderCompare(){
   if(k){rows.sort((x,y)=>{const a=cmpVal(k,x),b=cmpVal(k,y);if(typeof a==="string")return a.localeCompare(b,"ko")*(dir<0?1:-1);return (b-a)*(dir<0?1:-1)})}
   $("cmpSortReset").hidden=!k;
   const head=CMPCOLS.map(([ck,lb])=>{const num=!["name","pos","clubs"].includes(ck);const on=k===ck;return `<th class="${num?"num ":""}sortable${on?" sorted":""}"${ck==="soc"?' data-sort="soc"':""} aria-sort="${on?(dir<0?"descending":"ascending"):"none"}"><button type="button" class="thbtn" data-ck="${ck}"><span class="lb">${lb}</span><span class="arr" aria-hidden="true">${on?(dir<0?"▼":"▲"):""}</span></button></th>`}).join("");
-  $("compareTbl").innerHTML=`<thead><tr><th class="rkcol" data-ck="rk">#</th>${head}</tr></thead><tbody>`+rows.map((s,i)=>`<tr class="${s.p.id===st.active?"on":""}"><td class="rkcol">${i+1}</td>`+CMPCOLS.map(([ck])=>`<td class="${["name","pos","clubs"].includes(ck)?"":"num"}${ck==="soc"?" val":""}">${cmpCell(ck,s)}</td>`).join("")+"</tr>").join("")+"</tbody>";
+  $("compareTbl").innerHTML=`<thead><tr><th class="rkcol" data-ck="rk">#</th>${head}</tr></thead><tbody>`+rows.map((s,i)=>`<tr class="${s.p.id===st.active?"on":""}" data-pid="${s.p.id}"><td class="rkcol">${i+1}</td>`+CMPCOLS.map(([ck])=>`<td class="${["name","pos","clubs"].includes(ck)?"":"num"}${ck==="soc"?" val":""}">${cmpCell(ck,s)}</td>`).join("")+"</tr>").join("")+"</tbody>";
   applyCols("compareTbl");cmpScrollInit();cmpScrollMode();cmpCap();
   if(st.cmpView==="chart")renderChart(S);
 }
@@ -1887,6 +1911,10 @@ colDrag("compareTbl");colDrag("yearTbl");applyCols("yearTbl");
 $("compareTbl").addEventListener("click",ev=>{const go=ev.target.closest("[data-go]");if(go){st.active=go.dataset.go;st.period="all";render();return}
   const b=ev.target.closest(".thbtn[data-ck]");if(!b)return;const k=b.dataset.ck;if(st.cmpSort!==k){st.cmpSort=k;st.cmpDir=-1}else if(st.cmpDir===-1)st.cmpDir=1;else{st.cmpSort=null;st.cmpDir=-1}save();renderCompare()});
 $("cmpSortReset").addEventListener("click",()=>{st.cmpSort=null;save();renderCompare()});
+ $("cmpFind").addEventListener("input",cmpFindRender);
+$("cmpFind").addEventListener("keydown",ev=>{const ul=$("cmpFindList"),L=[...ul.querySelectorAll("li[data-pid]")];if(ev.key==="Escape"){ul.hidden=true;return}if(!L.length)return;let i=cmpFindRender.sel||0;if(ev.key==="ArrowDown"||ev.key==="ArrowUp"){ev.preventDefault();i=(i+(ev.key==="ArrowDown"?1:-1)+L.length)%L.length;cmpFindRender.sel=i;L.forEach((li,j)=>li.setAttribute("aria-selected",j===i));L[i].scrollIntoView({block:"nearest"})}else if(ev.key==="Enter"){ev.preventDefault();cmpFindGo(L[i].dataset.pid)}});
+$("cmpFindList").addEventListener("mousedown",ev=>{const li=ev.target.closest("li[data-pid]");if(!li)return;ev.preventDefault();cmpFindGo(li.dataset.pid)});
+$("cmpFind").addEventListener("blur",()=>setTimeout(()=>{$("cmpFindList").hidden=true;$("cmpFind").setAttribute("aria-expanded","false")},150));
 $("cmpConf").addEventListener("change",ev=>{st.cmpConf=ev.target.value;st.cmpNat="";save();renderCompare()});
 $("cmpNat").addEventListener("change",ev=>{st.cmpNat=ev.target.value;save();renderCompare()});
 $("cmpPosSeg").addEventListener("click",ev=>{const b=ev.target.closest("button[data-pos]");if(!b)return;st.cmpPos=b.dataset.pos;save();renderCompare()});
