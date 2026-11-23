@@ -67,3 +67,35 @@ def value(lv, opp, b, sd, cv):
 if __name__ == '__main__' and len(sys.argv) > 1:
     S = scores(sys.argv[1])
     for i, (t, sc) in enumerate(S or []): print(i + 1, t, round(sc, 3))
+
+# ── 다른 리그(v1.290): elo/league_points_other.json ──
+# 형식 {"k": {"<나라키>|<단계>": k}, "w": 0.3, "seasons": {"<라벨 앞부분(순위 앞)>": {"src","tables":[{"name","rows":[[팀,경기,승,무,패,득,실]]}],"map":{"<데이터 팀 이름>":[표,행]},"note","check"}}}
+_OF = os.path.join(ROOT, 'elo', 'league_points_other.json')
+O = json.load(open(_OF, encoding='utf-8')) if os.path.exists(_OF) else {'k': {}, 'seasons': {}}
+def table_scores(rows, w=None):
+    w = W if w is None else w
+    ppg = [(3 * r[2] + r[3]) / r[1] for r in rows]; gd = [(r[5] - r[6]) / r[1] for r in rows]
+    m, gm = st.mean(ppg), st.mean(gd)
+    return [(ppg[i] - m) + w * (gd[i] - gm) for i in range(len(rows))]
+_OS = {}
+def other_score(lv, opp):
+    """라벨·상대 이름 → (실력 점수, 표 팀 수) 또는 None."""
+    head = lv.split(' (')[0]; mm = re.match(r'^(.*?) \d+위', head)
+    if not mm: return None
+    E = O['seasons'].get(mm.group(1))
+    if not E or 'skip' in E or E.get('ongoing'): return None
+    pos = E.get('map', {}).get(opp)
+    if not pos: return None
+    ti, ri = pos; ck = (mm.group(1), ti)
+    if ck not in _OS: _OS[ck] = table_scores(E['tables'][ti]['rows'])
+    return _OS[ck][ri], len(E['tables'][ti]['rows'])
+def value_other(lv, opp, key, tier, b, sd, cv):
+    k = O['k'].get(f'{key}|{tier}')
+    s = other_score(lv, opp)
+    if k is None or not s: return None
+    sc, n = s
+    mc = st.mean(cv(i, n) for i in range(1, n + 1))
+    return int(round(b + sd * mc + k * sc))
+def covered(lv, opp):
+    """이 행 값이 승점·득실 모형으로 정해지는가(평균 추정 도구들이 이 행을 빼는 데 씀)."""
+    return bool(team_score(lv, opp)) or bool(other_score(lv, opp) and True)
