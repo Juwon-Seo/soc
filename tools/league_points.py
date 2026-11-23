@@ -84,7 +84,8 @@ def other_score(lv, opp):
     if not mm: return None
     E = O['seasons'].get(mm.group(1))
     if not E or 'skip' in E or E.get('ongoing'): return None
-    pos = E.get('map', {}).get(opp)
+    rk = re.search(r'(\d+)위', head).group(1)
+    pos = E.get('map', {}).get(f'{rk}={opp}') or E.get('map', {}).get(opp)   # 같은 팀이 한 줄에 순위 둘이면 '순위=팀' 키
     if not pos: return None
     ti, ri = pos; ck = (mm.group(1), ti)
     if ck not in _OS: _OS[ck] = table_scores(E['tables'][ti]['rows'])
