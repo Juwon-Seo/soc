@@ -35,7 +35,11 @@ for e in rd("tm_events.csv"): EVS[e["gameId"]].append(e)
 # ---------------------------------------------------------------- 날짜
 # TM 리포트 날짜(없으면 TM API UTC 시각을 중부 유럽 시간으로 바꾼 날짜; 리포트가 있는 367경기는 모두 같고,
 # 긱스 자료의 TM 일정 날짜와 같이 뛴 509경기 모두 같음). 동료 자료와 다른 날짜는 --stat 대조로 확인.
-DATE_FIX = {}
+DATE_FIX = {"1149629": ("1998-09-09", "찰턴 홈 4-1: 1998.9.9(수) — 영어 위키백과 1998-99 맨유 시즌·statmuse·sportsmole(요크 첫 골)"),
+            "1055185": ("1999-08-30", "뉴캐슬 홈 5-1(콜 4골): 1999.8.30(월) — 영어 위키백과 1999-2000 맨유 시즌·nufc.com·statmuse·sportsmole"),
+            "2815694": ("2003-03-02", "리그컵 결승 리버풀전 0-2(카디프): 2003.3.2 — 영어 위키백과 2003 리그컵 결승·BBC 2003.3.2 기사"),
+            "55666": ("2007-01-21", "아스널 원정 1-2: 2007.1.21(일) — 영어 위키백과 2006-07 맨유 시즌·RTÉ 2007.1.21·스카이스포츠"),
+            "55693": ("2007-02-04", "토트넘 원정 4-0: 2007.2.4(일) — 영어 위키백과 2006-07 맨유 시즌·thfcdb.com·맨유 구단 영상(4 Feb 2007)")}
 DATE_LOG = []
 def _ldate(g):
     gid = g["gameId"]
@@ -45,6 +49,7 @@ def _ldate(g):
     return d
 LD = {gid: _ldate(g) for gid, g in G.items()}
 def ldate(g): return LD[g["gameId"]]
+TMD = {gid: (g["date_report"] or g["date_local_computed"]) for gid, g in G.items()}   # 고치기 전 TM 날짜(같은 경기 다른 선수 자료 찾기용)
 
 def opp(g):
     return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
@@ -296,14 +301,17 @@ _argv = sys.argv; sys.argv = ['x']
 with contextlib.redirect_stdout(io.StringIO()):
     exec(compile(open(_LRA['__file__'], encoding='utf-8').read().split("if __name__ == '__main__':")[0], 'lra', 'exec'), _LRA)
 sys.argv = _argv
+sys.path.insert(0, os.path.join(ROOT, 'tools')); import league_points as PTS
 def lv_value(lv, d, o=None):
+    """tools/league_rank_apply.py 본체와 같은 계산(순위 곡선, 승점 표가 있으면 승점·득실 모형)"""
     p = _LRA['parse'](lv, d)
     if not p: sys.exit("라벨 해석 실패 " + lv)
-    try:
-        v = _LRA['value'](*p, team=o) if o else _LRA['value'](*p)
-    except TypeError:
-        v = _LRA['value'](*p)
+    v = _LRA['value'](*p)
     if v is None: sys.exit("라벨 값 없음 " + lv)
+    if o:
+        b, s_ = _LRA['base'](p[0], p[1], p[2], p[3]), _LRA['sd'](p[0], p[1])
+        vp = PTS.value(lv, o, b, s_, _LRA['cv']) if (p[1] == 1 and p[0] in _LRA['BIG']) else PTS.value_other(lv, o, p[0], p[1], b, s_, _LRA['cv'])
+        if vp is not None: v = vp
     return v
 
 def eu(d):
@@ -314,15 +322,16 @@ MAN = {}   # 통합표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계�
 def man(o, s, lv): MAN[(key(o), s)] = lv
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
 
-def opp_elo(o, d):
+def opp_elo(o, d, d0=None):
     cand, vals = same_match(o, d)
+    if not cand and d0 and d0 != d: cand, vals = same_match(o, d0)
     if len(vals) == 1:
         e, lv = next(iter(vals)); ELO_SRC["같은 경기 다른 선수 자료"] += 1
         ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
     if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
     k = key(o); s = eu(d)
     if (k, s) in MAN:
-        lv = MAN[(k, s)]; e = lv_value(lv, d)
+        lv = MAN[(k, s)]; e = lv_value(lv, d, o)
         ELO_SRC["순위 라벨(직접 확인)"] += 1; ELO_LOG[(o, d)] = ("man", e, lv); NEW_TS[(o, s)] = (e, lv); return e, lv
     for ss in (s, d[:4]):
         if (k, ss) in TABLE:
@@ -336,7 +345,7 @@ E = []
 for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     g = G[gid]; d = ldate(g); cid, rnd = g["competitionId"], rnd_of(g)
     comp = comp_of(cid, rnd); ko = ko_of(cid, rnd)
-    elo, lv = opp_elo(opp(g), d)
+    elo, lv = opp_elo(opp(g), d, TMD[gid])
     et = 1 if (g["gameState"] in ("extra_time", "penalty_shootout") and mi > 90 and not (dm and str(dm).startswith("90+"))) else 0
     row = [typ, opp(g), elo, comp, mi, gf, ga, ko, pk, d, et, dm, lv, note]
     t = tie_of(gid)
