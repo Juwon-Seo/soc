@@ -1596,5 +1596,5 @@ rosaz:["#FFDD00", "#000060"],
 zenaz:["#0067B1", "#FFFFFF", "#6CACE4"],
 levaz:["#E32221", "#000000"],
 romaz:["#990A2C", "#FBB900"],
-shaaz:["#FE3502", "#000000", "#FFFFFF"],
+shaaz:["#FE3502", "#000000", "#FFFFFF"],"shiok":["#FF8800", "#FFFFFF"],"vfbok":["#FFFFFF", "#E32219"],"m05ok":["#FF0000", "#FFFFFF"],"leiok":["#003090", "#FFFFFF"],"hueok":["#1D3B7E", "#A6192E"],"carok":["#000000", "#FFFFFF"],"stvok":["#FFFF00", "#0000FF"],"cermn":["#FA1A82", "#001E43"],"rbsmn":["#FFFFFF", "#D6001C"],"livmn":["#C8102E", "#FFFFFF"],"soumn":["#D71920", "#FFFFFF", "#000000"],"monmn":["#E11A22", "#FFFFFF"],"nagkh":["#D70C18", "#F39800", "#FFFFFF"],"vvvkh":["#FFDD00", "#000000"],"cskkh":["#EB2F2D", "#003C8F", "#FFFFFF"],"milkh":["#C90C0F", "#000000"],"packh":["#002B7F", "#FFFFFF"],"mvkh":["#05093F", "#FFFFFF", "#C0C0C0"],"vitkh":["#FFDD00", "#000000"],"botkh":["#000000", "#FFFFFF"],"nefkh":["#000000", "#FFFFFF"],"sudkh":["#C8102E", "#FFFFFF"],"parkh":["#FF0000", "#FFFFFF"],"jurkh":["#FF6633", "#002060"],"milct":["#002060", "#FFFFFF"],"evect":["#003399", "#FFFFFF"],"nyct":["#FFFFFF", "#B91F31"],"shsct":["#0000FF", "#FFFFFF"],"hzct":["#00843D", "#FFFFFF"],"mcct":["#81C1FF", "#FFFFFF", "#002A5A"],"jmct":["#E31E24", "#FFFFFF"],"lifsz":["#D6001C", "#FFFFFF"],"rbssz":["#FFFFFF", "#D6001C"],"rblsz":["#FFFFFF", "#E01837"],"livsz":["#C8102E", "#FFFFFF"]
 };
