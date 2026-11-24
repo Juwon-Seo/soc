@@ -1,0 +1,21 @@
+{"preset":"minamino","name":"미나미노 다쿠미","prefix":"MNM",
+ "clubs":[
+  {"key":"cermn","name":"세레소 오사카","short":"세레소","years":"2012~2014","until":"2015-01-07"},
+  {"key":"rbsmn","name":"레드불 잘츠부르크","short":"잘츠부르크","years":"2015~2019","until":"2020-01-01"},
+  {"key":"livmn","name":"리버풀","short":"리버풀","years":"2020~2021","until":"2021-02-01"},
+  {"key":"soumn","name":"사우샘프턴","short":"사우샘프턴","years":"2021","until":"2021-06-30"},
+  {"key":"livmn","name":"리버풀","short":"리버풀","years":"2021~2022","until":"2022-07-01"},
+  {"key":"monmn","name":"AS 모나코","short":"모나코","years":"2022~","until":null}],
+ "season":{"calendar":["cermn"],"jul10":["rbsmn"],"jul1":[]},
+ "pos":"LW","flag":"JP","retired":false,
+ "colors":{
+  "cermn":["#FA1A82","#001E43"],
+  "rbsmn":["#FFFFFF","#D6001C"],
+  "livmn":["#C8102E","#FFFFFF"],
+  "soumn":["#D71920","#FFFFFF","#000000"],
+  "monmn":["#E11A22","#FFFFFF"]},
+ "hon":{"t":{"LG":["19/20 리버풀","19/20 잘츠부르크","18/19 잘츠부르크","17/18 잘츠부르크","16/17 잘츠부르크","15/16 잘츠부르크","14/15 잘츠부르크"],
+   "DC":["2022 리버풀","19/20 잘츠부르크","18/19 잘츠부르크","16/17 잘츠부르크","15/16 잘츠부르크","14/15 잘츠부르크"],
+   "LC":["2022 리버풀"]},
+  "o":[],
+  "a":{}}}
