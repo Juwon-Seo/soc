@@ -287,9 +287,7 @@ with open(os.path.join(ELO, "aliases.csv"), encoding="utf-8-sig") as f:
         if not row or row[0].startswith("팀"): continue
         for part in row[1].split(" / "):
             ALIAS[norm(part.rsplit(":", 1)[0])] = norm(row[0])
-MANUAL_ALIAS = {norm("FC Admira Wacker Mödling"): norm("FC Admira/Wacker"), norm("TSV Hartberg"): norm("Hartberg"),   # 통합표 표기에 맞춤(황희찬 자료와 같음)
-                norm("LASK Amateure OÖ"): norm("FC Juniors OÖ"), norm("WSG Tirol"): norm("WSG Wattens"),
-                norm("Nordsjælland"): norm("FC Nordsjælland")}   # TM 지금 이름 ↔ 그 시즌 TM 순위표 이름
+MANUAL_ALIAS = {}
 def key(n):
     k = norm(n); k = MANUAL_ALIAS.get(k, k)
     return ALIAS.get(k, k)
@@ -312,13 +310,13 @@ def load_js(fn):
 OTHERS = {}
 for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     b = os.path.basename(fn)
-    if b in ("hon.js", "clubcolors.js", "finals.js", "mnm.js") or "src/data/" + b not in TRACKED: continue
+    if b in ("hon.js", "clubcolors.js", "finals.js", "ljs.js") or "src/data/" + b not in TRACKED: continue
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
-# 이번 회차에 함께 판정한 선수(판정 끝남, 읽기만): 같은 경기면 같은 Elo/lv
+# 이번 회차에 함께 판정하는 선수(가마다: 프랑크푸르트 v 마인츠 2021-23, 읽기만): 같은 경기면 대조만(값은 통합표·라벨 규칙이라 같아야 함)
 for pth in sorted(glob.glob(os.path.join(os.path.dirname(HERE), "*", "*.js"))):
     slug, fn = pth.split(os.sep)[-2:]
-    if slug not in ("szoboszlai", "okazaki", "honda", "cahill") or "src/data/" + fn in TRACKED: continue
+    if slug not in ("kamada",) or "src/data/" + fn in TRACKED: continue
     try: P, oe, om = load_js(pth)
     except Exception: continue
     OTHERS["players/" + slug + "/" + fn] = (oe, om)
@@ -382,69 +380,51 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
     for line in f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] in ("league",) or p[0].startswith("#"): continue
-        r, n = int(p[2]), int(p[3])
-        # 오스트리아 분데스리가 2018-19·2019-20: 22라운드 뒤 6팀씩 나뉨 → 챔피언십 그룹 1~6위, 강등 그룹 1~6위 = 최종 7~12위(황희찬·홀란드·소보슬러이 자료와 같음)
-        if p[0] == "A1" and p[1].endswith("group2"): r, n = r + 6, 12
-        elif p[0] == "A1" and p[1].endswith("group1"): n = 12
-        # 세르비아 1부 2018-19: 챔피언십 그룹 1~8위, 강등 그룹 = 9~16위
-        if p[0] == "SER1" and p[1].endswith("group2"): r, n = r + 8, 16
-        elif p[0] == "SER1" and p[1].endswith("group1"): n = 16
-        RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (r, n, p[4], p[1])
-# FotMob 순위표: J1 2012(TM 2012 표 없음), 진행 중 2026-27(리그1·덴마크·불가리아: 2026.11.24 현재 순위), 키프로스 2025-26
-FM_LG = {"223 J. League": "JAP1", "53 Ligue 1": "FR1", "46 Superligaen": "DK1", "270 First Professional League": "BUL1",
-         "136 1. Division": "CY1", "47 Premier League": "GB1"}
-with open(os.path.join(RAW, "ranks_fotmob.txt"), encoding="utf-8") as f:
-    for line in f:
-        p = line.rstrip("\n").split("|")
-        if len(p) < 5 or p[0].startswith(("#", "league")): continue
-        lg = FM_LG.get(p[0])
-        if not lg: continue
-        se = p[1] if "-" not in p[1] else p[1][:5] + p[1][7:9]
-        if lg == "JAP1" and se != "2012": continue
-        if lg in ("FR1", "GB1") and se != "2026-27": continue
-        RANKS[(lg, se)].setdefault(key(p[4]), (int(p[2]), int(p[3]), p[4], p[1] + " FotMob"))
+        RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
 
-EU_LG = {"FR1": "리그1", "ES1": "라리가", "L1": "분데스리가", "GB1": "프리미어리그", "PO1": "포르투갈 1부", "IT1": "세리에A", "NL1": "에레디비시"}
-OTHER_LG = {"BE1": "벨기에 1부", "KR1": "크로아티아 1부", "SER1": "세르비아 1부", "SC1": "스코틀랜드 1부", "RU1": "러시아 1부", "RO1": "루마니아 1부",
-            "TR1": "쉬페르리그", "NO1": "노르웨이 1부", "DK1": "덴마크 1부", "CY1": "키프로스 1부", "BUL1": "불가리아 1부"}
+EU_LG = {"L1": "분데스리가", "IT1": "세리에A"}
+OTHER_LG = {"TR1": "쉬페르리그", "NO1": "노르웨이 1부", "RO1": "루마니아 1부", "PL1": "엑스트라클라사"}
+WORLD_LG = {"RSK1": "K리그1", "JAP1": "J1리그", "CSL": "중국 슈퍼리그", "AUS1": "호주 A리그", "UAE1": "UAE 프로리그", "MEXA": "리가MX"}
 def make_label(lg, season, v):
     r, n, nm, sraw = v
     cur = " (2026년 11월 24일 현재 순위)" if season == "2026-27" else ""
-    if lg == "JAP1": return f"J1리그 {season} {r}위/{n}팀"
-    if lg == "A1": return f"오스트리아 분데스리가 {season} {r}위/{n}팀"   # 홀란드·마네·황희찬·소보슬러이 자료와 같은 형식
-    if lg == "GB2": return f"챔피언십 {season} {r}위/{n}팀"
-    if lg == "GB3": return f"잉글랜드 3부 {season} {r}위/{n}팀 (EFL League One, 리그 수준 추정)"
-    if lg == "FR2": return f"리그2 {season} {r}위/{n}팀"
-    if lg == "JAP2": return f"J2리그 {season} {r}위/{n}팀"
+    if lg == "RSK1": return f"K리그1 {season} {r}위/{n}팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+    if lg in WORLD_LG: return f"{WORLD_LG[lg]} {season} {r}위/{n}팀"
+    if lg == "L2": return f"2. 분데스리가 {season} {r}위/{n}팀" + cur
+    if lg == "L3": return f"독일 3부 {season} {r}위/{n}팀 (3. Liga, 리그 수준 추정)" + cur
+    if lg == "RSK2": return f"한국 2부 {season} {r}위/{n}팀 (K League Challenge, 리그 수준 추정)"
     if lg in OTHER_LG: return f"{OTHER_LG[lg]} {season} {r}위/{n}팀" + cur
     if lg in EU_LG:
         pre = EU_LG[lg]; n0 = _LRA["ERA"]["teams"](pre, int(season[:4]) + 1)
         return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 or cur else "") + cur
     return None
 
-# 상대 시즌: 세레소 오사카(J리그)는 달력 연도, 잘츠부르크는 7월 10일 기준(소보슬러이·황희찬 선례: 7월 컵 1라운드·예선·리그 개막 = 새 시즌),
-# 리버풀·사우샘프턴·모나코는 8월 1일 기준. 달력 연도 리그 상대(노르웨이·벨라루스·한국·중국·태국)는 경기 연도도 후보.
-# 2019.7.19 ÖFB컵 1라운드 파른도르프(오스트리아 4부 2019-20 개막 전) → 2018-19(같은 경기 홀란드·황희찬 자료와 같음).
-SEASON_OVR = {"3205309": "2018-19"}
-CERE = "1022"
+# 상대 시즌: 전북 경기는 K리그 달력 연도(국내 상대), AFC 원정·홈 상대는 상대 리그 시즌(중국·일본·태국·베트남 = 달력 연도,
+# 호주 A리그·UAE·홍콩 = 가을~봄: 8월 1일 기준), 클럽 월드컵 2016은 상대 리그 시즌. 킬·마인츠는 8월 1일 기준.
+JB = "6502"
+CAL_LG = {"RSK1", "RSK2", "JAP1", "CSL", "THA1", "NO1"}
 def seasons_for(cid, d, o, g):
-    if g["gameId"] in SEASON_OVR: return [SEASON_OVR[g["gameId"]]]
-    y, m, dd = int(d[:4]), int(d[5:7]), int(d[8:10])
-    if g["club_id"] == CERE: return [str(y)]
-    if g["club_id"] == "409": s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
-    else: s_ = y if m >= 8 else y - 1
-    out = [f"{s_}-{str(s_ + 1)[2:]}"]
-    if cid in ("CL", "CLQ", "EL", "ELQ", "UCOL"): out.append(str(y))
+    y, m = int(d[:4]), int(d[5:7])
+    s_ = y if m >= 8 else y - 1
+    eu = f"{s_}-{str(s_ + 1)[2:]}"
+    if g["club_id"] == JB:
+        return [str(y), eu]
+    out = [eu]
+    if cid in ("ECLQ", "UCOL"): out.append(str(y))
     return out
-EUR = list(EU_LG) + list(OTHER_LG) + ["A1"]
 def lg_cands(cid, d, o, g):
     ss = seasons_for(cid, d, o, g)
-    if g["club_id"] == CERE: doms = ["JAP1", "JAP2"]
-    elif cid in ("A1", "ofb"): doms = ["A1"]
-    elif cid in ("GB1", "FAC", "CGB", "GBCS"): doms = ["GB1", "GB2", "GB3"]
-    elif cid in ("FR1", "FRC", "FRCH"): doms = ["FR1", "FR2"]
-    else: doms = EUR
-    return [(lg, s_) for lg in doms for s_ in ss]
+    if g["club_id"] == JB:
+        doms = ["RSK1", "RSK2"] if cid in ("RSK1", "RSKM", "RKPO") else ["JAP1", "CSL", "AUS1", "UAE1", "THA1", "HGKG", "MEXA", "SFA1"]
+    elif cid in ("L1", "L2", "DFB", "L1PO"): doms = ["L1", "L2", "L3"]
+    else: doms = ["NO1", "TR1", "RO1", "PL1", "IT1", "BOS1"]
+    out = []
+    for lg in doms:
+        for s_ in ss:
+            if lg in CAL_LG and "-" in s_: continue
+            if lg not in CAL_LG and "-" not in s_: continue
+            out.append((lg, s_))
+    return out
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv (값은 라벨에서 계산)
 def man(o, s, lv): MAN[(key(o), s)] = lv
