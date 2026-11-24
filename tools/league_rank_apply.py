@@ -61,7 +61,7 @@ KO = {
  '도미니카공화국': 'Dominican Republic', '가나': 'Ghana', '코트디부아르': 'Ivory Coast', '세네갈': 'Senegal', '카메룬': 'Cameroon', '말리': 'Mali',
  '요르단': 'Jordan', '태국': 'Thailand', '타지키스탄': 'Tajikistan', '투르크메니스탄': 'Turkmenistan', '뉴질랜드': 'New Zealand', '쿠웨이트': 'Kuwait',
  '바레인': 'Bahrain', '오만': 'Oman', '레바논': 'Lebanon', '시리아': 'Syria', '베트남': 'Vietnam', '인도네시아': 'Indonesia', '말레이시아': 'Malaysia',
- '싱가포르': 'Singapore', '키르기스스탄': 'Kyrgyzstan', '마르티니크': 'Martinique', '레위니옹': 'Reunion', '프랑스령 기아나': 'French Guiana',
+ '싱가포르': 'Singapore', '부탄': 'Bhutan', '키르기스스탄': 'Kyrgyzstan', '마르티니크': 'Martinique', '레위니옹': 'Reunion', '프랑스령 기아나': 'French Guiana',
 }
 KO_NAMES = sorted(KO, key=len, reverse=True)
 BIG = {'England': '프리미어리그', 'Spain': '라리가', 'Germany': '분데스리가', 'Italy': '세리에A', 'France': '리그1', 'Netherlands': '에레디비시', 'Portugal': '포르투갈 1부'}
