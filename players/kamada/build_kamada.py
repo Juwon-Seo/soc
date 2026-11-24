@@ -479,6 +479,8 @@ man("Shelbourne FC", "2025-26", "아일랜드 1부 2025 3위/10팀 (League of Ir
 man("AEK Larnaca", "2025-26", "키프로스 1부 2025-26 2위/14팀 (Cypriot First Division, 플레이오프·스플릿 뒤 최종 순위)")
 # 2026.4.30 컨퍼런스리그 준결승 1차전 샤흐타르: 우크라이나 1부 2025-26 최종 1위/16팀(TM 표·승점 표)
 man("Shakhtar Donetsk", "2025-26", "우크라이나 1부 2025-26 1위/16팀 (Ukrainian Premier League)")
+# 2026.11.5 유로파 리그 단계 호펜하임: 진행 중 시즌 — 기존 자료(기라시 2026.9.5 호펜하임전)의 라벨 '9위/18팀 (2026년 11월 중순 현재 순위)'을 그대로 씀(팀-시즌 값 하나로 맞춤; 2026.11.24 TM 표는 11위)
+man("TSG 1899 Hoffenheim", "2026-27", "분데스리가 2026-27 9위/18팀 (2026년 11월 중순 현재 순위)")
 FORCE = {}
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
 def opp_elo(o, d, cid, g):
