@@ -281,7 +281,7 @@ def key(n):
 TABLE = collections.defaultdict(list)
 with open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig") as f:
     for r in csv.DictReader(f):
-        if ME_KO in r["선수"].split("·"): continue
+        if r["선수"].split("·") == [ME_KO]: continue   # 미나미노 혼자 쓴 팀-시즌만 뺌(다른 선수와 함께 쓴 값은 그대로)
         for nm in [r["팀"]] + r["이름 표기"].split(" / "):
             TABLE[(key(nm), r["시즌"])].append((int(r["Elo"]), r["수준 라벨(lv)"]))
 
@@ -314,7 +314,7 @@ STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", 
         "athletic", "wanderers", "rangers", "town", "county", "albion", "rovers", "milan", "inter", "madrid", "moscow", "paulista", "paulo", "ca", "cs", "deportivo", "deportes", "universidad", "san", "santa", "fk", "vfl", "bv",
         "racing", "arsenal", "juniors", "plate", "river", "nacional", "independiente", "estudiantes", "union", "boca", "gimnasia", "esgrima", "lorenzo", "almagro", "hotspur", "palace", "villa", "ham", "manchester", "verona", "sheffield", "bristol", "birmingham", "nottingham", "queens", "park", "west", "aston",
         "new", "york", "los", "angeles", "toronto", "vitoria", "guimaraes", "setubal", "borussia", "werder", "bayer", "eintracht", "hertha", "olympiacos", "panathinaikos",
-        "rio", "ave", "al", "sc", "qatar", "rayyan", "atletico", "mexico", "cruz", "azul", "guadalajara", "deportivo", "once", "caldas", "medellin", "bogota", "leon", "minnesota"}
+        "rio", "ave", "al", "sc", "stade", "saint", "red", "star", "qatar", "rayyan", "atletico", "mexico", "cruz", "azul", "guadalajara", "deportivo", "once", "caldas", "medellin", "bogota", "leon", "minnesota"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_team(a, b): return key(a) == key(b) or bool(toks(a) & toks(b))
 SA_DOM = {"ARG1", "ARGC", "CLI", "CS", "BRA1", "BCP1", "BCPF", "MEX1", "MEXA", "POME", "USMX", "MLS1", "MLSP", "COL1", "COPO", "QSL", "QEC1", "KLUB"}
