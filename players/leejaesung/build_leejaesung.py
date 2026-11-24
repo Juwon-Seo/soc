@@ -51,7 +51,9 @@ for fn_ in sorted(glob.glob(os.path.join(HERE, "kleague", "match_*.json"))):
     for _h, _off in (("firstHalf", 0), ("secondHalf", 45), ("EfirstHalf", 90), ("EsecondHalf", 105)):
         for _e in _d.get(_h) or []:
             if _e["eventName"] in ("득점", "도움", "자책골"):
-                KL[_date].append((_e["eventName"], _e["playerName"], _e["teamName"], _off + _e["timeMin"] + 1))
+                # 같은 팀에 동명이인 이재성(수비수, 2017~2018 등번호 15, 선수 id 20090002)이 있어 선수 id로 가림: 이 선수는 20140056(등번호 17)
+                _p = "이재성" if _e["playerId"] == "20140056" else ("이재성(수비수)" if _e["playerName"] == "이재성" else _e["playerName"])
+                KL[_date].append((_e["eventName"], _p, _e["teamName"], _off + _e["timeMin"] + 1))
 def kl_has(d, kind, minute, tol=3):
     """K리그 공식 기록에 이재성(전북)의 득점/도움이 그 분(±tol)에 있나. 경기 자료 없으면 None."""
     if d not in KL: return None
@@ -215,7 +217,8 @@ def assist_reason(e, d, gid):
     return "2014.8 이후 단일 출처(판정 없음)"
 
 # 골·도움 시각은 Transfermarkt 그대로(추가시간 표기 포함; FotMob이 90분으로만 적은 골은 TM 추가시간)
-MIN_FIX = {}
+MIN_FIX = {("2507328", "121"): "90+3"}   # 2014.11.2 서울전 카이오 골(이재성 도움): TM 분 칸 비어 있음(리포트 121, JSON 0) → K리그 공식 기록 후반 48:01 = 90+3 (FotMob 90)
+SCORER_FIX = {("2990625", "3"): "Ricardo Lopes"}   # 2018.5.2 대구전 3분 골: TM 아드리아노, K리그 공식·FotMob·OSEN·스포츠투데이 로페즈 → 로페즈(이재성 도움은 모두 같음)
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
@@ -236,7 +239,7 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             why = assist_reason(e, ldate(g), gid)
             if why:
                 judg.append(("도움 제외", ldate(g), opp(g), e["minute"], e["scorer"], why)); continue
-            raw_rows.append(("a", gid, mi, dm, gf, ga, 0, e["scorer"], e["assist_type"]))
+            raw_rows.append(("a", gid, mi, dm, gf, ga, 0, SCORER_FIX.get((gid, e["minute"]), e["scorer"]), e["assist_type"]))
         if is_g:
             if sd != side: sys.exit("득점 편 이상 " + gid)
             pk = 1 if e["goal_desc"] == "Penalty" else 0
@@ -295,7 +298,7 @@ def key(n):
 TABLE = collections.defaultdict(list)
 with open(os.path.join(ELO, "opponent_elo_by_team_season.csv"), encoding="utf-8-sig") as f:
     for r in csv.DictReader(f):
-        if r["선수"].split("·") == [ME_KO]: continue   # 미나미노 혼자 쓴 팀-시즌만 뺌(다른 선수와 함께 쓴 값은 그대로)
+        if r["선수"].split("·") == [ME_KO]: continue   # 이재성 혼자 쓴 팀-시즌만 뺌(다른 선수와 함께 쓴 값은 그대로)
         for nm in [r["팀"]] + r["이름 표기"].split(" / "):
             TABLE[(key(nm), r["시즌"])].append((int(r["Elo"]), r["수준 라벨(lv)"]))
 
@@ -381,6 +384,23 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] in ("league",) or p[0].startswith("#"): continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
+# K리그1 2014~2018: Transfermarkt 표는 스플릿(정규 33라운드 뒤 상·하위 6팀 분리, 하위 그룹은 승점과 관계없이 7~12위)과
+# 다득점 우선 동률 규칙을 반영하지 않아 순서가 틀림(예: 2014 FC 서울 3위·포항 4위가 TM에서는 반대). 영어 위키백과 시즌 문서의
+# 최종 순위표(raw/ranks_wiki.txt)로 바꿈. 2016은 전북 승점 9 감점(심판 매수) → 감점 전 순위(전북 1위·FC 서울 2위, 감점 시즌 규칙).
+KL_PEN = {("2016", "FC Seoul"): 2}
+for line in open(os.path.join(RAW, "ranks_wiki.txt"), encoding="utf-8"):
+    p = line.rstrip("\n").split("|")
+    m_ = re.match(r"en_(\d{4})_K_League_(Classic|1)\.html", p[0])
+    if not m_ or not p[2].endswith("League table"): continue
+    se = m_.group(1); nm = re.sub(r"\s*(\((C|R|O)\)|\[ ?\w ?\])\s*", " ", p[5]).strip()
+    tmn = [v[2] for v in RANKS[("RSK1", se)].values() if norm(v[2]).replace(" ", "") == norm(nm).replace(" ", "")]
+    if not tmn: sys.exit("K리그 위키 이름 " + se + " " + nm)
+    rk = KL_PEN.get((se, tmn[0]), int(p[3]))
+    if se == "2016" and tmn[0] == "Jeonbuk Hyundai Motors": rk = 1
+    RANKS[("RSK1w", se)][key(tmn[0])] = (rk, int(p[4]), tmn[0], se + " en.wiki" + (" 감점 전" if (se, tmn[0]) in KL_PEN else ""))
+for se in ("2014", "2015", "2016", "2017", "2018"):
+    if len(RANKS[("RSK1w", se)]) != 12 or sorted(v[0] for v in RANKS[("RSK1w", se)].values()) != list(range(1, 13)): sys.exit("K리그 위키 순위 " + se)
+    RANKS[("RSK1", se)] = RANKS.pop(("RSK1w", se))
 
 EU_LG = {"L1": "분데스리가", "IT1": "세리에A"}
 OTHER_LG = {"TR1": "쉬페르리그", "NO1": "노르웨이 1부", "RO1": "루마니아 1부", "PL1": "엑스트라클라사"}
@@ -388,7 +408,8 @@ WORLD_LG = {"RSK1": "K리그1", "JAP1": "J1리그", "CSL": "중국 슈퍼리그"
 def make_label(lg, season, v):
     r, n, nm, sraw = v
     cur = " (2026년 11월 24일 현재 순위)" if season == "2026-27" else ""
-    if lg == "RSK1": return f"K리그1 {season} {r}위/{n}팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+    if lg == "RSK1": return f"K리그1 {season} {r}위/{n}팀 (" + ("감점 전 순위; " if "감점 전" in sraw else "") + "K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+    if lg == "THA1": return f"태국 1부 {season} {r}위/{n}팀 (Thai League 1)"
     if lg in WORLD_LG: return f"{WORLD_LG[lg]} {season} {r}위/{n}팀"
     if lg == "L2": return f"2. 분데스리가 {season} {r}위/{n}팀" + cur
     if lg == "L3": return f"독일 3부 {season} {r}위/{n}팀 (3. Liga, 리그 수준 추정)" + cur
@@ -415,7 +436,7 @@ def seasons_for(cid, d, o, g):
 def lg_cands(cid, d, o, g):
     ss = seasons_for(cid, d, o, g)
     if g["club_id"] == JB:
-        doms = ["RSK1", "RSK2"] if cid in ("RSK1", "RSKM", "RKPO") else ["JAP1", "CSL", "AUS1", "UAE1", "THA1", "HGKG", "MEXA", "SFA1"]
+        doms = ["RSK1", "RSK2"] if cid in ("RSK1", "RSKM", "RKPO") else ["RSK1", "JAP1", "CSL", "AUS1", "UAE1", "THA1", "HGKG", "MEXA", "SFA1"]
     elif cid in ("L1", "L2", "DFB", "L1PO"): doms = ["L1", "L2", "L3"]
     else: doms = ["NO1", "TR1", "RO1", "PL1", "IT1", "BOS1"]
     out = []
@@ -523,16 +544,16 @@ def cmp_rows(a, b):
     return d
 G_BYDATE = {ldate(g): g["competitionId"] for g in GAMES}
 CROSS = []
-JRE = re.compile(r"Minamino|미나미노")
+JRE = re.compile(r"Jae-?sung Lee|Lee Jae-?sung|이재성", re.I)
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         if x[0] == "a" and JRE.search(str(x[13] or "")) and x[9] in G_BYDATE:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(미나미노 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(이재성 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1])]
-            if hit: CROSS.append(("미나미노 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("이재성 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and (key(x[1]) == key(r[1]) if G_BYDATE.get(r[9], "BRA1") in SA_DOM else same_team(x[1], r[1])):
@@ -548,29 +569,25 @@ for b, (oe, om) in OTHERS.items():
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2]):
-                    CROSS.append(("TM 미나미노 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
+                    CROSS.append(("TM 이재성 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 
 # ---------------------------------------------------------------- 클럽·시즌
-# 클럽 구분 = TM 이적일: 잘츠부르크 2015.1.7, 리버풀 2020.1.1, 사우샘프턴 임대 2021.2.1, 리버풀 복귀 2021.6.30, 모나코 2022.7.1
-CLUBS = [("cermn", "2015-01-07", "세레소 오사카", "세레소", "2012~2014"), ("rbsmn", "2020-01-01", "레드불 잘츠부르크", "잘츠부르크", "2015~2019"),
-         ("livmn", "2021-02-01", "리버풀", "리버풀", "2020~2022"), ("soumn", "2021-06-30", "사우샘프턴", "사우샘프턴", "2021"),
-         ("livmn", "2022-07-01", "리버풀", "리버풀", "2021~2022"), ("monmn", None, "AS 모나코", "모나코", "2022~")]
-TM_CLUB = {"1022": "cermn", "409": "rbsmn", "31": "livmn", "180": "soumn", "162": "monmn"}
+# 클럽 구분 = TM 이적일: 홀슈타인 킬 2018.7.26, 마인츠 2021.7.8
+CLUBS = [("jbljs", "2018-07-26", "전북 현대 모터스", "전북", "2014~2018"), ("kiljs", "2021-07-08", "홀슈타인 킬", "킬", "2018~2021"),
+         ("m05ljs", None, "마인츠 05", "마인츠", "2021~")]
+TM_CLUB = {"6502": "jbljs", "269": "kiljs", "39": "m05ljs"}
 def club_of(d):
     for k, u, n, sh, y in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["club_id"])
 def season_of(d, club):
-    y, m, dd = int(d[:4]), int(d[5:7]), int(d[8:10])
-    if club == "cermn": return str(y - 1 if m == 1 else y)   # J리그 달력 연도(1월 1일 일왕배 결승은 앞 해 — 미나미노는 1월 경기 없음)
-    if club == "rbsmn": s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
-    elif club == "livmn" and d == "2020-08-29": return "2020-21"   # 커뮤니티 실드 2020 = 2020-21(아스널 오바메양 선례, index.html 2020년 8월 예외에 키 추가 필요)
-    else: s_ = y if m >= 8 else y - 1
+    y, m = int(d[:4]), int(d[5:7])
+    if club == "jbljs": return str(y)   # K리그 달력 연도(1월 경기 없음; 클럽 월드컵 2016.12 = 2016)
+    s_ = y if m >= 8 else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
-STINTS = [("세레소 오사카", "2015-01-07"), ("레드불 잘츠부르크", "2020-01-01"), ("리버풀", "2021-02-01"), ("사우샘프턴(임대)", "2021-06-30"),
-          ("리버풀 ", "2022-07-01"), ("AS 모나코", "9999")]
+STINTS = [("전북 현대 모터스", "2018-07-26"), ("홀슈타인 킬", "2021-07-08"), ("마인츠 05", "9999")]
 def stint(d):
     for n, u in STINTS:
         if d < u: return n
@@ -603,7 +620,7 @@ if "--stat" in sys.argv:
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
-exec(open(os.path.join(HERE, "note_minamino.py"), encoding="utf-8").read())   # NOTE_LINES
+exec(open(os.path.join(HERE, "note_leejaesung.py"), encoding="utf-8").read())   # NOTE_LINES
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "csa", "lib", "elk", "elq", "cwc", "acl", "mlp", "lcg", "lck"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
@@ -637,7 +654,7 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const MNM_E={J(E)};\nconst MNM_M={J(M)};\nconst MNM_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const LJS_E={J(E)};\nconst LJS_M={J(M)};\nconst LJS_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "fotmob_playermatches_only": PM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,

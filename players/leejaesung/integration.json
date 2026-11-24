@@ -1,0 +1,14 @@
+{"preset":"leejaesung","name":"이재성","prefix":"LJS",
+ "clubs":[
+  {"key":"jbljs","name":"전북 현대 모터스","short":"전북","years":"2014~2018","until":"2018-07-26"},
+  {"key":"kiljs","name":"홀슈타인 킬","short":"킬","years":"2018~2021","until":"2021-07-08"},
+  {"key":"m05ljs","name":"마인츠 05","short":"마인츠","years":"2021~","until":null}],
+ "season":{"calendar":["jbljs"],"jul10":[],"jul1":[]},
+ "pos":"AM","flag":"KR","retired":false,
+ "colors":{
+  "jbljs":["#7FC652","#0A0C0B","#FFFFFF"],
+  "kiljs":["#0042FF","#FFFFFF","#FF0000"],
+  "m05ljs":["#FF0000","#FFFFFF"]},
+ "hon":{"t":{"LG":["2018 전북","2017 전북","2015 전북","2014 전북"]},
+  "o":[["AFC 챔피언스리그 우승","2016 전북"]],
+  "a":{"POY":["2017 K리그1 · 사무국"]}}}
