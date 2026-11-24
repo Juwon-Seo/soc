@@ -51,7 +51,8 @@ for gid, g in G.items():
     LD[gid] = DATE_FIX.get(gid, g["date_local_tz_conv"])
     if g["date_local_tm_report"] and LD[gid] != g["date_local_tm_report"]: DATE_LOG.append((gid, g["date_local_tm_report"], LD[gid], g["club"], g["opponent"]))
 def ldate(g): return LD[g["gameId"]]
-OPP_NAME = {}
+# TM 17444는 지금 '1. Fortuna Wiener Neustädter SC'로 표기되지만 2017-18·2018-19 순위표(TM)의 이름은 SC Wiener Neustadt(그때 2부 팀)
+OPP_NAME = {gid: "SC Wiener Neustadt" for gid in ("2867447", "2867490", "2867537", "3122697")}
 def opp(g): return OPP_NAME.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용
@@ -196,7 +197,8 @@ def assist_reason(e, d, gid):
     return "2014.8 이후 단일 출처(판정 없음)"
 
 # 골 시각: TM 71분 PK 골(2020.6.24 라피트 빈전)은 FotMob·ESPN 모두 79분 → 79분(골 전후 스코어는 같음)
-MIN_FIX = {}   # 골·도움 시각은 Transfermarkt 그대로(judgments.md 3절)
+# 2020.6.28 하르트베르크전 하말류 골(소보슬러이 코너킥 도움): TM 40분, FotMob·ESPN 45분 → 45분(골 전 스코어 1-0 같음, 황희찬 판정의 분 고침과 같은 방식)
+MIN_FIX = {("3331937", "40"): "45"}
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
@@ -588,6 +590,7 @@ if "--stat" in sys.argv:
     print("dates changed", len(DATE_LOG))
     for (o, s), (e, lv) in sorted(NEW_TS.items(), key=lambda kv: kv[0][1]): print("NEW", o, s, e, lv)
     print("TABLE_DIFF", TABLE_DIFF)
+    for k, v in sorted(MAP_NEED.items()): print("MAP_NEED", k, v)
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
@@ -625,12 +628,12 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const HWA_E={J(E)};\nconst HWA_M={J(M)};\nconst HWA_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const SZO_E={J(E)};\nconst SZO_M={J(M)};\nconst SZO_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "fotmob_playermatches_only": PM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
                "new_team_seasons": {f"{o}|{s}": v for (o, s), v in NEW_TS.items()},
-               "table_label_diffs": TABLE_DIFF, "date_changes": DATE_LOG, "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
+               "table_label_diffs": TABLE_DIFF, "points_map_needed": [f"{k[0]} | {k[1]} | {v[0]} | {v[1]}" for k, v in sorted(MAP_NEED.items())], "date_changes": DATE_LOG, "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
               open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)} → {OUT_JS}")
     for k, v in ST.items(): print(" ", k, v)
