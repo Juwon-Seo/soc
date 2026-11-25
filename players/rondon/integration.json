@@ -1,0 +1,48 @@
+{
+ "preset": "rondon",
+ "name": "살로몬 론돈",
+ "prefix": "SRD",
+ "clubs": [
+  {"key": "arasrd", "name": "아라과 FC", "short": "아라과", "years": "2006~2008", "until": "2008-07-21"},
+  {"key": "lpsrd", "name": "UD 라스 팔마스", "short": "라스 팔마스", "years": "2008~2010", "until": "2010-07-19"},
+  {"key": "malsrd", "name": "말라가", "short": "말라가", "years": "2010~2012", "until": "2012-08-05"},
+  {"key": "rubsrd", "name": "루빈 카잔", "short": "루빈", "years": "2012~2014", "until": "2014-01-31"},
+  {"key": "zensrd", "name": "제니트 상트페테르부르크", "short": "제니트", "years": "2014~2015", "until": "2015-08-10"},
+  {"key": "wbasrd", "name": "웨스트 브로미치 앨비언", "short": "웨스트 브롬", "years": "2015~2018", "until": "2018-08-06"},
+  {"key": "ncsrd", "name": "뉴캐슬 유나이티드", "short": "뉴캐슬", "years": "2018~2019", "until": "2019-07-19"},
+  {"key": "dalsrd", "name": "다롄 이팡(다롄 프로)", "short": "다롄", "years": "2019~2020", "until": "2021-02-15"},
+  {"key": "cssrd", "name": "CSKA 모스크바", "short": "CSKA", "years": "2021", "until": "2021-08-31"},
+  {"key": "evesrd", "name": "에버턴", "short": "에버턴", "years": "2021~2022", "until": "2023-01-30"},
+  {"key": "rivsrd", "name": "리버 플레이트", "short": "리버", "years": "2023", "until": "2024-01-01"},
+  {"key": "pacsrd", "name": "CF 파추카", "short": "파추카", "years": "2024~2025, 2026~", "until": "2025-07-03"},
+  {"key": "ovisrd", "name": "레알 오비에도", "short": "오비에도", "years": "2025", "until": "2026-01-01"},
+  {"key": "pacsrd", "name": "CF 파추카", "short": "파추카", "years": "2024~2025, 2026~", "until": null}
+ ],
+ "season": {"calendar": ["dalsrd", "rivsrd"], "jul10": [], "jul1": ["pacsrd"]},
+ "pos": "CF",
+ "flag": "VE",
+ "retired": false,
+ "colors": {
+  "arasrd": ["#FFD100", "#D50000"],
+  "lpsrd": ["#FFE400", "#0055A4"],
+  "malsrd": ["#084B8A", "#FFFFFF"],
+  "rubsrd": ["#AA2704", "#00843D"],
+  "zensrd": ["#0067B1", "#FFFFFF", "#6CACE4"],
+  "wbasrd": ["#122F67", "#FFFFFF"],
+  "ncsrd": ["#000000", "#FFFFFF"],
+  "dalsrd": ["#77BBFF", "#000000"],
+  "cssrd": ["#DD0000", "#FFFFFF"],
+  "evesrd": ["#003399", "#FFFFFF"],
+  "rivsrd": ["#FFFFFF", "#E00000", "#000000"],
+  "pacsrd": ["#002D72", "#FFFFFF"],
+  "ovisrd": ["#0033A0", "#FFFFFF"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["2023 리버 플레이트", "14/15 제니트"],
+   "SC": ["22/23 리버 플레이트(트로페오 데 캄페오네스)", "15/16 제니트"]
+  },
+  "o": [["북중미 챔피언스컵", "23/24 파추카"], ["FIFA 인터콘티넨털컵 더비 오브 디 아메리카스", "24/25 파추카"], ["FIFA 인터콘티넨털컵 챌린저컵", "24/25 파추카"]],
+  "a": {"TOP": ["23/24 북중미 챔피언스컵 9골", "23/24 리가MX 클라우수라 8골"]}
+ }
+}

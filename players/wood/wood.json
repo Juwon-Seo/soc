@@ -1,0 +1,9417 @@
+{
+ "E": [
+  {
+   "type": "a",
+   "opp": "Peterborough United",
+   "elo": 1440,
+   "comp": "lg",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2009-10 24위/24팀",
+   "note": "Luke Moore"
+  },
+  {
+   "type": "a",
+   "opp": "Ipswich Town",
+   "elo": 1522,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2009-10 16위/24팀 (감점 전 순위)",
+   "note": "Robert Koren"
+  },
+  {
+   "type": "a",
+   "opp": "Rotherham United",
+   "elo": 1378,
+   "comp": "dc",
+   "min": 116,
+   "gf": 3,
+   "ga": 3,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-08-26",
+   "et": 1,
+   "dm": 0,
+   "lv": "잉글랜드 4부 2009-10 5위/24팀 (Football League Two, 리그 수준 추정)",
+   "note": "Simon Cox"
+  },
+  {
+   "type": "g",
+   "opp": "Doncaster Rovers",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2009-10 12위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Reading FC",
+   "elo": 1556,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2009-10 9위/24팀",
+   "note": "Jerome Thomas"
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield Wednesday",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2009-10 22위/24팀",
+   "note": "Chris Brunt"
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1507,
+   "comp": "dc",
+   "min": 82,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-01-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2009-10 6위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leyton Orient",
+   "elo": 1455,
+   "comp": "dc",
+   "min": 91,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-08-24",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "잉글랜드 3부 2010-11 7위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol Rovers",
+   "elo": 1368,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2010-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 23위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Leyton Orient",
+   "elo": 1455,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 7위/24팀 (Football League One, 리그 수준 추정)",
+   "note": "Glenn Murray"
+  },
+  {
+   "type": "g",
+   "opp": "Portsmouth FC",
+   "elo": 1514,
+   "comp": "dc",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2011-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2010-11 16위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Peterborough United",
+   "elo": 1491,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 4위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Peterborough United",
+   "elo": 1491,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 4위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bristol Rovers",
+   "elo": 1368,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 23위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "note": "Ashley Barnes"
+  },
+  {
+   "type": "g",
+   "opp": "Hartlepool United",
+   "elo": 1407,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 16위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Plymouth Argyle",
+   "elo": 1392,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 19위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "note": "Glenn Murray"
+  },
+  {
+   "type": "g",
+   "opp": "Plymouth Argyle",
+   "elo": 1392,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 19위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tranmere Rovers",
+   "elo": 1412,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2011-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 18위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rochdale AFC",
+   "elo": 1450,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2011-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 9위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1422,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2011-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2010-11 15위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Nacional",
+   "elo": 1682,
+   "comp": "elq",
+   "min": 86,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2011-12 7위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Watford FC",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 11위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Millwall FC",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 16위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Millwall FC",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 16위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Millwall FC",
+   "elo": 1512,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 16위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 2위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 20위/24팀 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 20위/24팀 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1548,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 9위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Club Brugge KV",
+   "elo": 1670,
+   "comp": "elg",
+   "min": 99,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-20",
+   "et": 0,
+   "dm": "90+9",
+   "lv": "벨기에 1부 2011-12 2위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1547,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 8위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Blackpool FC",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-12-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 5위/24팀",
+   "note": "Nathan Redmond"
+  },
+  {
+   "type": "g",
+   "opp": "Doncaster Rovers",
+   "elo": 1422,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2012-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 20위/24팀 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Coventry City",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 94,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-09",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "챔피언십 2011-12 23위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Barnsley FC",
+   "elo": 1466,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2011-12 22위/24팀 (감점 전 순위)",
+   "note": "Cole Skuse"
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1577,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 12위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 18,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 12위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": "James Henry"
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 76,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 8위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1507,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 13위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1500,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 17위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1474,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 23위/24팀",
+   "note": "Andy Keogh"
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1577,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1577,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Barnsley FC",
+   "elo": 1485,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 21위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "lg",
+   "min": 76,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": "Martyn Waghorn"
+  },
+  {
+   "type": "g",
+   "opp": "Burton Albion",
+   "elo": 1359,
+   "comp": "dc",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 2012-13 4위/24팀 (Football League Two, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol City",
+   "elo": 1436,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol City",
+   "elo": 1436,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol City",
+   "elo": 1436,
+   "comp": "lg",
+   "min": 41,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Middlesbrough FC",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 16위/24팀",
+   "note": "David Nugent"
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1489,
+   "comp": "dc",
+   "min": 82,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Charlton Athletic",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 9위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1500,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 17위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bolton Wanderers",
+   "elo": 1541,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2013-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 7위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1541,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 7위/24팀",
+   "note": "Lloyd Dyer"
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1555,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 5위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Nottingham Forest",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-04",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "챔피언십 2012-13 8위/24팀",
+   "note": "Anthony Knockaert"
+  },
+  {
+   "type": "a",
+   "opp": "Middlesbrough FC",
+   "elo": 1521,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 12위/24팀",
+   "note": "Danny Drinkwater"
+  },
+  {
+   "type": "g",
+   "opp": "Carlisle United",
+   "elo": 1342,
+   "comp": "dc",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Carlisle United",
+   "elo": 1342,
+   "comp": "dc",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)",
+   "note": "Lloyd Dyer"
+  },
+  {
+   "type": "g",
+   "opp": "Carlisle United",
+   "elo": 1342,
+   "comp": "dc",
+   "min": 59,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 1,
+   "date": "2013-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Carlisle United",
+   "elo": 1342,
+   "comp": "dc",
+   "min": 63,
+   "gf": 4,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1517,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 10위/24팀",
+   "note": "Jamie Vardy"
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1615,
+   "comp": "dc",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Watford FC",
+   "elo": 1507,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 13위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 9위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Yeovil Town",
+   "elo": 1407,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-25",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "챔피언십 2013-14 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1623,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 2위/24팀",
+   "note": "David Nugent"
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1623,
+   "comp": "lg",
+   "min": 78,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 2위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sheffield Wednesday",
+   "elo": 1477,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 16위/24팀",
+   "note": "Riyad Mahrez"
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1495,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2013-14 14위/24팀",
+   "note": "Lloyd Dyer"
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol City",
+   "elo": 1470,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 18위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1565,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 6위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Derby County",
+   "elo": 1578,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 5위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Brentford FC",
+   "elo": 1526,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 9위/24팀",
+   "note": "Mirco Antenucci"
+  },
+  {
+   "type": "g",
+   "opp": "Milton Keynes Dons",
+   "elo": 1422,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 23위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 64,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2015-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 20위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1472,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-07",
+   "et": 0,
+   "dm": "45+7",
+   "lv": "챔피언십 2015-16 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1497,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 14위/24팀",
+   "note": "Sam Byram"
+  },
+  {
+   "type": "g",
+   "opp": "Derby County",
+   "elo": 1578,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 5위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bristol City",
+   "elo": 1470,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 18위/24팀",
+   "note": "Souleymane Doukara"
+  },
+  {
+   "type": "g",
+   "opp": "Queens Park Rangers",
+   "elo": 1507,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 12위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Birmingham City",
+   "elo": 1519,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 10위/24팀",
+   "note": "Stuart Dallas"
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 17위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1479,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 17위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Preston North End",
+   "elo": 1513,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 11위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fleetwood Town",
+   "elo": 1487,
+   "comp": "dc",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 1,
+   "date": "2016-08-10",
+   "et": 1,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2016-17 4위/24팀 (EFL League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1599,
+   "comp": "lg",
+   "min": 93,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-16",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "챔피언십 2016-17 6위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1482,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 22위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cardiff City",
+   "elo": 1522,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 12위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1482,
+   "comp": "dc",
+   "min": 85,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 22위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1495,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 16위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wigan Athletic",
+   "elo": 1452,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 23위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1560,
+   "comp": "dc",
+   "min": 109,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-10-25",
+   "et": 1,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 8위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burton Albion",
+   "elo": 1483,
+   "comp": "lg",
+   "min": 83,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2016-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 20위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 8위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rotherham United",
+   "elo": 1362,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1522,
+   "comp": "lg",
+   "min": 94,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-03",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "챔피언십 2016-17 13위/24팀 (EFL Championship)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 3위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Preston North End",
+   "elo": 1524,
+   "comp": "lg",
+   "min": 88,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 11위/24팀",
+   "note": "Pablo Hernández"
+  },
+  {
+   "type": "g",
+   "opp": "Rotherham United",
+   "elo": 1362,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rotherham United",
+   "elo": 1362,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 24위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Derby County",
+   "elo": 1541,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 9위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Barnsley FC",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 14위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Barnsley FC",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 14위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nottingham Forest",
+   "elo": 1483,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 21위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1576,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 5위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bristol City",
+   "elo": 1495,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 17위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ipswich Town",
+   "elo": 1495,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 16위/24팀",
+   "note": "Stuart Dallas"
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield Wednesday",
+   "elo": 1590,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 4위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 19위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1641,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 2위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1641,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 2위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Preston North End",
+   "elo": 1524,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 11위/24팀",
+   "note": "Kemar Roofe"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1653,
+   "comp": "lg",
+   "min": 95,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-14",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "챔피언십 2016-17 1위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burton Albion",
+   "elo": 1483,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 20위/24팀",
+   "note": "Kyle Bartley"
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-29",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "챔피언십 2016-17 8위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wigan Athletic",
+   "elo": 1452,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2016-17 23위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bolton Wanderers",
+   "elo": 1454,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2017-18 21위/24팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1454,
+   "comp": "lg",
+   "min": 42,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2017-18 21위/24팀",
+   "note": "Kalvin Phillips"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1976,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-27",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 2017-18 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1528,
+   "comp": "dc",
+   "min": 89,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 1,
+   "date": "2017-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2017-18 13위/24팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1796,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 66,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 13위",
+   "note": "Ashley Barnes"
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 81,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Bromwich Albion",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1800,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aberdeen FC",
+   "elo": 1527,
+   "comp": "elq",
+   "min": 80,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "스코틀랜드 1부 2017-18 2위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": "Sam Vokes",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Aberdeen FC",
+   "elo": 1535,
+   "comp": "elq",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "스코틀랜드 1부 2018-19 4위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1727,
+   "comp": "elq",
+   "min": 33,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2018-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1부 2018-19 2위/16팀 (Super League Greece)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Huddersfield Town",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Barnsley FC",
+   "elo": 1558,
+   "comp": "dc",
+   "min": 92,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 1,
+   "date": "2019-01-05",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "잉글랜드 3부 2018-19 2위/24팀 (EFL League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1941,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1983,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 56,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 14위",
+   "note": "Ashley Barnes"
+  },
+  {
+   "type": "g",
+   "opp": "Cardiff City",
+   "elo": 1752,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cardiff City",
+   "elo": 1752,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-13",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 2018-19 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1982,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 3위",
+   "note": "Ashley Barnes"
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1966,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Watford FC",
+   "elo": 1783,
+   "comp": "lg",
+   "min": 53,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1966,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1987,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1987,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 3위",
+   "note": "Jay Rodríguez"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1935,
+   "comp": "lg",
+   "min": 96,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-07-15",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "프리미어리그 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Norwich City",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-18",
+   "et": 0,
+   "dm": "45+5",
+   "lv": "프리미어리그 2019-20 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1968,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Millwall FC",
+   "elo": 1565,
+   "comp": "dc",
+   "min": 93,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-09-23",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "챔피언십 2020-21 11위/24팀",
+   "note": "Matej Vydra"
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1824,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1911,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1945,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1915,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1824,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1824,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 15위",
+   "note": "Matej Vydra"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 12위",
+   "note": "Matej Vydra"
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 44,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1839,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": "Ashley Westwood"
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1960,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2022-04-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2021-22 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tranmere Rovers",
+   "elo": 1349,
+   "comp": "dc",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 4부 2022-23 12위/24팀 (EFL League Two, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1711,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1773,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2022-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 2097,
+   "comp": "lg",
+   "min": 84,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sheffield United",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1824,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 13위 (감점 전 순위)",
+   "note": "Anthony Elanga"
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1824,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 13위 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1918,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-26",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "프리미어리그 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1918,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1918,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackpool FC",
+   "elo": 1491,
+   "comp": "dc",
+   "min": 110,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-01-17",
+   "et": 1,
+   "dm": 0,
+   "lv": "잉글랜드 3부 2023-24 8위/24팀 (EFL League One, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1843,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 14위 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1931,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1695,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1695,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1895,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1960,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Crystal Palace",
+   "elo": 1867,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1806,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 54,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Everton FC",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 13위",
+   "note": "Morgan Gibbs-White"
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Liverpool FC",
+   "elo": 2051,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1623,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 20위",
+   "note": "Callum Hudson-Odoi"
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1623,
+   "comp": "lg",
+   "min": 41,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 32,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 69,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1871,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1947,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 5위",
+   "note": "Nikola Milenković"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1804,
+   "comp": "lg",
+   "min": 16,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brentford FC",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 47,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-17",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "프리미어리그 2025-26 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Midtjylland",
+   "elo": 1602,
+   "comp": "elg",
+   "min": 93,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-10-02",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "덴마크 1부 2025-26 2위/12팀 (추정, 다른 선수 자료 미트윌란 2위 1560과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sunderland AFC",
+   "elo": 1862,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1923,
+   "comp": "elsf",
+   "min": 71,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2025-26 4위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  }
+ ],
+ "M": [
+  [
+   "2009-04-11",
+   "Portsmouth FC",
+   "lg",
+   15
+  ],
+  [
+   "2009-05-24",
+   "Blackburn Rovers",
+   "lg",
+   1
+  ],
+  [
+   "2009-08-08",
+   "Newcastle United",
+   "lg",
+   81
+  ],
+  [
+   "2009-08-11",
+   "Bury FC",
+   "dc",
+   10
+  ],
+  [
+   "2009-08-18",
+   "Peterborough United",
+   "lg",
+   54
+  ],
+  [
+   "2009-08-22",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-26",
+   "Rotherham United",
+   "dc",
+   56
+  ],
+  [
+   "2009-09-12",
+   "Plymouth Argyle",
+   "lg",
+   20
+  ],
+  [
+   "2009-09-15",
+   "Doncaster Rovers",
+   "lg",
+   19
+  ],
+  [
+   "2009-09-19",
+   "Middlesbrough FC",
+   "lg",
+   7
+  ],
+  [
+   "2009-09-22",
+   "Arsenal FC",
+   "dc",
+   16
+  ],
+  [
+   "2009-09-26",
+   "Crystal Palace",
+   "lg",
+   12
+  ],
+  [
+   "2009-09-29",
+   "Barnsley FC",
+   "lg",
+   62
+  ],
+  [
+   "2009-10-17",
+   "Reading FC",
+   "lg",
+   85
+  ],
+  [
+   "2009-10-20",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2009-10-24",
+   "Coventry City",
+   "lg",
+   6
+  ],
+  [
+   "2009-11-28",
+   "Sheffield Wednesday",
+   "lg",
+   14
+  ],
+  [
+   "2009-12-14",
+   "Queens Park Rangers",
+   "lg",
+   26
+  ],
+  [
+   "2009-12-26",
+   "Peterborough United",
+   "lg",
+   12
+  ],
+  [
+   "2009-12-28",
+   "Scunthorpe United",
+   "lg",
+   27
+  ],
+  [
+   "2010-01-02",
+   "Huddersfield Town",
+   "dc",
+   15
+  ],
+  [
+   "2010-02-16",
+   "Cardiff City",
+   "lg",
+   27
+  ],
+  [
+   "2010-02-21",
+   "Bristol City",
+   "lg",
+   11
+  ],
+  [
+   "2010-02-24",
+   "Reading FC",
+   "dc",
+   81
+  ],
+  [
+   "2010-03-27",
+   "Reading FC",
+   "lg",
+   62
+  ],
+  [
+   "2010-08-24",
+   "Leyton Orient",
+   "dc",
+   30
+  ],
+  [
+   "2010-08-29",
+   "Liverpool FC",
+   "lg",
+   8
+  ],
+  [
+   "2010-09-25",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-28",
+   "Scunthorpe United",
+   "lg",
+   13
+  ],
+  [
+   "2010-10-02",
+   "Cardiff City",
+   "lg",
+   58
+  ],
+  [
+   "2010-10-16",
+   "Nottingham Forest",
+   "lg",
+   10
+  ],
+  [
+   "2010-10-19",
+   "Burnley FC",
+   "lg",
+   16
+  ],
+  [
+   "2010-10-23",
+   "Coventry City",
+   "lg",
+   57
+  ],
+  [
+   "2010-11-06",
+   "Leicester City",
+   "lg",
+   30
+  ],
+  [
+   "2010-11-20",
+   "Bristol Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-23",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-11",
+   "Huddersfield Town",
+   "lg",
+   67
+  ],
+  [
+   "2010-12-29",
+   "Charlton Athletic",
+   "lg",
+   86
+  ],
+  [
+   "2011-01-01",
+   "Leyton Orient",
+   "lg",
+   55
+  ],
+  [
+   "2011-01-03",
+   "Exeter City",
+   "lg",
+   45
+  ],
+  [
+   "2011-01-08",
+   "Portsmouth FC",
+   "dc",
+   68
+  ],
+  [
+   "2011-01-15",
+   "Peterborough United",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-22",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-25",
+   "Colchester United",
+   "lg",
+   70
+  ],
+  [
+   "2011-01-29",
+   "Watford FC",
+   "dc",
+   90
+  ],
+  [
+   "2011-02-01",
+   "Leyton Orient",
+   "lg",
+   32
+  ],
+  [
+   "2011-02-05",
+   "Bristol Rovers",
+   "lg",
+   70
+  ],
+  [
+   "2011-02-12",
+   "Hartlepool United",
+   "lg",
+   24
+  ],
+  [
+   "2011-02-22",
+   "Plymouth Argyle",
+   "lg",
+   60
+  ],
+  [
+   "2011-02-26",
+   "Milton Keynes Dons",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-01",
+   "Yeovil Town",
+   "lg",
+   83
+  ],
+  [
+   "2011-03-05",
+   "Carlisle United",
+   "lg",
+   33
+  ],
+  [
+   "2011-03-08",
+   "Brentford FC",
+   "lg",
+   20
+  ],
+  [
+   "2011-03-12",
+   "Tranmere Rovers",
+   "lg",
+   77
+  ],
+  [
+   "2011-03-19",
+   "Oldham Athletic",
+   "lg",
+   54
+  ],
+  [
+   "2011-03-22",
+   "Notts County",
+   "lg",
+   79
+  ],
+  [
+   "2011-03-29",
+   "Dagenham & Redbridge FC",
+   "lg",
+   6
+  ],
+  [
+   "2011-04-02",
+   "Rochdale AFC",
+   "lg",
+   82
+  ],
+  [
+   "2011-04-09",
+   "Sheffield Wednesday",
+   "lg",
+   63
+  ],
+  [
+   "2011-04-12",
+   "Dagenham & Redbridge FC",
+   "lg",
+   58
+  ],
+  [
+   "2011-04-16",
+   "Walsall FC",
+   "lg",
+   14
+  ],
+  [
+   "2011-04-23",
+   "Southampton FC",
+   "lg",
+   40
+  ],
+  [
+   "2011-04-25",
+   "Colchester United",
+   "lg",
+   90
+  ],
+  [
+   "2011-04-30",
+   "Huddersfield Town",
+   "lg",
+   65
+  ],
+  [
+   "2011-05-07",
+   "Notts County",
+   "lg",
+   90
+  ],
+  [
+   "2011-08-06",
+   "Derby County",
+   "lg",
+   31
+  ],
+  [
+   "2011-08-13",
+   "Coventry City",
+   "lg",
+   68
+  ],
+  [
+   "2011-08-18",
+   "CD Nacional",
+   "elq",
+   90
+  ],
+  [
+   "2011-08-21",
+   "Middlesbrough FC",
+   "lg",
+   18
+  ],
+  [
+   "2011-08-25",
+   "CD Nacional",
+   "elq",
+   88
+  ],
+  [
+   "2011-08-28",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-11",
+   "Millwall FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-15",
+   "SC Braga",
+   "elg",
+   30
+  ],
+  [
+   "2011-09-18",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-24",
+   "Barnsley FC",
+   "lg",
+   65
+  ],
+  [
+   "2011-10-02",
+   "Nottingham Forest",
+   "lg",
+   31
+  ],
+  [
+   "2011-10-16",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-20",
+   "Club Brugge KV",
+   "elg",
+   17
+  ],
+  [
+   "2011-10-23",
+   "Bristol City",
+   "lg",
+   75
+  ],
+  [
+   "2011-10-26",
+   "Leeds United",
+   "lg",
+   20
+  ],
+  [
+   "2011-10-29",
+   "Brighton & Hove Albion",
+   "lg",
+   67
+  ],
+  [
+   "2011-11-03",
+   "Club Brugge KV",
+   "elg",
+   24
+  ],
+  [
+   "2011-11-06",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-19",
+   "Peterborough United",
+   "lg",
+   71
+  ],
+  [
+   "2011-11-22",
+   "Burnley FC",
+   "lg",
+   2
+  ],
+  [
+   "2011-11-26",
+   "Blackpool FC",
+   "lg",
+   1
+  ],
+  [
+   "2011-11-30",
+   "SC Braga",
+   "elg",
+   14
+  ],
+  [
+   "2011-12-04",
+   "Cardiff City",
+   "lg",
+   15
+  ],
+  [
+   "2011-12-07",
+   "Hull City",
+   "lg",
+   76
+  ],
+  [
+   "2011-12-10",
+   "Doncaster Rovers",
+   "lg",
+   73
+  ],
+  [
+   "2011-12-19",
+   "Crystal Palace",
+   "lg",
+   7
+  ],
+  [
+   "2011-12-26",
+   "West Ham United",
+   "lg",
+   56
+  ],
+  [
+   "2011-12-31",
+   "Blackpool FC",
+   "lg",
+   8
+  ],
+  [
+   "2012-01-02",
+   "Peterborough United",
+   "lg",
+   20
+  ],
+  [
+   "2012-01-14",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-21",
+   "Doncaster Rovers",
+   "lg",
+   76
+  ],
+  [
+   "2012-01-28",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-04",
+   "Leeds United",
+   "lg",
+   71
+  ],
+  [
+   "2012-02-11",
+   "Hull City",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-14",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-18",
+   "Peterborough United",
+   "lg",
+   45
+  ],
+  [
+   "2012-02-25",
+   "Blackpool FC",
+   "lg",
+   71
+  ],
+  [
+   "2012-03-03",
+   "Ipswich Town",
+   "lg",
+   64
+  ],
+  [
+   "2012-03-06",
+   "Leicester City",
+   "lg",
+   9
+  ],
+  [
+   "2012-03-17",
+   "Portsmouth FC",
+   "lg",
+   28
+  ],
+  [
+   "2012-03-20",
+   "Watford FC",
+   "lg",
+   31
+  ],
+  [
+   "2012-03-24",
+   "Middlesbrough FC",
+   "lg",
+   1
+  ],
+  [
+   "2012-04-07",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-09",
+   "Coventry City",
+   "lg",
+   24
+  ],
+  [
+   "2012-04-14",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-17",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-21",
+   "Barnsley FC",
+   "lg",
+   45
+  ],
+  [
+   "2012-04-28",
+   "Burnley FC",
+   "lg",
+   77
+  ],
+  [
+   "2012-09-18",
+   "Cardiff City",
+   "lg",
+   33
+  ],
+  [
+   "2012-09-22",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2012-09-29",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-10-02",
+   "Bristol City",
+   "lg",
+   67
+  ],
+  [
+   "2012-10-06",
+   "Bolton Wanderers",
+   "lg",
+   73
+  ],
+  [
+   "2012-10-20",
+   "Crystal Palace",
+   "lg",
+   83
+  ],
+  [
+   "2012-10-23",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2012-10-27",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-03",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-06",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-10",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-18",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-24",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-27",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-01",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-08",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-15",
+   "Leicester City",
+   "lg",
+   79
+  ],
+  [
+   "2012-12-18",
+   "Brighton & Hove Albion",
+   "lg",
+   88
+  ],
+  [
+   "2012-12-22",
+   "Barnsley FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-01",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-05",
+   "Burton Albion",
+   "dc",
+   63
+  ],
+  [
+   "2013-01-12",
+   "Bristol City",
+   "lg",
+   61
+  ],
+  [
+   "2013-01-18",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-26",
+   "Huddersfield Town",
+   "dc",
+   30
+  ],
+  [
+   "2013-01-31",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-19",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-23",
+   "Blackpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-26",
+   "Blackburn Rovers",
+   "lg",
+   87
+  ],
+  [
+   "2013-03-02",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-05",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-09",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-12",
+   "Cardiff City",
+   "lg",
+   89
+  ],
+  [
+   "2013-03-16",
+   "Derby County",
+   "lg",
+   69
+  ],
+  [
+   "2013-03-29",
+   "Millwall FC",
+   "lg",
+   83
+  ],
+  [
+   "2013-04-01",
+   "Barnsley FC",
+   "lg",
+   60
+  ],
+  [
+   "2013-04-06",
+   "Brighton & Hove Albion",
+   "lg",
+   17
+  ],
+  [
+   "2013-04-12",
+   "Birmingham City",
+   "lg",
+   87
+  ],
+  [
+   "2013-04-16",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2013-04-20",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2013-04-26",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-04",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-09",
+   "Watford FC",
+   "lg",
+   63
+  ],
+  [
+   "2013-05-12",
+   "Watford FC",
+   "lg",
+   61
+  ],
+  [
+   "2013-08-03",
+   "Middlesbrough FC",
+   "lg",
+   61
+  ],
+  [
+   "2013-08-06",
+   "Wycombe Wanderers",
+   "dc",
+   90
+  ],
+  [
+   "2013-08-11",
+   "Leeds United",
+   "lg",
+   15
+  ],
+  [
+   "2013-08-17",
+   "Derby County",
+   "lg",
+   71
+  ],
+  [
+   "2013-08-24",
+   "Birmingham City",
+   "lg",
+   45
+  ],
+  [
+   "2013-08-27",
+   "Carlisle United",
+   "dc",
+   66
+  ],
+  [
+   "2013-08-31",
+   "Charlton Athletic",
+   "lg",
+   23
+  ],
+  [
+   "2013-09-14",
+   "Wigan Athletic",
+   "lg",
+   10
+  ],
+  [
+   "2013-09-17",
+   "Blackburn Rovers",
+   "lg",
+   10
+  ],
+  [
+   "2013-10-26",
+   "AFC Bournemouth",
+   "lg",
+   38
+  ],
+  [
+   "2013-10-29",
+   "Fulham FC",
+   "dc",
+   87
+  ],
+  [
+   "2013-11-02",
+   "Watford FC",
+   "lg",
+   67
+  ],
+  [
+   "2013-11-23",
+   "Ipswich Town",
+   "lg",
+   15
+  ],
+  [
+   "2013-11-30",
+   "Millwall FC",
+   "lg",
+   29
+  ],
+  [
+   "2013-12-03",
+   "Sheffield Wednesday",
+   "lg",
+   22
+  ],
+  [
+   "2013-12-07",
+   "Brighton & Hove Albion",
+   "lg",
+   26
+  ],
+  [
+   "2014-01-10",
+   "Derby County",
+   "lg",
+   10
+  ],
+  [
+   "2014-02-08",
+   "Watford FC",
+   "lg",
+   6
+  ],
+  [
+   "2014-02-22",
+   "Ipswich Town",
+   "lg",
+   19
+  ],
+  [
+   "2014-03-01",
+   "Charlton Athletic",
+   "lg",
+   23
+  ],
+  [
+   "2014-03-11",
+   "Barnsley FC",
+   "lg",
+   25
+  ],
+  [
+   "2014-03-25",
+   "Yeovil Town",
+   "lg",
+   23
+  ],
+  [
+   "2014-03-29",
+   "Burnley FC",
+   "lg",
+   56
+  ],
+  [
+   "2014-04-01",
+   "Wigan Athletic",
+   "lg",
+   73
+  ],
+  [
+   "2014-04-04",
+   "Sheffield Wednesday",
+   "lg",
+   59
+  ],
+  [
+   "2014-04-08",
+   "Brighton & Hove Albion",
+   "lg",
+   45
+  ],
+  [
+   "2014-04-14",
+   "Reading FC",
+   "lg",
+   25
+  ],
+  [
+   "2014-04-22",
+   "Bolton Wanderers",
+   "lg",
+   34
+  ],
+  [
+   "2014-04-26",
+   "Huddersfield Town",
+   "lg",
+   82
+  ],
+  [
+   "2014-08-16",
+   "Everton FC",
+   "lg",
+   12
+  ],
+  [
+   "2014-08-23",
+   "Chelsea FC",
+   "lg",
+   6
+  ],
+  [
+   "2014-08-26",
+   "Shrewsbury Town",
+   "dc",
+   90
+  ],
+  [
+   "2014-11-01",
+   "West Bromwich Albion",
+   "lg",
+   9
+  ],
+  [
+   "2014-11-08",
+   "Southampton FC",
+   "lg",
+   19
+  ],
+  [
+   "2014-11-22",
+   "Sunderland AFC",
+   "lg",
+   2
+  ],
+  [
+   "2014-12-07",
+   "Aston Villa",
+   "lg",
+   24
+  ],
+  [
+   "2014-12-28",
+   "Hull City",
+   "lg",
+   35
+  ],
+  [
+   "2015-01-03",
+   "Newcastle United",
+   "dc",
+   31
+  ],
+  [
+   "2015-03-01",
+   "Norwich City",
+   "lg",
+   11
+  ],
+  [
+   "2015-03-04",
+   "Leeds United",
+   "lg",
+   72
+  ],
+  [
+   "2015-03-07",
+   "Brentford FC",
+   "lg",
+   26
+  ],
+  [
+   "2015-03-14",
+   "Middlesbrough FC",
+   "lg",
+   21
+  ],
+  [
+   "2015-03-21",
+   "Watford FC",
+   "lg",
+   74
+  ],
+  [
+   "2015-04-03",
+   "AFC Bournemouth",
+   "lg",
+   11
+  ],
+  [
+   "2015-04-06",
+   "Huddersfield Town",
+   "lg",
+   45
+  ],
+  [
+   "2015-04-18",
+   "Wolverhampton Wanderers",
+   "lg",
+   7
+  ],
+  [
+   "2015-08-08",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-13",
+   "Doncaster Rovers",
+   "dc",
+   53
+  ],
+  [
+   "2015-08-16",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-19",
+   "Bristol City",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-22",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-29",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-12",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-15",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-19",
+   "Milton Keynes Dons",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-03",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-17",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-21",
+   "Fulham FC",
+   "lg",
+   70
+  ],
+  [
+   "2015-10-24",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-29",
+   "Blackburn Rovers",
+   "lg",
+   69
+  ],
+  [
+   "2015-11-03",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-07",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-21",
+   "Rotherham United",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-28",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-05",
+   "Hull City",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-12",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-17",
+   "Wolverhampton Wanderers",
+   "lg",
+   80
+  ],
+  [
+   "2015-12-20",
+   "Preston North End",
+   "lg",
+   83
+  ],
+  [
+   "2015-12-27",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-29",
+   "Derby County",
+   "lg",
+   75
+  ],
+  [
+   "2016-01-23",
+   "Bristol City",
+   "lg",
+   36
+  ],
+  [
+   "2016-01-26",
+   "Brentford FC",
+   "lg",
+   19
+  ],
+  [
+   "2016-03-12",
+   "Blackburn Rovers",
+   "lg",
+   5
+  ],
+  [
+   "2016-03-19",
+   "Huddersfield Town",
+   "lg",
+   16
+  ],
+  [
+   "2016-04-02",
+   "Rotherham United",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-05",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-09",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-12",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-16",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-19",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-23",
+   "Hull City",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-30",
+   "Charlton Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2016-05-07",
+   "Preston North End",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-07",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-10",
+   "Fleetwood Town",
+   "dc",
+   120
+  ],
+  [
+   "2016-08-13",
+   "Birmingham City",
+   "lg",
+   60
+  ],
+  [
+   "2016-08-16",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-20",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-27",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-10",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-13",
+   "Blackburn Rovers",
+   "lg",
+   29
+  ],
+  [
+   "2016-09-17",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-20",
+   "Blackburn Rovers",
+   "dc",
+   19
+  ],
+  [
+   "2016-09-24",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-27",
+   "Bristol City",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-01",
+   "Barnsley FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Derby County",
+   "lg",
+   82
+  ],
+  [
+   "2016-10-18",
+   "Wigan Athletic",
+   "lg",
+   85
+  ],
+  [
+   "2016-10-22",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-25",
+   "Norwich City",
+   "dc",
+   53
+  ],
+  [
+   "2016-10-29",
+   "Burton Albion",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-05",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-20",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-26",
+   "Rotherham United",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-29",
+   "Liverpool FC",
+   "dk",
+   28
+  ],
+  [
+   "2016-12-03",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-09",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-13",
+   "Reading FC",
+   "lg",
+   33
+  ],
+  [
+   "2016-12-26",
+   "Preston North End",
+   "lg",
+   9
+  ],
+  [
+   "2016-12-29",
+   "Aston Villa",
+   "lg",
+   21
+  ],
+  [
+   "2017-01-02",
+   "Rotherham United",
+   "lg",
+   82
+  ],
+  [
+   "2017-01-13",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-21",
+   "Barnsley FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-25",
+   "Nottingham Forest",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-01",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-05",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-11",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-14",
+   "Bristol City",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-18",
+   "Ipswich Town",
+   "lg",
+   86
+  ],
+  [
+   "2017-02-25",
+   "Sheffield Wednesday",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-03",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-11",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-18",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-01",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-04",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-08",
+   "Preston North End",
+   "lg",
+   80
+  ],
+  [
+   "2017-04-14",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-17",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-22",
+   "Burton Albion",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-29",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-07",
+   "Wigan Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-06",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-12",
+   "Preston North End",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-15",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-23",
+   "Blackburn Rovers",
+   "dc",
+   47
+  ],
+  [
+   "2017-08-27",
+   "Tottenham Hotspur",
+   "lg",
+   33
+  ],
+  [
+   "2017-09-10",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-16",
+   "Liverpool FC",
+   "lg",
+   87
+  ],
+  [
+   "2017-09-19",
+   "Leeds United",
+   "dc",
+   48
+  ],
+  [
+   "2017-09-23",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-01",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-14",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-21",
+   "Manchester City",
+   "lg",
+   20
+  ],
+  [
+   "2017-11-04",
+   "Southampton FC",
+   "lg",
+   65
+  ],
+  [
+   "2017-11-26",
+   "Arsenal FC",
+   "lg",
+   12
+  ],
+  [
+   "2017-11-29",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-02",
+   "Leicester City",
+   "lg",
+   74
+  ],
+  [
+   "2017-12-09",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-12",
+   "Stoke City",
+   "lg",
+   82
+  ],
+  [
+   "2017-12-16",
+   "Brighton & Hove Albion",
+   "lg",
+   81
+  ],
+  [
+   "2017-12-23",
+   "Tottenham Hotspur",
+   "lg",
+   35
+  ],
+  [
+   "2018-03-03",
+   "Everton FC",
+   "lg",
+   45
+  ],
+  [
+   "2018-03-10",
+   "West Ham United",
+   "lg",
+   30
+  ],
+  [
+   "2018-03-31",
+   "West Bromwich Albion",
+   "lg",
+   77
+  ],
+  [
+   "2018-04-07",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-14",
+   "Leicester City",
+   "lg",
+   75
+  ],
+  [
+   "2018-04-19",
+   "Chelsea FC",
+   "lg",
+   72
+  ],
+  [
+   "2018-04-22",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-28",
+   "Brighton & Hove Albion",
+   "lg",
+   66
+  ],
+  [
+   "2018-05-13",
+   "AFC Bournemouth",
+   "lg",
+   61
+  ],
+  [
+   "2018-07-26",
+   "Aberdeen FC",
+   "elq",
+   90
+  ],
+  [
+   "2018-08-02",
+   "Aberdeen FC",
+   "elq",
+   46
+  ],
+  [
+   "2018-08-12",
+   "Southampton FC",
+   "lg",
+   73
+  ],
+  [
+   "2018-08-16",
+   "Basaksehir FK",
+   "elq",
+   38
+  ],
+  [
+   "2018-08-19",
+   "Watford FC",
+   "lg",
+   65
+  ],
+  [
+   "2018-08-23",
+   "Olympiacos Piraeus",
+   "elq",
+   62
+  ],
+  [
+   "2018-08-26",
+   "Fulham FC",
+   "lg",
+   66
+  ],
+  [
+   "2018-08-30",
+   "Olympiacos Piraeus",
+   "elq",
+   15
+  ],
+  [
+   "2018-09-02",
+   "Manchester United",
+   "lg",
+   84
+  ],
+  [
+   "2018-09-16",
+   "Wolverhampton Wanderers",
+   "lg",
+   20
+  ],
+  [
+   "2018-09-22",
+   "AFC Bournemouth",
+   "lg",
+   30
+  ],
+  [
+   "2018-09-25",
+   "Burton Albion",
+   "dc",
+   81
+  ],
+  [
+   "2018-09-30",
+   "Cardiff City",
+   "lg",
+   18
+  ],
+  [
+   "2018-10-06",
+   "Huddersfield Town",
+   "lg",
+   29
+  ],
+  [
+   "2018-10-20",
+   "Manchester City",
+   "lg",
+   21
+  ],
+  [
+   "2018-10-28",
+   "Chelsea FC",
+   "lg",
+   31
+  ],
+  [
+   "2018-11-03",
+   "West Ham United",
+   "lg",
+   18
+  ],
+  [
+   "2018-11-10",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-26",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-01",
+   "Crystal Palace",
+   "lg",
+   80
+  ],
+  [
+   "2018-12-05",
+   "Liverpool FC",
+   "lg",
+   71
+  ],
+  [
+   "2018-12-08",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-15",
+   "Tottenham Hotspur",
+   "lg",
+   10
+  ],
+  [
+   "2018-12-22",
+   "Arsenal FC",
+   "lg",
+   77
+  ],
+  [
+   "2018-12-26",
+   "Everton FC",
+   "lg",
+   17
+  ],
+  [
+   "2018-12-30",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-02",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-05",
+   "Barnsley FC",
+   "dc",
+   16
+  ],
+  [
+   "2019-01-12",
+   "Fulham FC",
+   "lg",
+   87
+  ],
+  [
+   "2019-01-19",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-26",
+   "Manchester City",
+   "dc",
+   28
+  ],
+  [
+   "2019-01-29",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-02",
+   "Southampton FC",
+   "lg",
+   76
+  ],
+  [
+   "2019-02-09",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-23",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-26",
+   "Newcastle United",
+   "lg",
+   83
+  ],
+  [
+   "2019-03-02",
+   "Crystal Palace",
+   "lg",
+   81
+  ],
+  [
+   "2019-03-10",
+   "Liverpool FC",
+   "lg",
+   79
+  ],
+  [
+   "2019-03-16",
+   "Leicester City",
+   "lg",
+   70
+  ],
+  [
+   "2019-03-30",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-06",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-13",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-22",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-28",
+   "Manchester City",
+   "lg",
+   72
+  ],
+  [
+   "2019-05-03",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-12",
+   "Arsenal FC",
+   "lg",
+   77
+  ],
+  [
+   "2019-08-10",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-17",
+   "Arsenal FC",
+   "lg",
+   61
+  ],
+  [
+   "2019-08-25",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-28",
+   "Sunderland AFC",
+   "dc",
+   21
+  ],
+  [
+   "2019-08-31",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-14",
+   "Brighton & Hove Albion",
+   "lg",
+   66
+  ],
+  [
+   "2019-09-21",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-28",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-05",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-19",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-09",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-23",
+   "Watford FC",
+   "lg",
+   75
+  ],
+  [
+   "2019-11-30",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-03",
+   "Manchester City",
+   "lg",
+   59
+  ],
+  [
+   "2019-12-07",
+   "Tottenham Hotspur",
+   "lg",
+   65
+  ],
+  [
+   "2019-12-14",
+   "Newcastle United",
+   "lg",
+   85
+  ],
+  [
+   "2019-12-21",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-26",
+   "Everton FC",
+   "lg",
+   74
+  ],
+  [
+   "2019-12-28",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-01",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-04",
+   "Peterborough United",
+   "dc",
+   74
+  ],
+  [
+   "2020-01-11",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-19",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-22",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-25",
+   "Norwich City",
+   "dc",
+   65
+  ],
+  [
+   "2020-02-02",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-15",
+   "Southampton FC",
+   "lg",
+   22
+  ],
+  [
+   "2020-02-29",
+   "Newcastle United",
+   "lg",
+   32
+  ],
+  [
+   "2020-03-07",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-05",
+   "Sheffield United",
+   "lg",
+   21
+  ],
+  [
+   "2020-07-08",
+   "West Ham United",
+   "lg",
+   32
+  ],
+  [
+   "2020-07-11",
+   "Liverpool FC",
+   "lg",
+   65
+  ],
+  [
+   "2020-07-15",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-18",
+   "Norwich City",
+   "lg",
+   79
+  ],
+  [
+   "2020-07-26",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-17",
+   "Sheffield United",
+   "dc",
+   8
+  ],
+  [
+   "2020-09-20",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-23",
+   "Millwall FC",
+   "dc",
+   74
+  ],
+  [
+   "2020-09-26",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-30",
+   "Manchester City",
+   "dc",
+   45
+  ],
+  [
+   "2020-10-03",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-19",
+   "West Bromwich Albion",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-26",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-31",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-06",
+   "Brighton & Hove Albion",
+   "lg",
+   84
+  ],
+  [
+   "2020-11-23",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-28",
+   "Manchester City",
+   "lg",
+   67
+  ],
+  [
+   "2020-12-05",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-13",
+   "Arsenal FC",
+   "lg",
+   70
+  ],
+  [
+   "2020-12-17",
+   "Aston Villa",
+   "lg",
+   82
+  ],
+  [
+   "2020-12-21",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-27",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-29",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-09",
+   "Milton Keynes Dons",
+   "dc",
+   77
+  ],
+  [
+   "2021-01-12",
+   "Manchester United",
+   "lg",
+   80
+  ],
+  [
+   "2021-01-16",
+   "West Ham United",
+   "lg",
+   72
+  ],
+  [
+   "2021-01-21",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-27",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-31",
+   "Chelsea FC",
+   "lg",
+   62
+  ],
+  [
+   "2021-02-28",
+   "Tottenham Hotspur",
+   "lg",
+   17
+  ],
+  [
+   "2021-03-03",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-06",
+   "Arsenal FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-13",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-04",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-11",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-18",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-25",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-03",
+   "West Ham United",
+   "lg",
+   86
+  ],
+  [
+   "2021-05-10",
+   "Fulham FC",
+   "lg",
+   86
+  ],
+  [
+   "2021-05-15",
+   "Leeds United",
+   "lg",
+   65
+  ],
+  [
+   "2021-05-19",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-23",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-14",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-21",
+   "Liverpool FC",
+   "lg",
+   75
+  ],
+  [
+   "2021-08-25",
+   "Newcastle United",
+   "dc",
+   90
+  ],
+  [
+   "2021-08-29",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-13",
+   "Everton FC",
+   "lg",
+   86
+  ],
+  [
+   "2021-09-18",
+   "Arsenal FC",
+   "lg",
+   82
+  ],
+  [
+   "2021-09-21",
+   "Rochdale AFC",
+   "dc",
+   13
+  ],
+  [
+   "2021-09-25",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-02",
+   "Norwich City",
+   "lg",
+   80
+  ],
+  [
+   "2021-10-16",
+   "Manchester City",
+   "lg",
+   82
+  ],
+  [
+   "2021-10-23",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-27",
+   "Tottenham Hotspur",
+   "dc",
+   30
+  ],
+  [
+   "2021-10-30",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-06",
+   "Chelsea FC",
+   "lg",
+   61
+  ],
+  [
+   "2021-11-20",
+   "Crystal Palace",
+   "lg",
+   80
+  ],
+  [
+   "2021-12-01",
+   "Wolverhampton Wanderers",
+   "lg",
+   59
+  ],
+  [
+   "2021-12-04",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-12",
+   "West Ham United",
+   "lg",
+   60
+  ],
+  [
+   "2021-12-30",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-02",
+   "Leeds United",
+   "lg",
+   84
+  ],
+  [
+   "2022-01-08",
+   "Huddersfield Town",
+   "dc",
+   45
+  ],
+  [
+   "2022-01-15",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-22",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-08",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-13",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-19",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-26",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-05",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-10",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-13",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-17",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-03",
+   "Tottenham Hotspur",
+   "lg",
+   70
+  ],
+  [
+   "2022-04-08",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-17",
+   "Leicester City",
+   "lg",
+   69
+  ],
+  [
+   "2022-04-20",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-30",
+   "Liverpool FC",
+   "lg",
+   23
+  ],
+  [
+   "2022-05-08",
+   "Manchester City",
+   "lg",
+   68
+  ],
+  [
+   "2022-05-22",
+   "Burnley FC",
+   "lg",
+   18
+  ],
+  [
+   "2022-08-06",
+   "Nottingham Forest",
+   "lg",
+   1
+  ],
+  [
+   "2022-08-13",
+   "Brighton & Hove Albion",
+   "lg",
+   3
+  ],
+  [
+   "2022-08-21",
+   "Manchester City",
+   "lg",
+   20
+  ],
+  [
+   "2022-08-24",
+   "Tranmere Rovers",
+   "dc",
+   90
+  ],
+  [
+   "2022-08-28",
+   "Wolverhampton Wanderers",
+   "lg",
+   65
+  ],
+  [
+   "2022-08-31",
+   "Liverpool FC",
+   "lg",
+   26
+  ],
+  [
+   "2022-09-03",
+   "Crystal Palace",
+   "lg",
+   1
+  ],
+  [
+   "2022-09-17",
+   "AFC Bournemouth",
+   "lg",
+   1
+  ],
+  [
+   "2022-10-08",
+   "Brentford FC",
+   "lg",
+   6
+  ],
+  [
+   "2022-10-16",
+   "Manchester United",
+   "lg",
+   12
+  ],
+  [
+   "2022-10-19",
+   "Everton FC",
+   "lg",
+   3
+  ],
+  [
+   "2022-10-23",
+   "Tottenham Hotspur",
+   "lg",
+   2
+  ],
+  [
+   "2022-10-29",
+   "Aston Villa",
+   "lg",
+   4
+  ],
+  [
+   "2022-11-06",
+   "Southampton FC",
+   "lg",
+   45
+  ],
+  [
+   "2022-11-09",
+   "Crystal Palace",
+   "dc",
+   90
+  ],
+  [
+   "2022-11-12",
+   "Chelsea FC",
+   "lg",
+   76
+  ],
+  [
+   "2022-12-20",
+   "AFC Bournemouth",
+   "dc",
+   14
+  ],
+  [
+   "2022-12-26",
+   "Leicester City",
+   "lg",
+   88
+  ],
+  [
+   "2022-12-31",
+   "Leeds United",
+   "lg",
+   64
+  ],
+  [
+   "2023-01-03",
+   "Arsenal FC",
+   "lg",
+   22
+  ],
+  [
+   "2023-01-07",
+   "Sheffield Wednesday",
+   "dc",
+   45
+  ],
+  [
+   "2023-01-15",
+   "Fulham FC",
+   "lg",
+   1
+  ],
+  [
+   "2023-01-21",
+   "AFC Bournemouth",
+   "lg",
+   75
+  ],
+  [
+   "2023-02-05",
+   "Leeds United",
+   "lg",
+   73
+  ],
+  [
+   "2023-02-11",
+   "Fulham FC",
+   "lg",
+   63
+  ],
+  [
+   "2023-02-18",
+   "Manchester City",
+   "lg",
+   11
+  ],
+  [
+   "2023-02-25",
+   "West Ham United",
+   "lg",
+   77
+  ],
+  [
+   "2023-03-05",
+   "Everton FC",
+   "lg",
+   71
+  ],
+  [
+   "2023-03-11",
+   "Tottenham Hotspur",
+   "lg",
+   6
+  ],
+  [
+   "2023-08-12",
+   "Arsenal FC",
+   "lg",
+   1
+  ],
+  [
+   "2023-08-18",
+   "Sheffield United",
+   "lg",
+   6
+  ],
+  [
+   "2023-08-26",
+   "Manchester United",
+   "lg",
+   9
+  ],
+  [
+   "2023-08-30",
+   "Burnley FC",
+   "dc",
+   88
+  ],
+  [
+   "2023-09-02",
+   "Chelsea FC",
+   "lg",
+   25
+  ],
+  [
+   "2023-09-18",
+   "Burnley FC",
+   "lg",
+   2
+  ],
+  [
+   "2023-09-23",
+   "Manchester City",
+   "lg",
+   15
+  ],
+  [
+   "2023-10-01",
+   "Brentford FC",
+   "lg",
+   9
+  ],
+  [
+   "2023-10-07",
+   "Crystal Palace",
+   "lg",
+   76
+  ],
+  [
+   "2023-10-21",
+   "Luton Town",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-12",
+   "West Ham United",
+   "lg",
+   14
+  ],
+  [
+   "2023-11-25",
+   "Brighton & Hove Albion",
+   "lg",
+   63
+  ],
+  [
+   "2023-12-02",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-06",
+   "Fulham FC",
+   "lg",
+   32
+  ],
+  [
+   "2023-12-09",
+   "Wolverhampton Wanderers",
+   "lg",
+   6
+  ],
+  [
+   "2023-12-15",
+   "Tottenham Hotspur",
+   "lg",
+   22
+  ],
+  [
+   "2023-12-23",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-26",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2023-12-30",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-07",
+   "Blackpool FC",
+   "dc",
+   90
+  ],
+  [
+   "2024-01-17",
+   "Blackpool FC",
+   "dc",
+   120
+  ],
+  [
+   "2024-01-20",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-26",
+   "Bristol City",
+   "dc",
+   90
+  ],
+  [
+   "2024-01-30",
+   "Arsenal FC",
+   "lg",
+   45
+  ],
+  [
+   "2024-03-10",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-16",
+   "Luton Town",
+   "lg",
+   75
+  ],
+  [
+   "2024-03-30",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-02",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-07",
+   "Tottenham Hotspur",
+   "lg",
+   68
+  ],
+  [
+   "2024-04-13",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-21",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-28",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-04",
+   "Sheffield United",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-11",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-19",
+   "Burnley FC",
+   "lg",
+   79
+  ],
+  [
+   "2024-08-17",
+   "AFC Bournemouth",
+   "lg",
+   72
+  ],
+  [
+   "2024-08-24",
+   "Southampton FC",
+   "lg",
+   76
+  ],
+  [
+   "2024-08-31",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-14",
+   "Liverpool FC",
+   "lg",
+   81
+  ],
+  [
+   "2024-09-22",
+   "Brighton & Hove Albion",
+   "lg",
+   72
+  ],
+  [
+   "2024-09-28",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "Chelsea FC",
+   "lg",
+   82
+  ],
+  [
+   "2024-10-21",
+   "Crystal Palace",
+   "lg",
+   84
+  ],
+  [
+   "2024-10-25",
+   "Leicester City",
+   "lg",
+   81
+  ],
+  [
+   "2024-11-02",
+   "West Ham United",
+   "lg",
+   79
+  ],
+  [
+   "2024-11-10",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-23",
+   "Arsenal FC",
+   "lg",
+   27
+  ],
+  [
+   "2024-11-30",
+   "Ipswich Town",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-04",
+   "Manchester City",
+   "lg",
+   62
+  ],
+  [
+   "2024-12-07",
+   "Manchester United",
+   "lg",
+   79
+  ],
+  [
+   "2024-12-14",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-21",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-26",
+   "Tottenham Hotspur",
+   "lg",
+   87
+  ],
+  [
+   "2024-12-29",
+   "Everton FC",
+   "lg",
+   76
+  ],
+  [
+   "2025-01-06",
+   "Wolverhampton Wanderers",
+   "lg",
+   88
+  ],
+  [
+   "2025-01-11",
+   "Luton Town",
+   "dc",
+   16
+  ],
+  [
+   "2025-01-14",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-19",
+   "Southampton FC",
+   "lg",
+   83
+  ],
+  [
+   "2025-01-25",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-01",
+   "Brighton & Hove Albion",
+   "lg",
+   82
+  ],
+  [
+   "2025-02-11",
+   "Exeter City",
+   "dc",
+   30
+  ],
+  [
+   "2025-02-15",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-23",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-26",
+   "Arsenal FC",
+   "lg",
+   85
+  ],
+  [
+   "2025-03-03",
+   "Ipswich Town",
+   "dc",
+   38
+  ],
+  [
+   "2025-03-08",
+   "Manchester City",
+   "lg",
+   87
+  ],
+  [
+   "2025-03-15",
+   "Ipswich Town",
+   "lg",
+   80
+  ],
+  [
+   "2025-04-12",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-21",
+   "Tottenham Hotspur",
+   "lg",
+   76
+  ],
+  [
+   "2025-04-27",
+   "Manchester City",
+   "dsf",
+   71
+  ],
+  [
+   "2025-05-01",
+   "Brentford FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-05",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-11",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-18",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-25",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-17",
+   "Brentford FC",
+   "lg",
+   79
+  ],
+  [
+   "2025-08-24",
+   "Crystal Palace",
+   "lg",
+   88
+  ],
+  [
+   "2025-08-31",
+   "West Ham United",
+   "lg",
+   73
+  ],
+  [
+   "2025-09-13",
+   "Arsenal FC",
+   "lg",
+   60
+  ],
+  [
+   "2025-09-20",
+   "Burnley FC",
+   "lg",
+   75
+  ],
+  [
+   "2025-09-27",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-02",
+   "FC Midtjylland",
+   "elg",
+   15
+  ],
+  [
+   "2025-10-05",
+   "Newcastle United",
+   "lg",
+   64
+  ],
+  [
+   "2025-10-18",
+   "Chelsea FC",
+   "lg",
+   16
+  ],
+  [
+   "2026-04-09",
+   "FC Porto",
+   "elk",
+   45
+  ],
+  [
+   "2026-04-12",
+   "Aston Villa",
+   "lg",
+   25
+  ],
+  [
+   "2026-04-16",
+   "FC Porto",
+   "elk",
+   16
+  ],
+  [
+   "2026-04-19",
+   "Burnley FC",
+   "lg",
+   76
+  ],
+  [
+   "2026-04-24",
+   "Sunderland AFC",
+   "lg",
+   88
+  ],
+  [
+   "2026-04-30",
+   "Aston Villa",
+   "elsf",
+   90
+  ],
+  [
+   "2026-05-04",
+   "Chelsea FC",
+   "lg",
+   24
+  ],
+  [
+   "2026-05-07",
+   "Aston Villa",
+   "elsf",
+   71
+  ],
+  [
+   "2026-05-10",
+   "Newcastle United",
+   "lg",
+   17
+  ],
+  [
+   "2026-05-17",
+   "Manchester United",
+   "lg",
+   70
+  ],
+  [
+   "2026-05-24",
+   "AFC Bournemouth",
+   "lg",
+   62
+  ],
+  [
+   "2026-08-22",
+   "Leeds United",
+   "lg",
+   28
+  ],
+  [
+   "2026-08-25",
+   "Leeds United",
+   "dc",
+   90
+  ],
+  [
+   "2026-09-05",
+   "Tottenham Hotspur",
+   "lg",
+   16
+  ],
+  [
+   "2026-09-12",
+   "Aston Villa",
+   "lg",
+   1
+  ],
+  [
+   "2026-09-19",
+   "Coventry City",
+   "lg",
+   17
+  ],
+  [
+   "2026-10-11",
+   "Crystal Palace",
+   "lg",
+   18
+  ],
+  [
+   "2026-10-18",
+   "Arsenal FC",
+   "lg",
+   5
+  ],
+  [
+   "2026-10-23",
+   "Ipswich Town",
+   "lg",
+   1
+  ],
+  [
+   "2026-10-31",
+   "Brentford FC",
+   "lg",
+   25
+  ],
+  [
+   "2026-11-21",
+   "AFC Bournemouth",
+   "lg",
+   18
+  ]
+ ],
+ "note": "크리스 우드(웨스트 브로미치 앨비언·반즐리·브라이턴·버밍엄 시티·브리스틀 시티·밀월·레스터 시티·입스위치 타운·리즈 유나이티드·번리·뉴캐슬 유나이티드·노팅엄 포리스트)의 클럽 공식 경기 606경기(2009.4.11 포츠머스전 ~ 2026.11.21 본머스전)에서 나온 200골 44도움(PK 골 29개), 친선경기·뉴질랜드 대표팀(연령별 포함) 제외\n클럽별 경기·골·도움: 웨스트 브로미치 앨비언(2009~2010) 27·3·5, 반즐리(2010) 7·0·0, 브라이턴(2010~2011) 31·9·3, 버밍엄 시티(2011) 29·11·1, 브리스틀 시티(2012) 19·3·1, 밀월(2012) 19·11·2, 레스터 시티(2013~2015) 62·20·10, 입스위치 타운(2015) 8·0·0, 리즈 유나이티드(2015~2017) 88·44·9, 번리(2017~2022) 165·53·9, 뉴캐슬 유나이티드(2022~2023) 39·5·0, 노팅엄 포리스트(2023~) 112·41·4. 출전 분 합계 38,811분(Transfermarkt 기록 그대로)\n출처: 경기 목록·출전 분(교체·연장 반영)은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·PK·도움은 Transfermarkt 경기 기록(전 경기). 클럽·시즌·대회별 경기 수와 골은 영어 위키백과 경력 표와 모두 같음(2026-27 리그는 위키백과가 10월 31일까지라 1경기 적음). 골 194개(164경기)는 FotMob 경기 기록과 대조해 골 수·PK가 모두 같음(시각 1분 차이 7건과 FotMob이 추가시간을 45·90분으로만 적은 골은 Transfermarkt 분). FotMob에 기록이 없는 6골(웨스트 브로미치 2009-10 리그 돈캐스터전·FA컵 허더즈필드전, 브라이턴 2011년 1~2월 FA컵 포츠머스전·피터버러전 2골·하틀풀전)은 Transfermarkt만\n범위: 뉴질랜드 시절(캠브리지 FC 2006, 해밀턴 원더러스 2007 북부 지역 리그 — 위키백과 17경기 16골, 와이카토 FC/와이밥 유나이티드 2007-08 뉴질랜드 1부 5경기 0골)은 아마추어·세미프로 리그라 프로 리그 규칙으로 뺌(뉴질랜드 1부 당시 리그는 선수 대부분이 아마추어인 여름 프랜차이즈 리그). 웨스트 브로미치·레스터·노팅엄 포리스트 21세 이하·리저브 경기(10경기 8골)도 뺌. 2019.8.31 리버풀전 33분 우드 자책골은 골이 아님\n도움: Transfermarkt 경기 기록 도움 47개(본인 PK 골에 본인을 PK 유도자로 적은 2018.8.23 올림피아코스전·2021.5.3 웨스트햄전은 처음부터 셈하지 않음) 중 44개를 넣고 3개를 뺌 — 2009.12.14 QPR전 90+4분 사이먼 콕스 골(유형 '슈팅' — 리바운드), 2011.1.1 레이턴 오리엔트전 31분 상대 제이미 존스 자책골, 2012.10.20 크리스털 팰리스 원정 77분 비버스 골(Transfermarkt만 우드 코너킥, FotMob·스포츠 몰 경기 기사는 조시 라이트 코너킥). 2014.8 이전 Transfermarkt만 적은 도움(패스·크로스·유형 빈칸) 16개는 선례대로 넣음(FotMob이 2009-10 시즌 자료가 없고 2010~2014 잉글랜드 2·3부 도움을 거의 적지 않음). 2014.8 이후 Transfermarkt만 적은 2018.7.26 유로파 예선 애버딘 원정 80분 복스 동점골 도움은 스카이 스포츠 기사('우드가 머리로 떨궈 줌')·포포투(PA) 기사로 확인해 넣음. 나머지 도움 27개는 Transfermarkt·FotMob이 같이 적은 것. FotMob에만 있는 도움 없음\n출전 분: Transfermarkt 그대로. 2017.9.19 리그컵 번리-리즈전(2-2 연장 뒤 승부차기)은 72분 교체 투입이라 연장 포함 48분(FotMob 18분은 연장을 뺀 값; 스카이 스포츠·포포투 기사로 연장 확인). 리그컵 2020.9.17 셰필드 유나이티드전·2021.8.25 뉴캐슬전·2022.11.9 크리스털 팰리스전은 연장 없이 승부차기라 90분 경기. 승부차기 골은 셈하지 않음\n연장 골·도움: 2009.8.26 리그컵 로더럼전 116분 콕스 골 도움, 2016.8.10 리그컵 플리트우드전 94분 골, 2016.10.25 리그컵 노리치전 109분 골, 2024.1.17 FA컵 재경기 블랙풀 원정 110분 골. 추가시간 골은 Transfermarkt 분(2011.10.20 유로파 클뤼프 브뤼허 원정 결승골 90+9분 — 유럽축구연맹 기사도 추가시간 10분째 골로 적음)\n날짜: 경기 현지 날짜(잉글랜드 경기는 런던, 유럽 원정은 개최지 시각; Transfermarkt 일정 날짜와 차이 없음)\n대회 비중: 프리미어리그·챔피언십·리그 원과 챔피언십 승격 플레이오프(2013 준결승 왓퍼드전 두 경기 합산, 원정 다득점 없이 연장 — 왓킨스·미트로비치 자료와 같은 리그 비중)는 리그. FA컵·리그컵은 국내컵(16강까지 낮은 비중, 8강부터 높은 비중, 2025 FA컵 준결승 맨시티전은 준결승). 유로파 예선(2011 나시오날 — 플레이오프 라운드, 2018 애버딘·바샥셰히르·올림피아코스 — 마지막은 플레이오프 라운드), 유로파 조별(2011-12 버밍엄)·리그 단계(2025-26 포리스트, 조별 비중)·8강(포르투)·준결승(애스턴 빌라)은 각 단계 비중. 두 경기 합산 기록 5행(5경기): 2021년 이전 유로파 예선은 원정 다득점·연장, 2026 유로파 준결승은 원정 다득점 없이 연장\n리그 수준: 같은 경기·같은 팀×시즌이 다른 선수 자료에 있으면 그 값, 없으면 리그 모형(시즌 평균 + 순위, 표 있는 시즌은 그 시즌 승점·득실). 순위는 Transfermarkt 최종 순위표(잉글랜드 1~4부, 포르투갈, 스코틀랜드, 튀르키예, 그리스, 덴마크) — 리그 원·리그 투 상대는 하부 리그 수준을 붙인 추정. 감점 시즌 상대는 감점 전 순위(챔피언십 2009-10 입스위치 16위·2011-12 반즐리 22위, 리그 원 2010-11 플리머스 19위·브리스틀 로버스 23위 — 영어 위키백과 승점 표에서 감점을 되돌린 순서). 리그 원 2010-11 트랜미어는 올덤과 승점·득실·다득점이 같아 Transfermarkt 17위, 영어 위키백과 공식 표 18위 — 위키백과 순위를 씀. 7월 유로파 예선 애버딘 1차전(2018.7.26)은 스코틀랜드 리그 개막 전이라 직전 2017-18 시즌 2위(영어 위키백과 순위표), 8월 2차전은 2018-19 시즌 4위. 2011.8 유로파 플레이오프 CD 나시오날(마데이라)은 포르투갈 2011-12 시즌이 이미 시작돼 그 시즌 최종 7위\n시즌 구분: 8월 1일 기준이고 번리만 7월 10일 기준(2018.7.26 유로파 예선 = 2018-19), 2020년 7월 프리미어리그 재개 경기는 2019-20. 클럽 구분은 이적·임대 날짜(2010.9.24 반즐리, 2010.11.19 브라이턴, 2011.8.5 버밍엄, 2012.1 브리스틀 시티, 2012.9.17 밀월, 2013.1.1 레스터(임대 뒤 완전 이적, 같은 클럽), 2015.2.27 입스위치, 2015.7.1 리즈, 2017.8.21 번리, 2022.1.13 뉴캐슬, 2023.1.20 노팅엄 포리스트(임대 뒤 2023.7 완전 이적, 같은 클럽))\n우승·수상은 Transfermarkt 업적 페이지 기준: 챔피언십(2부) 2013-14(레스터), 리그 원(3부) 2010-11(브라이턴 임대, 31경기). 승격(웨스트 브로미치 2009-10 2위)·대표팀 우승은 넣지 않음. 개인: 챔피언십 득점왕 2016-17(27골), PFA 올해의 팀 2016-17 챔피언십·2024-25 프리미어리그(영어 위키백과 PFA Team of the Year 목록), EFL 시즌 팀 2016-17(리그 사무국, 2~4부 통합 한 팀), 뉴질랜드 올해의 선수 2017·2018·2019·2020/21(영어 위키백과 New Zealand Footballer of the Year 목록 — 선수 문서의 2016년은 목록에서 윈스턴 리드라 넣지 않음). 구단 올해의 선수·이달의 선수·팬 투표 팀은 넣지 않음\n현역: 노팅엄 포리스트. 마지막 반영 경기 2026.11.21 프리미어리그 11라운드 본머스 원정(0-2 패, 교체 18분). 자료 기준일 2026.11.25",
+ "judgments": [
+  [
+   "도움 제외",
+   "2009-12-14",
+   "Queens Park Rangers",
+   "90+4",
+   "Simon Cox",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2011-01-01",
+   "Leyton Orient",
+   "31",
+   "Jamie Jones",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2012-10-20",
+   "Crystal Palace",
+   "77",
+   "Mark Beevers",
+   "2012.10.20 크리스털 팰리스 원정 77분 비버스 골: Transfermarkt만 우드 코너킥, FotMob 'assist by Josh Wright'·스포츠 몰 경기 기사 'Beevers converted from Josh Wright's corner' → 조시 라이트 도움"
+  ],
+  [
+   "본인 PK 골의 본인 도움(도움 아님)",
+   "2018-08-23",
+   "Olympiacos Piraeus",
+   "33",
+   "Penalty: Fouled player"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2019-08-31",
+   "Liverpool FC",
+   "33"
+  ],
+  [
+   "본인 PK 골의 본인 도움(도움 아님)",
+   "2021-05-03",
+   "West Ham United",
+   "19",
+   "Penalty: Fouled player"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2009-08-18",
+   "967106",
+   "34",
+   "Luke Moore",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2009-08-22",
+   "967122",
+   "38",
+   "Robert Koren",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2009-08-26",
+   "966742",
+   "116",
+   "Simon Cox",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2009-10-17",
+   "975468",
+   "65",
+   "Jerome Thomas",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2009-11-28",
+   "982981",
+   "85",
+   "Chris Brunt",
+   "2014.8 이전 TM 단독(유형 Cross) 선례대로 넣음"
+  ],
+  [
+   "2011-01-01",
+   "1034177",
+   "29",
+   "Glenn Murray",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2011-02-05",
+   "1034266",
+   "38",
+   "Ashley Barnes",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2011-02-22",
+   "1034296",
+   "28",
+   "Glenn Murray",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2011-12-31",
+   "1132019",
+   "89",
+   "Nathan Redmond",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2012-04-21",
+   "1132272",
+   "11",
+   "Cole Skuse",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2012-10-20",
+   "2225962",
+   "77",
+   "Mark Beevers",
+   "뺌: 2012.10.20 크리스털 팰리스 원정 77분 비버스 골: Transfermarkt만 우드 코너킥, FotMob 'assist by Josh Wright'·스포츠 몰 경기 기사 'Beevers converted from Josh Wright's corner' → 조시 라이트 도움"
+  ],
+  [
+   "2012-10-27",
+   "2225937",
+   "79",
+   "James Henry",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2012-11-27",
+   "2225994",
+   "79",
+   "Andy Keogh",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-01-01",
+   "2226090",
+   "76",
+   "Martyn Waghorn",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2013-01-18",
+   "2226125",
+   "70",
+   "David Nugent",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-04-16",
+   "2226319",
+   "41",
+   "Lloyd Dyer",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-05-04",
+   "2226347",
+   "90+1",
+   "Anthony Knockaert",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-08-03",
+   "2345052",
+   "60",
+   "Danny Drinkwater",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-08-27",
+   "2360818",
+   "47",
+   "Lloyd Dyer",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2013-10-26",
+   "2332992",
+   "64",
+   "Jamie Vardy",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-03-29",
+   "2333045",
+   "35",
+   "David Nugent",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-04-04",
+   "2333309",
+   "10",
+   "Riyad Mahrez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-04-22",
+   "2333343",
+   "62",
+   "Lloyd Dyer",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-09-12",
+   "2578708",
+   "76",
+   "Mirco Antenucci",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-12-17",
+   "2578897",
+   "44",
+   "Sam Byram",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-01-23",
+   "2578974",
+   "59",
+   "Souleymane Doukara",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-04-12",
+   "2579025",
+   "50",
+   "Stuart Dallas",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-12-26",
+   "2716389",
+   "88",
+   "Pablo Hernández",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-02-18",
+   "2716509",
+   "42",
+   "Stuart Dallas",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-04-08",
+   "2716602",
+   "18",
+   "Kemar Roofe",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-04-22",
+   "2716634",
+   "80",
+   "Kyle Bartley",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-08-06",
+   "2867263",
+   "42",
+   "Kalvin Phillips",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-03-10",
+   "2872414",
+   "66",
+   "Ashley Barnes",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-07-26",
+   "3071954",
+   "80",
+   "Sam Vokes",
+   "넣음: 2018.7.26 유로파 예선 애버딘 원정 80분 복스 동점골: 스카이 스포츠 경기 기사 'Wood headed on for Vokes', 포포투(PA) 기사 'Vokes controlled a knockdown from strike partner Chris Wood' → 넣음(FotMob 도움 없음)"
+  ],
+  [
+   "2019-04-06",
+   "3050495",
+   "56",
+   "Ashley Barnes",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-04-22",
+   "3050526",
+   "24",
+   "Ashley Barnes",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-01-22",
+   "3219243",
+   "56",
+   "Jay Rodríguez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-09-23",
+   "3451687",
+   "90+3",
+   "Matej Vydra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-04",
+   "3429791",
+   "28",
+   "Matej Vydra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-11",
+   "3429794",
+   "18",
+   "Matej Vydra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-25",
+   "3429822",
+   "85",
+   "Ashley Westwood",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-12-23",
+   "4095252",
+   "47",
+   "Anthony Elanga",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-12-29",
+   "4361503",
+   "61",
+   "Morgan Gibbs-White",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-01-19",
+   "4362736",
+   "28",
+   "Callum Hudson-Odoi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-02-23",
+   "4362776",
+   "63",
+   "Nikola Milenković",
+   "TM+FotMob 이벤트"
+  ]
+ ],
+ "fotmob_only_assists": [],
+ "cross_check": [
+  [
+   "타인 도움(우드 골)",
+   "len.js",
+   "2018-03-10",
+   70,
+   "West Ham United",
+   "같음"
+  ],
+  [
+   "우드 도움→타인 골",
+   "mah.js",
+   "2014-04-04",
+   10,
+   "Riyad Mahrez",
+   "같음"
+  ],
+  [
+   "우드 도움→타인 골",
+   "var.js",
+   "2013-10-26",
+   64,
+   "Jamie Vardy",
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "다름",
+   "1131826",
+   "2011-09-18",
+   "49",
+   "Direct free kick",
+   "50",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2226319",
+   "2013-04-16",
+   "39",
+   "Penalty",
+   "40",
+   "",
+   "penalty",
+   "Pen"
+  ],
+  [
+   "다름",
+   "2360818",
+   "2013-08-27",
+   "59",
+   "Penalty",
+   "60",
+   "",
+   "penalty",
+   "Pen"
+  ],
+  [
+   "다름",
+   "2579135",
+   "2016-04-16",
+   "85",
+   "Left-footed shot",
+   "86",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2753636",
+   "2016-09-20",
+   "85",
+   "Header",
+   "84",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2716430",
+   "2017-01-21",
+   "68",
+   "Penalty",
+   "67",
+   "",
+   "penalty",
+   "Pen"
+  ],
+  [
+   "다름",
+   "2716493",
+   "2017-02-14",
+   "27",
+   "Right-footed shot",
+   "28",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "elo_sources": {
+  "기존 팀×시즌 값": 155,
+  "순위표 → 라벨": 75,
+  "직접 라벨(순위표 밖)": 2,
+  "같은 경기 다른 선수 자료": 12
+ },
+ "new_team_seasons": {
+  "Ipswich Town|2009-10": [
+   1522,
+   "챔피언십 2009-10 16위/24팀 (감점 전 순위)"
+  ],
+  "Rotherham United|2009-10": [
+   1378,
+   "잉글랜드 4부 2009-10 5위/24팀 (Football League Two, 리그 수준 추정)"
+  ],
+  "Doncaster Rovers|2009-10": [
+   1544,
+   "챔피언십 2009-10 12위/24팀"
+  ],
+  "Sheffield Wednesday|2009-10": [
+   1489,
+   "챔피언십 2009-10 22위/24팀"
+  ],
+  "Huddersfield Town|2009-10": [
+   1507,
+   "잉글랜드 3부 2009-10 6위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Portsmouth FC|2010-11": [
+   1514,
+   "챔피언십 2010-11 16위/24팀"
+  ],
+  "Peterborough United|2010-11": [
+   1491,
+   "잉글랜드 3부 2010-11 4위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Hartlepool United|2010-11": [
+   1407,
+   "잉글랜드 3부 2010-11 16위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Plymouth Argyle|2010-11": [
+   1392,
+   "잉글랜드 3부 2010-11 19위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)"
+  ],
+  "Tranmere Rovers|2010-11": [
+   1412,
+   "잉글랜드 3부 2010-11 18위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Rochdale AFC|2010-11": [
+   1450,
+   "잉글랜드 3부 2010-11 9위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "CD Nacional|2011-12": [
+   1682,
+   "포르투갈 1부 2011-12 7위"
+  ],
+  "Millwall FC|2011-12": [
+   1512,
+   "챔피언십 2011-12 16위/24팀"
+  ],
+  "Southampton FC|2011-12": [
+   1635,
+   "챔피언십 2011-12 2위/24팀"
+  ],
+  "Coventry City|2011-12": [
+   1444,
+   "챔피언십 2011-12 23위/24팀"
+  ],
+  "Barnsley FC|2011-12": [
+   1466,
+   "챔피언십 2011-12 22위/24팀 (감점 전 순위)"
+  ],
+  "Birmingham City|2012-13": [
+   1509,
+   "챔피언십 2012-13 12위/24팀"
+  ],
+  "Huddersfield Town|2012-13": [
+   1489,
+   "챔피언십 2012-13 19위/24팀"
+  ],
+  "Nottingham Forest|2012-13": [
+   1535,
+   "챔피언십 2012-13 8위/24팀"
+  ],
+  "Burton Albion|2012-13": [
+   1359,
+   "잉글랜드 4부 2012-13 4위/24팀 (Football League Two, 리그 수준 추정)"
+  ],
+  "Charlton Athletic|2012-13": [
+   1531,
+   "챔피언십 2012-13 9위/24팀"
+  ],
+  "Bolton Wanderers|2012-13": [
+   1541,
+   "챔피언십 2012-13 7위/24팀"
+  ],
+  "Crystal Palace|2012-13": [
+   1555,
+   "챔피언십 2012-13 5위/24팀"
+  ],
+  "Carlisle United|2013-14": [
+   1342,
+   "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Yeovil Town|2013-14": [
+   1407,
+   "챔피언십 2013-14 24위/24팀"
+  ],
+  "Burnley FC|2013-14": [
+   1623,
+   "챔피언십 2013-14 2위/24팀"
+  ],
+  "Bristol City|2015-16": [
+   1470,
+   "챔피언십 2015-16 18위/24팀"
+  ],
+  "Sheffield Wednesday|2015-16": [
+   1565,
+   "챔피언십 2015-16 6위/24팀"
+  ],
+  "Brentford FC|2015-16": [
+   1526,
+   "챔피언십 2015-16 9위/24팀"
+  ],
+  "Fulham FC|2015-16": [
+   1471,
+   "챔피언십 2015-16 20위/24팀"
+  ],
+  "Huddersfield Town|2015-16": [
+   1472,
+   "챔피언십 2015-16 19위/24팀"
+  ],
+  "Wolverhampton Wanderers|2015-16": [
+   1497,
+   "챔피언십 2015-16 14위/24팀"
+  ],
+  "Queens Park Rangers|2015-16": [
+   1507,
+   "챔피언십 2015-16 12위/24팀"
+  ],
+  "Reading FC|2015-16": [
+   1479,
+   "챔피언십 2015-16 17위/24팀"
+  ],
+  "Preston North End|2015-16": [
+   1513,
+   "챔피언십 2015-16 11위/24팀"
+  ],
+  "Fleetwood Town|2016-17": [
+   1487,
+   "잉글랜드 3부 2016-17 4위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Sheffield Wednesday|2016-17": [
+   1590,
+   "챔피언십 2016-17 4위/24팀"
+  ],
+  "Ipswich Town|2016-17": [
+   1495,
+   "챔피언십 2016-17 16위/24팀"
+  ],
+  "Norwich City|2016-17": [
+   1560,
+   "챔피언십 2016-17 8위/24팀"
+  ],
+  "Rotherham United|2016-17": [
+   1362,
+   "챔피언십 2016-17 24위/24팀"
+  ],
+  "Nottingham Forest|2016-17": [
+   1483,
+   "챔피언십 2016-17 21위/24팀"
+  ],
+  "Bristol City|2016-17": [
+   1495,
+   "챔피언십 2016-17 17위/24팀"
+  ],
+  "Birmingham City|2016-17": [
+   1481,
+   "챔피언십 2016-17 19위/24팀"
+  ],
+  "Brighton & Hove Albion|2016-17": [
+   1641,
+   "챔피언십 2016-17 2위/24팀"
+  ],
+  "Newcastle United|2016-17": [
+   1653,
+   "챔피언십 2016-17 1위/24팀"
+  ],
+  "Aberdeen FC|2017-18": [
+   1527,
+   "스코틀랜드 1부 2017-18 2위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Aberdeen FC|2018-19": [
+   1535,
+   "스코틀랜드 1부 2018-19 4위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Barnsley FC|2018-19": [
+   1558,
+   "잉글랜드 3부 2018-19 2위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Tranmere Rovers|2022-23": [
+   1349,
+   "잉글랜드 4부 2022-23 12위/24팀 (EFL League Two, 리그 수준 추정)"
+  ],
+  "Blackpool FC|2023-24": [
+   1491,
+   "잉글랜드 3부 2023-24 8위/24팀 (EFL League One, 리그 수준 추정)"
+  ]
+ },
+ "map_need": [],
+ "table_label_diffs": [],
+ "elo_log": {
+  "Peterborough United|2009-08-18": [
+   "table",
+   1440,
+   "챔피언십 2009-10 24위/24팀",
+   "2009-10"
+  ],
+  "Ipswich Town|2009-08-22": [
+   "model",
+   1522,
+   "챔피언십 2009-10 16위/24팀 (감점 전 순위)"
+  ],
+  "Rotherham United|2009-08-26": [
+   "model",
+   1378,
+   "잉글랜드 4부 2009-10 5위/24팀 (Football League Two, 리그 수준 추정)"
+  ],
+  "Doncaster Rovers|2009-09-15": [
+   "model",
+   1544,
+   "챔피언십 2009-10 12위/24팀"
+  ],
+  "Reading FC|2009-10-17": [
+   "table",
+   1556,
+   "챔피언십 2009-10 9위/24팀",
+   "2009-10"
+  ],
+  "Sheffield Wednesday|2009-11-28": [
+   "model",
+   1489,
+   "챔피언십 2009-10 22위/24팀"
+  ],
+  "Huddersfield Town|2010-01-02": [
+   "model",
+   1507,
+   "잉글랜드 3부 2009-10 6위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Leyton Orient|2010-08-24": [
+   "table",
+   1455,
+   "잉글랜드 3부 2010-11 7위/24팀 (Football League One, 리그 수준 추정)",
+   "2010-11"
+  ],
+  "Bristol Rovers|2010-11-20": [
+   "table",
+   1368,
+   "잉글랜드 3부 2010-11 23위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "2010-11"
+  ],
+  "Leyton Orient|2011-01-01": [
+   "table",
+   1455,
+   "잉글랜드 3부 2010-11 7위/24팀 (Football League One, 리그 수준 추정)",
+   "2010-11"
+  ],
+  "Portsmouth FC|2011-01-08": [
+   "model",
+   1514,
+   "챔피언십 2010-11 16위/24팀"
+  ],
+  "Peterborough United|2011-01-15": [
+   "model",
+   1491,
+   "잉글랜드 3부 2010-11 4위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Bristol Rovers|2011-02-05": [
+   "table",
+   1368,
+   "잉글랜드 3부 2010-11 23위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)",
+   "2010-11"
+  ],
+  "Hartlepool United|2011-02-12": [
+   "model",
+   1407,
+   "잉글랜드 3부 2010-11 16위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Plymouth Argyle|2011-02-22": [
+   "model",
+   1392,
+   "잉글랜드 3부 2010-11 19위/24팀 (감점 전 순위; Football League One, 리그 수준 추정)"
+  ],
+  "Tranmere Rovers|2011-03-12": [
+   "model",
+   1412,
+   "잉글랜드 3부 2010-11 18위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Rochdale AFC|2011-04-02": [
+   "model",
+   1450,
+   "잉글랜드 3부 2010-11 9위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "Sheffield Wednesday|2011-04-09": [
+   "table",
+   1422,
+   "잉글랜드 3부 2010-11 15위/24팀 (Football League One, 리그 수준 추정)",
+   "2010-11"
+  ],
+  "CD Nacional|2011-08-25": [
+   "man",
+   1682,
+   "포르투갈 1부 2011-12 7위"
+  ],
+  "Watford FC|2011-08-28": [
+   "table",
+   1527,
+   "챔피언십 2011-12 11위/24팀",
+   "2011-12"
+  ],
+  "Millwall FC|2011-09-11": [
+   "model",
+   1512,
+   "챔피언십 2011-12 16위/24팀"
+  ],
+  "Southampton FC|2011-09-18": [
+   "model",
+   1635,
+   "챔피언십 2011-12 2위/24팀"
+  ],
+  "Nottingham Forest|2011-10-02": [
+   "table",
+   1481,
+   "챔피언십 2011-12 20위/24팀 (감점 전 순위)",
+   "2011-12"
+  ],
+  "Leicester City|2011-10-16": [
+   "table",
+   1548,
+   "챔피언십 2011-12 9위/24팀",
+   "2011-12"
+  ],
+  "Club Brugge KV|2011-10-20": [
+   "table",
+   1670,
+   "벨기에 1부 2011-12 2위/16팀",
+   "2011-12"
+  ],
+  "Hull City|2011-12-07": [
+   "table",
+   1547,
+   "챔피언십 2011-12 8위/24팀",
+   "2011-12"
+  ],
+  "Blackpool FC|2011-12-31": [
+   "table",
+   1582,
+   "챔피언십 2011-12 5위/24팀",
+   "2011-12"
+  ],
+  "Doncaster Rovers|2012-01-21": [
+   "table",
+   1422,
+   "챔피언십 2011-12 24위/24팀",
+   "2011-12"
+  ],
+  "Nottingham Forest|2012-04-07": [
+   "table",
+   1481,
+   "챔피언십 2011-12 20위/24팀 (감점 전 순위)",
+   "2011-12"
+  ],
+  "Coventry City|2012-04-09": [
+   "model",
+   1444,
+   "챔피언십 2011-12 23위/24팀"
+  ],
+  "Barnsley FC|2012-04-21": [
+   "model",
+   1466,
+   "챔피언십 2011-12 22위/24팀 (감점 전 순위)"
+  ],
+  "Brighton & Hove Albion|2012-09-22": [
+   "table",
+   1577,
+   "챔피언십 2012-13 4위/24팀",
+   "2012-13"
+  ],
+  "Birmingham City|2012-10-23": [
+   "model",
+   1509,
+   "챔피언십 2012-13 12위/24팀"
+  ],
+  "Huddersfield Town|2012-10-27": [
+   "model",
+   1489,
+   "챔피언십 2012-13 19위/24팀"
+  ],
+  "Nottingham Forest|2012-11-03": [
+   "model",
+   1535,
+   "챔피언십 2012-13 8위/24팀"
+  ],
+  "Leeds United|2012-11-18": [
+   "table",
+   1507,
+   "챔피언십 2012-13 13위/24팀",
+   "2012-13"
+  ],
+  "Blackburn Rovers|2012-11-24": [
+   "table",
+   1500,
+   "챔피언십 2012-13 17위/24팀",
+   "2012-13"
+  ],
+  "Wolverhampton Wanderers|2012-11-27": [
+   "table",
+   1474,
+   "챔피언십 2012-13 23위/24팀",
+   "2012-13"
+  ],
+  "Brighton & Hove Albion|2012-12-18": [
+   "table",
+   1577,
+   "챔피언십 2012-13 4위/24팀",
+   "2012-13"
+  ],
+  "Barnsley FC|2012-12-22": [
+   "table",
+   1485,
+   "챔피언십 2012-13 21위/24팀",
+   "2012-13"
+  ],
+  "Huddersfield Town|2013-01-01": [
+   "model",
+   1489,
+   "챔피언십 2012-13 19위/24팀"
+  ],
+  "Burton Albion|2013-01-05": [
+   "model",
+   1359,
+   "잉글랜드 4부 2012-13 4위/24팀 (Football League Two, 리그 수준 추정)"
+  ],
+  "Bristol City|2013-01-12": [
+   "table",
+   1436,
+   "챔피언십 2012-13 24위/24팀",
+   "2012-13"
+  ],
+  "Middlesbrough FC|2013-01-18": [
+   "table",
+   1501,
+   "챔피언십 2012-13 16위/24팀",
+   "2012-13"
+  ],
+  "Huddersfield Town|2013-01-26": [
+   "model",
+   1489,
+   "챔피언십 2012-13 19위/24팀"
+  ],
+  "Charlton Athletic|2013-02-19": [
+   "model",
+   1531,
+   "챔피언십 2012-13 9위/24팀"
+  ],
+  "Blackburn Rovers|2013-02-26": [
+   "same",
+   1500,
+   "챔피언십 2012-13 17위/24팀",
+   [
+    "kan.js"
+   ]
+  ],
+  "Bolton Wanderers|2013-04-16": [
+   "model",
+   1541,
+   "챔피언십 2012-13 7위/24팀"
+  ],
+  "Crystal Palace|2013-04-20": [
+   "model",
+   1555,
+   "챔피언십 2012-13 5위/24팀"
+  ],
+  "Nottingham Forest|2013-05-04": [
+   "model",
+   1535,
+   "챔피언십 2012-13 8위/24팀"
+  ],
+  "Middlesbrough FC|2013-08-03": [
+   "same",
+   1521,
+   "챔피언십 2013-14 12위/24팀",
+   [
+    "var.js"
+   ]
+  ],
+  "Carlisle United|2013-08-27": [
+   "model",
+   1342,
+   "잉글랜드 3부 2013-14 22위/24팀 (Football League One, 리그 수준 추정)"
+  ],
+  "AFC Bournemouth|2013-10-26": [
+   "same",
+   1517,
+   "챔피언십 2013-14 10위/24팀",
+   [
+    "var.js"
+   ]
+  ],
+  "Fulham FC|2013-10-29": [
+   "table",
+   1615,
+   "프리미어리그 2013-14 19위",
+   "2013-14"
+  ],
+  "Watford FC|2013-11-02": [
+   "table",
+   1507,
+   "챔피언십 2013-14 13위/24팀",
+   "2013-14"
+  ],
+  "Ipswich Town|2014-02-22": [
+   "same",
+   1527,
+   "챔피언십 2013-14 9위/24팀",
+   [
+    "var.js"
+   ]
+  ],
+  "Yeovil Town|2014-03-25": [
+   "model",
+   1407,
+   "챔피언십 2013-14 24위/24팀"
+  ],
+  "Burnley FC|2014-03-29": [
+   "model",
+   1623,
+   "챔피언십 2013-14 2위/24팀"
+  ],
+  "Sheffield Wednesday|2014-04-04": [
+   "same",
+   1477,
+   "챔피언십 2013-14 16위/24팀",
+   [
+    "mah.js"
+   ]
+  ],
+  "Bolton Wanderers|2014-04-22": [
+   "table",
+   1495,
+   "챔피언십 2013-14 14위/24팀",
+   "2013-14"
+  ],
+  "Everton FC|2014-08-16": [
+   "table",
+   1725,
+   "프리미어리그 2014-15 11위",
+   "2014-15"
+  ],
+  "Bristol City|2015-08-19": [
+   "model",
+   1470,
+   "챔피언십 2015-16 18위/24팀"
+  ],
+  "Sheffield Wednesday|2015-08-22": [
+   "model",
+   1565,
+   "챔피언십 2015-16 6위/24팀"
+  ],
+  "Derby County|2015-08-29": [
+   "table",
+   1578,
+   "챔피언십 2015-16 5위/24팀",
+   "2015-16"
+  ],
+  "Brentford FC|2015-09-12": [
+   "model",
+   1526,
+   "챔피언십 2015-16 9위/24팀"
+  ],
+  "Milton Keynes Dons|2015-09-19": [
+   "table",
+   1422,
+   "챔피언십 2015-16 23위/24팀",
+   "2015-16"
+  ],
+  "Fulham FC|2015-10-21": [
+   "model",
+   1471,
+   "챔피언십 2015-16 20위/24팀"
+  ],
+  "Huddersfield Town|2015-11-07": [
+   "model",
+   1472,
+   "챔피언십 2015-16 19위/24팀"
+  ],
+  "Hull City|2015-12-05": [
+   "table",
+   1602,
+   "챔피언십 2015-16 4위/24팀",
+   "2015-16"
+  ],
+  "Wolverhampton Wanderers|2015-12-17": [
+   "model",
+   1497,
+   "챔피언십 2015-16 14위/24팀"
+  ],
+  "Derby County|2015-12-29": [
+   "table",
+   1578,
+   "챔피언십 2015-16 5위/24팀",
+   "2015-16"
+  ],
+  "Bristol City|2016-01-23": [
+   "model",
+   1470,
+   "챔피언십 2015-16 18위/24팀"
+  ],
+  "Queens Park Rangers|2016-04-05": [
+   "model",
+   1507,
+   "챔피언십 2015-16 12위/24팀"
+  ],
+  "Birmingham City|2016-04-12": [
+   "table",
+   1519,
+   "챔피언십 2015-16 10위/24팀",
+   "2015-16"
+  ],
+  "Reading FC|2016-04-16": [
+   "model",
+   1479,
+   "챔피언십 2015-16 17위/24팀"
+  ],
+  "Hull City|2016-04-23": [
+   "table",
+   1602,
+   "챔피언십 2015-16 4위/24팀",
+   "2015-16"
+  ],
+  "Preston North End|2016-05-07": [
+   "model",
+   1513,
+   "챔피언십 2015-16 11위/24팀"
+  ],
+  "Fleetwood Town|2016-08-10": [
+   "model",
+   1487,
+   "잉글랜드 3부 2016-17 4위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Fulham FC|2016-08-16": [
+   "table",
+   1599,
+   "챔피언십 2016-17 6위/24팀",
+   "2016-17"
+  ],
+  "Sheffield Wednesday|2016-08-20": [
+   "model",
+   1590,
+   "챔피언십 2016-17 4위/24팀"
+  ],
+  "Blackburn Rovers|2016-09-13": [
+   "table",
+   1482,
+   "챔피언십 2016-17 22위/24팀",
+   "2016-17"
+  ],
+  "Cardiff City|2016-09-17": [
+   "table",
+   1522,
+   "챔피언십 2016-17 12위/24팀",
+   "2016-17"
+  ],
+  "Blackburn Rovers|2016-09-20": [
+   "table",
+   1482,
+   "챔피언십 2016-17 22위/24팀",
+   "2016-17"
+  ],
+  "Ipswich Town|2016-09-24": [
+   "model",
+   1495,
+   "챔피언십 2016-17 16위/24팀"
+  ],
+  "Wigan Athletic|2016-10-18": [
+   "table",
+   1452,
+   "챔피언십 2016-17 23위/24팀",
+   "2016-17"
+  ],
+  "Norwich City|2016-10-25": [
+   "model",
+   1560,
+   "챔피언십 2016-17 8위/24팀"
+  ],
+  "Burton Albion|2016-10-29": [
+   "table",
+   1483,
+   "챔피언십 2016-17 20위/24팀",
+   "2016-17"
+  ],
+  "Norwich City|2016-11-05": [
+   "model",
+   1560,
+   "챔피언십 2016-17 8위/24팀"
+  ],
+  "Rotherham United|2016-11-26": [
+   "model",
+   1362,
+   "챔피언십 2016-17 24위/24팀"
+  ],
+  "Aston Villa|2016-12-03": [
+   "table",
+   1522,
+   "챔피언십 2016-17 13위/24팀 (EFL Championship)",
+   "2016-17"
+  ],
+  "Reading FC|2016-12-13": [
+   "table",
+   1592,
+   "챔피언십 2016-17 3위/24팀",
+   "2016-17"
+  ],
+  "Preston North End|2016-12-26": [
+   "table",
+   1524,
+   "챔피언십 2016-17 11위/24팀",
+   "2016-17"
+  ],
+  "Rotherham United|2017-01-02": [
+   "model",
+   1362,
+   "챔피언십 2016-17 24위/24팀"
+  ],
+  "Derby County|2017-01-13": [
+   "table",
+   1541,
+   "챔피언십 2016-17 9위/24팀",
+   "2016-17"
+  ],
+  "Barnsley FC|2017-01-21": [
+   "table",
+   1509,
+   "챔피언십 2016-17 14위/24팀",
+   "2016-17"
+  ],
+  "Nottingham Forest|2017-01-25": [
+   "model",
+   1483,
+   "챔피언십 2016-17 21위/24팀"
+  ],
+  "Huddersfield Town|2017-02-05": [
+   "table",
+   1576,
+   "챔피언십 2016-17 5위/24팀",
+   "2016-17"
+  ],
+  "Bristol City|2017-02-14": [
+   "model",
+   1495,
+   "챔피언십 2016-17 17위/24팀"
+  ],
+  "Ipswich Town|2017-02-18": [
+   "model",
+   1495,
+   "챔피언십 2016-17 16위/24팀"
+  ],
+  "Sheffield Wednesday|2017-02-25": [
+   "model",
+   1590,
+   "챔피언십 2016-17 4위/24팀"
+  ],
+  "Birmingham City|2017-03-03": [
+   "model",
+   1481,
+   "챔피언십 2016-17 19위/24팀"
+  ],
+  "Brighton & Hove Albion|2017-03-18": [
+   "model",
+   1641,
+   "챔피언십 2016-17 2위/24팀"
+  ],
+  "Preston North End|2017-04-08": [
+   "table",
+   1524,
+   "챔피언십 2016-17 11위/24팀",
+   "2016-17"
+  ],
+  "Newcastle United|2017-04-14": [
+   "model",
+   1653,
+   "챔피언십 2016-17 1위/24팀"
+  ],
+  "Burton Albion|2017-04-22": [
+   "table",
+   1483,
+   "챔피언십 2016-17 20위/24팀",
+   "2016-17"
+  ],
+  "Norwich City|2017-04-29": [
+   "model",
+   1560,
+   "챔피언십 2016-17 8위/24팀"
+  ],
+  "Wigan Athletic|2017-05-07": [
+   "table",
+   1452,
+   "챔피언십 2016-17 23위/24팀",
+   "2016-17"
+  ],
+  "Bolton Wanderers|2017-08-06": [
+   "table",
+   1454,
+   "챔피언십 2017-18 21위/24팀",
+   "2017-18"
+  ],
+  "Tottenham Hotspur|2017-08-27": [
+   "table",
+   1976,
+   "프리미어리그 2017-18 3위",
+   "2017-18"
+  ],
+  "Crystal Palace|2017-09-10": [
+   "table",
+   1780,
+   "프리미어리그 2017-18 11위",
+   "2017-18"
+  ],
+  "Leeds United|2017-09-19": [
+   "table",
+   1528,
+   "챔피언십 2017-18 13위/24팀",
+   "2017-18"
+  ],
+  "West Ham United|2017-10-14": [
+   "table",
+   1760,
+   "프리미어리그 2017-18 13위",
+   "2017-18"
+  ],
+  "AFC Bournemouth|2017-11-29": [
+   "table",
+   1773,
+   "프리미어리그 2017-18 12위",
+   "2017-18"
+  ],
+  "Everton FC|2018-03-03": [
+   "table",
+   1796,
+   "프리미어리그 2017-18 8위",
+   "2017-18"
+  ],
+  "West Ham United|2018-03-10": [
+   "same",
+   1760,
+   "프리미어리그 2017-18 13위",
+   [
+    "len.js"
+   ]
+  ],
+  "West Bromwich Albion|2018-03-31": [
+   "same",
+   1708,
+   "프리미어리그 2017-18 20위",
+   [
+    "len.js"
+   ]
+  ],
+  "Leicester City|2018-04-14": [
+   "table",
+   1800,
+   "프리미어리그 2017-18 9위",
+   "2017-18"
+  ],
+  "AFC Bournemouth|2018-05-13": [
+   "table",
+   1773,
+   "프리미어리그 2017-18 12위",
+   "2017-18"
+  ],
+  "Aberdeen FC|2018-07-26": [
+   "man",
+   1527,
+   "스코틀랜드 1부 2017-18 2위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Aberdeen FC|2018-08-02": [
+   "model",
+   1535,
+   "스코틀랜드 1부 2018-19 4위/12팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Olympiacos Piraeus|2018-08-23": [
+   "table",
+   1727,
+   "그리스 1부 2018-19 2위/16팀 (Super League Greece)",
+   "2018-19"
+  ],
+  "West Ham United|2018-11-03": [
+   "table",
+   1866,
+   "프리미어리그 2018-19 10위",
+   "2018-19"
+  ],
+  "West Ham United|2018-12-30": [
+   "table",
+   1866,
+   "프리미어리그 2018-19 10위",
+   "2018-19"
+  ],
+  "Huddersfield Town|2019-01-02": [
+   "table",
+   1654,
+   "프리미어리그 2018-19 20위",
+   "2018-19"
+  ],
+  "Barnsley FC|2019-01-05": [
+   "model",
+   1558,
+   "잉글랜드 3부 2018-19 2위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Manchester United|2019-01-29": [
+   "table",
+   1941,
+   "프리미어리그 2018-19 6위",
+   "2018-19"
+  ],
+  "Brighton & Hove Albion|2019-02-09": [
+   "table",
+   1773,
+   "프리미어리그 2018-19 17위",
+   "2018-19"
+  ],
+  "Tottenham Hotspur|2019-02-23": [
+   "table",
+   1983,
+   "프리미어리그 2018-19 4위",
+   "2018-19"
+  ],
+  "AFC Bournemouth|2019-04-06": [
+   "table",
+   1823,
+   "프리미어리그 2018-19 14위",
+   "2018-19"
+  ],
+  "Cardiff City|2019-04-13": [
+   "table",
+   1752,
+   "프리미어리그 2018-19 18위",
+   "2018-19"
+  ],
+  "Chelsea FC|2019-04-22": [
+   "table",
+   1982,
+   "프리미어리그 2018-19 3위",
+   "2018-19"
+  ],
+  "Norwich City|2019-09-21": [
+   "table",
+   1703,
+   "프리미어리그 2019-20 20위",
+   "2019-20"
+  ],
+  "Aston Villa|2019-09-28": [
+   "table",
+   1789,
+   "프리미어리그 2019-20 17위",
+   "2019-20"
+  ],
+  "Leicester City|2019-10-19": [
+   "table",
+   1966,
+   "프리미어리그 2019-20 5위",
+   "2019-20"
+  ],
+  "West Ham United|2019-11-09": [
+   "table",
+   1822,
+   "프리미어리그 2019-20 16위",
+   "2019-20"
+  ],
+  "Watford FC|2019-11-23": [
+   "table",
+   1783,
+   "프리미어리그 2019-20 19위",
+   "2019-20"
+  ],
+  "Newcastle United|2019-12-14": [
+   "table",
+   1834,
+   "프리미어리그 2019-20 13위",
+   "2019-20"
+  ],
+  "Aston Villa|2020-01-01": [
+   "table",
+   1789,
+   "프리미어리그 2019-20 17위",
+   "2019-20"
+  ],
+  "Leicester City|2020-01-19": [
+   "table",
+   1966,
+   "프리미어리그 2019-20 5위",
+   "2019-20"
+  ],
+  "Manchester United|2020-01-22": [
+   "table",
+   1987,
+   "프리미어리그 2019-20 3위",
+   "2019-20"
+  ],
+  "Tottenham Hotspur|2020-03-07": [
+   "table",
+   1938,
+   "프리미어리그 2019-20 6위",
+   "2019-20"
+  ],
+  "Wolverhampton Wanderers|2020-07-15": [
+   "table",
+   1935,
+   "프리미어리그 2019-20 7위",
+   "2019-20"
+  ],
+  "Norwich City|2020-07-18": [
+   "table",
+   1703,
+   "프리미어리그 2019-20 20위",
+   "2019-20"
+  ],
+  "Brighton & Hove Albion|2020-07-26": [
+   "table",
+   1828,
+   "프리미어리그 2019-20 15위",
+   "2019-20"
+  ],
+  "Leicester City|2020-09-20": [
+   "table",
+   1968,
+   "프리미어리그 2020-21 5위",
+   "2020-21"
+  ],
+  "Millwall FC|2020-09-23": [
+   "table",
+   1565,
+   "챔피언십 2020-21 11위/24팀",
+   "2020-21"
+  ],
+  "Crystal Palace|2020-11-23": [
+   "table",
+   1824,
+   "프리미어리그 2020-21 14위",
+   "2020-21"
+  ],
+  "Wolverhampton Wanderers|2020-12-21": [
+   "table",
+   1839,
+   "프리미어리그 2020-21 13위",
+   "2020-21"
+  ],
+  "Aston Villa|2021-01-27": [
+   "table",
+   1911,
+   "프리미어리그 2020-21 11위",
+   "2020-21"
+  ],
+  "Arsenal FC|2021-03-06": [
+   "table",
+   1945,
+   "프리미어리그 2020-21 8위",
+   "2020-21"
+  ],
+  "Everton FC|2021-03-13": [
+   "table",
+   1915,
+   "프리미어리그 2020-21 10위",
+   "2020-21"
+  ],
+  "Southampton FC|2021-04-04": [
+   "table",
+   1824,
+   "프리미어리그 2020-21 15위",
+   "2020-21"
+  ],
+  "Newcastle United|2021-04-11": [
+   "table",
+   1839,
+   "프리미어리그 2020-21 12위",
+   "2020-21"
+  ],
+  "Wolverhampton Wanderers|2021-04-25": [
+   "table",
+   1839,
+   "프리미어리그 2020-21 13위",
+   "2020-21"
+  ],
+  "West Ham United|2021-05-03": [
+   "table",
+   1960,
+   "프리미어리그 2020-21 6위",
+   "2020-21"
+  ],
+  "Fulham FC|2021-05-10": [
+   "table",
+   1756,
+   "프리미어리그 2020-21 18위",
+   "2020-21"
+  ],
+  "Leeds United|2021-08-29": [
+   "table",
+   1745,
+   "프리미어리그 2021-22 17위",
+   "2021-22"
+  ],
+  "Brentford FC|2021-10-30": [
+   "table",
+   1814,
+   "프리미어리그 2021-22 13위",
+   "2021-22"
+  ],
+  "Crystal Palace|2021-11-20": [
+   "table",
+   1837,
+   "프리미어리그 2021-22 12위",
+   "2021-22"
+  ],
+  "Southampton FC|2022-03-10": [
+   "same",
+   1769,
+   "프리미어리그 2021-22 15위",
+   [
+    "bgu.js"
+   ]
+  ],
+  "Wolverhampton Wanderers|2022-04-08": [
+   "table",
+   1838,
+   "프리미어리그 2021-22 10위",
+   "2021-22"
+  ],
+  "Tranmere Rovers|2022-08-24": [
+   "model",
+   1349,
+   "잉글랜드 4부 2022-23 12위/24팀 (EFL League Two, 리그 수준 추정)"
+  ],
+  "Southampton FC|2022-11-06": [
+   "same",
+   1711,
+   "프리미어리그 2022-23 20위",
+   [
+    "bgu.js"
+   ]
+  ],
+  "Leicester City|2022-12-26": [
+   "same",
+   1773,
+   "프리미어리그 2022-23 18위",
+   [
+    "bgu.js"
+   ]
+  ],
+  "Manchester City|2023-02-18": [
+   "table",
+   2097,
+   "프리미어리그 2022-23 1위",
+   "2022-23"
+  ],
+  "Sheffield United|2023-08-18": [
+   "table",
+   1622,
+   "프리미어리그 2023-24 20위",
+   "2023-24"
+  ],
+  "Luton Town|2023-10-21": [
+   "table",
+   1708,
+   "프리미어리그 2023-24 18위",
+   "2023-24"
+  ],
+  "AFC Bournemouth|2023-12-23": [
+   "table",
+   1824,
+   "프리미어리그 2023-24 13위 (감점 전 순위)",
+   "2023-24"
+  ],
+  "Newcastle United|2023-12-26": [
+   "table",
+   1918,
+   "프리미어리그 2023-24 7위",
+   "2023-24"
+  ],
+  "Blackpool FC|2024-01-17": [
+   "model",
+   1491,
+   "잉글랜드 3부 2023-24 8위/24팀 (EFL League One, 리그 수준 추정)"
+  ],
+  "Brentford FC|2024-01-20": [
+   "table",
+   1792,
+   "프리미어리그 2023-24 16위",
+   "2023-24"
+  ],
+  "Luton Town|2024-03-16": [
+   "table",
+   1708,
+   "프리미어리그 2023-24 18위",
+   "2023-24"
+  ],
+  "Crystal Palace|2024-03-30": [
+   "table",
+   1843,
+   "프리미어리그 2023-24 10위",
+   "2023-24"
+  ],
+  "Fulham FC|2024-04-02": [
+   "table",
+   1828,
+   "프리미어리그 2023-24 14위 (감점 전 순위)",
+   "2023-24"
+  ],
+  "Tottenham Hotspur|2024-04-07": [
+   "table",
+   1931,
+   "프리미어리그 2023-24 5위",
+   "2023-24"
+  ],
+  "Burnley FC|2024-05-19": [
+   "table",
+   1695,
+   "프리미어리그 2023-24 19위",
+   "2023-24"
+  ],
+  "AFC Bournemouth|2024-08-17": [
+   "table",
+   1895,
+   "프리미어리그 2024-25 9위",
+   "2024-25"
+  ],
+  "Wolverhampton Wanderers|2024-08-31": [
+   "table",
+   1803,
+   "프리미어리그 2024-25 16위",
+   "2024-25"
+  ],
+  "Brighton & Hove Albion|2024-09-22": [
+   "table",
+   1909,
+   "프리미어리그 2024-25 8위",
+   "2024-25"
+  ],
+  "Chelsea FC|2024-10-06": [
+   "table",
+   1960,
+   "프리미어리그 2024-25 4위",
+   "2024-25"
+  ],
+  "Crystal Palace|2024-10-21": [
+   "table",
+   1867,
+   "프리미어리그 2024-25 12위",
+   "2024-25"
+  ],
+  "Leicester City|2024-10-25": [
+   "table",
+   1693,
+   "프리미어리그 2024-25 18위",
+   "2024-25"
+  ],
+  "West Ham United|2024-11-02": [
+   "table",
+   1806,
+   "프리미어리그 2024-25 14위",
+   "2024-25"
+  ],
+  "Ipswich Town|2024-11-30": [
+   "table",
+   1682,
+   "프리미어리그 2024-25 19위",
+   "2024-25"
+  ],
+  "Manchester United|2024-12-07": [
+   "table",
+   1809,
+   "프리미어리그 2024-25 15위",
+   "2024-25"
+  ],
+  "Everton FC|2024-12-29": [
+   "table",
+   1844,
+   "프리미어리그 2024-25 13위",
+   "2024-25"
+  ],
+  "Wolverhampton Wanderers|2025-01-06": [
+   "table",
+   1803,
+   "프리미어리그 2024-25 16위",
+   "2024-25"
+  ],
+  "Liverpool FC|2025-01-14": [
+   "table",
+   2051,
+   "프리미어리그 2024-25 1위",
+   "2024-25"
+  ],
+  "Southampton FC|2025-01-19": [
+   "table",
+   1623,
+   "프리미어리그 2024-25 20위",
+   "2024-25"
+  ],
+  "Brighton & Hove Albion|2025-02-01": [
+   "table",
+   1909,
+   "프리미어리그 2024-25 8위",
+   "2024-25"
+  ],
+  "Fulham FC|2025-02-15": [
+   "table",
+   1871,
+   "프리미어리그 2024-25 11위",
+   "2024-25"
+  ],
+  "Newcastle United|2025-02-23": [
+   "table",
+   1947,
+   "프리미어리그 2024-25 5위",
+   "2024-25"
+  ],
+  "Tottenham Hotspur|2025-04-21": [
+   "table",
+   1804,
+   "프리미어리그 2024-25 17위",
+   "2024-25"
+  ],
+  "Leicester City|2025-05-11": [
+   "table",
+   1693,
+   "프리미어리그 2024-25 18위",
+   "2024-25"
+  ],
+  "Brentford FC|2025-08-17": [
+   "table",
+   1869,
+   "프리미어리그 2025-26 9위",
+   "2025-26"
+  ],
+  "FC Midtjylland|2025-10-02": [
+   "table",
+   1602,
+   "덴마크 1부 2025-26 2위/12팀 (추정, 다른 선수 자료 미트윌란 2위 1560과 같음)",
+   "2025-26"
+  ],
+  "Sunderland AFC|2026-04-24": [
+   "table",
+   1862,
+   "프리미어리그 2025-26 7위",
+   "2025-26"
+  ],
+  "Aston Villa|2026-04-30": [
+   "table",
+   1923,
+   "프리미어리그 2025-26 4위",
+   "2025-26"
+  ]
+ }
+}
