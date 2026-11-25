@@ -1,0 +1,183 @@
+{
+ "preset": "guerrero",
+ "name": "파올로 게레로",
+ "prefix": "PGU",
+ "clubs": [
+  {
+   "key": "baypgu",
+   "name": "바이에른 뮌헨",
+   "short": "바이에른",
+   "years": "2003~2006",
+   "until": "2006-07-01"
+  },
+  {
+   "key": "hsvpgu",
+   "name": "함부르크 SV",
+   "short": "함부르크",
+   "years": "2006~2012",
+   "until": "2012-07-15"
+  },
+  {
+   "key": "corpgu",
+   "name": "SC 코린치안스",
+   "short": "코린치안스",
+   "years": "2012~2015",
+   "until": "2015-06-16"
+  },
+  {
+   "key": "flapgu",
+   "name": "CR 플라멩구",
+   "short": "플라멩구",
+   "years": "2015~2018",
+   "until": "2018-08-12"
+  },
+  {
+   "key": "intpgu",
+   "name": "SC 인테르나시오나우",
+   "short": "인테르나시오나우",
+   "years": "2018~2021",
+   "until": "2022-07-21"
+  },
+  {
+   "key": "avapgu",
+   "name": "아바이 FC",
+   "short": "아바이",
+   "years": "2022",
+   "until": "2023-01-25"
+  },
+  {
+   "key": "racpgu",
+   "name": "라싱 클루브",
+   "short": "라싱",
+   "years": "2023",
+   "until": "2023-07-14"
+  },
+  {
+   "key": "ldupgu",
+   "name": "LDU 키토",
+   "short": "LDU 키토",
+   "years": "2023",
+   "until": "2024-02-02"
+  },
+  {
+   "key": "ucvpgu",
+   "name": "우니베르시다드 세사르 바예호",
+   "short": "세사르 바예호",
+   "years": "2024",
+   "until": "2024-08-31"
+  },
+  {
+   "key": "alipgu",
+   "name": "알리안사 리마",
+   "short": "알리안사 리마",
+   "years": "2024~",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [
+   "corpgu",
+   "flapgu",
+   "intpgu",
+   "avapgu",
+   "racpgu",
+   "ldupgu",
+   "ucvpgu",
+   "alipgu"
+  ],
+  "jul10": [
+   "hsvpgu"
+  ],
+  "jul1": []
+ },
+ "pos": "CF",
+ "flag": "PE",
+ "retired": false,
+ "colors": {
+  "baypgu": [
+   "#DC052D",
+   "#FFFFFF",
+   "#0066B2"
+  ],
+  "hsvpgu": [
+   "#FFFFFF",
+   "#E2001A",
+   "#0A3F86"
+  ],
+  "corpgu": [
+   "#FFFFFF",
+   "#000000"
+  ],
+  "flapgu": [
+   "#E30613",
+   "#000000"
+  ],
+  "intpgu": [
+   "#E5050F",
+   "#FFFFFF"
+  ],
+  "avapgu": [
+   "#0057A8",
+   "#FFFFFF"
+  ],
+  "racpgu": [
+   "#009DDD",
+   "#FFFFFF"
+  ],
+  "ldupgu": [
+   "#FFFFFF",
+   "#000060",
+   "#C8102E"
+  ],
+  "ucvpgu": [
+   "#002A7F",
+   "#FF7F00",
+   "#FFFFFF"
+  ],
+  "alipgu": [
+   "#071241",
+   "#FFFFFF"
+  ]
+ },
+ "hon": {
+  "t": {
+   "LG": [
+    "2023 LDU 키토",
+    "2015 코린치안스",
+    "05/06 바이에른",
+    "04/05 바이에른"
+   ],
+   "DC": [
+    "05/06 바이에른",
+    "04/05 바이에른"
+   ],
+   "CWC": [
+    "12/13 코린치안스"
+   ]
+  },
+  "o": [
+   [
+    "코파 수다메리카나",
+    "22/23 LDU 키토"
+   ],
+   [
+    "레코파 수다메리카나",
+    "12/13 코린치안스"
+   ],
+   [
+    "캄페오나투 파울리스타",
+    "2013 코린치안스"
+   ],
+   [
+    "캄페오나투 카리오카",
+    "16/17 플라멩구"
+   ]
+  ],
+  "a": {
+   "TOP": [
+    "2019 코파 두 브라질 5골",
+    "2017 캄페오나투 카리오카 10골"
+   ]
+  }
+ }
+}

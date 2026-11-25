@@ -971,7 +971,7 @@
   {
    "type": "a",
    "opp": "Unirea Urziceni",
-   "elo": 1621,
+   "elo": 1569,
    "comp": "elq",
    "min": 50,
    "gf": 1,
@@ -1091,7 +1091,7 @@
   {
    "type": "g",
    "opp": "Galatasaray",
-   "elo": 1600,
+   "elo": 1636,
    "comp": "elk",
    "min": 57,
    "gf": 0,
@@ -1115,7 +1115,7 @@
   {
    "type": "g",
    "opp": "Galatasaray",
-   "elo": 1600,
+   "elo": 1636,
    "comp": "elk",
    "min": 60,
    "gf": 1,
@@ -1235,7 +1235,7 @@
   {
    "type": "g",
    "opp": "Randers FC",
-   "elo": 1425,
+   "elo": 1456,
    "comp": "elq",
    "min": 11,
    "gf": 0,
@@ -2083,7 +2083,7 @@
   {
    "type": "g",
    "opp": "Coritiba Foot Ball Club",
-   "elo": 1660,
+   "elo": 1661,
    "comp": "lg",
    "min": 91,
    "gf": 0,
@@ -2093,7 +2093,7 @@
    "date": "2013-08-18",
    "et": 0,
    "dm": "90+1",
-   "lv": "브라질 세리에 A 2013 11위/20팀",
+   "lv": "브라질 세리에 A 2013 13위/20팀 (감점 전 순위)",
    "note": 0
   },
   {
@@ -2219,7 +2219,7 @@
   {
    "type": "g",
    "opp": "Associação Chapecoense de Futebol",
-   "elo": 1624,
+   "elo": 1623,
    "comp": "lg",
    "min": 78,
    "gf": 0,
@@ -2235,7 +2235,7 @@
   {
    "type": "a",
    "opp": "São Paulo Futebol Clube",
-   "elo": 1760,
+   "elo": 1742,
    "comp": "lg",
    "min": 49,
    "gf": 0,
@@ -2379,7 +2379,7 @@
   {
    "type": "g",
    "opp": "São Paulo Futebol Clube",
-   "elo": 1760,
+   "elo": 1742,
    "comp": "lg",
    "min": 74,
    "gf": 2,
@@ -2395,7 +2395,7 @@
   {
    "type": "g",
    "opp": "Clube Atlético Mineiro",
-   "elo": 1700,
+   "elo": 1708,
    "comp": "dk",
    "min": 25,
    "gf": 0,
@@ -2435,7 +2435,7 @@
   {
    "type": "g",
    "opp": "Clube Atlético Mineiro",
-   "elo": 1700,
+   "elo": 1708,
    "comp": "dk",
    "min": 5,
    "gf": 0,
@@ -2537,33 +2537,9 @@
    "note": 0
   },
   {
-   "type": "a",
-   "opp": "Once Caldas",
-   "elo": 1590,
-   "comp": "lib",
-   "min": 1,
-   "gf": 0,
-   "ga": 0,
-   "ko": 0,
-   "pk": 0,
-   "date": "2015-02-04",
-   "et": 0,
-   "dm": 0,
-   "lv": "콜롬비아 1부 2015 13위/20팀 (Torneo Apertura 2015 1단계, 경기 날짜에 진행 중이던 단계 순위)",
-   "note": "Emerson",
-   "tie": [
-    1,
-    1,
-    0,
-    0,
-    1,
-    0
-   ]
-  },
-  {
    "type": "g",
    "opp": "Mogi Mirim EC",
-   "elo": 1267,
+   "elo": 1211,
    "comp": "dc",
    "min": 89,
    "gf": 2,
@@ -2739,7 +2715,7 @@
   {
    "type": "g",
    "opp": "Clube Náutico Capibaribe",
-   "elo": 1371,
+   "elo": 1380,
    "comp": "dc",
    "min": 77,
    "gf": 1,
@@ -2779,7 +2755,7 @@
   {
    "type": "a",
    "opp": "Goiás EC",
-   "elo": 1577,
+   "elo": 1587,
    "comp": "lg",
    "min": 72,
    "gf": 0,
@@ -2905,22 +2881,6 @@
    "note": 0
   },
   {
-   "type": "a",
-   "opp": "Resende FC",
-   "elo": 1033,
-   "comp": "dc",
-   "min": 51,
-   "gf": 2,
-   "ga": 0,
-   "ko": 0,
-   "pk": 0,
-   "date": "2016-02-28",
-   "et": 0,
-   "dm": 0,
-   "lv": "브라질 5부 2016 순위 없음 (Campeonato Carioca 2016 (state league); 리그 수준 추정)",
-   "note": "Marcelo Cirino"
-  },
-  {
    "type": "g",
    "opp": "Boavista SC",
    "elo": 1109,
@@ -2955,7 +2915,7 @@
   {
    "type": "g",
    "opp": "Fortaleza Esporte Clube",
-   "elo": 1259,
+   "elo": 1276,
    "comp": "dc",
    "min": 66,
    "gf": 0,
@@ -3057,33 +3017,9 @@
    "note": 0
   },
   {
-   "type": "a",
-   "opp": "CD Palestino",
-   "elo": 1587,
-   "comp": "csa",
-   "min": 79,
-   "gf": 0,
-   "ga": 0,
-   "ko": 0,
-   "pk": 0,
-   "date": "2016-09-21",
-   "et": 0,
-   "dm": 0,
-   "lv": "칠레 1부 2016-17 6위/16팀 (Chilean Primera División (Apertura 2016), 경기 날짜에 진행 중이던 단계 순위)",
-   "note": "Emerson",
-   "tie": [
-    1,
-    0,
-    0,
-    0,
-    1,
-    0
-   ]
-  },
-  {
    "type": "g",
    "opp": "Cruzeiro Esporte Clube",
-   "elo": 1615,
+   "elo": 1632,
    "comp": "lg",
    "min": 84,
    "gf": 0,
@@ -3099,7 +3035,7 @@
   {
    "type": "g",
    "opp": "Sport Club Corinthians Paulista",
-   "elo": 1660,
+   "elo": 1653,
    "comp": "lg",
    "min": 15,
    "gf": 0,
@@ -3115,7 +3051,7 @@
   {
    "type": "g",
    "opp": "Sport Club Corinthians Paulista",
-   "elo": 1660,
+   "elo": 1653,
    "comp": "lg",
    "min": 59,
    "gf": 1,
@@ -3515,7 +3451,7 @@
   {
    "type": "a",
    "opp": "Sociedade Esportiva Palmeiras",
-   "elo": 1747,
+   "elo": 1704,
    "comp": "lg",
    "min": 8,
    "gf": 0,
@@ -3531,7 +3467,7 @@
   {
    "type": "g",
    "opp": "Sociedade Esportiva Palmeiras",
-   "elo": 1747,
+   "elo": 1704,
    "comp": "lg",
    "min": 44,
    "gf": 1,
@@ -3571,7 +3507,7 @@
   {
    "type": "g",
    "opp": "Sport Club do Recife",
-   "elo": 1611,
+   "elo": 1612,
    "comp": "lg",
    "min": 9,
    "gf": 0,
@@ -3583,30 +3519,6 @@
    "dm": 0,
    "lv": "브라질 세리에 A 2017 15위/20팀",
    "note": 0
-  },
-  {
-   "type": "a",
-   "opp": "Associação Chapecoense de Futebol",
-   "elo": 1654,
-   "comp": "csa",
-   "min": 7,
-   "gf": 0,
-   "ga": 0,
-   "ko": 0,
-   "pk": 0,
-   "date": "2017-09-20",
-   "et": 0,
-   "dm": 0,
-   "lv": "브라질 세리에 A 2017 8위/20팀",
-   "note": "Gustavo Cuéllar",
-   "tie": [
-    2,
-    1,
-    0,
-    0,
-    1,
-    0
-   ]
   },
   {
    "type": "a",
@@ -3631,22 +3543,6 @@
     1,
     0
    ]
-  },
-  {
-   "type": "a",
-   "opp": "Esporte Clube Bahia",
-   "elo": 1644,
-   "comp": "lg",
-   "min": 51,
-   "gf": 0,
-   "ga": 0,
-   "ko": 0,
-   "pk": 0,
-   "date": "2017-10-19",
-   "et": 0,
-   "dm": 0,
-   "lv": "브라질 세리에 A 2017 12위/20팀",
-   "note": "Réver"
   },
   {
    "type": "a",
@@ -3955,7 +3851,7 @@
   {
    "type": "g",
    "opp": "Esporte Clube Bahia",
-   "elo": 1612,
+   "elo": 1619,
    "comp": "lg",
    "min": 50,
    "gf": 0,
@@ -3971,7 +3867,7 @@
   {
    "type": "g",
    "opp": "Esporte Clube Bahia",
-   "elo": 1612,
+   "elo": 1619,
    "comp": "lg",
    "min": 74,
    "gf": 2,
@@ -4003,7 +3899,7 @@
   {
    "type": "g",
    "opp": "Fortaleza Esporte Clube",
-   "elo": 1629,
+   "elo": 1633,
    "comp": "lg",
    "min": 43,
    "gf": 0,
@@ -4019,7 +3915,7 @@
   {
    "type": "g",
    "opp": "Fortaleza Esporte Clube",
-   "elo": 1629,
+   "elo": 1633,
    "comp": "lg",
    "min": 83,
    "gf": 1,
@@ -4051,7 +3947,7 @@
   {
    "type": "g",
    "opp": "Botafogo de Futebol e Regatas",
-   "elo": 1591,
+   "elo": 1583,
    "comp": "lg",
    "min": 84,
    "gf": 0,
@@ -4219,7 +4115,7 @@
   {
    "type": "g",
    "opp": "Coritiba Foot Ball Club",
-   "elo": 1552,
+   "elo": 1528,
    "comp": "lg",
    "min": 73,
    "gf": 0,
@@ -4331,7 +4227,7 @@
   {
    "type": "g",
    "opp": "CA Unión (Santa Fe)",
-   "elo": 1603,
+   "elo": 1604,
    "comp": "lg",
    "min": 95,
    "gf": 2,
@@ -4419,7 +4315,7 @@
   {
    "type": "g",
    "opp": "Defensa y Justicia",
-   "elo": 1719,
+   "elo": 1650,
    "comp": "csasf",
    "min": 17,
    "gf": 0,
@@ -4443,7 +4339,7 @@
   {
    "type": "g",
    "opp": "Defensa y Justicia",
-   "elo": 1719,
+   "elo": 1650,
    "comp": "csasf",
    "min": 42,
    "gf": 1,
@@ -4467,7 +4363,7 @@
   {
    "type": "g",
    "opp": "Independiente del Valle",
-   "elo": 1616,
+   "elo": 1642,
    "comp": "lg",
    "min": 33,
    "gf": 1,
@@ -4483,7 +4379,7 @@
   {
    "type": "g",
    "opp": "Técnico Universitario",
-   "elo": 1550,
+   "elo": 1555,
    "comp": "lg",
    "min": 2,
    "gf": 0,
@@ -4499,7 +4395,7 @@
   {
    "type": "g",
    "opp": "Técnico Universitario",
-   "elo": 1550,
+   "elo": 1555,
    "comp": "lg",
    "min": 80,
    "gf": 1,
@@ -4515,7 +4411,7 @@
   {
    "type": "g",
    "opp": "Libertad FC",
-   "elo": 1509,
+   "elo": 1492,
    "comp": "lg",
    "min": 61,
    "gf": 1,
@@ -4531,7 +4427,7 @@
   {
    "type": "g",
    "opp": "Cumbayá FC",
-   "elo": 1496,
+   "elo": 1480,
    "comp": "lg",
    "min": 77,
    "gf": 1,
@@ -4547,7 +4443,7 @@
   {
    "type": "g",
    "opp": "Cusco FC",
-   "elo": 1516,
+   "elo": 1518,
    "comp": "lg",
    "min": 3,
    "gf": 0,
@@ -4563,7 +4459,7 @@
   {
    "type": "g",
    "opp": "CD Unión Comercio",
-   "elo": 1398,
+   "elo": 1359,
    "comp": "lg",
    "min": 9,
    "gf": 0,
@@ -4579,7 +4475,7 @@
   {
    "type": "g",
    "opp": "Comerciantes Unidos",
-   "elo": 1483,
+   "elo": 1456,
    "comp": "lg",
    "min": 2,
    "gf": 0,
@@ -4595,7 +4491,7 @@
   {
    "type": "a",
    "opp": "Comerciantes Unidos",
-   "elo": 1483,
+   "elo": 1456,
    "comp": "lg",
    "min": 9,
    "gf": 1,
@@ -4691,7 +4587,7 @@
   {
    "type": "g",
    "opp": "Club Juan Pablo II College",
-   "elo": 1437,
+   "elo": 1424,
    "comp": "lg",
    "min": 33,
    "gf": 0,
@@ -4707,7 +4603,7 @@
   {
    "type": "g",
    "opp": "Club Sporting Cristal",
-   "elo": 1509,
+   "elo": 1528,
    "comp": "lg",
    "min": 28,
    "gf": 0,
@@ -4723,7 +4619,7 @@
   {
    "type": "g",
    "opp": "Ayacucho FC",
-   "elo": 1407,
+   "elo": 1392,
    "comp": "lg",
    "min": 13,
    "gf": 0,
@@ -4739,7 +4635,7 @@
   {
    "type": "g",
    "opp": "Deportivo Garcilaso",
-   "elo": 1479,
+   "elo": 1502,
    "comp": "lg",
    "min": 52,
    "gf": 0,
@@ -4755,7 +4651,7 @@
   {
    "type": "g",
    "opp": "CA Talleres",
-   "elo": 1589,
+   "elo": 1598,
    "comp": "lib",
    "min": 11,
    "gf": 0,
@@ -4771,7 +4667,7 @@
   {
    "type": "g",
    "opp": "CA Talleres",
-   "elo": 1589,
+   "elo": 1598,
    "comp": "lib",
    "min": 57,
    "gf": 1,
@@ -4819,7 +4715,7 @@
   {
    "type": "g",
    "opp": "Deportivo Binacional",
-   "elo": 1416,
+   "elo": 1410,
    "comp": "lg",
    "min": 2,
    "gf": 0,
@@ -4835,7 +4731,7 @@
   {
    "type": "g",
    "opp": "Deportivo Binacional",
-   "elo": 1416,
+   "elo": 1410,
    "comp": "lg",
    "min": 6,
    "gf": 1,
@@ -4931,7 +4827,7 @@
   {
    "type": "g",
    "opp": "FBC Melgar",
-   "elo": 1524,
+   "elo": 1474,
    "comp": "lg",
    "min": 41,
    "gf": 0,
@@ -4943,22 +4839,6 @@
    "dm": 0,
    "lv": "페루 1부 2025 8위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)",
    "note": 0
-  },
-  {
-   "type": "a",
-   "opp": "FBC Melgar",
-   "elo": 1524,
-   "comp": "lg",
-   "min": 97,
-   "gf": 1,
-   "ga": 2,
-   "ko": 0,
-   "pk": 0,
-   "date": "2025-10-31",
-   "et": 0,
-   "dm": "90+7",
-   "lv": "페루 1부 2025 8위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)",
-   "note": "Renzo Garcés"
   },
   {
    "type": "g",
@@ -9149,7 +9029,7 @@
    45
   ]
  ],
- "note": "x",
+ "note": "파올로 게레로(바이에른 뮌헨·함부르크·코린치안스·플라멩구·인테르나시오나우·아바이·라싱·LDU 키토·세사르 바예호·알리안사 리마)의 클럽 공식 경기 667경기(2003.12.3 DFB-포칼 함부르크전 ~ 2026.11.21 FC 카하마르카전)에서 나온 231골 61도움(PK 골 14개), 친선경기·페루 대표팀 제외\n클럽별 경기·골·도움: 바이에른 뮌헨(2003~2006) 45·13·9, 함부르크(2006~2012) 183·51·23, 코린치안스(2012~2015) 126·52·8, 플라멩구(2015~2018) 112·42·10, 인테르나시오나우(2018~2021) 72·32·3, 아바이(2022) 10·0·0, 라싱(2023) 22·3·2, LDU 키토(2023) 20·8·0, 세사르 바예호(2024) 9·3·1, 알리안사 리마(2024~) 68·27·5. 출전 분 합계 45,211분\n출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적(성인 1군 667경기, 90분 추정 없음), 골 시각·골 순서·PK·도움은 Transfermarkt 경기 기록(전 경기). 2010-11 이후 골 136개(119경기)는 FotMob 경기 기록과 대조(골 수·PK 같음, 1~2분 다른 골은 Transfermarkt 시각). 영어·스페인어·포르투갈어 위키백과 시즌 기록과 경기·골 수 대조. 바이에른·2006~10 함부르크·주 선수권(파울리스타·카리오카·가우슈)·프리메이라 리가는 FotMob 자료가 없어 Transfermarkt만\n범위: 바이에른 2군(레기오날리가 쥐트 2002~06 66경기 45골 1도움, 2군으로 나간 DFB-포칼 2004-05 3경기 4골 1도움)은 1군 경기가 아니라 뺌(영어 위키백과는 포칼 3경기를 1군에 넣음). 2006 DFL-리가포칼 2경기는 공식 대회라 넣음. 2026.1.24 인터 마이애미전(FotMob 2골)은 친선경기라 뺌. 2017.10~2018.5 도핑 징계, 2021.10~2022.7 무소속 기간은 경기 없음\n날짜: 경기장 현지 날짜. Transfermarkt 경기 시각이 하루 이르게 적힌 16경기(2014.5.28 크루제이루전, 2019 코파 두 브라질 16강~결승 8경기, 2019년 11~12월 리그 6경기, 2020.1.26 펠로타스전)는 FotMob·ESPN 일정과 경기 기사(코파 두 브라질 결승 2차전 2019.9.18)로 바로잡음\n도움: Transfermarkt 경기 기록 도움 80개(본인 PK 골에 본인을 PK 유도자로 적은 2024.10.18 UTC 카하마르카전 60분은 원래 셈하지 않음) 중 61개를 넣음. 뺀 것: PK 유도 5개(2005.2.5 레버쿠젠전 마카이, 2007.10.31 포칼 프라이부르크전 판데르파르트, 2012.11.10 코리치바전 시캉, 2014.5.21 아틀레치쿠 파라나엔시전 자드손, 2014.9.21 상파울루전 파비우 산투스), 슈팅 리바운드('Shot on goal') 7개(2008.10.5 코트부스전 올리치, 2009.4.19 하노버전 페트리치, 2010.12.11·2011.5.7 레버쿠젠전 엘리아·베스터만, 2012.9.30 스포르트전 호마리뉴, 2013.7.31 그레미우전 에메르송, 2019.12.4 상파울루전 길례르미 파레지), 상대 자책골 유도 1개(2011.12.21 포칼 슈투트가르트전 크비스트 자책골)\n2014년 8월 이전 Transfermarkt 도움(일반 유형·유형 없음)은 FotMob에 없는 것도 Transfermarkt 기록대로 넣음. 2014년 8월 이후 FotMob 이벤트에 도움 자료가 없는 Transfermarkt 단독 도움 18개는 ESPN 문자중계와 경기 기사(Gazeta Esportiva·Estadão·Lance!·Trivela·팔메이라스 구단·Bahia Notícias·Líbero 등)로 확인한 12개만 넣고, 확인 못 했거나 반대 출처가 있는 6개는 뺌: 2015.2.4 리베르타도레스 온세 칼다스전 1분 에메르송(ESPN만), 2016.2.28 카리오카 헤젠지전 51분 시리누(기사는 만세후엘루 패스), 2016.9.21 수다메리카나 팔레스티노전 79분 에메르송(기사상 경합 뒤 흐른 공), 2017.9.20 수다메리카나 샤페코엔시전 7분 쿠에야르(골키퍼와 경합 뒤 흐른 공), 2017.10.19 바이아전 51분 헤베르(게레로에 맞고 흐른 공), 2025.10.31 멜가르전 90+7분 가르세스(기사 엇갈림)\n골: 2025.10.31 멜가르전 41분 골은 PK가 막힌 뒤 리바운드 골이라 일반 골. 2024.10.18 UTC 카하마르카전 60분 PK 골은 PK. FotMob에만 있는 골·도움 없음(2025.9.25 우니베르시다드 데 칠레전 FotMob 도움은 다른 선수 막시밀리아노 게레로)\n출전 분: 퇴장 4경기(2012.3.3 슈투트가르트전 54분, 2015.2.4 온세 칼다스전 26분, 2015.11.1 그레미우전 58분, 2019.9.25 플라멩구전 45분)는 퇴장 시각까지. 연장 없이 승부차기로 간 남미 토너먼트 경기는 90분\n대회 비중: 주 선수권(캄페오나투 파울리스타·카리오카·가우슈)과 프리메이라 리가는 국내컵(1단계는 리그식, 결선은 단판, 두 경기 결승은 원정 다득점·연장 없이 합산). 레코파 수다메리카나 2013은 국내컵 결승 비중. 2006 리가포칼 첫 경기는 국내컵 8강, 준결승은 준결승. UEFA컵 1라운드·예선은 유로파 예선, 3라운드(32강)~8강은 유로파 토너먼트. 리베르타도레스 예선·조별·16강은 리베르타도레스, 수다메리카나 1·2라운드·16강은 수다메리카나. 에콰도르 2023 결승(인데펜디엔테 델 바예, 승부차기)과 페루 2025 플레이오프(스포르팅 크리스탈, 승부차기)는 MLS 플레이오프 비중(칠레·콜롬비아 플레이오프 선례), 두 경기 합산(원정 다득점·연장 없음)\n두 경기 합산: 코파 두 브라질은 2017년까지 원정 다득점·연장 없음, 2018년부터 원정 다득점 없음. 남미 대회는 2005~2021 원정 다득점(결승은 연장), 2022년부터 없음. 코파 두 브라질 2015 3라운드 나우치쿠 1차전(게레로 등록 전, 마라카낭 1-1)은 위키백과·Gazeta Esportiva 스코어로 채움. 코파 두 브라질 2014 2라운드 나시오나우(AM) 원정 3-0은 2골 차 원정승이라 2차전 없이 끝난 1차전으로 셈. 수다메리카나 2024 1라운드 스포르트 우앙카요전은 같은 나라 팀끼리 단판\n상대 수준: 분데스리가·유럽 대회 상대는 그 시즌 리그 순위. 브라질 상대는 그해 전국 리그 단계(세리에 A·B 순위, C·D는 포르투갈어 위키백과 최종 순위), 전국 리그에 없던 주 선수권 팀은 5부 기준점(추정). 2013 세리에 A 코리치바는 플라멩구·포르투게자 감점을 되돌린 13위(감점 전 순위). 페루 Liga 1은 경기 날짜에 진행 중이던 단계(아페르투라·클라우수라) 순위, 2026 클라우수라는 2026년 11월 25일 현재 순위, 2026 아페르투라 스포르트 우앙카요는 UTC 감점 전 17위, 2025 플레이오프 스포르팅 크리스탈은 연간 합산 4위. 에콰도르 2023 상대는 연간 합산 순위. 클럽 월드컵 2012 알아흘리는 이집트 리그 2012-13 취소로 순위 없이 이집트 1부 기준점(추정). 코파 아르헨티나 산마르틴(포르모사)은 3부(토르네오 페데랄 A) 기준점(추정)\n최근 경기: 2026.11.21 FC 카하마르카전(리그 1 클라우수라 2026)까지 반영(2026.11.25 기준, 현역)",
  "judgments": [
   [
    "도움 제외",
@@ -9249,6 +9129,46 @@
   ],
   [
    "도움 제외",
+   "2015-02-04",
+   "Once Caldas",
+   "1",
+   "Emerson",
+   "2015.2.4 리베르타도레스 온세 칼다스전 1분 에메르송 골: ESPN 문자중계만 게레로 도움, Gazeta Esportiva·FourFourTwo·Bolavip 기사에 게레로 패스 언급 없음 — 두 번째 출처 없음"
+  ],
+  [
+   "도움 제외",
+   "2016-02-28",
+   "Resende FC",
+   "51",
+   "Marcelo Cirino",
+   "2016.2.28 카리오카 헤젠지전 51분 시리누 골: ESPN·FotMob 도움 없음, Tribuna PR·Lance!는 만세후엘루 패스로 적음 — 확인 안 됨"
+  ],
+  [
+   "도움 제외",
+   "2016-09-21",
+   "CD Palestino",
+   "79",
+   "Emerson",
+   "2016.9.21 수다메리카나 팔레스티노전 79분 에메르송 골: ESPN은 게레로 도움이지만 Lance! 기사는 크로스를 게레로가 경합한 뒤 흘러나온 공(loose ball)을 에메르송이 넣은 것 — 도움 아님"
+  ],
+  [
+   "도움 제외",
+   "2017-09-20",
+   "Associação Chapecoense de Futebol",
+   "7",
+   "Gustavo Cuéllar",
+   "2017.9.20 수다메리카나 샤페코엔시전 7분 쿠에야르 골: ESPN 도움 없음, Trivela·Estadão는 게레로가 골키퍼를 넘기려다 흘러나온 공을 쿠에야르가 넣은 것 — 도움 아님"
+  ],
+  [
+   "도움 제외",
+   "2017-10-19",
+   "Esporte Clube Bahia",
+   "51",
+   "Réver",
+   "2017.10.19 바이아전 51분 헤베르 골: ESPN·FotMob 도움 없음, Bahia Notícias·Lance!는 프리킥 뒤 게레로에 맞고(경합) 흐른 공 — 굴절"
+  ],
+  [
+   "도움 제외",
    "2019-12-04",
    "São Paulo Futebol Clube",
    "70",
@@ -9262,6 +9182,14 @@
    "60",
    "Paolo Guerrero",
    "본인 PK 골의 본인 도움(PK 유도)"
+  ],
+  [
+   "도움 제외",
+   "2025-10-31",
+   "FBC Melgar",
+   "90+7",
+   "Renzo Garcés",
+   "2025.10.31 멜가르전 90+7분 렌소 가르세스 골: FotMob·ESPN 도움 없음, Trome은 게레로 헤더 패스라 하고 Líbero는 골키퍼 실수 뒤 흐른 공이라 해 엇갈림 — 확인 안 됨"
   ]
  ],
  "assist_status": [
@@ -9543,112 +9471,112 @@
    "2454454",
    "43",
    "Gil",
-   "판정 없음"
+   "넣음: 2014.8.16 바이아전 43분 질 골: ESPN 문자중계 'Assisted by José Paolo Guerrero with a cross following a corner'·Bahia Notícias 경기 기사(코너킥 뒤 게레로 크로스를 질이 머리로)"
   ],
   [
    "2015-02-04",
    "2532423",
    "1",
    "Emerson",
-   "판정 없음"
+   "뺌: 2015.2.4 리베르타도레스 온세 칼다스전 1분 에메르송 골: ESPN 문자중계만 게레로 도움, Gazeta Esportiva·FourFourTwo·Bolavip 기사에 게레로 패스 언급 없음 — 두 번째 출처 없음"
   ],
   [
    "2015-07-08",
    "2569454",
    "66",
    "Éverton",
-   "판정 없음"
+   "넣음: 2015.7.8 인테르나시오나우전 66분 에베르통 골: ESPN 'Assisted by José Paolo Guerrero'·Lance! '데뷔전 1골 1도움'·Soccerway 도움 표기"
   ],
   [
    "2015-07-26",
    "2569488",
    "72",
    "Marcelo Cirino",
-   "판정 없음"
+   "넣음: 2015.7.26 고이아스전 72분 마르셀루 시리누 골: ESPN 'Assisted by … with a through ball'·Gazeta Esportiva(알랑 파트리키 → 게레로가 시리누에게 내줌)"
   ],
   [
    "2015-09-27",
    "2626602",
    "11",
    "Emerson",
-   "판정 없음"
+   "넣음: 2015.9.27 바스쿠전 12분 에메르송 골: ESPN 'Assisted by Paolo Guerrero with a headed pass'·경기 기사(조르지 크로스를 게레로가 머리로 가운데로 내주고 에메르송이 마무리)"
   ],
   [
    "2016-02-28",
    "4571494",
    "51",
    "Marcelo Cirino",
-   "판정 없음"
+   "뺌: 2016.2.28 카리오카 헤젠지전 51분 시리누 골: ESPN·FotMob 도움 없음, Tribuna PR·Lance!는 만세후엘루 패스로 적음 — 확인 안 됨"
   ],
   [
    "2016-07-16",
    "2713332",
    "24",
    "Éverton",
-   "판정 없음"
+   "넣음: 2016.7.16 보타포구전 24분 에베르통 골: ESPN 'Assisted by Paolo Guerrero'·Lance! 경기 기사('cruzou a bola que Guerrero ajeitou para Everton bater')"
   ],
   [
    "2016-09-21",
    "2762908",
    "79",
    "Emerson",
-   "판정 없음"
+   "뺌: 2016.9.21 수다메리카나 팔레스티노전 79분 에메르송 골: ESPN은 게레로 도움이지만 Lance! 기사는 크로스를 게레로가 경합한 뒤 흘러나온 공(loose ball)을 에메르송이 넣은 것 — 도움 아님"
   ],
   [
    "2017-06-22",
    "2865585",
    "79",
    "Diego",
-   "판정 없음"
+   "넣음: 2017.6.22 샤페코엔시전 79분 디에구 골: ESPN 'Assisted by Paolo Guerrero'·Lance!(게레로 3골 1도움)·디에구 자료와 같음"
   ],
   [
    "2017-06-28",
    "4248647",
    "27",
    "Éverton",
-   "판정 없음"
+   "넣음: 2017.6.28 코파 두 브라질 산투스전 27분 에베르통 골: ESPN 'Assisted by Paolo Guerrero with a headed pass'·Estadão(Gazeta Esportiva) 'Guerrero deu passe de letra para Everton'·Trivela"
   ],
   [
    "2017-06-28",
    "4248647",
    "88",
    "Gustavo Cuéllar",
-   "판정 없음"
+   "넣음: 2017.6.28 산투스전 88분 쿠에야르 골: ESPN 'Assisted by Paolo Guerrero'·Estadão 'Guerrero tocou para Cuéllar na entrada da área'·Trivela"
   ],
   [
    "2017-07-19",
    "2888283",
    "8",
    "Pará",
-   "판정 없음"
+   "넣음: 2017.7.19 팔메이라스전 8분 파라 골: ESPN 'Assisted by Paolo Guerrero'·팔메이라스 구단 공식 경기 기사('Guerrero, aos oito, deu assistência para … Pará')"
   ],
   [
    "2017-09-20",
    "2916030",
    "7",
    "Gustavo Cuéllar",
-   "판정 없음"
+   "뺌: 2017.9.20 수다메리카나 샤페코엔시전 7분 쿠에야르 골: ESPN 도움 없음, Trivela·Estadão는 게레로가 골키퍼를 넘기려다 흘러나온 공을 쿠에야르가 넣은 것 — 도움 아님"
   ],
   [
    "2017-09-20",
    "2916030",
    "22",
    "Willian Arão",
-   "판정 없음"
+   "넣음: 2017.9.20 샤페코엔시전 22분 윌리앙 아랑 골: ESPN 'Assisted by Paolo Guerrero'·Estadão 'Guerrero driblou Douglas Grolli e cruzou para William Arão'·Trivela"
   ],
   [
    "2017-10-19",
    "2937782",
    "51",
    "Réver",
-   "판정 없음"
+   "뺌: 2017.10.19 바이아전 51분 헤베르 골: ESPN·FotMob 도움 없음, Bahia Notícias·Lance!는 프리킥 뒤 게레로에 맞고(경합) 흐른 공 — 굴절"
   ],
   [
    "2018-05-06",
    "3036822",
    "87",
    "Everton Ribeiro",
-   "판정 없음"
+   "넣음: 2018.5.6 인테르나시오나우전 87분 에베르통 히베이루 골: ESPN 'Assisted by Paolo Guerrero'·Gazeta Esportiva 'Guerrero fez lançamento para Éverton Ribeiro'·LiveSoccerTV"
   ],
   [
    "2019-10-31",
@@ -9662,7 +9590,7 @@
    "3328801",
    "71",
    "Marcos Guilherme",
-   "판정 없음"
+   "넣음: 2020.3.3 리베르타도레스 우니베르시다드 카톨리카전 71분 마르쿠스 길례르미 골: ESPN 'Assisted by Paolo Guerrero'·Líbero('doblete y asistencia de Paolo Guerrero')·Al Aire Libre(칠레)"
   ],
   [
    "2020-08-13",
@@ -9718,7 +9646,7 @@
    "4750444",
    "90+7",
    "Renzo Garcés",
-   "판정 없음"
+   "뺌: 2025.10.31 멜가르전 90+7분 렌소 가르세스 골: FotMob·ESPN 도움 없음, Trome은 게레로 헤더 패스라 하고 Líbero는 골키퍼 실수 뒤 흐른 공이라 해 엇갈림 — 확인 안 됨"
   ],
   [
    "2026-11-21",
@@ -10209,23 +10137,23 @@
   ]
  ],
  "elo_sources": {
-  "같은 경기 다른 선수 자료": 67,
-  "기존 팀×시즌 값": 117,
-  "직접 라벨": 55,
+  "같은 경기 다른 선수 자료": 66,
+  "기존 팀×시즌 값": 116,
+  "직접 라벨": 52,
   "브라질 순위표 → 라벨": 25,
-  "단계 순위 라벨": 34
+  "단계 순위 라벨": 33
  },
  "new_team_seasons": {
   "Unirea Urziceni|2008-10-02": [
-   1621,
+   1569,
    "루마니아 1부 2008-09 1위/18팀 (Liga I)"
   ],
   "Galatasaray|2009-03-19": [
-   1600,
+   1636,
    "쉬페르리그 2008-09 5위/18팀"
   ],
   "Randers FC|2009-07-30": [
-   1425,
+   1456,
    "덴마크 1부 2009-10 10위/12팀 (Danish Superliga)"
   ],
   "Al Ahly FC|2012-12-12": [
@@ -10241,8 +10169,8 @@
    "브라질 5부 2013 순위 없음 (Campeonato Paulista Série A1 2013 (state league); 리그 수준 추정)"
   ],
   "Coritiba Foot Ball Club|2013-08-18": [
-   1660,
-   "브라질 세리에 A 2013 11위/20팀"
+   1661,
+   "브라질 세리에 A 2013 13위/20팀 (감점 전 순위)"
   ],
   "Paulista FC (SP)|2014-01-23": [
    1044,
@@ -10253,11 +10181,11 @@
    "브라질 5부 2014 순위 없음 (Campeonato Amazonense 2014 (state league); 리그 수준 추정)"
   ],
   "Associação Chapecoense de Futebol|2014-05-04": [
-   1624,
+   1623,
    "브라질 세리에 A 2014 15위/20팀"
   ],
   "São Paulo Futebol Clube|2014-05-11": [
-   1760,
+   1742,
    "브라질 세리에 A 2014 2위/20팀"
   ],
   "Sport Club Internacional|2014-07-17": [
@@ -10269,15 +10197,15 @@
    "브라질 세리에 A 2014 18위/20팀"
   ],
   "São Paulo Futebol Clube|2014-09-21": [
-   1760,
+   1742,
    "브라질 세리에 A 2014 2위/20팀"
   ],
   "Clube Atlético Mineiro|2014-10-01": [
-   1700,
+   1708,
    "브라질 세리에 A 2014 5위/20팀"
   ],
   "Clube Atlético Mineiro|2014-10-15": [
-   1700,
+   1708,
    "브라질 세리에 A 2014 5위/20팀"
   ],
   "Sport Club Internacional|2014-10-19": [
@@ -10288,20 +10216,16 @@
    1038,
    "브라질 5부 2015 순위 없음 (Campeonato Paulista Série A1 2015 (state league); 리그 수준 추정)"
   ],
-  "Once Caldas|2015-02-04": [
-   1590,
-   "콜롬비아 1부 2015 13위/20팀 (Torneo Apertura 2015 1단계, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
   "Mogi Mirim EC|2015-03-01": [
-   1267,
+   1211,
    "브라질 세리에 B 2015 20위/20팀"
   ],
   "Clube Náutico Capibaribe|2015-07-15": [
-   1371,
+   1380,
    "브라질 세리에 B 2015 5위/20팀"
   ],
   "Goiás EC|2015-07-26": [
-   1577,
+   1587,
    "브라질 세리에 A 2015 19위/20팀"
   ],
   "Boavista SC|2016-01-30": [
@@ -10312,10 +10236,6 @@
    1107,
    "브라질 4부 2016 45위/68팀 (Campeonato Brasileiro Série D, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
   ],
-  "Resende FC|2016-02-28": [
-   1033,
-   "브라질 5부 2016 순위 없음 (Campeonato Carioca 2016 (state league); 리그 수준 추정)"
-  ],
   "Boavista SC|2016-04-09": [
    1109,
    "브라질 4부 2016 43위/68팀 (Campeonato Brasileiro Série D, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
@@ -10325,19 +10245,15 @@
    "브라질 5부 2016 순위 없음 (Campeonato Carioca 2016 (state league); 리그 수준 추정)"
   ],
   "Fortaleza Esporte Clube|2016-05-04": [
-   1259,
+   1276,
    "브라질 3부 2016 6위/20팀 (Campeonato Brasileiro Série C, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
   ],
-  "CD Palestino|2016-09-21": [
-   1587,
-   "칠레 1부 2016-17 6위/16팀 (Chilean Primera División (Apertura 2016), 경기 날짜에 진행 중이던 단계 순위)"
-  ],
   "Cruzeiro Esporte Clube|2016-09-25": [
-   1615,
+   1632,
    "브라질 세리에 A 2016 12위/20팀"
   ],
   "Sport Club Corinthians Paulista|2016-10-23": [
-   1660,
+   1653,
    "브라질 세리에 A 2016 7위/20팀"
   ],
   "Nova Iguaçu FC (RJ)|2017-02-04": [
@@ -10349,11 +10265,11 @@
    "칠레 1부 2016-17 4위/16팀 (Chilean Primera División (Clausura 2017), 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Sociedade Esportiva Palmeiras|2017-07-19": [
-   1747,
+   1704,
    "브라질 세리에 A 2017 2위/20팀"
   ],
   "Sport Club do Recife|2017-09-17": [
-   1611,
+   1612,
    "브라질 세리에 A 2017 15위/20팀"
   ],
   "SER Caxias do Sul (RS)|2019-04-06": [
@@ -10381,15 +10297,15 @@
    "우루과이 1부 2019 연간 1위/16팀"
   ],
   "Esporte Clube Bahia|2019-10-26": [
-   1612,
+   1619,
    "브라질 세리에 A 2019 11위/20팀"
   ],
   "Fortaleza Esporte Clube|2019-11-24": [
-   1629,
+   1633,
    "브라질 세리에 A 2019 9위/20팀"
   ],
   "Botafogo de Futebol e Regatas|2019-11-30": [
-   1591,
+   1583,
    "브라질 세리에 A 2019 15위/20팀"
   ],
   "EC Pelotas|2020-01-26": [
@@ -10413,7 +10329,7 @@
    "브라질 5부 2020 순위 없음 (Campeonato Gaúcho 2020 (state league); 리그 수준 추정)"
   ],
   "Coritiba Foot Ball Club|2020-08-08": [
-   1552,
+   1528,
    "브라질 세리에 A 2020 19위/20팀"
   ],
   "CE Aimoré|2021-04-14": [
@@ -10425,7 +10341,7 @@
    "아르헨티나 3부 2023 순위 없음 (Torneo Federal A 2023; 리그 수준 추정)"
   ],
   "CA Unión (Santa Fe)|2023-03-17": [
-   1603,
+   1604,
    "아르헨티나 1부 2023 리가 20위/28팀"
   ],
   "CD Ñublense|2023-04-05": [
@@ -10441,35 +10357,35 @@
    "칠레 1부 2023 12위/16팀 (Chilean Primera División)"
   ],
   "Defensa y Justicia|2023-09-27": [
-   1719,
+   1650,
    "아르헨티나 1부 2023 리가 3위/28팀"
   ],
   "Independiente del Valle|2023-11-04": [
-   1616,
+   1642,
    "에콰도르 1부 2023 3위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Técnico Universitario|2023-11-08": [
-   1550,
+   1555,
    "에콰도르 1부 2023 8위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Libertad FC|2023-11-12": [
-   1509,
+   1492,
    "에콰도르 1부 2023 13위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Cumbayá FC|2023-11-26": [
-   1496,
+   1480,
    "에콰도르 1부 2023 14위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Cusco FC|2024-03-02": [
-   1516,
+   1518,
    "페루 1부 2024 5위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CD Unión Comercio|2024-04-06": [
-   1398,
+   1359,
    "페루 1부 2024 18위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Comerciantes Unidos|2024-04-14": [
-   1483,
+   1456,
    "페루 1부 2024 8위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Sport Boys Association|2024-09-21": [
@@ -10489,23 +10405,23 @@
    "페루 1부 2024 11위/18팀 (Liga 1 Torneo Clausura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Club Juan Pablo II College|2025-02-21": [
-   1437,
+   1424,
    "페루 1부 2025 14위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Club Sporting Cristal|2025-03-01": [
-   1509,
+   1528,
    "페루 1부 2025 5위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Ayacucho FC|2025-03-07": [
-   1407,
+   1392,
    "페루 1부 2025 17위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Deportivo Garcilaso|2025-04-14": [
-   1479,
+   1502,
    "페루 1부 2025 8위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CA Talleres|2025-04-22": [
-   1589,
+   1598,
    "아르헨티나 1부 아페르투라 2025 통합 24위/30팀 (2025 연간 통합 순위)"
   ],
   "Sport Boys Association|2025-05-23": [
@@ -10517,7 +10433,7 @@
    "파라과이 1부 2025 아페르투라 1위/12팀 (Copa de Primera 아페르투라 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Deportivo Binacional|2025-07-05": [
-   1416,
+   1410,
    "페루 1부 2025 16위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Club Cienciano|2025-09-28": [
@@ -10537,7 +10453,7 @@
    "페루 1부 2025 12위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "FBC Melgar|2025-10-31": [
-   1524,
+   1474,
    "페루 1부 2025 8위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CD Los Chankas|2025-11-05": [
@@ -10575,164 +10491,9 @@
  },
  "map_need": [
   [
-   "덴마크 1부 2009-10",
-   "Randers FC",
-   "덴마크 1부 2009-10 10위/12팀 (Danish Superliga)"
-  ],
-  [
-   "루마니아 1부 2008-09",
-   "Unirea Urziceni",
-   "루마니아 1부 2008-09 1위/18팀 (Liga I)"
-  ],
-  [
-   "브라질 3부 2016",
-   "Fortaleza Esporte Clube",
-   "브라질 3부 2016 6위/20팀 (Campeonato Brasileiro Série C, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
-  ],
-  [
    "브라질 4부 2019",
    "SER Caxias do Sul (RS)",
    "브라질 4부 2019 6위/68팀 (Campeonato Brasileiro Série D, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
-  ],
-  [
-   "브라질 세리에 A 2013",
-   "Coritiba Foot Ball Club",
-   "브라질 세리에 A 2013 11위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Associação Chapecoense de Futebol",
-   "브라질 세리에 A 2014 15위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Clube Atlético Mineiro",
-   "브라질 세리에 A 2014 5위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Esporte Clube Bahia",
-   "브라질 세리에 A 2014 18위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Sport Club Internacional",
-   "브라질 세리에 A 2014 3위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "São Paulo Futebol Clube",
-   "브라질 세리에 A 2014 2위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2015",
-   "Goiás EC",
-   "브라질 세리에 A 2015 19위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2016",
-   "Cruzeiro Esporte Clube",
-   "브라질 세리에 A 2016 12위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2016",
-   "Sport Club Corinthians Paulista",
-   "브라질 세리에 A 2016 7위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2017",
-   "Sociedade Esportiva Palmeiras",
-   "브라질 세리에 A 2017 2위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2017",
-   "Sport Club do Recife",
-   "브라질 세리에 A 2017 15위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Botafogo de Futebol e Regatas",
-   "브라질 세리에 A 2019 15위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Esporte Clube Bahia",
-   "브라질 세리에 A 2019 11위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Fortaleza Esporte Clube",
-   "브라질 세리에 A 2019 9위/20팀"
-  ],
-  [
-   "브라질 세리에 A 2020",
-   "Coritiba Foot Ball Club",
-   "브라질 세리에 A 2020 19위/20팀"
-  ],
-  [
-   "브라질 세리에 B 2015",
-   "Clube Náutico Capibaribe",
-   "브라질 세리에 B 2015 5위/20팀"
-  ],
-  [
-   "브라질 세리에 B 2015",
-   "Mogi Mirim EC",
-   "브라질 세리에 B 2015 20위/20팀"
-  ],
-  [
-   "쉬페르리그 2008-09",
-   "Galatasaray",
-   "쉬페르리그 2008-09 5위/18팀"
-  ],
-  [
-   "아르헨티나 1부 2023 리가",
-   "CA Unión (Santa Fe)",
-   "아르헨티나 1부 2023 리가 20위/28팀"
-  ],
-  [
-   "아르헨티나 1부 2023 리가",
-   "Defensa y Justicia",
-   "아르헨티나 1부 2023 리가 3위/28팀"
-  ],
-  [
-   "아르헨티나 1부 아페르투라 2025 통합",
-   "CA Talleres",
-   "아르헨티나 1부 아페르투라 2025 통합 24위/30팀 (2025 연간 통합 순위)"
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Cumbayá FC",
-   "에콰도르 1부 2023 14위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Independiente del Valle",
-   "에콰도르 1부 2023 3위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Libertad FC",
-   "에콰도르 1부 2023 13위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Técnico Universitario",
-   "에콰도르 1부 2023 8위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
-  ],
-  [
-   "페루 1부 2024",
-   "CD Unión Comercio",
-   "페루 1부 2024 18위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2024",
-   "Comerciantes Unidos",
-   "페루 1부 2024 8위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2024",
-   "Cusco FC",
-   "페루 1부 2024 5위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   [
    "페루 1부 2024",
@@ -10756,11 +10517,6 @@
   ],
   [
    "페루 1부 2025",
-   "Ayacucho FC",
-   "페루 1부 2025 17위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2025",
    "CD Los Chankas",
    "페루 1부 2025 6위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
@@ -10776,33 +10532,13 @@
   ],
   [
    "페루 1부 2025",
-   "Club Juan Pablo II College",
-   "페루 1부 2025 14위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2025",
    "Club Sporting Cristal",
    "페루 1부 2025 4위/19팀 (Liga 1 2025 연간 합산 순위)"
   ],
   [
    "페루 1부 2025",
-   "Club Sporting Cristal",
-   "페루 1부 2025 5위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2025",
-   "Deportivo Binacional",
-   "페루 1부 2025 16위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2025",
-   "Deportivo Garcilaso",
-   "페루 1부 2025 8위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
-  [
-   "페루 1부 2025",
-   "Sport Boys Association",
-   "페루 1부 2025 13위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
+   "FBC Melgar",
+   "페루 1부 2025 8위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   [
    "페루 1부 2025",
@@ -10830,426 +10566,12 @@
  ],
  "map_lines": [
   [
-   "덴마크 1부 2009-10",
-   "Randers FC",
-   "Randers FC",
-   [
-    0,
-    9
-   ]
-  ],
-  [
-   "루마니아 1부 2008-09",
-   "Unirea Urziceni",
-   "Unirea Urziceni",
-   [
-    0,
-    0
-   ]
-  ],
-  [
-   "브라질 3부 2016",
-   "Fortaleza Esporte Clube",
-   "Fortaleza",
-   [
-    0,
-    5
-   ]
-  ],
-  [
    "브라질 4부 2019",
-   "SER Caxias do Sul (RS)",
+   "SER Caxias do Sul (RS)@6",
    "Caxias",
    [
     0,
     5
-   ]
-  ],
-  [
-   "브라질 세리에 A 2013",
-   "Coritiba Foot Ball Club",
-   "Coritiba Foot Ball Club",
-   [
-    0,
-    12
-   ]
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Associação Chapecoense de Futebol",
-   "Associação Chapecoense de Futebol",
-   [
-    0,
-    14
-   ]
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Clube Atlético Mineiro",
-   "Clube Atlético Mineiro",
-   [
-    0,
-    4
-   ]
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Esporte Clube Bahia",
-   "Esporte Clube Bahia",
-   [
-    0,
-    17
-   ]
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "Sport Club Internacional",
-   "Sport Club Internacional",
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "브라질 세리에 A 2014",
-   "São Paulo Futebol Clube",
-   "São Paulo FC",
-   [
-    0,
-    1
-   ]
-  ],
-  [
-   "브라질 세리에 A 2015",
-   "Goiás EC",
-   "Goiás Esporte Clube",
-   [
-    0,
-    18
-   ]
-  ],
-  [
-   "브라질 세리에 A 2016",
-   "Cruzeiro Esporte Clube",
-   "Cruzeiro Esporte Clube",
-   [
-    0,
-    11
-   ]
-  ],
-  [
-   "브라질 세리에 A 2016",
-   "Sport Club Corinthians Paulista",
-   "Sport Club Corinthians Paulista",
-   [
-    0,
-    6
-   ]
-  ],
-  [
-   "브라질 세리에 A 2017",
-   "Sociedade Esportiva Palmeiras",
-   "Sociedade Esportiva Palmeiras",
-   [
-    0,
-    1
-   ]
-  ],
-  [
-   "브라질 세리에 A 2017",
-   "Sport Club do Recife",
-   "Sport Club do Recife",
-   [
-    0,
-    14
-   ]
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Botafogo de Futebol e Regatas",
-   "Botafogo de Futebol e Regatas",
-   [
-    0,
-    14
-   ]
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Esporte Clube Bahia",
-   "Esporte Clube Bahia",
-   [
-    0,
-    10
-   ]
-  ],
-  [
-   "브라질 세리에 A 2019",
-   "Fortaleza Esporte Clube",
-   "Fortaleza Esporte Clube",
-   [
-    0,
-    8
-   ]
-  ],
-  [
-   "브라질 세리에 A 2020",
-   "Coritiba Foot Ball Club",
-   "Coritiba Foot Ball Club",
-   [
-    0,
-    18
-   ]
-  ],
-  [
-   "브라질 세리에 B 2015",
-   "Clube Náutico Capibaribe",
-   "Clube Náutico Capibaribe",
-   [
-    0,
-    4
-   ]
-  ],
-  [
-   "브라질 세리에 B 2015",
-   "Mogi Mirim EC",
-   "Mogi Mirim Esporte Clube",
-   [
-    0,
-    19
-   ]
-  ],
-  [
-   "쉬페르리그 2008-09",
-   "Galatasaray",
-   "Galatasaray",
-   [
-    0,
-    4
-   ]
-  ],
-  [
-   "아르헨티나 1부 2023 리가",
-   "CA Unión (Santa Fe)",
-   "Unión de Santa Fe",
-   [
-    0,
-    24
-   ]
-  ],
-  [
-   "아르헨티나 1부 2023 리가",
-   "Defensa y Justicia",
-   "Defensa y Justicia",
-   [
-    0,
-    8
-   ]
-  ],
-  [
-   "아르헨티나 1부 아페르투라 2025 통합",
-   "CA Talleres",
-   "Talleres de Córdoba",
-   [
-    0,
-    23
-   ]
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Cumbayá FC",
-   "Cumbayá F.C.",
-   [
-    0,
-    13
-   ]
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Independiente del Valle",
-   "C.S.D. Independiente del Valle",
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Libertad FC",
-   "Libertad F.C. (Ecuador)",
-   [
-    0,
-    12
-   ]
-  ],
-  [
-   "에콰도르 1부 2023",
-   "Técnico Universitario",
-   "C.D. Técnico Universitario",
-   [
-    0,
-    7
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "CD Unión Comercio",
-   "Unión Comercio",
-   [
-    0,
-    17
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "Comerciantes Unidos",
-   "Comerciantes Unidos",
-   [
-    0,
-    7
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "Cusco FC",
-   "Cusco FC",
-   [
-    0,
-    4
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "FBC Melgar",
-   "FBC Melgar",
-   [
-    0,
-    2
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "Sport Boys Association",
-   "Sport Boys",
-   [
-    0,
-    11
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "Sport Huancayo",
-   "Sport Huancayo",
-   [
-    0,
-    12
-   ]
-  ],
-  [
-   "페루 1부 2024",
-   "Universidad Técnica de Cajamarca",
-   "Universidad Técnica de Cajamarca",
-   [
-    0,
-    13
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Ayacucho FC",
-   "Ayacucho FC",
-   [
-    0,
-    16
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "CD Los Chankas",
-   "Club Deportivo Los Chankas",
-   [
-    0,
-    10
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Club Atlético Grau",
-   "Atlético Grau",
-   [
-    0,
-    11
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Club Cienciano",
-   "Cienciano",
-   [
-    0,
-    9
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Club Juan Pablo II College",
-   "ADC Juan Pablo II College",
-   [
-    0,
-    13
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Club Sporting Cristal",
-   "Sporting Cristal",
-   [
-    0,
-    4
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Deportivo Binacional",
-   "Deportivo Binacional FC",
-   [
-    0,
-    15
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Deportivo Garcilaso",
-   "Deportivo Garcilaso",
-   [
-    0,
-    7
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Sport Boys Association",
-   "Sport Boys",
-   [
-    0,
-    12
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Sport Huancayo",
-   "Sport Huancayo",
-   [
-    0,
-    6
-   ]
-  ],
-  [
-   "페루 1부 2025",
-   "Universidad Técnica de Cajamarca",
-   "Club Universidad Técnica de Cajamarca",
-   [
-    0,
-    14
    ]
   ]
  ],
@@ -11546,7 +10868,7 @@
   ],
   "Unirea Urziceni|2008-10-02": [
    "man",
-   1621,
+   1569,
    "루마니아 1부 2008-09 1위/18팀 (Liga I)"
   ],
   "SV Werder Bremen|2008-11-23": [
@@ -11581,7 +10903,7 @@
   ],
   "Galatasaray|2009-03-19": [
    "man",
-   1600,
+   1636,
    "쉬페르리그 2008-09 5위/18팀"
   ],
   "FC Schalke 04|2009-03-22": [
@@ -11610,7 +10932,7 @@
   ],
   "Randers FC|2009-07-30": [
    "man",
-   1425,
+   1456,
    "덴마크 1부 2009-10 10위/12팀 (Danish Superliga)"
   ],
   "Borussia Dortmund|2009-08-15": [
@@ -11881,8 +11203,8 @@
   ],
   "Coritiba Foot Ball Club|2013-08-18": [
    "model",
-   1660,
-   "브라질 세리에 A 2013 11위/20팀"
+   1661,
+   "브라질 세리에 A 2013 13위/20팀 (감점 전 순위)"
   ],
   "Clube de Regatas Vasco da Gama|2013-08-25": [
    "table",
@@ -11928,12 +11250,12 @@
   ],
   "Associação Chapecoense de Futebol|2014-05-04": [
    "model",
-   1624,
+   1623,
    "브라질 세리에 A 2014 15위/20팀"
   ],
   "São Paulo Futebol Clube|2014-05-11": [
    "model",
-   1760,
+   1742,
    "브라질 세리에 A 2014 2위/20팀"
   ],
   "Sport Club do Recife|2014-05-25": [
@@ -11978,12 +11300,12 @@
   ],
   "São Paulo Futebol Clube|2014-09-21": [
    "model",
-   1760,
+   1742,
    "브라질 세리에 A 2014 2위/20팀"
   ],
   "Clube Atlético Mineiro|2014-10-01": [
    "model",
-   1700,
+   1708,
    "브라질 세리에 A 2014 5위/20팀"
   ],
   "Sport Club do Recife|2014-10-04": [
@@ -11994,7 +11316,7 @@
   ],
   "Clube Atlético Mineiro|2014-10-15": [
    "model",
-   1700,
+   1708,
    "브라질 세리에 A 2014 5위/20팀"
   ],
   "Sport Club Internacional|2014-10-19": [
@@ -12025,14 +11347,9 @@
    1038,
    "브라질 5부 2015 순위 없음 (Campeonato Paulista Série A1 2015 (state league); 리그 수준 추정)"
   ],
-  "Once Caldas|2015-02-04": [
-   "man",
-   1590,
-   "콜롬비아 1부 2015 13위/20팀 (Torneo Apertura 2015 1단계, 경기 날짜에 진행 중이던 단계 순위)"
-  ],
   "Mogi Mirim EC|2015-03-01": [
    "model",
-   1267,
+   1211,
    "브라질 세리에 B 2015 20위/20팀"
   ],
   "Danubio FC|2015-03-17": [
@@ -12067,7 +11384,7 @@
   ],
   "Clube Náutico Capibaribe|2015-07-15": [
    "model",
-   1371,
+   1380,
    "브라질 세리에 B 2015 5위/20팀"
   ],
   "Grêmio Foot-Ball Porto Alegrense|2015-07-18": [
@@ -12078,7 +11395,7 @@
   ],
   "Goiás EC|2015-07-26": [
    "model",
-   1577,
+   1587,
    "브라질 세리에 A 2015 19위/20팀"
   ],
   "São Paulo Futebol Clube|2015-08-23": [
@@ -12115,11 +11432,6 @@
    "브라질 세리에 A 2016 13위/20팀",
    "2016"
   ],
-  "Resende FC|2016-02-28": [
-   "man",
-   1033,
-   "브라질 5부 2016 순위 없음 (Campeonato Carioca 2016 (state league); 리그 수준 추정)"
-  ],
   "Boavista SC|2016-04-09": [
    "man",
    1109,
@@ -12132,7 +11444,7 @@
   ],
   "Fortaleza Esporte Clube|2016-05-04": [
    "man",
-   1259,
+   1276,
    "브라질 3부 2016 6위/20팀 (Campeonato Brasileiro Série C, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
   ],
   "Fluminense Football Club|2016-06-26": [
@@ -12159,19 +11471,14 @@
    "브라질 세리에 A 2016 15위/20팀",
    "2016"
   ],
-  "CD Palestino|2016-09-21": [
-   "man",
-   1587,
-   "칠레 1부 2016-17 6위/16팀 (Chilean Primera División (Apertura 2016), 경기 날짜에 진행 중이던 단계 순위)"
-  ],
   "Cruzeiro Esporte Clube|2016-09-25": [
    "model",
-   1615,
+   1632,
    "브라질 세리에 A 2016 12위/20팀"
   ],
   "Sport Club Corinthians Paulista|2016-10-23": [
    "model",
-   1660,
+   1653,
    "브라질 세리에 A 2016 7위/20팀"
   ],
   "Clube Atlético Mineiro|2016-10-29": [
@@ -12280,7 +11587,7 @@
   ],
   "Sociedade Esportiva Palmeiras|2017-07-19": [
    "model",
-   1747,
+   1704,
    "브라질 세리에 A 2017 2위/20팀"
   ],
   "Santos FC|2017-07-26": [
@@ -12293,7 +11600,7 @@
   ],
   "Sport Club do Recife|2017-09-17": [
    "model",
-   1611,
+   1612,
    "브라질 세리에 A 2017 15위/20팀"
   ],
   "Associação Chapecoense de Futebol|2017-09-20": [
@@ -12301,14 +11608,6 @@
    1654,
    "브라질 세리에 A 2017 8위/20팀",
    "2017"
-  ],
-  "Esporte Clube Bahia|2017-10-19": [
-   "same",
-   1644,
-   "브라질 세리에 A 2017 12위/20팀",
-   [
-    "die.js"
-   ]
   ],
   "Sport Club Internacional|2018-05-06": [
    "table",
@@ -12380,7 +11679,7 @@
   ],
   "Esporte Clube Bahia|2019-10-26": [
    "model",
-   1612,
+   1619,
    "브라질 세리에 A 2019 11위/20팀"
   ],
   "Club Athletico Paranaense|2019-10-31": [
@@ -12391,7 +11690,7 @@
   ],
   "Fortaleza Esporte Clube|2019-11-24": [
    "model",
-   1629,
+   1633,
    "브라질 세리에 A 2019 9위/20팀"
   ],
   "Goiás EC|2019-11-27": [
@@ -12402,7 +11701,7 @@
   ],
   "Botafogo de Futebol e Regatas|2019-11-30": [
    "model",
-   1591,
+   1583,
    "브라질 세리에 A 2019 15위/20팀"
   ],
   "Clube Atlético Mineiro|2019-12-08": [
@@ -12438,7 +11737,7 @@
   ],
   "Coritiba Foot Ball Club|2020-08-08": [
    "model",
-   1552,
+   1528,
    "브라질 세리에 A 2020 19위/20팀"
   ],
   "Santos FC|2020-08-13": [
@@ -12471,7 +11770,7 @@
   ],
   "CA Unión (Santa Fe)|2023-03-17": [
    "man",
-   1603,
+   1604,
    "아르헨티나 1부 2023 리가 20위/28팀"
   ],
   "CD Ñublense|2023-04-05": [
@@ -12491,42 +11790,42 @@
   ],
   "Defensa y Justicia|2023-09-27": [
    "man",
-   1719,
+   1650,
    "아르헨티나 1부 2023 리가 3위/28팀"
   ],
   "Independiente del Valle|2023-11-04": [
    "man",
-   1616,
+   1642,
    "에콰도르 1부 2023 3위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Técnico Universitario|2023-11-08": [
    "man",
-   1550,
+   1555,
    "에콰도르 1부 2023 8위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Libertad FC|2023-11-12": [
    "man",
-   1509,
+   1492,
    "에콰도르 1부 2023 13위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Cumbayá FC|2023-11-26": [
    "man",
-   1496,
+   1480,
    "에콰도르 1부 2023 14위/16팀 (Ecuadorian Serie A, 연간 합산 순위)"
   ],
   "Cusco FC|2024-03-02": [
    "stage",
-   1516,
+   1518,
    "페루 1부 2024 5위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CD Unión Comercio|2024-04-06": [
    "stage",
-   1398,
+   1359,
    "페루 1부 2024 18위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Comerciantes Unidos|2024-04-14": [
    "stage",
-   1483,
+   1456,
    "페루 1부 2024 8위/18팀 (Liga 1 Torneo Apertura 2024, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Sport Boys Association|2024-09-21": [
@@ -12551,27 +11850,27 @@
   ],
   "Club Juan Pablo II College|2025-02-21": [
    "stage",
-   1437,
+   1424,
    "페루 1부 2025 14위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Club Sporting Cristal|2025-03-01": [
    "stage",
-   1509,
+   1528,
    "페루 1부 2025 5위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Ayacucho FC|2025-03-07": [
    "stage",
-   1407,
+   1392,
    "페루 1부 2025 17위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Deportivo Garcilaso|2025-04-14": [
    "stage",
-   1479,
+   1502,
    "페루 1부 2025 8위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CA Talleres|2025-04-22": [
    "man",
-   1589,
+   1598,
    "아르헨티나 1부 아페르투라 2025 통합 24위/30팀 (2025 연간 통합 순위)"
   ],
   "Sport Boys Association|2025-05-23": [
@@ -12586,7 +11885,7 @@
   ],
   "Deportivo Binacional|2025-07-05": [
    "stage",
-   1416,
+   1410,
    "페루 1부 2025 16위/19팀 (Liga 1 Torneo Apertura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "Club Cienciano|2025-09-28": [
@@ -12611,7 +11910,7 @@
   ],
   "FBC Melgar|2025-10-31": [
    "stage",
-   1524,
+   1474,
    "페루 1부 2025 8위/18팀 (Liga 1 Torneo Clausura 2025, 경기 날짜에 진행 중이던 단계 순위)"
   ],
   "CD Los Chankas|2025-11-05": [
