@@ -176,9 +176,9 @@ def fm_other_assister(gid, e):
         if f["keane_assist"] != "1" and f["assistStr"] and fm_min_match(f, e["minute"]) and same_scorer(f["scorer"], e["scorer"]): return f["assistStr"]
     return None
 
-A_CHECK = {     # 다른 출처로 판정한 Transfermarkt 도움(judgments.md 4절). 2014.8 이전이라도 출처가 다른 도움자를 적으면 여기서 판정
- "2225962|77": (False, "2012.10.20 크리스털 팰리스 원정 77분 비버스 골: Transfermarkt만 킨 코너킥, FotMob 'assist by Josh Wright'·스포츠 몰 경기 기사 'Beevers converted from Josh Wright's corner' → 조시 라이트 도움"),
- "3071954|80": (True, "2018.7.26 유로파 예선 애버딘 원정 80분 복스 동점골: 스카이 스포츠 경기 기사 'Wood headed on for Vokes', 포포투(PA) 기사 'Vokes controlled a knockdown from strike partner Chris Wood' → 넣음(FotMob 도움 없음)"),
+A_CHECK = {     # 다른 출처로 판정한 Transfermarkt 도움(judgments.md 4절)
+ "2609508|54": (True, "2015.8.18 북중미 챔스 코무니카시오네스전 54분 고든 골: LA 갤럭시 공식 경기 보고서 득점 요약 'Alan Gordon (Assisted by Robbie Keane) 54''·MLSsoccer.com/LAG Confidential 경기 기사(킨이 고든에게 연결) → 넣음(FotMob 도움 칸 비어 있음)"),
+ "3113582|58": (False, "2018.3.16 슈퍼컵 예선 첸나이 시티전 58분 제키냐 골: 경기 기사(sportskeeda 등)는 킨이 컷백 → 음바타가 내준 공을 제키냐가 마무리 — 마지막 패스는 음바타라 뺌"),
 }
 ADD_A = []       # FotMob 단독 도움 중 다른 출처 2곳이 확인한 것(없음)
 A_STATUS = []
@@ -309,6 +309,10 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 import league_points as PTS
 MAPNEED = []
 def lv_value(lv, d, o=None):
+    mm = re.match(r"^(\S+) (\d)부 (\d{4})(?:-(\d{2}))? 순위 없음", lv)
+    if mm:   # 순위 없음: 그 나라·단계·시즌 기준점
+        cal = mm.group(4) is None; y = int(mm.group(3)) + (0 if cal else 1)
+        return int(round(_LRA["base"](_LRA["KO"][mm.group(1)], int(mm.group(2)), y, cal)))
     p = _LRA["parse"](lv, d)
     if not p: sys.exit("라벨 해석 실패 " + lv)
     v = _LRA["value"](*p)
@@ -390,7 +394,7 @@ def make_label(lg, season, v):
         return f"{hd} {pr or r}위/{n}팀 (" + ("감점 전 순위; " if pr else "") + "Football League Third Division, 리그 수준 추정)"
     if lg == "ZYP1": return f"키프로스 1부 {season} {r}위/{n}팀 (Cypriot First Division)"
     if lg == "IND1": return f"인도 슈퍼리그 {season} {r}위/{n}팀 (Indian Super League, 정규 리그 최종 순위)"
-    if lg == "ILG": return f"인도 2부 {season} {r}위/{n}팀 (I-League — 인도 슈퍼리그와 나란히 열린 전국 리그, 리그 수준 추정)"
+    if lg == "ILG": return f"인도 1부 {season} {r}위/{n}팀 (I-League — 2017-18은 인도 슈퍼리그와 나란히 열린 공동 1부, AFC 챔스 예선 출전권 리그)"
     if lg == "MLS1": return f"MLS {season} {r}위/{n}팀"
     return None
 LEAGUES_EU = ("GB1", "GB2", "GB3", "GB4", "EFD2", "EFD3", "EFD4", "SC1", "ZYP1", "IND1", "ILG")
@@ -532,18 +536,18 @@ for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["clubId"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["clubId"])
     if TM_CLUB[g["clubId"]] in CAL or g["competitionId"] == "INSC": continue   # 달력 연도 시즌(갤럭시)·TM '2018' 표기 슈퍼컵
     if season_of(ldate(g))[2:4] + "/" + season_of(ldate(g))[5:7] != g["season"]: sys.exit("시즌 불일치 " + g["gameId"] + " " + g["season"] + " " + ldate(g))
-CLUB_KO = {"wbacwd": ("웨스트 브로미치 앨비언", "2009~2010"), "bnscwd": ("반즐리", "2010"), "brhcwd": ("브라이턴", "2010~2011"), "bircwd": ("버밍엄 시티", "2011"),
-           "brccwd": ("브리스틀 시티", "2012"), "milcwd": ("밀월", "2012"), "leicwd": ("레스터 시티", "2013~2015"), "ipscwd": ("입스위치 타운", "2015"),
-           "leecwd": ("리즈 유나이티드", "2015~2017"), "burcwd": ("번리", "2017~2022"), "newcwd": ("뉴캐슬 유나이티드", "2022~2023"), "notcwd": ("노팅엄 포리스트", "2023~")}
-PERIODS = []
-_lo = None
-for k_, u_ in CLUBS:
-    PERIODS.append((CLUB_KO[k_][0], CLUB_KO[k_][1], _lo, u_)); _lo = u_
-def per(lo, hi):
-    inr = lambda d: (lo is None or d >= lo) and (hi is None or d < hi)
+CLUB_KO = {"wolrbk": ("울버햄프턴 원더러스", "1997~1999"), "covrbk": ("코번트리 시티", "1999~2000"), "intrbk": ("인테르", "2000"),
+           "leerbk": ("리즈 유나이티드", "2000~2002"), "totrbk": ("토트넘 홋스퍼", "2002~2008, 2009~2011"), "livrbk": ("리버풀", "2008~2009"),
+           "celrbk": ("셀틱", "2010"), "whurbk": ("웨스트햄 유나이티드", "2011"), "lagrbk": ("LA 갤럭시", "2011~2016"),
+           "avlrbk": ("애스턴 빌라", "2012"), "atkrbk": ("ATK(아틀레티코 데 콜카타)", "2017~2018")}
+def per(k_):
+    inr = lambda d: club_of(d) == k_
     return [sum(1 for m in M if inr(m[0])), sum(1 for r in E if r[0] == "g" and inr(r[9])),
             sum(1 for r in E if r[0] == "a" and inr(r[9])), sum(m[3] for m in M if inr(m[0]))]
-ST = [(n, y, per(lo, hi)) for n, y, lo, hi in PERIODS]
+_order = []
+for m in M:
+    if club_of(m[0]) not in _order: _order.append(club_of(m[0]))
+ST = [(CLUB_KO[k_][0], CLUB_KO[k_][1], per(k_)) for k_ in _order]
 NG, NGo, NA = len(M), sum(r[0] == "g" for r in E), sum(r[0] == "a" for r in E)
 NPK = sum(r[8] for r in E if r[0] == "g")
 MIN_TOT = sum(m[3] for m in M)

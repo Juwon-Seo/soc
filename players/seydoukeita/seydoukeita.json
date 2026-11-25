@@ -3,7 +3,7 @@
   {
    "type": "g",
    "opp": "Nîmes Olympique",
-   "elo": 1393,
+   "elo": 1387,
    "comp": "lg",
    "min": 89,
    "gf": 0,
@@ -1411,7 +1411,7 @@
   {
    "type": "g",
    "opp": "Beijing Guoan",
-   "elo": 1358,
+   "elo": 1353,
    "comp": "lg",
    "min": 70,
    "gf": 2,
@@ -1475,7 +1475,7 @@
   {
    "type": "a",
    "opp": "Qingdao Jonoon",
-   "elo": 1225,
+   "elo": 1253,
    "comp": "lg",
    "min": 12,
    "gf": 0,
@@ -1523,7 +1523,7 @@
   {
    "type": "a",
    "opp": "Guizhou Renhe",
-   "elo": 1340,
+   "elo": 1308,
    "comp": "dsf",
    "min": 8,
    "gf": 0,
@@ -1723,7 +1723,7 @@
   {
    "type": "g",
    "opp": "Al-Ahli SC",
-   "elo": 1247,
+   "elo": 1243,
    "comp": "lg",
    "min": 20,
    "gf": 0,
@@ -1739,7 +1739,7 @@
   {
    "type": "g",
    "opp": "Al-Ahli SC",
-   "elo": 1247,
+   "elo": 1243,
    "comp": "lg",
    "min": 74,
    "gf": 1,
@@ -6009,6 +6009,22 @@
    "같음"
   ],
   [
+   "타인 도움(케이타 골)",
+   "players/jemaa/ijm.js",
+   "2007-01-28",
+   91,
+   "AS Saint-Étienne",
+   "같음"
+  ],
+  [
+   "타인 도움(케이타 골)",
+   "players/jemaa/ijm.js",
+   "2007-04-21",
+   89,
+   "Le Mans FC",
+   "같음"
+  ],
+  [
    "같은 경기 날짜 다름(±1일)",
    "fab.js",
    "2012-05-25",
@@ -6125,7 +6141,7 @@
  },
  "new_team_seasons": {
   "Nîmes Olympique|2000-01": [
-   1393,
+   1387,
    "리그2 2000-01 8위/20팀"
   ],
   "US Forbach|2002-03": [
@@ -6137,54 +6153,28 @@
    "프랑스 3부 2006-07 1위/20팀 (Championnat National, 리그 수준 추정)"
   ],
   "Beijing Guoan|2013": [
-   1358,
+   1353,
    "중국 슈퍼리그 2013 3위/16팀 (Chinese Super League)"
   ],
   "Qingdao Jonoon|2013": [
-   1225,
+   1253,
    "중국 슈퍼리그 2013 15위/16팀 (Chinese Super League)"
   ],
   "Guizhou Renhe|2013": [
-   1340,
+   1308,
    "중국 슈퍼리그 2013 4위/16팀 (Chinese Super League)"
   ],
   "Al-Ahli SC|2016-17": [
-   1247,
+   1243,
    "카타르 1부 2016-17 10위/14팀 (Qatar Stars League)"
   ]
  },
- "map_need": [
-  [
-   "리그2 2000-01",
-   "Nîmes Olympique",
-   "리그2 2000-01 8위/20팀"
-  ],
-  [
-   "중국 슈퍼리그 2013",
-   "Beijing Guoan",
-   "중국 슈퍼리그 2013 3위/16팀 (Chinese Super League)"
-  ],
-  [
-   "중국 슈퍼리그 2013",
-   "Guizhou Renhe",
-   "중국 슈퍼리그 2013 4위/16팀 (Chinese Super League)"
-  ],
-  [
-   "중국 슈퍼리그 2013",
-   "Qingdao Jonoon",
-   "중국 슈퍼리그 2013 15위/16팀 (Chinese Super League)"
-  ],
-  [
-   "카타르 1부 2016-17",
-   "Al-Ahli SC",
-   "카타르 1부 2016-17 10위/14팀 (Qatar Stars League)"
-  ]
- ],
+ "map_need": [],
  "table_label_diffs": [],
  "elo_log": {
   "Nîmes Olympique|2000-08-04": [
    "model",
-   1393,
+   1387,
    "리그2 2000-01 8위/20팀"
   ],
   "FC Metz|2001-12-01": [
@@ -6717,7 +6707,7 @@
   ],
   "Beijing Guoan|2013-04-27": [
    "model",
-   1358,
+   1353,
    "중국 슈퍼리그 2013 3위/16팀 (Chinese Super League)"
   ],
   "Changchun Yatai|2013-05-18": [
@@ -6740,7 +6730,7 @@
   ],
   "Qingdao Jonoon|2013-07-13": [
    "model",
-   1225,
+   1253,
    "중국 슈퍼리그 2013 15위/16팀 (Chinese Super League)"
   ],
   "Shanghai East Asia|2013-07-31": [
@@ -6757,7 +6747,7 @@
   ],
   "Guizhou Renhe|2013-10-23": [
    "model",
-   1340,
+   1308,
    "중국 슈퍼리그 2013 4위/16팀 (Chinese Super League)"
   ],
   "UD Almería|2014-03-27": [
@@ -6830,7 +6820,7 @@
   ],
   "Al-Ahli SC|2017-02-25": [
    "model",
-   1247,
+   1243,
    "카타르 1부 2016-17 10위/14팀 (Qatar Stars League)"
   ],
   "Muaither SC|2017-03-02": [
