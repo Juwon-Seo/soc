@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""살로몬 론돈 (Salomón Rondón, Transfermarkt 80197, FotMob 51545): raw/ -> rondon.json + players/rondon/srd.js (판정 근거는 judgments.md)
+"""파올로 게레로 (Paolo Guerrero, Transfermarkt 2989, FotMob 33101): raw/ -> guerrero.json + players/guerrero/pgu.js (판정 근거는 judgments.md)
 
-  python3 players/rondon/build_rondon.py [--out <data 폴더>]   # 기본 players/rondon/srd.js; 스크래치 복사본 검증 때 SOC_ROOT=<복사본> … --out <복사본>/src/data
-  python3 players/rondon/build_rondon.py --debug               # Elo 출처 로그
-  python3 players/rondon/build_rondon.py --stat                # 요약·판정·동료 대조
+  python3 players/guerrero/build_guerrero.py [--out <data 폴더>]   # 기본 players/guerrero/pgu.js; 스크래치 복사본 검증 때 SOC_ROOT=<복사본> … --out <복사본>/src/data
+  python3 players/guerrero/build_guerrero.py --debug               # Elo 출처 로그
+  python3 players/guerrero/build_guerrero.py --stat                # 요약·판정·동료 대조
 
-론돈 build 스크립트(같은 수집기 계열)를 론돈 raw 열 이름과 베네수엘라·세군다·러시아·중국·아르헨티나·리가MX 대회에 맞춰 고친 것.
+게레로 build 스크립트(같은 수집기 계열)를 게레로 raw와 독일·브라질(주 선수권 포함)·아르헨티나·에콰도르·페루 대회에 맞춰 고친 것.
 순위 라벨 행의 Elo는 tools/league_rank_apply.py parse()/value()(+ tools/league_points.py 승점 모형)로 라벨에서 계산.
 같은 경기가 다른 선수 자료에 있으면 그 값, 같은 팀×시즌(통합표 키)이 elo/opponent_elo_by_team_season.csv에 있으면 그 값.
 """
@@ -16,10 +16,10 @@ RAW = os.path.join(HERE, "raw")
 ROOT = os.environ.get("SOC_ROOT") or os.path.dirname(os.path.dirname(HERE))
 ELO = os.path.join(ROOT, "elo")
 OUT_DIR = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else HERE
-OUT_JS = os.path.join(OUT_DIR, "srd.js")
-OUT_JSON = os.path.join(HERE, "rondon.json")
-ME = "80197"
-ME_KO = "살로몬 론돈"
+OUT_JS = os.path.join(OUT_DIR, "pgu.js")
+OUT_JSON = os.path.join(HERE, "guerrero.json")
+ME = "2989"
+ME_KO = "파올로 게레로"
 CUTOFF = "2026-11-25"
 GAP = "2014-08-01"
 
@@ -37,7 +37,7 @@ for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 
 # ---------------------------------------------------------------- 날짜·출전 분
 DATE_FIX = {}
-# 2013.3.14 유로파 16강 2차전 레반테전(연장 2-0): TM 선수 합계 90분이지만 론돈은 교체 없이 끝까지 뛰고 연장 100분에 골(TM 경기 기록·FotMob 이벤트) → 120분
+# 2013.3.14 유로파 16강 2차전 레반테전(연장 2-0): TM 선수 합계 90분이지만 게레로은 교체 없이 끝까지 뛰고 연장 100분에 골(TM 경기 기록·FotMob 이벤트) → 120분
 # 2014.5.11 제니트–디나모 모스크바: 87분 관중 난입으로 중단(디나모 4-2 앞섬), 러시아축구연맹이 0-3 몰수패 처리 → 실제로 뛴 87분(후이 코스타 선례)
 MIN_FIX = {"2293175": 120, "2335251": 87}
 EV_MIN_FIX = {}
@@ -60,7 +60,7 @@ def comp_of(cid, rnd):
         return "dc"   # 1~6라운드·16강·재경기·'4th round deciders'·코파 델 레이 16강
     if cid == "RUSS": return "df"            # 러시아 슈퍼컵 = 국내컵 결승 비중
     if cid == "TDCS": return "dsf"           # 트로페오 데 캄페오네스 2020 준결승(4팀 슈퍼컵 준결승)
-    if cid == "POME":                        # 리길야 = MLS 플레이오프 비중(치차리토·지냑·론돈 선례), 플레이인 mlp
+    if cid == "POME":                        # 리길야 = MLS 플레이오프 비중(치차리토·지냑·게레로 선례), 플레이인 mlp
         if r.startswith("semi"): return "mlpsf"
         if r.startswith("final"): return "mlpf"
         return "mlp"
@@ -98,7 +98,7 @@ def tie_rule(cid, d, rnd):
     if cid == "POME":
         if rnd.lower().startswith("final"): return (0, 1)
         return (0, 0)                        # 리길야 8강·준결승: 합계 동률이면 정규리그 상위 팀
-    if cid == "CSLR": return (0, 0)          # 중국 2020 2단계(승부차기 바로; 론돈 기록 없음)
+    if cid == "CSLR": return (0, 0)          # 중국 2020 2단계(승부차기 바로; 게레로 기록 없음)
     sys.exit("합산 규칙 없음 " + cid)
 
 def side_of(gid):
@@ -115,7 +115,7 @@ def other_leg(gid):
     if len(cand) == 1:
         a, b = map(int, cand[0]["score_club_opp"].split("-")); return (a, b)
     m = MI[gid]; oid = m["other_leg_id"]
-    if not oid:   # 론돈이 안 뛴 다른 차전(match_info에만 있음)
+    if not oid:   # 게레로이 안 뛴 다른 차전(match_info에만 있음)
         c2 = [k for k, o in MI.items() if k != gid and o["comp"] == m["comp"] and {o["home_id"], o["away_id"]} == {m["home_id"], m["away_id"]}
               and re.sub(r"\s*(1st|2nd) leg", "", (o["round"] or "").lower()) == base]
         if len(c2) == 1: oid = c2[0]
@@ -167,7 +167,7 @@ def fm_assist(gid, e):
 
 # 2014.8 이후 Transfermarkt에만 있는 일반 유형 도움: 다른 출처 2곳으로 판정(judgments.md 4절)
 A_CHECK = {
- "2478440|88": (False, "2014.8.6 챔스 예선 AEL 리마솔전 88분 다니 골: UEFA 경기 기사('fended off another effort from the Venezuelan on 88 minutes only for Danny to tuck away the loose ball')·dp.ru 기사 모두 론돈 슈팅을 골키퍼가 막고 흘러나온 공을 다니가 넣은 것 — 슈팅 리바운드라 도움 아님(TM은 Header 유형, FotMob 도움 없음)"),
+ "2478440|88": (False, "2014.8.6 챔스 예선 AEL 리마솔전 88분 다니 골: UEFA 경기 기사('fended off another effort from the Venezuelan on 88 minutes only for Danny to tuck away the loose ball')·dp.ru 기사 모두 게레로 슈팅을 골키퍼가 막고 흘러나온 공을 다니가 넣은 것 — 슈팅 리바운드라 도움 아님(TM은 Header 유형, FotMob 도움 없음)"),
  "2914315|31": (True, "2017.8.22 리그컵 애크링턴전 31분 매트 필립스 골: ESPN 문자중계 'Assisted by Salomón Rondón'·Express & Star 경기 뒤 기사('his pin-point cross-field ball that set up Matt Phillips for the second')"),
  "4299897|63": (True, "2024.3.12 북중미 챔피언스컵 필라델피아전 63분 이드리시 골: ESPN 문자중계 'Assisted by Salomón Rondón'·Concacaf 경기 기사('Rondon setting the table so that Oussama Idrissi could fire')·필라델피아 유니언 공식 박스스코어 'Oussama Idrissi (Rondon) 63’'·MLS 기사"),
 }
@@ -261,7 +261,7 @@ def load_js(fn):
 OTHERS = {}
 for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     b = os.path.basename(fn)
-    if b in ("hon.js", "clubcolors.js", "finals.js", "srd.js") or "src/data/" + b not in TRACKED: continue
+    if b in ("hon.js", "clubcolors.js", "finals.js", "pgu.js") or "src/data/" + b not in TRACKED: continue
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
 PAR = {}   # 이번 회차 병렬 판정(읽기만)
@@ -347,7 +347,7 @@ VEN0708 = ["Caracas FC", "Deportivo Táchira", "Deportivo Anzoátegui", "Unión 
            "Portuguesa FC", "Llaneros de Guanare", "Aragua FC", "Mineros de Guayana", "Monagas Sport Club", "Carabobo FC", "Atlético El Vigía",
            "Estudiantes de Mérida", "Estrella Roja FC", "Trujillanos FC", "Unión Lara"]
 def ven_label(o, d):
-    if "2006-08-01" <= d < "2007-01-01": return None   # 아페르투라 2006(론돈 기록은 자책골 유도 도움뿐)
+    if "2006-08-01" <= d < "2007-01-01": return None   # 아페르투라 2006(게레로 기록은 자책골 유도 도움뿐)
     if d < "2007-08-01":   # 클라우수라 2007 — 기존 카라카스 라벨과 같은 형식(경기 날짜 단계 순위)
         v = wiki_rank("en_2006-07_ven.txt", "Torneo Apertura / Torneo Clausura", o)
         return v and f"베네수엘라 1부 2006-07 {v[0]}위/{v[1]}팀 (Venezuelan Primera División, 경기 날짜에 진행 중이던 단계 순위)"
@@ -588,17 +588,17 @@ def same_team(a, b, d):
     if key(a) == key(b): return True
     return bool(toks(a)) and toks(a) == toks(b)
 CROSS = []
-VRE = re.compile(r"R[oó]nd[oó]n|론돈")
+VRE = re.compile(r"Guerrero|게레로")
 G_DATES = {ldate(g) for g in GAMES}
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
     for x in oe:
         if x[0] == "a" and VRE.search(str(x[13] or "")) and x[9] in G_DATES:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(론돈 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(게레로 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1], r[9])]
-            if hit: CROSS.append(("론돈 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("게레로 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and same_team(x[1], r[1], r[9]):
@@ -613,7 +613,7 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2], x[9]):
-                    CROSS.append(("TM 론돈 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
+                    CROSS.append(("TM 게레로 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 SHARED = collections.Counter()
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
@@ -664,7 +664,7 @@ if "--stat" in sys.argv:
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
-exec(open(os.path.join(HERE, "note_rondon.py"), encoding="utf-8").read())   # NOTE_LINES
+exec(open(os.path.join(HERE, "note_guerrero.py"), encoding="utf-8").read())   # NOTE_LINES
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "elk", "elq", "cwc", "clg", "cl16", "mlp", "ccc"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
@@ -699,7 +699,7 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const SRD_E={J(E)};\nconst SRD_M={J(M)};\nconst SRD_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const PGU_E={J(E)};\nconst PGU_M={J(M)};\nconst PGU_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
