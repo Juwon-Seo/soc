@@ -12,3 +12,5 @@ man("Club Alianza Lima", "2009-10", "페루 1부 2010 3위/16팀 (Torneo Descent
 man("San Luis FC", "2009-10", "리가MX 2009-10 18위/18팀 (Liga MX 클라우수라 2010(비센테나리오), 경기 날짜에 진행 중이던 단계의 조별 표를 합친 전체 순위)")   # 영어 위키백과 2009-10 시즌 문서 Bicentenario 표 18위
 man("Club Guaraní", "2010-11", "파라과이 1부 2011 6위/12팀 (Paraguayan Primera División, 연간 합산 순위)")   # RSSSF para2011 아페르투라 4위 34점 + 클라우수라 9위 24점 = 58점, 루비오 뉴와 같고 득실 −1 vs −3; 승점 표도 6위
 man("Barcelona SC Guayaquil", "2016-17", "에콰도르 1부 2017 3위/12팀 (감점 전 순위; Ecuadorian Serie A, 연간 합산 순위)")   # RSSSF ecua2017 Tabla Anual 5위 67점[-6] → 감점 전 73점 3위
+# 라싱 2014: 리켈메·트레제게 자료의 '트란시시온 2014'(우승) 값과 통합표 시즌 키(2014)가 겹쳐 충돌 → 단계 이름(Torneo Final)을 괄호에 적어 시즌 키를 '2014/Torneo Final'로 나눔
+man("Racing Club", "아르헨티나 1부 피날 2014", "아르헨티나 1부 피날 2014 18위/20팀 (Torneo Final 2014)")
