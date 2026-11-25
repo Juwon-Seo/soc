@@ -1,0 +1,18 @@
+{"preset":"brunoguimaraes","name":"브루누 기마랑이스","prefix":"BGU",
+ "clubs":[
+  {"key":"audbgu","name":"그레미우 오자스쿠 아우다스","short":"아우다스","years":"2015~2017","until":"2017-05-01"},
+  {"key":"capbgu","name":"아틀레치쿠 파라나엔시","short":"아틀레치쿠-PR","years":"2017~2020","until":"2020-01-30"},
+  {"key":"lyobgu","name":"올랭피크 리옹","short":"리옹","years":"2020~2022","until":"2022-01-30"},
+  {"key":"newbgu","name":"뉴캐슬 유나이티드","short":"뉴캐슬","years":"2022~2026","until":"2026-08-08"},
+  {"key":"arsbgu","name":"아스널","short":"아스널","years":"2026~","until":null}],
+ "season":{"calendar":["audbgu","capbgu"],"jul10":[],"jul1":[]},
+ "pos":"CM","flag":"BR","retired":false,
+ "colors":{
+  "audbgu":["#FFFF00","#FF0000"],
+  "capbgu":["#CE181E","#000000"],
+  "lyobgu":["#FFFFFF","#CA0000","#1112AB"],
+  "newbgu":["#000000","#FFFFFF"],
+  "arsbgu":["#EF0107","#FFFFFF"]},
+ "hon":{"t":{"DC":["2019 아틀레치쿠-PR"],"LC":["2025 뉴캐슬"],"SC":["26/27 아스널"]},
+  "o":[["코파 수다메리카나","17/18 아틀레치쿠-PR"],["스루가 뱅크 챔피언십","18/19 아틀레치쿠-PR"],["캄페오나투 파라나엔시","2018 아틀레치쿠-PR"]],
+  "a":{}}}
