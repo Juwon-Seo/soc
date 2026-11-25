@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
-"""토니 크로스 (Toni Kroos, Transfermarkt 31909): raw/ -> kroos.json + players/kroos/kro.js (판정 근거는 judgments.md)
+"""사비 (Xavi Hernández, Transfermarkt 7607): raw/ -> xavi.json + players/xavi/xav.js (판정 근거는 judgments.md)
 
-  python3 players/kroos/build_kroos.py [--out <data 폴더>]   # 파일 쓰기(기본 players/kroos/kro.js; 스크래치 검증 때 --out <복사본>/src/data)
-  python3 players/kroos/build_kroos.py --debug               # Elo 출처 로그
-  python3 players/kroos/build_kroos.py --stat                # 요약·판정·동료 대조
-  python3 players/kroos/build_kroos.py --ties                # 합산 행
+  python3 players/xavi/build_xavi.py [--out <data 폴더>]   # 파일 쓰기(기본 players/xavi/xav.js; 스크래치 검증 때 --out <복사본>/src/data)
+  python3 players/xavi/build_xavi.py --debug               # Elo 출처 로그
+  python3 players/xavi/build_xavi.py --stat                # 요약·판정·동료 대조
+  python3 players/xavi/build_xavi.py --ties                # 합산 행
 
-귄도안 build 스크립트(같은 수집 형식)를 바탕으로 함. 순위 라벨이 있는 행의 Elo는 tools/league_rank_apply.py 의
+크로스(kroos) build 스크립트를 바탕으로 함(라울·사비 수집 형식에 맞춤). 순위 라벨이 있는 행의 Elo는 tools/league_rank_apply.py 의
 parse()/value()(승점 모형 포함)로 라벨에서 계산(직접 숫자를 넣지 않음). 같은 경기가 다른 선수 자료에 있으면 그 값, 같은 팀×시즌이
 elo/opponent_elo_by_team_season.csv에 있으면 그 값(스크래치 복사본에서는 SOC_ROOT=<복사본>).
-유소년·2군(한자 로스토크 U17·바이에른 U19·바이에른 II, raw/youth_reserve_games.csv)은 tm_games.csv에 없음 → 제외.
-보조: assist_checks.py(도움 판정 근거), man_elo.py(순위표 밖 상대 라벨), note_kroos.py(설명).
+바르셀로나 B(raw/youth_reserve_games.csv, 61경기)는 2군이라 tm_games.csv에 없음 → 제외.
+보조: xavi_manual.py(카타르 컵 추가 경기·도움 판정 근거), note_xavi.py(설명).
 """
 import csv, json, os, re, sys, unicodedata, collections, glob, subprocess, io, contextlib
 
@@ -19,10 +19,10 @@ RAW = os.path.join(HERE, "raw")
 ROOT = os.environ.get("SOC_ROOT") or os.path.dirname(os.path.dirname(HERE))
 ELO = os.path.join(ROOT, "elo")
 OUT_DIR = sys.argv[sys.argv.index("--out") + 1] if "--out" in sys.argv else HERE
-OUT_JS = os.path.join(OUT_DIR, "kro.js")
-OUT_JSON = os.path.join(HERE, "kroos.json")
-ME = "31909"
-ME_KO = "토니 크로스"
+OUT_JS = os.path.join(OUT_DIR, "xav.js")
+OUT_JSON = os.path.join(HERE, "xavi.json")
+ME = "7607"
+ME_KO = "사비"
 
 def rd(n):
     with open(os.path.join(RAW, n), encoding="utf-8") as f:
@@ -34,59 +34,50 @@ MI = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 EVS = collections.defaultdict(list)
 for e in rd("tm_events.csv"): EVS[e["gameId"]].append(e)
 FME = collections.defaultdict(list)
-GRE = re.compile(r"\bkroos\b", re.I)
 for r in rd("fotmob_events.csv"):
-    if GRE.search(r["assistStr"] or ""): r["sq_assist"] = "1"
-    if GRE.search(r["scorer"] or "") and r["ownGoal"] not in ("True", "1", "true"): r["sq_scorer"] = "1"
+    r["sq_assist"] = r["xavi_assist"]; r["sq_scorer"] = "1" if r["xavi_scorer"] == "1" and r["ownGoal"] not in ("True", "1", "true") else "0"
     FME[r["tm_gameId"]].append(r)
-FMMAP = {r["tm_gameId"]: r for r in rd("fotmob_tm_map.csv") if r["status"] == "OK"}
-FMPM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
+FMMAP = {r["tm_gameId"]: r for r in rd("fotmob_tm_map.csv") if r["fotmob_matchId"]}
 
-# ---------------------------------------------------------------- 날짜
-# TM API 경기 시각(UTC)을 경기장 시간대로 바꾼 현지 날짜(date_local_tz_conv). TM 리포트·일정·FotMob 날짜와 다른 경기 없음(discrepancies 8절).
-LD = {gid: g["date_local_tz_conv"] for gid, g in G.items()}
-DATE_LOG = [(gid, g["date_local_tm_report"], LD[gid]) for gid, g in G.items() if g["date_local_tm_report"] and g["date_local_tm_report"] != LD[gid]]
-def ldate(g): return LD[g["gameId"]]
-OPP_NAME = {}
-def opp(g): return OPP_NAME.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
+def ldate(g): return g["date_local"]
+OPP_FIX = {"3677214": "Al-Duhail SC"}   # 2017.9.9 셰이크 자심컵: 레크위야는 2017년 여름 엘자이시와 합쳐 알두하일로 이름을 바꾼 뒤(TM 리포트는 옛 이름)
+def opp(g): return OPP_FIX.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용(정상 유형)
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"L1", "ES1"}
-CUPS = {"DFB", "CDR"}
-SUPER = {"DFL", "SUC", "USC"}   # DFL-슈퍼컵·수페르코파·UEFA 슈퍼컵 = 국내컵 결승 비중(다른 바이에른·레알 선수 자료 같은 경기), 4팀 수페르코파 준결승은 국내컵 준결승
+LEAGUE = {"ES1", "QSL"}
+CUPS = {"CDR", "QEC1", "QUC1", "QSCP"}   # 코파 델 레이·에미르컵·카타르컵(왕세자컵)·QSL컵(스타스컵)
+SUPER = {"SUC", "USC", "QSJ1"}   # 수페르코파·UEFA 슈퍼컵·셰이크 자심컵(카타르 슈퍼컵) = 국내컵 결승 비중
 
 def comp_of(cid, rnd):
     r = rnd.lower()
     if cid in LEAGUE: return "lg"
     if cid in SUPER: return "dsf" if r.startswith("semi") else "df"
     if cid == "KLUB": return "cwc"
-    if cid == "UEFA":   # UEFA컵 2007-08: 1라운드(조별 전 두 경기) = 유로파 예선 비중(클로제 등 같은 경기), 조별, 32강·16강, 준결승
+    if cid == "UEFA":   # UEFA컵: 1라운드 = 유로파 예선 비중(다른 바르셀로나 선수 같은 경기), 2라운드·3라운드(32강)·16강·8강, 준결승
         if r.startswith("first round"): return "elq"
         if r.startswith("group"): return "elg"
         if r.startswith("semi"): return "elsf"
         if r.startswith("final"): return "elf"
         return "elk"
-    if cid in CUPS:   # 16강까지 국내컵, 8강 이후 단계별
+    if cid in CUPS:   # 16강까지 국내컵, 8강 이후 단계별(스타스컵 조별 = 국내컵·리그식)
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter") or (cid == "FAC" and r.startswith("sixth")): return "dk"
+        if r.startswith("quarter"): return "dk"
         return "dc"
     if cid == "CLQ": return "clq"
-    if cid == "ELQ": return "elq"
     if cid == "CL":
-        if r.startswith("group"): return "clg"   # 2024-25부터 리그 페이즈(TM 'Group Stage')도 조별과 같은 비중
-        if r.startswith("intermediate"): return "cl16"   # 녹아웃 플레이오프 = 16강 비중(오시멘·이카르디 자료 같은 경기)
+        if r.startswith("group"): return "clg"   # 1999-2003 2차 조별 포함
         if r.startswith("last 16"): return "cl16"
         if r.startswith("quarter"): return "clk"
         if r.startswith("semi"): return "clsf"
         if r.startswith("final"): return "clf"
-    if cid == "EL":
-        if r.startswith("group"): return "elg"
-        if r.startswith("semi"): return "elsf"
-        if r.startswith("final"): return "elf"
-        return "elk"   # 32강(intermediate stage)·16강·8강
+    if cid in ("AFCL", "ACLQ"):   # AFC 챔스: 예선 플레이오프·조별·16강 acl, 8강 aclk, 준결승 aclsf(오스카·마린 선례)
+        if r.startswith("quarter"): return "aclk"
+        if r.startswith("semi"): return "aclsf"
+        if r.startswith("final"): return "aclf"
+        return "acl"
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
 def rnd_of(g):
@@ -102,9 +93,10 @@ def ko_of(cid, rnd):
 # ---------------------------------------------------------------- 두 경기 합산
 def tie_rule(cid, d, rnd):
     """(원정 다득점, 연장)"""
-    if cid in ("CL", "UEFA", "CLQ"): return (1, 1) if d < "2021-08-01" else (0, 1)   # UEFA 2020-21까지 원정 다득점(연장 포함)
-    if cid == "CDR": return (1, 1) if d < "2019-08-01" else (0, 1)   # 코파 델 레이 두 경기 라운드: 2018-19까지 원정 다득점·연장
-    if cid == "SUC": return (1, 1)   # 두 경기 수페르코파(2014·2017): 원정 다득점·연장(호날두 자료와 같음)
+    if cid in ("CL", "UEFA", "CLQ"): return (1, 1)   # UEFA 2020-21까지 원정 다득점(연장 포함)
+    if cid == "CDR": return (1, 1)   # 코파 델 레이 두 경기 라운드: 2018-19까지 원정 다득점·연장
+    if cid == "SUC": return (1, 1)   # 두 경기 수페르코파: 원정 다득점·연장(다른 바르셀로나·레알 선수 자료와 같음)
+    if cid == "AFCL": return (1, 1)  # AFC 챔스 2018 16강~준결승: 원정 다득점·연장(2022년까지, 고미스 선례)
     sys.exit("합산 규칙 없음 " + cid)
 
 def side_of(gid):
@@ -134,10 +126,20 @@ def tie_of(gid):
     ours, theirs = other_leg(gid)
     return [2, 1 if s == "h" else 0, ours, theirs, ag, et]
 
+# ---------------------------------------------------------------- 수동 판정(카타르 컵 추가 경기·도움 판정)
+MAN = {}
+def man(o, s, lv): MAN[(key(o), s)] = lv
+def key(n): return n   # 임시(아래에서 다시 정의)
+exec(open(os.path.join(HERE, "xavi_manual.py"), encoding="utf-8").read())
+_MAN_RAW = dict(MAN)
+
 # ---------------------------------------------------------------- 출전
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
     M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), int(g["playedMinutes"])])
+for a in ADD_GAMES:
+    M.append([a["date"], a["opp"], comp_of(a["cid"], a["round"]), a["min"], 1])
+M.sort(key=lambda m: m[0])
 
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
@@ -148,9 +150,7 @@ def mins(s):
 
 def is_og(e): return e["own_goal"] == "1" or e["goal_desc"] == "Own-goal"
 
-A_CHECK = {}; ADD_A = []
 def a_key(gid, minute): return f"{gid}|{minute}"
-exec(open(os.path.join(HERE, "assist_checks.py"), encoding="utf-8").read())
 
 def fm_min_match(f, tm_min_str, tol=2):
     a = mins(tm_min_str)[0]; b = int(f["time"]) + int(f["overloadTime"] or 0)
@@ -161,10 +161,6 @@ def fm_assist(gid, e):
     for f in FME.get(gid, []):
         if f["sq_assist"] == "1" and f["pen_shootout_event"] != "True" and fm_min_match(f, e["minute"]): return True
     return False
-def fm_pm_assists(gid):
-    m = FMMAP.get(gid)
-    if m and m["fotmob_matchId"] in FMPM: return int(FMPM[m["fotmob_matchId"]]["assists"] or 0)
-    return None
 
 def norm(n):
     n = unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()
@@ -173,31 +169,25 @@ def norm(n):
     return " ".join(n.split())
 
 A_STATUS = []
-def fm_confirmed(gid):
-    return sum(1 for e in EVS.get(gid, []) if e["assist_id"] == ME and e["scorer_id"] != ME and fm_assist(gid, e))
 def assist_reason(e, d, gid):
     t = e["assist_type"]
     k = a_key(gid, e["minute"])
     if is_og(e): return "상대 자책골 유도"
     if t.startswith("Penalty"): return "PK 유도"
-    if t == "Shot on goal": return A_CHECK[k][1] if k in A_CHECK else "슈팅 리바운드('Shot on goal')"
+    if t == "Shot on goal": return "슈팅 리바운드('Shot on goal')"
     if t == "Deflected": return "굴절"
+    if k in A_CHECK and not A_CHECK[k][0]:
+        A_STATUS.append((d, gid, e["minute"], e["scorer"], "뺌: " + A_CHECK[k][1])); return A_CHECK[k][1]
     if d < GAP:
-        if k in A_CHECK and not A_CHECK[k][0]: return A_CHECK[k][1]
+        if k in A_CHECK: A_STATUS.append((d, gid, e["minute"], e["scorer"], "넣음: " + A_CHECK[k][1]))
         return None
-    fa, pm = fm_assist(gid, e), fm_pm_assists(gid)
-    if fa:
+    if fm_assist(gid, e):
         A_STATUS.append((d, gid, e["minute"], e["scorer"], "TM+FotMob 이벤트")); return None
-    if pm and pm > fm_confirmed(gid) and k not in A_CHECK:
-        A_STATUS.append((d, gid, e["minute"], e["scorer"], f"TM+FotMob 선수 경기 목록(도움 {pm})")); return None
     if k in A_CHECK:
-        ok, why = A_CHECK[k]
-        A_STATUS.append((d, gid, e["minute"], e["scorer"], ("넣음: " if ok else "뺌: ") + why))
-        return None if ok else "2014.8 이후 단일 출처(확인 못 함)"
-    A_STATUS.append((d, gid, e["minute"], e["scorer"], f"판정 없음 FMpm={pm}"))
+        A_STATUS.append((d, gid, e["minute"], e["scorer"], "넣음: " + A_CHECK[k][1])); return None
+    A_STATUS.append((d, gid, e["minute"], e["scorer"], "판정 없음"))
     return "2014.8 이후 단일 출처(판정 없음)"
 
-MIN_FIX = {}
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
     if gid not in G: continue
@@ -213,7 +203,7 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         if e["scorer_id"] == ME and is_og(e): sys.exit("자책골 " + gid)
         if not (is_g or is_a): continue
         gf, ga = (before[0], before[1]) if side == "h" else (before[1], before[0])
-        mi, dm = mins(MIN_FIX.get((gid, e["minute"]), e["minute"]))
+        mi, dm = mins(e["minute"])
         if is_a:
             why = assist_reason(e, ldate(g), gid)
             if why:
@@ -225,10 +215,6 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
             if e["penalty"] == "1" and not pk and e["goal_desc"] != "Penalty rebound": sys.exit("PK 판정 확인 " + gid)
             raw_rows.append(("g", gid, mi, dm, gf, ga, pk, 0, e["goal_desc"]))
 
-for gid, mi, gf, ga, pk, scorer, why in ADD_A:
-    raw_rows.append(("a", gid, mi, 0, gf, ga, 0, scorer, "added"))
-    judg.append(("도움 추가(FotMob 단독 + 다른 출처 2곳)", ldate(G[gid]), opp(G[gid]), str(mi), scorer, why))
-
 FM_ONLY = []
 for gid, fs in FME.items():
     if gid not in G: continue
@@ -237,12 +223,6 @@ for gid, fs in FME.items():
             mi = int(f["time"]) + int(f["overloadTime"] or 0)
             if not any(e["assist_id"] == ME and fm_min_match(f, e["minute"]) for e in EVS.get(gid, [])):
                 FM_ONLY.append((ldate(G[gid]), gid, mi, f["scorer"]))
-PM_ONLY = []
-for gid, m in FMMAP.items():
-    if gid in G and m["fotmob_matchId"] in FMPM:
-        pm = int(FMPM[m["fotmob_matchId"]]["assists"] or 0)
-        tm = sum(1 for e in EVS.get(gid, []) if e["assist_id"] == ME and e["scorer_id"] != ME)
-        if pm > tm: PM_ONLY.append((ldate(G[gid]), gid, opp(G[gid]), pm, tm))
 
 cnt_ = collections.Counter()
 for r in raw_rows: cnt_[(r[1], r[0])] += 1
@@ -285,10 +265,11 @@ def load_js(fn):
 OTHERS = {}
 for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     b = os.path.basename(fn)
-    if b in ("hon.js", "clubcolors.js", "finals.js", "kro.js") or "src/data/" + b not in TRACKED: continue
+    if b in ("hon.js", "clubcolors.js", "finals.js", "xav.js") or "src/data/" + b not in TRACKED: continue
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
-for b in ("vidal/avd.js", "gundogan/gun.js", "pogba/pog.js", "rakitic/rak.js"):   # 같은 라운드 다른 심판 자료(아직 src/data에 없음): 대조만
+PEERS = ("modric/mod.js", "schweinsteiger/bsw.js", "pirlo/apl.js", "vieira/pvi.js")
+for b in PEERS:   # 같은 라운드 다른 심판 자료(아직 src/data에 없음): 대조만
     fn = os.path.join(os.path.dirname(HERE), b)
     if os.path.exists(fn) and "--no-peers" not in sys.argv:
         P, oe, om = load_js(fn); OTHERS["peer:" + b] = (oe, om)
@@ -301,7 +282,8 @@ STOP = {"fc", "cf", "ac", "sc", "club", "de", "futebol", "clube", "the", "afc", 
         "racing", "arsenal", "juniors", "plate", "river", "nacional", "independiente", "estudiantes", "union", "boca", "gimnasia", "esgrima", "lorenzo", "almagro", "hotspur", "palace", "villa", "ham", "manchester", "verona", "sheffield", "bristol", "birmingham", "nottingham", "queens", "park", "west", "aston",
         "new", "york", "los", "angeles", "toronto", "vitoria", "guimaraes", "setubal", "borussia", "werder", "bayer", "eintracht", "hertha", "olympiacos", "panathinaikos",
         "rio", "ave", "al", "qatar", "rayyan", "mexico", "cruz", "azul", "guadalajara", "once", "caldas", "medellin", "bogota", "leon", "minnesota",
-        "kyiv", "donetsk", "dynamo", "brugge", "royal", "metalurh", "metalurg", "kv", "kfc", "ksk", "krc", "kaa", "raa", "stade", "bromwich", "crystal", "norwich", "swansea", "southampton", "stoke", "hull", "chang"}
+        "kyiv", "donetsk", "dynamo", "brugge", "royal", "metalurh", "metalurg", "kv", "kfc", "ksk", "krc", "kaa", "raa", "stade", "bromwich", "crystal", "norwich", "swansea", "southampton", "stoke", "hull", "chang",
+        "ahli", "sfc", "barcelona", "espanyol", "balompie", "betis", "sociedad", "valladolid", "zaragoza", "mallorca", "celta", "vigo"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_team(a, b): return key(a) == key(b) or bool(toks(a) & toks(b))
 def same_match(o, d, cid):
@@ -349,44 +331,46 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if len(p) < 5 or p[0] == "league" or p[0].startswith("#"): continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4], p[1])
 
-CUR = "없음"   # 은퇴 선수(2024.6.1 마지막 경기) → 진행 중 시즌 없음
-EU_LG = {"ES1": "라리가", "L1": "분데스리가"}
+ES3G = {"ES3A": "I", "ES3B": "II", "ES3C": "III", "ES3D": "IV"}
 def make_label(lg, season, v):
     r, n, nm, sraw = v
-    cur = " (2026년 11월 25일 현재 순위)" if season == CUR else ""
-    if lg == "L2": return f"2. 분데스리가 {season} {r}위/{n}팀"
-    if lg == "RL1": return f"독일 4부 {season} {r}위/{n}팀 (Regionalliga Nord, 리그 수준 추정)"
-    if lg == "ES3C": return f"스페인 3부 {season} {r}위/{n}팀 (Segunda División B Grupo III (Subgrupo B), 경기 날짜에 진행 중이던 단계 순위, 리그 수준 추정)"
-    if lg in EU_LG:
-        pre = EU_LG[lg]; n0 = _LRA["ERA"]["teams"](pre, int(season[:4]) + 1)
-        return f"{pre} {season} {r}위" + (f"/{n}팀" if n != n0 or cur else "") + cur
+    if lg == "ES1":
+        n0 = _LRA["ERA"]["teams"]("라리가", int(season[:4]) + 1)
+        return f"라리가 {season} {r}위" + (f"/{n}팀" if n != n0 else "")
+    if lg == "ES2": return f"세군다 {season} {r}위/{n}팀"
+    if lg in ES3G: return f"스페인 3부 {season} {r}위/{n}팀 (Segunda División B Grupo {ES3G[lg]}, 리그 수준 추정)"
+    if lg == "BRA1": return f"브라질 세리에 A {season} {r}위/{n}팀"
+    if lg == "RU1": return f"러시아 1부 {season} {r}위/{n}팀"
+    if lg == "WER1": return f"벨라루스 1부 {season} {r}위/{n}팀"
+    if lg == "QSL": return f"카타르 1부 {season} {r}위/{n}팀 (Qatar Stars League)"
+    if lg == "IRN1": return f"이란 1부 {season} {r}위/{n}팀 (Persian Gulf Pro League)"
+    if lg == "UAE1": return f"UAE 프로리그 {season} {r}위/{n}팀 (UAE Pro League)"
+    if lg == "UZ1": return f"우즈베키스탄 1부 {season} {r}위/{n}팀"
     return None
 
-# 상대 시즌: 바이에른·레버쿠젠은 7월 10일 기준(2009.7.31 포칼 1라운드·2013.7.27 DFL-슈퍼컵 = 새 시즌, 다른 바이에른·레버쿠젠 선수 자료와 같음),
-# 레알 마드리드는 8월 1일 기준(2020년 8월 챔스 경기는 2019-20).
-def season_of(d, club_id):
-    y, m, dd = int(d[:4]), int(d[5:7]), int(d[8:10])
-    if club_id in ("27", "15"): s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
-    elif d.startswith("2020-08"): s_ = 2019
-    else: s_ = y if m >= 8 else y - 1
+def season_of(d):
+    y, m = int(d[:4]), int(d[5:7])
+    s_ = y if m >= 8 else y - 1
     return f"{s_}-{str(s_ + 1)[2:]}"
+CONT = {"CL", "CLQ", "UEFA", "USC", "KLUB", "AFCL", "ACLQ"}
 def seasons_for(cid, d, o, g):
-    return [season_of(d, g["club_id"])]
-GER = ["L1", "L2", "RL1"]; ESP = ["ES1", "ES3C"]
-EUR = ["L1", "ES1"]
+    eu = season_of(d)
+    if cid in CONT: return [eu, d[:4]]   # 달력 연도 리그 상대(러시아·브라질·벨라루스·우즈베키스탄)는 경기 연도
+    return [eu]
+DOM = {"131": ["ES1", "ES2", "ES3A", "ES3B", "ES3C", "ES3D"], "656": ["QSL"]}
+ALL_LG = sorted({k[0] for k in RANKS})
 def lg_cands(cid, d, o, g):
-    s = seasons_for(cid, d, o, g)[0]
-    doms = GER if cid in ("L1", "DFB", "DFL") else ESP if cid in ("ES1", "CDR", "SUC") else EUR
-    return [(lg, s) for lg in doms]
+    ss = seasons_for(cid, d, o, g)
+    lgs = DOM[g["club_id"]] if cid not in CONT else ALL_LG
+    return [(lg, s) for s in ss for lg in lgs]
 
-MAN = {}
-def man(o, s, lv): MAN[(key(o), s)] = lv
+MAN = {(key(o), s_): lv for (o, s_), lv in _MAN_RAW.items()}
 FORCE = {}
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
 
 def opp_elo(o, d, cid, g):
     if g["gameId"] in FORCE:
-        lv = FORCE[g["gameId"]]; e = lv_value(lv, d, o); ELO_SRC["직접 라벨(이름 겹침)"] += 1
+        lv = FORCE[g["gameId"]]; e = lv_value(lv, d, o); ELO_SRC["직접 라벨"] += 1
         ELO_LOG[(o, d)] = ("force", e, lv); return e, lv
     cand, vals = same_match(o, d, cid)
     if len(vals) == 1:
@@ -413,10 +397,8 @@ def opp_elo(o, d, cid, g):
             lv = make_label(lg, s, t[k])
             if lv:
                 e = lv_value(lv, d, o); map_check(lv, o); ELO_SRC["순위표 → 라벨"] += 1
-                ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, seasons[0])] = (e, lv); return e, lv
+                ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, s)] = (e, lv); return e, lv
     MISS.append((o, d, cid, tuple(seasons))); return 0, "?"
-
-exec(open(os.path.join(HERE, "man_elo.py"), encoding="utf-8").read())
 
 E = []
 for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
@@ -428,6 +410,12 @@ for typ, gid, mi, dm, gf, ga, pk, note, desc in raw_rows:
     t = tie_of(gid)
     if t: row.append(t)
     E.append(row)
+for a in ADD_E:   # TM에 없는 카타르 컵 경기의 도움(경기 기사 2곳 이상)
+    pg = {"gameId": "add:" + a["date"], "club_id": "656"}
+    elo, lv = opp_elo(a["opp"], a["date"], a["cid"], pg)
+    mi, dm = mins(a["minute"])
+    E.append(["a", a["opp"], elo, comp_of(a["cid"], a["round"]), mi, a["gf"], a["ga"], ko_of(a["cid"], a["round"]), 0, a["date"], 0, dm, lv, a["scorer"]])
+    judg.append(("도움 추가(TM에 없는 경기, 경기 기사 2곳 이상)", a["date"], a["opp"], a["minute"], a["scorer"], a["why"]))
 
 E.sort(key=lambda r: (r[9], r[4] if not (r[11] and str(r[11]).startswith("45+")) else 45.5, 0 if r[0] == "g" else 1))
 
@@ -470,18 +458,18 @@ def cmp_rows(a, b):
     if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None): d.append(f"단판/합산 {a[7]}{a[14] if len(a) > 14 else ''}/{b[7]}{b[14] if len(b) > 14 else ''}")
     if a[10] != b[10]: d.append("연장")
     return d
-G_BYDATE = {ldate(g): g["competitionId"] for g in GAMES}
+G_BYDATE = {m[0] for m in M}
 CROSS = []
-JRE = re.compile(r"Kroos|크로스", re.I)
+JRE = re.compile(r"^Xavi$|Xavi Hern|사비", re.I)
 for b, (oe, om) in OTHERS.items():
     for x in oe:
         if x[0] == "a" and JRE.search(str(x[13] or "")) and x[9] in G_BYDATE:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(크로스 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(사비 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1])]
-            if hit: CROSS.append(("크로스 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("사비 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and same_team(x[1], r[1]):
@@ -497,19 +485,24 @@ for b, (oe, om) in OTHERS.items():
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2]):
-                    CROSS.append(("TM 크로스 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
+                    CROSS.append(("TM 사비 도움을 뺀 타인 골", b, x[9], x[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
+SHARED = collections.defaultdict(set)
+for b, (oe, om) in OTHERS.items():
+    for m in M:
+        for mm in om:
+            if mm[0] == m[0] and same_team(mm[1], m[1]): SHARED[b].add(m[0]); break
 
 # ---------------------------------------------------------------- 클럽·시즌
-# 클럽 구분: Transfermarkt 이적일(레버쿠젠 임대 2009.1.31, 바이에른 복귀 2010.7.1, 레알 마드리드 2014.7.17)
-STINTS = [("바이에른 뮌헨", "2009-01-31"), ("바이어 레버쿠젠", "2010-07-01"), ("바이에른 뮌헨", "2014-07-17"), ("레알 마드리드", "9999")]
-TM_CLUB = {"27": "바이에른 뮌헨", "15": "바이어 레버쿠젠", "418": "레알 마드리드"}
+# 클럽 구분: Transfermarkt 이적일(알사드 2015.7.1)
+STINTS = [("바르셀로나", "2015-07-01"), ("알사드", "9999")]
+TM_CLUB = {"131": "바르셀로나", "656": "알사드"}
 def stint(d):
     for n, u in STINTS:
         if d < u: return n
 for g in GAMES:
     if stint(ldate(g)) != TM_CLUB[g["club_id"]]: sys.exit("클럽 경계 불일치 " + g["gameId"])
-ORDER = ["바이에른 뮌헨", "바이어 레버쿠젠", "레알 마드리드"]
+ORDER = ["바르셀로나", "알사드"]
 ST = collections.OrderedDict((n, [0, 0, 0, 0]) for n in ORDER)
 for m in M: ST[stint(m[0])][0] += 1; ST[stint(m[0])][3] += m[3]
 for r in E: ST[stint(r[9])][1 if r[0] == "g" else 2] += 1
@@ -526,18 +519,18 @@ if "--stat" in sys.argv:
     print(NG, NGo, NA, NPK, MIN_TOT, len(E), NTIE, NTIEG, dict(ELO_SRC), TM_A)
     for j in judg: print(j)
     for a in A_STATUS: print(a)
-    print("FM only", FM_ONLY); print("PM only", PM_ONLY)
+    print("FM only", FM_ONLY)
     for c in CROSS: print(c)
     print("FM", FM_N, FM_G, FM_CMP)
     print("SCORE_MISMATCH", SCORE_MISMATCH)
-    print("dates changed", len(DATE_LOG))
     for (o, s), (e, lv) in sorted(NEW_TS.items(), key=lambda kv: kv[0][1]): print("NEW", o, s, e, lv)
     print("TABLE_DIFF", TABLE_DIFF)
     for k, v in sorted(MAP_NEED.items()): print("MAP_NEED", k, v)
+    print("SHARED", {b: len(v) for b, v in sorted(SHARED.items(), key=lambda kv: -len(kv[1]))})
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
-exec(open(os.path.join(HERE, "note_kroos.py"), encoding="utf-8").read())
+exec(open(os.path.join(HERE, "note_xavi.py"), encoding="utf-8").read())
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "csa", "lib", "elk", "elq", "cwc", "acl", "mlp", "lcg", "lck"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
@@ -571,12 +564,13 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const KRO_E={J(E)};\nconst KRO_M={J(M)};\nconst KRO_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const XAV_E={J(E)};\nconst XAV_M={J(M)};\nconst XAV_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
-               "fotmob_playermatches_only": PM_ONLY, "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
+               "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
                "new_team_seasons": {f"{o}|{s}": v for (o, s), v in NEW_TS.items()},
-               "table_label_diffs": TABLE_DIFF, "points_map_needed": [f"{k[0]} | {k[1]} | {v[0]} | {v[1]}" for k, v in sorted(MAP_NEED.items())], "date_changes": DATE_LOG,
+               "table_label_diffs": TABLE_DIFF, "points_map_needed": [f"{k[0]} | {k[1]} | {v[0]} | {v[1]}" for k, v in sorted(MAP_NEED.items())],
+               "shared_games": {b: sorted(v) for b, v in SHARED.items()}, "added_games": ADD_GAMES,
                "elo_log": {f"{o}|{d}": v for (o, d), v in ELO_LOG.items()}},
               open(OUT_JSON, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"{NG}경기 {NGo}골(PK {NPK}) {NA}도움 {MIN_TOT}분 · 기록 {len(E)} · 합산 {NTIE}행/{NTIEG}경기 · Elo {dict(ELO_SRC)} → {OUT_JS}")
