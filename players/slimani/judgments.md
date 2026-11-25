@@ -84,6 +84,7 @@ Transfermarkt 174915 · FotMob 291219 · 자료 기준일 2026-11-25 · 현역(�
   - `벨기에 1부 2023-24 | Oud-Heverlee Leuven | OH Leuven | [0, 9]`
   - `벨기에 1부 2024-25 | FCV Dender EH | Dender EH | [0, 9]`
   - `브라질 세리에 A 2023 | Clube Atlético Mineiro | Clube Atlético Mineiro | [0, 2]`
+- **elo_table 별칭 주의(오케스트레이터 조치 필요)**: 이 자료를 넣고 `node tools/elo_table.js`를 돌리면 2016.8.28 'FC Porto'(1783, 슬리마니) 행과 같은 날 다른 선수의 'Grêmio Foot-Ball Porto Alegrense'(1637) 행이 짧은 이름 포함 관계 + Elo 차 146(≤160)으로 묶여 aliases.csv에 `FC Porto … / Grêmio Foot-Ball Porto Alegrense` 별칭이 생김(값 충돌은 0, 시즌 키가 달라서). elo_table.js NEVER 목록에 (porto, gremio foot ball porto alegrense) 쌍 추가를 권함. build 스크립트는 한쪽 이름이 다른 쪽의 일부인 '같은 경기' 후보를 쓰지 않게 막아 두어 영향 없음.
 - 검증(스크래치): league_rank_apply 바뀌는 행 0, 네 도구 이동량 모두 +0, elo_table 팀-시즌 값 여럿 0.
 
 ## 6. 시즌·클럽 구분

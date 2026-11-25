@@ -294,7 +294,8 @@ STOP = {"fc", "cf", "ac", "sc", "club", "de", "the", "afc", "calcio", "sport", "
         "real", "borussia", "bayer", "eintracht", "hamburger", "olympique", "atletico", "athletic", "fk", "sk", "bv", "1899", "1909", "1907", "1913", "1846", "05", "04", "96", "1919"}
 def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_match(o, d, cid):
-    cand = [(b, x) for b, x in BYDATE.get(d, []) if key(x[1]) == key(o)]
+    # 별칭으로 묶였어도 한쪽 이름이 다른 쪽의 일부일 뿐인 팀(예: FC Porto ↔ Grêmio Foot-Ball Porto Alegrense)은 같은 경기로 보지 않음
+    cand = [(b, x) for b, x in BYDATE.get(d, []) if key(x[1]) == key(o) and not (toks(x[1]) != toks(o) and (toks(x[1]) < toks(o) or toks(o) < toks(x[1])))]
     if not cand:
         cand = [(b, x) for b, x in BYDATE.get(d, []) if toks(x[1]) and toks(x[1]) == toks(o)]
     return cand, {(x[2], x[12]) for b, x in cand}
