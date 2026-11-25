@@ -40,8 +40,10 @@ TIES = {r["gameId"]: r for r in rd("tm_two_leg_ties.csv")}
 
 # ---------------------------------------------------------------- 날짜·출전 분
 DATE_FIX = {}
-MIN_FIX = {"2670208": 41}     # 2016.5.22 타사 드 포르투갈 결승(2-2, 연장 뒤 승부차기): 79분 교체 투입 → 120분까지 41분(TM API는 90분까지 11분으로 셈, 게임 JSON 교체 79분)
-EV_MIN_FIX = {}
+MIN_FIX = {"2670208": 41,    # 2016.5.22 타사 드 포르투갈 결승(2-2, 연장 뒤 승부차기): 79분 교체 투입 → 120분까지 41분(TM API는 90분까지 11분으로 셈, 게임 JSON 교체 79분)
+           "3069412": 73}    # 2018.9.22 비토리아 세투발 원정: TM 63분 교체 아웃 → FotMob 교체 73분·ESPN 74분(André Pereira 교체 투입)     # 2016.5.22 타사 드 포르투갈 결승(2-2, 연장 뒤 승부차기): 79분 교체 투입 → 120분까지 41분(TM API는 90분까지 11분으로 셈, 게임 JSON 교체 79분)
+EV_MIN_FIX = {("2941727", "90+3"): "90+1"}   # 2017.11.17 포르티모넨스전: 아부바카르 골은 2-2 동점골 90+1분(CM 90+1분·Bola na Rede 90분), 브라이미 결승골 90+4~6분
+SCORE_FIX = {("2941727", "90+3"): (1, 2)}    # 같은 골: 골 전 스코어 1-2(TM은 브라이미 90분 2-2 뒤 3-2 결승골로 적음, FotMob·경기 기사 순서가 맞음)
 def ldate(g): return DATE_FIX.get(g["gameId"], g["date_local"])
 # 상대 이름: Transfermarkt의 현재 이름 대신 기존 자료 이름
 OPP_NAME = {"Istres Football Club": "FC Istres Ouest Provence", "Thonon Évian Grand Genève FC": "FC Évian Thonon Gaillard",
@@ -202,6 +204,7 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         if not (is_g or is_a): continue
         if sd == side and is_a and e["assist_type"] == "Handball (opponent)": pass
         gf, ga = (before[0], before[1]) if side == "h" else (before[1], before[0])
+        if (gid, e["minute"]) in SCORE_FIX: gf, ga = SCORE_FIX[(gid, e["minute"])]
         mi, dm = mins(EV_MIN_FIX.get((gid, e["minute"]), e["minute"]))
         if is_a:
             why = assist_reason(e, ldate(g), gid)
