@@ -42,10 +42,16 @@ TIES = {r["gameId"]: r for r in rd("tm_two_leg_ties.csv")}
 
 # ---------------------------------------------------------------- 날짜·출전 분
 DATE_FIX = {}
-MIN_FIX = {}     # 판정은 judgments.md 3절(출전 분)
+MIN_FIX = {"2872232": 19}     # 2017.11.18 맨유 원정: TM 7분 교체 투입(83분)은 잘못 — 맨유 공식 경기 기사·유로스포츠 문자 중계 72분 조셀루와 교체, FotMob 19분
 EV_MIN_FIX = {}
 def ldate(g): return DATE_FIX.get(g["gameId"], g["date_local"])
-def opp(g): return re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
+# 상대 이름: Transfermarkt의 현재 이름 대신 그 시즌 이름·기존 자료 이름(승점 표 map과 같게)
+OPP_NAME = {"SK Beveren": "KVRS Waasland - SK Beveren", "Royal Excel Mouscron": "Mouscron-Péruwelz", "GFK Jagodina": "FK Jagodina",
+            "FK Hajduk 1912": "FK Hajduk Kula"}
+def opp(g):
+    o = re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
+    o = re.sub(r"\s*\(\s*\d{4}\s*-\s*\d{4}\)", "", o).strip()
+    return OPP_NAME.get(o, o)
 def rnd_of(g): return g["round"] or ""
 
 # ---------------------------------------------------------------- 대회 코드
@@ -114,6 +120,20 @@ def tie_of(gid):
     ours, theirs = other_leg(gid)
     return [2, 1 if s == "h" else 0, ours, theirs, ag, et]
 
+CLUBS = [("tlpamt", "2012-07-01"), ("paramt", "2013-08-30"), ("andamt", "2015-07-21"), ("newamt", "2018-01-31"), ("fulamt", "2023-08-19"),
+         ("hilamt", "2025-09-04"), ("rayamt", None)]
+TM_CLUB = {"4646": "tlpamt", "669": "paramt", "58": "andamt", "762": "newamt", "931": "fulamt", "1114": "hilamt", "3229": "rayamt"}
+JUL10 = {"paramt", "andamt"}
+def club_of(d):
+    for k, u in CLUBS:
+        if u is None or d < u: return k
+def season_of(d):
+    c = club_of(d); y = int(d[:4]); m = int(d[5:7]); dd = int(d[8:10])
+    if c in JUL10: s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
+    else:
+        s_ = y if m >= 8 else y - 1
+        if y == 2020 and m == 8: s_ = 2019
+    return f"{s_}-{str(s_ + 1)[2:]}"
 # ---------------------------------------------------------------- 출전
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
@@ -144,7 +164,16 @@ def fm_assist(gid, e):
         if f["mitrovic_assist"] == "1" and f["pen_shootout_event"] != "True" and (fm_min_match(f, e["minute"]) or same_scorer(f["scorer"], e["scorer"])): return True
     return False
 
-A_CHECK = {}     # 2014.8 이후 TM 단독 일반 유형 도움: 다른 출처로 판정(judgments.md 4절), 아래에서 채움
+A_CHECK = {     # 2014.8 이후 TM 단독 일반 유형 도움: 다른 출처로 판정(judgments.md 4절)
+ "2512781|61": (False, "2014.12.14 오스텐더전 61분 프라트 골: 부트발크란트 문자 중계는 미트로비치 도움, 같은 경기 라 리브르 기사는 나자르 크로스 — 출처가 갈리고 FotMob 도움 없음"),
+ "2512843|81": (False, "2014.12.26 베스테를로전 81분 프라트 골: 라 리브르 기사 '프라트 단독 슈팅', 도움 언급 없음, FotMob 도움 없음"),
+ "2532383|54": (False, "2015.2.22 헹크 원정 54분 드푸르 골: 부트발크란트(문자 중계·경기 기사, 같은 매체 1곳)만 미트로비치 패스, 다른 출처 확인 못 함, FotMob 도움 없음"),
+ "4431572|55": (True, "2024.8.17 사우디 슈퍼컵 결승 55분 밀린코비치사비치 동점골: 아랍 뉴스·사커웨이(스페인어) 경기 기사가 미트로비치 패스로 적음"),
+ "4705896|42": (True, "2025.9.25 알가라파전 42분 기제스 골: FotMob 선수 경기 기록 도움 1·마이켈(경기 기록) '미트로비치 크로스'"),
+ "4793111|4": (True, "2026.2.26 알가라파 원정 4분 호드리구 골: FotMob 선수 경기 기록 도움 1(이 경기 다른 도움 없음)"),
+ "4793131|19": (True, "2026.3.13 알샤하니아전 19분 치아구 실바 골: FotMob 선수 경기 기록 도움 1(이 경기 다른 도움 없음)"),
+ "4793148|69": (True, "2026.3.17 알와크라전 69분 그레고리 골: FotMob 선수 경기 기록 도움 1(이 경기 다른 도움 없음)"),
+}
 ADD_A = []       # FotMob 단독 도움 중 다른 출처 2곳이 확인한 것
 A_STATUS = []
 def assist_reason(e, d, gid):
@@ -215,7 +244,8 @@ with open(os.path.join(ELO, "aliases.csv"), encoding="utf-8-sig") as f:
         if not row or row[0].startswith("팀"): continue
         for part in row[1].split(" / "):
             ALIAS[norm(part.rsplit(":", 1)[0])] = norm(row[0])
-MANUAL_ALIAS = {"inter milan": "inter"}
+MANUAL_ALIAS = {"gfk jagodina": "fk jagodina", "fk hajduk 1912": "fk hajduk kula", "sk beveren": "kvrs waasland sk beveren",
+                "royal excel mouscron": "mouscron peruwelz"}
 def key(n):
     k = norm(n); k = MANUAL_ALIAS.get(k, k)
     return ALIAS.get(k, k)
@@ -302,6 +332,8 @@ BEL_FIN = {
 }
 for s_, lst in BEL_FIN.items():
     for i, nm in enumerate(lst): RANKS[("BE1F", s_)][key(nm)] = (i + 1, 16, nm)
+# 카타르 1부 2025-26: 카타르 SC 6위(영어 위키백과 최종 순위표·elo 승점 표; 알아라비와 승점 32 같고 득실 +2 대 −4). Transfermarkt 표는 8위로 다름 — 기존 자료(알아라비 7위·알와크라 8위)와 같게 위키백과 순서
+RANKS[("QSL", "2025-26")][key("Qatar SC")] = (6, 12, "Qatar SC")
 for s_ in ("2013-14", "2014-15"):   # 1~6위 대조(Transfermarkt 플레이오프 I 표)
     for k, (r, n, nm) in RANKS[("EJPL", s_)].items():
         if RANKS[("BE1F", s_)].get(k, (0,))[0] != r: sys.exit("벨기에 최종 순위 불일치 " + nm)
@@ -318,7 +350,7 @@ def make_label(lg, season, v):
     if lg == "SA1": return f"사우디 프로리그 {season} {r}위/{n}팀"
     if lg == "SA2L": return f"사우디 2부 {season} {r}위/{n}팀 (Saudi First Division League)"
     if lg == "QSL": return f"카타르 1부 {season} {r}위/{n}팀 (Qatar Stars League" + (", 2026년 11월 25일 현재 순위)" if season == "2026-27" else ")")
-    if lg == "QU2L": return f"카타르 2부 {season} {r}위/{n}팀 (Qatari Second Division)"
+    if lg == "QU2L": return f"카타르 2부 {season} {r}위/{n}팀 (Qatari Second Division (QSL 2))"
     if lg == "NO1": return f"노르웨이 1부 {season} {r}위/{n}팀 (Eliteserien/Tippeligaen)"
     if lg == "UZ1": return f"우즈베키스탄 1부 {season} {r}위/{n}팀 (Uzbekistan Super League)"
     if lg == "IND1": return f"인도 슈퍼리그 {season} {r}위/{n}팀"
@@ -331,7 +363,7 @@ def eu(d):
     if y == 2020 and m == 8: s_ = 2019
     return f"{s_}-{str(s_ + 1)[2:]}"
 def seasons_for(cid, d):
-    return [eu(d), d[:4]]
+    return [season_of(d) if cid in LEAGUE else eu(d), d[:4]]
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv
 def man(o, s, lv): MAN[(key(o), s)] = lv
@@ -354,7 +386,7 @@ def opp_elo(o, d, cid, g):
             p = _LRA["parse"](lv, d)
             if p and lv_value(lv, d, o) != e: TABLE_DIFF.append((o, s, e, lv, lv_value(lv, d, o)))
             return e, lv
-    s = eu(d)
+    s = season_of(d) if cid in LEAGUE else eu(d)
     for lg in LEAGUES_EU + LEAGUES_CAL:
         ss = d[:4] if lg in LEAGUES_CAL else s
         t = RANKS.get((lg, ss), {})
@@ -456,20 +488,6 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if any(mm[0] == m[0] and key(mm[1]) == key(m[1]) for mm in om): SHARED[b] += 1
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("tlpamt", "2012-07-01"), ("paramt", "2013-08-30"), ("andamt", "2015-07-21"), ("newamt", "2018-01-31"), ("fulamt", "2023-08-19"),
-         ("hilamt", "2025-09-04"), ("rayamt", None)]
-TM_CLUB = {"4646": "tlpamt", "669": "paramt", "58": "andamt", "762": "newamt", "931": "fulamt", "1114": "hilamt", "3229": "rayamt"}
-JUL10 = {"paramt", "andamt"}
-def club_of(d):
-    for k, u in CLUBS:
-        if u is None or d < u: return k
-def season_of(d):
-    c = club_of(d); y = int(d[:4]); m = int(d[5:7]); dd = int(d[8:10])
-    if c in JUL10: s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
-    else:
-        s_ = y if m >= 8 else y - 1
-        if y == 2020 and m == 8: s_ = 2019
-    return f"{s_}-{str(s_ + 1)[2:]}"
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["clubId"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["clubId"])
     if season_of(ldate(g))[2:4] + "/" + season_of(ldate(g))[5:7] != g["season"]: sys.exit("시즌 불일치 " + g["gameId"] + " " + g["season"] + " " + ldate(g))
