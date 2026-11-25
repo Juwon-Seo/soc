@@ -91,7 +91,7 @@ def ko_of(cid, rnd):
 # ---------------------------------------------------------------- 두 경기 합산
 def tie_rule(cid, d, rnd):
     """(원정 다득점, 연장)"""
-    if cid in ("CL", "EL", "CLQ", "ELQ", "UEFA", "UEQ"): return (1, 1)   # UEFA 2020-21까지 원정 다득점(연장 포함)
+    if cid in ("CL", "EL", "CLQ", "ELQ", "UEFA", "UEQ"): return (1 if d < "2021-08-01" else 0, 1)   # UEFA 2020-21까지 원정 다득점(연장 포함), 2021-22부터 폐지
     if cid in ("CDR", "SUC"): return (1, 1)   # 코파 델 레이(2018-19까지)·수페르코파: 원정 다득점·연장
     if cid == "CGB": return (1, 1)   # 리그컵 준결승 2017-18까지 원정 다득점·연장
     if cid == "CIT": return (1, 1)   # 코파 이탈리아 준결승 2021-22까지 원정 다득점, 2차전 연장
@@ -524,6 +524,9 @@ if "--stat" in sys.argv:
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
+NAMES = {"tvz.js": "테베스", "llo.js": "요렌테", "mzk.js": "만주키치", "dyb.js": "디발라", "qgl.js": "콸리아렐라", "cua.js": "콰드라도", "spe.js": "페페",
+         "ras.js": "래시포드", "brf.js": "브루노 페르난데스", "grw.js": "그린우드", "ibr.js": "이브라히모비치", "luk.js": "루카쿠", "axs.js": "산체스",
+         "mat.js": "마타", "cav.js": "카바니", "ayo.js": "영", "val.js": "발렌시아", "sch.js": "산초"}
 exec(open(os.path.join(HERE, "note_pogba.py"), encoding="utf-8").read())
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "csa", "lib", "elk", "elq", "cwc", "acl", "mlp", "lcg", "lck"]:
