@@ -80,7 +80,7 @@ function norm(s) {
     .filter(w => !STOP.has(w) && !/^\d{1,2}$/.test(w) && !/^(18|19|20)\d\d$/.test(w)).join(' ') || t.trim();
 }
 // 같은 이름이라도 다른 팀(정규화 뒤 같은 키가 되지만 실제로 다른 팀)은 여기서 바로 나눈다.
-const RAW_KEY = { 'Boavista SC': 'boavista (brasil)', 'Racing Club': 'racing club', 'Portland Timbers 2': 'portland timbers 2',
+const RAW_KEY = { 'KRC Mechelen': 'racing mechelen', 'Boavista SC': 'boavista (brasil)', 'Racing Club': 'racing club', 'Portland Timbers 2': 'portland timbers 2',
   'Gazélec Football Club Olympique Ajaccio': 'gazelec ajaccio', 'Inter Milan': 'inter', 'Inter': 'inter' };
 // 근거(같은 날짜·같은 값)가 없어 자동으로 못 묶지만 같은 팀인 표기(직접 확인: lv의 리그·나라가 같음) → 대표 표기
 const SAME = {
