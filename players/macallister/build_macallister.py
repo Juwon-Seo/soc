@@ -142,9 +142,11 @@ def tie_of(gid):
     return [2, 1 if s == "h" else 0, ours, theirs, ag, et]
 
 # ---------------------------------------------------------------- 출전
+# 출전 분 고침: 2017.9.30 라싱전 TM 90분이지만 FotMob 70분, ESPN 경기 기록 '70' Leonardo Pisculichi replaces Alexis Mac Allister' → 70분
+MIN_M = {"2923942": 70}
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
-    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), int(g["playedMinutes"])])
+    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), MIN_M.get(g["gameId"], int(g["playedMinutes"]))])
 
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
