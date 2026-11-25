@@ -44,7 +44,7 @@ DATE_FIX = {"2822456": "2017-06-29"}
 LD = {gid: DATE_FIX.get(gid, g["date_local"]) for gid, g in G.items()}
 DATE_LOG = [(gid, G[gid]["date_local"], d) for gid, d in DATE_FIX.items()]
 def ldate(g): return LD[g["gameId"]]
-OPP_NAME = {}
+OPP_NAME = {gid: "New York Red Bulls" for gid, g in G.items() if g["opponent"] == "Red Bull New York"}   # 다른 선수 MLS 2015-2017 자료·승점 표 이름과 같게
 def opp(g): return OPP_NAME.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용(정상 유형)
