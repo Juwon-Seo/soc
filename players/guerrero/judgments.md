@@ -1,7 +1,7 @@
 # 파올로 게레로 (PGU, preset `guerrero`) 판정 기록
 
 TM 선수 id 2989, FotMob 33101. 현역(알리안사 리마). 자료 기준일 2026-11-25, 마지막 경기 2026-11-21 FC 카하마르카전(클라우수라 2026, 45분).
-결과: 667경기 231골(PK 14) 61도움, 45,211분. 재현: `python3 players/guerrero/build_guerrero.py` (스크래치 검증은 `SOC_ROOT=<복사본> … --out <복사본>/src/data`, 승점 표 map 줄은 `--applymap`).
+결과: 667경기 231골(PK 14) 61도움, 45,211분. 재현: `python3 players/guerrero/build_guerrero.py` — 단, pgu.js 값은 map 줄(6절)을 elo/league_points_other.json에 넣은 상태 기준(넣기 전 정본으로 돌리면 47행 Elo가 순위 곡선 값으로 나옴) (스크래치 검증은 `SOC_ROOT=<복사본> … --out <복사본>/src/data`, 승점 표 map 줄은 `--applymap`).
 
 ## 1. 범위
 - 바이에른 2군(TM club 28) 69경기(레기오날리가 쥐트 66경기 45골 1도움 + 2군으로 나간 DFB-포칼 2004-05 3경기 4골 1도움) 제외 — 2군 규칙(M1·M15). 영어 위키백과는 포칼 3경기를 1군에 넣지만 TM performance-game은 club 28.
@@ -54,3 +54,6 @@ TM 업적 + 1군 출전 확인: 분데스리가 04/05·05/06, DFB-포칼 04/05·
 ## 9. 통합
 integration.json: clubs 10개(달력 연도 시즌: 브라질·아르헨티나·에콰도르·페루 클럽 8개, 바이에른·HSV 기본 8월 1일), flag PE(이미 있음), pos CF, retired false, 새 클럽 색 10개. seasonOf 특수 분기 필요 없음.
 final_scores spec: `guerrero:PGU:2989`.
+
+## 10. 검증(스크래치 복사본)
+add_players(jemaa 앵커) → build → verify check: 기존 316명 동일, 게레로 추가, 콘솔 오류 없음. league_rank_apply 바뀌는 행 0, 정규화 도구 4개 게레로 행 이동 0(포르투갈 2부 2015-16 −3은 기존 행, 게레로와 무관), elo_table 값이 여럿인 팀-시즌 0. pStats: SOC 276.41, 667경기 231골 61도움 45,211분, 3-peak 23.20(2014 코린치안스 26.15·2008-09 함부르크 22.28·2019 인테르나시오나우 21.18), 5-peak 21.25, SOC-CAR 182.66.
