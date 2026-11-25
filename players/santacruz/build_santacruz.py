@@ -324,7 +324,7 @@ def toks(n): return {t for t in norm(n).split() if t not in STOP and len(t) > 2}
 def same_match(o, d):
     cand = [(b, x) for b, x in BYDATE.get(d, []) if key(x[1]) == key(o)]
     if not cand:
-        cand = [(b, x) for b, x in BYDATE.get(d, []) if toks(x[1]) and toks(x[1]) == toks(o)]
+        cand = [(b, x) for b, x in BYDATE.get(d, []) if toks(x[1]) and toks(x[1]) == toks(o) and norm(x[1]).split()[0] == norm(o).split()[0]]   # 'Real Madrid'·'Atlético de Madrid' 같은 토큰 오인 방지
     return cand, {(x[2], x[12]) for b, x in cand}
 
 # ---------------------------------------------------------------- 순위 라벨 → Elo (tools/league_rank_apply.py)
