@@ -108,7 +108,7 @@ function fixKey(k, e) {
   return k;
 }
 // 절대 묶지 않을 짝(정규화 키, 양방향)
-const NEVER = [['barcelona', 'espanyol barcelona'], ['arsenal', 'arsenal sarandi'], ['racing santander', 'racing club'],
+const NEVER = [['barcelona', 'espanyol barcelona'], ['porto', 'gremio foot ball porto alegrense'], ['arsenal', 'arsenal sarandi'], ['racing santander', 'racing club'],
   ['real madrid', 'atletico madrid'], ['inter', 'inter miami'], ['atletico madrid', 'atletico mineiro'],
   ['milan', 'inter'], ['zurich', 'grasshopper zurich'], ['ajaccio', 'gazelec ajaccio'], ['portland timbers', 'portland timbers 2']];
 const never = (a, b) => NEVER.some(([x, y]) => (x === a && y === b) || (x === b && y === a));
