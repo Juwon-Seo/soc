@@ -469,7 +469,7 @@ def same_team(a, b, d):
     if key(a) == key(b): return True
     return bool(toks(a)) and toks(a) == toks(b)
 CROSS = []
-VRE = re.compile(r"Keita|케이타")
+VRE = re.compile(r"Seydou K[eé]ita|^Keita$|세이두 케이타")
 G_DATES = {ldate(g) for g in GAMES}
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
     for x in oe:
@@ -495,6 +495,13 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2], x[9]):
                     CROSS.append(("TM 케이타 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
+import datetime as _dt
+def _dd(a, b): return abs((_dt.date.fromisoformat(a) - _dt.date.fromisoformat(b)).days)
+for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
+    for m in M:
+        for mm in om:
+            if mm[0] != m[0] and _dd(mm[0], m[0]) == 1 and key(mm[1]) == key(m[1]) and mm[2] == m[2]:
+                CROSS.append(("같은 경기 날짜 다름(±1일)", b, m[0], mm[0], m[1]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 SHARED = collections.Counter()
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):

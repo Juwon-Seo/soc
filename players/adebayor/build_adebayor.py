@@ -44,7 +44,7 @@ DATE_FIX = {"55666": "2007-01-21"}
 MIN_FIX = {"2293174": 120}
 EV_MIN_FIX = {}
 def ldate(g): return DATE_FIX.get(g["gameId"], g["date_local"])
-OPP_NAME = {"Ankaraspor": "Osmanlispor FK"}   # 2017-18 오스만르스포르(현 앙카라스포르): 기존 선수 자료·승점 표 이름
+OPP_NAME = {"Ankaraspor": "Osmanlispor FK", "FCSB": "Steaua Bucharest"}   # 2017-18 오스만르스포르(현 앙카라스포르)·2007-08 슈테아우아(현 FCSB): 기존 선수 자료·승점 표 이름
 def opp(g):
     o = re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
     o = re.sub(r"\s*\(\s*\d{4}\s*-\s*\d{4}\)", "", o).strip()
