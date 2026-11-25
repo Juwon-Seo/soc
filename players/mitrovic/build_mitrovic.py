@@ -238,11 +238,11 @@ def load_js(fn):
 OTHERS = {}
 for fn in sorted(glob.glob(os.path.join(ROOT, "src", "data", "*.js"))):
     b = os.path.basename(fn)
-    if b in ("hon.js", "clubcolors.js", "finals.js", "nba.js") or "src/data/" + b not in TRACKED: continue
+    if b in ("hon.js", "clubcolors.js", "finals.js", "amt.js") or "src/data/" + b not in TRACKED: continue
     P, oe, om = load_js(fn)
     OTHERS[b] = (oe, om)
 PAR = {}   # 이번 회차 병렬 판정(읽기만)
-for slug in ("macallister", "brunoguimaraes", "valverde", "veron"):
+for slug in ("morata", "jimenez", "ennesyri", "leekangin"):
     for pth in glob.glob(os.path.join(os.path.dirname(HERE), slug, "*.js")):
         try: P, oe, om = load_js(pth)
         except Exception: continue
@@ -292,28 +292,50 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         p = line.rstrip("\n").split("|")
         if len(p) < 5 or p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4])
+# 벨기에 1부: 플레이오프 뒤 최종 순위 = elo/league_points_other.json 표 순서(영어 위키백과 시즌 문서; 1~6위는 Transfermarkt 플레이오프 I 표와 같음,
+#   7~16위는 플레이오프 II·강등 플레이오프 반영 순서 — 기존 자료 라벨(오스텐더 2013-14 9위·리르서 2014-15 15위 등)과 같음)
+BEL_FIN = {
+ "2013-14": ["RSC Anderlecht", "Standard Liège", "Club Brugge KV", "Zulte Waregem", "KSC Lokeren", "KRC Genk", "KAA Gent", "KV Kortrijk", "KV Oostende",
+             "Royal Charleroi SC", "Cercle Brugge", "Lierse SK", "KV Mechelen", "KVRS Waasland - SK Beveren", "Oud-Heverlee Leuven", "RAEC Mons"],
+ "2014-15": ["KAA Gent", "Club Brugge KV", "RSC Anderlecht", "Standard Liège", "Royal Charleroi SC", "KV Kortrijk", "KRC Genk", "KSC Lokeren", "KV Mechelen",
+             "KV Oostende", "KVC Westerlo", "Zulte Waregem", "Royal Excel Mouscron", "KVRS Waasland - SK Beveren", "Lierse SK", "Cercle Brugge"],
+}
+for s_, lst in BEL_FIN.items():
+    for i, nm in enumerate(lst): RANKS[("BE1F", s_)][key(nm)] = (i + 1, 16, nm)
+for s_ in ("2013-14", "2014-15"):   # 1~6위 대조(Transfermarkt 플레이오프 I 표)
+    for k, (r, n, nm) in RANKS[("EJPL", s_)].items():
+        if RANKS[("BE1F", s_)].get(k, (0,))[0] != r: sys.exit("벨기에 최종 순위 불일치 " + nm)
 
+CUR = " (2026년 11월 25일 현재 순위)"
 def make_label(lg, season, v):
     r, n, nm = v
-    if lg == "IT2": return f"세리에B {season} {r}위/{n}팀"
-    if lg == "IT1":
-        if season == "2026-27": return f"세리에A 2026-27 {r}위/{n}팀 (2026년 11월 25일 현재 순위)"
-        return f"세리에A {season} {r}위"
+    if lg == "GB2": return f"챔피언십 {season} {r}위/{n}팀"
+    if lg == "GB3": return f"잉글랜드 3부 {season} {r}위/{n}팀 (EFL League One, 리그 수준 추정)"
+    if lg == "GB4": return f"잉글랜드 4부 {season} {r}위/{n}팀 (EFL League Two, 리그 수준 추정)"
+    if lg == "SER1": return f"세르비아 1부 {season} {r}위/{n}팀 (Serbian SuperLiga)"
+    if lg == "SER2": return f"세르비아 2부 {season} {r}위/{n}팀 (Serbian First League, 리그 수준 추정)"
+    if lg == "BE1F": return f"벨기에 1부 {season} {r}위/{n}팀 (Belgian Pro League, 플레이오프·스플릿 뒤 최종 순위)"
+    if lg == "SA1": return f"사우디 프로리그 {season} {r}위/{n}팀"
+    if lg == "SA2L": return f"사우디 2부 {season} {r}위/{n}팀 (Saudi First Division League)"
+    if lg == "QSL": return f"카타르 1부 {season} {r}위/{n}팀 (Qatar Stars League" + (", 2026년 11월 25일 현재 순위)" if season == "2026-27" else ")")
+    if lg == "QU2L": return f"카타르 2부 {season} {r}위/{n}팀 (Qatari Second Division)"
+    if lg == "NO1": return f"노르웨이 1부 {season} {r}위/{n}팀 (Eliteserien/Tippeligaen)"
+    if lg == "UZ1": return f"우즈베키스탄 1부 {season} {r}위/{n}팀 (Uzbekistan Super League)"
+    if lg == "IND1": return f"인도 슈퍼리그 {season} {r}위/{n}팀"
     return None
+LEAGUES_EU = ("SER1", "SER2", "BE1F", "GB2", "GB3", "GB4", "SA1", "SA2L", "QSL", "QU2L", "IND1")
+LEAGUES_CAL = ("NO1", "UZ1")
 
 def eu(d):
     y = int(d[:4]); m = int(d[5:7]); s_ = y if m >= 8 else y - 1
     if y == 2020 and m == 8: s_ = 2019
     return f"{s_}-{str(s_ + 1)[2:]}"
 def seasons_for(cid, d):
-    if cid == "KLUB": return [d[:4], eu(d)]
     return [eu(d), d[:4]]
 
 MAN = {}   # 순위표 밖 상대: (key, 시즌) -> lv
 def man(o, s, lv): MAN[(key(o), s)] = lv
-# 세리에B 2015-16 살레르니타나(2015.12.24 칼리아리 원정, 바렐라 도움): 공식 18위/22팀이지만 비르투스 란차노 승점 4·노바라 2 감점 시즌.
-#   감점을 되돌린 승점 순(elo/league_points_other.json '세리에B 2015-16' 표, en.wikipedia): 란차노 48 > 아스콜리 47 > 라티나 46 = 프로 베르첼리 46 > 살레르니타나 45 → 19위
-man("US Salernitana 1919", "2015-16", "세리에B 2015-16 19위/22팀 (감점 전 순위)")
+exec(open(os.path.join(HERE, "man_elo.py"), encoding="utf-8").read())   # 직접 라벨(출처는 judgments.md 5절)
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
 def opp_elo(o, d, cid, g):
     cand, vals = same_match(o, d, cid)
@@ -333,12 +355,13 @@ def opp_elo(o, d, cid, g):
             if p and lv_value(lv, d, o) != e: TABLE_DIFF.append((o, s, e, lv, lv_value(lv, d, o)))
             return e, lv
     s = eu(d)
-    for lg in ("IT1", "IT2"):
-        t = RANKS.get((lg, s), {})
+    for lg in LEAGUES_EU + LEAGUES_CAL:
+        ss = d[:4] if lg in LEAGUES_CAL else s
+        t = RANKS.get((lg, ss), {})
         if k in t:
-            lv = make_label(lg, s, t[k])
+            lv = make_label(lg, ss, t[k])
             e = lv_value(lv, d, o); ELO_SRC["순위표 → 라벨"] += 1
-            ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, s)] = (e, lv); return e, lv
+            ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, ss)] = (e, lv); return e, lv
     MISS.append((o, d, cid, s)); return 0, "?"
 
 E = []
@@ -400,17 +423,17 @@ def same_team(a, b, d):
     if key(a) == key(b): return True
     return bool(toks(a)) and toks(a) == toks(b)
 CROSS = []
-VRE = re.compile(r"Barella|바렐라")
+VRE = re.compile(r"Mitrovi[cć]|미트로비치")
 G_DATES = {ldate(g) for g in GAMES}
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
     for x in oe:
         if x[0] == "a" and VRE.search(str(x[13] or "")) and x[9] in G_DATES:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(바렐라 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(미트로비치 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1], r[9])]
-            if hit: CROSS.append(("바렐라 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("미트로비치 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and same_team(x[1], r[1], r[9]):
@@ -425,7 +448,7 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2], x[9]):
-                    CROSS.append(("TM 바렐라 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
+                    CROSS.append(("TM 미트로비치 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 SHARED = collections.Counter()
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
@@ -433,16 +456,26 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if any(mm[0] == m[0] and key(mm[1]) == key(m[1]) for mm in om): SHARED[b] += 1
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("cagnb", "2016-01-05"), ("comnb", "2016-07-01"), ("cagnb", "2019-07-12"), ("intnb", None)]
-TM_CLUB = {"1390": "cagnb", "1047": "comnb", "46": "intnb"}
+CLUBS = [("tlpamt", "2012-07-01"), ("paramt", "2013-08-30"), ("andamt", "2015-07-21"), ("newamt", "2018-01-31"), ("fulamt", "2023-08-19"),
+         ("hilamt", "2025-09-04"), ("rayamt", None)]
+TM_CLUB = {"4646": "tlpamt", "669": "paramt", "58": "andamt", "762": "newamt", "931": "fulamt", "1114": "hilamt", "3229": "rayamt"}
+JUL10 = {"paramt", "andamt"}
 def club_of(d):
     for k, u in CLUBS:
         if u is None or d < u: return k
+def season_of(d):
+    c = club_of(d); y = int(d[:4]); m = int(d[5:7]); dd = int(d[8:10])
+    if c in JUL10: s_ = y if (m > 7 or (m == 7 and dd >= 10)) else y - 1
+    else:
+        s_ = y if m >= 8 else y - 1
+        if y == 2020 and m == 8: s_ = 2019
+    return f"{s_}-{str(s_ + 1)[2:]}"
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["clubId"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["clubId"])
-    if g["competitionId"] != "KLUB" and eu(ldate(g))[2:4] + "/" + eu(ldate(g))[5:7] != g["season"]: sys.exit("시즌 불일치 " + g["gameId"] + " " + g["season"])
-PERIODS = [("칼리아리", "2014~2016", None, "2016-01-05"), ("코모", "2016", "2016-01-05", "2016-07-01"),
-           ("칼리아리", "2016~2019", "2016-07-01", "2019-07-12"), ("인테르", "2019~", "2019-07-12", None)]
+    if season_of(ldate(g))[2:4] + "/" + season_of(ldate(g))[5:7] != g["season"]: sys.exit("시즌 불일치 " + g["gameId"] + " " + g["season"] + " " + ldate(g))
+PERIODS = [("텔레옵티크", "2011~2012", None, "2012-07-01"), ("파르티잔", "2012~2013", "2012-07-01", "2013-08-30"),
+           ("안데를레흐트", "2013~2015", "2013-08-30", "2015-07-21"), ("뉴캐슬", "2015~2018", "2015-07-21", "2018-01-31"),
+           ("풀럼", "2018~2023", "2018-01-31", "2023-08-19"), ("알힐랄", "2023~2025", "2023-08-19", "2025-09-04"), ("알라이얀", "2025~", "2025-09-04", None)]
 def per(lo, hi):
     inr = lambda d: (lo is None or d >= lo) and (hi is None or d < hi)
     return [sum(1 for m in M if inr(m[0])), sum(1 for r in E if r[0] == "g" and inr(r[9])),
@@ -469,7 +502,7 @@ if "--stat" in sys.argv:
     sys.exit(0)
 
 # ---------------------------------------------------------------- 설명(NOTE)
-exec(open(os.path.join(HERE, "note_barella.py"), encoding="utf-8").read())   # NOTE_LINES
+exec(open(os.path.join(HERE, "note_mitrovic.py"), encoding="utf-8").read())   # NOTE_LINES
 NOTE = "\n".join(NOTE_LINES)
 for bad in ["dc", "dk", "dsf", "df", "ko", "OTHER_LEG", "seasonOf", "v1.", "GAP", "MAN", "elk", "cwc", "clg", "cl16"]:
     if re.search(r"(?<![A-Za-z])" + re.escape(bad) + r"(?![A-Za-z])", NOTE): sys.exit("설명에 작업용 표현: " + bad)
@@ -504,7 +537,7 @@ for m in M:
 
 J = lambda x: json.dumps(x, ensure_ascii=False, separators=(",", ":"))
 if __name__ == "__main__":
-    open(OUT_JS, "w", encoding="utf-8").write(f"const NBA_E={J(E)};\nconst NBA_M={J(M)};\nconst NBA_NOTE={J(NOTE)};\n")
+    open(OUT_JS, "w", encoding="utf-8").write(f"const AMT_E={J(E)};\nconst AMT_M={J(M)};\nconst AMT_NOTE={J(NOTE)};\n")
     keys = ["type", "opp", "elo", "comp", "min", "gf", "ga", "ko", "pk", "date", "et", "dm", "lv", "note", "tie"]
     json.dump({"E": [dict(zip(keys, r)) for r in E], "M": M, "note": NOTE, "judgments": judg, "assist_status": A_STATUS, "fotmob_only_assists": FM_ONLY,
                "cross_check": CROSS, "fotmob_goal_diffs": FM_CMP, "elo_sources": ELO_SRC,
