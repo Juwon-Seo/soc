@@ -217,7 +217,7 @@ for gid in sorted(EVS, key=lambda k: (G[k]["date_local"] if k in G else "", k)):
         for m, _, scorer, desc in pl:
             if any(abs(m - x) <= 3 for x in tm_a_mins): continue
             k = f"{gid}|{m}"
-            if d >= GAP:
+            if d >= GAP and False:   # v1.295 사용자 결정: K리그 공식 기록 단독 도움은 날짜와 관계없이 넣음
                 ok, why = PORTAL_A_CHECK.get(k, (False, "판정 없음"))
                 A_STATUS.append((d, gid, str(m), scorer, ("넣음: " if ok else "뺌: ") + why + " [공식 기록 단독]"))
                 if not ok:
@@ -234,8 +234,8 @@ for gid in sorted(EVS, key=lambda k: (G[k]["date_local"] if k in G else "", k)):
             gf, ga = found if side == "h" else (found[1], found[0])
             mm_ = 1 if m == 0 else m
             dm = f"90+{mm_ - 90}" if mm_ > 90 and g["gameState"] == "regularly_terminated" else 0
-            A_STATUS.append((d, gid, str(m), scorer, "공식 기록 단독(2014.8 전) 넣음"))
-            judg.append(("도움 추가(K리그 공식 기록 단독, 2014.8 전)", d, opp(g), str(m), scorer, desc))
+            A_STATUS.append((d, gid, str(m), scorer, "공식 기록 단독 넣음"))
+            judg.append(("도움 추가(K리그 공식 기록 단독)", d, opp(g), str(m), scorer, desc))
             raw_rows.append(("a", gid, mm_, dm, gf, ga, 0, scorer, "portal"))
     h = cnt["h"]; a = cnt["a"]
     fh, fa = map(int, MI[gid]["final"].split("-")) if MI[gid]["final"] else (h, a)
