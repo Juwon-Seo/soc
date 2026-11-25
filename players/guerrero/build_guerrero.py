@@ -27,7 +27,7 @@ def rd(n):
     with open(os.path.join(RAW, n), encoding="utf-8") as f:
         return list(csv.DictReader(f))
 
-GAMES = [g for g in rd("tm_games.csv") if g["team_level"] == "senior"]   # 654경기 모두 성인 1군
+GAMES = [g for g in rd("tm_games.csv") if g["team_level"] == "senior"]   # 바이에른 2군(레지오날리가 쥐트·DFB-포칼 2004-05) 69경기 제외 → 667경기
 G = {g["gameId"]: g for g in GAMES}
 MI = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 EVS = collections.defaultdict(list)
@@ -36,69 +36,92 @@ FME = collections.defaultdict(list)
 for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 
 # ---------------------------------------------------------------- 날짜·출전 분
-DATE_FIX = {}
-# 2013.3.14 유로파 16강 2차전 레반테전(연장 2-0): TM 선수 합계 90분이지만 게레로은 교체 없이 끝까지 뛰고 연장 100분에 골(TM 경기 기록·FotMob 이벤트) → 120분
-# 2014.5.11 제니트–디나모 모스크바: 87분 관중 난입으로 중단(디나모 4-2 앞섬), 러시아축구연맹이 0-3 몰수패 처리 → 실제로 뛴 87분(후이 코스타 선례)
-MIN_FIX = {"2293175": 120, "2335251": 87}
+# TM 경기 시각(UTC)이 하루 이른 경기: FotMob 일정 날짜가 맞음(2014.5.28 크루제이루전 — ESPN·가제타 에스포르치바 '수요일 28일',
+# 2019 코파 두 브라질 16강~결승 — 결승 2차전 2019.9.18 베이라히우(위키백과·가제타 에스포르치바), 2019년 11~12월 리그 6경기 같은 묶음)
+DATE_FIX = {"2454384": "2014-05-28", "4115281": "2019-05-23", "4115283": "2019-05-29", "4115284": "2019-07-10", "4115285": "2019-07-17",
+            "4115286": "2019-08-07", "4115287": "2019-09-04", "4115288": "2019-09-11", "4115289": "2019-09-18",
+            "3272426": "2019-11-07", "3273304": "2019-11-10", "3277735": "2019-11-17", "3277779": "2019-11-27", "3277806": "2019-11-30",
+            "3285721": "2019-12-04", "4049119": "2020-01-26"}
+MIN_FIX = {}
 EV_MIN_FIX = {}
 def ldate(g): return DATE_FIX.get(g["gameId"], g["date_local"])
 def opp(g): return re.sub(r"\s*\(\s*-?\s*\d{4}\s*(-\s*\d{4})?\s*\)", "", g["opponent"]).strip()
-# 리길야 클라우수라 2026: TM 라운드 이름이 비어 있음(경기 목록·tm_two_leg_ties_extra.csv) → 8강 2차전·준결승 1·2차전
-RND_FIX = {"4884188": "Quarter-Finals 2nd Leg", "4886540": "Semi-Finals 1st Leg", "4886545": "Semi-Finals 2nd Leg"}
+# 코파 두 브라질 2014 2라운드 나시오나우(AM) 원정 3-0: 2골 차 이상 원정승이라 2차전 없이 끝난 1차전(파투 선례처럼 1차전으로 둠)
+RND_FIX = {"4285346": "Second Round 1st leg"}
+# 코파 두 브라질 2015 3라운드 나우치쿠 1차전(게레로 등록 전, 마라카낭 1-1): 위키백과 2015 Copa do Brasil Third Round·가제타 에스포르치바
+OTHER_LEG_FIX = {"4253882": (1, 1)}
 def rnd_of(g): return RND_FIX.get(g["gameId"], g["round"] or "")
 
 # ---------------------------------------------------------------- 대회 코드
-LEAGUE = {"VZ1A", "VZ1C", "ES2", "ES1", "RU1", "GB1", "CSL", "AR1N", "CDLP", "MEX1", "MEXA", "CSLR"}
-CUP = {"CDR", "RUP", "FAC", "CGB", "CHFA", "ARCA", "CDCA"}
+LEAGUE = {"L1", "BRA1", "AR1N", "EL1S", "TDeA", "TDeC"}
+STATE = {"BCP1", "BCPF", "BRCG", "BRCR", "BRCF", "BRC2", "BRRS", "BRga", "RS2f"}   # 주 선수권(파울리스타·카리오카·가우슈)·프리메이라 리가: 국내컵(디에구·네이마르·비니시우스 선례)
+CUP = {"DFB", "BRC", "ARCA"}
 def comp_of(cid, rnd):
     r = rnd.lower()
-    if cid in LEAGUE: return "lg"   # CDLP = 코파 데 라 리가 조별(카바니·테베스 선례 리그식), CSLR = 중국 슈퍼리그 2020 2단계 강등 라운드(리그 단계)
+    if cid in LEAGUE: return "lg"
+    if cid in STATE: return "dc"
     if cid in CUP:
         if r.startswith("final"): return "df"
         if r.startswith("semi"): return "dsf"
-        if r.startswith("quarter"): return "dk"   # 러시아컵·코파 데 라 리가 결선 8강
-        return "dc"   # 1~6라운드·16강·재경기·'4th round deciders'·코파 델 레이 16강
-    if cid == "RUSS": return "df"            # 러시아 슈퍼컵 = 국내컵 결승 비중
-    if cid == "TDCS": return "dsf"           # 트로페오 데 캄페오네스 2020 준결승(4팀 슈퍼컵 준결승)
-    if cid == "POME":                        # 리길야 = MLS 플레이오프 비중(치차리토·지냑·게레로 선례), 플레이인 mlp
-        if r.startswith("semi"): return "mlpsf"
+        if r.startswith("quarter"): return "dk"
+        return "dc"
+    if cid == "LPO":                         # DFL-리가포칼: 첫 경기(intermediate stage) dk, 준결승 dsf(클로제·발라크 선례)
+        if r.startswith("semi"): return "dsf"
+        if r.startswith("final"): return "df"
+        return "dk"
+    if cid == "RECO": return "df"            # 레코파 = 국내컵 결승 비중(디에구·더글라스 코스타 선례)
+    if cid == "KLUB": return "cwc"
+    if cid in ("LPPL", "PERF"):              # 에콰도르 결승·페루 플레이오프 = MLS 플레이오프 비중(칠레·콜롬비아 플레이오프·리길야 선례)
         if r.startswith("final"): return "mlpf"
+        if r.startswith("semi"): return "mlpsf"
         return "mlp"
-    if cid == "CCL":                         # 북중미 챔피언스컵 2024
-        if r.startswith("final"): return "cccf"
-        if r.startswith("semi"): return "cccsf"
-        if r.startswith("quarter"): return "ccck"
-        return "ccc"
-    if cid == "USMX":                        # 리그스컵
-        return "lcg" if r.startswith("group") else "lck"
-    if cid in ("FIC1", "KLUB"): return "cwc" # 인터콘티넨털컵 2024·클럽 월드컵 2025
-    if cid == "CLI": return "lib"            # 리베르타도레스 조별
     if cid == "CL":
         if r.startswith("group"): return "clg"
         if r.startswith("last 16"): return "cl16"
+        if r.startswith("quarter"): return "clk"
+        if r.startswith("semi"): return "clsf"
     if cid == "CLQ": return "clq"
-    if cid == "ELQ": return "elq"
+    if cid in ("ELQ", "UEQ"): return "elq"
+    if cid == "UEFA":
+        if r.startswith("first round"): return "elq"   # UEFA컵 1라운드(2009년 이전) = 유로파 예선
+        if r.startswith("group"): return "elg"
+        if r.startswith("semi"): return "elsf"
+        return "elk"
     if cid == "EL":
         if r.startswith("group"): return "elg"
-        return "elk"   # 32강(intermediate stage)·16강·8강
+        if r.startswith("semi"): return "elsf"
+        return "elk"
+    if cid == "CLI":
+        if r.startswith("quarter"): return "libk"
+        if r.startswith("semi"): return "libsf"
+        if r.startswith("final"): return "libf"
+        return "lib"                         # 예선 1~3라운드·조별·16강
+    if cid == "CS":
+        if r.startswith("quarter"): return "csak"
+        if r.startswith("semi"): return "csasf"
+        if r.startswith("final"): return "csaf"
+        return "csa"
     sys.exit("모르는 대회 " + cid + " " + rnd)
 
 def ko_of(cid, rnd, gid):
     r = rnd.lower()
     if "leg" in r: return 0
     if cid in LEAGUE: return 0
-    if cid == "KLUB": return 0               # 클럽 월드컵 2025 조별 리그식(§3)
-    if r.startswith("group") and cid != "USMX": return 0   # 챔스·유로파·리베르타도레스 조별
-    return 1   # 단판(리그스컵 조별은 무승부 없이 승부차기 — 인시녜·메시·지냑 선례 ko 1)
+    if cid in STATE and (r == "" or r.startswith("group")): return 0   # 주 선수권 1단계(조별·리그식)
+    if r.startswith("group"): return 0
+    return 1
 
 def tie_rule(cid, d, rnd):
-    if cid in ("CL", "EL", "ELQ", "CLQ"): return (int(d < "2021-07-01"), 1)
-    if cid == "CDR": return (int(d < "2019-07-01"), 1)
-    if cid == "CCL": return (1, 1)           # 북중미 챔피언스컵 2024~(지냑 선례)
-    if cid == "POME":
-        if rnd.lower().startswith("final"): return (0, 1)
-        return (0, 0)                        # 리길야 8강·준결승: 합계 동률이면 정규리그 상위 팀
-    if cid == "CSLR": return (0, 0)          # 중국 2020 2단계(승부차기 바로; 게레로 기록 없음)
+    r = rnd.lower()
+    if cid in ("CL", "EL", "ELQ", "CLQ", "UEFA", "UEQ"): return (1, 1)
+    if cid in STATE or cid in ("LPPL", "PERF"): return (0, 0)    # 주 선수권 결선·에콰도르 결승·페루 플레이오프: 원정 다득점·연장 없이 승부차기
+    if cid == "BRC":
+        if r.startswith("final"): return (0, 0)
+        return (1, 0) if d < "2018-01-01" else (0, 0)   # 원정 다득점 2017년까지, 연장 없음(디에구 선례)
+    if cid in ("CLI", "CS", "RECO"):
+        if d < "2005-01-01" or d >= "2022-01-01": return (0, 0)
+        if r.startswith("final"): return (0, 1)
+        return (1, 0)
     sys.exit("합산 규칙 없음 " + cid)
 
 def side_of(gid):
@@ -108,6 +131,7 @@ def side_of(gid):
     sys.exit("편 판정 실패 " + gid)
 
 def other_leg(gid):
+    if gid in OTHER_LEG_FIX: return OTHER_LEG_FIX[gid]
     g = G[gid]; club = g["clubId"]; rnd = rnd_of(g).lower()
     base = re.sub(r"\s*(1st|2nd) leg", "", rnd)
     cand = [x for x in GAMES if x["gameId"] != gid and x["competitionId"] == g["competitionId"] and x["opponentId"] == g["opponentId"]
@@ -123,6 +147,9 @@ def other_leg(gid):
         o = MI[oid]; fh, fa = map(int, o["final"].split("-"))
         if o["home_id"] == club: return (fh, fa)
         if o["away_id"] == club: return (fa, fh)
+    if m["other_leg_score"]:   # 다른 차전 스코어(그 경기 홈-원정; 다른 차전 홈 = 이 경기 원정 팀)
+        oh, oa = map(int, re.split(r"[-:]", m["other_leg_score"]))
+        return (oh, oa) if side_of(gid) == "a" else (oa, oh)
     sys.exit("다른 차전 없음 " + gid)
 
 def tie_of(gid):
@@ -166,11 +193,8 @@ def fm_assist(gid, e):
     return False
 
 # 2014.8 이후 Transfermarkt에만 있는 일반 유형 도움: 다른 출처 2곳으로 판정(judgments.md 4절)
-A_CHECK = {
- "2478440|88": (False, "2014.8.6 챔스 예선 AEL 리마솔전 88분 다니 골: UEFA 경기 기사('fended off another effort from the Venezuelan on 88 minutes only for Danny to tuck away the loose ball')·dp.ru 기사 모두 게레로 슈팅을 골키퍼가 막고 흘러나온 공을 다니가 넣은 것 — 슈팅 리바운드라 도움 아님(TM은 Header 유형, FotMob 도움 없음)"),
- "2914315|31": (True, "2017.8.22 리그컵 애크링턴전 31분 매트 필립스 골: ESPN 문자중계 'Assisted by Salomón Rondón'·Express & Star 경기 뒤 기사('his pin-point cross-field ball that set up Matt Phillips for the second')"),
- "4299897|63": (True, "2024.3.12 북중미 챔피언스컵 필라델피아전 63분 이드리시 골: ESPN 문자중계 'Assisted by Salomón Rondón'·Concacaf 경기 기사('Rondon setting the table so that Oussama Idrissi could fire')·필라델피아 유니언 공식 박스스코어 'Oussama Idrissi (Rondon) 63’'·MLS 기사"),
-}
+A_CHECK = {}
+exec(open(os.path.join(HERE, "assist_checks.py"), encoding="utf-8").read())   # A_CHECK 채움
 A_STATUS = []
 def assist_reason(e, d, gid):
     t = e["assist_type"]
@@ -190,7 +214,8 @@ def assist_reason(e, d, gid):
         A_STATUS.append((d, gid, e["minute"], e["scorer"], ("넣음: " if ok else "뺌: ") + why))
         return None if ok else why
     A_STATUS.append((d, gid, e["minute"], e["scorer"], "판정 없음"))
-    sys.exit("2014.8 이후 단일 출처 도움 판정 누락 " + k + " " + d)
+    if "--dev" not in sys.argv: sys.exit("2014.8 이후 단일 출처 도움 판정 누락 " + k + " " + d)
+    return None
 
 raw_rows, judg = [], []
 for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
@@ -292,6 +317,9 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 import league_points as PTS
 MAPNEED = []
 def lv_value(lv, d, o=None):
+    if "순위 없음" in lv.split(" (")[0]:   # 순위 없는 행: 그 단계 기준점(tools/league_rank_apply.py base())
+        p = _LRA["parse"](lv.split(" (")[0].replace(" 순위 없음", " 1위/20팀"), d)
+        return int(round(_LRA["base"](*p[:4])))
     p = _LRA["parse"](lv, d)
     if not p: sys.exit("라벨 해석 실패 " + lv)
     v = _LRA["value"](*p)
@@ -316,20 +344,9 @@ with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
         if len(p) < 5 or p[0] == "league": continue
         RANKS[(p[0], p[1].split(" ")[0])][key(p[4])] = (int(p[2]), int(p[3]), p[4])
 
-# 데이터 상대 이름(TM) → 순위표·통합표 이름(옛 이름·다른 표기)
-NAME_ALIAS = {
-    "GFK Jagodina": "FK Jagodina", "Akhmat Grozny": "Terek Grozny", "Mordovia Saransk": "Mordovia Saransk", "Kuban Krasnodar": "Kuban Krasnodar",
-    "Lokomotiv Moscow": "Lokomotiv Moskau", "Dynamo Moscow": "Dinamo Moscow", "Torpedo Moscow": "Torpedo Moskau", "Tom Tomsk": "Tom Tomsk",
-    "Tianjin Jinmen Tiger": "Tianjin Teda", "Chongqing Liangjiang Athletic": "Chongqing Dangdai Lifan", "Jiangsu FC": "Jiangsu Suning",
-    "Hebei FC": "Hebei China Fortune", "Beijing Chengfeng": "Beijing Renhe", "Shandong Taishan": "Shandong Luneng Taishan",
-    "Shanghai Shenhua": "Shanghai Greenland Shenhua", "Henan FC": "Henan Jianye", "Shenzhen FC": "Shenzhen FC",
-    "Guaros de Lara FC": "Deportivo Lara", "FA El Vigía Fútbol Club": "Atlético El Vigía", "Deportivo Anzoátegui SC": "Deportivo Anzoátegui",
-    "Unión Lara SC": "Unión Lara", "Estrella Roja FC": "Estrella Roja FC", "FUA Maracaibo": "Unión Atlético Maracaibo",
-    "PFK Tambov": "FK Tambov", "Real Unión Club": "Real Unión Club",
-}
+NAME_ALIAS = {}
 def nm_cands(o): return [o] + ([NAME_ALIAS[o]] if o in NAME_ALIAS else [])
 
-# 위키백과 표(ranks_wiki_tables.csv): 베네수엘라 2006-07 클라우수라, 중국 2020 최종 순위, 아르헨티나 코파 데 라 리가 2023 조, 코스타리카 2023-24
 WIKI = collections.defaultdict(dict)
 for r in rd("ranks_wiki_tables.csv"):
     WIKI[(r["file"], r["headings"])][key(r["team"])] = (int(r["rank"]), int(r["teams"]), r["team"])
@@ -338,39 +355,10 @@ def wiki_rank(fn, hd, o, extra=()):
     for nm in nm_cands(o) + list(extra):
         k = key(nm)
         if k in t: return t[k][:2]
-        for kk, v in t.items():   # 'Caracas' / 'Caracas FC' 같은 짧은 표기
+        for kk, v in t.items():
             if toks(kk) and toks(kk) <= toks(nm) | {"fc"}: return v[:2]
     return None
 
-# 베네수엘라 2007-08: 기존 자료(리켈메 FUA 마라카이보 '연간 합산 순위')와 같은 연간 합산표(아페르투라+클라우수라, elo/league_points_other.json 같은 표 순서)
-VEN0708 = ["Caracas FC", "Deportivo Táchira", "Deportivo Anzoátegui", "Unión Atlético Maracaibo", "Deportivo Lara", "Deportivo Italia", "Zamora FC",
-           "Portuguesa FC", "Llaneros de Guanare", "Aragua FC", "Mineros de Guayana", "Monagas Sport Club", "Carabobo FC", "Atlético El Vigía",
-           "Estudiantes de Mérida", "Estrella Roja FC", "Trujillanos FC", "Unión Lara"]
-def ven_label(o, d):
-    if "2006-08-01" <= d < "2007-01-01": return None   # 아페르투라 2006(게레로 기록은 자책골 유도 도움뿐)
-    if d < "2007-08-01":   # 클라우수라 2007 — 기존 카라카스 라벨과 같은 형식(경기 날짜 단계 순위)
-        v = wiki_rank("en_2006-07_ven.txt", "Torneo Apertura / Torneo Clausura", o)
-        return v and f"베네수엘라 1부 2006-07 {v[0]}위/{v[1]}팀 (Venezuelan Primera División, 경기 날짜에 진행 중이던 단계 순위)"
-    for i, t in enumerate(VEN0708):
-        if any(key(t) == key(nm) or toks(t) == toks(nm) for nm in nm_cands(o)):
-            return f"베네수엘라 1부 2007-08 {i + 1}위/18팀 (Primera División Venezolana, 연간 합산 순위)"
-    return None
-
-# 리가MX: 경기 날짜에 진행 중이던 단계(아페르투라 7~12월·클라우수라 1~6월)의 정규리그 순위(TM 단계 표: MEXA = 아페르투라, MEX1 = 클라우수라)
-def mx_stage(d):
-    y, mo = int(d[:4]), int(d[5:7])
-    return ("아페르투라", y, "MEXA", f"{y}-{str(y + 1)[2:]}") if mo >= 7 else ("클라우수라", y, "MEX1", f"{y - 1}-{str(y)[2:]}")
-def mx_label(o, d):
-    st, y, lg, s = mx_stage(d)
-    t = RANKS.get((lg, s), {})
-    for nm in nm_cands(o):
-        k = key(nm)
-        if k in t:
-            r, n, _ = t[k]
-            if (st, y) == ("아페르투라", 2026):
-                return f"리가MX {s} {r}위/{n}팀 (Liga MX 아페르투라 2026, 정규리그 최종 순위 — 2026년 11월 22일 정규리그 종료)"
-            return f"리가MX {s} {r}위/{n}팀 (Liga MX {st} {y}, 경기 날짜에 진행 중이던 단계의 정규리그 순위)"
-    return None
 def stage_key(lv):   # tools/elo_table.js lvSeason()과 같은 시즌 키
     t = lv
     for _ in range(3): t = re.sub(r"\([^()]*\)", " ", t)
@@ -383,50 +371,25 @@ def stage_key(lv):   # tools/elo_table.js lvSeason()과 같은 시즌 키
     g = re.search(r"(Apertura|Clausura|Inicial|Torneo Final|Torneo I{1,2}\b|Copa de la Liga|아페르투라|클라우수라)", lv)
     return s + "/" + g.group(1).replace("아페르투라", "Apertura").replace("클라우수라", "Clausura") if s and g else s
 
-def make_label(lg, season, v, d):
-    r, n, nm = v
-    if lg == "RU1": return f"러시아 1부 {season} {r}위/{n}팀 (Russian Premier League)"
-    if lg == "RU2": return f"러시아 2부 {season} {r}위/{n}팀 (Russian Football National League, 리그 수준 추정)"
-    if lg == "ES2": return f"세군다 {season} {r}위/{n}팀"
-    if lg == "GB2": return f"챔피언십 {season} {r}위/{n}팀"
-    if lg == "GB3": return f"잉글랜드 3부 {season} {r}위/{n}팀 (EFL League One, 리그 수준 추정)"
-    if lg == "GB4": return f"잉글랜드 4부 {season} {r}위/{n}팀 (EFL League Two, 리그 수준 추정)"
-    if lg == "CNAT": return f"잉글랜드 5부 {season} {r}위/{n}팀 (National League, 리그 수준 추정)"
-    if lg == "DK1": return f"덴마크 1부 {season} {r}위/{n}팀 (Danish Superliga)"
-    if lg == "NL1": return f"에레디비시 {season} {r}위"
-    if lg == "AR1N": return f"아르헨티나 1부 2023 리가 {r}위/{n}팀"
-    if lg == "CSL": return f"중국 슈퍼리그 {season.split(' ')[0]} {r}위/{n}팀"
-    return None
-
 def eu(d):
     y = int(d[:4]); m = int(d[5:7]); s_ = y if m >= 8 else y - 1
     if y == 2020 and m in (7, 8): s_ = 2019
     return f"{s_}-{str(s_ + 1)[2:]}"
 
-MAN = []   # 순위표 밖·직접 정한 상대: (key, 날짜 시작, 날짜 끝, lv)
+MAN = []   # 직접 정한 상대 라벨: (key, 날짜 시작, 날짜 끝, lv)
 def man(o, d, lv, d2=None): MAN.append((key(o), d, d2 or d, lv))
 def man_get(o, d):
     for k_, a_, b_, lv_ in MAN:
         if k_ == key(o) and a_ <= d <= b_: return lv_
     return None
-# 중국 슈퍼리그 2020(두 조 1단계 뒤 2단계): 영어 위키백과 'Final ranking' 최종 순위(기존 광저우·베이징 라벨과 같은 형식)
-for o_ in ("Jiangsu FC", "Shandong Taishan", "Shanghai Shenhua"):
-    v_ = wiki_rank("en_2020_csl.txt", "Final ranking (after championship/relegation stage)", o_, ("Shanghai Greenland Shenhua", "Shandong Luneng Taishan", "Jiangsu Suning"))
-    man(o_, "2020-01-01", f"중국 슈퍼리그 2020 {v_[0]}위/{v_[1]}팀 (두 조 1단계 뒤 챔피언십·강등 단계 최종 순위)", "2020-12-31")
-# 아르헨티나 2023: 리그(LPF) = 기존 카바니 라벨 형식 '아르헨티나 1부 2023 리가 N위/28팀'(TM AR1N 2023 최종 순위),
-# 코파 데 라 리가 2023 조별·결선 = 그 대회 조 순위(카바니 플라텐세 '아르헨티나 리가 컵 2023 Zona B 조' 형식; 리버는 A조)
-for o_, d_ in (("CA Barracas Central", "2023-08-27"), ("Club Atlético Tucumán", "2023-09-21"), ("Club de Gimnasia y Esgrima La Plata", "2023-10-29")):
-    v_ = wiki_rank("en_2023_copaliga_arg.txt", "Group stage / Zone A", o_, ("Barracas Central", "Atlético Tucumán", "Gimnasia y Esgrima (LP)"))
-    man(o_, d_, f"아르헨티나 리가 컵 2023 Zona A 조 {v_[0]}위/{v_[1]}팀")
-for o_, d_ in (("CA Boca Juniors", "2023-10-01"), ("Club Atlético Belgrano", "2023-12-03")):
-    v_ = wiki_rank("en_2023_copaliga_arg.txt", "Zone A / Zone B", o_, ("Boca Juniors", "Belgrano"))
-    man(o_, d_, f"아르헨티나 리가 컵 2023 Zona B 조 {v_[0]}위/{v_[1]}팀")
-# 코스타리카 2023-24 클라우수라 2024 정규 단계(영어 위키백과 2023–24 Liga FPD): 에레디아노 2위/12팀
-man("CS Herediano", "2024-04-03", "코스타리카 1부 2023-24 2위/12팀 (Liga FPD 클라우수라 2024, 경기 날짜에 진행 중이던 단계의 정규리그 순위)", "2024-04-10")
+exec(open(os.path.join(HERE, "man_elo.py"), encoding="utf-8").read())   # man(...) 라벨 목록
 
+EUROPE = {"L1", "DFB", "LPO", "CL", "CLQ", "UEFA", "UEQ", "EL", "ELQ"}
 ELO_SRC = collections.Counter(); ELO_LOG = {}; MISS = []; NEW_TS = {}; TABLE_DIFF = []
-def seasons_for(d):
-    return [eu(d), d[:4]]
+def seasons_for(d, cid):
+    if cid in EUROPE: return [eu(d)]
+    if cid == "KLUB": return [eu(d), d[:4]]
+    return [d[:4]]
 def table_hit(o, ks):
     for nm in nm_cands(o):
         for s in ks:
@@ -439,45 +402,43 @@ def opp_elo(o, d, cid, g):
         e, lv = next(iter(vals)); ELO_SRC["같은 경기 다른 선수 자료"] += 1
         ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
     if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
-    k = key(o)
-    lv = None
-    if cid in ("MEXA", "MEX1", "POME", "CCL", "USMX") and o not in ("Philadelphia Union", "Columbus Crew", "Red Bull New York", "CS Herediano"):
-        lv = mx_label(o, d)
-    elif cid in ("VZ1A", "VZ1C"):
-        lv = ven_label(o, d)
-    if lv:   # 같은 팀×단계 키가 통합표에 있으면 그 라벨
+    lv = man_get(o, d)
+    if lv:
         h = table_hit(o, [stage_key(lv)])
         if h:
             (e, lv2), s = h; ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv2, s)
-            if lv_value(lv2, d, o) != e: TABLE_DIFF.append((o, s, e, lv2, lv_value(lv2, d, o)))
+            if lv2 != lv: TABLE_DIFF.append((o, s, lv, lv2))
             return e, lv2
-        e = lv_value(lv, d, o); ELO_SRC["단계·연간 순위 라벨"] += 1
-        ELO_LOG[(o, d)] = ("stage", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
-    if man_get(o, d):
-        lv = man_get(o, d)
+        e = lv_value(lv, d, o); ELO_SRC["직접 라벨"] += 1
+        ELO_LOG[(o, d)] = ("man", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
+    if cid in ("TDeA", "TDeC", "PERF"):   # 페루 단계 리그(man_elo.py pe_label)
+        lv = pe_label(o, d)
+        if not lv: MISS.append((o, d, cid, "stage")); return 0, "?"
         h = table_hit(o, [stage_key(lv)])
         if h:
-            (e, lv2), s = h; ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv2, s); return e, lv2
-        e = lv_value(lv, d, o); ELO_SRC["직접 라벨(순위표 밖)"] += 1
-        ELO_LOG[(o, d)] = ("man", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
-    h = table_hit(o, seasons_for(d))
+            (e, lv2), s = h; ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv2, s)
+            if lv2 != lv: TABLE_DIFF.append((o, s, lv, lv2))
+            return e, lv2
+        e = lv_value(lv, d, o); ELO_SRC["단계 순위 라벨"] += 1
+        ELO_LOG[(o, d)] = ("stage", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
+    if cid in ("BRA1", "BRC") or cid in STATE:
+        lv = br_label(o, d[:4])
+        if lv:
+            h = table_hit(o, [d[:4]])
+            if h:
+                (e, lv2), s = h; ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv2, s)
+                if lv2 != lv: TABLE_DIFF.append((o, s, lv, lv2))
+                return e, lv2
+            e = lv_value(lv, d, o); ELO_SRC["브라질 순위표 → 라벨"] += 1
+            ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
+    h = table_hit(o, seasons_for(d, cid))
     if h:
         (e, lv), s = h
         ELO_SRC["기존 팀×시즌 값"] += 1; ELO_LOG[(o, d)] = ("table", e, lv, s)
         p = _LRA["parse"](lv, d)
         if p and lv_value(lv, d, o) != e: TABLE_DIFF.append((o, s, e, lv, lv_value(lv, d, o)))
         return e, lv
-    s = eu(d)
-    for lg in ("RU1", "RU2", "ES2", "GB2", "GB3", "GB4", "CNAT", "DK1", "NL1", "CSL", "AR1N"):
-        for ss in (s, d[:4]):
-            t = RANKS.get((lg, ss), {})
-            for nm in nm_cands(o):
-                if key(nm) in t:
-                    lv = make_label(lg, ss, t[key(nm)], d)
-                    if not lv: continue
-                    e = lv_value(lv, d, o); ELO_SRC["순위표 → 라벨"] += 1
-                    ELO_LOG[(o, d)] = ("model", e, lv); NEW_TS[(o, s)] = (e, lv); return e, lv
-    MISS.append((o, d, cid, s)); return 0, "?"
+    MISS.append((o, d, cid, seasons_for(d, cid)[0])); return 0, "?"
 
 E = []
 for typ, gid, mi, dm, gf, ga, pk, note in raw_rows:
@@ -520,6 +481,10 @@ for r in E:
         if mm.group(1) == "중국 슈퍼리그 2020" or same_tabs: cand = [0]   # 2020 1단계 A조(다롄·장쑤·산둥·상하이 선화·선전·허난 모두 A조)
         if len(cand) != 1 and not alias_pos: continue
         ti = cand[0] if len(cand) == 1 else alias_pos[0]
+    tname = tabs[ti]["name"]
+    tst = "Apertura" if "Apertura" in tname else "Clausura" if "Clausura" in tname else "Aggregate" if "Aggregate" in tname else None
+    lst = st or ("Aggregate" if "연간" in lv or "합산" in lv or "통합" in lv else None)
+    if tst in ("Apertura", "Clausura") and lst != tst: continue   # 단계 표와 다른 단계 라벨(페루 클라우수라·연간)은 순위 곡선
     cur = mp.get(f"{rk}={o}") or mp.get(f"{o}@{rk}") or mp.get(o)
     res = PTS.other_score(lv, o)
     src = ELO_LOG.get((o, r[9]), ("?",))[0]
@@ -531,6 +496,7 @@ for r in E:
         MAP_LINES[(mm.group(1), o)] = (tabs[alias_pos[0]]["rows"][alias_pos[1]][0], alias_pos, rk, 1.0, "기존 다른 표기와 같은 행"); continue
     sc_, ri = row_of(tabs[ti]["rows"], o, rk)
     kname = o if (o not in mp and (len(tabs) == 1 or same_tabs)) else f"{o}@{rk}"
+    if tst in ("Apertura", "Clausura"): kname = f"{rk}={o}"   # 같은 해 다른 단계 라벨에 안 쓰이게 순위 붙은 키
     MAP_LINES[(mm.group(1), kname)] = (tabs[ti]["rows"][ri][0], [ti, ri], rk, round(sc_, 2), "표 순위 다름" if ri + 1 != rk else "")
 if "--map" in sys.argv:
     for (h, k), v in sorted(MAP_LINES.items()): print(f"{h} | {k} | {v[0]} | {v[1]} {v[4]} sim={v[3]}")
@@ -621,23 +587,20 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if any(mm[0] == m[0] and key(mm[1]) == key(m[1]) for mm in om): SHARED[b] += 1
 
 # ---------------------------------------------------------------- 클럽·시즌
-CLUBS = [("arasrd", "2008-07-21"), ("lpsrd", "2010-07-19"), ("malsrd", "2012-08-05"), ("rubsrd", "2014-01-31"), ("zensrd", "2015-08-10"),
-         ("wbasrd", "2018-08-06"), ("ncsrd", "2019-07-19"), ("dalsrd", "2021-02-15"), ("cssrd", "2021-08-31"), ("evesrd", "2023-01-30"),
-         ("rivsrd", "2024-01-01"), ("pacsrd", "2025-07-03"), ("ovisrd", "2026-01-01"), ("pacsrd", None)]
-TM_CLUB = {"8331": "arasrd", "472": "lpsrd", "1084": "malsrd", "2698": "rubsrd", "964": "zensrd", "984": "wbasrd", "762": "ncsrd",
-           "33304": "dalsrd", "2410": "cssrd", "29": "evesrd", "209": "rivsrd", "4035": "pacsrd", "2497": "ovisrd"}
+CLUBS = [("baypgu", "2006-07-01"), ("hsvpgu", "2012-07-15"), ("corpgu", "2015-06-16"), ("flapgu", "2018-08-12"), ("intpgu", "2022-07-21"),
+         ("avapgu", "2023-01-25"), ("racpgu", "2023-07-14"), ("ldupgu", "2024-02-02"), ("ucvpgu", "2024-08-31"), ("alipgu", None)]
+TM_CLUB = {"27": "baypgu", "41": "hsvpgu", "199": "corpgu", "614": "flapgu", "6600": "intpgu", "2035": "avapgu", "1444": "racpgu",
+           "9855": "ldupgu", "6889": "ucvpgu", "184": "alipgu"}
 def club_of(d):
     for k, u in CLUBS:
         if u is None or d < u: return k
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["clubId"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["clubId"])
-PERIODS = [("아라과", "2006~2008", None, "2008-07-21"), ("라스 팔마스", "2008~2010", "2008-07-21", "2010-07-19"),
-           ("말라가", "2010~2012", "2010-07-19", "2012-08-05"), ("루빈 카잔", "2012~2014", "2012-08-05", "2014-01-31"),
-           ("제니트", "2014~2015", "2014-01-31", "2015-08-10"), ("웨스트 브로미치", "2015~2018", "2015-08-10", "2018-08-06"),
-           ("뉴캐슬", "2018~2019", "2018-08-06", "2019-07-19"), ("다롄", "2019~2020", "2019-07-19", "2021-02-15"),
-           ("CSKA 모스크바", "2021", "2021-02-15", "2021-08-31"), ("에버턴", "2021~2022", "2021-08-31", "2023-01-30"),
-           ("리버 플레이트", "2023", "2023-01-30", "2024-01-01"), ("파추카", "2024~2025", "2024-01-01", "2025-07-03"),
-           ("오비에도", "2025", "2025-07-03", "2026-01-01"), ("파추카", "2026~", "2026-01-01", None)]
+PERIODS = [("바이에른 뮌헨", "2003~2006", None, "2006-07-01"), ("함부르크", "2006~2012", "2006-07-01", "2012-07-15"),
+           ("코린치안스", "2012~2015", "2012-07-15", "2015-06-16"), ("플라멩구", "2015~2018", "2015-06-16", "2018-08-12"),
+           ("인테르나시오나우", "2018~2021", "2018-08-12", "2022-07-21"), ("아바이", "2022", "2022-07-21", "2023-01-25"),
+           ("라싱", "2023", "2023-01-25", "2023-07-14"), ("LDU 키토", "2023", "2023-07-14", "2024-02-02"),
+           ("세사르 바예호", "2024", "2024-02-02", "2024-08-31"), ("알리안사 리마", "2024~", "2024-08-31", None)]
 def per(lo, hi):
     inr = lambda d: (lo is None or d >= lo) and (hi is None or d < hi)
     return [sum(1 for m in M if inr(m[0])), sum(1 for r in E if r[0] == "g" and inr(r[9])),
