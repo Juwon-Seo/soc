@@ -38,7 +38,7 @@ LG = {
  'KOR':  (['K리그', '한국'], 'Korean K-League 1|Korea Republic', ['RSK1'], True, 12),
  'CHN':  (['중국'], 'Chinese Super League|China PR', ['CSL'], True, 16),
  'AUS':  (['호주', 'A리그'], 'Australian A-League Men|Australia', ['AUS1'], False, 10),
- 'IND':  (['인도'], 'Indian Super League|India', ['IND1'], False, 10),
+ 'IND':  (['인도 '], 'Indian Super League|India', ['IND1'], False, 10),
  'URU':  (['우루과이'], 'Uruguay Liga AUF|Uruguay', ['URU1', 'URUC'], True, 16),
  'COL':  (['콜롬비아'], 'Colombia Primera A|Colombia', ['COLP', 'COL1'], True, 20),
  'CHI':  (['칠레'], 'Chile Primera|Chile', ['CHLA', 'CHL1', 'CLPD'], True, 16),

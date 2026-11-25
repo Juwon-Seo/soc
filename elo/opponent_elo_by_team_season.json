@@ -8529,6 +8529,21 @@
    "1337": 5
   }
  },
+ "Adelaide United|2009-10": {
+  "elo": 1256,
+  "basis": "단일값",
+  "lv": "호주 A리그 2009-10 10위/10팀",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Adelaide United"
+  ],
+  "vals": {
+   "1256": 1
+  }
+ },
  "Adelaide United|2011-12": {
   "elo": 1272,
   "basis": "단일값",
@@ -11300,6 +11315,21 @@
   ],
   "vals": {
    "1373": 2
+  }
+ },
+ "Ajou University|2002": {
+  "elo": 1003,
+  "basis": "단일값",
+  "lv": "한국 3부 2002 순위 없음 (아주대학교, 대학 팀 — 리그 소속 없음, 실업 리그 아래 단계로 봄; 리그 수준 추정)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ajou University"
+  ],
+  "vals": {
+   "1003": 1
   }
  },
  "Akcaabat Sebatspor|2004-05": {
@@ -15346,6 +15376,21 @@
    "1260": 3
   }
  },
+ "Al-Shabab FC|2010-11": {
+  "elo": 1443,
+  "basis": "단일값",
+  "lv": "사우디 프로리그 2010-11 4위/14팀",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Al-Shabab FC"
+  ],
+  "vals": {
+   "1443": 1
+  }
+ },
  "Al-Shabab FC|2012-13": {
   "elo": 1525,
   "basis": "단일값",
@@ -18639,6 +18684,21 @@
   ],
   "vals": {
    "1438": 7
+  }
+ },
+ "Anyang LG Cheetahs|1999": {
+  "elo": 1331,
+  "basis": "단일값",
+  "lv": "K리그1 1999 9위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Anyang LG Cheetahs"
+  ],
+  "vals": {
+   "1331": 1
   }
  },
  "Anzhi Makhachkala|2010": {
@@ -33230,19 +33290,35 @@
    "1050": 8
   }
  },
+ "Becamex Binh Duong FC|2015": {
+  "elo": 1316,
+  "basis": "단일값",
+  "lv": "베트남 1부 2015 1위/14팀 (V.League 1)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Becamex Binh Duong FC"
+  ],
+  "vals": {
+   "1316": 2
+  }
+ },
  "Becamex Binh Duong FC|2016": {
   "elo": 1134,
   "basis": "단일값",
   "lv": "베트남 1부 2016 10위/14팀 (V.League 1, 리그 수준 추정)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Becamex Binh Duong FC"
   ],
   "vals": {
-   "1134": 1
+   "1134": 2
   }
  },
  "Beerschot VA|2019-20": {
@@ -33388,15 +33464,16 @@
   "elo": 1459,
   "basis": "단일값",
   "lv": "중국 슈퍼리그 2019 2위/16팀",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "오스카"
   ],
   "names": [
    "Beijing Guoan"
   ],
   "vals": {
-   "1459": 2
+   "1459": 4
   }
  },
  "Beijing Guoan|2020": {
@@ -41458,6 +41535,96 @@
    "1076": 2
   }
  },
+ "Bucheon SK|1998": {
+  "elo": 1365,
+  "basis": "단일값",
+  "lv": "K리그1 1998 7위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1365": 1
+  }
+ },
+ "Bucheon SK|1999": {
+  "elo": 1433,
+  "basis": "단일값",
+  "lv": "K리그1 1999 3위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1433": 1
+  }
+ },
+ "Bucheon SK|2001": {
+  "elo": 1365,
+  "basis": "단일값",
+  "lv": "K리그1 2001 7위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1365": 1
+  }
+ },
+ "Bucheon SK|2002": {
+  "elo": 1352,
+  "basis": "단일값",
+  "lv": "K리그1 2002 8위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1352": 1
+  }
+ },
+ "Bucheon SK|2003": {
+  "elo": 1314,
+  "basis": "단일값",
+  "lv": "K리그1 2003 12위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1314": 2
+  }
+ },
+ "Bucheon SK|2005": {
+  "elo": 1415,
+  "basis": "단일값",
+  "lv": "K리그1 2005 5위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Bucheon SK"
+  ],
+  "vals": {
+   "1415": 1
+  }
+ },
  "Burgos CF|2022-23": {
   "elo": 1553,
   "basis": "단일값",
@@ -41501,6 +41668,21 @@
   ],
   "vals": {
    "1539": 1
+  }
+ },
+ "Buriram United|2012": {
+  "elo": 1274,
+  "basis": "단일값",
+  "lv": "태국 1부 2012 4위/18팀 (Thai Premier League)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Buriram United"
+  ],
+  "vals": {
+   "1274": 2
   }
  },
  "Buriram United|2014": {
@@ -42276,19 +42458,215 @@
    "1450": 1
   }
  },
+ "Busan Daewoo Royals|1998": {
+  "elo": 1392,
+  "basis": "단일값",
+  "lv": "K리그1 1998 5위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan Daewoo Royals"
+  ],
+  "vals": {
+   "1392": 1
+  }
+ },
+ "Busan Daewoo Royals|1999": {
+  "elo": 1463,
+  "basis": "단일값",
+  "lv": "K리그1 1999 2위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan Daewoo Royals"
+  ],
+  "vals": {
+   "1463": 2
+  }
+ },
+ "Busan I'Cons|2000": {
+  "elo": 1376,
+  "basis": "단일값",
+  "lv": "K리그1 2000 6위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan I'Cons"
+  ],
+  "vals": {
+   "1376": 1
+  }
+ },
+ "Busan I'Cons|2002": {
+  "elo": 1331,
+  "basis": "단일값",
+  "lv": "K리그1 2002 9위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan I'Cons"
+  ],
+  "vals": {
+   "1331": 2
+  }
+ },
+ "Busan I'Cons|2003": {
+  "elo": 1360,
+  "basis": "단일값",
+  "lv": "K리그1 2003 9위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan I'Cons"
+  ],
+  "vals": {
+   "1360": 5
+  }
+ },
+ "Busan I'Cons|2004": {
+  "elo": 1382,
+  "basis": "단일값",
+  "lv": "K리그1 2004 7위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan I'Cons"
+  ],
+  "vals": {
+   "1382": 3
+  }
+ },
+ "Busan IPark|2005": {
+  "elo": 1429,
+  "basis": "단일값",
+  "lv": "K리그1 2005 4위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1429": 2
+  }
+ },
+ "Busan IPark|2008": {
+  "elo": 1366,
+  "basis": "단일값",
+  "lv": "K리그1 2008 12위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1366": 1
+  }
+ },
+ "Busan IPark|2009": {
+  "elo": 1336,
+  "basis": "단일값",
+  "lv": "K리그1 2009 12위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1336": 2
+  }
+ },
+ "Busan IPark|2011": {
+  "elo": 1454,
+  "basis": "단일값",
+  "lv": "K리그1 2011 6위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1454": 4
+  }
+ },
+ "Busan IPark|2012": {
+  "elo": 1461,
+  "basis": "단일값",
+  "lv": "K리그1 2012 7위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1461": 3
+  }
+ },
+ "Busan IPark|2013": {
+  "elo": 1478,
+  "basis": "단일값",
+  "lv": "K리그1 2013 6위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1478": 1
+  }
+ },
  "Busan IPark|2014": {
   "elo": 1458,
   "basis": "단일값",
   "lv": "K리그1 2014 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Busan IPark"
   ],
   "vals": {
-   "1458": 1
+   "1458": 4
+  }
+ },
+ "Busan IPark|2015": {
+  "elo": 1415,
+  "basis": "단일값",
+  "lv": "K리그1 2015 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Busan IPark"
+  ],
+  "vals": {
+   "1415": 3
   }
  },
  "Büyüksehir Belediye Erzurumspor|2018-19": {
@@ -55534,15 +55912,16 @@
   "elo": 1577,
   "basis": "단일값",
   "lv": "J1리그 2011 12위/18팀",
-  "n": 1,
+  "n": 8,
   "players": [
+   "이동국",
    "나카무라 슌스케"
   ],
   "names": [
    "Cerezo Osaka"
   ],
   "vals": {
-   "1577": 1
+   "1577": 8
   }
  },
  "Cerezo Osaka|2017": {
@@ -57456,6 +57835,21 @@
    "1312": 1
   }
  },
+ "Changchun Yatai|2010": {
+  "elo": 1193,
+  "basis": "단일값",
+  "lv": "중국 슈퍼리그 2010 9위/16팀",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Changchun Yatai"
+  ],
+  "vals": {
+   "1193": 2
+  }
+ },
  "Changchun Yatai|2013": {
   "elo": 1259,
   "basis": "단일값",
@@ -59101,6 +59495,21 @@
   ],
   "vals": {
    "1080": 4
+  }
+ },
+ "Cheonan Ilhwa Chunma|1998": {
+  "elo": 1314,
+  "basis": "단일값",
+  "lv": "K리그1 1998 10위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Cheonan Ilhwa Chunma"
+  ],
+  "vals": {
+   "1314": 2
   }
  },
  "Cherno More Varna|2008-09": {
@@ -70653,19 +71062,140 @@
    "1366": 2
   }
  },
+ "Daegu FC|2004": {
+  "elo": 1357,
+  "basis": "단일값",
+  "lv": "K리그1 2004 10위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1357": 1
+  }
+ },
+ "Daegu FC|2005": {
+  "elo": 1365,
+  "basis": "단일값",
+  "lv": "K리그1 2005 9위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1365": 3
+  }
+ },
+ "Daegu FC|2009": {
+  "elo": 1299,
+  "basis": "단일값",
+  "lv": "K리그1 2009 15위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1299": 4
+  }
+ },
+ "Daegu FC|2010": {
+  "elo": 1307,
+  "basis": "단일값",
+  "lv": "K리그1 2010 15위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1307": 2
+  }
+ },
+ "Daegu FC|2011": {
+  "elo": 1399,
+  "basis": "단일값",
+  "lv": "K리그1 2011 12위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1399": 1
+  }
+ },
+ "Daegu FC|2012": {
+  "elo": 1431,
+  "basis": "단일값",
+  "lv": "K리그1 2012 10위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1431": 2
+  }
+ },
+ "Daegu FC|2017": {
+  "elo": 1428,
+  "basis": "단일값",
+  "lv": "K리그1 2017 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1428": 1
+  }
+ },
  "Daegu FC|2018": {
   "elo": 1404,
   "basis": "단일값",
   "lv": "K리그1 2018 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Daegu FC"
   ],
   "vals": {
-   "1404": 1
+   "1404": 3
+  }
+ },
+ "Daegu FC|2019": {
+  "elo": 1463,
+  "basis": "단일값",
+  "lv": "K리그1 2019 5위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daegu FC"
+  ],
+  "vals": {
+   "1463": 2
   }
  },
  "Daegu FC|2021": {
@@ -70683,19 +71213,200 @@
    "1451": 1
   }
  },
+ "Daejeon Citizen|1998": {
+  "elo": 1331,
+  "basis": "단일값",
+  "lv": "K리그1 1998 9위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1331": 2
+  }
+ },
+ "Daejeon Citizen|1999": {
+  "elo": 1352,
+  "basis": "단일값",
+  "lv": "K리그1 1999 8위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1352": 1
+  }
+ },
+ "Daejeon Citizen|2000": {
+  "elo": 1352,
+  "basis": "단일값",
+  "lv": "K리그1 2000 8위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1352": 2
+  }
+ },
+ "Daejeon Citizen|2002": {
+  "elo": 1314,
+  "basis": "단일값",
+  "lv": "K리그1 2002 10위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1314": 2
+  }
+ },
+ "Daejeon Citizen|2003": {
+  "elo": 1390,
+  "basis": "단일값",
+  "lv": "K리그1 2003 6위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1390": 1
+  }
+ },
+ "Daejeon Citizen|2004": {
+  "elo": 1340,
+  "basis": "단일값",
+  "lv": "K리그1 2004 11위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1340": 1
+  }
+ },
+ "Daejeon Citizen|2005": {
+  "elo": 1373,
+  "basis": "단일값",
+  "lv": "K리그1 2005 8위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1373": 1
+  }
+ },
+ "Daejeon Citizen|2008": {
+  "elo": 1357,
+  "basis": "단일값",
+  "lv": "K리그1 2008 13위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1357": 1
+  }
+ },
+ "Daejeon Citizen|2009": {
+  "elo": 1360,
+  "basis": "단일값",
+  "lv": "K리그1 2009 9위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1360": 2
+  }
+ },
+ "Daejeon Citizen|2010": {
+  "elo": 1329,
+  "basis": "단일값",
+  "lv": "K리그1 2010 13위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1329": 1
+  }
+ },
+ "Daejeon Citizen|2011": {
+  "elo": 1366,
+  "basis": "단일값",
+  "lv": "K리그1 2011 15위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1366": 3
+  }
+ },
+ "Daejeon Citizen|2013": {
+  "elo": 1387,
+  "basis": "단일값",
+  "lv": "K리그1 2013 14위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Daejeon Citizen"
+  ],
+  "vals": {
+   "1387": 1
+  }
+ },
  "Daejeon Citizen|2015": {
   "elo": 1399,
   "basis": "단일값",
   "lv": "K리그1 2015 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 6,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Daejeon Citizen"
   ],
   "vals": {
-   "1399": 1
+   "1399": 6
   }
  },
  "Dagenham & Redbridge|2011-12": {
@@ -94084,6 +94795,51 @@
    "1150": 2
   }
  },
+ "FC Seoul|2009": {
+  "elo": 1410,
+  "basis": "단일값",
+  "lv": "K리그1 2009 5위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "FC Seoul"
+  ],
+  "vals": {
+   "1410": 2
+  }
+ },
+ "FC Seoul|2011": {
+  "elo": 1466,
+  "basis": "단일값",
+  "lv": "K리그1 2011 5위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "FC Seoul"
+  ],
+  "vals": {
+   "1466": 2
+  }
+ },
+ "FC Seoul|2012": {
+  "elo": 1606,
+  "basis": "단일값",
+  "lv": "K리그1 2012 1위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "FC Seoul"
+  ],
+  "vals": {
+   "1606": 2
+  }
+ },
  "FC Seoul|2013": {
   "elo": 1505,
   "basis": "단일값",
@@ -94103,30 +94859,32 @@
   "elo": 1531,
   "basis": "단일값",
   "lv": "K리그1 2014 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "FC Seoul"
   ],
   "vals": {
-   "1531": 1
+   "1531": 2
   }
  },
  "FC Seoul|2015": {
   "elo": 1511,
   "basis": "단일값",
   "lv": "K리그1 2015 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "FC Seoul"
   ],
   "vals": {
-   "1511": 2
+   "1511": 4
   }
  },
  "FC Seoul|2016": {
@@ -94148,8 +94906,9 @@
   "elo": 1496,
   "basis": "단일값",
   "lv": "K리그1 2017 5위/12팀 (K League 1)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성",
    "오스카"
   ],
@@ -94157,22 +94916,53 @@
    "FC Seoul"
   ],
   "vals": {
-   "1496": 2
+   "1496": 3
   }
  },
  "FC Seoul|2018": {
   "elo": 1369,
   "basis": "단일값",
   "lv": "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "FC Seoul"
   ],
   "vals": {
-   "1369": 2
+   "1369": 3
+  }
+ },
+ "FC Seoul|2019": {
+  "elo": 1461,
+  "basis": "단일값",
+  "lv": "K리그1 2019 3위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "FC Seoul"
+  ],
+  "vals": {
+   "1461": 1
+  }
+ },
+ "FC Seoul|2020": {
+  "elo": 1393,
+  "basis": "단일값",
+  "lv": "K리그1 2020 9위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "FC Seoul"
+  ],
+  "vals": {
+   "1393": 2
   }
  },
  "FC Sète 34|2006-07": {
@@ -96116,15 +96906,16 @@
   "elo": 1566,
   "basis": "단일값",
   "lv": "J1리그 2016 연간 9위/18팀",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "FC Tokyo"
   ],
   "vals": {
-   "1566": 2
+   "1566": 3
   }
  },
  "FC Tokyo|2017": {
@@ -104721,19 +105512,95 @@
    "1535": 1
   }
  },
+ "Gangneung City|2010": {
+  "elo": 1166,
+  "basis": "단일값",
+  "lv": "한국 2부 2010 3위/15팀 (Korea National League, 실업 리그·플레이오프 뒤 최종 순위; 리그 수준 추정)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gangneung City"
+  ],
+  "vals": {
+   "1166": 1
+  }
+ },
+ "Gangwon FC|2010": {
+  "elo": 1344,
+  "basis": "단일값",
+  "lv": "K리그1 2010 12위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gangwon FC"
+  ],
+  "vals": {
+   "1344": 1
+  }
+ },
+ "Gangwon FC|2011": {
+  "elo": 1352,
+  "basis": "단일값",
+  "lv": "K리그1 2011 16위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gangwon FC"
+  ],
+  "vals": {
+   "1352": 1
+  }
+ },
+ "Gangwon FC|2012": {
+  "elo": 1394,
+  "basis": "단일값",
+  "lv": "K리그1 2012 14위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gangwon FC"
+  ],
+  "vals": {
+   "1394": 1
+  }
+ },
+ "Gangwon FC|2013": {
+  "elo": 1410,
+  "basis": "단일값",
+  "lv": "K리그1 2013 12위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gangwon FC"
+  ],
+  "vals": {
+   "1410": 1
+  }
+ },
  "Gangwon FC|2017": {
   "elo": 1430,
   "basis": "단일값",
   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 5,
+  "n": 6,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Gangwon FC"
   ],
   "vals": {
-   "1430": 5
+   "1430": 6
   }
  },
  "Gazélec Ajaccio|2006-07": {
@@ -110434,6 +111301,21 @@
    "1290": 1
   }
  },
+ "Guangzhou Evergrande Taobao|2012": {
+  "elo": 1399,
+  "basis": "단일값",
+  "lv": "중국 슈퍼리그 2012 1위/16팀",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Guangzhou Evergrande"
+  ],
+  "vals": {
+   "1399": 3
+  }
+ },
  "Guangzhou Evergrande Taobao|2013": {
   "elo": 1470,
   "basis": "단일값",
@@ -110457,16 +111339,17 @@
   "elo": 1429,
   "basis": "단일값",
   "lv": "중국 슈퍼리그 2014 1위/16팀 (Chinese Super League)",
-  "n": 2,
+  "n": 3,
   "players": [
    "디에고 포를란",
+   "이동국",
    "이재성"
   ],
   "names": [
    "Guangzhou Evergrande"
   ],
   "vals": {
-   "1429": 2
+   "1429": 3
   }
  },
  "Guangzhou Evergrande Taobao|2015": {
@@ -111000,49 +111883,82 @@
    "1042": 1
   }
  },
+ "Gwangju FC|2011": {
+  "elo": 1404,
+  "basis": "단일값",
+  "lv": "K리그1 2011 11위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gwangju FC"
+  ],
+  "vals": {
+   "1404": 4
+  }
+ },
+ "Gwangju FC|2012": {
+  "elo": 1387,
+  "basis": "단일값",
+  "lv": "K리그1 2012 15위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gwangju FC"
+  ],
+  "vals": {
+   "1387": 1
+  }
+ },
  "Gwangju FC|2015": {
   "elo": 1429,
   "basis": "단일값",
   "lv": "K리그1 2015 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Gwangju FC"
   ],
   "vals": {
-   "1429": 1
+   "1429": 3
   }
  },
  "Gwangju FC|2016": {
   "elo": 1437,
   "basis": "단일값",
   "lv": "K리그1 2016 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Gwangju FC"
   ],
   "vals": {
-   "1437": 2
+   "1437": 4
   }
  },
  "Gwangju FC|2017": {
   "elo": 1338,
   "basis": "단일값",
   "lv": "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Gwangju FC"
   ],
   "vals": {
-   "1338": 2
+   "1338": 4
   }
  },
  "Gwangju FC|2024": {
@@ -111060,19 +111976,170 @@
    "1431": 1
   }
  },
+ "Gwangju Sangmu|2005": {
+  "elo": 1314,
+  "basis": "단일값",
+  "lv": "K리그1 2005 13위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gwangju Sangmu"
+  ],
+  "vals": {
+   "1314": 1
+  }
+ },
+ "Gwangju Sangmu|2006": {
+  "elo": 1314,
+  "basis": "단일값",
+  "lv": "K리그1 2006 14위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gwangju Sangmu"
+  ],
+  "vals": {
+   "1314": 2
+  }
+ },
+ "Gwangju Sangmu|2009": {
+  "elo": 1348,
+  "basis": "단일값",
+  "lv": "K리그1 2009 11위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gwangju Sangmu"
+  ],
+  "vals": {
+   "1348": 3
+  }
+ },
+ "Gyeongnam FC|2008": {
+  "elo": 1407,
+  "basis": "단일값",
+  "lv": "K리그1 2008 8위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1407": 1
+  }
+ },
+ "Gyeongnam FC|2009": {
+  "elo": 1381,
+  "basis": "단일값",
+  "lv": "K리그1 2009 7위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1381": 3
+  }
+ },
+ "Gyeongnam FC|2010": {
+  "elo": 1404,
+  "basis": "단일값",
+  "lv": "K리그1 2010 6위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1404": 3
+  }
+ },
+ "Gyeongnam FC|2011": {
+  "elo": 1427,
+  "basis": "단일값",
+  "lv": "K리그1 2011 8위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1427": 5
+  }
+ },
+ "Gyeongnam FC|2012": {
+  "elo": 1447,
+  "basis": "단일값",
+  "lv": "K리그1 2012 8위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1447": 5
+  }
+ },
+ "Gyeongnam FC|2013": {
+  "elo": 1427,
+  "basis": "단일값",
+  "lv": "K리그1 2013 11위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1427": 2
+  }
+ },
  "Gyeongnam FC|2014": {
   "elo": 1420,
   "basis": "단일값",
   "lv": "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Gyeongnam FC"
   ],
   "vals": {
-   "1420": 2
+   "1420": 4
+  }
+ },
+ "Gyeongnam FC|2019": {
+  "elo": 1354,
+  "basis": "단일값",
+  "lv": "K리그1 2019 11위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Gyeongnam FC"
+  ],
+  "vals": {
+   "1354": 2
   }
  },
  "Győri ETO FC|2008-09": {
@@ -117050,6 +118117,126 @@
    "1535": 1
   }
  },
+ "Incheon United|2004": {
+  "elo": 1329,
+  "basis": "단일값",
+  "lv": "K리그1 2004 12위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1329": 1
+  }
+ },
+ "Incheon United|2006": {
+  "elo": 1370,
+  "basis": "단일값",
+  "lv": "K리그1 2006 9위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1370": 1
+  }
+ },
+ "Incheon United|2010": {
+  "elo": 1356,
+  "basis": "단일값",
+  "lv": "K리그1 2010 11위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1356": 2
+  }
+ },
+ "Incheon United|2011": {
+  "elo": 1386,
+  "basis": "단일값",
+  "lv": "K리그1 2011 13위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1386": 2
+  }
+ },
+ "Incheon United|2012": {
+  "elo": 1438,
+  "basis": "단일값",
+  "lv": "K리그1 2012 9위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1438": 2
+  }
+ },
+ "Incheon United|2013": {
+  "elo": 1462,
+  "basis": "단일값",
+  "lv": "K리그1 2013 7위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1462": 1
+  }
+ },
+ "Incheon United|2014": {
+  "elo": 1434,
+  "basis": "단일값",
+  "lv": "K리그1 2014 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1434": 1
+  }
+ },
+ "Incheon United|2016": {
+  "elo": 1413,
+  "basis": "단일값",
+  "lv": "K리그1 2016 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1413": 1
+  }
+ },
  "Incheon United|2017": {
   "elo": 1378,
   "basis": "단일값",
@@ -117063,6 +118250,36 @@
   ],
   "vals": {
    "1378": 1
+  }
+ },
+ "Incheon United|2018": {
+  "elo": 1370,
+  "basis": "단일값",
+  "lv": "K리그1 2018 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1370": 1
+  }
+ },
+ "Incheon United|2020": {
+  "elo": 1362,
+  "basis": "단일값",
+  "lv": "K리그1 2020 11위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Incheon United"
+  ],
+  "vals": {
+   "1362": 1
   }
  },
  "Independiente del Valle|2024": {
@@ -119400,64 +120617,248 @@
    "1522": 1
   }
  },
+ "Jeju United|2006": {
+  "elo": 1328,
+  "basis": "단일값",
+  "lv": "K리그1 2006 13위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeju United"
+  ],
+  "vals": {
+   "1328": 1
+  }
+ },
+ "Jeju United|2009": {
+  "elo": 1313,
+  "basis": "단일값",
+  "lv": "K리그1 2009 14위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeju United"
+  ],
+  "vals": {
+   "1313": 5
+  }
+ },
+ "Jeju United|2010": {
+  "elo": 1478,
+  "basis": "단일값",
+  "lv": "K리그1 2010 2위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeju United"
+  ],
+  "vals": {
+   "1478": 1
+  }
+ },
+ "Jeju United|2013": {
+  "elo": 1443,
+  "basis": "단일값",
+  "lv": "K리그1 2013 9위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeju United"
+  ],
+  "vals": {
+   "1443": 1
+  }
+ },
+ "Jeju United|2014": {
+  "elo": 1499,
+  "basis": "단일값",
+  "lv": "K리그1 2014 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeju United"
+  ],
+  "vals": {
+   "1499": 2
+  }
+ },
  "Jeju United|2015": {
   "elo": 1475,
   "basis": "단일값",
   "lv": "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 3,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeju United"
   ],
   "vals": {
-   "1475": 3
+   "1475": 4
   }
  },
  "Jeju United|2016": {
   "elo": 1509,
   "basis": "단일값",
   "lv": "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeju United"
   ],
   "vals": {
-   "1509": 2
+   "1509": 4
   }
  },
  "Jeju United|2017": {
   "elo": 1523,
   "basis": "단일값",
   "lv": "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeju United"
   ],
   "vals": {
-   "1523": 2
+   "1523": 3
   }
  },
  "Jeju United|2018": {
   "elo": 1428,
   "basis": "단일값",
   "lv": "K리그1 2018 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeju United"
   ],
   "vals": {
-   "1428": 1
+   "1428": 2
+  }
+ },
+ "Jeonbuk Hyundai Dinos|1998": {
+  "elo": 1376,
+  "basis": "단일값",
+  "lv": "K리그1 1998 6위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Dinos"
+  ],
+  "vals": {
+   "1376": 3
+  }
+ },
+ "Jeonbuk Hyundai Dinos|1999": {
+  "elo": 1365,
+  "basis": "단일값",
+  "lv": "K리그1 1999 7위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Dinos"
+  ],
+  "vals": {
+   "1365": 2
+  }
+ },
+ "Jeonbuk Hyundai Motors|2002": {
+  "elo": 1365,
+  "basis": "단일값",
+  "lv": "K리그1 2002 7위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Motors"
+  ],
+  "vals": {
+   "1365": 2
+  }
+ },
+ "Jeonbuk Hyundai Motors|2003": {
+  "elo": 1409,
+  "basis": "단일값",
+  "lv": "K리그1 2003 5위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Motors"
+  ],
+  "vals": {
+   "1409": 4
+  }
+ },
+ "Jeonbuk Hyundai Motors|2004": {
+  "elo": 1397,
+  "basis": "단일값",
+  "lv": "K리그1 2004 6위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Motors"
+  ],
+  "vals": {
+   "1397": 1
+  }
+ },
+ "Jeonbuk Hyundai Motors|2005": {
+  "elo": 1329,
+  "basis": "단일값",
+  "lv": "K리그1 2005 12위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Motors"
+  ],
+  "vals": {
+   "1329": 1
+  }
+ },
+ "Jeonbuk Hyundai Motors|2006": {
+  "elo": 1353,
+  "basis": "단일값",
+  "lv": "K리그1 2006 11위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonbuk Hyundai Motors"
+  ],
+  "vals": {
+   "1353": 1
   }
  },
  "Jeonbuk Hyundai Motors|2018": {
@@ -119490,19 +120891,155 @@
    "1575": 1
   }
  },
+ "Jeonnam Dragons|1998": {
+  "elo": 1415,
+  "basis": "단일값",
+  "lv": "K리그1 1998 4위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1415": 2
+  }
+ },
+ "Jeonnam Dragons|1999": {
+  "elo": 1415,
+  "basis": "단일값",
+  "lv": "K리그1 1999 4위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1415": 1
+  }
+ },
+ "Jeonnam Dragons|2002": {
+  "elo": 1392,
+  "basis": "단일값",
+  "lv": "K리그1 2002 5위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1392": 2
+  }
+ },
+ "Jeonnam Dragons|2003": {
+  "elo": 1426,
+  "basis": "단일값",
+  "lv": "K리그1 2003 4위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1426": 2
+  }
+ },
+ "Jeonnam Dragons|2004": {
+  "elo": 1429,
+  "basis": "단일값",
+  "lv": "K리그1 2004 4위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1429": 1
+  }
+ },
+ "Jeonnam Dragons|2006": {
+  "elo": 1404,
+  "basis": "단일값",
+  "lv": "K리그1 2006 6위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1404": 1
+  }
+ },
+ "Jeonnam Dragons|2009": {
+  "elo": 1420,
+  "basis": "단일값",
+  "lv": "K리그1 2009 4위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1420": 2
+  }
+ },
+ "Jeonnam Dragons|2012": {
+  "elo": 1425,
+  "basis": "단일값",
+  "lv": "K리그1 2012 11위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1425": 2
+  }
+ },
+ "Jeonnam Dragons|2013": {
+  "elo": 1438,
+  "basis": "단일값",
+  "lv": "K리그1 2013 10위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Jeonnam Dragons"
+  ],
+  "vals": {
+   "1438": 2
+  }
+ },
  "Jeonnam Dragons|2014": {
   "elo": 1468,
   "basis": "단일값",
   "lv": "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeonnam Dragons"
   ],
   "vals": {
-   "1468": 2
+   "1468": 3
   }
  },
  "Jeonnam Dragons|2015": {
@@ -119524,30 +121061,32 @@
   "elo": 1478,
   "basis": "단일값",
   "lv": "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeonnam Dragons"
   ],
   "vals": {
-   "1478": 2
+   "1478": 3
   }
  },
  "Jeonnam Dragons|2018": {
   "elo": 1321,
   "basis": "단일값",
   "lv": "K리그1 2018 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Jeonnam Dragons"
   ],
   "vals": {
-   "1321": 1
+   "1321": 4
   }
  },
  "Jerez CF|1998-99": {
@@ -119629,15 +121168,16 @@
   "elo": 1428,
   "basis": "단일값",
   "lv": "중국 슈퍼리그 2016 2위/16팀",
-  "n": 1,
+  "n": 2,
   "players": [
-   "팀 케이힐"
+   "팀 케이힐",
+   "이동국"
   ],
   "names": [
    "Jiangsu Suning"
   ],
   "vals": {
-   "1428": 1
+   "1428": 2
   }
  },
  "Jiangsu Suning|2017": {
@@ -121754,15 +123294,16 @@
   "elo": 1674,
   "basis": "단일값",
   "lv": "J1리그 2010 4위/18팀",
-  "n": 1,
+  "n": 2,
   "players": [
-   "가가와 신지"
+   "가가와 신지",
+   "이동국"
   ],
   "names": [
    "Kashima Antlers"
   ],
   "vals": {
-   "1674": 1
+   "1674": 2
   }
  },
  "Kashima Antlers|2011": {
@@ -121998,15 +123539,16 @@
   "elo": 1545,
   "basis": "단일값",
   "lv": "J1리그 2015 연간 10위/18팀 (1·2스테이지 합산 연간 순위표)",
-  "n": 2,
+  "n": 4,
   "players": [
-   "가마다 다이치"
+   "가마다 다이치",
+   "이동국"
   ],
   "names": [
    "Kashiwa Reysol"
   ],
   "vals": {
-   "1545": 2
+   "1545": 4
   }
  },
  "Kashiwa Reysol|2016": {
@@ -122028,9 +123570,10 @@
   "elo": 1494,
   "basis": "단일값",
   "lv": "J1리그 2018 17위/18팀",
-  "n": 3,
+  "n": 6,
   "players": [
    "디에고 포를란",
+   "이동국",
    "이재성",
    "알레샨드리 파투"
   ],
@@ -122038,7 +123581,7 @@
    "Kashiwa Reysol"
   ],
   "vals": {
-   "1494": 3
+   "1494": 6
   }
  },
  "Kashiwa Reysol|2019": {
@@ -123460,6 +125003,21 @@
   ],
   "vals": {
    "1479": 1
+  }
+ },
+ "Kitchee|2017-18": {
+  "elo": 1193,
+  "basis": "단일값",
+  "lv": "홍콩 프리미어리그 2017-18 1위/10팀",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Kitchee"
+  ],
+  "vals": {
+   "1193": 1
   }
  },
  "Kmita Zabierzów|2007-08": {
@@ -135511,6 +137069,21 @@
    "1332": 1
   }
  },
+ "Mansfield Town|2007-08": {
+  "elo": 1291,
+  "basis": "단일값",
+  "lv": "잉글랜드 4부 2007-08 23위/24팀 (Football League Two, 리그 수준 추정)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Mansfield Town"
+  ],
+  "vals": {
+   "1291": 1
+  }
+ },
  "Mansfield Town|2012-13": {
   "elo": 1309,
   "basis": "단일값",
@@ -135952,16 +137525,17 @@
   "elo": 1363,
   "basis": "단일값",
   "lv": "호주 A리그 2013-14 4위/10팀 (추정: 1위 1450~꼴찌 1350 직선)",
-  "n": 4,
+  "n": 6,
   "players": [
    "알레산드로 델 피에로",
-   "해리 큐얼"
+   "해리 큐얼",
+   "이동국"
   ],
   "names": [
    "Melbourne Victory"
   ],
   "vals": {
-   "1363": 4
+   "1363": 6
   }
  },
  "Melbourne Victory|2016-17": {
@@ -140115,6 +141689,21 @@
   ],
   "vals": {
    "1232": 2
+  }
+ },
+ "Muangthong United|2013": {
+  "elo": 1324,
+  "basis": "단일값",
+  "lv": "태국 1부 2013 2위/18팀 (Thai League 1)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Muangthong United"
+  ],
+  "vals": {
+   "1324": 2
   }
  },
  "Murici Futebol Clube (AL)|2011": {
@@ -145162,6 +146751,21 @@
   ],
   "vals": {
    "1357": 2
+  }
+ },
+ "Northampton Town|2007-08": {
+  "elo": 1462,
+  "basis": "단일값",
+  "lv": "잉글랜드 3부 2007-08 9위/24팀 (Football League One, 리그 수준 추정)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Northampton Town"
+  ],
+  "vals": {
+   "1462": 1
   }
  },
  "Northampton Town|2015-16": {
@@ -154121,6 +155725,21 @@
    "1018": 3
   }
  },
+ "Persipura Jayapura|2009-10": {
+  "elo": 1262,
+  "basis": "단일값",
+  "lv": "인도네시아 1부 2009-10 2위/18팀 (Indonesia Super League)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Persipura Jayapura"
+  ],
+  "vals": {
+   "1262": 3
+  }
+ },
  "Perth Glory|2011-12": {
   "elo": 1376,
   "basis": "단일값",
@@ -155414,49 +157033,187 @@
    "1535": 3
   }
  },
+ "Pohang Steelers|2003": {
+  "elo": 1377,
+  "basis": "단일값",
+  "lv": "K리그1 2003 7위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1377": 1
+  }
+ },
+ "Pohang Steelers|2004": {
+  "elo": 1477,
+  "basis": "단일값",
+  "lv": "K리그1 2004 2위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1477": 1
+  }
+ },
+ "Pohang Steelers|2008": {
+  "elo": 1433,
+  "basis": "단일값",
+  "lv": "K리그1 2008 6위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1433": 1
+  }
+ },
+ "Pohang Steelers|2010": {
+  "elo": 1368,
+  "basis": "단일값",
+  "lv": "K리그1 2010 9위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1368": 2
+  }
+ },
+ "Pohang Steelers|2011": {
+  "elo": 1493,
+  "basis": "단일값",
+  "lv": "K리그1 2011 3위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1493": 5
+  }
+ },
+ "Pohang Steelers|2012": {
+  "elo": 1513,
+  "basis": "단일값",
+  "lv": "K리그1 2012 3위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1513": 4
+  }
+ },
+ "Pohang Steelers|2013": {
+  "elo": 1620,
+  "basis": "단일값",
+  "lv": "K리그1 2013 1위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1620": 2
+  }
+ },
  "Pohang Steelers|2014": {
   "elo": 1517,
   "basis": "단일값",
   "lv": "K리그1 2014 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Pohang Steelers"
   ],
   "vals": {
-   "1517": 1
+   "1517": 2
+  }
+ },
+ "Pohang Steelers|2015": {
+  "elo": 1525,
+  "basis": "단일값",
+  "lv": "K리그1 2015 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1525": 1
   }
  },
  "Pohang Steelers|2016": {
   "elo": 1430,
   "basis": "단일값",
   "lv": "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Pohang Steelers"
   ],
   "vals": {
-   "1430": 2
+   "1430": 3
   }
  },
  "Pohang Steelers|2017": {
   "elo": 1452,
   "basis": "단일값",
   "lv": "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 3,
+  "n": 7,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Pohang Steelers"
   ],
   "vals": {
-   "1452": 3
+   "1452": 7
+  }
+ },
+ "Pohang Steelers|2018": {
+  "elo": 1427,
+  "basis": "단일값",
+  "lv": "K리그1 2018 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Pohang Steelers"
+  ],
+  "vals": {
+   "1427": 3
   }
  },
  "Pohang Steelers|2021": {
@@ -174113,34 +175870,96 @@
    "1596": 1
   }
  },
+ "Sangju Sangmu|2011": {
+  "elo": 1373,
+  "basis": "단일값",
+  "lv": "K리그1 2011 14위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Sangju Sangmu"
+  ],
+  "vals": {
+   "1373": 3
+  }
+ },
+ "Sangju Sangmu|2014": {
+  "elo": 1404,
+  "basis": "단일값",
+  "lv": "K리그1 2014 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Sangju Sangmu"
+  ],
+  "vals": {
+   "1404": 3
+  }
+ },
  "Sangju Sangmu|2016": {
   "elo": 1459,
   "basis": "단일값",
   "lv": "K리그1 2016 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 2,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Sangju Sangmu"
   ],
   "vals": {
-   "1459": 2
+   "1459": 4
   }
  },
  "Sangju Sangmu|2017": {
   "elo": 1359,
   "basis": "단일값",
   "lv": "K리그1 2017 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Sangju Sangmu"
   ],
   "vals": {
-   "1359": 1
+   "1359": 2
+  }
+ },
+ "Sangju Sangmu|2018": {
+  "elo": 1366,
+  "basis": "단일값",
+  "lv": "K리그1 2018 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Sangju Sangmu"
+  ],
+  "vals": {
+   "1366": 1
+  }
+ },
+ "Sangju Sangmu|2019": {
+  "elo": 1449,
+  "basis": "단일값",
+  "lv": "K리그1 2019 7위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Sangju Sangmu"
+  ],
+  "vals": {
+   "1449": 3
   }
  },
  "Sanremese Calcio|1998-99": {
@@ -179683,6 +181502,141 @@
    "1550": 5
   }
  },
+ "Seongnam FC|2014": {
+  "elo": 1451,
+  "basis": "단일값",
+  "lv": "K리그1 2014 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam FC"
+  ],
+  "vals": {
+   "1451": 1
+  }
+ },
+ "Seongnam FC|2015": {
+  "elo": 1494,
+  "basis": "단일값",
+  "lv": "K리그1 2015 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam FC"
+  ],
+  "vals": {
+   "1494": 1
+  }
+ },
+ "Seongnam FC|2019": {
+  "elo": 1406,
+  "basis": "단일값",
+  "lv": "K리그1 2019 9위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam FC"
+  ],
+  "vals": {
+   "1406": 1
+  }
+ },
+ "Seongnam Ilhwa Chunma|2000": {
+  "elo": 1433,
+  "basis": "단일값",
+  "lv": "K리그1 2000 3위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1433": 1
+  }
+ },
+ "Seongnam Ilhwa Chunma|2001": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 2001 1위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1547": 2
+  }
+ },
+ "Seongnam Ilhwa Chunma|2002": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 2002 1위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1547": 3
+  }
+ },
+ "Seongnam Ilhwa Chunma|2003": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 2003 1위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1547": 1
+  }
+ },
+ "Seongnam Ilhwa Chunma|2006": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 2006 1위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1547": 1
+  }
+ },
+ "Seongnam Ilhwa Chunma|2009": {
+  "elo": 1470,
+  "basis": "단일값",
+  "lv": "K리그1 2009 2위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1470": 1
+  }
+ },
  "Seongnam Ilhwa Chunma|2010": {
   "elo": 1418,
   "basis": "단일값",
@@ -179696,6 +181650,51 @@
   ],
   "vals": {
    "1418": 2
+  }
+ },
+ "Seongnam Ilhwa Chunma|2011": {
+  "elo": 1410,
+  "basis": "단일값",
+  "lv": "K리그1 2011 10위/16팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1410": 1
+  }
+ },
+ "Seongnam Ilhwa Chunma|2012": {
+  "elo": 1419,
+  "basis": "단일값",
+  "lv": "K리그1 2012 12위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1419": 2
+  }
+ },
+ "Seongnam Ilhwa Chunma|2013": {
+  "elo": 1452,
+  "basis": "단일값",
+  "lv": "K리그1 2013 8위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Seongnam Ilhwa Chunma"
+  ],
+  "vals": {
+   "1452": 1
   }
  },
  "Sepahan FC|2011-12": {
@@ -181598,6 +183597,21 @@
    "1526": 3
   }
  },
+ "Shandong Luneng Taishan|2011": {
+  "elo": 1286,
+  "basis": "단일값",
+  "lv": "중국 슈퍼리그 2011 5위/16팀",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Shandong Luneng Taishan"
+  ],
+  "vals": {
+   "1286": 2
+  }
+ },
  "Shandong Luneng Taishan|2012": {
   "elo": 1312,
   "basis": "단일값",
@@ -181903,15 +183917,16 @@
   "elo": 1416,
   "basis": "단일값",
   "lv": "중국 슈퍼리그 2016 3위/16팀",
-  "n": 1,
+  "n": 3,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Shanghai SIPG"
   ],
   "vals": {
-   "1416": 1
+   "1416": 3
   }
  },
  "Shanghai SIPG|2017": {
@@ -196585,19 +198600,110 @@
    "1215": 1
   }
  },
+ "Suwon FC|2013": {
+  "elo": 1159,
+  "basis": "단일값",
+  "lv": "한국 2부 2013 4위/8팀 (K League Challenge, 리그 수준 추정)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon FC"
+  ],
+  "vals": {
+   "1159": 2
+  }
+ },
  "Suwon FC|2016": {
   "elo": 1383,
   "basis": "단일값",
   "lv": "K리그1 2016 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Suwon FC"
   ],
   "vals": {
-   "1383": 1
+   "1383": 2
+  }
+ },
+ "Suwon Samsung Bluewings|1999": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 1999 1위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1547": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2000": {
+  "elo": 1392,
+  "basis": "단일값",
+  "lv": "K리그1 2000 5위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1392": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2001": {
+  "elo": 1433,
+  "basis": "단일값",
+  "lv": "K리그1 2001 3위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1433": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2009": {
+  "elo": 1353,
+  "basis": "단일값",
+  "lv": "K리그1 2009 10위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1353": 2
+  }
+ },
+ "Suwon Samsung Bluewings|2010": {
+  "elo": 1389,
+  "basis": "단일값",
+  "lv": "K리그1 2010 7위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1389": 2
   }
  },
  "Suwon Samsung Bluewings|2011": {
@@ -196615,6 +198721,51 @@
    "1475": 2
   }
  },
+ "Suwon Samsung Bluewings|2012": {
+  "elo": 1496,
+  "basis": "단일값",
+  "lv": "K리그1 2012 4위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 5,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1496": 5
+  }
+ },
+ "Suwon Samsung Bluewings|2013": {
+  "elo": 1494,
+  "basis": "단일값",
+  "lv": "K리그1 2013 5위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1494": 3
+  }
+ },
+ "Suwon Samsung Bluewings|2014": {
+  "elo": 1563,
+  "basis": "단일값",
+  "lv": "K리그1 2014 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1563": 2
+  }
+ },
  "Suwon Samsung Bluewings|2015": {
   "elo": 1558,
   "basis": "단일값",
@@ -196628,6 +198779,81 @@
   ],
   "vals": {
    "1558": 2
+  }
+ },
+ "Suwon Samsung Bluewings|2016": {
+  "elo": 1447,
+  "basis": "단일값",
+  "lv": "K리그1 2016 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1447": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2017": {
+  "elo": 1515,
+  "basis": "단일값",
+  "lv": "K리그1 2017 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1515": 2
+  }
+ },
+ "Suwon Samsung Bluewings|2018": {
+  "elo": 1413,
+  "basis": "단일값",
+  "lv": "K리그1 2018 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1413": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2019": {
+  "elo": 1425,
+  "basis": "단일값",
+  "lv": "K리그1 2019 8위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1425": 1
+  }
+ },
+ "Suwon Samsung Bluewings|2020": {
+  "elo": 1400,
+  "basis": "단일값",
+  "lv": "K리그1 2020 8위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Suwon Samsung Bluewings"
+  ],
+  "vals": {
+   "1400": 1
   }
  },
  "SV 07 Elversberg|2022-23": {
@@ -207460,42 +209686,210 @@
    "1553": 3
   }
  },
+ "Ulsan Hyundai|1998": {
+  "elo": 1463,
+  "basis": "단일값",
+  "lv": "K리그1 1998 2위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1463": 2
+  }
+ },
+ "Ulsan Hyundai|1999": {
+  "elo": 1376,
+  "basis": "단일값",
+  "lv": "K리그1 1999 6위/10팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 3,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1376": 3
+  }
+ },
+ "Ulsan Hyundai|2001": {
+  "elo": 1376,
+  "basis": "단일값",
+  "lv": "K리그1 2001 6위/10팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1376": 1
+  }
+ },
+ "Ulsan Hyundai|2003": {
+  "elo": 1473,
+  "basis": "단일값",
+  "lv": "K리그1 2003 2위/12팀 (K리그 단일 리그 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1473": 1
+  }
+ },
+ "Ulsan Hyundai|2005": {
+  "elo": 1547,
+  "basis": "단일값",
+  "lv": "K리그1 2005 1위/13팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1547": 2
+  }
+ },
+ "Ulsan Hyundai|2006": {
+  "elo": 1420,
+  "basis": "단일값",
+  "lv": "K리그1 2006 5위/14팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1420": 1
+  }
+ },
+ "Ulsan Hyundai|2010": {
+  "elo": 1418,
+  "basis": "단일값",
+  "lv": "K리그1 2010 5위/15팀 (K리그, 챔피언십 플레이오프 반영 최종 순위)",
+  "n": 2,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1418": 2
+  }
+ },
+ "Ulsan Hyundai|2012": {
+  "elo": 1487,
+  "basis": "단일값",
+  "lv": "K리그1 2012 5위/16팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 4,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1487": 4
+  }
+ },
+ "Ulsan Hyundai|2013": {
+  "elo": 1554,
+  "basis": "단일값",
+  "lv": "K리그1 2013 2위/14팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1554": 1
+  }
+ },
+ "Ulsan Hyundai|2014": {
+  "elo": 1480,
+  "basis": "단일값",
+  "lv": "K리그1 2014 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1480": 1
+  }
+ },
+ "Ulsan Hyundai|2015": {
+  "elo": 1463,
+  "basis": "단일값",
+  "lv": "K리그1 2015 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+  "n": 1,
+  "players": [
+   "이동국"
+  ],
+  "names": [
+   "Ulsan Hyundai"
+  ],
+  "vals": {
+   "1463": 1
+  }
+ },
  "Ulsan Hyundai|2016": {
   "elo": 1496,
   "basis": "단일값",
   "lv": "K리그1 2016 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 1,
+  "n": 2,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Ulsan Hyundai"
   ],
   "vals": {
-   "1496": 1
+   "1496": 2
   }
  },
  "Ulsan Hyundai|2017": {
   "elo": 1481,
   "basis": "단일값",
   "lv": "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
-  "n": 3,
+  "n": 4,
   "players": [
+   "이동국",
    "이재성"
   ],
   "names": [
    "Ulsan Hyundai"
   ],
   "vals": {
-   "1481": 3
+   "1481": 4
   }
  },
  "Ulsan Hyundai|2018": {
   "elo": 1477,
   "basis": "단일값",
   "lv": "K리그1 2018 3위/12팀 (K League 1)",
-  "n": 4,
+  "n": 8,
   "players": [
+   "이동국",
    "이재성",
    "오스카"
   ],
@@ -207503,22 +209897,23 @@
    "Ulsan Hyundai"
   ],
   "vals": {
-   "1477": 4
+   "1477": 8
   }
  },
  "Ulsan Hyundai|2019": {
   "elo": 1575,
   "basis": "단일값",
   "lv": "K리그1 2019 2위/12팀 (K League 1, 플레이오프·스플릿 뒤 최종 순위)",
-  "n": 3,
+  "n": 4,
   "players": [
+   "이동국",
    "오스카"
   ],
   "names": [
    "Ulsan Hyundai"
   ],
   "vals": {
-   "1575": 3
+   "1575": 4
   }
  },
  "Ulsan Hyundai|2020": {
@@ -208571,8 +210966,9 @@
   "elo": 1598,
   "basis": "단일값",
   "lv": "J1리그 2013 6위/18팀",
-  "n": 6,
+  "n": 8,
   "players": [
+   "이동국",
    "미나미노 다쿠미",
    "나카무라 슌스케"
   ],
@@ -208580,7 +210976,7 @@
    "Urawa Red Diamonds"
   ],
   "vals": {
-   "1598": 6
+   "1598": 8
   }
  },
  "Urawa Red Diamonds|2015": {
