@@ -1,0 +1,1980 @@
+[
+ {
+  "id": "etoo",
+  "prefix": "ETO",
+  "date": "2009-05-13",
+  "minute": "55",
+  "scorer": "Lionel Messi",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "lucasmoura",
+  "prefix": "LUC",
+  "date": "2012-10-06",
+  "minute": "35",
+  "scorer": "Luís Fabiano",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1185394"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "lucasmoura",
+  "prefix": "LUC",
+  "date": "2018-12-26",
+  "minute": "70",
+  "scorer": "Heung-min Son",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2782142"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "callejon",
+  "prefix": "CAL",
+  "date": "2013-03-10",
+  "minute": "61",
+  "scorer": "Cristiano Ronaldo",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1260144"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "callejon",
+  "prefix": "CAL",
+  "date": "2014-01-29",
+  "minute": "82",
+  "scorer": "Gonzalo Higuaín",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1623085"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "callejon",
+  "prefix": "CAL",
+  "date": "2015-05-18",
+  "minute": "19",
+  "scorer": "Dries Mertens",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786361"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "callejon",
+  "prefix": "CAL",
+  "date": "2010-01-10",
+  "minute": "71",
+  "scorer": "Fernando Marqués",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "sneijder",
+  "prefix": "SNE",
+  "date": "2003-03-08",
+  "minute": "15",
+  "scorer": "Rafael van der Vaart",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "sneijder",
+  "prefix": "SNE",
+  "date": "2015-10-03",
+  "minute": "84",
+  "scorer": "Umut Bulut",
+  "verdict": "ADD",
+  "why": "포돌스키→스네이더르가 왼쪽에서 먼 쪽 포스트로 보낸 공을 불루트가 건드려 넣음(파나틱 칼럼, 리바운드 서술 없음), FotMob 스네이더르 도움",
+  "sources": [
+   "https://www.fanatik.com.tr/yazarlar/metin-karabas/bir-darbe-de-basaksehirden-648918",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2024034"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Basaksehir FK",
+   1609,
+   "lg",
+   84,
+   1,
+   0,
+   0,
+   0,
+   "2015-10-03",
+   0,
+   0,
+   "쉬페르리그 2015-16 4위/18팀",
+   "Umut Bulut"
+  ]
+ },
+ {
+  "id": "sneijder",
+  "prefix": "SNE",
+  "date": "2009-03-22",
+  "minute": "23",
+  "scorer": "Marcelo",
+  "verdict": "KEEP_OUT",
+  "why": "스네이더르 프리킥이 수비에 막힌 리바운드를 마르셀루가 넣음(MLS 기사)",
+  "sources": [
+   "https://mlssoccer.com/news/real-outmatch-almeria-klass"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "juninho",
+  "prefix": "JUN",
+  "date": "2001-10-23",
+  "minute": "66",
+  "scorer": "Péguy Luyindula",
+  "verdict": "KEEP_OUT",
+  "why": "주니뉴 슈팅을 골키퍼 보나노가 막은 공을 뤼양뒬라가 헤더",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/archive2001/champs/champ21.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "wirtz",
+  "prefix": "WIR",
+  "date": "2025-01-25",
+  "minute": "18",
+  "scorer": "Patrik Schick",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4534702"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2009-03-08",
+  "minute": "56",
+  "scorer": "Naoya Ishigami",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2009-06-24",
+  "minute": "64",
+  "scorer": "Naoya Ishigami",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2009-07-22",
+  "minute": "75",
+  "scorer": "Kaio",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2011-10-29",
+  "minute": "45+1",
+  "scorer": "Lukasz Piszczek",
+  "verdict": "ADD",
+  "why": "가가와가 내준 공을 피슈체크가 4야드 거리에서 마무리(soccernews·Fox Sports 기사, 리바운드 서술 없음), FotMob 가가와 도움",
+  "sources": [
+   "https://www.soccernews.com/all-square-in-bundesliga%c2%b4s-%c2%b4battle-of-the-shinjis%c2%b4/81662/",
+   "https://www.foxsports.com/stories/soccer/dortmund-held-by-stuttgart-1-1",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030004"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "VfB Stuttgart",
+   1845,
+   "lg",
+   46,
+   0,
+   1,
+   0,
+   0,
+   "2011-10-29",
+   0,
+   "45+1",
+   "분데스리가 2011-12 6위",
+   "Łukasz Piszczek"
+  ]
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2012-02-03",
+  "minute": "82",
+  "scorer": "Lucas Barrios",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030221"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2012-03-03",
+  "minute": "26",
+  "scorer": "Jakub Blaszczykowski",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030283"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2016-04-17",
+  "minute": "86",
+  "scorer": "Adrián Ramos",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2002415"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "kagawa",
+  "prefix": "KAG",
+  "date": "2017-05-13",
+  "minute": "32",
+  "scorer": "Pierre-Emerick Aubameyang",
+  "verdict": "ADD",
+  "why": "가가와의 15m 슈팅에 오바메양이 발을 갖다 대 방향만 바꿔 넣음(도르트문트 구단 경기 기사), FotMob 가가와 도움",
+  "sources": [
+   "https://www.bvb.de/switchlanguage/to/eng/136559",
+   "https://fcaugsburg.de/en/article/fca-and-dortmund-share-spoils-1127",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2272590"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "FC Augsburg",
+   1654,
+   "lg",
+   32,
+   0,
+   1,
+   0,
+   0,
+   "2017-05-13",
+   0,
+   0,
+   "분데스리가 2016-17 13위",
+   "Pierre-Emerick Aubameyang"
+  ]
+ },
+ {
+  "id": "eriksen",
+  "prefix": "ERI",
+  "date": "2012-03-04",
+  "minute": "77",
+  "scorer": "Vurnon Anita",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1028804"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "pires",
+  "prefix": "PIR",
+  "date": "1996-09-06",
+  "minute": "61",
+  "scorer": "Amara Traoré",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "werner",
+  "prefix": "WER",
+  "date": "2016-01-23",
+  "minute": "36",
+  "scorer": "Daniel Didavi",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2002250"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "werner",
+  "prefix": "WER",
+  "date": "2017-09-23",
+  "minute": "28",
+  "scorer": "Jean-Kévin Augustin",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2543960"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "werner",
+  "prefix": "WER",
+  "date": "2019-08-11",
+  "minute": "7",
+  "scorer": "Marcel Sabitzer",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3059675"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "gignac",
+  "prefix": "GNC",
+  "date": "2010-08-07",
+  "minute": "35",
+  "scorer": "Daniel Braaten",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=829877"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "gignac",
+  "prefix": "GNC",
+  "date": "2010-09-18",
+  "minute": "54",
+  "scorer": "André Ayew",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=829921"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "gignac",
+  "prefix": "GNC",
+  "date": "2010-04-10",
+  "minute": "9",
+  "scorer": "Paulo Machado",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2012-02-16",
+  "minute": "19",
+  "scorer": "Miroslav Klose",
+  "verdict": "KEEP_OUT",
+  "why": "칸드레바의 중거리 슈팅을 쿠르투아가 잡지 못하고 흘린 공을 클로제가 밀어 넣음(스카이스포츠) — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.skysports.com/football/lazio-vs-a-madrid/report/254084",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1145171"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2013-05-05",
+  "minute": "22",
+  "scorer": "Miroslav Klose",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1287308"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2015-03-09",
+  "minute": "75",
+  "scorer": "Miroslav Klose",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786263"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2014-08-24",
+  "minute": "59",
+  "scorer": "Stefan de Vrij",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1811375"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2009-10-18",
+  "minute": "54",
+  "scorer": "Tomas Danilevičius",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "papugomez",
+  "prefix": "PAP",
+  "date": "2013-08-10",
+  "minute": "66",
+  "scorer": "Marko Devic",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1478671"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "aouar",
+  "prefix": "AOU",
+  "date": "2018-05-06",
+  "minute": "28",
+  "scorer": "Bertrand Traoré",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2525442"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "aouar",
+  "prefix": "AOU",
+  "date": "2019-05-12",
+  "minute": "24",
+  "scorer": "Maxwel Cornet",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2774258"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "aouar",
+  "prefix": "AOU",
+  "date": "2020-08-15",
+  "minute": "87",
+  "scorer": "Moussa Dembélé",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3363664"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "aouar",
+  "prefix": "AOU",
+  "date": "2022-05-14",
+  "minute": "85",
+  "scorer": "Tetê",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·풋메르카토는 아우아르 도움으로 적지만 장면(슈팅 여부·굴절)을 서술한 기사를 못 찾음",
+  "sources": [
+   "https://www.footmercato.net/live/6038382854024823657-lyon-vs-nantes",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3626187"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "calhanoglu",
+  "prefix": "CHL",
+  "date": "2017-09-10",
+  "minute": "57",
+  "scorer": "Riccardo Montolivo",
+  "verdict": "UNCLEAR",
+  "why": "프리킥이 벽 맞고 돌아온 공을 찰하노을루가 다시 차 몬톨리보에게 감 — 한 기사는 \"굴절된 슈팅\"이라 적고 다른 기사는 몬톨리보를 찾은 패스로 적어 출처가 갈림",
+  "sources": [
+   "https://www.football-italia.net/109671/immobile-hat-trick-mauls-milan",
+   "https://www.calcioefinanza.it/?p=27994",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2588343"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "calhanoglu",
+  "prefix": "CHL",
+  "date": "2018-11-29",
+  "minute": "81",
+  "scorer": "Fabio Borini",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2877345"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "calhanoglu",
+  "prefix": "CHL",
+  "date": "2021-10-24",
+  "minute": "17",
+  "scorer": "Edin Dzeko",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3657078"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "dinatale",
+  "prefix": "DNT",
+  "date": "2007-09-26",
+  "minute": "51",
+  "scorer": "Asamoah Gyan",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "luisalberto",
+  "prefix": "LAL",
+  "date": "2020-12-08",
+  "minute": "12",
+  "scorer": "Joaquín Correa",
+  "verdict": "UNCLEAR",
+  "why": "AFP 기사는 미뇰레가 루이스 알베르토 슈팅을 쳐낸 리바운드라 적고, 다른 기사는 2 대 1 패스로 적어 갈림(FotMob 도움)",
+  "sources": [
+   "https://www.cbssports.com/soccer/news/lazio-vs-club-brugge-score-lazio-sneak-past-10-man-club-brugge-as-borussia-dortmund-secure-top-group-f-spot",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3461841"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "luisalberto",
+  "prefix": "LAL",
+  "date": "2022-04-30",
+  "minute": "90",
+  "scorer": "Francesco Acerbi",
+  "verdict": "UNCLEAR",
+  "why": "이모빌레 슈팅 선방 뒤 루이스 알베르토의 왼발 시도가 아체르비에게 감 — 수비에 막힌 공이라는 기사와 패스가 됐다는 기사로 갈림(FotMob 도움)",
+  "sources": [
+   "https://www.tuttomercatoweb.com/serie-a/errori-e-spettacolo-spezia-lazio-finisce-3-4-acerbi-al-90-tiene-viva-la-corsa-europea-1677087",
+   "https://www.goal.com/it/notizie/spezia-lazio-report-tabellino-pagelle-voti/blt58da3a114e9c0e6c",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3657351"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "thauvin",
+  "prefix": "THV",
+  "date": "2014-09-23",
+  "minute": "20",
+  "scorer": "André-Pierre Gignac",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1709764"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "thauvin",
+  "prefix": "THV",
+  "date": "2014-09-23",
+  "minute": "59",
+  "scorer": "André Ayew",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1709764"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "thauvin",
+  "prefix": "THV",
+  "date": "2018-10-07",
+  "minute": "36",
+  "scorer": "Konstantinos Mitroglou",
+  "verdict": "ADD",
+  "why": "토뱅의 강한 왼발 슈팅을 미트로글루가 머리로 방향만 바꿔 넣음(마르세유 구단 기사), FotMob 토뱅 도움",
+  "sources": [
+   "https://www.om.fr/en/news/4803/1st-team/4609-om-caen-2-0-right-track-again",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2773984"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "SM Caen",
+   1498,
+   "lg",
+   36,
+   0,
+   0,
+   0,
+   0,
+   "2018-10-07",
+   0,
+   0,
+   "리그1 2018-19 19위",
+   "Konstantinos Mitroglou"
+  ]
+ },
+ {
+  "id": "ailton",
+  "prefix": "AIL",
+  "date": "2005-03-05",
+  "minute": "77",
+  "scorer": "Lincoln",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "niang",
+  "prefix": "NIA",
+  "date": "2005-11-27",
+  "minute": "76",
+  "scorer": "Sabri Lamouchi",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "nani",
+  "prefix": "NAN",
+  "date": "2007-04-22",
+  "minute": "11",
+  "scorer": "Alecsandro",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "nani",
+  "prefix": "NAN",
+  "date": "2009-09-15",
+  "minute": "77",
+  "scorer": "Paul Scholes",
+  "verdict": "KEEP_OUT",
+  "why": "나니 슈팅을 골키퍼가 쳐낸 공을 스콜스가 헤더(UEFA)",
+  "sources": [
+   "https://www.uefa.com/uefachampionsleague/news/newsid=885941.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "luisdiaz",
+  "prefix": "LDZ",
+  "date": "2020-12-09",
+  "minute": "77",
+  "scorer": "Matheus Uribe",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3461674"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "robinho",
+  "prefix": "RBH",
+  "date": "2005-09-25",
+  "minute": "90",
+  "scorer": "Guti",
+  "verdict": "KEEP_OUT",
+  "why": "호비뉴 슈팅이 수비에 막힌 뒤 구티가 넣음(Soccer-Spain)",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2005/div1/day05/report5.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "simao",
+  "prefix": "SIM",
+  "date": "2010-12-01",
+  "minute": "11",
+  "scorer": "Diego Forlán",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=919545"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "simao",
+  "prefix": "SIM",
+  "date": "2010-04-04",
+  "minute": "56",
+  "scorer": "Diego Forlán",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "quaresma",
+  "prefix": "QUA",
+  "date": "2011-01-21",
+  "minute": "44",
+  "scorer": "Simão",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=877995"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "quaresma",
+  "prefix": "QUA",
+  "date": "2014-01-19",
+  "minute": "11",
+  "scorer": "Jackson Martínez",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1498135"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "jamesrodriguez",
+  "prefix": "JRO",
+  "date": "2011-04-14",
+  "minute": "89",
+  "scorer": "Rúben Micael",
+  "verdict": "KEEP_OUT",
+  "why": "크로스바를 맞고 나온 슈팅을 미카엘이 넣음(스카이스포츠는 헐크 슈팅으로 적음) — FotMob은 하메스 도움",
+  "sources": [
+   "https://www.skysports.com/football/news/11959/6871732/porto-run-riot-in-russia",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=995212"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "jamesrodriguez",
+  "prefix": "JRO",
+  "date": "2011-10-28",
+  "minute": "64",
+  "scorer": "Kléber",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1042896"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "jamesrodriguez",
+  "prefix": "JRO",
+  "date": "2014-02-21",
+  "minute": "90+5",
+  "scorer": "Layvin Kurzawa",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1468452"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "hwangheechan",
+  "prefix": "HWA",
+  "date": "2015-08-07",
+  "minute": "25",
+  "scorer": "João Pedro",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1992419"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "hwangheechan",
+  "prefix": "HWA",
+  "date": "2019-02-24",
+  "minute": "16",
+  "scorer": "David Bates",
+  "verdict": "KEEP_OUT",
+  "why": "황희찬 슈팅을 골키퍼 펜트케가 쳐낸 공을 베이츠가 빈 골문에 넣음(분데스리가 공식 문자중계) — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.bundesliga.com/de/2bundesliga/spieltag/2018-2019/23/ssv-jahn-regensburg-vs-hamburger-sv/news",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2804263"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "hwangheechan",
+  "prefix": "HWA",
+  "date": "2020-02-09",
+  "minute": "10",
+  "scorer": "Masaya Okugawa",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3214158"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "shaqiri",
+  "prefix": "SHA",
+  "date": "2013-03-30",
+  "minute": "45",
+  "scorer": "Claudio Pizarro",
+  "verdict": "KEEP_OUT",
+  "why": "샤키리 슈팅이 골대를 맞고 나온 공을 피사로가 넣음(스카이스포츠) — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.skysports.com/football/bayern-munich-vs-hamburg/report/265408",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239709"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "aimar",
+  "prefix": "AIM",
+  "date": "2003-11-29",
+  "minute": "26",
+  "scorer": "Vicente",
+  "verdict": "KEEP_OUT",
+  "why": "아이마르 슈팅을 수비 라이네스가 막은 공을 비센테가 원터치 슈팅(Soccer-Spain)",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2003/div1/day13/report10.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "mitoma",
+  "prefix": "MIT",
+  "date": "2021-07-08",
+  "minute": "34",
+  "scorer": "Leandro Damião",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3603267"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "azmoun",
+  "prefix": "AZM",
+  "date": "2018-04-07",
+  "minute": "70",
+  "scorer": "Ivelin Popov",
+  "verdict": "ADD",
+  "why": "카라데니즈 크로스를 아즈문이 먼 쪽 구석으로 보낸 슈팅을 포포프가 골라인 너머에서 한 번 더 건드림(소비에츠키 스포르트 서술) — 같은 팀 선수의 방향 전환. 단 FotMob은 아즈문 골로 적음(골 귀속 갈림, 계산기는 포포프 골)",
+  "sources": [
+   "https://www.sports.ru/football/match/1192930/",
+   "https://www.espn.com/soccer/report/_/gameId/397774",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2517316"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Akhmat Grozny",
+   1556,
+   "lg",
+   70,
+   2,
+   1,
+   0,
+   0,
+   "2018-04-07",
+   0,
+   0,
+   "러시아 1부 2017-18 9위/16팀 (Russian Premier League)",
+   "Ivelin Popov"
+  ]
+ },
+ {
+  "id": "azmoun",
+  "prefix": "AZM",
+  "date": "2020-10-17",
+  "minute": "16",
+  "scorer": "Vyacheslav Karavaev",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3385382"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "azmoun",
+  "prefix": "AZM",
+  "date": "2021-05-02",
+  "minute": "51",
+  "scorer": "Artem Dzyuba",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3385518"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "szoboszlai",
+  "prefix": "SZO",
+  "date": "2018-04-06",
+  "minute": "53",
+  "scorer": "Romano Schmid",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2532125"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "szoboszlai",
+  "prefix": "SZO",
+  "date": "2019-11-27",
+  "minute": "43",
+  "scorer": "Patson Daka",
+  "verdict": "KEEP_OUT",
+  "why": "소보슬러이 슈팅을 골키퍼 쿠크가 놓친 공을 다카가 넣음 — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.espn.com/soccer/report/_/gameId/557087",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3170172"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "yayatoure",
+  "prefix": "YYT",
+  "date": "2012-04-14",
+  "minute": "73",
+  "scorer": "Carlos Tévez",
+  "verdict": "KEEP_OUT",
+  "why": "투레 슈팅을 골키퍼 러디가 쳐낸 공을 테베스가 헤더(스카이스포츠)",
+  "sources": [
+   "https://www.skysports.com/football/news/11709/7671986/tevez-treble-trounces-norwich",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1025975"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "yayatoure",
+  "prefix": "YYT",
+  "date": "2015-08-10",
+  "minute": "9",
+  "scorer": "David Silva",
+  "verdict": "UNCLEAR",
+  "why": "투레 슈팅이 실바와 상대 수비 도슨 양쪽에 맞고 들어감(ESPN) — 상대 몸 접촉이 섞여 판정 보류, FotMob은 투레 골·나바스 도움으로 기록",
+  "sources": [
+   "https://www.espn.com/soccer/manchester-city/story/2562014/david-silva-credited-with-scoring-man-citys-first-goal",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1987041"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "yayatoure",
+  "prefix": "YYT",
+  "date": "2015-12-12",
+  "minute": "90+2",
+  "scorer": "Kelechi Iheanacho",
+  "verdict": "ADD",
+  "why": "투레의 왼발 슈팅이 같은 팀 이헤아나초 등에 맞고 들어감(90+2분 결승골) — 상대 접촉 없음, FotMob 투레 도움",
+  "sources": [
+   "https://fourfourtwo.com/news/manchester-city-2-swansea-city-1-deflected-goal-secures-win-thrilling-finish",
+   "https://www.espn.com/soccer/report/_/gameId/422512",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1988865"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Swansea City",
+   1739,
+   "lg",
+   92,
+   1,
+   1,
+   0,
+   0,
+   "2015-12-12",
+   0,
+   "90+2",
+   "프리미어리그 2015-16 12위",
+   "Kelechi Iheanacho"
+  ]
+ },
+ {
+  "id": "yayatoure",
+  "prefix": "YYT",
+  "date": "2017-01-06",
+  "minute": "50",
+  "scorer": "Sergio Agüero",
+  "verdict": "ADD",
+  "why": "투레의 강한 슈팅을 아궤로가 방향만 바꿔 넣음 — FotMob 투레 도움, FA 공식 경기 기사",
+  "sources": [
+   "https://www.thefa.com/news/2017/jan/06/west-ham-united-manchester-city-report-060117",
+   "https://fourfourtwo.com/news/west-ham-0-manchester-city-5-guardiola-bites-back-silence-london-stadium",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2418647"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "West Ham United",
+   1748,
+   "dc",
+   50,
+   3,
+   0,
+   1,
+   0,
+   "2017-01-06",
+   0,
+   0,
+   "프리미어리그 2016-17 11위",
+   "Sergio Agüero"
+  ]
+ },
+ {
+  "id": "pogba",
+  "prefix": "POG",
+  "date": "2014-04-14",
+  "minute": "26",
+  "scorer": "Fernando Llorente",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1536847"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "pogba",
+  "prefix": "POG",
+  "date": "2014-04-03",
+  "minute": "85",
+  "scorer": "Leonardo Bonucci",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1679385"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "pogba",
+  "prefix": "POG",
+  "date": "2014-11-09",
+  "minute": "24",
+  "scorer": "Fernando Llorente",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786078"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "pogba",
+  "prefix": "POG",
+  "date": "2014-11-09",
+  "minute": "58",
+  "scorer": "Carlos Tévez",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786078"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "pogba",
+  "prefix": "POG",
+  "date": "2015-01-25",
+  "minute": "74",
+  "scorer": "Stephan Lichtsteiner",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786203"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "xavi",
+  "prefix": "XAV",
+  "date": "2004-09-26",
+  "minute": "9",
+  "scorer": "Henrik Larsson",
+  "verdict": "KEEP_OUT",
+  "why": "사비 슈팅이 수비에 막혀 라르손에게 감(Soccer-Spain)",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2004/div1/day05/report5.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "xavi",
+  "prefix": "XAV",
+  "date": "2009-02-01",
+  "minute": "65",
+  "scorer": "Lionel Messi",
+  "verdict": "KEEP_OUT",
+  "why": "사비 헤더가 크로스바를 맞고 나온 공을 메시가 넣음",
+  "sources": [
+   "https://fourfourtwo.com/news/messi-brace-gives-nine-man-barca-win"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "veron",
+  "prefix": "JSV",
+  "date": "2011-09-07",
+  "minute": "63",
+  "scorer": "Matías Sánchez",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1084452"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ennesyri",
+  "prefix": "YEN",
+  "date": "2025-03-28",
+  "minute": "32",
+  "scorer": "Oğuz Aydın",
+  "verdict": "ADD",
+  "why": "엔네시리가 왼쪽에서 먼 쪽 포스트로 낮게 보낸 공을 오우즈 아이든이 건드려 넣음(튀르키예 기사, 리바운드 아님), FotMob 엔네시리 도움",
+  "sources": [
+   "https://www.fanatik.com.tr/fenerbahce/live-ozet-kanarya-rahat-kazandi-bodrum-fk-fenerbahce-mac-sonucu-2-4-2576986",
+   "https://global.espn.com/soccer/match/_/gameId/714147/fenerbahce-bodrum-fk",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4549866"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Bodrum FK",
+   1469,
+   "lg",
+   32,
+   1,
+   1,
+   0,
+   0,
+   "2025-03-28",
+   0,
+   0,
+   "쉬페르리그 2024-25 16위/19팀",
+   "Oğuz Aydın"
+  ]
+ },
+ {
+  "id": "rondon",
+  "prefix": "SRD",
+  "date": "2011-11-21",
+  "minute": "47",
+  "scorer": "Isco",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1051775"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "rondon",
+  "prefix": "SRD",
+  "date": "2013-02-14",
+  "minute": "6",
+  "scorer": "Gökdeniz Karadeniz",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1382415"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "rondon",
+  "prefix": "SRD",
+  "date": "2014-02-25",
+  "minute": "58",
+  "scorer": "Oleg Shatov",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1625217"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "rondon",
+  "prefix": "SRD",
+  "date": "2014-05-11",
+  "minute": "6",
+  "scorer": "Danny",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1477664"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "rondon",
+  "prefix": "SRD",
+  "date": "2014-12-06",
+  "minute": "62",
+  "scorer": "Danny",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1722758"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "seydoukeita",
+  "prefix": "SKT",
+  "date": "2008-03-15",
+  "minute": "21",
+  "scorer": "Luís Fabiano",
+  "verdict": "ADD",
+  "why": "케이타의 25야드 슈팅(빗나가던 공)을 루이스 파비아누가 방향만 바꿔 넣음(MLS 기사 등) — 2010 이전이라 기사 근거",
+  "sources": [
+   "https://www.mlssoccer.com/news/fabiano-fabulous-leading-sevilla-win",
+   "https://www.espn.com/soccer/match/_/gameId/226607/valencia-sevilla"
+  ],
+  "fotmob_assist": null,
+  "row": [
+   "a",
+   "Valencia CF",
+   1810,
+   "lg",
+   21,
+   1,
+   0,
+   0,
+   0,
+   "2008-03-15",
+   0,
+   0,
+   "라리가 2007-08 10위",
+   "Luís Fabiano"
+  ]
+ },
+ {
+  "id": "seydoukeita",
+  "prefix": "SKT",
+  "date": "2009-01-17",
+  "minute": "41",
+  "scorer": "Samuel Eto'o",
+  "verdict": "KEEP_OUT",
+  "why": "케이타 헤더를 골키퍼 아란수비아가 막은 리바운드를 에투가 넣음",
+  "sources": [
+   "https://www.fourfourtwo.com/news/barca-machine-marches-5-0-mauling"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "ennervalencia",
+  "prefix": "ENV",
+  "date": "2012-08-01",
+  "minute": "66",
+  "scorer": "Efrén Mera",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1257890"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ennervalencia",
+  "prefix": "ENV",
+  "date": "2013-11-10",
+  "minute": "23",
+  "scorer": "Fernando Giménez",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1477029"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ennervalencia",
+  "prefix": "ENV",
+  "date": "2014-05-02",
+  "minute": "70",
+  "scorer": "Abraham Carreño",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1696473"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2006-10-25",
+  "minute": "60",
+  "scorer": "Mido",
+  "verdict": "KEEP_OUT",
+  "why": "골키퍼 베인스가 일대일 슈팅을 다리로 막은 공이 미도에게 감(Spurs Odyssey)",
+  "sources": [
+   "https://spursodyssey.com/0607/mk251006.html"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2012-10-07",
+  "minute": "58",
+  "scorer": "Steven Caulker",
+  "verdict": "ADD",
+  "why": "데포 슈팅(베일 코너 뒤)이 같은 팀 콜커 몸에 맞고 방향이 바뀌어 들어감 — 상대·골키퍼·골대 접촉 없음, FotMob 데포 도움",
+  "sources": [
+   "https://bleacherreport.com/articles/1361903-tottenham-vs-aston-villa-6-things-we-learned",
+   "https://www.spursodyssey.com/1213/av071012.html",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1229169"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Aston Villa",
+   1714,
+   "lg",
+   58,
+   0,
+   0,
+   0,
+   0,
+   "2012-10-07",
+   0,
+   0,
+   "프리미어리그 2012-13 15위",
+   "Steven Caulker"
+  ]
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2012-10-25",
+  "minute": "58",
+  "scorer": "Gylfi Sigurdsson",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1323843"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2012-10-28",
+  "minute": "39",
+  "scorer": "Clint Dempsey",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1229193"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2013-03-07",
+  "minute": "18",
+  "scorer": "Gylfi Sigurdsson",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1382675"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2019-01-30",
+  "minute": "26",
+  "scorer": "Lassana Coulibaly",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2936818"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "defoe",
+  "prefix": "JDF",
+  "date": "2019-04-03",
+  "minute": "48",
+  "scorer": "Scott Arfield",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2784010"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "hazard",
+  "prefix": "HAZ",
+  "date": "2015-09-19",
+  "minute": "90+1",
+  "scorer": "Eden Hazard",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob은 아자르 골(레미 도움)로 적음 — 아자르 슈팅이 상대 수비(체임버스)에 맞고 굴절된 골로 알려짐, 도움 대상 아님",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1988762"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "hazard",
+  "prefix": "HAZ",
+  "date": "2010-09-16",
+  "minute": "57",
+  "scorer": "Pierre-Alain Frau",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=919672"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "suarez",
+  "prefix": "SUA",
+  "date": "2022-09-14",
+  "minute": "48",
+  "scorer": "Camilo Candido",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4014806"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "suarez",
+  "prefix": "SUA",
+  "date": "2019-05-01",
+  "minute": "75",
+  "scorer": "Lionel Messi",
+  "verdict": "KEEP_OUT",
+  "why": "수아레스 슈팅이 크로스바를 맞고 나온 공을 메시가 넣음 — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.cbssports.com/soccer/news/barcelona-vs-liverpool-score-messis-magic-puts-barca-on-brink-of-champions-league-final/",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3010097"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "suarez",
+  "prefix": "SUA",
+  "date": "2018-04-04",
+  "minute": "59",
+  "scorer": "Gerard Piqué",
+  "verdict": "KEEP_OUT",
+  "why": "알리송이 수아레스 슈팅을 막은 리바운드를 피케가 넣음 — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.sportsmole.co.uk/football/barcelona/champions-league/live-commentary/barcelona-4-1-roma-as-it-happened_322569.html",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2736493"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "henry",
+  "prefix": "HEN",
+  "date": "2010-01-02",
+  "minute": "7",
+  "scorer": "TM id 65278",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "henry",
+  "prefix": "HEN",
+  "date": "2008-11-08",
+  "minute": "30",
+  "scorer": "TM id 4257",
+  "verdict": "KEEP_OUT",
+  "why": "앙리 슈팅을 골키퍼 아센호가 쳐낸 리바운드를 에투가 넣음(Trivela)",
+  "sources": [
+   "https://trivela.com.br/espanha/etoo-imita-higuain-e-brilha-na-goleada-do-barca/"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "henry",
+  "prefix": "HEN",
+  "date": "1996-09-24",
+  "minute": "83",
+  "scorer": "TM id 3500",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2016-03-12",
+  "minute": "66",
+  "scorer": "Thomas Müller",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2002318"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2013-08-09",
+  "minute": "16",
+  "scorer": "Mario Mandzukic",
+  "verdict": "KEEP_OUT",
+  "why": "이 선수 설명 기록: 로번 프리킥을 골키퍼가 쳐낸 리바운드를 만주키치가 넣음 — FotMob은 리베리 도움",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1478940"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2012-03-31",
+  "minute": "69",
+  "scorer": "Arjen Robben",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030357"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2010-12-22",
+  "minute": "86",
+  "scorer": "Miroslav Klose",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·worldfootball은 리베리 도움으로 적지만 장면 서술 기사를 못 찾음",
+  "sources": [
+   "https://fcbayern.com/en/news/matchreports/2010/12/thrills-galore-as-holders-oust-nine-man-vfb",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=940150"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2010-11-27",
+  "minute": "61",
+  "scorer": "Thomas Müller",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=857012"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2010-09-21",
+  "minute": "62",
+  "scorer": "Thomas Müller",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=856914"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2009-02-08",
+  "minute": "24",
+  "scorer": "TM id 89",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "immobile",
+  "prefix": "IMM",
+  "date": "2022-02-24",
+  "minute": "90+5",
+  "scorer": "Danilo Cataldi",
+  "verdict": "KEEP_OUT",
+  "why": "이모빌레 슈팅이 골대를 맞고 나온 공을 카탈디가 넣음 — FotMob은 도움으로 셈",
+  "sources": [
+   "https://forzaitalianfootball.com/2022/02/lazio-bow-out-of-europa-league-after-action-packed-draw-with-porto/",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3780893"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "immobile",
+  "prefix": "IMM",
+  "date": "2017-04-04",
+  "minute": "37",
+  "scorer": "Sergej Milinkovic-Savic",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2449189"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "immobile",
+  "prefix": "IMM",
+  "date": "2016-01-16",
+  "minute": "37",
+  "scorer": "TM id 167727",
+  "verdict": "KEEP_OUT",
+  "why": "이모빌레 슈팅을 골키퍼 레알리가 막은 리바운드를 벨로티가 넣음(Fantacalcio)",
+  "sources": [
+   "https://www.fantacalcio.it/serie-a/calendario/20/2015-16/torino-frosinone/6/articolo",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2088040"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "immobile",
+  "prefix": "IMM",
+  "date": "2011-09-04",
+  "minute": "57",
+  "scorer": "TM id 133964",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "rooney",
+  "prefix": "ROO",
+  "date": "2016-09-29",
+  "minute": "69",
+  "scorer": "Zlatan Ibrahimovic",
+  "verdict": "ADD",
+  "why": "루니의 빗맞은 발리가 땅에 튀어 먼 쪽 포스트로 갔고 이브라히모비치가 헤더로 넣음 — 상대·골키퍼·골대 접촉 없음, FotMob 루니 도움",
+  "sources": [
+   "https://www.skysports.com/football/news/11095/10598570/manchester-united-1-0-fc-zorya-luhansk-zlatan-ibrahimovic-downs-stubborn-ukrainians",
+   "https://www.fourfourtwo.com/news/manchester-united-1-zorya-0-ibrahimovic-header-earns-mourinhos-men-narrow-win",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2365377"
+  ],
+  "fotmob_assist": true,
+  "row": [
+   "a",
+   "Zorya Lugansk",
+   1600,
+   "elg",
+   69,
+   0,
+   0,
+   0,
+   0,
+   "2016-09-29",
+   0,
+   0,
+   "우크라이나 1부 2016-17 3위/12팀 (Ukrainian Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "Zlatan Ibrahimović"
+  ]
+ },
+ {
+  "id": "rooney",
+  "prefix": "ROO",
+  "date": "2013-11-27",
+  "minute": "65",
+  "scorer": "Jonny Evans",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1573714"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "rooney",
+  "prefix": "ROO",
+  "date": "2012-05-06",
+  "minute": "41",
+  "scorer": "Ashley Young",
+  "verdict": "KEEP_OUT",
+  "why": "영이 상대 싱클레어의 실수를 가로채 넣은 골(상대 터치) — FotMob은 루니 도움",
+  "sources": [
+   "https://www.sportsmole.co.uk/football/man-utd/result/manchester-united-2-0-swansea-city_26442.html",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1026135"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2016-04-17",
+  "minute": "15",
+  "scorer": "Koke",
+  "verdict": "UNCLEAR",
+  "why": "라리가 공식 기사는 토레스 슈팅이 수비에 막힌 공을 코케가 넣었다고, 구단 기사는 토레스 패스라고 적어 갈림(FotMob 도움)",
+  "sources": [
+   "https://www.laliga.com/en-GB/news/atletico-keep-up",
+   "https://en.atleticodemadrid.com/noticias/thrashing-to-keep-adding",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2030486"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2013-05-02",
+  "minute": "52",
+  "scorer": "Fernando Torres",
+  "verdict": "KEEP_OUT",
+  "why": "토레스 슈팅이 막힌 공을 모제스가 두 번째 시도로 넣음(스카이스포츠) — FotMob은 도움으로 셈",
+  "sources": [
+   "https://www.skysports.com/football/chelsea-vs-basel/report/285649",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1439422"
+  ],
+  "fotmob_assist": true
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2012-10-06",
+  "minute": "22",
+  "scorer": "Frank Lampard",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1229162"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2011-10-19",
+  "minute": "72",
+  "scorer": "Salomon Kalou",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1104536"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2009-09-16",
+  "minute": "45+1",
+  "scorer": "TM id 4010",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "torres",
+  "prefix": "TOR",
+  "date": "2007-12-26",
+  "minute": "90",
+  "scorer": "TM id 3109",
+  "verdict": "KEEP_OUT",
+  "why": "골키퍼 프라이스가 토레스 슈팅을 막은 공을 제라드가 넣음(스카이스포츠는 걷어낸 공 굴절로 적음)",
+  "sources": [
+   "https://www.skysports.com/football/news/3005599/derby-denied-by-gerrard"
+  ],
+  "fotmob_assist": null
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2016-11-30",
+  "minute": "35",
+  "scorer": "Ashley Fletcher",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2401686"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2015-05-16",
+  "minute": "3",
+  "scorer": "Andre-Pierre Gignac",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1710060"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2015-02-27",
+  "minute": "45+2",
+  "scorer": "Andre Ayew",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1709961"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2013-01-12",
+  "minute": "1",
+  "scorer": "Nolan Roux",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1217003"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2012-08-11",
+  "minute": "90+1",
+  "scorer": "Benoit Pedretti",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1216810"
+  ],
+  "fotmob_assist": false
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2012-01-28",
+  "minute": "86",
+  "scorer": "TM id 81460",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2010-10-23",
+  "minute": "82",
+  "scorer": "TM id 61637",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2008-05-10",
+  "minute": "44",
+  "scorer": "TM id 22390",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "payet",
+  "prefix": "PAY",
+  "date": "2008-04-19",
+  "minute": "51",
+  "scorer": "TM id 28335",
+  "verdict": "UNCLEAR",
+  "why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+  "sources": [],
+  "fotmob_assist": null
+ },
+ {
+  "id": "isco",
+  "prefix": "ISC",
+  "date": "2022-01-05",
+  "minute": "78",
+  "scorer": "Marco Asensio",
+  "verdict": "KEEP_OUT",
+  "why": "FotMob(Opta) 경기 이벤트에 이 선수 도움 없음 — 골키퍼·골대·수비 리바운드로 보는 기존 판정과 일치",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3784677"
+  ],
+  "fotmob_assist": false
+ }
+]
