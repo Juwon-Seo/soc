@@ -1,0 +1,1109 @@
+[
+ {
+  "id": "cabella",
+  "prefix": "CAB",
+  "date": "2012-02-04",
+  "minute": 41,
+  "scorer": "Geoffrey Dernis",
+  "verdict": "ADD",
+  "why": "AFP(Fox Sports) 기사: 카벨라의 골문 향하던 발리가 동료 데르니의 등에 맞고 방향이 바뀌어 들어감(동료 굴절), ESPN(Opta) 문자중계도 데르니 골·카벨라 도움으로 기록(1차의 'ESPN 도움 없음'은 오기)",
+  "sources": [
+   "https://www.foxsports.com/stories/soccer/dernis-scores-winner-for-montpellier",
+   "https://www.espn.com/soccer/commentary/_/gameId/320178"
+  ],
+  "row": [
+   "a",
+   "Stade Brestois 29",
+   1577,
+   "lg",
+   41,
+   0,
+   0,
+   0,
+   0,
+   "2012-02-04",
+   0,
+   0,
+   "리그1 2011-12 15위",
+   "Geoffrey Dernis"
+  ]
+ },
+ {
+  "id": "jimenez",
+  "prefix": "RJM",
+  "date": "2018-02-24",
+  "minute": 72,
+  "scorer": "Jonas",
+  "verdict": "ADD",
+  "why": "Bola na Rede 기사: 히메네스 슈팅이 동료 조나스에게 맞고 조나스가 문전에서 다시 밀어 넣음(상대·골키퍼 접촉 없음), ESPN(Opta)도 조나스 근거리 골·히메네스 도움으로 기록(FotMob은 도움 없음)",
+  "sources": [
+   "https://bolanarede.pt/?p=81272",
+   "https://bolanarede.pt/?p=81360",
+   "https://www.espn.com/soccer/commentary/_/gameId/489038"
+  ],
+  "row": [
+   "a",
+   "FC Paços de Ferreira",
+   1441,
+   "lg",
+   72,
+   0,
+   1,
+   0,
+   0,
+   "2018-02-24",
+   0,
+   0,
+   "포르투갈 1부 2017-18 17위",
+   "Jonas"
+  ]
+ },
+ {
+  "id": "yayatoure",
+  "prefix": "YYT",
+  "date": "2015-08-10",
+  "minute": "9",
+  "scorer": "David Silva",
+  "verdict": "ADD",
+  "why": "ESPN 기사: 투레 슈팅이 실바에게 맞고 굴절된 뒤 수비수 도슨의 다리 사이로 굴러 들어가 프리미어리그 판정위원회가 실바 골로 정정, ESPN(Opta) 문자중계도 실바 골·투레 도움(도슨 접촉은 '다리 사이 통과'로만 서술). 실바 파일의 g 행 복사",
+  "sources": [
+   "https://www.espn.com/soccer/manchester-city/story/2562014/david-silva-credited-with-scoring-man-citys-first-goal",
+   "https://www.espn.com/soccer/commentary/_/gameId/422658"
+  ],
+  "row": [
+   "a",
+   "West Bromwich Albion",
+   1718,
+   "lg",
+   9,
+   0,
+   0,
+   0,
+   0,
+   "2015-08-10",
+   0,
+   0,
+   "프리미어리그 2015-16 14위",
+   "David Silva"
+  ]
+ },
+ {
+  "id": "diego",
+  "prefix": "DIE",
+  "date": "2009-12-12",
+  "minute": 24,
+  "scorer": "David Trezeguet",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 23분 디에구 중거리 슈팅을 골키퍼가 선방한 뒤 트레제게가 역습 마무리로 골 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/278283"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2008-04-13",
+  "minute": 70,
+  "scorer": "Maxi Rodríguez",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 70분 포를란 슈팅이 막힘(blocked) 직후 막시 로드리게스 골 — 상대에 막힌 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/226631"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2008-12-06",
+  "minute": 41,
+  "scorer": "Sergio Agüero",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 41분 포를란 중거리 슈팅을 골키퍼가 선방한 뒤 아궤로 골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/252908"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2009-03-15",
+  "minute": 53,
+  "scorer": "Sergio Agüero",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 53분 포를란 슈팅이 오른쪽 골대에 맞은 뒤 아궤로 골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/253062"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2009-01-11",
+  "minute": 49,
+  "scorer": "Álvaro Domínguez",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 50분 아틀레티코 알바로 도밍게스의 자책골 — 상대 자책골은 도움 대상 아님(계산기에는 같은 경기 49분 요렌테 골 행이 따로 있음, 확인 필요)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/253089"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2009-12-03",
+  "minute": 61,
+  "scorer": "Mikel San José",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 62분 예스테 프리킥 크로스를 산호세가 슈팅해 골, 요렌테 슈팅 관여 기록 없음(직전 슈팅은 구르페기, 상대 디아방이 막음)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/283337"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2019-03-17",
+  "minute": 90,
+  "scorer": "Nahitan Nández",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 90분 테베스 슈팅을 골키퍼가 선방한 뒤 난데스가 역습으로 골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/521121"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2008-11-22",
+  "minute": 17,
+  "scorer": "Martin Lanig",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 17분 고메스 슈팅이 막힘(blocked) 직후 라니히 골 — 상대에 막힌 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/252561"
+  ]
+ },
+ {
+  "id": "pato",
+  "prefix": "PAT",
+  "date": "2014-09-10",
+  "minute": 37,
+  "scorer": "Souza",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 37분 파투 슈팅을 골키퍼가 선방한 뒤 수자가 문전에서 골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/390446"
+  ]
+ },
+ {
+  "id": "berardi",
+  "prefix": "BER",
+  "date": "2026-01-31",
+  "minute": 46,
+  "scorer": "Antonio Caracciolo",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 45+1분 피사 카라촐로의 자책골 — 상대 자책골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/737005"
+  ]
+ },
+ {
+  "id": "gourcuff",
+  "prefix": "GOU",
+  "date": "2009-05-16",
+  "minute": 75,
+  "scorer": "Marc Planus",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 76분 구르퀴프 슈팅이 막힘(blocked) 뒤 코너킥 상황에서 플라뉘스 골, 도움 없음 — 상대에 막힌 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/252073"
+  ]
+ },
+ {
+  "id": "ljungberg",
+  "prefix": "LJU",
+  "date": "2002-05-08",
+  "minute": 57,
+  "scorer": "Sylvain Wiltord",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 융베리가 윌토르 패스로 단독 찬스, 바르테즈가 막은 공을 윌토르가 밀어 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/48436"
+  ]
+ },
+ {
+  "id": "scholes",
+  "prefix": "PSC",
+  "date": "2010-01-23",
+  "minute": 8,
+  "scorer": "TM선수 3332",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 8분 스콜스 중거리 슈팅을 골키퍼가 선방한 뒤 루니 골(코너킥 상황)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/269847"
+  ]
+ },
+ {
+  "id": "valbuena",
+  "prefix": "VAB",
+  "date": "2008-10-19",
+  "minute": 13,
+  "scorer": "TM선수 23941",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta): 13분 발부에나 슈팅이 크로스바에 맞은 뒤 바카리 코네 헤더 골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/252090"
+  ]
+ },
+ {
+  "id": "giggs",
+  "prefix": "GIG",
+  "date": "2002-02-10",
+  "minute": 74,
+  "scorer": "Ole Gunnar Solskjaer",
+  "verdict": "KEEP_OUT",
+  "why": "Irish Times(Guardian Service) 기사: 키엘리 골키퍼가 긱스 슈팅을 쳐낸 뒤 솔샤르가 바이라인 근처에서 파월을 제치고 좁은 각도로 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.irishtimes.com/sport/keane-drives-united-on-and-up-1.1049949"
+  ]
+ },
+ {
+  "id": "giggs",
+  "prefix": "GIG",
+  "date": "2007-10-06",
+  "minute": 59,
+  "scorer": "Cristiano Ronaldo",
+  "verdict": "KEEP_OUT",
+  "why": "Mail & Guardian(AFP)·Dawn: 긱스 슈팅이 킬베인에 굴절된 뒤 커클랜드 골키퍼가 쳐낸 공을 호날두가 헤더로 넣음 — 상대 굴절·골키퍼 선방 뒤 공",
+  "sources": [
+   "https://mg.co.za/article/2007-10-07-man-united-rediscover-scoring-touch-in-emphatic-win",
+   "https://www.dawn.com/news/270105",
+   "https://www.skysports.com/football/news/2783368/united-go-top"
+  ]
+ },
+ {
+  "id": "gerrard",
+  "prefix": "GER",
+  "date": "2003-12-13",
+  "minute": 75,
+  "scorer": "Emile Heskey",
+  "verdict": "KEEP_OUT",
+  "why": "LFChistory·사우샘프턴 구단 기사: 제라드 슈팅을 니에미 골키퍼가 쳐낸 리바운드를 헤스키가 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.lfchistory.net/SeasonArchive/Game/2461",
+   "https://www.southamptonfc.com/en/news/article/match-of-my-day-michael-svensson"
+  ]
+ },
+ {
+  "id": "nakamura",
+  "prefix": "NKS",
+  "date": "2006-10-17",
+  "minute": "56",
+  "scorer": "Kenny Miller",
+  "verdict": "ADD",
+  "why": "RTÉ 기사: 네일러의 컷백을 받은 나카무라의 빗나가던 슈팅을 밀러가 문전 가까이에서 골문 쪽으로 방향을 바꿔 넣음(상대·골키퍼 접촉 없음), UEFA·ESPN 기록도 나카무라 도움",
+  "sources": [
+   "https://www.rte.ie/sport/soccer/2006/1017/210258-celtic",
+   "https://www.espn.co.uk/football/match/_/gameId/205476/benfica-celtic"
+  ],
+  "row": [
+   "a",
+   "SL Benfica",
+   1682,
+   "clg",
+   56,
+   0,
+   0,
+   0,
+   0,
+   "2006-10-17",
+   0,
+   0,
+   "포르투갈 1부 2006-07 3위",
+   "Kenny Miller"
+  ]
+ },
+ {
+  "id": "nakamura",
+  "prefix": "NKS",
+  "date": "2006-10-17",
+  "minute": "90",
+  "scorer": "Stephen Pearson",
+  "verdict": "KEEP_OUT",
+  "why": "RTÉ 기사: 나카무라의 각도 없는 슈팅을 킴 골키퍼가 막아낸 공을 피어슨이 16야드에서 다시 차 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.rte.ie/sport/soccer/2006/1017/210258-celtic"
+  ]
+ },
+ {
+  "id": "ronaldonazario",
+  "prefix": "RNO",
+  "date": "1998-11-25",
+  "minute": 51,
+  "scorer": "Iván Zamorano",
+  "verdict": "ADD",
+  "why": "인테르 구단 기사(2020 회고·경기 기록): 사모라노가 재빠르게 호나우두의 슈팅 방향을 바꿔(deviare il tiro di Ronaldo) 1-0 — 동료 방향 전환, 상대·골키퍼 접촉 서술 없음. 1998년 경기라 FotMob·ESPN 자료 없음",
+  "sources": [
+   "https://www.inter.it/it/notizie/2020-11-19-inter-real-madrid-3-1-1998-baggio",
+   "https://www.inter.it/en/news/2020-11-19-inter-real-madrid-3-1-1998-baggio"
+  ],
+  "row": [
+   "a",
+   "Real Madrid",
+   1962,
+   "clg",
+   51,
+   0,
+   0,
+   0,
+   0,
+   "1998-11-25",
+   0,
+   0,
+   "라리가 1998-99 2위",
+   "Iván Zamorano"
+  ]
+ },
+ {
+  "id": "etoo",
+  "prefix": "ETO",
+  "date": "2009-05-13",
+  "minute": "55",
+  "scorer": "Lionel Messi",
+  "verdict": "KEEP_OUT",
+  "why": "Libertad Digital: 메시가 문전 리바운드(rechace en el área)를 이용해 득점, 검색 요약된 영문 보도도 에투 슈팅 리바운드를 메시가 잡아 넣었다고 서술 — 동료 방향 전환이 아니라 튀어나온 공",
+  "sources": [
+   "https://www.libertaddigital.com/deportes/2009-05-14/el-barca-gana-la-copa-y-da-el-primer-paso-hacia-el-triplete-1276359166/"
+  ]
+ },
+ {
+  "id": "ronaldonazario",
+  "prefix": "RNO",
+  "date": "2004-03-28",
+  "minute": 74,
+  "scorer": "Míchel Salgado",
+  "verdict": "KEEP_OUT",
+  "why": "Soccer-Spain 경기 리포트: 호나우두 슈팅을 에스테반 골키퍼가 막아낸 뒤 살가도가 골문 오른쪽에서 마무리 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2003/div1/day30/report4.html"
+  ]
+ },
+ {
+  "id": "ronaldonazario",
+  "prefix": "RNO",
+  "date": "2003-09-13",
+  "minute": 21,
+  "scorer": "Júlio César",
+  "verdict": "KEEP_OUT",
+  "why": "Irish Times·Soccer-Spain: 바야돌리드 수비수 줄리우 세자르가 호나우두 슈팅에 머리를 대 자기 골문에 넣은 자책골 — 상대 자책골",
+  "sources": [
+   "https://www.irishtimes.com/news/raul-leads-real-rout-of-vallodolid-1.498783",
+   "https://www.soccer-spain.com/ssdocs/reports2003/div1/day03/report9.html"
+  ]
+ },
+ {
+  "id": "malouda",
+  "prefix": "MLD",
+  "date": "2004-02-25",
+  "minute": 18,
+  "scorer": "TM선수 7466",
+  "verdict": "KEEP_OUT",
+  "why": "Sky Sports·UEFA: 레알 소시에다드 수비수 슈레르가 말루다의 크로스를 걷어내려다 자기 골문에 넣은 자책골 — 상대 자책골(슈팅 아님)",
+  "sources": [
+   "https://www.skysports.com/football/news/2292182/real-sociedad-0-lyon-1",
+   "https://www.uefa.com/uefachampionsleague/news/019a-0e6acce91624-647b278e95c7-1000--lyon-heart-frustrates-real"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "1994-11-20",
+  "minute": 73,
+  "scorer": "Fabio Cannavaro",
+  "verdict": "KEEP_OUT",
+  "why": "위키백과 1994-95 피오렌티나 시즌·L'Unità(1994-11-21): 73분 골은 나폴리 칸나바로의 자책골 — 상대 자책골",
+  "sources": [
+   "https://en.wikipedia.com/wiki/1994%E2%80%9395_AC_Fiorentina_season",
+   "https://archivio.unita.news/assets/main/1994/11/21/page_036.pdf"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "2000-03-18",
+  "minute": 60,
+  "scorer": "Predrag Mijatović",
+  "verdict": "KEEP_OUT",
+  "why": "L'Unità(2000-03-19) 경기 기사: 바티스투타의 강한 대각 슈팅을 칼리아리 골키퍼가 쳐낸 공을 미야토비치가 헤더로 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2000/03/19/page_008.pdf"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "1999-09-22",
+  "minute": 51,
+  "scorer": "Christian Amoroso",
+  "verdict": "ADD",
+  "why": "L'Unità(1999-09-23) 기사: 아모로소가 바티스투타의 좋은 프리킥을 골문 안으로 방향만 바꿔 넣어(devia in rete una bella punizione di Batigol) 2-1 — 동료 방향 전환. 골 분은 TM 51분(기사 '후반 10분'), 1999년 경기라 FotMob·ESPN 없음",
+  "sources": [
+   "https://archivio.unita.news/assets/main/1999/09/23/page_007.pdf"
+  ],
+  "row": [
+   "a",
+   "FC Barcelona",
+   1957,
+   "clg",
+   51,
+   0,
+   2,
+   0,
+   0,
+   "1999-09-22",
+   0,
+   0,
+   "라리가 1999-00 2위",
+   "Christian Amoroso"
+  ]
+ },
+ {
+  "id": "camoranesi",
+  "prefix": "CAM",
+  "date": "2002-04-14",
+  "minute": 32,
+  "scorer": "Mario Frick",
+  "verdict": "ADD",
+  "why": "L'Unità(2002-04-15) 기사: 왼쪽 롱패스 때 카바예로가 놓친 사이 카모라네시가 공을 중앙으로 다시 보냈고(rimettere al centro) 프릭이 쉽게 밀어 넣음 — 상대·골키퍼 접촉 없이 카모라네시 공을 동료가 마무리. 2002년이라 FotMob·ESPN 장면 없음",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2002/04/15/page_018.pdf"
+  ],
+  "row": [
+   "a",
+   "Udinese Calcio",
+   1717,
+   "lg",
+   32,
+   0,
+   0,
+   0,
+   0,
+   "2002-04-14",
+   0,
+   0,
+   "세리에A 2001-02 14위",
+   "Mario Frick"
+  ]
+ },
+ {
+  "id": "lucatoni",
+  "prefix": "TON",
+  "date": "2002-04-21",
+  "minute": "87",
+  "scorer": "Roberto Baggio",
+  "verdict": "UNCLEAR",
+  "why": "L'Unità(2002-04-22) 기사는 바조의 두 골(첫 골은 '절반 오버헤드킥')만 서술하고 토니의 관여(슈팅·굴절)는 언급 없음, 검색에서도 장면 기사 못 찾음",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2002/04/22/page_015.pdf",
+   "https://archivio.unita.news/assets/main/2002/04/22/page_019.pdf"
+  ]
+ },
+ {
+  "id": "lucatoni",
+  "prefix": "TON",
+  "date": "2002-04-21",
+  "minute": "73",
+  "scorer": "Roberto Baggio",
+  "verdict": "UNCLEAR",
+  "why": "L'Unità(2002-04-22) 기사는 바조의 두 골(첫 골은 '절반 오버헤드킥')만 서술하고 토니의 관여(슈팅·굴절)는 언급 없음, 검색에서도 장면 기사 못 찾음",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2002/04/22/page_015.pdf",
+   "https://archivio.unita.news/assets/main/2002/04/22/page_019.pdf"
+  ]
+ },
+ {
+  "id": "lucatoni",
+  "prefix": "TON",
+  "date": "2004-01-11",
+  "minute": "71",
+  "scorer": "Lamberto Zauli",
+  "verdict": "UNCLEAR",
+  "why": "L'Unità(2004-01-12)는 '토니 두 골, 차울리 두 골'만 적고 장면 서술 없음",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2004/01/12/page_016.pdf"
+  ]
+ },
+ {
+  "id": "camoranesi",
+  "prefix": "CAM",
+  "date": "2002-01-06",
+  "minute": 74,
+  "scorer": "Marco Zanchi",
+  "verdict": "UNCLEAR",
+  "why": "L'Unità(2002-01-07) 베로나-피아첸차 기사는 찾았으나 PDF 텍스트 단 배치가 깨져 잔키 결승골 장면 서술을 확인 못 함",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2002/01/07/page_018.pdf"
+  ]
+ },
+ {
+  "id": "diego",
+  "prefix": "DIE",
+  "date": "2010-03-18",
+  "minute": 2,
+  "scorer": "David Trezeguet",
+  "verdict": "ADD",
+  "why": "RTÉ 기사: 살리하미지치 크로스를 받은 디에구가 켈리·한겔란을 떨쳐내고 트레제게에게 공을 내줘(lay the ball off) 트레제게가 슈워처를 넘김 — 상대·골키퍼 접촉 없는 디에구의 연결, ESPN 문자중계도 '공이 트레제게에게 떨어짐'으로 서술. 트레제게 파일의 g 행 복사(2010년 3월이라 FotMob 없음)",
+  "sources": [
+   "https://www.rte.ie/sport/soccer/2010/0318/262589-fulham_juventus",
+   "https://www.espn.com/soccer/commentary/_/gameId/289302"
+  ],
+  "row": [
+   "a",
+   "Fulham FC",
+   1811,
+   "elk",
+   2,
+   0,
+   0,
+   0,
+   0,
+   "2010-03-18",
+   0,
+   0,
+   "프리미어리그 2009-10 12위",
+   "David Trezeguet",
+   [
+    2,
+    0,
+    3,
+    1,
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "id": "lucatoni",
+  "prefix": "TON",
+  "date": "2001-04-14",
+  "minute": "56",
+  "scorer": "Vincenzo Sommese",
+  "verdict": "UNCLEAR",
+  "why": "L'Unità(2001-04-15) 비첸차-볼로냐 기사는 찾았으나 좀메세 골 장면 서술 없음(득점 목록만)",
+  "sources": [
+   "https://archivio.unita.news/assets/main/2001/04/15/page_018.pdf"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2015-01-11",
+  "minute": 29,
+  "scorer": "Paul Pogba",
+  "verdict": "UNCLEAR",
+  "why": "ESPN(Opta)는 포그바 골을 요렌테 도움으로 기록하나 장면은 테베스 슈팅이 요렌테 몸에 맞고 포그바에게 흐른 것(요렌테는 굴절시킨 쪽, 슈팅한 선수 아님) — '이 선수 슈팅을 동료가 방향 전환' 규칙과 다른 유형이라 사용자 판단 필요",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/403663"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2010-09-16",
+  "minute": 63,
+  "scorer": "Jô",
+  "verdict": "KEEP_OUT",
+  "why": "UEFA·Sky Sports 기사: 테베스의 20야드 낮은 슈팅을 트레멜 골키퍼가 쳐낸 리바운드를 조가 좁은 각도에서 밀어 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://uefa.com/uefaeuropaleague/news/01e9-0e7580940da9-35c8a4d415ae-1000--manchester-city-claim-salzburg-scalp",
+   "https://www.skysports.com/football/news/11679/6380198/city-stroll-past-salzburg"
+  ]
+ },
+ {
+  "id": "giggs",
+  "prefix": "GIG",
+  "date": "1999-01-10",
+  "minute": 80,
+  "scorer": "Ole Gunnar Solskjaer",
+  "verdict": "UNCLEAR",
+  "why": "검색 2회로 득점 목록(솔샤르 80·81분)만 확인, 긱스 관여 장면 기사 못 찾음",
+  "sources": []
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2006-04-08",
+  "minute": 80,
+  "scorer": "Jon Dahl Tomasson",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 경기 장면 기사 못 찾음(슈투트가르트-뉘른베르크 2006-04-08)",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/31704"
+  ]
+ },
+ {
+  "id": "silva",
+  "prefix": "SIL",
+  "date": "2010-03-11",
+  "minute": 58,
+  "scorer": "TM선수 44068",
+  "verdict": "KEEP_OUT",
+  "why": "Sky Sports·UEFA 기사(검색 요약): 실바의 첫 슈팅이 막힌(blocked) 뒤 굴절돼 흐른 공을 마타가 밀어 넣음 — 상대에 막힌 공(동료 방향 전환 아님)",
+  "sources": [
+   "https://www.skysports.com/football/valencia-vs-werder-bremen/206881",
+   "https://uefa.com/uefaeuropaleague/news/01e3-0e7402ce1042-0c4fb71e11ca-1000--mata-leveller-eases-valencia-s-plight"
+  ]
+ },
+ {
+  "id": "firmino",
+  "prefix": "RFM",
+  "date": "2014-02-15",
+  "minute": 12,
+  "scorer": "Sven Schipplock",
+  "verdict": "UNCLEAR",
+  "why": "ADD 쪽 정황: 검색 요약상 Bundesliga.com 기사는 '쉬플록이 피르미누의 크로스를 마무리'라 하고 FotMob도 피르미누 도움. 그러나 원문을 직접 못 읽었고(접속 차단) ESPN(Opta)은 도움·직전 슈팅 기록 없음 — 사용자 판단 필요",
+  "sources": [
+   "https://www.bundesliga.com/en/news/Bundesliga/0000285970.jsp",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1479178",
+   "https://www.espn.com/soccer/commentary/_/gameId/369715"
+  ]
+ },
+ {
+  "id": "sneijder",
+  "prefix": "SNE",
+  "date": "2003-03-08",
+  "minute": "15",
+  "scorer": "Rafael van der Vaart",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 경기 장면 기사 못 찾음(즈볼레-아약스 2003-03-08)",
+  "sources": []
+ },
+ {
+  "id": "mertens",
+  "prefix": "MER",
+  "date": "2009-12-13",
+  "minute": "31",
+  "scorer": "Ricky van Wolfswinkel",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 네덜란드 경기 기사 검색(1회)으로 장면 서술 못 찾음 — 득점 시각만 확인",
+  "sources": []
+ },
+ {
+  "id": "mertens",
+  "prefix": "MER",
+  "date": "2010-11-24",
+  "minute": "62",
+  "scorer": "Edouard Duplan",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 네덜란드 경기 기사 검색(1회)으로 장면 서술 못 찾음 — 득점 시각만 확인",
+  "sources": []
+ },
+ {
+  "id": "mertens",
+  "prefix": "MER",
+  "date": "2011-02-27",
+  "minute": "74",
+  "scorer": "Ricky van Wolfswinkel",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 네덜란드 경기 기사 검색(1회)으로 장면 서술 못 찾음 — 득점 시각만 확인",
+  "sources": []
+ },
+ {
+  "id": "mertens",
+  "prefix": "MER",
+  "date": "2011-08-21",
+  "minute": "39",
+  "scorer": "Ola Toivonen",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 네덜란드 경기 기사 검색(1회)으로 장면 서술 못 찾음 — 득점 시각만 확인",
+  "sources": []
+ },
+ {
+  "id": "claudiolopez",
+  "prefix": "CLO",
+  "date": "2000-04-05",
+  "minute": 2,
+  "scorer": "TM선수 7579",
+  "verdict": "ADD",
+  "why": "발렌시아 구단 기사: 2분 앙굴로가 클라우디오 로페스의 '엄청난 스루패스'를 받아 선제골 — 상대 접촉 없는 로페스의 연결(TM 유형은 슈팅이나 장면은 패스). 2000년 경기라 FotMob 없음, 같은 경기 기존 a·g 행의 합산 배열 사용",
+  "sources": [
+   "https://valenciacf.com/en-on-a-day-like-today-a-magical-european-night-against-lazio-2020-04-05"
+  ],
+  "row": [
+   "a",
+   "SS Lazio",
+   1942,
+   "clk",
+   2,
+   0,
+   0,
+   0,
+   0,
+   "2000-04-05",
+   0,
+   0,
+   "세리에A 1999-00 1위",
+   "Miguel Ángel Angulo",
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "id": "claudiolopez",
+  "prefix": "CLO",
+  "date": "1998-11-03",
+  "minute": 97,
+  "scorer": "TM선수 3646",
+  "verdict": "KEEP_OUT",
+  "why": "Irish Times·LFChistory: 막판 발렌시아 골은 클라우디오 로페스의 프리킥이 골대에 맞고 리버풀 골키퍼 데이비드 제임스에 맞아 들어간 제임스 자책골 — 골대·상대 자책골(참고: 같은 기사로 로페스의 45+분 골은 일리에 슈팅이 골대 맞고 나온 리바운드)",
+  "sources": [
+   "https://www.irishtimes.com/sport/liverpool-stage-late-late-show-of-force-1.210748",
+   "https://www.lfchistory.net/SeasonArchive/Game/2180"
+  ]
+ },
+ {
+  "id": "ronaldonazario",
+  "prefix": "RNO",
+  "date": "1997-04-06",
+  "minute": 13,
+  "scorer": "Giovanni",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 득점 목록(조반니 13분)만 확인, 장면 서술 기사 못 찾음",
+  "sources": []
+ },
+ {
+  "id": "ronaldonazario",
+  "prefix": "RNO",
+  "date": "1996-05-16",
+  "minute": 87,
+  "scorer": "Wim Jonk",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 득점 목록(용크 87분)만 확인, 장면 서술 기사 못 찾음",
+  "sources": []
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2003-05-21",
+  "minute": 77,
+  "scorer": "Guillermo Barros Schelotto",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 득점 목록(바로스 스켈로토 15·76분)만 확인, 테베스 관여 장면 기사 못 찾음",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3297587"
+  ]
+ },
+ {
+  "id": "pauleta",
+  "prefix": "PAU",
+  "date": "2004-12-07",
+  "minute": "37",
+  "scorer": "Fabrice Pancrate",
+  "verdict": "KEEP_OUT",
+  "why": "UEFA 기사: 판크라트의 헤더 떨굼을 받은 파울레타의 슈팅을 아킨페예프 골키퍼가 막았으나 잡지 못해 판크라트가 리바운드를 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://uefa.com/uefachampionsleague/news/025a-0eaa7cda7440-4b3df2093557-1000--semak-strikes-oust-psg",
+   "https://www.maxifoot.fr/football/article-1512.htm"
+  ]
+ },
+ {
+  "id": "diego",
+  "prefix": "DIE",
+  "date": "2006-08-19",
+  "minute": 77,
+  "scorer": "Hugo Almeida",
+  "verdict": "UNCLEAR",
+  "why": "AFP(Daily Star) 기사는 '교체 투입된 알메이다가 77분 결승골'만 서술, 베르더 구단 기사는 열리지 않음 — 디에구 관여 장면 미확인",
+  "sources": [
+   "https://archive.thedailystar.net/2006/08/21/d60821042561.htm",
+   "https://werder.de/en/news/news/en-news-import/imported-news-630"
+  ]
+ },
+ {
+  "id": "wood",
+  "prefix": "CWD",
+  "date": "2009-12-14",
+  "minute": 94,
+  "scorer": "Simon Cox",
+  "verdict": "KEEP_OUT",
+  "why": "Sky Sports 기사: 교체 투입된 크리스 우드의 강한 슈팅을 체르니 골키퍼가 쳐낸 리바운드를 콕스가 가장 먼저 반응해 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.skysports.com/football/news/5772184/last-gasp-baggies-snatch-point",
+   "https://www.birminghampost.co.uk/news/local-news/west-bromwich-albion-2-qpr-3936265"
+  ]
+ },
+ {
+  "id": "immobile",
+  "prefix": "IMM",
+  "date": "2011-09-04",
+  "minute": "57",
+  "scorer": "TM id 133964",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 득점 목록(인시녜 57·58분)만 확인, 임모빌레 관여 장면 기사 못 찾음",
+  "sources": []
+ },
+ {
+  "id": "jimenez",
+  "prefix": "RJM",
+  "date": "2016-08-07",
+  "minute": 92,
+  "scorer": "Pizzi",
+  "verdict": "KEEP_OUT",
+  "why": "RTP 문자중계: 살비우 패스를 받은 히메네스의 슈팅을 마라포나 골키퍼가 막아 흐른 공을 피치가 잡아 칩슛으로 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.rtp.pt/noticias/desporto/benfica-conquista-supertaca_e938988"
+  ]
+ },
+ {
+  "id": "pato",
+  "prefix": "PAT",
+  "date": "2015-08-29",
+  "minute": 50,
+  "scorer": "Paulo Ganso",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 50분 파투 슈팅을 골키퍼가 선방한 직후 간수 골(도움 없음) — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/417589"
+  ]
+ },
+ {
+  "id": "lewandowski",
+  "prefix": "LEW",
+  "date": "2012-10-30",
+  "minute": 79,
+  "scorer": null,
+  "verdict": "UNCLEAR",
+  "why": "schwatzgelb 경기 리포트·검색 모두 쉬버 79분 골의 장면(레반도프스키 관여) 서술 없음",
+  "sources": [
+   "https://schwatzgelb.de/artikel/2012/archiv/2012-10-31_match-report_cup-aalen-vs-borussia-dortmund-black-and-yellow-makes-short-shrift-of-aalen"
+  ]
+ },
+ {
+  "id": "diego",
+  "prefix": "DIE",
+  "date": "2006-10-14",
+  "minute": 6,
+  "scorer": "Aaron Hunt",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회: 헌트 7분 골이 디에구 도움이라는 표기는 금지 출처(worldfootball)뿐, 장면 서술 기사 못 찾음",
+  "sources": []
+ },
+ {
+  "id": "altintop",
+  "prefix": "ALT",
+  "date": "2013-01-18",
+  "minute": "18",
+  "scorer": "Johan Elmander",
+  "verdict": "ADD",
+  "why": "Timeturk 문자중계 기사: 사브리 크로스를 상대가 걷어낸 공을 하미트가 낮고 강하게 슈팅했고, 골문으로 향하던 공에 엘만데르가 발을 대(ayak koyan) 1-0 — 동료 방향 전환. 상대 elo·라벨은 같은 팀·시즌 다른 선수 행(2013-03-16) 사용, FotMob·ESPN 장면 자료 없음",
+  "sources": [
+   "https://www.timeturk.com/tr/2013/01/18/galatasaray-a-tatil-yaramadi.html",
+   "https://www.mynet.com/spor-toto-super-lig-180100654121"
+  ],
+  "row": [
+   "a",
+   "Kasimpasa",
+   1536,
+   "lg",
+   18,
+   0,
+   0,
+   0,
+   0,
+   "2013-01-18",
+   0,
+   0,
+   "쉬페르리그 2012-13 6위/18팀 (추정, 다른 선수 자료 5위 1543·8위 1478 사이)",
+   "Johan Elmander"
+  ]
+ },
+ {
+  "id": "debruyne",
+  "prefix": "KDB",
+  "date": "2011-04-03",
+  "minute": "81",
+  "scorer": "Elyaniv Barda",
+  "verdict": "KEEP_OUT",
+  "why": "Voetbalkrant 경기 리포트: 코파 골키퍼가 더브라위너의 슈팅을 막은 뒤 바르다가 제자리에 있다가 넣음 — 골키퍼 선방 뒤 공(같은 경기 74분 바르다 첫 골은 이미 더브라위너 도움으로 들어가 있음)",
+  "sources": [
+   "https://www.voetbalkrant.com/belgie/play-off-1/2010-2011/kalender/speeldag-1/krc-genk/sporting-lokeren"
+  ]
+ },
+ {
+  "id": "debruyne",
+  "prefix": "KDB",
+  "date": "2012-02-26",
+  "minute": "66",
+  "scorer": "Christian Benteke",
+  "verdict": "KEEP_OUT",
+  "why": "Voetbalkrant 경기 리포트: 요르가체비치 골키퍼가 더브라위너의 강슛을 잡지 못해 흐른 리바운드를 벤테케가 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.voetbalkrant.com/belgie/jupiler-pro-league/2011-2012/kalender/speeldag-27/krc-genk/club-brugge"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2018-11-11",
+  "minute": 86,
+  "scorer": "Xaver Schlager",
+  "verdict": "UNCLEAR",
+  "why": "출처 충돌: Salzburg24(APA)는 펜츠 골키퍼가 미나미노 슈팅을 짧게 쳐낸 공을 슐라거가 밀어 넣었다(선방 뒤 공)고, FK Austria 구단 기사는 미나미노가 문전에서 버텨 낸 뒤 크로스해 슐라거가 밀어 넣었다(일반 도움)고 서술 — 판단 보류",
+  "sources": [
+   "https://www.salzburg24.at/sport/sportwelt/salzburgs-schlussoffensive-belohnt-20-sieg-bei-austria-art-207069",
+   "https://fk-austria.at/news/late-goals-brought-defeat-against-salzburg"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2018-05-06",
+  "minute": 54,
+  "scorer": "Duje Caleta-Car",
+  "verdict": "UNCLEAR",
+  "why": "검색 1회로 득점 목록(찰레타차르 54분)만 확인, 미나미노 관여 장면 기사 못 찾음",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2529156"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2013-03-09",
+  "minute": 79,
+  "scorer": "Hotaru Yamaguchi",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 일본어 검색(1회)으로도 경기 장면 기사 못 찾음",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1401435"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2013-05-18",
+  "minute": 93,
+  "scorer": "Yoichiro Kakitani",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 일본어 검색(1회)으로도 경기 장면 기사 못 찾음",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1406322"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2013-08-10",
+  "minute": 3,
+  "scorer": "Yoichiro Kakitani",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 장면 자료 없음, 일본어 검색(1회)으로도 경기 장면 기사 못 찾음",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1406393"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2016-02-10",
+  "minute": 29,
+  "scorer": "Stefan Lainer",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 문자중계 없음(ESPN은 득점자·시각만), 검색 한도 관리로 추가 검색 안 함 — 장면 미확인",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2136200"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2017-04-02",
+  "minute": 9,
+  "scorer": "Andreas Ulmer",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 문자중계 없음(ESPN은 득점자·시각만), 검색 한도 관리로 추가 검색 안 함 — 장면 미확인",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2252113"
+  ]
+ },
+ {
+  "id": "minamino",
+  "prefix": "MNM",
+  "date": "2017-05-06",
+  "minute": 10,
+  "scorer": "Wanderson",
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN 문자중계 없음(ESPN은 득점자·시각만), 검색 한도 관리로 추가 검색 안 함 — 장면 미확인",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2252140"
+  ]
+ },
+ {
+  "id": "neymar",
+  "prefix": "NEY",
+  "date": "2010-08-25",
+  "minute": 93,
+  "scorer": null,
+  "verdict": "UNCLEAR",
+  "why": "TM 득점자 표기 없음, 검색 1회로 93분 골 자체를 확인 못 함(ESPN 득점 목록: 보르지스 5·네이마르 66 PK·알렉스 산드루 81·호드리기뉴 90)",
+  "sources": []
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2015-10-25",
+  "minute": 18,
+  "scorer": "Marcelo Zalayeta",
+  "verdict": "KEEP_OUT",
+  "why": "Montevideo Portal: 포를란의 강한 슈팅을 리버풀 골키퍼 바바가 쳐낸 리바운드를 살라예타가 넣음 — 골키퍼 선방 뒤 공",
+  "sources": [
+   "https://www.montevideo.com.uy/Deportes/Apertura-Penarol-vencio-a-Liverpool-3-1-de-visita-y-quedo-primero-uc288441"
+  ]
+ },
+ {
+  "id": "diego",
+  "prefix": "DIE",
+  "date": "2007-10-31",
+  "minute": 59,
+  "scorer": "Tim Borowski",
+  "verdict": "UNCLEAR",
+  "why": "검색 한도 관리로 추가 검색 안 함(DFB 포칼 2007-10-31 뒤스부르크, ESPN 문자중계 없음) — 장면 미확인",
+  "sources": []
+ },
+ {
+  "id": "nakamura",
+  "prefix": "NKS",
+  "date": "2010-05-15",
+  "minute": "68",
+  "scorer": "Shingo Hyodo",
+  "verdict": "UNCLEAR",
+  "why": "ESPN 득점자·시각만(효도 68분), 문자중계 없음, 일본 경기 기사 검색 성과 없어 추가 검색 안 함",
+  "sources": []
+ },
+ {
+  "id": "lewandowski",
+  "prefix": "LEW",
+  "date": "2009-11-27",
+  "minute": 34,
+  "scorer": null,
+  "verdict": "UNCLEAR",
+  "why": "TM 득점자 표기 없음, ESPN·FotMob 자료 없음, 검색 한도 관리로 추가 검색 안 함",
+  "sources": []
+ },
+ {
+  "id": "tadic",
+  "prefix": "DTA",
+  "date": "2008-11-29",
+  "minute": "34",
+  "scorer": "Veseljko Trivunovic",
+  "verdict": "UNCLEAR",
+  "why": "2008년 세르비아 리그, ESPN·FotMob 자료 없음, 검색 한도 관리로 추가 검색 안 함",
+  "sources": []
+ }
+]
