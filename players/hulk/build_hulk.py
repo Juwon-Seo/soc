@@ -551,13 +551,20 @@ def cmp_rows(a, b):
     if a[7] != b[7] or (a[14] if len(a) > 14 else None) != (b[14] if len(b) > 14 else None): d.append(f"단판/합산 {a[7]}{a[14] if len(a) > 14 else ''}/{b[7]}{b[14] if len(b) > 14 else ''}")
     if a[10] != b[10]: d.append("연장")
     return d
+MYM = {m[0]: m for m in M}
+SHD = {}   # 다른 선수 파일별: 나와 같은 날 같은 대회 코드로 뛴 날짜(= 같은 경기로 봄; 이름 표기 차이 흡수)
+for b_, (oe_, om_) in list(OTHERS.items()) + list(PAR.items()):
+    SHD[b_] = {mm[0] for mm in om_ if mm[0] in MYM and mm[2] == MYM[mm[0]][2] and (key(mm[1]) == key(MYM[mm[0]][1]) or (toks(mm[1]) & toks(MYM[mm[0]][1])))}
+CUR_B = [None]
 def same_team(a, b, d):
     if key(a) == key(b): return True
+    if CUR_B[0] and d in SHD.get(CUR_B[0], ()): return True
     return bool(toks(a)) and toks(a) == toks(b)
 CROSS = []
 VRE = re.compile(r"Hulk|헐크")
 G_DATES = {ldate(g) for g in GAMES}
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
+    CUR_B[0] = b
     for x in oe:
         if x[0] == "a" and VRE.search(str(x[13] or "")) and x[9] in G_DATES:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
