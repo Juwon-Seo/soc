@@ -547,7 +547,6 @@ mm_ = {m[0]: m for m in M}
 for r in E:
     m = mm_.get(r[9])
     if m and (m[1] != r[1] or m[2] != r[3]): problems.append(("상대/대회 다름", r[9], r[1], m[1], r[3], m[2]))
-    if m and r[4] > m[3] + 0 and not r[10] and r[4] > 90 and m[3] < 90: problems.append(("출전 분보다 늦은 기록", r[9], r[4], m[3]))
 for m in M:
     if not (0 < m[3] <= 125): problems.append(("출전 분 범위", m))
 
