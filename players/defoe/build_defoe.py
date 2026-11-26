@@ -339,7 +339,7 @@ def lv_value(lv, d, o=None):
         if vp is not None: v = vp
     return v
 
-WIKI_LG = {"en.wiki First Division": "EFD2", "en.wiki Second Division": "EFD3", "en.wiki Third Division": "EFD4", "en.wiki I-League": "ILG"}
+WIKI_LG = {"en.wiki First Division": "EFD2", "en.wiki Football League First Division": "EFD2", "en.wiki Second Division": "EFD3", "en.wiki Third Division": "EFD4", "en.wiki EFL League One table template": "GB3"}
 RANKS = collections.defaultdict(dict)
 with open(os.path.join(RAW, "ranks.txt"), encoding="utf-8") as f:
     for line in f:
@@ -391,7 +391,13 @@ def make_label(lg, season, v):
     if lg == "PO1": return f"포르투갈 1부 {season} {r}위" + ("" if n == 16 and int(season[:4]) < 2014 else f"/{n}팀")
     if lg == "TR1": return f"쉬페르리그 {season} {r}위/{n}팀"
     if lg == "GR1": return f"그리스 1부 {season} {r}위/{n}팀 (Super League Greece)"
-    if lg == "SC1": return f"스코틀랜드 1부 {season} {r}위/{n}팀 (Scottish Premier League, 스플릿 뒤 최종 순위)"
+    if lg == "SC1":
+        if season == "2019-20":   # 코로나로 경기당 승점으로 끝낸 최종 순위(영어 위키백과 2019–20 Scottish Premiership; TM 표는 승점 순이라 히버니언·세인트존스턴이 바뀜)
+            r = {"hibernian fc": 7, "st johnstone fc": 6}.get(norm(nm), r)
+            return f"스코틀랜드 1부 {season} {r}위/{n}팀 (Scottish Premiership, 경기당 승점 최종 순위)"
+        if season == "2020-21":   # TM 2020-21 표는 스플릿 전 순서 — 영어 위키백과 최종 순위(세인트존스턴 5·리빙스턴 6·세인트미런 7·마더웰 8·던디 유나이티드 9)
+            r = {"st johnstone fc": 5, "livingston fc": 6, "st mirren fc": 7, "motherwell fc": 8, "dundee united fc": 9}.get(norm(nm), r)
+        return f"스코틀랜드 1부 {season} {r}위/{n}팀 (Scottish Premiership, 플레이오프·스플릿 뒤 최종 순위)"
     if lg == "EFD2":
         hd = f"챔피언십 {season}"; pr = onfield_rank(hd, nm); pr = pr if pr and pr != r else None
         return f"{hd} {pr or r}위/{n}팀 (" + ("감점 전 순위; " if pr else "") + "Football League First Division)"
@@ -543,12 +549,10 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
 # ---------------------------------------------------------------- 클럽·시즌
 for g in GAMES:
     if club_of(ldate(g)) != TM_CLUB[g["clubId"]]: sys.exit("클럽 경계 불일치 " + g["gameId"] + " " + g["clubId"])
-    if TM_CLUB[g["clubId"]] in CAL or g["competitionId"] == "INSC": continue   # 달력 연도 시즌(갤럭시)·TM '2018' 표기 슈퍼컵
+    if TM_CLUB[g["clubId"]] in CAL or g["competitionId"] == "CAN": continue   # 달력 연도 시즌(토론토)
     if season_of(ldate(g))[2:4] + "/" + season_of(ldate(g))[5:7] != g["season"]: sys.exit("시즌 불일치 " + g["gameId"] + " " + g["season"] + " " + ldate(g))
-CLUB_KO = {"wolrbk": ("울버햄프턴 원더러스", "1997~1999"), "covrbk": ("코번트리 시티", "1999~2000"), "intrbk": ("인테르", "2000"),
-           "leerbk": ("리즈 유나이티드", "2000~2002"), "totrbk": ("토트넘 홋스퍼", "2002~2008, 2009~2011"), "livrbk": ("리버풀", "2008~2009"),
-           "celrbk": ("셀틱", "2010"), "whurbk": ("웨스트햄 유나이티드", "2011"), "lagrbk": ("LA 갤럭시", "2011~2016"),
-           "avlrbk": ("애스턴 빌라", "2012"), "atkrbk": ("ATK(아틀레티코 데 콜카타)", "2017~2018")}
+CLUB_KO = {"boujdf": ("AFC 본머스", "2000~2001, 2017~2018"), "whujdf": ("웨스트햄 유나이티드", "2001~2004"), "totjdf": ("토트넘 홋스퍼", "2004~2008, 2009~2014"),
+           "porjdf": ("포츠머스", "2008"), "torjdf": ("토론토 FC", "2014"), "sunjdf": ("선덜랜드", "2015~2017, 2022"), "ranjdf": ("레인저스", "2019~2022")}
 def per(k_):
     inr = lambda d: club_of(d) == k_
     return [sum(1 for m in M if inr(m[0])), sum(1 for r in E if r[0] == "g" and inr(r[9])),
