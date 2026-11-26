@@ -9,6 +9,7 @@
 데이비스 build 스크립트(같은 판정 방식)를 호베르투 카를로스 raw 형식(TM 경기 리포트 HTML을 파싱한 tm_events.csv 등)에 맞춰 고친 것.
 순위 라벨 행의 Elo는 tools/league_rank_apply.py parse()/value()(+ tools/league_points.py 승점 모형)로 라벨에서 계산.
 같은 경기가 다른 선수 자료에 있으면 그 값, 같은 팀×시즌이 elo/opponent_elo_by_team_season.csv에 있으면 그 값.
+주의: 승점 표 map 11줄(judgments.md 6절)이 elo/league_points_other.json에 있어야 새 상대 11개 행이 승점 모형 값이 됨(rcs.js는 그 상태로 만든 것).
 """
 import csv, json, os, re, sys, unicodedata, collections, glob, subprocess, io, contextlib
 
