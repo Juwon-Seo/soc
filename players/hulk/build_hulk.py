@@ -39,9 +39,16 @@ for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 
 # ---------------------------------------------------------------- 날짜·출전 분
 # 2023.2.9 데모크라타(GV)전: TM UTC 시각이 하루 늦음 — FotMob·경기 기사 2023.2.8(수) (judgments.md 2절)
-DATE_FIX = {}
-MIN_FIX = {}
+# 2019.7.24 중국 FA컵 8강 광저우 헝다전: TM 7.23, FotMob·osc.js(오스카 같은 경기) 7.24
+DATE_FIX = {"3989450": "2023-02-08", "3192145": "2019-07-24"}
+# 2023.7.2 아메리카-MG전: TM playedMinutes 0(경고 누적 퇴장 표시) — 경기 기사(Itatiaia·Lance!): 종료 휘슬 뒤 두 번째 경고·퇴장, TM 선발·교체 없음 → 90분
+MIN_FIX = {"4061558": 90}
 EV_MIN_FIX = {}
+# TM 경기 자료의 골 순서가 최종 스코어와 맞지 않는 경기: 골 직전 스코어(우리-상대)를 출처로 고침(judgments.md 3절)
+EV_SCORE_FIX = {("1024769", "43"): (1, 0), ("1024769", "75"): (3, 0),   # 2008.5.18 시미즈: J리그 공식 기록 자책골 29'·헐크 43'·레안드루 49'·헐크 75', 시미즈 자책골 85'
+                ("3134156", "116"): (1, 1), ("3134156", "119"): (2, 1)}  # 2006.10.8 일왕배 신닛테쓰 오이타: 3-1(연장) — 90분 1-1 뒤 연장 2골(TM에 상대 골 빠짐)
+# TM이 상대 자책골로 적은 헐크 골: 2016.7.10 허난 9분(FotMob·ESPN·sports.ru 헐크 골, 영어·포르투갈어·일본어 위키백과 2016 리그 5골)
+GOAL_FIX = {("2693730", "9")}
 def ldate(g): return DATE_FIX.get(g["gameId"], g["date_local"])
 def opp(g): return re.sub(r"\s*\(\s*-?\s*\d{4}\s*(-\s*\d{4})?\s*\)", "", g["opponent"]).strip()
 RND_FIX = {}
@@ -221,12 +228,14 @@ for gid in sorted(EVS, key=lambda k: (ldate(G[k]) if k in G else "", k)):
         sd = e["side"][0]
         before = (cnt["h"], cnt["a"])
         cnt[sd] += 1
-        is_g = e["scorer_id"] == ME and not is_og(e)
+        is_g = (e["scorer_id"] == ME and not is_og(e)) or (gid, e["minute"]) in GOAL_FIX
+        if (gid, e["minute"]) in GOAL_FIX: e = dict(e, own_goal="0", goal_desc="", penalty="0", assist_id="", side=side + ("ome" if side == "h" else "way"))
         is_a = e["assist_id"] == ME and e["scorer_id"] != ME
         if e["scorer_id"] == ME and is_og(e): judg.append(("본인 자책골(골 아님)", ldate(g), opp(g), e["minute"]))
         if e["scorer_id"] == ME and e["assist_id"] == ME: judg.append(("도움 제외", ldate(g), opp(g), e["minute"], e["scorer"], "본인 PK 골의 본인 도움(PK 유도)"))
         if not (is_g or is_a): continue
         gf, ga = (before[0], before[1]) if side == "h" else (before[1], before[0])
+        if (gid, e["minute"]) in EV_SCORE_FIX: gf, ga = EV_SCORE_FIX[(gid, e["minute"])]
         mi, dm = mins(EV_MIN_FIX.get((gid, e["minute"]), e["minute"]))
         if is_a:
             why = assist_reason(e, ldate(g), gid)
@@ -250,7 +259,7 @@ for gid, fs in FME.items():
 cnt_ = collections.Counter()
 for r in raw_rows: cnt_[(r[1], r[0])] += 1
 for gid, g in G.items():
-    if cnt_[(gid, "g")] != int(g["goals"] or 0): sys.exit("골 수 불일치 " + gid)
+    if cnt_[(gid, "g")] != int(g["goals"] or 0) + sum(1 for k in GOAL_FIX if k[0] == gid): sys.exit("골 수 불일치 " + gid)
     if int(g["penGoals"] or 0) != sum(r[6] for r in raw_rows if r[1] == gid and r[0] == "g"): sys.exit("PK 수 불일치 " + gid)
 
 # ---------------------------------------------------------------- 이름·기존 자료
@@ -499,6 +508,10 @@ for r in E:
     kname = o if (o not in mp and (len(tabs) == 1 or same_tabs)) else f"{o}@{rk}"
     if tst in ("Apertura", "Clausura"): kname = f"{rk}={o}"   # 같은 해 다른 단계 라벨에 안 쓰이게 순위 붙은 키
     MAP_LINES[(mm.group(1), kname)] = (tabs[ti]["rows"][ri][0], [ti, ri], rk, round(sc_, 2), "표 순위 다름" if ri + 1 != rk else "")
+for (h_, k_), (nm_, pos_) in MAP_OVERRIDE.items():
+    for kk in [k for k in MAP_LINES if k[0] == h_ and (k[1] == k_ or k[1].split("@")[0] == k_.split("@")[0])]: del MAP_LINES[kk]
+    if h_ in PTS.O["seasons"] and PTS.other_score(h_ + " 1위", k_.split("@")[0]) is None or True:
+        MAP_LINES[(h_, k_)] = (nm_, pos_, 0, 1.0, "직접 지정")
 if "--map" in sys.argv:
     for (h, k), v in sorted(MAP_LINES.items()): print(f"{h} | {k} | {v[0]} | {v[1]} {v[4]} sim={v[3]}")
     sys.exit(0)
@@ -568,11 +581,11 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
     for x in oe:
         if x[0] == "a" and VRE.search(str(x[13] or "")) and x[9] in G_DATES:
             hit = [r for r in E if r[0] == "g" and r[9] == x[9] and abs(r[4] - x[4]) <= 2]
-            CROSS.append(("타인 도움(게레로 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
+            CROSS.append(("타인 도움(헐크 골)", b, x[9], x[4], x[1], "없음" if not hit else (cmp_rows(hit[0], x) or "같음")))
     for r in E:
         if r[0] == "a":
             hit = [x for x in oe if x[0] == "g" and x[9] == r[9] and abs(x[4] - r[4]) <= 2 and same_team(x[1], r[1], r[9])]
-            if hit: CROSS.append(("게레로 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
+            if hit: CROSS.append(("헐크 도움→타인 골", b, r[9], r[4], r[13], cmp_rows(r, hit[0]) or "같음"))
     for r in E:
         for x in oe:
             if x[9] == r[9] and same_team(x[1], r[1], r[9]):
@@ -587,7 +600,7 @@ for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):
         if x[0] == "g":
             for j in judg:
                 if j[0] == "도움 제외" and j[1] == x[9] and abs(mins(j[3])[0] - x[4]) <= 2 and same_team(x[1], j[2], x[9]):
-                    CROSS.append(("TM 게레로 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
+                    CROSS.append(("TM 헐크 도움을 뺀 타인 골", b, x[9], x[4], j[4], j[5]))
 _seen = set(); CROSS = [c for c in CROSS if not (str(c) in _seen or _seen.add(str(c)))]
 SHARED = collections.Counter()
 for b, (oe, om) in list(OTHERS.items()) + list(PAR.items()):

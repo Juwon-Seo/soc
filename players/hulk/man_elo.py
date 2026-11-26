@@ -32,8 +32,8 @@ NAME_ALIAS.update({
 })
 man("Sydney FC", "2019-04-23", "호주 A리그 2018-19 2위/10팀")   # 2019 AFC 조별 4월: A리그 2018-19 정규리그 2위(통합표 값)
 
-# ── 일본: J1 2006(영어 위키백과 2006 J.League Division 1 최종 표, 12월 2일 마지막 라운드)
-man("Nippon Steel Oita FC", "2006-10-08", "J1리그 2006 8위/18팀 (J.League Division 1)")
+# ── 일본: 일왕배 2006 3라운드 상대 신닛테쓰 오이타 = 규슈 사회인 리그(4부) 2위/9팀(RSSSF Japan Fourth and Lower Levels 2006)
+man("Nippon Steel Oita FC", "2006-10-08", "일본 4부 2006 2위/9팀 (Kyushu Soccer League 지역 리그, RSSSF 최종 순위, 리그 수준 추정)")   # 신닛테쓰 오이타(실업팀, 오이타 트리니타 아님)
 
 # ── 포르투갈 하부 리그(타사 드 포르투갈 상대; 영어 위키백과 시즌 문서, 승점 표는 elo/league_points_other.json)
 man("Sertanense FC", "2008-10-18", "포르투갈 4부 2008-09 1위/14팀 (Terceira Divisão Série D 1단계 순위(승격 조 순위 미확인), 리그 수준 추정)")
@@ -93,3 +93,16 @@ for (o_, y_) in BR_STATE5: man(o_, f"{y_}-01-01", f"브라질 5부 {y_} 순위 �
 # ── 코파 데 라 리가 2024(4월, 진행 중 단계) 로사리오 센트랄: A조 11위/14팀(영어 위키백과·승점 표). 이 대회 라벨은 순위 라벨 도구가 읽지 않는 형식이라
 #    값은 같은 대회 B조 같은 순위(11위 벨그라누 1608, 통합표) 값을 씀
 FIXED = {("CA Rosario Central", "2024-04-10"): (1608, "아르헨티나 리가 컵 2024 조 11위/14팀 (B조 같은 순위 값, 추정)")}
+
+# TM 순위표가 틀린 시즌(우승 팀): K리그1 2019 전북 우승(울산과 승점 79 동률, 다득점 72-71; 승점 표 elo/league_points_other.json 1위),
+# 러시아 2015-16 스파르타크 5위·로코모티프 6위(승점 표; TM 표는 둘이 바뀜, 통합표 로코모티프 6위)
+man("Jeonbuk Hyundai Motors", "2019-01-01", "K리그1 2019 1위/12팀 (K League 1)", "2019-12-31")
+man("Spartak Moscow", "2015-07-01", "러시아 1부 2015-16 5위/16팀 (Russian Premier League)", "2016-06-30")
+# 승점 표 map 줄 직접 지정(이름 비슷도로 잘못 고르는 경우): (라벨 앞부분, 데이터 이름 키) -> (표 이름, [표, 행])
+MAP_OVERRIDE = {
+ ("아르헨티나 1부 2021", "CA River Plate@1"): ("Club Atlético River Plate", [3, 0]),   # 리가 프로페시오날 2021 최종 표(기존 'CA River Plate' 키는 코파 데 라 리가 A조 행)
+ ("중국 슈퍼리그 2020", "Cangzhou Mighty Lions@16"): ("Shijiazhuang Ever Bright", [3, 5]),   # B조 6위(최종 16위)
+ ("K리그1 2019", "Jeonbuk Hyundai Motors"): ("Jeonbuk Hyundai Motors", [0, 0]),
+ ("러시아 1부 2015-16", "Spartak Moscow"): ("Spartak Moscow", [0, 4]),
+}
+man("Spartak Moscow", "2013-07-01", "러시아 1부 2013-14 6위/16팀 (Russian Premier League)", "2014-06-30")   # TM 표 5위 — 최종 6위(크라스노다르 5위, 승점 표)

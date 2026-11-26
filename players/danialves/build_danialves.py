@@ -29,6 +29,10 @@ def rd(n):
         return list(csv.DictReader(f))
 
 GAMES = rd("tm_games.csv")
+# 2005.2.16 코파 델 레이 8강 2차전 오사수나 원정(TM 선발 90분): 같은 날 UEFA컵 32강 1차전 아테네 파나티나이코스전(UEFA.com·ESPN 2005.2.16)에 선발 출전(soccer-spain 경기 기사 선발 명단 'Notario; Daniel Alves, ...'),
+# 스페인어 위키백과(RFEF 경기 보고서 링크)는 코파 경기를 2005.2.16 21:00 팜플로나로 적음 → 같은 날 두 도시 출전은 불가능, 코파 출전은 TM 단독 기록이라 뺌(사용자 확인 대상).
+DROP = {"2423119"}
+GAMES = [g for g in GAMES if g["gameId"] not in DROP]
 G = {g["gameId"]: g for g in GAMES}
 MI = {r["gameId"]: r for r in rd("tm_match_info.csv")}
 EVS = collections.defaultdict(list)
