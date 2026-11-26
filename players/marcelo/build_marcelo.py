@@ -24,6 +24,8 @@ def rd(f):
 G = {g['gameId']: g for g in rd('tm_games.csv')}
 EV = rd('marcelo_goal_assist_events.csv')
 TIES = {r['gameId']: r for r in rd('tm_two_leg_ties.csv')}
+# legs whose game JSON lacks the other-leg field: other leg from performance-game (score ours-theirs)
+TIES_X = {r['gameId']: r for r in rd('tm_two_leg_ties_extra.csv')}
 
 # ---------------------------------------------------------------- dates
 # TM schedule dates corrected with RSSSF fichas + ESPN kick-off times (local time)
@@ -220,7 +222,15 @@ for e in EV:
     if e['event'] == 'assist':
         note = re.sub(r'\s+', ' ', e['tm_scorer']).strip()
     tie = None
-    if gid in TIES:
+    if gid in TIES_X and gid not in TIES:
+        t = TIES_X[gid]; ag, xt = tie_rule(g)
+        leg = 1 if '1st' in t['round'] else 2
+        home = 1 if g['venue'] == 'H' else 0
+        if leg == 1: tie = [1, home, 0, 0, ag, xt]
+        else:
+            o, th = map(int, t['other_leg_score_club_opp'].split('-'))
+            tie = [2, home, o, th, ag, xt]
+    elif gid in TIES:
         t = TIES[gid]; ag, xt = tie_rule(g)
         leg = 1 if '1st' in t['round'] else 2
         home = 1 if g['venue'] == 'H' else 0
@@ -231,6 +241,7 @@ for e in EV:
             # first leg: we were away if now home
             ours, theirs = (oa, oh) if home else (oh, oa)
             tie = [2, home, ours, theirs, ag, xt]
+    if tie: ko = 0          # two-legged legs: aggregate S (project convention ko 0 + tie)
     row = ['g' if e['event'] == 'goal' else 'a', opp, int(elo), comp, mn, gf, ga, ko, pk, d, et, dm, lv, note]
     if tie: row.append(tie)
     E.append(row)
