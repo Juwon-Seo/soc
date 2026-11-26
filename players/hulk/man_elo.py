@@ -73,11 +73,9 @@ BR_LOW = {
  ("Cruzeiro Esporte Clube", "2022"): "브라질 세리에 B 2022 1위/20팀",
  ("AA Caldense", "2022"): "브라질 4부 2022 61위/64팀",
  ("Tombense Futebol Clube (MG)", "2023"): "브라질 세리에 B 2023 18위/20팀",
- ("Democrata FC", "2023"): "브라질 4부 2023 21위/64팀",
  ("CA Patrocinense", "2023"): "브라질 4부 2023 13위/64팀",
  ("Athletic Club", "2023"): "브라질 4부 2023 3위/64팀",
  ("Athletic Club", "2024"): "브라질 3부 2024 2위/20팀",
- ("EC Democrata", "2024"): "브라질 4부 2024 56위/64팀",
  ("Tombense Futebol Clube (MG)", "2025"): "브라질 3부 2025 20위/20팀",
  ("Maringá FC", "2025"): "브라질 3부 2025 11위/20팀",
  ("Tocantinópolis EC", "2025"): "브라질 4부 2025 48위/64팀",
@@ -89,7 +87,7 @@ for (o_, y_), lv_ in BR_LOW.items():
     if t_: lv_ += f" ({BR_SFX[t_.group(1)]}, 플레이오프·스플릿 뒤 최종 순위, 리그 수준 추정)"
     man(o_, f"{y_}-01-01", lv_, f"{y_}-12-31")
 BR_STATE5 = {("Coimbra Esporte Clube Ltda (MG)", "2021"), ("CA Patrocinense", "2022"), ("Athletic Club", "2022"), ("AA Caldense", "2023"),
-             ("Itabirito FC", "2024"), ("Villa Nova AC", "2025"), ("Itabirito FC", "2026")}
+             ("Itabirito FC", "2024"), ("Democrata FC", "2023"), ("EC Democrata", "2024"), ("Villa Nova AC", "2025"), ("Itabirito FC", "2026")}
 for (o_, y_) in BR_STATE5: man(o_, f"{y_}-01-01", f"브라질 5부 {y_} 순위 없음 (Campeonato Mineiro {y_} (state league); 리그 수준 추정)", f"{y_}-12-31")
 
 # ── 코파 데 라 리가 2024(4월, 진행 중 단계) 로사리오 센트랄: A조 11위/14팀(영어 위키백과·승점 표). 이 대회 라벨은 순위 라벨 도구가 읽지 않는 형식이라
