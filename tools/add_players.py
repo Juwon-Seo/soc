@@ -112,7 +112,7 @@ def main():
     s = rep(s, f'p.preset==="{last}"?{lfn}(d):', f'p.preset==="{last}"?{lfn}(d):' + "".join(pcl_tern))
     cln = re.search(r'\b' + lastkey + r':"[^"]*",', s).group(0)
     s = rep(s, cln, cln + "".join(cl_add), 2)
-    pos = re.search(r'\b' + last + r':"(CF|SS|LW|RW|LM|RM|AM|CM|DM)"\}', s).group(0)
+    pos = re.search(r'\b' + last + r':"(CF|SS|LW|RW|LM|RM|AM|CM|DM|LB|RB|CB)"\}', s).group(0)
     s = rep(s, pos, pos[:-1] + "".join(pos_add) + "}")
     flag = re.search(r'\b' + last + r':"([A-Z]{2,3})"\}', s).group(0)
     s = rep(s, flag, flag[:-1] + "".join(flag_add) + "}")
