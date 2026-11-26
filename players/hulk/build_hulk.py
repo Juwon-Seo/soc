@@ -425,6 +425,8 @@ def opp_elo(o, d, cid, g):
         e, lv = next(iter(vals)); ELO_SRC["같은 경기 다른 선수 자료"] += 1
         ELO_LOG[(o, d)] = ("same", e, lv, sorted({b for b, _ in cand})); return e, lv
     if len(vals) > 1: print("  [같은 경기 값 여럿]", o, d, vals)
+    if (o, d) in FIXED:   # 순위 라벨 형식이 아닌(도구가 값을 정하지 않는) 통합표 라벨 계열: 값 직접
+        e, lv = FIXED[(o, d)]; ELO_SRC["직접 값(비순위 라벨)"] += 1; ELO_LOG[(o, d)] = ("fixed", e, lv); NEW_TS[(o, d)] = (e, lv); return e, lv
     lv = man_get(o, d)
     if lv: return via_label(o, d, lv, "직접 라벨")
     if cid in ("BRA1", "BRC", "SCBR", "CLI", "CS") or cid in STATE:
