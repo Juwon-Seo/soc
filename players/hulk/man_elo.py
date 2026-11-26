@@ -90,9 +90,9 @@ BR_STATE5 = {("Coimbra Esporte Clube Ltda (MG)", "2021"), ("CA Patrocinense", "2
              ("Itabirito FC", "2024"), ("Democrata FC", "2023"), ("EC Democrata", "2024"), ("Villa Nova AC", "2025"), ("Itabirito FC", "2026")}
 for (o_, y_) in BR_STATE5: man(o_, f"{y_}-01-01", f"브라질 5부 {y_} 순위 없음 (Campeonato Mineiro {y_} (state league); 리그 수준 추정)", f"{y_}-12-31")
 
-# ── 코파 데 라 리가 2024(4월, 진행 중 단계) 로사리오 센트랄: A조 11위/14팀(영어 위키백과·승점 표). 이 대회 라벨은 순위 라벨 도구가 읽지 않는 형식이라
-#    값은 같은 대회 B조 같은 순위(11위 벨그라누 1608, 통합표) 값을 씀
-FIXED = {("CA Rosario Central", "2024-04-10"): (1608, "아르헨티나 리가 컵 2024 조 11위/14팀 (B조 같은 순위 값, 추정)")}
+# ── 코파 데 라 리가 2024(4월, 진행 중 단계) 로사리오 센트랄: A조 11위/14팀(영어 위키백과 2024 Copa de la Liga Profesional·승점 표)
+FIXED = {}
+man("CA Rosario Central", "2024-04-10", "아르헨티나 리가 컵 2024 조 11위/14팀 (Copa de la Liga Profesional 2024 A조, 경기 날짜에 진행 중이던 단계 순위)")
 
 # TM 순위표가 틀린 시즌(우승 팀): K리그1 2019 전북 우승(울산과 승점 79 동률, 다득점 72-71; 승점 표 elo/league_points_other.json 1위),
 # 러시아 2015-16 스파르타크 5위·로코모티프 6위(승점 표; TM 표는 둘이 바뀜, 통합표 로코모티프 6위)
