@@ -1,0 +1,517 @@
+[
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2012-02-07",
+  "minute": 11,
+  "scorer": "Robert Lewandowski",
+  "verdict": "ADD",
+  "why": "FourFourTwo(로이터) 기사: 레반도프스키가 페리시치의 바이시클킥을 문전에서 밀어 넣음(키퍼·골대 언급 없음), FotMob도 페리시치 도움",
+  "sources": [
+   "https://fourfourtwo.com/news/dortmund-ease-german-cup-semis"
+  ],
+  "row": [
+   "a",
+   "Holstein Kiel",
+   1367,
+   "dk",
+   11,
+   0,
+   0,
+   1,
+   0,
+   "2012-02-07",
+   0,
+   0,
+   "독일 4부 2011-12 2위/18팀 (Regionalliga Nord Nord, 리그 수준 추정)",
+   "Robert Lewandowski"
+  ]
+ },
+ {
+  "id": "quagliarella",
+  "prefix": "QGL",
+  "date": "2015-04-29",
+  "minute": 13,
+  "scorer": "Bruno Peres",
+  "verdict": "UNCLEAR",
+  "why": "Sports Mole 등은 콸리아렐라 빗나간 슈팅을 페레스가 마무리했다고 하나 LiveSicilia는 팔레르모 비텔로의 굴절로 페레스가 혼자 남았다고 서술 — 출처 충돌 그대로",
+  "sources": [
+   "https://sportsmole.co.uk/football/palermo/result/palermo-torino-share-four-goals_220106.html",
+   "https://livesicilia.it/maxi-lopez-entra-e-segna-palermo-torino-2-2-la-diretta/",
+   "https://www.fantacalcio.it/news/calcio-italia/29_04_2015/come-allandata-palermo-e-torino-replicano-un-divertente-2-2-202672"
+  ]
+ },
+ {
+  "id": "dzeko",
+  "prefix": "DZE",
+  "date": "2025-04-13",
+  "minute": 47,
+  "scorer": "Dusan Tadic",
+  "verdict": "ADD",
+  "why": "beIN Sports·DHA·Fanatik 요약: 키퍼 선방 뒤 제코가 슈팅하려던(가운데로 돌린) 공을 타디치가 빈 골문에 밀어 넣음 — 제코 공을 동료가 마무리, FotMob도 제코 도움",
+  "sources": [
+   "https://beinsports.com.tr/haber/net-global-sivasspor-fenerbahce",
+   "https://www.dha.com.tr/spor/sivasspor-fenerbahce-1-3-2618754",
+   "https://www.fanatik.com.tr/fenerbahce/live-fenerbahce-kritik-macta-hata-yapmadi-sivasspor-fenerbahce-mac-sonucu-1-3-2578503"
+  ],
+  "row": [
+   "a",
+   "Sivasspor",
+   1460,
+   "lg",
+   47,
+   1,
+   0,
+   0,
+   0,
+   "2025-04-13",
+   0,
+   0,
+   "쉬페르리그 2024-25 17위/19팀",
+   "Dusan Tadic"
+  ]
+ },
+ {
+  "id": "morata",
+  "prefix": "AMO",
+  "date": "2010-12-22",
+  "minute": 89,
+  "scorer": "Pedro León",
+  "verdict": "UNCLEAR",
+  "why": "검색한 경기 기사(Público·Gulf News·Fox)는 페드로 레온의 89분 8번째 골 장면을 서술하지 않아 모라타 슈팅과의 관계 불명(FotMob만 모라타 도움)",
+  "sources": [
+   "https://www.publico.es/deportes/pachanga-derbi.html",
+   "https://gulfnews.com/sport/football/benzema-on-song-as-real-madrid-thump-levante-8-0-in-kings-cup-1.735007"
+  ]
+ },
+ {
+  "id": "bastos",
+  "prefix": "BAS",
+  "date": "2013-04-13",
+  "minute": 71,
+  "scorer": "Teemu Pukki",
+  "verdict": "KEEP_OUT",
+  "why": "1차에서 확인한 Sky·taz 기사: 레노 골키퍼가 바스투스 중거리슛을 놓친(막아 낸) 리바운드를 푸키가 넣음 — 골키퍼 맞고 나온 공",
+  "sources": [
+   "https://www.skysports.com/football/schalke-vs-bayer-leverkusen/265427"
+  ]
+ },
+ {
+  "id": "calhanoglu",
+  "prefix": "CHL",
+  "date": "2017-09-10",
+  "minute": "57",
+  "scorer": "Riccardo Montolivo",
+  "verdict": "ADD",
+  "why": "FourFourTwo: 찰하노을루의 중거리 슈팅이 몬톨리보에게 맞자 몬톨리보가 돌아서 스트라코샤를 넘겨 넣음(상대·골키퍼 맞지 않음), Sporting Life(Opta)·FotMob 모두 찰하노을루 도움",
+  "sources": [
+   "https://www.fourfourtwo.com/news/lazio-4-ac-milan-1-hat-trick-hero-immobile-takes-centre-stage",
+   "https://www.sportinglife.com/football/live/44336/commentary"
+  ],
+  "row": [
+   "a",
+   "SS Lazio",
+   1831,
+   "lg",
+   57,
+   0,
+   4,
+   0,
+   0,
+   "2017-09-10",
+   0,
+   0,
+   "세리에A 2017-18 5위",
+   "Riccardo Montolivo"
+  ]
+ },
+ {
+  "id": "carrasco",
+  "prefix": "CRR",
+  "date": "2022-01-06",
+  "minute": "16",
+  "scorer": "Matheus Cunha",
+  "verdict": "UNCLEAR",
+  "why": "LaLiga 공식 경기 기록(쿠냐 왼발 마무리, '카라스코 도움')·ESPN·TM은 도움이지만 구단 기사는 공이 카라스코에 맞고 쿠냐에게 흘렀다고 서술 — 슈팅 방향 전환 유형이 아니라 이 선수 몸 맞은 공이어서 규칙 판단 필요(상대·골키퍼·골대는 아님; 행은 다른 선수 경기 행 기준 Rayo Majadahonda 1318, 0-0, dc, ko 1)",
+  "sources": [
+   "https://www.laliga.com/en-GB/match/temporada-2021-2022-copa-del-rey-cf-rayo-atletico-de-madrid-3",
+   "https://en.atleticodemadrid.com/noticias/atleti-beat-rayo-majadahonda-to-reach-copa-del-rey-last-16"
+  ]
+ },
+ {
+  "id": "davies",
+  "prefix": "ADV",
+  "date": "2021-09-24",
+  "minute": "10",
+  "scorer": "Thomas Müller",
+  "verdict": "UNCLEAR",
+  "why": "검색한 보도(구단 경기 페이지·ESPN)는 뮐러 10분 골만 적고 데이비스 크로스가 수비 맞고 굴절됐는지/컷백인지 장면 서술을 찾지 못함 — 출처 엇갈림 그대로",
+  "sources": [
+   "https://fcbayern.com/en/news/matchreports/2021/09/match-report-bundesliga-md6-greuther-v-fc-bayern-240921"
+  ]
+ },
+ {
+  "id": "reus",
+  "prefix": "REU",
+  "date": "2013-03-16",
+  "minute": 73,
+  "scorer": null,
+  "verdict": "UNCLEAR",
+  "why": "BVB 구단 기사는 샤힌이 로이스 슈팅의 리바운드(Abpraller)를 10m에서 넣었다고만 적어 무엇에 맞고 나왔는지 불명, Opta 도움 없음 — 골키퍼·수비 리바운드 쪽으로 기울지만 명시 없음",
+  "sources": [
+   "https://www.bvb.de/switchlanguage/to/eng/146871",
+   "https://www.bundesliga.com/en/news/Bundesliga/0000245534.jsp"
+  ]
+ },
+ {
+  "id": "falcao",
+  "prefix": "FAL",
+  "date": "2017-12-15",
+  "minute": 53,
+  "scorer": "Fabinho",
+  "verdict": "UNCLEAR",
+  "why": "TSN(AP)·Sports Mole 등은 파비뉴 53분 골과 루피에 퇴장만 서술, 팔카오 슈팅과의 관계 장면 서술 없음",
+  "sources": [
+   "https://www.tsn.ca/ligue-1-titleholder-monaco-wins-4-0-at-sorry-saint-etienne-1.945399",
+   "https://amp.sportsmole.co.uk/football/as-monaco/result/monaco-put-four-goals-past-saint-etienne_314216.html"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2020-09-26",
+  "minute": 52,
+  "scorer": "Federico Ceccherini",
+  "verdict": "KEEP_OUT",
+  "why": "인테르 구단 기사: 라우타로 오른발 슈팅이 암라바트·체케리니(피오렌티나) 몸에 두 번 맞고 들어간 체케리니 자책골 — 상대 몸 맞은 굴절",
+  "sources": [
+   "https://www.inter.it/en/news/2020-09-26-inter-4-3-fiorentina-2020-21"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2013-08-22",
+  "minute": 46,
+  "scorer": "Stéphane Grichting",
+  "verdict": "KEEP_OUT",
+  "why": "Eurosport 기록상 47분 골은 그라스호퍼 수비수 그리히팅의 자책골(득점자 자체가 상대 선수) — 고메스 공이 상대 몸에 맞고 들어간 골이라 도움 아님",
+  "sources": [
+   "https://www.eurosport.no/fotball/uefa-europa-league/2013-2014/live-grasshoppers-fiorentina_mtc625035/live.shtml",
+   "https://www.football-italia.net/38653/line-ups-grasshopper-fiorentina"
+  ]
+ },
+ {
+  "id": "drogba",
+  "prefix": "DRO",
+  "date": "2010-09-19",
+  "minute": 30,
+  "scorer": "Ian Evatt",
+  "verdict": "KEEP_OUT",
+  "why": "Blackpool Gazette: 드로그바의 돌아서며 찬 슈팅이 블랙풀 에바트 몸에 맞고 키퍼 길크스를 속인 에바트 자책골 — 상대 몸 맞은 골",
+  "sources": [
+   "https://www.blackpoolgazette.co.uk/sport/nostalgia/blackpool-premier-league-10-years-chelsea-show-premier-league-champion-quality-2975750"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2009-08-25",
+  "minute": 4,
+  "scorer": "Loukas Vyntra",
+  "verdict": "KEEP_OUT",
+  "why": "UEFA 기사: 파나티나이코스 수비수 빈트라가 포를란 크로스를 자기 골문에 넣은 자책골 — 상대 자책골 유도라 도움 아님",
+  "sources": [
+   "https://uefa.com/uefachampionsleague/news/01dc-0e72ad553969-6beda773d28b-1000--atletico-seal-return-to-europe-s-elite"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2010-01-02",
+  "minute": 48,
+  "scorer": "Ivica Dragutinovic",
+  "verdict": "KEEP_OUT",
+  "why": "Sky Sports·ESPN 기록상 48분 골은 세비야 수비수 드라구티노비치의 자책골 — 상대 자책골 유도는 도움 아님(장면 서술은 없음)",
+  "sources": [
+   "https://www.skysports.com/football/atletico-madrid-vs-sevilla/teams/138883",
+   "https://www.libertaddigital.com/deportes/directo/2010-01-02-atletico-sevilla-2116607/"
+  ]
+ },
+ {
+  "id": "forlan",
+  "prefix": "FRL",
+  "date": "2009-02-01",
+  "minute": 54,
+  "scorer": "José García Calvo",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 경기 기록상 54분 아틀레티코 골은 바야돌리드 수비수 가르시아 칼보의 자책골 — 상대 자책골 유도는 도움 아님",
+  "sources": [
+   "https://africa.espn.com/football/match/_/gameId/252744/real-valladolid-atletico-madrid"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1995-02-12",
+  "minute": 59,
+  "scorer": "Michael Laudrup",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과(위키백과 시즌 문서·StatMuse)는 라우드루프 59분 골 기록만 있고 장면 서술 기사 없음",
+  "sources": [
+   "https://www.wikipedia.org/wiki/1994%E2%80%9395_Real_Madrid_CF_season"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1995-10-18",
+  "minute": 33,
+  "scorer": "Iván Zamorano",
+  "verdict": "UNCLEAR",
+  "why": "검색으로 찾은 자료(UEFA 기록 사본·시즌 문서)는 득점자·분만 있고 사모라노 33분 골 장면 서술 없음",
+  "sources": []
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1997-09-17",
+  "minute": 39,
+  "scorer": "Zé Roberto",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과는 제 호베르투 39분 골 기록(득점 목록)만 있고 장면 서술 없음",
+  "sources": [
+   "https://www.funtrivia.com/trivia-quiz/Sports/Real-Madrid-in-Europe-1997-98-152928.html"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1999-10-03",
+  "minute": 46,
+  "scorer": "Fernando Morientes",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과(시즌 경기 목록)는 모리엔테스 46분 골 기록만 있고 라울 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://wikipedia.com/wiki/1999%E2%80%932000_Real_Madrid_CF_season"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-02-06",
+  "minute": 36,
+  "scorer": "Fernando Morientes",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과(경기 득점 기록·시즌 문서)는 모리엔테스 36분 골만 있고 라울 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://www.wikiwand.com/en/articles/1999%E2%80%932000_Real_Madrid_CF_season"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-02-29",
+  "minute": 25,
+  "scorer": "Fernando Morientes",
+  "verdict": "UNCLEAR",
+  "why": "DFB 데이터센터 등은 모리엔테스 24분 골 기록만 있고 라울 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://datencenter.dfb.de/en/data-center/champions-league/1999-2000/intermediate-stage-group-c/real-madrid-bayern-munich-647362"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-09-12",
+  "minute": 75,
+  "scorer": "Rui Jorge",
+  "verdict": "KEEP_OUT",
+  "why": "Soccer-Spain 경기 리포트: 라울 슈팅이 빗나가는 듯했으나 스포르팅 루이 조르즈가 발을 내밀어 자기 골문으로 굴절시킨 자책골 — 상대 몸 맞은 골",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/archive2000/champs/champ02.html",
+   "https://rsssf.org/ec/ec200001.html"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2003-01-11",
+  "minute": 6,
+  "scorer": "Ronaldo",
+  "verdict": "UNCLEAR",
+  "why": "ESPN·시즌 경기 목록은 호나우두 결승골(1-0)만 적고 라울 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://espndeportes.espn.com/futbol/partido/_/juegoId/64750/real-madrid-celta-vigo"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2003-01-26",
+  "minute": 57,
+  "scorer": "Ronaldo",
+  "verdict": "UNCLEAR",
+  "why": "검색으로 경기 결과(1-1)만 확인, 호나우두 57분 골 장면 서술 기사 없음",
+  "sources": [
+   "https://statmuse.com/fc/match/1-26-2003-ath-vs-rma-35260"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2004-10-31",
+  "minute": 79,
+  "scorer": "Ronaldo",
+  "verdict": "UNCLEAR",
+  "why": "ESPN 기록은 호나우두 78분 골만 있고 라울 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://africa.espn.com/football/match/_/gameId/167879/getafe-real-madrid"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2005-02-12",
+  "minute": 77,
+  "scorer": "Michael Owen",
+  "verdict": "KEEP_OUT",
+  "why": "Soccer-Spain 리포트 2건: 오사수나 골키퍼 산솔이 라울 슈팅(또는 로베르투 카를루스 프리킥 뒤 라울 재슈팅)을 막아 낸 뒤 오언이 낮은 헤더로 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2004/div1/day23/report8.html",
+   "https://www.soccer-spain.com/ssdocs/archive2004/news/n140.html"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2007-09-15",
+  "minute": 35,
+  "scorer": "Javier Saviola",
+  "verdict": "KEEP_OUT",
+  "why": "Soccer-Spain·UEFA 리포트: 알메리아 골키퍼 코베뇨가 라울 슈팅을 골대로 쳐 낸 리바운드를 사비올라가 가까이서 넣음 — 골키퍼·골대 리바운드",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2007/div1/day03/report6.html",
+   "https://www.uefa.com/news/01c5-0e6e8469d3c2-75a5953f3ef1-1000--madrid-maintain-perfect-start/"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2008-08-31",
+  "minute": 47,
+  "scorer": "Ruud van Nistelrooy",
+  "verdict": "UNCLEAR",
+  "why": "ESPN은 반니스텔로이 47분 골만 기록, 장면 서술 기사 못 찾음(Libertad Digital 문자중계는 열람 불가)",
+  "sources": [
+   "https://africa.espn.com/football/match/_/gameId/252961/real-madrid-deportivo-la-coruna"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2015-08-14",
+  "minute": 45,
+  "scorer": "Leo Fernandes",
+  "verdict": "KEEP_OUT",
+  "why": "1495Sports·Midfield Press 리포트: 라울의 중거리 발리가 크로스바에 맞고 튄 공을 레오 페르난드스가 헤더로 넣음 — 크로스바 리바운드(FotMob도 도움 없음)",
+  "sources": [
+   "https://1495sports.com/2015/08/16/cosmos-bottle-up-scorpions-2-1/?amp=1",
+   "https://midfieldpress.com/2015/08/17/recap-cosmos-scorpion-kick-their-way-to-first-place/"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "1998-09-30",
+  "minute": "85",
+  "scorer": "Sonny Anderson",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과에 소니 안데르송 85분 골 장면 서술 기사 없음(득점자 목록도 출처마다 엇갈림)",
+  "sources": []
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "1999-05-08",
+  "minute": "56",
+  "scorer": "Phillip Cocu",
+  "verdict": "UNCLEAR",
+  "why": "경기는 1999-05-09 비야레알 2-3 바르셀로나(코쿠 56분)로 보이나 장면 서술 기사 없음; 계산기 M에 이 날짜 행이 없음(날짜 하루 차이 가능)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1998%E2%80%9399_FC_Barcelona_season"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "1999-06-12",
+  "minute": "23",
+  "scorer": "Phillip Cocu",
+  "verdict": "UNCLEAR",
+  "why": "경기는 1999-06-13 바르셀로나 4-1 베티스(코쿠 23분)로 보이나 장면 서술 기사 없음; 계산기 M에 이 날짜 행이 없음(날짜 하루 차이 가능)",
+  "sources": [
+   "https://en.wikipedia.org/wiki/1998%E2%80%9399_FC_Barcelona_season"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "1999-09-24",
+  "minute": "43",
+  "scorer": "Dani García",
+  "verdict": "UNCLEAR",
+  "why": "경기는 1999-09-25 바르셀로나 4-1 베티스(다니 43분)로 보이나 장면 서술 기사 없음; 계산기 M에 이 날짜 행이 없음(날짜 하루 차이 가능)",
+  "sources": [
+   "https://wikipedia.com/wiki/1999%E2%80%932000_FC_Barcelona_season"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "2001-02-25",
+  "minute": "78",
+  "scorer": "Xavi",
+  "verdict": "KEEP_OUT",
+  "why": "Soccer-Spain 24라운드 리포트: 교체 투입된 사비가 '히바우두 슈팅이 수비에 막힌 뒤' 세 번째 골을 넣음 — 상대 수비 맞고 나온 공",
+  "sources": [
+   "https://www.soccer-spain.com/ssdocs/reports2000/div1/day24/report10.html"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "2002-02-16",
+  "minute": "73",
+  "scorer": "Javier Saviola",
+  "verdict": "UNCLEAR",
+  "why": "검색 결과는 사비올라 73분 골 기록만 있고 히바우두 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://statmuse.com/fc/match/2-16-2002-fcb-vs-cor-34809"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "2006-03-12",
+  "minute": "17",
+  "scorer": "Dani García",
+  "verdict": "UNCLEAR",
+  "why": "경기 결과(올림피아코스 2-1 아폴론 칼라마리아스)만 확인, 17분 골 장면 서술 기사 없음",
+  "sources": [
+   "https://www.statto.com/football/stats/results/2006-03-12/olympiakos-v-apollon-kalamaria/pre-match"
+  ]
+ },
+ {
+  "id": "rivaldo",
+  "prefix": "RIV",
+  "date": "2007-12-30",
+  "minute": "33",
+  "scorer": "Ismael Blanco",
+  "verdict": "UNCLEAR",
+  "why": "PAOK 시즌 문서는 이스마엘 블랑코 33분 골 기록만 있고 히바우두 슈팅과의 장면 서술 없음",
+  "sources": [
+   "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/2007%E2%80%9308_PAOK_FC_season"
+  ]
+ }
+]
