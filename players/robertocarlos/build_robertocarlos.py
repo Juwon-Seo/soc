@@ -40,8 +40,9 @@ for r in rd("fotmob_events.csv"): FME[r["tm_gameId"]].append(r)
 # ---------------------------------------------------------------- 날짜·출전 분
 # 날짜: TM 리포트 날짜(유럽 경기는 현지). 코린치안스 저녁 경기 13개는 TM 날짜가 UTC 날짜라 API UTC를 상파울루 시간으로 바꾼 날짜
 # (raw date_local_from_api_utc; 호나우두 rno.js의 같은 경기 날짜와 같음). 팔메이라스 1993~95는 API 시각이 자리표시(12:00/13:00 UTC)라 TM 날짜 그대로.
-DATE_FIX = {}
-MIN_FIX = {}
+DATE_FIX = {"1183884": "2000-01-26"}   # 1999-00 라리가 18라운드 베티스전: TM 일정 날짜 2000.1.5(원래 일정)는 클럽 월드 챔피언십 기간이라 연기됨 — 실제 2000.1.26(라울·모리엔테스 자료와 같음)
+MIN_FIX = {"4731717": 90}   # 1994.9.7 우니앙 상주앙 원정: TM 선발·퇴장(시각 0, 출전 분 0) — 퇴장 시각 출처 없음 → 90분 추정(표시)
+MIN_EST = {"4731717"}
 def ldate(g):
     if g["gameId"] in DATE_FIX: return DATE_FIX[g["gameId"]]
     if g["club"] == "Corinthians": return g["date_local_from_api_utc"]
@@ -145,7 +146,7 @@ def tie_of(gid):
 # ---------------------------------------------------------------- 출전
 M = []
 for g in sorted(GAMES, key=lambda g: (ldate(g), g["gameId"])):
-    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), MIN_FIX.get(g["gameId"], int(g["playedMinutes"]))])
+    M.append([ldate(g), opp(g), comp_of(g["competitionId"], rnd_of(g)), MIN_FIX.get(g["gameId"], int(g["playedMinutes"]))] + ([1] if g["gameId"] in MIN_EST else []))
 
 # ---------------------------------------------------------------- 골·도움
 def mins(s):
