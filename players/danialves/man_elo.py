@@ -8,7 +8,6 @@ man("CF Villanovense", "2015-16", "스페인 3부 2015-16 12위/20팀 (Segunda D
 _PA = lambda y: f"브라질 5부 {y} 순위 없음 (Campeonato Paulista Série A1 {y} (state league); 리그 수준 추정)"
 man("EC Água Santa (SP)", "2020", _PA(2020))
 man("EC Santo André", "2020", _PA(2020))
-man("Osasco Sporting", "2020", _PA(2020))
 man("AD São Caetano (SP)", "2021", _PA(2021))
 man("EC Santo André", "2021", _PA(2021))
 # 수다메리카나 2020 2라운드(2020.11.4): 그때 진행 중이던 코파 데 라 리가 프로페시오날 2020 1단계 4조 최종 4위(en.wiki 표, AFA 출처)
@@ -17,3 +16,14 @@ man("CA Lanús", "2020", "아르헨티나 1부 2020-21 4위/4팀 (Copa de la Lig
 man("CA Rentistas", "2021", "우루과이 1부 2021 아페르투라 12위/16팀 (Torneo Apertura 2021, 경기 날짜에 진행 중이던 단계 순위)")
 # 리가MX 2022-23: 기존 '누적' 라벨 형식(지냑 자료) — FotMob 아페르투라 2022 + 클라우수라 2023 정규리그 합산 17위(같은 계산으로 후아레스 13·네카사 14·티후아나 15·마사틀란 18위 = 기존 값)
 man("Querétaro FC", "2022-23", "리가MX 2022-23 누적 17위/18팀")
+# 승점 표 map 추가(오케스트레이터가 elo/league_points_other.json에 같은 줄을 넣음; 여기서는 메모리에서만 넣어 값이 같게 함)
+MAP_ADD = [
+ ("브라질 세리에 A 2019", "Ceará Sporting Club", [1, 15]),
+ ("브라질 세리에 A 2019", "Associação Chapecoense de Futebol", [1, 18]),
+ ("브라질 세리에 A 2020", "CR Flamengo", [0, 0]),
+ ("브라질 세리에 A 2020", "Fortaleza Esporte Clube", [0, 15]),
+ ("스페인 3부 2015-16", "CF Villanovense", [0, 11]),
+]
+for _k, _n, _p in MAP_ADD:
+    PTS.O["seasons"][_k].setdefault("map", {}).setdefault(_n, _p)
+PTS._OS.clear() if hasattr(PTS, "_OS") else None

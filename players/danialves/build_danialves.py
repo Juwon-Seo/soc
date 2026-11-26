@@ -44,7 +44,7 @@ FMPM = {r["matchId"]: r for r in rd("fotmob_playerMatches.csv")}
 # ---------------------------------------------------------------- 날짜
 # TM API 경기 시각(UTC)을 경기장 시간대로 바꾼 현지 날짜(date_local). 남미·북중미 저녁 경기는 UTC보다 하루 앞.
 def ldate(g): return g["date_local"]
-OPP_NAME = {}
+OPP_NAME = {"3397423": "Oeste FC"}   # TM 상대 id 21829 이름 'Osasco Sporting' — 바루에리 경기장·Goal 브라질 기사('São Paulo atropela o Oeste')·파투 자료 = 오이스치(Oeste FC)
 def opp(g): return OPP_NAME.get(g["gameId"]) or re.sub(r"\s*\(\s*-\s*\d{4}\)", "", g["opponent"]).strip()
 
 GAP = "2014-08-01"   # 이 전 도움은 TM 단일 출처 허용(정상 유형)
