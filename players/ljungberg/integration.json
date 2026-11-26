@@ -1,0 +1,28 @@
+{
+ "preset": "ljungberg",
+ "name": "프레디 융베리",
+ "prefix": "LJU",
+ "clubs": [
+  {"key": "hallj", "name": "할름스타드", "short": "할름스타드", "years": "1994~1998", "until": "1998-09-12"},
+  {"key": "arslj", "name": "아스널", "short": "아스널", "years": "1998~2007", "until": "2007-07-23"},
+  {"key": "whulj", "name": "웨스트햄", "short": "웨스트햄", "years": "2007~2008", "until": "2008-10-20"},
+  {"key": "sealj", "name": "시애틀 사운더스", "short": "시애틀", "years": "2009~2010", "until": "2010-07-30"},
+  {"key": "chilj", "name": "시카고 파이어", "short": "시카고", "years": "2010", "until": "2011-01-01"},
+  {"key": "cellj", "name": "셀틱", "short": "셀틱", "years": "2011", "until": "2011-08-27"},
+  {"key": "shilj", "name": "시미즈 S펄스", "short": "시미즈", "years": "2011", "until": "2014-09-02"},
+  {"key": "mumlj", "name": "뭄바이 시티", "short": "뭄바이", "years": "2014", "until": null}
+ ],
+ "season": {"calendar": ["hallj", "sealj", "chilj", "shilj", "mumlj"], "jul10": []},
+ "pos": "RW",
+ "flag": "SE",
+ "retired": true,
+ "hon": {
+  "t": {
+   "LG": ["03/04 아스널", "01/02 아스널", "1997 할름스타드"],
+   "DC": ["2005 아스널", "2003 아스널", "2002 아스널", "10/11 셀틱", "2009 시애틀 사운더스(US 오픈컵)", "1995 할름스타드"],
+   "SC": ["99/00 아스널"]
+  },
+  "o": [["UCL 준우승", "05/06 아스널"]],
+  "a": {"FOY": ["2006 아스널", "2002 아스널"]}
+ }
+}

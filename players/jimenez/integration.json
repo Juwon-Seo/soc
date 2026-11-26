@@ -1,0 +1,34 @@
+{
+ "preset": "jimenez",
+ "name": "라울 히메네스",
+ "prefix": "RJM",
+ "clubs": [
+  {"key": "amerj", "name": "클루브 아메리카", "short": "아메리카", "years": "2011~2014", "until": "2014-08-13"},
+  {"key": "atmrj", "name": "아틀레티코 마드리드", "short": "아틀레티코", "years": "2014~2015", "until": "2015-08-13"},
+  {"key": "benrj", "name": "벤피카", "short": "벤피카", "years": "2015~2018", "until": "2018-07-01"},
+  {"key": "wolrj", "name": "울버햄튼 원더러스", "short": "울버햄튼", "years": "2018~2023, 2026~", "until": "2023-07-25"},
+  {"key": "fulrj", "name": "풀럼", "short": "풀럼", "years": "2023~2026", "until": "2026-07-01"},
+  {"key": "wolrj", "name": "울버햄튼 원더러스", "short": "울버햄튼", "years": "2018~2023, 2026~", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": ["wolrj"], "jul1": ["amerj"]},
+ "pos": "CF",
+ "flag": "MX",
+ "retired": false,
+ "colors": {
+  "amerj": ["#FFE600", "#002D72"],
+  "atmrj": ["#CB3524", "#FFFFFF", "#272E61"],
+  "benrj": ["#FE0000", "#FFFFFF"],
+  "wolrj": ["#FDB913", "#231F20"],
+  "fulrj": ["#FFFFFF", "#000000"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["16/17 벤피카", "15/16 벤피카", "14/15 아메리카(아페르투라)", "12/13 아메리카(클라우수라)"],
+   "DC": ["2017 벤피카"],
+   "LC": ["15/16 벤피카"],
+   "SC": ["17/18 벤피카", "16/17 벤피카", "14/15 아틀레티코"]
+  },
+  "o": [],
+  "a": {}
+ }
+}

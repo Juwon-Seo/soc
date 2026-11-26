@@ -1,0 +1,615 @@
+[
+ {
+  "id": "robbiekeane",
+  "prefix": "RKN",
+  "date": "2009-03-15",
+  "minute": "50",
+  "scorer": "Darren Bent",
+  "verdict": "KEEP_OUT",
+  "why": "Spurs Odyssey 경기 리포트: 킨의 낮은 슈팅을 프리델이 잡지 못해(골키퍼 접촉) 골문 앞으로 흐른 공을 벤트가 라인에서 건드려 넣음 — 골키퍼 맞고 나온 공",
+  "sources": [
+   "https://spursodyssey.com/0809/av150309.html",
+   "https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary?event=243987"
+  ]
+ },
+ {
+  "id": "vanpersie",
+  "prefix": "VAN",
+  "date": "2017-05-17",
+  "minute": 87,
+  "scorer": "Ozan Tufan",
+  "verdict": "ADD",
+  "why": "Fanatik 문자 리포트: 왼쪽에서 넘어온 공을 판페르시가 바로 슈팅했고 오잔 투판이 마지막 순간 발을 갖다 대 방향을 바꿔 넣음(2-2 동점골), FotMob도 판페르시 도움",
+  "sources": [
+   "https://www.fanatik.com.tr/fenerbahce/ozet-fenerbahce-basaksehir-mac-sonucu-2-2-9-10-1294184",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2458249"
+  ],
+  "row": [
+   "a",
+   "Basaksehir FK",
+   1700,
+   "dsf",
+   87,
+   1,
+   2,
+   0,
+   0,
+   "2017-05-17",
+   0,
+   0,
+   "쉬페르리그 2016-17 2위/18팀",
+   "Ozan Tufan",
+   [
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ]
+  ]
+ },
+ {
+  "id": "lavezzi",
+  "prefix": "LAV",
+  "date": "2008-02-17",
+  "minute": "37",
+  "scorer": "Daniele Mannini",
+  "verdict": "UNCLEAR",
+  "why": "ESPN(Opta) 문자중계는 '역습 뒤 라베치 스루패스를 만니니가 골문 바로 앞에서 오른발로'라고 적어 슈팅 방향 전환 서술이 아니고(TM 'Shot on goal'과 어긋남), 로니타 기사는 장면 서술 없음",
+  "sources": [
+   "https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary?event=224619",
+   "https://archivio.unita.news/assets/main/2008/02/18/page_012.pdf"
+  ]
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2010-12-22",
+  "minute": "86",
+  "scorer": "Miroslav Klose",
+  "verdict": "UNCLEAR",
+  "why": "FotMob은 리베리 도움, 다른 기록은 클로제 왼발 슈팅(리베리 도움)으로만 적고 리베리 슈팅을 방향 전환했는지 장면 서술 기사 못 찾음(ESPN 문자중계 없음, 구단 리포트 열리지 않음)",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=940150",
+   "https://www.espn.co.uk/football/match/_/gameId/309470/bayern-munich-vfb-stuttgart"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2013-02-03",
+  "minute": 63,
+  "scorer": "Robert Lewandowski",
+  "verdict": "KEEP_OUT",
+  "why": "Sports Mole·ESPN 문자중계: 괴체 슈팅을 레노 골키퍼가 쳐낸 공을 레반도프스키가 밀어 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://sportsmole.co.uk/football/bayer-leverkusen/result/lewandowski-seals-win-for-dortmund_67524.html",
+   "https://www.espn.com/soccer/commentary/_/gameId/346226"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2012-11-06",
+  "minute": 45,
+  "scorer": "Álvaro Arbeloa",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 45분 골은 아르벨로아 자책골(상대 자책골 유도는 도움 아님)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/355688"
+  ]
+ },
+ {
+  "id": "vanpersie",
+  "prefix": "VAN",
+  "date": "2012-10-28",
+  "minute": 4,
+  "scorer": "David Luiz",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 판페르시 슈팅이 골대에 맞고 다비드 루이스 몸에 맞아 들어간 자책골 — 골대·상대 맞은 공",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/345762"
+  ]
+ },
+ {
+  "id": "odegaard",
+  "prefix": "ODE",
+  "date": "2019-05-12",
+  "minute": 26,
+  "scorer": "Bart Straalman",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 주요 장면: 26분 골은 바르트 스트랄만(데흐라프스합) 자책골 — 상대 자책골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/512465"
+  ]
+ },
+ {
+  "id": "odegaard",
+  "prefix": "ODE",
+  "date": "2026-01-25",
+  "minute": 29,
+  "scorer": "Lisandro Martínez",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 29분 골은 리산드로 마르티네스(맨유) 자책골 — 상대 자책골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/740816"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-08-25",
+  "minute": 78,
+  "scorer": "Thomas Kleine",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 77분 골은 토마스 클라이네(퓌르트) 자책골 — 상대 자책골",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346397"
+  ]
+ },
+ {
+  "id": "parkjisung",
+  "prefix": "PJS",
+  "date": "2010-09-22",
+  "minute": 71,
+  "scorer": "Michael Owen",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 박지성 역습 슈팅을 머피 골키퍼가 막고 흘린 공을 오언이 3야드 거리에서 밀어 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307977"
+  ]
+ },
+ {
+  "id": "parkjisung",
+  "prefix": "PJS",
+  "date": "2010-12-07",
+  "minute": 62,
+  "scorer": "Anderson",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 박지성 슈팅을 파나데로 골키퍼가 쳐낸 공이 안데르송에게 가서 골 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307806"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-03-17",
+  "minute": 51,
+  "scorer": "Toni Kroos",
+  "verdict": "KEEP_OUT",
+  "why": "Reuters 기사: 로번 슈팅을 골키퍼가 막아 낸 리바운드를 크로스가 차 넣음(골키퍼 이름은 교체 기록과 어긋나지만 선방 리바운드라는 장면은 분명), Opta도 도움 없음",
+  "sources": [
+   "https://www.emirates247.com/sports/football/robben-grabs-hat-trick-in-bayern-rout-2012-03-18-1.448913",
+   "https://www.espn.com/soccer/commentary/_/gameId/320809"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-08-12",
+  "minute": 11,
+  "scorer": "Thomas Müller",
+  "verdict": "KEEP_OUT",
+  "why": "Fox Sports(AFP 계열) 기사: 로번의 칩슛이 골대에 맞고 나온 리바운드를 뮐러가 강하게 차 넣음 — 골대 맞은 공",
+  "sources": [
+   "https://amp.foxsports.com/stories/soccer/bayern-munich-claims-supercup",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1203546"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2011-03-15",
+  "minute": 21,
+  "scorer": "Mario Gómez",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 21분 로번의 왼발 중거리 슈팅이 골키퍼에게 막힌 직후 고메스가 차 넣음(도움 없음) — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/310997"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2008-09-24",
+  "minute": 58,
+  "scorer": "Raúl",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 로번의 왼발 슈팅이 골키퍼에게 막힌 직후 라울이 골문 바로 앞에서 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/253108"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2009-03-22",
+  "minute": 65,
+  "scorer": "Klaas-Jan Huntelaar",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 로번 슈팅이 골키퍼에게 막힌 직후 훈텔라르가 넣음(도움 없음) — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/253012"
+  ]
+ },
+ {
+  "id": "ballack",
+  "prefix": "BLK",
+  "date": "2005-04-12",
+  "minute": 65,
+  "scorer": "TM선수 532",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 발라크 헤딩을 체흐가 쳐내 골대에 맞고 나온 공을 피사로가 넣음 — 골키퍼·골대 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/180736"
+  ]
+ },
+ {
+  "id": "cazorla",
+  "prefix": "CAZ",
+  "date": "2010-01-24",
+  "minute": 4,
+  "scorer": "TM선수 7486",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 카소를라 중거리 슈팅이 골키퍼에게 막힌 직후 카프데비야가 가까이서 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/275712"
+  ]
+ },
+ {
+  "id": "cazorla",
+  "prefix": "CAZ",
+  "date": "2010-05-04",
+  "minute": 66,
+  "scorer": "TM선수 7682",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 카소를라 중거리 슈팅이 골키퍼에게 막힌 뒤 이바가사 헤딩 골 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/275905"
+  ]
+ },
+ {
+  "id": "navas",
+  "prefix": "NAV",
+  "date": "2010-05-05",
+  "minute": 2,
+  "scorer": "TM선수 18644",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 나바스 왼발 슈팅이 골키퍼에게 막힌 직후 네그레도가 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/275755"
+  ]
+ },
+ {
+  "id": "duff",
+  "prefix": "DUF",
+  "date": "2009-10-19",
+  "minute": 43,
+  "scorer": "Bobby Zamora",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 더프 중거리 슈팅이 골키퍼에게 막힌 뒤 자모라 헤딩 골 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/269902"
+  ]
+ },
+ {
+  "id": "gomis",
+  "prefix": "GMS",
+  "date": "2010-01-20",
+  "minute": 63,
+  "scorer": "TM선수 27661",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 고미스 슈팅이 상대에게 막힌 직후 리산드루가 넣음 — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/271343"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2006-09-27",
+  "minute": 68,
+  "scorer": "TM선수 3924",
+  "verdict": "ADD",
+  "why": "ESPN 문자중계: 드로그바 해트트릭 골은 램파드 슈팅을 드로그바가 정강이로 굴절시켜 골키퍼를 지나 넣은 것 — 동료 방향 전환(드로그바 파일 68분 g행 복사)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/205464"
+  ],
+  "row": [
+   "a",
+   "Levski Sofia",
+   1610,
+   "clg",
+   68,
+   2,
+   0,
+   0,
+   0,
+   "2006-09-27",
+   0,
+   0,
+   "불가리아 1부 2006-07 1위/16팀 (A Group)",
+   "Didier Drogba"
+  ]
+ },
+ {
+  "id": "duff",
+  "prefix": "DUF",
+  "date": "2003-11-09",
+  "minute": 40,
+  "scorer": "Hernán Crespo",
+  "verdict": "ADD",
+  "why": "ESPN 문자중계: 존슨 크로스가 흘러 더프에게 갔고 더프의 패스를 크레스포가 4야드 거리에서 밀어 넣음 — 슈팅 리바운드가 아닌 동료 연결 골(크레스포 파일 40분 g행 기준)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/108229"
+  ],
+  "row": [
+   "a",
+   "Newcastle United",
+   1819,
+   "lg",
+   40,
+   1,
+   0,
+   0,
+   0,
+   "2003-11-09",
+   0,
+   0,
+   "프리미어리그 2003-04 5위",
+   "Hernán Crespo"
+  ]
+ },
+ {
+  "id": "trezeguet",
+  "prefix": "TRZ",
+  "date": "2007-09-26",
+  "minute": 50,
+  "scorer": "Hasan Salihamidzic",
+  "verdict": "ADD",
+  "why": "ESPN(Opta) 문자중계: 코너킥 뒤 트레제게의 오른발 슈팅이 왼쪽으로 빗나가던 것을 살리하미지치가 골문 바로 앞에서 넣었고 Opta도 트레제게 도움으로 적음 — 동료 방향 전환(상대·골키퍼 접촉 언급 없음)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/224381"
+  ],
+  "row": [
+   "a",
+   "Reggina Calcio",
+   1666,
+   "lg",
+   50,
+   1,
+   0,
+   0,
+   0,
+   "2007-09-26",
+   0,
+   0,
+   "세리에A 2007-08 16위",
+   "Hasan Salihamidzic"
+  ]
+ },
+ {
+  "id": "trezeguet",
+  "prefix": "TRZ",
+  "date": "2007-12-23",
+  "minute": 32,
+  "scorer": "Hasan Salihamidzic",
+  "verdict": "UNCLEAR",
+  "why": "ESPN(Opta)은 트레제게 도움(살리하미지치 골문 바로 앞 슈팅)으로 적지만 트레제게 슈팅인지 패스인지 장면 서술 없음, 기사 못 찾음",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/224359"
+  ]
+ },
+ {
+  "id": "lavezzi",
+  "prefix": "LAV",
+  "date": "2018-09-16",
+  "minute": "20",
+  "scorer": "Ayoub El Kaabi",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 경기 기록: 20분 라베치 유효 슈팅(골문 향한 슈팅이 막힘) 뒤 엘카비 골, FotMob(Opta)도 라베치 도움 없음 — 골키퍼 선방 리바운드로 판단",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/508009"
+  ]
+ },
+ {
+  "id": "ribery",
+  "prefix": "RIB",
+  "date": "2009-02-08",
+  "minute": "24",
+  "scorer": "TM id 89",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 리베리 오른발 슈팅이 골키퍼에게 막힌 직후 제 호베르투가 골문 앞에서 왼발로 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/252458"
+  ]
+ },
+ {
+  "id": "valbuena",
+  "prefix": "VAB",
+  "date": "2010-05-05",
+  "minute": 76,
+  "scorer": "TM선수 6118",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 발부에나 슈팅이 골키퍼에게 막힌 직후 니앙이 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/271425"
+  ]
+ },
+ {
+  "id": "bale",
+  "prefix": "BAL",
+  "date": "2009-10-27",
+  "minute": 57,
+  "scorer": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN 문자중계: 킨 PK 선방·벤틀리 슈팅 선방 뒤 베일 왼발 슈팅이 헤이팅아에게 막히고 킨이 발리로 넣음 — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/284283"
+  ]
+ },
+ {
+  "id": "gilardino",
+  "prefix": "GIL",
+  "date": "2008-03-22",
+  "minute": 66,
+  "scorer": "TM선수 37579",
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 문자중계: 질라르디노 왼발 슈팅이 상대에게 막힌(blocked) 뒤 파투가 골문 바로 앞에서 넣음(Opta는 질라르디노 도움) — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/224404"
+  ]
+ },
+ {
+  "id": "candreva",
+  "prefix": "CAN",
+  "date": "2009-10-18",
+  "minute": "54",
+  "scorer": "Tomas Danilevičius",
+  "verdict": "ADD",
+  "why": "ESPN(Opta) 문자중계: 칸드레바의 중거리 슈팅이 왼쪽으로 빗나가던 것을 다닐레비치우스가 왼발로 넣었고 Opta도 칸드레바 도움 — 동료 방향 전환(상대·골키퍼 접촉 언급 없음)",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/278405"
+  ],
+  "row": [
+   "a",
+   "US Palermo",
+   1752,
+   "lg",
+   54,
+   0,
+   0,
+   0,
+   0,
+   "2009-10-18",
+   0,
+   0,
+   "세리에A 2009-10 5위",
+   "Tomas Danilevičius"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2005-10-15",
+  "minute": 52,
+  "scorer": "TM선수 3924",
+  "verdict": "KEEP_OUT",
+  "why": "PA 계열 리포트(friardale 보관): 램파드 프리킥이 너무 강해 야스켈라이넨 골키퍼가 잡지 못했고 드로그바가 가장 먼저 반응해 차 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://friardale.co.uk/bounder.friardale.co.uk/Match%20Reports/2005/20051015.txt",
+   "https://www.voetbalkrant.com/nieuws/2005-10-15/chelsea-zet-achterstand-recht"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2002-12-07",
+  "minute": 28,
+  "scorer": "TM선수 3175",
+  "verdict": "KEEP_OUT",
+  "why": "ToffeeWeb 경기 리포트: 램파드의 강한 슈팅을 라이트 골키퍼가 바로 앞으로 쳐냈고 하셀바잉크가 가장 먼저 반응해 넣음 — 골키퍼 선방 리바운드(득점자 하셀바잉크)",
+  "sources": [
+   "https://www.toffeeweb.com/season/02-03/reports/Chelsea(h).asp"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2003-09-27",
+  "minute": 44,
+  "scorer": "TM선수 3175",
+  "verdict": "KEEP_OUT",
+  "why": "PA 리포트(friardale 보관)·Irish Times: 램파드의 크로스성 슈팅을 소렌센 골키퍼가 쳐낸 리바운드를 하셀바잉크가 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.bounder.friardale.co.uk/Match%20Reports/2003/20030927.txt",
+   "https://www.irishtimes.com/sport/chelsea-have-the-luck-to-go-with-their-fortune-1.379452"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2004-03-20",
+  "minute": 30,
+  "scorer": "TM선수 3259",
+  "verdict": "KEEP_OUT",
+  "why": "PA 리포트(friardale 보관): 램파드 슈팅을 골키퍼가 쳐냈고 그 공이 수비수 맞고 더프에게 가서 빈 골문에 넣음 — 골키퍼·상대 맞은 리바운드",
+  "sources": [
+   "https://www.bounder.friardale.co.uk/Match%20Reports/2003/20040320.txt"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "2007-02-17",
+  "minute": 39,
+  "scorer": "TM선수 3467",
+  "verdict": "KEEP_OUT",
+  "why": "PA 리포트(friardale 보관): 램파드 슈팅이 페널티박스 가장자리에서 앤디 휴스에게 막혀 흐른 공을 라이트필립스가 넣음 — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.bounder.friardale.co.uk/Match%20Reports/2006/20070217.txt"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2005-12-31",
+  "minute": 25,
+  "scorer": "Hernán Crespo",
+  "verdict": "KEEP_OUT",
+  "why": "PA 리포트(friardale 보관): 조 콜 패스로 빠져나간 로번의 슈팅을 테일러 골키퍼가 쳐냈고 크레스포가 밀어 넣음 — 골키퍼 선방 리바운드",
+  "sources": [
+   "https://www.bounder.friardale.co.uk/Match%20Reports/2005/20051231.txt"
+  ]
+ },
+ {
+  "id": "duff",
+  "prefix": "DUF",
+  "date": "2003-10-29",
+  "minute": 87,
+  "scorer": "Joe Cole",
+  "verdict": "KEEP_OUT",
+  "why": "PA 리포트(friardale 보관): 87분 조 콜 골은 슈팅(리포트는 스타니치 슈팅으로 적음)이 수비에 막혀 흐른 공을 넣은 것 — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.bounder.friardale.co.uk/Match%20Reports/2003/20031029.txt"
+  ]
+ },
+ {
+  "id": "lampard",
+  "prefix": "LAM",
+  "date": "1998-11-28",
+  "minute": 39,
+  "scorer": "TM선수 3253",
+  "verdict": "KEEP_OUT",
+  "why": "Spurs Odyssey 경기 리포트: 38분 램파드 슈팅을 바르드센 골키퍼가 막았으나 앞으로 흘렸고 싱클레어가 탭인 — 골키퍼 선방 리바운드(득점자 트레버 싱클레어)",
+  "sources": [
+   "https://spursodyssey.com/reports/wh281198.html"
+  ]
+ },
+ {
+  "id": "robbiekeane",
+  "prefix": "RKN",
+  "date": "2006-01-08",
+  "minute": "20",
+  "scorer": "Jermaine Jenas",
+  "verdict": "KEEP_OUT",
+  "why": "Spurs Odyssey 경기 리포트: 캐릭 프리킥을 킨이 헤딩했으나 골대에 맞고 나왔고 제나스가 가까이서 넣음 — 골대 맞은 리바운드",
+  "sources": [
+   "https://spursodyssey.com/0506/le080106.html"
+  ]
+ },
+ {
+  "id": "robbiekeane",
+  "prefix": "RKN",
+  "date": "2007-11-11",
+  "minute": "13",
+  "scorer": "Jermaine Jenas",
+  "verdict": "KEEP_OUT",
+  "why": "Spurs Odyssey 경기 리포트: 킨의 낮은 크로스를 커클랜드 골키퍼가 건드렸고 제나스가 서 있다가 맞혀 넣음 — 골키퍼 접촉 뒤 골",
+  "sources": [
+   "https://spursodyssey.com/0708/wi111107.html"
+  ]
+ }
+]

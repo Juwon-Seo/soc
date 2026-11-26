@@ -1,0 +1,9347 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1656,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2005-06 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Millwall FC",
+   "elo": 1537,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2005-06 23위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1594,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2005-06 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Luton Town",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2005-06 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Milton Keynes Dons",
+   "elo": 1440,
+   "comp": "dc",
+   "min": 66,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그 원(3부) 2005-06 22위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "GNK Dinamo Zagreb",
+   "elo": 1520,
+   "comp": "clq",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-08-23",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "크로아티아 1위 (추정, 다른 선수 자료 2009 디나모 자그레브와 같은 수준)",
+   "note": "Mathieu Flamini",
+   "tie": [
+    2,
+    1,
+    3,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "West Bromwich Albion",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2006-07 4위",
+   "note": "Jérémie Aliadière"
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1777,
+   "comp": "clg",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2006-07 7위",
+   "note": "Emmanuel Eboué"
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1777,
+   "comp": "clg",
+   "min": 88,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2006-07 7위",
+   "note": "Júlio Baptista"
+  },
+  {
+   "type": "a",
+   "opp": "Portsmouth FC",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2006-07 9위",
+   "note": "Emmanuel Adebayor"
+  },
+  {
+   "type": "a",
+   "opp": "Portsmouth FC",
+   "elo": 1768,
+   "comp": "lg",
+   "min": 60,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2006-07 9위",
+   "note": "Gilberto Silva"
+  },
+  {
+   "type": "a",
+   "opp": "Watford FC",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2006-07 20위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1830,
+   "comp": "dsf",
+   "min": 64,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2006-07 5위",
+   "note": "Júlio Baptista",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1927,
+   "comp": "df",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2007-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2006-07 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Sparta Praha",
+   "elo": 1560,
+   "comp": "clq",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 2위 (추정)",
+   "note": "Tomas Rosicky",
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Sunderland AFC",
+   "elo": 1709,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 15위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 16위",
+   "note": "Tomas Rosicky"
+  },
+  {
+   "type": "g",
+   "opp": "SK Slavia Prague",
+   "elo": 1500,
+   "comp": "clg",
+   "min": 41,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SK Slavia Prague",
+   "elo": 1500,
+   "comp": "clg",
+   "min": 55,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SK Slavia Prague",
+   "elo": 1500,
+   "comp": "clg",
+   "min": 58,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "note": "Cesc Fàbregas"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1742,
+   "comp": "dsf",
+   "min": 79,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 11위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1655,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Birmingham City",
+   "elo": 1655,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Milan",
+   "elo": 1798,
+   "comp": "cl16",
+   "min": 92,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-03-04",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2007-08 5위",
+   "note": "Emmanuel Adebayor",
+   "tie": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 1849,
+   "comp": "clk",
+   "min": 84,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-04-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 4위",
+   "note": "Emmanuel Adebayor",
+   "tie": [
+    2,
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Derby County",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 78,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sunderland AFC",
+   "elo": 1709,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2007-08 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Twente Enschede",
+   "elo": 1735,
+   "comp": "clq",
+   "min": 66,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2008-09 2위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1714,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 15위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "FC Porto",
+   "elo": 1912,
+   "comp": "clg",
+   "min": 48,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-09-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2008-09 1위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1640,
+   "comp": "clg",
+   "min": 11,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 4위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wigan Athletic",
+   "elo": 1747,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1789,
+   "comp": "clk",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2008-09 5위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1887,
+   "comp": "dsf",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-04-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 1935,
+   "comp": "lg",
+   "min": 90,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 2위",
+   "note": "Andrey Arshavin"
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1761,
+   "comp": "lg",
+   "min": 75,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Aston Villa",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 6위",
+   "note": "Cesc Fàbregas"
+  },
+  {
+   "type": "g",
+   "opp": "Burnley FC",
+   "elo": 1670,
+   "comp": "lg",
+   "min": 60,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 1993,
+   "comp": "clk",
+   "min": 69,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2009-10 1위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1856,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 4위",
+   "note": "Nicklas Bendtner"
+  },
+  {
+   "type": "g",
+   "opp": "Wigan Athletic",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 26,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2009-10 12위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Blackpool FC",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackpool FC",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 39,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackpool FC",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 58,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Blackburn Rovers",
+   "elo": 1717,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1741,
+   "comp": "dc",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1741,
+   "comp": "dc",
+   "min": 88,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1720,
+   "comp": "clg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FK Partizan Belgrade",
+   "elo": 1520,
+   "comp": "clg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세르비아 1위 (추정, 데 브라위너 자료 2011 파르티잔과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 2위",
+   "note": "Cesc Fàbregas"
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 20위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Wigan Athletic",
+   "elo": 1701,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 16위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1741,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1741,
+   "comp": "lg",
+   "min": 10,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 12위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 17위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Blackpool FC",
+   "elo": 1663,
+   "comp": "lg",
+   "min": 76,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 19위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1840,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1796,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-05-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2010-11 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1845,
+   "comp": "clq",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2011-12 3위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1845,
+   "comp": "clq",
+   "min": 69,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2011-12 3위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1932,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-28",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "프리미어리그 2011-12 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1983,
+   "comp": "clg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2011-12 1위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Bolton Wanderers",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 18위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Norwich City",
+   "elo": 1735,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-11-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 12위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1772,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 9위",
+   "note": "Thomas Vermaelen"
+  },
+  {
+   "type": "a",
+   "opp": "Wigan Athletic",
+   "elo": 1711,
+   "comp": "lg",
+   "min": 78,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-12-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 15위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Swansea City",
+   "elo": 1744,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1695,
+   "comp": "dc",
+   "min": 57,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 19위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 19위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 54,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 19위",
+   "note": "Alex Oxlade-Chamberlain"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1851,
+   "comp": "lg",
+   "min": 65,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1851,
+   "comp": "lg",
+   "min": 68,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 5위",
+   "note": "Robin van Persie"
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1695,
+   "comp": "lg",
+   "min": 25,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Queens Park Rangers",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1637,
+   "comp": "lg",
+   "min": 11,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2011-12 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1714,
+   "comp": "lg",
+   "min": 88,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Coventry City",
+   "elo": 1495,
+   "comp": "dc",
+   "min": 74,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그 원(잉글랜드 3부) 중위권 (추정, 순위표 미확인)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Coventry City",
+   "elo": 1495,
+   "comp": "dc",
+   "min": 90,
+   "gf": 5,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그 원(잉글랜드 3부) 중위권 (추정, 순위표 미확인)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 83,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 10위",
+   "note": "Santi Cazorla"
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 47,
+   "gf": 0,
+   "ga": 4,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "프리미어리그 2012-13 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 64,
+   "gf": 1,
+   "ga": 4,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 19위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "a",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 89,
+   "gf": 2,
+   "ga": 4,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 19위",
+   "note": "Laurent Koscielny"
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 96,
+   "gf": 3,
+   "ga": 4,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "프리미어리그 2012-13 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 121,
+   "gf": 5,
+   "ga": 5,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 1,
+   "dm": "120+1",
+   "lv": "프리미어리그 2012-13 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "dc",
+   "min": 123,
+   "gf": 6,
+   "ga": 5,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-30",
+   "et": 1,
+   "dm": "120+3",
+   "lv": "프리미어리그 2012-13 19위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "FC Schalke 04",
+   "elo": 1801,
+   "comp": "clg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2012-13 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 12위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 12위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 5위",
+   "note": "Per Mertesacker"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 91,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-17",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "프리미어리그 2012-13 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Everton FC",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reading FC",
+   "elo": 1651,
+   "comp": "lg",
+   "min": 80,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 73,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 84,
+   "gf": 4,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 16위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 87,
+   "gf": 5,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 16위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1689,
+   "comp": "lg",
+   "min": 91,
+   "gf": 6,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-29",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "프리미어리그 2012-13 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 1878,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 10위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 54,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 85,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2012-13 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Liverpool FC",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sunderland AFC",
+   "elo": 1671,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 17위",
+   "note": "Santi Cazorla"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 5위",
+   "note": "Per Mertesacker"
+  },
+  {
+   "type": "a",
+   "opp": "FC Bayern Munich",
+   "elo": 1979,
+   "comp": "cl16",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2012-13 1위",
+   "note": "Olivier Giroud",
+   "tie": [
+    2,
+    0,
+    1,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Norwich City",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-13",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 2012-13 11위",
+   "note": "Lukas Podolski"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 2010,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Queens Park Rangers",
+   "elo": 1631,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wigan Athletic",
+   "elo": 1659,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2012-13 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fenerbahce",
+   "elo": 1778,
+   "comp": "clq",
+   "min": 51,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2013-14 1위",
+   "note": "Kieran Gibbs",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1810,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 6위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1764,
+   "comp": "clg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Cardiff City",
+   "elo": 1624,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-30",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 2013-14 20위",
+   "note": "Aaron Ramsey"
+  },
+  {
+   "type": "a",
+   "opp": "Everton FC",
+   "elo": 1821,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 5위",
+   "note": "Mesut Özil"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 2004,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 2004,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2013-14 10위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "Cardiff City",
+   "elo": 1624,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-01-01",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "프리미어리그 2013-14 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brighton & Hove Albion",
+   "elo": 1555,
+   "comp": "dc",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2015-01-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십(2부) 2014-15 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1656,
+   "comp": "lg",
+   "min": 63,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1699,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Bromwich Albion",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Bromwich Albion",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Bromwich Albion",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 37,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1656,
+   "comp": "df",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2015-05-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1727,
+   "comp": "df",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2015-08-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 10위",
+   "note": "Alex Oxlade-Chamberlain"
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1744,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GNK Dinamo Zagreb",
+   "elo": 1560,
+   "comp": "clg",
+   "min": 79,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "크로아티아 1위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1988,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1660,
+   "comp": "clg",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1위 (추정, 다른 선수 자료 값들의 평균)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1660,
+   "comp": "clg",
+   "min": 65,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1위 (추정, 다른 선수 자료 값들의 평균)",
+   "note": "Alexis Sánchez"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 7,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 5위",
+   "note": "Mesut Özil"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 19,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 5위",
+   "note": "Alexis Sánchez"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sunderland AFC",
+   "elo": 1648,
+   "comp": "dc",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 17위",
+   "note": "Joel Campbell"
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1988,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hull City",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 4위",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 77,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1669,
+   "comp": "dc",
+   "min": 88,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "챔피언십 2015-16 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Watford FC",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 90,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2015-16 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Liverpool FC",
+   "elo": 1848,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Watford FC",
+   "elo": 1674,
+   "comp": "lg",
+   "min": 40,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 17위",
+   "note": "Alexis Sánchez"
+  },
+  {
+   "type": "g",
+   "opp": "Hull City",
+   "elo": 1662,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chelsea FC",
+   "elo": 2013,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1650,
+   "comp": "clg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 (추정, 다른 선수 자료와 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1650,
+   "comp": "clg",
+   "min": 26,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 (추정, 다른 선수 자료와 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1692,
+   "comp": "lg",
+   "min": 93,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-02",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "프리미어리그 2016-17 16위",
+   "note": "Laurent Koscielny"
+  },
+  {
+   "type": "g",
+   "opp": "Swansea City",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Swansea City",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ludogorets Razgrad",
+   "elo": 1540,
+   "comp": "clg",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "불가리아 1부 (추정, 다른 선수 자료와 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1769,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1722,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1881,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1787,
+   "comp": "dc",
+   "min": 35,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1787,
+   "comp": "dc",
+   "min": 69,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1787,
+   "comp": "dc",
+   "min": 84,
+   "gf": 4,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sutton United",
+   "elo": 1300,
+   "comp": "dc",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "잉글랜드 5부(내셔널리그) 2016-17 12위 (추정, 다른 선수 자료 잉글랜드 5부 1300과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 1952,
+   "comp": "cl16",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2016-17 1위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    5,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Lincoln City",
+   "elo": 1300,
+   "comp": "dk",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-03-11",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "잉글랜드 5부(내셔널리그) 2016-17 1위 (추정, 다른 선수 자료 잉글랜드 5부 1300과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1881,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "West Ham United",
+   "elo": 1741,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2016-17 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Doncaster Rovers",
+   "elo": 1473,
+   "comp": "dc",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그 원(3부) 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "BATE Borisov",
+   "elo": 1500,
+   "comp": "elg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "BATE Borisov",
+   "elo": 1500,
+   "comp": "elg",
+   "min": 22,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Red Star Belgrade",
+   "elo": 1580,
+   "comp": "elg",
+   "min": 85,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세르비아 2017-18 1위 (추정, 다른 선수 자료 츠르베나 즈베즈다 2018-19 1위 1580과 같음)",
+   "note": "Olivier Giroud"
+  },
+  {
+   "type": "g",
+   "opp": "BATE Borisov",
+   "elo": 1500,
+   "comp": "elg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "BATE Borisov",
+   "elo": 1500,
+   "comp": "elg",
+   "min": 43,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "note": "Jack Wilshere"
+  },
+  {
+   "type": "a",
+   "opp": "West Bromwich Albion",
+   "elo": 1666,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 20위",
+   "note": "Oumar Niasse"
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1801,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1801,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stoke City",
+   "elo": 1686,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 19위",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1785,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Huddersfield Town",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2017-18 16위",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1739,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Southampton FC",
+   "elo": 1739,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 16위",
+   "note": "Richarlison"
+  },
+  {
+   "type": "g",
+   "opp": "AFC Bournemouth",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fulham FC",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 19위",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Southampton FC",
+   "elo": 1739,
+   "comp": "dc",
+   "min": 85,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2018-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1894,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1866,
+   "comp": "lg",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1894,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "West Ham United",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 16위",
+   "note": "Bernard"
+  },
+  {
+   "type": "a",
+   "opp": "Watford FC",
+   "elo": 1717,
+   "comp": "dc",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 19위",
+   "note": "Mason Holgate"
+  },
+  {
+   "type": "g",
+   "opp": "Watford FC",
+   "elo": 1717,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Crystal Palace",
+   "elo": 1781,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 14위",
+   "note": "Bernard"
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1737,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AFC Bournemouth",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2019-20 18위",
+   "note": "Moise Kean"
+  },
+  {
+   "type": "a",
+   "opp": "Newcastle United",
+   "elo": 1789,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 12위",
+   "note": "Ché Adams"
+  },
+  {
+   "type": "g",
+   "opp": "Wolverhampton Wanderers",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Burnley FC",
+   "elo": 1731,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 17위",
+   "note": "Nathan Redmond"
+  },
+  {
+   "type": "g",
+   "opp": "Fulham FC",
+   "elo": 1719,
+   "comp": "lg",
+   "min": 82,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 8위",
+   "note": "Ché Adams"
+  },
+  {
+   "type": "g",
+   "opp": "Tottenham Hotspur",
+   "elo": 1834,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1976,
+   "comp": "lg",
+   "min": 14,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 1878,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2022-23 5위",
+   "note": "Kamaldeen Sulemana"
+  }
+ ],
+ "M": [
+  [
+   "2005-08-06",
+   "Wolverhampton Wanderers",
+   "lg",
+   17
+  ],
+  [
+   "2005-08-09",
+   "Luton Town",
+   "lg",
+   29
+  ],
+  [
+   "2005-08-13",
+   "Sheffield Wednesday",
+   "lg",
+   19
+  ],
+  [
+   "2005-08-20",
+   "Norwich City",
+   "lg",
+   20
+  ],
+  [
+   "2005-09-13",
+   "Ipswich Town",
+   "lg",
+   8
+  ],
+  [
+   "2005-09-20",
+   "Mansfield Town",
+   "dc",
+   18
+  ],
+  [
+   "2005-09-24",
+   "Plymouth Argyle",
+   "lg",
+   22
+  ],
+  [
+   "2005-10-15",
+   "Hull City",
+   "lg",
+   14
+  ],
+  [
+   "2005-10-18",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-22",
+   "Millwall FC",
+   "lg",
+   65
+  ],
+  [
+   "2005-10-29",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-05",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-19",
+   "Leeds United",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-22",
+   "Hull City",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-26",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2005-12-03",
+   "Burnley FC",
+   "lg",
+   67
+  ],
+  [
+   "2005-12-11",
+   "Luton Town",
+   "lg",
+   85
+  ],
+  [
+   "2005-12-17",
+   "Norwich City",
+   "lg",
+   55
+  ],
+  [
+   "2005-12-26",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2005-12-28",
+   "Sheffield United",
+   "lg",
+   27
+  ],
+  [
+   "2005-12-31",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2006-01-07",
+   "Milton Keynes Dons",
+   "dc",
+   30
+  ],
+  [
+   "2006-01-14",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2006-08-19",
+   "Aston Villa",
+   "lg",
+   17
+  ],
+  [
+   "2006-08-23",
+   "GNK Dinamo Zagreb",
+   "clq",
+   9
+  ],
+  [
+   "2006-08-26",
+   "Manchester City",
+   "lg",
+   23
+  ],
+  [
+   "2006-09-26",
+   "FC Porto",
+   "clg",
+   4
+  ],
+  [
+   "2006-10-14",
+   "Watford FC",
+   "lg",
+   64
+  ],
+  [
+   "2006-10-17",
+   "CSKA Moscow",
+   "clg",
+   10
+  ],
+  [
+   "2006-10-22",
+   "Reading FC",
+   "lg",
+   17
+  ],
+  [
+   "2006-10-24",
+   "West Bromwich Albion",
+   "dc",
+   90
+  ],
+  [
+   "2006-10-28",
+   "Everton FC",
+   "lg",
+   23
+  ],
+  [
+   "2006-11-01",
+   "CSKA Moscow",
+   "clg",
+   19
+  ],
+  [
+   "2006-11-08",
+   "Everton FC",
+   "dc",
+   90
+  ],
+  [
+   "2006-11-18",
+   "Newcastle United",
+   "lg",
+   26
+  ],
+  [
+   "2006-11-21",
+   "Hamburger SV",
+   "clg",
+   15
+  ],
+  [
+   "2006-11-25",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2006-11-29",
+   "Fulham FC",
+   "lg",
+   29
+  ],
+  [
+   "2006-12-02",
+   "Tottenham Hotspur",
+   "lg",
+   3
+  ],
+  [
+   "2006-12-13",
+   "Wigan Athletic",
+   "lg",
+   89
+  ],
+  [
+   "2006-12-16",
+   "Portsmouth FC",
+   "lg",
+   84
+  ],
+  [
+   "2006-12-23",
+   "Blackburn Rovers",
+   "lg",
+   2
+  ],
+  [
+   "2006-12-26",
+   "Watford FC",
+   "lg",
+   19
+  ],
+  [
+   "2007-01-06",
+   "Liverpool FC",
+   "dc",
+   2
+  ],
+  [
+   "2007-01-09",
+   "Liverpool FC",
+   "dk",
+   74
+  ],
+  [
+   "2007-01-24",
+   "Tottenham Hotspur",
+   "dsf",
+   90
+  ],
+  [
+   "2007-01-28",
+   "Bolton Wanderers",
+   "dc",
+   86
+  ],
+  [
+   "2007-01-31",
+   "Tottenham Hotspur",
+   "dsf",
+   63
+  ],
+  [
+   "2007-02-11",
+   "Wigan Athletic",
+   "lg",
+   67
+  ],
+  [
+   "2007-02-17",
+   "Blackburn Rovers",
+   "dc",
+   68
+  ],
+  [
+   "2007-02-25",
+   "Chelsea FC",
+   "df",
+   90
+  ],
+  [
+   "2007-02-28",
+   "Blackburn Rovers",
+   "dc",
+   29
+  ],
+  [
+   "2007-03-03",
+   "Reading FC",
+   "lg",
+   71
+  ],
+  [
+   "2007-03-07",
+   "PSV Eindhoven",
+   "cl16",
+   5
+  ],
+  [
+   "2007-03-18",
+   "Everton FC",
+   "lg",
+   15
+  ],
+  [
+   "2007-08-12",
+   "Fulham FC",
+   "lg",
+   27
+  ],
+  [
+   "2007-08-19",
+   "Blackburn Rovers",
+   "lg",
+   73
+  ],
+  [
+   "2007-08-29",
+   "AC Sparta Praha",
+   "clq",
+   90
+  ],
+  [
+   "2007-09-22",
+   "Derby County",
+   "lg",
+   72
+  ],
+  [
+   "2007-09-25",
+   "Newcastle United",
+   "dc",
+   90
+  ],
+  [
+   "2007-10-07",
+   "Sunderland AFC",
+   "lg",
+   33
+  ],
+  [
+   "2007-10-20",
+   "Bolton Wanderers",
+   "lg",
+   28
+  ],
+  [
+   "2007-10-23",
+   "SK Slavia Prague",
+   "clg",
+   90
+  ],
+  [
+   "2007-10-28",
+   "Liverpool FC",
+   "lg",
+   24
+  ],
+  [
+   "2007-10-31",
+   "Sheffield United",
+   "dc",
+   83
+  ],
+  [
+   "2007-11-03",
+   "Manchester United",
+   "lg",
+   16
+  ],
+  [
+   "2007-11-07",
+   "SK Slavia Prague",
+   "clg",
+   90
+  ],
+  [
+   "2007-11-12",
+   "Reading FC",
+   "lg",
+   7
+  ],
+  [
+   "2007-11-24",
+   "Wigan Athletic",
+   "lg",
+   78
+  ],
+  [
+   "2007-11-27",
+   "Sevilla FC",
+   "clg",
+   7
+  ],
+  [
+   "2007-12-01",
+   "Aston Villa",
+   "lg",
+   29
+  ],
+  [
+   "2007-12-09",
+   "Middlesbrough FC",
+   "lg",
+   30
+  ],
+  [
+   "2007-12-12",
+   "Steaua Bucharest",
+   "clg",
+   90
+  ],
+  [
+   "2008-01-01",
+   "West Ham United",
+   "lg",
+   27
+  ],
+  [
+   "2008-01-09",
+   "Tottenham Hotspur",
+   "dsf",
+   90
+  ],
+  [
+   "2008-01-12",
+   "Birmingham City",
+   "lg",
+   65
+  ],
+  [
+   "2008-01-22",
+   "Tottenham Hotspur",
+   "dsf",
+   65
+  ],
+  [
+   "2008-01-26",
+   "Newcastle United",
+   "dc",
+   76
+  ],
+  [
+   "2008-01-29",
+   "Newcastle United",
+   "lg",
+   8
+  ],
+  [
+   "2008-02-20",
+   "AC Milan",
+   "cl16",
+   1
+  ],
+  [
+   "2008-02-23",
+   "Birmingham City",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-01",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-04",
+   "AC Milan",
+   "cl16",
+   19
+  ],
+  [
+   "2008-03-15",
+   "Middlesbrough FC",
+   "lg",
+   29
+  ],
+  [
+   "2008-03-23",
+   "Chelsea FC",
+   "lg",
+   14
+  ],
+  [
+   "2008-03-29",
+   "Bolton Wanderers",
+   "lg",
+   31
+  ],
+  [
+   "2008-04-02",
+   "Liverpool FC",
+   "clk",
+   45
+  ],
+  [
+   "2008-04-05",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-04-08",
+   "Liverpool FC",
+   "clk",
+   18
+  ],
+  [
+   "2008-04-13",
+   "Manchester United",
+   "lg",
+   29
+  ],
+  [
+   "2008-04-19",
+   "Reading FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-04-28",
+   "Derby County",
+   "lg",
+   90
+  ],
+  [
+   "2008-05-04",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-05-11",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-13",
+   "FC Twente Enschede",
+   "clq",
+   84
+  ],
+  [
+   "2008-08-16",
+   "West Bromwich Albion",
+   "lg",
+   72
+  ],
+  [
+   "2008-08-23",
+   "Fulham FC",
+   "lg",
+   65
+  ],
+  [
+   "2008-08-27",
+   "FC Twente Enschede",
+   "clq",
+   90
+  ],
+  [
+   "2008-08-30",
+   "Newcastle United",
+   "lg",
+   18
+  ],
+  [
+   "2008-09-13",
+   "Blackburn Rovers",
+   "lg",
+   64
+  ],
+  [
+   "2008-09-17",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2008-09-20",
+   "Bolton Wanderers",
+   "lg",
+   17
+  ],
+  [
+   "2008-09-27",
+   "Hull City",
+   "lg",
+   76
+  ],
+  [
+   "2008-09-30",
+   "FC Porto",
+   "clg",
+   71
+  ],
+  [
+   "2008-10-04",
+   "Sunderland AFC",
+   "lg",
+   66
+  ],
+  [
+   "2008-10-18",
+   "Everton FC",
+   "lg",
+   45
+  ],
+  [
+   "2008-10-21",
+   "Fenerbahce",
+   "clg",
+   84
+  ],
+  [
+   "2008-10-26",
+   "West Ham United",
+   "lg",
+   67
+  ],
+  [
+   "2008-10-29",
+   "Tottenham Hotspur",
+   "lg",
+   75
+  ],
+  [
+   "2008-11-01",
+   "Stoke City",
+   "lg",
+   33
+  ],
+  [
+   "2008-11-08",
+   "Manchester United",
+   "lg",
+   77
+  ],
+  [
+   "2008-11-15",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-08",
+   "Burnley FC",
+   "dc",
+   19
+  ],
+  [
+   "2009-03-11",
+   "AS Roma",
+   "cl16",
+   46
+  ],
+  [
+   "2009-03-14",
+   "Blackburn Rovers",
+   "lg",
+   79
+  ],
+  [
+   "2009-03-17",
+   "Hull City",
+   "dk",
+   82
+  ],
+  [
+   "2009-04-04",
+   "Manchester City",
+   "lg",
+   70
+  ],
+  [
+   "2009-04-07",
+   "Villarreal CF",
+   "clk",
+   78
+  ],
+  [
+   "2009-04-11",
+   "Wigan Athletic",
+   "lg",
+   68
+  ],
+  [
+   "2009-04-15",
+   "Villarreal CF",
+   "clk",
+   77
+  ],
+  [
+   "2009-04-18",
+   "Chelsea FC",
+   "dsf",
+   90
+  ],
+  [
+   "2009-04-21",
+   "Liverpool FC",
+   "lg",
+   25
+  ],
+  [
+   "2009-04-26",
+   "Middlesbrough FC",
+   "lg",
+   68
+  ],
+  [
+   "2009-04-29",
+   "Manchester United",
+   "clsf",
+   71
+  ],
+  [
+   "2009-05-02",
+   "Portsmouth FC",
+   "lg",
+   64
+  ],
+  [
+   "2009-05-05",
+   "Manchester United",
+   "clsf",
+   63
+  ],
+  [
+   "2009-05-10",
+   "Chelsea FC",
+   "lg",
+   68
+  ],
+  [
+   "2009-05-16",
+   "Manchester United",
+   "lg",
+   21
+  ],
+  [
+   "2009-05-24",
+   "Stoke City",
+   "lg",
+   45
+  ],
+  [
+   "2009-10-04",
+   "Blackburn Rovers",
+   "lg",
+   21
+  ],
+  [
+   "2009-10-17",
+   "Birmingham City",
+   "lg",
+   33
+  ],
+  [
+   "2009-11-21",
+   "Sunderland AFC",
+   "lg",
+   18
+  ],
+  [
+   "2009-11-24",
+   "Standard Liège",
+   "clg",
+   30
+  ],
+  [
+   "2009-11-29",
+   "Chelsea FC",
+   "lg",
+   45
+  ],
+  [
+   "2009-12-09",
+   "Olympiacos Piraeus",
+   "clg",
+   90
+  ],
+  [
+   "2009-12-13",
+   "Liverpool FC",
+   "lg",
+   70
+  ],
+  [
+   "2009-12-16",
+   "Burnley FC",
+   "lg",
+   63
+  ],
+  [
+   "2009-12-19",
+   "Hull City",
+   "lg",
+   15
+  ],
+  [
+   "2009-12-27",
+   "Aston Villa",
+   "lg",
+   27
+  ],
+  [
+   "2010-01-20",
+   "Bolton Wanderers",
+   "lg",
+   1
+  ],
+  [
+   "2010-01-24",
+   "Stoke City",
+   "dc",
+   68
+  ],
+  [
+   "2010-01-31",
+   "Manchester United",
+   "lg",
+   29
+  ],
+  [
+   "2010-02-07",
+   "Chelsea FC",
+   "lg",
+   64
+  ],
+  [
+   "2010-02-10",
+   "Liverpool FC",
+   "lg",
+   23
+  ],
+  [
+   "2010-02-17",
+   "FC Porto",
+   "cl16",
+   22
+  ],
+  [
+   "2010-02-20",
+   "Sunderland AFC",
+   "lg",
+   78
+  ],
+  [
+   "2010-02-27",
+   "Stoke City",
+   "lg",
+   15
+  ],
+  [
+   "2010-03-06",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-09",
+   "FC Porto",
+   "cl16",
+   13
+  ],
+  [
+   "2010-03-13",
+   "Hull City",
+   "lg",
+   25
+  ],
+  [
+   "2010-03-27",
+   "Birmingham City",
+   "lg",
+   68
+  ],
+  [
+   "2010-03-31",
+   "FC Barcelona",
+   "clk",
+   23
+  ],
+  [
+   "2010-04-03",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-06",
+   "FC Barcelona",
+   "clk",
+   90
+  ],
+  [
+   "2010-04-14",
+   "Tottenham Hotspur",
+   "lg",
+   38
+  ],
+  [
+   "2010-04-18",
+   "Wigan Athletic",
+   "lg",
+   81
+  ],
+  [
+   "2010-04-24",
+   "Manchester City",
+   "lg",
+   68
+  ],
+  [
+   "2010-05-03",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-09",
+   "Fulham FC",
+   "lg",
+   77
+  ],
+  [
+   "2010-08-15",
+   "Liverpool FC",
+   "lg",
+   31
+  ],
+  [
+   "2010-08-21",
+   "Blackpool FC",
+   "lg",
+   66
+  ],
+  [
+   "2010-08-28",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-19",
+   "Shakhtar Donetsk",
+   "clg",
+   18
+  ],
+  [
+   "2010-10-24",
+   "Manchester City",
+   "lg",
+   5
+  ],
+  [
+   "2010-10-27",
+   "Newcastle United",
+   "dc",
+   90
+  ],
+  [
+   "2010-10-30",
+   "West Ham United",
+   "lg",
+   23
+  ],
+  [
+   "2010-11-03",
+   "Shakhtar Donetsk",
+   "clg",
+   82
+  ],
+  [
+   "2010-11-07",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-20",
+   "Tottenham Hotspur",
+   "lg",
+   13
+  ],
+  [
+   "2010-11-23",
+   "SC Braga",
+   "clg",
+   79
+  ],
+  [
+   "2010-11-30",
+   "Wigan Athletic",
+   "dk",
+   90
+  ],
+  [
+   "2010-12-04",
+   "Fulham FC",
+   "lg",
+   16
+  ],
+  [
+   "2010-12-08",
+   "FK Partizan Belgrade",
+   "clg",
+   23
+  ],
+  [
+   "2010-12-13",
+   "Manchester United",
+   "lg",
+   13
+  ],
+  [
+   "2010-12-27",
+   "Chelsea FC",
+   "lg",
+   73
+  ],
+  [
+   "2010-12-29",
+   "Wigan Athletic",
+   "lg",
+   7
+  ],
+  [
+   "2011-01-01",
+   "Birmingham City",
+   "lg",
+   79
+  ],
+  [
+   "2011-01-05",
+   "Manchester City",
+   "lg",
+   68
+  ],
+  [
+   "2011-01-08",
+   "Leeds United",
+   "dc",
+   22
+  ],
+  [
+   "2011-01-12",
+   "Ipswich Town",
+   "dsf",
+   90
+  ],
+  [
+   "2011-01-15",
+   "West Ham United",
+   "lg",
+   88
+  ],
+  [
+   "2011-01-22",
+   "Wigan Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-25",
+   "Ipswich Town",
+   "dsf",
+   6
+  ],
+  [
+   "2011-02-01",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-05",
+   "Newcastle United",
+   "lg",
+   79
+  ],
+  [
+   "2011-02-12",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-16",
+   "FC Barcelona",
+   "cl16",
+   77
+  ],
+  [
+   "2011-02-23",
+   "Stoke City",
+   "lg",
+   71
+  ],
+  [
+   "2011-04-02",
+   "Blackburn Rovers",
+   "lg",
+   73
+  ],
+  [
+   "2011-04-10",
+   "Blackpool FC",
+   "lg",
+   29
+  ],
+  [
+   "2011-04-17",
+   "Liverpool FC",
+   "lg",
+   73
+  ],
+  [
+   "2011-04-20",
+   "Tottenham Hotspur",
+   "lg",
+   82
+  ],
+  [
+   "2011-04-24",
+   "Bolton Wanderers",
+   "lg",
+   73
+  ],
+  [
+   "2011-05-01",
+   "Manchester United",
+   "lg",
+   78
+  ],
+  [
+   "2011-05-08",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-15",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2011-05-22",
+   "Fulham FC",
+   "lg",
+   25
+  ],
+  [
+   "2011-08-13",
+   "Newcastle United",
+   "lg",
+   29
+  ],
+  [
+   "2011-08-16",
+   "Udinese Calcio",
+   "clq",
+   90
+  ],
+  [
+   "2011-08-20",
+   "Liverpool FC",
+   "lg",
+   80
+  ],
+  [
+   "2011-08-24",
+   "Udinese Calcio",
+   "clq",
+   90
+  ],
+  [
+   "2011-08-28",
+   "Manchester United",
+   "lg",
+   83
+  ],
+  [
+   "2011-09-10",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-13",
+   "Borussia Dortmund",
+   "clg",
+   76
+  ],
+  [
+   "2011-09-17",
+   "Blackburn Rovers",
+   "lg",
+   26
+  ],
+  [
+   "2011-09-24",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-02",
+   "Tottenham Hotspur",
+   "lg",
+   72
+  ],
+  [
+   "2011-10-16",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-19",
+   "Olympique Marseille",
+   "clg",
+   67
+  ],
+  [
+   "2011-10-23",
+   "Stoke City",
+   "lg",
+   71
+  ],
+  [
+   "2011-10-29",
+   "Chelsea FC",
+   "lg",
+   79
+  ],
+  [
+   "2011-11-01",
+   "Olympique Marseille",
+   "clg",
+   90
+  ],
+  [
+   "2011-11-05",
+   "West Bromwich Albion",
+   "lg",
+   78
+  ],
+  [
+   "2011-11-19",
+   "Norwich City",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-23",
+   "Borussia Dortmund",
+   "clg",
+   85
+  ],
+  [
+   "2011-11-26",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-03",
+   "Wigan Athletic",
+   "lg",
+   80
+  ],
+  [
+   "2011-12-10",
+   "Everton FC",
+   "lg",
+   89
+  ],
+  [
+   "2011-12-18",
+   "Manchester City",
+   "lg",
+   69
+  ],
+  [
+   "2011-12-21",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-31",
+   "Queens Park Rangers",
+   "lg",
+   74
+  ],
+  [
+   "2012-01-02",
+   "Fulham FC",
+   "lg",
+   65
+  ],
+  [
+   "2012-01-09",
+   "Leeds United",
+   "dc",
+   22
+  ],
+  [
+   "2012-01-15",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-22",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-29",
+   "Aston Villa",
+   "dc",
+   89
+  ],
+  [
+   "2012-02-01",
+   "Bolton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-04",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-11",
+   "Sunderland AFC",
+   "lg",
+   86
+  ],
+  [
+   "2012-02-15",
+   "AC Milan",
+   "cl16",
+   45
+  ],
+  [
+   "2012-02-18",
+   "Sunderland AFC",
+   "dc",
+   37
+  ],
+  [
+   "2012-02-26",
+   "Tottenham Hotspur",
+   "lg",
+   81
+  ],
+  [
+   "2012-03-03",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-06",
+   "AC Milan",
+   "cl16",
+   84
+  ],
+  [
+   "2012-03-12",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-21",
+   "Everton FC",
+   "lg",
+   79
+  ],
+  [
+   "2012-03-24",
+   "Aston Villa",
+   "lg",
+   77
+  ],
+  [
+   "2012-03-31",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-08",
+   "Manchester City",
+   "lg",
+   85
+  ],
+  [
+   "2012-04-11",
+   "Wolverhampton Wanderers",
+   "lg",
+   76
+  ],
+  [
+   "2012-04-16",
+   "Wigan Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-21",
+   "Chelsea FC",
+   "lg",
+   60
+  ],
+  [
+   "2012-05-13",
+   "West Bromwich Albion",
+   "lg",
+   45
+  ],
+  [
+   "2012-08-18",
+   "Sunderland AFC",
+   "lg",
+   77
+  ],
+  [
+   "2012-08-26",
+   "Stoke City",
+   "lg",
+   18
+  ],
+  [
+   "2012-09-15",
+   "Southampton FC",
+   "lg",
+   16
+  ],
+  [
+   "2012-09-18",
+   "Montpellier HSC",
+   "clg",
+   1
+  ],
+  [
+   "2012-09-23",
+   "Manchester City",
+   "lg",
+   19
+  ],
+  [
+   "2012-09-26",
+   "Coventry City",
+   "dc",
+   90
+  ],
+  [
+   "2012-09-29",
+   "Chelsea FC",
+   "lg",
+   24
+  ],
+  [
+   "2012-10-03",
+   "Olympiacos Piraeus",
+   "clg",
+   20
+  ],
+  [
+   "2012-10-06",
+   "West Ham United",
+   "lg",
+   29
+  ],
+  [
+   "2012-10-27",
+   "Queens Park Rangers",
+   "lg",
+   23
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   "dc",
+   120
+  ],
+  [
+   "2012-11-03",
+   "Manchester United",
+   "lg",
+   38
+  ],
+  [
+   "2012-11-06",
+   "FC Schalke 04",
+   "clg",
+   90
+  ],
+  [
+   "2012-11-10",
+   "Fulham FC",
+   "lg",
+   85
+  ],
+  [
+   "2012-11-17",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-28",
+   "Everton FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-01",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-17",
+   "Reading FC",
+   "lg",
+   84
+  ],
+  [
+   "2012-12-22",
+   "Wigan Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-01",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-06",
+   "Swansea City",
+   "dc",
+   90
+  ],
+  [
+   "2013-01-13",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-16",
+   "Swansea City",
+   "dc",
+   90
+  ],
+  [
+   "2013-01-20",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-23",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-26",
+   "Brighton & Hove Albion",
+   "dc",
+   22
+  ],
+  [
+   "2013-01-30",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-02",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-09",
+   "Sunderland AFC",
+   "lg",
+   87
+  ],
+  [
+   "2013-02-16",
+   "Blackburn Rovers",
+   "dc",
+   20
+  ],
+  [
+   "2013-02-19",
+   "FC Bayern Munich",
+   "cl16",
+   90
+  ],
+  [
+   "2013-02-23",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-03",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-13",
+   "FC Bayern Munich",
+   "cl16",
+   72
+  ],
+  [
+   "2013-03-16",
+   "Swansea City",
+   "lg",
+   85
+  ],
+  [
+   "2013-04-13",
+   "Norwich City",
+   "lg",
+   31
+  ],
+  [
+   "2013-04-16",
+   "Everton FC",
+   "lg",
+   69
+  ],
+  [
+   "2013-04-20",
+   "Fulham FC",
+   "lg",
+   71
+  ],
+  [
+   "2013-04-28",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-04",
+   "Queens Park Rangers",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-14",
+   "Wigan Athletic",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-19",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-17",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-21",
+   "Fenerbahce",
+   "clq",
+   87
+  ],
+  [
+   "2013-08-24",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-27",
+   "Fenerbahce",
+   "clq",
+   75
+  ],
+  [
+   "2013-09-01",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-14",
+   "Sunderland AFC",
+   "lg",
+   89
+  ],
+  [
+   "2013-09-18",
+   "Olympique Marseille",
+   "clg",
+   78
+  ],
+  [
+   "2013-11-23",
+   "Southampton FC",
+   "lg",
+   20
+  ],
+  [
+   "2013-11-26",
+   "Olympique Marseille",
+   "clg",
+   15
+  ],
+  [
+   "2013-11-30",
+   "Cardiff City",
+   "lg",
+   1
+  ],
+  [
+   "2013-12-04",
+   "Hull City",
+   "lg",
+   17
+  ],
+  [
+   "2013-12-08",
+   "Everton FC",
+   "lg",
+   22
+  ],
+  [
+   "2013-12-14",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-23",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-26",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-29",
+   "Newcastle United",
+   "lg",
+   80
+  ],
+  [
+   "2014-01-01",
+   "Cardiff City",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-04",
+   "Tottenham Hotspur",
+   "dc",
+   90
+  ],
+  [
+   "2014-11-01",
+   "Burnley FC",
+   "lg",
+   10
+  ],
+  [
+   "2014-11-09",
+   "Swansea City",
+   "lg",
+   11
+  ],
+  [
+   "2015-01-01",
+   "Southampton FC",
+   "lg",
+   30
+  ],
+  [
+   "2015-01-04",
+   "Hull City",
+   "dc",
+   76
+  ],
+  [
+   "2015-01-11",
+   "Stoke City",
+   "lg",
+   22
+  ],
+  [
+   "2015-01-25",
+   "Brighton & Hove Albion",
+   "dc",
+   70
+  ],
+  [
+   "2015-02-01",
+   "Aston Villa",
+   "lg",
+   70
+  ],
+  [
+   "2015-02-07",
+   "Tottenham Hotspur",
+   "lg",
+   12
+  ],
+  [
+   "2015-02-10",
+   "Leicester City",
+   "lg",
+   73
+  ],
+  [
+   "2015-02-15",
+   "Middlesbrough FC",
+   "dc",
+   18
+  ],
+  [
+   "2015-02-25",
+   "AS Monaco",
+   "cl16",
+   30
+  ],
+  [
+   "2015-03-14",
+   "West Ham United",
+   "lg",
+   72
+  ],
+  [
+   "2015-03-17",
+   "AS Monaco",
+   "cl16",
+   18
+  ],
+  [
+   "2015-04-18",
+   "Reading FC",
+   "dsf",
+   19
+  ],
+  [
+   "2015-04-26",
+   "Chelsea FC",
+   "lg",
+   6
+  ],
+  [
+   "2015-05-04",
+   "Hull City",
+   "lg",
+   5
+  ],
+  [
+   "2015-05-11",
+   "Swansea City",
+   "lg",
+   21
+  ],
+  [
+   "2015-05-17",
+   "Manchester United",
+   "lg",
+   18
+  ],
+  [
+   "2015-05-20",
+   "Sunderland AFC",
+   "lg",
+   23
+  ],
+  [
+   "2015-05-24",
+   "West Bromwich Albion",
+   "lg",
+   69
+  ],
+  [
+   "2015-05-30",
+   "Aston Villa",
+   "df",
+   77
+  ],
+  [
+   "2015-08-02",
+   "Chelsea FC",
+   "df",
+   66
+  ],
+  [
+   "2015-08-09",
+   "West Ham United",
+   "lg",
+   32
+  ],
+  [
+   "2015-08-24",
+   "Liverpool FC",
+   "lg",
+   17
+  ],
+  [
+   "2015-08-29",
+   "Newcastle United",
+   "lg",
+   70
+  ],
+  [
+   "2015-09-12",
+   "Stoke City",
+   "lg",
+   75
+  ],
+  [
+   "2015-09-16",
+   "GNK Dinamo Zagreb",
+   "clg",
+   25
+  ],
+  [
+   "2015-09-19",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-23",
+   "Tottenham Hotspur",
+   "dc",
+   1
+  ],
+  [
+   "2015-09-26",
+   "Leicester City",
+   "lg",
+   80
+  ],
+  [
+   "2015-09-29",
+   "Olympiacos Piraeus",
+   "clg",
+   90
+  ],
+  [
+   "2015-10-04",
+   "Manchester United",
+   "lg",
+   75
+  ],
+  [
+   "2015-10-17",
+   "Watford FC",
+   "lg",
+   64
+  ],
+  [
+   "2015-10-20",
+   "FC Bayern Munich",
+   "clg",
+   74
+  ],
+  [
+   "2015-10-27",
+   "Sheffield Wednesday",
+   "dc",
+   14
+  ],
+  [
+   "2015-12-05",
+   "Sunderland AFC",
+   "lg",
+   26
+  ],
+  [
+   "2015-12-09",
+   "Olympiacos Piraeus",
+   "clg",
+   72
+  ],
+  [
+   "2015-12-13",
+   "Aston Villa",
+   "lg",
+   64
+  ],
+  [
+   "2015-12-21",
+   "Manchester City",
+   "lg",
+   88
+  ],
+  [
+   "2015-12-26",
+   "Southampton FC",
+   "lg",
+   78
+  ],
+  [
+   "2015-12-28",
+   "AFC Bournemouth",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-02",
+   "Newcastle United",
+   "lg",
+   81
+  ],
+  [
+   "2016-01-09",
+   "Sunderland AFC",
+   "dc",
+   90
+  ],
+  [
+   "2016-01-13",
+   "Liverpool FC",
+   "lg",
+   76
+  ],
+  [
+   "2016-01-17",
+   "Stoke City",
+   "lg",
+   72
+  ],
+  [
+   "2016-01-24",
+   "Chelsea FC",
+   "lg",
+   75
+  ],
+  [
+   "2016-01-30",
+   "Burnley FC",
+   "dc",
+   12
+  ],
+  [
+   "2016-02-02",
+   "Southampton FC",
+   "lg",
+   28
+  ],
+  [
+   "2016-02-07",
+   "AFC Bournemouth",
+   "lg",
+   1
+  ],
+  [
+   "2016-02-14",
+   "Leicester City",
+   "lg",
+   29
+  ],
+  [
+   "2016-02-20",
+   "Hull City",
+   "dc",
+   90
+  ],
+  [
+   "2016-02-23",
+   "FC Barcelona",
+   "cl16",
+   40
+  ],
+  [
+   "2016-02-28",
+   "Manchester United",
+   "lg",
+   63
+  ],
+  [
+   "2016-03-02",
+   "Swansea City",
+   "lg",
+   15
+  ],
+  [
+   "2016-03-08",
+   "Hull City",
+   "dc",
+   90
+  ],
+  [
+   "2016-03-13",
+   "Watford FC",
+   "dk",
+   22
+  ],
+  [
+   "2016-03-16",
+   "FC Barcelona",
+   "cl16",
+   17
+  ],
+  [
+   "2016-04-02",
+   "Watford FC",
+   "lg",
+   16
+  ],
+  [
+   "2016-04-09",
+   "West Ham United",
+   "lg",
+   9
+  ],
+  [
+   "2016-04-17",
+   "Crystal Palace",
+   "lg",
+   6
+  ],
+  [
+   "2016-04-21",
+   "West Bromwich Albion",
+   "lg",
+   4
+  ],
+  [
+   "2016-04-24",
+   "Sunderland AFC",
+   "lg",
+   19
+  ],
+  [
+   "2016-05-08",
+   "Manchester City",
+   "lg",
+   31
+  ],
+  [
+   "2016-08-14",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-20",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-27",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-10",
+   "Southampton FC",
+   "lg",
+   75
+  ],
+  [
+   "2016-09-17",
+   "Hull City",
+   "lg",
+   88
+  ],
+  [
+   "2016-09-24",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-28",
+   "FC Basel 1893",
+   "clg",
+   70
+  ],
+  [
+   "2016-10-02",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-19",
+   "Ludogorets Razgrad",
+   "clg",
+   62
+  ],
+  [
+   "2016-10-22",
+   "Middlesbrough FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-06",
+   "Tottenham Hotspur",
+   "lg",
+   71
+  ],
+  [
+   "2016-11-19",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-23",
+   "Paris Saint-Germain",
+   "clg",
+   10
+  ],
+  [
+   "2016-11-27",
+   "AFC Bournemouth",
+   "lg",
+   75
+  ],
+  [
+   "2016-12-03",
+   "West Ham United",
+   "lg",
+   66
+  ],
+  [
+   "2016-12-06",
+   "FC Basel 1893",
+   "clg",
+   16
+  ],
+  [
+   "2016-12-10",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-13",
+   "Everton FC",
+   "lg",
+   71
+  ],
+  [
+   "2016-12-18",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-28",
+   "Southampton FC",
+   "dc",
+   90
+  ],
+  [
+   "2017-01-31",
+   "Watford FC",
+   "lg",
+   45
+  ],
+  [
+   "2017-02-04",
+   "Chelsea FC",
+   "lg",
+   70
+  ],
+  [
+   "2017-02-11",
+   "Hull City",
+   "lg",
+   69
+  ],
+  [
+   "2017-02-15",
+   "FC Bayern Munich",
+   "cl16",
+   24
+  ],
+  [
+   "2017-02-20",
+   "Sutton United",
+   "dc",
+   90
+  ],
+  [
+   "2017-03-04",
+   "Liverpool FC",
+   "lg",
+   16
+  ],
+  [
+   "2017-03-07",
+   "FC Bayern Munich",
+   "cl16",
+   90
+  ],
+  [
+   "2017-03-11",
+   "Lincoln City",
+   "dk",
+   90
+  ],
+  [
+   "2017-03-18",
+   "West Bromwich Albion",
+   "lg",
+   65
+  ],
+  [
+   "2017-04-02",
+   "Manchester City",
+   "lg",
+   68
+  ],
+  [
+   "2017-04-05",
+   "West Ham United",
+   "lg",
+   81
+  ],
+  [
+   "2017-04-10",
+   "Crystal Palace",
+   "lg",
+   69
+  ],
+  [
+   "2017-04-26",
+   "Leicester City",
+   "lg",
+   75
+  ],
+  [
+   "2017-04-30",
+   "Tottenham Hotspur",
+   "lg",
+   9
+  ],
+  [
+   "2017-05-13",
+   "Stoke City",
+   "lg",
+   6
+  ],
+  [
+   "2017-05-16",
+   "Sunderland AFC",
+   "lg",
+   5
+  ],
+  [
+   "2017-08-06",
+   "Chelsea FC",
+   "df",
+   23
+  ],
+  [
+   "2017-08-11",
+   "Leicester City",
+   "lg",
+   15
+  ],
+  [
+   "2017-08-19",
+   "Stoke City",
+   "lg",
+   12
+  ],
+  [
+   "2017-09-14",
+   "1.FC Köln",
+   "elg",
+   83
+  ],
+  [
+   "2017-09-20",
+   "Doncaster Rovers",
+   "dc",
+   76
+  ],
+  [
+   "2017-09-28",
+   "BATE Borisov",
+   "elg",
+   90
+  ],
+  [
+   "2017-10-01",
+   "Brighton & Hove Albion",
+   "lg",
+   19
+  ],
+  [
+   "2017-10-19",
+   "Red Star Belgrade",
+   "elg",
+   90
+  ],
+  [
+   "2017-10-24",
+   "Norwich City",
+   "dc",
+   120
+  ],
+  [
+   "2017-11-02",
+   "Red Star Belgrade",
+   "elg",
+   90
+  ],
+  [
+   "2017-12-07",
+   "BATE Borisov",
+   "elg",
+   71
+  ],
+  [
+   "2017-12-19",
+   "West Ham United",
+   "dk",
+   90
+  ],
+  [
+   "2017-12-22",
+   "Liverpool FC",
+   "lg",
+   1
+  ],
+  [
+   "2018-01-03",
+   "Chelsea FC",
+   "lg",
+   2
+  ],
+  [
+   "2018-01-07",
+   "Nottingham Forest",
+   "dc",
+   90
+  ],
+  [
+   "2018-01-14",
+   "AFC Bournemouth",
+   "lg",
+   14
+  ],
+  [
+   "2018-01-20",
+   "West Bromwich Albion",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-31",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-03",
+   "Arsenal FC",
+   "lg",
+   61
+  ],
+  [
+   "2018-02-10",
+   "Crystal Palace",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-24",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-03",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-10",
+   "Brighton & Hove Albion",
+   "lg",
+   73
+  ],
+  [
+   "2018-03-17",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-31",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-07",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-14",
+   "Swansea City",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-23",
+   "Newcastle United",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-28",
+   "Huddersfield Town",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-13",
+   "West Ham United",
+   "lg",
+   29
+  ],
+  [
+   "2018-08-11",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-18",
+   "Southampton FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-25",
+   "AFC Bournemouth",
+   "lg",
+   85
+  ],
+  [
+   "2018-08-29",
+   "Rotherham United",
+   "dc",
+   24
+  ],
+  [
+   "2018-09-01",
+   "Huddersfield Town",
+   "lg",
+   57
+  ],
+  [
+   "2018-09-16",
+   "West Ham United",
+   "lg",
+   77
+  ],
+  [
+   "2018-09-23",
+   "Arsenal FC",
+   "lg",
+   72
+  ],
+  [
+   "2018-09-29",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-02",
+   "Southampton FC",
+   "dc",
+   11
+  ],
+  [
+   "2018-10-06",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-21",
+   "Crystal Palace",
+   "lg",
+   82
+  ],
+  [
+   "2018-10-28",
+   "Manchester United",
+   "lg",
+   78
+  ],
+  [
+   "2018-11-03",
+   "Brighton & Hove Albion",
+   "lg",
+   85
+  ],
+  [
+   "2018-11-11",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-24",
+   "Cardiff City",
+   "lg",
+   73
+  ],
+  [
+   "2018-12-02",
+   "Liverpool FC",
+   "lg",
+   63
+  ],
+  [
+   "2018-12-05",
+   "Newcastle United",
+   "lg",
+   20
+  ],
+  [
+   "2018-12-10",
+   "Watford FC",
+   "lg",
+   66
+  ],
+  [
+   "2018-12-15",
+   "Manchester City",
+   "lg",
+   33
+  ],
+  [
+   "2018-12-23",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-26",
+   "Burnley FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-29",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-01",
+   "Leicester City",
+   "lg",
+   70
+  ],
+  [
+   "2019-01-13",
+   "AFC Bournemouth",
+   "lg",
+   12
+  ],
+  [
+   "2019-01-19",
+   "Southampton FC",
+   "lg",
+   15
+  ],
+  [
+   "2019-01-26",
+   "Millwall FC",
+   "dc",
+   11
+  ],
+  [
+   "2019-02-02",
+   "Wolverhampton Wanderers",
+   "lg",
+   60
+  ],
+  [
+   "2019-02-06",
+   "Manchester City",
+   "lg",
+   80
+  ],
+  [
+   "2019-02-09",
+   "Watford FC",
+   "lg",
+   27
+  ],
+  [
+   "2019-02-26",
+   "Cardiff City",
+   "lg",
+   82
+  ],
+  [
+   "2019-03-03",
+   "Liverpool FC",
+   "lg",
+   59
+  ],
+  [
+   "2019-03-09",
+   "Newcastle United",
+   "lg",
+   3
+  ],
+  [
+   "2019-03-17",
+   "Chelsea FC",
+   "lg",
+   12
+  ],
+  [
+   "2019-03-30",
+   "West Ham United",
+   "lg",
+   1
+  ],
+  [
+   "2019-04-07",
+   "Arsenal FC",
+   "lg",
+   11
+  ],
+  [
+   "2019-04-13",
+   "Fulham FC",
+   "lg",
+   6
+  ],
+  [
+   "2019-04-21",
+   "Manchester United",
+   "lg",
+   39
+  ],
+  [
+   "2019-04-27",
+   "Crystal Palace",
+   "lg",
+   4
+  ],
+  [
+   "2019-05-03",
+   "Burnley FC",
+   "lg",
+   41
+  ],
+  [
+   "2019-05-12",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-17",
+   "Watford FC",
+   "lg",
+   27
+  ],
+  [
+   "2019-08-23",
+   "Aston Villa",
+   "lg",
+   12
+  ],
+  [
+   "2019-08-28",
+   "Lincoln City",
+   "dc",
+   8
+  ],
+  [
+   "2019-09-15",
+   "AFC Bournemouth",
+   "lg",
+   9
+  ],
+  [
+   "2019-09-21",
+   "Sheffield United",
+   "lg",
+   19
+  ],
+  [
+   "2019-09-24",
+   "Sheffield Wednesday",
+   "dc",
+   23
+  ],
+  [
+   "2019-09-28",
+   "Manchester City",
+   "lg",
+   7
+  ],
+  [
+   "2019-10-19",
+   "West Ham United",
+   "lg",
+   86
+  ],
+  [
+   "2019-10-26",
+   "Brighton & Hove Albion",
+   "lg",
+   72
+  ],
+  [
+   "2019-10-29",
+   "Watford FC",
+   "dc",
+   45
+  ],
+  [
+   "2019-11-03",
+   "Tottenham Hotspur",
+   "lg",
+   68
+  ],
+  [
+   "2019-11-09",
+   "Southampton FC",
+   "lg",
+   74
+  ],
+  [
+   "2019-11-23",
+   "Norwich City",
+   "lg",
+   66
+  ],
+  [
+   "2019-12-07",
+   "Chelsea FC",
+   "lg",
+   86
+  ],
+  [
+   "2019-12-26",
+   "Burnley FC",
+   "lg",
+   1
+  ],
+  [
+   "2019-12-28",
+   "Newcastle United",
+   "lg",
+   70
+  ],
+  [
+   "2020-01-01",
+   "Manchester City",
+   "lg",
+   31
+  ],
+  [
+   "2020-01-05",
+   "Liverpool FC",
+   "dc",
+   79
+  ],
+  [
+   "2020-01-11",
+   "Brighton & Hove Albion",
+   "lg",
+   74
+  ],
+  [
+   "2020-01-18",
+   "West Ham United",
+   "lg",
+   57
+  ],
+  [
+   "2020-01-21",
+   "Newcastle United",
+   "lg",
+   88
+  ],
+  [
+   "2020-02-01",
+   "Watford FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-08",
+   "Crystal Palace",
+   "lg",
+   26
+  ],
+  [
+   "2020-03-01",
+   "Manchester United",
+   "lg",
+   63
+  ],
+  [
+   "2020-03-08",
+   "Chelsea FC",
+   "lg",
+   45
+  ],
+  [
+   "2020-07-12",
+   "Wolverhampton Wanderers",
+   "lg",
+   56
+  ],
+  [
+   "2020-07-16",
+   "Aston Villa",
+   "lg",
+   28
+  ],
+  [
+   "2020-07-20",
+   "Sheffield United",
+   "lg",
+   84
+  ],
+  [
+   "2020-07-26",
+   "AFC Bournemouth",
+   "lg",
+   58
+  ],
+  [
+   "2020-09-16",
+   "Salford City",
+   "dc",
+   90
+  ],
+  [
+   "2020-10-03",
+   "Brighton & Hove Albion",
+   "lg",
+   12
+  ],
+  [
+   "2020-10-17",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-01",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-06",
+   "Newcastle United",
+   "lg",
+   88
+  ],
+  [
+   "2020-11-23",
+   "Wolverhampton Wanderers",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-29",
+   "Manchester United",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-07",
+   "Brighton & Hove Albion",
+   "lg",
+   69
+  ],
+  [
+   "2020-12-13",
+   "Sheffield United",
+   "lg",
+   80
+  ],
+  [
+   "2020-12-16",
+   "Arsenal FC",
+   "lg",
+   63
+  ],
+  [
+   "2020-12-19",
+   "Manchester City",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-26",
+   "Fulham FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-29",
+   "West Ham United",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-04",
+   "Liverpool FC",
+   "lg",
+   82
+  ],
+  [
+   "2021-01-16",
+   "Leicester City",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-23",
+   "Arsenal FC",
+   "dc",
+   90
+  ],
+  [
+   "2021-01-26",
+   "Arsenal FC",
+   "lg",
+   74
+  ],
+  [
+   "2021-01-30",
+   "Aston Villa",
+   "lg",
+   65
+  ],
+  [
+   "2021-04-04",
+   "Burnley FC",
+   "lg",
+   87
+  ],
+  [
+   "2021-04-12",
+   "West Bromwich Albion",
+   "lg",
+   76
+  ],
+  [
+   "2021-04-18",
+   "Leicester City",
+   "dsf",
+   17
+  ],
+  [
+   "2021-04-21",
+   "Tottenham Hotspur",
+   "lg",
+   67
+  ],
+  [
+   "2021-05-08",
+   "Liverpool FC",
+   "lg",
+   66
+  ],
+  [
+   "2021-05-15",
+   "Fulham FC",
+   "lg",
+   14
+  ],
+  [
+   "2021-05-18",
+   "Leeds United",
+   "lg",
+   78
+  ],
+  [
+   "2021-08-14",
+   "Everton FC",
+   "lg",
+   80
+  ],
+  [
+   "2021-08-22",
+   "Manchester United",
+   "lg",
+   45
+  ],
+  [
+   "2021-08-25",
+   "Newport County",
+   "dc",
+   20
+  ],
+  [
+   "2021-10-02",
+   "Chelsea FC",
+   "lg",
+   45
+  ],
+  [
+   "2021-10-16",
+   "Leeds United",
+   "lg",
+   9
+  ],
+  [
+   "2021-10-23",
+   "Burnley FC",
+   "lg",
+   74
+  ],
+  [
+   "2021-10-26",
+   "Chelsea FC",
+   "dc",
+   23
+  ],
+  [
+   "2021-11-20",
+   "Norwich City",
+   "lg",
+   28
+  ],
+  [
+   "2021-12-15",
+   "Crystal Palace",
+   "lg",
+   8
+  ],
+  [
+   "2021-12-26",
+   "West Ham United",
+   "lg",
+   89
+  ],
+  [
+   "2022-02-05",
+   "Coventry City",
+   "dc",
+   64
+  ],
+  [
+   "2022-02-09",
+   "Tottenham Hotspur",
+   "lg",
+   1
+  ],
+  [
+   "2022-10-23",
+   "Arsenal FC",
+   "lg",
+   17
+  ],
+  [
+   "2022-11-06",
+   "Newcastle United",
+   "lg",
+   64
+  ],
+  [
+   "2022-11-09",
+   "Sheffield Wednesday",
+   "dc",
+   60
+  ],
+  [
+   "2022-11-12",
+   "Liverpool FC",
+   "lg",
+   31
+  ],
+  [
+   "2022-12-20",
+   "Lincoln City",
+   "dc",
+   15
+  ],
+  [
+   "2023-01-28",
+   "Blackpool FC",
+   "dc",
+   27
+  ],
+  [
+   "2023-02-04",
+   "Brentford FC",
+   "lg",
+   25
+  ],
+  [
+   "2023-02-18",
+   "Chelsea FC",
+   "lg",
+   31
+  ],
+  [
+   "2023-02-25",
+   "Leeds United",
+   "lg",
+   27
+  ],
+  [
+   "2023-03-01",
+   "Grimsby Town",
+   "dc",
+   23
+  ],
+  [
+   "2023-03-04",
+   "Leicester City",
+   "lg",
+   63
+  ],
+  [
+   "2023-03-12",
+   "Manchester United",
+   "lg",
+   85
+  ],
+  [
+   "2023-03-15",
+   "Brentford FC",
+   "lg",
+   32
+  ],
+  [
+   "2023-03-18",
+   "Tottenham Hotspur",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-02",
+   "West Ham United",
+   "lg",
+   72
+  ],
+  [
+   "2023-04-08",
+   "Manchester City",
+   "lg",
+   80
+  ],
+  [
+   "2023-04-15",
+   "Crystal Palace",
+   "lg",
+   62
+  ],
+  [
+   "2023-04-21",
+   "Arsenal FC",
+   "lg",
+   77
+  ],
+  [
+   "2023-04-27",
+   "AFC Bournemouth",
+   "lg",
+   61
+  ],
+  [
+   "2023-04-30",
+   "Newcastle United",
+   "lg",
+   26
+  ],
+  [
+   "2023-05-08",
+   "Nottingham Forest",
+   "lg",
+   61
+  ],
+  [
+   "2023-05-13",
+   "Fulham FC",
+   "lg",
+   62
+  ],
+  [
+   "2023-05-21",
+   "Brighton & Hove Albion",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-28",
+   "Liverpool FC",
+   "lg",
+   77
+  ]
+ ],
+ "note": "시오 월콧(사우샘프턴·아스널·에버턴·사우샘프턴)의 클럽 공식 경기 564경기(2005.8.6 울버햄프턴전 ~ 2023.5.28 리버풀전)에서 나온 129골 77도움(PK 골 없음), 친선경기·잉글랜드 대표팀(U-21 등 연령별 포함) 제외\n클럽별 경기·골·도움: 사우샘프턴 1기(2005-06 챔피언십) 23·5·0, 아스널 397·108·64, 에버턴 85·11·9, 사우샘프턴 2기 59·5·4(그중 에버턴 소속 임대 2020-21 23·3·2). 출전 분 합계 32,977분\n출처: 경기 목록·출전 분(연장·퇴장 반영, 추정 없음)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·도움은 Transfermarkt 경기 리포트(출전 경기 전부), 2010년 8월 뒤 골·도움은 FotMob 경기 이벤트와 대조(2017년 2월 뒤는 FotMob 선수 경기 목록도 대조). 사우샘프턴 1기와 아스널 2006-07~2009-10은 FotMob 경기 자료가 없어 Transfermarkt만 씀\n경기 수·골은 영어 위키백과 클럽·시즌·대회별 기록과 모두 같음(564경기 129골). 뺀 경기: 사우샘프턴 18세 이하 FA 유스컵 1경기(2005), 아스널 21세 이하 1경기(2014.10.17), 사우샘프턴 21세 이하 1경기(2022.10.30, 3골 1도움). 2014.10.18 헐 시티전은 Transfermarkt에 '다른 팀(21세 이하)으로 출전'으로 적혀 있어 출전 경기가 아님\n골: PK 골 없음. 2010년 8월 뒤 Transfermarkt와 FotMob 이벤트의 골 수·시간(1분 안)·골 뒤 스코어가 모두 같음(FotMob 자료가 없는 2011년 경기 3개 제외). 2023.4.30 뉴캐슬전 79분 골은 월콧 자책골이라 뺌. 2012.10.30 레딩전(리그컵 16강, 연장 7:5 승)의 120+1분 골과 120+3분 도움은 연장 기록\n도움: 2014년 8월 전은 Transfermarkt 도움을 그대로 쓰고, 그 뒤는 Transfermarkt와 FotMob이 함께 센 도움만 씀. 도움 77 = Transfermarkt 84 − PK 유도 4(2009.4.15 비야레알전 판페르시·2011.1.8 리즈전 파브레가스·2013.8.21 페네르바흐체전 지루·2017.12.7 BATE전 지루) − 상대 자책골에 준 도움 2(2010.11.30 위건전 알카라스·2017.12.7 BATE전 폴랴코프) − 슈팅이 동료 머리에 맞고 들어간 골 1(2020.10.17 첼시전 90+2분 베스테르고르: 프리킥 뒤 월콧 슈팅을 베스테르고르가 머리로 방향만 바꿈. FotMob은 도움으로 셈)\n도움 판정 자세히: FotMob 이벤트에 도움자가 없는 2014년 8월 뒤 Transfermarkt 도움 2개는 경기 기사 2곳씩으로 확인해 넣음 — 2016.1.9 선덜랜드전(FA컵) 25분 캠벨 골(FourFourTwo·Camden New Journal), 2016.3.8 헐 시티전(FA컵 재경기) 71분 지루 골(Sky Sports·ESPN 문자 중계). 2017.12.7 BATE전은 Transfermarkt 도움 3개 중 자책골·PK 유도를 빼면 FotMob과 같은 1개(43분 윌셔). FotMob에만 있는 2010.8.28 블랙번전 52분 아르샤빈 골 도움은 경기 기사(Fox Sports)가 파브레가스 슈팅이 월콧에 맞고 굴절된 공이라 적어 넣지 않음\n도움 합계 비교: Transfermarkt 84·FotMob 경력 아스널 56(2010년 전 경기 자료 불완전)·에버턴 9·사우샘프턴 임대 3·사우샘프턴 2·이 계산기 77\n출전 분: Transfermarkt 기준. FotMob 선수 경기 목록과 1분 넘게 다른 경기는 2022.11.9 셰필드 웬즈데이전(리그컵, Transfermarkt 60분·FotMob 30분) 하나\n날짜는 현지 날짜(모두 잉글랜드·유럽 경기, Transfermarkt 리포트 날짜)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(판페르시·파브레가스·외질·카소를라·포돌스키·루니 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 순위표와 리그 순위별 값, 직접 정한 값 순으로 씀(기록 206개: 같은 경기 111, 같은 팀·시즌 83, 순위표+순위별 값 6, 직접 6)\n순위별 값: 챔피언십(리즈 2005-06 5위 1656·스토크 13위 1594·밀월 23위 1537, 웨스트 브롬 2006-07 4위 1669)과 리그 원(MK 돈스 2005-06 22위 1440, 돈캐스터 2017-18 15위 1473)은 다른 선수 자료의 같은 리그·같은 순위 값. 추정: 서턴 유나이티드 2016-17(잉글랜드 5부 12위) 1300, BATE 보리소프 2017(벨라루스 1위) 1500, 츠르베나 즈베즈다 2017-18(세르비아 1위) 1580은 다른 선수 자료의 같은 리그 값\n대회 비중: FA컵·리그컵은 국내컵(16강까지 낮은 비중, FA컵 6라운드·리그컵 8강부터 높은 비중; FA컵 5라운드는 16강), 커뮤니티 실드는 국내컵 결승과 같은 비중. 챔스 예선(3라운드·플레이오프)은 챔스 예선, 챔스 조별·16강·8강·준결승, 유로파 조별\n두 경기 합산(챔스 예선·챔스 16강~준결승·리그컵 준결승) 기록 14개(14경기)는 합산 S로 계산함. 원정 다득점·연장 있음(리그컵 준결승은 2017-18까지 규칙). 월콧이 뛰지 않은 다른 차전 5경기(2006 디나모 자그레브 원정·2007 PSV 원정·2007 스파르타 프라하 원정·2009 로마 홈·2011 바르셀로나 원정)는 Transfermarkt 경기 리포트로 스코어 확인\n시즌 구분: 모든 클럽 8월 1일 기준. 클럽 구분은 2006.1.20 전 사우샘프턴, 2018.1.17 전 아스널, 2020.10.5 전 에버턴, 이후 사우샘프턴(2020-21 에버턴에서 임대, 2021.7 완전 이적). 아스널 입단(2006.1)부터 2005-06 시즌 끝까지는 공식 경기 출전 없음\n모든 소속 팀이 프로 리그(프리미어리그, 2005-06 사우샘프턴은 챔피언십)에 있던 시즌이라 뺀 시즌 없음\n수상 기록은 Transfermarkt 업적 페이지 기준(성인 클럽 대회와 개인상; 월드컵·유로 참가 등 대표팀 항목 제외). 리그컵 2012-13 득점왕(5골)은 Transfermarkt 표기 그대로\n은퇴: 마지막 공식 경기 2023.5.28 리버풀전(사우샘프턴), 2023년 6월 사우샘프턴과 계약이 끝난 뒤 2023.8.18 은퇴 발표",
+ "judgments": [
+  [
+   "도움 제외",
+   "2010-11-30",
+   "Wigan Athletic",
+   "42",
+   "Antolín Alcaraz",
+   "제외:상대 자책골"
+  ],
+  [
+   "도움 제외",
+   "2011-01-08",
+   "Leeds United",
+   "90",
+   "Cesc Fàbregas",
+   "제외:PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2013-08-21",
+   "Fenerbahce",
+   "77",
+   "Olivier Giroud",
+   "제외:PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2017-12-07",
+   "BATE Borisov",
+   "51",
+   "Denis Polyakov",
+   "제외:상대 자책골"
+  ],
+  [
+   "도움 제외",
+   "2017-12-07",
+   "BATE Borisov",
+   "64",
+   "Olivier Giroud",
+   "제외:PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-10-17",
+   "Chelsea FC",
+   "90+2",
+   "Jannik Vestergaard",
+   "제외:Shot on goal"
+  ],
+  [
+   "골 제외",
+   "2023-04-30",
+   "Newcastle United",
+   "79",
+   "자책골(Own-goal)"
+  ],
+  [
+   "도움 제외",
+   "2009-04-15",
+   "Villarreal CF",
+   "69",
+   "Robin van Persie",
+   "제외:PK 유도"
+  ]
+ ],
+ "assist_status": [
+  [
+   "1029529",
+   "2010-12-27",
+   "51",
+   "Cesc Fàbregas",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1029577",
+   "2011-01-15",
+   "13",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1029579",
+   "2011-01-22",
+   "85",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1029603",
+   "2011-02-05",
+   "10",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1029609",
+   "2011-02-12",
+   "56",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1029661",
+   "2011-04-10",
+   "76",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1061371",
+   "2010-11-30",
+   "42",
+   "Antolín Alcaraz",
+   "Corner",
+   "제외:상대 자책골"
+  ],
+  [
+   "1072059",
+   "2011-01-08",
+   "90",
+   "Cesc Fàbregas",
+   "Penalty: Fouled player",
+   "제외:PK 유도"
+  ],
+  [
+   "1131395",
+   "2011-09-24",
+   "71",
+   "Robin van Persie",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131459",
+   "2011-11-19",
+   "26",
+   "Robin van Persie",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131466",
+   "2011-11-26",
+   "82",
+   "Thomas Vermaelen",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131484",
+   "2011-12-03",
+   "78",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131576",
+   "2012-02-04",
+   "2",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131576",
+   "2012-02-04",
+   "38",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131576",
+   "2012-02-04",
+   "54",
+   "Alex Oxlade-Chamberlain",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1131617",
+   "2012-03-12",
+   "15",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1141843",
+   "2011-09-13",
+   "42",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1160999",
+   "2007-01-24",
+   "64",
+   "Júlio Baptista",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "1161354",
+   "2006-10-24",
+   "49",
+   "Jérémie Aliadière",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2225537",
+   "2012-11-10",
+   "11",
+   "Olivier Giroud",
+   "Corner",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2225537",
+   "2012-11-10",
+   "69",
+   "Olivier Giroud",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2225541",
+   "2012-11-17",
+   "24",
+   "Per Mertesacker",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2225713",
+   "2013-03-03",
+   "51",
+   "Per Mertesacker",
+   "Free kick",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2225744",
+   "2013-04-13",
+   "90+2",
+   "Lukas Podolski",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2238003",
+   "2012-10-06",
+   "83",
+   "Santi Cazorla",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2250159",
+   "2013-02-09",
+   "35",
+   "Santi Cazorla",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2258946",
+   "2013-01-23",
+   "47",
+   "Olivier Giroud",
+   "Corner",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2258956",
+   "2012-12-29",
+   "84",
+   "Olivier Giroud",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2258956",
+   "2012-12-29",
+   "87",
+   "Olivier Giroud",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2267264",
+   "2012-10-30",
+   "64",
+   "Olivier Giroud",
+   "Corner",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2267264",
+   "2012-10-30",
+   "89",
+   "Laurent Koscielny",
+   "Corner",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2267264",
+   "2012-10-30",
+   "120+3",
+   "Marouane Chamakh",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2284445",
+   "2013-03-13",
+   "3",
+   "Olivier Giroud",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2331987",
+   "2013-12-29",
+   "65",
+   "Olivier Giroud",
+   "Free kick",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2332046",
+   "2013-12-08",
+   "80",
+   "Mesut Özil",
+   "Header",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2332065",
+   "2013-11-30",
+   "90+2",
+   "Aaron Ramsey",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2350384",
+   "2013-09-01",
+   "23",
+   "Olivier Giroud",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2360896",
+   "2013-08-21",
+   "51",
+   "Kieran Gibbs",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "2360896",
+   "2013-08-21",
+   "77",
+   "Olivier Giroud",
+   "Penalty: Fouled player",
+   "제외:PK 유도"
+  ],
+  [
+   "2577974",
+   "2015-10-04",
+   "7",
+   "Mesut Özil",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "2577974",
+   "2015-10-04",
+   "19",
+   "Alexis Sánchez",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "2605728",
+   "2015-08-02",
+   "24",
+   "Alex Oxlade-Chamberlain",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "2618559",
+   "2015-09-29",
+   "65",
+   "Alexis Sánchez",
+   "Cross",
+   "TM∩FotMob"
+  ],
+  [
+   "2646154",
+   "2016-01-09",
+   "25",
+   "Joel Campbell",
+   "",
+   "추가확인"
+  ],
+  [
+   "2666754",
+   "2016-03-08",
+   "71",
+   "Olivier Giroud",
+   "",
+   "추가확인"
+  ],
+  [
+   "2698014",
+   "2016-08-27",
+   "40",
+   "Alexis Sánchez",
+   "Cross",
+   "TM∩FotMob"
+  ],
+  [
+   "2698120",
+   "2016-10-02",
+   "90+3",
+   "Laurent Koscielny",
+   "Header",
+   "TM∩FotMob"
+  ],
+  [
+   "2872348",
+   "2018-01-20",
+   "70",
+   "Oumar Niasse",
+   "Header",
+   "TM∩FotMob"
+  ],
+  [
+   "2872421",
+   "2018-03-17",
+   "83",
+   "Cenk Tosun",
+   "Cross",
+   "TM∩FotMob"
+  ],
+  [
+   "2872467",
+   "2018-04-28",
+   "39",
+   "Cenk Tosun",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "2919843",
+   "2017-10-19",
+   "85",
+   "Olivier Giroud",
+   "",
+   "TM∩FotMob"
+  ],
+  [
+   "2919926",
+   "2017-12-07",
+   "43",
+   "Jack Wilshere",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "2919926",
+   "2017-12-07",
+   "51",
+   "Denis Polyakov",
+   "Pass",
+   "제외:상대 자책골"
+  ],
+  [
+   "2919926",
+   "2017-12-07",
+   "64",
+   "Olivier Giroud",
+   "Penalty: Fouled player",
+   "제외:PK 유도"
+  ],
+  [
+   "3050182",
+   "2018-08-18",
+   "31",
+   "Richarlison",
+   "Cross",
+   "TM∩FotMob"
+  ],
+  [
+   "3050231",
+   "2018-09-29",
+   "66",
+   "Cenk Tosun",
+   "Cross",
+   "TM∩FotMob"
+  ],
+  [
+   "3219096",
+   "2020-07-26",
+   "41",
+   "Moise Kean",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "3219208",
+   "2020-02-08",
+   "18",
+   "Bernard",
+   "",
+   "TM∩FotMob"
+  ],
+  [
+   "3219393",
+   "2019-10-19",
+   "17",
+   "Bernard",
+   "",
+   "TM∩FotMob"
+  ],
+  [
+   "3263731",
+   "2019-10-29",
+   "72",
+   "Mason Holgate",
+   "",
+   "TM∩FotMob"
+  ],
+  [
+   "3421713",
+   "2020-10-17",
+   "90+2",
+   "Jannik Vestergaard",
+   "Shot on goal",
+   "제외:Shot on goal"
+  ],
+  [
+   "3421750",
+   "2020-11-06",
+   "7",
+   "Ché Adams",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "3429791",
+   "2021-04-04",
+   "66",
+   "Nathan Redmond",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "3838602",
+   "2023-05-28",
+   "28",
+   "Kamaldeen Sulemana",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "3838719",
+   "2023-03-18",
+   "46",
+   "Ché Adams",
+   "Pass",
+   "TM∩FotMob"
+  ],
+  [
+   "55606",
+   "2006-12-16",
+   "58",
+   "Emmanuel Adebayor",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "55606",
+   "2006-12-16",
+   "60",
+   "Gilberto Silva",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "55634",
+   "2006-12-26",
+   "83",
+   "Robin van Persie",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "63785",
+   "2006-08-23",
+   "90+1",
+   "Mathieu Flamini",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "66372",
+   "2006-11-21",
+   "83",
+   "Emmanuel Eboué",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "66372",
+   "2006-11-21",
+   "88",
+   "Júlio Baptista",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "81178",
+   "2007-08-29",
+   "7",
+   "Tomas Rosicky",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "81561",
+   "2007-10-07",
+   "80",
+   "Robin van Persie",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "81571",
+   "2007-10-20",
+   "80",
+   "Tomas Rosicky",
+   "",
+   "TM(2014.8 전)"
+  ],
+  [
+   "83353",
+   "2007-10-23",
+   "58",
+   "Cesc Fàbregas",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "88402",
+   "2008-03-04",
+   "90+2",
+   "Emmanuel Adebayor",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "90150",
+   "2008-04-08",
+   "84",
+   "Emmanuel Adebayor",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "923128",
+   "2008-09-13",
+   "8",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "923852",
+   "2008-09-30",
+   "48",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "940362",
+   "2009-04-21",
+   "90",
+   "Andrey Arshavin",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "940384",
+   "2009-04-15",
+   "69",
+   "Robin van Persie",
+   "Penalty: Fouled player",
+   "제외:PK 유도"
+  ],
+  [
+   "961035",
+   "2009-12-27",
+   "81",
+   "Cesc Fàbregas",
+   "Pass",
+   "TM(2014.8 전)"
+  ],
+  [
+   "961190",
+   "2010-04-14",
+   "85",
+   "Nicklas Bendtner",
+   "Cross",
+   "TM(2014.8 전)"
+  ],
+  [
+   "961225",
+   "2010-05-09",
+   "26",
+   "Robin van Persie",
+   "Pass",
+   "TM(2014.8 전)"
+  ]
+ ],
+ "self_assist_events": [],
+ "cross_check": [
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2006-12-26",
+   83,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2007-10-07",
+   80,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2008-09-13",
+   8,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2008-09-30",
+   48,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2010-05-09",
+   26,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-01-15",
+   13,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-01-22",
+   85,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-02-05",
+   10,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-02-12",
+   56,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-04-10",
+   76,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-09-13",
+   42,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-09-24",
+   71,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-11-19",
+   26,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2011-12-03",
+   78,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2012-02-04",
+   2,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2012-02-04",
+   38,
+   "같음"
+  ],
+  [
+   "월콧 도움→Robin van Persie 골",
+   "2012-03-12",
+   15,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2010-08-28",
+   20,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2011-01-15",
+   41,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2011-10-29",
+   55,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2012-02-26",
+   65,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2012-03-31",
+   37,
+   "같음"
+  ],
+  [
+   "Robin van Persie 도움→월콧 골",
+   "2012-04-11",
+   11,
+   "같음"
+  ],
+  [
+   "월콧 도움에서 뺀 TM 도움(참고)",
+   "Robin van Persie",
+   "2009-04-15",
+   "69",
+   "제외:PK 유도",
+   "동료 골 행 있음"
+  ],
+  [
+   "월콧 도움→Cesc Fàbregas 골",
+   "2007-10-23",
+   58,
+   "같음"
+  ],
+  [
+   "월콧 도움→Cesc Fàbregas 골",
+   "2009-12-27",
+   81,
+   "같음"
+  ],
+  [
+   "월콧 도움→Cesc Fàbregas 골",
+   "2010-12-27",
+   51,
+   "같음"
+  ],
+  [
+   "Cesc Fàbregas 도움→월콧 골",
+   "2008-10-21",
+   11,
+   "같음"
+  ],
+  [
+   "Cesc Fàbregas 도움→월콧 골",
+   "2009-04-15",
+   11,
+   "같음"
+  ],
+  [
+   "Cesc Fàbregas 도움→월콧 골",
+   "2009-10-04",
+   75,
+   "같음"
+  ],
+  [
+   "Cesc Fàbregas 도움→월콧 골",
+   "2010-12-27",
+   53,
+   "같음"
+  ],
+  [
+   "Cesc Fàbregas 도움→월콧 골",
+   "2011-04-20",
+   5,
+   "같음"
+  ],
+  [
+   "월콧 도움에서 뺀 TM 도움(참고)",
+   "Cesc Fàbregas",
+   "2011-01-08",
+   "90",
+   "제외:PK 유도",
+   "동료 골 행 있음"
+  ],
+  [
+   "월콧 도움→Mesut Özil 골",
+   "2013-12-08",
+   80,
+   "같음"
+  ],
+  [
+   "월콧 도움→Mesut Özil 골",
+   "2015-10-04",
+   7,
+   "같음"
+  ],
+  [
+   "Mesut Özil 도움→월콧 골",
+   "2013-12-14",
+   32,
+   "같음"
+  ],
+  [
+   "Mesut Özil 도움→월콧 골",
+   "2015-09-12",
+   31,
+   "같음"
+  ],
+  [
+   "Mesut Özil 도움→월콧 골",
+   "2015-12-21",
+   33,
+   "같음"
+  ],
+  [
+   "Mesut Özil 도움→월콧 골",
+   "2016-10-19",
+   42,
+   "같음"
+  ],
+  [
+   "Mesut Özil 도움→월콧 골",
+   "2017-04-05",
+   68,
+   "같음"
+  ],
+  [
+   "월콧 도움→Santi Cazorla 골",
+   "2012-10-06",
+   83,
+   "같음"
+  ],
+  [
+   "월콧 도움→Santi Cazorla 골",
+   "2013-02-09",
+   35,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2012-09-15",
+   88,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2012-12-17",
+   80,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2013-01-20",
+   58,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2013-05-14",
+   63,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2013-12-26",
+   68,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2015-02-01",
+   63,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2015-05-24",
+   4,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2015-05-24",
+   37,
+   "같음"
+  ],
+  [
+   "Santi Cazorla 도움→월콧 골",
+   "2015-09-26",
+   18,
+   "같음"
+  ],
+  [
+   "월콧 도움→Lukas Podolski 골",
+   "2013-04-13",
+   92,
+   "같음"
+  ],
+  [
+   "Lukas Podolski 도움→월콧 골",
+   "2012-12-29",
+   20,
+   "같음"
+  ],
+  [
+   "Lukas Podolski 도움→월콧 골",
+   "2013-01-23",
+   54,
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "FotMob 이벤트 파일 없음",
+   "1029577",
+   "2011-01-15"
+  ],
+  [
+   "FotMob 이벤트 파일 없음",
+   "1029603",
+   "2011-02-05"
+  ],
+  [
+   "FotMob 이벤트 파일 없음",
+   "1029625",
+   "2011-04-20"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "1029769",
+   "2010-08-28",
+   [
+    52,
+    52,
+    "Andrey Arshavin"
+   ]
+  ]
+ ],
+ "elo_sources": {
+  "같은 경기 다른 선수 자료": 111,
+  "팀×시즌 통합표": 83,
+  "순위표+리그 모형": 6,
+  "직접 추정": 6
+ },
+ "elo_log": [
+  [
+   "2010-03-31",
+   "FC Barcelona",
+   1993,
+   "라리가 2009-10 1위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2010-08-21",
+   "Blackpool FC",
+   1663,
+   "프리미어리그 2010-11 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-08-21",
+   "Blackpool FC",
+   1663,
+   "프리미어리그 2010-11 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-08-21",
+   "Blackpool FC",
+   1663,
+   "프리미어리그 2010-11 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-12-27",
+   "Chelsea FC",
+   1938,
+   "프리미어리그 2010-11 2위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2010-12-27",
+   "Chelsea FC",
+   1938,
+   "프리미어리그 2010-11 2위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2011-01-15",
+   "West Ham United",
+   1643,
+   "프리미어리그 2010-11 20위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-01-15",
+   "West Ham United",
+   1643,
+   "프리미어리그 2010-11 20위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-01-22",
+   "Wigan Athletic",
+   1701,
+   "프리미어리그 2010-11 16위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2011-02-05",
+   "Newcastle United",
+   1741,
+   "프리미어리그 2010-11 12위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-02-05",
+   "Newcastle United",
+   1741,
+   "프리미어리그 2010-11 12위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-02-12",
+   "Wolverhampton Wanderers",
+   1682,
+   "프리미어리그 2010-11 17위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2011-04-20",
+   "Tottenham Hotspur",
+   1840,
+   "프리미어리그 2010-11 5위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2011-04-10",
+   "Blackpool FC",
+   1663,
+   "프리미어리그 2010-11 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-05-22",
+   "Fulham FC",
+   1796,
+   "프리미어리그 2010-11 8위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-08-28",
+   "Blackburn Rovers",
+   1717,
+   "프리미어리그 2010-11 15위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-11-03",
+   "Shakhtar Donetsk",
+   1720,
+   "우크라이나 1위 (추정)",
+   "table 2010-11"
+  ],
+  [
+   "2010-12-08",
+   "FK Partizan Belgrade",
+   1520,
+   "세르비아 1위 (추정, 데 브라위너 자료 2011 파르티잔과 같음)",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2010-10-27",
+   "Newcastle United",
+   1741,
+   "프리미어리그 2010-11 12위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2010-10-27",
+   "Newcastle United",
+   1741,
+   "프리미어리그 2010-11 12위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2011-08-28",
+   "Manchester United",
+   1932,
+   "프리미어리그 2011-12 2위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-09-24",
+   "Bolton Wanderers",
+   1665,
+   "프리미어리그 2011-12 18위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-10-29",
+   "Chelsea FC",
+   1822,
+   "프리미어리그 2011-12 6위",
+   "same:로빈 판페르시·제르비뉴"
+  ],
+  [
+   "2011-11-19",
+   "Norwich City",
+   1735,
+   "프리미어리그 2011-12 12위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-11-26",
+   "Fulham FC",
+   1772,
+   "프리미어리그 2011-12 9위",
+   "table 2011-12"
+  ],
+  [
+   "2011-12-03",
+   "Wigan Athletic",
+   1711,
+   "프리미어리그 2011-12 15위",
+   "same:로빈 판페르시·제르비뉴"
+  ],
+  [
+   "2012-01-15",
+   "Swansea City",
+   1744,
+   "프리미어리그 2011-12 11위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-02-04",
+   "Blackburn Rovers",
+   1657,
+   "프리미어리그 2011-12 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-02-04",
+   "Blackburn Rovers",
+   1657,
+   "프리미어리그 2011-12 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-02-04",
+   "Blackburn Rovers",
+   1657,
+   "프리미어리그 2011-12 19위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-02-26",
+   "Tottenham Hotspur",
+   1851,
+   "프리미어리그 2011-12 4위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-02-26",
+   "Tottenham Hotspur",
+   1851,
+   "프리미어리그 2011-12 4위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-03-12",
+   "Newcastle United",
+   1834,
+   "프리미어리그 2011-12 5위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-03-24",
+   "Aston Villa",
+   1695,
+   "프리미어리그 2011-12 16위",
+   "same:제르비뉴"
+  ],
+  [
+   "2012-03-31",
+   "Queens Park Rangers",
+   1677,
+   "프리미어리그 2011-12 17위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-04-11",
+   "Wolverhampton Wanderers",
+   1637,
+   "프리미어리그 2011-12 20위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2011-08-16",
+   "Udinese Calcio",
+   1845,
+   "세리에A 2011-12 3위",
+   "table 2011-12"
+  ],
+  [
+   "2011-08-24",
+   "Udinese Calcio",
+   1845,
+   "세리에A 2011-12 3위",
+   "same:로빈 판페르시·제르비뉴"
+  ],
+  [
+   "2011-09-13",
+   "Borussia Dortmund",
+   1983,
+   "분데스리가 2011-12 1위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2007-01-24",
+   "Tottenham Hotspur",
+   1830,
+   "프리미어리그 2006-07 5위",
+   "table 2006-07"
+  ],
+  [
+   "2006-10-24",
+   "West Bromwich Albion",
+   1669,
+   "챔피언십 2006-07 4위",
+   "model"
+  ],
+  [
+   "2012-01-29",
+   "Aston Villa",
+   1695,
+   "프리미어리그 2011-12 16위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2012-09-15",
+   "Southampton FC",
+   1714,
+   "프리미어리그 2012-13 14위",
+   "same:루카스 포돌스키·산티 카소를라·제르비뉴"
+  ],
+  [
+   "2012-11-10",
+   "Fulham FC",
+   1729,
+   "프리미어리그 2012-13 12위",
+   "same:루카스 포돌스키"
+  ],
+  [
+   "2012-11-10",
+   "Fulham FC",
+   1729,
+   "프리미어리그 2012-13 12위",
+   "same:루카스 포돌스키"
+  ],
+  [
+   "2012-11-17",
+   "Tottenham Hotspur",
+   1828,
+   "프리미어리그 2012-13 5위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-11-17",
+   "Tottenham Hotspur",
+   1828,
+   "프리미어리그 2012-13 5위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2013-03-03",
+   "Tottenham Hotspur",
+   1828,
+   "프리미어리그 2012-13 5위",
+   "table 2012-13"
+  ],
+  [
+   "2013-04-13",
+   "Norwich City",
+   1738,
+   "프리미어리그 2012-13 11위",
+   "same:루카스 포돌스키"
+  ],
+  [
+   "2013-04-28",
+   "Manchester United",
+   2010,
+   "프리미어리그 2012-13 1위",
+   "table 2012-13"
+  ],
+  [
+   "2013-05-04",
+   "Queens Park Rangers",
+   1631,
+   "프리미어리그 2012-13 20위",
+   "table 2012-13"
+  ],
+  [
+   "2013-05-14",
+   "Wigan Athletic",
+   1659,
+   "프리미어리그 2012-13 18위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-10-06",
+   "West Ham United",
+   1750,
+   "프리미어리그 2012-13 10위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-10-06",
+   "West Ham United",
+   1750,
+   "프리미어리그 2012-13 10위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-11-28",
+   "Everton FC",
+   1816,
+   "프리미어리그 2012-13 6위",
+   "table 2012-13"
+  ],
+  [
+   "2013-02-09",
+   "Sunderland AFC",
+   1671,
+   "프리미어리그 2012-13 17위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2012-12-17",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2013-01-23",
+   "West Ham United",
+   1750,
+   "프리미어리그 2012-13 10위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2013-01-23",
+   "West Ham United",
+   1750,
+   "프리미어리그 2012-13 10위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   1689,
+   "프리미어리그 2012-13 16위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   1689,
+   "프리미어리그 2012-13 16위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   1689,
+   "프리미어리그 2012-13 16위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   1689,
+   "프리미어리그 2012-13 16위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2012-12-29",
+   "Newcastle United",
+   1689,
+   "프리미어리그 2012-13 16위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2013-01-20",
+   "Chelsea FC",
+   1878,
+   "프리미어리그 2012-13 3위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2013-01-30",
+   "Liverpool FC",
+   1802,
+   "프리미어리그 2012-13 7위",
+   "table 2012-13"
+  ],
+  [
+   "2012-11-06",
+   "FC Schalke 04",
+   1801,
+   "분데스리가 2012-13 4위",
+   "same:루카스 포돌스키"
+  ],
+  [
+   "2012-09-26",
+   "Coventry City",
+   1495,
+   "리그 원(잉글랜드 3부) 중위권 (추정, 순위표 미확인)",
+   "table 2012-13"
+  ],
+  [
+   "2012-09-26",
+   "Coventry City",
+   1495,
+   "리그 원(잉글랜드 3부) 중위권 (추정, 순위표 미확인)",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2012-10-30",
+   "Reading FC",
+   1651,
+   "프리미어리그 2012-13 19위",
+   "table 2012-13"
+  ],
+  [
+   "2013-03-13",
+   "FC Bayern Munich",
+   1979,
+   "분데스리가 2012-13 1위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2013-01-26",
+   "Brighton & Hove Albion",
+   1669,
+   "챔피언십 2012-13 4위",
+   "same:루카스 포돌스키"
+  ],
+  [
+   "2013-12-26",
+   "West Ham United",
+   1713,
+   "프리미어리그 2013-14 13위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2013-12-26",
+   "West Ham United",
+   1713,
+   "프리미어리그 2013-14 13위",
+   "same:루카스 포돌스키·산티 카소를라"
+  ],
+  [
+   "2014-01-01",
+   "Cardiff City",
+   1624,
+   "프리미어리그 2013-14 20위",
+   "table 2013-14"
+  ],
+  [
+   "2013-12-29",
+   "Newcastle United",
+   1743,
+   "프리미어리그 2013-14 10위",
+   "table 2013-14"
+  ],
+  [
+   "2013-12-14",
+   "Manchester City",
+   2004,
+   "프리미어리그 2013-14 1위",
+   "same:메수트 외질"
+  ],
+  [
+   "2013-12-14",
+   "Manchester City",
+   2004,
+   "프리미어리그 2013-14 1위",
+   "same:메수트 외질"
+  ],
+  [
+   "2013-12-08",
+   "Everton FC",
+   1821,
+   "프리미어리그 2013-14 5위",
+   "same:메수트 외질"
+  ],
+  [
+   "2013-11-30",
+   "Cardiff City",
+   1624,
+   "프리미어리그 2013-14 20위",
+   "same:메수트 외질"
+  ],
+  [
+   "2013-09-01",
+   "Tottenham Hotspur",
+   1810,
+   "프리미어리그 2013-14 6위",
+   "table 2013-14"
+  ],
+  [
+   "2013-08-21",
+   "Fenerbahce",
+   1778,
+   "쉬페르리그 2013-14 1위",
+   "table 2013-14"
+  ],
+  [
+   "2013-09-18",
+   "Olympique Marseille",
+   1764,
+   "리그1 2013-14 6위",
+   "table 2013-14"
+  ],
+  [
+   "2015-02-01",
+   "Aston Villa",
+   1656,
+   "프리미어리그 2014-15 17위",
+   "same:메수트 외질·산티 카소를라"
+  ],
+  [
+   "2015-02-10",
+   "Leicester City",
+   1699,
+   "프리미어리그 2014-15 14위",
+   "same:메수트 외질"
+  ],
+  [
+   "2015-05-24",
+   "West Bromwich Albion",
+   1704,
+   "프리미어리그 2014-15 13위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2015-05-24",
+   "West Bromwich Albion",
+   1704,
+   "프리미어리그 2014-15 13위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2015-05-24",
+   "West Bromwich Albion",
+   1704,
+   "프리미어리그 2014-15 13위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2015-01-25",
+   "Brighton & Hove Albion",
+   1555,
+   "챔피언십(2부) 2014-15 20위",
+   "same:메수트 외질"
+  ],
+  [
+   "2015-05-30",
+   "Aston Villa",
+   1656,
+   "프리미어리그 2014-15 17위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2015-09-12",
+   "Stoke City",
+   1744,
+   "프리미어리그 2015-16 9위",
+   "same:메수트 외질·산티 카소를라"
+  ],
+  [
+   "2015-09-26",
+   "Leicester City",
+   1988,
+   "프리미어리그 2015-16 1위",
+   "same:메수트 외질·산티 카소를라"
+  ],
+  [
+   "2015-10-04",
+   "Manchester United",
+   1808,
+   "프리미어리그 2015-16 5위",
+   "same:메수트 외질"
+  ],
+  [
+   "2015-10-04",
+   "Manchester United",
+   1808,
+   "프리미어리그 2015-16 5위",
+   "same:메수트 외질"
+  ],
+  [
+   "2015-12-21",
+   "Manchester City",
+   1822,
+   "프리미어리그 2015-16 4위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-02-14",
+   "Leicester City",
+   1988,
+   "프리미어리그 2015-16 1위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-04-02",
+   "Watford FC",
+   1697,
+   "프리미어리그 2015-16 13위",
+   "table 2015-16"
+  ],
+  [
+   "2015-08-02",
+   "Chelsea FC",
+   1727,
+   "프리미어리그 2015-16 10위",
+   "table 2015-16"
+  ],
+  [
+   "2015-09-16",
+   "GNK Dinamo Zagreb",
+   1560,
+   "크로아티아 1위 (추정)",
+   "table 2015-16"
+  ],
+  [
+   "2015-09-29",
+   "Olympiacos Piraeus",
+   1660,
+   "그리스 1위 (추정, 다른 선수 자료 값들의 평균)",
+   "table 2015-16"
+  ],
+  [
+   "2015-09-29",
+   "Olympiacos Piraeus",
+   1660,
+   "그리스 1위 (추정, 다른 선수 자료 값들의 평균)",
+   "table 2015-16"
+  ],
+  [
+   "2016-01-09",
+   "Sunderland AFC",
+   1648,
+   "프리미어리그 2015-16 17위",
+   "table 2015-16"
+  ],
+  [
+   "2016-03-08",
+   "Hull City",
+   1669,
+   "챔피언십 2015-16 4위",
+   "table 2015-16"
+  ],
+  [
+   "2016-03-08",
+   "Hull City",
+   1669,
+   "챔피언십 2015-16 4위",
+   "table 2015-16"
+  ],
+  [
+   "2016-03-08",
+   "Hull City",
+   1669,
+   "챔피언십 2015-16 4위",
+   "table 2015-16"
+  ],
+  [
+   "2016-08-14",
+   "Liverpool FC",
+   1848,
+   "프리미어리그 2016-17 4위",
+   "same:산티 카소를라"
+  ],
+  [
+   "2016-08-27",
+   "Watford FC",
+   1674,
+   "프리미어리그 2016-17 17위",
+   "same:메수트 외질·산티 카소를라"
+  ],
+  [
+   "2016-09-17",
+   "Hull City",
+   1662,
+   "프리미어리그 2016-17 18위",
+   "table 2016-17"
+  ],
+  [
+   "2016-09-24",
+   "Chelsea FC",
+   2013,
+   "프리미어리그 2016-17 1위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-10-02",
+   "Burnley FC",
+   1692,
+   "프리미어리그 2016-17 16위",
+   "table 2016-17"
+  ],
+  [
+   "2016-10-15",
+   "Swansea City",
+   1708,
+   "프리미어리그 2016-17 15위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-10-15",
+   "Swansea City",
+   1708,
+   "프리미어리그 2016-17 15위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-11-27",
+   "AFC Bournemouth",
+   1769,
+   "프리미어리그 2016-17 9위",
+   "table 2016-17"
+  ],
+  [
+   "2016-12-10",
+   "Stoke City",
+   1722,
+   "프리미어리그 2016-17 13위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-12-18",
+   "Manchester City",
+   1881,
+   "프리미어리그 2016-17 3위",
+   "table 2016-17"
+  ],
+  [
+   "2017-04-05",
+   "West Ham United",
+   1741,
+   "프리미어리그 2016-17 11위",
+   "same:메수트 외질"
+  ],
+  [
+   "2017-04-02",
+   "Manchester City",
+   1881,
+   "프리미어리그 2016-17 3위",
+   "same:메수트 외질"
+  ],
+  [
+   "2016-09-28",
+   "FC Basel 1893",
+   1650,
+   "스위스 1부 (추정, 다른 선수 자료와 같음)",
+   "table 2016-17"
+  ],
+  [
+   "2016-09-28",
+   "FC Basel 1893",
+   1650,
+   "스위스 1부 (추정, 다른 선수 자료와 같음)",
+   "table 2016-17"
+  ],
+  [
+   "2016-10-19",
+   "Ludogorets Razgrad",
+   1540,
+   "불가리아 1부 (추정, 다른 선수 자료와 같음)",
+   "same:메수트 외질·산티 카소를라"
+  ],
+  [
+   "2017-03-07",
+   "FC Bayern Munich",
+   1952,
+   "분데스리가 2016-17 1위",
+   "table 2016-17"
+  ],
+  [
+   "2017-01-28",
+   "Southampton FC",
+   1787,
+   "프리미어리그 2016-17 8위",
+   "table 2016-17"
+  ],
+  [
+   "2017-01-28",
+   "Southampton FC",
+   1787,
+   "프리미어리그 2016-17 8위",
+   "table 2016-17"
+  ],
+  [
+   "2017-01-28",
+   "Southampton FC",
+   1787,
+   "프리미어리그 2016-17 8위",
+   "table 2016-17"
+  ],
+  [
+   "2017-02-20",
+   "Sutton United",
+   1300,
+   "잉글랜드 5부(내셔널리그) 2016-17 12위 (추정, 다른 선수 자료 잉글랜드 5부 1300과 같음)",
+   "man"
+  ],
+  [
+   "2017-03-11",
+   "Lincoln City",
+   1300,
+   "잉글랜드 5부(내셔널리그) 2016-17 1위 (추정, 다른 선수 자료 잉글랜드 5부 1300과 같음)",
+   "same:메수트 외질"
+  ],
+  [
+   "2018-01-20",
+   "West Bromwich Albion",
+   1666,
+   "프리미어리그 2017-18 20위",
+   "table 2017-18"
+  ],
+  [
+   "2018-01-31",
+   "Leicester City",
+   1801,
+   "프리미어리그 2017-18 9위",
+   "table 2017-18"
+  ],
+  [
+   "2018-01-31",
+   "Leicester City",
+   1801,
+   "프리미어리그 2017-18 9위",
+   "table 2017-18"
+  ],
+  [
+   "2018-03-17",
+   "Stoke City",
+   1686,
+   "프리미어리그 2017-18 19위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-23",
+   "Newcastle United",
+   1785,
+   "프리미어리그 2017-18 10위",
+   "table 2017-18"
+  ],
+  [
+   "2018-04-28",
+   "Huddersfield Town",
+   1725,
+   "프리미어리그 2017-18 16위",
+   "table 2017-18"
+  ],
+  [
+   "2017-09-20",
+   "Doncaster Rovers",
+   1473,
+   "리그 원(3부) 2017-18 15위",
+   "model"
+  ],
+  [
+   "2017-09-28",
+   "BATE Borisov",
+   1500,
+   "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "man"
+  ],
+  [
+   "2017-09-28",
+   "BATE Borisov",
+   1500,
+   "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "man"
+  ],
+  [
+   "2017-10-19",
+   "Red Star Belgrade",
+   1580,
+   "세르비아 2017-18 1위 (추정, 다른 선수 자료 츠르베나 즈베즈다 2018-19 1위 1580과 같음)",
+   "man"
+  ],
+  [
+   "2017-12-07",
+   "BATE Borisov",
+   1500,
+   "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "man"
+  ],
+  [
+   "2017-12-07",
+   "BATE Borisov",
+   1500,
+   "벨라루스 2017 1위 (추정, 다른 선수 자료 BATE 1위 1500과 같음)",
+   "man"
+  ],
+  [
+   "2018-08-18",
+   "Southampton FC",
+   1739,
+   "프리미어리그 2018-19 16위",
+   "table 2018-19"
+  ],
+  [
+   "2018-08-18",
+   "Southampton FC",
+   1739,
+   "프리미어리그 2018-19 16위",
+   "table 2018-19"
+  ],
+  [
+   "2018-08-25",
+   "AFC Bournemouth",
+   1764,
+   "프리미어리그 2018-19 14위",
+   "table 2018-19"
+  ],
+  [
+   "2018-09-29",
+   "Fulham FC",
+   1700,
+   "프리미어리그 2018-19 19위",
+   "table 2018-19"
+  ],
+  [
+   "2018-12-23",
+   "Tottenham Hotspur",
+   1894,
+   "프리미어리그 2018-19 4위",
+   "table 2018-19"
+  ],
+  [
+   "2019-04-21",
+   "Manchester United",
+   1866,
+   "프리미어리그 2018-19 6위",
+   "table 2018-19"
+  ],
+  [
+   "2019-05-12",
+   "Tottenham Hotspur",
+   1894,
+   "프리미어리그 2018-19 4위",
+   "table 2018-19"
+  ],
+  [
+   "2018-10-02",
+   "Southampton FC",
+   1739,
+   "프리미어리그 2018-19 16위",
+   "table 2018-19"
+  ],
+  [
+   "2020-07-26",
+   "AFC Bournemouth",
+   1725,
+   "프리미어리그 2019-20 18위",
+   "table 2019-20"
+  ],
+  [
+   "2020-07-16",
+   "Aston Villa",
+   1737,
+   "프리미어리그 2019-20 17위",
+   "table 2019-20"
+  ],
+  [
+   "2020-02-08",
+   "Crystal Palace",
+   1781,
+   "프리미어리그 2019-20 14위",
+   "table 2019-20"
+  ],
+  [
+   "2020-02-01",
+   "Watford FC",
+   1717,
+   "프리미어리그 2019-20 19위",
+   "table 2019-20"
+  ],
+  [
+   "2019-10-19",
+   "West Ham United",
+   1756,
+   "프리미어리그 2019-20 16위",
+   "table 2019-20"
+  ],
+  [
+   "2019-10-29",
+   "Watford FC",
+   1717,
+   "프리미어리그 2019-20 19위",
+   "table 2019-20"
+  ],
+  [
+   "2020-11-06",
+   "Newcastle United",
+   1789,
+   "프리미어리그 2020-21 12위",
+   "table 2020-21"
+  ],
+  [
+   "2020-11-23",
+   "Wolverhampton Wanderers",
+   1780,
+   "프리미어리그 2020-21 13위",
+   "table 2020-21"
+  ],
+  [
+   "2020-12-16",
+   "Arsenal FC",
+   1844,
+   "프리미어리그 2020-21 8위",
+   "table 2020-21"
+  ],
+  [
+   "2021-04-04",
+   "Burnley FC",
+   1731,
+   "프리미어리그 2020-21 17위",
+   "table 2020-21"
+  ],
+  [
+   "2021-05-15",
+   "Fulham FC",
+   1719,
+   "프리미어리그 2020-21 18위",
+   "table 2020-21"
+  ],
+  [
+   "2023-05-28",
+   "Liverpool FC",
+   1878,
+   "프리미어리그 2022-23 5위",
+   "table 2022-23"
+  ],
+  [
+   "2023-04-21",
+   "Arsenal FC",
+   1976,
+   "프리미어리그 2022-23 2위",
+   "table 2022-23"
+  ],
+  [
+   "2023-03-18",
+   "Tottenham Hotspur",
+   1834,
+   "프리미어리그 2022-23 8위",
+   "table 2022-23"
+  ],
+  [
+   "2023-03-18",
+   "Tottenham Hotspur",
+   1834,
+   "프리미어리그 2022-23 8위",
+   "table 2022-23"
+  ],
+  [
+   "2005-10-18",
+   "Leeds United",
+   1656,
+   "챔피언십 2005-06 5위",
+   "model"
+  ],
+  [
+   "2005-10-22",
+   "Millwall FC",
+   1537,
+   "챔피언십 2005-06 23위",
+   "model"
+  ],
+  [
+   "2005-10-29",
+   "Stoke City",
+   1594,
+   "챔피언십 2005-06 13위",
+   "model"
+  ],
+  [
+   "2005-12-11",
+   "Luton Town",
+   1617,
+   "챔피언십 2005-06 10위",
+   "table 2005-06"
+  ],
+  [
+   "2006-12-16",
+   "Portsmouth FC",
+   1768,
+   "프리미어리그 2006-07 9위",
+   "table 2006-07"
+  ],
+  [
+   "2006-12-16",
+   "Portsmouth FC",
+   1768,
+   "프리미어리그 2006-07 9위",
+   "table 2006-07"
+  ],
+  [
+   "2006-12-26",
+   "Watford FC",
+   1632,
+   "프리미어리그 2006-07 20위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2006-08-23",
+   "GNK Dinamo Zagreb",
+   1520,
+   "크로아티아 1위 (추정, 다른 선수 자료 2009 디나모 자그레브와 같은 수준)",
+   "same:로빈 판페르시·프레디 융베리"
+  ],
+  [
+   "2006-11-21",
+   "Hamburger SV",
+   1777,
+   "분데스리가 2006-07 7위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2006-11-21",
+   "Hamburger SV",
+   1777,
+   "분데스리가 2006-07 7위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2007-08-29",
+   "AC Sparta Praha",
+   1560,
+   "체코 2위 (추정)",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2007-10-07",
+   "Sunderland AFC",
+   1709,
+   "프리미어리그 2007-08 15위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2007-10-20",
+   "Bolton Wanderers",
+   1693,
+   "프리미어리그 2007-08 16위",
+   "table 2007-08"
+  ],
+  [
+   "2008-02-23",
+   "Birmingham City",
+   1655,
+   "프리미어리그 2007-08 19위",
+   "table 2007-08"
+  ],
+  [
+   "2008-02-23",
+   "Birmingham City",
+   1655,
+   "프리미어리그 2007-08 19위",
+   "table 2007-08"
+  ],
+  [
+   "2008-04-28",
+   "Derby County",
+   1635,
+   "프리미어리그 2007-08 20위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2008-05-11",
+   "Sunderland AFC",
+   1709,
+   "프리미어리그 2007-08 15위",
+   "table 2007-08"
+  ],
+  [
+   "2007-10-23",
+   "SK Slavia Prague",
+   1500,
+   "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2007-10-23",
+   "SK Slavia Prague",
+   1500,
+   "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2007-10-23",
+   "SK Slavia Prague",
+   1500,
+   "체코 상위권 (추정, 아자르 자료 2009와 같음)",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2008-03-04",
+   "AC Milan",
+   1798,
+   "세리에A 2007-08 5위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2008-04-08",
+   "Liverpool FC",
+   1849,
+   "프리미어리그 2007-08 4위",
+   "table 2007-08"
+  ],
+  [
+   "2008-09-13",
+   "Blackburn Rovers",
+   1714,
+   "프리미어리그 2008-09 15위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2008-08-27",
+   "FC Twente Enschede",
+   1735,
+   "에레디비시 2008-09 2위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2008-09-30",
+   "FC Porto",
+   1912,
+   "포르투갈 1부 2008-09 1위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2008-10-21",
+   "Fenerbahce",
+   1640,
+   "튀르키예 4위 (추정)",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2008-10-18",
+   "Everton FC",
+   1837,
+   "프리미어리그 2008-09 5위",
+   "same:로빈 판페르시"
+  ],
+  [
+   "2009-04-18",
+   "Chelsea FC",
+   1887,
+   "프리미어리그 2008-09 3위",
+   "table 2008-09"
+  ],
+  [
+   "2009-04-11",
+   "Wigan Athletic",
+   1747,
+   "프리미어리그 2008-09 11위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2009-04-21",
+   "Liverpool FC",
+   1935,
+   "프리미어리그 2008-09 2위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2009-04-15",
+   "Villarreal CF",
+   1789,
+   "라리가 2008-09 5위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2006-01-07",
+   "Milton Keynes Dons",
+   1440,
+   "리그 원(3부) 2005-06 22위",
+   "model"
+  ],
+  [
+   "2008-01-09",
+   "Tottenham Hotspur",
+   1742,
+   "프리미어리그 2007-08 11위",
+   "table 2007-08"
+  ],
+  [
+   "2007-02-25",
+   "Chelsea FC",
+   1927,
+   "프리미어리그 2006-07 2위",
+   "table 2006-07"
+  ],
+  [
+   "2009-10-04",
+   "Blackburn Rovers",
+   1761,
+   "프리미어리그 2009-10 10위",
+   "same:로빈 판페르시·세스크 파브레가스"
+  ],
+  [
+   "2009-12-27",
+   "Aston Villa",
+   1827,
+   "프리미어리그 2009-10 6위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2010-03-06",
+   "Burnley FC",
+   1670,
+   "프리미어리그 2009-10 18위",
+   "same:세스크 파브레가스"
+  ],
+  [
+   "2010-04-14",
+   "Tottenham Hotspur",
+   1856,
+   "프리미어리그 2009-10 4위",
+   "table 2009-10"
+  ],
+  [
+   "2010-04-18",
+   "Wigan Athletic",
+   1700,
+   "프리미어리그 2009-10 16위",
+   "table 2009-10"
+  ],
+  [
+   "2010-05-09",
+   "Fulham FC",
+   1740,
+   "프리미어리그 2009-10 12위",
+   "same:로빈 판페르시"
+  ]
+ ]
+}

@@ -1,0 +1,11 @@
+{"preset":"walcott","name":"시오 월콧","prefix":"WAL",
+ "clubs":[
+  {"key":"souwc","name":"사우샘프턴","short":"사우샘프턴","years":"2005~2006","until":"2006-01-20"},
+  {"key":"arswc","name":"아스널","short":"아스널","years":"2006~2018","until":"2018-01-17"},
+  {"key":"evewc","name":"에버턴","short":"에버턴","years":"2018~2020","until":"2020-10-05"},
+  {"key":"souwc","name":"사우샘프턴","short":"사우샘프턴","years":"2020~2023","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "pos":"RW","flag":"ENG","retired":true,
+ "hon":{"t":{"DC":["2017 아스널","2015 아스널","2014 아스널"],"SC":["17/18 아스널","15/16 아스널"]},
+        "o":[],
+        "a":{"TOP":["12/13 리그컵 5골"]}}}

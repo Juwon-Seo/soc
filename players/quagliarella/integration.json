@@ -1,0 +1,43 @@
+{
+ "preset": "quagliarella",
+ "name": "파비오 콸리아렐라",
+ "prefix": "QGL",
+ "clubs": [
+  {"key": "torql", "name": "토리노", "short": "토리노", "years": "1999~2002", "until": "2002-07-01"},
+  {"key": "fioql", "name": "플로렌티아 비올라", "short": "플로렌티아", "years": "2002", "until": "2003-01-01"},
+  {"key": "chiql", "name": "키에티", "short": "키에티", "years": "2003~2004", "until": "2004-07-01"},
+  {"key": "torql", "name": "토리노", "short": "토리노", "years": "2004~2005", "until": "2005-07-01"},
+  {"key": "ascql", "name": "아스콜리", "short": "아스콜리", "years": "2005~2006", "until": "2006-07-01"},
+  {"key": "samql", "name": "삼프도리아", "short": "삼프도리아", "years": "2006~2007", "until": "2007-07-01"},
+  {"key": "udiql", "name": "우디네세", "short": "우디네세", "years": "2007~2009", "until": "2009-07-01"},
+  {"key": "napql", "name": "나폴리", "short": "나폴리", "years": "2009~2010", "until": "2010-08-27"},
+  {"key": "juvql", "name": "유벤투스", "short": "유벤투스", "years": "2010~2014", "until": "2014-07-18"},
+  {"key": "torql", "name": "토리노", "short": "토리노", "years": "2014~2016", "until": "2016-02-01"},
+  {"key": "samql", "name": "삼프도리아", "short": "삼프도리아", "years": "2016~2023", "until": null}
+ ],
+ "season": {"calendar": [], "jul10": [], "jul1": []},
+ "pos": "CF",
+ "flag": "IT",
+ "retired": true,
+ "colors": {
+  "torql": ["#65001B", "#FFFFFF"],
+  "fioql": ["#552A79", "#FFFFFF"],
+  "chiql": ["#000000", "#008000"],
+  "ascql": ["#000000", "#FFFFFF"],
+  "samql": ["#2345C0", "#FFFFFF", "#E2001A"],
+  "udiql": ["#000000", "#FFFFFF"],
+  "napql": ["#1E8EC9", "#FFFFFF"],
+  "juvql": ["#000000", "#FFFFFF"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["13/14 유벤투스", "12/13 유벤투스", "11/12 유벤투스"],
+   "SC": ["13/14 유벤투스", "12/13 유벤투스"]
+  },
+  "o": [["이탈리아 4부 우승", "02/03 플로렌티아 비올라"]],
+  "a": {
+   "TOP": ["18/19 세리에A 26골"],
+   "XI": ["18/19 세리에A · AIC(선수협회)"]
+  }
+ }
+}

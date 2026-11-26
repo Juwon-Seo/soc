@@ -1,0 +1,188 @@
+{
+ "preset": "gilardino",
+ "name": "알베르토 질라르디노",
+ "prefix": "GIL",
+ "clubs": [
+  {
+   "key": "pcagi",
+   "name": "피아첸차",
+   "short": "피아첸차",
+   "years": "1999~2000",
+   "until": "2000-09-18"
+  },
+  {
+   "key": "vergi",
+   "name": "헬라스 베로나",
+   "short": "베로나",
+   "years": "2000~2002",
+   "until": "2002-07-01"
+  },
+  {
+   "key": "pargi",
+   "name": "파르마",
+   "short": "파르마",
+   "years": "2002~2005",
+   "until": "2005-07-17"
+  },
+  {
+   "key": "milgi",
+   "name": "AC 밀란",
+   "short": "밀란",
+   "years": "2005~2008",
+   "until": "2008-07-01"
+  },
+  {
+   "key": "fiogi",
+   "name": "피오렌티나",
+   "short": "피오렌티나",
+   "years": "2008~2012",
+   "until": "2012-01-03"
+  },
+  {
+   "key": "gengi",
+   "name": "제노아",
+   "short": "제노아",
+   "years": "2012",
+   "until": "2012-08-31"
+  },
+  {
+   "key": "bolgi",
+   "name": "볼로냐",
+   "short": "볼로냐",
+   "years": "2012~2013",
+   "until": "2013-06-30"
+  },
+  {
+   "key": "gengi",
+   "name": "제노아",
+   "short": "제노아",
+   "years": "2013~2014",
+   "until": "2014-07-12"
+  },
+  {
+   "key": "gzegi",
+   "name": "광저우 헝다",
+   "short": "광저우",
+   "years": "2014",
+   "until": "2015-01-26"
+  },
+  {
+   "key": "fiogi",
+   "name": "피오렌티나",
+   "short": "피오렌티나",
+   "years": "2015",
+   "until": "2015-08-27"
+  },
+  {
+   "key": "palgi",
+   "name": "팔레르모",
+   "short": "팔레르모",
+   "years": "2015~2016",
+   "until": "2016-07-07"
+  },
+  {
+   "key": "empgi",
+   "name": "엠폴리",
+   "short": "엠폴리",
+   "years": "2016",
+   "until": "2017-01-09"
+  },
+  {
+   "key": "pesgi",
+   "name": "페스카라",
+   "short": "페스카라",
+   "years": "2017",
+   "until": "2017-10-03"
+  },
+  {
+   "key": "spegi",
+   "name": "스페치아",
+   "short": "스페치아",
+   "years": "2017~2018",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [
+   "gzegi"
+  ],
+  "jul10": [],
+  "jul1": []
+ },
+ "pos": "CF",
+ "flag": "IT",
+ "retired": true,
+ "hon": {
+  "t": {
+   "UCL": [
+    "06/07 AC 밀란"
+   ],
+   "USC": [
+    "07/08 AC 밀란"
+   ],
+   "CWC": [
+    "07/08 AC 밀란"
+   ],
+   "LG": [
+    "2014 광저우 헝다"
+   ]
+  },
+  "o": [],
+  "a": {
+   "POY": [
+    "04/05 세리에A · AIC(선수협회)"
+   ]
+  }
+ },
+ "colors": {
+  "pcagi": [
+   "#FF0000",
+   "#FFFFFF"
+  ],
+  "vergi": [
+   "#203664",
+   "#FFE500"
+  ],
+  "pargi": [
+   "#FFFFFF",
+   "#000000",
+   "#FFD200"
+  ],
+  "milgi": [
+   "#C90C0F",
+   "#000000"
+  ],
+  "fiogi": [
+   "#552A79",
+   "#FFFFFF"
+  ],
+  "gengi": [
+   "#AD1919",
+   "#001E50"
+  ],
+  "bolgi": [
+   "#A21C26",
+   "#1A2F48"
+  ],
+  "gzegi": [
+   "#DF0000",
+   "#000000"
+  ],
+  "palgi": [
+   "#FFB8CA",
+   "#000000"
+  ],
+  "empgi": [
+   "#0055FF",
+   "#FFFFFF"
+  ],
+  "pesgi": [
+   "#1E90FF",
+   "#FFFFFF"
+  ],
+  "spegi": [
+   "#FFFFFF",
+   "#000000"
+  ]
+ }
+}

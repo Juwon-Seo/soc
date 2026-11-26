@@ -1,0 +1,85 @@
+{
+ "preset": "ennesyri",
+ "name": "유세프 엔네시리",
+ "prefix": "YEN",
+ "clubs": [
+  {
+   "key": "malyen",
+   "name": "말라가",
+   "short": "말라가",
+   "years": "2016~2018",
+   "until": "2018-08-17"
+  },
+  {
+   "key": "legyen",
+   "name": "레가네스",
+   "short": "레가네스",
+   "years": "2018~2020",
+   "until": "2020-01-16"
+  },
+  {
+   "key": "sevyen",
+   "name": "세비야",
+   "short": "세비야",
+   "years": "2020~2024",
+   "until": "2024-07-24"
+  },
+  {
+   "key": "fenyen",
+   "name": "페네르바흐체",
+   "short": "페네르바흐체",
+   "years": "2024~2026",
+   "until": "2026-02-03"
+  },
+  {
+   "key": "ittyen",
+   "name": "알이티하드",
+   "short": "알이티하드",
+   "years": "2026~",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [],
+  "jul10": [],
+  "jul1": []
+ },
+ "pos": "CF",
+ "flag": "MA",
+ "retired": false,
+ "colors": {
+  "malyen": [
+   "#084B8A",
+   "#FFFFFF"
+  ],
+  "legyen": [
+   "#FFFFFF",
+   "#0047AB"
+  ],
+  "sevyen": [
+   "#FFFFFF",
+   "#E20000"
+  ],
+  "fenyen": [
+   "#FFED00",
+   "#163962"
+  ],
+  "ittyen": [
+   "#FFDD00",
+   "#000000"
+  ]
+ },
+ "hon": {
+  "t": {
+   "UEL": [
+    "22/23 세비야",
+    "19/20 세비야"
+   ],
+   "SC": [
+    "25/26 페네르바체"
+   ]
+  },
+  "o": [],
+  "a": {}
+ }
+}

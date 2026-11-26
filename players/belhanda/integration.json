@@ -1,0 +1,17 @@
+{"preset":"belhanda","name":"유네스 벨한다","prefix":"BLH",
+ "clubs":[
+  {"key":"mtpbh","name":"몽펠리에 HSC","short":"몽펠리에","years":"2009~2013","until":"2013-07-01"},
+  {"key":"dynbh","name":"디나모 키이우","short":"디나모 키이우","years":"2013~2016","until":"2016-01-06"},
+  {"key":"s04bh","name":"샬케 04","short":"샬케","years":"2016","until":"2016-08-31"},
+  {"key":"nicbh","name":"OGC 니스","short":"니스","years":"2016~2017","until":"2017-07-03"},
+  {"key":"galbh","name":"갈라타사라이","short":"갈라타사라이","years":"2017~2021","until":"2021-07-01"},
+  {"key":"adabh","name":"아다나 데미르스포르","short":"아다나","years":"2021~2023","until":"2024-01-26"},
+  {"key":"shabh","name":"알샤말","short":"알샤말","years":"2024~2026","until":"2026-01-14"},
+  {"key":"salbh","name":"알사일리야","short":"알사일리야","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["mtpbh","dynbh","adabh"],"jul1":[]},
+ "pos":"AM","flag":"MA","retired":false,
+ "hon":{"t":{"LG":["18/19 갈라타사라이","17/18 갈라타사라이","15/16 디나모 키이우","14/15 디나모 키이우","11/12 몽펠리에"],
+             "DC":["18/19 갈라타사라이","14/15 디나모 키이우","13/14 디나모 키이우"],
+             "SC":["19/20 갈라타사라이"]},
+        "o":[],
+        "a":{"XI":["11/12 리그1 · UNFP(선수협회)"]}}}

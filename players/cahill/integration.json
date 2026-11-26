@@ -1,0 +1,23 @@
+{"preset":"cahill","name":"팀 케이힐","prefix":"CAH",
+ "clubs":[
+  {"key":"milct","name":"밀월","short":"밀월","years":"1997~2004","until":"2004-07-23"},
+  {"key":"evect","name":"에버턴","short":"에버턴","years":"2004~2012","until":"2012-07-26"},
+  {"key":"nyct","name":"뉴욕 레드불스","short":"뉴욕 RB","years":"2012~2014","until":"2015-02-03"},
+  {"key":"shsct","name":"상하이 선화","short":"상하이 선화","years":"2015","until":"2016-02-21"},
+  {"key":"hzct","name":"항저우 뤼청","short":"항저우","years":"2016","until":"2016-08-11"},
+  {"key":"mcct","name":"멜버른 시티","short":"멜버른 시티","years":"2016~2017","until":"2018-01-29"},
+  {"key":"milct","name":"밀월","short":"밀월","years":"2018","until":"2018-08-31"},
+  {"key":"jmct","name":"잠셰드푸르 FC","short":"잠셰드푸르","years":"2018~2019","until":null}],
+ "season":{"calendar":["nyct","shsct","hzct"],"jul10":[],"jul1":[]},
+ "pos":"AM","flag":"AU","retired":true,
+ "colors":{
+  "milct":["#002060","#FFFFFF"],
+  "evect":["#003399","#FFFFFF"],
+  "nyct":["#FFFFFF","#B91F31"],
+  "shsct":["#0000FF","#FFFFFF"],
+  "hzct":["#00843D","#FFFFFF"],
+  "mcct":["#81C1FF","#FFFFFF","#002A5A"],
+  "jmct":["#E31E24","#FFFFFF"]},
+ "hon":{"t":{"DC":["2016 멜버른 시티"]},
+  "o":[["잉글랜드 3부 우승","00/01 밀월"],["서포터스 실드","12/13 뉴욕 레드불스"]],
+  "a":{"FOY":["2004 오세아니아"],"XI":["2013 MLS · 사무국"]}}}

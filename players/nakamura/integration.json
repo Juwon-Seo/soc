@@ -1,0 +1,23 @@
+{"preset":"nakamura","name":"나카무라 슌스케","prefix":"NKS",
+ "clubs":[
+  {"key":"yfmnk","name":"요코하마 F. 마리노스","short":"요코하마 FM","years":"1997~2002","until":"2002-08-01"},
+  {"key":"regnk","name":"레지나 칼초","short":"레지나","years":"2002~2005","until":"2005-07-29"},
+  {"key":"celnk","name":"셀틱","short":"셀틱","years":"2005~2009","until":"2009-07-01"},
+  {"key":"espnk","name":"RCD 에스파뇰","short":"에스파뇰","years":"2009~2010","until":"2010-03-01"},
+  {"key":"yfmnk","name":"요코하마 F. 마리노스","short":"요코하마 FM","years":"2010~2016","until":"2017-01-10"},
+  {"key":"jubnk","name":"주빌로 이와타","short":"이와타","years":"2017~2019","until":"2019-07-25"},
+  {"key":"yfcnk","name":"요코하마 FC","short":"요코하마 FC","years":"2019~2022","until":null}],
+ "season":{"calendar":["yfmnk","jubnk","yfcnk"],"jul10":["celnk"],"jul1":[]},
+ "pos":"AM","flag":"JP","retired":true,
+ "colors":{
+  "yfmnk":["#004098","#FFFFFF","#E50012"],
+  "regnk":["#8D0000","#FFFFFF"],
+  "celnk":["#018749","#FFFFFF"],
+  "espnk":["#007FC8","#FFFFFF"],
+  "jubnk":["#6CACE4","#FFFFFF"],
+  "yfcnk":["#00A0E9","#FFFFFF"]},
+ "hon":{"t":{"LG":["07/08 셀틱","06/07 셀틱","05/06 셀틱"],"DC":["2013 요코하마 FM","06/07 셀틱"],"LC":["08/09 셀틱","05/06 셀틱","2001 요코하마 FM"]},
+  "o":[],
+  "a":{"POY":["2013 J리그 · 사무국","06/07 스코틀랜드 1부 · PFA 스코틀랜드(선수협회)","2000 J리그 · 사무국"],
+       "XI":["2013 J리그 · 사무국","07/08 스코틀랜드 1부 · PFA 스코틀랜드(선수협회)","06/07 스코틀랜드 1부 · PFA 스코틀랜드(선수협회)","2000 J리그 · 사무국","1999 J리그 · 사무국"],
+       "FOY":["2013 요코하마 FM","2000 요코하마 FM"]}}}

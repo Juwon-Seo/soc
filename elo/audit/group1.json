@@ -1,0 +1,3770 @@
+[
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2017-03-07",
+  "minute": 91,
+  "scorer": "Álvaro Morata",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 90'+1' Attempt saved. Cristiano Ronaldo (Real Madrid) left footed shot from the left side of the box is saved in the centre of the goal. Assisted by Marcelo.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/469091",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2422877",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2805646"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2015-01-31",
+  "minute": 45,
+  "scorer": "David Silva",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "아구에로의 왼발 슈팅(골문 옆으로 빗나가던 공, Opta '빗나감')을 실바가 미끄러지며 빈 골문으로 방향만 바꿔 넣음(쿠르투아가 나온 상태). 상대·골키퍼 접촉 없음 (상대 이름은 아구에로 파일 표기 Chelsea FC, Elo·라벨은 실바 파일의 같은 골 행)",
+  "sources": [
+   "https://www.sportsmole.co.uk/football/chelsea/match-analysis/chelsea-1-1-man-city_202595.html",
+   "https://www.espn.com/soccer/commentary/_/gameId/395556",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1724203",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2486690"
+  ],
+  "row": [
+   "a",
+   "Chelsea FC",
+   1944,
+   "lg",
+   45,
+   0,
+   1,
+   0,
+   0,
+   "2015-01-31",
+   0,
+   0,
+   "프리미어리그 2014-15 1위",
+   "David Silva"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2016-12-10",
+  "minute": 76,
+  "scorer": "Thomas Müller",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 76' Attempt blocked. Arjen Robben (FC Bayern München) left footed shot from the centre of the box is blocked. Assisted by Franck Ribéry.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/456777",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2272415",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2704425"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2016-10-19",
+  "minute": 59,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 59' Attempt saved. Arjen Robben (FC Bayern München) left footed shot from the centre of the box is saved in the bottom left corner. Assisted by Robert Lewandows",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/466219",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2363723",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2754921"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-08-25",
+  "minute": 59,
+  "scorer": "Mario Mandžukić",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 57' Attempt saved. Arjen Robben (Bayern Munich) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Xherdan Shaqiri",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346397",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239465",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2222543"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2019-10-22",
+  "minute": 34,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 34' Attempt saved. Thomas Müller (FC Bayern München) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by Robert Lewando",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/557123",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3170132",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3252188"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2018-03-04",
+  "minute": 54,
+  "scorer": "Sandro Wagner",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "베르나트 크로스에 뮐러가 문전에서 경합·마무리 못 한 공이 바그너에게 흘러 근거리 골(FC 바이에른 리포트, DW 중계 요약), Sport1 '뮐러 도움'. Opta는 뮐러 슈팅을 따로 적지 않고 도움으로 기록, 상대 접촉 기록 없음. 문전 혼전이라 판정 확인 권장",
+  "sources": [
+   "https://www.sport1.de/fussball/bundesliga/2018/03/bundesliga-spielbericht-sc-freiburg-fc-bayern-muenchen-4-0",
+   "https://fcbayern.com/de/news/spielberichte/2018/03/spielbericht-bundesliga-freiburg---fc-bayern",
+   "https://www.dailynewsegypt.com/2018/03/04/thomas-muller-drives-bayern-munich-to-routine-victory-over-freiburg",
+   "https://www.espn.com/soccer/commentary/_/gameId/487037",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2544131",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2872108"
+  ],
+  "row": [
+   "a",
+   "SC Freiburg",
+   1647,
+   "lg",
+   54,
+   2,
+   0,
+   0,
+   0,
+   "2018-03-04",
+   0,
+   0,
+   "분데스리가 2017-18 15위",
+   "Sandro Wagner"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2016-12-10",
+  "minute": 58,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "뮐러의 페널티 지역 밖 슈팅(Opta '빗나감')을 레반도프스키가 방향만 바꿔 넣음(Soccer Laduma 'redirect Muller's strike', FourFourTwo)",
+  "sources": [
+   "https://www.soccerladuma.co.za/local/archive/bundesliga-report-bayern-munich-v-wolfsburg-10-december-2016-20161210",
+   "https://www.fourfourtwo.com/news/bayern-munich-5-wolfsburg-0-muller-breaks-duck-hosts-go-top",
+   "https://www.espn.com/soccer/commentary/_/gameId/456777",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2272415",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2704425"
+  ],
+  "row": [
+   "a",
+   "VfL Wolfsburg",
+   1646,
+   "lg",
+   58,
+   2,
+   0,
+   0,
+   0,
+   "2016-12-10",
+   0,
+   0,
+   "분데스리가 2016-17 16위",
+   "Robert Lewandowski"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2016-01-22",
+  "minute": 61,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "뮐러의 발리 슈팅(Opta '빗나감')을 레반도프스키가 방향을 바꿔 넣음(AP/SI 'deflected Müller's volley past Adler')",
+  "sources": [
+   "https://www.si.com/soccer/2016/01/22/bayern-munich-hamburg-bundesliga-lewandowski",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2002248",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2581788"
+  ],
+  "row": [
+   "a",
+   "Hamburger SV",
+   1684,
+   "lg",
+   61,
+   1,
+   1,
+   0,
+   0,
+   "2016-01-22",
+   0,
+   0,
+   "분데스리가 2015-16 10위",
+   "Robert Lewandowski"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2014-12-19",
+  "minute": 90,
+  "scorer": "Arjen Robben",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "슈팅이 아니라 뮐러의 스루패스를 로번이 마무리(Sports Mole 'Muller sent a through-ball in for Robben'). Transfermarkt 유형 오기로 보임. ESPN(Opta)·FotMob 모두 뮐러 도움",
+  "sources": [
+   "https://sportsmole.co.uk/football/bayern-munich/result/late-robben-goal-gives-bayern-win_194633.html",
+   "https://www.espn.com/soccer/commentary/_/gameId/396847",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1732868",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2460773"
+  ],
+  "row": [
+   "a",
+   "1.FSV Mainz 05",
+   1736,
+   "lg",
+   90,
+   1,
+   1,
+   0,
+   0,
+   "2014-12-19",
+   0,
+   0,
+   "분데스리가 2014-15 11위",
+   "Arjen Robben"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2012-09-02",
+  "minute": 47,
+  "scorer": "Mario Mandžukić",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 47분 뮐러 슈팅 골키퍼 선방 뒤 만주키치 골 — 골키퍼 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346394",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239485",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2231393"
+  ]
+ },
+ {
+  "id": "vanpersie",
+  "prefix": "VAN",
+  "date": "2017-05-17",
+  "minute": 87,
+  "scorer": "Ozan Tufan",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "FotMob만 판페르시 도움, ESPN 중계·기사 확인 못 함(검색 한도 소진)",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2458249",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2846905"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2014-05-03",
+  "minute": 55,
+  "scorer": "Thomas Müller",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 괴체 슈팅이 수비에 막힌(blocked) 뒤 뮐러가 넣음 — 상대 몸 맞은 리바운드",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1479291",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2321349"
+  ]
+ },
+ {
+  "id": "gourcuff",
+  "prefix": "GOU",
+  "date": "2017-04-15",
+  "minute": 29,
+  "scorer": "Giovanni Sio",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "구르퀴프 크로스(Opta '머리 패스')를 시오가 헤더로 넣음(maxifoot 'à la réception d'un centre de Gourcuff'). Transfermarkt 유형 오기로 보임",
+  "sources": [
+   "https://m.maxifoot.fr/breve-258933_15/04.htm",
+   "https://www.espn.com/soccer/commentary/_/gameId/448996",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2241652",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2735606"
+  ],
+  "row": [
+   "a",
+   "LOSC Lille",
+   1603,
+   "lg",
+   29,
+   1,
+   0,
+   0,
+   0,
+   "2017-04-15",
+   0,
+   0,
+   "리그1 2016-17 11위",
+   "Giovanni Sio"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2014-02-01",
+  "minute": 65,
+  "scorer": "Maximilian Arnold",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 65' Attempt saved. Ivan Perisic (VfL Wolfsburg) left footed shot from a difficult angle on the left is saved in the centre of the goal. Assisted by Kevin De Bru",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/369734",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1479155",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2321218"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2012-02-07",
+  "minute": 11,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "FotMob만 페리시치 도움, ESPN 중계 문장 없음·기사 확인 못 함(검색 한도 소진)",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1147924",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1176661"
+  ]
+ },
+ {
+  "id": "pedri",
+  "prefix": "PDR",
+  "date": "2022-02-20",
+  "minute": 63,
+  "scorer": "Pierre-Emerick Aubameyang",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 63' Attempt blocked. Pedri (Barcelona) right footed shot from outside the box is blocked.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/610522",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3629342",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3610368"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2015-05-05",
+  "minute": 8,
+  "scorer": "Álvaro Morata",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 8' Attempt saved. Carlos Tévez (Juventus) right footed shot from the right side of the box is saved in the centre of the goal. Assisted by Claudio Marchisio wit",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/419901",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1958906",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2560715"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2014-04-11",
+  "minute": 59,
+  "scorer": "Max Meyer",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 59' Attempt saved. Klaas-Jan Huntelaar (FC Schalke 04) right footed shot from the centre of the box is saved in the centre of the goal.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/369630",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1479259",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2321317"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2012-11-03",
+  "minute": 82,
+  "scorer": "Atsuto Uchida",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 82' Attempt saved. Klaas-Jan Huntelaar (Schalke) right footed shot from very close range is saved in the bottom right corner. Assisted by Jefferson Farfán.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346320",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239554",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2231497"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2011-12-01",
+  "minute": 57,
+  "scorer": "Raúl",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "AP: '훈텔라르의 굴절된 슈팅을 라울이 6야드에서 넣음' — 굴절이 상대 몸인지 불명. FotMob은 훈텔라르 도움",
+  "sources": [
+   "https://www.foxnews.com/sports/schalke-seals-knockout-berth-in-europa-league",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1104950",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1146164"
+  ]
+ },
+ {
+  "id": "ziyech",
+  "prefix": "ZIY",
+  "date": "2023-09-16",
+  "minute": 67,
+  "scorer": "Mauro Icardi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "FotMob 슛맵: 66분 지예흐 슈팅 막힘(AttemptSaved·blocked) 뒤 이카르디 헤더 — 리바운드",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/683172",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4257112",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4129455"
+  ]
+ },
+ {
+  "id": "ziyech",
+  "prefix": "ZIY",
+  "date": "2019-04-16",
+  "minute": 34,
+  "scorer": "Donny van de Beek",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "지예흐 슈팅(Opta '빗나감')이 판더베이크에게 가 트래핑 뒤 골. SI는 'wild shot', Sports Mole은 'shot deflected into the path'(누구에게 맞았는지 불명) — 상대 접촉 여부 불명",
+  "sources": [
+   "https://www.si.com/soccer/2019/04/16/juventus-1-2-ajax-2-3-agg-report-ratings-reaction-bianconeri-crash-out-champions-league",
+   "https://www.sportsmole.co.uk/football/juventus/result/ajax-pull-off-another-famous-win-in-turin_356464.html",
+   "https://www.espn.com/soccer/commentary/_/gameId/538690",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3010088",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3167762"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2021-05-09",
+  "minute": 94,
+  "scorer": "Eden Hazard",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "크로스 중거리 슈팅을 아자르가 건드려 들어감(라리가 공식·Opta·FotMob 아자르 골, 크로스 도움). 그러나 ESPN 리포트·Eurosport 등은 디에고 카를로스 몸에도 맞았다고 서술(자책골 표기) — 상대 접촉 여부 출처가 엇갈림",
+  "sources": [
+   "https://www.laliga.com/en-GB/match/temporada-2020-2021-laliga-santander-real-madrid-sevilla-fc-35",
+   "https://www.espn.com/soccer/report/_/gameId/581862",
+   "https://www.eurosport.co.uk/football/liga/2020-2021/la-liga-news-real-madrid-v-sevilla-follow-live_sto8307998/story.shtml",
+   "https://www.espn.com/soccer/commentary/_/gameId/581862",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3424384",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3451449"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2015-08-29",
+  "minute": 49,
+  "scorer": "James Rodríguez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "ADD",
+  "why": "크로스의 중거리 슈팅(Opta '빗나감')이 하메스에게 가 가슴 트래핑 뒤 마무리. 상대 접촉 기록 없음",
+  "sources": [
+   "https://www.sportsmole.co.uk/football/real-madrid/live-commentary/real-madrid-5-0-real-betis-as-it-happened_242684.html",
+   "https://www.sportskeeda.com/football/gareth-bale-james-rodriguez-brace-real-madrid-5-0-betis-win",
+   "https://www.espn.com/soccer/commentary/_/gameId/433962",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2030099",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2594488"
+  ],
+  "row": [
+   "a",
+   "Real Betis Balompié",
+   1876,
+   "lg",
+   49,
+   3,
+   0,
+   0,
+   0,
+   "2015-08-29",
+   0,
+   0,
+   "라리가 2015-16 10위",
+   "James Rodríguez"
+  ]
+ },
+ {
+  "id": "firmino",
+  "prefix": "RFM",
+  "date": "2018-02-14",
+  "minute": 53,
+  "scorer": "Sadio Mané",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 53' Attempt saved. Roberto Firmino (Liverpool) left footed shot from the centre of the box is saved in the bottom right corner. Assisted by Mohamed Salah with a",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/499537",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2680943",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2981995"
+  ]
+ },
+ {
+  "id": "firmino",
+  "prefix": "RFM",
+  "date": "2014-02-15",
+  "minute": 12,
+  "scorer": "Sven Schipplock",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": true,
+  "verdict": "UNCLEAR",
+  "why": "FotMob은 피르미누 도움, ESPN(Opta)은 도움 없음·직전 슈팅 기록 없음. 기사 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/369715",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1479178",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2321239"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2026-04-15",
+  "minute": 31,
+  "scorer": "Kingsley Coman",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/756160",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4927564",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4750237"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2024-10-22",
+  "minute": 81,
+  "scorer": "Aymeric Laporte",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 81' Attempt saved. Cristiano Ronaldo (Al-Nassr) header from the centre of the box is saved in the top centre of the goal. Assisted by Marcelo Brozovic with a cr",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/719193",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4610842",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4434613"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2021-04-11",
+  "minute": 22,
+  "scorer": "Álvaro Morata",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 22' Cristiano Ronaldo (Juventus) hits the left post with a left footed shot from the left side of the six yard box.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/582864",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3428820",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3433479"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2020-07-26",
+  "minute": 67,
+  "scorer": "Federico Bernardeschi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 67' Attempt saved. Cristiano Ronaldo (Juventus) right footed shot from outside the box is saved in the bottom right corner. Assisted by Gonzalo Higuaín.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/554230",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3135817",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3229522"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2019-12-22",
+  "minute": 45,
+  "scorer": "Paulo Dybala",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 45' Attempt saved. Cristiano Ronaldo (Juventus) left footed shot from outside the box is saved in the bottom right corner. Assisted by Blaise Matuidi.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/559402",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3043459",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3278444"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2019-02-10",
+  "minute": 23,
+  "scorer": "Sami Khedira",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 23' Attempt saved. Cristiano Ronaldo (Juventus) right footed shot from the centre of the box is saved in the top centre of the goal. Assisted by Miralem Pjanic.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/522593",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2847288",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3081257"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2018-09-29",
+  "minute": 49,
+  "scorer": "Mario Mandžukić",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 49' Attempt saved. Cristiano Ronaldo (Juventus) right footed shot from outside the box is saved in the bottom left corner. Assisted by Paulo Dybala.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/522754",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2846908",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3080991"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2013-09-22",
+  "minute": 19,
+  "scorer": "Pepe",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 19' Attempt saved. Cristiano Ronaldo (Real Madrid) right footed shot from the right side of the six yard box is saved in the bottom right corner. Assisted by Án",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/373171",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1505855",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2341081"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2011-05-21",
+  "minute": 52,
+  "scorer": "Emmanuel Adebayor",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 52' Attempt blocked. Cristiano Ronaldo (Real Madrid) right footed shot from the right side of the six yard box is blocked. Assisted by Kaká.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/302157",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1036443"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2010-10-30",
+  "minute": 52,
+  "scorer": "Ángel Di María",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 52' Attempt saved. Cristiano Ronaldo (Real Madrid) right footed shot from outside the box is saved in the centre of the goal. Assisted by Marcelo.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/301910",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=875646",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1036157"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2010-03-14",
+  "minute": 66,
+  "scorer": "Gonzalo Higuaín",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 65' Attempt saved. Cristiano Ronaldo (Real Madrid) right footed shot from a difficult angle and long range on the left is saved in the bottom right corner. Assi",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/275688",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/957441"
+  ]
+ },
+ {
+  "id": "drogba",
+  "prefix": "DRO",
+  "date": "2013-02-15",
+  "minute": 70,
+  "scorer": "Burak Yılmaz",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2244092"
+  ]
+ },
+ {
+  "id": "drogba",
+  "prefix": "DRO",
+  "date": "2010-09-19",
+  "minute": 30,
+  "scorer": "Ian Evatt",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/292880",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=839863",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1029375"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2019-03-16",
+  "minute": 78,
+  "scorer": "Kristoffer Nordfeldt",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/537106",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2992817",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3159985"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2011-05-15",
+  "minute": 70,
+  "scorer": "José Antonio Reyes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 71' Attempt saved. Sergio Agüero (Atlético de Madrid) left footed shot from the left side of the box is saved in the centre of the goal. Assisted by José Antoni",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/302084",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=875491",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1036441"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2010-11-13",
+  "minute": 26,
+  "scorer": "Diego Forlán",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 26' Attempt saved. Sergio Agüero (Atlético de Madrid) right footed shot from the right side of the box is saved in the bottom left corner. Assisted by Simão.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/301952",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=875681",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1036176"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2010-05-12",
+  "minute": 32,
+  "scorer": "Diego Forlán",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/292076",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1019361"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2010-04-25",
+  "minute": 11,
+  "scorer": "Eduardo Salvio",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 10' Attempt saved. Sergio Agüero (Atlético de Madrid) right footed shot from outside the box is saved in the bottom right corner. Assisted by Salvio.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/275603",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/957651"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2010-01-14",
+  "minute": 61,
+  "scorer": "Magnus Troest",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/986482"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2025-01-12",
+  "minute": 16,
+  "scorer": "Matteo Darmian",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 16' Attempt saved. Lautaro Martínez (Inter Milan) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by Kristjan Asllani.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/712307",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4535319",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4374121"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2024-10-05",
+  "minute": 60,
+  "scorer": "Marcus Thuram",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 60' Attempt saved. Lautaro Martínez (Inter Milan) header from the centre of the box is saved in the top centre of the goal. Assisted by Alessandro Bastoni with ",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/712178",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4535354",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4373969"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2024-04-08",
+  "minute": 95,
+  "scorer": "Davide Frattesi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 90'+5' Attempt saved. Lautaro Martínez (Inter Milan) right footed shot from outside the box is saved in the bottom right corner. Assisted by Marko Arnautovic.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/679140",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4230820",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4103781"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2021-05-23",
+  "minute": 8,
+  "scorer": "Ashley Young",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 8' Attempt blocked. Lautaro Martínez (Inter Milan) right footed shot from the centre of the box is blocked. Assisted by Ashley Young.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/582789",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3429145",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3433563"
+  ]
+ },
+ {
+  "id": "lautaro",
+  "prefix": "LAU",
+  "date": "2020-09-26",
+  "minute": 52,
+  "scorer": "Federico Ceccherini",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/583142",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3428829",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3433198"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2017-10-14",
+  "minute": 42,
+  "scorer": "Kingsley Coman",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 42' Attempt saved. Arjen Robben (FC Bayern München) left footed shot from the right side of the box is saved in the bottom left corner. Assisted by Kingsley Com",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/487194",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2543976",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2871809"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2017-05-13",
+  "minute": 84,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 84' Arjen Robben (FC Bayern München) hits the bar with a left footed shot from outside the box. Assisted by Thiago Alcántara following a set piece situation.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/456601",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2272594",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2704703"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-08-25",
+  "minute": 78,
+  "scorer": "Thomas Kleine",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346397",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239465",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2222543"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-08-12",
+  "minute": 11,
+  "scorer": "Thomas Müller",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/350722",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1203546",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2229332"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2012-03-17",
+  "minute": 51,
+  "scorer": "Toni Kroos",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함 | ESPN: 51' Goal!  Hertha Berlin 0, Bayern Munich 5. Toni Kroos (Bayern Munich) right footed shot from the centre of the box to the centre of the go",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/320809",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030335",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1121256"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2011-03-15",
+  "minute": 21,
+  "scorer": "Mario Gómez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1083672"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2025-11-22",
+  "minute": 46,
+  "scorer": "Mathías Laborda",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/760997",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=5025523",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4766112"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2021-04-20",
+  "minute": 8,
+  "scorer": "Eric-Maxim Choupo-Moting",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 7' Attempt saved. Thomas Müller (FC Bayern München) right footed shot from the centre of the box is saved in the bottom right corner. Assisted by David Alaba wi",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/576815",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3412946"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2021-01-03",
+  "minute": 70,
+  "scorer": "Niklas Süle",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 70' Attempt blocked. Thomas Müller (FC Bayern München) header from the centre of the box is blocked. Assisted by Joshua Kimmich with a cross.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/576668",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3399273",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3413099"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2019-05-18",
+  "minute": 53,
+  "scorer": "David Alaba",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 53' Attempt saved. Thomas Müller (FC Bayern München) right footed shot from outside the box is saved in the bottom left corner. Assisted by David Alaba.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/517589",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2803993",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3058720"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2018-02-10",
+  "minute": 6,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 6' Attempt saved. Thomas Müller (FC Bayern München) right footed shot from outside the box is saved in the top centre of the goal.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/487065",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2544102",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2871673"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2017-04-01",
+  "minute": 79,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 79' Attempt saved. Thomas Müller (FC Bayern München) header from the centre of the box is saved in the bottom left corner. Assisted by Jérôme Boateng.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/456667",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2272523",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2704587"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2015-04-04",
+  "minute": 36,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 36' Attempt saved. Thomas Müller (FC Bayern München) left footed shot from the centre of the box is saved in the centre of the goal. Assisted by Robert Lewandow",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/396757",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1732955",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2460860"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2015-02-14",
+  "minute": 23,
+  "scorer": "Mario Götze",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1732901",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2460806"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2014-09-23",
+  "minute": 78,
+  "scorer": "Mario Götze",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 78' Attempt saved. Thomas Müller (FC Bayern München) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by Mario Götze.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/396959",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1732748",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2460662"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2013-09-25",
+  "minute": 78,
+  "scorer": "Franck Ribéry",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1548737",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2361076"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2011-09-27",
+  "minute": 38,
+  "scorer": "Mario Gómez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함 | ESPN: 38' <img src=\"http://soccernet-assets.espn.go.com/design05/gp10/i/goal.gif\"> <b>GOAL!!!</b> Gomez puts Bayern in front!",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/331196",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1104504",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1141856"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2011-01-22",
+  "minute": 45,
+  "scorer": "Arjen Robben",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함 | ESPN: 45' Goal!  Bayern Munich 1, Kaiserslautern 0. Arjen Robben (Bayern Munich) right footed shot from the right side of the six yard box to the ",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/296956",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=857135",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030130"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2010-10-19",
+  "minute": 37,
+  "scorer": "Cristian Panin",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307827",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=918009",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1050101"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2010-04-17",
+  "minute": 49,
+  "scorer": "Ivica Olic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 49' Attempt saved. Thomas Müller (Bayern München) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by Arjen Robben with",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/273152",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/959273"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2010-02-06",
+  "minute": 57,
+  "scorer": "Franck Ribéry",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 57' Attempt saved. Thomas Müller (Bayern München) right footed shot from the centre of the box is saved in the bottom right corner. Assisted by Franck Ribéry.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/273058",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/959181"
+  ]
+ },
+ {
+  "id": "cavani",
+  "prefix": "CAV",
+  "date": "2018-02-06",
+  "minute": 62,
+  "scorer": "Ángel Di María",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 62' Attempt saved. Edinson Cavani (Paris Saint Germain) right footed shot from the left side of the box is saved in the centre of the goal. Assisted by Ángel Di",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/506546",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2711668",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2993338"
+  ]
+ },
+ {
+  "id": "vanpersie",
+  "prefix": "VAN",
+  "date": "2017-04-09",
+  "minute": 60,
+  "scorer": "Souza",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/460342",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2722829"
+  ]
+ },
+ {
+  "id": "vanpersie",
+  "prefix": "VAN",
+  "date": "2012-10-28",
+  "minute": 4,
+  "scorer": "David Luiz",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/345762",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1229187",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2225526"
+  ]
+ },
+ {
+  "id": "musiala",
+  "prefix": "MUS",
+  "date": "2021-08-25",
+  "minute": 27,
+  "scorer": "Jan-Luca Warm",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/612222",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3638905",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3601588"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2014-08-24",
+  "minute": 79,
+  "scorer": "Marco Parolo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/405413",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1811375",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2486234"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2013-05-12",
+  "minute": 10,
+  "scorer": "Sergio Floccari",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/351725",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1287334",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2251620"
+  ]
+ },
+ {
+  "id": "gerrard",
+  "prefix": "GER",
+  "date": "2010-03-18",
+  "minute": 89,
+  "scorer": "Fernando Torres",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/289301",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1000565"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2015-08-14",
+  "minute": 45,
+  "scorer": "Leo Fernandes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/412277",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1923313",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2630283"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2016-04-02",
+  "minute": 20,
+  "scorer": "Franck Ribéry",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 20' Attempt saved. Mario Götze (FC Bayern München) right footed shot from outside the box is saved in the bottom right corner. Assisted by Xabi Alonso.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/426874",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2002336",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2581942"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2015-04-11",
+  "minute": 66,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 66' Attempt blocked. Mario Götze (FC Bayern München) right footed shot from the centre of the box is blocked. Assisted by Philipp Lahm.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/396749",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1732964",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2460869"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2013-02-03",
+  "minute": 63,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346226",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1239639",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2231536"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2012-11-21",
+  "minute": 41,
+  "scorer": "Robert Lewandowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 41' Attempt saved. Mario Götze (Borussia Dortmund) right footed shot from outside the box is saved in the bottom left corner.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/355711",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1322511",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2262226"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2012-11-06",
+  "minute": 45,
+  "scorer": "Álvaro Arbeloa",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/355688",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1322508",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2262202"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2011-04-30",
+  "minute": 32,
+  "scorer": "Lucas Barrios",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030290"
+  ]
+ },
+ {
+  "id": "gotze",
+  "prefix": "GOT",
+  "date": "2011-02-12",
+  "minute": 81,
+  "scorer": "Sven Bender",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 81' Attempt blocked. Mario Götze (Borussia Dortmund) right footed shot from the right side of the box is blocked. Assisted by Lukasz Piszczek.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/297164",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=857206",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030196"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2013-08-22",
+  "minute": 46,
+  "scorer": "Stéphane Grichting",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1547466",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2360921"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2011-05-07",
+  "minute": 74,
+  "scorer": "Franck Ribéry",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 74' Attempt saved. Mario Gomez (Bayern Munich) left footed shot from very close range is saved in the centre of the goal. Assisted by Miroslav Klose.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/297076",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=857405",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030305"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2009-11-25",
+  "minute": 62,
+  "scorer": "Ivica Olic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 62' Attempt saved. Mario Gomez (Bayern München) right footed shot from outside the box is saved in the centre of the goal. Assisted by Mark van Bommel.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/283180",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/972451"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2017-09-16",
+  "minute": 4,
+  "scorer": "Junya Tanaka",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/472994",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2450356",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2895071"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2017-01-24",
+  "minute": 27,
+  "scorer": "Garry Rodrigues",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2404565",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2811408"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2011-09-11",
+  "minute": 39,
+  "scorer": "Adil Chihi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1029846",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1121064"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2011-07-31",
+  "minute": 23,
+  "scorer": "Milivoje Novakovic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1021573",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1115106"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2010-09-12",
+  "minute": 17,
+  "scorer": "Taner Yalçın",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/297010",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1029976"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2013-12-04",
+  "minute": 89,
+  "scorer": "Ivica Olic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1592738",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2370757"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2012-09-01",
+  "minute": 40,
+  "scorer": "Jakub Błaszczykowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2231387"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2010-11-07",
+  "minute": 6,
+  "scorer": "Wilfried Dalmat",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=838635",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1061090"
+  ]
+ },
+ {
+  "id": "perisic",
+  "prefix": "PER",
+  "date": "2009-10-22",
+  "minute": 58,
+  "scorer": "Rajko Brezancic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/283276",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/978947"
+  ]
+ },
+ {
+  "id": "ilicic",
+  "prefix": "ILI",
+  "date": "2026-02-21",
+  "minute": 64,
+  "scorer": "Bassirou N'Diaye",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4630282"
+  ]
+ },
+ {
+  "id": "ilicic",
+  "prefix": "ILI",
+  "date": "2019-05-26",
+  "minute": 53,
+  "scorer": "Papu Gómez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 53' Attempt saved. Josip Ilicic (Atalanta) left footed shot from the centre of the box is saved in the bottom right corner. Assisted by Marten de Roon.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/522446",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2848097",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3081410"
+  ]
+ },
+ {
+  "id": "odegaard",
+  "prefix": "ODE",
+  "date": "2026-01-25",
+  "minute": 29,
+  "scorer": "Lisandro Martínez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/740816",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4813596",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4626018"
+  ]
+ },
+ {
+  "id": "odegaard",
+  "prefix": "ODE",
+  "date": "2019-05-12",
+  "minute": 26,
+  "scorer": "Bart Straalman",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/512465",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2780159",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3141083"
+  ]
+ },
+ {
+  "id": "lookman",
+  "prefix": "LOO",
+  "date": "2022-09-05",
+  "minute": 65,
+  "scorer": "Marlon",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/644664",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=3919124",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3844781"
+  ]
+ },
+ {
+  "id": "lookman",
+  "prefix": "LOO",
+  "date": "2018-02-25",
+  "minute": 5,
+  "scorer": "Jean-Kévin Augustin",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2544122",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2871756"
+  ]
+ },
+ {
+  "id": "berardi",
+  "prefix": "BER",
+  "date": "2026-01-31",
+  "minute": 46,
+  "scorer": "Antonio Caracciolo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/737005",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4803265",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4620930"
+  ]
+ },
+ {
+  "id": "cassano",
+  "prefix": "CSN",
+  "date": "2013-09-25",
+  "minute": 40,
+  "scorer": "Marco Parolo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 41' Antonio Cassano (Parma) hits the right post with a right footed shot from the centre of the box. Assisted by Djamel Mesbah with a cross.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/377261",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1536566",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2359251"
+  ]
+ },
+ {
+  "id": "cassano",
+  "prefix": "CSN",
+  "date": "2013-02-10",
+  "minute": 2,
+  "scorer": "Christian Puggioni",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/351850",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1287198",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2251484"
+  ]
+ },
+ {
+  "id": "capel",
+  "prefix": "CPL",
+  "date": "2013-12-08",
+  "minute": 74,
+  "scorer": "Fredy Montero",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1498101",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2340306"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2019-03-17",
+  "minute": 90,
+  "scorer": "Nahitan Nández",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/521129",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2839258",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3166255"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2010-09-16",
+  "minute": 63,
+  "scorer": "Jô",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함 | ESPN: 63' Goal!! Jô hits a very good left footed shot to the lower right corner from the left penalty area (aprox. 12 yards) and scores!! Manchest",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307643",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=919525",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1050230"
+  ]
+ },
+ {
+  "id": "parkjisung",
+  "prefix": "PJS",
+  "date": "2010-12-07",
+  "minute": 62,
+  "scorer": "Anderson",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307806",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=917999",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1050153"
+  ]
+ },
+ {
+  "id": "parkjisung",
+  "prefix": "PJS",
+  "date": "2010-09-22",
+  "minute": 71,
+  "scorer": "Michael Owen",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307977",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=920101",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1050889"
+  ]
+ },
+ {
+  "id": "saviola",
+  "prefix": "SVL",
+  "date": "2011-01-22",
+  "minute": 8,
+  "scorer": "Nico Gaitán",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1073914"
+  ]
+ },
+ {
+  "id": "saviola",
+  "prefix": "SVL",
+  "date": "2009-10-17",
+  "minute": 91,
+  "scorer": "Fábio Coentrão",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/977644"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2017-10-28",
+  "minute": 91,
+  "scorer": "David Neres",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/481368",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2520379",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2865088"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2012-01-28",
+  "minute": 72,
+  "scorer": "Ciprian Marica",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030209",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1121186"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2011-12-17",
+  "minute": 16,
+  "scorer": "Raúl",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 16' Klaas-Jan Huntelaar (Schalke) hits the left post with a right footed shot from the right side of the box. Assisted by José Jurado with a cross following a c",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/320898",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1030155",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1121169"
+  ]
+ },
+ {
+  "id": "huntelaar",
+  "prefix": "HUN",
+  "date": "2010-09-22",
+  "minute": 9,
+  "scorer": "Ivan Rakitic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 9' Attempt saved. Klaas-Jan Huntelaar (Schalke) right footed shot from outside the box is saved in the centre of the goal. Assisted by Ivan Rakitic.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/297236",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=856916",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1029994"
+  ]
+ },
+ {
+  "id": "kewell",
+  "prefix": "KEW",
+  "date": "2009-12-11",
+  "minute": 30,
+  "scorer": "Abdul Kader Keita",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/963566"
+  ]
+ },
+ {
+  "id": "aduriz",
+  "prefix": "ADU",
+  "date": "2017-02-11",
+  "minute": 71,
+  "scorer": "Iker Muniain",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2300725",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2718924"
+  ]
+ },
+ {
+  "id": "aduriz",
+  "prefix": "ADU",
+  "date": "2016-11-20",
+  "minute": 67,
+  "scorer": "Raúl García",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 67' Attempt saved. Aduriz (Athletic Club) right footed shot from the left side of the box is saved in the centre of the goal. Assisted by Iñaki Williams with a ",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/458972",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2300629",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2718820"
+  ]
+ },
+ {
+  "id": "aduriz",
+  "prefix": "ADU",
+  "date": "2015-03-14",
+  "minute": 32,
+  "scorer": "Mikel San José",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 32' Aritz Aduriz (Athletic Club) hits the bar with a header from the centre of the box. Assisted by Beñat with a cross following a corner.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/402359",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1778300",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2475446"
+  ]
+ },
+ {
+  "id": "aduriz",
+  "prefix": "ADU",
+  "date": "2015-02-08",
+  "minute": 59,
+  "scorer": "Mikel Rico",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 59' Attempt saved. Aritz Aduriz (Athletic Club) right footed shot from the centre of the box is saved in the centre of the goal. Assisted by Unai López with a t",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/402410",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1778252",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2475398"
+  ]
+ },
+ {
+  "id": "aduriz",
+  "prefix": "ADU",
+  "date": "2012-01-26",
+  "minute": 85,
+  "scorer": "Pablo Piatti",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1148433",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1178303"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2015-01-11",
+  "minute": 29,
+  "scorer": "Paul Pogba",
+  "tm_assist_type": "(빈칸)",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "ESPN(Opta): 테베스 슈팅 막힘(요렌테 도움) 뒤 포그바 골(요렌테 도움). 설명의 기사: 테베스 슈팅이 요렌테 몸에 맞고 튄 공 — 같은 팀 선수의 의도 없는 굴절이 패스가 된 경우로 이번 규칙(득점자가 방향 바꿈)과 다른 유형",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/403663",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1786148",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2478763"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2010-09-21",
+  "minute": 92,
+  "scorer": "Iñigo Pérez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 수비에 막힌 뒤 동료 골 — 90' Attempt blocked. Fernando Llorente (Athletic de Bilbao) left footed shot from the centre of the box is blocked. Assisted by Markel Susaeta.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/302074",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=875554",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1036094"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2009-12-03",
+  "minute": 61,
+  "scorer": "Mikel San José",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/283337",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/971694"
+  ]
+ },
+ {
+  "id": "okazaki",
+  "prefix": "OKZ",
+  "date": "2010-07-24",
+  "minute": 20,
+  "scorer": "Frode Johnsen",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계 (FotMob 도움 없음)",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=789213",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030612"
+  ]
+ },
+ {
+  "id": "leejaesung",
+  "prefix": "LJS",
+  "date": "2018-12-09",
+  "minute": 21,
+  "scorer": "Mathias Honsak",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 21' Attempt saved. Jae-Sung Lee (Holstein Kiel) left footed shot from the centre of the box is saved in the centre of the goal.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/518059",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2804205",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3058926"
+  ]
+ },
+ {
+  "id": "leedonggook",
+  "prefix": "LDG",
+  "date": "2017-09-17",
+  "minute": 30,
+  "scorer": "Kyo-won Han",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2903030"
+  ]
+ },
+ {
+  "id": "leedonggook",
+  "prefix": "LDG",
+  "date": "2013-04-14",
+  "minute": 90,
+  "scorer": "Eninho",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1414794",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2297509"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2016-12-18",
+  "minute": 104,
+  "scorer": "Cristiano Ronaldo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "ADD",
+  "why": "클럽 월드컵 결승 연장 104분: 크로스 슈팅(Opta '빗나감')을 호날두가 받아 넣음(Eurosport·ESPN 리포트 '크로스 슈팅을 잡아', FIFA·레알 마드리드 '크로스 패스'). FotMob은 도움 없음, ESPN(Opta)은 크로스 도움",
+  "sources": [
+   "https://www.eurosport.com/football/club-world-cup/2016/cristiano-ronaldo-hat-trick-seals-extra-time-win-for-real-madrid-against-kashima-antlers-in-final_sto5985981/story.shtml",
+   "https://www.espn.com/soccer/report/_/gameId/467220",
+   "https://inside.fifa.com/tournaments/mens/clubworldcup/japan2016/news/ronaldo-hat-trick-sees-off-spirited-kashima-2860920",
+   "https://www.espn.com/soccer/commentary/_/gameId/467220",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2380298",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2806749"
+  ],
+  "row": [
+   "a",
+   "Kashima Antlers",
+   1619,
+   "cwc",
+   104,
+   3,
+   2,
+   1,
+   0,
+   "2016-12-18",
+   1,
+   0,
+   "J1리그 2016 연간 3위/18팀",
+   "Cristiano Ronaldo"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2015-11-03",
+  "minute": 35,
+  "scorer": "Nacho Fernández",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/434221",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2088225",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2618595"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2011-11-02",
+  "minute": 42,
+  "scorer": "Mario Gómez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 42' Attempt saved. Toni Kroos (Bayern Munich) right footed shot from the centre of the box is saved in the bottom right corner. Assisted by Franck Ribéry with a",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/331182",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1104508",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1141896"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2010-11-27",
+  "minute": 59,
+  "scorer": "Thomas Müller",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 59' Attempt saved. Toni Kroos (Bayern Munich) right footed shot from outside the box is saved in the centre of the goal. Assisted by Philipp Lahm.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/297141",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=857012",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1030069"
+  ]
+ },
+ {
+  "id": "kroos",
+  "prefix": "KRO",
+  "date": "2010-10-19",
+  "minute": 77,
+  "scorer": "Mario Gómez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 77' Attempt saved. Toni Kroos (Bayern Munich) left footed shot from outside the box is saved in the bottom left corner. Assisted by Hamit Altintop.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/307827",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=918009",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1050101"
+  ]
+ },
+ {
+  "id": "barella",
+  "prefix": "NBA",
+  "date": "2023-12-29",
+  "minute": 42,
+  "scorer": "Marko Arnautovic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 42' Attempt saved. Nicolò Barella (Inter Milan) right footed shot from the right side of the box is saved in the bottom left corner.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/679396",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=4230707",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/4103645"
+  ]
+ },
+ {
+  "id": "slimani",
+  "prefix": "ISL",
+  "date": "2016-02-13",
+  "minute": 63,
+  "scorer": "João Mário",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/428197",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2016006",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2613574"
+  ]
+ },
+ {
+  "id": "slimani",
+  "prefix": "ISL",
+  "date": "2015-10-25",
+  "minute": 36,
+  "scorer": "Bryan Ruiz",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/428323",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=2015874",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2609383"
+  ]
+ },
+ {
+  "id": "slimani",
+  "prefix": "ISL",
+  "date": "2014-12-21",
+  "minute": 51,
+  "scorer": "Carlos Mané",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/401928",
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1748839",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2480138"
+  ]
+ },
+ {
+  "id": "slimani",
+  "prefix": "ISL",
+  "date": "2014-10-18",
+  "minute": 83,
+  "scorer": "André Carrillo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": false,
+  "verdict": "UNCLEAR",
+  "why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+  "sources": [
+   "https://www.fotmob.com/api/data/matchDetails?matchId=1841583",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2506632"
+  ]
+ },
+ {
+  "id": "slimani",
+  "prefix": "ISL",
+  "date": "2009-12-11",
+  "minute": 71,
+  "scorer": "Ibrahim Bousehaba",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3156210"
+  ]
+ },
+ {
+  "id": "jemaa",
+  "prefix": "IJM",
+  "date": "2010-05-02",
+  "minute": 55,
+  "scorer": "Kanga Akalé",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅 골키퍼 선방 뒤 동료 골 — 55' Attempt saved. Issam Jemaa (Lens) left footed shot from the centre of the box is saved in the centre of the goal. Assisted by Yohan Demont with a cross.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/271416",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/958695"
+  ]
+ },
+ {
+  "id": "firmino",
+  "prefix": "RFM",
+  "date": "2013-02-02",
+  "minute": 10,
+  "scorer": "Kevin Volland",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "KEEP_OUT",
+  "why": "ESPN(Opta) 중계: 이 선수 슈팅이 골대에 맞은 뒤 동료 골 — 10' Roberto Firmino (1899 Hoffenheim) hits the left post with a left footed shot from the centre of the box. Assisted by Eugen Polanski.",
+  "sources": [
+   "https://www.espn.com/soccer/commentary/_/gameId/346231",
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2231538"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2008-11-05",
+  "minute": 84,
+  "scorer": "Ryan Giggs",
+  "tm_assist_type": "(빈칸)",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/923888"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2007-04-28",
+  "minute": 68,
+  "scorer": "Phil Neville",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/55789"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2006-10-01",
+  "minute": 41,
+  "scorer": "Ole Gunnar Solskjaer",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/55501"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2004-12-13",
+  "minute": 33,
+  "scorer": "Alan Smith",
+  "tm_assist_type": "(빈칸)",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28426"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2004-09-15",
+  "minute": 60,
+  "scorer": "Ruud van Nistelrooy",
+  "tm_assist_type": "(빈칸)",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/27431"
+  ]
+ },
+ {
+  "id": "ronaldo",
+  "prefix": "RON",
+  "date": "2004-01-25",
+  "minute": 34,
+  "scorer": "Mikaël Silvestre",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2286256"
+  ]
+ },
+ {
+  "id": "drogba",
+  "prefix": "DRO",
+  "date": "2005-10-02",
+  "minute": 63,
+  "scorer": "Joe Cole",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/38760"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2008-03-16",
+  "minute": 53,
+  "scorer": "Diego Forlán",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/79055"
+  ]
+ },
+ {
+  "id": "aguero",
+  "prefix": "AGU",
+  "date": "2008-03-16",
+  "minute": 24,
+  "scorer": "Simão",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/79055"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2009-03-22",
+  "minute": 65,
+  "scorer": "Klaas-Jan Huntelaar",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/920610"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2008-09-24",
+  "minute": 58,
+  "scorer": "Raúl",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/920373"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2005-12-31",
+  "minute": 25,
+  "scorer": "Hernán Crespo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/37929"
+  ]
+ },
+ {
+  "id": "robben",
+  "prefix": "ROB",
+  "date": "2003-04-11",
+  "minute": 21,
+  "scorer": "Mateja Kežman",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1013184"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2009-05-13",
+  "minute": 76,
+  "scorer": "?30615",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/917456"
+  ]
+ },
+ {
+  "id": "muller",
+  "prefix": "MUL",
+  "date": "2008-11-15",
+  "minute": 53,
+  "scorer": "?39714",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/917246"
+  ]
+ },
+ {
+  "id": "cavani",
+  "prefix": "CAV",
+  "date": "2008-10-26",
+  "minute": 50,
+  "scorer": "Fábio Simplício",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/927694"
+  ]
+ },
+ {
+  "id": "cavani",
+  "prefix": "CAV",
+  "date": "2007-04-22",
+  "minute": 36,
+  "scorer": "Mark Bresciano",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/65497"
+  ]
+ },
+ {
+  "id": "ronaldinho",
+  "prefix": "RDG",
+  "date": "2006-01-22",
+  "minute": 82,
+  "scorer": "Lionel Messi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/36025"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2008-10-25",
+  "minute": 63,
+  "scorer": "Tim Borowski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/912504"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2008-10-25",
+  "minute": 54,
+  "scorer": "Mark van Bommel",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/912504"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2008-02-21",
+  "minute": 71,
+  "scorer": "Lukas Podolski",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/88947"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2007-11-10",
+  "minute": 86,
+  "scorer": "Luca Toni",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/69131"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2007-07-21",
+  "minute": 24,
+  "scorer": "Bastian Schweinsteiger",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/72609"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2007-01-28",
+  "minute": 74,
+  "scorer": "Per Mertesacker",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/53652"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2006-12-09",
+  "minute": 86,
+  "scorer": "Jurica Vranjes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/53634"
+  ]
+ },
+ {
+  "id": "klose",
+  "prefix": "KLO",
+  "date": "2006-05-13",
+  "minute": 27,
+  "scorer": "Ivan Klasnic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/31812"
+  ]
+ },
+ {
+  "id": "gerrard",
+  "prefix": "GER",
+  "date": "2003-12-13",
+  "minute": 75,
+  "scorer": "Emile Heskey",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3451"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2008-08-31",
+  "minute": 47,
+  "scorer": "Ruud van Nistelrooy",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/920346"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2007-09-15",
+  "minute": 35,
+  "scorer": "Javier Saviola",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/78810"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2005-02-12",
+  "minute": 77,
+  "scorer": "Michael Owen",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28113"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2004-10-31",
+  "minute": 79,
+  "scorer": "Ronaldo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28334"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2003-01-26",
+  "minute": 57,
+  "scorer": "Ronaldo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1000184"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2003-01-11",
+  "minute": 6,
+  "scorer": "Ronaldo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1000156"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-09-12",
+  "minute": 75,
+  "scorer": "Rui Jorge",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/990051"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-02-29",
+  "minute": 25,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/984938"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "2000-02-06",
+  "minute": 36,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183943"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1999-10-03",
+  "minute": 46,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183750"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1997-09-17",
+  "minute": 39,
+  "scorer": "Zé Roberto",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1069354"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1995-10-18",
+  "minute": 33,
+  "scorer": "Iván Zamorano",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1067608"
+  ]
+ },
+ {
+  "id": "raul",
+  "prefix": "RAU",
+  "date": "1995-02-12",
+  "minute": 59,
+  "scorer": "Michael Laudrup",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2349292"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2005-02-05",
+  "minute": 28,
+  "scorer": "Raúl",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28105"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2005-01-16",
+  "minute": 53,
+  "scorer": "Ronaldo",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28065"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2004-03-24",
+  "minute": 70,
+  "scorer": "Zinédine Zidane",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/288"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2002-04-14",
+  "minute": 50,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1089842"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2002-02-10",
+  "minute": 52,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1089735"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "2000-10-25",
+  "minute": 12,
+  "scorer": "Guti",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/990097"
+  ]
+ },
+ {
+  "id": "figo",
+  "prefix": "FIG",
+  "date": "1995-10-31",
+  "minute": 66,
+  "scorer": "Albert Celades",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1170395"
+  ]
+ },
+ {
+  "id": "inzaghi",
+  "prefix": "INZ",
+  "date": "2006-04-09",
+  "minute": 62,
+  "scorer": "Kaká",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/41220"
+  ]
+ },
+ {
+  "id": "inzaghi",
+  "prefix": "INZ",
+  "date": "2002-05-05",
+  "minute": 49,
+  "scorer": "Andriy Shevchenko",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1133579"
+  ]
+ },
+ {
+  "id": "inzaghi",
+  "prefix": "INZ",
+  "date": "1998-02-28",
+  "minute": 19,
+  "scorer": "Rachid Neqrouz",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2214716"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2008-11-22",
+  "minute": 17,
+  "scorer": "Martin Lanig",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/912552"
+  ]
+ },
+ {
+  "id": "gomez",
+  "prefix": "GOM",
+  "date": "2006-04-08",
+  "minute": 80,
+  "scorer": "Jon Dahl Tomasson",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/31704"
+  ]
+ },
+ {
+  "id": "beckham",
+  "prefix": "BEC",
+  "date": "2003-12-18",
+  "minute": 37,
+  "scorer": "Raúl",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2423229"
+  ]
+ },
+ {
+  "id": "beckham",
+  "prefix": "BEC",
+  "date": "2000-04-24",
+  "minute": 69,
+  "scorer": "Dwight Yorke",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1114066"
+  ]
+ },
+ {
+  "id": "beckham",
+  "prefix": "BEC",
+  "date": "1998-08-15",
+  "minute": 79,
+  "scorer": "Teddy Sheringham",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1149602"
+  ]
+ },
+ {
+  "id": "gourcuff",
+  "prefix": "GOU",
+  "date": "2009-05-16",
+  "minute": 75,
+  "scorer": "Marc Planus",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/913088"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2009-03-10",
+  "minute": 90,
+  "scorer": "Thomas Müller",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/933252"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2008-03-19",
+  "minute": 66,
+  "scorer": "Miroslav Klose",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/89849"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2006-09-12",
+  "minute": 84,
+  "scorer": "Hasan Salihamidzic",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/64817"
+  ]
+ },
+ {
+  "id": "podolski",
+  "prefix": "POD",
+  "date": "2006-04-08",
+  "minute": 77,
+  "scorer": "Matthias Scherz",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/31703"
+  ]
+ },
+ {
+  "id": "ljungberg",
+  "prefix": "LJU",
+  "date": "2002-05-08",
+  "minute": 57,
+  "scorer": "Sylvain Wiltord",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1023355"
+  ]
+ },
+ {
+  "id": "makaay",
+  "prefix": "MAK",
+  "date": "1999-12-05",
+  "minute": 7,
+  "scorer": "Turu Flores",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183843"
+  ]
+ },
+ {
+  "id": "vicente",
+  "prefix": "VIC",
+  "date": "2003-05-17",
+  "minute": 13,
+  "scorer": "Fábio Aurélio",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1004477"
+  ]
+ },
+ {
+  "id": "owen",
+  "prefix": "OWE",
+  "date": "2007-11-03",
+  "minute": 16,
+  "scorer": "Sol Campbell",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/81597"
+  ]
+ },
+ {
+  "id": "owen",
+  "prefix": "OWE",
+  "date": "2004-10-26",
+  "minute": 19,
+  "scorer": "Fernando Morientes",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2423181"
+  ]
+ },
+ {
+  "id": "owen",
+  "prefix": "OWE",
+  "date": "2003-08-30",
+  "minute": 79,
+  "scorer": "Harry Kewell",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1032"
+  ]
+ },
+ {
+  "id": "owen",
+  "prefix": "OWE",
+  "date": "2001-08-08",
+  "minute": 87,
+  "scorer": "Sami Hyypiä",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1160458"
+  ]
+ },
+ {
+  "id": "tevez",
+  "prefix": "TVZ",
+  "date": "2003-05-21",
+  "minute": 77,
+  "scorer": "Guillermo Barros Schelotto",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/3297587"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "2000-03-18",
+  "minute": 60,
+  "scorer": "Predrag Mijatović",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2211515"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "1999-09-22",
+  "minute": 51,
+  "scorer": "Christian Amoroso",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/985606"
+  ]
+ },
+ {
+  "id": "batistuta",
+  "prefix": "BAT",
+  "date": "1994-11-20",
+  "minute": 73,
+  "scorer": "Fabio Cannavaro",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2215523"
+  ]
+ },
+ {
+  "id": "baggio",
+  "prefix": "BAG",
+  "date": "1993-09-15",
+  "minute": 70,
+  "scorer": "Fabrizio Ravanelli",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2987137"
+  ]
+ },
+ {
+  "id": "baggio",
+  "prefix": "BAG",
+  "date": "1993-05-23",
+  "minute": 47,
+  "scorer": "David Platt",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2216337"
+  ]
+ },
+ {
+  "id": "baggio",
+  "prefix": "BAG",
+  "date": "1992-11-08",
+  "minute": 25,
+  "scorer": "Stefano Pellegrini",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2216130"
+  ]
+ },
+ {
+  "id": "baggio",
+  "prefix": "BAG",
+  "date": "1990-10-28",
+  "minute": 57,
+  "scorer": "Salvatore Schillaci",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2216726"
+  ]
+ },
+ {
+  "id": "baggio",
+  "prefix": "BAG",
+  "date": "1989-12-17",
+  "minute": 62,
+  "scorer": "Antonio Dell'Oglio",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2217112"
+  ]
+ },
+ {
+  "id": "saviola",
+  "prefix": "SVL",
+  "date": "2007-04-15",
+  "minute": 89,
+  "scorer": "Fernando Navarro",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/58708"
+  ]
+ },
+ {
+  "id": "saviola",
+  "prefix": "SVL",
+  "date": "2005-12-11",
+  "minute": 62,
+  "scorer": "Frédéric Kanouté",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/37266"
+  ]
+ },
+ {
+  "id": "saviola",
+  "prefix": "SVL",
+  "date": "2002-02-02",
+  "minute": 70,
+  "scorer": "Patrick Kluivert",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1089716"
+  ]
+ },
+ {
+  "id": "montella",
+  "prefix": "MNT",
+  "date": "2006-09-24",
+  "minute": 54,
+  "scorer": "Aleandro Rosi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/65207"
+  ]
+ },
+ {
+  "id": "montella",
+  "prefix": "MNT",
+  "date": "2002-10-30",
+  "minute": 27,
+  "scorer": "Francesco Totti",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1019553"
+  ]
+ },
+ {
+  "id": "montella",
+  "prefix": "MNT",
+  "date": "2001-09-29",
+  "minute": 93,
+  "scorer": "Marcos Assunção",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1133192"
+  ]
+ },
+ {
+  "id": "wiltord",
+  "prefix": "WIL",
+  "date": "2009-04-19",
+  "minute": 59,
+  "scorer": "Renato Civelli",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/913051"
+  ]
+ },
+ {
+  "id": "wiltord",
+  "prefix": "WIL",
+  "date": "2006-03-25",
+  "minute": 49,
+  "scorer": "John Carew",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/39516"
+  ]
+ },
+ {
+  "id": "wiltord",
+  "prefix": "WIL",
+  "date": "2002-09-01",
+  "minute": 60,
+  "scorer": "Kolo Touré",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/997857"
+  ]
+ },
+ {
+  "id": "wiltord",
+  "prefix": "WIL",
+  "date": "1998-09-11",
+  "minute": 48,
+  "scorer": "Hervé Alicarte",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1009752"
+  ]
+ },
+ {
+  "id": "llorente",
+  "prefix": "LLO",
+  "date": "2009-01-11",
+  "minute": 49,
+  "scorer": "Álvaro Domínguez",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/920516"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2007-06-17",
+  "minute": 51,
+  "scorer": "Lionel Messi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/58789"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2005-03-12",
+  "minute": 10,
+  "scorer": "Luis Prieto",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28161"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2005-02-19",
+  "minute": 16,
+  "scorer": "Samuel Eto'o",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28120"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2004-12-04",
+  "minute": 72,
+  "scorer": "Andrés Iniesta",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/28010"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2002-12-08",
+  "minute": 31,
+  "scorer": "Hélder Postiga",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/2853777"
+  ]
+ },
+ {
+  "id": "deco",
+  "prefix": "DEC",
+  "date": "2001-08-22",
+  "minute": 14,
+  "scorer": "Clayton",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1159929"
+  ]
+ },
+ {
+  "id": "tristan",
+  "prefix": "TRI",
+  "date": "2006-05-07",
+  "minute": 19,
+  "scorer": "Javier Arizmendi",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/36074"
+  ]
+ },
+ {
+  "id": "tristan",
+  "prefix": "TRI",
+  "date": "2000-02-06",
+  "minute": 14,
+  "scorer": "Carlitos",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183947"
+  ]
+ },
+ {
+  "id": "tristan",
+  "prefix": "TRI",
+  "date": "1999-12-22",
+  "minute": 88,
+  "scorer": "Ariel Ibagaza",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183867"
+  ]
+ },
+ {
+  "id": "tristan",
+  "prefix": "TRI",
+  "date": "1999-11-21",
+  "minute": 24,
+  "scorer": "Leo Biagini",
+  "tm_assist_type": "Shot on goal",
+  "fotmob_assist": null,
+  "verdict": "UNCLEAR",
+  "why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+  "sources": [
+   "https://www.transfermarkt.com/spielbericht/index/spielbericht/1183822"
+  ]
+ }
+]

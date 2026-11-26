@@ -1,0 +1,12 @@
+{"preset":"carrasco","name":"야닉 카라스코","prefix":"CRR",
+ "clubs":[
+  {"key":"moncr","name":"AS 모나코","short":"모나코","years":"2012~2015","until":"2015-07-10"},
+  {"key":"atmcr","name":"아틀레티코 마드리드","short":"아틀레티코","years":"2015~2018, 2020~2023","until":"2018-02-26"},
+  {"key":"dalcr","name":"다롄 이팡","short":"다롄","years":"2018~2020","until":"2020-01-31"},
+  {"key":"atmcr","name":"아틀레티코 마드리드","short":"아틀레티코","years":"2015~2018, 2020~2023","until":"2023-09-04"},
+  {"key":"shbcr","name":"알샤바브","short":"알샤바브","years":"2023~","until":null}],
+ "season":{"calendar":["dalcr"],"jul10":["moncr"],"jul1":[]},
+ "pos":"LW","flag":"BE","retired":false,
+ "hon":{"t":{"LG":["20/21 아틀레티코","12/13 모나코(프랑스 2부)"],"UEL":["17/18 아틀레티코"]},
+        "o":[["UCL 준우승","15/16 아틀레티코"]],
+        "a":{"TOP":["23/24 킹스컵 4골"]}}}

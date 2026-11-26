@@ -1,0 +1,10748 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "Xerez CD",
+   "elo": 1702,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2008-09 1위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rayo Vallecano",
+   "elo": 1652,
+   "comp": "lg",
+   "min": 36,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2008-09 5위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Murcia CF",
+   "elo": 1574,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2008-09 14위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Girona FC",
+   "elo": 1564,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2008-09 16위/22팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CD Alcoyano",
+   "elo": 1391,
+   "comp": "dc",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2009-10 4위/20팀 (Segunda División B Group 3, 리그 수준 추정)",
+   "note": "Joaquín",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2009-10 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bursaspor",
+   "elo": 1626,
+   "comp": "clg",
+   "min": 37,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2010-11 3위/18팀",
+   "note": "Joaquín"
+  },
+  {
+   "type": "g",
+   "opp": "UD Almería",
+   "elo": 1696,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2010-11 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 2109,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 6,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2010-11 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Racing Santander",
+   "elo": 1723,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 20위",
+   "note": "Roberto Soldado"
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 81,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Málaga CF",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 4위",
+   "note": "Roberto Soldado"
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1874,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 9위",
+   "note": "Tino Costa"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1864,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 10위",
+   "note": "Roberto Soldado"
+  },
+  {
+   "type": "g",
+   "opp": "AZ Alkmaar",
+   "elo": 1648,
+   "comp": "elk",
+   "min": 56,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2011-12 4위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "AZ Alkmaar",
+   "elo": 1648,
+   "comp": "elk",
+   "min": 80,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2011-12 4위",
+   "note": "Pablo Hernández",
+   "tie": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Rayo Vallecano",
+   "elo": 1815,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1867,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2011-12 7위",
+   "note": "Aritz Aduriz"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1820,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 16위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo A Coruña",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celtic FC",
+   "elo": 1517,
+   "comp": "clg",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-23",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "스코틀랜드 1부 2012-13 1위/12팀 (Scottish Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Rayo Vallecano",
+   "elo": 1883,
+   "comp": "lg",
+   "min": 78,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 8위",
+   "note": "Xavi"
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1813,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Zaragoza",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 20위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Real Valladolid CF",
+   "elo": 1848,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 14위",
+   "note": "Xavi"
+  },
+  {
+   "type": "a",
+   "opp": "Getafe CF",
+   "elo": 1859,
+   "comp": "lg",
+   "min": 58,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 10위",
+   "note": "David Villa"
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 2128,
+   "comp": "dsf",
+   "min": 87,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 2위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1835,
+   "comp": "cl16",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-12",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2012-13 3위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Elche CF",
+   "elo": 1851,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-01-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 16위",
+   "note": "Alexis Sánchez"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1833,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 18위",
+   "note": "Alexis Sánchez"
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 64,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 14위",
+   "note": "Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "UD Almería",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "APOEL Nicosia",
+   "elo": 1476,
+   "comp": "clg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "키프로스 1부 2014-15 1위/12팀 (Cypriot First Division, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1901,
+   "comp": "lg",
+   "min": 77,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 10위",
+   "note": "Pedro"
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1834,
+   "comp": "dc",
+   "min": 55,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 13위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Atlético de Madrid",
+   "elo": 2085,
+   "comp": "dk",
+   "min": 41,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 3위",
+   "note": "Neymar",
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Manchester City",
+   "elo": 1916,
+   "comp": "cl16",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2014-15 2위",
+   "note": "Luis Suárez",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1901,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2014-15 10위",
+   "note": "Neymar"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1993,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 5위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 2201,
+   "comp": "lg",
+   "min": 74,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 2위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Atlético de Madrid",
+   "elo": 2151,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 3위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "UD Las Palmas",
+   "elo": 1885,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 11위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Valencia CF",
+   "elo": 1893,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 12위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1842,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2015-16 16위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1932,
+   "comp": "df",
+   "min": 97,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-05-22",
+   "et": 1,
+   "dm": 0,
+   "lv": "라리가 2015-16 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 15위",
+   "note": "Arda Turan"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1699,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 19위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1699,
+   "comp": "lg",
+   "min": 72,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 19위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1921,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1693,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 20위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 2173,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-23",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2016-17 1위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "UD Las Palmas",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 71,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2016-17 14위",
+   "note": "Neymar"
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1856,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 14위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1870,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 11위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1870,
+   "comp": "lg",
+   "min": 67,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 11위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1841,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 16위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 2021,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1877,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 13위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1846,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 15위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1877,
+   "comp": "dc",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 13위",
+   "note": "Lionel Messi",
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1877,
+   "comp": "dc",
+   "min": 15,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 13위",
+   "note": "Lionel Messi",
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1877,
+   "comp": "dc",
+   "min": 28,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 13위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SD Eibar",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Málaga CF",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 20위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1841,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 16위",
+   "note": "Paco Alcácer"
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1906,
+   "comp": "df",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2018-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2017-18 7위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "SD Huesca",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 39,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 19위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "g",
+   "opp": "SD Huesca",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 81,
+   "gf": 6,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1983,
+   "comp": "clg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": "Philippe Coutinho"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1983,
+   "comp": "clg",
+   "min": 56,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Tottenham Hotspur",
+   "elo": 1983,
+   "comp": "clg",
+   "min": 90,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 4위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1827,
+   "comp": "clg",
+   "min": 83,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2018-19 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1956,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 3위",
+   "note": "Philippe Coutinho"
+  },
+  {
+   "type": "a",
+   "opp": "Rayo Vallecano",
+   "elo": 1735,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 20위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 17위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "CD Leganés",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 13위",
+   "note": "Ousmane Dembélé"
+  },
+  {
+   "type": "a",
+   "opp": "CD Leganés",
+   "elo": 1823,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-20",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2018-19 13위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Girona FC",
+   "elo": 1775,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 18위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1914,
+   "comp": "dk",
+   "min": 89,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 6위",
+   "note": "Luis Suárez",
+   "tie": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1914,
+   "comp": "dk",
+   "min": 92,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-01-30",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2018-19 6위",
+   "note": "Lionel Messi",
+   "tie": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Atlético de Madrid",
+   "elo": 2004,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 2위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1941,
+   "comp": "clk",
+   "min": 61,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 6위",
+   "note": "Philippe Coutinho",
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1852,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2018-19 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Liverpool FC",
+   "elo": 2139,
+   "comp": "clsf",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2018-19 2위",
+   "note": "Luis Suárez",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1772,
+   "comp": "lg",
+   "min": 60,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1675,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 20위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "UD Ibiza",
+   "elo": 1413,
+   "comp": "dc",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-01-22",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "스페인 3부 2019-20 2위/20팀 (Segunda División B Grupo I, 리그 수준 추정)",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1719,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-06-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 19위",
+   "note": "Arturo Vidal"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1719,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-06-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 1891,
+   "comp": "lg",
+   "min": 86,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 5위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 44,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 16위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1745,
+   "comp": "lg",
+   "min": 75,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-07-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2019-20 16위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "FC Bayern Munich",
+   "elo": 1998,
+   "comp": "clk",
+   "min": 57,
+   "gf": 1,
+   "ga": 4,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-08-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2019-20 1위",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 1852,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 7위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1998,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 2위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 6위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "Dynamo Kyiv",
+   "elo": 1716,
+   "comp": "clg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-24",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "우크라이나 1부 2020-21 1위/14팀 (Ukrainian Premier League)",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "Ferencvárosi TC",
+   "elo": 1564,
+   "comp": "clg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "헝가리 1부 2020-21 1위/12팀 (Nemzeti Bajnokság I)",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1876,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1783,
+   "comp": "df",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 10위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "a",
+   "opp": "Rayo Vallecano",
+   "elo": 1619,
+   "comp": "dc",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2020-21 6위/22팀",
+   "note": "Frenkie de Jong"
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1753,
+   "comp": "dk",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-02-03",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Granada CF",
+   "elo": 1753,
+   "comp": "dk",
+   "min": 100,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-02-03",
+   "et": 1,
+   "dm": 0,
+   "lv": "라리가 2020-21 9위",
+   "note": "Antoine Griezmann"
+  },
+  {
+   "type": "g",
+   "opp": "Granada CF",
+   "elo": 1753,
+   "comp": "dk",
+   "min": 113,
+   "gf": 4,
+   "ga": 3,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-02-03",
+   "et": 1,
+   "dm": 0,
+   "lv": "라리가 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1705,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1942,
+   "comp": "dsf",
+   "min": 95,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-03",
+   "et": 1,
+   "dm": 0,
+   "lv": "라리가 2020-21 4위",
+   "note": "Martin Braithwaite",
+   "tie": [
+    2,
+    1,
+    0,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1754,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Sociedad",
+   "elo": 1876,
+   "comp": "lg",
+   "min": 89,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 5위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1998,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 2위",
+   "note": "Óscar Mingueza"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1783,
+   "comp": "df",
+   "min": 63,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 10위",
+   "note": "Frenkie de Jong"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1783,
+   "comp": "df",
+   "min": 72,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2020-21 10위",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Getafe CF",
+   "elo": 1707,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 15위",
+   "note": "Sergi Roberto"
+  },
+  {
+   "type": "a",
+   "opp": "Dynamo Kyiv",
+   "elo": 1720,
+   "comp": "clg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2021-22 2위/16팀 (Ukrainian Premier League)",
+   "note": "Gerard Piqué"
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1637,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 20위",
+   "note": "Memphis Depay"
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 11위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 34,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 11위",
+   "note": "Memphis Depay"
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 1992,
+   "comp": "dsf",
+   "min": 83,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 1위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "g",
+   "opp": "Atlético de Madrid",
+   "elo": 1889,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 14위",
+   "note": "Pedri"
+  },
+  {
+   "type": "a",
+   "opp": "Valencia CF",
+   "elo": 1751,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 9위",
+   "note": "Pierre-Emerick Aubameyang"
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1931,
+   "comp": "elk",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 3위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Elche CF",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 13위",
+   "note": "Ferran Torres"
+  },
+  {
+   "type": "a",
+   "opp": "Levante UD",
+   "elo": 1666,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-10",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "라리가 2021-22 19위",
+   "note": "Luuk de Jong"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1681,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 16위",
+   "note": "Memphis Depay"
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1862,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 5위",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1862,
+   "comp": "lg",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-07",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "라리가 2021-22 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Villarreal CF",
+   "elo": 1844,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 5위",
+   "note": "Robert Lewandowski"
+  },
+  {
+   "type": "a",
+   "opp": "FC Viktoria Plzen",
+   "elo": 1571,
+   "comp": "clg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1부 2022-23 3위/16팀 (Czech First League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": "Ferran Torres"
+  },
+  {
+   "type": "a",
+   "opp": "CF Intercity",
+   "elo": 1282,
+   "comp": "dc",
+   "min": 77,
+   "gf": 2,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2022-23 12위/20팀 (Primera Federación Grupo II, 리그 수준 추정)",
+   "note": "Raphinha"
+  },
+  {
+   "type": "a",
+   "opp": "AD Ceuta FC",
+   "elo": 1266,
+   "comp": "dc",
+   "min": 70,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2022-23 12위/20팀 (Primera Federación Grupo I, 리그 수준 추정)",
+   "note": "Ansu Fati"
+  },
+  {
+   "type": "a",
+   "opp": "Girona FC",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 10위",
+   "note": "Pedri"
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sevilla FC",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 12위",
+   "note": "Raphinha"
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Dallas",
+   "elo": 1558,
+   "comp": "lck",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2023 14위/29팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "FC Dallas",
+   "elo": 1558,
+   "comp": "lck",
+   "min": 65,
+   "gf": 1,
+   "ga": 3,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-08-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2023 14위/29팀",
+   "note": "Benja Cremaschi"
+  },
+  {
+   "type": "g",
+   "opp": "Philadelphia Union",
+   "elo": 1603,
+   "comp": "lck",
+   "min": 48,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2023-08-15",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "MLS 2023 5위/29팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Los Angeles FC",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2023 8위/29팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Los Angeles Galaxy",
+   "elo": 1636,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-25",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "MLS 2024 4위/29팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "CF Montréal",
+   "elo": 1524,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 17위/29팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Vancouver Whitecaps FC",
+   "elo": 1586,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 서부 8위/29팀·승점 47 (추정, 전체 17위 안팎; 다른 선수 자료 MLS 2024 13위 1580·20위 1551 사이)",
+   "note": "Robert Taylor"
+  },
+  {
+   "type": "a",
+   "opp": "St. Louis CITY SC",
+   "elo": 1505,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-06-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 24위/29팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "St. Louis CITY SC",
+   "elo": 1505,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-06-01",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "MLS 2024 24위/29팀",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "g",
+   "opp": "St. Louis CITY SC",
+   "elo": 1505,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-06-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 24위/29팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Nashville SC",
+   "elo": 1499,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-06-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 25위/29팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Charlotte FC",
+   "elo": 1579,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-07-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 11위/29팀",
+   "note": "Robert Taylor"
+  },
+  {
+   "type": "g",
+   "opp": "Chicago Fire FC",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-07-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 28위/29팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Puebla FC",
+   "elo": 1454,
+   "comp": "lcg",
+   "min": 72,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-07-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리가MX 2023-24 18위/18팀 (Liga MX, 연간 합산 순위)",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Toronto FC",
+   "elo": 1497,
+   "comp": "lck",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 22위/29팀",
+   "note": "Matías Rojas"
+  },
+  {
+   "type": "a",
+   "opp": "Toronto FC",
+   "elo": 1497,
+   "comp": "lck",
+   "min": 11,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 22위/29팀",
+   "note": "Diego Gómez"
+  },
+  {
+   "type": "a",
+   "opp": "Toronto FC",
+   "elo": 1497,
+   "comp": "lck",
+   "min": 20,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 22위/29팀",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Toronto FC",
+   "elo": 1497,
+   "comp": "lck",
+   "min": 59,
+   "gf": 3,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 22위/29팀",
+   "note": "Matías Rojas"
+  },
+  {
+   "type": "a",
+   "opp": "Chicago Fire FC",
+   "elo": 1471,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 28위/29팀",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "a",
+   "opp": "Philadelphia Union",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 23위/29팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "New York City FC",
+   "elo": 1571,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 13위/29팀",
+   "note": "Leonardo Campana"
+  },
+  {
+   "type": "a",
+   "opp": "New England Revolution",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 58,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 26위/29팀",
+   "note": "Benja Cremaschi"
+  },
+  {
+   "type": "a",
+   "opp": "New England Revolution",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 81,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 26위/29팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "Atlanta United FC",
+   "elo": 1527,
+   "comp": "mlp",
+   "min": 60,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2024 20위/29팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sporting Kansas City",
+   "elo": 1466,
+   "comp": "ccc",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-25",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "MLS 2025 27위/30팀",
+   "note": "Tadeo Allende",
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Atlanta United FC",
+   "elo": 1465,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 29위/30팀",
+   "note": "Fafà Picault"
+  },
+  {
+   "type": "g",
+   "opp": "Vancouver Whitecaps FC",
+   "elo": 1646,
+   "comp": "cccsf",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 5위/30팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Minnesota United FC",
+   "elo": 1617,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 8위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "San Jose Earthquakes",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 20위/30팀",
+   "note": "Maximiliano Falcón"
+  },
+  {
+   "type": "a",
+   "opp": "San Jose Earthquakes",
+   "elo": 1535,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 20위/30팀",
+   "note": "Tadeo Allende"
+  },
+  {
+   "type": "g",
+   "opp": "New York Red Bulls",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-07-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 18위/30팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "New York Red Bulls",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-07-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 18위/30팀",
+   "note": "Telasco Segovia"
+  },
+  {
+   "type": "g",
+   "opp": "Club Necaxa",
+   "elo": 1491,
+   "comp": "lcg",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-02",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "리가MX 2025-26 13위/18팀 (Liga MX, 연간 합산 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Los Angeles Galaxy",
+   "elo": 1478,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 26위/30팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Orlando City SC",
+   "elo": 1594,
+   "comp": "lck",
+   "min": 88,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 14위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "g",
+   "opp": "Seattle Sounders FC",
+   "elo": 1599,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 10위/30팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Seattle Sounders FC",
+   "elo": 1599,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 10위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "D.C. United",
+   "elo": 1446,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 30위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Toronto FC",
+   "elo": 1499,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-27",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "MLS 2025 25위/30팀",
+   "note": "Tadeo Allende"
+  },
+  {
+   "type": "a",
+   "opp": "Chicago Fire FC",
+   "elo": 1589,
+   "comp": "lg",
+   "min": 74,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 13위/30팀",
+   "note": "Luis Suárez"
+  },
+  {
+   "type": "g",
+   "opp": "New England Revolution",
+   "elo": 1513,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "MLS 2025 23위/30팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "New England Revolution",
+   "elo": 1513,
+   "comp": "lg",
+   "min": 63,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 23위/30팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atlanta United FC",
+   "elo": 1465,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 29위/30팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Atlanta United FC",
+   "elo": 1465,
+   "comp": "lg",
+   "min": 87,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 29위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Nashville SC",
+   "elo": 1598,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 11위/30팀",
+   "note": "Lionel Messi"
+  },
+  {
+   "type": "a",
+   "opp": "Nashville SC",
+   "elo": 1598,
+   "comp": "mlp",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 11위/30팀",
+   "note": "Tadeo Allende"
+  },
+  {
+   "type": "a",
+   "opp": "New York City FC",
+   "elo": 1598,
+   "comp": "mlpsf",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 9위/30팀",
+   "note": "Tadeo Allende"
+  },
+  {
+   "type": "a",
+   "opp": "New York City FC",
+   "elo": 1598,
+   "comp": "mlpsf",
+   "min": 83,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "MLS 2025 9위/30팀",
+   "note": "Telasco Segovia"
+  }
+ ],
+ "M": [
+  [
+   "2008-08-30",
+   "CD Tenerife",
+   "lg",
+   1
+  ],
+  [
+   "2008-09-03",
+   "Girona FC",
+   "dc",
+   90
+  ],
+  [
+   "2008-09-07",
+   "SD Huesca",
+   "lg",
+   20
+  ],
+  [
+   "2008-09-20",
+   "Alicante CF",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-28",
+   "Albacete Balompié",
+   "lg",
+   45
+  ],
+  [
+   "2008-11-01",
+   "Real Sociedad",
+   "lg",
+   9
+  ],
+  [
+   "2008-11-08",
+   "UD Las Palmas",
+   "lg",
+   26
+  ],
+  [
+   "2008-11-15",
+   "Real Zaragoza",
+   "lg",
+   31
+  ],
+  [
+   "2008-11-22",
+   "Real Murcia CF",
+   "lg",
+   6
+  ],
+  [
+   "2008-11-30",
+   "Hércules CF",
+   "lg",
+   68
+  ],
+  [
+   "2008-12-06",
+   "Deportivo Alavés",
+   "lg",
+   6
+  ],
+  [
+   "2008-12-14",
+   "Sevilla Atlético",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-21",
+   "Xerez CD",
+   "lg",
+   86
+  ],
+  [
+   "2009-01-03",
+   "Girona FC",
+   "lg",
+   87
+  ],
+  [
+   "2009-01-11",
+   "CD Castellón",
+   "lg",
+   64
+  ],
+  [
+   "2009-01-18",
+   "Elche CF",
+   "lg",
+   28
+  ],
+  [
+   "2009-02-01",
+   "CD Tenerife",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-04",
+   "SD Eibar",
+   "lg",
+   81
+  ],
+  [
+   "2009-02-08",
+   "SD Huesca",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-14",
+   "Celta de Vigo",
+   "lg",
+   71
+  ],
+  [
+   "2009-02-22",
+   "Alicante CF",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-01",
+   "Albacete Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-08",
+   "UD Salamanca",
+   "lg",
+   72
+  ],
+  [
+   "2009-03-14",
+   "Córdoba CF",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-22",
+   "Rayo Vallecano",
+   "lg",
+   77
+  ],
+  [
+   "2009-04-04",
+   "Real Sociedad",
+   "lg",
+   5
+  ],
+  [
+   "2009-04-11",
+   "UD Las Palmas",
+   "lg",
+   30
+  ],
+  [
+   "2009-04-18",
+   "Real Zaragoza",
+   "lg",
+   29
+  ],
+  [
+   "2009-04-25",
+   "Real Murcia CF",
+   "lg",
+   45
+  ],
+  [
+   "2009-05-03",
+   "Hércules CF",
+   "lg",
+   82
+  ],
+  [
+   "2009-05-10",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-17",
+   "Sevilla Atlético",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-24",
+   "Xerez CD",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-30",
+   "Girona FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-06-06",
+   "CD Castellón",
+   "lg",
+   90
+  ],
+  [
+   "2009-06-14",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2009-09-13",
+   "Real Valladolid CF",
+   "lg",
+   11
+  ],
+  [
+   "2009-09-17",
+   "LOSC Lille",
+   "elg",
+   77
+  ],
+  [
+   "2009-10-22",
+   "SK Slavia Prague",
+   "elg",
+   61
+  ],
+  [
+   "2009-10-28",
+   "CD Alcoyano",
+   "dc",
+   90
+  ],
+  [
+   "2009-11-05",
+   "SK Slavia Prague",
+   "elg",
+   25
+  ],
+  [
+   "2009-11-10",
+   "CD Alcoyano",
+   "dc",
+   90
+  ],
+  [
+   "2009-12-02",
+   "LOSC Lille",
+   "elg",
+   14
+  ],
+  [
+   "2009-12-17",
+   "Genoa CFC",
+   "elg",
+   1
+  ],
+  [
+   "2009-12-20",
+   "Deportivo A Coruña",
+   "lg",
+   33
+  ],
+  [
+   "2010-01-02",
+   "RCD Espanyol Barcelona",
+   "lg",
+   60
+  ],
+  [
+   "2010-03-11",
+   "SV Werder Bremen",
+   "elk",
+   45
+  ],
+  [
+   "2010-03-14",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-18",
+   "SV Werder Bremen",
+   "elk",
+   45
+  ],
+  [
+   "2010-03-21",
+   "UD Almería",
+   "lg",
+   45
+  ],
+  [
+   "2010-03-24",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-01",
+   "Atlético de Madrid",
+   "elk",
+   90
+  ],
+  [
+   "2010-04-04",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-08",
+   "Atlético de Madrid",
+   "elk",
+   90
+  ],
+  [
+   "2010-04-11",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-15",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-18",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-24",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-01",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-04",
+   "Xerez CD",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-08",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2010-05-16",
+   "CD Tenerife",
+   "lg",
+   71
+  ],
+  [
+   "2010-08-28",
+   "Málaga CF",
+   "lg",
+   18
+  ],
+  [
+   "2010-09-11",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-22",
+   "Atlético de Madrid",
+   "lg",
+   17
+  ],
+  [
+   "2010-09-25",
+   "Sporting Gijón",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-16",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-23",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2010-10-27",
+   "UD Logroñés",
+   "dc",
+   90
+  ],
+  [
+   "2010-11-08",
+   "Sevilla FC",
+   "lg",
+   20
+  ],
+  [
+   "2010-11-11",
+   "UD Logroñés",
+   "dc",
+   90
+  ],
+  [
+   "2010-11-14",
+   "Getafe CF",
+   "lg",
+   49
+  ],
+  [
+   "2010-11-24",
+   "Bursaspor",
+   "clg",
+   90
+  ],
+  [
+   "2010-11-28",
+   "UD Almería",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-04",
+   "Real Madrid",
+   "lg",
+   60
+  ],
+  [
+   "2010-12-07",
+   "Manchester United",
+   "clg",
+   68
+  ],
+  [
+   "2010-12-13",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2010-12-21",
+   "Villarreal CF",
+   "dc",
+   12
+  ],
+  [
+   "2011-01-06",
+   "Villarreal CF",
+   "dc",
+   19
+  ],
+  [
+   "2011-01-09",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-16",
+   "Deportivo A Coruña",
+   "lg",
+   2
+  ],
+  [
+   "2011-01-22",
+   "Málaga CF",
+   "lg",
+   45
+  ],
+  [
+   "2011-02-06",
+   "Hércules CF",
+   "lg",
+   7
+  ],
+  [
+   "2011-02-12",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-15",
+   "FC Schalke 04",
+   "cl16",
+   11
+  ],
+  [
+   "2011-02-27",
+   "Athletic Bilbao",
+   "lg",
+   18
+  ],
+  [
+   "2011-03-02",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-05",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-12",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-20",
+   "Sevilla FC",
+   "lg",
+   11
+  ],
+  [
+   "2011-04-02",
+   "Getafe CF",
+   "lg",
+   10
+  ],
+  [
+   "2011-04-16",
+   "UD Almería",
+   "lg",
+   12
+  ],
+  [
+   "2011-04-23",
+   "Real Madrid",
+   "lg",
+   8
+  ],
+  [
+   "2011-05-11",
+   "RCD Espanyol Barcelona",
+   "lg",
+   21
+  ],
+  [
+   "2011-05-15",
+   "Levante UD",
+   "lg",
+   35
+  ],
+  [
+   "2011-05-21",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2011-08-27",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-10",
+   "Atlético de Madrid",
+   "lg",
+   30
+  ],
+  [
+   "2011-09-17",
+   "Sporting Gijón",
+   "lg",
+   90
+  ],
+  [
+   "2011-09-21",
+   "FC Barcelona",
+   "lg",
+   89
+  ],
+  [
+   "2011-09-28",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2011-10-15",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-19",
+   "Bayer 04 Leverkusen",
+   "clg",
+   65
+  ],
+  [
+   "2011-10-26",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-29",
+   "Getafe CF",
+   "lg",
+   34
+  ],
+  [
+   "2011-11-01",
+   "Bayer 04 Leverkusen",
+   "clg",
+   16
+  ],
+  [
+   "2011-11-05",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-19",
+   "Real Madrid",
+   "lg",
+   84
+  ],
+  [
+   "2011-11-26",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-03",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-06",
+   "Chelsea FC",
+   "clg",
+   55
+  ],
+  [
+   "2011-12-13",
+   "Cádiz CF",
+   "dc",
+   90
+  ],
+  [
+   "2011-12-18",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-22",
+   "Cádiz CF",
+   "dc",
+   75
+  ],
+  [
+   "2012-01-05",
+   "Sevilla FC",
+   "dc",
+   90
+  ],
+  [
+   "2012-01-08",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-11",
+   "Sevilla FC",
+   "dc",
+   90
+  ],
+  [
+   "2012-01-14",
+   "Real Sociedad",
+   "lg",
+   37
+  ],
+  [
+   "2012-01-19",
+   "Levante UD",
+   "dk",
+   90
+  ],
+  [
+   "2012-01-22",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-26",
+   "Levante UD",
+   "dk",
+   67
+  ],
+  [
+   "2012-02-01",
+   "FC Barcelona",
+   "dsf",
+   90
+  ],
+  [
+   "2012-02-05",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-08",
+   "FC Barcelona",
+   "dsf",
+   90
+  ],
+  [
+   "2012-02-12",
+   "Sporting Gijón",
+   "lg",
+   81
+  ],
+  [
+   "2012-02-19",
+   "FC Barcelona",
+   "lg",
+   25
+  ],
+  [
+   "2012-02-23",
+   "Stoke City",
+   "elk",
+   90
+  ],
+  [
+   "2012-02-26",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-04",
+   "Granada CF",
+   "lg",
+   80
+  ],
+  [
+   "2012-03-11",
+   "RCD Mallorca",
+   "lg",
+   74
+  ],
+  [
+   "2012-03-15",
+   "PSV Eindhoven",
+   "elk",
+   90
+  ],
+  [
+   "2012-03-18",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-21",
+   "Real Zaragoza",
+   "lg",
+   28
+  ],
+  [
+   "2012-03-24",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-29",
+   "AZ Alkmaar",
+   "elk",
+   90
+  ],
+  [
+   "2012-04-05",
+   "AZ Alkmaar",
+   "elk",
+   90
+  ],
+  [
+   "2012-04-08",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-11",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-15",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-19",
+   "Atlético de Madrid",
+   "elsf",
+   72
+  ],
+  [
+   "2012-04-22",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-26",
+   "Atlético de Madrid",
+   "elsf",
+   90
+  ],
+  [
+   "2012-04-29",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-02",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-05",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-12",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2012-08-19",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2012-08-23",
+   "Real Madrid",
+   "df",
+   4
+  ],
+  [
+   "2012-08-26",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2012-08-29",
+   "Real Madrid",
+   "df",
+   90
+  ],
+  [
+   "2012-09-02",
+   "Valencia CF",
+   "lg",
+   45
+  ],
+  [
+   "2012-09-29",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-10-02",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2012-10-07",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2012-10-20",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2012-10-23",
+   "Celtic FC",
+   "clg",
+   90
+  ],
+  [
+   "2012-10-27",
+   "Rayo Vallecano",
+   "lg",
+   81
+  ],
+  [
+   "2012-11-03",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-07",
+   "Celtic FC",
+   "clg",
+   90
+  ],
+  [
+   "2012-11-11",
+   "RCD Mallorca",
+   "lg",
+   86
+  ],
+  [
+   "2012-11-17",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-20",
+   "Spartak Moscow",
+   "clg",
+   87
+  ],
+  [
+   "2012-11-25",
+   "Levante UD",
+   "lg",
+   74
+  ],
+  [
+   "2012-12-01",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-09",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-12",
+   "Córdoba CF",
+   "dc",
+   90
+  ],
+  [
+   "2012-12-16",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-22",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-06",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-13",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-19",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-24",
+   "Málaga CF",
+   "dk",
+   89
+  ],
+  [
+   "2013-01-30",
+   "Real Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2013-02-03",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-10",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-02-16",
+   "Granada CF",
+   "lg",
+   52
+  ],
+  [
+   "2013-02-20",
+   "AC Milan",
+   "cl16",
+   90
+  ],
+  [
+   "2013-02-26",
+   "Real Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2013-03-02",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-12",
+   "AC Milan",
+   "cl16",
+   90
+  ],
+  [
+   "2013-03-17",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2013-04-02",
+   "Paris Saint-Germain",
+   "clk",
+   90
+  ],
+  [
+   "2013-04-10",
+   "Paris Saint-Germain",
+   "clk",
+   90
+  ],
+  [
+   "2013-04-23",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2013-04-27",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-05",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-12",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-19",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-26",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2013-06-01",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-21",
+   "Atlético de Madrid",
+   "df",
+   90
+  ],
+  [
+   "2013-08-25",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-28",
+   "Atlético de Madrid",
+   "df",
+   90
+  ],
+  [
+   "2013-09-01",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-14",
+   "Sevilla FC",
+   "lg",
+   15
+  ],
+  [
+   "2013-12-06",
+   "FC Cartagena",
+   "dc",
+   80
+  ],
+  [
+   "2013-12-14",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-17",
+   "FC Cartagena",
+   "dc",
+   10
+  ],
+  [
+   "2013-12-22",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-05",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-11",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-19",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-26",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-02-01",
+   "Valencia CF",
+   "lg",
+   78
+  ],
+  [
+   "2014-02-05",
+   "Real Sociedad",
+   "dsf",
+   90
+  ],
+  [
+   "2014-02-12",
+   "Real Sociedad",
+   "dsf",
+   90
+  ],
+  [
+   "2014-02-18",
+   "Manchester City",
+   "cl16",
+   90
+  ],
+  [
+   "2014-03-12",
+   "Manchester City",
+   "cl16",
+   90
+  ],
+  [
+   "2014-03-16",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-23",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-26",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-29",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-01",
+   "Atlético de Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2014-04-09",
+   "Atlético de Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2014-04-12",
+   "Granada CF",
+   "lg",
+   22
+  ],
+  [
+   "2014-04-16",
+   "Real Madrid",
+   "df",
+   45
+  ],
+  [
+   "2014-08-24",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-31",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-09-13",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2014-09-21",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2014-09-24",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-09-30",
+   "Paris Saint-Germain",
+   "clg",
+   90
+  ],
+  [
+   "2014-10-18",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2014-10-21",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2014-11-01",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-05",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2014-11-08",
+   "UD Almería",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-22",
+   "Sevilla FC",
+   "lg",
+   81
+  ],
+  [
+   "2014-11-25",
+   "APOEL Nicosia",
+   "clg",
+   62
+  ],
+  [
+   "2014-11-30",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-12-07",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2014-12-13",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2014-12-20",
+   "Córdoba CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-01-04",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2015-01-08",
+   "Elche CF",
+   "dc",
+   60
+  ],
+  [
+   "2015-01-11",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2015-01-18",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2015-01-21",
+   "Atlético de Madrid",
+   "dk",
+   90
+  ],
+  [
+   "2015-01-24",
+   "Elche CF",
+   "lg",
+   69
+  ],
+  [
+   "2015-01-28",
+   "Atlético de Madrid",
+   "dk",
+   90
+  ],
+  [
+   "2015-02-01",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-02-08",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2015-02-11",
+   "Villarreal CF",
+   "dsf",
+   90
+  ],
+  [
+   "2015-02-21",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-02-24",
+   "Manchester City",
+   "cl16",
+   90
+  ],
+  [
+   "2015-02-28",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-03-04",
+   "Villarreal CF",
+   "dsf",
+   90
+  ],
+  [
+   "2015-03-08",
+   "Rayo Vallecano",
+   "lg",
+   70
+  ],
+  [
+   "2015-03-18",
+   "Manchester City",
+   "cl16",
+   90
+  ],
+  [
+   "2015-03-22",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-11",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-15",
+   "Paris Saint-Germain",
+   "clk",
+   90
+  ],
+  [
+   "2015-04-21",
+   "Paris Saint-Germain",
+   "clk",
+   90
+  ],
+  [
+   "2015-04-25",
+   "RCD Espanyol Barcelona",
+   "lg",
+   54
+  ],
+  [
+   "2015-05-02",
+   "Córdoba CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-06",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2015-05-12",
+   "FC Bayern Munich",
+   "clsf",
+   90
+  ],
+  [
+   "2015-05-17",
+   "Atlético de Madrid",
+   "lg",
+   79
+  ],
+  [
+   "2015-05-30",
+   "Athletic Bilbao",
+   "df",
+   77
+  ],
+  [
+   "2015-06-06",
+   "Juventus FC",
+   "clf",
+   90
+  ],
+  [
+   "2015-08-23",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-29",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-12",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-16",
+   "AS Roma",
+   "clg",
+   90
+  ],
+  [
+   "2015-09-29",
+   "Bayer 04 Leverkusen",
+   "clg",
+   30
+  ],
+  [
+   "2015-10-03",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-17",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-20",
+   "BATE Borisov",
+   "clg",
+   90
+  ],
+  [
+   "2015-10-25",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-31",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-08",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-21",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-24",
+   "AS Roma",
+   "clg",
+   90
+  ],
+  [
+   "2015-11-28",
+   "Real Sociedad",
+   "lg",
+   24
+  ],
+  [
+   "2015-12-05",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-09",
+   "Bayer 04 Leverkusen",
+   "clg",
+   74
+  ],
+  [
+   "2015-12-12",
+   "Deportivo A Coruña",
+   "lg",
+   76
+  ],
+  [
+   "2015-12-17",
+   "Guangzhou FC",
+   "cwc",
+   76
+  ],
+  [
+   "2015-12-20",
+   "CA River Plate",
+   "cwc",
+   90
+  ],
+  [
+   "2016-01-02",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-06",
+   "RCD Espanyol Barcelona",
+   "dc",
+   90
+  ],
+  [
+   "2016-01-09",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-17",
+   "Athletic Bilbao",
+   "lg",
+   69
+  ],
+  [
+   "2016-01-30",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-03",
+   "Valencia CF",
+   "dsf",
+   70
+  ],
+  [
+   "2016-02-07",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-14",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-20",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-23",
+   "Arsenal FC",
+   "cl16",
+   90
+  ],
+  [
+   "2016-02-28",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-06",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-12",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-16",
+   "Arsenal FC",
+   "cl16",
+   90
+  ],
+  [
+   "2016-03-20",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-02",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-05",
+   "Atlético de Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2016-04-09",
+   "Real Sociedad",
+   "lg",
+   32
+  ],
+  [
+   "2016-04-13",
+   "Atlético de Madrid",
+   "clk",
+   90
+  ],
+  [
+   "2016-04-17",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-20",
+   "Deportivo A Coruña",
+   "lg",
+   70
+  ],
+  [
+   "2016-04-23",
+   "Sporting Gijón",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-30",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2016-05-08",
+   "RCD Espanyol Barcelona",
+   "lg",
+   70
+  ],
+  [
+   "2016-05-14",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2016-05-22",
+   "Sevilla FC",
+   "df",
+   119
+  ],
+  [
+   "2016-08-17",
+   "Sevilla FC",
+   "df",
+   29
+  ],
+  [
+   "2016-08-20",
+   "Real Betis Balompié",
+   "lg",
+   76
+  ],
+  [
+   "2016-08-28",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-13",
+   "Celtic FC",
+   "clg",
+   90
+  ],
+  [
+   "2016-09-17",
+   "CD Leganés",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-21",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-28",
+   "Borussia Mönchengladbach",
+   "clg",
+   90
+  ],
+  [
+   "2016-10-02",
+   "Celta de Vigo",
+   "lg",
+   82
+  ],
+  [
+   "2016-10-19",
+   "Manchester City",
+   "clg",
+   10
+  ],
+  [
+   "2016-11-19",
+   "Málaga CF",
+   "lg",
+   28
+  ],
+  [
+   "2016-11-23",
+   "Celtic FC",
+   "clg",
+   66
+  ],
+  [
+   "2016-11-27",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-03",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-10",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-18",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-05",
+   "Athletic Bilbao",
+   "dc",
+   90
+  ],
+  [
+   "2017-01-11",
+   "Athletic Bilbao",
+   "dc",
+   90
+  ],
+  [
+   "2017-01-14",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-22",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-26",
+   "Real Sociedad",
+   "dk",
+   90
+  ],
+  [
+   "2017-01-29",
+   "Real Betis Balompié",
+   "lg",
+   22
+  ],
+  [
+   "2017-02-01",
+   "Atlético de Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2017-02-07",
+   "Atlético de Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2017-02-11",
+   "Deportivo Alavés",
+   "lg",
+   24
+  ],
+  [
+   "2017-02-14",
+   "Paris Saint-Germain",
+   "cl16",
+   90
+  ],
+  [
+   "2017-02-19",
+   "CD Leganés",
+   "lg",
+   9
+  ],
+  [
+   "2017-03-01",
+   "Sporting Gijón",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-04",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-12",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-02",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-08",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-15",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-19",
+   "Juventus FC",
+   "clk",
+   90
+  ],
+  [
+   "2017-04-23",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-29",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-06",
+   "Villarreal CF",
+   "lg",
+   15
+  ],
+  [
+   "2017-05-14",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-21",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-27",
+   "Deportivo Alavés",
+   "df",
+   90
+  ],
+  [
+   "2017-08-13",
+   "Real Madrid",
+   "df",
+   90
+  ],
+  [
+   "2017-08-16",
+   "Real Madrid",
+   "df",
+   78
+  ],
+  [
+   "2017-08-20",
+   "Real Betis Balompié",
+   "lg",
+   87
+  ],
+  [
+   "2017-08-26",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-09",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-12",
+   "Juventus FC",
+   "clg",
+   90
+  ],
+  [
+   "2017-09-16",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-23",
+   "Girona FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-27",
+   "Sporting CP",
+   "clg",
+   90
+  ],
+  [
+   "2017-10-01",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-14",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-28",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-31",
+   "Olympiacos Piraeus",
+   "clg",
+   90
+  ],
+  [
+   "2017-11-04",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-18",
+   "CD Leganés",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-22",
+   "Juventus FC",
+   "clg",
+   8
+  ],
+  [
+   "2017-11-26",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-02",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-10",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-17",
+   "Deportivo A Coruña",
+   "lg",
+   81
+  ],
+  [
+   "2017-12-23",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-07",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-11",
+   "Celta de Vigo",
+   "dc",
+   90
+  ],
+  [
+   "2018-01-14",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-21",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-25",
+   "RCD Espanyol Barcelona",
+   "dk",
+   90
+  ],
+  [
+   "2018-01-28",
+   "Deportivo Alavés",
+   "lg",
+   38
+  ],
+  [
+   "2018-02-01",
+   "Valencia CF",
+   "dsf",
+   90
+  ],
+  [
+   "2018-02-04",
+   "RCD Espanyol Barcelona",
+   "lg",
+   15
+  ],
+  [
+   "2018-02-08",
+   "Valencia CF",
+   "dsf",
+   90
+  ],
+  [
+   "2018-02-11",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-17",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-20",
+   "Chelsea FC",
+   "cl16",
+   90
+  ],
+  [
+   "2018-02-24",
+   "Girona FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-04",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-10",
+   "Málaga CF",
+   "lg",
+   77
+  ],
+  [
+   "2018-03-14",
+   "Chelsea FC",
+   "cl16",
+   90
+  ],
+  [
+   "2018-03-18",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-31",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-04",
+   "AS Roma",
+   "clk",
+   90
+  ],
+  [
+   "2018-04-07",
+   "CD Leganés",
+   "lg",
+   16
+  ],
+  [
+   "2018-04-10",
+   "AS Roma",
+   "clk",
+   90
+  ],
+  [
+   "2018-04-14",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-21",
+   "Sevilla FC",
+   "df",
+   90
+  ],
+  [
+   "2018-04-29",
+   "Deportivo A Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-06",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-13",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-20",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-12",
+   "Sevilla FC",
+   "df",
+   90
+  ],
+  [
+   "2018-08-18",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-25",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-02",
+   "SD Huesca",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-15",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-18",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2018-09-23",
+   "Girona FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-26",
+   "CD Leganés",
+   "lg",
+   20
+  ],
+  [
+   "2018-09-29",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-03",
+   "Tottenham Hotspur",
+   "clg",
+   90
+  ],
+  [
+   "2018-10-07",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-20",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-10-24",
+   "Inter Milan",
+   "clg",
+   90
+  ],
+  [
+   "2018-10-28",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-03",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-06",
+   "Inter Milan",
+   "clg",
+   90
+  ],
+  [
+   "2018-11-11",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-24",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-28",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2018-12-02",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-08",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-16",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-22",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-06",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-13",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-17",
+   "Levante UD",
+   "dc",
+   73
+  ],
+  [
+   "2019-01-20",
+   "CD Leganés",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-23",
+   "Sevilla FC",
+   "dk",
+   10
+  ],
+  [
+   "2019-01-27",
+   "Girona FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-01-30",
+   "Sevilla FC",
+   "dk",
+   90
+  ],
+  [
+   "2019-02-02",
+   "Valencia CF",
+   "lg",
+   45
+  ],
+  [
+   "2019-02-06",
+   "Real Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2019-02-16",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-19",
+   "Olympique Lyon",
+   "cl16",
+   90
+  ],
+  [
+   "2019-02-23",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-27",
+   "Real Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2019-03-02",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-09",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-13",
+   "Olympique Lyon",
+   "cl16",
+   90
+  ],
+  [
+   "2019-03-17",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-30",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-02",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-06",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-10",
+   "Manchester United",
+   "clk",
+   90
+  ],
+  [
+   "2019-04-13",
+   "SD Huesca",
+   "lg",
+   23
+  ],
+  [
+   "2019-04-16",
+   "Manchester United",
+   "clk",
+   90
+  ],
+  [
+   "2019-04-20",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-23",
+   "Deportivo Alavés",
+   "lg",
+   20
+  ],
+  [
+   "2019-04-27",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-01",
+   "Liverpool FC",
+   "clsf",
+   90
+  ],
+  [
+   "2019-05-07",
+   "Liverpool FC",
+   "clsf",
+   90
+  ],
+  [
+   "2019-05-12",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-19",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-25",
+   "Valencia CF",
+   "df",
+   90
+  ],
+  [
+   "2019-08-16",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-25",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-31",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-14",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-17",
+   "Borussia Dortmund",
+   "clg",
+   40
+  ],
+  [
+   "2019-10-19",
+   "SD Eibar",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-23",
+   "SK Slavia Prague",
+   "clg",
+   90
+  ],
+  [
+   "2019-10-29",
+   "Real Valladolid CF",
+   "lg",
+   78
+  ],
+  [
+   "2019-11-05",
+   "SK Slavia Prague",
+   "clg",
+   45
+  ],
+  [
+   "2019-12-14",
+   "Real Sociedad",
+   "lg",
+   74
+  ],
+  [
+   "2019-12-18",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-21",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-04",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-09",
+   "Atlético de Madrid",
+   "dsf",
+   90
+  ],
+  [
+   "2020-01-19",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-22",
+   "UD Ibiza",
+   "dc",
+   31
+  ],
+  [
+   "2020-01-25",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-30",
+   "CD Leganés",
+   "dc",
+   64
+  ],
+  [
+   "2020-02-02",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-06",
+   "Athletic Bilbao",
+   "dk",
+   90
+  ],
+  [
+   "2020-02-09",
+   "Real Betis Balompié",
+   "lg",
+   33
+  ],
+  [
+   "2020-02-15",
+   "Getafe CF",
+   "lg",
+   22
+  ],
+  [
+   "2020-03-01",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2020-03-07",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-13",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-19",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-23",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-27",
+   "Celta de Vigo",
+   "lg",
+   81
+  ],
+  [
+   "2020-06-30",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-05",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-08",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-11",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-07-16",
+   "CA Osasuna",
+   "lg",
+   11
+  ],
+  [
+   "2020-07-19",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2020-08-08",
+   "SSC Napoli",
+   "cl16",
+   90
+  ],
+  [
+   "2020-08-14",
+   "FC Bayern Munich",
+   "clk",
+   90
+  ],
+  [
+   "2020-09-27",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-01",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-04",
+   "Sevilla FC",
+   "lg",
+   75
+  ],
+  [
+   "2020-10-24",
+   "Real Madrid",
+   "lg",
+   87
+  ],
+  [
+   "2020-10-28",
+   "Juventus FC",
+   "clg",
+   90
+  ],
+  [
+   "2020-10-31",
+   "Deportivo Alavés",
+   "lg",
+   69
+  ],
+  [
+   "2020-11-04",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2020-11-07",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-21",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-24",
+   "Dynamo Kyiv",
+   "clg",
+   24
+  ],
+  [
+   "2020-11-29",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-02",
+   "Ferencvárosi TC",
+   "clg",
+   45
+  ],
+  [
+   "2020-12-05",
+   "Cádiz CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-08",
+   "Juventus FC",
+   "clg",
+   55
+  ],
+  [
+   "2020-12-13",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-16",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-19",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-22",
+   "Real Valladolid CF",
+   "lg",
+   71
+  ],
+  [
+   "2021-01-03",
+   "SD Huesca",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-06",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-09",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-13",
+   "Real Sociedad",
+   "dsf",
+   120
+  ],
+  [
+   "2021-01-17",
+   "Athletic Bilbao",
+   "df",
+   120
+  ],
+  [
+   "2021-01-24",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-27",
+   "Rayo Vallecano",
+   "dc",
+   22
+  ],
+  [
+   "2021-01-31",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-03",
+   "Granada CF",
+   "dk",
+   120
+  ],
+  [
+   "2021-02-07",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-10",
+   "Sevilla FC",
+   "dsf",
+   90
+  ],
+  [
+   "2021-02-16",
+   "Paris Saint-Germain",
+   "cl16",
+   90
+  ],
+  [
+   "2021-02-21",
+   "Cádiz CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-24",
+   "Elche CF",
+   "lg",
+   77
+  ],
+  [
+   "2021-02-27",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-03",
+   "Sevilla FC",
+   "dsf",
+   120
+  ],
+  [
+   "2021-03-06",
+   "CA Osasuna",
+   "lg",
+   87
+  ],
+  [
+   "2021-03-10",
+   "Paris Saint-Germain",
+   "cl16",
+   90
+  ],
+  [
+   "2021-03-15",
+   "SD Huesca",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-21",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-05",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-10",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-17",
+   "Athletic Bilbao",
+   "df",
+   90
+  ],
+  [
+   "2021-04-22",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-25",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-29",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-02",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-08",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-11",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-16",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-22",
+   "SD Eibar",
+   "lg",
+   45
+  ],
+  [
+   "2021-08-15",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-21",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-29",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-14",
+   "FC Bayern Munich",
+   "clg",
+   74
+  ],
+  [
+   "2021-10-17",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-20",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2021-10-24",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-27",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-30",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-02",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2021-11-06",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-20",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-23",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2021-11-27",
+   "Villarreal CF",
+   "lg",
+   71
+  ],
+  [
+   "2021-12-04",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-08",
+   "FC Bayern Munich",
+   "clg",
+   31
+  ],
+  [
+   "2021-12-18",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-21",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-05",
+   "Linares Deportivo",
+   "dc",
+   90
+  ],
+  [
+   "2022-01-08",
+   "Granada CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-12",
+   "Real Madrid",
+   "dsf",
+   120
+  ],
+  [
+   "2022-01-20",
+   "Athletic Bilbao",
+   "dc",
+   120
+  ],
+  [
+   "2022-01-23",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-06",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-13",
+   "RCD Espanyol Barcelona",
+   "lg",
+   72
+  ],
+  [
+   "2022-02-17",
+   "SSC Napoli",
+   "elk",
+   90
+  ],
+  [
+   "2022-02-20",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-24",
+   "SSC Napoli",
+   "elk",
+   90
+  ],
+  [
+   "2022-03-06",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-10",
+   "Galatasaray",
+   "elk",
+   90
+  ],
+  [
+   "2022-03-13",
+   "CA Osasuna",
+   "lg",
+   79
+  ],
+  [
+   "2022-03-17",
+   "Galatasaray",
+   "elk",
+   90
+  ],
+  [
+   "2022-03-20",
+   "Real Madrid",
+   "lg",
+   86
+  ],
+  [
+   "2022-04-03",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-07",
+   "Eintracht Frankfurt",
+   "elk",
+   90
+  ],
+  [
+   "2022-04-10",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-14",
+   "Eintracht Frankfurt",
+   "elk",
+   90
+  ],
+  [
+   "2022-04-18",
+   "Cádiz CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-21",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-24",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-01",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-07",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-10",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2022-05-22",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-13",
+   "Rayo Vallecano",
+   "lg",
+   82
+  ],
+  [
+   "2022-08-21",
+   "Real Sociedad",
+   "lg",
+   18
+  ],
+  [
+   "2022-09-03",
+   "Sevilla FC",
+   "lg",
+   26
+  ],
+  [
+   "2022-09-07",
+   "FC Viktoria Plzen",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-01",
+   "RCD Mallorca",
+   "lg",
+   80
+  ],
+  [
+   "2022-10-09",
+   "Celta de Vigo",
+   "lg",
+   85
+  ],
+  [
+   "2022-10-16",
+   "Real Madrid",
+   "lg",
+   30
+  ],
+  [
+   "2022-10-20",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-29",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2022-11-01",
+   "FC Viktoria Plzen",
+   "clg",
+   57
+  ],
+  [
+   "2022-11-05",
+   "UD Almería",
+   "lg",
+   90
+  ],
+  [
+   "2022-11-08",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2022-12-31",
+   "RCD Espanyol Barcelona",
+   "lg",
+   78
+  ],
+  [
+   "2023-01-04",
+   "CF Intercity",
+   "dc",
+   120
+  ],
+  [
+   "2023-01-12",
+   "Real Betis Balompié",
+   "dsf",
+   79
+  ],
+  [
+   "2023-01-19",
+   "AD Ceuta FC",
+   "dc",
+   90
+  ],
+  [
+   "2023-01-22",
+   "Getafe CF",
+   "lg",
+   45
+  ],
+  [
+   "2023-01-28",
+   "Girona FC",
+   "lg",
+   45
+  ],
+  [
+   "2023-02-05",
+   "Sevilla FC",
+   "lg",
+   83
+  ],
+  [
+   "2023-02-12",
+   "Villarreal CF",
+   "lg",
+   1
+  ],
+  [
+   "2023-02-16",
+   "Manchester United",
+   "elk",
+   67
+  ],
+  [
+   "2023-02-26",
+   "UD Almería",
+   "lg",
+   67
+  ],
+  [
+   "2023-04-01",
+   "Elche CF",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-10",
+   "Girona FC",
+   "lg",
+   15
+  ],
+  [
+   "2023-04-16",
+   "Getafe CF",
+   "lg",
+   68
+  ],
+  [
+   "2023-04-26",
+   "Rayo Vallecano",
+   "lg",
+   33
+  ],
+  [
+   "2023-05-02",
+   "CA Osasuna",
+   "lg",
+   14
+  ],
+  [
+   "2023-05-14",
+   "RCD Espanyol Barcelona",
+   "lg",
+   27
+  ],
+  [
+   "2023-05-20",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-28",
+   "RCD Mallorca",
+   "lg",
+   81
+  ],
+  [
+   "2023-08-02",
+   "Orlando City SC",
+   "lck",
+   26
+  ],
+  [
+   "2023-08-06",
+   "FC Dallas",
+   "lck",
+   90
+  ],
+  [
+   "2023-08-11",
+   "Charlotte FC",
+   "lck",
+   88
+  ],
+  [
+   "2023-08-15",
+   "Philadelphia Union",
+   "lck",
+   87
+  ],
+  [
+   "2023-08-19",
+   "Nashville SC",
+   "lck",
+   90
+  ],
+  [
+   "2023-08-23",
+   "FC Cincinnati",
+   "dsf",
+   120
+  ],
+  [
+   "2023-08-26",
+   "New York Red Bulls",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-30",
+   "Nashville SC",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-03",
+   "Los Angeles FC",
+   "lg",
+   82
+  ],
+  [
+   "2023-09-09",
+   "Sporting Kansas City",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-20",
+   "Toronto FC",
+   "lg",
+   34
+  ],
+  [
+   "2023-10-18",
+   "Charlotte FC",
+   "lg",
+   30
+  ],
+  [
+   "2023-10-21",
+   "Charlotte FC",
+   "lg",
+   23
+  ],
+  [
+   "2024-02-21",
+   "Real Salt Lake City",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-25",
+   "Los Angeles Galaxy",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-02",
+   "Orlando City SC",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-10",
+   "CF Montréal",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-13",
+   "Nashville SC",
+   "ccc",
+   90
+  ],
+  [
+   "2024-03-16",
+   "D.C. United",
+   "lg",
+   14
+  ],
+  [
+   "2024-03-23",
+   "New York Red Bulls",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-30",
+   "New York City FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-03",
+   "CF Monterrey",
+   "ccck",
+   90
+  ],
+  [
+   "2024-04-06",
+   "Colorado Rapids",
+   "lg",
+   20
+  ],
+  [
+   "2024-04-10",
+   "CF Monterrey",
+   "ccck",
+   78
+  ],
+  [
+   "2024-04-13",
+   "Sporting Kansas City",
+   "lg",
+   78
+  ],
+  [
+   "2024-05-15",
+   "Orlando City SC",
+   "lg",
+   26
+  ],
+  [
+   "2024-05-18",
+   "D.C. United",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-25",
+   "Vancouver Whitecaps FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-29",
+   "Atlanta United FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-06-01",
+   "St. Louis CITY SC",
+   "lg",
+   90
+  ],
+  [
+   "2024-06-15",
+   "Philadelphia Union",
+   "lg",
+   90
+  ],
+  [
+   "2024-06-19",
+   "Columbus Crew",
+   "lg",
+   90
+  ],
+  [
+   "2024-06-29",
+   "Nashville SC",
+   "lg",
+   90
+  ],
+  [
+   "2024-07-03",
+   "Charlotte FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-07-17",
+   "Toronto FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-07-20",
+   "Chicago Fire FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-07-27",
+   "Puebla FC",
+   "lcg",
+   90
+  ],
+  [
+   "2024-08-03",
+   "Tigres UANL",
+   "lcg",
+   69
+  ],
+  [
+   "2024-08-08",
+   "Toronto FC",
+   "lck",
+   90
+  ],
+  [
+   "2024-08-13",
+   "Columbus Crew",
+   "lck",
+   90
+  ],
+  [
+   "2024-08-24",
+   "FC Cincinnati",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-31",
+   "Chicago Fire FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-14",
+   "Philadelphia Union",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-18",
+   "Atlanta United FC",
+   "lg",
+   23
+  ],
+  [
+   "2024-09-21",
+   "New York City FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-28",
+   "Charlotte FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-02",
+   "Columbus Crew",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-19",
+   "New England Revolution",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-25",
+   "Atlanta United FC",
+   "mlp",
+   90
+  ],
+  [
+   "2024-11-02",
+   "Atlanta United FC",
+   "mlp",
+   90
+  ],
+  [
+   "2024-11-09",
+   "Atlanta United FC",
+   "mlp",
+   90
+  ],
+  [
+   "2025-02-22",
+   "New York City FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-25",
+   "Sporting Kansas City",
+   "ccc",
+   90
+  ],
+  [
+   "2025-03-02",
+   "Houston Dynamo FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-06",
+   "Cavalier FC",
+   "ccc",
+   90
+  ],
+  [
+   "2025-03-09",
+   "Charlotte FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-13",
+   "Cavalier FC",
+   "ccc",
+   75
+  ],
+  [
+   "2025-03-16",
+   "Atlanta United FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-29",
+   "Philadelphia Union",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-02",
+   "Los Angeles FC",
+   "ccck",
+   90
+  ],
+  [
+   "2025-04-06",
+   "Toronto FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-09",
+   "Los Angeles FC",
+   "ccck",
+   90
+  ],
+  [
+   "2025-04-13",
+   "Chicago Fire FC",
+   "lg",
+   31
+  ],
+  [
+   "2025-04-19",
+   "Columbus Crew",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-24",
+   "Vancouver Whitecaps FC",
+   "cccsf",
+   90
+  ],
+  [
+   "2025-04-30",
+   "Vancouver Whitecaps FC",
+   "cccsf",
+   90
+  ],
+  [
+   "2025-05-03",
+   "New York Red Bulls",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-10",
+   "Minnesota United FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-14",
+   "San Jose Earthquakes",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-18",
+   "Orlando City SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-24",
+   "Philadelphia Union",
+   "lg",
+   90
+  ],
+  [
+   "2025-05-28",
+   "CF Montréal",
+   "lg",
+   24
+  ],
+  [
+   "2025-06-19",
+   "FC Porto",
+   "cwc",
+   11
+  ],
+  [
+   "2025-06-23",
+   "Sociedade Esportiva Palmeiras",
+   "cwc",
+   24
+  ],
+  [
+   "2025-06-29",
+   "Paris Saint-Germain",
+   "cwc",
+   90
+  ],
+  [
+   "2025-07-05",
+   "CF Montréal",
+   "lg",
+   90
+  ],
+  [
+   "2025-07-09",
+   "New England Revolution",
+   "lg",
+   90
+  ],
+  [
+   "2025-07-12",
+   "Nashville SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-07-16",
+   "FC Cincinnati",
+   "lg",
+   90
+  ],
+  [
+   "2025-07-19",
+   "New York Red Bulls",
+   "lg",
+   85
+  ],
+  [
+   "2025-07-30",
+   "Atlas Guadalajara",
+   "lcg",
+   90
+  ],
+  [
+   "2025-08-02",
+   "Club Necaxa",
+   "lcg",
+   90
+  ],
+  [
+   "2025-08-06",
+   "UNAM Pumas",
+   "lcg",
+   90
+  ],
+  [
+   "2025-08-10",
+   "Orlando City SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-16",
+   "Los Angeles Galaxy",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-20",
+   "Tigres UANL",
+   "lck",
+   47
+  ],
+  [
+   "2025-08-27",
+   "Orlando City SC",
+   "lck",
+   90
+  ],
+  [
+   "2025-08-31",
+   "Seattle Sounders FC",
+   "lck",
+   90
+  ],
+  [
+   "2025-09-13",
+   "Charlotte FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-16",
+   "Seattle Sounders FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-20",
+   "D.C. United",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-24",
+   "New York City FC",
+   "lg",
+   85
+  ],
+  [
+   "2025-09-27",
+   "Toronto FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-30",
+   "Chicago Fire FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-04",
+   "New England Revolution",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-11",
+   "Atlanta United FC",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-18",
+   "Nashville SC",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-24",
+   "Nashville SC",
+   "mlp",
+   90
+  ],
+  [
+   "2025-11-01",
+   "Nashville SC",
+   "mlp",
+   90
+  ],
+  [
+   "2025-11-08",
+   "Nashville SC",
+   "mlp",
+   90
+  ],
+  [
+   "2025-11-23",
+   "FC Cincinnati",
+   "mlp",
+   82
+  ],
+  [
+   "2025-11-29",
+   "New York City FC",
+   "mlpsf",
+   90
+  ],
+  [
+   "2025-12-06",
+   "Vancouver Whitecaps FC",
+   "mlpf",
+   90
+  ]
+ ],
+ "note": "조르디 알바(힘나스티크·발렌시아·FC 바르셀로나·인터 마이애미)의 클럽 공식 경기 708경기(2008.8.30 세군다 테네리페전 ~ 2025.12.6 MLS컵 결승 밴쿠버 화이트캡스전)에서 나온 52골 130도움, 친선경기·스페인 대표팀 경기 제외\n클럽별 경기·골·도움: 힘나스티크(2008~2009 임대) 36·4·0, 발렌시아(2009~2012) 110·6·8, 바르셀로나(2012~2023) 459·27·89, 인터 마이애미(2023~2025) 103·15·33. 출전 분 합계 55,796분(Transfermarkt 선수 경기 성적, 교체·연장·퇴장 반영). 왼쪽 수비수. 골은 모두 필드 골(PK 골 없음, 직접 프리킥 골 없음)\n넣지 않은 경기: UE 코르네야 2006-07(카탈루냐 1부 = 6부 지역 아마추어 리그, 영어 위키백과 15경기 3골)과 발렌시아 B(메스타야) 2007-08(테르세라 = 4부 아마추어 리그, 18경기 5골)은 프로 리그가 아니고 2군·지역 리그라 뺌(경기 단위 기록도 없음). 힘나스티크 임대 2008-09는 세군다(2부, 프로 리그)라 셈. 본인 자책골 5개(2012.10.20 데포르티보전, 2014.11.22 세비야전, 2015.1.4 레알 소시에다드전, 2020.1.25 발렌시아전 — FotMob은 막시 고메스 골로 적음, 2021.1.31 아틀레틱전)는 골이 아님\n출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·도움은 Transfermarkt 경기 기록. 경기 수·골은 영어·스페인어 위키백과와 시즌·대회별로 모두 같음. FotMob 경기 기록(2010-11 이후)이 있는 골 45개는 FotMob과 수가 같고, 분이 1~2분 다른 4개(2011.10.26 사라고사전 81/82분, 2012.11.3 셀타전 60/61분, 2013.2.26 코파 델 레이 준결승 레알 마드리드전 87/89분, 2015.1.8 코파 델 레이 엘체전 55/56분)는 Transfermarkt 표기. 2008-09 힘나스티크·2009-10 발렌시아는 FotMob 기록이 없어 Transfermarkt 단독(골 5개: 2008.12.21 헤레스전, 2009.3.22 라요전, 4.25 무르시아전, 5.30 지로나전, 2010.4.11 마요르카전 — 마요르카전은 ESPN 문자중계에서도 알바 46분 골)\n출전 분: 퇴장 4경기는 퇴장 시각까지(2014.2.1 발렌시아전 78분, 2015.4.25 에스파뇰전 54분, 2022.12.31 에스파뇰전 78분, 2024.4.10 북중미 챔스 몬테레이 원정 78분 — Transfermarkt 경고 누적 퇴장 기록). 2023.8.19 리그스컵 결승 내슈빌전은 1-1 뒤 연장 없이 승부차기라 90분(Transfermarkt 120분, FotMob 90분). 2025.8.20 리그스컵 8강 티그레스전은 47분 교체(FotMob 47분 교체, Transfermarkt 경기 기록 교체 47분; Transfermarkt 선수 성적 90분은 같은 경기의 중복 교체 표기 때문)\n도움: Transfermarkt 선수 성적 도움 140개(경기 기록 표기 141개 중 2022.1.20 코파 아틀레틱전 상대 골에 관여자로 적힌 1개는 원래 도움이 아님)에서 상대 자책골 유도 6개(2016.2.7 레반테전 다비드 나바로, 2016.3.12 헤타페전 후안 로드리게스, 2018.9.2 우에스카전 호르헤 풀리도, 2020.7.5 비야레알전 파우 토레스, 2020.8.14 챔피언스리그 바이에른전 알라바, 2020.12.5 카디스전 페드로 알칼라), PK 유도 1개(2018.11.11 베티스전 메시 PK — 텔로가 알바를 넘어뜨림), 굴절 1개(2020.12.16 레알 소시에다드전 더용 골 — AP 기사 '수비수 맞고 굴절된 크로스', FotMob 도움 없음), 슈팅 1개(2016.4.5 챔피언스리그 8강 아틀레티코전 63분 수아레스 골 — Transfermarkt 유형 '슈팅', Eurosport·LaLiga 문자중계는 알바의 발리 슈팅을 수아레스가 문전에서 방향만 바꾼 것으로 적음; FotMob은 도움으로 셈)를 뺌. 2010.4.11 마요르카전 85분 파블로 에르난데스 골도 뺌(Transfermarkt만 알바 크로스, ESPN 문자중계·Soccer Punter는 알벨다 도움, Periódico de Ibiza는 상대 수비 실수)\n2014년 8월 전 도움 15개는 Transfermarkt 기록을 씀(FotMob이 도움자를 적지 않은 8개 포함: 2009.10.28 코파 델 레이 알코야노전 호아킨 — 다른 출처 없음, 2011.8.27 라싱전 솔다도, 2012.5.2 오사수나전 아두리스, 2012.8.26 오사수나전 메시, 2012.10.27 라요전 사비, 2012.11.17 사라고사전 메시, 2013.2.10 헤타페전 비야, 2014.1.5 엘체전 알렉시스 — 알코야노전 밖은 경기 기사가 알바 패스·크로스로 적음). 2010.11.24 챔피언스리그 조별 부르사스포르전 37분 호아킨 골은 Transfermarkt에 도움자가 없지만 FotMob·ESPN 문자중계가 알바 도움으로 적고 Sky Sports 기사도 '알바가 호아킨에게 연결'이라 넣음(UEFA 기사는 호아킨 단독 돌파처럼 적음)\n2014년 8월 뒤 도움은 Transfermarkt·FotMob이 같이 적은 119개와, FotMob이 도움자를 적지 않았으나 다른 출처 2곳이 확인한 2개(2015.1.28 코파 델 레이 8강 아틀레티코 원정 네이마르 골 — FC 바르셀로나 구단 기사·Sportskeeda·Irish Times, 2023.1.4 코파 델 레이 인테르시티 원정 하피냐 골 — LaLiga.com 경기 기록·football-espana). 확인 못 해 뺀 도움: 2015.1.8 코파 델 레이 16강 엘체전 40분 수아레스 골(Transfermarkt·ESPN 문자중계만 알바 도움, 경기 기사는 도움자를 적지 않음). 2024.10.2 콜럼버스전은 FotMob 선수 성적만 도움 1개(경기 기록·Transfermarkt는 없음)라 넣지 않음\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값(바르셀로나 동료 메시·수아레스·네이마르·이니에스타·사비·페드로·비야·라키티치·쿠티뉴·뎀벨레·그리즈만·파브레가스·알렉시스·비달·페드리·레반도프스키·하피냐·데파이 등, 발렌시아 동료 마타·아두리스·호아킨, 인터 마이애미 동료 메시·수아레스), 같은 팀·같은 시즌 기존 값, 그 시즌 순위를 순위 규칙(리그·시즌 기준 평균 + 흩어짐 × 순위 곡선, 순위표가 있는 리그·시즌은 승점·득실)에 넣은 값 순으로 씀 (기록 182개: 순위표 → 라벨 3, 기존 팀×시즌 값 29, 같은 경기 다른 선수 자료 149, 직접 라벨(순위표 밖) 1)\n새로 정한 팀-시즌 순위: Club Necaxa 리가MX 2025-26 13위/18팀, Real Murcia CF 세군다 2008-09 14위/22팀, Xerez CD 세군다 2008-09 1위/22팀, Rayo Vallecano 세군다 2008-09 5위/22팀. 세군다 2008-09는 Transfermarkt·위키백과 최종 순위표, 리가MX 2025-26은 아페르투라 2025·클라우수라 2026 정규 단계 연간 합산 순위(수아레스 자료의 같은 시즌 리가MX 상대와 같은 방식)\n대회 비중: 라리가·세군다·MLS 정규리그는 리그. 코파 델 레이·US 오픈컵은 국내컵(16강까지·8강·준결승·결승), 수페르코파(두 경기 시절 포함)는 국내컵 결승 비중(4팀 방식 준결승은 준결승). 챔피언스리그 조별·16강·8강·준결승·결승, 유로파리그 조별·녹아웃(32강·16강·8강, 2021-22 녹아웃 플레이오프 포함)·준결승. 클럽 월드컵 2015(준결승·결승)·2025(조별 리그식, 16강 단판). MLS 플레이오프는 1라운드(3판 2선승, 경기마다 단판)·컨퍼런스 준결승, 컨퍼런스 결승, MLS컵 결승. 북중미 챔스는 1라운드·16강, 8강, 준결승. 리그스컵은 조별(승점제)과 녹아웃(결승 포함)\n두 경기 합산 기록 19행(15경기): 유럽 대회는 2020-21까지 원정 다득점·연장(2021-22부터 연장만), 코파 델 레이는 2018-19까지 원정 다득점·연장(이후 두 경기 준결승은 연장만), 북중미 챔스는 원정 다득점(2025는 연장 없이 승부차기)\n시즌 구분: 스페인 클럽은 8월 1일 기준(2020년 8월 챔피언스리그 16강 2차전·8강은 2019-20), 인터 마이애미는 달력 연도. 클럽 구분은 Transfermarkt 이적일(발렌시아 2009-10 복귀, 바르셀로나 2012.7, 인터 마이애미 2023.7). 날짜는 경기 현지 날짜(2023 US 오픈컵 준결승 신시내티 원정은 2023.8.23; Transfermarkt 시각은 자리채움)\n동료 자료 대조: 메시·수아레스·네이마르·그리즈만·쿠티뉴·페드로·비야·라키티치·아두리스·호아킨·마타 등의 같은 경기 기록과 날짜·분·골 전 스코어·대회·상대 Elo가 같음. 위 규칙으로 뺀 알바 도움(메시 PK, 수아레스 2골)은 그쪽 자료에도 알바 도움으로 적혀 있지 않음\n우승·수상은 Transfermarkt 업적 페이지와 영어 위키백과 기준: 챔피언스리그 2014-15, 라리가 2012-13·2014-15·2015-16·2017-18·2018-19·2022-23, 코파 델 레이 2014-15·2015-16·2016-17·2017-18·2020-21, 수페르코파 2013·2016·2018·2023, 클럽 월드컵 2015(바르셀로나), UEFA 슈퍼컵 2015(결장했지만 그 시즌 1군 기록이 있어 같은 팀 다른 선수 자료와 같게 넣음), MLS컵 2025·서포터스 실드 2024·리그스컵 2023(인터 마이애미). 개인: 라리가 올해의 팀 2014-15(리그 사무국), MLS 베스트 11 2024(리그 사무국), 챔피언스리그 도움 1위 2018-19(5개, 공동). 준우승·대표팀 우승(유로 2012·네이션스리그 2023)·ESM 올해의 팀·UEFA 시즌의 팀·올스타·구단 상은 넣지 않음\n은퇴: 2025년 10월 발표, 마지막 경기 2025.12.6 MLS컵 결승 밴쿠버 화이트캡스전(3-1 우승, 90분). 자료 기준일 2026.11.26",
+ "judgments": [
+  [
+   "도움 제외",
+   "2010-04-11",
+   "RCD Mallorca",
+   "85",
+   "Pablo Hernández",
+   "2010.4.11 마요르카 원정 85분 파블로 에르난데스 골: TM은 알바 크로스로 적었으나 ESPN 문자중계 'Assisted by David Albelda with a through ball'·Soccer Punter도 알벨다, Periódico de Ibiza는 '수비 실수를 틈탄 골' → 뺌"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2012-10-20",
+   "Deportivo A Coruña",
+   "78"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2014-11-22",
+   "Sevilla FC",
+   "47"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2015-01-04",
+   "Real Sociedad",
+   "2"
+  ],
+  [
+   "도움 제외",
+   "2015-01-08",
+   "Elche CF",
+   "39",
+   "Luis Suárez",
+   "2015.1.8 코파 델 레이 16강 1차전 엘체전 40분 수아레스 골: ESPN 문자중계만 'Assisted by Jordi Alba'(FotMob 도움 칸 비어 있음), 다른 경기 기사(Sports Mole·FCB 구단 기사·Bleacher Report)는 도움을 적지 않음 — 다른 출처 2곳이 안 돼 뺌"
+  ],
+  [
+   "도움 제외",
+   "2016-02-07",
+   "Levante UD",
+   "21",
+   "David Navarro",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2016-03-12",
+   "Getafe CF",
+   "8",
+   "Juan Rodríguez",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2016-04-05",
+   "Atlético de Madrid",
+   "63",
+   "Luis Suárez",
+   "2016.4.5 챔스 8강 1차전 아틀레티코전 63분 수아레스 골: TM 유형 'Shot on goal' — Eurosport·LaLiga 문자중계 모두 다니 아우베스 크로스를 알바가 발리로 찬 것을 수아레스가 문전에서 방향만 바꿈(슈팅 리바운드·굴절형, FotMob은 도움으로 셈) → 뺌"
+  ],
+  [
+   "도움 제외",
+   "2018-09-02",
+   "SD Huesca",
+   "24",
+   "Jorge Pulido",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2018-11-11",
+   "Real Betis Balompié",
+   "68",
+   "Lionel Messi",
+   "PK 유도('Penalty: Fouled player')"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2020-01-25",
+   "Valencia CF",
+   "48"
+  ],
+  [
+   "도움 제외",
+   "2020-07-05",
+   "Villarreal CF",
+   "3",
+   "Pau Torres",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-08-14",
+   "FC Bayern Munich",
+   "7",
+   "David Alaba",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-12-05",
+   "Cádiz CF",
+   "57",
+   "Pedro Alcalá",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2020-12-16",
+   "Real Sociedad",
+   "43",
+   "Frenkie de Jong",
+   "2020.12.16 레알 소시에다드전 43분 프렝키 더용 골: AP 기사 'Alba's low cross was deflected off a defender'(굴절), FotMob 도움 없음 → 뺌"
+  ],
+  [
+   "본인 자책골(골 아님)",
+   "2021-01-31",
+   "Athletic Bilbao",
+   "49"
+  ],
+  [
+   "상대 골 도움 칸(도움 아님)",
+   "2022-01-20",
+   "Athletic Bilbao",
+   "105+1",
+   "Iker Muniain",
+   "Handball (opponent)"
+  ],
+  [
+   "도움 추가(FotMob 단독, 2014.8 이전)",
+   "2010-11-24",
+   "Bursaspor",
+   37,
+   "Joaquín",
+   "FotMob 'assist by Jordi Alba' + ESPN 문자중계 'Assisted by Jordi Alba' + Sky Sports 경기 기사 '알바가 페널티 지역 가장자리의 호아킨을 찾아 줌'(UEFA 기사는 호아킨이 왼쪽에서 파고들어 감아 찬 골로만 적음); TM 도움 칸 비어 있음 → 넣음"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2009-10-28",
+   "976419",
+   "9",
+   "Joaquín",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2010-04-11",
+   "957614",
+   "85",
+   "Pablo Hernández",
+   "뺌: 2010.4.11 마요르카 원정 85분 파블로 에르난데스 골: TM은 알바 크로스로 적었으나 ESPN 문자중계 'Assisted by David Albelda with a through ball'·Soccer Punter도 알벨다, Periódico de Ibiza는 '수비 실수를 틈탄 골' → 뺌"
+  ],
+  [
+   "2011-08-27",
+   "1125232",
+   "89",
+   "Roberto Soldado",
+   "2014.8 이전 TM 단독(유형 빈칸) 선례대로 넣음"
+  ],
+  [
+   "2011-12-18",
+   "1125389",
+   "62",
+   "Roberto Soldado",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2012-02-26",
+   "1125464",
+   "25",
+   "Tino Costa",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2012-03-18",
+   "1125495",
+   "57",
+   "Roberto Soldado",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2012-04-05",
+   "1193035",
+   "80",
+   "Pablo Hernández",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2012-05-02",
+   "1125417",
+   "76",
+   "Aritz Aduriz",
+   "2014.8 이전 TM 단독(유형 Cross) 선례대로 넣음"
+  ],
+  [
+   "2012-08-26",
+   "2242828",
+   "80",
+   "Lionel Messi",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2012-10-27",
+   "2242894",
+   "78",
+   "Xavi",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2012-11-17",
+   "2243009",
+   "15",
+   "Lionel Messi",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2012-12-22",
+   "2243072",
+   "42",
+   "Xavi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2013-02-10",
+   "2243114",
+   "58",
+   "David Villa",
+   "2014.8 이전 TM 단독(유형 Pass) 선례대로 넣음"
+  ],
+  [
+   "2014-01-05",
+   "2341216",
+   "7",
+   "Alexis Sánchez",
+   "2014.8 이전 TM 단독(유형 Cross) 선례대로 넣음"
+  ],
+  [
+   "2014-03-16",
+   "2341342",
+   "22",
+   "Alexis Sánchez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-09-21",
+   "2475219",
+   "64",
+   "Pedro",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-11-25",
+   "2495345",
+   "27",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2014-12-07",
+   "2475315",
+   "77",
+   "Pedro",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-01-08",
+   "2518529",
+   "39",
+   "Luis Suárez",
+   "뺌: 2015.1.8 코파 델 레이 16강 1차전 엘체전 40분 수아레스 골: ESPN 문자중계만 'Assisted by Jordi Alba'(FotMob 도움 칸 비어 있음), 다른 경기 기사(Sports Mole·FCB 구단 기사·Bleacher Report)는 도움을 적지 않음 — 다른 출처 2곳이 안 돼 뺌"
+  ],
+  [
+   "2015-01-28",
+   "2528140",
+   "41",
+   "Neymar",
+   "넣음: 2015.1.28 코파 델 레이 8강 2차전 아틀레티코 원정 41분 네이마르 골: FC 바르셀로나 구단 기사·Sportskeeda·Irish Times 모두 '알바가 (그리즈만 슈팅을 막은 뒤) 네이마르에게 연결' → 넣음"
+  ],
+  [
+   "2015-02-24",
+   "2517513",
+   "30",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-04-25",
+   "2475505",
+   "17",
+   "Neymar",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-08-23",
+   "2594471",
+   "54",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2015-11-21",
+   "2594583",
+   "74",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-01-30",
+   "2594683",
+   "30",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-02-20",
+   "2594712",
+   "6",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-04-17",
+   "2594794",
+   "63",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-05-14",
+   "2594846",
+   "22",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-08-20",
+   "2718711",
+   "6",
+   "Arda Turan",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-12-10",
+   "2718853",
+   "59",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-12-10",
+   "2718853",
+   "72",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-04-02",
+   "2718996",
+   "44",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-04-23",
+   "2719034",
+   "90+2",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-05-14",
+   "2719072",
+   "71",
+   "Neymar",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-08-26",
+   "2899930",
+   "55",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-09-09",
+   "2899570",
+   "35",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-09-09",
+   "2899570",
+   "67",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-10-28",
+   "2899649",
+   "37",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-12-02",
+   "2899684",
+   "62",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-01-07",
+   "2899719",
+   "12",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-01-11",
+   "2978841",
+   "13",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-01-11",
+   "2978841",
+   "15",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-03-10",
+   "2899818",
+   "15",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-03-18",
+   "2899826",
+   "8",
+   "Paco Alcácer",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-04-21",
+   "3000614",
+   "31",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-09-02",
+   "3079324",
+   "39",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-03",
+   "3097981",
+   "2",
+   "Philippe Coutinho",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-03",
+   "3097981",
+   "56",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-03",
+   "3097981",
+   "90",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-28",
+   "3079431",
+   "11",
+   "Philippe Coutinho",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-11-03",
+   "3079447",
+   "11",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-12-22",
+   "3079507",
+   "45",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-20",
+   "3080762",
+   "32",
+   "Ousmane Dembélé",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-20",
+   "3080762",
+   "90+2",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-27",
+   "3080777",
+   "69",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-30",
+   "3148385",
+   "89",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-01-30",
+   "3148385",
+   "90+2",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-04-06",
+   "3080877",
+   "85",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-04-16",
+   "3167768",
+   "61",
+   "Philippe Coutinho",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-05-01",
+   "3177022",
+   "26",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-01-04",
+   "3208825",
+   "50",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-01-22",
+   "3307692",
+   "90+4",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-06-13",
+   "3210021",
+   "2",
+   "Arturo Vidal",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-07-05",
+   "3210111",
+   "86",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-07-19",
+   "3208633",
+   "44",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-07-19",
+   "3208633",
+   "75",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-08-14",
+   "3414688",
+   "57",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-09-27",
+   "3431926",
+   "15",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-10-24",
+   "3450971",
+   "8",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-11-07",
+   "3450991",
+   "49",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-11-24",
+   "3461778",
+   "90+2",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-12-02",
+   "3461789",
+   "14",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-12-16",
+   "3451091",
+   "43",
+   "Frenkie de Jong",
+   "뺌: 2020.12.16 레알 소시에다드전 43분 프렝키 더용 골: AP 기사 'Alba's low cross was deflected off a defender'(굴절), FotMob 도움 없음 → 뺌"
+  ],
+  [
+   "2021-01-17",
+   "3506295",
+   "77",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-01-27",
+   "3508601",
+   "80",
+   "Frenkie de Jong",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-02-03",
+   "3512436",
+   "100",
+   "Antoine Griezmann",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-03-03",
+   "3518101",
+   "95",
+   "Martin Braithwaite",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-03-21",
+   "3451379",
+   "89",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-10",
+   "3451399",
+   "60",
+   "Óscar Mingueza",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-17",
+   "3531491",
+   "63",
+   "Frenkie de Jong",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-04-17",
+   "3531491",
+   "72",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-08-29",
+   "3605059",
+   "2",
+   "Sergi Roberto",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-20",
+   "3651085",
+   "36",
+   "Gerard Piqué",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-30",
+   "3607532",
+   "49",
+   "Memphis Depay",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-11-06",
+   "3607544",
+   "5",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-11-06",
+   "3607544",
+   "34",
+   "Memphis Depay",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-01-12",
+   "3593340",
+   "83",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-02-13",
+   "3610344",
+   "2",
+   "Pedri",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-02-20",
+   "3610368",
+   "23",
+   "Pierre-Emerick Aubameyang",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-03-06",
+   "3610409",
+   "60",
+   "Ferran Torres",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-04-10",
+   "3611442",
+   "90+2",
+   "Luuk de Jong",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-05-01",
+   "3611471",
+   "25",
+   "Memphis Depay",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-05-07",
+   "3611481",
+   "76",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-10-20",
+   "3886330",
+   "31",
+   "Robert Lewandowski",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-11-01",
+   "3911763",
+   "44",
+   "Ferran Torres",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-01-04",
+   "3989534",
+   "77",
+   "Raphinha",
+   "넣음: 2023.1.4 코파 델 레이 32강 인테르시티 원정 77분 하피냐 골: LaLiga.com 경기 기록이 알바 도움, football-espana 기사 'Alba supplied the pass' → 넣음(TM 유형 빈칸, FotMob 도움 칸 비어 있음)"
+  ],
+  [
+   "2023-01-19",
+   "3997409",
+   "70",
+   "Ansu Fati",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-01-28",
+   "3886515",
+   "61",
+   "Pedri",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-02-05",
+   "3886522",
+   "79",
+   "Raphinha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-08-06",
+   "4149871",
+   "6",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-08-06",
+   "4149871",
+   "65",
+   "Benja Cremaschi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-02-25",
+   "4248411",
+   "90+2",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-05-25",
+   "4318353",
+   "38",
+   "Robert Taylor",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-06-01",
+   "4318370",
+   "25",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-06-01",
+   "4318370",
+   "45+2",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-07-03",
+   "4326388",
+   "30",
+   "Robert Taylor",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-07-27",
+   "4390800",
+   "72",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-08",
+   "4425895",
+   "3",
+   "Matías Rojas",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-08",
+   "4425895",
+   "11",
+   "Diego Gómez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-08",
+   "4425895",
+   "20",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-08",
+   "4425895",
+   "59",
+   "Matías Rojas",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-31",
+   "4327782",
+   "65",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-09-14",
+   "4327796",
+   "30",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-09-21",
+   "4327825",
+   "75",
+   "Leonardo Campana",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-10-19",
+   "4327893",
+   "58",
+   "Benja Cremaschi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-10-19",
+   "4327893",
+   "81",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-02-25",
+   "4551305",
+   "45+1",
+   "Tadeo Allende",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-03-16",
+   "4514038",
+   "89",
+   "Fafà Picault",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-05-10",
+   "4514496",
+   "48",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-05-14",
+   "4514522",
+   "1",
+   "Maximiliano Falcón",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-05-14",
+   "4514522",
+   "44",
+   "Tadeo Allende",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-07-19",
+   "4587088",
+   "27",
+   "Telasco Segovia",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-08-27",
+   "4715081",
+   "88",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-09-16",
+   "4587191",
+   "41",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-09-20",
+   "4587196",
+   "66",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-09-27",
+   "4587209",
+   "45+1",
+   "Tadeo Allende",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-09-30",
+   "4587159",
+   "74",
+   "Luis Suárez",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-10-11",
+   "4521298",
+   "87",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-10-18",
+   "4587242",
+   "34",
+   "Lionel Messi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-11-08",
+   "4755026",
+   "73",
+   "Tadeo Allende",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-11-29",
+   "4774723",
+   "23",
+   "Tadeo Allende",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-11-29",
+   "4774723",
+   "83",
+   "Telasco Segovia",
+   "TM+FotMob 이벤트"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "2010-11-24",
+   "1050146",
+   37,
+   "Joaquin"
+  ]
+ ],
+ "cross_check": [
+  [
+   "알바 도움→타인 골",
+   "adu.js",
+   "2012-05-02",
+   76,
+   "Aritz Aduriz",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "aub.js",
+   "2022-02-20",
+   23,
+   "Pierre-Emerick Aubameyang",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "avd.js",
+   "2020-06-13",
+   2,
+   "Arturo Vidal",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "axs.js",
+   "2013-03-12",
+   92,
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "axs.js",
+   "2014-01-05",
+   7,
+   "Alexis Sánchez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "axs.js",
+   "2014-03-16",
+   22,
+   "Alexis Sánchez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "cou.js",
+   "2018-10-03",
+   2,
+   "Philippe Coutinho",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "cou.js",
+   "2018-10-28",
+   11,
+   "Philippe Coutinho",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "cou.js",
+   "2019-04-16",
+   61,
+   "Philippe Coutinho",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "dem.js",
+   "2019-01-20",
+   32,
+   "Ousmane Dembélé",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "dep.js",
+   "2021-10-30",
+   49,
+   "Memphis Depay",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "dep.js",
+   "2021-11-06",
+   34,
+   "Memphis Depay",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "dep.js",
+   "2022-05-01",
+   25,
+   "Memphis Depay",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "fab.js",
+   "2012-10-20",
+   3,
+   "Deportivo de La Coruña",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "fab.js",
+   "2012-10-27",
+   78,
+   "Xavi",
+   [
+    "스코어 2-0/3-0"
+   ]
+  ],
+  [
+   "타인 도움(알바 골)",
+   "grz.js",
+   "2021-02-03",
+   92,
+   "Granada CF",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "grz.js",
+   "2021-02-03",
+   113,
+   "Granada CF",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2020-01-22",
+   94,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2020-11-07",
+   49,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2020-11-24",
+   92,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2020-12-02",
+   14,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2021-01-17",
+   77,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "grz.js",
+   "2021-02-03",
+   100,
+   "Antoine Griezmann",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "ini.js",
+   "2013-02-26",
+   87,
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "joa.js",
+   "2011-04-16",
+   80,
+   "UD Almería",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "joa.js",
+   "2009-10-28",
+   9,
+   "Joaquín",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "joa.js",
+   "2010-11-24",
+   37,
+   "Joaquín",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "lew.js",
+   "2022-10-20",
+   31,
+   "Robert Lewandowski",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mat.js",
+   "2011-04-23",
+   84,
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2015-01-08",
+   56,
+   "Elche",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2016-05-22",
+   97,
+   "Sevilla",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2017-11-26",
+   82,
+   "Valencia",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2018-01-11",
+   28,
+   "Celta Vigo",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2018-09-02",
+   81,
+   "SD Huesca",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2019-04-20",
+   64,
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2020-06-13",
+   79,
+   "Mallorca",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2021-03-06",
+   30,
+   "Osasuna",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2023-09-03",
+   51,
+   "Los Angeles FC",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2024-10-25",
+   60,
+   "Atlanta United",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2025-07-19",
+   24,
+   "New York Red Bulls",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2025-09-16",
+   12,
+   "Seattle Sounders FC",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2025-10-04",
+   48,
+   "New England Revolution",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "mes.js",
+   "2025-10-11",
+   52,
+   "Atlanta United",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2012-08-26",
+   80,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2012-11-17",
+   15,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2016-01-30",
+   30,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2016-04-17",
+   63,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2016-12-10",
+   72,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2017-04-23",
+   92,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2017-08-26",
+   55,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2017-09-09",
+   35,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2017-09-09",
+   67,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2017-10-28",
+   37,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-01-07",
+   12,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-01-11",
+   13,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-01-11",
+   15,
+   "Lionel Messi",
+   [
+    "스코어 1-0/0-0"
+   ]
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-04-21",
+   31,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-10-03",
+   56,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-10-03",
+   90,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2018-12-22",
+   45,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2019-01-20",
+   92,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2019-01-27",
+   69,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2019-01-30",
+   92,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2019-04-06",
+   85,
+   "Luis Suárez",
+   [
+    "스코어 0-0/1-0"
+   ]
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2020-07-19",
+   75,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2021-03-21",
+   89,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2021-04-17",
+   72,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2023-08-06",
+   6,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2024-02-25",
+   92,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2024-06-01",
+   25,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2024-09-14",
+   30,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2024-10-19",
+   81,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2025-05-10",
+   48,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2025-08-27",
+   88,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2025-09-16",
+   41,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2025-10-11",
+   87,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "mes.js",
+   "2025-10-18",
+   34,
+   "Lionel Messi",
+   "같음"
+  ],
+  [
+   "TM 알바 도움을 뺀 타인 골",
+   "mes.js",
+   "2018-11-11",
+   68,
+   "Lionel Messi",
+   "PK 유도('Penalty: Fouled player')"
+  ],
+  [
+   "알바 도움→타인 골",
+   "ney.js",
+   "2015-01-28",
+   41,
+   "Neymar",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "ney.js",
+   "2015-04-25",
+   17,
+   "Neymar",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "ney.js",
+   "2017-05-14",
+   71,
+   "Neymar",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "pdr.js",
+   "2022-02-13",
+   2,
+   "Pedri",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "pdr.js",
+   "2023-01-28",
+   61,
+   "Pedri",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "ped.js",
+   "2014-09-21",
+   64,
+   "Pedro",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "ped.js",
+   "2014-12-07",
+   77,
+   "Pedro",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "rak.js",
+   "2018-10-24",
+   83,
+   "Inter Milan",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "rap.js",
+   "2023-01-04",
+   77,
+   "Raphinha",
+   [
+    "연장"
+   ]
+  ],
+  [
+   "알바 도움→타인 골",
+   "rap.js",
+   "2023-02-05",
+   79,
+   "Raphinha",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "sua.js",
+   "2014-11-08",
+   82,
+   "UD Almería",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "sua.js",
+   "2025-04-30",
+   9,
+   "Vancouver Whitecaps FC",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2014-11-25",
+   27,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2015-02-24",
+   30,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2015-08-23",
+   54,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2015-11-21",
+   74,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2016-02-20",
+   6,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2016-05-14",
+   22,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2016-12-10",
+   59,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2017-04-02",
+   44,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2017-12-02",
+   62,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2018-03-10",
+   15,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2018-09-02",
+   39,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2018-11-03",
+   11,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2019-01-30",
+   89,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2019-04-06",
+   85,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2019-05-01",
+   26,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2020-01-04",
+   50,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2020-07-19",
+   44,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2020-08-14",
+   57,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2024-06-01",
+   47,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2024-07-27",
+   72,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2024-08-08",
+   20,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2024-08-31",
+   65,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2025-02-25",
+   46,
+   "Tadeo Allende",
+   [
+    "스코어 1-0/2-0"
+   ]
+  ],
+  [
+   "알바 도움→타인 골",
+   "sua.js",
+   "2025-09-30",
+   74,
+   "Luis Suárez",
+   "같음"
+  ],
+  [
+   "같은 경기 출전 행 대회 코드 다름",
+   "sua.js",
+   "2025-11-29",
+   "New York City FC",
+   "mlp",
+   "mlpsf"
+  ],
+  [
+   "TM 알바 도움을 뺀 타인 골",
+   "sua.js",
+   "2015-01-08",
+   39,
+   "Luis Suárez",
+   "2015.1.8 코파 델 레이 16강 1차전 엘체전 40분 수아레스 골: ESPN 문자중계만 'Assiste"
+  ],
+  [
+   "TM 알바 도움을 뺀 타인 골",
+   "sua.js",
+   "2016-04-05",
+   63,
+   "Luis Suárez",
+   "2016.4.5 챔스 8강 1차전 아틀레티코전 63분 수아레스 골: TM 유형 'Shot on goal' —"
+  ],
+  [
+   "알바 도움→타인 골",
+   "tur.js",
+   "2016-08-20",
+   6,
+   "Arda Turan",
+   "같음"
+  ],
+  [
+   "타인 도움(알바 골)",
+   "vil.js",
+   "2012-11-03",
+   60,
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "vil.js",
+   "2013-02-10",
+   58,
+   "David Villa",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "xav.js",
+   "2012-10-27",
+   78,
+   "Xavi",
+   "같음"
+  ],
+  [
+   "알바 도움→타인 골",
+   "xav.js",
+   "2012-12-22",
+   42,
+   "Xavi",
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "다름",
+   "1125316",
+   "2011-10-26",
+   "81",
+   "82",
+   ""
+  ],
+  [
+   "다름",
+   "2242884",
+   "2012-11-03",
+   "60",
+   "61",
+   ""
+  ],
+  [
+   "다름",
+   "2288676",
+   "2013-02-26",
+   "87",
+   "89",
+   ""
+  ],
+  [
+   "다름",
+   "2518529",
+   "2015-01-08",
+   "55",
+   "56",
+   ""
+  ]
+ ],
+ "elo_sources": {
+  "순위표 → 라벨": 3,
+  "기존 팀×시즌 값": 29,
+  "같은 경기 다른 선수 자료": 149,
+  "직접 라벨(순위표 밖)": 1
+ },
+ "new_team_seasons": {
+  "Xerez CD|2008-09": [
+   1702,
+   "세군다 2008-09 1위/22팀"
+  ],
+  "Rayo Vallecano|2008-09": [
+   1652,
+   "세군다 2008-09 5위/22팀"
+  ],
+  "Real Murcia CF|2008-09": [
+   1574,
+   "세군다 2008-09 14위/22팀"
+  ],
+  "Club Necaxa|2025-26": [
+   1491,
+   "리가MX 2025-26 13위/18팀 (Liga MX, 연간 합산 순위)"
+  ]
+ },
+ "table_label_diffs": [],
+ "points_map_needed": [],
+ "shared_games": {
+  "adu.js": 60,
+  "agu.js": 5,
+  "aub.js": 22,
+  "avd.js": 80,
+  "axs.js": 58,
+  "caz.js": 3,
+  "cou.js": 91,
+  "dem.js": 149,
+  "dep.js": 33,
+  "fab.js": 58,
+  "fek.js": 1,
+  "grz.js": 84,
+  "ini.js": 197,
+  "isa.js": 1,
+  "isc.js": 8,
+  "joa.js": 49,
+  "jsv.js": 1,
+  "lew.js": 26,
+  "mat.js": 52,
+  "mes.js": 420,
+  "ney.js": 127,
+  "pat.js": 1,
+  "pdr.js": 88,
+  "ped.js": 96,
+  "pir.js": 1,
+  "rak.js": 246,
+  "rap.js": 28,
+  "rey.js": 2,
+  "rsc.js": 1,
+  "sil.js": 16,
+  "sim.js": 4,
+  "srd.js": 1,
+  "sua.js": 304,
+  "svl.js": 1,
+  "tur.js": 38,
+  "vic.js": 25,
+  "vil.js": 47,
+  "xav.js": 90
+ },
+ "elo_log": {
+  "Xerez CD|2008-12-21": [
+   "model",
+   1702,
+   "세군다 2008-09 1위/22팀"
+  ],
+  "Rayo Vallecano|2009-03-22": [
+   "model",
+   1652,
+   "세군다 2008-09 5위/22팀"
+  ],
+  "Real Murcia CF|2009-04-25": [
+   "model",
+   1574,
+   "세군다 2008-09 14위/22팀"
+  ],
+  "Girona FC|2009-05-30": [
+   "table",
+   1564,
+   "세군다 2008-09 16위/22팀",
+   "2008-09"
+  ],
+  "CD Alcoyano|2009-10-28": [
+   "same",
+   1391,
+   "스페인 3부 2009-10 4위/20팀 (Segunda División B Group 3, 리그 수준 추정)",
+   [
+    "joa.js"
+   ]
+  ],
+  "RCD Mallorca|2010-04-11": [
+   "table",
+   1907,
+   "라리가 2009-10 5위",
+   "2009-10"
+  ],
+  "UD Almería|2011-04-16": [
+   "same",
+   1696,
+   "라리가 2010-11 20위",
+   [
+    "joa.js"
+   ]
+  ],
+  "Real Madrid|2011-04-23": [
+   "same",
+   2109,
+   "라리가 2010-11 2위",
+   [
+    "mat.js"
+   ]
+  ],
+  "Racing Santander|2011-08-27": [
+   "table",
+   1723,
+   "라리가 2011-12 20위",
+   "2011-12"
+  ],
+  "Real Zaragoza|2011-10-26": [
+   "table",
+   1808,
+   "라리가 2011-12 16위",
+   "2011-12"
+  ],
+  "Málaga CF|2011-12-18": [
+   "table",
+   1909,
+   "라리가 2011-12 4위",
+   "2011-12"
+  ],
+  "Sevilla FC|2012-02-26": [
+   "table",
+   1874,
+   "라리가 2011-12 9위",
+   "2011-12"
+  ],
+  "Athletic Bilbao|2012-03-18": [
+   "table",
+   1864,
+   "라리가 2011-12 10위",
+   "2011-12"
+  ],
+  "AZ Alkmaar|2012-04-05": [
+   "table",
+   1648,
+   "에레디비시 2011-12 4위",
+   "2011-12"
+  ],
+  "Rayo Vallecano|2012-04-11": [
+   "table",
+   1815,
+   "라리가 2011-12 15위",
+   "2011-12"
+  ],
+  "CA Osasuna|2012-05-02": [
+   "same",
+   1867,
+   "라리가 2011-12 7위",
+   [
+    "adu.js"
+   ]
+  ],
+  "CA Osasuna|2012-08-26": [
+   "same",
+   1820,
+   "라리가 2012-13 16위",
+   [
+    "axs.js",
+    "mes.js"
+   ]
+  ],
+  "Deportivo A Coruña|2012-10-20": [
+   "same",
+   1794,
+   "라리가 2012-13 19위",
+   [
+    "fab.js",
+    "mes.js",
+    "xav.js"
+   ]
+  ],
+  "Celtic FC|2012-10-23": [
+   "same",
+   1517,
+   "스코틀랜드 1부 2012-13 1위/12팀 (Scottish Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   [
+    "ini.js",
+    "xav.js"
+   ]
+  ],
+  "Rayo Vallecano|2012-10-27": [
+   "same",
+   1883,
+   "라리가 2012-13 8위",
+   [
+    "fab.js",
+    "mes.js",
+    "ped.js",
+    "vil.js",
+    "xav.js"
+   ]
+  ],
+  "Celta de Vigo|2012-11-03": [
+   "same",
+   1813,
+   "라리가 2012-13 17위",
+   [
+    "ini.js",
+    "ped.js",
+    "vil.js"
+   ]
+  ],
+  "Real Zaragoza|2012-11-17": [
+   "same",
+   1787,
+   "라리가 2012-13 20위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Real Valladolid CF|2012-12-22": [
+   "same",
+   1848,
+   "라리가 2012-13 14위",
+   [
+    "ini.js",
+    "mes.js",
+    "xav.js"
+   ]
+  ],
+  "Getafe CF|2013-02-10": [
+   "same",
+   1859,
+   "라리가 2012-13 10위",
+   [
+    "axs.js",
+    "ini.js",
+    "mes.js",
+    "vil.js"
+   ]
+  ],
+  "Real Madrid|2013-02-26": [
+   "same",
+   2128,
+   "라리가 2012-13 2위",
+   [
+    "ini.js"
+   ]
+  ],
+  "AC Milan|2013-03-12": [
+   "same",
+   1835,
+   "세리에A 2012-13 3위",
+   [
+    "axs.js",
+    "ini.js",
+    "mes.js",
+    "vil.js",
+    "xav.js"
+   ]
+  ],
+  "Elche CF|2014-01-05": [
+   "same",
+   1851,
+   "라리가 2013-14 16위",
+   [
+    "axs.js",
+    "fab.js",
+    "ped.js"
+   ]
+  ],
+  "CA Osasuna|2014-03-16": [
+   "same",
+   1833,
+   "라리가 2013-14 18위",
+   [
+    "axs.js",
+    "ini.js",
+    "mes.js",
+    "ped.js"
+   ]
+  ],
+  "Levante UD|2014-09-21": [
+   "same",
+   1809,
+   "라리가 2014-15 14위",
+   [
+    "mes.js",
+    "ney.js",
+    "ped.js",
+    "rak.js"
+   ]
+  ],
+  "UD Almería|2014-11-08": [
+   "same",
+   1792,
+   "라리가 2014-15 19위",
+   [
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "APOEL Nicosia|2014-11-25": [
+   "same",
+   1476,
+   "키프로스 1부 2014-15 1위/12팀 (Cypriot First Division, 플레이오프·스플릿 뒤 최종 순위)",
+   [
+    "mes.js",
+    "ped.js",
+    "sua.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2014-12-07": [
+   "same",
+   1901,
+   "라리가 2014-15 10위",
+   [
+    "mes.js",
+    "ped.js",
+    "rak.js",
+    "sua.js",
+    "xav.js"
+   ]
+  ],
+  "Elche CF|2015-01-08": [
+   "same",
+   1834,
+   "라리가 2014-15 13위",
+   [
+    "mes.js",
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Atlético de Madrid|2015-01-28": [
+   "same",
+   2085,
+   "라리가 2014-15 3위",
+   [
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Manchester City|2015-02-24": [
+   "same",
+   1916,
+   "프리미어리그 2014-15 2위",
+   [
+    "sua.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2015-04-25": [
+   "same",
+   1901,
+   "라리가 2014-15 10위",
+   [
+    "mes.js",
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Athletic Bilbao|2015-08-23": [
+   "same",
+   1993,
+   "라리가 2015-16 5위",
+   [
+    "sua.js"
+   ]
+  ],
+  "Real Madrid|2015-11-21": [
+   "same",
+   2201,
+   "라리가 2015-16 2위",
+   [
+    "ini.js",
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Atlético de Madrid|2016-01-30": [
+   "same",
+   2151,
+   "라리가 2015-16 3위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "UD Las Palmas|2016-02-20": [
+   "same",
+   1885,
+   "라리가 2015-16 11위",
+   [
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Valencia CF|2016-04-17": [
+   "same",
+   1893,
+   "라리가 2015-16 12위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Granada CF|2016-05-14": [
+   "same",
+   1842,
+   "라리가 2015-16 16위",
+   [
+    "ney.js",
+    "sua.js"
+   ]
+  ],
+  "Sevilla FC|2016-05-22": [
+   "same",
+   1932,
+   "라리가 2015-16 7위",
+   [
+    "mes.js",
+    "ney.js"
+   ]
+  ],
+  "Real Betis Balompié|2016-08-20": [
+   "same",
+   1816,
+   "라리가 2016-17 15위",
+   [
+    "mes.js",
+    "sua.js",
+    "tur.js"
+   ]
+  ],
+  "CA Osasuna|2016-12-10": [
+   "same",
+   1699,
+   "라리가 2016-17 19위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2016-12-18": [
+   "same",
+   1921,
+   "라리가 2016-17 8위",
+   [
+    "ini.js",
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Granada CF|2017-04-02": [
+   "same",
+   1693,
+   "라리가 2016-17 20위",
+   [
+    "ney.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Real Madrid|2017-04-23": [
+   "same",
+   2173,
+   "라리가 2016-17 1위",
+   [
+    "mes.js",
+    "rak.js"
+   ]
+  ],
+  "UD Las Palmas|2017-05-14": [
+   "same",
+   1819,
+   "라리가 2016-17 14위",
+   [
+    "ney.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Deportivo Alavés|2017-08-26": [
+   "same",
+   1856,
+   "라리가 2017-18 14위",
+   [
+    "mes.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2017-09-09": [
+   "same",
+   1870,
+   "라리가 2017-18 11위",
+   [
+    "dem.js",
+    "mes.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Athletic Bilbao|2017-10-28": [
+   "same",
+   1841,
+   "라리가 2017-18 16위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Valencia CF|2017-11-26": [
+   "same",
+   2021,
+   "라리가 2017-18 4위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Celta de Vigo|2017-12-02": [
+   "same",
+   1877,
+   "라리가 2017-18 13위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Levante UD|2018-01-07": [
+   "same",
+   1846,
+   "라리가 2017-18 15위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Celta de Vigo|2018-01-11": [
+   "same",
+   1877,
+   "라리가 2017-18 13위",
+   [
+    "dem.js",
+    "mes.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "SD Eibar|2018-02-17": [
+   "same",
+   1879,
+   "라리가 2017-18 9위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Málaga CF|2018-03-10": [
+   "same",
+   1700,
+   "라리가 2017-18 20위",
+   [
+    "cou.js",
+    "dem.js",
+    "sua.js"
+   ]
+  ],
+  "Athletic Bilbao|2018-03-18": [
+   "same",
+   1841,
+   "라리가 2017-18 16위",
+   [
+    "dem.js",
+    "mes.js"
+   ]
+  ],
+  "Sevilla FC|2018-04-21": [
+   "same",
+   1906,
+   "라리가 2017-18 7위",
+   [
+    "cou.js",
+    "ini.js",
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "SD Huesca|2018-09-02": [
+   "same",
+   1749,
+   "라리가 2018-19 19위",
+   [
+    "cou.js",
+    "dem.js",
+    "mes.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Tottenham Hotspur|2018-10-03": [
+   "same",
+   1983,
+   "프리미어리그 2018-19 4위",
+   [
+    "cou.js",
+    "mes.js",
+    "rak.js"
+   ]
+  ],
+  "Inter Milan|2018-10-24": [
+   "same",
+   1827,
+   "세리에A 2018-19 4위",
+   [
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Real Madrid|2018-10-28": [
+   "same",
+   1956,
+   "라리가 2018-19 3위",
+   [
+    "avd.js",
+    "cou.js",
+    "dem.js",
+    "sua.js"
+   ]
+  ],
+  "Rayo Vallecano|2018-11-03": [
+   "same",
+   1735,
+   "라리가 2018-19 20위",
+   [
+    "dem.js",
+    "sua.js"
+   ]
+  ],
+  "Celta de Vigo|2018-12-22": [
+   "same",
+   1802,
+   "라리가 2018-19 17위",
+   [
+    "dem.js",
+    "mes.js"
+   ]
+  ],
+  "CD Leganés|2019-01-20": [
+   "same",
+   1823,
+   "라리가 2018-19 13위",
+   [
+    "dem.js",
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Girona FC|2019-01-27": [
+   "same",
+   1775,
+   "라리가 2018-19 18위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Sevilla FC|2019-01-30": [
+   "same",
+   1914,
+   "라리가 2018-19 6위",
+   [
+    "cou.js",
+    "mes.js",
+    "rak.js",
+    "sua.js"
+   ]
+  ],
+  "Atlético de Madrid|2019-04-06": [
+   "same",
+   2004,
+   "라리가 2018-19 2위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Manchester United|2019-04-16": [
+   "same",
+   1941,
+   "프리미어리그 2018-19 6위",
+   [
+    "cou.js",
+    "mes.js"
+   ]
+  ],
+  "Real Sociedad|2019-04-20": [
+   "same",
+   1852,
+   "라리가 2018-19 9위",
+   [
+    "dem.js",
+    "mes.js"
+   ]
+  ],
+  "Liverpool FC|2019-05-01": [
+   "same",
+   2139,
+   "프리미어리그 2018-19 2위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Real Betis Balompié|2019-08-25": [
+   "same",
+   1772,
+   "라리가 2019-20 15위",
+   [
+    "avd.js",
+    "grz.js"
+   ]
+  ],
+  "RCD Espanyol Barcelona|2020-01-04": [
+   "same",
+   1675,
+   "라리가 2019-20 20위",
+   [
+    "avd.js",
+    "sua.js"
+   ]
+  ],
+  "UD Ibiza|2020-01-22": [
+   "same",
+   1413,
+   "스페인 3부 2019-20 2위/20팀 (Segunda División B Grupo I, 리그 수준 추정)",
+   [
+    "grz.js"
+   ]
+  ],
+  "RCD Mallorca|2020-06-13": [
+   "same",
+   1719,
+   "라리가 2019-20 19위",
+   [
+    "avd.js",
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Villarreal CF|2020-07-05": [
+   "same",
+   1891,
+   "라리가 2019-20 5위",
+   [
+    "grz.js",
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Deportivo Alavés|2020-07-19": [
+   "same",
+   1745,
+   "라리가 2019-20 16위",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "FC Bayern Munich|2020-08-14": [
+   "same",
+   1998,
+   "분데스리가 2019-20 1위",
+   [
+    "sua.js"
+   ]
+  ],
+  "Villarreal CF|2020-09-27": [
+   "same",
+   1852,
+   "라리가 2020-21 7위",
+   [
+    "cou.js",
+    "mes.js"
+   ]
+  ],
+  "Real Madrid|2020-10-24": [
+   "table",
+   1998,
+   "라리가 2020-21 2위",
+   "2020-21"
+  ],
+  "Real Betis Balompié|2020-11-07": [
+   "same",
+   1844,
+   "라리가 2020-21 6위",
+   [
+    "dem.js",
+    "grz.js",
+    "mes.js",
+    "pdr.js"
+   ]
+  ],
+  "Dynamo Kyiv|2020-11-24": [
+   "same",
+   1716,
+   "우크라이나 1부 2020-21 1위/14팀 (Ukrainian Premier League)",
+   [
+    "grz.js"
+   ]
+  ],
+  "Ferencvárosi TC|2020-12-02": [
+   "same",
+   1564,
+   "헝가리 1부 2020-21 1위/12팀 (Nemzeti Bajnokság I)",
+   [
+    "dem.js",
+    "grz.js"
+   ]
+  ],
+  "Real Sociedad|2020-12-16": [
+   "table",
+   1876,
+   "라리가 2020-21 5위",
+   "2020-21"
+  ],
+  "Athletic Bilbao|2021-01-17": [
+   "same",
+   1783,
+   "라리가 2020-21 10위",
+   [
+    "grz.js"
+   ]
+  ],
+  "Rayo Vallecano|2021-01-27": [
+   "same",
+   1619,
+   "세군다 2020-21 6위/22팀",
+   [
+    "grz.js",
+    "mes.js"
+   ]
+  ],
+  "Granada CF|2021-02-03": [
+   "same",
+   1753,
+   "라리가 2020-21 9위",
+   [
+    "grz.js",
+    "mes.js"
+   ]
+  ],
+  "Elche CF|2021-02-24": [
+   "same",
+   1705,
+   "라리가 2020-21 17위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Sevilla FC|2021-03-03": [
+   "same",
+   1942,
+   "라리가 2020-21 4위",
+   [
+    "dem.js",
+    "grz.js"
+   ]
+  ],
+  "CA Osasuna|2021-03-06": [
+   "same",
+   1754,
+   "라리가 2020-21 11위",
+   [
+    "mes.js"
+   ]
+  ],
+  "Real Sociedad|2021-03-21": [
+   "same",
+   1876,
+   "라리가 2020-21 5위",
+   [
+    "dem.js",
+    "grz.js",
+    "mes.js"
+   ]
+  ],
+  "Real Madrid|2021-04-10": [
+   "table",
+   1998,
+   "라리가 2020-21 2위",
+   "2020-21"
+  ],
+  "Athletic Bilbao|2021-04-17": [
+   "same",
+   1783,
+   "라리가 2020-21 10위",
+   [
+    "grz.js",
+    "mes.js"
+   ]
+  ],
+  "Getafe CF|2021-08-29": [
+   "same",
+   1707,
+   "라리가 2021-22 15위",
+   [
+    "dep.js"
+   ]
+  ],
+  "Dynamo Kyiv|2021-10-20": [
+   "table",
+   1720,
+   "우크라이나 1부 2021-22 2위/16팀 (Ukrainian Premier League)",
+   "2021-22"
+  ],
+  "Deportivo Alavés|2021-10-30": [
+   "same",
+   1637,
+   "라리가 2021-22 20위",
+   [
+    "dep.js"
+   ]
+  ],
+  "Celta de Vigo|2021-11-06": [
+   "same",
+   1749,
+   "라리가 2021-22 11위",
+   [
+    "dep.js"
+   ]
+  ],
+  "Real Madrid|2022-01-12": [
+   "table",
+   1992,
+   "라리가 2021-22 1위",
+   "2021-22"
+  ],
+  "Atlético de Madrid|2022-02-06": [
+   "table",
+   1889,
+   "라리가 2021-22 3위",
+   "2021-22"
+  ],
+  "RCD Espanyol Barcelona|2022-02-13": [
+   "same",
+   1713,
+   "라리가 2021-22 14위",
+   [
+    "pdr.js"
+   ]
+  ],
+  "Valencia CF|2022-02-20": [
+   "same",
+   1751,
+   "라리가 2021-22 9위",
+   [
+    "aub.js",
+    "dem.js"
+   ]
+  ],
+  "SSC Napoli|2022-02-24": [
+   "same",
+   1931,
+   "세리에A 2021-22 3위",
+   [
+    "aub.js"
+   ]
+  ],
+  "Elche CF|2022-03-06": [
+   "same",
+   1715,
+   "라리가 2021-22 13위",
+   [
+    "dep.js"
+   ]
+  ],
+  "Levante UD|2022-04-10": [
+   "same",
+   1666,
+   "라리가 2021-22 19위",
+   [
+    "aub.js",
+    "dem.js",
+    "pdr.js"
+   ]
+  ],
+  "RCD Mallorca|2022-05-01": [
+   "same",
+   1681,
+   "라리가 2021-22 16위",
+   [
+    "dep.js"
+   ]
+  ],
+  "Real Betis Balompié|2022-05-07": [
+   "table",
+   1862,
+   "라리가 2021-22 5위",
+   "2021-22"
+  ],
+  "Villarreal CF|2022-10-20": [
+   "same",
+   1844,
+   "라리가 2022-23 5위",
+   [
+    "lew.js"
+   ]
+  ],
+  "FC Viktoria Plzen|2022-11-01": [
+   "same",
+   1571,
+   "체코 1부 2022-23 3위/16팀 (Czech First League, 플레이오프·스플릿 뒤 최종 순위)",
+   [
+    "rap.js"
+   ]
+  ],
+  "CF Intercity|2023-01-04": [
+   "same",
+   1282,
+   "스페인 3부 2022-23 12위/20팀 (Primera Federación Grupo II, 리그 수준 추정)",
+   [
+    "dem.js",
+    "rap.js"
+   ]
+  ],
+  "AD Ceuta FC|2023-01-19": [
+   "same",
+   1266,
+   "스페인 3부 2022-23 12위/20팀 (Primera Federación Grupo I, 리그 수준 추정)",
+   [
+    "lew.js",
+    "rap.js"
+   ]
+  ],
+  "Girona FC|2023-01-28": [
+   "same",
+   1756,
+   "라리가 2022-23 10위",
+   [
+    "pdr.js"
+   ]
+  ],
+  "Sevilla FC|2023-02-05": [
+   "same",
+   1743,
+   "라리가 2022-23 12위",
+   [
+    "rap.js"
+   ]
+  ],
+  "CA Osasuna|2023-05-02": [
+   "table",
+   1764,
+   "라리가 2022-23 7위",
+   "2022-23"
+  ],
+  "FC Dallas|2023-08-06": [
+   "same",
+   1558,
+   "MLS 2023 14위/29팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Philadelphia Union|2023-08-15": [
+   "same",
+   1603,
+   "MLS 2023 5위/29팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Los Angeles FC|2023-09-03": [
+   "same",
+   1591,
+   "MLS 2023 8위/29팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Los Angeles Galaxy|2024-02-25": [
+   "same",
+   1636,
+   "MLS 2024 4위/29팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "CF Montréal|2024-03-10": [
+   "table",
+   1524,
+   "MLS 2024 17위/29팀",
+   "2024"
+  ],
+  "Vancouver Whitecaps FC|2024-05-25": [
+   "table",
+   1586,
+   "MLS 2024 서부 8위/29팀·승점 47 (추정, 전체 17위 안팎; 다른 선수 자료 MLS 2024 13위 1580·20위 1551 사이)",
+   "2024"
+  ],
+  "St. Louis CITY SC|2024-06-01": [
+   "same",
+   1505,
+   "MLS 2024 24위/29팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Nashville SC|2024-06-29": [
+   "table",
+   1499,
+   "MLS 2024 25위/29팀",
+   "2024"
+  ],
+  "Charlotte FC|2024-07-03": [
+   "table",
+   1579,
+   "MLS 2024 11위/29팀",
+   "2024"
+  ],
+  "Chicago Fire FC|2024-07-20": [
+   "table",
+   1471,
+   "MLS 2024 28위/29팀",
+   "2024"
+  ],
+  "Puebla FC|2024-07-27": [
+   "same",
+   1454,
+   "리가MX 2023-24 18위/18팀 (Liga MX, 연간 합산 순위)",
+   [
+    "sua.js"
+   ]
+  ],
+  "Toronto FC|2024-08-08": [
+   "same",
+   1497,
+   "MLS 2024 22위/29팀",
+   [
+    "sua.js"
+   ]
+  ],
+  "Chicago Fire FC|2024-08-31": [
+   "same",
+   1471,
+   "MLS 2024 28위/29팀",
+   [
+    "sua.js"
+   ]
+  ],
+  "Philadelphia Union|2024-09-14": [
+   "same",
+   1527,
+   "MLS 2024 23위/29팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "New York City FC|2024-09-21": [
+   "table",
+   1571,
+   "MLS 2024 13위/29팀",
+   "2024"
+  ],
+  "New England Revolution|2024-10-19": [
+   "same",
+   1458,
+   "MLS 2024 26위/29팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Atlanta United FC|2024-10-25": [
+   "same",
+   1527,
+   "MLS 2024 20위/29팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Sporting Kansas City|2025-02-25": [
+   "same",
+   1466,
+   "MLS 2025 27위/30팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Atlanta United FC|2025-03-16": [
+   "same",
+   1465,
+   "MLS 2025 29위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Vancouver Whitecaps FC|2025-04-30": [
+   "same",
+   1646,
+   "MLS 2025 5위/30팀",
+   [
+    "sua.js"
+   ]
+  ],
+  "Minnesota United FC|2025-05-10": [
+   "same",
+   1617,
+   "MLS 2025 8위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "San Jose Earthquakes|2025-05-14": [
+   "table",
+   1535,
+   "MLS 2025 20위/30팀",
+   "2025"
+  ],
+  "New York Red Bulls|2025-07-19": [
+   "same",
+   1546,
+   "MLS 2025 18위/30팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Club Necaxa|2025-08-02": [
+   "man",
+   1491,
+   "리가MX 2025-26 13위/18팀 (Liga MX, 연간 합산 순위)"
+  ],
+  "Los Angeles Galaxy|2025-08-16": [
+   "same",
+   1478,
+   "MLS 2025 26위/30팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Orlando City SC|2025-08-27": [
+   "same",
+   1594,
+   "MLS 2025 14위/30팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Seattle Sounders FC|2025-09-16": [
+   "same",
+   1599,
+   "MLS 2025 10위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "D.C. United|2025-09-20": [
+   "table",
+   1446,
+   "MLS 2025 30위/30팀",
+   "2025"
+  ],
+  "Toronto FC|2025-09-27": [
+   "table",
+   1499,
+   "MLS 2025 25위/30팀",
+   "2025"
+  ],
+  "Chicago Fire FC|2025-09-30": [
+   "same",
+   1589,
+   "MLS 2025 13위/30팀",
+   [
+    "sua.js"
+   ]
+  ],
+  "New England Revolution|2025-10-04": [
+   "same",
+   1513,
+   "MLS 2025 23위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Atlanta United FC|2025-10-11": [
+   "same",
+   1465,
+   "MLS 2025 29위/30팀",
+   [
+    "mes.js",
+    "sua.js"
+   ]
+  ],
+  "Nashville SC|2025-10-18": [
+   "same",
+   1598,
+   "MLS 2025 11위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Nashville SC|2025-11-08": [
+   "same",
+   1598,
+   "MLS 2025 11위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "New York City FC|2025-11-29": [
+   "same",
+   1598,
+   "MLS 2025 9위/30팀",
+   [
+    "mes.js"
+   ]
+  ],
+  "Bursaspor|2010-11-24": [
+   "same",
+   1626,
+   "쉬페르리그 2010-11 3위/18팀",
+   [
+    "adu.js",
+    "joa.js",
+    "mat.js"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+{"preset":"okazaki","name":"오카자키 신지","prefix":"OKZ",
+ "clubs":[
+  {"key":"shiok","name":"시미즈 S펄스","short":"시미즈","years":"2005~2010","until":"2011-01-30"},
+  {"key":"vfbok","name":"VfB 슈투트가르트","short":"슈투트가르트","years":"2011~2013","until":"2013-07-01"},
+  {"key":"m05ok","name":"1. FSV 마인츠 05","short":"마인츠","years":"2013~2015","until":"2015-07-01"},
+  {"key":"leiok","name":"레스터 시티","short":"레스터","years":"2015~2019","until":"2019-07-30"},
+  {"key":"hueok","name":"SD 우에스카","short":"우에스카","years":"2019~2021","until":"2021-08-31"},
+  {"key":"carok","name":"FC 카르타헤나","short":"카르타헤나","years":"2021~2022","until":"2022-08-19"},
+  {"key":"stvok","name":"신트트라위던 VV","short":"신트트라위던","years":"2022~2024","until":null}],
+ "season":{"calendar":["shiok"],"jul10":["m05ok","stvok"],"jul1":[]},
+ "pos":"CF","flag":"JP","retired":true,
+ "colors":{
+  "shiok":["#FF8800","#FFFFFF"],
+  "vfbok":["#FFFFFF","#E32219"],
+  "m05ok":["#FF0000","#FFFFFF"],
+  "leiok":["#003090","#FFFFFF"],
+  "hueok":["#1D3B7E","#A6192E"],
+  "carok":["#000000","#FFFFFF"],
+  "stvok":["#FFFF00","#0000FF"]},
+ "hon":{"t":{"LG":["15/16 레스터"]},
+  "o":[["스페인 2부 우승","19/20 우에스카"]],
+  "a":{"FOY":["2016 레스터"],"XI":["2009 J리그 · 사무국"]}}}

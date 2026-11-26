@@ -1,0 +1,7381 @@
+{
+ "E": [
+  {
+   "type": "a",
+   "opp": "Guangzhou Evergrande",
+   "elo": 1429,
+   "comp": "acl",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2014 1위/16팀 (Chinese Super League)",
+   "note": "Leonardo"
+  },
+  {
+   "type": "g",
+   "opp": "Gyeongnam FC",
+   "elo": 1420,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Jeonnam Dragons",
+   "elo": 1468,
+   "comp": "dc",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Kaio"
+  },
+  {
+   "type": "g",
+   "opp": "Pohang Steelers",
+   "elo": 1517,
+   "comp": "acl",
+   "min": 54,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Busan IPark",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-07-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gyeongnam FC",
+   "elo": 1420,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-07-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Jeonnam Dragons",
+   "elo": 1468,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 93,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-11-02",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "K리그1 2014 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Kaio"
+  },
+  {
+   "type": "a",
+   "opp": "Shandong Luneng Taishan",
+   "elo": 1383,
+   "comp": "acl",
+   "min": 71,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2015 3위/16팀",
+   "note": "Kyo-won Han"
+  },
+  {
+   "type": "g",
+   "opp": "Shandong Luneng Taishan",
+   "elo": 1383,
+   "comp": "acl",
+   "min": 76,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2015 3위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gwangju FC",
+   "elo": 1429,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Leonardo"
+  },
+  {
+   "type": "g",
+   "opp": "Jeonnam Dragons",
+   "elo": 1446,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Shandong Luneng Taishan",
+   "elo": 1383,
+   "comp": "acl",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2015 3위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Beijing Guoan",
+   "elo": 1391,
+   "comp": "acl",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2015 4위/16팀",
+   "note": "Edú",
+   "tie": [
+    2,
+    0,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Jeonnam Dragons",
+   "elo": 1446,
+   "comp": "lg",
+   "min": 77,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-06-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Daejeon Citizen",
+   "elo": 1399,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-07-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Edú"
+  },
+  {
+   "type": "a",
+   "opp": "Jeju United",
+   "elo": 1475,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-07-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Chang-hyeon Yu"
+  },
+  {
+   "type": "g",
+   "opp": "Jeju United",
+   "elo": 1475,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-07-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Suwon Samsung Bluewings",
+   "elo": 1558,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-07-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1511,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "g",
+   "opp": "FC Seoul",
+   "elo": 1511,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Jeju United",
+   "elo": 1475,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-08",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Suwon Samsung Bluewings",
+   "elo": 1558,
+   "comp": "lg",
+   "min": 84,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2015 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Tokyo",
+   "elo": 1534,
+   "comp": "acl",
+   "min": 83,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "J1리그 2016 연간 9위/18팀",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1542,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Shin-wook Kim"
+  },
+  {
+   "type": "a",
+   "opp": "Becamex Binh Duong FC",
+   "elo": 1134,
+   "comp": "acl",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "베트남 1부 2016 10위/14팀 (V.League 1, 리그 수준 추정)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "a",
+   "opp": "Jeju United",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Pohang Steelers",
+   "elo": 1430,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "g",
+   "opp": "FC Tokyo",
+   "elo": 1534,
+   "comp": "acl",
+   "min": 60,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "J1리그 2016 연간 9위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Suwon FC",
+   "elo": 1383,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "g",
+   "opp": "Jeonnam Dragons",
+   "elo": 1478,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-06-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Pohang Steelers",
+   "elo": 1430,
+   "comp": "lg",
+   "min": 56,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-07-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Bo-kyung Kim"
+  },
+  {
+   "type": "a",
+   "opp": "Ulsan Hyundai",
+   "elo": 1496,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-07-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Shin-wook Kim"
+  },
+  {
+   "type": "g",
+   "opp": "Gwangju FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gwangju FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-07-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Leonardo"
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1542,
+   "comp": "lg",
+   "min": 27,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Leonardo"
+  },
+  {
+   "type": "a",
+   "opp": "Shanghai SIPG",
+   "elo": 1418,
+   "comp": "aclk",
+   "min": 84,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2016 3위/16팀",
+   "note": "Dong-gook Lee",
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1542,
+   "comp": "aclsf",
+   "min": 84,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Shin-wook Kim",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Jeju United",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Hyung-min Shin"
+  },
+  {
+   "type": "a",
+   "opp": "Jeonnam Dragons",
+   "elo": 1478,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "g",
+   "opp": "Sangju Sangmu",
+   "elo": 1459,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Sangju Sangmu",
+   "elo": 1459,
+   "comp": "lg",
+   "min": 90,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2016 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Edú"
+  },
+  {
+   "type": "a",
+   "opp": "Al-Ain FC",
+   "elo": 1412,
+   "comp": "aclf",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "UAE 프로리그 2016-17 4위/14팀",
+   "note": "Kyo-won Han",
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Mamelodi Sundowns FC",
+   "elo": 1440,
+   "comp": "cwc",
+   "min": 89,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "남아프리카공화국 1부 2016-17 2위/16팀 (Premiership)",
+   "note": "Shin-wook Kim"
+  },
+  {
+   "type": "g",
+   "opp": "Incheon United",
+   "elo": 1408,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gangwon FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-06-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Edú"
+  },
+  {
+   "type": "a",
+   "opp": "Pohang Steelers",
+   "elo": 1425,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-06-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "g",
+   "opp": "Ulsan Hyundai",
+   "elo": 1473,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-07-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Jeju United",
+   "elo": 1520,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-07-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "a",
+   "opp": "Sangju Sangmu",
+   "elo": 1376,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-07-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "g",
+   "opp": "Gwangju FC",
+   "elo": 1361,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-07-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Seoul",
+   "elo": 1496,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-07-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 5위/12팀 (K League 1)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gwangju FC",
+   "elo": 1361,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Seung-gi Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Gangwon FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 46,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-10",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Edú"
+  },
+  {
+   "type": "g",
+   "opp": "Pohang Steelers",
+   "elo": 1425,
+   "comp": "lg",
+   "min": 15,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Pohang Steelers",
+   "elo": 1425,
+   "comp": "lg",
+   "min": 62,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Gangwon FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "a",
+   "opp": "Gangwon FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Seung-gi Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Gangwon FC",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Edú"
+  },
+  {
+   "type": "g",
+   "opp": "Jeju United",
+   "elo": 1520,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ulsan Hyundai",
+   "elo": 1473,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ulsan Hyundai",
+   "elo": 1473,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Kashiwa Reysol",
+   "elo": 1494,
+   "comp": "acl",
+   "min": 55,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "J1리그 2018 17위/18팀",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Ulsan Hyundai",
+   "elo": 1477,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 3위/12팀 (K League 1)",
+   "note": "Dong-gook Lee"
+  },
+  {
+   "type": "a",
+   "opp": "Tianjin Quanjian",
+   "elo": 1313,
+   "comp": "acl",
+   "min": 42,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "중국 슈퍼리그 2018 9위/16팀 (추정, 다른 선수 자료 중국 슈퍼리그 2012 순위별 값과 같은 모형)",
+   "note": "Kyo-won Han"
+  },
+  {
+   "type": "a",
+   "opp": "FC Seoul",
+   "elo": 1352,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Min-jae Kim"
+  },
+  {
+   "type": "g",
+   "opp": "Jeonnam Dragons",
+   "elo": 1336,
+   "comp": "lg",
+   "min": 95,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "K리그1 2018 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Daegu FC",
+   "elo": 1400,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": "Ricardo Lopes"
+  },
+  {
+   "type": "g",
+   "opp": "Buriram United",
+   "elo": 1380,
+   "comp": "acl",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "태국 1부 2018 1위/18팀 (Thai League 1)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Seoul",
+   "elo": 1352,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ulsan Hyundai",
+   "elo": 1477,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 3위/12팀 (K League 1)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Jeju United",
+   "elo": 1431,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-07-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "K리그1 2018 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 4위/18팀",
+   "note": "Jonas Meffert"
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 4위/18팀",
+   "note": "David Kinsombi"
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1532,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 5위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "TSV 1860 Munich",
+   "elo": 1380,
+   "comp": "dc",
+   "min": 87,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2018-08-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 3부 2018-19 12위/20팀 (3. Liga, 리그 수준 추정)",
+   "note": "Kingsley Schindler"
+  },
+  {
+   "type": "a",
+   "opp": "SV Darmstadt 98",
+   "elo": 1487,
+   "comp": "lg",
+   "min": 32,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 10위/18팀",
+   "note": "Janni Serra"
+  },
+  {
+   "type": "a",
+   "opp": "FC Erzgebirge Aue",
+   "elo": 1469,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 14위/18팀",
+   "note": "Alexander Mühling"
+  },
+  {
+   "type": "a",
+   "opp": "SC Paderborn 07",
+   "elo": 1568,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 2위/18팀",
+   "note": "Kingsley Schindler"
+  },
+  {
+   "type": "g",
+   "opp": "SV Sandhausen",
+   "elo": 1472,
+   "comp": "lg",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "MSV Duisburg",
+   "elo": 1429,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 18위/18팀",
+   "note": "Kingsley Schindler"
+  },
+  {
+   "type": "g",
+   "opp": "MSV Duisburg",
+   "elo": 1429,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 18위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC St. Pauli",
+   "elo": 1502,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 9위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Sandhausen",
+   "elo": 1472,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 15위/18팀",
+   "note": "Masaya Okugawa"
+  },
+  {
+   "type": "g",
+   "opp": "SG Dynamo Dresden",
+   "elo": 1483,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-05-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2018-19 12위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FSV Salmrohr",
+   "elo": 1006,
+   "comp": "dc",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 6부 2019-20 순위 없음 (Rheinlandliga, 3위로 확인했으나 팀 수를 찾지 못함; 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FSV Salmrohr",
+   "elo": 1006,
+   "comp": "dc",
+   "min": 63,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 6부 2019-20 순위 없음 (Rheinlandliga, 3위로 확인했으나 팀 수를 찾지 못함; 리그 수준 추정)",
+   "note": "David Atanga"
+  },
+  {
+   "type": "g",
+   "opp": "Karlsruher SC",
+   "elo": 1459,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Karlsruher SC",
+   "elo": 1459,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Erzgebirge Aue",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 7위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hannover 96",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 6위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1567,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 2위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 8위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Arminia Bielefeld",
+   "elo": 1589,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 1위/18팀",
+   "note": "Emmanuel Iyoha"
+  },
+  {
+   "type": "a",
+   "opp": "SG Dynamo Dresden",
+   "elo": 1438,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 18위/18팀",
+   "note": "Emmanuel Iyoha"
+  },
+  {
+   "type": "a",
+   "opp": "SV Darmstadt 98",
+   "elo": 1520,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 5위/18팀",
+   "note": "Stefan Thesker"
+  },
+  {
+   "type": "a",
+   "opp": "FC Erzgebirge Aue",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 7위/18팀",
+   "note": "Emmanuel Iyoha"
+  },
+  {
+   "type": "g",
+   "opp": "Hannover 96",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 6위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1476,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 12위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1476,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 12위/18팀",
+   "note": "Finn Porath"
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-06-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2019-20 4위/18팀",
+   "note": "Emmanuel Iyoha"
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 94,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-06-08",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "2. 분데스리가 2019-20 4위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Rielasingen-Arlen",
+   "elo": 1171,
+   "comp": "dc",
+   "min": 22,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 5부 2020-21 6위/21팀 (Oberliga Baden-Württemberg, 시즌 중단 시점 순위; 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Rielasingen-Arlen",
+   "elo": 1171,
+   "comp": "dc",
+   "min": 24,
+   "gf": 3,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2020-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 5부 2020-21 6위/21팀 (Oberliga Baden-Württemberg, 시즌 중단 시점 순위; 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Würzburger Kickers",
+   "elo": 1451,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 18위/18팀",
+   "note": "Janni Serra"
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 1위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 14위/18팀",
+   "note": "Fin Bartels"
+  },
+  {
+   "type": "a",
+   "opp": "Karlsruher SC",
+   "elo": 1531,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 6위/18팀",
+   "note": "Janni Serra"
+  },
+  {
+   "type": "g",
+   "opp": "Fortuna Düsseldorf",
+   "elo": 1537,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 5위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hamburger SV",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 4위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Sandhausen",
+   "elo": 1472,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 15위/18팀",
+   "note": "Janni Serra"
+  },
+  {
+   "type": "a",
+   "opp": "SSV Jahn Regensburg",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "2. 분데스리가 2020-21 14위/18팀",
+   "note": "Simon Lorenz"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 16위",
+   "note": "Simon Lorenz",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "1.FC Köln",
+   "elo": 1639,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2020-21 16위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1919,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 2위",
+   "note": "Jonathan Burkardt"
+  },
+  {
+   "type": "g",
+   "opp": "Arminia Bielefeld",
+   "elo": 1624,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1717,
+   "comp": "lg",
+   "min": 4,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 12위",
+   "note": "Anton Stach"
+  },
+  {
+   "type": "g",
+   "opp": "Hertha BSC",
+   "elo": 1637,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1867,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1751,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2021-22 10위",
+   "note": "Karim Onisiwo"
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-20",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "분데스리가 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Köln",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 40,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 11위",
+   "note": "Anton Stach"
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "VfL Bochum",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Augsburg",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 52,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-19",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "분데스리가 2022-23 6위",
+   "note": "Leandro Barreiro"
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1705,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1705,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 10위",
+   "note": "Ludovic Ajorque"
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 2위",
+   "note": "Karim Onisiwo"
+  },
+  {
+   "type": "g",
+   "opp": "Eintracht Frankfurt",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1887,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 14위",
+   "note": "Jonathan Burkardt"
+  },
+  {
+   "type": "a",
+   "opp": "VfL Bochum",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 16위",
+   "note": "Jonathan Burkardt"
+  },
+  {
+   "type": "a",
+   "opp": "SV Darmstadt 98",
+   "elo": 1503,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 18위",
+   "note": "Andreas Hanche-Olsen"
+  },
+  {
+   "type": "g",
+   "opp": "SV Darmstadt 98",
+   "elo": 1503,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Darmstadt 98",
+   "elo": 1503,
+   "comp": "lg",
+   "min": 84,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1857,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1857,
+   "comp": "lg",
+   "min": 23,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SV Wehen Wiesbaden",
+   "elo": 1409,
+   "comp": "dc",
+   "min": 59,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 3부 2024-25 9위/20팀 (3. Liga, 리그 수준 추정)",
+   "note": "Dominik Kohr"
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Holstein Kiel",
+   "elo": 1584,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "TSG 1899 Hoffenheim",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 15위",
+   "note": "Jonathan Burkardt"
+  },
+  {
+   "type": "a",
+   "opp": "VfL Wolfsburg",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 11위",
+   "note": "Paul Nebel"
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 2019,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 2019,
+   "comp": "lg",
+   "min": 60,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC St. Pauli",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 67,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC St. Pauli",
+   "elo": 1647,
+   "comp": "lg",
+   "min": 95,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-22",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "분데스리가 2024-25 14위",
+   "note": "Paul Nebel"
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 10위",
+   "note": "Paul Nebel"
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Mönchengladbach",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 10위",
+   "note": "Nadiem Amiri"
+  },
+  {
+   "type": "g",
+   "opp": "VfL Wolfsburg",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfL Bochum",
+   "elo": 1580,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 18위",
+   "note": "Phillipp Mwene"
+  },
+  {
+   "type": "g",
+   "opp": "Rosenborg BK",
+   "elo": 1505,
+   "comp": "ecq",
+   "min": 43,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "노르웨이 1부 2025 7위/16팀",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1836,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "ACF Fiorentina",
+   "elo": 1710,
+   "comp": "ecg",
+   "min": 68,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 15위",
+   "note": "Benedict Hollerbach"
+  },
+  {
+   "type": "g",
+   "opp": "ACF Fiorentina",
+   "elo": 1710,
+   "comp": "ecg",
+   "min": 95,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-06",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "세리에A 2025-26 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 2085,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Samsunspor",
+   "elo": 1577,
+   "comp": "ecg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2025-26 7위/18팀",
+   "note": "Silvan Widmer"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Union Berlin",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 11위",
+   "note": "Nadiem Amiri"
+  },
+  {
+   "type": "a",
+   "opp": "1.FC Heidenheim 1846",
+   "elo": 1591,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 17위",
+   "note": "Silvan Widmer"
+  },
+  {
+   "type": "g",
+   "opp": "VfB Stuttgart",
+   "elo": 1852,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "VfB 1921 Krieschow",
+   "elo": 1130,
+   "comp": "dc",
+   "min": 39,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2026-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "독일 5부 2026-27 순위 없음 (NOFV-Oberliga Süd, 진행 중 시즌 순위표를 찾지 못함; 리그 수준 추정)",
+   "note": "Nadiem Amiri"
+  },
+  {
+   "type": "a",
+   "opp": "Hamburger SV",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 83,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-09-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 11위/18팀 (2026년 11월 중순 현재 순위)",
+   "note": "Phillip Tietz"
+  },
+  {
+   "type": "g",
+   "opp": "SV Werder Bremen",
+   "elo": 1765,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2026-27 6위/18팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2014-02-26",
+   "Yokohama F. Marinos",
+   "acl",
+   58
+  ],
+  [
+   "2014-03-15",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-18",
+   "Guangzhou Evergrande",
+   "acl",
+   62
+  ],
+  [
+   "2014-03-23",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-26",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-02",
+   "Guangzhou Evergrande",
+   "acl",
+   90
+  ],
+  [
+   "2014-04-06",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-09",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-12",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-15",
+   "Yokohama F. Marinos",
+   "acl",
+   90
+  ],
+  [
+   "2014-04-19",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-22",
+   "Melbourne Victory",
+   "acl",
+   90
+  ],
+  [
+   "2014-04-26",
+   "Gyeongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-30",
+   "Jeonnam Dragons",
+   "dc",
+   21
+  ],
+  [
+   "2014-05-03",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2014-05-06",
+   "Pohang Steelers",
+   "acl",
+   90
+  ],
+  [
+   "2014-05-10",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2014-05-13",
+   "Pohang Steelers",
+   "acl",
+   90
+  ],
+  [
+   "2014-07-05",
+   "Busan IPark",
+   "lg",
+   76
+  ],
+  [
+   "2014-07-09",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2014-07-13",
+   "Gyeongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2014-07-16",
+   "Ulsan Hyundai",
+   "dc",
+   90
+  ],
+  [
+   "2014-07-20",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2014-07-23",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-03",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-06",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-09",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-13",
+   "Gangneung City",
+   "dk",
+   41
+  ],
+  [
+   "2014-08-16",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-23",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-31",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-02",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-08",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-15",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-22",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2014-11-30",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2015-02-24",
+   "Kashiwa Reysol",
+   "acl",
+   90
+  ],
+  [
+   "2015-03-03",
+   "Shandong Luneng Taishan",
+   "acl",
+   90
+  ],
+  [
+   "2015-03-07",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-03-14",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2015-03-17",
+   "Becamex Binh Duong FC",
+   "acl",
+   90
+  ],
+  [
+   "2015-03-22",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-04",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-12",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-15",
+   "Busan IPark",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-18",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-22",
+   "Kashiwa Reysol",
+   "acl",
+   90
+  ],
+  [
+   "2015-04-26",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-02",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-06",
+   "Shandong Luneng Taishan",
+   "acl",
+   90
+  ],
+  [
+   "2015-05-10",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-16",
+   "Daejeon Citizen",
+   "lg",
+   90
+  ],
+  [
+   "2015-05-19",
+   "Beijing Guoan",
+   "acl",
+   90
+  ],
+  [
+   "2015-05-23",
+   "Incheon United",
+   "lg",
+   29
+  ],
+  [
+   "2015-05-26",
+   "Beijing Guoan",
+   "acl",
+   90
+  ],
+  [
+   "2015-05-31",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-06-03",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2015-06-06",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2015-06-21",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2015-06-24",
+   "Pohang Steelers",
+   "dc",
+   22
+  ],
+  [
+   "2015-06-28",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2015-07-01",
+   "Busan IPark",
+   "lg",
+   90
+  ],
+  [
+   "2015-07-05",
+   "Daejeon Citizen",
+   "lg",
+   90
+  ],
+  [
+   "2015-07-08",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-07-11",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2015-07-26",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-15",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-19",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-22",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-26",
+   "Gamba Osaka",
+   "aclk",
+   90
+  ],
+  [
+   "2015-08-30",
+   "Seongnam FC",
+   "lg",
+   57
+  ],
+  [
+   "2015-09-12",
+   "FC Seoul",
+   "lg",
+   55
+  ],
+  [
+   "2015-09-16",
+   "Gamba Osaka",
+   "aclk",
+   90
+  ],
+  [
+   "2015-09-20",
+   "Daejeon Citizen",
+   "lg",
+   74
+  ],
+  [
+   "2015-10-04",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-17",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2015-10-25",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-08",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-21",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-29",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-23",
+   "FC Tokyo",
+   "acl",
+   90
+  ],
+  [
+   "2016-03-01",
+   "Jiangsu Suning",
+   "acl",
+   90
+  ],
+  [
+   "2016-03-12",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-15",
+   "Becamex Binh Duong FC",
+   "acl",
+   90
+  ],
+  [
+   "2016-03-20",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-02",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-10",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-13",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-16",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-20",
+   "FC Tokyo",
+   "acl",
+   90
+  ],
+  [
+   "2016-04-24",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-30",
+   "Suwon FC",
+   "lg",
+   45
+  ],
+  [
+   "2016-05-04",
+   "Jiangsu Suning",
+   "acl",
+   90
+  ],
+  [
+   "2016-05-08",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2016-05-17",
+   "Melbourne Victory",
+   "acl",
+   90
+  ],
+  [
+   "2016-05-24",
+   "Melbourne Victory",
+   "acl",
+   90
+  ],
+  [
+   "2016-05-29",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2016-06-12",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-06-15",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2016-06-18",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2016-06-26",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-06-29",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-03",
+   "Suwon FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-10",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-13",
+   "Bucheon FC 1995",
+   "dk",
+   90
+  ],
+  [
+   "2016-07-16",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-20",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-24",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2016-07-30",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-03",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-10",
+   "Suwon FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-14",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-23",
+   "Shanghai SIPG",
+   "aclk",
+   90
+  ],
+  [
+   "2016-08-28",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-13",
+   "Shanghai SIPG",
+   "aclk",
+   90
+  ],
+  [
+   "2016-09-18",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-24",
+   "Seongnam FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-28",
+   "FC Seoul",
+   "aclsf",
+   90
+  ],
+  [
+   "2016-10-02",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-15",
+   "Jeju United",
+   "lg",
+   36
+  ],
+  [
+   "2016-10-19",
+   "FC Seoul",
+   "aclsf",
+   90
+  ],
+  [
+   "2016-10-29",
+   "Jeonnam Dragons",
+   "lg",
+   88
+  ],
+  [
+   "2016-11-02",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-06",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-19",
+   "Al-Ain FC",
+   "aclf",
+   90
+  ],
+  [
+   "2016-11-26",
+   "Al-Ain FC",
+   "aclf",
+   58
+  ],
+  [
+   "2016-12-11",
+   "CF América",
+   "cwc",
+   90
+  ],
+  [
+   "2016-12-14",
+   "Mamelodi Sundowns FC",
+   "cwc",
+   90
+  ],
+  [
+   "2017-05-14",
+   "Ulsan Hyundai",
+   "lg",
+   29
+  ],
+  [
+   "2017-05-21",
+   "Incheon United",
+   "lg",
+   87
+  ],
+  [
+   "2017-05-27",
+   "Suwon Samsung Bluewings",
+   "lg",
+   51
+  ],
+  [
+   "2017-06-17",
+   "Jeonnam Dragons",
+   "lg",
+   29
+  ],
+  [
+   "2017-06-21",
+   "Gangwon FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-06-25",
+   "Daegu FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-06-28",
+   "Pohang Steelers",
+   "lg",
+   86
+  ],
+  [
+   "2017-07-02",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-08",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-12",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-16",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-19",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-07-23",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-02",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-06",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-12",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-19",
+   "Gwangju FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-10",
+   "Gangwon FC",
+   "lg",
+   75
+  ],
+  [
+   "2017-09-17",
+   "Pohang Steelers",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-20",
+   "Sangju Sangmu",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-24",
+   "Daegu FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-01",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-08",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-15",
+   "FC Seoul",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-22",
+   "Gangwon FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-29",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-05",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-19",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2018-02-13",
+   "Kashiwa Reysol",
+   "acl",
+   90
+  ],
+  [
+   "2018-02-20",
+   "Kitchee",
+   "acl",
+   33
+  ],
+  [
+   "2018-03-01",
+   "Ulsan Hyundai",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-06",
+   "Tianjin Quanjian",
+   "acl",
+   90
+  ],
+  [
+   "2018-03-10",
+   "Incheon United",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-14",
+   "Tianjin Quanjian",
+   "acl",
+   90
+  ],
+  [
+   "2018-03-18",
+   "FC Seoul",
+   "lg",
+   86
+  ],
+  [
+   "2018-03-31",
+   "Sangju Sangmu",
+   "lg",
+   13
+  ],
+  [
+   "2018-04-04",
+   "Kashiwa Reysol",
+   "acl",
+   90
+  ],
+  [
+   "2018-04-08",
+   "Pohang Steelers",
+   "lg",
+   83
+  ],
+  [
+   "2018-04-11",
+   "Gyeongnam FC",
+   "lg",
+   24
+  ],
+  [
+   "2018-04-14",
+   "Jeonnam Dragons",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-18",
+   "Kitchee",
+   "acl",
+   90
+  ],
+  [
+   "2018-04-22",
+   "Jeju United",
+   "lg",
+   90
+  ],
+  [
+   "2018-04-25",
+   "Gangwon FC",
+   "lg",
+   17
+  ],
+  [
+   "2018-04-29",
+   "Suwon Samsung Bluewings",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-02",
+   "Daegu FC",
+   "lg",
+   90
+  ],
+  [
+   "2018-05-08",
+   "Buriram United",
+   "acl",
+   90
+  ],
+  [
+   "2018-05-15",
+   "Buriram United",
+   "acl",
+   90
+  ],
+  [
+   "2018-05-20",
+   "FC Seoul",
+   "lg",
+   31
+  ],
+  [
+   "2018-07-07",
+   "Incheon United",
+   "lg",
+   45
+  ],
+  [
+   "2018-07-11",
+   "Ulsan Hyundai",
+   "lg",
+   65
+  ],
+  [
+   "2018-07-14",
+   "Suwon Samsung Bluewings",
+   "lg",
+   1
+  ],
+  [
+   "2018-07-18",
+   "Jeju United",
+   "lg",
+   25
+  ],
+  [
+   "2018-07-22",
+   "Sangju Sangmu",
+   "lg",
+   24
+  ],
+  [
+   "2018-08-03",
+   "Hamburger SV",
+   "lg",
+   81
+  ],
+  [
+   "2018-08-12",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-19",
+   "TSV 1860 Munich",
+   "dc",
+   90
+  ],
+  [
+   "2018-08-26",
+   "SSV Jahn Regensburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-15",
+   "SpVgg Greuther Fürth",
+   "lg",
+   32
+  ],
+  [
+   "2018-09-22",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-25",
+   "1.FC Union Berlin",
+   "lg",
+   90
+  ],
+  [
+   "2018-09-28",
+   "SV Darmstadt 98",
+   "lg",
+   68
+  ],
+  [
+   "2018-10-06",
+   "FC Erzgebirge Aue",
+   "lg",
+   90
+  ],
+  [
+   "2018-11-03",
+   "FC Ingolstadt 04",
+   "lg",
+   64
+  ],
+  [
+   "2018-11-09",
+   "SC Paderborn 07",
+   "lg",
+   89
+  ],
+  [
+   "2018-11-24",
+   "SV Sandhausen",
+   "lg",
+   85
+  ],
+  [
+   "2018-12-02",
+   "MSV Duisburg",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-09",
+   "SG Dynamo Dresden",
+   "lg",
+   85
+  ],
+  [
+   "2018-12-14",
+   "Arminia Bielefeld",
+   "lg",
+   90
+  ],
+  [
+   "2018-12-23",
+   "Hamburger SV",
+   "lg",
+   68
+  ],
+  [
+   "2019-02-06",
+   "FC Augsburg",
+   "dc",
+   6
+  ],
+  [
+   "2019-02-10",
+   "1.FC Magdeburg",
+   "lg",
+   90
+  ],
+  [
+   "2019-02-17",
+   "SpVgg Greuther Fürth",
+   "lg",
+   59
+  ],
+  [
+   "2019-02-23",
+   "VfL Bochum",
+   "lg",
+   64
+  ],
+  [
+   "2019-03-01",
+   "1.FC Union Berlin",
+   "lg",
+   73
+  ],
+  [
+   "2019-03-09",
+   "SV Darmstadt 98",
+   "lg",
+   75
+  ],
+  [
+   "2019-03-15",
+   "FC Erzgebirge Aue",
+   "lg",
+   90
+  ],
+  [
+   "2019-03-31",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-06",
+   "FC St. Pauli",
+   "lg",
+   74
+  ],
+  [
+   "2019-04-14",
+   "FC Ingolstadt 04",
+   "lg",
+   90
+  ],
+  [
+   "2019-04-20",
+   "SC Paderborn 07",
+   "lg",
+   74
+  ],
+  [
+   "2019-04-27",
+   "SV Sandhausen",
+   "lg",
+   90
+  ],
+  [
+   "2019-05-05",
+   "MSV Duisburg",
+   "lg",
+   73
+  ],
+  [
+   "2019-05-12",
+   "SG Dynamo Dresden",
+   "lg",
+   83
+  ],
+  [
+   "2019-05-19",
+   "Arminia Bielefeld",
+   "lg",
+   90
+  ],
+  [
+   "2019-07-27",
+   "SV Sandhausen",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-04",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-11",
+   "FSV Salmrohr",
+   "dc",
+   69
+  ],
+  [
+   "2019-08-18",
+   "Karlsruher SC",
+   "lg",
+   90
+  ],
+  [
+   "2019-08-26",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-01",
+   "FC Erzgebirge Aue",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-14",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-20",
+   "Hannover 96",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-29",
+   "SpVgg Greuther Fürth",
+   "lg",
+   83
+  ],
+  [
+   "2019-10-06",
+   "SSV Jahn Regensburg",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-20",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-25",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2019-10-30",
+   "SC Verl",
+   "dc",
+   120
+  ],
+  [
+   "2019-11-03",
+   "Arminia Bielefeld",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-09",
+   "Hamburger SV",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-23",
+   "SV Wehen Wiesbaden",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-30",
+   "SG Dynamo Dresden",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-07",
+   "VfL Osnabrück",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-15",
+   "1.FC Nuremberg",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-22",
+   "SV Sandhausen",
+   "lg",
+   89
+  ],
+  [
+   "2020-01-29",
+   "SV Darmstadt 98",
+   "lg",
+   87
+  ],
+  [
+   "2020-02-01",
+   "Karlsruher SC",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-10",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-16",
+   "FC Erzgebirge Aue",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-22",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2020-03-02",
+   "Hannover 96",
+   "lg",
+   90
+  ],
+  [
+   "2020-03-08",
+   "SpVgg Greuther Fürth",
+   "lg",
+   90
+  ],
+  [
+   "2020-05-16",
+   "SSV Jahn Regensburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-05-24",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2020-05-27",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2020-05-30",
+   "Arminia Bielefeld",
+   "lg",
+   74
+  ],
+  [
+   "2020-06-08",
+   "Hamburger SV",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-18",
+   "SG Dynamo Dresden",
+   "lg",
+   60
+  ],
+  [
+   "2020-09-13",
+   "1.FC Rielasingen-Arlen",
+   "dc",
+   45
+  ],
+  [
+   "2020-09-20",
+   "SC Paderborn 07",
+   "lg",
+   90
+  ],
+  [
+   "2020-09-26",
+   "Eintracht Braunschweig",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-04",
+   "Fortuna Düsseldorf",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-18",
+   "Würzburger Kickers",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-24",
+   "SpVgg Greuther Fürth",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-31",
+   "FC Erzgebirge Aue",
+   "lg",
+   76
+  ],
+  [
+   "2020-11-09",
+   "Hamburger SV",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-21",
+   "1.FC Heidenheim 1846",
+   "lg",
+   27
+  ],
+  [
+   "2020-11-29",
+   "Hannover 96",
+   "lg",
+   85
+  ],
+  [
+   "2020-12-04",
+   "VfL Bochum",
+   "lg",
+   80
+  ],
+  [
+   "2020-12-12",
+   "SSV Jahn Regensburg",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-16",
+   "1.FC Nuremberg",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-20",
+   "SV Sandhausen",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-03",
+   "VfL Osnabrück",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-09",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-13",
+   "FC Bayern Munich",
+   "dc",
+   120
+  ],
+  [
+   "2021-01-17",
+   "Karlsruher SC",
+   "lg",
+   31
+  ],
+  [
+   "2021-01-24",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-27",
+   "SC Paderborn 07",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-30",
+   "Eintracht Braunschweig",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-02",
+   "SV Darmstadt 98",
+   "dc",
+   120
+  ],
+  [
+   "2021-02-08",
+   "Fortuna Düsseldorf",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-12",
+   "Würzburger Kickers",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-22",
+   "SpVgg Greuther Fürth",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-27",
+   "FC Erzgebirge Aue",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-03",
+   "Rot-Weiss Essen",
+   "dk",
+   90
+  ],
+  [
+   "2021-03-08",
+   "Hamburger SV",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-03",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-06",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-24",
+   "VfL Osnabrück",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-27",
+   "1.FC Nuremberg",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-01",
+   "Borussia Dortmund",
+   "dsf",
+   76
+  ],
+  [
+   "2021-05-04",
+   "SV Sandhausen",
+   "lg",
+   87
+  ],
+  [
+   "2021-05-10",
+   "Hannover 96",
+   "lg",
+   78
+  ],
+  [
+   "2021-05-13",
+   "SSV Jahn Regensburg",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-16",
+   "Karlsruher SC",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-23",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-26",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-29",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-08",
+   "SV 07 Elversberg",
+   "dc",
+   48
+  ],
+  [
+   "2021-08-15",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-21",
+   "VfL Bochum",
+   "lg",
+   62
+  ],
+  [
+   "2021-08-28",
+   "SpVgg Greuther Fürth",
+   "lg",
+   7
+  ],
+  [
+   "2021-09-11",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   15
+  ],
+  [
+   "2021-09-25",
+   "Bayer 04 Leverkusen",
+   "lg",
+   15
+  ],
+  [
+   "2021-10-16",
+   "Borussia Dortmund",
+   "lg",
+   21
+  ],
+  [
+   "2021-10-22",
+   "FC Augsburg",
+   "lg",
+   64
+  ],
+  [
+   "2021-10-26",
+   "Arminia Bielefeld",
+   "dc",
+   66
+  ],
+  [
+   "2021-10-30",
+   "Arminia Bielefeld",
+   "lg",
+   77
+  ],
+  [
+   "2021-11-05",
+   "Borussia Mönchengladbach",
+   "lg",
+   70
+  ],
+  [
+   "2021-11-21",
+   "1.FC Köln",
+   "lg",
+   60
+  ],
+  [
+   "2021-11-26",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-04",
+   "VfL Wolfsburg",
+   "lg",
+   83
+  ],
+  [
+   "2021-12-11",
+   "FC Bayern Munich",
+   "lg",
+   64
+  ],
+  [
+   "2021-12-14",
+   "Hertha BSC",
+   "lg",
+   63
+  ],
+  [
+   "2021-12-18",
+   "Eintracht Frankfurt",
+   "lg",
+   64
+  ],
+  [
+   "2022-01-08",
+   "RB Leipzig",
+   "lg",
+   82
+  ],
+  [
+   "2022-01-15",
+   "VfL Bochum",
+   "lg",
+   80
+  ],
+  [
+   "2022-01-18",
+   "VfL Bochum",
+   "dc",
+   64
+  ],
+  [
+   "2022-01-22",
+   "SpVgg Greuther Fürth",
+   "lg",
+   72
+  ],
+  [
+   "2022-02-05",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   23
+  ],
+  [
+   "2022-02-12",
+   "SC Freiburg",
+   "lg",
+   65
+  ],
+  [
+   "2022-02-18",
+   "Bayer 04 Leverkusen",
+   "lg",
+   69
+  ],
+  [
+   "2022-02-26",
+   "1.FC Union Berlin",
+   "lg",
+   70
+  ],
+  [
+   "2022-03-19",
+   "Arminia Bielefeld",
+   "lg",
+   55
+  ],
+  [
+   "2022-04-03",
+   "Borussia Mönchengladbach",
+   "lg",
+   22
+  ],
+  [
+   "2022-04-06",
+   "FC Augsburg",
+   "lg",
+   52
+  ],
+  [
+   "2022-04-09",
+   "1.FC Köln",
+   "lg",
+   7
+  ],
+  [
+   "2022-05-14",
+   "Eintracht Frankfurt",
+   "lg",
+   7
+  ],
+  [
+   "2022-07-31",
+   "FC Erzgebirge Aue",
+   "dc",
+   65
+  ],
+  [
+   "2022-08-06",
+   "VfL Bochum",
+   "lg",
+   62
+  ],
+  [
+   "2022-08-14",
+   "1.FC Union Berlin",
+   "lg",
+   65
+  ],
+  [
+   "2022-08-20",
+   "FC Augsburg",
+   "lg",
+   22
+  ],
+  [
+   "2022-08-27",
+   "Bayer 04 Leverkusen",
+   "lg",
+   45
+  ],
+  [
+   "2022-09-04",
+   "Borussia Mönchengladbach",
+   "lg",
+   58
+  ],
+  [
+   "2022-09-10",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   25
+  ],
+  [
+   "2022-09-16",
+   "Hertha BSC",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-01",
+   "SC Freiburg",
+   "lg",
+   24
+  ],
+  [
+   "2022-10-08",
+   "RB Leipzig",
+   "lg",
+   65
+  ],
+  [
+   "2022-10-15",
+   "SV Werder Bremen",
+   "lg",
+   76
+  ],
+  [
+   "2022-10-21",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-29",
+   "FC Bayern Munich",
+   "lg",
+   62
+  ],
+  [
+   "2022-11-05",
+   "VfL Wolfsburg",
+   "lg",
+   84
+  ],
+  [
+   "2022-11-09",
+   "FC Schalke 04",
+   "lg",
+   45
+  ],
+  [
+   "2022-11-13",
+   "Eintracht Frankfurt",
+   "lg",
+   6
+  ],
+  [
+   "2023-01-21",
+   "VfB Stuttgart",
+   "lg",
+   25
+  ],
+  [
+   "2023-01-25",
+   "Borussia Dortmund",
+   "lg",
+   63
+  ],
+  [
+   "2023-01-28",
+   "VfL Bochum",
+   "lg",
+   62
+  ],
+  [
+   "2023-02-01",
+   "FC Bayern Munich",
+   "dc",
+   45
+  ],
+  [
+   "2023-02-04",
+   "1.FC Union Berlin",
+   "lg",
+   71
+  ],
+  [
+   "2023-02-11",
+   "FC Augsburg",
+   "lg",
+   81
+  ],
+  [
+   "2023-02-19",
+   "Bayer 04 Leverkusen",
+   "lg",
+   64
+  ],
+  [
+   "2023-02-24",
+   "Borussia Mönchengladbach",
+   "lg",
+   74
+  ],
+  [
+   "2023-03-04",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   83
+  ],
+  [
+   "2023-03-11",
+   "Hertha BSC",
+   "lg",
+   58
+  ],
+  [
+   "2023-03-19",
+   "SC Freiburg",
+   "lg",
+   75
+  ],
+  [
+   "2023-04-01",
+   "RB Leipzig",
+   "lg",
+   12
+  ],
+  [
+   "2023-04-08",
+   "SV Werder Bremen",
+   "lg",
+   32
+  ],
+  [
+   "2023-04-15",
+   "1.FC Köln",
+   "lg",
+   27
+  ],
+  [
+   "2023-04-22",
+   "FC Bayern Munich",
+   "lg",
+   77
+  ],
+  [
+   "2023-04-30",
+   "VfL Wolfsburg",
+   "lg",
+   61
+  ],
+  [
+   "2023-05-05",
+   "FC Schalke 04",
+   "lg",
+   65
+  ],
+  [
+   "2023-05-13",
+   "Eintracht Frankfurt",
+   "lg",
+   64
+  ],
+  [
+   "2023-05-21",
+   "VfB Stuttgart",
+   "lg",
+   25
+  ],
+  [
+   "2023-05-27",
+   "Borussia Dortmund",
+   "lg",
+   66
+  ],
+  [
+   "2023-08-12",
+   "SV 07 Elversberg",
+   "dc",
+   80
+  ],
+  [
+   "2023-08-20",
+   "1.FC Union Berlin",
+   "lg",
+   75
+  ],
+  [
+   "2023-08-27",
+   "Eintracht Frankfurt",
+   "lg",
+   78
+  ],
+  [
+   "2023-09-02",
+   "SV Werder Bremen",
+   "lg",
+   66
+  ],
+  [
+   "2023-09-16",
+   "VfB Stuttgart",
+   "lg",
+   67
+  ],
+  [
+   "2023-09-23",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-30",
+   "Bayer 04 Leverkusen",
+   "lg",
+   69
+  ],
+  [
+   "2023-10-06",
+   "Borussia Mönchengladbach",
+   "lg",
+   70
+  ],
+  [
+   "2023-10-21",
+   "FC Bayern Munich",
+   "lg",
+   63
+  ],
+  [
+   "2023-10-27",
+   "VfL Bochum",
+   "lg",
+   57
+  ],
+  [
+   "2023-11-01",
+   "Hertha BSC",
+   "dc",
+   59
+  ],
+  [
+   "2023-11-04",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-11",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2023-11-26",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   73
+  ],
+  [
+   "2023-12-03",
+   "SC Freiburg",
+   "lg",
+   76
+  ],
+  [
+   "2023-12-10",
+   "1.FC Köln",
+   "lg",
+   29
+  ],
+  [
+   "2023-12-16",
+   "1.FC Heidenheim 1846",
+   "lg",
+   45
+  ],
+  [
+   "2023-12-19",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-11",
+   "VfB Stuttgart",
+   "lg",
+   45
+  ],
+  [
+   "2024-02-17",
+   "FC Augsburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-23",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-02",
+   "Borussia Mönchengladbach",
+   "lg",
+   68
+  ],
+  [
+   "2024-03-09",
+   "FC Bayern Munich",
+   "lg",
+   65
+  ],
+  [
+   "2024-03-16",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-30",
+   "RB Leipzig",
+   "lg",
+   34
+  ],
+  [
+   "2024-04-06",
+   "SV Darmstadt 98",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-13",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-21",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-05-05",
+   "1.FC Heidenheim 1846",
+   "lg",
+   88
+  ],
+  [
+   "2024-05-11",
+   "Borussia Dortmund",
+   "lg",
+   87
+  ],
+  [
+   "2024-05-18",
+   "VfL Wolfsburg",
+   "lg",
+   73
+  ],
+  [
+   "2024-08-16",
+   "SV Wehen Wiesbaden",
+   "dc",
+   111
+  ],
+  [
+   "2024-08-24",
+   "1.FC Union Berlin",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-31",
+   "VfB Stuttgart",
+   "lg",
+   87
+  ],
+  [
+   "2024-09-15",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-28",
+   "1.FC Heidenheim 1846",
+   "lg",
+   75
+  ],
+  [
+   "2024-10-05",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-19",
+   "RB Leipzig",
+   "lg",
+   74
+  ],
+  [
+   "2024-10-25",
+   "Borussia Mönchengladbach",
+   "lg",
+   81
+  ],
+  [
+   "2024-11-03",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-09",
+   "Borussia Dortmund",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-24",
+   "Holstein Kiel",
+   "lg",
+   69
+  ],
+  [
+   "2024-12-01",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-08",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-14",
+   "FC Bayern Munich",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-21",
+   "Eintracht Frankfurt",
+   "lg",
+   76
+  ],
+  [
+   "2025-01-11",
+   "VfL Bochum",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-14",
+   "Bayer 04 Leverkusen",
+   "lg",
+   66
+  ],
+  [
+   "2025-01-19",
+   "1.FC Union Berlin",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-25",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-31",
+   "SV Werder Bremen",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-08",
+   "FC Augsburg",
+   "lg",
+   85
+  ],
+  [
+   "2025-02-16",
+   "1.FC Heidenheim 1846",
+   "lg",
+   28
+  ],
+  [
+   "2025-02-22",
+   "FC St. Pauli",
+   "lg",
+   45
+  ],
+  [
+   "2025-03-01",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-07",
+   "Borussia Mönchengladbach",
+   "lg",
+   87
+  ],
+  [
+   "2025-03-15",
+   "SC Freiburg",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-30",
+   "Borussia Dortmund",
+   "lg",
+   66
+  ],
+  [
+   "2025-04-05",
+   "Holstein Kiel",
+   "lg",
+   68
+  ],
+  [
+   "2025-04-12",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-19",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-26",
+   "FC Bayern Munich",
+   "lg",
+   87
+  ],
+  [
+   "2025-05-04",
+   "Eintracht Frankfurt",
+   "lg",
+   81
+  ],
+  [
+   "2025-05-10",
+   "VfL Bochum",
+   "lg",
+   61
+  ],
+  [
+   "2025-05-17",
+   "Bayer 04 Leverkusen",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-18",
+   "SG Dynamo Dresden",
+   "dc",
+   15
+  ],
+  [
+   "2025-08-21",
+   "Rosenborg BK",
+   "ecq",
+   82
+  ],
+  [
+   "2025-08-24",
+   "1.FC Köln",
+   "lg",
+   90
+  ],
+  [
+   "2025-08-28",
+   "Rosenborg BK",
+   "ecq",
+   90
+  ],
+  [
+   "2025-08-31",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2025-09-27",
+   "Borussia Dortmund",
+   "lg",
+   63
+  ],
+  [
+   "2025-10-05",
+   "Hamburger SV",
+   "lg",
+   71
+  ],
+  [
+   "2025-10-18",
+   "Bayer 04 Leverkusen",
+   "lg",
+   81
+  ],
+  [
+   "2025-10-23",
+   "HSK Zrinjski Mostar",
+   "ecg",
+   1
+  ],
+  [
+   "2025-10-26",
+   "VfB Stuttgart",
+   "lg",
+   87
+  ],
+  [
+   "2025-10-29",
+   "VfB Stuttgart",
+   "dc",
+   60
+  ],
+  [
+   "2025-11-01",
+   "SV Werder Bremen",
+   "lg",
+   89
+  ],
+  [
+   "2025-11-06",
+   "ACF Fiorentina",
+   "ecg",
+   30
+  ],
+  [
+   "2025-11-09",
+   "Eintracht Frankfurt",
+   "lg",
+   90
+  ],
+  [
+   "2025-11-21",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   67
+  ],
+  [
+   "2025-11-27",
+   "Universitatea Craiova",
+   "ecg",
+   29
+  ],
+  [
+   "2025-11-30",
+   "SC Freiburg",
+   "lg",
+   72
+  ],
+  [
+   "2025-12-05",
+   "Borussia Mönchengladbach",
+   "lg",
+   88
+  ],
+  [
+   "2025-12-11",
+   "Lech Poznań",
+   "ecg",
+   71
+  ],
+  [
+   "2025-12-14",
+   "FC Bayern Munich",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-18",
+   "Samsunspor",
+   "ecg",
+   90
+  ],
+  [
+   "2025-12-21",
+   "FC St. Pauli",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-10",
+   "1.FC Union Berlin",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-13",
+   "1.FC Heidenheim 1846",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-17",
+   "1.FC Köln",
+   "lg",
+   74
+  ],
+  [
+   "2026-01-24",
+   "VfL Wolfsburg",
+   "lg",
+   90
+  ],
+  [
+   "2026-01-31",
+   "RB Leipzig",
+   "lg",
+   90
+  ],
+  [
+   "2026-02-07",
+   "FC Augsburg",
+   "lg",
+   88
+  ],
+  [
+   "2026-02-13",
+   "Borussia Dortmund",
+   "lg",
+   60
+  ],
+  [
+   "2026-02-20",
+   "Hamburger SV",
+   "lg",
+   86
+  ],
+  [
+   "2026-02-28",
+   "Bayer 04 Leverkusen",
+   "lg",
+   89
+  ],
+  [
+   "2026-03-07",
+   "VfB Stuttgart",
+   "lg",
+   90
+  ],
+  [
+   "2026-03-12",
+   "SK Sigma Olomouc",
+   "eck",
+   25
+  ],
+  [
+   "2026-03-15",
+   "SV Werder Bremen",
+   "lg",
+   87
+  ],
+  [
+   "2026-03-19",
+   "SK Sigma Olomouc",
+   "eck",
+   90
+  ],
+  [
+   "2026-03-22",
+   "Eintracht Frankfurt",
+   "lg",
+   81
+  ],
+  [
+   "2026-04-04",
+   "TSG 1899 Hoffenheim",
+   "lg",
+   76
+  ],
+  [
+   "2026-05-10",
+   "1.FC Union Berlin",
+   "lg",
+   20
+  ],
+  [
+   "2026-05-16",
+   "1.FC Heidenheim 1846",
+   "lg",
+   22
+  ],
+  [
+   "2026-08-23",
+   "VfB 1921 Krieschow",
+   "dc",
+   62
+  ],
+  [
+   "2026-08-29",
+   "SC Paderborn 07",
+   "lg",
+   68
+  ],
+  [
+   "2026-09-06",
+   "Hamburger SV",
+   "lg",
+   88
+  ],
+  [
+   "2026-09-12",
+   "Eintracht Frankfurt",
+   "lg",
+   45
+  ],
+  [
+   "2026-09-19",
+   "Borussia Mönchengladbach",
+   "lg",
+   65
+  ],
+  [
+   "2026-10-10",
+   "Bayer 04 Leverkusen",
+   "lg",
+   20
+  ],
+  [
+   "2026-10-17",
+   "FC Schalke 04",
+   "lg",
+   76
+  ],
+  [
+   "2026-10-24",
+   "SV Werder Bremen",
+   "lg",
+   75
+  ],
+  [
+   "2026-10-27",
+   "VfL Bochum",
+   "dc",
+   63
+  ],
+  [
+   "2026-11-07",
+   "FC Bayern Munich",
+   "lg",
+   63
+  ]
+ ],
+ "note": "이재성(전북 현대 모터스·홀슈타인 킬·마인츠 05)의 클럽 공식 경기 465경기(2014.2.26 요코하마 F. 마리노스전 ~ 2026.11.7 바이에른 뮌헨전)에서 나온 85골 85도움(PK 골 0개), 친선경기·한국 대표팀(A·연령별·아시안게임) 제외\n클럽별 경기·골·도움: 전북 현대 모터스 181·31·41, 홀슈타인 킬 104·23·21, 마인츠 05 180·31·23. 출전 분 합계 35,800분(모두 Transfermarkt 기록, 90분 추정 경기 없음)\n범위: 고려대학교(대학 팀, 아마추어) 시절 한국 FA컵 3경기(2011.3.12 포천시민축구단전 38분, 2012.5.23 강원 FC전 90분, 2013.3.10 영광 FC전 90분, 골·도움 없음)는 프로 리그 소속 팀 경기가 아니라 뺌. 전북(K리그 클래식·K리그1, 1부)·킬(2. 분데스리가, 프로 2부)·마인츠(분데스리가) 시즌은 모두 셈. 경기·골 수는 영어 위키백과 클럽·시즌·대회별 표와 모두 같음(클럽 월드컵 2016 두 경기는 위키백과처럼 2016 시즌), 한국어 위키백과(2024-25까지)와도 같음\n출처: 경기 목록·출전 분(교체·연장 반영)은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·도움은 Transfermarkt 경기 리포트(골·도움이 있거나 리그 밖 대회인 경기 전부). FotMob 경기 기록과 대조한 골 85개 가운데 2017.9.17 포항전 15분 골만 FotMob에 없음(Transfermarkt·K리그 공식 경기 기록은 15분·62분 두 골) — 두 골 모두 넣음. 전북 K리그 경기(2014~2018)는 K리그 공식 경기 기록(한국프로축구연맹 경기 센터의 득점·도움 기록)과도 대조함: 골은 모두 같음(2017.6.17 전남전 35분 공식 기록의 '이재성' 골은 같은 팀 동명이인 수비수 이재성(등번호 15)의 골이라 해당 없음). 골 시각은 Transfermarkt(2018.5.20 서울전 62분·7.11 울산전 63분은 FotMob이 2분 늦게 적음, 공식 기록은 Transfermarkt와 같음). 자책골·PK 골 없음\n도움: Transfermarkt 도움 96개에서 PK 유도 7개(2016.6.26 광주전 이동국, 2019.2.23 보훔전 세라, 2020.3.8 퓌르트전·2021.2.12 뷔르츠부르크전 뮐링, 2024.3.16 보훔전 부르카르트, 2025.1.19 우니온 베를린전 아미리, 2025.5.17 레버쿠젠전 부르카르트), 슈팅 리바운드('Shot on goal') 1개(2018.12.9 드레스덴전 혼자크), 상대 자책골 유도 1개(2016.9.13 AFC 챔스 8강 상하이 상강전 스커 자책골)와 아래 확인하지 못한 2개를 빼 85개. 2014년 8월 전 도움(전북 2014년 상반기)은 Transfermarkt 단일 출처로 넣고, 그 뒤는 Transfermarkt와 FotMob(경기 기록 또는 선수 경기 목록)이 같이 적은 것, 또는 Transfermarkt 밖 독립 출처 2곳이 확인한 것만 셈\n전북 2014년 8월~2018년 경기는 FotMob 경기 기록에 도움자가 거의 없고 ESPN에 K리그 경기가 없어, FotMob과 겹치지 않는 Transfermarkt 도움 39개(PK 유도·자책골 유도 제외)를 K리그 공식 경기 기록·ESPN 경기 기록·국내 언론 경기 기사(연합뉴스·OSEN·스포츠조선·오마이뉴스 경기 결과 등)로 하나씩 확인해 38개를 넣음(K리그 경기는 공식 기록 + 기사, AFC 챔스·클럽 월드컵은 ESPN 또는 기사 2곳). 킬의 2018.8.19 DFB-포칼 1860 뮌헨전 87분 쉰들러 골, 2019.8.11 포칼 잘름로어전 63분 아탕가 골 도움은 ESPN과 국내 기사로 확인해 넣음\n확인하지 못해 뺀 Transfermarkt 도움 2개: 2018.4.22 제주전 27분 로페즈 골(K리그 공식 기록에 도움자 없음, 기사는 손준호 프리킥이 막힌 뒤 흐른 공을 로페즈가 넣었다고 적음), 2019.11.23 비스바덴전 21분 뮐링 골(FotMob·ESPN 도움자 없음, 기사는 '도움은 아니지만 이재성의 드리블이 만든 골'). 2014.11.2 서울전 카이오 골 도움은 Transfermarkt 시각 칸이 비어 있어 K리그 공식 기록 시각(후반 48분 = 90+3분)을 씀. 2018.5.2 대구전 3분 골 득점자는 Transfermarkt가 아드리아노, K리그 공식 기록·FotMob·기사가 로페즈라 로페즈로 적음(이재성 도움은 모두 같음)\n다른 출처에만 있는 도움은 넣지 않음: FotMob의 2025.8.28 컨퍼런스리그 플레이오프 로젠보르그전 44분 바이퍼 골 도움(Transfermarkt는 아미리 도움, ESPN 도움자 없음, 국내 기사는 FotMob 기록 인용), K리그 공식 기록의 2014.5.10 인천전 47분 이동국 골·2014.8.9 성남전 71분 한교원 골·2015.6.6 서울전 73분 이동국 골 도움(Transfermarkt·FotMob 도움 없음, 단일 출처)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값, 같은 팀·같은 시즌 기존 값, 그 시즌 순위를 순위 규칙(리그·시즌 기준 평균 + 흩어짐 × 순위 곡선, 순위표가 있는 리그·시즌은 승점·득실)에 넣은 값 순으로 씀 (기록 170개: 기존 팀×시즌 값 74, 순위표 → 라벨 87, 직접 라벨(순위표 밖) 9)\n새로 정한 팀-시즌 순위: SV Darmstadt 98 2. 분데스리가 2018-19 10위/18팀 1487, FC Erzgebirge Aue 2. 분데스리가 2018-19 14위/18팀 1469, SC Paderborn 07 2. 분데스리가 2018-19 2위/18팀 1568, Hamburger SV 2. 분데스리가 2018-19 4위/18팀 1532, SSV Jahn Regensburg 2. 분데스리가 2019-20 12위/18팀 1476, Karlsruher SC 2. 분데스리가 2019-20 15위/18팀 1459, SG Dynamo Dresden 2. 분데스리가 2019-20 18위/18팀 1438, VfB Stuttgart 2. 분데스리가 2019-20 2위/18팀 1567, Hamburger SV 2. 분데스리가 2019-20 4위/18팀 1531, SSV Jahn Regensburg 2. 분데스리가 2020-21 14위/18팀 1481, SV Sandhausen 2. 분데스리가 2020-21 15위/18팀 1472, Würzburger Kickers 2. 분데스리가 2020-21 18위/18팀 1451, VfL Bochum 2. 분데스리가 2020-21 1위/18팀 1621, Hamburger SV 2. 분데스리가 2020-21 4위/18팀 1544, Fortuna Düsseldorf 2. 분데스리가 2020-21 5위/18팀 1537, Karlsruher SC 2. 분데스리가 2020-21 6위/18팀 1531, FC Tokyo J1리그 2016 연간 9위/18팀 1534, Gyeongnam FC K리그1 2014 11위/12팀 1420, FC Seoul K리그1 2014 3위/12팀 1531, Pohang Steelers K리그1 2014 4위/12팀 1517, Jeonnam Dragons K리그1 2014 7위/12팀 1468, Busan IPark K리그1 2014 8위/12팀 1458, Gwangju FC K리그1 2015 10위/12팀 1429, Daejeon Citizen K리그1 2015 12위/12팀 1399, Suwon Samsung Bluewings K리그1 2015 2위/12팀 1558, FC Seoul K리그1 2015 4위/12팀 1511, Jeju United K리그1 2015 6위/12팀 1475, Jeonnam Dragons K리그1 2015 9위/12팀 1446, Suwon FC K리그1 2016 12위/12팀 1383, FC Seoul K리그1 2016 2위/12팀 1542, Jeju United K리그1 2016 3위/12팀 1509, Ulsan Hyundai K리그1 2016 4위/12팀 1496, Jeonnam Dragons K리그1 2016 5위/12팀 1478, Sangju Sangmu K리그1 2016 6위/12팀 1459, Gwangju FC K리그1 2016 8위/12팀 1437, Pohang Steelers K리그1 2016 9위/12팀 1430, Sangju Sangmu K리그1 2017 11위/12팀 1376, Gwangju FC K리그1 2017 12위/12팀 1361, Jeju United K리그1 2017 2위/12팀 1520, Ulsan Hyundai K리그1 2017 4위/12팀 1473, Gangwon FC K리그1 2017 6위/12팀 1437, Pohang Steelers K리그1 2017 7위/12팀 1425, Incheon United K리그1 2017 9위/12팀 1408, FC Seoul K리그1 2018 11위/12팀 1352, Jeonnam Dragons K리그1 2018 12위/12팀 1336, Jeju United K리그1 2018 5위/12팀 1431, Daegu FC K리그1 2018 7위/12팀 1400, Al-Ain FC UAE 프로리그 2016-17 4위/14팀 1412, Mamelodi Sundowns FC 남아프리카공화국 1부 2016-17 2위/16팀 1440, Rosenborg BK 노르웨이 1부 2025 7위/16팀 1505, TSV 1860 Munich 독일 3부 2018-19 12위/20팀 1380, SV Wehen Wiesbaden 독일 3부 2024-25 9위/20팀 1409, 1.FC Rielasingen-Arlen 독일 5부 2020-21 6위/21팀 1171, VfB 1921 Krieschow 독일 5부 2026-27 순위 없음 1130, FSV Salmrohr 독일 6부 2019-20 순위 없음 1006, Becamex Binh Duong FC 베트남 1부 2016 10위/14팀 1134, Shandong Luneng Taishan 중국 슈퍼리그 2015 3위/16팀 1383, Shanghai SIPG 중국 슈퍼리그 2016 3위/16팀 1418, Buriram United 태국 1부 2018 1위/18팀 1380\n순위 기준: K리그 2014~2018은 스플릿(33라운드 뒤 상·하위 그룹, 하위 그룹은 7~12위) 뒤 최종 순위를 영어 위키백과 시즌 문서로 씀(Transfermarkt 순위표는 스플릿·다득점 동률 규칙을 반영하지 않아 2014 서울·포항 등의 순서가 틀림). 2016은 전북 승점 9 감점 전 순위(전북 1위·FC 서울 2위). J1 2016은 두 스테이지 합산 연간 순위, 남아공 2016-17·태국 2018·베트남 2016은 최종 순위, 2026-27 분데스리가는 진행 중 시즌의 현재 순위\n추정(리그 수준 추정): 독일 하부 리그 포칼 상대(1860 뮌헨 2018-19·비스바덴 2024-25 3부, 리엘라징겐-아를렌 2020-21 오버리가 바덴뷔르템베르크 5부(코로나로 중단된 시즌의 중단 시점 6위/21팀), 잘름로어 2019-20 라인란트리가 6부(3위로 확인했으나 팀 수를 찾지 못해 그 단계 기준값), 크리쇼 2026-27 NOFV-오버리가 쥐트 5부(진행 중 시즌 순위표를 찾지 못해 그 단계 기준값)), 베카멕스 빈즈엉(베트남 1부 2016 10위)\n대회 비중: K리그1(정규 라운드·파이널 라운드)·2. 분데스리가·분데스리가는 리그, 분데스리가 승강 플레이오프(2021 쾰른전 두 경기)는 리그 비중 + 두 경기 합산. 한국 FA컵·DFB-포칼은 국내컵(16강까지·8강·준결승). AFC 챔스는 조별·16강, 8강, 준결승, 결승(2016 우승), 클럽 월드컵 2016(8강 아메리카전·5위 결정전 마멜로디 선다운스전)은 클럽 월드컵, 컨퍼런스리그 2025-26은 플레이오프(로젠보르그)·리그 단계·16강\n두 경기 합산 기록 9개(9경기)는 합산 S로 계산함(AFC 챔스 2014~2018과 분데스리가 승강 플레이오프 2020-21은 원정 다득점·연장, 컨퍼런스리그 2025-26은 원정 다득점 없이 연장). 연장 골·도움 없음(DFB-포칼 승부차기 경기 4개는 Transfermarkt 출전 분 그대로)\n시즌 구분: 전북은 K리그에 맞춰 달력 연도(1월 경기 없음, 2016.12 클럽 월드컵은 2016), 킬·마인츠는 8월 1일 기준. 클럽 구분은 Transfermarkt 이적일(2018.7.26 킬, 2021.7.8 마인츠). 날짜는 경기 현지 날짜(AFC 원정은 개최국, 클럽 월드컵 2016은 일본)\n동료 자료: 이 계산기에 있는 다른 선수와 같은 팀에서 골·도움을 주고받은 경기 없음. 상대 Elo·수준 설명은 같은 팀·같은 시즌 기존 값과 같음\n우승·수상은 Transfermarkt 업적 페이지 기준: K리그 우승 2014·2015·2017·2018(2018은 7월 이적 전 리그 17경기 출전 — FotMob 우승 목록에는 2018 없음), AFC 챔피언스리그 2016, K리그 최우수선수(MVP) 2017. K리그 영플레이어상 2015는 신인·유망주 상이라 넣지 않음. 준우승·대표팀 기록은 뺌\n현역(마인츠 05). 2026.11.24 기준 마지막 반영 경기 2026.11.7 분데스리가 9라운드 바이에른 뮌헨전(홈 1-2, 63분). 그 뒤 11.22 아우크스부르크전은 명단에 들었으나 결장",
+ "judgments": [
+  [
+   "도움 제외",
+   "2016-06-26",
+   "Gwangju FC",
+   "20",
+   "Dong-gook Lee",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2016-09-13",
+   "Shanghai SIPG",
+   "58",
+   "Ke Shi",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2018-04-22",
+   "Jeju United",
+   "27",
+   "Ricardo Lopes",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2018-12-09",
+   "SG Dynamo Dresden",
+   "21",
+   "Mathias Honsak",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2019-02-23",
+   "VfL Bochum",
+   "32",
+   "Janni Serra",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2019-11-23",
+   "SV Wehen Wiesbaden",
+   "21",
+   "Alexander Mühling",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2020-03-08",
+   "SpVgg Greuther Fürth",
+   "35",
+   "Alexander Mühling",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2021-02-12",
+   "Würzburger Kickers",
+   "60",
+   "Alexander Mühling",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2024-03-16",
+   "VfL Bochum",
+   "45+3",
+   "Jonathan Burkardt",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2025-01-19",
+   "1.FC Union Berlin",
+   "5",
+   "Nadiem Amiri",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "2025-05-17",
+   "Bayer 04 Leverkusen",
+   "63",
+   "Jonathan Burkardt",
+   "PK 유도"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2014-11-02",
+   "2507328",
+   "121",
+   "Kaio",
+   "넣음: K리그 공식 기록 도움 이재성 + 매일경제·KBS·스타뉴스 '후반 48분(추가시간) 이재성의 도움을 받은 카이오 결승골' (TM 분 칸 비어 있음 → K리그 공식 시각 93:01 = 90+3) [K리그 공식 False]"
+  ],
+  [
+   "2015-03-03",
+   "2518353",
+   "71",
+   "Kyo-won Han",
+   "넣음: OSEN·뉴시스·SBS '후반 26분 이재성의 패스를 받은 한교원' (FotMob·ESPN 도움자 없음) [K리그 공식 None]"
+  ],
+  [
+   "2015-04-12",
+   "2552272",
+   "41",
+   "Leonardo",
+   "넣음: K리그 공식 기록 도움 이재성 + 스포츠조선 '전반 41분 레오나르도가 이재성의 도움을 받아' [K리그 공식 True]"
+  ],
+  [
+   "2015-05-26",
+   "2562817",
+   "72",
+   "Edú",
+   "넣음: 마이데일리·골닷컴·인터풋볼 '후반 27분 이재성의 패스를 받은 에두 결승골' (FotMob·ESPN 도움자 없음) [K리그 공식 None]"
+  ],
+  [
+   "2015-07-05",
+   "2584661",
+   "6",
+   "Edú",
+   "넣음: K리그 공식 기록 도움 이재성 + 엑스포츠뉴스 '전반 6분 이재성이 내준 땅볼 크로스를 에두가', 한국경제TV 경기 결과 '에두(6분,도움-이재성)' [K리그 공식 True]"
+  ],
+  [
+   "2015-07-11",
+   "2594101",
+   "20",
+   "Chang-hyeon Yu",
+   "넣음: K리그 공식 기록 도움 이재성 + 스포츠투데이·노컷뉴스 '전반 20분 이재성이 올려준 코너킥을 유창현이 헤딩' [K리그 공식 True]"
+  ],
+  [
+   "2015-09-12",
+   "2619851",
+   "19",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + 엑스포츠뉴스·스포츠서울 '이동국은 이재성의 도움을 받아' (전반 19~20분) [K리그 공식 True]"
+  ],
+  [
+   "2016-02-23",
+   "2663508",
+   "83",
+   "Dong-gook Lee",
+   "넣음: 연합뉴스·서울신문 '후반 38분 이재성이 내준 패스를 … 이동국 결승골' (FotMob·ESPN 도움자 없음) [K리그 공식 None]"
+  ],
+  [
+   "2016-03-12",
+   "2668420",
+   "61",
+   "Shin-wook Kim",
+   "넣음: K리그 공식 기록 도움 이재성 + 오마이뉴스 경기 결과 '김신욱(61분,도움-이재성)', 뉴스1 '이재성이 올린 코너킥을 헤딩' [K리그 공식 True]"
+  ],
+  [
+   "2016-03-15",
+   "2653638",
+   "41",
+   "Ricardo Lopes",
+   "넣음: 아시아경제 '이재성이 내준 공을 로페즈가 슈팅', 조이뉴스24 '이재성의 절묘한 패스' (FotMob·ESPN 도움자 없음) [K리그 공식 None]"
+  ],
+  [
+   "2016-04-02",
+   "2676352",
+   "24",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + 연합뉴스·매일경제 '이재성의 코너킥을 이동국이 헤딩 결승골' [K리그 공식 True]"
+  ],
+  [
+   "2016-04-10",
+   "2679431",
+   "58",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + 스포츠동아 '후반 13분 헤딩으로 이동국의 선제골을 도왔다', 매일경제 [K리그 공식 True]"
+  ],
+  [
+   "2016-04-30",
+   "2687124",
+   "30",
+   "Ricardo Lopes",
+   "넣음: K리그 공식 기록 도움 이재성 + 스포츠조선 '2분 뒤 이재성의 도움을 받은 로페즈', OSEN·조이뉴스24 [K리그 공식 True]"
+  ],
+  [
+   "2016-07-10",
+   "2708458",
+   "56",
+   "Bo-kyung Kim",
+   "넣음: K리그 공식 기록 도움 이재성 + 오마이뉴스 경기 결과 '김보경(55분,도움-이재성)', 조이뉴스24 '김보경이 이재성의 패스를' [K리그 공식 True]"
+  ],
+  [
+   "2016-07-24",
+   "2722071",
+   "79",
+   "Shin-wook Kim",
+   "넣음: K리그 공식 기록 도움 이재성 + 뉴시스 '김신욱과 이재성이 역전골을 합작', 스포츠Q '김신욱이 이재성의 크로스를 받아' [K리그 공식 True]"
+  ],
+  [
+   "2016-07-30",
+   "2722074",
+   "71",
+   "Leonardo",
+   "넣음: K리그 공식 기록 도움 이재성 + OSEN '후반 25분엔 이재성의 패스를 받아' 레오나르도 골 [K리그 공식 True]"
+  ],
+  [
+   "2016-08-28",
+   "2722109",
+   "27",
+   "Leonardo",
+   "넣음: K리그 공식 기록 도움 이재성 + 오마이뉴스 경기 결과 '레오나르도(27분,도움-이재성)', 국민일보 '이재성의 킬러 패스를 받아' [K리그 공식 True]"
+  ],
+  [
+   "2016-09-13",
+   "2697315",
+   "84",
+   "Dong-gook Lee",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-09-28",
+   "2760594",
+   "84",
+   "Shin-wook Kim",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung' + 네이버 스포츠 기사·조이뉴스24 '이재성이 찔러 준 패스를 김신욱이' [K리그 공식 None]"
+  ],
+  [
+   "2016-10-15",
+   "3138498",
+   "82",
+   "Hyung-min Shin",
+   "넣음: K리그 공식 기록 도움 이재성 + 헤럴드경제 '박원재의 크로스를 받은 이재성이 신형민에게 내줬고 신형민이 중거리 슈팅' [K리그 공식 True]"
+  ],
+  [
+   "2016-10-29",
+   "3138534",
+   "52",
+   "Ricardo Lopes",
+   "넣음: K리그 공식 기록 도움 이재성 + 스포츠Q '후반 7분 이재성의 어시스트를 받은 로페즈', 네이버 스포츠 기사 [K리그 공식 True]"
+  ],
+  [
+   "2016-11-02",
+   "3138539",
+   "90",
+   "Edú",
+   "넣음: K리그 공식 기록 도움 이재성 + 조이뉴스24 '45분에는 에두가 이재성의 도움을 받아', 연합뉴스 '이재성의 패스를 받아' [K리그 공식 True]"
+  ],
+  [
+   "2016-11-26",
+   "2770975",
+   "30",
+   "Kyo-won Han",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung' + 연합뉴스·국제신문 '이재성의 날카로운 왼발 코너킥을 한교원이' [K리그 공식 None]"
+  ],
+  [
+   "2016-12-14",
+   "2805636",
+   "89",
+   "Shin-wook Kim",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung' + 오마이뉴스 경기 결과 '김신욱(89분,도움-이재성)' [K리그 공식 None]"
+  ],
+  [
+   "2017-06-21",
+   "2851831",
+   "44",
+   "Edú",
+   "넣음: K리그 공식 기록 도움 이재성 + 조이뉴스24 '에두의 첫 번째 골에 도움을 기록', 스포츠조선 '전반 44분 에두의 첫 골을 만들어낸' [K리그 공식 True]"
+  ],
+  [
+   "2017-06-28",
+   "2851846",
+   "6",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + 한국일보 '전반 5분 이재성의 크로스를 … 이동국' (첫 골) [K리그 공식 True]"
+  ],
+  [
+   "2017-07-12",
+   "2851865",
+   "43",
+   "Ricardo Lopes",
+   "넣음: K리그 공식 기록 도움 이재성 + 연합뉴스 '전반 43분 이재성과 짧은 패스를 주고받은 로페즈의 추격골' [K리그 공식 True]"
+  ],
+  [
+   "2017-07-16",
+   "2851871",
+   "1",
+   "Ricardo Lopes",
+   "넣음: K리그 공식 기록 도움 이재성 + 연합뉴스TV '이재성의 패스를 받은 로페즈가' (18초 골), 네이버 스포츠 기사 [K리그 공식 True]"
+  ],
+  [
+   "2017-08-19",
+   "2889771",
+   "68",
+   "Seung-gi Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + SPOTV 뉴스 경기 정보 '68’ 이승기(도움:이재성)', 뉴스1 [K리그 공식 True]"
+  ],
+  [
+   "2017-09-10",
+   "2903023",
+   "45+1",
+   "Edú",
+   "넣음: K리그 공식 기록 도움 이재성 + 뉴스1 '전반 45분 이재성의 도움을 받은 에두' [K리그 공식 True]"
+  ],
+  [
+   "2017-10-22",
+   "2932393",
+   "7",
+   "Ricardo Lopes",
+   "넣음: K리그 공식 기록 도움 이재성 + SBS '이재성의 프리킥을 로페즈가 헤딩골', 매일경제 (도움 해트트릭) [K리그 공식 True]"
+  ],
+  [
+   "2017-10-22",
+   "2932393",
+   "57",
+   "Seung-gi Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + SBS '이승기의 골을 도왔고', 스포츠서울 (도움 해트트릭) [K리그 공식 True]"
+  ],
+  [
+   "2017-10-22",
+   "2932393",
+   "71",
+   "Edú",
+   "넣음: K리그 공식 기록 도움 이재성 + SBS '후반 25분에도 에두의 골을 도와', OSEN (도움 해트트릭) [K리그 공식 True]"
+  ],
+  [
+   "2017-11-05",
+   "2932398",
+   "79",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + SBS·YTN '후반 33분 이동국의 3경기 연속골을 도우며' [K리그 공식 True]"
+  ],
+  [
+   "2018-02-13",
+   "2995309",
+   "55",
+   "Dong-gook Lee",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung II' + 베스트일레븐 '후반 10분 이재성의 코너킥 도움을 받아 이동국' (FotMob 선수 경기 목록은 도움 0) [K리그 공식 None]"
+  ],
+  [
+   "2018-03-01",
+   "2989802",
+   "62",
+   "Dong-gook Lee",
+   "넣음: K리그 공식 기록 도움 이재성 + 동아일보·YTN '이재성의 코너킥을 골로 연결', 오마이뉴스 '이동국(62분,도움-이재성)' [K리그 공식 True]"
+  ],
+  [
+   "2018-03-06",
+   "2995313",
+   "42",
+   "Kyo-won Han",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung II' + OSEN '이재성의 크로스를 머리로 받아 넣었다' [K리그 공식 None]"
+  ],
+  [
+   "2018-03-18",
+   "2989817",
+   "50",
+   "Min-jae Kim",
+   "넣음: K리그 공식 기록 도움 이재성 + 오마이뉴스 '김민재(50분,도움-이재성)', 한스경제 '이재성의 코너킥을 김민재가 헤딩' [K리그 공식 True]"
+  ],
+  [
+   "2018-04-22",
+   "2990285",
+   "27",
+   "Ricardo Lopes",
+   "뺌: K리그 공식 기록에 도움자 없음, 스포탈코리아 '손준호의 프리킥이 막혔지만 흘러나온 볼을 로페즈가' = 리바운드 (FotMob·assistsOfficial 0) [K리그 공식 False]"
+  ],
+  [
+   "2018-05-02",
+   "2990625",
+   "3",
+   "Adriano Michael Jackson",
+   "넣음: K리그 공식 기록 도움 이재성 + OSEN·스포츠투데이 '이재성의 패스를 받은 로페즈' (득점자는 K리그 공식·FotMob·기사 모두 로페즈, TM만 아드리아노) [K리그 공식 True]"
+  ],
+  [
+   "2018-08-03",
+   "3058415",
+   "56",
+   "Jonas Meffert",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-08-03",
+   "3058415",
+   "77",
+   "David Kinsombi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-08-19",
+   "3048420",
+   "87",
+   "Kingsley Schindler",
+   "넣음: ESPN 'Assisted by Jae-Sung Lee' + 쿠키뉴스 '킨슬리 쉰들러에게 내준 패스가 골로', 스포티비뉴스 [K리그 공식 None]"
+  ],
+  [
+   "2018-09-28",
+   "3058806",
+   "32",
+   "Janni Serra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-10-06",
+   "3058836",
+   "41",
+   "Alexander Mühling",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-11-09",
+   "3058872",
+   "6",
+   "Kingsley Schindler",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2018-12-02",
+   "3058901",
+   "56",
+   "Kingsley Schindler",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-04-27",
+   "3059059",
+   "6",
+   "Masaya Okugawa",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-08-11",
+   "3195508",
+   "63",
+   "David Atanga",
+   "넣음: ESPN 'Assisted by Lee Jae-Sung' + 한국일보·베스트일레븐 '후반 18분 아탕가에게 도움' [K리그 공식 None]"
+  ],
+  [
+   "2019-11-03",
+   "3203876",
+   "68",
+   "Emmanuel Iyoha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2019-11-23",
+   "3203900",
+   "21",
+   "Alexander Mühling",
+   "뺌: FotMob 경기 이벤트·선수 경기 목록(도움 0)·ESPN 도움자 없음, 일요신문 '도움을 기록하지는 못했지만 이재성의 드리블이 득점을 만든 셈' (assistsOfficial 0) [K리그 공식 None]"
+  ],
+  [
+   "2019-11-30",
+   "3203906",
+   "14",
+   "Emmanuel Iyoha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-01-29",
+   "3203976",
+   "30",
+   "Stefan Thesker",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-02-16",
+   "3204022",
+   "63",
+   "Emmanuel Iyoha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-05-16",
+   "3204088",
+   "58",
+   "Finn Porath",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-06-08",
+   "3204145",
+   "64",
+   "Emmanuel Iyoha",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-10-18",
+   "3413215",
+   "22",
+   "Janni Serra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-12-12",
+   "3413292",
+   "66",
+   "Fin Bartels",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-01-17",
+   "3413357",
+   "77",
+   "Janni Serra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-05-04",
+   "3413367",
+   "69",
+   "Janni Serra",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-05-13",
+   "3413420",
+   "79",
+   "Simon Lorenz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-05-26",
+   "3573720",
+   "59",
+   "Simon Lorenz",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-16",
+   "3588238",
+   "87",
+   "Jonathan Burkardt",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-12-04",
+   "3588343",
+   "4",
+   "Anton Stach",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-04-03",
+   "3588566",
+   "73",
+   "Karim Onisiwo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-10-21",
+   "3839198",
+   "40",
+   "Anton Stach",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-02-19",
+   "3839367",
+   "45+4",
+   "Leandro Barreiro",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-02-24",
+   "3839388",
+   "71",
+   "Ludovic Ajorque",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-05-27",
+   "3839582",
+   "24",
+   "Karim Onisiwo",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-03-02",
+   "4096179",
+   "12",
+   "Jonathan Burkardt",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-03-16",
+   "4096198",
+   "71",
+   "Jonathan Burkardt",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-04-06",
+   "4096218",
+   "32",
+   "Andreas Hanche-Olsen",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-08-16",
+   "4353907",
+   "59",
+   "Dominik Kohr",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2024-12-01",
+   "4373497",
+   "4",
+   "Jonathan Burkardt",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-12-08",
+   "4373514",
+   "11",
+   "Paul Nebel",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-02-22",
+   "4373695",
+   "90+5",
+   "Paul Nebel",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-03-07",
+   "4373732",
+   "39",
+   "Paul Nebel",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-03-07",
+   "4373732",
+   "77",
+   "Nadiem Amiri",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-05-10",
+   "4373876",
+   "53",
+   "Phillipp Mwene",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-11-06",
+   "4716109",
+   "68",
+   "Benedict Hollerbach",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-12-18",
+   "4716111",
+   "44",
+   "Silvan Widmer",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-01-10",
+   "4634269",
+   "30",
+   "Nadiem Amiri",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-01-13",
+   "4634273",
+   "30",
+   "Silvan Widmer",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-08-23",
+   "4893858",
+   "39",
+   "Nadiem Amiri",
+   "TM+FotMob 선수 경기 목록(도움 1)"
+  ],
+  [
+   "2026-09-06",
+   "4916137",
+   "83",
+   "Phillip Tietz",
+   "TM+FotMob 이벤트"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "2025-08-28",
+   "4707374",
+   44,
+   "Nelson Weiper"
+  ]
+ ],
+ "fotmob_playermatches_only": [],
+ "cross_check": [],
+ "fotmob_goal_diffs": [
+  [
+   "골 수 다름",
+   "2903030",
+   "2017-09-17",
+   [
+    "15",
+    "62"
+   ],
+   [
+    "62"
+   ]
+  ],
+  [
+   "다름",
+   "2990674",
+   "2018-05-20",
+   "62",
+   "Left-footed shot",
+   "64",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2990701",
+   "2018-07-11",
+   "63",
+   "Header",
+   "65",
+   "",
+   ""
+  ]
+ ],
+ "elo_sources": {
+  "기존 팀×시즌 값": 74,
+  "순위표 → 라벨": 87,
+  "직접 라벨(순위표 밖)": 9
+ },
+ "new_team_seasons": {
+  "Gyeongnam FC|2014": [
+   1420,
+   "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2014": [
+   1468,
+   "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2014": [
+   1517,
+   "K리그1 2014 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Busan IPark|2014": [
+   1458,
+   "K리그1 2014 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2014": [
+   1531,
+   "K리그1 2014 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Shandong Luneng Taishan|2015": [
+   1383,
+   "중국 슈퍼리그 2015 3위/16팀"
+  ],
+  "Gwangju FC|2015": [
+   1429,
+   "K리그1 2015 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2015": [
+   1446,
+   "K리그1 2015 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Daejeon Citizen|2015": [
+   1399,
+   "K리그1 2015 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2015": [
+   1475,
+   "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Suwon Samsung Bluewings|2015": [
+   1558,
+   "K리그1 2015 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2015": [
+   1511,
+   "K리그1 2015 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Tokyo|2016": [
+   1534,
+   "J1리그 2016 연간 9위/18팀"
+  ],
+  "FC Seoul|2016": [
+   1542,
+   "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Becamex Binh Duong FC|2016": [
+   1134,
+   "베트남 1부 2016 10위/14팀 (V.League 1, 리그 수준 추정)"
+  ],
+  "Jeju United|2016": [
+   1509,
+   "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2016": [
+   1430,
+   "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Suwon FC|2016": [
+   1383,
+   "K리그1 2016 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2016": [
+   1478,
+   "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2016": [
+   1496,
+   "K리그1 2016 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gwangju FC|2016": [
+   1437,
+   "K리그1 2016 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Shanghai SIPG|2016": [
+   1418,
+   "중국 슈퍼리그 2016 3위/16팀"
+  ],
+  "Sangju Sangmu|2016": [
+   1459,
+   "K리그1 2016 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Al-Ain FC|2016": [
+   1412,
+   "UAE 프로리그 2016-17 4위/14팀"
+  ],
+  "Mamelodi Sundowns FC|2016-17": [
+   1440,
+   "남아프리카공화국 1부 2016-17 2위/16팀 (Premiership)"
+  ],
+  "Incheon United|2017": [
+   1408,
+   "K리그1 2017 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gangwon FC|2017": [
+   1437,
+   "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2017": [
+   1425,
+   "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2017": [
+   1473,
+   "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2017": [
+   1520,
+   "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Sangju Sangmu|2017": [
+   1376,
+   "K리그1 2017 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gwangju FC|2017": [
+   1361,
+   "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2018": [
+   1352,
+   "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2018": [
+   1336,
+   "K리그1 2018 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Daegu FC|2018": [
+   1400,
+   "K리그1 2018 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Buriram United|2018": [
+   1380,
+   "태국 1부 2018 1위/18팀 (Thai League 1)"
+  ],
+  "Jeju United|2018": [
+   1431,
+   "K리그1 2018 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Hamburger SV|2018-19": [
+   1532,
+   "2. 분데스리가 2018-19 4위/18팀"
+  ],
+  "TSV 1860 Munich|2018-19": [
+   1380,
+   "독일 3부 2018-19 12위/20팀 (3. Liga, 리그 수준 추정)"
+  ],
+  "SV Darmstadt 98|2018-19": [
+   1487,
+   "2. 분데스리가 2018-19 10위/18팀"
+  ],
+  "FC Erzgebirge Aue|2018-19": [
+   1469,
+   "2. 분데스리가 2018-19 14위/18팀"
+  ],
+  "SC Paderborn 07|2018-19": [
+   1568,
+   "2. 분데스리가 2018-19 2위/18팀"
+  ],
+  "FSV Salmrohr|2019-20": [
+   1006,
+   "독일 6부 2019-20 순위 없음 (Rheinlandliga, 3위로 확인했으나 팀 수를 찾지 못함; 리그 수준 추정)"
+  ],
+  "Karlsruher SC|2019-20": [
+   1459,
+   "2. 분데스리가 2019-20 15위/18팀"
+  ],
+  "VfB Stuttgart|2019-20": [
+   1567,
+   "2. 분데스리가 2019-20 2위/18팀"
+  ],
+  "SG Dynamo Dresden|2019-20": [
+   1438,
+   "2. 분데스리가 2019-20 18위/18팀"
+  ],
+  "SSV Jahn Regensburg|2019-20": [
+   1476,
+   "2. 분데스리가 2019-20 12위/18팀"
+  ],
+  "Hamburger SV|2019-20": [
+   1531,
+   "2. 분데스리가 2019-20 4위/18팀"
+  ],
+  "1.FC Rielasingen-Arlen|2020-21": [
+   1171,
+   "독일 5부 2020-21 6위/21팀 (Oberliga Baden-Württemberg, 시즌 중단 시점 순위; 리그 수준 추정)"
+  ],
+  "Würzburger Kickers|2020-21": [
+   1451,
+   "2. 분데스리가 2020-21 18위/18팀"
+  ],
+  "VfL Bochum|2020-21": [
+   1621,
+   "2. 분데스리가 2020-21 1위/18팀"
+  ],
+  "SSV Jahn Regensburg|2020-21": [
+   1481,
+   "2. 분데스리가 2020-21 14위/18팀"
+  ],
+  "Karlsruher SC|2020-21": [
+   1531,
+   "2. 분데스리가 2020-21 6위/18팀"
+  ],
+  "Fortuna Düsseldorf|2020-21": [
+   1537,
+   "2. 분데스리가 2020-21 5위/18팀"
+  ],
+  "Hamburger SV|2020-21": [
+   1544,
+   "2. 분데스리가 2020-21 4위/18팀"
+  ],
+  "SV Sandhausen|2020-21": [
+   1472,
+   "2. 분데스리가 2020-21 15위/18팀"
+  ],
+  "SV Wehen Wiesbaden|2024-25": [
+   1409,
+   "독일 3부 2024-25 9위/20팀 (3. Liga, 리그 수준 추정)"
+  ],
+  "Rosenborg BK|2025-26": [
+   1505,
+   "노르웨이 1부 2025 7위/16팀"
+  ],
+  "VfB 1921 Krieschow|2026-27": [
+   1130,
+   "독일 5부 2026-27 순위 없음 (NOFV-Oberliga Süd, 진행 중 시즌 순위표를 찾지 못함; 리그 수준 추정)"
+  ]
+ },
+ "table_label_diffs": [],
+ "points_map_needed": [
+  "2. 분데스리가 2018-19 | FC Erzgebirge Aue | Erzgebirge Aue | 13",
+  "2. 분데스리가 2018-19 | Hamburger SV | Hamburger SV | 3",
+  "2. 분데스리가 2018-19 | SC Paderborn 07 | SC Paderborn | 1",
+  "2. 분데스리가 2018-19 | SV Darmstadt 98 | Darmstadt 98 | 9",
+  "2. 분데스리가 2019-20 | Hamburger SV | Hamburger SV | 3",
+  "2. 분데스리가 2019-20 | Karlsruher SC | Karlsruher SC | 14",
+  "2. 분데스리가 2019-20 | SG Dynamo Dresden | Dynamo Dresden | 17",
+  "2. 분데스리가 2019-20 | SSV Jahn Regensburg | Jahn Regensburg | 11",
+  "2. 분데스리가 2019-20 | VfB Stuttgart | VfB Stuttgart | 1",
+  "2. 분데스리가 2020-21 | Fortuna Düsseldorf | Fortuna Düsseldorf | 4",
+  "2. 분데스리가 2020-21 | Hamburger SV | Hamburger SV | 3",
+  "2. 분데스리가 2020-21 | Karlsruher SC | Karlsruher SC | 5",
+  "2. 분데스리가 2020-21 | SSV Jahn Regensburg | Jahn Regensburg | 13",
+  "2. 분데스리가 2020-21 | SV Sandhausen | SV Sandhausen | 14",
+  "2. 분데스리가 2020-21 | VfL Bochum | VfL Bochum | 0",
+  "2. 분데스리가 2020-21 | Würzburger Kickers | Würzburger Kickers | 17",
+  "J1리그 2016 연간 | FC Tokyo | FC Tokyo | 8",
+  "K리그1 2017 | Gangwon FC | Gangwon&nbsp;FC | 5",
+  "K리그1 2017 | Gwangju FC | Gwangju&nbsp;FC | 11",
+  "K리그1 2017 | Incheon United | Incheon United | 8",
+  "K리그1 2017 | Jeju United | Jeju United | 1",
+  "K리그1 2017 | Pohang Steelers | Pohang Steelers | 6",
+  "K리그1 2017 | Sangju Sangmu | Sangju Sangmu | 10",
+  "K리그1 2017 | Ulsan Hyundai | Ulsan Hyundai | 3",
+  "K리그1 2018 | Daegu FC | Daegu FC | 6",
+  "K리그1 2018 | FC Seoul | FC Seoul | 10",
+  "K리그1 2018 | Jeju United | Jeju United | 4",
+  "K리그1 2018 | Jeonnam Dragons | Jeonnam Dragons | 11",
+  "UAE 프로리그 2016-17 | Al-Ain FC | Al Ain | 3",
+  "노르웨이 1부 2025 | Rosenborg BK | Rosenborg | 6",
+  "독일 5부 2020-21 | 1.FC Rielasingen-Arlen | Viktoria Arnoldsweiler | 5",
+  "중국 슈퍼리그 2015 | Shandong Luneng Taishan | Shandong Luneng Taishan | 2",
+  "중국 슈퍼리그 2016 | Shanghai SIPG | Shanghai SIPG | 2"
+ ],
+ "date_changes": [],
+ "elo_log": {
+  "Guangzhou Evergrande|2014-04-02": [
+   "table",
+   1429,
+   "중국 슈퍼리그 2014 1위/16팀 (Chinese Super League)",
+   "2014"
+  ],
+  "Gyeongnam FC|2014-04-26": [
+   "model",
+   1420,
+   "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2014-04-30": [
+   "model",
+   1468,
+   "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2014-05-06": [
+   "model",
+   1517,
+   "K리그1 2014 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Busan IPark|2014-07-05": [
+   "model",
+   1458,
+   "K리그1 2014 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gyeongnam FC|2014-07-13": [
+   "model",
+   1420,
+   "K리그1 2014 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2014-08-03": [
+   "model",
+   1468,
+   "K리그1 2014 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2014-11-02": [
+   "model",
+   1531,
+   "K리그1 2014 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Shandong Luneng Taishan|2015-03-03": [
+   "model",
+   1383,
+   "중국 슈퍼리그 2015 3위/16팀"
+  ],
+  "Gwangju FC|2015-04-12": [
+   "model",
+   1429,
+   "K리그1 2015 10위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2015-04-26": [
+   "model",
+   1446,
+   "K리그1 2015 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Shandong Luneng Taishan|2015-05-06": [
+   "model",
+   1383,
+   "중국 슈퍼리그 2015 3위/16팀"
+  ],
+  "Beijing Guoan|2015-05-26": [
+   "table",
+   1391,
+   "중국 슈퍼리그 2015 4위/16팀",
+   "2015"
+  ],
+  "Jeonnam Dragons|2015-06-28": [
+   "model",
+   1446,
+   "K리그1 2015 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Daejeon Citizen|2015-07-05": [
+   "model",
+   1399,
+   "K리그1 2015 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2015-07-11": [
+   "model",
+   1475,
+   "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Suwon Samsung Bluewings|2015-07-26": [
+   "model",
+   1558,
+   "K리그1 2015 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2015-09-12": [
+   "model",
+   1511,
+   "K리그1 2015 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2015-11-08": [
+   "model",
+   1475,
+   "K리그1 2015 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Suwon Samsung Bluewings|2015-11-29": [
+   "model",
+   1558,
+   "K리그1 2015 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Tokyo|2016-02-23": [
+   "man",
+   1534,
+   "J1리그 2016 연간 9위/18팀"
+  ],
+  "FC Seoul|2016-03-12": [
+   "model",
+   1542,
+   "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Becamex Binh Duong FC|2016-03-15": [
+   "man",
+   1134,
+   "베트남 1부 2016 10위/14팀 (V.League 1, 리그 수준 추정)"
+  ],
+  "Jeju United|2016-04-02": [
+   "model",
+   1509,
+   "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2016-04-10": [
+   "model",
+   1430,
+   "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Tokyo|2016-04-20": [
+   "man",
+   1534,
+   "J1리그 2016 연간 9위/18팀"
+  ],
+  "Suwon FC|2016-04-30": [
+   "model",
+   1383,
+   "K리그1 2016 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2016-06-29": [
+   "model",
+   1478,
+   "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2016-07-10": [
+   "model",
+   1430,
+   "K리그1 2016 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2016-07-24": [
+   "model",
+   1496,
+   "K리그1 2016 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gwangju FC|2016-07-30": [
+   "model",
+   1437,
+   "K리그1 2016 8위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2016-08-28": [
+   "model",
+   1542,
+   "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Shanghai SIPG|2016-09-13": [
+   "model",
+   1418,
+   "중국 슈퍼리그 2016 3위/16팀"
+  ],
+  "FC Seoul|2016-09-28": [
+   "model",
+   1542,
+   "K리그1 2016 2위/12팀 (감점 전 순위; K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2016-10-15": [
+   "model",
+   1509,
+   "K리그1 2016 3위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2016-10-29": [
+   "model",
+   1478,
+   "K리그1 2016 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Sangju Sangmu|2016-11-02": [
+   "model",
+   1459,
+   "K리그1 2016 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Al-Ain FC|2016-11-26": [
+   "model",
+   1412,
+   "UAE 프로리그 2016-17 4위/14팀"
+  ],
+  "Mamelodi Sundowns FC|2016-12-14": [
+   "man",
+   1440,
+   "남아프리카공화국 1부 2016-17 2위/16팀 (Premiership)"
+  ],
+  "Incheon United|2017-05-21": [
+   "model",
+   1408,
+   "K리그1 2017 9위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gangwon FC|2017-06-21": [
+   "model",
+   1437,
+   "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2017-06-28": [
+   "model",
+   1425,
+   "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2017-07-08": [
+   "model",
+   1473,
+   "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2017-07-12": [
+   "model",
+   1520,
+   "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Sangju Sangmu|2017-07-16": [
+   "model",
+   1376,
+   "K리그1 2017 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gwangju FC|2017-07-19": [
+   "model",
+   1361,
+   "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "FC Seoul|2017-07-23": [
+   "table",
+   1496,
+   "K리그1 2017 5위/12팀 (K League 1)",
+   "2017"
+  ],
+  "Gwangju FC|2017-08-19": [
+   "model",
+   1361,
+   "K리그1 2017 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gangwon FC|2017-09-10": [
+   "model",
+   1437,
+   "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Pohang Steelers|2017-09-17": [
+   "model",
+   1425,
+   "K리그1 2017 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Gangwon FC|2017-10-22": [
+   "model",
+   1437,
+   "K리그1 2017 6위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeju United|2017-10-29": [
+   "model",
+   1520,
+   "K리그1 2017 2위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2017-11-05": [
+   "model",
+   1473,
+   "K리그1 2017 4위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Kashiwa Reysol|2018-02-13": [
+   "table",
+   1494,
+   "J1리그 2018 17위/18팀",
+   "2018"
+  ],
+  "Ulsan Hyundai|2018-03-01": [
+   "table",
+   1477,
+   "K리그1 2018 3위/12팀 (K League 1)",
+   "2018"
+  ],
+  "Tianjin Quanjian|2018-03-06": [
+   "table",
+   1313,
+   "중국 슈퍼리그 2018 9위/16팀 (추정, 다른 선수 자료 중국 슈퍼리그 2012 순위별 값과 같은 모형)",
+   "2018"
+  ],
+  "FC Seoul|2018-03-18": [
+   "model",
+   1352,
+   "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Jeonnam Dragons|2018-04-14": [
+   "model",
+   1336,
+   "K리그1 2018 12위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Daegu FC|2018-05-02": [
+   "model",
+   1400,
+   "K리그1 2018 7위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Buriram United|2018-05-15": [
+   "model",
+   1380,
+   "태국 1부 2018 1위/18팀 (Thai League 1)"
+  ],
+  "FC Seoul|2018-05-20": [
+   "model",
+   1352,
+   "K리그1 2018 11위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Ulsan Hyundai|2018-07-11": [
+   "table",
+   1477,
+   "K리그1 2018 3위/12팀 (K League 1)",
+   "2018"
+  ],
+  "Jeju United|2018-07-18": [
+   "model",
+   1431,
+   "K리그1 2018 5위/12팀 (K League Classic/K League 1, 스플릿 뒤 최종 순위)"
+  ],
+  "Hamburger SV|2018-08-03": [
+   "model",
+   1532,
+   "2. 분데스리가 2018-19 4위/18팀"
+  ],
+  "1.FC Heidenheim 1846|2018-08-12": [
+   "table",
+   1532,
+   "2. 분데스리가 2018-19 5위/18팀",
+   "2018-19"
+  ],
+  "TSV 1860 Munich|2018-08-19": [
+   "model",
+   1380,
+   "독일 3부 2018-19 12위/20팀 (3. Liga, 리그 수준 추정)"
+  ],
+  "SV Darmstadt 98|2018-09-28": [
+   "model",
+   1487,
+   "2. 분데스리가 2018-19 10위/18팀"
+  ],
+  "FC Erzgebirge Aue|2018-10-06": [
+   "model",
+   1469,
+   "2. 분데스리가 2018-19 14위/18팀"
+  ],
+  "SC Paderborn 07|2018-11-09": [
+   "model",
+   1568,
+   "2. 분데스리가 2018-19 2위/18팀"
+  ],
+  "SV Sandhausen|2018-11-24": [
+   "table",
+   1472,
+   "2. 분데스리가 2018-19 15위/18팀",
+   "2018-19"
+  ],
+  "MSV Duisburg|2018-12-02": [
+   "table",
+   1429,
+   "2. 분데스리가 2018-19 18위/18팀",
+   "2018-19"
+  ],
+  "FC St. Pauli|2019-04-06": [
+   "table",
+   1502,
+   "2. 분데스리가 2018-19 9위/18팀",
+   "2018-19"
+  ],
+  "SV Sandhausen|2019-04-27": [
+   "table",
+   1472,
+   "2. 분데스리가 2018-19 15위/18팀",
+   "2018-19"
+  ],
+  "SG Dynamo Dresden|2019-05-12": [
+   "table",
+   1483,
+   "2. 분데스리가 2018-19 12위/18팀",
+   "2018-19"
+  ],
+  "FSV Salmrohr|2019-08-11": [
+   "man",
+   1006,
+   "독일 6부 2019-20 순위 없음 (Rheinlandliga, 3위로 확인했으나 팀 수를 찾지 못함; 리그 수준 추정)"
+  ],
+  "Karlsruher SC|2019-08-18": [
+   "model",
+   1459,
+   "2. 분데스리가 2019-20 15위/18팀"
+  ],
+  "FC Erzgebirge Aue|2019-09-01": [
+   "table",
+   1501,
+   "2. 분데스리가 2019-20 7위/18팀",
+   "2019-20"
+  ],
+  "Hannover 96|2019-09-20": [
+   "table",
+   1509,
+   "2. 분데스리가 2019-20 6위/18팀",
+   "2019-20"
+  ],
+  "VfB Stuttgart|2019-10-20": [
+   "model",
+   1567,
+   "2. 분데스리가 2019-20 2위/18팀"
+  ],
+  "VfL Bochum|2019-10-25": [
+   "table",
+   1501,
+   "2. 분데스리가 2019-20 8위/18팀",
+   "2019-20"
+  ],
+  "Arminia Bielefeld|2019-11-03": [
+   "table",
+   1589,
+   "2. 분데스리가 2019-20 1위/18팀",
+   "2019-20"
+  ],
+  "SG Dynamo Dresden|2019-11-30": [
+   "model",
+   1438,
+   "2. 분데스리가 2019-20 18위/18팀"
+  ],
+  "SV Darmstadt 98|2020-01-29": [
+   "table",
+   1520,
+   "2. 분데스리가 2019-20 5위/18팀",
+   "2019-20"
+  ],
+  "FC Erzgebirge Aue|2020-02-16": [
+   "table",
+   1501,
+   "2. 분데스리가 2019-20 7위/18팀",
+   "2019-20"
+  ],
+  "Hannover 96|2020-03-02": [
+   "table",
+   1509,
+   "2. 분데스리가 2019-20 6위/18팀",
+   "2019-20"
+  ],
+  "SSV Jahn Regensburg|2020-05-16": [
+   "model",
+   1476,
+   "2. 분데스리가 2019-20 12위/18팀"
+  ],
+  "Hamburger SV|2020-06-08": [
+   "model",
+   1531,
+   "2. 분데스리가 2019-20 4위/18팀"
+  ],
+  "1.FC Rielasingen-Arlen|2020-09-13": [
+   "man",
+   1171,
+   "독일 5부 2020-21 6위/21팀 (Oberliga Baden-Württemberg, 시즌 중단 시점 순위; 리그 수준 추정)"
+  ],
+  "Würzburger Kickers|2020-10-18": [
+   "model",
+   1451,
+   "2. 분데스리가 2020-21 18위/18팀"
+  ],
+  "VfL Bochum|2020-12-04": [
+   "model",
+   1621,
+   "2. 분데스리가 2020-21 1위/18팀"
+  ],
+  "SSV Jahn Regensburg|2020-12-12": [
+   "model",
+   1481,
+   "2. 분데스리가 2020-21 14위/18팀"
+  ],
+  "Karlsruher SC|2021-01-17": [
+   "model",
+   1531,
+   "2. 분데스리가 2020-21 6위/18팀"
+  ],
+  "Fortuna Düsseldorf|2021-02-08": [
+   "model",
+   1537,
+   "2. 분데스리가 2020-21 5위/18팀"
+  ],
+  "Hamburger SV|2021-03-08": [
+   "model",
+   1544,
+   "2. 분데스리가 2020-21 4위/18팀"
+  ],
+  "SV Sandhausen|2021-05-04": [
+   "model",
+   1472,
+   "2. 분데스리가 2020-21 15위/18팀"
+  ],
+  "SSV Jahn Regensburg|2021-05-13": [
+   "model",
+   1481,
+   "2. 분데스리가 2020-21 14위/18팀"
+  ],
+  "1.FC Köln|2021-05-26": [
+   "table",
+   1639,
+   "분데스리가 2020-21 16위",
+   "2020-21"
+  ],
+  "1.FC Köln|2021-05-29": [
+   "table",
+   1639,
+   "분데스리가 2020-21 16위",
+   "2020-21"
+  ],
+  "Borussia Dortmund|2021-10-16": [
+   "table",
+   1919,
+   "분데스리가 2021-22 2위",
+   "2021-22"
+  ],
+  "Arminia Bielefeld|2021-10-30": [
+   "table",
+   1624,
+   "분데스리가 2021-22 17위",
+   "2021-22"
+  ],
+  "VfL Wolfsburg|2021-12-04": [
+   "table",
+   1717,
+   "분데스리가 2021-22 12위",
+   "2021-22"
+  ],
+  "Hertha BSC|2021-12-14": [
+   "table",
+   1637,
+   "분데스리가 2021-22 16위",
+   "2021-22"
+  ],
+  "RB Leipzig|2022-01-08": [
+   "table",
+   1867,
+   "분데스리가 2021-22 4위",
+   "2021-22"
+  ],
+  "TSG 1899 Hoffenheim|2022-02-05": [
+   "table",
+   1751,
+   "분데스리가 2021-22 9위",
+   "2021-22"
+  ],
+  "Borussia Mönchengladbach|2022-04-03": [
+   "table",
+   1738,
+   "분데스리가 2021-22 10위",
+   "2021-22"
+  ],
+  "FC Augsburg|2022-08-20": [
+   "table",
+   1632,
+   "분데스리가 2022-23 15위",
+   "2022-23"
+  ],
+  "SV Werder Bremen|2022-10-15": [
+   "table",
+   1654,
+   "분데스리가 2022-23 13위",
+   "2022-23"
+  ],
+  "1.FC Köln|2022-10-21": [
+   "table",
+   1697,
+   "분데스리가 2022-23 11위",
+   "2022-23"
+  ],
+  "Borussia Dortmund|2023-01-25": [
+   "table",
+   1909,
+   "분데스리가 2022-23 2위",
+   "2022-23"
+  ],
+  "VfL Bochum|2023-01-28": [
+   "table",
+   1621,
+   "분데스리가 2022-23 14위",
+   "2022-23"
+  ],
+  "FC Augsburg|2023-02-11": [
+   "table",
+   1632,
+   "분데스리가 2022-23 15위",
+   "2022-23"
+  ],
+  "Bayer 04 Leverkusen|2023-02-19": [
+   "table",
+   1757,
+   "분데스리가 2022-23 6위",
+   "2022-23"
+  ],
+  "Borussia Mönchengladbach|2023-02-24": [
+   "table",
+   1705,
+   "분데스리가 2022-23 10위",
+   "2022-23"
+  ],
+  "Borussia Dortmund|2023-05-27": [
+   "table",
+   1909,
+   "분데스리가 2022-23 2위",
+   "2022-23"
+  ],
+  "Eintracht Frankfurt|2023-08-27": [
+   "table",
+   1740,
+   "분데스리가 2023-24 6위",
+   "2023-24"
+  ],
+  "RB Leipzig|2023-11-04": [
+   "table",
+   1887,
+   "분데스리가 2023-24 4위",
+   "2023-24"
+  ],
+  "Borussia Mönchengladbach|2024-03-02": [
+   "table",
+   1657,
+   "분데스리가 2023-24 14위",
+   "2023-24"
+  ],
+  "VfL Bochum|2024-03-16": [
+   "table",
+   1620,
+   "분데스리가 2023-24 16위",
+   "2023-24"
+  ],
+  "SV Darmstadt 98|2024-04-06": [
+   "table",
+   1503,
+   "분데스리가 2023-24 18위",
+   "2023-24"
+  ],
+  "Borussia Dortmund|2024-05-11": [
+   "table",
+   1857,
+   "분데스리가 2023-24 5위",
+   "2023-24"
+  ],
+  "SV Wehen Wiesbaden|2024-08-16": [
+   "model",
+   1409,
+   "독일 3부 2024-25 9위/20팀 (3. Liga, 리그 수준 추정)"
+  ],
+  "SV Werder Bremen|2024-09-15": [
+   "table",
+   1757,
+   "분데스리가 2024-25 8위",
+   "2024-25"
+  ],
+  "Borussia Dortmund|2024-11-09": [
+   "table",
+   1822,
+   "분데스리가 2024-25 4위",
+   "2024-25"
+  ],
+  "Holstein Kiel|2024-11-24": [
+   "table",
+   1584,
+   "분데스리가 2024-25 17위",
+   "2024-25"
+  ],
+  "TSG 1899 Hoffenheim|2024-12-01": [
+   "table",
+   1633,
+   "분데스리가 2024-25 15위",
+   "2024-25"
+  ],
+  "VfL Wolfsburg|2024-12-08": [
+   "table",
+   1725,
+   "분데스리가 2024-25 11위",
+   "2024-25"
+  ],
+  "FC Bayern Munich|2024-12-14": [
+   "table",
+   2019,
+   "분데스리가 2024-25 1위",
+   "2024-25"
+  ],
+  "FC St. Pauli|2025-02-22": [
+   "table",
+   1647,
+   "분데스리가 2024-25 14위",
+   "2024-25"
+  ],
+  "Borussia Mönchengladbach|2025-03-07": [
+   "table",
+   1729,
+   "분데스리가 2024-25 10위",
+   "2024-25"
+  ],
+  "VfL Wolfsburg|2025-04-19": [
+   "table",
+   1725,
+   "분데스리가 2024-25 11위",
+   "2024-25"
+  ],
+  "VfL Bochum|2025-05-10": [
+   "table",
+   1580,
+   "분데스리가 2024-25 18위",
+   "2024-25"
+  ],
+  "Rosenborg BK|2025-08-28": [
+   "model",
+   1505,
+   "노르웨이 1부 2025 7위/16팀"
+  ],
+  "Bayer 04 Leverkusen|2025-10-18": [
+   "table",
+   1836,
+   "분데스리가 2025-26 6위",
+   "2025-26"
+  ],
+  "ACF Fiorentina|2025-11-06": [
+   "table",
+   1710,
+   "세리에A 2025-26 15위",
+   "2025-26"
+  ],
+  "FC Bayern Munich|2025-12-14": [
+   "table",
+   2085,
+   "분데스리가 2025-26 1위",
+   "2025-26"
+  ],
+  "Samsunspor|2025-12-18": [
+   "table",
+   1577,
+   "쉬페르리그 2025-26 7위/18팀",
+   "2025-26"
+  ],
+  "1.FC Union Berlin|2026-01-10": [
+   "table",
+   1682,
+   "분데스리가 2025-26 11위",
+   "2025-26"
+  ],
+  "1.FC Heidenheim 1846|2026-01-13": [
+   "table",
+   1591,
+   "분데스리가 2025-26 17위",
+   "2025-26"
+  ],
+  "VfB Stuttgart|2026-03-07": [
+   "table",
+   1852,
+   "분데스리가 2025-26 4위",
+   "2025-26"
+  ],
+  "SV Werder Bremen|2026-03-15": [
+   "table",
+   1633,
+   "분데스리가 2025-26 15위",
+   "2025-26"
+  ],
+  "VfB 1921 Krieschow|2026-08-23": [
+   "man",
+   1130,
+   "독일 5부 2026-27 순위 없음 (NOFV-Oberliga Süd, 진행 중 시즌 순위표를 찾지 못함; 리그 수준 추정)"
+  ],
+  "Hamburger SV|2026-09-06": [
+   "table",
+   1680,
+   "분데스리가 2026-27 11위/18팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "SV Werder Bremen|2026-10-24": [
+   "table",
+   1765,
+   "분데스리가 2026-27 6위/18팀 (2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ]
+ }
+}

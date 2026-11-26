@@ -1,0 +1,42 @@
+{
+ "preset": "ennervalencia",
+ "name": "에네르 발렌시아",
+ "prefix": "ENV",
+ "clubs": [
+  {"key": "emeenv", "name": "CS 에멜렉", "short": "에멜렉", "years": "2010~2013", "until": "2014-01-01"},
+  {"key": "pacenv", "name": "CF 파추카", "short": "파추카", "years": "2014, 2025~2026", "until": "2014-07-01"},
+  {"key": "whuenv", "name": "웨스트햄 유나이티드", "short": "웨스트햄", "years": "2014~2016", "until": "2016-08-31"},
+  {"key": "eveenv", "name": "에버턴", "short": "에버턴", "years": "2016~2017", "until": "2017-07-01"},
+  {"key": "tigenv", "name": "티그레스 UANL", "short": "티그레스", "years": "2017~2020", "until": "2020-07-01"},
+  {"key": "fenenv", "name": "페네르바흐체", "short": "페네르바흐체", "years": "2020~2023", "until": "2023-07-01"},
+  {"key": "intenv", "name": "SC 인테르나시오나우", "short": "인테르나시오나우", "years": "2023~2025", "until": "2025-09-10"},
+  {"key": "pacenv", "name": "CF 파추카", "short": "파추카", "years": "2014, 2025~2026", "until": "2026-08-09"},
+  {"key": "bocenv", "name": "보카 주니어스", "short": "보카", "years": "2026~", "until": null}
+ ],
+ "season": {"calendar": ["emeenv", "intenv", "bocenv"], "jul10": [], "jul1": ["pacenv", "tigenv"]},
+ "pos": "CF",
+ "flag": "EC",
+ "retired": false,
+ "colors": {
+  "emeenv": ["#0033A0", "#FFFFFF"],
+  "pacenv": ["#002D72", "#FFFFFF"],
+  "whuenv": ["#7A263A", "#1BB1E7"],
+  "eveenv": ["#003399", "#FFFFFF"],
+  "tigenv": ["#FDB913", "#003DA5"],
+  "fenenv": ["#FFED00", "#163962"],
+  "intenv": ["#E5050F", "#FFFFFF"],
+  "bocenv": ["#103F79", "#F3B229"]
+ },
+ "hon": {
+  "t": {
+   "LG": ["2026 보카(연간 순위표)", "18/19 티그레스(클라우수라)", "17/18 티그레스(아페르투라)", "2013 에멜렉"],
+   "DC": ["22/23 페네르바흐체"],
+   "SC": ["17/18 티그레스"]
+  },
+  "o": [["코파 수다메리카나", "2026 보카"], ["북중미 챔피언스리그", "19/20 티그레스"], ["캄페오네스컵", "17/18 티그레스"], ["캄페오나투 가우슈", "2025 인테르나시오나우"]],
+  "a": {
+   "TOP": ["22/23 쉬페르리그 29골", "18/19 북중미 챔피언스리그 7골", "13/14 리가MX 클라우수라 18골", "2013 코파 수다메리카나 5골"],
+   "POY": ["17/18 리가MX 아페르투라 · 사무국"]
+  }
+ }
+}

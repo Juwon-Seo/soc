@@ -1,0 +1,8934 @@
+{
+ "E": [
+  {
+   "type": "a",
+   "opp": "CD Numancia",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 17위",
+   "note": "Carlitos"
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 29,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SK Sigma Olomouc",
+   "elo": 1488,
+   "comp": "elq",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1부 1999-00 12위/16팀 (Czech First League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1822,
+   "comp": "lg",
+   "min": 81,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1841,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "1999-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FK Teplice",
+   "elo": 1551,
+   "comp": "elk",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1부 1999-00 5위/16팀 (Czech First League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FK Teplice",
+   "elo": 1551,
+   "comp": "elk",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 1부 1999-00 5위/16팀 (Czech First League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1985,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-11-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 3위 (추정, 앞뒤 순위값 사이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ajax Amsterdam",
+   "elo": 1649,
+   "comp": "elk",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 1999-00 5위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2034,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2034,
+   "comp": "lg",
+   "min": 83,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "1999-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1921,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1921,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ajax Amsterdam",
+   "elo": 1649,
+   "comp": "elk",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 1999-00 5위",
+   "note": "Paco Soler",
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1791,
+   "comp": "lg",
+   "min": 68,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rayo Vallecano",
+   "elo": 1869,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2000-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1771,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1841,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1907,
+   "comp": "lg",
+   "min": 89,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo de La Coruña",
+   "elo": 2121,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1894,
+   "comp": "elk",
+   "min": 90,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 1999-00 1위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Racing Santander",
+   "elo": 1807,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-03-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1759,
+   "comp": "lg",
+   "min": 17,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1730,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1730,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-05-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Atlético de Madrid",
+   "elo": 1751,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1999-00 19위",
+   "note": "Samuel Eto'o"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1900,
+   "comp": "df",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 9위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 1982,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Las Palmas",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-11-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1802,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-11-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Celta de Vigo",
+   "elo": 1952,
+   "comp": "lg",
+   "min": 77,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 6위",
+   "note": "Djalminha"
+  },
+  {
+   "type": "g",
+   "opp": "Universidad de Las Palmas",
+   "elo": 1569,
+   "comp": "dc",
+   "min": 77,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2000-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2000-01 20위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1853,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1853,
+   "comp": "lg",
+   "min": 41,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1853,
+   "comp": "lg",
+   "min": 62,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 2152,
+   "comp": "lg",
+   "min": 85,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1631,
+   "comp": "clg",
+   "min": 60,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2000-01 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1761,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1761,
+   "comp": "lg",
+   "min": 89,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leeds United",
+   "elo": 1843,
+   "comp": "clk",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2000-01 4위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    3,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 58,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Valladolid CF",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 12위",
+   "note": "Juan Carlos Valerón"
+  },
+  {
+   "type": "g",
+   "opp": "Real Valladolid CF",
+   "elo": 1879,
+   "comp": "lg",
+   "min": 69,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1917,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-09-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Manchester United",
+   "elo": 1893,
+   "comp": "clg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 3위",
+   "note": "Noureddine Naybet"
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1893,
+   "comp": "clg",
+   "min": 39,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester United",
+   "elo": 1893,
+   "comp": "clg",
+   "min": 60,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1936,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1730,
+   "comp": "clg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2001-02 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 26,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 39,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": "José Amavisca"
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 2026,
+   "comp": "clg",
+   "min": 25,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cultural Leonesa",
+   "elo": 1444,
+   "comp": "dc",
+   "min": 75,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2001-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2001-02 2위/20팀 (Segunda División B Grupo I, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cultural Leonesa",
+   "elo": 1444,
+   "comp": "dc",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2001-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2001-02 2위/20팀 (Segunda División B Grupo I, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 2169,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Valladolid CF",
+   "elo": 1879,
+   "comp": "dk",
+   "min": 110,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2002-01-16",
+   "et": 1,
+   "dm": 0,
+   "lv": "라리가 2001-02 12위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "UE Figueres ( -2007)",
+   "elo": 1335,
+   "comp": "dsf",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2001-02 13위/20팀 (Segunda División B Grupo II, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1981,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1981,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 1998,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1987,
+   "comp": "clg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 2033,
+   "comp": "df",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2002-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 3위",
+   "note": "Sergio González"
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 2033,
+   "comp": "df",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2002-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 32,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2002-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bayer 04 Leverkusen",
+   "elo": 1843,
+   "comp": "clg",
+   "min": 75,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2001-02 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 34,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 40,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 16위",
+   "note": "Víctor Sánchez"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 62,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 16위",
+   "note": "Sergio González"
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1864,
+   "comp": "lg",
+   "min": 6,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2001-02 6위",
+   "note": "Juan Carlos Valerón"
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1893,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 4,
+   "ko": 0,
+   "pk": 1,
+   "date": "2002-09-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 19위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1704,
+   "comp": "clg",
+   "min": 49,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2002-03 8위",
+   "note": "Roy Makaay"
+  },
+  {
+   "type": "g",
+   "opp": "Racing Ferrol",
+   "elo": 1556,
+   "comp": "dc",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2002-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 20위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Racing Ferrol",
+   "elo": 1556,
+   "comp": "dc",
+   "min": 58,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2002-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 20위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1874,
+   "comp": "clg",
+   "min": 58,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-11-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 2006,
+   "comp": "clg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Recreativo Huelva",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1956,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Alicante CF",
+   "elo": 1324,
+   "comp": "dc",
+   "min": 57,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2003-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2002-03 11위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Murcia CF",
+   "elo": 1743,
+   "comp": "dk",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 1위/22팀",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Murcia CF",
+   "elo": 1743,
+   "comp": "dk",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2002-03 1위/22팀",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1893,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1875,
+   "comp": "dsf",
+   "min": 89,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 1,
+   "date": "2003-02-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 9위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1756,
+   "comp": "lg",
+   "min": 59,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1589,
+   "comp": "clg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 2002-03 2위/12팀 (추정, 다른 선수 자료의 바젤 2005 1600과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1812,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2003-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 2006,
+   "comp": "clg",
+   "min": 34,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1921,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-09-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 5위",
+   "note": "Juan Carlos Valerón"
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 13위",
+   "note": "Walter Pandiani"
+  },
+  {
+   "type": "g",
+   "opp": "SD Compostela",
+   "elo": 1269,
+   "comp": "dc",
+   "min": 81,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2003-10-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 3부 2003-04 19위/20팀 (Segunda División B Grupo II, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1799,
+   "comp": "clg",
+   "min": 83,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2003-04 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 2108,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1799,
+   "comp": "clg",
+   "min": 39,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2003-04 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1799,
+   "comp": "clg",
+   "min": 52,
+   "gf": 2,
+   "ga": 7,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2003-04 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 86,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atlético de Madrid",
+   "elo": 1894,
+   "comp": "dc",
+   "min": 86,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 7위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1819,
+   "comp": "lg",
+   "min": 74,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1909,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2004-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Albacete Balompié",
+   "elo": 1804,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 14위",
+   "note": "Albert Luque"
+  },
+  {
+   "type": "a",
+   "opp": "CA Osasuna",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 13위",
+   "note": "Víctor Sánchez"
+  },
+  {
+   "type": "a",
+   "opp": "RCD Mallorca",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 11위",
+   "note": "Djalminha"
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1876,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Madrid",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2003-04 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1858,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CCD Cerceda (- 2018)",
+   "elo": 1205,
+   "comp": "dc",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2004-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 4부 2004-05 6위/20팀 (Tercera División Grupo I, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CCD Cerceda (- 2018)",
+   "elo": 1205,
+   "comp": "dc",
+   "min": 83,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2004-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "스페인 4부 2004-05 6위/20팀 (Tercera División Grupo I, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2004-11-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1990,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 22,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 62,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1874,
+   "comp": "lg",
+   "min": 89,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Valencia CF",
+   "elo": 1911,
+   "comp": "lg",
+   "min": 72,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 7위",
+   "note": "Víctor Sánchez"
+  },
+  {
+   "type": "g",
+   "opp": "Getafe CF",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Málaga CF",
+   "elo": 1858,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Levante UD",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Slaven Belupo Koprivnica",
+   "elo": 1340,
+   "comp": "elq",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-07-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "크로아티아 1부 2005-06 8위/12팀",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1972,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1828,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Real Madrid",
+   "elo": 2021,
+   "comp": "lg",
+   "min": 34,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 2위",
+   "note": "Julian de Guzmán"
+  },
+  {
+   "type": "g",
+   "opp": "Getafe CF",
+   "elo": 1856,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Racing Santander",
+   "elo": 1758,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1920,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cádiz CF",
+   "elo": 1738,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1908,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1809,
+   "comp": "lg",
+   "min": 24,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2006-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CA Osasuna",
+   "elo": 1938,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2005-06 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Juventus FC",
+   "elo": 1838,
+   "comp": "lg",
+   "min": 94,
+   "gf": 0,
+   "ga": 5,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-08-25",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "세리에A 2007-08 3위",
+   "note": "Massimo Loviso"
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1882,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Genoa CFC",
+   "elo": 1718,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 10위",
+   "note": "Francesco Tavano"
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Blackburn Rovers",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 15위",
+   "note": "Mark Noble"
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1914,
+   "comp": "lg",
+   "min": 85,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stoke City",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1584,
+   "comp": "lg",
+   "min": 46,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 12위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 64,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 6위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Sociedad",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-01-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 1위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Albacete Balompié",
+   "elo": 1572,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2009-10 15위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Elche CF",
+   "elo": 1628,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 6위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gimnàstic de Tarragona",
+   "elo": 1554,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-05-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다(2부) 2009-10 18위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-06-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 8위/22팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Numancia",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 50,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2010-06-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세군다 2009-10 8위/22팀",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "1999-08-25",
+   "Molde FK",
+   "clq",
+   4
+  ],
+  [
+   "1999-09-12",
+   "CD Numancia",
+   "lg",
+   67
+  ],
+  [
+   "1999-09-16",
+   "SK Sigma Olomouc",
+   "elq",
+   75
+  ],
+  [
+   "1999-09-19",
+   "Real Sociedad",
+   "lg",
+   24
+  ],
+  [
+   "1999-09-26",
+   "Athletic Bilbao",
+   "lg",
+   5
+  ],
+  [
+   "1999-09-30",
+   "SK Sigma Olomouc",
+   "elq",
+   27
+  ],
+  [
+   "1999-10-03",
+   "Celta de Vigo",
+   "lg",
+   32
+  ],
+  [
+   "1999-10-12",
+   "Deportivo de La Coruña",
+   "lg",
+   90
+  ],
+  [
+   "1999-10-17",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "1999-10-21",
+   "FK Teplice",
+   "elk",
+   90
+  ],
+  [
+   "1999-10-24",
+   "Málaga CF",
+   "lg",
+   79
+  ],
+  [
+   "1999-10-31",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "1999-11-04",
+   "FK Teplice",
+   "elk",
+   45
+  ],
+  [
+   "1999-11-07",
+   "Valencia CF",
+   "lg",
+   87
+  ],
+  [
+   "1999-11-21",
+   "RCD Espanyol Barcelona",
+   "lg",
+   69
+  ],
+  [
+   "1999-11-25",
+   "Ajax Amsterdam",
+   "elk",
+   90
+  ],
+  [
+   "1999-11-28",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-05",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-09",
+   "Ajax Amsterdam",
+   "elk",
+   90
+  ],
+  [
+   "1999-12-12",
+   "Real Oviedo",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-19",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-22",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-05",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-09",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-16",
+   "Real Madrid",
+   "lg",
+   39
+  ],
+  [
+   "2000-01-23",
+   "Rayo Vallecano",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-30",
+   "CD Numancia",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-06",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-12",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-20",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-27",
+   "Deportivo de La Coruña",
+   "lg",
+   90
+  ],
+  [
+   "2000-03-02",
+   "AS Monaco",
+   "elk",
+   90
+  ],
+  [
+   "2000-03-05",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2000-03-09",
+   "AS Monaco",
+   "elk",
+   88
+  ],
+  [
+   "2000-03-12",
+   "Málaga CF",
+   "lg",
+   79
+  ],
+  [
+   "2000-03-16",
+   "Galatasaray",
+   "elk",
+   90
+  ],
+  [
+   "2000-03-19",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "2000-03-23",
+   "Galatasaray",
+   "elk",
+   27
+  ],
+  [
+   "2000-03-25",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-04-09",
+   "FC Barcelona",
+   "lg",
+   71
+  ],
+  [
+   "2000-04-16",
+   "Deportivo Alavés",
+   "lg",
+   72
+  ],
+  [
+   "2000-04-23",
+   "Real Oviedo",
+   "lg",
+   81
+  ],
+  [
+   "2000-04-30",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2000-05-07",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2000-05-14",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2000-05-19",
+   "Atlético de Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2000-08-20",
+   "RCD Espanyol Barcelona",
+   "df",
+   13
+  ],
+  [
+   "2000-08-27",
+   "RCD Espanyol Barcelona",
+   "df",
+   68
+  ],
+  [
+   "2000-09-09",
+   "Athletic Bilbao",
+   "lg",
+   79
+  ],
+  [
+   "2000-09-13",
+   "Panathinaikos",
+   "clg",
+   85
+  ],
+  [
+   "2000-09-16",
+   "Racing Santander",
+   "lg",
+   69
+  ],
+  [
+   "2000-09-19",
+   "Hamburger SV",
+   "clg",
+   65
+  ],
+  [
+   "2000-09-23",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2000-10-01",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2000-10-14",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2000-10-18",
+   "Juventus FC",
+   "clg",
+   15
+  ],
+  [
+   "2000-10-21",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2000-10-24",
+   "Panathinaikos",
+   "clg",
+   8
+  ],
+  [
+   "2000-10-28",
+   "CD Numancia",
+   "lg",
+   28
+  ],
+  [
+   "2000-10-31",
+   "UD Las Palmas",
+   "lg",
+   69
+  ],
+  [
+   "2000-11-04",
+   "Villarreal CF",
+   "lg",
+   57
+  ],
+  [
+   "2000-11-11",
+   "Real Zaragoza",
+   "lg",
+   78
+  ],
+  [
+   "2000-11-18",
+   "CA Osasuna",
+   "lg",
+   66
+  ],
+  [
+   "2000-11-21",
+   "Paris Saint-Germain",
+   "clg",
+   62
+  ],
+  [
+   "2000-11-26",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-06",
+   "AC Milan",
+   "clg",
+   90
+  ],
+  [
+   "2000-12-10",
+   "Rayo Vallecano",
+   "lg",
+   12
+  ],
+  [
+   "2000-12-13",
+   "Universidad de Las Palmas",
+   "dc",
+   88
+  ],
+  [
+   "2000-12-16",
+   "Deportivo Alavés",
+   "lg",
+   27
+  ],
+  [
+   "2001-02-04",
+   "Racing Santander",
+   "lg",
+   3
+  ],
+  [
+   "2001-02-10",
+   "Real Sociedad",
+   "lg",
+   75
+  ],
+  [
+   "2001-02-14",
+   "Galatasaray",
+   "clg",
+   59
+  ],
+  [
+   "2001-02-20",
+   "Galatasaray",
+   "clg",
+   90
+  ],
+  [
+   "2001-02-24",
+   "Real Madrid",
+   "lg",
+   10
+  ],
+  [
+   "2001-03-03",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2001-03-07",
+   "Paris Saint-Germain",
+   "clg",
+   31
+  ],
+  [
+   "2001-03-10",
+   "CD Numancia",
+   "lg",
+   90
+  ],
+  [
+   "2001-03-17",
+   "UD Las Palmas",
+   "lg",
+   90
+  ],
+  [
+   "2001-03-31",
+   "Villarreal CF",
+   "lg",
+   85
+  ],
+  [
+   "2001-04-04",
+   "Leeds United",
+   "clk",
+   19
+  ],
+  [
+   "2001-04-08",
+   "Real Zaragoza",
+   "lg",
+   27
+  ],
+  [
+   "2001-04-14",
+   "CA Osasuna",
+   "lg",
+   52
+  ],
+  [
+   "2001-04-17",
+   "Leeds United",
+   "clk",
+   28
+  ],
+  [
+   "2001-04-21",
+   "Celta de Vigo",
+   "lg",
+   61
+  ],
+  [
+   "2001-05-06",
+   "Rayo Vallecano",
+   "lg",
+   1
+  ],
+  [
+   "2001-05-11",
+   "Deportivo Alavés",
+   "lg",
+   64
+  ],
+  [
+   "2001-05-20",
+   "Real Oviedo",
+   "lg",
+   73
+  ],
+  [
+   "2001-05-27",
+   "Real Valladolid CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-06-10",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-08-26",
+   "Real Valladolid CF",
+   "lg",
+   78
+  ],
+  [
+   "2001-09-08",
+   "UD Las Palmas",
+   "lg",
+   73
+  ],
+  [
+   "2001-09-15",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2001-09-18",
+   "Olympiacos Piraeus",
+   "clg",
+   69
+  ],
+  [
+   "2001-09-22",
+   "Deportivo Alavés",
+   "lg",
+   13
+  ],
+  [
+   "2001-09-25",
+   "Manchester United",
+   "clg",
+   90
+  ],
+  [
+   "2001-09-30",
+   "Celta de Vigo",
+   "lg",
+   58
+  ],
+  [
+   "2001-10-03",
+   "Villarreal CF",
+   "lg",
+   45
+  ],
+  [
+   "2001-10-06",
+   "FC Barcelona",
+   "lg",
+   68
+  ],
+  [
+   "2001-10-13",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2001-10-17",
+   "Manchester United",
+   "clg",
+   82
+  ],
+  [
+   "2001-10-20",
+   "Sevilla FC",
+   "lg",
+   57
+  ],
+  [
+   "2001-10-23",
+   "LOSC Lille",
+   "clg",
+   76
+  ],
+  [
+   "2001-10-27",
+   "Rayo Vallecano",
+   "lg",
+   60
+  ],
+  [
+   "2001-11-04",
+   "CA Osasuna",
+   "lg",
+   55
+  ],
+  [
+   "2001-11-11",
+   "CD Tenerife",
+   "lg",
+   90
+  ],
+  [
+   "2001-11-17",
+   "Real Sociedad",
+   "lg",
+   14
+  ],
+  [
+   "2001-11-21",
+   "Arsenal FC",
+   "clg",
+   29
+  ],
+  [
+   "2001-11-25",
+   "RCD Mallorca",
+   "lg",
+   28
+  ],
+  [
+   "2001-11-28",
+   "Cultural Leonesa",
+   "dc",
+   75
+  ],
+  [
+   "2001-12-01",
+   "RCD Espanyol Barcelona",
+   "lg",
+   70
+  ],
+  [
+   "2001-12-04",
+   "Bayer 04 Leverkusen",
+   "clg",
+   14
+  ],
+  [
+   "2001-12-09",
+   "Valencia CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-15",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-22",
+   "Real Betis Balompié",
+   "lg",
+   67
+  ],
+  [
+   "2002-01-05",
+   "Real Madrid",
+   "lg",
+   28
+  ],
+  [
+   "2002-01-09",
+   "Real Valladolid CF",
+   "dk",
+   90
+  ],
+  [
+   "2002-01-13",
+   "Real Valladolid CF",
+   "lg",
+   45
+  ],
+  [
+   "2002-01-16",
+   "Real Valladolid CF",
+   "dk",
+   120
+  ],
+  [
+   "2002-01-20",
+   "UD Las Palmas",
+   "lg",
+   59
+  ],
+  [
+   "2002-01-24",
+   "UE Figueres ( -2007)",
+   "dsf",
+   86
+  ],
+  [
+   "2002-01-27",
+   "Athletic Bilbao",
+   "lg",
+   15
+  ],
+  [
+   "2002-01-30",
+   "UE Figueres ( -2007)",
+   "dsf",
+   69
+  ],
+  [
+   "2002-02-02",
+   "Deportivo Alavés",
+   "lg",
+   56
+  ],
+  [
+   "2002-02-05",
+   "Celta de Vigo",
+   "lg",
+   88
+  ],
+  [
+   "2002-02-10",
+   "Villarreal CF",
+   "lg",
+   90
+  ],
+  [
+   "2002-02-16",
+   "FC Barcelona",
+   "lg",
+   80
+  ],
+  [
+   "2002-02-19",
+   "Juventus FC",
+   "clg",
+   81
+  ],
+  [
+   "2002-02-23",
+   "Real Zaragoza",
+   "lg",
+   54
+  ],
+  [
+   "2002-02-27",
+   "Juventus FC",
+   "clg",
+   90
+  ],
+  [
+   "2002-03-06",
+   "Real Madrid",
+   "df",
+   90
+  ],
+  [
+   "2002-03-09",
+   "Rayo Vallecano",
+   "lg",
+   5
+  ],
+  [
+   "2002-03-12",
+   "Arsenal FC",
+   "clg",
+   85
+  ],
+  [
+   "2002-03-16",
+   "CA Osasuna",
+   "lg",
+   83
+  ],
+  [
+   "2002-03-20",
+   "Bayer 04 Leverkusen",
+   "clg",
+   22
+  ],
+  [
+   "2002-03-24",
+   "CD Tenerife",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-02",
+   "Manchester United",
+   "clk",
+   90
+  ],
+  [
+   "2002-04-06",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-10",
+   "Manchester United",
+   "clk",
+   72
+  ],
+  [
+   "2002-04-14",
+   "RCD Espanyol Barcelona",
+   "lg",
+   82
+  ],
+  [
+   "2002-04-28",
+   "Málaga CF",
+   "lg",
+   33
+  ],
+  [
+   "2002-05-05",
+   "Real Betis Balompié",
+   "lg",
+   64
+  ],
+  [
+   "2002-09-01",
+   "Real Betis Balompié",
+   "lg",
+   31
+  ],
+  [
+   "2002-09-11",
+   "CD Corralejo (- 2013)",
+   "dc",
+   75
+  ],
+  [
+   "2002-09-14",
+   "CA Osasuna",
+   "lg",
+   30
+  ],
+  [
+   "2002-09-21",
+   "Real Valladolid CF",
+   "lg",
+   7
+  ],
+  [
+   "2002-09-24",
+   "AC Milan",
+   "clg",
+   28
+  ],
+  [
+   "2002-09-28",
+   "Deportivo Alavés",
+   "lg",
+   33
+  ],
+  [
+   "2002-10-01",
+   "RC Lens",
+   "clg",
+   76
+  ],
+  [
+   "2002-10-06",
+   "Racing Santander",
+   "lg",
+   64
+  ],
+  [
+   "2002-10-19",
+   "Villarreal CF",
+   "lg",
+   27
+  ],
+  [
+   "2002-10-23",
+   "RC Lens",
+   "clg",
+   20
+  ],
+  [
+   "2002-10-29",
+   "FC Bayern Munich",
+   "clg",
+   6
+  ],
+  [
+   "2002-11-05",
+   "Racing Ferrol",
+   "dc",
+   90
+  ],
+  [
+   "2002-11-13",
+   "AC Milan",
+   "clg",
+   90
+  ],
+  [
+   "2002-11-16",
+   "FC Barcelona",
+   "lg",
+   64
+  ],
+  [
+   "2002-11-23",
+   "Sevilla FC",
+   "lg",
+   29
+  ],
+  [
+   "2002-11-26",
+   "Juventus FC",
+   "clg",
+   65
+  ],
+  [
+   "2002-12-01",
+   "RCD Mallorca",
+   "lg",
+   71
+  ],
+  [
+   "2002-12-07",
+   "Recreativo Huelva",
+   "lg",
+   63
+  ],
+  [
+   "2002-12-11",
+   "Manchester United",
+   "clg",
+   45
+  ],
+  [
+   "2002-12-15",
+   "Málaga CF",
+   "lg",
+   60
+  ],
+  [
+   "2003-01-04",
+   "Celta de Vigo",
+   "lg",
+   75
+  ],
+  [
+   "2003-01-07",
+   "Alicante CF",
+   "dc",
+   67
+  ],
+  [
+   "2003-01-12",
+   "Atlético de Madrid",
+   "lg",
+   64
+  ],
+  [
+   "2003-01-15",
+   "Alicante CF",
+   "dc",
+   90
+  ],
+  [
+   "2003-01-19",
+   "Athletic Bilbao",
+   "lg",
+   55
+  ],
+  [
+   "2003-01-22",
+   "Real Murcia CF",
+   "dk",
+   70
+  ],
+  [
+   "2003-01-26",
+   "RCD Espanyol Barcelona",
+   "lg",
+   64
+  ],
+  [
+   "2003-01-30",
+   "Real Murcia CF",
+   "dk",
+   86
+  ],
+  [
+   "2003-02-02",
+   "Real Betis Balompié",
+   "lg",
+   77
+  ],
+  [
+   "2003-02-05",
+   "RCD Mallorca",
+   "dsf",
+   90
+  ],
+  [
+   "2003-02-09",
+   "CA Osasuna",
+   "lg",
+   60
+  ],
+  [
+   "2003-02-19",
+   "FC Basel 1893",
+   "clg",
+   45
+  ],
+  [
+   "2003-02-22",
+   "Deportivo Alavés",
+   "lg",
+   61
+  ],
+  [
+   "2003-02-25",
+   "FC Basel 1893",
+   "clg",
+   70
+  ],
+  [
+   "2003-03-02",
+   "Racing Santander",
+   "lg",
+   68
+  ],
+  [
+   "2003-03-05",
+   "RCD Mallorca",
+   "dsf",
+   45
+  ],
+  [
+   "2003-03-08",
+   "Villarreal CF",
+   "lg",
+   73
+  ],
+  [
+   "2003-03-12",
+   "Juventus FC",
+   "clg",
+   66
+  ],
+  [
+   "2003-03-15",
+   "Rayo Vallecano",
+   "lg",
+   77
+  ],
+  [
+   "2003-03-23",
+   "Real Madrid",
+   "lg",
+   56
+  ],
+  [
+   "2003-04-06",
+   "Real Sociedad",
+   "lg",
+   45
+  ],
+  [
+   "2003-08-13",
+   "Rosenborg BK",
+   "clq",
+   65
+  ],
+  [
+   "2003-08-26",
+   "Rosenborg BK",
+   "clq",
+   45
+  ],
+  [
+   "2003-08-31",
+   "Real Zaragoza",
+   "lg",
+   65
+  ],
+  [
+   "2003-09-03",
+   "Athletic Bilbao",
+   "lg",
+   56
+  ],
+  [
+   "2003-09-13",
+   "Sevilla FC",
+   "lg",
+   24
+  ],
+  [
+   "2003-09-17",
+   "AEK Athens",
+   "clg",
+   18
+  ],
+  [
+   "2003-09-21",
+   "Albacete Balompié",
+   "lg",
+   37
+  ],
+  [
+   "2003-09-27",
+   "CA Osasuna",
+   "lg",
+   45
+  ],
+  [
+   "2003-09-30",
+   "PSV Eindhoven",
+   "clg",
+   31
+  ],
+  [
+   "2003-10-04",
+   "Atlético de Madrid",
+   "lg",
+   33
+  ],
+  [
+   "2003-10-07",
+   "SD Compostela",
+   "dc",
+   90
+  ],
+  [
+   "2003-10-18",
+   "FC Barcelona",
+   "lg",
+   9
+  ],
+  [
+   "2003-10-21",
+   "AS Monaco",
+   "clg",
+   90
+  ],
+  [
+   "2003-10-25",
+   "Valencia CF",
+   "lg",
+   11
+  ],
+  [
+   "2003-10-29",
+   "RCD Mallorca",
+   "lg",
+   62
+  ],
+  [
+   "2003-11-05",
+   "AS Monaco",
+   "clg",
+   90
+  ],
+  [
+   "2003-11-08",
+   "Real Sociedad",
+   "lg",
+   54
+  ],
+  [
+   "2003-11-30",
+   "Villarreal CF",
+   "lg",
+   8
+  ],
+  [
+   "2003-12-03",
+   "Real Valladolid CF",
+   "lg",
+   73
+  ],
+  [
+   "2003-12-06",
+   "Málaga CF",
+   "lg",
+   66
+  ],
+  [
+   "2003-12-10",
+   "PSV Eindhoven",
+   "clg",
+   63
+  ],
+  [
+   "2003-12-14",
+   "Real Madrid",
+   "lg",
+   61
+  ],
+  [
+   "2003-12-21",
+   "RCD Espanyol Barcelona",
+   "lg",
+   75
+  ],
+  [
+   "2004-01-03",
+   "Celta de Vigo",
+   "lg",
+   7
+  ],
+  [
+   "2004-01-06",
+   "Atlético de Madrid",
+   "dc",
+   82
+  ],
+  [
+   "2004-01-11",
+   "Racing Santander",
+   "lg",
+   76
+  ],
+  [
+   "2004-01-15",
+   "Atlético de Madrid",
+   "dc",
+   16
+  ],
+  [
+   "2004-01-18",
+   "Real Zaragoza",
+   "lg",
+   82
+  ],
+  [
+   "2004-01-25",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-01",
+   "Sevilla FC",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-08",
+   "Albacete Balompié",
+   "lg",
+   70
+  ],
+  [
+   "2004-02-15",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-21",
+   "Atlético de Madrid",
+   "lg",
+   77
+  ],
+  [
+   "2004-02-25",
+   "Juventus FC",
+   "cl16",
+   70
+  ],
+  [
+   "2004-02-29",
+   "FC Barcelona",
+   "lg",
+   45
+  ],
+  [
+   "2004-03-06",
+   "Valencia CF",
+   "lg",
+   18
+  ],
+  [
+   "2004-03-09",
+   "Juventus FC",
+   "cl16",
+   8
+  ],
+  [
+   "2004-03-14",
+   "RCD Mallorca",
+   "lg",
+   27
+  ],
+  [
+   "2004-03-20",
+   "Real Murcia CF",
+   "lg",
+   90
+  ],
+  [
+   "2004-03-23",
+   "AC Milan",
+   "clk",
+   7
+  ],
+  [
+   "2004-03-27",
+   "Real Sociedad",
+   "lg",
+   10
+  ],
+  [
+   "2004-04-04",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2004-04-11",
+   "Villarreal CF",
+   "lg",
+   45
+  ],
+  [
+   "2004-04-17",
+   "Real Valladolid CF",
+   "lg",
+   45
+  ],
+  [
+   "2004-04-24",
+   "Málaga CF",
+   "lg",
+   90
+  ],
+  [
+   "2004-05-01",
+   "Real Madrid",
+   "lg",
+   83
+  ],
+  [
+   "2004-05-04",
+   "FC Porto",
+   "clsf",
+   23
+  ],
+  [
+   "2004-05-09",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2004-10-16",
+   "Getafe CF",
+   "lg",
+   10
+  ],
+  [
+   "2004-10-23",
+   "Málaga CF",
+   "lg",
+   12
+  ],
+  [
+   "2004-10-26",
+   "CCD Cerceda (- 2018)",
+   "dc",
+   90
+  ],
+  [
+   "2004-10-31",
+   "Albacete Balompié",
+   "lg",
+   45
+  ],
+  [
+   "2004-11-03",
+   "Liverpool FC",
+   "clg",
+   31
+  ],
+  [
+   "2004-11-06",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2004-11-10",
+   "Elche CF",
+   "dc",
+   90
+  ],
+  [
+   "2004-11-14",
+   "Levante UD",
+   "lg",
+   90
+  ],
+  [
+   "2004-11-20",
+   "Villarreal CF",
+   "lg",
+   53
+  ],
+  [
+   "2004-12-12",
+   "Sevilla FC",
+   "lg",
+   19
+  ],
+  [
+   "2004-12-19",
+   "Atlético de Madrid",
+   "lg",
+   31
+  ],
+  [
+   "2004-12-22",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-10",
+   "RCD Mallorca",
+   "lg",
+   65
+  ],
+  [
+   "2005-01-16",
+   "CD Numancia",
+   "lg",
+   45
+  ],
+  [
+   "2005-01-23",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-30",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2005-02-06",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "2005-02-12",
+   "Valencia CF",
+   "lg",
+   86
+  ],
+  [
+   "2005-02-20",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2005-02-26",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2005-03-02",
+   "Getafe CF",
+   "lg",
+   90
+  ],
+  [
+   "2005-03-06",
+   "Málaga CF",
+   "lg",
+   65
+  ],
+  [
+   "2005-03-13",
+   "Albacete Balompié",
+   "lg",
+   69
+  ],
+  [
+   "2005-03-19",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2005-04-03",
+   "Levante UD",
+   "lg",
+   80
+  ],
+  [
+   "2005-04-10",
+   "Villarreal CF",
+   "lg",
+   61
+  ],
+  [
+   "2005-07-23",
+   "Slaven Belupo Koprivnica",
+   "elq",
+   32
+  ],
+  [
+   "2005-07-27",
+   "Newcastle United",
+   "elq",
+   55
+  ],
+  [
+   "2005-08-03",
+   "Newcastle United",
+   "elq",
+   55
+  ],
+  [
+   "2005-08-09",
+   "Olympique Marseille",
+   "elq",
+   68
+  ],
+  [
+   "2005-08-23",
+   "Olympique Marseille",
+   "elq",
+   58
+  ],
+  [
+   "2005-08-28",
+   "RCD Mallorca",
+   "lg",
+   67
+  ],
+  [
+   "2005-09-10",
+   "Atlético de Madrid",
+   "lg",
+   68
+  ],
+  [
+   "2005-09-17",
+   "Valencia CF",
+   "lg",
+   83
+  ],
+  [
+   "2005-09-21",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "2005-09-24",
+   "Real Zaragoza",
+   "lg",
+   73
+  ],
+  [
+   "2005-10-02",
+   "CA Osasuna",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-15",
+   "FC Barcelona",
+   "lg",
+   54
+  ],
+  [
+   "2005-10-23",
+   "Real Sociedad",
+   "lg",
+   34
+  ],
+  [
+   "2005-10-26",
+   "Real Madrid",
+   "lg",
+   77
+  ],
+  [
+   "2005-10-30",
+   "Getafe CF",
+   "lg",
+   77
+  ],
+  [
+   "2005-11-06",
+   "Málaga CF",
+   "lg",
+   87
+  ],
+  [
+   "2005-11-20",
+   "Racing Santander",
+   "lg",
+   70
+  ],
+  [
+   "2005-11-27",
+   "Villarreal CF",
+   "lg",
+   58
+  ],
+  [
+   "2005-12-04",
+   "Sevilla FC",
+   "lg",
+   59
+  ],
+  [
+   "2005-12-11",
+   "Cádiz CF",
+   "lg",
+   74
+  ],
+  [
+   "2005-12-17",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2005-12-21",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "2006-01-04",
+   "CA Osasuna",
+   "dc",
+   64
+  ],
+  [
+   "2006-01-07",
+   "Athletic Bilbao",
+   "lg",
+   45
+  ],
+  [
+   "2006-01-15",
+   "Deportivo Alavés",
+   "lg",
+   61
+  ],
+  [
+   "2006-01-22",
+   "RCD Mallorca",
+   "lg",
+   90
+  ],
+  [
+   "2006-01-28",
+   "Atlético de Madrid",
+   "lg",
+   45
+  ],
+  [
+   "2006-02-04",
+   "Valencia CF",
+   "lg",
+   45
+  ],
+  [
+   "2006-02-09",
+   "RCD Espanyol Barcelona",
+   "dsf",
+   45
+  ],
+  [
+   "2006-02-12",
+   "Real Betis Balompié",
+   "lg",
+   63
+  ],
+  [
+   "2006-02-19",
+   "Real Zaragoza",
+   "lg",
+   37
+  ],
+  [
+   "2006-02-26",
+   "CA Osasuna",
+   "lg",
+   45
+  ],
+  [
+   "2006-03-05",
+   "FC Barcelona",
+   "lg",
+   34
+  ],
+  [
+   "2006-03-12",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2006-03-15",
+   "RCD Espanyol Barcelona",
+   "dsf",
+   31
+  ],
+  [
+   "2006-03-22",
+   "Málaga CF",
+   "lg",
+   80
+  ],
+  [
+   "2006-03-26",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "2006-04-02",
+   "Racing Santander",
+   "lg",
+   54
+  ],
+  [
+   "2006-04-16",
+   "Sevilla FC",
+   "lg",
+   26
+  ],
+  [
+   "2006-04-23",
+   "Cádiz CF",
+   "lg",
+   31
+  ],
+  [
+   "2006-04-30",
+   "Celta de Vigo",
+   "lg",
+   30
+  ],
+  [
+   "2006-05-03",
+   "RCD Espanyol Barcelona",
+   "lg",
+   45
+  ],
+  [
+   "2006-05-07",
+   "Athletic Bilbao",
+   "lg",
+   66
+  ],
+  [
+   "2006-05-13",
+   "Deportivo Alavés",
+   "lg",
+   90
+  ],
+  [
+   "2006-09-24",
+   "RCD Espanyol Barcelona",
+   "lg",
+   14
+  ],
+  [
+   "2006-10-01",
+   "Villarreal CF",
+   "lg",
+   15
+  ],
+  [
+   "2006-10-22",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "2006-10-29",
+   "Real Betis Balompié",
+   "lg",
+   57
+  ],
+  [
+   "2006-11-04",
+   "Atlético de Madrid",
+   "lg",
+   6
+  ],
+  [
+   "2006-11-08",
+   "Athletic Bilbao",
+   "dc",
+   68
+  ],
+  [
+   "2006-11-12",
+   "Getafe CF",
+   "lg",
+   23
+  ],
+  [
+   "2006-11-19",
+   "FC Barcelona",
+   "lg",
+   9
+  ],
+  [
+   "2006-11-26",
+   "Gimnàstic de Tarragona",
+   "lg",
+   82
+  ],
+  [
+   "2006-12-03",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2006-12-10",
+   "CA Osasuna",
+   "lg",
+   24
+  ],
+  [
+   "2006-12-17",
+   "Racing Santander",
+   "lg",
+   78
+  ],
+  [
+   "2007-01-07",
+   "Athletic Bilbao",
+   "lg",
+   32
+  ],
+  [
+   "2007-01-10",
+   "Deportivo de La Coruña",
+   "dc",
+   90
+  ],
+  [
+   "2007-01-17",
+   "Deportivo de La Coruña",
+   "dc",
+   58
+  ],
+  [
+   "2007-04-01",
+   "Atlético de Madrid",
+   "lg",
+   1
+  ],
+  [
+   "2007-08-25",
+   "Juventus FC",
+   "lg",
+   36
+  ],
+  [
+   "2007-08-29",
+   "SSC Napoli",
+   "dc",
+   76
+  ],
+  [
+   "2007-09-02",
+   "US Palermo",
+   "lg",
+   53
+  ],
+  [
+   "2007-09-26",
+   "SSC Napoli",
+   "lg",
+   58
+  ],
+  [
+   "2007-11-25",
+   "UC Sampdoria",
+   "lg",
+   70
+  ],
+  [
+   "2007-12-02",
+   "Cagliari Calcio",
+   "lg",
+   76
+  ],
+  [
+   "2007-12-09",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2007-12-23",
+   "Atalanta BC",
+   "lg",
+   85
+  ],
+  [
+   "2008-01-13",
+   "Torino FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-01-20",
+   "FC Empoli",
+   "lg",
+   74
+  ],
+  [
+   "2008-01-27",
+   "Juventus FC",
+   "lg",
+   59
+  ],
+  [
+   "2008-02-10",
+   "Genoa CFC",
+   "lg",
+   75
+  ],
+  [
+   "2008-02-13",
+   "AC Milan",
+   "lg",
+   76
+  ],
+  [
+   "2008-02-24",
+   "SSC Napoli",
+   "lg",
+   76
+  ],
+  [
+   "2008-02-27",
+   "ACF Fiorentina",
+   "lg",
+   25
+  ],
+  [
+   "2008-03-02",
+   "Calcio Catania",
+   "lg",
+   76
+  ],
+  [
+   "2008-03-16",
+   "Parma FC",
+   "lg",
+   68
+  ],
+  [
+   "2008-03-19",
+   "Reggina Calcio",
+   "lg",
+   6
+  ],
+  [
+   "2008-03-22",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-30",
+   "AC Siena",
+   "lg",
+   57
+  ],
+  [
+   "2008-04-27",
+   "AC Milan",
+   "lg",
+   36
+  ],
+  [
+   "2008-05-04",
+   "Atalanta BC",
+   "lg",
+   45
+  ],
+  [
+   "2008-12-08",
+   "Tottenham Hotspur",
+   "lg",
+   7
+  ],
+  [
+   "2008-12-20",
+   "Aston Villa",
+   "lg",
+   7
+  ],
+  [
+   "2008-12-26",
+   "Portsmouth FC",
+   "lg",
+   4
+  ],
+  [
+   "2008-12-28",
+   "Stoke City",
+   "lg",
+   15
+  ],
+  [
+   "2009-01-03",
+   "Barnsley FC",
+   "dc",
+   15
+  ],
+  [
+   "2009-02-08",
+   "Manchester United",
+   "lg",
+   3
+  ],
+  [
+   "2009-02-14",
+   "Middlesbrough FC",
+   "dc",
+   57
+  ],
+  [
+   "2009-02-25",
+   "Middlesbrough FC",
+   "dc",
+   21
+  ],
+  [
+   "2009-03-21",
+   "Blackburn Rovers",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-04",
+   "Sunderland AFC",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-11",
+   "Tottenham Hotspur",
+   "lg",
+   84
+  ],
+  [
+   "2009-04-18",
+   "Aston Villa",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-25",
+   "Chelsea FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-02",
+   "Stoke City",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-09",
+   "Liverpool FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-16",
+   "Everton FC",
+   "lg",
+   45
+  ],
+  [
+   "2009-05-24",
+   "Middlesbrough FC",
+   "lg",
+   27
+  ],
+  [
+   "2009-08-30",
+   "UD Salamanca",
+   "lg",
+   11
+  ],
+  [
+   "2009-09-02",
+   "UD Las Palmas",
+   "dc",
+   55
+  ],
+  [
+   "2009-09-05",
+   "Levante UD",
+   "lg",
+   9
+  ],
+  [
+   "2009-09-12",
+   "Córdoba CF",
+   "lg",
+   14
+  ],
+  [
+   "2009-10-11",
+   "FC Cartagena",
+   "lg",
+   23
+  ],
+  [
+   "2009-11-08",
+   "Real Betis Balompié",
+   "lg",
+   57
+  ],
+  [
+   "2009-11-21",
+   "Girona FC",
+   "lg",
+   16
+  ],
+  [
+   "2009-11-28",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-05",
+   "Elche CF",
+   "lg",
+   71
+  ],
+  [
+   "2009-12-13",
+   "UD Las Palmas",
+   "lg",
+   70
+  ],
+  [
+   "2009-12-20",
+   "Real Murcia CF",
+   "lg",
+   66
+  ],
+  [
+   "2010-01-03",
+   "Gimnàstic de Tarragona",
+   "lg",
+   58
+  ],
+  [
+   "2010-01-09",
+   "Real Sociedad",
+   "lg",
+   33
+  ],
+  [
+   "2010-01-23",
+   "CD Numancia",
+   "lg",
+   15
+  ],
+  [
+   "2010-02-07",
+   "Levante UD",
+   "lg",
+   31
+  ],
+  [
+   "2010-02-12",
+   "Córdoba CF",
+   "lg",
+   15
+  ],
+  [
+   "2010-02-21",
+   "Hércules CF",
+   "lg",
+   20
+  ],
+  [
+   "2010-02-27",
+   "Recreativo Huelva",
+   "lg",
+   11
+  ],
+  [
+   "2010-03-07",
+   "Albacete Balompié",
+   "lg",
+   20
+  ],
+  [
+   "2010-03-12",
+   "FC Cartagena",
+   "lg",
+   17
+  ],
+  [
+   "2010-03-21",
+   "Rayo Vallecano",
+   "lg",
+   20
+  ],
+  [
+   "2010-03-26",
+   "Real Unión Club",
+   "lg",
+   79
+  ],
+  [
+   "2010-04-18",
+   "Villarreal CF B",
+   "lg",
+   19
+  ],
+  [
+   "2010-05-09",
+   "Elche CF",
+   "lg",
+   45
+  ],
+  [
+   "2010-05-15",
+   "UD Las Palmas",
+   "lg",
+   55
+  ],
+  [
+   "2010-05-23",
+   "Real Murcia CF",
+   "lg",
+   66
+  ],
+  [
+   "2010-05-30",
+   "Gimnàstic de Tarragona",
+   "lg",
+   76
+  ],
+  [
+   "2010-06-05",
+   "Real Sociedad",
+   "lg",
+   60
+  ],
+  [
+   "2010-06-13",
+   "SD Huesca",
+   "lg",
+   56
+  ],
+  [
+   "2010-06-19",
+   "CD Numancia",
+   "lg",
+   72
+  ]
+ ],
+ "note": "디에고 트리스탄(마요르카·데포르티보 라코루냐·리보르노·웨스트햄 유나이티드·카디스)의 클럽 공식 경기 385경기(1999.8.25 몰데전 ~ 2010.6.19 누만시아전)에서 나온 146골 22도움(PK 골 23개), 친선경기·스페인 대표팀 제외\n클럽별 경기·골·도움: 마요르카(1999~2000) 46·23·3, 데포르티보 라코루냐(2000~2006) 254·111·16, 마요르카(2006~2007) 16·0·0, 리보르노(2007~2008) 22·1·2, 웨스트햄 유나이티드(2008~2009) 17·3·1, 카디스(2009~2010) 30·8·0. 출전 분 합계 23,123분(Transfermarkt 기록, 90분으로 추정한 경기 없음)\n출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트. BDFutbol 경기별 기록(스페인 경기·세리에A·프리미어리그 경기의 출전 분과 트리스탄 골 시각)과 영어·스페인어 위키백과 시즌 합계로 대조함. FotMob에는 트리스탄 자료가 없음(2010년 은퇴)\n넣지 않은 경기: 레알 베티스 B(1995~1998, 3부 세군다 B, 비프로 리그) 94경기 33골(BDFutbol·위키백과), 마요르카 B(1998-99 세군다) 39경기 15골 1도움(2부 리그였지만 2군 팀이라 제외), 리보르노 유소년(프리마베라) 1경기 1골. 그래서 위키백과 통산(베티스 B 포함 518경기 194골)보다 133경기 48골 적음(경기 단위로 모두 설명됨)\n더한 골: 2004.10.26 코파 델 레이 2라운드 세르세다 0-2 데포르티보(원정)는 Transfermarkt 리포트에 골 목록이 없고 골 0으로 적혔지만 BDFutbol 경기 기록(22분·83분), RSSSF 코파 델 레이 2004-05 기록(23분·81분), soccer-spain.com 기사(전반 중반 선제골, 종료 10분 전 추가골)가 모두 트리스탄 2골이라 넣음. 시각은 BDFutbol 경기 기록(22분 0-0에서, 83분 1-0에서), 출전 분은 Transfermarkt 90분 그대로(BDFutbol 83분)\n골 판정: 2005.11.20 라싱전 16분 골은 BDFutbol이 상대 네루의 자책골(17분)로 적었지만 Transfermarkt와 soccer-spain.com 경기 기사('17. Diego Tristán. 카프데비야 크로스를 네루 몸에 맞혀 넣음')가 트리스탄 골로 적어 그의 골로 셈(시각은 Transfermarkt 16분). 2005.9.21 베티스전 45분 골과 2010.6.19 누만시아전 50분 골은 Transfermarkt가 일반 골로 적었지만 BDFutbol과 다른 출처(베티스전: soccer-spain.com 경기 기사·벨기에 voetbalkrant 기사, 누만시아전: ESPN 경기 기록 49분 'Penalty - Scored')가 PK라 PK 골로 셈. 자책골·막힌 PK 리바운드 골 없음\n골 수 대조: 마요르카 B를 뺀 Transfermarkt 골 144 + 세르세다전 2 = 146 = 위키백과(마요르카 B 제외). 위키백과는 데포르티보 2005-06 리그 11골(라싱전 골 제외)·2003-04 유럽 대회 4골로 적어 시즌 배분이 1골씩 다르지만(2003-04 챔스 4번째 골은 경기 단위 자료에서 찾지 못함) 합계는 같음. 골 시각은 BDFutbol과 32경기에서 1~4분 다름(Transfermarkt 시각을 씀)\n도움: 모두 Transfermarkt 경기 리포트 도움(2014년 이전이라 단일 출처 규칙, 위키백과·BDFutbol에는 도움 기록이 없어 다른 출처로 대조하지 못함). 도움 22 = Transfermarkt 28(마요르카 B 1개 제외) − 슈팅 리바운드('Shot on goal') 4(1999.11.21 에스파뇰 비아히니, 1999.12.22 세비야 이바가사, 2000.2.6 레알 소시에다드 카를리토스, 2006.5.7 아틀레틱 아리스멘디) − PK 유도 1(1999.10.12 데포르티보전 89분 스탄코비치 PK) − 상대 자책골 유도 1(1999.12.22 세비야전 76분 프리에토 자책골). 본인이 얻어 차 넣은 PK 2개(2002.9.1 베티스·2003.3.8 비야레알)에 붙은 본인 도움 표기도 도움 아님. 유형 칸이 빈 도움 4개(1999.12.9 아약스 파코 솔레르, 2001.8.26 바야돌리드 발레론, 2005.10.26 레알 마드리드 데 구스만, 2007.8.25 유벤투스 로비소)는 골 설명이 PK·자책골이 아니어서 일반 도움으로 셈\n날짜는 경기 현지 날짜(Transfermarkt 리포트 날짜). 2003.10.7 코파 델 레이 콤포스텔라 원정(82분 결승골)은 Transfermarkt가 10.8로 적었지만 BDFutbol과 당시 기사(경기 뒤 팬 사망 사건이 10월 7일 화요일 밤)로 10.7을 씀\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위표에 순위 규칙(리그·시즌 기준 평균 + 흩어짐 × 순위 곡선)을 넣은 값 순으로 씀(기록 168개: 같은 경기 55, 같은 팀·시즌 102, 순위표+순위 규칙 11)\n순위표+순위 규칙(새 팀-시즌, 순위는 Transfermarkt 순위표·영어 위키백과 시즌 문서로 확인): 세군다 2009-10 1위/22팀 1728, 세군다 2009-10 6위/22팀 1628, 스페인 3부 2001-02 13위/20팀 1335, 스페인 3부 2001-02 2위/20팀 1444, 스페인 3부 2002-03 11위/20팀 1324, 스페인 3부 2003-04 19위/20팀 1269, 스페인 4부 2004-05 6위/20팀 1205, 크로아티아 1부 2005-06 8위/12팀 1340. 세르세다는 영어 위키백과 2004-05 테르세라 디비시온 1조 최종 6위, 슬라벤 벨루포(2005.7.23 인터토토)는 크로아티아 2005-06 시즌이 7월 20일 이미 시작해 그 시즌 최종 순위(강등 그룹 2위 = 전체 8위/12팀, 영어 위키백과 2005-06 크로아티아 1부 문서). 스페인 3·4부 값은 리그 수준 자체가 추정\n대회 비중: 코파 델 레이·코파 이탈리아·FA컵은 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중, FA컵 5라운드 재경기 포함), 수페르코파는 국내컵 결승, 인터토토컵(준결승·결승 포함)과 UEFA컵 1라운드는 유로파 예선, UEFA컵 2·3라운드·16강·8강은 유로파 토너먼트, 챔스 2차 조별(2000-01·2001-02)은 조별로 계산함\n두 경기 합산(챔스 예선·챔스·UEFA컵·인터토토컵·코파 델 레이·수페르코파) 기록 16개(14경기)는 합산 S로 계산함(원정 다득점·연장 있음). 트리스탄이 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 기록으로 채움. 2002.1.16 코파 델 레이 8강 2차전 바야돌리드 원정 110분 골은 연장 골. 2006.1.4 코파 16강 1차전 오사수나전은 Transfermarkt가 4-0으로 적었지만 골 목록·BDFutbol·위키백과가 3-0(트리스탄 골·도움 없음)\n시즌 구분: 기본 8월 1일, 데포르티보만 7월 1일 기준(2005.7.23·7.27 인터토토컵이 2005-06, 발레론 자료와 같음). 클럽 구분은 Transfermarkt 이적일(2000.7.1 데포르티보, 2006.9.1 마요르카, 2007.7.1 리보르노, 2008.10.1 웨스트햄, 2009.7.1 카디스). 마요르카 두 시기는 한 클럽으로 묶음\n동료 자료 대조: 발레론·마카이·에투 자료와 같은 경기의 대회·상대 Elo가 같고, 동료 도움→트리스탄 골(발레론 9·마카이 4)과 트리스탄 도움→동료 골(발레론 3·마카이 1·에투 1)의 날짜·분·스코어가 같음\n수상 기록은 Transfermarkt 업적 페이지 기준: 코파 델 레이 2001-02, 수페르코파 2000·2002(2002는 출전 없음), 피치치(라리가 득점왕) 2001-02 21골. 대표팀 기록은 뺌\n은퇴: 2010년 카디스를 마지막으로 은퇴(마지막 클럽 공식 경기 2010.6.19 세군다 누만시아전 4-2, 2골)",
+ "judgments": [
+  [
+   "도움 제외",
+   "1999-10-12",
+   "Deportivo de La Coruña",
+   "89",
+   "Jovan Stankovic",
+   "PK 유도"
+  ],
+  [
+   "도움 제외",
+   "1999-11-21",
+   "RCD Espanyol Barcelona",
+   "24",
+   "Leo Biagini",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "1999-12-22",
+   "Sevilla FC",
+   "76",
+   "José Miguel Prieto",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "1999-12-22",
+   "Sevilla FC",
+   "88",
+   "Ariel Ibagaza",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2000-02-06",
+   "Real Sociedad",
+   "14",
+   "Carlitos",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 아님(본인 골의 본인 도움 표기)",
+   "2002-09-01",
+   "Real Betis Balompié",
+   "75",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 아님(본인 골의 본인 도움 표기)",
+   "2003-03-08",
+   "Villarreal CF",
+   "30",
+   "Penalty: Fouled player"
+  ],
+  [
+   "PK로 고침",
+   "2005-09-21",
+   "Real Betis Balompié",
+   "45",
+   "2005.9.21 베티스전 45분: soccer-spain.com 경기 기사 '45. Diego Tristán (penalty)'·voetbalkrant 기사(페널티킥 성공)·BDFutbol"
+  ],
+  [
+   "도움 제외",
+   "2006-05-07",
+   "Athletic Bilbao",
+   "19",
+   "Javier Arizmendi",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "PK로 고침",
+   "2010-06-19",
+   "CD Numancia",
+   "50",
+   "2010.6.19 누만시아전 50분: ESPN 경기 기록 'Penalty - Scored' 49분 Diego Tristán·BDFutbol"
+  ]
+ ],
+ "cross_check": [
+  [
+   "동료 도움→트리스탄 골",
+   "mak.js",
+   "2001-02-24",
+   85,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "mak.js",
+   "2002-04-14",
+   6,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "mak.js",
+   "2002-12-07",
+   27,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "mak.js",
+   "2003-03-12",
+   34,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2001-04-17",
+   73,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2001-11-04",
+   19,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2001-11-21",
+   25,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2002-02-05",
+   64,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2002-03-06",
+   38,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2002-03-16",
+   18,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2002-04-06",
+   34,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2002-05-05",
+   18,
+   "같음"
+  ],
+  [
+   "동료 도움→트리스탄 골",
+   "vlr.js",
+   "2004-11-20",
+   31,
+   "같음"
+  ],
+  [
+   "트리스탄 도움→동료 골",
+   "eto.js",
+   "2000-05-19",
+   14,
+   "Samuel Eto'o",
+   "같음"
+  ],
+  [
+   "트리스탄 도움→동료 골",
+   "vlr.js",
+   "2001-08-26",
+   62,
+   "Juan Carlos Valerón",
+   "같음"
+  ],
+  [
+   "트리스탄 도움→동료 골",
+   "vlr.js",
+   "2002-05-05",
+   60,
+   "Juan Carlos Valerón",
+   "같음"
+  ],
+  [
+   "트리스탄 도움→동료 골",
+   "mak.js",
+   "2002-10-01",
+   49,
+   "Roy Makaay",
+   "같음"
+  ],
+  [
+   "트리스탄 도움→동료 골",
+   "vlr.js",
+   "2003-09-03",
+   11,
+   "Juan Carlos Valerón",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "eto.js",
+   "2000-04-30",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "eto.js",
+   "2000-05-19",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-02-20",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-02-27",
+   "Deportivo de La Coruña",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-03-05",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-03-12",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-03-19",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-04-09",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-04-16",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-04-23",
+   "Real Oviedo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-04-30",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-05-07",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-05-14",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "eto.js",
+   "2000-05-19",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2000-10-31",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-02-24",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-03-07",
+   "Paris Saint-Germain",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-03-31",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-08-26",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-11-04",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2001-11-21",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-04-14",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-09-01",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-10-01",
+   "RC Lens",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-11-13",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-11-26",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2002-12-07",
+   "Recreativo Huelva",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2003-02-02",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2003-02-05",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2003-02-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "mak.js",
+   "2003-03-12",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-10-31",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-11-04",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-11-11",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-11-18",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-11-21",
+   "Paris Saint-Germain",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-11-26",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-12-06",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-12-10",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2000-12-16",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-02-04",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-02-14",
+   "Galatasaray",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-02-20",
+   "Galatasaray",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-02-24",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-03-03",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-03-07",
+   "Paris Saint-Germain",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-03-17",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-03-31",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-04-04",
+   "Leeds United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-04-08",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-04-14",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-04-17",
+   "Leeds United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-04-21",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-05-06",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-05-11",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-05-20",
+   "Real Oviedo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-05-27",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-06-10",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-08-26",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-09-15",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-09-18",
+   "Olympiacos Piraeus",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-09-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-09-25",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-09-30",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-10-03",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-10-06",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-11-04",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-11-17",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-11-21",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-12-01",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-12-04",
+   "Bayer 04 Leverkusen",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-12-09",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-12-15",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2001-12-22",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-01-05",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-01-09",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-01-13",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-01-24",
+   "UE Figueres ( -2007)",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-01-27",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-02-02",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-02-05",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-02-10",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-02-16",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-02-23",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-03-09",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-03-12",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-03-16",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-03-20",
+   "Bayer 04 Leverkusen",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-03-24",
+   "CD Tenerife",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-04-02",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-04-10",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-04-14",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-04-28",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-05-05",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-09-01",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-09-14",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-09-21",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-09-24",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-09-28",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-10-01",
+   "RC Lens",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-10-06",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-10-19",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-10-23",
+   "RC Lens",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-10-29",
+   "FC Bayern Munich",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-11-05",
+   "Racing Ferrol",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-11-13",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-11-16",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-11-23",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-11-26",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-12-01",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-12-07",
+   "Recreativo Huelva",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-12-11",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2002-12-15",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-04",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-12",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-19",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-22",
+   "Real Murcia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-26",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-01-30",
+   "Real Murcia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-02",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-05",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-09",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-19",
+   "FC Basel 1893",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-02-25",
+   "FC Basel 1893",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-02",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-05",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-08",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-12",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-15",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-03-23",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "mak.js",
+   "2003-04-06",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "pau.js",
+   "2000-08-20",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2001-04-17",
+   "Leeds United",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2001-08-26",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2001-09-25",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2001-11-04",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2001-11-21",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-02-05",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-03-06",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-03-16",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-04-06",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-04-14",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2002-05-05",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2003-02-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2003-09-03",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2003-10-25",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2004-01-03",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2004-01-18",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2004-11-20",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2005-01-23",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2005-11-20",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2005-12-17",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "같은 경기",
+   "vlr.js",
+   "2006-01-22",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-09-09",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-09-13",
+   "Panathinaikos",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-09-16",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-09-19",
+   "Hamburger SV",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-09-23",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-10-14",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-10-21",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-10-28",
+   "CD Numancia",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-10-31",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-11-11",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-11-18",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-11-21",
+   "Paris Saint-Germain",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-11-26",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-12-13",
+   "Universidad de Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2000-12-16",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-02-10",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-02-14",
+   "Galatasaray",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-02-20",
+   "Galatasaray",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-03-03",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-03-10",
+   "CD Numancia",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-03-17",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-03-31",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-04-04",
+   "Leeds United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-04-08",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-04-14",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-04-17",
+   "Leeds United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-04-21",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-05-06",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-05-11",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-05-20",
+   "Real Oviedo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-05-27",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-06-10",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-08-26",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-08",
+   "UD Las Palmas",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-15",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-18",
+   "Olympiacos Piraeus",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-25",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-09-30",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-03",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-06",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-13",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-17",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-20",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-23",
+   "LOSC Lille",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-10-27",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-04",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-11",
+   "CD Tenerife",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-17",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-21",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-25",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-11-28",
+   "Cultural Leonesa",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-12-01",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-12-04",
+   "Bayer 04 Leverkusen",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-12-09",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-12-15",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2001-12-22",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-01-05",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-01-13",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-01-16",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-01-24",
+   "UE Figueres ( -2007)",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-01-27",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-02",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-05",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-10",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-16",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-19",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-23",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-02-27",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-03-06",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-03-12",
+   "Arsenal FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-03-16",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-03-20",
+   "Bayer 04 Leverkusen",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-03-24",
+   "CD Tenerife",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-04-02",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-04-06",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-04-10",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-04-14",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-04-28",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-05-05",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-09-01",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-09-14",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-09-21",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-12-01",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-12-07",
+   "Recreativo Huelva",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-12-11",
+   "Manchester United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2002-12-15",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-02-22",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-02-25",
+   "FC Basel 1893",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-02",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-05",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-08",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-12",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-15",
+   "Rayo Vallecano",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-03-23",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-04-06",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-08-13",
+   "Rosenborg BK",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-08-26",
+   "Rosenborg BK",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-08-31",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-03",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-13",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-17",
+   "AEK Athens",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-21",
+   "Albacete Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-27",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-09-30",
+   "PSV Eindhoven",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-10-04",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-10-18",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-10-21",
+   "AS Monaco",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-10-25",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-10-29",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-11-05",
+   "AS Monaco",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-11-08",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-11-30",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-12-03",
+   "Real Valladolid CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-12-06",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-12-10",
+   "PSV Eindhoven",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-12-14",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2003-12-21",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-01-03",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-01-11",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-01-18",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-01-25",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-01",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-08",
+   "Albacete Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-15",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-21",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-25",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-02-29",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-03-06",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-03-09",
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-03-14",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-03-23",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-03-27",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-04-04",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-04-11",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-05-04",
+   "FC Porto",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-05-09",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-10-16",
+   "Getafe CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-10-23",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-10-31",
+   "Albacete Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-11-03",
+   "Liverpool FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-11-06",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-11-10",
+   "Elche CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-11-14",
+   "Levante UD",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-11-20",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-12-12",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-12-19",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2004-12-22",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-01-10",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-01-16",
+   "CD Numancia",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-01-23",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-01-30",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-02-06",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-02-12",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-02-20",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-02-26",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-03-02",
+   "Getafe CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-03-06",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-03-13",
+   "Albacete Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-03-19",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-04-03",
+   "Levante UD",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-04-10",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-07-23",
+   "Slaven Belupo Koprivnica",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-07-27",
+   "Newcastle United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-08-03",
+   "Newcastle United",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-08-09",
+   "Olympique Marseille",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-08-28",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-09-10",
+   "Atlético de Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-09-17",
+   "Valencia CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-09-21",
+   "Real Betis Balompié",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-09-24",
+   "Real Zaragoza",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-10-02",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-10-15",
+   "FC Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-10-23",
+   "Real Sociedad",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-10-26",
+   "Real Madrid",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-10-30",
+   "Getafe CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-11-06",
+   "Málaga CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-11-20",
+   "Racing Santander",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-11-27",
+   "Villarreal CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-12-04",
+   "Sevilla FC",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-12-11",
+   "Cádiz CF",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-12-17",
+   "Celta de Vigo",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2005-12-21",
+   "RCD Espanyol Barcelona",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2006-01-04",
+   "CA Osasuna",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2006-01-07",
+   "Athletic Bilbao",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2006-01-15",
+   "Deportivo Alavés",
+   "같음"
+  ],
+  [
+   "출전 행",
+   "vlr.js",
+   "2006-01-22",
+   "RCD Mallorca",
+   "같음"
+  ]
+ ],
+ "excluded_reserve_games": [
+  [
+   "1998-08-30",
+   "RCD Mallorca B",
+   "FC Barcelona B",
+   "ES2",
+   "84",
+   "2",
+   "0"
+  ],
+  [
+   "1998-09-06",
+   "RCD Mallorca B",
+   "Albacete Balompié",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1998-09-14",
+   "RCD Mallorca B",
+   "CD Toledo",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-09-19",
+   "RCD Mallorca B",
+   "SD Eibar",
+   "ES2",
+   "89",
+   "0",
+   "0"
+  ],
+  [
+   "1998-09-28",
+   "RCD Mallorca B",
+   "Sporting Gijón",
+   "ES2",
+   "89",
+   "0",
+   "0"
+  ],
+  [
+   "1998-10-03",
+   "RCD Mallorca B",
+   "UD Las Palmas",
+   "ES2",
+   "82",
+   "1",
+   "0"
+  ],
+  [
+   "1998-10-11",
+   "RCD Mallorca B",
+   "Málaga CF",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-10-19",
+   "RCD Mallorca B",
+   "Atlético Madrileño",
+   "ES2",
+   "81",
+   "0",
+   "0"
+  ],
+  [
+   "1998-10-25",
+   "RCD Mallorca B",
+   "Rayo Vallecano",
+   "ES2",
+   "34",
+   "0",
+   "0"
+  ],
+  [
+   "1998-11-01",
+   "RCD Mallorca B",
+   "CD Logroñés",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-11-07",
+   "RCD Mallorca B",
+   "UE Lleida",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-11-15",
+   "RCD Mallorca B",
+   "CD Numancia",
+   "ES2",
+   "52",
+   "0",
+   "0"
+  ],
+  [
+   "1998-11-29",
+   "RCD Mallorca B",
+   "Sevilla FC",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-12-05",
+   "RCD Mallorca B",
+   "CD Ourense",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-12-12",
+   "RCD Mallorca B",
+   "Recreativo Huelva",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1998-12-19",
+   "RCD Mallorca B",
+   "CP Mérida",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-01-02",
+   "RCD Mallorca B",
+   "CD Leganés",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-01-10",
+   "RCD Mallorca B",
+   "CD Badajoz (- 2012)",
+   "ES2",
+   "83",
+   "1",
+   "0"
+  ],
+  [
+   "1999-01-24",
+   "RCD Mallorca B",
+   "Hércules CF",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-01-30",
+   "RCD Mallorca B",
+   "FC Barcelona B",
+   "ES2",
+   "83",
+   "0",
+   "0"
+  ],
+  [
+   "1999-02-07",
+   "RCD Mallorca B",
+   "Albacete Balompié",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-02-14",
+   "RCD Mallorca B",
+   "CD Toledo",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-02-20",
+   "RCD Mallorca B",
+   "SD Eibar",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-02-28",
+   "RCD Mallorca B",
+   "Sporting Gijón",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-03-06",
+   "RCD Mallorca B",
+   "UD Las Palmas",
+   "ES2",
+   "79",
+   "0",
+   "0"
+  ],
+  [
+   "1999-03-14",
+   "RCD Mallorca B",
+   "Málaga CF",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-03-20",
+   "RCD Mallorca B",
+   "Atlético Madrileño",
+   "ES2",
+   "90",
+   "0",
+   "1"
+  ],
+  [
+   "1999-03-28",
+   "RCD Mallorca B",
+   "Rayo Vallecano",
+   "ES2",
+   "90",
+   "2",
+   "0"
+  ],
+  [
+   "1999-04-11",
+   "RCD Mallorca B",
+   "UE Lleida",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-04-18",
+   "RCD Mallorca B",
+   "CD Numancia",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-04-26",
+   "RCD Mallorca B",
+   "SD Compostela",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-05-01",
+   "RCD Mallorca B",
+   "Sevilla FC",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-05-10",
+   "RCD Mallorca B",
+   "CD Ourense",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-05-16",
+   "RCD Mallorca B",
+   "Recreativo Huelva",
+   "ES2",
+   "90",
+   "1",
+   "0"
+  ],
+  [
+   "1999-05-24",
+   "RCD Mallorca B",
+   "CP Mérida",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-05-30",
+   "RCD Mallorca B",
+   "CD Leganés",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-06-06",
+   "RCD Mallorca B",
+   "CD Badajoz (- 2012)",
+   "ES2",
+   "90",
+   "2",
+   "0"
+  ],
+  [
+   "1999-06-13",
+   "RCD Mallorca B",
+   "CA Osasuna",
+   "ES2",
+   "90",
+   "0",
+   "0"
+  ],
+  [
+   "1999-06-20",
+   "RCD Mallorca B",
+   "Hércules CF",
+   "ES2",
+   "62",
+   "0",
+   "0"
+  ]
+ ],
+ "elo_sources": {
+  "기존 팀×시즌 값": 102,
+  "같은 경기 다른 선수 자료": 55,
+  "순위표+순위 규칙(새 팀-시즌)": 11
+ },
+ "elo_log": {
+  "1999-09-12 CD Numancia": [
+   "table",
+   1771,
+   "라리가 1999-00 17위",
+   "1999-00"
+  ],
+  "1999-09-16 SK Sigma Olomouc": [
+   "table",
+   1488,
+   "체코 1부 1999-00 12위/16팀 (Czech First League)",
+   "1999-00"
+  ],
+  "1999-09-19 Real Sociedad": [
+   "table",
+   1822,
+   "라리가 1999-00 13위",
+   "1999-00"
+  ],
+  "1999-09-26 Athletic Bilbao": [
+   "table",
+   1841,
+   "라리가 1999-00 11위",
+   "1999-00"
+  ],
+  "1999-10-21 FK Teplice": [
+   "table",
+   1551,
+   "체코 1부 1999-00 5위/16팀 (Czech First League)",
+   "1999-00"
+  ],
+  "1999-11-07 Valencia CF": [
+   "table",
+   1985,
+   "라리가 1999-00 3위 (추정, 앞뒤 순위값 사이)",
+   "1999-00"
+  ],
+  "1999-11-25 Ajax Amsterdam": [
+   "table",
+   1649,
+   "에레디비시 1999-00 5위",
+   "1999-00"
+  ],
+  "1999-11-28 FC Barcelona": [
+   "table",
+   2034,
+   "라리가 1999-00 2위",
+   "1999-00"
+  ],
+  "1999-12-05 Deportivo Alavés": [
+   "table",
+   1921,
+   "라리가 1999-00 6위",
+   "1999-00"
+  ],
+  "1999-12-09 Ajax Amsterdam": [
+   "table",
+   1649,
+   "에레디비시 1999-00 5위",
+   "1999-00"
+  ],
+  "1999-12-12 Real Oviedo": [
+   "table",
+   1791,
+   "라리가 1999-00 16위",
+   "1999-00"
+  ],
+  "2000-01-23 Rayo Vallecano": [
+   "table",
+   1869,
+   "라리가 1999-00 9위",
+   "1999-00"
+  ],
+  "2000-01-30 CD Numancia": [
+   "table",
+   1771,
+   "라리가 1999-00 17위",
+   "1999-00"
+  ],
+  "2000-02-12 Athletic Bilbao": [
+   "table",
+   1841,
+   "라리가 1999-00 11위",
+   "1999-00"
+  ],
+  "2000-02-20 Celta de Vigo": [
+   "table",
+   1907,
+   "라리가 1999-00 7위",
+   "1999-00"
+  ],
+  "2000-02-27 Deportivo de La Coruña": [
+   "table",
+   2121,
+   "라리가 1999-00 1위",
+   "1999-00"
+  ],
+  "2000-03-02 AS Monaco": [
+   "table",
+   1894,
+   "리그1 1999-00 1위",
+   "1999-00"
+  ],
+  "2000-03-19 Racing Santander": [
+   "table",
+   1807,
+   "라리가 1999-00 15위",
+   "1999-00"
+  ],
+  "2000-04-30 Real Betis Balompié": [
+   "same",
+   1759,
+   "라리가 1999-00 18위",
+   [
+    "eto.js"
+   ]
+  ],
+  "2000-05-07 Sevilla FC": [
+   "table",
+   1730,
+   "라리가 1999-00 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "1999-00"
+  ],
+  "2000-05-19 Atlético de Madrid": [
+   "same",
+   1751,
+   "라리가 1999-00 19위",
+   [
+    "eto.js"
+   ]
+  ],
+  "2000-08-27 RCD Espanyol Barcelona": [
+   "table",
+   1900,
+   "라리가 2000-01 9위",
+   "2000-01"
+  ],
+  "2000-10-01 FC Barcelona": [
+   "table",
+   1982,
+   "라리가 2000-01 4위",
+   "2000-01"
+  ],
+  "2000-10-31 UD Las Palmas": [
+   "same",
+   1872,
+   "라리가 2000-01 11위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2000-11-11 Real Zaragoza": [
+   "table",
+   1802,
+   "라리가 2000-01 17위",
+   "2000-01"
+  ],
+  "2000-11-26 Celta de Vigo": [
+   "table",
+   1952,
+   "라리가 2000-01 6위",
+   "2000-01"
+  ],
+  "2000-12-13 Universidad de Las Palmas": [
+   "table",
+   1569,
+   "세군다(2부) 2000-01 20위/22팀",
+   "2000-01"
+  ],
+  "2001-02-10 Real Sociedad": [
+   "table",
+   1853,
+   "라리가 2000-01 13위",
+   "2000-01"
+  ],
+  "2001-02-24 Real Madrid": [
+   "same",
+   2152,
+   "라리가 2000-01 1위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2001-03-07 Paris Saint-Germain": [
+   "same",
+   1631,
+   "리그1 2000-01 9위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2001-03-10 CD Numancia": [
+   "table",
+   1761,
+   "라리가 2000-01 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2000-01"
+  ],
+  "2001-03-31 Villarreal CF": [
+   "same",
+   1938,
+   "라리가 2000-01 7위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2001-04-17 Leeds United": [
+   "same",
+   1843,
+   "프리미어리그 2000-01 4위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2001-05-11 Deportivo Alavés": [
+   "table",
+   1884,
+   "라리가 2000-01 10위",
+   "2000-01"
+  ],
+  "2001-05-20 Real Oviedo": [
+   "table",
+   1790,
+   "라리가 2000-01 18위",
+   "2000-01"
+  ],
+  "2001-08-26 Real Valladolid CF": [
+   "same",
+   1879,
+   "라리가 2001-02 12위",
+   [
+    "mak.js",
+    "vlr.js"
+   ]
+  ],
+  "2001-09-15 Athletic Bilbao": [
+   "table",
+   1917,
+   "라리가 2001-02 9위",
+   "2001-02"
+  ],
+  "2001-09-25 Manchester United": [
+   "same",
+   1893,
+   "프리미어리그 2001-02 3위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2001-10-13 Real Zaragoza": [
+   "table",
+   1778,
+   "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2001-02"
+  ],
+  "2001-10-17 Manchester United": [
+   "table",
+   1893,
+   "프리미어리그 2001-02 3위",
+   "2001-02"
+  ],
+  "2001-10-20 Sevilla FC": [
+   "table",
+   1936,
+   "라리가 2001-02 8위",
+   "2001-02"
+  ],
+  "2001-10-23 LOSC Lille": [
+   "table",
+   1730,
+   "리그1 2001-02 5위",
+   "2001-02"
+  ],
+  "2001-11-04 CA Osasuna": [
+   "same",
+   1819,
+   "라리가 2001-02 17위",
+   [
+    "mak.js",
+    "vlr.js"
+   ]
+  ],
+  "2001-11-21 Arsenal FC": [
+   "same",
+   2026,
+   "프리미어리그 2001-02 1위",
+   [
+    "mak.js",
+    "vlr.js"
+   ]
+  ],
+  "2001-11-28 Cultural Leonesa": [
+   "model",
+   1444,
+   "스페인 3부 2001-02 2위/20팀 (Segunda División B Grupo I, 리그 수준 추정)",
+   "2001-02"
+  ],
+  "2001-12-09 Valencia CF": [
+   "table",
+   2169,
+   "라리가 2001-02 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2001-02"
+  ],
+  "2002-01-16 Real Valladolid CF": [
+   "table",
+   1879,
+   "라리가 2001-02 12위",
+   "2001-02"
+  ],
+  "2002-01-24 UE Figueres ( -2007)": [
+   "model",
+   1335,
+   "스페인 3부 2001-02 13위/20팀 (Segunda División B Grupo II, 리그 수준 추정)",
+   "2001-02"
+  ],
+  "2002-02-05 Celta de Vigo": [
+   "same",
+   1981,
+   "라리가 2001-02 5위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2002-02-16 FC Barcelona": [
+   "table",
+   1998,
+   "라리가 2001-02 4위",
+   "2001-02"
+  ],
+  "2002-02-23 Real Zaragoza": [
+   "table",
+   1778,
+   "라리가 2001-02 20위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "2001-02"
+  ],
+  "2002-02-27 Juventus FC": [
+   "table",
+   1987,
+   "세리에A 2001-02 1위",
+   "2001-02"
+  ],
+  "2002-03-06 Real Madrid": [
+   "same",
+   2033,
+   "라리가 2001-02 3위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2002-03-16 CA Osasuna": [
+   "same",
+   1819,
+   "라리가 2001-02 17위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2002-03-20 Bayer 04 Leverkusen": [
+   "table",
+   1843,
+   "분데스리가 2001-02 2위",
+   "2001-02"
+  ],
+  "2002-04-06 RCD Mallorca": [
+   "same",
+   1838,
+   "라리가 2001-02 16위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2002-04-14 RCD Espanyol Barcelona": [
+   "same",
+   1864,
+   "라리가 2001-02 14위",
+   [
+    "mak.js",
+    "vlr.js"
+   ]
+  ],
+  "2002-05-05 Real Betis Balompié": [
+   "same",
+   1969,
+   "라리가 2001-02 6위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2002-09-01 Real Betis Balompié": [
+   "same",
+   1893,
+   "라리가 2002-03 8위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2002-09-28 Deportivo Alavés": [
+   "table",
+   1756,
+   "라리가 2002-03 19위",
+   "2002-03"
+  ],
+  "2002-10-01 RC Lens": [
+   "same",
+   1704,
+   "리그1 2002-03 8위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2002-11-05 Racing Ferrol": [
+   "table",
+   1556,
+   "세군다(2부) 2002-03 20위/22팀",
+   "2002-03"
+  ],
+  "2002-11-13 AC Milan": [
+   "same",
+   1874,
+   "세리에A 2002-03 3위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2002-11-26 Juventus FC": [
+   "same",
+   2006,
+   "세리에A 2002-03 1위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2002-12-07 Recreativo Huelva": [
+   "same",
+   1764,
+   "라리가 2002-03 18위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2003-01-04 Celta de Vigo": [
+   "table",
+   1956,
+   "라리가 2002-03 4위",
+   "2002-03"
+  ],
+  "2003-01-15 Alicante CF": [
+   "model",
+   1324,
+   "스페인 3부 2002-03 11위/20팀 (Segunda División B Grupo III, 리그 수준 추정)",
+   "2002-03"
+  ],
+  "2003-01-30 Real Murcia CF": [
+   "table",
+   1743,
+   "세군다(2부) 2002-03 1위/22팀",
+   "2002-03"
+  ],
+  "2003-02-02 Real Betis Balompié": [
+   "same",
+   1893,
+   "라리가 2002-03 8위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2003-02-05 RCD Mallorca": [
+   "same",
+   1875,
+   "라리가 2002-03 9위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2003-02-22 Deportivo Alavés": [
+   "same",
+   1756,
+   "라리가 2002-03 19위",
+   [
+    "mak.js",
+    "vlr.js"
+   ]
+  ],
+  "2003-02-25 FC Basel 1893": [
+   "table",
+   1589,
+   "스위스 2002-03 2위/12팀 (추정, 다른 선수 자료의 바젤 2005 1600과 같음)",
+   "2002-03"
+  ],
+  "2003-03-08 Villarreal CF": [
+   "table",
+   1812,
+   "라리가 2002-03 15위",
+   "2002-03"
+  ],
+  "2003-03-12 Juventus FC": [
+   "same",
+   2006,
+   "세리에A 2002-03 1위",
+   [
+    "mak.js"
+   ]
+  ],
+  "2003-09-03 Athletic Bilbao": [
+   "same",
+   1921,
+   "라리가 2003-04 5위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2003-09-13 Sevilla FC": [
+   "table",
+   1909,
+   "라리가 2003-04 6위",
+   "2003-04"
+  ],
+  "2003-09-27 CA Osasuna": [
+   "table",
+   1809,
+   "라리가 2003-04 13위",
+   "2003-04"
+  ],
+  "2003-10-07 SD Compostela": [
+   "model",
+   1269,
+   "스페인 3부 2003-04 19위/20팀 (Segunda División B Grupo II, 리그 수준 추정)",
+   "2003-04"
+  ],
+  "2003-10-21 AS Monaco": [
+   "table",
+   1799,
+   "리그1 2003-04 3위",
+   "2003-04"
+  ],
+  "2003-10-25 Valencia CF": [
+   "same",
+   2108,
+   "라리가 2003-04 1위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2003-11-05 AS Monaco": [
+   "table",
+   1799,
+   "리그1 2003-04 3위",
+   "2003-04"
+  ],
+  "2004-01-03 Celta de Vigo": [
+   "same",
+   1738,
+   "라리가 2003-04 19위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2004-01-15 Atlético de Madrid": [
+   "table",
+   1894,
+   "라리가 2003-04 7위",
+   "2003-04"
+  ],
+  "2004-01-18 Real Zaragoza": [
+   "same",
+   1819,
+   "라리가 2003-04 12위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2004-02-01 Sevilla FC": [
+   "table",
+   1909,
+   "라리가 2003-04 6위",
+   "2003-04"
+  ],
+  "2004-02-08 Albacete Balompié": [
+   "table",
+   1804,
+   "라리가 2003-04 14위",
+   "2003-04"
+  ],
+  "2004-02-15 CA Osasuna": [
+   "table",
+   1809,
+   "라리가 2003-04 13위",
+   "2003-04"
+  ],
+  "2004-03-14 RCD Mallorca": [
+   "table",
+   1828,
+   "라리가 2003-04 11위",
+   "2003-04"
+  ],
+  "2004-04-11 Villarreal CF": [
+   "table",
+   1876,
+   "라리가 2003-04 8위",
+   "2003-04"
+  ],
+  "2004-05-01 Real Madrid": [
+   "table",
+   1938,
+   "라리가 2003-04 4위",
+   "2003-04"
+  ],
+  "2004-10-23 Málaga CF": [
+   "table",
+   1858,
+   "라리가 2004-05 10위",
+   "2004-05"
+  ],
+  "2004-10-26 CCD Cerceda (- 2018)": [
+   "model",
+   1205,
+   "스페인 4부 2004-05 6위/20팀 (Tercera División Grupo I, 리그 수준 추정)",
+   "2004-10-26"
+  ],
+  "2004-11-14 Levante UD": [
+   "table",
+   1764,
+   "라리가 2004-05 18위",
+   "2004-05"
+  ],
+  "2004-11-20 Villarreal CF": [
+   "same",
+   1990,
+   "라리가 2004-05 3위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2005-01-23 RCD Espanyol Barcelona": [
+   "same",
+   1938,
+   "라리가 2004-05 5위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2005-02-06 Athletic Bilbao": [
+   "table",
+   1874,
+   "라리가 2004-05 9위",
+   "2004-05"
+  ],
+  "2005-02-12 Valencia CF": [
+   "table",
+   1911,
+   "라리가 2004-05 7위",
+   "2004-05"
+  ],
+  "2005-03-02 Getafe CF": [
+   "table",
+   1827,
+   "라리가 2004-05 13위",
+   "2004-05"
+  ],
+  "2005-03-06 Málaga CF": [
+   "table",
+   1858,
+   "라리가 2004-05 10위",
+   "2004-05"
+  ],
+  "2005-04-03 Levante UD": [
+   "table",
+   1764,
+   "라리가 2004-05 18위",
+   "2004-05"
+  ],
+  "2005-07-23 Slaven Belupo Koprivnica": [
+   "model",
+   1340,
+   "크로아티아 1부 2005-06 8위/12팀",
+   "2005-07-23"
+  ],
+  "2005-09-17 Valencia CF": [
+   "table",
+   1972,
+   "라리가 2005-06 3위",
+   "2005-06"
+  ],
+  "2005-09-21 Real Betis Balompié": [
+   "table",
+   1803,
+   "라리가 2005-06 14위",
+   "2005-06"
+  ],
+  "2005-09-24 Real Zaragoza": [
+   "table",
+   1828,
+   "라리가 2005-06 11위",
+   "2005-06"
+  ],
+  "2005-10-26 Real Madrid": [
+   "table",
+   2021,
+   "라리가 2005-06 2위",
+   "2005-06"
+  ],
+  "2005-10-30 Getafe CF": [
+   "table",
+   1856,
+   "라리가 2005-06 9위",
+   "2005-06"
+  ],
+  "2005-11-20 Racing Santander": [
+   "same",
+   1758,
+   "라리가 2005-06 17위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2005-12-04 Sevilla FC": [
+   "table",
+   1920,
+   "라리가 2005-06 5위",
+   "2005-06"
+  ],
+  "2005-12-11 Cádiz CF": [
+   "table",
+   1738,
+   "라리가 2005-06 19위",
+   "2005-06"
+  ],
+  "2005-12-17 Celta de Vigo": [
+   "same",
+   1908,
+   "라리가 2005-06 6위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2005-12-21 RCD Espanyol Barcelona": [
+   "table",
+   1794,
+   "라리가 2005-06 15위",
+   "2005-06"
+  ],
+  "2006-01-22 RCD Mallorca": [
+   "same",
+   1809,
+   "라리가 2005-06 13위",
+   [
+    "vlr.js"
+   ]
+  ],
+  "2006-02-26 CA Osasuna": [
+   "table",
+   1938,
+   "라리가 2005-06 4위",
+   "2005-06"
+  ],
+  "2006-05-03 RCD Espanyol Barcelona": [
+   "table",
+   1794,
+   "라리가 2005-06 15위",
+   "2005-06"
+  ],
+  "2007-08-25 Juventus FC": [
+   "table",
+   1838,
+   "세리에A 2007-08 3위",
+   "2007-08"
+  ],
+  "2007-12-09 AS Roma": [
+   "table",
+   1882,
+   "세리에A 2007-08 2위",
+   "2007-08"
+  ],
+  "2008-02-10 Genoa CFC": [
+   "table",
+   1718,
+   "세리에A 2007-08 10위",
+   "2007-08"
+  ],
+  "2008-12-28 Stoke City": [
+   "table",
+   1827,
+   "프리미어리그 2008-09 12위",
+   "2008-09"
+  ],
+  "2009-03-21 Blackburn Rovers": [
+   "table",
+   1803,
+   "프리미어리그 2008-09 15위",
+   "2008-09"
+  ],
+  "2009-04-18 Aston Villa": [
+   "table",
+   1914,
+   "프리미어리그 2008-09 6위",
+   "2008-09"
+  ],
+  "2009-05-02 Stoke City": [
+   "table",
+   1827,
+   "프리미어리그 2008-09 12위",
+   "2008-09"
+  ],
+  "2009-11-28 Celta de Vigo": [
+   "table",
+   1584,
+   "세군다 2009-10 12위/22팀",
+   "2009-10"
+  ],
+  "2009-12-05 Elche CF": [
+   "model",
+   1628,
+   "세군다 2009-10 6위/22팀",
+   "2009-10"
+  ],
+  "2010-01-09 Real Sociedad": [
+   "model",
+   1728,
+   "세군다 2009-10 1위/22팀",
+   "2009-10"
+  ],
+  "2010-03-07 Albacete Balompié": [
+   "table",
+   1572,
+   "세군다(2부) 2009-10 15위/22팀",
+   "2009-10"
+  ],
+  "2010-05-09 Elche CF": [
+   "model",
+   1628,
+   "세군다 2009-10 6위/22팀",
+   "2009-10"
+  ],
+  "2010-05-30 Gimnàstic de Tarragona": [
+   "table",
+   1554,
+   "세군다(2부) 2009-10 18위/22팀",
+   "2009-10"
+  ],
+  "2010-06-19 CD Numancia": [
+   "table",
+   1614,
+   "세군다 2009-10 8위/22팀",
+   "2009-10"
+  ]
+ }
+}

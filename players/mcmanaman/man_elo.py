@@ -1,0 +1,22 @@
+# 통합표 밖 상대의 순위 라벨(build_mcmanaman.py가 exec로 읽음). 순위는 raw/ranks.txt(영어 위키백과 시즌 표, raw/tables/)로 확인 — judgments.md 6절.
+# 키 시즌은 경기 날짜의 유럽식 시즌, 라벨은 상대 리그의 시즌(달력 연도 리그는 경기 연도). 값은 라벨에서 tools/league_rank_apply.py로 계산.
+man("FC Kuusysi", "1991-92", "핀란드 1부 1991 1위/12팀 (Futisliiga, 우승 팀)")                                     # 1991 Futisliiga(1991.9 경기, 시즌 막바지)
+man("Stoke City", "1991-92", "잉글랜드 3부 1991-92 4위/24팀 (Football League Third Division, 리그 수준 추정)")
+man("Port Vale FC", "1991-92", "챔피언십(2부) 1991-92 24위/24팀")                                                  # Second Division 1991-92 최하위(강등)
+man("Crewe Alexandra", "1991-92", "잉글랜드 4부 1991-92 6위/22팀 (Football League Fourth Division, 리그 수준 추정)")  # 올더숏 기록 말소 → 22팀(스카버러 같은 시즌 라벨과 같음)
+man("Bristol Rovers", "1991-92", "챔피언십(2부) 1991-92 13위/24팀")
+man("Ipswich Town", "1991-92", "챔피언십(2부) 1991-92 1위/24팀")
+man("Notts County", "1991-92", "프리미어리그 1991-92 21위/22팀")                                                   # First Division 1991-92(긱스 자료와 같은 표기)
+man("Sunderland AFC", "1991-92", "챔피언십(2부) 1991-92 18위/24팀")
+man("Apollon Limassol", "1992-93", "키프로스 1부 1992-93 2위/14팀 (Cypriot First Division)")
+man("Spartak Moscow", "1992-93", "러시아 1부 1992 1위/20팀 (Russian Top League, 우승 팀; 1992.10 경기)")
+man("Burnley FC", "1994-95", "챔피언십(2부) 1994-95 22위/24팀")
+man("Stoke City", "1994-95", "챔피언십(2부) 1994-95 11위/24팀")
+man("Bolton Wanderers", "1994-95", "챔피언십(2부) 1994-95 3위/24팀")                                                # 플레이오프로 승격, 최종 순위 3위
+man("Spartak Vladikavkaz", "1995-96", "러시아 1부 1995 1위/16팀 (Russian Top League, 우승 팀; 1995.9 경기)")
+man("Sunderland AFC", "1995-96", "챔피언십(2부) 1995-96 1위/24팀")
+man("Rochdale AFC", "1995-96", "잉글랜드 4부 1995-96 15위/24팀 (Football League Third Division, 리그 수준 추정)")
+man("Shrewsbury Town", "1995-96", "잉글랜드 3부 1995-96 18위/24팀 (Football League Second Division, 리그 수준 추정)")
+man("Myllykosken Pallo -47", "1996-97", "핀란드 1부 1996 2위/12팀 (Veikkausliiga, 챔피언십 그룹 뒤 최종 순위; 1996.9 경기)")
+man("FC Sion", "1996-97", "스위스 1부 1996-97 1위/12팀 (Nationalliga A, 챔피언십 라운드 뒤 최종 순위·우승 팀)")
+man("Terrassa FC", "2002-03", "세군다(2부) 2002-03 12위/22팀")

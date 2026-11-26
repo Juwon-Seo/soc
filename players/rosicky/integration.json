@@ -1,0 +1,15 @@
+{"preset":"rosicky","name":"토마시 로시츠키","prefix":"ROS",
+ "clubs":[
+  {"key":"sparos","name":"스파르타 프라하","short":"스파르타","years":"1998~2001","until":"2001-01-01"},
+  {"key":"bvbros","name":"보루시아 도르트문트","short":"도르트문트","years":"2001~2006","until":"2006-07-01"},
+  {"key":"arsros","name":"아스널","short":"아스널","years":"2006~2016","until":"2016-08-30"},
+  {"key":"sparos","name":"스파르타 프라하","short":"스파르타","years":"2016~2017","until":null}],
+ "season":{"calendar":[],"jul10":["sparos","bvbros"],"jul1":[]},
+ "pos":"AM","flag":"CZ","retired":true,
+ "colors":{
+  "sparos":["#8A1014","#003399","#FFD100"],
+  "bvbros":["#FDE100","#000000"],
+  "arsros":["#EF0107","#FFFFFF"]},
+ "hon":{"t":{"LG":["01/02 도르트문트","00/01 스파르타 프라하","99/00 스파르타 프라하","98/99 스파르타 프라하"],"DC":["2015 아스널","2014 아스널"],"SC":["14/15 아스널"]},
+  "o":[],
+  "a":{"FOY":["2006 아스널","2002 도르트문트","2001 도르트문트"]}}}

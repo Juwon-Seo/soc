@@ -1,0 +1,9643 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1713,
+   "comp": "dc",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1991-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1991-92 10위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Genoa 1893",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 72,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1991-92 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Verona FC",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1992-11-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1992-93 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Verona FC",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-04-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1992-93 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Cesena",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-11-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vicenza Calcio",
+   "elo": 1570,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vicenza Calcio",
+   "elo": 1570,
+   "comp": "lg",
+   "min": 10,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "ASD Acireale Calcio",
+   "elo": 1538,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "ASD Acireale Calcio",
+   "elo": 1538,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Calcio Monza",
+   "elo": 1508,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Calcio Monza",
+   "elo": 1508,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1993-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Fidelis Andria",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ancona Calcio",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 81,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Cesena",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 83,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Pescara Calcio",
+   "elo": 1546,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "ASD Acireale Calcio",
+   "elo": 1538,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-05-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1993-94 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1620,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-09-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1570,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-10-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana",
+   "elo": 1611,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Cesena",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Cesena",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1994-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Fidelis Andria",
+   "elo": 1554,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Como Calcio",
+   "elo": 1518,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1551,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "1995-03-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vicenza Calcio",
+   "elo": 1637,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Palermo",
+   "elo": 1559,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "1995-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ascoli Calcio 1898",
+   "elo": 1522,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "1995-05-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1994-95 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-08-27",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 1995-96 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "1995-09-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1995-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1707,
+   "comp": "dsf",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1995-96 1위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1707,
+   "comp": "dsf",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 1995-96 1위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Bari",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "1996-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 79,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1995-96 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Fidelis Andria",
+   "elo": 1546,
+   "comp": "dc",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1996-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에C1 B조 1996-97 1위/18팀 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Reggiana",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-09-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rapid Vienna",
+   "elo": 1530,
+   "comp": "clg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1996-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "오스트리아 1996-97 2위 (추정, 다른 선수 자료의 라피트 빈 2001 1530과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1872,
+   "comp": "df",
+   "min": 93,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-02-05",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 1996-97 2위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    6,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Vicenza Calcio",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-03-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 8위",
+   "note": "Angelo Di Livio"
+  },
+  {
+   "type": "g",
+   "opp": "Rosenborg BK",
+   "elo": 1530,
+   "comp": "clk",
+   "min": 52,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-03-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "노르웨이 1996 1위 (추정, 다른 선수 자료의 로센보리 2001·2002 1530과 같음)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 71,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 81,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ajax Amsterdam",
+   "elo": 1642,
+   "comp": "clsf",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 1996-97 4위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ajax Amsterdam",
+   "elo": 1642,
+   "comp": "clsf",
+   "min": 36,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 1996-97 4위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 88,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-06-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1996-97 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Leicester City",
+   "elo": 1658,
+   "comp": "elq",
+   "min": 72,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "1997-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 10위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1779,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 6위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Celta de Vigo",
+   "elo": 1779,
+   "comp": "lg",
+   "min": 81,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "1997-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 6위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 18위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CP Mérida",
+   "elo": 1609,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 19위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 19,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 39,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 63,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "PAOK Thessaloniki",
+   "elo": 1500,
+   "comp": "elk",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "PAOK Thessaloniki",
+   "elo": 1500,
+   "comp": "elk",
+   "min": 32,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "PAOK Thessaloniki",
+   "elo": 1500,
+   "comp": "elk",
+   "min": 54,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Real Betis Balompié",
+   "elo": 1746,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1997-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 8위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Racing Santander",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-01-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1892,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 2위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1892,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 2위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 35,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 18위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Oviedo",
+   "elo": 1618,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 18위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CP Mérida",
+   "elo": 1609,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 19위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Real Zaragoza",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 13위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Espanyol Barcelona",
+   "elo": 1711,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 10위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Aston Villa",
+   "elo": 1711,
+   "comp": "elk",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "1998-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 1997-98 7위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SD Compostela",
+   "elo": 1630,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Salamanca",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 15위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Salamanca",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 15위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Salamanca",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 82,
+   "gf": 2,
+   "ga": 4,
+   "ko": 0,
+   "pk": 1,
+   "date": "1998-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 15위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UD Salamanca",
+   "elo": 1665,
+   "comp": "lg",
+   "min": 84,
+   "gf": 3,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 15위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting Gijón",
+   "elo": 1589,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 20위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2040,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Barcelona",
+   "elo": 2040,
+   "comp": "lg",
+   "min": 82,
+   "gf": 4,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1998-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1997-98 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 66,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-17",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 1998-99 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Piacenza FC",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 12위",
+   "note": "Marcelo Salas"
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1743,
+   "comp": "dk",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 8위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Bari",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Bari",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 87,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Perugia",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-02-07",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "세리에A 1998-99 14위",
+   "note": "Marcelo Salas"
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "US Salernitana",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 15위",
+   "note": "Marcelo Salas"
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1645,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1998-99 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RCD Mallorca",
+   "elo": 1842,
+   "comp": "elf",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "1999-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 1998-99 3위 (리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Parma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 5위",
+   "note": "Iván Zamorano"
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 17,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Parma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 39,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 5위",
+   "note": "Francesco Moriero"
+  },
+  {
+   "type": "a",
+   "opp": "AC Parma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 63,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 5위",
+   "note": "Iván Zamorano"
+  },
+  {
+   "type": "g",
+   "opp": "Torino Calcio",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Udinese Calcio",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 8위",
+   "note": "Álvaro Recoba"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1697,
+   "comp": "dc",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 12위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1697,
+   "comp": "dc",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 12위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    2,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Bari",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "1999-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1837,
+   "comp": "dk",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-01-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 3위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Cagliari Calcio",
+   "elo": 1633,
+   "comp": "dsf",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 17위",
+   "note": "Adrian Mutu",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1633,
+   "comp": "dsf",
+   "min": 60,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 17위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1633,
+   "comp": "dsf",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 17위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Torino Calcio",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Venezia 1907",
+   "elo": 1645,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-02-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 1999-00 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-11-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Hertha BSC",
+   "elo": 1812,
+   "comp": "elk",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2000-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2000-01 5위",
+   "note": "Álvaro Recoba",
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Bari",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-01-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reggina Calcio",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 41,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Deportivo Alavés",
+   "elo": 1728,
+   "comp": "elk",
+   "min": 46,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-15",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "라리가 2000-01 10위",
+   "note": "Álvaro Recoba",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Deportivo Alavés",
+   "elo": 1728,
+   "comp": "elk",
+   "min": 65,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2000-01 10위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-03-04",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "세리에A 2000-01 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 66,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 40,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Fiorentina",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 57,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-04-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 9위",
+   "note": "Hakan Şükür"
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 10,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Atalanta BC",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 35,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 7위",
+   "note": "Álvaro Recoba"
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-05-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 44,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-06-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2000-01 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-08-26",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 2001-02 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 94,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-08-26",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "세리에A 2001-02 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 60,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 75,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1612,
+   "comp": "elk",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 18위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1612,
+   "comp": "elk",
+   "min": 34,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 18위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Ipswich Town",
+   "elo": 1612,
+   "comp": "elk",
+   "min": 46,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 18위",
+   "note": "Mohamed Kallon",
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Ipswich Town",
+   "elo": 1612,
+   "comp": "elk",
+   "min": 71,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2001-02 18위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Brescia Calcio",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 13위",
+   "note": "Ronaldo"
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1793,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2001-12-23",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "세리에A 2001-02 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Piacenza FC",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 12위",
+   "note": "Mohamed Kallon"
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 83,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2001-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Parma",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-01-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Venezia 1907",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bologna FC 1909",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 89,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 7위",
+   "note": "Clarence Seedorf"
+  },
+  {
+   "type": "a",
+   "opp": "Hellas Verona",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 15위",
+   "note": "Cristiano Zanetti"
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AEK Athens",
+   "elo": 1550,
+   "comp": "elk",
+   "min": 37,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 2001-02 2위 (추정, 다른 선수 자료의 AEK 2002-03·2003-04 1550과 같음)",
+   "note": "Mohamed Kallon",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 1808,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Roma",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 2위",
+   "note": "Álvaro Recoba"
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Fiorentina",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-04-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2001-02 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino Calcio",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reggina Calcio",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 78,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2002-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 95,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-19",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "세리에A 2002-03 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-10-27",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2002-03 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Como Calcio",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 58,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Ajax Amsterdam",
+   "elo": 1735,
+   "comp": "clg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-11-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2002-03 2위",
+   "note": "Hernán Crespo"
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 13,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 84,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2002-12-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 1,
+   "date": "2003-01-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino Calcio",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reggina Calcio",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1645,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Piacenza FC",
+   "elo": 1645,
+   "comp": "lg",
+   "min": 67,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Newcastle United",
+   "elo": 1820,
+   "comp": "clg",
+   "min": 47,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2002-03 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Como Calcio",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 56,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Como Calcio",
+   "elo": 1633,
+   "comp": "lg",
+   "min": 76,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2002-03 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1787,
+   "comp": "clk",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 5위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1787,
+   "comp": "clk",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2002-03 5위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Modena FC",
+   "elo": 1645,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1620,
+   "comp": "clg",
+   "min": 90,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-09-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1704,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2003-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Chievo Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 64,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chievo Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 9위",
+   "note": "Álvaro Recoba"
+  },
+  {
+   "type": "g",
+   "opp": "Ancona Calcio",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Reggina Calcio",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 75,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Arsenal FC",
+   "elo": 1968,
+   "comp": "clg",
+   "min": 32,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2003-04 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Perugia",
+   "elo": 1657,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1780,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2003-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1713,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 78,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Udinese Calcio",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 71,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 7위",
+   "note": "Julio Cruz"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1776,
+   "comp": "elk",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2003-04 5위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1884,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-03-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1795,
+   "comp": "elk",
+   "min": 64,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-03-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2003-04 2위 (다른 선수 자료의 포르투갈 1부 2위 값 1795와 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1837,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2004-04-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2003-04 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chievo Verona",
+   "elo": 1683,
+   "comp": "lg",
+   "min": 48,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 15위",
+   "note": "Adriano"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1814,
+   "comp": "lg",
+   "min": 57,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valencia CF",
+   "elo": 1751,
+   "comp": "clg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2004-05 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1640,
+   "comp": "dc",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 18위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1969,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Messina Peloro",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 84,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Siena",
+   "elo": 1692,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2004-12-12",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2004-05 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Livorno",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Livorno",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1798,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-01-09",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 2004-05 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Palermo",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Palermo",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 58,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Parma FC",
+   "elo": 1646,
+   "comp": "lg",
+   "min": 82,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2005-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 17위 (추정, 선수 간 값 1640·1651의 평균으로 맞춤)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Siena",
+   "elo": 1692,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 92,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-08",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2004-05 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Livorno",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1705,
+   "comp": "dsf",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 12위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1705,
+   "comp": "dsf",
+   "min": 57,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2004-05 12위",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Cagliari Calcio",
+   "elo": 1705,
+   "comp": "dsf",
+   "min": 91,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-05-18",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 2004-05 12위",
+   "note": "Obafemi Martins",
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "SS Lazio",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2005-06 16위",
+   "note": "Andriy Shevchenko"
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 55,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2005-06 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Fenerbahce",
+   "elo": 1772,
+   "comp": "clg",
+   "min": 76,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2005-06 2위 (추정, 다른 선수 자료 페네르바체 2004-05 1위 값과 같게)",
+   "note": "Andriy Shevchenko"
+  },
+  {
+   "type": "g",
+   "opp": "Brescia Calcio",
+   "elo": 1577,
+   "comp": "dc",
+   "min": 68,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 2005-06 10위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1635,
+   "comp": "dk",
+   "min": 93,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-01-18",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2005-06 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "ESTAC Troyes",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1600,
+   "comp": "elk",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2006-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 2005-06 2위 (추정, 다른 선수 자료의 바젤 2008 값과 같음)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AC Siena",
+   "elo": 1683,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 85,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Livorno",
+   "elo": 1714,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-05-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 11위",
+   "note": "Davide Bombardini"
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 9위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Livorno",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-09-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 20위",
+   "note": "Mario Santana"
+  },
+  {
+   "type": "a",
+   "opp": "FC Groningen",
+   "elo": 1587,
+   "comp": "elq",
+   "min": 59,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2007-08 7위",
+   "note": "Adrian Mutu",
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "AC Siena",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1893,
+   "comp": "elg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2007-08 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1757,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "IF Elfsborg",
+   "elo": 1520,
+   "comp": "elg",
+   "min": 4,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "스웨덴 상위권 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AEK Athens",
+   "elo": 1550,
+   "comp": "elg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 2007-08 2위 (추정, 다른 선수 자료 AEK 2006-07 2위 1550과 같음)",
+   "note": "Daniel Osvaldo"
+  },
+  {
+   "type": "g",
+   "opp": "FK Mlada Boleslav",
+   "elo": 1450,
+   "comp": "elg",
+   "min": 68,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-12-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 2007-08 7위 (추정, 다른 선수 자료의 믈라다 볼레슬라프 2014-15 4위 1480보다 낮게)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino FC",
+   "elo": 1683,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2008-01-19",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "세리에A 2007-08 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SS Lazio",
+   "elo": 1705,
+   "comp": "dk",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 12위",
+   "note": "Franco Semioli",
+   "tie": [
+    2,
+    1,
+    1,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 63,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 78,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1774,
+   "comp": "lg",
+   "min": 88,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2008-09 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1890,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2008-09 2위",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "1991-10-30",
+   "SS Lazio",
+   "dc",
+   90
+  ],
+  [
+   "1991-12-15",
+   "AC Fiorentina",
+   "lg",
+   1
+  ],
+  [
+   "1992-02-23",
+   "Cagliari Calcio",
+   "lg",
+   1
+  ],
+  [
+   "1992-03-15",
+   "AC Parma",
+   "lg",
+   14
+  ],
+  [
+   "1992-04-18",
+   "UC Sampdoria",
+   "lg",
+   45
+  ],
+  [
+   "1992-04-25",
+   "AC Milan",
+   "lg",
+   25
+  ],
+  [
+   "1992-05-09",
+   "Genoa 1893",
+   "lg",
+   26
+  ],
+  [
+   "1992-10-07",
+   "AS Bari",
+   "dc",
+   85
+  ],
+  [
+   "1992-11-08",
+   "SS Lazio",
+   "lg",
+   30
+  ],
+  [
+   "1992-11-15",
+   "Verona FC",
+   "lg",
+   90
+  ],
+  [
+   "1992-11-22",
+   "Calcio Monza",
+   "lg",
+   65
+  ],
+  [
+   "1992-12-06",
+   "AS Lucchese Libertas",
+   "lg",
+   90
+  ],
+  [
+   "1992-12-13",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "1992-12-20",
+   "PC Ternana",
+   "lg",
+   90
+  ],
+  [
+   "1993-01-10",
+   "AC Reggiana",
+   "lg",
+   29
+  ],
+  [
+   "1993-01-17",
+   "AC Venezia 1907",
+   "lg",
+   45
+  ],
+  [
+   "1993-01-24",
+   "Taranto SS",
+   "lg",
+   26
+  ],
+  [
+   "1993-01-31",
+   "Piacenza FC",
+   "lg",
+   82
+  ],
+  [
+   "1993-02-07",
+   "AS Fidelis Andria",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-13",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "1993-02-28",
+   "US Cremonese",
+   "lg",
+   19
+  ],
+  [
+   "1993-03-07",
+   "SP Ars et Labor",
+   "lg",
+   2
+  ],
+  [
+   "1993-03-14",
+   "Modena FC",
+   "lg",
+   13
+  ],
+  [
+   "1993-03-21",
+   "Ascoli Calcio 1898",
+   "lg",
+   90
+  ],
+  [
+   "1993-04-04",
+   "Bologna FC 1909",
+   "lg",
+   23
+  ],
+  [
+   "1993-04-18",
+   "Verona FC",
+   "lg",
+   85
+  ],
+  [
+   "1993-04-25",
+   "Calcio Monza",
+   "lg",
+   16
+  ],
+  [
+   "1993-08-22",
+   "AC Cesena",
+   "dc",
+   27
+  ],
+  [
+   "1993-08-29",
+   "Ascoli Calcio 1898",
+   "lg",
+   24
+  ],
+  [
+   "1993-09-05",
+   "AS Fidelis Andria",
+   "lg",
+   90
+  ],
+  [
+   "1993-09-12",
+   "US Palermo",
+   "lg",
+   19
+  ],
+  [
+   "1993-09-26",
+   "AS Bari",
+   "lg",
+   36
+  ],
+  [
+   "1993-10-03",
+   "Ancona Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1993-10-10",
+   "Modena FC",
+   "lg",
+   90
+  ],
+  [
+   "1993-10-17",
+   "AS Lucchese Libertas",
+   "lg",
+   90
+  ],
+  [
+   "1993-10-24",
+   "AC Pisa 1909",
+   "lg",
+   9
+  ],
+  [
+   "1993-10-31",
+   "AC Venezia 1907",
+   "lg",
+   16
+  ],
+  [
+   "1993-11-13",
+   "AC Cesena",
+   "lg",
+   90
+  ],
+  [
+   "1993-11-21",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "1993-11-28",
+   "Vicenza Calcio",
+   "lg",
+   82
+  ],
+  [
+   "1993-12-05",
+   "Pescara Calcio",
+   "lg",
+   84
+  ],
+  [
+   "1993-12-12",
+   "ASD Acireale Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1993-12-19",
+   "Calcio Monza",
+   "lg",
+   90
+  ],
+  [
+   "1994-01-09",
+   "Brescia Calcio",
+   "lg",
+   81
+  ],
+  [
+   "1994-01-16",
+   "Verona FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-01-23",
+   "Ascoli Calcio 1898",
+   "lg",
+   85
+  ],
+  [
+   "1994-01-30",
+   "AS Fidelis Andria",
+   "lg",
+   90
+  ],
+  [
+   "1994-02-05",
+   "US Palermo",
+   "lg",
+   90
+  ],
+  [
+   "1994-02-27",
+   "Ancona Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-06",
+   "Modena FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-13",
+   "AS Lucchese Libertas",
+   "lg",
+   90
+  ],
+  [
+   "1994-03-27",
+   "AC Pisa 1909",
+   "lg",
+   89
+  ],
+  [
+   "1994-04-02",
+   "AC Venezia 1907",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-10",
+   "AC Cesena",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-17",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "1994-04-24",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-05-01",
+   "Pescara Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-05-08",
+   "ASD Acireale Calcio",
+   "lg",
+   85
+  ],
+  [
+   "1994-05-22",
+   "Calcio Padova",
+   "lg",
+   90
+  ],
+  [
+   "1994-06-05",
+   "Verona FC",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-04",
+   "AS Cosenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-11",
+   "Como Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-09-25",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-09",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-16",
+   "Pescara Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-23",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "1994-10-30",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-06",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "1994-11-13",
+   "US Palermo",
+   "lg",
+   44
+  ],
+  [
+   "1994-12-04",
+   "ASD Acireale Calcio",
+   "lg",
+   32
+  ],
+  [
+   "1994-12-11",
+   "US Salernitana",
+   "lg",
+   90
+  ],
+  [
+   "1994-12-18",
+   "AC Cesena",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-08",
+   "Ascoli Calcio 1898",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-15",
+   "AS Fidelis Andria",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-21",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "1995-01-29",
+   "AS Cosenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1995-02-12",
+   "Como Calcio",
+   "lg",
+   72
+  ],
+  [
+   "1995-02-18",
+   "Ancona Calcio",
+   "lg",
+   81
+  ],
+  [
+   "1995-03-12",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "1995-03-19",
+   "Pescara Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1995-03-26",
+   "Chievo Verona",
+   "lg",
+   58
+  ],
+  [
+   "1995-04-02",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-09",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-15",
+   "US Palermo",
+   "lg",
+   90
+  ],
+  [
+   "1995-04-22",
+   "Udinese Calcio",
+   "lg",
+   45
+  ],
+  [
+   "1995-05-14",
+   "AC Cesena",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-21",
+   "AS Lucchese Libertas",
+   "lg",
+   90
+  ],
+  [
+   "1995-05-28",
+   "Ascoli Calcio 1898",
+   "lg",
+   90
+  ],
+  [
+   "1995-06-11",
+   "US Lecce",
+   "lg",
+   61
+  ],
+  [
+   "1995-08-27",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-10",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-17",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "1995-09-24",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "1995-10-01",
+   "Piacenza FC",
+   "lg",
+   76
+  ],
+  [
+   "1996-01-07",
+   "Juventus FC",
+   "lg",
+   29
+  ],
+  [
+   "1996-01-14",
+   "Calcio Padova",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-21",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "1996-01-28",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-04",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-11",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "1996-02-14",
+   "Bologna FC 1909",
+   "dsf",
+   22
+  ],
+  [
+   "1996-02-18",
+   "Piacenza FC",
+   "lg",
+   55
+  ],
+  [
+   "1996-02-27",
+   "Bologna FC 1909",
+   "dsf",
+   90
+  ],
+  [
+   "1996-03-03",
+   "US Cremonese",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-10",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-24",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "1996-03-31",
+   "Torino Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-06",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-10",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "1996-04-14",
+   "Cagliari Calcio",
+   "lg",
+   85
+  ],
+  [
+   "1996-08-28",
+   "AS Fidelis Andria",
+   "dc",
+   62
+  ],
+  [
+   "1996-09-08",
+   "AC Reggiana",
+   "lg",
+   67
+  ],
+  [
+   "1996-09-11",
+   "Manchester United",
+   "clg",
+   73
+  ],
+  [
+   "1996-09-25",
+   "Fenerbahce",
+   "clg",
+   59
+  ],
+  [
+   "1996-10-13",
+   "Vicenza Calcio",
+   "lg",
+   25
+  ],
+  [
+   "1996-10-16",
+   "Rapid Vienna",
+   "clg",
+   63
+  ],
+  [
+   "1996-10-20",
+   "Inter Milan",
+   "lg",
+   6
+  ],
+  [
+   "1996-10-23",
+   "ASG Nocerina",
+   "dc",
+   90
+  ],
+  [
+   "1996-11-06",
+   "ASG Nocerina",
+   "dc",
+   65
+  ],
+  [
+   "1996-11-13",
+   "Inter Milan",
+   "dk",
+   63
+  ],
+  [
+   "1996-11-17",
+   "AC Milan",
+   "lg",
+   58
+  ],
+  [
+   "1996-12-15",
+   "Hellas Verona",
+   "lg",
+   55
+  ],
+  [
+   "1996-12-18",
+   "Inter Milan",
+   "dk",
+   20
+  ],
+  [
+   "1997-01-12",
+   "Atalanta BC",
+   "lg",
+   22
+  ],
+  [
+   "1997-01-26",
+   "AC Reggiana",
+   "lg",
+   16
+  ],
+  [
+   "1997-02-02",
+   "Cagliari Calcio",
+   "lg",
+   10
+  ],
+  [
+   "1997-02-05",
+   "Paris Saint-Germain",
+   "df",
+   22
+  ],
+  [
+   "1997-02-16",
+   "AC Perugia",
+   "lg",
+   69
+  ],
+  [
+   "1997-02-23",
+   "AC Fiorentina",
+   "lg",
+   13
+  ],
+  [
+   "1997-03-01",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-05",
+   "Rosenborg BK",
+   "clk",
+   90
+  ],
+  [
+   "1997-03-09",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "1997-03-15",
+   "AS Roma",
+   "lg",
+   65
+  ],
+  [
+   "1997-03-19",
+   "Rosenborg BK",
+   "clk",
+   44
+  ],
+  [
+   "1997-03-23",
+   "SSC Napoli",
+   "lg",
+   61
+  ],
+  [
+   "1997-04-06",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-09",
+   "Ajax Amsterdam",
+   "clsf",
+   90
+  ],
+  [
+   "1997-04-13",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1997-04-19",
+   "Bologna FC 1909",
+   "lg",
+   63
+  ],
+  [
+   "1997-04-23",
+   "Ajax Amsterdam",
+   "clsf",
+   69
+  ],
+  [
+   "1997-05-04",
+   "UC Sampdoria",
+   "lg",
+   26
+  ],
+  [
+   "1997-05-11",
+   "Hellas Verona",
+   "lg",
+   70
+  ],
+  [
+   "1997-05-15",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "1997-05-18",
+   "AC Parma",
+   "lg",
+   67
+  ],
+  [
+   "1997-05-23",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "1997-05-28",
+   "Borussia Dortmund",
+   "clf",
+   73
+  ],
+  [
+   "1997-06-01",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "1997-08-30",
+   "Real Madrid",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-14",
+   "Athletic Bilbao",
+   "lg",
+   82
+  ],
+  [
+   "1997-09-16",
+   "Leicester City",
+   "elq",
+   90
+  ],
+  [
+   "1997-09-28",
+   "Celta de Vigo",
+   "lg",
+   90
+  ],
+  [
+   "1997-09-30",
+   "Leicester City",
+   "elq",
+   65
+  ],
+  [
+   "1997-10-05",
+   "Real Oviedo",
+   "lg",
+   90
+  ],
+  [
+   "1997-10-15",
+   "CP Mérida",
+   "lg",
+   90
+  ],
+  [
+   "1997-10-19",
+   "Real Zaragoza",
+   "lg",
+   76
+  ],
+  [
+   "1997-10-21",
+   "PAOK Thessaloniki",
+   "elk",
+   90
+  ],
+  [
+   "1997-11-01",
+   "Real Betis Balompié",
+   "lg",
+   70
+  ],
+  [
+   "1997-11-09",
+   "SD Compostela",
+   "lg",
+   8
+  ],
+  [
+   "1997-12-17",
+   "RCD Mallorca",
+   "lg",
+   45
+  ],
+  [
+   "1998-01-04",
+   "Racing Santander",
+   "lg",
+   90
+  ],
+  [
+   "1998-01-10",
+   "Real Madrid",
+   "lg",
+   87
+  ],
+  [
+   "1998-01-20",
+   "Real Zaragoza",
+   "dc",
+   90
+  ],
+  [
+   "1998-01-24",
+   "Athletic Bilbao",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-09",
+   "Real Oviedo",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-15",
+   "CP Mérida",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-23",
+   "Real Zaragoza",
+   "lg",
+   90
+  ],
+  [
+   "1998-02-28",
+   "RCD Espanyol Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-03",
+   "Aston Villa",
+   "elk",
+   90
+  ],
+  [
+   "1998-03-08",
+   "Real Betis Balompié",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-14",
+   "SD Compostela",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-17",
+   "Aston Villa",
+   "elk",
+   90
+  ],
+  [
+   "1998-03-21",
+   "UD Salamanca",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-29",
+   "Real Sociedad",
+   "lg",
+   90
+  ],
+  [
+   "1998-03-31",
+   "SS Lazio",
+   "elsf",
+   90
+  ],
+  [
+   "1998-04-14",
+   "SS Lazio",
+   "elsf",
+   90
+  ],
+  [
+   "1998-04-19",
+   "Sporting Gijón",
+   "lg",
+   90
+  ],
+  [
+   "1998-04-26",
+   "CD Tenerife",
+   "lg",
+   90
+  ],
+  [
+   "1998-05-03",
+   "RCD Mallorca",
+   "lg",
+   65
+  ],
+  [
+   "1998-05-10",
+   "FC Barcelona",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-13",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-20",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "1998-09-23",
+   "Cosenza Calcio 1914",
+   "dc",
+   17
+  ],
+  [
+   "1999-01-06",
+   "Bologna FC 1909",
+   "lg",
+   87
+  ],
+  [
+   "1999-01-10",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "1999-01-17",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "1999-01-24",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-01-27",
+   "Inter Milan",
+   "dk",
+   90
+  ],
+  [
+   "1999-01-31",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-07",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-14",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-21",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "1999-02-28",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1999-03-04",
+   "Panionios FC",
+   "elk",
+   75
+  ],
+  [
+   "1999-03-07",
+   "US Salernitana",
+   "lg",
+   70
+  ],
+  [
+   "1999-03-14",
+   "FC Empoli",
+   "lg",
+   17
+  ],
+  [
+   "1999-03-21",
+   "AC Venezia 1907",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-03",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-08",
+   "Lokomotiv Moskau",
+   "elsf",
+   64
+  ],
+  [
+   "1999-04-11",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-17",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-04-22",
+   "Lokomotiv Moskau",
+   "elsf",
+   84
+  ],
+  [
+   "1999-04-25",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-02",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-09",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-15",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "1999-05-19",
+   "RCD Mallorca",
+   "elf",
+   90
+  ],
+  [
+   "1999-05-23",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "1999-08-29",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "1999-09-12",
+   "AS Roma",
+   "lg",
+   32
+  ],
+  [
+   "1999-09-19",
+   "AC Parma",
+   "lg",
+   77
+  ],
+  [
+   "1999-09-26",
+   "Torino Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1999-10-02",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-10-17",
+   "AC Venezia 1907",
+   "lg",
+   32
+  ],
+  [
+   "1999-10-23",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "1999-10-30",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-05",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-12",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "1999-12-15",
+   "Bologna FC 1909",
+   "dc",
+   90
+  ],
+  [
+   "1999-12-18",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-06",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2000-01-09",
+   "AC Fiorentina",
+   "lg",
+   88
+  ],
+  [
+   "2000-01-12",
+   "AC Milan",
+   "dk",
+   66
+  ],
+  [
+   "2000-01-27",
+   "AC Milan",
+   "dk",
+   45
+  ],
+  [
+   "2000-01-30",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-06",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-09",
+   "Cagliari Calcio",
+   "dsf",
+   90
+  ],
+  [
+   "2000-02-13",
+   "Torino Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-20",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "2000-02-27",
+   "AC Venezia 1907",
+   "lg",
+   58
+  ],
+  [
+   "2000-03-25",
+   "US Lecce",
+   "lg",
+   21
+  ],
+  [
+   "2000-05-18",
+   "SS Lazio",
+   "df",
+   38
+  ],
+  [
+   "2000-05-23",
+   "AC Parma",
+   "lg",
+   33
+  ],
+  [
+   "2000-11-05",
+   "Hellas Verona",
+   "lg",
+   32
+  ],
+  [
+   "2000-11-09",
+   "Vitesse Arnhem",
+   "elk",
+   45
+  ],
+  [
+   "2000-11-12",
+   "US Lecce",
+   "lg",
+   45
+  ],
+  [
+   "2000-11-18",
+   "AC Perugia",
+   "lg",
+   45
+  ],
+  [
+   "2000-11-21",
+   "Hertha BSC",
+   "elk",
+   37
+  ],
+  [
+   "2000-11-26",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-03",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-07",
+   "Hertha BSC",
+   "elk",
+   89
+  ],
+  [
+   "2000-12-10",
+   "AC Fiorentina",
+   "lg",
+   38
+  ],
+  [
+   "2000-12-17",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2000-12-23",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2001-01-07",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2001-01-14",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "2001-01-28",
+   "AS Bari",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-04",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-10",
+   "Reggina Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-15",
+   "Deportivo Alavés",
+   "elk",
+   73
+  ],
+  [
+   "2001-02-18",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2001-02-22",
+   "Deportivo Alavés",
+   "elk",
+   90
+  ],
+  [
+   "2001-03-04",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2001-03-11",
+   "Hellas Verona",
+   "lg",
+   67
+  ],
+  [
+   "2001-04-01",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-08",
+   "Vicenza Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-14",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-21",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "2001-04-29",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2001-05-06",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2001-05-11",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2001-05-17",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "2001-05-27",
+   "SS Lazio",
+   "lg",
+   22
+  ],
+  [
+   "2001-06-10",
+   "AS Bari",
+   "lg",
+   45
+  ],
+  [
+   "2001-06-17",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2001-08-26",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2001-11-12",
+   "Udinese Calcio",
+   "dc",
+   38
+  ],
+  [
+   "2001-11-17",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2001-11-25",
+   "AC Fiorentina",
+   "lg",
+   72
+  ],
+  [
+   "2001-12-02",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-06",
+   "Ipswich Town",
+   "elk",
+   79
+  ],
+  [
+   "2001-12-09",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-15",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-19",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2001-12-23",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "2002-01-06",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2002-01-13",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2002-01-20",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "2002-01-27",
+   "AC Venezia 1907",
+   "lg",
+   90
+  ],
+  [
+   "2002-02-02",
+   "Torino Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-02-10",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2002-02-17",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2002-02-21",
+   "AEK Athens",
+   "elk",
+   45
+  ],
+  [
+   "2002-02-24",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-03-03",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2002-03-09",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2002-03-17",
+   "US Lecce",
+   "lg",
+   75
+  ],
+  [
+   "2002-03-24",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2002-03-30",
+   "AC Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-07",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-14",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-04-28",
+   "Piacenza FC",
+   "lg",
+   90
+  ],
+  [
+   "2002-05-05",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2002-08-14",
+   "Sporting CP",
+   "clq",
+   90
+  ],
+  [
+   "2002-08-27",
+   "Sporting CP",
+   "clq",
+   86
+  ],
+  [
+   "2002-09-14",
+   "Torino Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-09-17",
+   "Rosenborg BK",
+   "clg",
+   90
+  ],
+  [
+   "2002-09-22",
+   "Reggina Calcio",
+   "lg",
+   65
+  ],
+  [
+   "2002-09-25",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2002-09-29",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2002-10-19",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2002-10-22",
+   "Olympique Lyon",
+   "clg",
+   90
+  ],
+  [
+   "2002-10-27",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2002-10-30",
+   "Rosenborg BK",
+   "clg",
+   90
+  ],
+  [
+   "2002-11-03",
+   "Como Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-11-09",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-11-12",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2002-11-16",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2002-11-23",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2002-11-27",
+   "Newcastle United",
+   "clg",
+   90
+  ],
+  [
+   "2002-12-01",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2002-12-07",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2002-12-10",
+   "Bayer 04 Leverkusen",
+   "clg",
+   74
+  ],
+  [
+   "2003-01-19",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2003-01-26",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2003-02-02",
+   "Torino Calcio",
+   "lg",
+   80
+  ],
+  [
+   "2003-02-09",
+   "Reggina Calcio",
+   "lg",
+   29
+  ],
+  [
+   "2003-02-15",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2003-02-18",
+   "FC Barcelona",
+   "clg",
+   90
+  ],
+  [
+   "2003-02-23",
+   "Piacenza FC",
+   "lg",
+   68
+  ],
+  [
+   "2003-02-26",
+   "FC Barcelona",
+   "clg",
+   90
+  ],
+  [
+   "2003-03-02",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2003-03-11",
+   "Newcastle United",
+   "clg",
+   90
+  ],
+  [
+   "2003-03-16",
+   "Como Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2003-03-23",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2003-04-06",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2003-04-09",
+   "Valencia CF",
+   "clk",
+   90
+  ],
+  [
+   "2003-04-12",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2003-04-19",
+   "Brescia Calcio",
+   "lg",
+   18
+  ],
+  [
+   "2003-04-22",
+   "Valencia CF",
+   "clk",
+   33
+  ],
+  [
+   "2003-08-31",
+   "Modena FC",
+   "lg",
+   90
+  ],
+  [
+   "2003-09-30",
+   "Dynamo Kyiv",
+   "clg",
+   30
+  ],
+  [
+   "2003-10-05",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2003-10-18",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2003-10-21",
+   "Lokomotiv Moskau",
+   "clg",
+   90
+  ],
+  [
+   "2003-10-26",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-02",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-05",
+   "Lokomotiv Moskau",
+   "clg",
+   90
+  ],
+  [
+   "2003-11-09",
+   "Ancona Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-22",
+   "Reggina Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2003-11-25",
+   "Arsenal FC",
+   "clg",
+   90
+  ],
+  [
+   "2003-12-07",
+   "AC Perugia",
+   "lg",
+   90
+  ],
+  [
+   "2003-12-10",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2003-12-14",
+   "Bologna FC 1909",
+   "lg",
+   23
+  ],
+  [
+   "2003-12-21",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2004-01-06",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "2004-01-10",
+   "AC Parma",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-08",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2004-02-12",
+   "Juventus FC",
+   "dsf",
+   120
+  ],
+  [
+   "2004-02-15",
+   "Udinese Calcio",
+   "lg",
+   36
+  ],
+  [
+   "2004-02-21",
+   "AC Milan",
+   "lg",
+   75
+  ],
+  [
+   "2004-02-26",
+   "FC Sochaux-Montbéliard",
+   "elk",
+   90
+  ],
+  [
+   "2004-02-29",
+   "Brescia Calcio",
+   "lg",
+   19
+  ],
+  [
+   "2004-03-03",
+   "FC Sochaux-Montbéliard",
+   "elk",
+   86
+  ],
+  [
+   "2004-03-07",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2004-03-14",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2004-03-25",
+   "SL Benfica",
+   "elk",
+   90
+  ],
+  [
+   "2004-04-04",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2004-04-08",
+   "Olympique Marseille",
+   "elk",
+   90
+  ],
+  [
+   "2004-04-25",
+   "SS Lazio",
+   "lg",
+   57
+  ],
+  [
+   "2004-05-02",
+   "US Lecce",
+   "lg",
+   8
+  ],
+  [
+   "2004-05-09",
+   "AC Parma",
+   "lg",
+   86
+  ],
+  [
+   "2004-08-24",
+   "FC Basel 1893",
+   "clq",
+   5
+  ],
+  [
+   "2004-09-11",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2004-09-14",
+   "SV Werder Bremen",
+   "clg",
+   78
+  ],
+  [
+   "2004-09-18",
+   "US Palermo",
+   "lg",
+   6
+  ],
+  [
+   "2004-09-22",
+   "Atalanta BC",
+   "lg",
+   60
+  ],
+  [
+   "2004-09-26",
+   "Parma FC",
+   "lg",
+   58
+  ],
+  [
+   "2004-10-17",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2004-10-20",
+   "Valencia CF",
+   "clg",
+   75
+  ],
+  [
+   "2004-10-24",
+   "AC Milan",
+   "lg",
+   79
+  ],
+  [
+   "2004-11-10",
+   "Bologna FC 1909",
+   "lg",
+   20
+  ],
+  [
+   "2004-11-21",
+   "Bologna FC 1909",
+   "dc",
+   89
+  ],
+  [
+   "2004-11-24",
+   "SV Werder Bremen",
+   "clg",
+   90
+  ],
+  [
+   "2004-11-28",
+   "Juventus FC",
+   "lg",
+   23
+  ],
+  [
+   "2004-12-04",
+   "FC Messina Peloro",
+   "lg",
+   90
+  ],
+  [
+   "2004-12-12",
+   "AC Siena",
+   "lg",
+   90
+  ],
+  [
+   "2004-12-19",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-06",
+   "AS Livorno",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-09",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-15",
+   "Reggina Calcio",
+   "lg",
+   70
+  ],
+  [
+   "2005-01-22",
+   "Chievo Verona",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-30",
+   "US Palermo",
+   "lg",
+   76
+  ],
+  [
+   "2005-02-02",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2005-02-06",
+   "Parma FC",
+   "lg",
+   90
+  ],
+  [
+   "2005-02-19",
+   "Udinese Calcio",
+   "lg",
+   60
+  ],
+  [
+   "2005-02-23",
+   "FC Porto",
+   "cl16",
+   9
+  ],
+  [
+   "2005-02-27",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2005-04-06",
+   "AC Milan",
+   "clk",
+   35
+  ],
+  [
+   "2005-04-17",
+   "Cagliari Calcio",
+   "lg",
+   20
+  ],
+  [
+   "2005-04-20",
+   "Juventus FC",
+   "lg",
+   14
+  ],
+  [
+   "2005-05-01",
+   "AC Siena",
+   "lg",
+   66
+  ],
+  [
+   "2005-05-08",
+   "Brescia Calcio",
+   "lg",
+   21
+  ],
+  [
+   "2005-05-12",
+   "Cagliari Calcio",
+   "dsf",
+   11
+  ],
+  [
+   "2005-05-15",
+   "AS Livorno",
+   "lg",
+   70
+  ],
+  [
+   "2005-05-18",
+   "Cagliari Calcio",
+   "dsf",
+   90
+  ],
+  [
+   "2005-05-22",
+   "UC Sampdoria",
+   "lg",
+   17
+  ],
+  [
+   "2005-05-29",
+   "Reggina Calcio",
+   "lg",
+   80
+  ],
+  [
+   "2005-09-13",
+   "Fenerbahce",
+   "clg",
+   78
+  ],
+  [
+   "2005-09-18",
+   "UC Sampdoria",
+   "lg",
+   11
+  ],
+  [
+   "2005-09-21",
+   "SS Lazio",
+   "lg",
+   82
+  ],
+  [
+   "2005-09-28",
+   "FC Schalke 04",
+   "clg",
+   19
+  ],
+  [
+   "2005-10-02",
+   "Reggina Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-19",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2005-10-23",
+   "US Palermo",
+   "lg",
+   24
+  ],
+  [
+   "2005-10-26",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-29",
+   "Juventus FC",
+   "lg",
+   21
+  ],
+  [
+   "2005-11-01",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2005-11-23",
+   "Fenerbahce",
+   "clg",
+   15
+  ],
+  [
+   "2005-11-29",
+   "Brescia Calcio",
+   "dc",
+   90
+  ],
+  [
+   "2005-12-11",
+   "Inter Milan",
+   "lg",
+   15
+  ],
+  [
+   "2005-12-18",
+   "FC Messina Peloro",
+   "lg",
+   27
+  ],
+  [
+   "2006-01-14",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2006-01-18",
+   "FC Toulouse",
+   "dk",
+   45
+  ],
+  [
+   "2006-02-04",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2006-02-07",
+   "OGC Nice",
+   "dsf",
+   90
+  ],
+  [
+   "2006-02-11",
+   "ESTAC Troyes",
+   "lg",
+   90
+  ],
+  [
+   "2006-02-15",
+   "FC Basel 1893",
+   "elk",
+   90
+  ],
+  [
+   "2006-02-18",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2006-02-23",
+   "FC Basel 1893",
+   "elk",
+   90
+  ],
+  [
+   "2006-02-26",
+   "LOSC Lille",
+   "lg",
+   35
+  ],
+  [
+   "2006-03-18",
+   "AC Ajaccio",
+   "lg",
+   30
+  ],
+  [
+   "2006-03-26",
+   "Paris Saint-Germain",
+   "lg",
+   7
+  ],
+  [
+   "2007-04-18",
+   "FC Empoli",
+   "lg",
+   19
+  ],
+  [
+   "2007-04-22",
+   "AS Roma",
+   "lg",
+   30
+  ],
+  [
+   "2007-04-29",
+   "FC Messina Peloro",
+   "lg",
+   39
+  ],
+  [
+   "2007-05-06",
+   "AC Siena",
+   "lg",
+   36
+  ],
+  [
+   "2007-05-13",
+   "Udinese Calcio",
+   "lg",
+   37
+  ],
+  [
+   "2007-05-20",
+   "Inter Milan",
+   "lg",
+   36
+  ],
+  [
+   "2007-05-27",
+   "AS Livorno",
+   "lg",
+   34
+  ],
+  [
+   "2007-08-26",
+   "FC Empoli",
+   "lg",
+   15
+  ],
+  [
+   "2007-09-03",
+   "AC Milan",
+   "lg",
+   28
+  ],
+  [
+   "2007-09-16",
+   "Atalanta BC",
+   "lg",
+   32
+  ],
+  [
+   "2007-09-20",
+   "FC Groningen",
+   "elq",
+   58
+  ],
+  [
+   "2007-09-23",
+   "Calcio Catania",
+   "lg",
+   22
+  ],
+  [
+   "2007-09-26",
+   "AS Roma",
+   "lg",
+   18
+  ],
+  [
+   "2007-09-29",
+   "AS Livorno",
+   "lg",
+   26
+  ],
+  [
+   "2007-10-04",
+   "FC Groningen",
+   "elq",
+   81
+  ],
+  [
+   "2007-10-07",
+   "Juventus FC",
+   "lg",
+   45
+  ],
+  [
+   "2007-10-21",
+   "AC Siena",
+   "lg",
+   26
+  ],
+  [
+   "2007-10-25",
+   "Villarreal CF",
+   "elg",
+   66
+  ],
+  [
+   "2007-10-28",
+   "Genoa CFC",
+   "lg",
+   18
+  ],
+  [
+   "2007-10-31",
+   "SSC Napoli",
+   "lg",
+   75
+  ],
+  [
+   "2007-11-08",
+   "IF Elfsborg",
+   "elg",
+   82
+  ],
+  [
+   "2007-11-11",
+   "Udinese Calcio",
+   "lg",
+   45
+  ],
+  [
+   "2007-11-25",
+   "Reggina Calcio",
+   "lg",
+   15
+  ],
+  [
+   "2007-11-29",
+   "AEK Athens",
+   "elg",
+   86
+  ],
+  [
+   "2007-12-02",
+   "Inter Milan",
+   "lg",
+   45
+  ],
+  [
+   "2007-12-16",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2007-12-20",
+   "FK Mlada Boleslav",
+   "elg",
+   27
+  ],
+  [
+   "2007-12-23",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2008-01-13",
+   "Parma FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-01-19",
+   "Torino FC",
+   "lg",
+   89
+  ],
+  [
+   "2008-01-30",
+   "SS Lazio",
+   "dk",
+   90
+  ],
+  [
+   "2008-02-03",
+   "AC Milan",
+   "lg",
+   12
+  ],
+  [
+   "2008-02-09",
+   "Atalanta BC",
+   "lg",
+   17
+  ],
+  [
+   "2008-02-24",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-06",
+   "Everton FC",
+   "elk",
+   67
+  ],
+  [
+   "2008-03-12",
+   "Everton FC",
+   "elk",
+   46
+  ],
+  [
+   "2008-03-22",
+   "SS Lazio",
+   "lg",
+   54
+  ],
+  [
+   "2008-03-30",
+   "Udinese Calcio",
+   "lg",
+   31
+  ],
+  [
+   "2008-04-03",
+   "PSV Eindhoven",
+   "elk",
+   14
+  ],
+  [
+   "2008-04-06",
+   "Reggina Calcio",
+   "lg",
+   20
+  ],
+  [
+   "2008-04-10",
+   "PSV Eindhoven",
+   "elk",
+   17
+  ],
+  [
+   "2008-04-13",
+   "Inter Milan",
+   "lg",
+   34
+  ],
+  [
+   "2008-04-19",
+   "US Palermo",
+   "lg",
+   17
+  ],
+  [
+   "2008-04-24",
+   "Rangers FC",
+   "elsf",
+   9
+  ],
+  [
+   "2008-04-27",
+   "UC Sampdoria",
+   "lg",
+   35
+  ],
+  [
+   "2008-05-01",
+   "Rangers FC",
+   "elsf",
+   41
+  ],
+  [
+   "2008-11-09",
+   "ACF Fiorentina",
+   "lg",
+   26
+  ],
+  [
+   "2008-11-16",
+   "SSC Napoli",
+   "lg",
+   80
+  ],
+  [
+   "2008-11-23",
+   "Reggina Calcio",
+   "lg",
+   45
+  ],
+  [
+   "2008-12-07",
+   "Udinese Calcio",
+   "lg",
+   8
+  ],
+  [
+   "2008-12-21",
+   "Juventus FC",
+   "lg",
+   45
+  ],
+  [
+   "2009-01-11",
+   "US Palermo",
+   "lg",
+   45
+  ],
+  [
+   "2009-01-18",
+   "Inter Milan",
+   "lg",
+   1
+  ],
+  [
+   "2009-01-28",
+   "Bologna FC 1909",
+   "lg",
+   17
+  ],
+  [
+   "2009-02-01",
+   "Calcio Catania",
+   "lg",
+   21
+  ]
+ ],
+ "note": "크리스티안 비에리(토리노·피사·라벤나·베네치아·아탈란타·유벤투스·아틀레티코 마드리드·라치오·인테르·AC 밀란·AS 모나코·피오렌티나)의 클럽 공식 경기 477경기(1991.10.30 라치오전 ~ 2009.2.1 카타니아전)에서 나온 236골 32도움(PK 골 25개), 친선경기·이탈리아 대표팀 제외\n클럽별 경기·골·도움: 토리노(1991~1992) 9·2·0, 피사(1992~1993) 18·2·0, 라벤나(1993~1994) 33·12·0, 베네치아(1994~1995) 29·11·0, 아탈란타(1995~1996·2006~2007·2008~2009) 37·13·1, 유벤투스(1996~1997) 37·14·1, 아틀레티코 마드리드(1997~1998) 32·29·0, 라치오(1998~1999) 28·14·3, 인테르(1999~2005) 190·123·21, AC 밀란(2005) 14·2·2, AS 모나코(2006) 11·5·0, 피오렌티나(2007~2008) 39·9·4. 출전 분 합계 33,340분(Transfermarkt 기록, 90분으로 추정한 경기 없음)\n출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·PK·도움은 Transfermarkt 경기 리포트(골이나 도움이 있는 경기와 리그 밖 경기 전부). 경기 수·골은 영어·이탈리아어 위키백과 클럽·시즌별 기록과 대조함(통산 Transfermarkt 477경기 236골 = 영어 위키백과 476경기 236골, 라벤나 1993-94 코파 이탈리아 1경기를 영어 위키백과만 뺌). FotMob에는 비에리의 클럽 경기별 자료가 없어(2010년 이전) 골 시각은 Transfermarkt만 근거\n넣지 않은 경기: 이탈리아어 위키백과에만 있는 프라토 1989-90 세리에C 코파 이탈리아 1경기(0골)와 베네치아 1994-95 코파 델레 알피 2경기(1골) — 코파 델레 알피는 이탈리아·스위스 클럽 친선 성격의 지역 대회라 공식 대회로 보지 않았고 Transfermarkt에도 경기가 없음. 토리노 1990-91은 출전 기록 없음\n골: Transfermarkt 리포트 골 236개를 모두 씀(자책골 없음). PK 골 25개는 Transfermarkt 골 유형 'Penalty' 기준(선수 경기 성적의 PK 골 수와 같음)\n도움: 모두 Transfermarkt 경기 리포트 도움(2014년 이전이라 단일 출처, 경기마다 다른 출처로 대조하지 못함). 도움 32 = Transfermarkt 39 − PK 유도 4(1996.12.15 베로나전·1997.2.16 페루자전 델 피에로, 1997.3.1 비첸차전 파도바노, 1997.5.18 파르마전 아모루소) − 슈팅 리바운드('Shot on goal') 2(1999.2.21 인테르전 콘세이상, 2000.12.23 아탈란타전 세도르프) − 상대 자책골에 준 도움 1(1998.5.10 바르셀로나전 페르난두 쿠투). 1998.3.21 살라망카전 비에리 PK 골에 비에리 본인이 PK 유도로 적힌 것은 도움이 아님(Transfermarkt 도움 합계에도 없음). 2007.9.29 리보르노전 산타나 골(비에리 크로스, 슈팅이 굴절돼 들어감)은 크로스 도움이라 남김. 유형 칸이 빈 도움 1개(2004.2.15 우디네세전 크루스)는 일반 도움으로 셈\n출전 분: 2003.4.19 브레시아전 18분은 46분 교체 투입 뒤 63분 퇴장(난투로 빌리카와 함께 퇴장, Transfermarkt 리포트)이라 그대로 씀\n날짜는 경기 현지 날짜(Transfermarkt 리포트·일정표 날짜; 선수 경기 성적의 날짜는 킥오프 시각이 없는 1990년대 세리에B·라리가 경기 등에서 하루 앞섬)\n2005.4.12 챔스 8강 2차전 밀란전(관중 소요로 0-1에서 중단, 0-3 몰수)은 비에리가 벤치에만 있어 출전·기록 없음. 1차전(2005.4.6, 35분 출전)은 골·도움이 없어 합산 계산에 쓰이지 않음\n상대 Elo는 같은 경기를 다룬 다른 선수 자료 값, 같은 팀·같은 시즌 다른 선수 자료 값, 직접 추정, 그 시즌 최종 순위(Transfermarkt 순위표를 영어 위키백과 최종 순위와 대조)를 기존 리그 모형에 넣은 값 순으로 씀(기록 268개: 같은 경기 26, 같은 팀·시즌 216, 순위표+모형 20, 직접 6)\n세리에A 18팀 시즌(1991-92·1995-96)은 다른 선수 자료의 18팀 순위값(1위 1969 ~ 18위 1614, 7·9·12·16위는 앞뒤 값의 가운데), 세리에B 1992-93~1995-96은 다른 선수 자료와 같은 세리에B 모형(평균 1578, 2부 흩어짐)에 위키백과 최종 순위(동률은 공동 순위: 1993-94 비첸차 공동 10위)를 넣음. 세리에A 1991-92 라치오는 34점 동률로 Transfermarkt 11위·위키백과 10위라 10위로 씀. 라리가 1997-98 살라망카(15위)는 라울·호나우두·지단 자료와 같은 1990년대 라리가 모형(리그 수준 추정)\n직접 추정(다른 선수 자료의 같은 팀·나라 값 기준): PAOK 1997-98 그리스 4위 1500, AEK 아테네 2007-08 그리스 2위 1550, 믈라다 볼레슬라프 2007-08 체코 7위 1450(모두 추정), 벤피카 2003-04 포르투갈 2위 1795(다른 선수 자료의 포르투갈 2위 값)\n대회 비중: 코파 이탈리아·코파 델 레이·쿠프 드 라 리그는 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중), UEFA 슈퍼컵 1996-97(두 경기)은 국내컵 결승, UEFA컵 1라운드는 유로파 예선, UEFA컵 2라운드 이후·32강과 컵위너스컵 8강은 유로파 토너먼트, 2007-08 UEFA컵 조별은 유로파 조별, 컵위너스컵 준결승·결승(1999 마요르카전)은 유로파 준결승·결승, 챔스 2차 조별(2002-03)은 조별로 계산함. 2000.5.23 세리에A 챔스 진출 플레이오프 파르마전(단판, 골·도움 없음)은 리그 비중\n두 경기 합산(챔스·UEFA컵·컵위너스컵·UEFA 슈퍼컵 1996-97·코파 이탈리아) 기록 39개(27경기)는 합산 S로 계산함(원정 다득점·연장 있음). 비에리가 뛰지 않은 다른 차전 스코어는 Transfermarkt 경기 리포트로 채움(1997.2.5 UEFA 슈퍼컵 2차전 파리 생제르맹전의 1차전 원정 6-1, 2001.12.6 UEFA컵 3라운드 2차전 입스위치전의 1차전 원정 0-1 등)\n시즌 구분은 기본 8월 1일 기준(7월 경기 없음). 클럽 구분은 1992.11.10 전 토리노, 1993.7.1 전 피사, 1994.7.1 전 라벤나, 1995.7.1 전 베네치아, 1996.7.1 전 아탈란타, 1997.7.1 전 유벤투스, 1998.7.1 전 아틀레티코 마드리드, 1999.7.1 전 라치오, 2005.7.1 전 인테르, 2006.1.1 전 AC 밀란, 2006.7.1 전 AS 모나코, 2007.7.1 전 아탈란타, 2008.7.1 전 피오렌티나, 이후 아탈란타(아탈란타 세 시기는 한 클럽으로 묶음)\n동료 자료 대조: 같은 경기를 다룬 델 피에로·지단·네드베드·호나우두·세도르프·셰브첸코·카카 자료의 대회·상대 Elo·합산 정보가 모두 같음. 세도르프 도움→비에리 골 4개, 델 피에로·호나우두 도움→비에리 골 각 1개, 비에리 도움→셰브첸코 골 2개·호나우두·세도르프 골 각 1개의 날짜·분·스코어가 같음. Transfermarkt가 비에리 도움으로 적었으나 뺀 델 피에로 PK 2개(1996.12.15·1997.2.16)와 세도르프 리바운드 골(2000.12.23)은 동료 자료에도 비에리 도움이 없음\n수상 기록은 Transfermarkt 업적 페이지 기준: 세리에A 1996-97(유벤투스), 코파 이탈리아 1992-93(토리노)·2004-05(인테르), UEFA 슈퍼컵 1996-97, 인터콘티넨털컵 1996(유벤투스, 비에리 출전 없음). 컵위너스컵 1998-99(라치오), 준우승은 챔스 결승 1996-97(유벤투스)과 UEFA컵 1991-92(토리노, 비에리 출전 없음). 개인: 라리가 득점왕 1997-98(24골)·세리에A 득점왕 2002-03(24골), 올해의 선수 1999·2002. U-21 유럽선수권·월드컵 등 대표팀 기록은 뺌\n은퇴: 2009년 아탈란타에서 은퇴(마지막 클럽 경기 2009.2.1 카타니아전)",
+ "judgments": [
+  [
+   "본인 PK 골의 본인 도움(도움 아님)",
+   "1998-03-21",
+   "82"
+  ],
+  [
+   "도움 제외",
+   "1998-05-10",
+   "FC Barcelona",
+   "25",
+   "Fernando Couto",
+   "상대 자책골(페르난두 쿠투)"
+  ],
+  [
+   "도움 제외",
+   "1999-02-21",
+   "Inter Milan",
+   "39",
+   "Sérgio Conceição",
+   "슈팅 리바운드(Shot on goal, 콘세이상)"
+  ],
+  [
+   "도움 제외",
+   "1996-12-15",
+   "Hellas Verona",
+   "64",
+   "Alessandro Del Piero",
+   "PK 유도(델 피에로 PK)"
+  ],
+  [
+   "도움 제외",
+   "1997-02-16",
+   "AC Perugia",
+   "37",
+   "Alessandro Del Piero",
+   "PK 유도(델 피에로 PK)"
+  ],
+  [
+   "도움 제외",
+   "1997-03-01",
+   "Vicenza Calcio",
+   "62",
+   "Michele Padovano",
+   "PK 유도(파도바노 PK)"
+  ],
+  [
+   "도움 제외",
+   "1997-05-18",
+   "AC Parma",
+   "39",
+   "Nicola Amoruso",
+   "PK 유도(아모루소 PK)"
+  ],
+  [
+   "도움 제외",
+   "2000-12-23",
+   "Atalanta BC",
+   "65",
+   "Clarence Seedorf",
+   "슈팅 리바운드(Shot on goal, 세도르프)"
+  ]
+ ],
+ "cross_check": [
+  [
+   "Alessandro Del Piero 도움→비에리 골",
+   "1997-02-05",
+   93,
+   "같음"
+  ],
+  [
+   "TM 비에리 도움을 뺀 동료 골",
+   "Alessandro Del Piero",
+   "1996-12-15",
+   "64",
+   "Penalty: Fouled player",
+   "동료 골 있음"
+  ],
+  [
+   "TM 비에리 도움을 뺀 동료 골",
+   "Alessandro Del Piero",
+   "1997-02-16",
+   "37",
+   "Penalty: Fouled player",
+   "동료 골 있음"
+  ],
+  [
+   "비에리 도움→Ronaldo 골",
+   "2001-12-09",
+   19,
+   "같음"
+  ],
+  [
+   "Ronaldo 도움→비에리 골",
+   "2001-12-15",
+   25,
+   "같음"
+  ],
+  [
+   "TM 동료 도움이 동료 파일에 없음",
+   "Ronaldo",
+   "2001-12-23",
+   "45+1",
+   "Penalty: Fouled player"
+  ],
+  [
+   "비에리 도움→Clarence Seedorf 골",
+   "2002-02-10",
+   89,
+   "같음"
+  ],
+  [
+   "Clarence Seedorf 도움→비에리 골",
+   "2001-05-17",
+   90,
+   "같음"
+  ],
+  [
+   "Clarence Seedorf 도움→비에리 골",
+   "2002-02-17",
+   57,
+   "같음"
+  ],
+  [
+   "Clarence Seedorf 도움→비에리 골",
+   "2002-02-24",
+   28,
+   "같음"
+  ],
+  [
+   "Clarence Seedorf 도움→비에리 골",
+   "2005-10-26",
+   55,
+   "같음"
+  ],
+  [
+   "TM 비에리 도움을 뺀 동료 골",
+   "Clarence Seedorf",
+   "2000-12-23",
+   "65",
+   "Shot on goal",
+   "동료 골 있음"
+  ],
+  [
+   "비에리 도움→Andriy Shevchenko 골",
+   "2005-09-21",
+   12,
+   "같음"
+  ],
+  [
+   "비에리 도움→Andriy Shevchenko 골",
+   "2005-11-23",
+   76,
+   "같음"
+  ]
+ ],
+ "same_game": [
+  [
+   "del.js",
+   "1996-08-28",
+   "AS Fidelis Andria",
+   "같음"
+  ],
+  [
+   "del.js",
+   "1997-02-05",
+   "Paris Saint-Germain",
+   "같음"
+  ],
+  [
+   "kak.js",
+   "2005-09-21",
+   "SS Lazio",
+   "같음"
+  ],
+  [
+   "ned.js",
+   "1999-05-19",
+   "RCD Mallorca",
+   "같음"
+  ],
+  [
+   "rno.js",
+   "2001-12-09",
+   "Brescia Calcio",
+   "같음"
+  ],
+  [
+   "rno.js",
+   "2001-12-15",
+   "Chievo Verona",
+   "같음"
+  ],
+  [
+   "rno.js",
+   "2001-12-19",
+   "Hellas Verona",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2000-01-06",
+   "AC Perugia",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2000-01-12",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2001-05-17",
+   "AC Parma",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2001-06-17",
+   "Bologna FC 1909",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2002-02-10",
+   "Bologna FC 1909",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2002-02-17",
+   "Hellas Verona",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2002-02-21",
+   "AEK Athens",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2002-02-24",
+   "Udinese Calcio",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2005-10-26",
+   "FC Empoli",
+   "같음"
+  ],
+  [
+   "see.js",
+   "2005-11-23",
+   "Fenerbahce",
+   "같음"
+  ],
+  [
+   "she.js",
+   "2005-09-21",
+   "SS Lazio",
+   "같음"
+  ],
+  [
+   "she.js",
+   "2005-11-23",
+   "Fenerbahce",
+   "같음"
+  ],
+  [
+   "zid.js",
+   "1997-04-06",
+   "AC Milan",
+   "같음"
+  ],
+  [
+   "zid.js",
+   "1997-04-23",
+   "Ajax Amsterdam",
+   "같음"
+  ],
+  [
+   "zid.js",
+   "1997-05-15",
+   "Piacenza FC",
+   "같음"
+  ]
+ ],
+ "elo_sources": {
+  "팀×시즌 통합표": 216,
+  "같은 경기 다른 선수 자료": 26,
+  "순위표+리그 모형": 20,
+  "직접 추정": 6
+ },
+ "elo_log": [
+  [
+   "2002-11-12",
+   "Ajax Amsterdam",
+   1735,
+   "에레디비시 2002-03 2위",
+   "table 2002-03"
+  ],
+  [
+   "2003-03-11",
+   "Newcastle United",
+   1820,
+   "프리미어리그 2002-03 3위",
+   "table 2002-03"
+  ],
+  [
+   "2002-09-14",
+   "Torino Calcio",
+   1614,
+   "세리에A 2002-03 18위",
+   "table 2002-03"
+  ],
+  [
+   "2002-09-22",
+   "Reggina Calcio",
+   1676,
+   "세리에A 2002-03 14위",
+   "table 2002-03"
+  ],
+  [
+   "2002-09-29",
+   "Chievo Verona",
+   1762,
+   "세리에A 2002-03 7위",
+   "table 2002-03"
+  ],
+  [
+   "2002-09-29",
+   "Chievo Verona",
+   1762,
+   "세리에A 2002-03 7위",
+   "table 2002-03"
+  ],
+  [
+   "2002-10-19",
+   "Juventus FC",
+   1969,
+   "세리에A 2002-03 1위",
+   "table 2002-03"
+  ],
+  [
+   "2002-10-27",
+   "Bologna FC 1909",
+   1704,
+   "세리에A 2002-03 11위",
+   "table 2002-03"
+  ],
+  [
+   "2002-11-03",
+   "Como Calcio",
+   1633,
+   "세리에A 2002-03 17위",
+   "table 2002-03"
+  ],
+  [
+   "2002-11-09",
+   "Udinese Calcio",
+   1780,
+   "세리에A 2002-03 6위",
+   "table 2002-03"
+  ],
+  [
+   "2002-12-01",
+   "Brescia Calcio",
+   1728,
+   "세리에A 2002-03 9위",
+   "table 2002-03"
+  ],
+  [
+   "2002-12-01",
+   "Brescia Calcio",
+   1728,
+   "세리에A 2002-03 9위",
+   "table 2002-03"
+  ],
+  [
+   "2002-12-01",
+   "Brescia Calcio",
+   1728,
+   "세리에A 2002-03 9위",
+   "table 2002-03"
+  ],
+  [
+   "2002-12-01",
+   "Brescia Calcio",
+   1728,
+   "세리에A 2002-03 9위",
+   "table 2002-03"
+  ],
+  [
+   "2003-01-19",
+   "AC Perugia",
+   1713,
+   "세리에A 2002-03 10위",
+   "table 2002-03"
+  ],
+  [
+   "2003-01-26",
+   "FC Empoli",
+   1690,
+   "세리에A 2002-03 13위",
+   "table 2002-03"
+  ],
+  [
+   "2003-01-26",
+   "FC Empoli",
+   1690,
+   "세리에A 2002-03 13위",
+   "table 2002-03"
+  ],
+  [
+   "2003-01-26",
+   "FC Empoli",
+   1690,
+   "세리에A 2002-03 13위",
+   "table 2002-03"
+  ],
+  [
+   "2003-02-02",
+   "Torino Calcio",
+   1614,
+   "세리에A 2002-03 18위",
+   "table 2002-03"
+  ],
+  [
+   "2003-02-09",
+   "Reggina Calcio",
+   1676,
+   "세리에A 2002-03 14위",
+   "table 2002-03"
+  ],
+  [
+   "2003-02-15",
+   "Chievo Verona",
+   1762,
+   "세리에A 2002-03 7위",
+   "table 2002-03"
+  ],
+  [
+   "2003-02-23",
+   "Piacenza FC",
+   1645,
+   "세리에A 2002-03 16위",
+   "table 2002-03"
+  ],
+  [
+   "2003-02-23",
+   "Piacenza FC",
+   1645,
+   "세리에A 2002-03 16위",
+   "table 2002-03"
+  ],
+  [
+   "2003-03-16",
+   "Como Calcio",
+   1633,
+   "세리에A 2002-03 17위",
+   "table 2002-03"
+  ],
+  [
+   "2003-03-16",
+   "Como Calcio",
+   1633,
+   "세리에A 2002-03 17위",
+   "table 2002-03"
+  ],
+  [
+   "2003-04-06",
+   "AS Roma",
+   1743,
+   "세리에A 2002-03 8위",
+   "table 2002-03"
+  ],
+  [
+   "2001-08-26",
+   "AC Perugia",
+   1743,
+   "세리에A 2001-02 8위",
+   "table 2001-02"
+  ],
+  [
+   "2001-08-26",
+   "AC Perugia",
+   1743,
+   "세리에A 2001-02 8위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-19",
+   "Hellas Verona",
+   1657,
+   "세리에A 2001-02 15위",
+   "same:호나우두 [Hellas Verona]"
+  ],
+  [
+   "2001-11-25",
+   "AC Fiorentina",
+   1633,
+   "세리에A 2001-02 17위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-02",
+   "Atalanta BC",
+   1728,
+   "세리에A 2001-02 9위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-02",
+   "Atalanta BC",
+   1728,
+   "세리에A 2001-02 9위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-09",
+   "Brescia Calcio",
+   1690,
+   "세리에A 2001-02 13위",
+   "same:호나우두 [Brescia Calcio]"
+  ],
+  [
+   "2001-12-09",
+   "Brescia Calcio",
+   1690,
+   "세리에A 2001-02 13위",
+   "same:호나우두 [Brescia Calcio]"
+  ],
+  [
+   "2001-12-09",
+   "Brescia Calcio",
+   1690,
+   "세리에A 2001-02 13위",
+   "same:호나우두 [Brescia Calcio]"
+  ],
+  [
+   "2001-12-15",
+   "Chievo Verona",
+   1793,
+   "세리에A 2001-02 5위",
+   "same:호나우두 [Chievo Verona]"
+  ],
+  [
+   "2001-12-23",
+   "Piacenza FC",
+   1697,
+   "세리에A 2001-02 12위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-23",
+   "Piacenza FC",
+   1697,
+   "세리에A 2001-02 12위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-23",
+   "Piacenza FC",
+   1697,
+   "세리에A 2001-02 12위",
+   "table 2001-02"
+  ],
+  [
+   "2002-01-13",
+   "AC Perugia",
+   1743,
+   "세리에A 2001-02 8위",
+   "table 2001-02"
+  ],
+  [
+   "2002-01-20",
+   "AC Parma",
+   1713,
+   "세리에A 2001-02 10위",
+   "table 2001-02"
+  ],
+  [
+   "2002-01-27",
+   "AC Venezia 1907",
+   1614,
+   "세리에A 2001-02 18위",
+   "table 2001-02"
+  ],
+  [
+   "2002-02-10",
+   "Bologna FC 1909",
+   1762,
+   "세리에A 2001-02 7위",
+   "same:클라렌스 세도르프 [Bologna FC 1909]"
+  ],
+  [
+   "2002-02-17",
+   "Hellas Verona",
+   1657,
+   "세리에A 2001-02 15위",
+   "same:클라렌스 세도르프 [Hellas Verona]"
+  ],
+  [
+   "2002-02-17",
+   "Hellas Verona",
+   1657,
+   "세리에A 2001-02 15위",
+   "same:클라렌스 세도르프 [Hellas Verona]"
+  ],
+  [
+   "2002-02-17",
+   "Hellas Verona",
+   1657,
+   "세리에A 2001-02 15위",
+   "same:클라렌스 세도르프 [Hellas Verona]"
+  ],
+  [
+   "2002-02-24",
+   "Udinese Calcio",
+   1676,
+   "세리에A 2001-02 14위",
+   "same:클라렌스 세도르프 [Udinese Calcio]"
+  ],
+  [
+   "2002-03-03",
+   "AC Milan",
+   1808,
+   "세리에A 2001-02 4위",
+   "table 2001-02"
+  ],
+  [
+   "2002-03-24",
+   "AS Roma",
+   1884,
+   "세리에A 2001-02 2위",
+   "table 2001-02"
+  ],
+  [
+   "2002-03-24",
+   "AS Roma",
+   1884,
+   "세리에A 2001-02 2위",
+   "table 2001-02"
+  ],
+  [
+   "2002-03-30",
+   "AC Fiorentina",
+   1633,
+   "세리에A 2001-02 17위",
+   "table 2001-02"
+  ],
+  [
+   "2002-04-07",
+   "Atalanta BC",
+   1728,
+   "세리에A 2001-02 9위",
+   "table 2001-02"
+  ],
+  [
+   "2002-05-05",
+   "SS Lazio",
+   1780,
+   "세리에A 2001-02 6위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-06",
+   "Ipswich Town",
+   1612,
+   "프리미어리그 2001-02 18위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-06",
+   "Ipswich Town",
+   1612,
+   "프리미어리그 2001-02 18위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-06",
+   "Ipswich Town",
+   1612,
+   "프리미어리그 2001-02 18위",
+   "table 2001-02"
+  ],
+  [
+   "2001-12-06",
+   "Ipswich Town",
+   1612,
+   "프리미어리그 2001-02 18위",
+   "table 2001-02"
+  ],
+  [
+   "2002-02-21",
+   "AEK Athens",
+   1550,
+   "그리스 2001-02 2위 (추정, 다른 선수 자료의 AEK 2002-03·2003-04 1550과 같음)",
+   "same:클라렌스 세도르프 [AEK Athens]"
+  ],
+  [
+   "2003-10-18",
+   "Brescia Calcio",
+   1704,
+   "세리에A 2003-04 11위",
+   "table 2003-04"
+  ],
+  [
+   "2003-11-25",
+   "Arsenal FC",
+   1968,
+   "프리미어리그 2003-04 1위",
+   "table 2003-04"
+  ],
+  [
+   "2003-11-02",
+   "Chievo Verona",
+   1728,
+   "세리에A 2003-04 9위",
+   "table 2003-04"
+  ],
+  [
+   "2003-11-02",
+   "Chievo Verona",
+   1728,
+   "세리에A 2003-04 9위",
+   "table 2003-04"
+  ],
+  [
+   "2003-11-09",
+   "Ancona Calcio",
+   1614,
+   "세리에A 2003-04 18위",
+   "table 2003-04"
+  ],
+  [
+   "1997-09-28",
+   "Celta de Vigo",
+   1779,
+   "라리가 1997-98 6위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-09-28",
+   "Celta de Vigo",
+   1779,
+   "라리가 1997-98 6위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-10-05",
+   "Real Oviedo",
+   1618,
+   "라리가 1997-98 18위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-10-19",
+   "Real Zaragoza",
+   1680,
+   "라리가 1997-98 13위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-10-19",
+   "Real Zaragoza",
+   1680,
+   "라리가 1997-98 13위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-10-19",
+   "Real Zaragoza",
+   1680,
+   "라리가 1997-98 13위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-11-01",
+   "Real Betis Balompié",
+   1746,
+   "라리가 1997-98 8위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-01-04",
+   "Racing Santander",
+   1668,
+   "라리가 1997-98 14위",
+   "table 1997-98"
+  ],
+  [
+   "1998-01-24",
+   "Athletic Bilbao",
+   1892,
+   "라리가 1997-98 2위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-01-24",
+   "Athletic Bilbao",
+   1892,
+   "라리가 1997-98 2위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-02-09",
+   "Real Oviedo",
+   1618,
+   "라리가 1997-98 18위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-02-09",
+   "Real Oviedo",
+   1618,
+   "라리가 1997-98 18위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-02-23",
+   "Real Zaragoza",
+   1680,
+   "라리가 1997-98 13위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-02-28",
+   "RCD Espanyol Barcelona",
+   1711,
+   "라리가 1997-98 10위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-03-14",
+   "SD Compostela",
+   1630,
+   "라리가 1997-98 17위",
+   "table 1997-98"
+  ],
+  [
+   "1998-03-21",
+   "UD Salamanca",
+   1665,
+   "라리가 1997-98 15위 (리그 수준 추정)",
+   "model ES1"
+  ],
+  [
+   "1998-03-21",
+   "UD Salamanca",
+   1665,
+   "라리가 1997-98 15위 (리그 수준 추정)",
+   "model ES1"
+  ],
+  [
+   "1998-03-21",
+   "UD Salamanca",
+   1665,
+   "라리가 1997-98 15위 (리그 수준 추정)",
+   "model ES1"
+  ],
+  [
+   "1998-03-21",
+   "UD Salamanca",
+   1665,
+   "라리가 1997-98 15위 (리그 수준 추정)",
+   "model ES1"
+  ],
+  [
+   "1998-04-19",
+   "Sporting Gijón",
+   1589,
+   "라리가 1997-98 20위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-05-10",
+   "FC Barcelona",
+   2040,
+   "라리가 1997-98 1위",
+   "table 1997-98"
+  ],
+  [
+   "1998-05-10",
+   "FC Barcelona",
+   2040,
+   "라리가 1997-98 1위",
+   "table 1997-98"
+  ],
+  [
+   "1999-08-29",
+   "Hellas Verona",
+   1728,
+   "세리에A 1999-00 9위",
+   "table 1999-00"
+  ],
+  [
+   "1999-08-29",
+   "Hellas Verona",
+   1728,
+   "세리에A 1999-00 9위",
+   "table 1999-00"
+  ],
+  [
+   "1999-08-29",
+   "Hellas Verona",
+   1728,
+   "세리에A 1999-00 9위",
+   "table 1999-00"
+  ],
+  [
+   "1999-09-19",
+   "AC Parma",
+   1793,
+   "세리에A 1999-00 5위",
+   "table 1999-00"
+  ],
+  [
+   "1999-09-19",
+   "AC Parma",
+   1793,
+   "세리에A 1999-00 5위",
+   "table 1999-00"
+  ],
+  [
+   "1999-09-19",
+   "AC Parma",
+   1793,
+   "세리에A 1999-00 5위",
+   "table 1999-00"
+  ],
+  [
+   "1999-09-19",
+   "AC Parma",
+   1793,
+   "세리에A 1999-00 5위",
+   "table 1999-00"
+  ],
+  [
+   "1999-09-26",
+   "Torino Calcio",
+   1657,
+   "세리에A 1999-00 15위",
+   "table 1999-00"
+  ],
+  [
+   "1999-12-05",
+   "Udinese Calcio",
+   1743,
+   "세리에A 1999-00 8위",
+   "table 1999-00"
+  ],
+  [
+   "1999-12-05",
+   "Udinese Calcio",
+   1743,
+   "세리에A 1999-00 8위",
+   "table 1999-00"
+  ],
+  [
+   "1999-12-18",
+   "AS Bari",
+   1676,
+   "세리에A 1999-00 14위",
+   "table 1999-00"
+  ],
+  [
+   "2000-01-06",
+   "AC Perugia",
+   1713,
+   "세리에A 1999-00 10위",
+   "same:클라렌스 세도르프 [AC Perugia]"
+  ],
+  [
+   "2000-01-30",
+   "AS Roma",
+   1780,
+   "세리에A 1999-00 6위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-06",
+   "AC Parma",
+   1793,
+   "세리에A 1999-00 5위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-13",
+   "Torino Calcio",
+   1657,
+   "세리에A 1999-00 15위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-20",
+   "Piacenza FC",
+   1614,
+   "세리에A 1999-00 18위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-27",
+   "AC Venezia 1907",
+   1645,
+   "세리에A 1999-00 16위",
+   "table 1999-00"
+  ],
+  [
+   "1999-01-06",
+   "Bologna FC 1909",
+   1728,
+   "세리에A 1998-99 9위",
+   "table 1998-99"
+  ],
+  [
+   "1999-01-10",
+   "AC Fiorentina",
+   1837,
+   "세리에A 1998-99 3위",
+   "table 1998-99"
+  ],
+  [
+   "1999-01-17",
+   "AC Parma",
+   1808,
+   "세리에A 1998-99 4위",
+   "table 1998-99"
+  ],
+  [
+   "1999-01-24",
+   "Piacenza FC",
+   1697,
+   "세리에A 1998-99 12위",
+   "table 1998-99"
+  ],
+  [
+   "1999-01-31",
+   "AS Bari",
+   1713,
+   "세리에A 1998-99 10위",
+   "table 1998-99"
+  ],
+  [
+   "1999-01-31",
+   "AS Bari",
+   1713,
+   "세리에A 1998-99 10위",
+   "table 1998-99"
+  ],
+  [
+   "1999-02-07",
+   "AC Perugia",
+   1676,
+   "세리에A 1998-99 14위",
+   "table 1998-99"
+  ],
+  [
+   "1999-02-07",
+   "AC Perugia",
+   1676,
+   "세리에A 1998-99 14위",
+   "table 1998-99"
+  ],
+  [
+   "1999-03-07",
+   "US Salernitana",
+   1657,
+   "세리에A 1998-99 15위",
+   "table 1998-99"
+  ],
+  [
+   "1999-03-07",
+   "US Salernitana",
+   1657,
+   "세리에A 1998-99 15위",
+   "table 1998-99"
+  ],
+  [
+   "1999-04-11",
+   "AS Roma",
+   1793,
+   "세리에A 1998-99 5위",
+   "table 1998-99"
+  ],
+  [
+   "1999-04-25",
+   "UC Sampdoria",
+   1645,
+   "세리에A 1998-99 16위",
+   "table 1998-99"
+  ],
+  [
+   "1999-05-02",
+   "Udinese Calcio",
+   1780,
+   "세리에A 1998-99 6위",
+   "table 1998-99"
+  ],
+  [
+   "1999-05-09",
+   "Bologna FC 1909",
+   1728,
+   "세리에A 1998-99 9위",
+   "table 1998-99"
+  ],
+  [
+   "1999-05-15",
+   "AC Fiorentina",
+   1837,
+   "세리에A 1998-99 3위",
+   "table 1998-99"
+  ],
+  [
+   "1996-09-08",
+   "AC Reggiana",
+   1614,
+   "세리에A 1996-97 18위",
+   "table 1996-97"
+  ],
+  [
+   "1997-03-01",
+   "Vicenza Calcio",
+   1743,
+   "세리에A 1996-97 8위",
+   "table 1996-97"
+  ],
+  [
+   "1997-03-15",
+   "AS Roma",
+   1697,
+   "세리에A 1996-97 12위",
+   "table 1996-97"
+  ],
+  [
+   "1997-03-15",
+   "AS Roma",
+   1697,
+   "세리에A 1996-97 12위",
+   "table 1996-97"
+  ],
+  [
+   "1997-04-06",
+   "AC Milan",
+   1704,
+   "세리에A 1996-97 11위",
+   "same:지네딘 지단 [AC Milan]"
+  ],
+  [
+   "1997-04-06",
+   "AC Milan",
+   1704,
+   "세리에A 1996-97 11위",
+   "same:지네딘 지단 [AC Milan]"
+  ],
+  [
+   "1997-05-15",
+   "Piacenza FC",
+   1676,
+   "세리에A 1996-97 14위",
+   "same:지네딘 지단 [Piacenza FC]"
+  ],
+  [
+   "1997-05-15",
+   "Piacenza FC",
+   1676,
+   "세리에A 1996-97 14위",
+   "same:지네딘 지단 [Piacenza FC]"
+  ],
+  [
+   "1997-06-01",
+   "SS Lazio",
+   1808,
+   "세리에A 1996-97 4위",
+   "table 1996-97"
+  ],
+  [
+   "1995-08-27",
+   "AC Parma",
+   1780,
+   "세리에A 1995-96 6위",
+   "table 1995-96"
+  ],
+  [
+   "1995-09-10",
+   "AS Roma",
+   1793,
+   "세리에A 1995-96 5위",
+   "model IT1"
+  ],
+  [
+   "1995-09-17",
+   "SSC Napoli",
+   1697,
+   "세리에A 1995-96 12위",
+   "model IT1"
+  ],
+  [
+   "1996-02-18",
+   "Piacenza FC",
+   1676,
+   "세리에A 1995-96 14위",
+   "table 1995-96"
+  ],
+  [
+   "1996-04-10",
+   "AS Bari",
+   1657,
+   "세리에A 1995-96 15위",
+   "table 1995-96"
+  ],
+  [
+   "1996-04-14",
+   "Cagliari Calcio",
+   1713,
+   "세리에A 1995-96 10위",
+   "table 1995-96"
+  ],
+  [
+   "1996-04-14",
+   "Cagliari Calcio",
+   1713,
+   "세리에A 1995-96 10위",
+   "table 1995-96"
+  ],
+  [
+   "1992-05-09",
+   "Genoa 1893",
+   1676,
+   "세리에A 1991-92 14위",
+   "model IT1"
+  ],
+  [
+   "2000-11-18",
+   "AC Perugia",
+   1704,
+   "세리에A 2000-01 11위",
+   "table 2000-01"
+  ],
+  [
+   "2001-01-14",
+   "AC Parma",
+   1808,
+   "세리에A 2000-01 4위",
+   "table 2000-01"
+  ],
+  [
+   "2001-01-28",
+   "AS Bari",
+   1614,
+   "세리에A 2000-01 18위",
+   "table 2000-01"
+  ],
+  [
+   "2001-02-04",
+   "Bologna FC 1909",
+   1713,
+   "세리에A 2000-01 10위",
+   "table 2000-01"
+  ],
+  [
+   "2001-02-10",
+   "Reggina Calcio",
+   1657,
+   "세리에A 2000-01 15위",
+   "table 2000-01"
+  ],
+  [
+   "2001-03-04",
+   "AS Roma",
+   1969,
+   "세리에A 2000-01 1위",
+   "table 2000-01"
+  ],
+  [
+   "2001-03-04",
+   "AS Roma",
+   1969,
+   "세리에A 2000-01 1위",
+   "table 2000-01"
+  ],
+  [
+   "2001-03-11",
+   "Hellas Verona",
+   1676,
+   "세리에A 2000-01 14위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-01",
+   "AC Perugia",
+   1704,
+   "세리에A 2000-01 11위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-01",
+   "AC Perugia",
+   1704,
+   "세리에A 2000-01 11위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-01",
+   "AC Perugia",
+   1704,
+   "세리에A 2000-01 11위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-14",
+   "Juventus FC",
+   1884,
+   "세리에A 2000-01 2위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-21",
+   "AC Fiorentina",
+   1728,
+   "세리에A 2000-01 9위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-21",
+   "AC Fiorentina",
+   1728,
+   "세리에A 2000-01 9위",
+   "table 2000-01"
+  ],
+  [
+   "2001-04-21",
+   "AC Fiorentina",
+   1728,
+   "세리에A 2000-01 9위",
+   "table 2000-01"
+  ],
+  [
+   "2001-05-06",
+   "Atalanta BC",
+   1762,
+   "세리에A 2000-01 7위",
+   "table 2000-01"
+  ],
+  [
+   "2001-05-06",
+   "Atalanta BC",
+   1762,
+   "세리에A 2000-01 7위",
+   "table 2000-01"
+  ],
+  [
+   "2001-05-06",
+   "Atalanta BC",
+   1762,
+   "세리에A 2000-01 7위",
+   "table 2000-01"
+  ],
+  [
+   "2001-05-17",
+   "AC Parma",
+   1808,
+   "세리에A 2000-01 4위",
+   "same:클라렌스 세도르프 [AC Parma]"
+  ],
+  [
+   "2001-06-17",
+   "Bologna FC 1909",
+   1713,
+   "세리에A 2000-01 10위",
+   "same:클라렌스 세도르프 [Bologna FC 1909]"
+  ],
+  [
+   "2001-02-15",
+   "Deportivo Alavés",
+   1728,
+   "라리가 2000-01 10위",
+   "table 2000-01"
+  ],
+  [
+   "2001-02-15",
+   "Deportivo Alavés",
+   1728,
+   "라리가 2000-01 10위",
+   "table 2000-01"
+  ],
+  [
+   "1997-10-15",
+   "CP Mérida",
+   1609,
+   "라리가 1997-98 19위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1998-02-15",
+   "CP Mérida",
+   1609,
+   "라리가 1997-98 19위 (리그 수준 추정)",
+   "table 1997-98"
+  ],
+  [
+   "1997-09-16",
+   "Leicester City",
+   1658,
+   "프리미어리그 1997-98 10위",
+   "table 1997-98"
+  ],
+  [
+   "1997-10-21",
+   "PAOK Thessaloniki",
+   1500,
+   "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "man"
+  ],
+  [
+   "1997-10-21",
+   "PAOK Thessaloniki",
+   1500,
+   "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "man"
+  ],
+  [
+   "1997-10-21",
+   "PAOK Thessaloniki",
+   1500,
+   "그리스 1997-98 4위 (추정, 다른 선수 자료의 AEK 상위권 1550보다 낮게)",
+   "man"
+  ],
+  [
+   "1998-03-03",
+   "Aston Villa",
+   1711,
+   "프리미어리그 1997-98 7위",
+   "table 1997-98"
+  ],
+  [
+   "2003-11-22",
+   "Reggina Calcio",
+   1690,
+   "세리에A 2003-04 13위",
+   "table 2003-04"
+  ],
+  [
+   "2005-11-29",
+   "Brescia Calcio",
+   1577,
+   "세리에B 2005-06 10위",
+   "table 2005-06"
+  ],
+  [
+   "2004-11-21",
+   "Bologna FC 1909",
+   1640,
+   "세리에A 2004-05 18위",
+   "table 2004-05"
+  ],
+  [
+   "2005-05-18",
+   "Cagliari Calcio",
+   1705,
+   "세리에A 2004-05 12위",
+   "table 2004-05"
+  ],
+  [
+   "2005-05-18",
+   "Cagliari Calcio",
+   1705,
+   "세리에A 2004-05 12위",
+   "table 2004-05"
+  ],
+  [
+   "2005-05-18",
+   "Cagliari Calcio",
+   1705,
+   "세리에A 2004-05 12위",
+   "table 2004-05"
+  ],
+  [
+   "1999-12-15",
+   "Bologna FC 1909",
+   1697,
+   "세리에A 1999-00 12위",
+   "table 1999-00"
+  ],
+  [
+   "1999-12-15",
+   "Bologna FC 1909",
+   1697,
+   "세리에A 1999-00 12위",
+   "table 1999-00"
+  ],
+  [
+   "2000-01-12",
+   "AC Milan",
+   1837,
+   "세리에A 1999-00 3위",
+   "same:클라렌스 세도르프 [AC Milan]"
+  ],
+  [
+   "2000-02-09",
+   "Cagliari Calcio",
+   1633,
+   "세리에A 1999-00 17위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-09",
+   "Cagliari Calcio",
+   1633,
+   "세리에A 1999-00 17위",
+   "table 1999-00"
+  ],
+  [
+   "2000-02-09",
+   "Cagliari Calcio",
+   1633,
+   "세리에A 1999-00 17위",
+   "table 1999-00"
+  ],
+  [
+   "1999-01-27",
+   "Inter Milan",
+   1743,
+   "세리에A 1998-99 8위",
+   "table 1998-99"
+  ],
+  [
+   "1996-08-28",
+   "AS Fidelis Andria",
+   1546,
+   "세리에C1 B조 1996-97 1위/18팀 (추정)",
+   "same:알레산드로 델 피에로 [AS Fidelis Andria]"
+  ],
+  [
+   "1994-09-25",
+   "Atalanta BC",
+   1620,
+   "세리에B 1994-95 4위",
+   "table 1994-95"
+  ],
+  [
+   "1994-10-09",
+   "Hellas Verona",
+   1570,
+   "세리에B 1994-95 10위",
+   "model IT2"
+  ],
+  [
+   "1994-12-11",
+   "US Salernitana",
+   1611,
+   "세리에B 1994-95 5위",
+   "table 1994-95"
+  ],
+  [
+   "1994-12-18",
+   "AC Cesena",
+   1588,
+   "세리에B 1994-95 8위",
+   "table 1994-95"
+  ],
+  [
+   "1994-12-18",
+   "AC Cesena",
+   1588,
+   "세리에B 1994-95 8위",
+   "table 1994-95"
+  ],
+  [
+   "1995-01-15",
+   "AS Fidelis Andria",
+   1554,
+   "세리에B 1994-95 13위",
+   "model IT2"
+  ],
+  [
+   "1995-02-12",
+   "Como Calcio",
+   1518,
+   "세리에B 1994-95 19위",
+   "table 1994-95"
+  ],
+  [
+   "2006-01-18",
+   "FC Toulouse",
+   1635,
+   "리그1 2005-06 16위",
+   "table 2005-06"
+  ],
+  [
+   "1995-03-26",
+   "Chievo Verona",
+   1551,
+   "세리에B 1994-95 14위",
+   "table 1994-95"
+  ],
+  [
+   "1995-04-02",
+   "Vicenza Calcio",
+   1637,
+   "세리에B 1994-95 3위",
+   "table 1994-95"
+  ],
+  [
+   "1995-04-15",
+   "US Palermo",
+   1559,
+   "세리에B 1994-95 12위",
+   "table 1994-95"
+  ],
+  [
+   "2003-12-07",
+   "AC Perugia",
+   1657,
+   "세리에A 2003-04 15위",
+   "table 2003-04"
+  ],
+  [
+   "2003-12-07",
+   "AC Perugia",
+   1657,
+   "세리에A 2003-04 15위",
+   "table 2003-04"
+  ],
+  [
+   "1995-05-28",
+   "Ascoli Calcio 1898",
+   1522,
+   "세리에B 1994-95 18위",
+   "table 1994-95"
+  ],
+  [
+   "2004-10-20",
+   "Valencia CF",
+   1751,
+   "라리가 2004-05 7위",
+   "table 2004-05"
+  ],
+  [
+   "1993-11-13",
+   "AC Cesena",
+   1611,
+   "세리에B 1993-94 5위",
+   "model IT2"
+  ],
+  [
+   "1993-11-28",
+   "Vicenza Calcio",
+   1570,
+   "세리에B 1993-94 10위",
+   "model IT2"
+  ],
+  [
+   "1993-11-28",
+   "Vicenza Calcio",
+   1570,
+   "세리에B 1993-94 10위",
+   "model IT2"
+  ],
+  [
+   "2004-09-11",
+   "Chievo Verona",
+   1683,
+   "세리에A 2004-05 15위",
+   "table 2004-05"
+  ],
+  [
+   "1993-12-12",
+   "ASD Acireale Calcio",
+   1538,
+   "세리에B 1993-94 16위",
+   "table 1993-94"
+  ],
+  [
+   "1993-12-12",
+   "ASD Acireale Calcio",
+   1538,
+   "세리에B 1993-94 16위",
+   "table 1993-94"
+  ],
+  [
+   "1993-12-19",
+   "Calcio Monza",
+   1508,
+   "세리에B 1993-94 20위",
+   "model IT2"
+  ],
+  [
+   "1993-12-19",
+   "Calcio Monza",
+   1508,
+   "세리에B 1993-94 20위",
+   "model IT2"
+  ],
+  [
+   "1994-01-30",
+   "AS Fidelis Andria",
+   1588,
+   "세리에B 1993-94 8위",
+   "table 1993-94"
+  ],
+  [
+   "2004-10-17",
+   "Udinese Calcio",
+   1814,
+   "세리에A 2004-05 4위",
+   "table 2004-05"
+  ],
+  [
+   "1994-02-27",
+   "Ancona Calcio",
+   1588,
+   "세리에B 1993-94 8위",
+   "table 1993-94"
+  ],
+  [
+   "1994-04-10",
+   "AC Cesena",
+   1611,
+   "세리에B 1993-94 5위",
+   "model IT2"
+  ],
+  [
+   "1994-05-01",
+   "Pescara Calcio",
+   1546,
+   "세리에B 1993-94 15위",
+   "table 1993-94"
+  ],
+  [
+   "1994-05-08",
+   "ASD Acireale Calcio",
+   1538,
+   "세리에B 1993-94 16위",
+   "table 1993-94"
+  ],
+  [
+   "2004-11-28",
+   "Juventus FC",
+   1969,
+   "세리에A 2004-05 1위",
+   "table 2004-05"
+  ],
+  [
+   "2004-12-04",
+   "FC Messina Peloro",
+   1774,
+   "세리에A 2004-05 7위",
+   "table 2004-05"
+  ],
+  [
+   "2004-12-12",
+   "AC Siena",
+   1692,
+   "세리에A 2004-05 14위",
+   "table 2004-05"
+  ],
+  [
+   "1992-11-15",
+   "Verona FC",
+   1559,
+   "세리에B 1992-93 12위",
+   "model IT2"
+  ],
+  [
+   "2005-01-06",
+   "AS Livorno",
+   1740,
+   "세리에A 2004-05 9위",
+   "table 2004-05"
+  ],
+  [
+   "2005-01-06",
+   "AS Livorno",
+   1740,
+   "세리에A 2004-05 9위",
+   "table 2004-05"
+  ],
+  [
+   "2005-01-09",
+   "UC Sampdoria",
+   1798,
+   "세리에A 2004-05 5위",
+   "table 2004-05"
+  ],
+  [
+   "2005-01-30",
+   "US Palermo",
+   1787,
+   "세리에A 2004-05 6위",
+   "table 2004-05"
+  ],
+  [
+   "2005-01-30",
+   "US Palermo",
+   1787,
+   "세리에A 2004-05 6위",
+   "table 2004-05"
+  ],
+  [
+   "2005-02-06",
+   "Parma FC",
+   1646,
+   "세리에A 2004-05 17위 (추정, 선수 간 값 1640·1651의 평균으로 맞춤)",
+   "table 2004-05"
+  ],
+  [
+   "1993-04-18",
+   "Verona FC",
+   1559,
+   "세리에B 1992-93 12위",
+   "model IT2"
+  ],
+  [
+   "2005-05-01",
+   "AC Siena",
+   1692,
+   "세리에A 2004-05 14위",
+   "table 2004-05"
+  ],
+  [
+   "2005-05-08",
+   "Brescia Calcio",
+   1632,
+   "세리에A 2004-05 19위",
+   "table 2004-05"
+  ],
+  [
+   "2005-05-15",
+   "AS Livorno",
+   1740,
+   "세리에A 2004-05 9위",
+   "table 2004-05"
+  ],
+  [
+   "1996-02-27",
+   "Bologna FC 1909",
+   1707,
+   "세리에B 1995-96 1위",
+   "model IT2"
+  ],
+  [
+   "1996-02-27",
+   "Bologna FC 1909",
+   1707,
+   "세리에B 1995-96 1위",
+   "model IT2"
+  ],
+  [
+   "1991-10-30",
+   "SS Lazio",
+   1713,
+   "세리에A 1991-92 10위",
+   "model IT1"
+  ],
+  [
+   "2003-12-21",
+   "SS Lazio",
+   1780,
+   "세리에A 2003-04 6위",
+   "table 2003-04"
+  ],
+  [
+   "2004-01-06",
+   "US Lecce",
+   1713,
+   "세리에A 2003-04 10위",
+   "table 2003-04"
+  ],
+  [
+   "2005-11-23",
+   "Fenerbahce",
+   1772,
+   "쉬페르리그 2005-06 2위 (추정, 다른 선수 자료 페네르바체 2004-05 1위 값과 같게)",
+   "same:안드리 셰브첸코·클라렌스 세도르프 [Fenerbahce]"
+  ],
+  [
+   "2006-02-04",
+   "Stade Rennais FC",
+   1750,
+   "리그1 2005-06 7위",
+   "table 2005-06"
+  ],
+  [
+   "2006-02-04",
+   "Stade Rennais FC",
+   1750,
+   "리그1 2005-06 7위",
+   "table 2005-06"
+  ],
+  [
+   "2006-02-11",
+   "ESTAC Troyes",
+   1621,
+   "리그1 2005-06 17위",
+   "table 2005-06"
+  ],
+  [
+   "2005-09-21",
+   "SS Lazio",
+   1668,
+   "세리에A 2005-06 16위",
+   "same:안드리 셰브첸코·카카 [Lazio/SS Lazio]"
+  ],
+  [
+   "2005-10-26",
+   "FC Empoli",
+   1757,
+   "세리에A 2005-06 8위",
+   "same:클라렌스 세도르프 [FC Empoli]"
+  ],
+  [
+   "2004-02-08",
+   "UC Sampdoria",
+   1743,
+   "세리에A 2003-04 8위",
+   "table 2003-04"
+  ],
+  [
+   "2004-02-08",
+   "UC Sampdoria",
+   1743,
+   "세리에A 2003-04 8위",
+   "table 2003-04"
+  ],
+  [
+   "2004-02-15",
+   "Udinese Calcio",
+   1762,
+   "세리에A 2003-04 7위",
+   "table 2003-04"
+  ],
+  [
+   "2006-02-23",
+   "FC Basel 1893",
+   1600,
+   "스위스 2005-06 2위 (추정, 다른 선수 자료의 바젤 2008 값과 같음)",
+   "table 2005-06"
+  ],
+  [
+   "2004-03-07",
+   "AS Roma",
+   1884,
+   "세리에A 2003-04 2위",
+   "table 2003-04"
+  ],
+  [
+   "2003-08-31",
+   "Modena FC",
+   1645,
+   "세리에A 2003-04 16위",
+   "table 2003-04"
+  ],
+  [
+   "2003-09-30",
+   "Dynamo Kyiv",
+   1620,
+   "우크라이나 1위 (추정)",
+   "table 2003-04"
+  ],
+  [
+   "2004-04-04",
+   "Juventus FC",
+   1837,
+   "세리에A 2003-04 3위",
+   "table 2003-04"
+  ],
+  [
+   "2007-05-06",
+   "AC Siena",
+   1683,
+   "세리에A 2006-07 15위",
+   "table 2006-07"
+  ],
+  [
+   "2007-05-13",
+   "Udinese Calcio",
+   1725,
+   "세리에A 2006-07 10위",
+   "table 2006-07"
+  ],
+  [
+   "2007-05-27",
+   "AS Livorno",
+   1714,
+   "세리에A 2006-07 11위",
+   "table 2006-07"
+  ],
+  [
+   "2007-09-16",
+   "Atalanta BC",
+   1740,
+   "세리에A 2007-08 9위",
+   "table 2007-08"
+  ],
+  [
+   "2007-09-29",
+   "AS Livorno",
+   1614,
+   "세리에A 2007-08 20위",
+   "table 2007-08"
+  ],
+  [
+   "2007-10-21",
+   "AC Siena",
+   1697,
+   "세리에A 2007-08 13위",
+   "table 2007-08"
+  ],
+  [
+   "2007-10-31",
+   "SSC Napoli",
+   1757,
+   "세리에A 2007-08 8위",
+   "table 2007-08"
+  ],
+  [
+   "2008-01-19",
+   "Torino FC",
+   1683,
+   "세리에A 2007-08 15위",
+   "table 2007-08"
+  ],
+  [
+   "2008-03-30",
+   "Udinese Calcio",
+   1774,
+   "세리에A 2007-08 7위",
+   "table 2007-08"
+  ],
+  [
+   "2008-04-27",
+   "UC Sampdoria",
+   1787,
+   "세리에A 2007-08 6위",
+   "table 2007-08"
+  ],
+  [
+   "2007-10-04",
+   "FC Groningen",
+   1587,
+   "에레디비시 2007-08 7위",
+   "table 2007-08"
+  ],
+  [
+   "2007-10-25",
+   "Villarreal CF",
+   1893,
+   "라리가 2007-08 2위",
+   "table 2007-08"
+  ],
+  [
+   "2007-11-08",
+   "IF Elfsborg",
+   1520,
+   "스웨덴 상위권 (추정)",
+   "table 2007"
+  ],
+  [
+   "2007-11-29",
+   "AEK Athens",
+   1550,
+   "그리스 2007-08 2위 (추정, 다른 선수 자료 AEK 2006-07 2위 1550과 같음)",
+   "man"
+  ],
+  [
+   "2007-12-20",
+   "FK Mlada Boleslav",
+   1450,
+   "체코 2007-08 7위 (추정, 다른 선수 자료의 믈라다 볼레슬라프 2014-15 4위 1480보다 낮게)",
+   "man"
+  ],
+  [
+   "2008-01-30",
+   "SS Lazio",
+   1705,
+   "세리에A 2007-08 12위",
+   "table 2007-08"
+  ],
+  [
+   "2008-12-07",
+   "Udinese Calcio",
+   1774,
+   "세리에A 2008-09 7위",
+   "table 2008-09"
+  ],
+  [
+   "2008-12-21",
+   "Juventus FC",
+   1890,
+   "세리에A 2008-09 2위",
+   "table 2008-09"
+  ],
+  [
+   "2000-12-07",
+   "Hertha BSC",
+   1812,
+   "분데스리가 2000-01 5위",
+   "table 2000-01"
+  ],
+  [
+   "2003-04-09",
+   "Valencia CF",
+   1787,
+   "라리가 2002-03 5위",
+   "table 2002-03"
+  ],
+  [
+   "2003-04-22",
+   "Valencia CF",
+   1787,
+   "라리가 2002-03 5위",
+   "table 2002-03"
+  ],
+  [
+   "2004-02-26",
+   "FC Sochaux-Montbéliard",
+   1776,
+   "리그1 2003-04 5위",
+   "table 2003-04"
+  ],
+  [
+   "2004-03-25",
+   "SL Benfica",
+   1795,
+   "포르투갈 1부 2003-04 2위 (다른 선수 자료의 포르투갈 1부 2위 값 1795와 같음)",
+   "man"
+  ],
+  [
+   "1997-02-05",
+   "Paris Saint-Germain",
+   1872,
+   "리그1 1996-97 2위",
+   "same:알레산드로 델 피에로 [Paris Saint-Germain]"
+  ],
+  [
+   "1999-05-19",
+   "RCD Mallorca",
+   1842,
+   "라리가 1998-99 3위 (리그 수준 추정)",
+   "same:파벨 네드베드 [RCD Mallorca]"
+  ],
+  [
+   "1996-10-16",
+   "Rapid Vienna",
+   1530,
+   "오스트리아 1996-97 2위 (추정, 다른 선수 자료의 라피트 빈 2001 1530과 같음)",
+   "table 1996-97"
+  ],
+  [
+   "1997-04-23",
+   "Ajax Amsterdam",
+   1642,
+   "에레디비시 1996-97 4위",
+   "same:지네딘 지단 [Ajax Amsterdam]"
+  ],
+  [
+   "1997-04-09",
+   "Ajax Amsterdam",
+   1642,
+   "에레디비시 1996-97 4위",
+   "table 1996-97"
+  ],
+  [
+   "1997-03-05",
+   "Rosenborg BK",
+   1530,
+   "노르웨이 1996 1위 (추정, 다른 선수 자료의 로센보리 2001·2002 1530과 같음)",
+   "table 1996"
+  ]
+ ]
+}

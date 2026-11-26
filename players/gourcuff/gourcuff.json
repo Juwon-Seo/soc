@@ -1,0 +1,6236 @@
+{
+ "E": [
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 54,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 5위",
+   "note": "Kim Källström"
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-09-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 10위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Strasbourg Alsace",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 19위",
+   "note": "Jimmy Briand"
+  },
+  {
+   "type": "g",
+   "opp": "ESTAC Troyes",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-11-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2005-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1955,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 1위",
+   "note": "John Utaka"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1955,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-03-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Metz",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2005-06 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1521,
+   "comp": "dk",
+   "min": 110,
+   "gf": 4,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2006-04-12",
+   "et": 1,
+   "dm": 0,
+   "lv": "리그2 2005-06 12위 (추정, 프랑스 2부 평균 1540 모형)",
+   "note": "Kim Källström"
+  },
+  {
+   "type": "g",
+   "opp": "AEK Athens",
+   "elo": 1550,
+   "comp": "clg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 2006-07 2위 (추정, 다른 선수 자료 AEK 2003 값과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Cagliari Calcio",
+   "elo": 1651,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-12-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 17위",
+   "note": "Alberto Gilardino"
+  },
+  {
+   "type": "a",
+   "opp": "ACF Fiorentina",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2006-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 6위",
+   "note": "Alberto Gilardino"
+  },
+  {
+   "type": "a",
+   "opp": "Reggina Calcio",
+   "elo": 1690,
+   "comp": "lg",
+   "min": 78,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-01-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 14위",
+   "note": "Alberto Gilardino"
+  },
+  {
+   "type": "a",
+   "opp": "FC Messina Peloro",
+   "elo": 1614,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-04-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 20위",
+   "note": "Giuseppe Favalli"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-05-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2006-07 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1787,
+   "comp": "lg",
+   "min": 76,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2007-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "US Palermo",
+   "elo": 1714,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-02-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 11위",
+   "note": "Filippo Inzaghi"
+  },
+  {
+   "type": "a",
+   "opp": "Reggina Calcio",
+   "elo": 1668,
+   "comp": "lg",
+   "min": 89,
+   "gf": 4,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2007-08 16위",
+   "note": "Alexandre Pato"
+  },
+  {
+   "type": "g",
+   "opp": "SM Caen",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-08-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SM Caen",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 79,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-08-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 18위",
+   "note": "Fernando Cavenaghi"
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-09-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 2위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 17위",
+   "note": "Fernando Cavenaghi"
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1787,
+   "comp": "clg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2008-09 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-10-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CFR Cluj",
+   "elo": 1500,
+   "comp": "clg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "루마니아 4위 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AJ Auxerre",
+   "elo": 1733,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 8위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Chelsea FC",
+   "elo": 1887,
+   "comp": "clg",
+   "min": 83,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2008-09 3위",
+   "note": "Alou Diarra"
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 11위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 87,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2008-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 11위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "Paris Saint-Germain",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 6위",
+   "note": "Souleymane Diawara"
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 70,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1778,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 9위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "Le Havre AC",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 20위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Vannes OC",
+   "elo": 1532,
+   "comp": "df",
+   "min": 12,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2008-09 10위",
+   "note": "Yoan Gouffran"
+  },
+  {
+   "type": "g",
+   "opp": "Vannes OC",
+   "elo": 1532,
+   "comp": "df",
+   "min": 40,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2(프랑스 2부) 2008-09 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 70,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 93,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-04-29",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2008-09 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1664,
+   "comp": "lg",
+   "min": 15,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valenciennes FC",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Le Mans Union Club 72",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 16위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "Le Mans Union Club 72",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-05-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2008-09 11위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "EA Guingamp",
+   "elo": 1484,
+   "comp": "df",
+   "min": 91,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2009-07-25",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그2 2009-10 18위 (추정, 프랑스 2부 평균 1540 모형)",
+   "note": "Fernando"
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RC Lens",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 93,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-09",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2009-10 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 16위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 80,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 16위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1650,
+   "comp": "lg",
+   "min": 53,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1650,
+   "comp": "lg",
+   "min": 70,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-08-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Le Mans Union Club 72",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 67,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 18위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "g",
+   "opp": "FC Bayern Munich",
+   "elo": 1973,
+   "comp": "clg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-11-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2009-10 1위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 86,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 2위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "FC Lorient",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 7위",
+   "note": "David Bellion"
+  },
+  {
+   "type": "a",
+   "opp": "FC Lorient",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 52,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 7위",
+   "note": "Fernando Cavenaghi"
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 75,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2009-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 7위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Le Mans Union Club 72",
+   "elo": 1610,
+   "comp": "dc",
+   "min": 14,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 18위",
+   "note": "Yoan Gouffran"
+  },
+  {
+   "type": "g",
+   "opp": "Le Mans Union Club 72",
+   "elo": 1610,
+   "comp": "dc",
+   "min": 37,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-01-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1640,
+   "comp": "cl16",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-02-23",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)",
+   "note": "Michaël Ciani",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1640,
+   "comp": "cl16",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 76,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 4위 (추정: 모형값)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1872,
+   "comp": "clk",
+   "min": 14,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-03-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 2위",
+   "note": "Marouane Chamakh",
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Lyon",
+   "elo": 1872,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2009-10 2위",
+   "note": "Marouane Chamakh"
+  },
+  {
+   "type": "a",
+   "opp": "Paris Saint-Germain",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 94,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-08-22",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "리그1 2010-11 4위",
+   "note": "Michaël Ciani"
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1959,
+   "comp": "lg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-10-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 5위",
+   "note": "Michel Bastos"
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1786,
+   "comp": "clg",
+   "min": 74,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2010-11 2위 (추정: 모형값)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 30,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 17위",
+   "note": "Jérémy Pied"
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 19위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-02-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RC Lens",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 61,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 19위",
+   "note": "Jimmy Briand"
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1664,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-04-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1825,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 3위",
+   "note": "Jimmy Briand"
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-29",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그1 2011-12 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Stade Brestois 29",
+   "elo": 1655,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 9위",
+   "note": "Bakary Koné"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1715,
+   "comp": "df",
+   "min": 44,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-07-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 9위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Rennais FC",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1792,
+   "comp": "dc",
+   "min": 7,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 4위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "a",
+   "opp": "Athletic Bilbao",
+   "elo": 1751,
+   "comp": "elg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2012-13 12위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "g",
+   "opp": "Athletic Bilbao",
+   "elo": 1751,
+   "comp": "elg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-08",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "라리가 2012-13 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Sparta Praha",
+   "elo": 1560,
+   "comp": "elg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-11-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "체코 (추정)",
+   "note": "Yassine Benzia"
+  },
+  {
+   "type": "a",
+   "opp": "SC Bastia",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 12위",
+   "note": "Lisandro López"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1715,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 9위",
+   "note": "Lisandro López"
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1776,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-04-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 80,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 18위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 17위",
+   "note": "Clément Grenier"
+  },
+  {
+   "type": "a",
+   "opp": "OGC Nice",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 69,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 17위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1621,
+   "comp": "lg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-10",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "리그1 2013-14 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 48,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 93,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-10",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2013-14 4위",
+   "note": "Jimmy Briand"
+  },
+  {
+   "type": "a",
+   "opp": "Real Betis Balompié",
+   "elo": 1648,
+   "comp": "elg",
+   "min": 66,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2013-14 20위",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 6위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "Stade Reims",
+   "elo": 1688,
+   "comp": "dc",
+   "min": 60,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 11위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1688,
+   "comp": "dc",
+   "min": 81,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-12-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Lorient",
+   "elo": 1733,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 8위",
+   "note": "Clément Grenier"
+  },
+  {
+   "type": "a",
+   "opp": "La Suze-sur-Sarthe FC",
+   "elo": 1150,
+   "comp": "dc",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-01-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 (추정, 2013-14 소속 단계 미확인)",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "a",
+   "opp": "La Suze-sur-Sarthe FC",
+   "elo": 1150,
+   "comp": "dc",
+   "min": 56,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-01-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 5부 (추정, 2013-14 소속 단계 미확인)",
+   "note": "Bafétimbi Gomis"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1610,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-01-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1764,
+   "comp": "dk",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-01-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Yzeure",
+   "elo": 1220,
+   "comp": "dc",
+   "min": 81,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-01-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "프랑스 4부(CFA) 2013-14 B조 (추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1733,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 8위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 36,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 47,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1792,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1825,
+   "comp": "dc",
+   "min": 106,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2014-12-17",
+   "et": 1,
+   "dm": 0,
+   "lv": "리그1 2014-15 3위",
+   "note": "Alexandre Lacazette"
+  },
+  {
+   "type": "a",
+   "opp": "FC Metz",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 83,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-01-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 19위",
+   "note": "Corentin Tolisso"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 40,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 7위",
+   "note": "Nabil Fekir"
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1750,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 7위",
+   "note": "Nabil Fekir"
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2015-16 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Marseille",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 59,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2015-16 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Nancy-Lorraine",
+   "elo": 1602,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Toulouse",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 13위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "LOSC Lille",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 11위",
+   "note": "Paul-Georges Ntep"
+  },
+  {
+   "type": "g",
+   "opp": "EA Guingamp",
+   "elo": 1699,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Saint-Étienne",
+   "elo": 1733,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2016-17 8위",
+   "note": "Mexer"
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1764,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-03-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Metz",
+   "elo": 1582,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-04-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 20위",
+   "note": "Benjamin Bourigeaud"
+  }
+ ],
+ "M": [
+  [
+   "2004-01-25",
+   "Olympique Croix de Savoie 74",
+   "dc",
+   90
+  ],
+  [
+   "2004-02-07",
+   "AJ Auxerre",
+   "lg",
+   13
+  ],
+  [
+   "2004-03-27",
+   "RC Strasbourg Alsace",
+   "lg",
+   5
+  ],
+  [
+   "2004-04-03",
+   "LOSC Lille",
+   "lg",
+   6
+  ],
+  [
+   "2004-04-18",
+   "FC Girondins Bordeaux",
+   "lg",
+   74
+  ],
+  [
+   "2004-05-01",
+   "SC Bastia",
+   "lg",
+   11
+  ],
+  [
+   "2004-05-08",
+   "Paris Saint-Germain",
+   "lg",
+   9
+  ],
+  [
+   "2004-05-12",
+   "FC Metz",
+   "lg",
+   12
+  ],
+  [
+   "2004-05-15",
+   "AS Monaco",
+   "lg",
+   5
+  ],
+  [
+   "2004-05-23",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2004-08-07",
+   "Paris Saint-Germain",
+   "lg",
+   28
+  ],
+  [
+   "2004-08-14",
+   "AJ Auxerre",
+   "lg",
+   66
+  ],
+  [
+   "2004-08-21",
+   "FC Nantes",
+   "lg",
+   7
+  ],
+  [
+   "2004-08-28",
+   "AC Ajaccio",
+   "lg",
+   6
+  ],
+  [
+   "2004-09-18",
+   "FC Girondins Bordeaux",
+   "lg",
+   71
+  ],
+  [
+   "2004-09-22",
+   "Olympique Marseille",
+   "lg",
+   1
+  ],
+  [
+   "2004-09-25",
+   "OGC Nice",
+   "lg",
+   3
+  ],
+  [
+   "2004-10-16",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   20
+  ],
+  [
+   "2004-10-23",
+   "FC Metz",
+   "lg",
+   83
+  ],
+  [
+   "2004-10-30",
+   "SM Caen",
+   "lg",
+   75
+  ],
+  [
+   "2004-11-06",
+   "SC Bastia",
+   "lg",
+   26
+  ],
+  [
+   "2004-11-10",
+   "AJ Auxerre",
+   "dc",
+   89
+  ],
+  [
+   "2004-11-13",
+   "FC Toulouse",
+   "lg",
+   6
+  ],
+  [
+   "2005-01-07",
+   "Stade Brestois 29",
+   "dc",
+   63
+  ],
+  [
+   "2005-01-12",
+   "AJ Auxerre",
+   "lg",
+   1
+  ],
+  [
+   "2005-01-15",
+   "FC Nantes",
+   "lg",
+   22
+  ],
+  [
+   "2005-01-22",
+   "AC Ajaccio",
+   "lg",
+   90
+  ],
+  [
+   "2005-01-29",
+   "FC Girondins Bordeaux",
+   "lg",
+   81
+  ],
+  [
+   "2005-02-05",
+   "Olympique Marseille",
+   "lg",
+   19
+  ],
+  [
+   "2005-03-05",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   10
+  ],
+  [
+   "2005-03-12",
+   "FC Metz",
+   "lg",
+   2
+  ],
+  [
+   "2005-04-23",
+   "FC Istres Ouest Provence",
+   "lg",
+   1
+  ],
+  [
+   "2005-05-28",
+   "Paris Saint-Germain",
+   "lg",
+   1
+  ],
+  [
+   "2005-08-07",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2005-08-13",
+   "Le Mans Union Club 72",
+   "lg",
+   45
+  ],
+  [
+   "2005-08-20",
+   "Olympique Marseille",
+   "lg",
+   81
+  ],
+  [
+   "2005-09-10",
+   "AJ Auxerre",
+   "lg",
+   1
+  ],
+  [
+   "2005-09-15",
+   "CA Osasuna",
+   "elq",
+   17
+  ],
+  [
+   "2005-09-18",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2005-09-21",
+   "FC Girondins Bordeaux",
+   "lg",
+   8
+  ],
+  [
+   "2005-09-25",
+   "RC Lens",
+   "lg",
+   1
+  ],
+  [
+   "2005-09-29",
+   "CA Osasuna",
+   "elq",
+   26
+  ],
+  [
+   "2005-10-02",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-15",
+   "RC Strasbourg Alsace",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-20",
+   "VfB Stuttgart",
+   "elg",
+   29
+  ],
+  [
+   "2005-10-23",
+   "AC Ajaccio",
+   "lg",
+   90
+  ],
+  [
+   "2005-10-26",
+   "Montpellier HSC",
+   "dc",
+   9
+  ],
+  [
+   "2005-10-29",
+   "FC Metz",
+   "lg",
+   78
+  ],
+  [
+   "2005-11-03",
+   "Rapid Bucharest",
+   "elg",
+   90
+  ],
+  [
+   "2005-11-06",
+   "ESTAC Troyes",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-20",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2005-11-26",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2005-12-01",
+   "Shakhtar Donetsk",
+   "elg",
+   90
+  ],
+  [
+   "2005-12-04",
+   "OGC Nice",
+   "lg",
+   45
+  ],
+  [
+   "2005-12-10",
+   "Paris Saint-Germain",
+   "lg",
+   17
+  ],
+  [
+   "2005-12-17",
+   "AS Saint-Étienne",
+   "lg",
+   82
+  ],
+  [
+   "2006-01-04",
+   "FC Nantes",
+   "lg",
+   1
+  ],
+  [
+   "2006-01-07",
+   "USC Corte",
+   "dc",
+   90
+  ],
+  [
+   "2006-01-11",
+   "Le Mans Union Club 72",
+   "lg",
+   71
+  ],
+  [
+   "2006-01-15",
+   "Olympique Marseille",
+   "lg",
+   61
+  ],
+  [
+   "2006-01-21",
+   "AS Nancy-Lorraine",
+   "lg",
+   33
+  ],
+  [
+   "2006-01-28",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2006-01-31",
+   "RC Lens",
+   "dc",
+   90
+  ],
+  [
+   "2006-02-04",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2006-02-11",
+   "FC Girondins Bordeaux",
+   "lg",
+   85
+  ],
+  [
+   "2006-02-18",
+   "RC Lens",
+   "lg",
+   67
+  ],
+  [
+   "2006-02-25",
+   "Olympique Lyon",
+   "lg",
+   88
+  ],
+  [
+   "2006-03-04",
+   "RC Strasbourg Alsace",
+   "lg",
+   90
+  ],
+  [
+   "2006-03-11",
+   "AC Ajaccio",
+   "lg",
+   90
+  ],
+  [
+   "2006-03-18",
+   "FC Metz",
+   "lg",
+   90
+  ],
+  [
+   "2006-03-21",
+   "Sports Réunis Colmar",
+   "dc",
+   74
+  ],
+  [
+   "2006-03-25",
+   "ESTAC Troyes",
+   "lg",
+   81
+  ],
+  [
+   "2006-03-31",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2006-04-08",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   59
+  ],
+  [
+   "2006-04-12",
+   "Montpellier HSC",
+   "dk",
+   16
+  ],
+  [
+   "2006-04-15",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2006-04-20",
+   "Olympique Marseille",
+   "dsf",
+   81
+  ],
+  [
+   "2006-05-03",
+   "Paris Saint-Germain",
+   "lg",
+   81
+  ],
+  [
+   "2006-05-06",
+   "AS Saint-Étienne",
+   "lg",
+   11
+  ],
+  [
+   "2006-05-13",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2006-08-09",
+   "Red Star Belgrade",
+   "clq",
+   9
+  ],
+  [
+   "2006-09-13",
+   "AEK Athens",
+   "clg",
+   90
+  ],
+  [
+   "2006-09-20",
+   "Ascoli Calcio 1898",
+   "lg",
+   81
+  ],
+  [
+   "2006-11-01",
+   "RSC Anderlecht",
+   "clg",
+   66
+  ],
+  [
+   "2006-11-05",
+   "Atalanta BC",
+   "lg",
+   57
+  ],
+  [
+   "2006-11-08",
+   "Brescia Calcio",
+   "dc",
+   90
+  ],
+  [
+   "2006-11-18",
+   "FC Empoli",
+   "lg",
+   21
+  ],
+  [
+   "2006-11-21",
+   "AEK Athens",
+   "clg",
+   90
+  ],
+  [
+   "2006-11-25",
+   "FC Messina Peloro",
+   "lg",
+   90
+  ],
+  [
+   "2006-11-28",
+   "Brescia Calcio",
+   "dc",
+   90
+  ],
+  [
+   "2006-12-03",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2006-12-06",
+   "LOSC Lille",
+   "clg",
+   90
+  ],
+  [
+   "2006-12-10",
+   "Torino FC",
+   "lg",
+   61
+  ],
+  [
+   "2006-12-16",
+   "ACF Fiorentina",
+   "lg",
+   5
+  ],
+  [
+   "2006-12-20",
+   "Calcio Catania",
+   "lg",
+   1
+  ],
+  [
+   "2006-12-23",
+   "Udinese Calcio",
+   "lg",
+   38
+  ],
+  [
+   "2007-01-11",
+   "AC Arezzo",
+   "dk",
+   90
+  ],
+  [
+   "2007-01-14",
+   "Reggina Calcio",
+   "lg",
+   33
+  ],
+  [
+   "2007-01-18",
+   "AC Arezzo",
+   "dk",
+   90
+  ],
+  [
+   "2007-01-28",
+   "Parma FC",
+   "lg",
+   18
+  ],
+  [
+   "2007-02-17",
+   "AC Siena",
+   "lg",
+   15
+  ],
+  [
+   "2007-02-20",
+   "Celtic FC",
+   "cl16",
+   90
+  ],
+  [
+   "2007-02-28",
+   "US Palermo",
+   "lg",
+   19
+  ],
+  [
+   "2007-03-11",
+   "Inter Milan",
+   "lg",
+   11
+  ],
+  [
+   "2007-03-31",
+   "AS Roma",
+   "lg",
+   18
+  ],
+  [
+   "2007-04-03",
+   "FC Bayern Munich",
+   "clk",
+   5
+  ],
+  [
+   "2007-04-07",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2007-04-11",
+   "FC Bayern Munich",
+   "clk",
+   10
+  ],
+  [
+   "2007-04-15",
+   "FC Messina Peloro",
+   "lg",
+   90
+  ],
+  [
+   "2007-04-21",
+   "Cagliari Calcio",
+   "lg",
+   81
+  ],
+  [
+   "2007-04-24",
+   "Manchester United",
+   "clsf",
+   6
+  ],
+  [
+   "2007-04-28",
+   "Torino FC",
+   "lg",
+   45
+  ],
+  [
+   "2007-05-13",
+   "Calcio Catania",
+   "lg",
+   10
+  ],
+  [
+   "2007-05-19",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2007-08-26",
+   "Genoa CFC",
+   "lg",
+   8
+  ],
+  [
+   "2007-09-15",
+   "AC Siena",
+   "lg",
+   90
+  ],
+  [
+   "2007-10-03",
+   "Celtic FC",
+   "clg",
+   35
+  ],
+  [
+   "2007-10-07",
+   "SS Lazio",
+   "lg",
+   7
+  ],
+  [
+   "2007-10-21",
+   "FC Empoli",
+   "lg",
+   27
+  ],
+  [
+   "2007-10-31",
+   "UC Sampdoria",
+   "lg",
+   23
+  ],
+  [
+   "2007-11-03",
+   "Torino FC",
+   "lg",
+   12
+  ],
+  [
+   "2007-11-28",
+   "SL Benfica",
+   "clg",
+   39
+  ],
+  [
+   "2007-12-04",
+   "Celtic FC",
+   "clg",
+   21
+  ],
+  [
+   "2007-12-20",
+   "Calcio Catania",
+   "dc",
+   89
+  ],
+  [
+   "2008-01-13",
+   "SSC Napoli",
+   "lg",
+   9
+  ],
+  [
+   "2008-01-16",
+   "Calcio Catania",
+   "dc",
+   90
+  ],
+  [
+   "2008-01-23",
+   "Atalanta BC",
+   "lg",
+   7
+  ],
+  [
+   "2008-01-30",
+   "Reggina Calcio",
+   "lg",
+   8
+  ],
+  [
+   "2008-02-13",
+   "AS Livorno",
+   "lg",
+   90
+  ],
+  [
+   "2008-02-24",
+   "US Palermo",
+   "lg",
+   45
+  ],
+  [
+   "2008-03-01",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2008-03-09",
+   "FC Empoli",
+   "lg",
+   45
+  ],
+  [
+   "2008-04-05",
+   "Cagliari Calcio",
+   "lg",
+   15
+  ],
+  [
+   "2008-04-20",
+   "Reggina Calcio",
+   "lg",
+   10
+  ],
+  [
+   "2008-08-02",
+   "Olympique Lyon",
+   "df",
+   120
+  ],
+  [
+   "2008-08-09",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-16",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-24",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2008-08-31",
+   "LOSC Lille",
+   "lg",
+   69
+  ],
+  [
+   "2008-09-13",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-16",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2008-09-20",
+   "Grenoble Foot 38",
+   "lg",
+   90
+  ],
+  [
+   "2008-09-28",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-01",
+   "AS Roma",
+   "clg",
+   90
+  ],
+  [
+   "2008-10-04",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2008-10-18",
+   "FC Toulouse",
+   "lg",
+   79
+  ],
+  [
+   "2008-10-22",
+   "CFR Cluj",
+   "clg",
+   90
+  ],
+  [
+   "2008-10-25",
+   "OGC Nice",
+   "lg",
+   25
+  ],
+  [
+   "2008-10-28",
+   "Le Havre AC",
+   "lg",
+   69
+  ],
+  [
+   "2008-11-01",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-04",
+   "CFR Cluj",
+   "clg",
+   90
+  ],
+  [
+   "2008-11-08",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-16",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-22",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-11-26",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2008-12-05",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-09",
+   "AS Roma",
+   "clg",
+   90
+  ],
+  [
+   "2008-12-13",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2008-12-21",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2009-01-03",
+   "AS Saint-Étienne",
+   "dc",
+   60
+  ],
+  [
+   "2009-01-11",
+   "Paris Saint-Germain",
+   "lg",
+   85
+  ],
+  [
+   "2009-01-14",
+   "LB Châteauroux",
+   "dk",
+   64
+  ],
+  [
+   "2009-01-17",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-01",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-04",
+   "Paris Saint-Germain",
+   "dsf",
+   85
+  ],
+  [
+   "2009-02-08",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2009-02-14",
+   "Grenoble Foot 38",
+   "lg",
+   9
+  ],
+  [
+   "2009-02-18",
+   "Galatasaray",
+   "elk",
+   90
+  ],
+  [
+   "2009-02-22",
+   "AS Saint-Étienne",
+   "lg",
+   65
+  ],
+  [
+   "2009-03-01",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-07",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-14",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2009-03-21",
+   "Le Havre AC",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-04",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-11",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-19",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2009-04-25",
+   "Vannes OC",
+   "df",
+   90
+  ],
+  [
+   "2009-04-29",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-03",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-13",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-16",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-23",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2009-05-30",
+   "SM Caen",
+   "lg",
+   78
+  ],
+  [
+   "2009-07-25",
+   "EA Guingamp",
+   "df",
+   90
+  ],
+  [
+   "2009-08-09",
+   "RC Lens",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-15",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-23",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2009-08-30",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2009-09-12",
+   "Grenoble Foot 38",
+   "lg",
+   71
+  ],
+  [
+   "2009-09-15",
+   "Juventus FC",
+   "clg",
+   90
+  ],
+  [
+   "2009-09-19",
+   "US Boulogne",
+   "lg",
+   23
+  ],
+  [
+   "2009-09-27",
+   "Stade Rennais FC",
+   "lg",
+   79
+  ],
+  [
+   "2009-09-30",
+   "Maccabi Haifa",
+   "clg",
+   45
+  ],
+  [
+   "2009-10-17",
+   "AJ Auxerre",
+   "lg",
+   20
+  ],
+  [
+   "2009-10-21",
+   "FC Bayern Munich",
+   "clg",
+   90
+  ],
+  [
+   "2009-10-24",
+   "Le Mans Union Club 72",
+   "lg",
+   90
+  ],
+  [
+   "2009-10-31",
+   "AS Monaco",
+   "lg",
+   70
+  ],
+  [
+   "2009-11-03",
+   "FC Bayern Munich",
+   "clg",
+   90
+  ],
+  [
+   "2009-11-08",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-05",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-13",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-16",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-19",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2009-12-23",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2010-01-09",
+   "Rodez AF",
+   "dc",
+   90
+  ],
+  [
+   "2010-01-17",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2010-01-20",
+   "Grenoble Foot 38",
+   "lg",
+   90
+  ],
+  [
+   "2010-01-26",
+   "Le Mans Union Club 72",
+   "dc",
+   90
+  ],
+  [
+   "2010-01-30",
+   "US Boulogne",
+   "lg",
+   90
+  ],
+  [
+   "2010-02-06",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-02-10",
+   "AS Monaco",
+   "dc",
+   90
+  ],
+  [
+   "2010-02-14",
+   "AS Saint-Étienne",
+   "lg",
+   74
+  ],
+  [
+   "2010-02-17",
+   "FC Lorient",
+   "dsf",
+   74
+  ],
+  [
+   "2010-02-23",
+   "Olympiacos Piraeus",
+   "cl16",
+   90
+  ],
+  [
+   "2010-03-07",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-10",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2010-03-13",
+   "AS Monaco",
+   "lg",
+   22
+  ],
+  [
+   "2010-03-17",
+   "Olympiacos Piraeus",
+   "cl16",
+   90
+  ],
+  [
+   "2010-03-21",
+   "LOSC Lille",
+   "lg",
+   80
+  ],
+  [
+   "2010-03-27",
+   "Olympique Marseille",
+   "df",
+   70
+  ],
+  [
+   "2010-03-30",
+   "Olympique Lyon",
+   "clk",
+   90
+  ],
+  [
+   "2010-04-03",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-07",
+   "Olympique Lyon",
+   "clk",
+   90
+  ],
+  [
+   "2010-04-10",
+   "Paris Saint-Germain",
+   "lg",
+   73
+  ],
+  [
+   "2010-04-17",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2010-04-24",
+   "FC Lorient",
+   "lg",
+   45
+  ],
+  [
+   "2010-08-08",
+   "Montpellier HSC",
+   "lg",
+   65
+  ],
+  [
+   "2010-08-15",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2010-08-22",
+   "Paris Saint-Germain",
+   "lg",
+   17
+  ],
+  [
+   "2010-08-28",
+   "FC Lorient",
+   "lg",
+   60
+  ],
+  [
+   "2010-09-11",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-14",
+   "FC Schalke 04",
+   "clg",
+   86
+  ],
+  [
+   "2010-09-19",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2010-09-25",
+   "AS Saint-Étienne",
+   "lg",
+   82
+  ],
+  [
+   "2010-09-29",
+   "Hapoel Tel Aviv",
+   "clg",
+   77
+  ],
+  [
+   "2010-10-02",
+   "AS Nancy-Lorraine",
+   "lg",
+   78
+  ],
+  [
+   "2010-10-17",
+   "LOSC Lille",
+   "lg",
+   79
+  ],
+  [
+   "2010-10-20",
+   "SL Benfica",
+   "clg",
+   71
+  ],
+  [
+   "2010-10-24",
+   "AC Arles-Avignon",
+   "lg",
+   45
+  ],
+  [
+   "2010-10-27",
+   "Paris Saint-Germain",
+   "dc",
+   36
+  ],
+  [
+   "2010-10-30",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2010-11-02",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2010-11-06",
+   "Stade Rennais FC",
+   "lg",
+   80
+  ],
+  [
+   "2010-11-14",
+   "OGC Nice",
+   "lg",
+   74
+  ],
+  [
+   "2010-11-21",
+   "RC Lens",
+   "lg",
+   45
+  ],
+  [
+   "2010-11-24",
+   "FC Schalke 04",
+   "clg",
+   60
+  ],
+  [
+   "2011-01-15",
+   "FC Lorient",
+   "lg",
+   78
+  ],
+  [
+   "2011-01-23",
+   "OGC Nice",
+   "dc",
+   105
+  ],
+  [
+   "2011-01-29",
+   "Valenciennes FC",
+   "lg",
+   60
+  ],
+  [
+   "2011-02-06",
+   "FC Girondins Bordeaux",
+   "lg",
+   76
+  ],
+  [
+   "2011-02-12",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2011-02-18",
+   "AS Nancy-Lorraine",
+   "lg",
+   81
+  ],
+  [
+   "2011-02-22",
+   "Real Madrid",
+   "cl16",
+   90
+  ],
+  [
+   "2011-02-27",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2011-03-06",
+   "AC Arles-Avignon",
+   "lg",
+   50
+  ],
+  [
+   "2011-03-16",
+   "Real Madrid",
+   "cl16",
+   69
+  ],
+  [
+   "2011-03-19",
+   "Stade Rennais FC",
+   "lg",
+   82
+  ],
+  [
+   "2011-04-03",
+   "OGC Nice",
+   "lg",
+   30
+  ],
+  [
+   "2011-04-10",
+   "RC Lens",
+   "lg",
+   79
+  ],
+  [
+   "2011-04-17",
+   "Paris Saint-Germain",
+   "lg",
+   45
+  ],
+  [
+   "2011-04-27",
+   "Montpellier HSC",
+   "lg",
+   3
+  ],
+  [
+   "2011-05-01",
+   "FC Toulouse",
+   "lg",
+   62
+  ],
+  [
+   "2011-10-15",
+   "AS Nancy-Lorraine",
+   "lg",
+   47
+  ],
+  [
+   "2011-10-18",
+   "Real Madrid",
+   "clg",
+   66
+  ],
+  [
+   "2011-10-23",
+   "LOSC Lille",
+   "lg",
+   75
+  ],
+  [
+   "2011-10-26",
+   "AS Saint-Étienne",
+   "dc",
+   6
+  ],
+  [
+   "2011-10-29",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-02",
+   "Real Madrid",
+   "clg",
+   90
+  ],
+  [
+   "2011-11-06",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   67
+  ],
+  [
+   "2011-11-18",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-22",
+   "Ajax Amsterdam",
+   "clg",
+   90
+  ],
+  [
+   "2011-12-07",
+   "GNK Dinamo Zagreb",
+   "clg",
+   90
+  ],
+  [
+   "2011-12-11",
+   "FC Lorient",
+   "lg",
+   65
+  ],
+  [
+   "2011-12-21",
+   "Valenciennes FC",
+   "lg",
+   54
+  ],
+  [
+   "2012-01-08",
+   "AS Lyon-Duchère",
+   "dc",
+   15
+  ],
+  [
+   "2012-01-11",
+   "LOSC Lille",
+   "dk",
+   61
+  ],
+  [
+   "2012-02-08",
+   "FC Girondins Bordeaux",
+   "dc",
+   69
+  ],
+  [
+   "2012-02-14",
+   "APOEL Nicosia",
+   "cl16",
+   19
+  ],
+  [
+   "2012-04-18",
+   "FC Toulouse",
+   "lg",
+   26
+  ],
+  [
+   "2012-04-22",
+   "FC Lorient",
+   "lg",
+   21
+  ],
+  [
+   "2012-04-28",
+   "US Quevilly",
+   "df",
+   67
+  ],
+  [
+   "2012-05-02",
+   "Valenciennes FC",
+   "lg",
+   66
+  ],
+  [
+   "2012-05-06",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-10",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   68
+  ],
+  [
+   "2012-05-13",
+   "AC Ajaccio",
+   "lg",
+   50
+  ],
+  [
+   "2012-07-28",
+   "Montpellier HSC",
+   "df",
+   90
+  ],
+  [
+   "2012-08-11",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-08-18",
+   "ESTAC Troyes",
+   "lg",
+   12
+  ],
+  [
+   "2012-10-31",
+   "OGC Nice",
+   "dc",
+   63
+  ],
+  [
+   "2012-11-04",
+   "SC Bastia",
+   "lg",
+   90
+  ],
+  [
+   "2012-11-08",
+   "Athletic Bilbao",
+   "elg",
+   90
+  ],
+  [
+   "2012-11-11",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   24
+  ],
+  [
+   "2012-11-18",
+   "Stade Reims",
+   "lg",
+   75
+  ],
+  [
+   "2012-11-22",
+   "AC Sparta Praha",
+   "elg",
+   69
+  ],
+  [
+   "2012-11-25",
+   "FC Toulouse",
+   "lg",
+   70
+  ],
+  [
+   "2012-12-01",
+   "Montpellier HSC",
+   "lg",
+   15
+  ],
+  [
+   "2012-12-06",
+   "Ironi Kiryat Shmona",
+   "elg",
+   45
+  ],
+  [
+   "2012-12-09",
+   "AS Saint-Étienne",
+   "lg",
+   61
+  ],
+  [
+   "2013-01-18",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   63
+  ],
+  [
+   "2013-02-03",
+   "AC Ajaccio",
+   "lg",
+   26
+  ],
+  [
+   "2013-03-16",
+   "SC Bastia",
+   "lg",
+   62
+  ],
+  [
+   "2013-04-14",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2013-04-19",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2013-04-28",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-05",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-12",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-19",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-26",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-07-30",
+   "Grasshopper Club Zurich",
+   "clq",
+   11
+  ],
+  [
+   "2013-08-06",
+   "Grasshopper Club Zurich",
+   "clq",
+   34
+  ],
+  [
+   "2013-08-10",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-16",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-20",
+   "Real Sociedad",
+   "clq",
+   90
+  ],
+  [
+   "2013-08-24",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-28",
+   "Real Sociedad",
+   "clq",
+   77
+  ],
+  [
+   "2013-08-31",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   45
+  ],
+  [
+   "2013-11-07",
+   "HNK Rijeka",
+   "elg",
+   90
+  ],
+  [
+   "2013-11-10",
+   "AS Saint-Étienne",
+   "lg",
+   18
+  ],
+  [
+   "2013-11-23",
+   "Valenciennes FC",
+   "lg",
+   74
+  ],
+  [
+   "2013-11-28",
+   "Real Betis Balompié",
+   "elg",
+   31
+  ],
+  [
+   "2013-12-01",
+   "Paris Saint-Germain",
+   "lg",
+   70
+  ],
+  [
+   "2013-12-05",
+   "FC Toulouse",
+   "lg",
+   23
+  ],
+  [
+   "2013-12-12",
+   "Vitória Guimarães SC",
+   "elg",
+   90
+  ],
+  [
+   "2013-12-15",
+   "Olympique Marseille",
+   "lg",
+   76
+  ],
+  [
+   "2013-12-18",
+   "Stade Reims",
+   "dc",
+   90
+  ],
+  [
+   "2013-12-22",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-05",
+   "La Suze-sur-Sarthe FC",
+   "dc",
+   73
+  ],
+  [
+   "2014-01-11",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-15",
+   "Olympique Marseille",
+   "dk",
+   85
+  ],
+  [
+   "2014-01-19",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-22",
+   "AS Yzeure",
+   "dc",
+   90
+  ],
+  [
+   "2014-01-26",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   54
+  ],
+  [
+   "2014-02-09",
+   "FC Nantes",
+   "lg",
+   61
+  ],
+  [
+   "2014-03-16",
+   "AS Monaco",
+   "lg",
+   38
+  ],
+  [
+   "2014-03-20",
+   "FC Viktoria Plzen",
+   "elk",
+   90
+  ],
+  [
+   "2014-03-23",
+   "EA Guingamp",
+   "lg",
+   8
+  ],
+  [
+   "2014-03-30",
+   "AS Saint-Étienne",
+   "lg",
+   45
+  ],
+  [
+   "2014-05-10",
+   "FC Lorient",
+   "lg",
+   13
+  ],
+  [
+   "2014-09-12",
+   "AS Monaco",
+   "lg",
+   16
+  ],
+  [
+   "2014-09-21",
+   "Paris Saint-Germain",
+   "lg",
+   20
+  ],
+  [
+   "2014-09-24",
+   "FC Lorient",
+   "lg",
+   20
+  ],
+  [
+   "2014-09-28",
+   "FC Nantes",
+   "lg",
+   16
+  ],
+  [
+   "2014-10-05",
+   "LOSC Lille",
+   "lg",
+   86
+  ],
+  [
+   "2014-10-19",
+   "Montpellier HSC",
+   "lg",
+   77
+  ],
+  [
+   "2014-10-26",
+   "Olympique Marseille",
+   "lg",
+   85
+  ],
+  [
+   "2014-12-17",
+   "AS Monaco",
+   "dc",
+   35
+  ],
+  [
+   "2015-01-11",
+   "FC Toulouse",
+   "lg",
+   8
+  ],
+  [
+   "2015-01-17",
+   "RC Lens",
+   "lg",
+   3
+  ],
+  [
+   "2015-01-20",
+   "FC Nantes",
+   "dc",
+   1
+  ],
+  [
+   "2015-01-25",
+   "FC Metz",
+   "lg",
+   24
+  ],
+  [
+   "2015-02-01",
+   "AS Monaco",
+   "lg",
+   69
+  ],
+  [
+   "2015-02-08",
+   "Paris Saint-Germain",
+   "lg",
+   88
+  ],
+  [
+   "2015-02-15",
+   "FC Lorient",
+   "lg",
+   31
+  ],
+  [
+   "2015-02-22",
+   "FC Nantes",
+   "lg",
+   77
+  ],
+  [
+   "2015-02-28",
+   "LOSC Lille",
+   "lg",
+   23
+  ],
+  [
+   "2015-03-08",
+   "Montpellier HSC",
+   "lg",
+   79
+  ],
+  [
+   "2015-03-21",
+   "OGC Nice",
+   "lg",
+   50
+  ],
+  [
+   "2016-01-09",
+   "FC Lorient",
+   "lg",
+   15
+  ],
+  [
+   "2016-02-12",
+   "Angers SCO",
+   "lg",
+   45
+  ],
+  [
+   "2016-02-21",
+   "SM Caen",
+   "lg",
+   58
+  ],
+  [
+   "2016-02-27",
+   "FC Toulouse",
+   "lg",
+   26
+  ],
+  [
+   "2016-03-06",
+   "FC Nantes",
+   "lg",
+   65
+  ],
+  [
+   "2016-03-13",
+   "Olympique Lyon",
+   "lg",
+   45
+  ],
+  [
+   "2016-03-18",
+   "Olympique Marseille",
+   "lg",
+   65
+  ],
+  [
+   "2016-04-02",
+   "Stade Reims",
+   "lg",
+   79
+  ],
+  [
+   "2016-04-10",
+   "OGC Nice",
+   "lg",
+   68
+  ],
+  [
+   "2016-04-17",
+   "EA Guingamp",
+   "lg",
+   45
+  ],
+  [
+   "2016-04-29",
+   "Paris Saint-Germain",
+   "lg",
+   30
+  ],
+  [
+   "2016-05-14",
+   "SC Bastia",
+   "lg",
+   79
+  ],
+  [
+   "2016-08-14",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-20",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2016-08-27",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2016-09-11",
+   "SM Caen",
+   "lg",
+   88
+  ],
+  [
+   "2016-09-21",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-22",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-06",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2016-11-19",
+   "Angers SCO",
+   "lg",
+   70
+  ],
+  [
+   "2016-11-25",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-04",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-11",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-17",
+   "SC Bastia",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-21",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-08",
+   "Jeanne d'Arc de Biarritz",
+   "dc",
+   64
+  ],
+  [
+   "2017-01-14",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-21",
+   "EA Guingamp",
+   "lg",
+   90
+  ],
+  [
+   "2017-01-28",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-04",
+   "FC Girondins Bordeaux",
+   "lg",
+   87
+  ],
+  [
+   "2017-02-08",
+   "Angers SCO",
+   "lg",
+   70
+  ],
+  [
+   "2017-03-04",
+   "FC Metz",
+   "lg",
+   57
+  ],
+  [
+   "2017-03-11",
+   "Dijon FCO",
+   "lg",
+   74
+  ],
+  [
+   "2017-03-18",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-02",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-15",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-23",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2017-04-29",
+   "SC Bastia",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-07",
+   "Montpellier HSC",
+   "lg",
+   78
+  ],
+  [
+   "2017-05-14",
+   "SM Caen",
+   "lg",
+   67
+  ],
+  [
+   "2017-11-18",
+   "RC Strasbourg Alsace",
+   "lg",
+   3
+  ],
+  [
+   "2017-11-25",
+   "FC Nantes",
+   "lg",
+   82
+  ],
+  [
+   "2017-12-02",
+   "Amiens SC",
+   "lg",
+   64
+  ],
+  [
+   "2017-12-13",
+   "Olympique Marseille",
+   "dc",
+   84
+  ],
+  [
+   "2018-01-10",
+   "FC Toulouse",
+   "dk",
+   83
+  ],
+  [
+   "2018-01-17",
+   "LOSC Lille",
+   "lg",
+   81
+  ],
+  [
+   "2018-01-30",
+   "Paris Saint-Germain",
+   "dsf",
+   45
+  ],
+  [
+   "2018-02-24",
+   "ESTAC Troyes",
+   "lg",
+   64
+  ],
+  [
+   "2018-03-17",
+   "FC Girondins Bordeaux",
+   "lg",
+   5
+  ],
+  [
+   "2018-04-14",
+   "FC Metz",
+   "lg",
+   56
+  ],
+  [
+   "2018-04-20",
+   "FC Nantes",
+   "lg",
+   29
+  ],
+  [
+   "2018-05-06",
+   "RC Strasbourg Alsace",
+   "lg",
+   34
+  ],
+  [
+   "2018-05-19",
+   "Montpellier HSC",
+   "lg",
+   8
+  ],
+  [
+   "2018-08-11",
+   "Montpellier HSC",
+   "lg",
+   3
+  ],
+  [
+   "2018-08-18",
+   "FC Nantes",
+   "lg",
+   7
+  ],
+  [
+   "2018-09-01",
+   "SM Caen",
+   "lg",
+   5
+  ],
+  [
+   "2018-09-15",
+   "Angers SCO",
+   "lg",
+   27
+  ],
+  [
+   "2018-09-26",
+   "Olympique Lyon",
+   "lg",
+   13
+  ],
+  [
+   "2018-09-29",
+   "RC Strasbourg Alsace",
+   "lg",
+   22
+  ],
+  [
+   "2018-10-06",
+   "Amiens SC",
+   "lg",
+   18
+  ],
+  [
+   "2018-10-20",
+   "LOSC Lille",
+   "lg",
+   31
+  ]
+ ],
+ "note": "요안 구르퀴프(스타드 렌·AC 밀란·보르도·리옹·스타드 렌·디종)의 클럽 공식 경기 418경기(2004.1.25 크루아 드 사부아전 ~ 2018.10.20 릴전)에서 나온 59골 64도움(PK 골 없음), 친선경기·프랑스 대표팀(유소년 포함)·렌 U19(2003 쿠프 갬바르델라 결승)·리옹 2군(2013 CFA 1경기) 경기 제외\n클럽별 경기·골·도움: 스타드 렌(2003~2006·2015~2018) 133·13·7, AC 밀란 54·3·6, 보르도 95·24·24, 리옹 128·19·27, 디종 8·0·0. 출전 분 합계 26,183분\n출처: 경기 목록·출전 분(연장·퇴장 반영)은 Transfermarkt 선수 경기 성적, 골 시간·골 뒤 스코어·도움은 Transfermarkt 경기 리포트(골·도움이 있는 경기와 리그 밖 모든 경기), 2010-11부터는 FotMob 경기 이벤트와 대조함(FotMob에는 2010년 전 경기 자료가 없고, 2011.2.18 낭시전·2011.4.10 랑스전·2011.4.27 몽펠리에전은 FotMob 경기 자료가 비어 있음)\n경기·골 수는 프랑스어 위키백과 클럽·시즌별 기록(대표팀 열을 뺀 값)과 모든 시즌에서 같음. 영어 위키백과는 417경기(렌 2003-04 쿠프 드 프랑스 2004.1.25 크루아 드 사부아전 1경기가 빠짐)\n골: 2010-11 이후 골은 Transfermarkt와 FotMob이 수·스코어·분이 같음(FotMob 자료가 빈 2경기 제외). 분은 Transfermarkt 추가시간 표기를 씀. PK 골·자책골 없음\n도움: 2014년 8월 전은 Transfermarkt 리포트 도움(FotMob 도움 기록이 이 시기에 거의 비어 있음), 이후는 Transfermarkt와 FotMob 경기 이벤트가 함께 센 것 + 다른 출처 2곳이 확인한 것. 도움 64 = Transfermarkt 70 − PK 유도 1(2012.11.4 바스티아전 90+5분 말브랑크 PK) − 'Shot on goal'(슈팅 리바운드) 2(2009.5.16 르망전 75분 플라뉘스, 2017.4.15 릴전 29분 시오 — 이 골은 FotMob이 구르퀴프 도움으로 셈) − 상대 자책골에 준 도움 2(2008.10.22 클루지전 54분 카두, 2009.9.19 불로뉴전 70분 라쇼르) − 출처가 엇갈린 도움 1\n출처가 엇갈려 뺀 도움: 2010.11.2 벤피카전(챔스 조별) 90+5분 로브렌 헤더 — Transfermarkt는 구르퀴프 프리킥 도움, FotMob은 라카제트, ESPN은 곤살론스 도움으로 적고 경기 기사(maxifoot)는 키커를 밝히지 않음. 구르퀴프를 확인해 주는 다른 출처가 없어 넣지 않음(라카제트 자료도 이 도움을 넣지 않음)\nFotMob에 없지만 다른 출처 2곳이 구르퀴프 도움으로 적어 넣은 1개: 2014.12.17 모나코전(쿠프 드 라 리그 16강) 연장 106분 라카제트 골(maxifoot 경기 기사·평점, Lyonmag 경기 기사: 구르퀴프가 수비를 버티고 내준 공을 라카제트가 마무리, 기사들은 107분으로 적음). 2014년 8월 이후 FotMob에만 있는 도움은 위 릴전 시오 골뿐(넣지 않음)\n2014년 8월 전 도움은 Transfermarkt 한 곳 기준이라 하나하나 다른 출처와 대조하지는 않음(프랑스어 위키백과 시즌 도움 합계는 Transfermarkt보다 8개 적은 62개, FotMob 경력 합계는 2010년 전 자료가 거의 없음)\nTransfermarkt 리포트 골 목록이 최종 스코어보다 짧은 경기: 2014.1.5 라 쉬즈쉬르사르트전(1-6)은 FotMob 이벤트로 41분 상대 골(1-1)을 채워 56분 도움의 골 전 스코어를 2-1로 계산함. 2006.1.7 코르트전(3-2)은 구르퀴프 골·도움이 없어 영향 없음\n날짜는 현지 날짜(Transfermarkt 리포트·일정 날짜). 2009.7.25 트로페 데 샹피옹(몬트리올)·2012.7.28 트로페 데 샹피옹(미국 해리슨)도 현지 날짜와 같음\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(라카제트·카카·세도르프·인자기·호나우두·뎀벨레 등) 값, 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 최종 순위를 리그 모형에 넣은 값 순으로 씀(기록 123개: 같은 경기 33, 같은 팀·시즌 87, 순위표+모형 3)\n순위표+모형(추정): 몽펠리에 2005-06 리그2 12위 1521·갱강 2009-10 리그2 18위 1484(프랑스 2부 평균 1540 모형, 다른 선수 자료와 같은 식), 이죄르 2013-14 프랑스 4부(CFA) 1220(다른 선수 자료의 4부 값)\n대회 비중: 쿠프 드 프랑스·쿠프 드 라 리그·코파 이탈리아는 국내컵(16강까지 낮은 비중, 8강 이후 높은 비중), 트로페 데 샹피옹은 국내컵 결승, UEFA컵 1라운드는 유로파 예선, UEFA컵 3라운드·유로파 16강은 유로파 토너먼트로 계산함\n두 경기 합산(챔스 16강·8강 2009-10 올림피아코스·리옹전) 기록 3개(3경기)는 합산 S로 계산함(원정 다득점·연장 있음). 연장 기록 2개(2006.4.12 몽펠리에전 110분, 2014.12.17 모나코전 106분)는 단판 연장으로 계산함\n시즌 구분: 보르도·리옹은 7월 10일 기준(2009.7.25·2012.7.28 트로페 데 샹피옹, 2013.7.30 챔스 예선이 새 시즌), 렌·밀란·디종은 8월 1일 기준. 클럽 구분은 2006.7.1 전 렌, 2008.7.1 전 밀란, 2010.8.24 전 보르도(2008-09 임대 포함, 2010.8.22 PSG전까지), 2015.7.1 전 리옹, 2018.7.1 전 렌, 이후 디종(FotMob 경력 날짜 기준). 렌 2015-16은 부상으로 2016.1.9 로리앙전부터 출전\n수상 기록은 Transfermarkt 업적 페이지 기준: 챔피언스리그 2006-07·클럽 월드컵 2007(밀란, 준결승 2차전·결승과 클럽 월드컵은 출전하지 않았지만 Transfermarkt 표기대로 넣음), 리그1 2008-09·쿠프 드 라 리그 2008-09·트로페 데 샹피옹 2008·2009(보르도), 쿠프 드 프랑스 2011-12·트로페 데 샹피옹 2012(리옹), 올해의 선수 2009(Transfermarkt 'Footballer of the Year'). U19 유럽 선수권 우승은 대표팀 기록이라 뺌\n은퇴(Transfermarkt 2019.1.23 은퇴 표시, 디종과 계약 해지 뒤 복귀 없음 — 본인 2023 인터뷰·부친 발언). 마지막 경기 2018.10.20 릴전",
+ "judgments": [
+  [
+   "도움 제외",
+   "2010-11-02",
+   "SL Benfica",
+   "90+5",
+   "Dejan Lovren",
+   "2010.11.2 벤피카전 90+5분 로브렌 헤더: Transfermarkt만 구르퀴프(프리킥), FotMob은 라카제트, ESPN은 곤살론스(세트피스) 도움으로 적음. maxifoot은 하프라인(센터서클) 프리킥이라고만 적고 키커를 밝히지 않음. 구르퀴프를 확인하는 다른 출처가 없고 두 출처가 다른 선수를 적어 넣지 않음(라카제트 자료도 이 도움을 넣지 않음)"
+  ],
+  [
+   "도움 제외",
+   "2012-11-04",
+   "SC Bastia",
+   "90+5",
+   "Steed Malbranque",
+   "PK 유도"
+  ],
+  [
+   "다른 출처 2곳으로 넣은 도움",
+   "2511748|106",
+   "maxifoot 경기 기사·선수 평점(구르퀴프 크로스를 라카제트가 마무리, 1-1 107분) · Lyonmag 경기 기사(구르퀴프가 수비를 버티고 컷백 → 라카제트). FotMob 이벤트는 이 골 도움 칸이 빔"
+  ],
+  [
+   "도움 제외",
+   "2017-04-15",
+   "LOSC Lille",
+   "29",
+   "Giovanni Sio",
+   "'Shot on goal'(슈팅 리바운드)"
+  ],
+  [
+   "도움 제외",
+   "2009-05-16",
+   "Le Mans Union Club 72",
+   "75",
+   "Marc Planus",
+   "'Shot on goal'(슈팅 리바운드)"
+  ],
+  [
+   "도움 제외",
+   "2008-10-22",
+   "CFR Cluj",
+   "54",
+   "Cadú",
+   "상대 자책골에 준 도움"
+  ],
+  [
+   "도움 제외",
+   "2009-09-19",
+   "US Boulogne",
+   "70",
+   "Yoann Lachor",
+   "상대 자책골에 준 도움"
+  ]
+ ],
+ "cross_check": [
+  [
+   "구르퀴프 도움→Alexandre Lacazette 골",
+   "2013-08-10",
+   69,
+   "같음"
+  ],
+  [
+   "구르퀴프 도움→Alexandre Lacazette 골",
+   "2013-12-15",
+   17,
+   "같음"
+  ],
+  [
+   "구르퀴프 도움→Alexandre Lacazette 골",
+   "2013-12-18",
+   60,
+   "같음"
+  ],
+  [
+   "구르퀴프 도움→Alexandre Lacazette 골",
+   "2014-10-05",
+   45,
+   "같음"
+  ],
+  [
+   "구르퀴프 도움→Alexandre Lacazette 골",
+   "2014-12-17",
+   106,
+   "같음"
+  ],
+  [
+   "Alexandre Lacazette 도움→구르퀴프 골",
+   "2010-11-02",
+   74,
+   "같음"
+  ],
+  [
+   "Alexandre Lacazette 도움→구르퀴프 골",
+   "2014-10-26",
+   65,
+   "같음"
+  ],
+  [
+   "Kaká 도움→구르퀴프 골",
+   "2006-09-13",
+   41,
+   "같음"
+  ],
+  [
+   "Clarence Seedorf 도움→구르퀴프 골",
+   "2007-10-31",
+   76,
+   "같음"
+  ],
+  [
+   "구르퀴프 도움→Filippo Inzaghi 골",
+   "2008-02-24",
+   90,
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "FotMob 없음",
+   "1043455",
+   "2011-02-18"
+  ],
+  [
+   "FotMob 없음",
+   "1043535",
+   "2011-04-27"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "2735606",
+   "2017-04-15",
+   [
+    29
+   ]
+  ]
+ ],
+ "elo_sources": {
+  "팀×시즌 통합표": 87,
+  "같은 경기 다른 선수 자료": 33,
+  "순위표+리그 모형": 3
+ },
+ "elo_log": [
+  [
+   "2010-03-30",
+   "Olympique Lyon",
+   1872,
+   "리그1 2009-10 2위",
+   "table 2009-10",
+   [
+    [
+     1872,
+     "리그1 2009-10 2위"
+    ]
+   ]
+  ],
+  [
+   "2010-08-22",
+   "Paris Saint-Germain",
+   1792,
+   "리그1 2010-11 4위",
+   "table 2010-11",
+   [
+    [
+     1792,
+     "리그1 2010-11 4위"
+    ]
+   ]
+  ],
+  [
+   "2010-10-17",
+   "LOSC Lille",
+   1959,
+   "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)",
+   "table 2010-11",
+   [
+    [
+     1959,
+     "리그1 2010-11 1위 (추정, 이웃 순위값에 순위 곡선 차이)"
+    ]
+   ]
+  ],
+  [
+   "2010-10-30",
+   "FC Sochaux-Montbéliard",
+   1776,
+   "리그1 2010-11 5위",
+   "same:알렉상드르 라카제트 [FC Sochaux-Montbéliard]",
+   [
+    [
+     1776,
+     "리그1 2010-11 5위"
+    ]
+   ]
+  ],
+  [
+   "2010-11-14",
+   "OGC Nice",
+   1621,
+   "리그1 2010-11 17위",
+   "table 2010-11",
+   [
+    [
+     1621,
+     "리그1 2010-11 17위"
+    ]
+   ]
+  ],
+  [
+   "2010-11-21",
+   "RC Lens",
+   1602,
+   "리그1 2010-11 19위",
+   "table 2010-11",
+   [
+    [
+     1602,
+     "리그1 2010-11 19위"
+    ]
+   ]
+  ],
+  [
+   "2011-02-18",
+   "AS Nancy-Lorraine",
+   1669,
+   "리그1 2010-11 13위",
+   "table 2010-11",
+   [
+    [
+     1669,
+     "리그1 2010-11 13위"
+    ]
+   ]
+  ],
+  [
+   "2011-04-10",
+   "RC Lens",
+   1602,
+   "리그1 2010-11 19위",
+   "table 2010-11",
+   [
+    [
+     1602,
+     "리그1 2010-11 19위"
+    ]
+   ]
+  ],
+  [
+   "2011-04-27",
+   "Montpellier HSC",
+   1664,
+   "리그1 2010-11 14위",
+   "table 2010-11",
+   [
+    [
+     1664,
+     "리그1 2010-11 14위"
+    ]
+   ]
+  ],
+  [
+   "2010-11-02",
+   "SL Benfica",
+   1786,
+   "포르투갈 1부 2010-11 2위 (추정: 모형값)",
+   "same:알렉상드르 라카제트 [SL Benfica]",
+   [
+    [
+     1786,
+     "포르투갈 1부 2010-11 2위 (추정: 모형값)"
+    ]
+   ]
+  ],
+  [
+   "2011-10-23",
+   "LOSC Lille",
+   1825,
+   "리그1 2011-12 3위",
+   "table 2011-12",
+   [
+    [
+     1825,
+     "리그1 2011-12 3위"
+    ]
+   ]
+  ],
+  [
+   "2011-10-29",
+   "AS Saint-Étienne",
+   1750,
+   "리그1 2011-12 7위",
+   "table 2011-12",
+   [
+    [
+     1750,
+     "리그1 2011-12 7위"
+    ]
+   ]
+  ],
+  [
+   "2012-05-10",
+   "FC Évian Thonon Gaillard",
+   1715,
+   "리그1 2011-12 9위",
+   "same:알렉상드르 라카제트 [FC Évian Thonon Gaillard]",
+   [
+    [
+     1715,
+     "리그1 2011-12 9위"
+    ]
+   ]
+  ],
+  [
+   "2012-05-06",
+   "Stade Brestois 29",
+   1655,
+   "리그1 2011-12 15위",
+   "table 2011-12",
+   [
+    [
+     1655,
+     "리그1 2011-12 15위"
+    ]
+   ]
+  ],
+  [
+   "2013-03-16",
+   "SC Bastia",
+   1679,
+   "리그1 2012-13 12위",
+   "table 2012-13",
+   [
+    [
+     1679,
+     "리그1 2012-13 12위"
+    ]
+   ]
+  ],
+  [
+   "2013-04-28",
+   "AS Saint-Étienne",
+   1776,
+   "리그1 2012-13 5위",
+   "table 2012-13",
+   [
+    [
+     1776,
+     "리그1 2012-13 5위"
+    ]
+   ]
+  ],
+  [
+   "2013-05-05",
+   "AS Nancy-Lorraine",
+   1610,
+   "리그1 2012-13 18위",
+   "table 2012-13",
+   [
+    [
+     1610,
+     "리그1 2012-13 18위"
+    ]
+   ]
+  ],
+  [
+   "2013-05-05",
+   "AS Nancy-Lorraine",
+   1610,
+   "리그1 2012-13 18위",
+   "table 2012-13",
+   [
+    [
+     1610,
+     "리그1 2012-13 18위"
+    ]
+   ]
+  ],
+  [
+   "2013-04-19",
+   "Montpellier HSC",
+   1715,
+   "리그1 2012-13 9위",
+   "table 2012-13",
+   [
+    [
+     1715,
+     "리그1 2012-13 9위"
+    ]
+   ]
+  ],
+  [
+   "2012-08-11",
+   "Stade Rennais FC",
+   1669,
+   "리그1 2012-13 13위",
+   "table 2012-13",
+   [
+    [
+     1669,
+     "리그1 2012-13 13위"
+    ]
+   ]
+  ],
+  [
+   "2012-07-28",
+   "Montpellier HSC",
+   1715,
+   "리그1 2012-13 9위",
+   "same:알렉상드르 라카제트 [Montpellier HSC]",
+   [
+    [
+     1715,
+     "리그1 2012-13 9위"
+    ]
+   ]
+  ],
+  [
+   "2012-11-08",
+   "Athletic Bilbao",
+   1751,
+   "라리가 2012-13 12위",
+   "same:알렉상드르 라카제트 [Athletic Bilbao]",
+   [
+    [
+     1751,
+     "라리가 2012-13 12위"
+    ]
+   ]
+  ],
+  [
+   "2012-11-08",
+   "Athletic Bilbao",
+   1751,
+   "라리가 2012-13 12위",
+   "same:알렉상드르 라카제트 [Athletic Bilbao]",
+   [
+    [
+     1751,
+     "라리가 2012-13 12위"
+    ]
+   ]
+  ],
+  [
+   "2012-11-22",
+   "AC Sparta Praha",
+   1560,
+   "체코 (추정)",
+   "table 2012-13",
+   [
+    [
+     1560,
+     "체코 (추정)"
+    ]
+   ]
+  ],
+  [
+   "2012-10-31",
+   "OGC Nice",
+   1792,
+   "리그1 2012-13 4위",
+   "table 2012-13",
+   [
+    [
+     1792,
+     "리그1 2012-13 4위"
+    ]
+   ]
+  ],
+  [
+   "2013-11-10",
+   "AS Saint-Étienne",
+   1792,
+   "리그1 2013-14 4위",
+   "same:알렉상드르 라카제트 [AS Saint-Étienne]",
+   [
+    [
+     1792,
+     "리그1 2013-14 4위"
+    ]
+   ]
+  ],
+  [
+   "2013-12-15",
+   "Olympique Marseille",
+   1764,
+   "리그1 2013-14 6위",
+   "same:알렉상드르 라카제트 [Olympique Marseille]",
+   [
+    [
+     1764,
+     "리그1 2013-14 6위"
+    ]
+   ]
+  ],
+  [
+   "2014-01-11",
+   "FC Sochaux-Montbéliard",
+   1610,
+   "리그1 2013-14 18위",
+   "table 2013-14",
+   [
+    [
+     1610,
+     "리그1 2013-14 18위"
+    ]
+   ]
+  ],
+  [
+   "2013-12-22",
+   "FC Lorient",
+   1733,
+   "리그1 2013-14 8위",
+   "table 2013-14",
+   [
+    [
+     1733,
+     "리그1 2013-14 8위"
+    ]
+   ]
+  ],
+  [
+   "2013-08-10",
+   "OGC Nice",
+   1621,
+   "리그1 2013-14 17위",
+   "same:알렉상드르 라카제트 [OGC Nice]",
+   [
+    [
+     1621,
+     "리그1 2013-14 17위"
+    ]
+   ]
+  ],
+  [
+   "2013-08-10",
+   "OGC Nice",
+   1621,
+   "리그1 2013-14 17위",
+   "same:알렉상드르 라카제트 [OGC Nice]",
+   [
+    [
+     1621,
+     "리그1 2013-14 17위"
+    ]
+   ]
+  ],
+  [
+   "2013-08-10",
+   "OGC Nice",
+   1621,
+   "리그1 2013-14 17위",
+   "same:알렉상드르 라카제트 [OGC Nice]",
+   [
+    [
+     1621,
+     "리그1 2013-14 17위"
+    ]
+   ]
+  ],
+  [
+   "2013-08-16",
+   "FC Sochaux-Montbéliard",
+   1610,
+   "리그1 2013-14 18위",
+   "same:알렉상드르 라카제트 [FC Sochaux-Montbéliard]",
+   [
+    [
+     1610,
+     "리그1 2013-14 18위"
+    ]
+   ]
+  ],
+  [
+   "2013-11-28",
+   "Real Betis Balompié",
+   1648,
+   "라리가 2013-14 20위",
+   "table 2013-14",
+   [
+    [
+     1648,
+     "라리가 2013-14 20위"
+    ]
+   ]
+  ],
+  [
+   "2013-12-18",
+   "Stade Reims",
+   1688,
+   "리그1 2013-14 11위",
+   "same:알렉상드르 라카제트 [Stade Reims]",
+   [
+    [
+     1688,
+     "리그1 2013-14 11위"
+    ]
+   ]
+  ],
+  [
+   "2013-12-18",
+   "Stade Reims",
+   1688,
+   "리그1 2013-14 11위",
+   "same:알렉상드르 라카제트 [Stade Reims]",
+   [
+    [
+     1688,
+     "리그1 2013-14 11위"
+    ]
+   ]
+  ],
+  [
+   "2014-01-15",
+   "Olympique Marseille",
+   1764,
+   "리그1 2013-14 6위",
+   "same:알렉상드르 라카제트 [Olympique Marseille]",
+   [
+    [
+     1764,
+     "리그1 2013-14 6위"
+    ]
+   ]
+  ],
+  [
+   "2014-01-05",
+   "La Suze-sur-Sarthe FC",
+   1150,
+   "프랑스 5부 (추정, 2013-14 소속 단계 미확인)",
+   "same:알렉상드르 라카제트 [La Suze-sur-Sarthe FC]",
+   [
+    [
+     1150,
+     "프랑스 5부 (추정, 2013-14 소속 단계 미확인)"
+    ]
+   ]
+  ],
+  [
+   "2014-01-05",
+   "La Suze-sur-Sarthe FC",
+   1150,
+   "프랑스 5부 (추정, 2013-14 소속 단계 미확인)",
+   "same:알렉상드르 라카제트 [La Suze-sur-Sarthe FC]",
+   [
+    [
+     1150,
+     "프랑스 5부 (추정, 2013-14 소속 단계 미확인)"
+    ]
+   ]
+  ],
+  [
+   "2014-01-22",
+   "AS Yzeure",
+   1220,
+   "프랑스 4부(CFA) 2013-14 B조 (추정)",
+   "model FR4B",
+   []
+  ],
+  [
+   "2014-10-05",
+   "LOSC Lille",
+   1733,
+   "리그1 2014-15 8위",
+   "same:알렉상드르 라카제트 [LOSC Lille]",
+   [
+    [
+     1733,
+     "리그1 2014-15 8위"
+    ]
+   ]
+  ],
+  [
+   "2014-10-19",
+   "Montpellier HSC",
+   1750,
+   "리그1 2014-15 7위",
+   "same:알렉상드르 라카제트 [Montpellier HSC]",
+   [
+    [
+     1750,
+     "리그1 2014-15 7위"
+    ]
+   ]
+  ],
+  [
+   "2014-10-19",
+   "Montpellier HSC",
+   1750,
+   "리그1 2014-15 7위",
+   "same:알렉상드르 라카제트 [Montpellier HSC]",
+   [
+    [
+     1750,
+     "리그1 2014-15 7위"
+    ]
+   ]
+  ],
+  [
+   "2014-10-26",
+   "Olympique Marseille",
+   1792,
+   "리그1 2014-15 4위",
+   "same:알렉상드르 라카제트 [Olympique Marseille]",
+   [
+    [
+     1792,
+     "리그1 2014-15 4위"
+    ]
+   ]
+  ],
+  [
+   "2015-01-25",
+   "FC Metz",
+   1602,
+   "리그1 2014-15 19위",
+   "same:알렉상드르 라카제트 [FC Metz]",
+   [
+    [
+     1602,
+     "리그1 2014-15 19위"
+    ]
+   ]
+  ],
+  [
+   "2015-03-08",
+   "Montpellier HSC",
+   1750,
+   "리그1 2014-15 7위",
+   "same:알렉상드르 라카제트 [Montpellier HSC]",
+   [
+    [
+     1750,
+     "리그1 2014-15 7위"
+    ]
+   ]
+  ],
+  [
+   "2015-03-08",
+   "Montpellier HSC",
+   1750,
+   "리그1 2014-15 7위",
+   "same:알렉상드르 라카제트 [Montpellier HSC]",
+   [
+    [
+     1750,
+     "리그1 2014-15 7위"
+    ]
+   ]
+  ],
+  [
+   "2014-12-17",
+   "AS Monaco",
+   1825,
+   "리그1 2014-15 3위",
+   "same:알렉상드르 라카제트 [AS Monaco]",
+   [
+    [
+     1825,
+     "리그1 2014-15 3위"
+    ]
+   ]
+  ],
+  [
+   "2016-03-18",
+   "Olympique Marseille",
+   1669,
+   "리그1 2015-16 13위",
+   "same:우스만 뎀벨레 [Olympique Marseille]",
+   [
+    [
+     1669,
+     "리그1 2015-16 13위"
+    ]
+   ]
+  ],
+  [
+   "2016-03-18",
+   "Olympique Marseille",
+   1669,
+   "리그1 2015-16 13위",
+   "same:우스만 뎀벨레 [Olympique Marseille]",
+   [
+    [
+     1669,
+     "리그1 2015-16 13위"
+    ]
+   ]
+  ],
+  [
+   "2016-08-20",
+   "AS Nancy-Lorraine",
+   1602,
+   "리그1 2016-17 19위",
+   "table 2016-17",
+   [
+    [
+     1602,
+     "리그1 2016-17 19위"
+    ]
+   ]
+  ],
+  [
+   "2016-11-25",
+   "FC Toulouse",
+   1669,
+   "리그1 2016-17 13위",
+   "table 2016-17",
+   [
+    [
+     1669,
+     "리그1 2016-17 13위"
+    ]
+   ]
+  ],
+  [
+   "2016-12-21",
+   "LOSC Lille",
+   1688,
+   "리그1 2016-17 11위",
+   "table 2016-17",
+   [
+    [
+     1688,
+     "리그1 2016-17 11위"
+    ]
+   ]
+  ],
+  [
+   "2017-01-21",
+   "EA Guingamp",
+   1699,
+   "리그1 2016-17 10위",
+   "table 2016-17",
+   [
+    [
+     1699,
+     "리그1 2016-17 10위"
+    ]
+   ]
+  ],
+  [
+   "2017-02-04",
+   "FC Girondins Bordeaux",
+   1764,
+   "리그1 2016-17 6위",
+   "table 2016-17",
+   [
+    [
+     1764,
+     "리그1 2016-17 6위"
+    ]
+   ]
+  ],
+  [
+   "2017-04-23",
+   "AS Saint-Étienne",
+   1733,
+   "리그1 2016-17 8위",
+   "table 2016-17",
+   [
+    [
+     1733,
+     "리그1 2016-17 8위"
+    ]
+   ]
+  ],
+  [
+   "2006-04-12",
+   "Montpellier HSC",
+   1521,
+   "리그2 2005-06 12위 (추정, 프랑스 2부 평균 1540 모형)",
+   "model FR2",
+   []
+  ],
+  [
+   "2018-03-17",
+   "FC Girondins Bordeaux",
+   1764,
+   "리그1 2017-18 6위",
+   "table 2017-18",
+   [
+    [
+     1764,
+     "리그1 2017-18 6위"
+    ]
+   ]
+  ],
+  [
+   "2018-04-14",
+   "FC Metz",
+   1582,
+   "리그1 2017-18 20위",
+   "table 2017-18",
+   [
+    [
+     1582,
+     "리그1 2017-18 20위"
+    ]
+   ]
+  ],
+  [
+   "2005-08-20",
+   "Olympique Marseille",
+   1776,
+   "리그1 2005-06 5위",
+   "table 2005-06",
+   [
+    [
+     1776,
+     "리그1 2005-06 5위"
+    ]
+   ]
+  ],
+  [
+   "2005-09-18",
+   "AS Monaco",
+   1703,
+   "리그1 2005-06 10위",
+   "table 2005-06",
+   [
+    [
+     1703,
+     "리그1 2005-06 10위"
+    ]
+   ]
+  ],
+  [
+   "2005-10-15",
+   "RC Strasbourg Alsace",
+   1602,
+   "리그1 2005-06 19위",
+   "table 2005-06",
+   [
+    [
+     1602,
+     "리그1 2005-06 19위"
+    ]
+   ]
+  ],
+  [
+   "2005-11-06",
+   "ESTAC Troyes",
+   1621,
+   "리그1 2005-06 17위",
+   "table 2005-06",
+   [
+    [
+     1621,
+     "리그1 2005-06 17위"
+    ]
+   ]
+  ],
+  [
+   "2005-11-20",
+   "FC Toulouse",
+   1635,
+   "리그1 2005-06 16위",
+   "table 2005-06",
+   [
+    [
+     1635,
+     "리그1 2005-06 16위"
+    ]
+   ]
+  ],
+  [
+   "2006-02-25",
+   "Olympique Lyon",
+   1955,
+   "리그1 2005-06 1위",
+   "table 2005-06",
+   [
+    [
+     1955,
+     "리그1 2005-06 1위"
+    ]
+   ]
+  ],
+  [
+   "2006-02-25",
+   "Olympique Lyon",
+   1955,
+   "리그1 2005-06 1위",
+   "table 2005-06",
+   [
+    [
+     1955,
+     "리그1 2005-06 1위"
+    ]
+   ]
+  ],
+  [
+   "2006-03-11",
+   "AC Ajaccio",
+   1610,
+   "리그1 2005-06 18위",
+   "table 2005-06",
+   [
+    [
+     1610,
+     "리그1 2005-06 18위"
+    ]
+   ]
+  ],
+  [
+   "2006-03-18",
+   "FC Metz",
+   1582,
+   "리그1 2005-06 20위",
+   "table 2005-06",
+   [
+    [
+     1582,
+     "리그1 2005-06 20위"
+    ]
+   ]
+  ],
+  [
+   "2006-09-13",
+   "AEK Athens",
+   1550,
+   "그리스 2006-07 2위 (추정, 다른 선수 자료 AEK 2003 값과 같음)",
+   "same:카카·필리포 인자기 [AEK Athens]",
+   [
+    [
+     1550,
+     "그리스 2006-07 2위 (추정, 다른 선수 자료 AEK 2003 값과 같음)"
+    ]
+   ]
+  ],
+  [
+   "2006-12-03",
+   "Cagliari Calcio",
+   1651,
+   "세리에A 2006-07 17위",
+   "table 2006-07",
+   [
+    [
+     1651,
+     "세리에A 2006-07 17위"
+    ]
+   ]
+  ],
+  [
+   "2006-12-16",
+   "ACF Fiorentina",
+   1787,
+   "세리에A 2006-07 6위",
+   "table 2006-07",
+   [
+    [
+     1787,
+     "세리에A 2006-07 6위"
+    ]
+   ]
+  ],
+  [
+   "2007-01-14",
+   "Reggina Calcio",
+   1690,
+   "세리에A 2006-07 14위",
+   "same:클라렌스 세도르프 [Reggina Calcio]",
+   [
+    [
+     1690,
+     "세리에A 2006-07 14위"
+    ]
+   ]
+  ],
+  [
+   "2007-04-15",
+   "FC Messina Peloro",
+   1614,
+   "세리에A 2006-07 20위",
+   "same:카카·호나우두 [FC Messina Peloro/Messina]",
+   [
+    [
+     1614,
+     "세리에A 2006-07 20위"
+    ]
+   ]
+  ],
+  [
+   "2007-05-19",
+   "Udinese Calcio",
+   1725,
+   "세리에A 2006-07 10위",
+   "table 2006-07",
+   [
+    [
+     1725,
+     "세리에A 2006-07 10위"
+    ]
+   ]
+  ],
+  [
+   "2007-10-31",
+   "UC Sampdoria",
+   1787,
+   "세리에A 2007-08 6위",
+   "same:카카·클라렌스 세도르프 [Sampdoria/UC Sampdoria]",
+   [
+    [
+     1787,
+     "세리에A 2007-08 6위"
+    ]
+   ]
+  ],
+  [
+   "2008-02-24",
+   "US Palermo",
+   1714,
+   "세리에A 2007-08 11위",
+   "same:필리포 인자기 [US Palermo]",
+   [
+    [
+     1714,
+     "세리에A 2007-08 11위"
+    ]
+   ]
+  ],
+  [
+   "2008-04-20",
+   "Reggina Calcio",
+   1668,
+   "세리에A 2007-08 16위",
+   "same:카카·필리포 인자기 [Reggina Calcio]",
+   [
+    [
+     1668,
+     "세리에A 2007-08 16위"
+    ]
+   ]
+  ],
+  [
+   "2008-08-09",
+   "SM Caen",
+   1610,
+   "리그1 2008-09 18위",
+   "table 2008-09",
+   [
+    [
+     1610,
+     "리그1 2008-09 18위"
+    ]
+   ]
+  ],
+  [
+   "2008-08-09",
+   "SM Caen",
+   1610,
+   "리그1 2008-09 18위",
+   "table 2008-09",
+   [
+    [
+     1610,
+     "리그1 2008-09 18위"
+    ]
+   ]
+  ],
+  [
+   "2008-09-13",
+   "Olympique Marseille",
+   1872,
+   "리그1 2008-09 2위",
+   "table 2008-09",
+   [
+    [
+     1872,
+     "리그1 2008-09 2위"
+    ]
+   ]
+  ],
+  [
+   "2008-09-28",
+   "AS Saint-Étienne",
+   1621,
+   "리그1 2008-09 17위",
+   "table 2008-09",
+   [
+    [
+     1621,
+     "리그1 2008-09 17위"
+    ]
+   ]
+  ],
+  [
+   "2008-10-18",
+   "FC Toulouse",
+   1792,
+   "리그1 2008-09 4위",
+   "table 2008-09",
+   [
+    [
+     1792,
+     "리그1 2008-09 4위"
+    ]
+   ]
+  ],
+  [
+   "2008-11-08",
+   "AJ Auxerre",
+   1733,
+   "리그1 2008-09 8위",
+   "table 2008-09",
+   [
+    [
+     1733,
+     "리그1 2008-09 8위"
+    ]
+   ]
+  ],
+  [
+   "2008-11-22",
+   "Stade Rennais FC",
+   1749,
+   "리그1 2008-09 7위",
+   "table 2008-09",
+   [
+    [
+     1749,
+     "리그1 2008-09 7위"
+    ]
+   ]
+  ],
+  [
+   "2008-12-21",
+   "AS Monaco",
+   1688,
+   "리그1 2008-09 11위",
+   "table 2008-09",
+   [
+    [
+     1688,
+     "리그1 2008-09 11위"
+    ]
+   ]
+  ],
+  [
+   "2008-12-21",
+   "AS Monaco",
+   1688,
+   "리그1 2008-09 11위",
+   "table 2008-09",
+   [
+    [
+     1688,
+     "리그1 2008-09 11위"
+    ]
+   ]
+  ],
+  [
+   "2009-01-11",
+   "Paris Saint-Germain",
+   1764,
+   "리그1 2008-09 6위",
+   "table 2008-09",
+   [
+    [
+     1764,
+     "리그1 2008-09 6위"
+    ]
+   ]
+  ],
+  [
+   "2009-01-11",
+   "Paris Saint-Germain",
+   1764,
+   "리그1 2008-09 6위",
+   "table 2008-09",
+   [
+    [
+     1764,
+     "리그1 2008-09 6위"
+    ]
+   ]
+  ],
+  [
+   "2009-01-17",
+   "FC Nantes",
+   1602,
+   "리그1 2008-09 19위",
+   "table 2008-09",
+   [
+    [
+     1602,
+     "리그1 2008-09 19위"
+    ]
+   ]
+  ],
+  [
+   "2009-02-01",
+   "LOSC Lille",
+   1778,
+   "리그1 2008-09 5위",
+   "table 2008-09",
+   [
+    [
+     1778,
+     "리그1 2008-09 5위"
+    ]
+   ]
+  ],
+  [
+   "2009-03-14",
+   "OGC Nice",
+   1715,
+   "리그1 2008-09 9위",
+   "table 2008-09",
+   [
+    [
+     1715,
+     "리그1 2008-09 9위"
+    ]
+   ]
+  ],
+  [
+   "2009-03-21",
+   "Le Havre AC",
+   1582,
+   "리그1 2008-09 20위",
+   "table 2008-09",
+   [
+    [
+     1582,
+     "리그1 2008-09 20위"
+    ]
+   ]
+  ],
+  [
+   "2009-04-29",
+   "Stade Rennais FC",
+   1749,
+   "리그1 2008-09 7위",
+   "table 2008-09",
+   [
+    [
+     1749,
+     "리그1 2008-09 7위"
+    ]
+   ]
+  ],
+  [
+   "2009-04-29",
+   "Stade Rennais FC",
+   1749,
+   "리그1 2008-09 7위",
+   "table 2008-09",
+   [
+    [
+     1749,
+     "리그1 2008-09 7위"
+    ]
+   ]
+  ],
+  [
+   "2009-05-03",
+   "FC Sochaux-Montbéliard",
+   1664,
+   "리그1 2008-09 14위",
+   "table 2008-09",
+   [
+    [
+     1664,
+     "리그1 2008-09 14위"
+    ]
+   ]
+  ],
+  [
+   "2009-05-13",
+   "Valenciennes FC",
+   1679,
+   "리그1 2008-09 12위",
+   "table 2008-09",
+   [
+    [
+     1679,
+     "리그1 2008-09 12위"
+    ]
+   ]
+  ],
+  [
+   "2009-05-16",
+   "Le Mans Union Club 72",
+   1640,
+   "리그1 2008-09 16위",
+   "table 2008-09",
+   [
+    [
+     1640,
+     "리그1 2008-09 16위"
+    ]
+   ]
+  ],
+  [
+   "2009-05-16",
+   "Le Mans Union Club 72",
+   1640,
+   "리그1 2008-09 16위",
+   "table 2008-09",
+   [
+    [
+     1640,
+     "리그1 2008-09 16위"
+    ]
+   ]
+  ],
+  [
+   "2009-05-23",
+   "AS Monaco",
+   1688,
+   "리그1 2008-09 11위",
+   "table 2008-09",
+   [
+    [
+     1688,
+     "리그1 2008-09 11위"
+    ]
+   ]
+  ],
+  [
+   "2008-10-01",
+   "AS Roma",
+   1787,
+   "세리에A 2008-09 6위",
+   "table 2008-09",
+   [
+    [
+     1787,
+     "세리에A 2008-09 6위"
+    ]
+   ]
+  ],
+  [
+   "2008-11-04",
+   "CFR Cluj",
+   1500,
+   "루마니아 4위 (추정)",
+   "table 2008-09",
+   [
+    [
+     1500,
+     "루마니아 4위 (추정)"
+    ]
+   ]
+  ],
+  [
+   "2008-11-26",
+   "Chelsea FC",
+   1887,
+   "프리미어리그 2008-09 3위",
+   "table 2008-09",
+   [
+    [
+     1887,
+     "프리미어리그 2008-09 3위"
+    ]
+   ]
+  ],
+  [
+   "2009-04-25",
+   "Vannes OC",
+   1532,
+   "리그2(프랑스 2부) 2008-09 10위",
+   "table 2008-09",
+   [
+    [
+     1532,
+     "리그2(프랑스 2부) 2008-09 10위"
+    ]
+   ]
+  ],
+  [
+   "2009-04-25",
+   "Vannes OC",
+   1532,
+   "리그2(프랑스 2부) 2008-09 10위",
+   "table 2008-09",
+   [
+    [
+     1532,
+     "리그2(프랑스 2부) 2008-09 10위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-09",
+   "RC Lens",
+   1688,
+   "리그1 2009-10 11위",
+   "table 2009-10",
+   [
+    [
+     1688,
+     "리그1 2009-10 11위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-09",
+   "RC Lens",
+   1688,
+   "리그1 2009-10 11위",
+   "table 2009-10",
+   [
+    [
+     1688,
+     "리그1 2009-10 11위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-15",
+   "FC Sochaux-Montbéliard",
+   1640,
+   "리그1 2009-10 16위",
+   "table 2009-10",
+   [
+    [
+     1640,
+     "리그1 2009-10 16위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-15",
+   "FC Sochaux-Montbéliard",
+   1640,
+   "리그1 2009-10 16위",
+   "table 2009-10",
+   [
+    [
+     1640,
+     "리그1 2009-10 16위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-23",
+   "OGC Nice",
+   1650,
+   "리그1 2009-10 15위",
+   "table 2009-10",
+   [
+    [
+     1650,
+     "리그1 2009-10 15위"
+    ]
+   ]
+  ],
+  [
+   "2009-08-23",
+   "OGC Nice",
+   1650,
+   "리그1 2009-10 15위",
+   "table 2009-10",
+   [
+    [
+     1650,
+     "리그1 2009-10 15위"
+    ]
+   ]
+  ],
+  [
+   "2009-10-24",
+   "Le Mans Union Club 72",
+   1610,
+   "리그1 2009-10 18위",
+   "table 2009-10",
+   [
+    [
+     1610,
+     "리그1 2009-10 18위"
+    ]
+   ]
+  ],
+  [
+   "2009-12-13",
+   "Olympique Lyon",
+   1872,
+   "리그1 2009-10 2위",
+   "table 2009-10",
+   [
+    [
+     1872,
+     "리그1 2009-10 2위"
+    ]
+   ]
+  ],
+  [
+   "2009-12-19",
+   "FC Lorient",
+   1750,
+   "리그1 2009-10 7위",
+   "table 2009-10",
+   [
+    [
+     1750,
+     "리그1 2009-10 7위"
+    ]
+   ]
+  ],
+  [
+   "2009-12-19",
+   "FC Lorient",
+   1750,
+   "리그1 2009-10 7위",
+   "table 2009-10",
+   [
+    [
+     1750,
+     "리그1 2009-10 7위"
+    ]
+   ]
+  ],
+  [
+   "2009-12-19",
+   "FC Lorient",
+   1750,
+   "리그1 2009-10 7위",
+   "table 2009-10",
+   [
+    [
+     1750,
+     "리그1 2009-10 7위"
+    ]
+   ]
+  ],
+  [
+   "2010-03-21",
+   "LOSC Lille",
+   1792,
+   "리그1 2009-10 4위 (추정: 모형값)",
+   "table 2009-10",
+   [
+    [
+     1792,
+     "리그1 2009-10 4위 (추정: 모형값)"
+    ]
+   ]
+  ],
+  [
+   "2010-04-17",
+   "Olympique Lyon",
+   1872,
+   "리그1 2009-10 2위",
+   "table 2009-10",
+   [
+    [
+     1872,
+     "리그1 2009-10 2위"
+    ]
+   ]
+  ],
+  [
+   "2009-07-25",
+   "EA Guingamp",
+   1484,
+   "리그2 2009-10 18위 (추정, 프랑스 2부 평균 1540 모형)",
+   "model FR2",
+   []
+  ],
+  [
+   "2009-11-03",
+   "FC Bayern Munich",
+   1973,
+   "분데스리가 2009-10 1위",
+   "table 2009-10",
+   [
+    [
+     1973,
+     "분데스리가 2009-10 1위"
+    ]
+   ]
+  ],
+  [
+   "2010-01-26",
+   "Le Mans Union Club 72",
+   1610,
+   "리그1 2009-10 18위",
+   "table 2009-10",
+   [
+    [
+     1610,
+     "리그1 2009-10 18위"
+    ]
+   ]
+  ],
+  [
+   "2010-01-26",
+   "Le Mans Union Club 72",
+   1610,
+   "리그1 2009-10 18위",
+   "table 2009-10",
+   [
+    [
+     1610,
+     "리그1 2009-10 18위"
+    ]
+   ]
+  ],
+  [
+   "2010-02-23",
+   "Olympiacos Piraeus",
+   1640,
+   "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)",
+   "table 2009-10",
+   [
+    [
+     1640,
+     "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)"
+    ]
+   ]
+  ],
+  [
+   "2010-03-17",
+   "Olympiacos Piraeus",
+   1640,
+   "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)",
+   "table 2009-10",
+   [
+    [
+     1640,
+     "그리스 2위 (추정, 그리스 1위 선례 1620~1690 사이)"
+    ]
+   ]
+  ]
+ ]
+}

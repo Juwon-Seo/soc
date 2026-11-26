@@ -1,0 +1,35 @@
+{
+ "preset": "defoe",
+ "name": "저메인 데포",
+ "prefix": "JDF",
+ "clubs": [
+  {"key": "boujdf", "name": "AFC 본머스 (임대)", "short": "본머스", "years": "2000~2001", "until": "2001-05-10"},
+  {"key": "whujdf", "name": "웨스트햄 유나이티드", "short": "웨스트햄", "years": "2001~2004", "until": "2004-02-01"},
+  {"key": "totjdf", "name": "토트넘 홋스퍼", "short": "토트넘", "years": "2004~2008", "until": "2008-01-31"},
+  {"key": "porjdf", "name": "포츠머스", "short": "포츠머스", "years": "2008", "until": "2009-01-09"},
+  {"key": "totjdf", "name": "토트넘 홋스퍼", "short": "토트넘", "years": "2009~2014", "until": "2014-02-28"},
+  {"key": "torjdf", "name": "토론토 FC", "short": "토론토", "years": "2014", "until": "2015-01-16"},
+  {"key": "sunjdf", "name": "선덜랜드", "short": "선덜랜드", "years": "2015~2017", "until": "2017-07-01"},
+  {"key": "boujdf", "name": "AFC 본머스", "short": "본머스", "years": "2017~2018", "until": "2019-01-14"},
+  {"key": "ranjdf", "name": "레인저스", "short": "레인저스", "years": "2019~2022", "until": "2022-01-28"},
+  {"key": "sunjdf", "name": "선덜랜드", "short": "선덜랜드", "years": "2022", "until": null}
+ ],
+ "season": {"calendar": ["torjdf"], "jul10": [], "jul1": ["ranjdf"]},
+ "pos": "CF",
+ "flag": "ENG",
+ "retired": true,
+ "hon": {
+  "t": {"LG": ["20/21 레인저스"], "LC": ["2008 토트넘"]},
+  "o": [],
+  "a": {"TOP": ["04/05 리그컵 5골"]}
+ },
+ "colors": {
+  "boujdf": ["#DA291C", "#000000"],
+  "whujdf": ["#7A263A", "#1BB1E7"],
+  "totjdf": ["#FFFFFF", "#132257"],
+  "porjdf": ["#001489", "#FFFFFF", "#C8102E"],
+  "torjdf": ["#B81137", "#455560"],
+  "sunjdf": ["#EB172B", "#FFFFFF", "#000000"],
+  "ranjdf": ["#1B458F", "#FFFFFF", "#E51636"]
+ }
+}

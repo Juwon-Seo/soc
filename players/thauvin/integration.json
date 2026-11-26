@@ -1,0 +1,15 @@
+{"preset":"thauvin","name":"플로리앙 토뱅","prefix":"THV",
+ "clubs":[
+  {"key":"grethv","name":"그르노블","short":"그르노블","years":"2010~2011","until":"2011-07-01"},
+  {"key":"basthv","name":"SC 바스티아","short":"바스티아","years":"2011~2013","until":"2013-09-02"},
+  {"key":"omthv","name":"올랭피크 드 마르세유","short":"마르세유","years":"2013~2015","until":"2015-08-19"},
+  {"key":"ncthv","name":"뉴캐슬 유나이티드","short":"뉴캐슬","years":"2015~2016","until":"2016-01-31"},
+  {"key":"omthv","name":"올랭피크 드 마르세유","short":"마르세유","years":"2016~2021","until":"2021-07-01"},
+  {"key":"tigthv","name":"티그레스 UANL","short":"티그레스","years":"2021~2023","until":"2023-01-31"},
+  {"key":"udithv","name":"우디네세","short":"우디네세","years":"2023~2025","until":"2025-08-08"},
+  {"key":"lenthv","name":"RC 랑스","short":"랑스","years":"2025~","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":["tigthv"]},
+ "pos":"RW","flag":"FR","retired":false,
+ "hon":{"t":{"LG":["11/12 바스티아(프랑스 2부)"],"DC":["25/26 랑스"],"SC":["26/27 랑스"]},
+        "o":[["UEL 준우승","17/18 마르세유"],["쿠프 드 프랑스 준우승","15/16 마르세유"]],
+        "a":{"XI":["25/26 리그1 · UNFP(선수협회)"]}}}

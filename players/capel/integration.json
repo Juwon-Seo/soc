@@ -1,0 +1,14 @@
+{"preset":"capel","name":"디에고 카펠","prefix":"CPL",
+ "clubs":[
+  {"key":"sevcp","name":"세비야","short":"세비야","years":"2004~2011","until":"2011-07-01"},
+  {"key":"spocp","name":"스포르팅 CP","short":"스포르팅","years":"2011~2015","until":"2015-08-18"},
+  {"key":"gencp","name":"제노아","short":"제노아","years":"2015~2016","until":"2016-08-04"},
+  {"key":"andcp","name":"안데를레흐트","short":"안데를레흐트","years":"2016~2017","until":"2017-08-30"},
+  {"key":"extcp","name":"엑스트레마두라","short":"엑스트레마두라","years":"2018~2019","until":"2019-07-01"},
+  {"key":"bircp","name":"비르키르카라","short":"비르키르카라","years":"2020","until":"2020-07-01"},
+  {"key":"irocp","name":"PAS 이로도토스","short":"이로도토스","years":"2022","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "pos":"LW","flag":"ES","retired":true,
+ "hon":{"t":{"UEL":["06/07 세비야","05/06 세비야"],"DC":["2015 스포르팅","09/10 세비야"],"SC":["07/08 세비야"],"LG":["16/17 안데를레흐트"]},
+        "o":[],
+        "a":{}}}

@@ -1,0 +1,150 @@
+{
+ "preset": "adebayor",
+ "name": "에마뉘엘 아데바요르",
+ "prefix": "EAD",
+ "clubs": [
+  {
+   "key": "metead",
+   "name": "FC 메스",
+   "short": "메스",
+   "years": "2001~2003",
+   "until": "2003-08-01"
+  },
+  {
+   "key": "monead",
+   "name": "AS 모나코",
+   "short": "모나코",
+   "years": "2003~2006",
+   "until": "2006-01-13"
+  },
+  {
+   "key": "arsead",
+   "name": "아스널",
+   "short": "아스널",
+   "years": "2006~2009",
+   "until": "2009-07-18"
+  },
+  {
+   "key": "mciead",
+   "name": "맨체스터 시티",
+   "short": "맨시티",
+   "years": "2009~2011",
+   "until": "2011-01-25"
+  },
+  {
+   "key": "rmaead",
+   "name": "레알 마드리드 (임대)",
+   "short": "레알",
+   "years": "2011",
+   "until": "2011-08-25"
+  },
+  {
+   "key": "totead",
+   "name": "토트넘 홋스퍼",
+   "short": "토트넘",
+   "years": "2011~2015",
+   "until": "2016-01-26"
+  },
+  {
+   "key": "cpaead",
+   "name": "크리스털 팰리스",
+   "short": "팰리스",
+   "years": "2016",
+   "until": "2017-01-31"
+  },
+  {
+   "key": "basead",
+   "name": "이스탄불 바샥셰히르",
+   "short": "바샥셰히르",
+   "years": "2017~2019",
+   "until": "2019-08-26"
+  },
+  {
+   "key": "kayead",
+   "name": "카이세리스포르",
+   "short": "카이세리",
+   "years": "2019",
+   "until": "2020-02-11"
+  },
+  {
+   "key": "oliead",
+   "name": "올림피아",
+   "short": "올림피아",
+   "years": "2020",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [
+   "oliead"
+  ],
+  "jul10": [],
+  "jul1": []
+ },
+ "pos": "CF",
+ "flag": "TG",
+ "retired": true,
+ "flag_new": "TG is not in flagBody yet (confOf already lists TG under CAF). Proposed case (same 30x20 style; five green/yellow stripes, 12x12 red canton, white star): case \"TG\":return `<rect width=\"30\" height=\"20\" fill=\"#006a4e\"/><rect y=\"4\" width=\"30\" height=\"4\" fill=\"#ffce00\"/><rect y=\"12\" width=\"30\" height=\"4\" fill=\"#ffce00\"/><rect width=\"12\" height=\"12\" fill=\"#d21034\"/><polygon points=\"6.00,1.80 6.94,4.70 9.99,4.70 7.53,6.50 8.47,9.40 6.00,7.60 3.53,9.40 4.47,6.50 2.01,4.70 5.06,4.70\" fill=\"#fff\"/>`; FLAG_NAME: \"TG\": \"토고\"",
+ "colors": {
+  "metead": [
+   "#7D1A30",
+   "#FFFFFF"
+  ],
+  "monead": [
+   "#E11A22",
+   "#FFFFFF"
+  ],
+  "arsead": [
+   "#EF0107",
+   "#FFFFFF"
+  ],
+  "mciead": [
+   "#6CADDE",
+   "#FFFFFF",
+   "#001B40"
+  ],
+  "rmaead": [
+   "#FFFFFF",
+   "#FEBE10",
+   "#00529F"
+  ],
+  "totead": [
+   "#FFFFFF",
+   "#132257"
+  ],
+  "cpaead": [
+   "#1B458F",
+   "#C4122E",
+   "#FFFFFF"
+  ],
+  "basead": [
+   "#F26522",
+   "#002D62"
+  ],
+  "kayead": [
+   "#FFD700",
+   "#E30A17"
+  ],
+  "oliead": [
+   "#000000",
+   "#FFFFFF"
+  ]
+ },
+ "hon": {
+  "t": {
+   "DC": [
+    "2011 맨시티",
+    "10/11 레알 마드리드"
+   ]
+  },
+  "o": [],
+  "a": {
+   "AFR": [
+    "2008 아스널"
+   ],
+   "XI": [
+    "07/08 프리미어리그 · PFA(선수협회)"
+   ]
+  }
+ }
+}

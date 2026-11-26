@@ -1,0 +1,1850 @@
+[
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2006-05-13",
+"minute": 27,
+"scorer": "Ivan Klasnic",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/31812"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2006-12-09",
+"minute": 86,
+"scorer": "Jurica Vranjes",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/53634"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2007-01-28",
+"minute": 74,
+"scorer": "Per Mertesacker",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/53652"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2007-07-21",
+"minute": 24,
+"scorer": "Bastian Schweinsteiger",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/72609"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2007-11-10",
+"minute": 86,
+"scorer": "Luca Toni",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/69131"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2008-02-21",
+"minute": 71,
+"scorer": "Lukas Podolski",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/88947"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2008-10-25",
+"minute": 63,
+"scorer": "Tim Borowski",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/912504"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2008-10-25",
+"minute": 54,
+"scorer": "Mark van Bommel",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/912504"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2013-05-12",
+"minute": 10,
+"scorer": "Sergio Floccari",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/351725",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1287334",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2251620"
+],
+"g": 1
+},
+{
+"id": "klose",
+"prefix": "KLO",
+"date": "2014-08-24",
+"minute": 79,
+"scorer": "Marco Parolo",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/405413",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1811375",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2486234"
+],
+"g": 1
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "1998-05-20",
+"minute": 67,
+"scorer": "TM선수 24481",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2000-12-10",
+"minute": 11,
+"scorer": "TM선수 7514",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2001-03-03",
+"minute": 7,
+"scorer": "TM선수 7349",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2001-11-21",
+"minute": 74,
+"scorer": "TM선수 7531",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2002-04-06",
+"minute": 10,
+"scorer": "TM선수 154586",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2006-09-26",
+"minute": 20,
+"scorer": "TM선수 3407",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2008-08-06",
+"minute": 79,
+"scorer": "TM선수 7043",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "robertocarlos",
+"prefix": "RCS",
+"date": "2009-04-25",
+"minute": 79,
+"scorer": "TM선수 6800",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "1995-10-31",
+"minute": 66,
+"scorer": "Albert Celades",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1170395"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2000-10-25",
+"minute": 12,
+"scorer": "Guti",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/990097"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2002-02-10",
+"minute": 52,
+"scorer": "Fernando Morientes",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1089735"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2002-04-14",
+"minute": 50,
+"scorer": "Fernando Morientes",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1089842"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2004-03-24",
+"minute": 70,
+"scorer": "Zinédine Zidane",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/288"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2005-01-16",
+"minute": 53,
+"scorer": "Ronaldo",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/28065"
+],
+"g": 1
+},
+{
+"id": "figo",
+"prefix": "FIG",
+"date": "2005-02-05",
+"minute": 28,
+"scorer": "Raúl",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/28105"
+],
+"g": 1
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2008-10-05",
+"minute": 54,
+"scorer": "TM선수 7427",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2009-04-19",
+"minute": 52,
+"scorer": "TM선수 2874",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2010-12-11",
+"minute": 79,
+"scorer": "Renato Augusto",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 엘리아 79분 골 장면 서술 기사 못 찾음",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=857048"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2011-05-07",
+"minute": 2,
+"scorer": "TM선수 1726",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 상세 없음, 베스터만 2분 골 장면 서술 기사 못 찾음",
+"sources": [
+"https://africa.espn.com/football/match/_/gameId/297212/hamburg-sv-bayer-leverkusen"
+],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2012-09-30",
+"minute": 85,
+"scorer": "Romarinho",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 장면 확인 못 함(검색 생략)",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1185383"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2013-07-31",
+"minute": 34,
+"scorer": "Marcio Passos de Albuquerque Emerson",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 장면 확인 못 함(검색 생략)",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1432428"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "guerrero",
+"prefix": "PGU",
+"date": "2019-12-04",
+"minute": 70,
+"scorer": "Guilherme Parede",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 장면 확인 못 함(검색 생략)",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=3000103"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2001-08-22",
+"minute": 14,
+"scorer": "Clayton",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1159929"
+],
+"g": 1
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2002-12-08",
+"minute": 31,
+"scorer": "Hélder Postiga",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2853777"
+],
+"g": 1
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2004-12-04",
+"minute": 72,
+"scorer": "Andrés Iniesta",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/28010"
+],
+"g": 1
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2005-02-19",
+"minute": 16,
+"scorer": "Samuel Eto'o",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/28120"
+],
+"g": 1
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2005-03-12",
+"minute": 10,
+"scorer": "Luis Prieto",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/28161"
+],
+"g": 1
+},
+{
+"id": "deco",
+"prefix": "DEC",
+"date": "2007-06-17",
+"minute": 51,
+"scorer": "Lionel Messi",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/58789"
+],
+"g": 1
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2008-07-31",
+"minute": 82,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2009-03-01",
+"minute": 3,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2009-04-08",
+"minute": 29,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2009-05-30",
+"minute": 12,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2009-11-27",
+"minute": 34,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "lewandowski",
+"prefix": "LEW",
+"date": "2012-10-30",
+"minute": 79,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN 모두 도움/장면 자료 없음",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "aguero",
+"prefix": "AGU",
+"date": "2008-03-16",
+"minute": 53,
+"scorer": "Diego Forlán",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/79055"
+],
+"g": 1
+},
+{
+"id": "aguero",
+"prefix": "AGU",
+"date": "2008-03-16",
+"minute": 24,
+"scorer": "Simão",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/79055"
+],
+"g": 1
+},
+{
+"id": "aguero",
+"prefix": "AGU",
+"date": "2010-01-14",
+"minute": 61,
+"scorer": "Magnus Troest",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/986482"
+],
+"g": 1
+},
+{
+"id": "aguero",
+"prefix": "AGU",
+"date": "2010-05-12",
+"minute": 32,
+"scorer": "Diego Forlán",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/292076",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1019361"
+],
+"g": 1
+},
+{
+"id": "aguero",
+"prefix": "AGU",
+"date": "2019-03-16",
+"minute": 78,
+"scorer": "Kristoffer Nordfeldt",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/537106",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2992817",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/3159985"
+],
+"g": 1
+},
+{
+"id": "slimani",
+"prefix": "ISL",
+"date": "2009-12-11",
+"minute": 71,
+"scorer": "Ibrahim Bousehaba",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/3156210"
+],
+"g": 1
+},
+{
+"id": "slimani",
+"prefix": "ISL",
+"date": "2014-10-18",
+"minute": 83,
+"scorer": "André Carrillo",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1841583",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2506632"
+],
+"g": 1
+},
+{
+"id": "slimani",
+"prefix": "ISL",
+"date": "2014-12-21",
+"minute": 51,
+"scorer": "Carlos Mané",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/401928",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1748839",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2480138"
+],
+"g": 1
+},
+{
+"id": "slimani",
+"prefix": "ISL",
+"date": "2015-10-25",
+"minute": 36,
+"scorer": "Bryan Ruiz",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/428323",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2015874",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2609383"
+],
+"g": 1
+},
+{
+"id": "slimani",
+"prefix": "ISL",
+"date": "2016-02-13",
+"minute": 63,
+"scorer": "João Mário",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/428197",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2016006",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2613574"
+],
+"g": 1
+},
+{
+"id": "ronaldonazario",
+"prefix": "RNO",
+"date": "1996-05-16",
+"minute": 87,
+"scorer": "Wim Jonk",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "ronaldonazario",
+"prefix": "RNO",
+"date": "1997-04-06",
+"minute": 13,
+"scorer": "Giovanni",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "ronaldonazario",
+"prefix": "RNO",
+"date": "1998-11-25",
+"minute": 51,
+"scorer": "Iván Zamorano",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "ronaldonazario",
+"prefix": "RNO",
+"date": "2003-09-13",
+"minute": 21,
+"scorer": "Júlio César",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "ronaldonazario",
+"prefix": "RNO",
+"date": "2004-03-28",
+"minute": 74,
+"scorer": "Míchel Salgado",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "honda",
+"prefix": "HND",
+"date": "2009-02-06",
+"minute": "50",
+"scorer": "Samir El Gaaouiri",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "918826",
+"g": 3
+},
+{
+"id": "honda",
+"prefix": "HND",
+"date": "2011-02-28",
+"minute": "22",
+"scorer": "Sergey Ignashevich",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "1032408",
+"g": 3
+},
+{
+"id": "honda",
+"prefix": "HND",
+"date": "2013-05-12",
+"minute": "43",
+"scorer": "Vagner Love",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "2222772",
+"g": 3
+},
+{
+"id": "honda",
+"prefix": "HND",
+"date": "2013-11-02",
+"minute": "73",
+"scorer": "Zoran Tosic",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "2335192",
+"g": 3
+},
+{
+"id": "mertens",
+"prefix": "MER",
+"date": "2009-12-13",
+"minute": "31",
+"scorer": "Ricky van Wolfswinkel",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "960641",
+"g": 3
+},
+{
+"id": "mertens",
+"prefix": "MER",
+"date": "2010-11-24",
+"minute": "62",
+"scorer": "Edouard Duplan",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "1039206",
+"g": 3
+},
+{
+"id": "mertens",
+"prefix": "MER",
+"date": "2011-02-27",
+"minute": "74",
+"scorer": "Ricky van Wolfswinkel",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "1039334",
+"g": 3
+},
+{
+"id": "mertens",
+"prefix": "MER",
+"date": "2011-08-21",
+"minute": "39",
+"scorer": "Ola Toivonen",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "1124570",
+"g": 3
+},
+{
+"id": "owen",
+"prefix": "OWE",
+"date": "2001-08-08",
+"minute": 87,
+"scorer": "Sami Hyypiä",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1160458"
+],
+"g": 1
+},
+{
+"id": "owen",
+"prefix": "OWE",
+"date": "2003-08-30",
+"minute": 79,
+"scorer": "Harry Kewell",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1032"
+],
+"g": 1
+},
+{
+"id": "owen",
+"prefix": "OWE",
+"date": "2004-10-26",
+"minute": 19,
+"scorer": "Fernando Morientes",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2423181"
+],
+"g": 1
+},
+{
+"id": "owen",
+"prefix": "OWE",
+"date": "2007-11-03",
+"minute": 16,
+"scorer": "Sol Campbell",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/81597"
+],
+"g": 1
+},
+{
+"id": "wiltord",
+"prefix": "WIL",
+"date": "1998-09-11",
+"minute": 48,
+"scorer": "Hervé Alicarte",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1009752"
+],
+"g": 1
+},
+{
+"id": "wiltord",
+"prefix": "WIL",
+"date": "2002-09-01",
+"minute": 60,
+"scorer": "Kolo Touré",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/997857"
+],
+"g": 1
+},
+{
+"id": "wiltord",
+"prefix": "WIL",
+"date": "2006-03-25",
+"minute": 49,
+"scorer": "John Carew",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/39516"
+],
+"g": 1
+},
+{
+"id": "wiltord",
+"prefix": "WIL",
+"date": "2009-04-19",
+"minute": 59,
+"scorer": "Renato Civelli",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/913051"
+],
+"g": 1
+},
+{
+"id": "beckham",
+"prefix": "BEC",
+"date": "1998-08-15",
+"minute": 79,
+"scorer": "Teddy Sheringham",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1149602"
+],
+"g": 1
+},
+{
+"id": "beckham",
+"prefix": "BEC",
+"date": "2000-04-24",
+"minute": 69,
+"scorer": "Dwight Yorke",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1114066"
+],
+"g": 1
+},
+{
+"id": "beckham",
+"prefix": "BEC",
+"date": "2003-12-18",
+"minute": 37,
+"scorer": "Raúl",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2423229"
+],
+"g": 1
+},
+{
+"id": "giggs",
+"prefix": "GIG",
+"date": "1999-01-10",
+"minute": 80,
+"scorer": "Ole Gunnar Solskjaer",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "giggs",
+"prefix": "GIG",
+"date": "2002-02-10",
+"minute": 74,
+"scorer": "Ole Gunnar Solskjaer",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "giggs",
+"prefix": "GIG",
+"date": "2007-10-06",
+"minute": 59,
+"scorer": "Cristiano Ronaldo",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "hulk",
+"prefix": "HLK",
+"date": "2011-02-26",
+"minute": 91,
+"scorer": "Radamel Falcao",
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN 모두 도움/장면 자료 없음",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "hulk",
+"prefix": "HLK",
+"date": "2013-10-06",
+"minute": 41,
+"scorer": "Danny",
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN 모두 도움/장면 자료 없음",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1477527"
+],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "hulk",
+"prefix": "HLK",
+"date": "2015-08-09",
+"minute": 86,
+"scorer": "Danny",
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN 모두 도움/장면 자료 없음",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1998223"
+],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "llorente",
+"prefix": "LLO",
+"date": "2009-01-11",
+"minute": 49,
+"scorer": "Álvaro Domínguez",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/920516"
+],
+"g": 1
+},
+{
+"id": "llorente",
+"prefix": "LLO",
+"date": "2009-12-03",
+"minute": 61,
+"scorer": "Mikel San José",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/283337",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/971694"
+],
+"g": 1
+},
+{
+"id": "llorente",
+"prefix": "LLO",
+"date": "2015-01-11",
+"minute": 29,
+"scorer": "Paul Pogba",
+"tm_assist_type": "(빈칸)",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "ESPN(Opta): 테베스 슈팅 막힘(요렌테 도움) 뒤 포그바 골(요렌테 도움). 설명의 기사: 테베스 슈팅이 요렌테 몸에 맞고 튄 공 — 같은 팀 선수의 의도 없는 굴절이 패스가 된 경우로 이번 규칙(득점자가 방향 바꿈)과 다른 유형",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/403663",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1786148",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2478763"
+],
+"g": 1
+},
+{
+"id": "nakamura",
+"prefix": "NKS",
+"date": "2006-10-17",
+"minute": "90",
+"scorer": "Stephen Pearson",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "66360",
+"g": 3
+},
+{
+"id": "nakamura",
+"prefix": "NKS",
+"date": "2006-10-17",
+"minute": "56",
+"scorer": "Kenny Miller",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "66360",
+"g": 3
+},
+{
+"id": "nakamura",
+"prefix": "NKS",
+"date": "2010-05-15",
+"minute": "68",
+"scorer": "Shingo Hyodo",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "1019892",
+"g": 3
+},
+{
+"id": "santacruz",
+"prefix": "RSC",
+"date": "2002-05-04",
+"minute": 55,
+"scorer": "TM선수 217",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "santacruz",
+"prefix": "RSC",
+"date": "2006-10-28",
+"minute": 24,
+"scorer": "TM선수 3994",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "santacruz",
+"prefix": "RSC",
+"date": "2007-10-31",
+"minute": 77,
+"scorer": "TM선수 22741",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "zidane",
+"prefix": "ZID",
+"date": "2001-12-17",
+"minute": "45",
+"scorer": "Raúl",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "2423395",
+"g": 3
+},
+{
+"id": "zidane",
+"prefix": "ZID",
+"date": "2004-02-01",
+"minute": "48",
+"scorer": "Ronaldo",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "4528",
+"g": 3
+},
+{
+"id": "zidane",
+"prefix": "ZID",
+"date": "2005-05-28",
+"minute": "25",
+"scorer": "Michael Owen",
+"verdict": "UNCLEAR",
+"why": "2010 이전 경기, FotMob 없음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"tm_reason": 208,
+"tm_game": "28271",
+"g": 3
+},
+{
+"id": "cavani",
+"prefix": "CAV",
+"date": "2007-04-22",
+"minute": 36,
+"scorer": "Mark Bresciano",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/65497"
+],
+"g": 1
+},
+{
+"id": "cavani",
+"prefix": "CAV",
+"date": "2008-10-26",
+"minute": 50,
+"scorer": "Fábio Simplício",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/927694"
+],
+"g": 1
+},
+{
+"id": "dimaria",
+"prefix": "DIM",
+"date": "2006-11-24",
+"minute": 90,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "dimaria",
+"prefix": "DIM",
+"date": "2009-12-06",
+"minute": 55,
+"scorer": null,
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "griezmann",
+"prefix": "GRZ",
+"date": "2013-04-06",
+"minute": 24,
+"scorer": "Alberto De la Bella",
+"verdict": "UNCLEAR",
+"why": "24분 데라벨라 골(FotMob 도움 없음), 그리즈만 슈팅과의 관계 서술 기사 못 찾음",
+"sources": [
+"https://sportsmole.co.uk/football/real-sociedad/champions-league/result/sociedad-put-four-past-malaga_78112.html",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1260209"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "griezmann",
+"prefix": "GRZ",
+"date": "2014-01-27",
+"minute": 2,
+"scorer": "TM선수 76746",
+"verdict": "UNCLEAR",
+"why": "FotMob 매핑 없음, 장면 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "kroos",
+"prefix": "KRO",
+"date": "2015-11-03",
+"minute": 35,
+"scorer": "Nacho Fernández",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/434221",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2088225",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2618595"
+],
+"g": 1
+},
+{
+"id": "kroos",
+"prefix": "KRO",
+"date": "2021-05-09",
+"minute": 94,
+"scorer": "Eden Hazard",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": true,
+"verdict": "UNCLEAR",
+"why": "크로스 중거리 슈팅을 아자르가 건드려 들어감(라리가 공식·Opta·FotMob 아자르 골, 크로스 도움). 그러나 ESPN 리포트·Eurosport 등은 디에고 카를로스 몸에도 맞았다고 서술(자책골 표기) — 상대 접촉 여부 출처가 엇갈림",
+"sources": [
+"https://www.laliga.com/en-GB/match/temporada-2020-2021-laliga-santander-real-madrid-sevilla-fc-35",
+"https://www.espn.com/soccer/report/_/gameId/581862",
+"https://www.eurosport.co.uk/football/liga/2020-2021/la-liga-news-real-madrid-v-sevilla-follow-live_sto8307998/story.shtml",
+"https://www.espn.com/soccer/commentary/_/gameId/581862",
+"https://www.fotmob.com/api/data/matchDetails?matchId=3424384",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/3451449"
+],
+"g": 1
+},
+{
+"id": "leedonggook",
+"prefix": "LDG",
+"date": "2013-04-14",
+"minute": 90,
+"scorer": "Eninho",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1414794",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2297509"
+],
+"g": 1
+},
+{
+"id": "leedonggook",
+"prefix": "LDG",
+"date": "2017-09-17",
+"minute": 30,
+"scorer": "Kyo-won Han",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "FotMob·ESPN에서 경기/골을 찾지 못함, 장면 확인 못 함",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2903030"
+],
+"g": 1
+},
+{
+"id": "ozil",
+"prefix": "OZI",
+"date": "2008-12-09",
+"minute": 63,
+"scorer": "TM선수 532",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "ozil",
+"prefix": "OZI",
+"date": "2010-02-05",
+"minute": 66,
+"scorer": "TM선수 35251",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "politano",
+"prefix": "POL",
+"date": "2016-08-18",
+"minute": "17",
+"scorer": "Domenico Berardi",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "2740236",
+"g": 3
+},
+{
+"id": "politano",
+"prefix": "POL",
+"date": "2016-11-24",
+"minute": "83",
+"scorer": "Antonino Ragusa",
+"verdict": "UNCLEAR",
+"why": "FotMob은 폴리타노 도움, ESPN은 도움자 없음, 장면 기사 미확인(설명은 슈팅 리바운드로 뺌)",
+"sources": [
+"https://site.api.espn.com/apis/site/v2/sports/soccer/all/summary?event=466290"
+],
+"fotmob_assist": true,
+"tm_reason": 208,
+"tm_game": "2765908",
+"g": 3
+},
+{
+"id": "jimenez",
+"prefix": "RJM",
+"date": "2016-08-07",
+"minute": 92,
+"scorer": "Pizzi",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 피치 90+2분 골은 피치의 슈팅으로만 서술, 히메네스 관여 확인 못 함",
+"sources": [
+"https://observador.pt/2016/08/07/supertaca-benfica-braga-cronica-do-jogo/",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2235802"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "jimenez",
+"prefix": "RJM",
+"date": "2018-02-24",
+"minute": 72,
+"scorer": "Jonas",
+"verdict": "UNCLEAR",
+"why": "ADD 쪽 정황이나 근거 1곳(Bola na Rede 기사 2개): 히메네스 슈팅이 동료 조나스에게 맞고 조나스가 두 번째 시도(발끝/뒤꿈치)로 넣음 — 상대·골키퍼 접촉 없음. FotMob 도움 없음, 독립 두 번째 출처 없음",
+"sources": [
+"https://bolanarede.pt/?p=81272",
+"https://bolanarede.pt/?p=81360",
+"https://www.fotmob.com/api/data/matchDetails?matchId=2559218"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "vieri",
+"prefix": "VIE",
+"date": "1999-02-21",
+"minute": 39,
+"scorer": "Sérgio Conceição",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "vieri",
+"prefix": "VIE",
+"date": "2000-12-23",
+"minute": 65,
+"scorer": "Clarence Seedorf",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "aouar",
+"prefix": "AOU",
+"date": "2022-05-14",
+"minute": "85",
+"scorer": "Tetê",
+"verdict": "UNCLEAR",
+"why": "FotMob·풋메르카토는 아우아르 도움으로 적지만 장면(슈팅 여부·굴절)을 서술한 기사를 못 찾음",
+"sources": [
+"https://www.footmercato.net/live/6038382854024823657-lyon-vs-nantes",
+"https://www.fotmob.com/api/data/matchDetails?matchId=3626187"
+],
+"fotmob_assist": true,
+"g": 5
+},
+{
+"id": "berardi",
+"prefix": "BER",
+"date": "2026-01-31",
+"minute": 46,
+"scorer": "Antonio Caracciolo",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/737005",
+"https://www.fotmob.com/api/data/matchDetails?matchId=4803265",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/4620930"
+],
+"g": 1
+},
+{
+"id": "cabella",
+"prefix": "CAB",
+"date": "2012-02-04",
+"minute": 41,
+"scorer": "Geoffrey Dernis",
+"verdict": "UNCLEAR",
+"why": "ADD 유력하나 근거 1곳뿐: Fox Sports(AFP) 기사는 카벨라의 골문 향하던 발리가 동료 데르니의 등에 맞고 방향이 바뀌어 들어갔다고 서술(동료 굴절). FotMob·ESPN은 도움 없음, 두 번째 독립 출처 없음",
+"sources": [
+"https://www.foxsports.com/stories/soccer/dernis-scores-winner-for-montpellier",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1019842"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "capel",
+"prefix": "CPL",
+"date": "2013-12-08",
+"minute": 74,
+"scorer": "Fredy Montero",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": false,
+"verdict": "UNCLEAR",
+"why": "FotMob(Opta) 도움 없음 — 동료 방향 전환 골이었다면 Opta가 도움을 주므로 제외 유지 쪽, 장면 기사는 확인 안 함",
+"sources": [
+"https://www.fotmob.com/api/data/matchDetails?matchId=1498101",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2340306"
+],
+"g": 1
+},
+{
+"id": "dinatale",
+"prefix": "DNT",
+"date": "2007-09-26",
+"minute": "51",
+"scorer": "Asamoah Gyan",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 5
+},
+{
+"id": "elshaarawy",
+"prefix": "ELS",
+"date": "2020-08-10",
+"minute": 8,
+"scorer": "Shin-Wook Kim",
+"verdict": "UNCLEAR",
+"why": "FotMob 도움 없음, 설명은 '굴절 슛'이라 적었으나 김신욱 골 장면 서술 기사 못 찾음",
+"sources": [
+"https://news.cgtn.com/news/2020-08-10/CSL-highlights-on-Aug-10-Rondon-s-last-minute-goal-saves-Dalian-SQA5sZp4K4/index.html",
+"https://www.fotmob.com/api/data/matchDetails?matchId=3368008"
+],
+"fotmob_assist": false,
+"g": 4
+},
+{
+"id": "fekir",
+"prefix": "FEK",
+"date": "2013-10-20",
+"minute": "90",
+"scorer": "Jimmy Briand",
+"verdict": "UNCLEAR",
+"why": "FotMob 경기 기록에 도움 자료가 없거나 경기를 못 찾음, ESPN 장면 설명 없음 — 장면 기사 미확인",
+"sources": [],
+"fotmob_assist": false,
+"tm_reason": 208,
+"tm_game": "2330910",
+"g": 3
+},
+{
+"id": "gourcuff",
+"prefix": "GOU",
+"date": "2009-05-16",
+"minute": 75,
+"scorer": "Marc Planus",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/913088"
+],
+"g": 1
+},
+{
+"id": "immobile",
+"prefix": "IMM",
+"date": "2011-09-04",
+"minute": "57",
+"scorer": "TM id 133964",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 5
+},
+{
+"id": "ljungberg",
+"prefix": "LJU",
+"date": "2002-05-08",
+"minute": 57,
+"scorer": "Sylvain Wiltord",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": null,
+"verdict": "UNCLEAR",
+"why": "2010년 8월 이전 경기(FotMob 없음), 장면 기사 확인 안 함 — 개수만 집계",
+"sources": [
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/1023355"
+],
+"g": 1
+},
+{
+"id": "malouda",
+"prefix": "MLD",
+"date": "2004-02-25",
+"minute": 18,
+"scorer": "TM선수 7466",
+"verdict": "UNCLEAR",
+"why": "2010 이전, 장면 확인 자료 없음(개수만)",
+"sources": [],
+"fotmob_assist": null,
+"g": 4
+},
+{
+"id": "niang",
+"prefix": "NIA",
+"date": "2005-11-27",
+"minute": "76",
+"scorer": "Sabri Lamouchi",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 5
+},
+{
+"id": "pires",
+"prefix": "PIR",
+"date": "1996-09-06",
+"minute": "61",
+"scorer": "Amara Traoré",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 5
+},
+{
+"id": "firmino",
+"prefix": "RFM",
+"date": "2014-02-15",
+"minute": 12,
+"scorer": "Sven Schipplock",
+"tm_assist_type": "Shot on goal",
+"fotmob_assist": true,
+"verdict": "UNCLEAR",
+"why": "FotMob은 피르미누 도움, ESPN(Opta)은 도움 없음·직전 슈팅 기록 없음. 기사 확인 못 함",
+"sources": [
+"https://www.espn.com/soccer/commentary/_/gameId/369715",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1479178",
+"https://www.transfermarkt.com/spielbericht/index/spielbericht/2321239"
+],
+"g": 1
+},
+{
+"id": "simao",
+"prefix": "SIM",
+"date": "2010-04-04",
+"minute": "56",
+"scorer": "Diego Forlán",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 또는 FotMob 자료 없음, 장면 서술 기사 미확인",
+"sources": [],
+"fotmob_assist": null,
+"g": 5
+},
+{
+"id": "wrightphillips",
+"prefix": "SWP",
+"date": "2006-10-25",
+"minute": 81,
+"scorer": "Salomon Kalou",
+"verdict": "UNCLEAR",
+"why": "2010-08 이전 경기, FotMob 없음·기사로 장면 확인 안 함",
+"sources": [],
+"fotmob_assist": null,
+"g": 2
+},
+{
+"id": "yayatoure",
+"prefix": "YYT",
+"date": "2015-08-10",
+"minute": "9",
+"scorer": "David Silva",
+"verdict": "UNCLEAR",
+"why": "투레 슈팅이 실바와 상대 수비 도슨 양쪽에 맞고 들어감(ESPN) — 상대 몸 접촉이 섞여 판정 보류, FotMob은 투레 골·나바스 도움으로 기록",
+"sources": [
+"https://www.espn.com/soccer/manchester-city/story/2562014/david-silva-credited-with-scoring-man-citys-first-goal",
+"https://www.fotmob.com/api/data/matchDetails?matchId=1987041"
+],
+"fotmob_assist": true,
+"g": 5
+}
+]

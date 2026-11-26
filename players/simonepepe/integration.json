@@ -1,0 +1,16 @@
+{"preset":"simonepepe","name":"시모네 페페","prefix":"SPE",
+ "clubs":[
+  {"key":"lecsp","name":"레코","short":"레코","years":"2001~2002","until":"2002-07-01"},
+  {"key":"tersp","name":"테라모","short":"테라모","years":"2002~2003","until":"2003-07-01"},
+  {"key":"palsp","name":"팔레르모","short":"팔레르모","years":"2003~2004, 2005","until":"2004-07-01"},
+  {"key":"piasp","name":"피아첸차","short":"피아첸차","years":"2004~2005","until":"2005-07-01"},
+  {"key":"palsp","name":"팔레르모","short":"팔레르모","years":"2003~2004, 2005","until":"2006-01-01"},
+  {"key":"udisp","name":"우디네세","short":"우디네세","years":"2006, 2007~2010","until":"2006-07-01"},
+  {"key":"cagsp","name":"칼리아리","short":"칼리아리","years":"2006~2007","until":"2007-07-01"},
+  {"key":"udisp","name":"우디네세","short":"우디네세","years":"2006, 2007~2010","until":"2010-07-01"},
+  {"key":"juvsp","name":"유벤투스","short":"유벤투스","years":"2010~2015","until":"2015-08-11"},
+  {"key":"chisp","name":"키에보","short":"키에보","years":"2015~2016","until":"2016-08-22"},
+  {"key":"pessp","name":"페스카라","short":"페스카라","years":"2016~2017","until":null}],
+ "season":{"calendar":[],"jul10":["juvsp"],"jul1":[]},
+ "pos":"RW","flag":"IT","retired":true,
+ "hon":{"t":{"LG":["14/15 유벤투스","13/14 유벤투스","12/13 유벤투스","11/12 유벤투스"],"DC":["14/15 유벤투스"]},"o":[["세리에B 우승","03/04 팔레르모"]],"a":{}}}

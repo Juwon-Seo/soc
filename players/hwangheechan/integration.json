@@ -1,0 +1,21 @@
+{"preset":"hwangheechan","name":"황희찬","prefix":"HWA",
+ "clubs":[
+  {"key":"lifhw","name":"FC 리퍼링","short":"리퍼링","years":"2015","until":"2015-12-06"},
+  {"key":"rbshw","name":"레드불 잘츠부르크","short":"잘츠부르크","years":"2015~2016","until":"2016-04-26"},
+  {"key":"lifhw","name":"FC 리퍼링","short":"리퍼링","years":"2016","until":"2016-04-27"},
+  {"key":"rbshw","name":"레드불 잘츠부르크","short":"잘츠부르크","years":"2016~2018","until":"2018-08-31"},
+  {"key":"hsvhw","name":"함부르크 SV (임대)","short":"함부르크","years":"2018~2019","until":"2019-07-01"},
+  {"key":"rbshw","name":"레드불 잘츠부르크","short":"잘츠부르크","years":"2019~2020","until":"2020-07-15"},
+  {"key":"rblhw","name":"RB 라이프치히","short":"라이프치히","years":"2020~2021","until":"2021-08-29"},
+  {"key":"wolhw","name":"울버햄튼 원더러스","short":"울버햄튼","years":"2021~2026","until":"2026-09-01"},
+  {"key":"s04hw","name":"샬케 04 (임대)","short":"샬케","years":"2026~","until":null}],
+ "season":{"calendar":[],"jul10":["lifhw","rbshw"],"jul1":[]},
+ "pos":"CF","flag":"KR","retired":false,
+ "colors":{
+  "lifhw":["#D6001C","#FFFFFF"],
+  "rbshw":["#FFFFFF","#D6001C"],
+  "hsvhw":["#FFFFFF","#E2001A","#0A3F86"],
+  "rblhw":["#FFFFFF","#E01837"],
+  "wolhw":["#FDB913","#231F20"],
+  "s04hw":["#004D9D","#FFFFFF"]},
+ "hon":{"t":{"LG":["19/20 잘츠부르크","17/18 잘츠부르크","16/17 잘츠부르크","15/16 잘츠부르크"],"DC":["19/20 잘츠부르크","16/17 잘츠부르크","15/16 잘츠부르크"]},"o":[],"a":{}}}

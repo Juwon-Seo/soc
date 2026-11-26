@@ -1,0 +1,5510 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "FK Radnik Surdulica",
+   "elo": 1403,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세르비아 1부 2015-16 8위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FK Spartak Subotica",
+   "elo": 1387,
+   "comp": "dsf",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세르비아 1부 2015-16 10위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FK Javor-Matis Ivanjica",
+   "elo": 1363,
+   "comp": "df",
+   "min": 97,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2016-05-11",
+   "et": 0,
+   "dm": "90+7",
+   "lv": "세르비아 1부 2015-16 13위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Monza",
+   "elo": 1495,
+   "comp": "dc",
+   "min": 80,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "이탈리아 3부 2019-20 1위/20팀 (Serie C Girone A, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Monza",
+   "elo": 1495,
+   "comp": "dc",
+   "min": 86,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "이탈리아 3부 2019-20 1위/20팀 (Serie C Girone A, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Monza",
+   "elo": 1495,
+   "comp": "dc",
+   "min": 89,
+   "gf": 2,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2019-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "이탈리아 3부 2019-20 1위/20팀 (Serie C Girone A, 리그 수준 추정)",
+   "note": "Federico Chiesa"
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1681,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 5,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1681,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 5,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1878,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-12-15",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2019-20 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1763,
+   "comp": "lg",
+   "min": 74,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1672,
+   "comp": "lg",
+   "min": 18,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1672,
+   "comp": "lg",
+   "min": 57,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2019-20 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1760,
+   "comp": "lg",
+   "min": 35,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 19,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 88,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1671,
+   "comp": "lg",
+   "min": 72,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Crotone",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spezia Calcio",
+   "elo": 1686,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Spezia Calcio",
+   "elo": 1686,
+   "comp": "lg",
+   "min": 82,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 15위",
+   "note": "Valentin Eysseric"
+  },
+  {
+   "type": "g",
+   "opp": "Benevento Calcio",
+   "elo": 1642,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Benevento Calcio",
+   "elo": 1642,
+   "comp": "lg",
+   "min": 26,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Benevento Calcio",
+   "elo": 1642,
+   "comp": "lg",
+   "min": 46,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-13",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "세리에A 2020-21 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Milan",
+   "elo": 1892,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 2위",
+   "note": "Franck Ribéry"
+  },
+  {
+   "type": "g",
+   "opp": "Genoa CFC",
+   "elo": 1717,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1847,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1847,
+   "comp": "lg",
+   "min": 66,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-04-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1728,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-04-20",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "세리에A 2020-21 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Juventus FC",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-04-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 21,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1708,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1790,
+   "comp": "lg",
+   "min": 89,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-05-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2020-21 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cosenza Calcio",
+   "elo": 1450,
+   "comp": "dc",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에B 2021-22 16위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cosenza Calcio",
+   "elo": 1450,
+   "comp": "dc",
+   "min": 49,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-08-13",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "세리에B 2021-22 16위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino FC",
+   "elo": 1762,
+   "comp": "lg",
+   "min": 69,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 33,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1794,
+   "comp": "lg",
+   "min": 49,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-09-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1743,
+   "comp": "lg",
+   "min": 16,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 12위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SSC Napoli",
+   "elo": 1882,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 3위",
+   "note": "Lucas Martínez Quarta"
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spezia Calcio",
+   "elo": 1706,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spezia Calcio",
+   "elo": 1706,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spezia Calcio",
+   "elo": 1706,
+   "comp": "lg",
+   "min": 74,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-10-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AC Milan",
+   "elo": 2006,
+   "comp": "lg",
+   "min": 46,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-20",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "세리에A 2021-22 1위",
+   "note": "Riccardo Saponara"
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 2006,
+   "comp": "lg",
+   "min": 60,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Milan",
+   "elo": 2006,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "UC Sampdoria",
+   "elo": 1720,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1734,
+   "comp": "lg",
+   "min": 67,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2021-12-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 51,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 84,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1751,
+   "comp": "lg",
+   "min": 51,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1882,
+   "comp": "dc",
+   "min": 41,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-01-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Genoa CFC",
+   "elo": 1670,
+   "comp": "lg",
+   "min": 51,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1777,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Villarreal CF",
+   "elo": 1810,
+   "comp": "cl16",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2021-22 7위",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-26",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "세리에A 2021-22 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1729,
+   "comp": "lg",
+   "min": 66,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "US Salernitana 1919",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 17위",
+   "note": "Paulo Dybala"
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 29,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-03-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1677,
+   "comp": "lg",
+   "min": 75,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1734,
+   "comp": "lg",
+   "min": 95,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-04-16",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "세리에A 2021-22 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1927,
+   "comp": "df",
+   "min": 52,
+   "gf": 1,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2022-05-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1835,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-05-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2021-22 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1739,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2022-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1739,
+   "comp": "lg",
+   "min": 51,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Roma",
+   "elo": 1829,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Spezia Calcio",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 18위 (추정, 선수 간 값 1640·1651의 평균으로 맞춤)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bologna FC 1909",
+   "elo": 1782,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 9위",
+   "note": "Filip Kostić"
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1782,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Maccabi Haifa",
+   "elo": 1608,
+   "comp": "clg",
+   "min": 50,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "이스라엘 1부 2022-23 1위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino FC",
+   "elo": 1767,
+   "comp": "lg",
+   "min": 74,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 26,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 47,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1587,
+   "comp": "elk",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 16위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "FC Nantes",
+   "elo": 1587,
+   "comp": "elk",
+   "min": 78,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2022-23 16위",
+   "note": "Ángel Di María",
+   "tie": [
+    2,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "SC Freiburg",
+   "elo": 1787,
+   "comp": "elk",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2022-23 5위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1711,
+   "comp": "lg",
+   "min": 40,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2022-23 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1840,
+   "comp": "lg",
+   "min": 98,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-07",
+   "et": 0,
+   "dm": "90+8",
+   "lv": "세리에A 2022-23 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sevilla FC",
+   "elo": 1730,
+   "comp": "elsf",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "라리가 2022-23 12위",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    1,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Udinese Calcio",
+   "elo": 1712,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 15위",
+   "note": "Federico Chiesa"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1712,
+   "comp": "lg",
+   "min": 20,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bologna FC 1909",
+   "elo": 1827,
+   "comp": "lg",
+   "min": 80,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1803,
+   "comp": "lg",
+   "min": 67,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1998,
+   "comp": "lg",
+   "min": 27,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Frosinone Calcio",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Roma",
+   "elo": 1816,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 6위",
+   "note": "Adrien Rabiot"
+  },
+  {
+   "type": "g",
+   "opp": "US Salernitana 1919",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-07",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "세리에A 2023-24 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1661,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Sassuolo",
+   "elo": 1661,
+   "comp": "lg",
+   "min": 37,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1721,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1721,
+   "comp": "lg",
+   "min": 68,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1680,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1726,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Frosinone Calcio",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Frosinone Calcio",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 32,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Frosinone Calcio",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 95,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-02-25",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "세리에A 2023-24 18위",
+   "note": "Daniele Rugani"
+  },
+  {
+   "type": "g",
+   "opp": "SS Lazio",
+   "elo": 1803,
+   "comp": "dsf",
+   "min": 64,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 7위",
+   "note": 0,
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1697,
+   "comp": "lg",
+   "min": 61,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-04-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Atalanta BC",
+   "elo": 1843,
+   "comp": "df",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2023-24 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1735,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1735,
+   "comp": "lg",
+   "min": 53,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-08-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 14위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "PSV Eindhoven",
+   "elo": 1858,
+   "comp": "clg",
+   "min": 52,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "에레디비시 2024-25 1위",
+   "note": "Nico González"
+  },
+  {
+   "type": "g",
+   "opp": "Genoa CFC",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Genoa CFC",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-09-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1765,
+   "comp": "clg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1765,
+   "comp": "clg",
+   "min": 68,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2024-25 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1726,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-10-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Inter Milan",
+   "elo": 1933,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1730,
+   "comp": "clg",
+   "min": 60,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-11-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2024-25 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bologna FC 1909",
+   "elo": 1783,
+   "comp": "lg",
+   "min": 92,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-07",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "세리에A 2024-25 9위",
+   "note": "Samuel Mbangula"
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1977,
+   "comp": "clg",
+   "min": 53,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Venezia FC",
+   "elo": 1676,
+   "comp": "lg",
+   "min": 95,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-12-14",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "세리에A 2024-25 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1726,
+   "comp": "dc",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-12-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Empoli",
+   "elo": 1683,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Cagliari Calcio",
+   "elo": 1726,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 15위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Genoa CFC",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 13위",
+   "note": "Kenan Yıldız"
+  },
+  {
+   "type": "a",
+   "opp": "US Lecce",
+   "elo": 1694,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 17위",
+   "note": "Teun Koopmeiners"
+  },
+  {
+   "type": "a",
+   "opp": "US Lecce",
+   "elo": 1694,
+   "comp": "lg",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 17위",
+   "note": "Kenan Yıldız"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1749,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-05-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2024-25 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Wydad Casablanca",
+   "elo": 1463,
+   "comp": "cwc",
+   "min": 94,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-06-22",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "모로코 1부 2024-25 3위/16팀 (Botola Pro, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Manchester City",
+   "elo": 1977,
+   "comp": "cwc",
+   "min": 84,
+   "gf": 1,
+   "ga": 5,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-06-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "프리미어리그 2024-25 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Parma Calcio 1913",
+   "elo": 1716,
+   "comp": "lg",
+   "min": 84,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Genoa CFC",
+   "elo": 1688,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1902,
+   "comp": "clg",
+   "min": 67,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Borussia Dortmund",
+   "elo": 1902,
+   "comp": "clg",
+   "min": 94,
+   "gf": 2,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-16",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "분데스리가 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Borussia Dortmund",
+   "elo": 1902,
+   "comp": "clg",
+   "min": 96,
+   "gf": 3,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-09-16",
+   "et": 0,
+   "dm": "90+6",
+   "lv": "분데스리가 2025-26 2위",
+   "note": "Lloyd Kelly"
+  },
+  {
+   "type": "g",
+   "opp": "Udinese Calcio",
+   "elo": 1744,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sporting CP",
+   "elo": 1855,
+   "comp": "clg",
+   "min": 34,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2025-26 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "ACF Fiorentina",
+   "elo": 1703,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-22",
+   "et": 0,
+   "dm": "45+5",
+   "lv": "세리에A 2025-26 15위",
+   "note": "Filip Kostić"
+  },
+  {
+   "type": "g",
+   "opp": "Hellas Verona",
+   "elo": 1652,
+   "comp": "lg",
+   "min": 62,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Lecce",
+   "elo": 1670,
+   "comp": "lg",
+   "min": 1,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino FC",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 24,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Torino FC",
+   "elo": 1725,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-05-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2025-26 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Corum FK",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 43,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 1부 2026-27 9위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Corum FK",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 59,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 1부 2026-27 9위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Corum FK",
+   "elo": 1506,
+   "comp": "lg",
+   "min": 66,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 1부 2026-27 9위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1576,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-09-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 1부 2026-27 6위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Amed SK",
+   "elo": 1709,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-09-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2026-27 2위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kocaelispor",
+   "elo": 1553,
+   "comp": "lg",
+   "min": 31,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-10-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2026-27 7위/18팀 (2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Basaksehir FK",
+   "elo": 1490,
+   "comp": "lg",
+   "min": 76,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2026-27 10위/18팀",
+   "note": "Hyeon-gyu Oh"
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1592,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 1부 2026-27 5위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Genclerbirligi Ankara",
+   "elo": 1442,
+   "comp": "lg",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2026-27 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Genclerbirligi Ankara",
+   "elo": 1442,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2026-27 14위/18팀",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2016-02-21",
+   "OFK Beograd",
+   "lg",
+   20
+  ],
+  [
+   "2016-02-27",
+   "Red Star Belgrade",
+   "lg",
+   37
+  ],
+  [
+   "2016-03-02",
+   "FK Radnicki Nis",
+   "dk",
+   1
+  ],
+  [
+   "2016-03-06",
+   "FK Radnicki Nis",
+   "lg",
+   4
+  ],
+  [
+   "2016-03-16",
+   "FK Spartak Subotica",
+   "dsf",
+   11
+  ],
+  [
+   "2016-03-20",
+   "FK Cukaricki",
+   "lg",
+   1
+  ],
+  [
+   "2016-04-02",
+   "FK Radnik Surdulica",
+   "lg",
+   45
+  ],
+  [
+   "2016-04-06",
+   "FK Javor-Matis Ivanjica",
+   "lg",
+   33
+  ],
+  [
+   "2016-04-10",
+   "FK Mladost Lucani",
+   "lg",
+   21
+  ],
+  [
+   "2016-04-16",
+   "Red Star Belgrade",
+   "lg",
+   8
+  ],
+  [
+   "2016-04-20",
+   "FK Spartak Subotica",
+   "dsf",
+   27
+  ],
+  [
+   "2016-04-23",
+   "FK Cukaricki",
+   "lg",
+   20
+  ],
+  [
+   "2016-04-28",
+   "FK Borac Cacak",
+   "lg",
+   23
+  ],
+  [
+   "2016-05-03",
+   "FK Radnik Surdulica",
+   "lg",
+   14
+  ],
+  [
+   "2016-05-07",
+   "FK Vozdovac",
+   "lg",
+   18
+  ],
+  [
+   "2016-05-11",
+   "FK Javor-Matis Ivanjica",
+   "df",
+   18
+  ],
+  [
+   "2016-05-15",
+   "FK Radnicki Nis",
+   "lg",
+   26
+  ],
+  [
+   "2016-05-21",
+   "FK Vojvodina Novi Sad",
+   "lg",
+   21
+  ],
+  [
+   "2016-07-21",
+   "Zaglebie Lubin",
+   "elq",
+   50
+  ],
+  [
+   "2016-07-31",
+   "FK Napredak Krusevac",
+   "lg",
+   73
+  ],
+  [
+   "2016-08-10",
+   "FK Javor-Matis Ivanjica",
+   "lg",
+   5
+  ],
+  [
+   "2016-08-20",
+   "FK Spartak Subotica",
+   "lg",
+   23
+  ],
+  [
+   "2016-09-11",
+   "FK Borac Cacak",
+   "lg",
+   5
+  ],
+  [
+   "2016-09-21",
+   "FK Napredak Krusevac",
+   "dc",
+   10
+  ],
+  [
+   "2016-11-25",
+   "FK Napredak Krusevac",
+   "lg",
+   1
+  ],
+  [
+   "2016-12-04",
+   "FK Javor-Matis Ivanjica",
+   "lg",
+   5
+  ],
+  [
+   "2016-12-11",
+   "FK Cukaricki",
+   "lg",
+   8
+  ],
+  [
+   "2018-09-25",
+   "Inter Milan",
+   "lg",
+   6
+  ],
+  [
+   "2018-10-21",
+   "Cagliari Calcio",
+   "lg",
+   4
+  ],
+  [
+   "2018-11-09",
+   "Frosinone Calcio",
+   "lg",
+   3
+  ],
+  [
+   "2018-12-09",
+   "US Sassuolo",
+   "lg",
+   55
+  ],
+  [
+   "2019-03-31",
+   "Torino FC",
+   "lg",
+   24
+  ],
+  [
+   "2019-04-07",
+   "Frosinone Calcio",
+   "lg",
+   11
+  ],
+  [
+   "2019-04-14",
+   "Bologna FC 1909",
+   "lg",
+   3
+  ],
+  [
+   "2019-05-05",
+   "FC Empoli",
+   "lg",
+   23
+  ],
+  [
+   "2019-05-11",
+   "AC Milan",
+   "lg",
+   16
+  ],
+  [
+   "2019-05-19",
+   "Parma Calcio 1913",
+   "lg",
+   7
+  ],
+  [
+   "2019-08-18",
+   "AC Monza",
+   "dc",
+   16
+  ],
+  [
+   "2019-08-24",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2019-09-01",
+   "Genoa CFC",
+   "lg",
+   18
+  ],
+  [
+   "2019-09-22",
+   "Atalanta BC",
+   "lg",
+   13
+  ],
+  [
+   "2019-09-25",
+   "UC Sampdoria",
+   "lg",
+   1
+  ],
+  [
+   "2019-10-21",
+   "Brescia Calcio",
+   "lg",
+   22
+  ],
+  [
+   "2019-10-30",
+   "US Sassuolo",
+   "lg",
+   15
+  ],
+  [
+   "2019-11-03",
+   "Parma Calcio 1913",
+   "lg",
+   36
+  ],
+  [
+   "2019-11-10",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-24",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2019-11-30",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "2019-12-03",
+   "AS Cittadella",
+   "dc",
+   90
+  ],
+  [
+   "2019-12-08",
+   "Torino FC",
+   "lg",
+   78
+  ],
+  [
+   "2019-12-15",
+   "Inter Milan",
+   "lg",
+   31
+  ],
+  [
+   "2019-12-20",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2020-01-06",
+   "Bologna FC 1909",
+   "lg",
+   67
+  ],
+  [
+   "2020-01-12",
+   "SPAL",
+   "lg",
+   45
+  ],
+  [
+   "2020-01-15",
+   "Atalanta BC",
+   "dc",
+   88
+  ],
+  [
+   "2020-01-18",
+   "SSC Napoli",
+   "lg",
+   24
+  ],
+  [
+   "2020-01-25",
+   "Genoa CFC",
+   "lg",
+   31
+  ],
+  [
+   "2020-01-29",
+   "Inter Milan",
+   "dk",
+   90
+  ],
+  [
+   "2020-02-02",
+   "Juventus FC",
+   "lg",
+   29
+  ],
+  [
+   "2020-02-08",
+   "Atalanta BC",
+   "lg",
+   45
+  ],
+  [
+   "2020-02-16",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2020-02-22",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2020-03-08",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-22",
+   "Brescia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2020-06-27",
+   "SS Lazio",
+   "lg",
+   27
+  ],
+  [
+   "2020-07-08",
+   "Cagliari Calcio",
+   "lg",
+   75
+  ],
+  [
+   "2020-07-12",
+   "Hellas Verona",
+   "lg",
+   9
+  ],
+  [
+   "2020-07-15",
+   "US Lecce",
+   "lg",
+   25
+  ],
+  [
+   "2020-07-19",
+   "Torino FC",
+   "lg",
+   8
+  ],
+  [
+   "2020-07-26",
+   "AS Roma",
+   "lg",
+   45
+  ],
+  [
+   "2020-08-02",
+   "SPAL",
+   "lg",
+   65
+  ],
+  [
+   "2020-09-19",
+   "Torino FC",
+   "lg",
+   11
+  ],
+  [
+   "2020-09-26",
+   "Inter Milan",
+   "lg",
+   29
+  ],
+  [
+   "2020-10-02",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2020-10-18",
+   "Spezia Calcio",
+   "lg",
+   72
+  ],
+  [
+   "2020-10-25",
+   "Udinese Calcio",
+   "lg",
+   66
+  ],
+  [
+   "2020-10-28",
+   "Calcio Padova",
+   "dc",
+   1
+  ],
+  [
+   "2020-11-01",
+   "AS Roma",
+   "lg",
+   33
+  ],
+  [
+   "2020-11-22",
+   "Benevento Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-25",
+   "Udinese Calcio",
+   "dc",
+   90
+  ],
+  [
+   "2020-11-29",
+   "AC Milan",
+   "lg",
+   77
+  ],
+  [
+   "2020-12-07",
+   "Genoa CFC",
+   "lg",
+   78
+  ],
+  [
+   "2020-12-13",
+   "Atalanta BC",
+   "lg",
+   71
+  ],
+  [
+   "2020-12-16",
+   "US Sassuolo",
+   "lg",
+   73
+  ],
+  [
+   "2020-12-19",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-22",
+   "Juventus FC",
+   "lg",
+   75
+  ],
+  [
+   "2021-01-03",
+   "Bologna FC 1909",
+   "lg",
+   72
+  ],
+  [
+   "2021-01-06",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-10",
+   "Cagliari Calcio",
+   "lg",
+   82
+  ],
+  [
+   "2021-01-13",
+   "Inter Milan",
+   "dc",
+   68
+  ],
+  [
+   "2021-01-17",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-23",
+   "FC Crotone",
+   "lg",
+   69
+  ],
+  [
+   "2021-01-29",
+   "Torino FC",
+   "lg",
+   84
+  ],
+  [
+   "2021-02-05",
+   "Inter Milan",
+   "lg",
+   73
+  ],
+  [
+   "2021-02-14",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-19",
+   "Spezia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-28",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-03",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-07",
+   "Parma Calcio 1913",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-13",
+   "Benevento Calcio",
+   "lg",
+   78
+  ],
+  [
+   "2021-03-21",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-03",
+   "Genoa CFC",
+   "lg",
+   89
+  ],
+  [
+   "2021-04-11",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-17",
+   "US Sassuolo",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-20",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-25",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-02",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-08",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-12",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-16",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2021-05-22",
+   "FC Crotone",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-13",
+   "Cosenza Calcio",
+   "dc",
+   90
+  ],
+  [
+   "2021-08-22",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-28",
+   "Torino FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-11",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-18",
+   "Genoa CFC",
+   "lg",
+   81
+  ],
+  [
+   "2021-09-21",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "2021-09-26",
+   "Udinese Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-03",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-18",
+   "Venezia FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-24",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-27",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-31",
+   "Spezia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-06",
+   "Juventus FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-20",
+   "AC Milan",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-27",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-30",
+   "UC Sampdoria",
+   "lg",
+   89
+  ],
+  [
+   "2021-12-05",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-11",
+   "US Salernitana 1919",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-15",
+   "Benevento Calcio",
+   "dc",
+   14
+  ],
+  [
+   "2021-12-19",
+   "US Sassuolo",
+   "lg",
+   88
+  ],
+  [
+   "2021-12-22",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-10",
+   "Torino FC",
+   "lg",
+   73
+  ],
+  [
+   "2022-01-13",
+   "SSC Napoli",
+   "dc",
+   73
+  ],
+  [
+   "2022-01-17",
+   "Genoa CFC",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-06",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-10",
+   "US Sassuolo",
+   "dk",
+   90
+  ],
+  [
+   "2022-02-13",
+   "Atalanta BC",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-18",
+   "Torino FC",
+   "lg",
+   74
+  ],
+  [
+   "2022-02-22",
+   "Villarreal CF",
+   "cl16",
+   90
+  ],
+  [
+   "2022-02-26",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-02",
+   "ACF Fiorentina",
+   "dsf",
+   90
+  ],
+  [
+   "2022-03-06",
+   "Spezia Calcio",
+   "lg",
+   85
+  ],
+  [
+   "2022-03-12",
+   "UC Sampdoria",
+   "lg",
+   25
+  ],
+  [
+   "2022-03-16",
+   "Villarreal CF",
+   "cl16",
+   90
+  ],
+  [
+   "2022-03-20",
+   "US Salernitana 1919",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-03",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-09",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-16",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2022-04-20",
+   "ACF Fiorentina",
+   "dsf",
+   83
+  ],
+  [
+   "2022-04-25",
+   "US Sassuolo",
+   "lg",
+   36
+  ],
+  [
+   "2022-05-01",
+   "Venezia FC",
+   "lg",
+   79
+  ],
+  [
+   "2022-05-06",
+   "Genoa CFC",
+   "lg",
+   74
+  ],
+  [
+   "2022-05-11",
+   "Inter Milan",
+   "df",
+   120
+  ],
+  [
+   "2022-05-16",
+   "SS Lazio",
+   "lg",
+   62
+  ],
+  [
+   "2022-05-21",
+   "ACF Fiorentina",
+   "lg",
+   14
+  ],
+  [
+   "2022-08-15",
+   "US Sassuolo",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-22",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-27",
+   "AS Roma",
+   "lg",
+   86
+  ],
+  [
+   "2022-08-31",
+   "Spezia Calcio",
+   "lg",
+   85
+  ],
+  [
+   "2022-09-06",
+   "Paris Saint-Germain",
+   "clg",
+   90
+  ],
+  [
+   "2022-09-11",
+   "US Salernitana 1919",
+   "lg",
+   90
+  ],
+  [
+   "2022-09-14",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2022-09-18",
+   "AC Monza",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-02",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-05",
+   "Maccabi Haifa",
+   "clg",
+   73
+  ],
+  [
+   "2022-10-08",
+   "AC Milan",
+   "lg",
+   78
+  ],
+  [
+   "2022-10-11",
+   "Maccabi Haifa",
+   "clg",
+   90
+  ],
+  [
+   "2022-10-15",
+   "Torino FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-21",
+   "FC Empoli",
+   "lg",
+   65
+  ],
+  [
+   "2022-10-25",
+   "SL Benfica",
+   "clg",
+   70
+  ],
+  [
+   "2023-01-29",
+   "AC Monza",
+   "lg",
+   25
+  ],
+  [
+   "2023-02-02",
+   "SS Lazio",
+   "dk",
+   63
+  ],
+  [
+   "2023-02-07",
+   "US Salernitana 1919",
+   "lg",
+   79
+  ],
+  [
+   "2023-02-12",
+   "ACF Fiorentina",
+   "lg",
+   65
+  ],
+  [
+   "2023-02-16",
+   "FC Nantes",
+   "elk",
+   86
+  ],
+  [
+   "2023-02-19",
+   "Spezia Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2023-02-23",
+   "FC Nantes",
+   "elk",
+   26
+  ],
+  [
+   "2023-02-28",
+   "Torino FC",
+   "lg",
+   86
+  ],
+  [
+   "2023-03-05",
+   "AS Roma",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-09",
+   "SC Freiburg",
+   "elk",
+   67
+  ],
+  [
+   "2023-03-12",
+   "UC Sampdoria",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-16",
+   "SC Freiburg",
+   "elk",
+   70
+  ],
+  [
+   "2023-03-19",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-01",
+   "Hellas Verona",
+   "lg",
+   30
+  ],
+  [
+   "2023-04-04",
+   "Inter Milan",
+   "dsf",
+   73
+  ],
+  [
+   "2023-04-08",
+   "SS Lazio",
+   "lg",
+   63
+  ],
+  [
+   "2023-04-13",
+   "Sporting CP",
+   "elk",
+   28
+  ],
+  [
+   "2023-04-16",
+   "US Sassuolo",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-20",
+   "Sporting CP",
+   "elk",
+   71
+  ],
+  [
+   "2023-04-23",
+   "SSC Napoli",
+   "lg",
+   1
+  ],
+  [
+   "2023-04-30",
+   "Bologna FC 1909",
+   "lg",
+   8
+  ],
+  [
+   "2023-05-03",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-07",
+   "Atalanta BC",
+   "lg",
+   25
+  ],
+  [
+   "2023-05-11",
+   "Sevilla FC",
+   "elsf",
+   61
+  ],
+  [
+   "2023-05-14",
+   "US Cremonese",
+   "lg",
+   66
+  ],
+  [
+   "2023-05-18",
+   "Sevilla FC",
+   "elsf",
+   56
+  ],
+  [
+   "2023-05-22",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2023-08-20",
+   "Udinese Calcio",
+   "lg",
+   85
+  ],
+  [
+   "2023-08-27",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-03",
+   "FC Empoli",
+   "lg",
+   71
+  ],
+  [
+   "2023-09-16",
+   "SS Lazio",
+   "lg",
+   84
+  ],
+  [
+   "2023-09-23",
+   "US Sassuolo",
+   "lg",
+   75
+  ],
+  [
+   "2023-09-26",
+   "US Lecce",
+   "lg",
+   12
+  ],
+  [
+   "2023-10-22",
+   "AC Milan",
+   "lg",
+   34
+  ],
+  [
+   "2023-10-28",
+   "Hellas Verona",
+   "lg",
+   82
+  ],
+  [
+   "2023-11-05",
+   "ACF Fiorentina",
+   "lg",
+   22
+  ],
+  [
+   "2023-11-11",
+   "Cagliari Calcio",
+   "lg",
+   24
+  ],
+  [
+   "2023-11-26",
+   "Inter Milan",
+   "lg",
+   80
+  ],
+  [
+   "2023-12-01",
+   "AC Monza",
+   "lg",
+   70
+  ],
+  [
+   "2023-12-08",
+   "SSC Napoli",
+   "lg",
+   70
+  ],
+  [
+   "2023-12-15",
+   "Genoa CFC",
+   "lg",
+   68
+  ],
+  [
+   "2023-12-23",
+   "Frosinone Calcio",
+   "lg",
+   35
+  ],
+  [
+   "2023-12-30",
+   "AS Roma",
+   "lg",
+   76
+  ],
+  [
+   "2024-01-04",
+   "US Salernitana 1919",
+   "dc",
+   14
+  ],
+  [
+   "2024-01-07",
+   "US Salernitana 1919",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-11",
+   "Frosinone Calcio",
+   "dk",
+   28
+  ],
+  [
+   "2024-01-16",
+   "US Sassuolo",
+   "lg",
+   82
+  ],
+  [
+   "2024-01-21",
+   "US Lecce",
+   "lg",
+   90
+  ],
+  [
+   "2024-01-27",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-04",
+   "Inter Milan",
+   "lg",
+   90
+  ],
+  [
+   "2024-02-17",
+   "Hellas Verona",
+   "lg",
+   81
+  ],
+  [
+   "2024-02-25",
+   "Frosinone Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-03",
+   "SSC Napoli",
+   "lg",
+   90
+  ],
+  [
+   "2024-03-17",
+   "Genoa CFC",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-02",
+   "SS Lazio",
+   "dsf",
+   86
+  ],
+  [
+   "2024-04-07",
+   "ACF Fiorentina",
+   "lg",
+   85
+  ],
+  [
+   "2024-04-13",
+   "Torino FC",
+   "lg",
+   78
+  ],
+  [
+   "2024-04-19",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2024-04-23",
+   "SS Lazio",
+   "dsf",
+   81
+  ],
+  [
+   "2024-04-27",
+   "AC Milan",
+   "lg",
+   62
+  ],
+  [
+   "2024-05-05",
+   "AS Roma",
+   "lg",
+   76
+  ],
+  [
+   "2024-05-12",
+   "US Salernitana 1919",
+   "lg",
+   76
+  ],
+  [
+   "2024-05-15",
+   "Atalanta BC",
+   "df",
+   81
+  ],
+  [
+   "2024-05-20",
+   "Bologna FC 1909",
+   "lg",
+   64
+  ],
+  [
+   "2024-05-25",
+   "AC Monza",
+   "lg",
+   17
+  ],
+  [
+   "2024-08-19",
+   "Como 1907",
+   "lg",
+   90
+  ],
+  [
+   "2024-08-26",
+   "Hellas Verona",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-01",
+   "AS Roma",
+   "lg",
+   83
+  ],
+  [
+   "2024-09-14",
+   "FC Empoli",
+   "lg",
+   90
+  ],
+  [
+   "2024-09-17",
+   "PSV Eindhoven",
+   "clg",
+   90
+  ],
+  [
+   "2024-09-21",
+   "SSC Napoli",
+   "lg",
+   45
+  ],
+  [
+   "2024-09-28",
+   "Genoa CFC",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-02",
+   "RB Leipzig",
+   "clg",
+   90
+  ],
+  [
+   "2024-10-06",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-19",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-22",
+   "VfB Stuttgart",
+   "clg",
+   68
+  ],
+  [
+   "2024-10-27",
+   "Inter Milan",
+   "lg",
+   77
+  ],
+  [
+   "2024-10-30",
+   "Parma Calcio 1913",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-02",
+   "Udinese Calcio",
+   "lg",
+   71
+  ],
+  [
+   "2024-11-05",
+   "LOSC Lille",
+   "clg",
+   68
+  ],
+  [
+   "2024-11-09",
+   "Torino FC",
+   "lg",
+   73
+  ],
+  [
+   "2024-12-07",
+   "Bologna FC 1909",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-11",
+   "Manchester City",
+   "clg",
+   85
+  ],
+  [
+   "2024-12-14",
+   "Venezia FC",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-17",
+   "Cagliari Calcio",
+   "dc",
+   81
+  ],
+  [
+   "2024-12-22",
+   "AC Monza",
+   "lg",
+   85
+  ],
+  [
+   "2024-12-29",
+   "ACF Fiorentina",
+   "lg",
+   82
+  ],
+  [
+   "2025-01-03",
+   "AC Milan",
+   "dsf",
+   65
+  ],
+  [
+   "2025-01-18",
+   "AC Milan",
+   "lg",
+   7
+  ],
+  [
+   "2025-01-21",
+   "Club Brugge KV",
+   "clg",
+   14
+  ],
+  [
+   "2025-01-25",
+   "SSC Napoli",
+   "lg",
+   8
+  ],
+  [
+   "2025-01-29",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2025-02-02",
+   "FC Empoli",
+   "lg",
+   25
+  ],
+  [
+   "2025-02-11",
+   "PSV Eindhoven",
+   "cl16",
+   13
+  ],
+  [
+   "2025-02-19",
+   "PSV Eindhoven",
+   "cl16",
+   30
+  ],
+  [
+   "2025-02-23",
+   "Cagliari Calcio",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-26",
+   "FC Empoli",
+   "dk",
+   90
+  ],
+  [
+   "2025-03-03",
+   "Hellas Verona",
+   "lg",
+   8
+  ],
+  [
+   "2025-03-09",
+   "Atalanta BC",
+   "lg",
+   15
+  ],
+  [
+   "2025-03-29",
+   "Genoa CFC",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-06",
+   "AS Roma",
+   "lg",
+   68
+  ],
+  [
+   "2025-04-12",
+   "US Lecce",
+   "lg",
+   67
+  ],
+  [
+   "2025-04-23",
+   "Parma Calcio 1913",
+   "lg",
+   45
+  ],
+  [
+   "2025-05-10",
+   "SS Lazio",
+   "lg",
+   4
+  ],
+  [
+   "2025-05-18",
+   "Udinese Calcio",
+   "lg",
+   17
+  ],
+  [
+   "2025-05-25",
+   "Venezia FC",
+   "lg",
+   14
+  ],
+  [
+   "2025-06-18",
+   "Al-Ain FC",
+   "cwc",
+   20
+  ],
+  [
+   "2025-06-22",
+   "Wydad Casablanca",
+   "cwc",
+   18
+  ],
+  [
+   "2025-06-26",
+   "Manchester City",
+   "cwc",
+   90
+  ],
+  [
+   "2025-08-24",
+   "Parma Calcio 1913",
+   "lg",
+   10
+  ],
+  [
+   "2025-08-31",
+   "Genoa CFC",
+   "lg",
+   28
+  ],
+  [
+   "2025-09-13",
+   "Inter Milan",
+   "lg",
+   73
+  ],
+  [
+   "2025-09-16",
+   "Borussia Dortmund",
+   "clg",
+   30
+  ],
+  [
+   "2025-09-20",
+   "Hellas Verona",
+   "lg",
+   57
+  ],
+  [
+   "2025-09-27",
+   "Atalanta BC",
+   "lg",
+   32
+  ],
+  [
+   "2025-10-01",
+   "Villarreal CF",
+   "clg",
+   4
+  ],
+  [
+   "2025-10-05",
+   "AC Milan",
+   "lg",
+   21
+  ],
+  [
+   "2025-10-19",
+   "Como 1907",
+   "lg",
+   13
+  ],
+  [
+   "2025-10-22",
+   "Real Madrid",
+   "clg",
+   75
+  ],
+  [
+   "2025-10-26",
+   "SS Lazio",
+   "lg",
+   90
+  ],
+  [
+   "2025-10-29",
+   "Udinese Calcio",
+   "lg",
+   89
+  ],
+  [
+   "2025-11-01",
+   "US Cremonese",
+   "lg",
+   85
+  ],
+  [
+   "2025-11-04",
+   "Sporting CP",
+   "clg",
+   83
+  ],
+  [
+   "2025-11-08",
+   "Torino FC",
+   "lg",
+   65
+  ],
+  [
+   "2025-11-22",
+   "ACF Fiorentina",
+   "lg",
+   88
+  ],
+  [
+   "2025-11-29",
+   "Cagliari Calcio",
+   "lg",
+   31
+  ],
+  [
+   "2026-03-21",
+   "US Sassuolo",
+   "lg",
+   11
+  ],
+  [
+   "2026-04-26",
+   "AC Milan",
+   "lg",
+   3
+  ],
+  [
+   "2026-05-03",
+   "Hellas Verona",
+   "lg",
+   45
+  ],
+  [
+   "2026-05-09",
+   "US Lecce",
+   "lg",
+   77
+  ],
+  [
+   "2026-05-17",
+   "ACF Fiorentina",
+   "lg",
+   90
+  ],
+  [
+   "2026-05-24",
+   "Torino FC",
+   "lg",
+   62
+  ],
+  [
+   "2026-08-20",
+   "FK Kauno Žalgiris",
+   "elq",
+   30
+  ],
+  [
+   "2026-08-23",
+   "Alanyaspor",
+   "lg",
+   33
+  ],
+  [
+   "2026-08-27",
+   "FK Kauno Žalgiris",
+   "elq",
+   65
+  ],
+  [
+   "2026-08-31",
+   "Corum FK",
+   "lg",
+   71
+  ],
+  [
+   "2026-09-05",
+   "Fenerbahce",
+   "lg",
+   85
+  ],
+  [
+   "2026-09-17",
+   "Olympique Marseille",
+   "elg",
+   90
+  ],
+  [
+   "2026-09-20",
+   "Amed SK",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-11",
+   "Kocaelispor",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-19",
+   "Trabzonspor",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-22",
+   "Crystal Palace",
+   "elg",
+   15
+  ],
+  [
+   "2026-10-26",
+   "Basaksehir FK",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-01",
+   "Kasimpasa",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-05",
+   "Celtic FC",
+   "elg",
+   20
+  ],
+  [
+   "2026-11-08",
+   "Genclerbirligi Ankara",
+   "lg",
+   86
+  ]
+ ],
+ "note": "두샨 블라호비치(파르티잔·피오렌티나·유벤투스·베식타시)의 클럽 공식 경기 317경기(2016.2.21 OFK 베오그라드전 ~ 2026.11.8 겐츨레르비를리이전)에서 나온 129골 19도움(PK 골 26개), 친선경기·유소년(파르티잔 U17·U19, 피오렌티나 프리마베라)·세르비아 대표팀 제외\n클럽별 경기·골·도움: 파르티잔 27·3·0, 피오렌티나 108·49·5, 유벤투스 168·68·13, 베식타시 14·9·1. 출전 분 합계 19,612분\n출처: 경기 목록·출전 분은 Transfermarkt 선수 경기 성적, 골 시각·골 순서·PK·도움은 Transfermarkt 경기 리포트(골·도움이 있거나 리그 밖 대회인 경기). 골 129개(100경기)는 FotMob 경기 기록과 대조해 수·순서·PK가 모두 같음(2016.5.11 세르비아컵 결승 자보르전 골은 Transfermarkt 90+7분, FotMob 90분 → Transfermarkt). 이탈리아·튀르키예·유럽 대회 골·도움은 ESPN 경기 기록과도 대조(세르비아 리그·컵은 ESPN에 없음)\n위키백과와 차이: 영어·세르비아어·이탈리아어 위키백과의 파르티잔·피오렌티나·유벤투스 클럽·시즌별 경기·골은 Transfermarkt와 모두 같음. 베식타시 2026-27은 위키백과 표가 기준일까지 갱신되지 않아(영어 11경기, 세르비아어 7경기) Transfermarkt·FotMob(14경기 9골)을 씀\n범위: 첫 1군 공식 경기는 2016.2.21(파르티잔 2015-16). 2014-15 파르티잔 1군 경기와 안데를레흐트 임대는 어느 출처에도 없음(안데를레흐트는 2016년 영입 관심 보도뿐). 파르티잔 2017-18은 명단 제외·결장뿐이라 경기 없음. 피오렌티나 프리마베라 22경기(유소년)는 뺌\n도움: Transfermarkt 도움 26개에서 슈팅 리바운드('Shot on goal') 4개(2021.12.19 사수올로전 토레이라 골, 2022.1.17 제노아전 오드리오솔라 골, 2022.10.25 챔스 벤피카전 킨 골, 2023.2.7 살레르니타나전 코스티치 골 — 뒤의 둘은 FotMob·ESPN이 도움으로 적었으나 슈팅이 막혀 흐른 공이라 뺌)와 상대 자책골 유도 2개(2020.2.16 삼프도리아전 토르스뷔 자책골, 2022.2.10 코파 이탈리아 사수올로전 후안 자책골, 후자는 Transfermarkt 유형도 슈팅 리바운드)를 빼고, 본인 PK 골의 본인 도움 표기 5개는 도움으로 세지 않음. Transfermarkt와 FotMob 경기 이벤트가 같은 도움 17개를 넣음\n한 출처만 적은 도움은 다른 출처 2곳이 확인한 것만 넣음: 2019.8.18 코파 이탈리아 몬차전 89분 키에사 골(Transfermarkt만, Calciomercato·La Nazione 경기 기사 확인), 2026.10.26 바샥셰히르전 76분 오현규 골(Transfermarkt만, Sözcü·Novosti 경기 기사 확인)은 넣음. 뺀 것: 2016.4.10 믈라도스트 루차니전 74분 사샤 일리치 골(Transfermarkt만, 다른 출처 확인 못 함), 2021.4.20 베로나전(FotMob 선수 경기 목록만 도움 1, 경기 이벤트는 65분 카세레스 골 도움자 없음, 기사상 비라기 프리킥에서 나온 골), 2024.1.7 살레르니타나전 65분 일링-주니어 골(FotMob만, 유벤투스 공식·Football Italia·Calciomercato 기사상 블라호비치의 빗맞은 슈팅이 흘러간 공). FotMob·위키백과의 시즌 도움 합계는 경기별 근거가 없어 쓰지 않음\n골: 자책골 없음. 승부차기 경기 2개(2016.7.21 유로파 예선 자글레비에 루빈전 0-0, 2025.2.26 코파 이탈리아 8강 엠폴리전 1-1)는 Transfermarkt 최종 스코어에 승부차기가 섞여 있어 경기 중 스코어로 봄(두 경기 모두 블라호비치 골·도움 없음, 승부차기 골은 세지 않음)\n출전: 출전 분은 Transfermarkt 그대로(빈 칸 없음). 2019.8.24 나폴리전은 FotMob 61분, Transfermarkt 90분으로 경기 기록마다 교체 기록이 달라 Transfermarkt를 씀. FotMob 선수 경기 목록에 없는 코파 이탈리아 2경기(2019.8.18 몬차전·2020.10.28 파도바전)는 Transfermarkt·FotMob 경기 기록대로 넣음. 연장 경기 6개, 승부차기 경기 2개\n날짜: 2025.6.18 클럽 월드컵 알아인전(워싱턴 저녁 경기)은 미국 현지 날짜(Transfermarkt 일정은 6.19)\n상대 Elo는 같은 경기를 다룬 다른 선수 자료(키에사·디 마리아·디발라·코스티치·리베리·콰드라도·칼레혼 등), 같은 팀·같은 시즌 다른 선수 자료 값, 그 시즌 확인한 순위에 맞춘 값 순으로 씀(기록 148개: 같은 경기 50, 같은 팀·시즌 92, 순위표 6)\n순위 확인: 세르비아 1부 2015-16은 스플릿 뒤 최종 순위(우승 조 1-8위, 강등 조 9-16위: 라드니크 수르둘리차 8위, 스파르타크 수보티차 10위, 자보르 13위), 코센차 2021-22 세리에B 16위, 코자엘리스포르 2026-27 쉬페르리그 7위(2026년 11월 중순 현재 순위)\n대회 비중: 세르비아컵·코파 이탈리아는 국내컵(16강까지 낮은 비중, 8강부터 높은 비중·준결승·결승), 수페르코파 이탈리아나 2024-25(4팀) 준결승은 준결승 비중, 클럽 월드컵 2025 조별은 리그식. 챔스 2024-25부터 리그 단계는 조별, 녹아웃 플레이오프는 16강 비중, 유로파 녹아웃 플레이오프는 유로파 토너먼트\n두 경기 합산 기록 7개(7경기)는 합산 S로 계산함. UEFA 대회는 2020-21까지 원정 다득점(2021-22부터 없음), 코파 이탈리아 준결승은 2021-22까지 원정 다득점, 세르비아컵 준결승 2015-16은 원정 다득점·연장. 못 뛴 다른 차전 스코어는 Transfermarkt 리포트\n시즌 구분: 파르티잔은 7월 10일 기준(2016.7 유로파 예선·리그 개막전은 2016-17), 나머지 클럽은 8월 1일 기준(클럽 월드컵 2025는 2024-25). 클럽 구분(Transfermarkt 이적일): 2016.1.1 파르티잔 1군, 2018.7.1 피오렌티나, 2022.1.28 유벤투스, 2026.8.13 베식타시(자유 이적)\n우승·수상은 Transfermarkt 업적 페이지 기준(영어 위키백과·FotMob과 대조). 2016-17 리그·컵 우승은 시즌 전반기(9경기)만 뛰었으나 Transfermarkt대로 넣음. 2021-22 세리에A 올해의 팀은 AIC(선수협회, 영어 위키백과 Serie A Team of the Year 목록). Transfermarkt '올해의 선수 21/22 세리에A'는 AIC·리그 사무국 올해의 선수(둘 다 하파엘 레앙)와 맞지 않아 넣지 않음. 세리에A 23세 이하 최우수 선수(2020-21)·최우수 공격수(2023-24)·이달의 선수, 유소년 우승·득점왕은 넣지 않음\n현역(베식타시). 2026.11.21 기준 마지막 반영 경기 2026.11.8 쉬페르리그 겐츨레르비를리이전(86분 2골)",
+ "judgments": [
+  [
+   "도움 제외",
+   "2016-04-10",
+   "FK Mladost Lucani",
+   "74",
+   "Sasa Ilic",
+   "2014.8 이후 단일 출처(확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2020-02-16",
+   "UC Sampdoria",
+   "8",
+   "Morten Thorsby",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2020-12-19",
+   "Hellas Verona",
+   "19",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2021-01-06",
+   "SS Lazio",
+   "88",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 제외",
+   "2021-12-19",
+   "US Sassuolo",
+   "61",
+   "Lucas Torreira",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2022-01-17",
+   "Genoa CFC",
+   "15",
+   "Álvaro Odriozola",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2022-02-10",
+   "US Sassuolo",
+   "88",
+   "Ruan",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2022-08-15",
+   "US Sassuolo",
+   "43",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 제외",
+   "2022-10-25",
+   "SL Benfica",
+   "21",
+   "Moise Kean",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2023-02-07",
+   "US Salernitana 1919",
+   "45",
+   "Filip Kostic",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2025-06-22",
+   "Wydad Casablanca",
+   "90+4",
+   "Penalty: Fouled player"
+  ],
+  [
+   "도움 아님(본인 PK 골의 본인 도움 표기)",
+   "2025-10-29",
+   "Udinese Calcio",
+   "5",
+   "Penalty: Fouled player"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2016-04-10",
+   "2607995",
+   "74",
+   "Sasa Ilic",
+   "뺌: 2016.4.10 파르티잔-믈라도스트 루차니 74분 사샤 일리치 골: Transfermarkt만 도움(Pass). FotMob 도움자 없음, ESPN에 경기 없음, 세르비아 언론·클럽 기사에서 도움 확인 못 함"
+  ],
+  [
+   "2019-08-18",
+   "3242073",
+   "89",
+   "Federico Chiesa",
+   "넣음: Calciomercato.com 경기 기사('ha appoggiato a Chiesa anche il pallone del 3-1', 같은 매체 평점 'segna due gol e serve un assist') + La Nazione 경기 기사('Vlahovic (due reti e un assist)')"
+  ],
+  [
+   "2021-02-19",
+   "3433411",
+   "82",
+   "Valentin Eysseric",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-03-21",
+   "3433461",
+   "51",
+   "Franck Ribéry",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-10-03",
+   "3614586",
+   "28",
+   "Lucas Martínez Quarta",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-11-20",
+   "3614659",
+   "45+1",
+   "Riccardo Saponara",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-03-20",
+   "3614823",
+   "5",
+   "Paulo Dybala",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-10-02",
+   "3844810",
+   "24",
+   "Filip Kostić",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-02-23",
+   "3956717",
+   "78",
+   "Ángel Di María",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-08-20",
+   "4103481",
+   "2",
+   "Federico Chiesa",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-12-30",
+   "4103647",
+   "47",
+   "Adrien Rabiot",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-02-25",
+   "4103726",
+   "90+5",
+   "Daniele Rugani",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-09-17",
+   "4445082",
+   "52",
+   "Nico González",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-12-07",
+   "4374050",
+   "90+2",
+   "Samuel Mbangula",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-03-29",
+   "4374217",
+   "25",
+   "Kenan Yıldız",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-04-12",
+   "4374237",
+   "2",
+   "Teun Koopmeiners",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-04-12",
+   "4374237",
+   "33",
+   "Kenan Yıldız",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-09-16",
+   "4716774",
+   "90+6",
+   "Lloyd Kelly",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-11-22",
+   "4620804",
+   "45+5",
+   "Filip Kostić",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2026-10-26",
+   "4934092",
+   "76",
+   "Hyeon-gyu Oh",
+   "넣음: Sözcü 경기 기사('Agbadou'nun savunmadan gönderdiği uzun topu Vlahovic kafayla Oh'un önüne indirdi') + Novosti 경기 기사('Vlahović je ... doprineo pobedi ... asistencijom')"
+  ]
+ ],
+ "fotmob_only_assists": [
+  [
+   "2024-01-07",
+   "4103658",
+   65,
+   "Samuel Iling-Junior"
+  ]
+ ],
+ "cross_check": [
+  [
+   "타인 도움(블라호비치 골)",
+   "cal.js",
+   "2021-01-10",
+   72,
+   "Cagliari Calcio",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "cal.js",
+   "2021-10-31",
+   74,
+   "Spezia Calcio",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "cal.js",
+   "2021-11-27",
+   57,
+   "FC Empoli",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "chi.js",
+   "2023-02-16",
+   13,
+   "FC Nantes",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "chi.js",
+   "2023-05-07",
+   98,
+   "Atalanta BC",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "chi.js",
+   "2023-11-26",
+   27,
+   "Inter Milan",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "chi.js",
+   "2019-08-18",
+   89,
+   "Federico Chiesa",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "chi.js",
+   "2023-08-20",
+   2,
+   "Federico Chiesa",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "cua.js",
+   "2022-02-26",
+   47,
+   "FC Empoli",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "dim.js",
+   "2022-08-15",
+   51,
+   "US Sassuolo",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "dim.js",
+   "2022-10-05",
+   50,
+   "Maccabi Haifa",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "dim.js",
+   "2023-02-23",
+   78,
+   "Ángel Di María",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "dyb.js",
+   "2022-02-06",
+   13,
+   "Hellas Verona",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "dyb.js",
+   "2022-03-20",
+   5,
+   "Paulo Dybala",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "kos.js",
+   "2025-08-31",
+   73,
+   "Genoa CFC",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "kos.js",
+   "2022-10-02",
+   24,
+   "Filip Kostić",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "kos.js",
+   "2025-11-22",
+   50,
+   "Filip Kostić",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "rib.js",
+   "2020-12-22",
+   3,
+   "Juventus FC",
+   "같음"
+  ],
+  [
+   "타인 도움(블라호비치 골)",
+   "rib.js",
+   "2021-01-23",
+   32,
+   "FC Crotone",
+   "같음"
+  ],
+  [
+   "블라호비치 도움→타인 골",
+   "rib.js",
+   "2021-03-21",
+   51,
+   "Franck Ribéry",
+   "같음"
+  ],
+  [
+   "TM 블라호비치 도움을 뺀 타인 골",
+   "kos.js",
+   "2023-02-07",
+   45,
+   "슈팅 리바운드('Shot on goal')"
+  ]
+ ],
+ "fotmob_goal_diffs": [],
+ "elo_sources": {
+  "순위표 → 라벨": 6,
+  "같은 경기 다른 선수 자료": 50,
+  "기존 팀×시즌 값": 92
+ },
+ "new_team_seasons": {
+  "FK Radnik Surdulica|2015-16": [
+   1403,
+   "세르비아 1부 2015-16 8위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "FK Spartak Subotica|2015-16": [
+   1387,
+   "세르비아 1부 2015-16 10위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "FK Javor-Matis Ivanjica|2015-16": [
+   1363,
+   "세르비아 1부 2015-16 13위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "Cosenza Calcio|2021-22": [
+   1450,
+   "세리에B 2021-22 16위/20팀"
+  ],
+  "Kocaelispor|2026-27": [
+   1553,
+   "쉬페르리그 2026-27 7위/18팀 (2026년 11월 중순 현재 순위)"
+  ]
+ },
+ "table_label_diffs": [],
+ "date_changes": [
+  [
+   "4504591",
+   "2025-06-19",
+   "2025-06-18",
+   "America/New_York"
+  ]
+ ],
+ "elo_log": {
+  "FK Radnik Surdulica|2016-04-02": [
+   "model",
+   1403,
+   "세르비아 1부 2015-16 8위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "FK Spartak Subotica|2016-04-20": [
+   "model",
+   1387,
+   "세르비아 1부 2015-16 10위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "FK Javor-Matis Ivanjica|2016-05-11": [
+   "model",
+   1363,
+   "세르비아 1부 2015-16 13위/16팀 (Serbian SuperLiga, 플레이오프·스플릿 뒤 최종 순위)"
+  ],
+  "AC Monza|2019-08-18": [
+   "same",
+   1495,
+   "이탈리아 3부 2019-20 1위/20팀 (Serie C Girone A, 리그 수준 추정)",
+   [
+    "chi.js"
+   ]
+  ],
+  "Cagliari Calcio|2019-11-10": [
+   "table",
+   1681,
+   "세리에A 2019-20 14위",
+   "2019-20"
+  ],
+  "Inter Milan|2019-12-15": [
+   "table",
+   1878,
+   "세리에A 2019-20 2위",
+   "2019-20"
+  ],
+  "SSC Napoli|2020-01-18": [
+   "same",
+   1763,
+   "세리에A 2019-20 7위",
+   [
+    "chi.js"
+   ]
+  ],
+  "UC Sampdoria|2020-02-16": [
+   "same",
+   1672,
+   "세리에A 2019-20 15위",
+   [
+    "chi.js"
+   ]
+  ],
+  "UC Sampdoria|2020-10-02": [
+   "table",
+   1743,
+   "세리에A 2020-21 9위",
+   "2020-21"
+  ],
+  "US Sassuolo|2020-12-16": [
+   "table",
+   1760,
+   "세리에A 2020-21 8위",
+   "2020-21"
+  ],
+  "Hellas Verona|2020-12-19": [
+   "table",
+   1728,
+   "세리에A 2020-21 10위",
+   "2020-21"
+  ],
+  "Juventus FC|2020-12-22": [
+   "same",
+   1817,
+   "세리에A 2020-21 4위",
+   [
+    "rib.js"
+   ]
+  ],
+  "SS Lazio|2021-01-06": [
+   "table",
+   1790,
+   "세리에A 2020-21 6위",
+   "2020-21"
+  ],
+  "Cagliari Calcio|2021-01-10": [
+   "same",
+   1671,
+   "세리에A 2020-21 16위",
+   [
+    "cal.js"
+   ]
+  ],
+  "FC Crotone|2021-01-23": [
+   "same",
+   1635,
+   "세리에A 2020-21 19위",
+   [
+    "rib.js"
+   ]
+  ],
+  "UC Sampdoria|2021-02-14": [
+   "table",
+   1743,
+   "세리에A 2020-21 9위",
+   "2020-21"
+  ],
+  "Spezia Calcio|2021-02-19": [
+   "table",
+   1686,
+   "세리에A 2020-21 15위",
+   "2020-21"
+  ],
+  "Benevento Calcio|2021-03-13": [
+   "same",
+   1642,
+   "세리에A 2020-21 18위",
+   [
+    "rib.js"
+   ]
+  ],
+  "AC Milan|2021-03-21": [
+   "same",
+   1892,
+   "세리에A 2020-21 2위",
+   [
+    "rib.js"
+   ]
+  ],
+  "Genoa CFC|2021-04-03": [
+   "table",
+   1717,
+   "세리에A 2020-21 11위",
+   "2020-21"
+  ],
+  "Atalanta BC|2021-04-11": [
+   "table",
+   1847,
+   "세리에A 2020-21 3위",
+   "2020-21"
+  ],
+  "Hellas Verona|2021-04-20": [
+   "table",
+   1728,
+   "세리에A 2020-21 10위",
+   "2020-21"
+  ],
+  "Juventus FC|2021-04-25": [
+   "table",
+   1817,
+   "세리에A 2020-21 4위",
+   "2020-21"
+  ],
+  "Bologna FC 1909|2021-05-02": [
+   "table",
+   1708,
+   "세리에A 2020-21 12위",
+   "2020-21"
+  ],
+  "SS Lazio|2021-05-08": [
+   "table",
+   1790,
+   "세리에A 2020-21 6위",
+   "2020-21"
+  ],
+  "Cosenza Calcio|2021-08-13": [
+   "model",
+   1450,
+   "세리에B 2021-22 16위/20팀"
+  ],
+  "Torino FC|2021-08-28": [
+   "table",
+   1762,
+   "세리에A 2021-22 10위",
+   "2021-22"
+  ],
+  "Atalanta BC|2021-09-11": [
+   "table",
+   1794,
+   "세리에A 2021-22 8위",
+   "2021-22"
+  ],
+  "Udinese Calcio|2021-09-26": [
+   "table",
+   1743,
+   "세리에A 2021-22 12위",
+   "2021-22"
+  ],
+  "SSC Napoli|2021-10-03": [
+   "table",
+   1882,
+   "세리에A 2021-22 3위",
+   "2021-22"
+  ],
+  "Cagliari Calcio|2021-10-24": [
+   "table",
+   1677,
+   "세리에A 2021-22 18위",
+   "2021-22"
+  ],
+  "Spezia Calcio|2021-10-31": [
+   "same",
+   1706,
+   "세리에A 2021-22 16위",
+   [
+    "cal.js"
+   ]
+  ],
+  "AC Milan|2021-11-20": [
+   "table",
+   2006,
+   "세리에A 2021-22 1위",
+   "2021-22"
+  ],
+  "FC Empoli|2021-11-27": [
+   "same",
+   1729,
+   "세리에A 2021-22 14위",
+   [
+    "cal.js"
+   ]
+  ],
+  "UC Sampdoria|2021-11-30": [
+   "same",
+   1720,
+   "세리에A 2021-22 15위",
+   [
+    "cal.js"
+   ]
+  ],
+  "Bologna FC 1909|2021-12-05": [
+   "table",
+   1734,
+   "세리에A 2021-22 13위",
+   "2021-22"
+  ],
+  "US Salernitana 1919|2021-12-11": [
+   "table",
+   1688,
+   "세리에A 2021-22 17위",
+   "2021-22"
+  ],
+  "US Sassuolo|2021-12-19": [
+   "table",
+   1751,
+   "세리에A 2021-22 11위",
+   "2021-22"
+  ],
+  "SSC Napoli|2022-01-13": [
+   "same",
+   1882,
+   "세리에A 2021-22 3위",
+   [
+    "iko.js"
+   ]
+  ],
+  "Genoa CFC|2022-01-17": [
+   "same",
+   1670,
+   "세리에A 2021-22 19위",
+   [
+    "iko.js"
+   ]
+  ],
+  "Hellas Verona|2022-02-06": [
+   "same",
+   1777,
+   "세리에A 2021-22 9위",
+   [
+    "dyb.js"
+   ]
+  ],
+  "Villarreal CF|2022-02-22": [
+   "table",
+   1810,
+   "라리가 2021-22 7위",
+   "2021-22"
+  ],
+  "FC Empoli|2022-02-26": [
+   "same",
+   1729,
+   "세리에A 2021-22 14위",
+   [
+    "cua.js"
+   ]
+  ],
+  "US Salernitana 1919|2022-03-20": [
+   "same",
+   1688,
+   "세리에A 2021-22 17위",
+   [
+    "dyb.js"
+   ]
+  ],
+  "Cagliari Calcio|2022-04-09": [
+   "same",
+   1677,
+   "세리에A 2021-22 18위",
+   [
+    "cua.js"
+   ]
+  ],
+  "Bologna FC 1909|2022-04-16": [
+   "table",
+   1734,
+   "세리에A 2021-22 13위",
+   "2021-22"
+  ],
+  "Inter Milan|2022-05-11": [
+   "table",
+   1927,
+   "세리에A 2021-22 2위",
+   "2021-22"
+  ],
+  "SS Lazio|2022-05-16": [
+   "same",
+   1835,
+   "세리에A 2021-22 5위",
+   [
+    "cua.js"
+   ]
+  ],
+  "US Sassuolo|2022-08-15": [
+   "same",
+   1739,
+   "세리에A 2022-23 13위",
+   [
+    "dim.js"
+   ]
+  ],
+  "AS Roma|2022-08-27": [
+   "table",
+   1829,
+   "세리에A 2022-23 6위",
+   "2022-23"
+  ],
+  "Spezia Calcio|2022-08-31": [
+   "table",
+   1682,
+   "세리에A 2022-23 18위 (추정, 선수 간 값 1640·1651의 평균으로 맞춤)",
+   "2022-23"
+  ],
+  "Bologna FC 1909|2022-10-02": [
+   "same",
+   1782,
+   "세리에A 2022-23 9위",
+   [
+    "cua.js",
+    "kos.js"
+   ]
+  ],
+  "Maccabi Haifa|2022-10-05": [
+   "same",
+   1608,
+   "이스라엘 1부 2022-23 1위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   [
+    "dim.js"
+   ]
+  ],
+  "Torino FC|2022-10-15": [
+   "table",
+   1767,
+   "세리에A 2022-23 10위",
+   "2022-23"
+  ],
+  "US Salernitana 1919|2023-02-07": [
+   "same",
+   1725,
+   "세리에A 2022-23 15위",
+   [
+    "kos.js"
+   ]
+  ],
+  "FC Nantes|2023-02-16": [
+   "same",
+   1587,
+   "리그1 2022-23 16위",
+   [
+    "chi.js"
+   ]
+  ],
+  "FC Nantes|2023-02-23": [
+   "same",
+   1587,
+   "리그1 2022-23 16위",
+   [
+    "dim.js"
+   ]
+  ],
+  "SC Freiburg|2023-03-16": [
+   "same",
+   1787,
+   "분데스리가 2022-23 5위",
+   [
+    "chi.js"
+   ]
+  ],
+  "US Lecce|2023-05-03": [
+   "table",
+   1711,
+   "세리에A 2022-23 16위",
+   "2022-23"
+  ],
+  "Atalanta BC|2023-05-07": [
+   "same",
+   1840,
+   "세리에A 2022-23 5위",
+   [
+    "chi.js"
+   ]
+  ],
+  "Sevilla FC|2023-05-18": [
+   "table",
+   1730,
+   "라리가 2022-23 12위",
+   "2022-23"
+  ],
+  "Udinese Calcio|2023-08-20": [
+   "same",
+   1712,
+   "세리에A 2023-24 15위",
+   [
+    "chi.js"
+   ]
+  ],
+  "Bologna FC 1909|2023-08-27": [
+   "table",
+   1827,
+   "세리에A 2023-24 5위",
+   "2023-24"
+  ],
+  "SS Lazio|2023-09-16": [
+   "same",
+   1803,
+   "세리에A 2023-24 7위",
+   [
+    "chi.js"
+   ]
+  ],
+  "Inter Milan|2023-11-26": [
+   "same",
+   1998,
+   "세리에A 2023-24 1위",
+   [
+    "chi.js"
+   ]
+  ],
+  "Frosinone Calcio|2023-12-23": [
+   "same",
+   1669,
+   "세리에A 2023-24 18위",
+   [
+    "kos.js"
+   ]
+  ],
+  "AS Roma|2023-12-30": [
+   "table",
+   1816,
+   "세리에A 2023-24 6위",
+   "2023-24"
+  ],
+  "US Salernitana 1919|2024-01-07": [
+   "table",
+   1643,
+   "세리에A 2023-24 20위",
+   "2023-24"
+  ],
+  "US Sassuolo|2024-01-16": [
+   "same",
+   1661,
+   "세리에A 2023-24 19위",
+   [
+    "chi.js"
+   ]
+  ],
+  "US Lecce|2024-01-21": [
+   "table",
+   1721,
+   "세리에A 2023-24 14위",
+   "2023-24"
+  ],
+  "FC Empoli|2024-01-27": [
+   "table",
+   1680,
+   "세리에A 2023-24 17위",
+   "2023-24"
+  ],
+  "Hellas Verona|2024-02-17": [
+   "table",
+   1726,
+   "세리에A 2023-24 13위",
+   "2023-24"
+  ],
+  "Frosinone Calcio|2024-02-25": [
+   "table",
+   1669,
+   "세리에A 2023-24 18위",
+   "2023-24"
+  ],
+  "SS Lazio|2024-04-02": [
+   "same",
+   1803,
+   "세리에A 2023-24 7위",
+   [
+    "chi.js"
+   ]
+  ],
+  "Cagliari Calcio|2024-04-19": [
+   "table",
+   1697,
+   "세리에A 2023-24 16위",
+   "2023-24"
+  ],
+  "Atalanta BC|2024-05-15": [
+   "table",
+   1843,
+   "세리에A 2023-24 4위",
+   "2023-24"
+  ],
+  "Hellas Verona|2024-08-26": [
+   "table",
+   1735,
+   "세리에A 2024-25 14위",
+   "2024-25"
+  ],
+  "PSV Eindhoven|2024-09-17": [
+   "table",
+   1858,
+   "에레디비시 2024-25 1위",
+   "2024-25"
+  ],
+  "Genoa CFC|2024-09-28": [
+   "table",
+   1740,
+   "세리에A 2024-25 13위",
+   "2024-25"
+  ],
+  "RB Leipzig|2024-10-02": [
+   "table",
+   1765,
+   "분데스리가 2024-25 7위",
+   "2024-25"
+  ],
+  "Cagliari Calcio|2024-10-06": [
+   "table",
+   1726,
+   "세리에A 2024-25 15위",
+   "2024-25"
+  ],
+  "Inter Milan|2024-10-27": [
+   "table",
+   1933,
+   "세리에A 2024-25 2위",
+   "2024-25"
+  ],
+  "LOSC Lille|2024-11-05": [
+   "table",
+   1730,
+   "리그1 2024-25 5위",
+   "2024-25"
+  ],
+  "Bologna FC 1909|2024-12-07": [
+   "table",
+   1783,
+   "세리에A 2024-25 9위",
+   "2024-25"
+  ],
+  "Manchester City|2024-12-11": [
+   "table",
+   1977,
+   "프리미어리그 2024-25 3위",
+   "2024-25"
+  ],
+  "Venezia FC|2024-12-14": [
+   "table",
+   1676,
+   "세리에A 2024-25 19위",
+   "2024-25"
+  ],
+  "Cagliari Calcio|2024-12-17": [
+   "table",
+   1726,
+   "세리에A 2024-25 15위",
+   "2024-25"
+  ],
+  "FC Empoli|2025-02-02": [
+   "table",
+   1683,
+   "세리에A 2024-25 18위",
+   "2024-25"
+  ],
+  "Cagliari Calcio|2025-02-23": [
+   "table",
+   1726,
+   "세리에A 2024-25 15위",
+   "2024-25"
+  ],
+  "Genoa CFC|2025-03-29": [
+   "table",
+   1740,
+   "세리에A 2024-25 13위",
+   "2024-25"
+  ],
+  "US Lecce|2025-04-12": [
+   "table",
+   1694,
+   "세리에A 2024-25 17위",
+   "2024-25"
+  ],
+  "Udinese Calcio|2025-05-18": [
+   "table",
+   1749,
+   "세리에A 2024-25 12위",
+   "2024-25"
+  ],
+  "Wydad Casablanca|2025-06-22": [
+   "table",
+   1463,
+   "모로코 1부 2024-25 3위/16팀 (Botola Pro, 리그 수준 추정)",
+   "2024-25"
+  ],
+  "Manchester City|2025-06-26": [
+   "table",
+   1977,
+   "프리미어리그 2024-25 3위",
+   "2024-25"
+  ],
+  "Parma Calcio 1913|2025-08-24": [
+   "same",
+   1716,
+   "세리에A 2025-26 13위",
+   [
+    "jdv.js"
+   ]
+  ],
+  "Genoa CFC|2025-08-31": [
+   "same",
+   1688,
+   "세리에A 2025-26 16위",
+   [
+    "kos.js"
+   ]
+  ],
+  "Borussia Dortmund|2025-09-16": [
+   "table",
+   1902,
+   "분데스리가 2025-26 2위",
+   "2025-26"
+  ],
+  "Udinese Calcio|2025-10-29": [
+   "table",
+   1744,
+   "세리에A 2025-26 10위",
+   "2025-26"
+  ],
+  "Sporting CP|2025-11-04": [
+   "table",
+   1855,
+   "포르투갈 1부 2025-26 2위",
+   "2025-26"
+  ],
+  "ACF Fiorentina|2025-11-22": [
+   "same",
+   1703,
+   "세리에A 2025-26 15위",
+   [
+    "kos.js"
+   ]
+  ],
+  "Hellas Verona|2026-05-03": [
+   "table",
+   1652,
+   "세리에A 2025-26 19위",
+   "2025-26"
+  ],
+  "US Lecce|2026-05-09": [
+   "table",
+   1670,
+   "세리에A 2025-26 17위",
+   "2025-26"
+  ],
+  "Torino FC|2026-05-24": [
+   "table",
+   1725,
+   "세리에A 2025-26 12위",
+   "2025-26"
+  ],
+  "Corum FK|2026-08-31": [
+   "table",
+   1506,
+   "튀르키예 1부 2026-27 9위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Fenerbahce|2026-09-05": [
+   "table",
+   1576,
+   "튀르키예 1부 2026-27 6위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Amed SK|2026-09-20": [
+   "table",
+   1709,
+   "쉬페르리그 2026-27 2위/18팀",
+   "2026-27"
+  ],
+  "Kocaelispor|2026-10-11": [
+   "model",
+   1553,
+   "쉬페르리그 2026-27 7위/18팀 (2026년 11월 중순 현재 순위)"
+  ],
+  "Basaksehir FK|2026-10-26": [
+   "table",
+   1490,
+   "쉬페르리그 2026-27 10위/18팀",
+   "2026-27"
+  ],
+  "Kasimpasa|2026-11-01": [
+   "table",
+   1592,
+   "튀르키예 1부 2026-27 5위/18팀 (Süper Lig, 2026년 11월 중순 현재 순위)",
+   "2026-27"
+  ],
+  "Genclerbirligi Ankara|2026-11-08": [
+   "table",
+   1442,
+   "쉬페르리그 2026-27 14위/18팀",
+   "2026-27"
+  ]
+ }
+}

@@ -1,0 +1,21 @@
+{"preset":"gameiro","name":"케빈 가메이로","prefix":"GAM",
+ "clubs":[
+  {"key":"strgam","name":"RC 스트라스부르","short":"스트라스부르","years":"2005~2008","until":"2008-07-01"},
+  {"key":"lorgam","name":"FC 로리앙","short":"로리앙","years":"2008~2011","until":"2011-07-01"},
+  {"key":"psggam","name":"파리 생제르맹","short":"PSG","years":"2011~2013","until":"2013-07-25"},
+  {"key":"sevgam","name":"세비야","short":"세비야","years":"2013~2016","until":"2016-07-30"},
+  {"key":"atmgam","name":"아틀레티코 마드리드","short":"아틀레티코","years":"2016~2018","until":"2018-08-12"},
+  {"key":"valgam","name":"발렌시아","short":"발렌시아","years":"2018~2021","until":"2021-07-18"},
+  {"key":"strgam","name":"RC 스트라스부르","short":"스트라스부르","years":"2021~2024","until":null}],
+ "season":{"calendar":[],"jul10":[],"jul1":[]},
+ "pos":"CF","flag":"FR","retired":true,
+ "colors":{
+  "strgam":["#009FE3","#FFFFFF"],
+  "lorgam":["#FF7F00","#000000"],
+  "psggam":["#003665","#D32A31","#FFFFFF"],
+  "sevgam":["#FFFFFF","#E20000"],
+  "atmgam":["#CB3524","#FFFFFF","#272E61"],
+  "valgam":["#FFFFFF","#000000","#EE3524"]},
+ "hon":{"t":{"LG":["12/13 PSG"],"UEL":["17/18 아틀레티코","15/16 세비야","14/15 세비야","13/14 세비야"],"DC":["18/19 발렌시아"]},
+  "o":[],
+  "a":{"XI":["10/11 리그1 · UNFP(선수협회)"]}}}

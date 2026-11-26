@@ -1,0 +1,17 @@
+{"preset":"batistuta","name":"가브리엘 바티스투타","prefix":"BAT",
+ "clubs":[
+  {"key":"newbt","name":"뉴웰스 올드 보이스","short":"뉴웰스","years":"1988~1989","until":"1989-07-01"},
+  {"key":"rivbt","name":"리버 플레이트","short":"리버","years":"1989~1990","until":"1990-09-01"},
+  {"key":"bocbt","name":"보카 주니어스","short":"보카","years":"1990~1991","until":"1991-08-20"},
+  {"key":"fiobt","name":"피오렌티나","short":"피오렌티나","years":"1991~2000","until":"2000-07-01"},
+  {"key":"rombt","name":"AS 로마","short":"로마","years":"2000~2003","until":"2003-01-17"},
+  {"key":"intbt","name":"인테르","short":"인테르","years":"2003","until":"2003-08-01"},
+  {"key":"arabt","name":"알아라비","short":"알아라비","years":"2003~2005","until":null}],
+ "season":{"calendar":["newbt","rivbt","bocbt"],"jul10":[],"jul1":[]},
+ "pos":"CF","flag":"AR","retired":true,
+ "hon":{"t":{"LG":["00/01 로마","89/90 리버 플레이트"],
+             "DC":["95/96 피오렌티나"],
+             "SC":["01/02 로마","96/97 피오렌티나"]},
+        "o":[["세리에B 우승","93/94 피오렌티나"]],
+        "a":{"FOY":["1998 피오렌티나"],
+             "TOP":["03/04 카타르 스타스리그 25골","95/96 코파 이탈리아 8골","94/95 세리에A 26골"]}}}

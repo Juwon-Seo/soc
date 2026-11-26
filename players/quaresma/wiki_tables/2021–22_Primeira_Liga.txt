@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligaportugal.pt/en/liga/classificacao/20212022/ligaportugalbwin Liga Portugal]
+
+<!--Update team positions here-->
+|team_order=POR, SPO, BEN, BRA, GIL, VSC, STA, FAM, EST, MAR, PAC, BOA, PTM, VIZ, ARO, MOR, TON, BEL
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=ECL3Q |result6=ECL2Q |result16=RPO |result17=REL |result18=REL
+
+|note_res_ELGS=Since the winners of the [[2021–22 Taça de Portugal]], Porto, qualified for the Champions League based on league position, the spot awarded to the fourth-placed team (Europa Conference League third qualifying round) was passed to the fifth-placed team, and the spot awarded to the fifth-placed team (Europa Conference League second qualifying round) was passed to the sixth-placed team.
+|note_res_ECL3Q=ELGS
+|note_res_ECL2Q=ELGS
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARO=7 |draw_ARO=10|loss_ARO=17|gf_ARO=30|ga_ARO=54<!-- Arouca -->
+|win_BEL=5 |draw_BEL=11|loss_BEL=18|gf_BEL=23|ga_BEL=55<!-- B SAD --> |status_BEL=R
+|win_BEN=23|draw_BEN=5 |loss_BEN=6 |gf_BEN=78|ga_BEN=30<!-- Benfica -->
+|win_BOA=7 |draw_BOA=17|loss_BOA=10|gf_BOA=39|ga_BOA=52<!-- Boavista -->
+|win_BRA=19|draw_BRA=8 |loss_BRA=7 |gf_BRA=52|ga_BRA=31<!-- Braga -->
+|win_EST=9 |draw_EST=12|loss_EST=13|gf_EST=36|ga_EST=43<!-- Estoril -->
+|win_FAM=9 |draw_FAM=12|loss_FAM=13|gf_FAM=45|ga_FAM=51<!-- Famalicão -->
+|win_GIL=13|draw_GIL=12|loss_GIL=9 |gf_GIL=47|ga_GIL=42<!-- Gil Vicente -->
+|win_MAR=9 |draw_MAR=11|loss_MAR=14|gf_MAR=39|ga_MAR=44<!-- Marítimo -->
+|win_MOR=7 |draw_MOR=8 |loss_MOR=19|gf_MOR=33|ga_MOR=51<!-- Moreirense -->|status_MOR=R
+|win_PAC=9 |draw_PAC=11|loss_PAC=14|gf_PAC=29|ga_PAC=44<!-- Paços de Ferreira -->
+|win_PTM=10|draw_PTM=8 |loss_PTM=16|gf_PTM=31|ga_PTM=45<!-- Portimonense -->
+|win_POR=29|draw_POR=4 |loss_POR=1 |gf_POR=86|ga_POR=22<!-- Porto --> |status_POR=C
+|win_STA=9 |draw_STA=13|loss_STA=12|gf_STA=38|ga_STA=54<!-- Santa Clara -->
+|win_SPO=27|draw_SPO=4 |loss_SPO=3 |gf_SPO=73|ga_SPO=23<!-- Sporting CP -->
+|win_TON=7 |draw_TON=7 |loss_TON=20|gf_TON=41|ga_TON=67<!-- Tondela --> |status_TON=R
+|win_VSC=13|draw_VSC=9 |loss_VSC=12|gf_VSC=50|ga_VSC=41<!-- Vitória de Guimarães -->
+|win_VIZ=7 |draw_VIZ=12|loss_VIZ=15|gf_VIZ=37|ga_VIZ=58<!-- Vizela -->
+
+<!-- Status --> 
+|status_text_X=Assured of Europa Conference League third qualifying round spot, may still qualify for Europa League if Porto wins the [[2021–22 Taça de Portugal|Taça de Portugal]]
+|status_text_Y=Can at most reach the relegation play-offs
+|status_text_Z=May still qualify for Europa Conference League second qualifying round if Porto wins the [[2021–22 Taça de Portugal|Taça de Portugal]].
+
+|hth_FAM=Head-to-head points: Famalicão 4, Estoril 1.
+|hth_EST=FAM
+|hth_MAR=Head-to-head points: Marítimo 10, Paços de Ferreira 8, Boavista 7, Portimonense 6.
+|hth_PTM=MAR
+|hth_BOA=MAR
+|hth_PAC=MAR
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARO=[[F.C. Arouca|Arouca]]
+|name_BEL=[[B-SAD]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_FAM=[[F.C. Famalicão|Famalicão]]
+|name_GIL=[[Gil Vicente F.C.|Gil Vicente]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_PAC=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_PTM=[[Portimonense S.C.|Portimonense]]
+|name_STA=[[C.D. Santa Clara|Santa Clara]]
+|name_SPO=[[Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_VSC=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VIZ=[[F.C. Vizela|Vizela]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2022–23 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2022–23 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2022–23 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECL3Q=yellow1 |text_ECL3Q=Qualification for the [[2022–23 UEFA Europa Conference League#Third qualifying round|Europa Conference League third qualifying round]]
+|col_ECL2Q=yellow2 |text_ECL2Q=Qualification for the [[2022–23 UEFA Europa Conference League#Second qualifying round|Europa Conference League second qualifying round]]
+|col_RPO=red2      |text_RPO=Qualification for the [[2021–22 Primeira Liga#Relegation play-offs|Relegation play-offs]]
+|col_REL=red1      |text_REL=Relegation to [[2022–23 Liga Portugal 2|Liga Portugal 2]]
+
+}}</onlyinclude>
+
+[[Category:2021–22 association football standings in Europe templates|Portugal]]

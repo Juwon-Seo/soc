@@ -1,0 +1,108 @@
+{
+ "preset": "dempsey",
+ "name": "클린트 뎀프시",
+ "prefix": "CDP",
+ "clubs": [
+  {
+   "key": "nercdp",
+   "name": "뉴잉글랜드 레볼루션",
+   "short": "뉴잉글랜드",
+   "years": "2004~2006",
+   "until": "2007-01-11"
+  },
+  {
+   "key": "fulcdp",
+   "name": "풀럼",
+   "short": "풀럼",
+   "years": "2007~2012",
+   "until": "2012-08-31"
+  },
+  {
+   "key": "totcdp",
+   "name": "토트넘 홋스퍼",
+   "short": "토트넘",
+   "years": "2012~2013",
+   "until": "2013-08-03"
+  },
+  {
+   "key": "seacdp",
+   "name": "시애틀 사운더스",
+   "short": "시애틀",
+   "years": "2013",
+   "until": "2014-01-01"
+  },
+  {
+   "key": "fulcdp",
+   "name": "풀럼 (임대)",
+   "short": "풀럼",
+   "years": "2014",
+   "until": "2014-03-05"
+  },
+  {
+   "key": "seacdp",
+   "name": "시애틀 사운더스",
+   "short": "시애틀",
+   "years": "2014~2018",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [
+   "nercdp",
+   "seacdp"
+  ],
+  "jul10": [],
+  "jul1": []
+ },
+ "pos": "SS",
+ "flag": "US",
+ "retired": true,
+ "hon": {
+  "t": {
+   "DC": [
+    "2014 시애틀 사운더스(US 오픈컵)"
+   ]
+  },
+  "o": [
+   [
+    "MLS컵 우승",
+    "2016 시애틀 사운더스"
+   ],
+   [
+    "MLS 서포터스 실드",
+    "2014 시애틀 사운더스"
+   ]
+  ],
+  "a": {
+   "FOY": [
+    "2012 미국",
+    "2011 미국",
+    "2007 미국"
+   ],
+   "XI": [
+    "2006 MLS · 사무국",
+    "2005 MLS · 사무국"
+   ]
+  }
+ },
+ "colors": {
+  "nercdp": [
+   "#0A2240",
+   "#CE0E2D",
+   "#FFFFFF"
+  ],
+  "fulcdp": [
+   "#FFFFFF",
+   "#000000"
+  ],
+  "totcdp": [
+   "#FFFFFF",
+   "#132257"
+  ],
+  "seacdp": [
+   "#5D9741",
+   "#005595",
+   "#A2B7C9"
+  ]
+ }
+}

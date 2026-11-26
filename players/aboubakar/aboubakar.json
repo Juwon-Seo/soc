@@ -1,0 +1,8383 @@
+{
+ "E": [
+  {
+   "type": "g",
+   "opp": "US Boulogne",
+   "elo": 1391,
+   "comp": "dc",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2010-11 8위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Boulogne",
+   "elo": 1391,
+   "comp": "dc",
+   "min": 65,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2010-11 8위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "US Boulogne",
+   "elo": 1391,
+   "comp": "dc",
+   "min": 84,
+   "gf": 3,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2010-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2010-11 8위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1732,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2010-11 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Toulouse",
+   "elo": 1666,
+   "comp": "lg",
+   "min": 47,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2010-12-22",
+   "et": 0,
+   "dm": "45+2",
+   "lv": "리그1 2010-11 8위",
+   "note": "Gaël Danic"
+  },
+  {
+   "type": "a",
+   "opp": "Olympique Marseille",
+   "elo": 1626,
+   "comp": "lg",
+   "min": 93,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-09-24",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2011-12 10위",
+   "note": "José Saez"
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 43,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 75,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2011-10-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Le Mans FC",
+   "elo": 1359,
+   "comp": "dc",
+   "min": 73,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그2 2011-12 17위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 47,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-01-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "LOSC Lille",
+   "elo": 1791,
+   "comp": "dc",
+   "min": 78,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2012-02-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 3위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Lorient",
+   "elo": 1557,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-02-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 17위",
+   "note": "Renaud Cohade"
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1669,
+   "comp": "lg",
+   "min": 69,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Paris Saint-Germain",
+   "elo": 1817,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SM Caen",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SM Caen",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 87,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2011-12 18위",
+   "note": "Renaud Cohade"
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 81,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Lorient",
+   "elo": 1622,
+   "comp": "lg",
+   "min": 89,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2012-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2012-13 8위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Istres Ouest Provence",
+   "elo": 1337,
+   "comp": "dc",
+   "min": 111,
+   "gf": 1,
+   "ga": 3,
+   "ko": 1,
+   "pk": 0,
+   "date": "2013-01-07",
+   "et": 1,
+   "dm": 0,
+   "lv": "리그2 2012-13 13위/20팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Stade Rennais FC",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-05-11",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그1 2012-13 13위",
+   "note": "José Saez"
+  },
+  {
+   "type": "g",
+   "opp": "FC Nantes",
+   "elo": 1583,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Valenciennes FC",
+   "elo": 1469,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 19위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Girondins Bordeaux",
+   "elo": 1632,
+   "comp": "lg",
+   "min": 23,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 7위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Saint-Étienne",
+   "elo": 1731,
+   "comp": "lg",
+   "min": 86,
+   "gf": 1,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 4위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 18위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Sochaux-Montbéliard",
+   "elo": 1527,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 18위",
+   "note": "Yann Jouffre"
+  },
+  {
+   "type": "g",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 13,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1551,
+   "comp": "lg",
+   "min": 90,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-11-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 94,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2013-12-04",
+   "et": 0,
+   "dm": "90+4",
+   "lv": "리그1 2013-14 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AC Ajaccio",
+   "elo": 1430,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 20위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympique Lyon",
+   "elo": 1679,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2013-12-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 5위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "EA Guingamp",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 16위",
+   "note": "Yann Jouffre"
+  },
+  {
+   "type": "a",
+   "opp": "EA Guingamp",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 12,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-01-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 16위",
+   "note": "Kévin Monnet-Paquet"
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1798,
+   "comp": "lg",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1798,
+   "comp": "lg",
+   "min": 73,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 2위",
+   "note": "Jérémie Aliadière"
+  },
+  {
+   "type": "g",
+   "opp": "Stade Reims",
+   "elo": 1588,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2014-03-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 11위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Évian Thonon Gaillard",
+   "elo": 1563,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 14위",
+   "note": "Jérémie Aliadière"
+  },
+  {
+   "type": "g",
+   "opp": "OGC Nice",
+   "elo": 1551,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-12",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그1 2013-14 17위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Montpellier HSC",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 87,
+   "gf": 1,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2013-14 15위",
+   "note": "Kévin Monnet-Paquet"
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 91,
+   "gf": 2,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-20",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "리그1 2013-14 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Montpellier HSC",
+   "elo": 1560,
+   "comp": "lg",
+   "min": 93,
+   "gf": 3,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-04-20",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "리그1 2013-14 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1759,
+   "comp": "lg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2014-08-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2014-15 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "BATE Borisov",
+   "elo": 1537,
+   "comp": "clg",
+   "min": 76,
+   "gf": 5,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-09-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨라루스 1부 2014 1위/12팀 (Belarusian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Arouca",
+   "elo": 1457,
+   "comp": "lg",
+   "min": 87,
+   "gf": 4,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-10-25",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Shakhtar Donetsk",
+   "elo": 1768,
+   "comp": "clg",
+   "min": 87,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2014-15 2위/14팀 (Ukrainian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rio Ave FC",
+   "elo": 1556,
+   "comp": "dc",
+   "min": 61,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2014-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 10위 (추정, 다른 선수 자료 18팀 시즌 9위 1576·11위 1546의 가운데)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "SC Braga",
+   "elo": 1687,
+   "comp": "lg",
+   "min": 73,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 4위/18팀",
+   "note": "Cristian Tello"
+  },
+  {
+   "type": "g",
+   "opp": "FC Basel 1893",
+   "elo": 1706,
+   "comp": "cl16",
+   "min": 76,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 2014-15 1위/10팀 (국가 계수 추정)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "FC Arouca",
+   "elo": 1457,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-03-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1529,
+   "comp": "lg",
+   "min": 45,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-04-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Penafiel",
+   "elo": 1418,
+   "comp": "lg",
+   "min": 82,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-05-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2014-15 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 10위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 62,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 10위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1585,
+   "comp": "lg",
+   "min": 7,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-08-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 8위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "FC Arouca",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 5위/18팀",
+   "note": "Jesús Corona"
+  },
+  {
+   "type": "g",
+   "opp": "FC Arouca",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 71,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 5위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1826,
+   "comp": "clg",
+   "min": 23,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 1위/14팀 (Ukrainian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1826,
+   "comp": "clg",
+   "min": 81,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-09-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2015-16 1위/14팀 (Ukrainian Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Maccabi Tel Aviv",
+   "elo": 1569,
+   "comp": "clg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "이스라엘 1부 2015-16 2위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Maccabi Tel Aviv",
+   "elo": 1569,
+   "comp": "clg",
+   "min": 41,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-10-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "이스라엘 1부 2015-16 2위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": "Yacine Brahimi"
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1445,
+   "comp": "lg",
+   "min": 70,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-11-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 16위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Feirense",
+   "elo": 1469,
+   "comp": "dc",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2015-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 2부 2015-16 3위/24팀 (Liga Portugal 2)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Académica Coimbra",
+   "elo": 1406,
+   "comp": "lg",
+   "min": 54,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 18위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CS Marítimo",
+   "elo": 1511,
+   "comp": "dc",
+   "min": 95,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2015-12-29",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "포르투갈 1부 2015-16 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Boavista FC",
+   "elo": 1492,
+   "comp": "lg",
+   "min": 72,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Boavista FC",
+   "elo": 1492,
+   "comp": "lg",
+   "min": 81,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Estoril Praia",
+   "elo": 1585,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-01-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 8위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Arouca",
+   "elo": 1654,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 5위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1897,
+   "comp": "lg",
+   "min": 65,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-02-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 1위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CF União Madeira",
+   "elo": 1433,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 17위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Nacional",
+   "elo": 1530,
+   "comp": "lg",
+   "min": 85,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-04-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2015-16 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1929,
+   "comp": "clg",
+   "min": 38,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SSC Napoli",
+   "elo": 1929,
+   "comp": "clg",
+   "min": 86,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "세리에A 2016-17 3위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Antalyaspor",
+   "elo": 1574,
+   "comp": "lg",
+   "min": 45,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 5위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Antalyaspor",
+   "elo": 1574,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-10-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 5위/18팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "g",
+   "opp": "Adanaspor",
+   "elo": 1337,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-19",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 18위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SL Benfica",
+   "elo": 1901,
+   "comp": "clg",
+   "min": 89,
+   "gf": 2,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2016-17 1위 (추정, 2015-16 1위 값과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kayserispor",
+   "elo": 1437,
+   "comp": "dc",
+   "min": 85,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gaziantepspor",
+   "elo": 1333,
+   "comp": "lg",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2016-12-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 17위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kardemir Karabükspor",
+   "elo": 1465,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 11위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hapoel Beer Sheva",
+   "elo": 1565,
+   "comp": "elk",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-02-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "이스라엘 1부 2016-17 1위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    3,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1678,
+   "comp": "elk",
+   "min": 53,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1부 2016-17 1위/16팀 (Super League Greece)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Kayserispor",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 55,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kayserispor",
+   "elo": 1437,
+   "comp": "lg",
+   "min": 88,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 15위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Olympiacos Piraeus",
+   "elo": 1678,
+   "comp": "elk",
+   "min": 10,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "그리스 1부 2016-17 1위/16팀 (Super League Greece)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Trabzonspor",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 6위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Adanaspor",
+   "elo": 1337,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 18위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Basaksehir FK",
+   "elo": 1700,
+   "comp": "lg",
+   "min": 87,
+   "gf": 0,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-04-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 2위/18팀",
+   "note": "Demba Ba"
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1640,
+   "comp": "lg",
+   "min": 46,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-07",
+   "et": 0,
+   "dm": "45+1",
+   "lv": "쉬페르리그 2016-17 3위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Bursaspor",
+   "elo": 1415,
+   "comp": "lg",
+   "min": 65,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 14위/18팀",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Bursaspor",
+   "elo": 1415,
+   "comp": "lg",
+   "min": 95,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-15",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "쉬페르리그 2016-17 14위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1475,
+   "comp": "lg",
+   "min": 2,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 10위/18팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Kasimpasa",
+   "elo": 1475,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-05-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 10위/18팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "g",
+   "opp": "Osmanlispor FK",
+   "elo": 1441,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-06-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2016-17 13위/18팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Tondela",
+   "elo": 1538,
+   "comp": "lg",
+   "min": 37,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 11위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1474,
+   "comp": "lg",
+   "min": 18,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1474,
+   "comp": "lg",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1474,
+   "comp": "lg",
+   "min": 77,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-08-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 15위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Chaves",
+   "elo": 1644,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Portimonense SAD",
+   "elo": 1552,
+   "comp": "lg",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1835,
+   "comp": "clg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1835,
+   "comp": "clg",
+   "min": 69,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-09-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lusitano GC",
+   "elo": 1094,
+   "comp": "dc",
+   "min": 20,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 4부 2017-18 4위/14팀 (AF Évora 1ª Divisão, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Lusitano GC",
+   "elo": 1094,
+   "comp": "dc",
+   "min": 21,
+   "gf": 1,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 4부 2017-18 4위/14팀 (AF Évora 1ª Divisão, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "RB Leipzig",
+   "elo": 1775,
+   "comp": "clg",
+   "min": 18,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "분데스리가 2017-18 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Paços de Ferreira",
+   "elo": 1441,
+   "comp": "lg",
+   "min": 72,
+   "gf": 5,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Boavista FC",
+   "elo": 1593,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-10-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 8위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "RB Leipzig",
+   "elo": 1775,
+   "comp": "clg",
+   "min": 93,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-01",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "분데스리가 2017-18 6위",
+   "note": "Maxi Pereira"
+  },
+  {
+   "type": "g",
+   "opp": "CF Os Belenenses",
+   "elo": 1525,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-11-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 12위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Portimonense SAD",
+   "elo": 1552,
+   "comp": "dc",
+   "min": 91,
+   "gf": 1,
+   "ga": 2,
+   "ko": 1,
+   "pk": 0,
+   "date": "2017-11-17",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "포르투갈 1부 2017-18 10위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1835,
+   "comp": "clg",
+   "min": 9,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 2위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "AS Monaco",
+   "elo": 1835,
+   "comp": "clg",
+   "min": 33,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 2위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "AS Monaco",
+   "elo": 1835,
+   "comp": "clg",
+   "min": 45,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "리그1 2017-18 2위",
+   "note": "Yacine Brahimi"
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1500,
+   "comp": "lg",
+   "min": 31,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1500,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-12-10",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "포르투갈 1부 2017-18 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1500,
+   "comp": "lg",
+   "min": 69,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 14위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1569,
+   "comp": "dc",
+   "min": 12,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 1,
+   "date": "2017-12-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Rio Ave FC",
+   "elo": 1662,
+   "comp": "dc",
+   "min": 90,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2017-12-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 5위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Paços de Ferreira",
+   "elo": 1441,
+   "comp": "dc",
+   "min": 49,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 0,
+   "date": "2017-12-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 17위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "CD Feirense",
+   "elo": 1453,
+   "comp": "lg",
+   "min": 22,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Guimarães SC",
+   "elo": 1569,
+   "comp": "lg",
+   "min": 57,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-01-07",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 9위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "SC Braga",
+   "elo": 1682,
+   "comp": "lg",
+   "min": 73,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-02-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 4위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "CD Feirense",
+   "elo": 1453,
+   "comp": "lg",
+   "min": 59,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2017-18 16위",
+   "note": "Yacine Brahimi"
+  },
+  {
+   "type": "a",
+   "opp": "Desportivo Aves",
+   "elo": 1490,
+   "comp": "df",
+   "min": 25,
+   "gf": 0,
+   "ga": 1,
+   "ko": 1,
+   "pk": 0,
+   "date": "2018-08-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 14위",
+   "note": "Yacine Brahimi"
+  },
+  {
+   "type": "g",
+   "opp": "GD Chaves",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 16위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "GD Chaves",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 20,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 16위",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "GD Chaves",
+   "elo": 1444,
+   "comp": "lg",
+   "min": 45,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-08-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 16위",
+   "note": "Yacine Brahimi"
+  },
+  {
+   "type": "g",
+   "opp": "Moreirense FC",
+   "elo": 1635,
+   "comp": "lg",
+   "min": 28,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 6위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Vitória Setúbal FC",
+   "elo": 1509,
+   "comp": "lg",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2018-09-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "포르투갈 1부 2018-19 13위",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "BSC Young Boys",
+   "elo": 1663,
+   "comp": "elg",
+   "min": 75,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 2019-20 1위/10팀 (추정, 다른 선수 자료 영 보이스 2018-19·2020-21 1위 1620과 같음)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "BSC Young Boys",
+   "elo": 1663,
+   "comp": "elg",
+   "min": 79,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2019-11-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 2019-20 1위/10팀 (추정, 다른 선수 자료 영 보이스 2018-19·2020-21 1위 1620과 같음)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Denizlispor",
+   "elo": 1299,
+   "comp": "lg",
+   "min": 13,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "note": "Atiba Hutchinson"
+  },
+  {
+   "type": "g",
+   "opp": "Denizlispor",
+   "elo": 1299,
+   "comp": "lg",
+   "min": 39,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Basaksehir FK",
+   "elo": 1428,
+   "comp": "lg",
+   "min": 72,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-11-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 3위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1643,
+   "comp": "lg",
+   "min": 20,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-11-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 3위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1422,
+   "comp": "lg",
+   "min": 75,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-04",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 14위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Alanyaspor",
+   "elo": 1517,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-12-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 7위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Büyüksehir Belediye Erzurumspor",
+   "elo": 1375,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2020-12-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 18위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Büyüksehir Belediye Erzurumspor",
+   "elo": 1375,
+   "comp": "lg",
+   "min": 71,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2020-12-20",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 18위/21팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Caykur Rizespor",
+   "elo": 1423,
+   "comp": "lg",
+   "min": 56,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 13위/21팀",
+   "note": "Oğuzhan Özyakup"
+  },
+  {
+   "type": "g",
+   "opp": "Hatayspor",
+   "elo": 1517,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 6위/21팀 (추정, 다른 선수 자료 5위 1498·7위 1468의 중간)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fatih Karagümrük",
+   "elo": 1516,
+   "comp": "lg",
+   "min": 44,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 8위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Göztepe",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 77,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 10위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Trabzonspor",
+   "elo": 1568,
+   "comp": "lg",
+   "min": 29,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-01-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 4위/21팀 (추정, 다른 선수 자료 3위 1561·5위 1498 사이)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Denizlispor",
+   "elo": 1299,
+   "comp": "lg",
+   "min": 38,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Denizlispor",
+   "elo": 1299,
+   "comp": "lg",
+   "min": 39,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-02-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "note": "Adem Ljajic"
+  },
+  {
+   "type": "a",
+   "opp": "Yeni Malatyaspor",
+   "elo": 1425,
+   "comp": "lg",
+   "min": 59,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-02",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 15위/21팀",
+   "note": "Atiba Hutchinson"
+  },
+  {
+   "type": "g",
+   "opp": "Gaziantep FK",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 9위/21팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gaziantep FK",
+   "elo": 1501,
+   "comp": "lg",
+   "min": 72,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 9위/21팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Basaksehir FK",
+   "elo": 1428,
+   "comp": "lg",
+   "min": 42,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "note": "Cyle Larin"
+  },
+  {
+   "type": "g",
+   "opp": "Basaksehir FK",
+   "elo": 1428,
+   "comp": "dsf",
+   "min": 17,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-03-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Damac FC",
+   "elo": 1391,
+   "comp": "lg",
+   "min": 80,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 5위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Taawoun FC",
+   "elo": 1341,
+   "comp": "lg",
+   "min": 92,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-08-26",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "사우디 프로리그 2021-22 12위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Tractor FC",
+   "elo": 1390,
+   "comp": "acl",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2021-09-14",
+   "et": 0,
+   "dm": 0,
+   "lv": "이란 1부 2020-21 4위/16팀 (Persian Gulf Pro League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Abha Club",
+   "elo": 1329,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-09-30",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 9위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Ahli SFC",
+   "elo": 1331,
+   "comp": "lg",
+   "min": 76,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-11-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 15위/16팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Tai FC",
+   "elo": 1346,
+   "comp": "lg",
+   "min": 48,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-10",
+   "et": 0,
+   "dm": "45+3",
+   "lv": "사우디 프로리그 2021-22 6위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Hilal SFC",
+   "elo": 1571,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 1위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Hilal SFC",
+   "elo": 1571,
+   "comp": "lg",
+   "min": 90,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-16",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 1위/16팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "a",
+   "opp": "Al-Hazem SC",
+   "elo": 1221,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 16위/16팀",
+   "note": "Khalid Al-Ghannam"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Hazem SC",
+   "elo": 1221,
+   "comp": "lg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2021-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 16위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Fateh SC",
+   "elo": 1360,
+   "comp": "lg",
+   "min": 75,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-01-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 8위/16팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Batin FC",
+   "elo": 1328,
+   "comp": "lg",
+   "min": 4,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2021-22 13위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Abha Club",
+   "elo": 1329,
+   "comp": "lg",
+   "min": 97,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-02-26",
+   "et": 0,
+   "dm": "90+7",
+   "lv": "사우디 프로리그 2021-22 9위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Wehda FC",
+   "elo": 1343,
+   "comp": "lg",
+   "min": 3,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-08-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2022-23 13위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Adalah FC",
+   "elo": 1308,
+   "comp": "lg",
+   "min": 28,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-10-11",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2022-23 15위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Al-Raed SFC",
+   "elo": 1367,
+   "comp": "lg",
+   "min": 50,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-12-16",
+   "et": 0,
+   "dm": "45+5",
+   "lv": "사우디 프로리그 2022-23 10위/16팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Al-Hilal SFC",
+   "elo": 1545,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-12-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2022-23 3위/16팀",
+   "note": "Talisca"
+  },
+  {
+   "type": "g",
+   "opp": "Al-Khaleej FC",
+   "elo": 1342,
+   "comp": "lg",
+   "min": 5,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2022-12-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "사우디 프로리그 2022-23 14위/16팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "MKE Ankaragücü",
+   "elo": 1462,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 11위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Basaksehir FK",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 5위/19팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Basaksehir FK",
+   "elo": 1605,
+   "comp": "lg",
+   "min": 55,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 5위/19팀",
+   "note": "Arthur Masuaku"
+  },
+  {
+   "type": "g",
+   "opp": "Istanbulspor",
+   "elo": 1447,
+   "comp": "lg",
+   "min": 56,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-03-18",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 12위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Fenerbahce",
+   "elo": 1740,
+   "comp": "lg",
+   "min": 91,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-02",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "쉬페르리그 2022-23 2위/19팀 (추정, 다른 선수 자료와 같은 튀르키예 리그 수준·흩어짐 119 순위값)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Giresunspor",
+   "elo": 1439,
+   "comp": "lg",
+   "min": 39,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-04-09",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 16위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Giresunspor",
+   "elo": 1439,
+   "comp": "lg",
+   "min": 50,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-09",
+   "et": 0,
+   "dm": "45+5",
+   "lv": "쉬페르리그 2022-23 16위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ümraniyespor",
+   "elo": 1390,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-22",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 17위/19팀 (추정, 다른 선수 자료 2022-23 16위 1428 아래로 2021-22 하위권 간격 적용)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Galatasaray",
+   "elo": 1797,
+   "comp": "lg",
+   "min": 93,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-04-30",
+   "et": 0,
+   "dm": "90+3",
+   "lv": "쉬페르리그 2022-23 1위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Antalyaspor",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 54,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 13위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Antalyaspor",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-06",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 13위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Adana Demirspor",
+   "elo": 1662,
+   "comp": "lg",
+   "min": 49,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-05-21",
+   "et": 0,
+   "dm": "45+4",
+   "lv": "쉬페르리그 2022-23 4위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Adana Demirspor",
+   "elo": 1662,
+   "comp": "lg",
+   "min": 95,
+   "gf": 3,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-05-21",
+   "et": 0,
+   "dm": "90+5",
+   "lv": "쉬페르리그 2022-23 4위/19팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Kasimpasa",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 30,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-06-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 10위/19팀",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1458,
+   "comp": "lg",
+   "min": 49,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-06-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2022-23 10위/19팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "KF Tirana",
+   "elo": 1407,
+   "comp": "ecq",
+   "min": 42,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-07-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "알바니아 1부 2022-23 2위/10팀 (Kategoria Superiore)",
+   "note": "Jackson Muleka",
+   "tie": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "KF Tirana",
+   "elo": 1334,
+   "comp": "ecq",
+   "min": 75,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "알바니아 1부 2023-24 5위/10팀 (Kategoria Superiore)",
+   "note": 0,
+   "tie": [
+    2,
+    0,
+    3,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Neftchi PFK",
+   "elo": 1435,
+   "comp": "ecq",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-10",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2023-24 5위/10팀 (Azerbaijan Premier League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Neftchi PFK",
+   "elo": 1435,
+   "comp": "ecq",
+   "min": 57,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2023-24 5위/10팀 (Azerbaijan Premier League)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    3,
+    1,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1636,
+   "comp": "ecq",
+   "min": 40,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2023-08-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2023-24 2위/16팀 (Ukrainian Premier League)",
+   "note": 0,
+   "tie": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "g",
+   "opp": "Dynamo Kyiv",
+   "elo": 1636,
+   "comp": "ecq",
+   "min": 52,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-08-31",
+   "et": 0,
+   "dm": 0,
+   "lv": "우크라이나 1부 2023-24 2위/16팀 (Ukrainian Premier League)",
+   "note": 0,
+   "tie": [
+    2,
+    1,
+    3,
+    2,
+    0,
+    1
+   ]
+  },
+  {
+   "type": "a",
+   "opp": "Sivasspor",
+   "elo": 1543,
+   "comp": "lg",
+   "min": 40,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-03",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2023-24 7위/20팀",
+   "note": "Milot Rashica"
+  },
+  {
+   "type": "a",
+   "opp": "Club Brugge KV",
+   "elo": 1766,
+   "comp": "ecg",
+   "min": 88,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-21",
+   "et": 0,
+   "dm": 0,
+   "lv": "벨기에 1부 2023-24 1위/16팀 (추정, 다른 선수 자료 벨기에 1부 2021-23과 같은 평균 1500·흩어짐 80 모형)",
+   "note": "Cenk Tosun"
+  },
+  {
+   "type": "g",
+   "opp": "Kayserispor",
+   "elo": 1491,
+   "comp": "lg",
+   "min": 56,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2023-24 11위/20팀 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Adana Demirspor",
+   "elo": 1495,
+   "comp": "lg",
+   "min": 79,
+   "gf": 0,
+   "ga": 4,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-09-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2023-24 13위/20팀 (감점 전 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Konyaspor",
+   "elo": 1472,
+   "comp": "lg",
+   "min": 63,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2023-24 16위/20팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Lugano",
+   "elo": 1550,
+   "comp": "ecg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 2023-24 2위/12팀 (Swiss Super League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Lugano",
+   "elo": 1550,
+   "comp": "ecg",
+   "min": 52,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "스위스 1부 2023-24 2위/12팀 (Swiss Super League, 플레이오프·스플릿 뒤 최종 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Istanbulspor",
+   "elo": 1308,
+   "comp": "lg",
+   "min": 6,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2023-10-08",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2023-24 20위/20팀 (추정, 19위 1428에서 18·19위 간격만큼 낮춤)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Hatayspor",
+   "elo": 1481,
+   "comp": "lg",
+   "min": 97,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2024-05-18",
+   "et": 0,
+   "dm": "90+7",
+   "lv": "쉬페르리그 2023-24 15위/20팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Trabzonspor",
+   "elo": 1586,
+   "comp": "lg",
+   "min": 14,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-10-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 7위/19팀",
+   "note": "Görkem Sağlam"
+  },
+  {
+   "type": "g",
+   "opp": "Konyaspor",
+   "elo": 1533,
+   "comp": "lg",
+   "min": 90,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-11-24",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 11위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Osmaniyespor FK",
+   "elo": 1023,
+   "comp": "dc",
+   "min": 92,
+   "gf": 4,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2024-12-05",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "튀르키예 4부 2024-25 8위/16팀 (TFF 3. Lig 3. Grup, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Göztepe",
+   "elo": 1575,
+   "comp": "lg",
+   "min": 52,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-15",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 8위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Adana Demirspor",
+   "elo": 1289,
+   "comp": "lg",
+   "min": 25,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2024-12-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 19위/19팀",
+   "note": 0
+  },
+  {
+   "type": "a",
+   "opp": "Kasimpasa",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 15,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 10위/19팀",
+   "note": "Bilal Boutobba"
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 56,
+   "gf": 2,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-01-27",
+   "et": 0,
+   "dm": "45+11",
+   "lv": "쉬페르리그 2024-25 10위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kasimpasa",
+   "elo": 1544,
+   "comp": "lg",
+   "min": 58,
+   "gf": 3,
+   "ga": 3,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-01-27",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 10위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Antalyaspor",
+   "elo": 1492,
+   "comp": "lg",
+   "min": 64,
+   "gf": 1,
+   "ga": 2,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-02-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 15위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Gaziantep FK",
+   "elo": 1528,
+   "comp": "lg",
+   "min": 38,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-04-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "쉬페르리그 2024-25 12위/19팀",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FK Gabala",
+   "elo": 1346,
+   "comp": "lg",
+   "min": 81,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-10-26",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2025-26 11위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "MOIK Baku",
+   "elo": 1115,
+   "comp": "dc",
+   "min": 8,
+   "gf": 0,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 2부 2025-26 6위/10팀 (Azerbaijan First League, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "MOIK Baku",
+   "elo": 1115,
+   "comp": "dc",
+   "min": 42,
+   "gf": 2,
+   "ga": 0,
+   "ko": 1,
+   "pk": 0,
+   "date": "2025-10-29",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 2부 2025-26 6위/10팀 (Azerbaijan First League, 리그 수준 추정)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Kapaz PFK",
+   "elo": 1330,
+   "comp": "lg",
+   "min": 23,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2025-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2025-26 10위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Imishli",
+   "elo": 1363,
+   "comp": "lg",
+   "min": 11,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 1,
+   "date": "2025-11-23",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2025-26 9위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Araz-Nakhchivan",
+   "elo": 1400,
+   "comp": "lg",
+   "min": 92,
+   "gf": 3,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-01",
+   "et": 0,
+   "dm": "90+2",
+   "lv": "아제르바이잔 1부 2025-26 6위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Shamakhi",
+   "elo": 1383,
+   "comp": "lg",
+   "min": 60,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-28",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2025-26 8위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "FC Shamakhi",
+   "elo": 1383,
+   "comp": "lg",
+   "min": 91,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-02-28",
+   "et": 0,
+   "dm": "90+1",
+   "lv": "아제르바이잔 1부 2025-26 8위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sumgayit PFC",
+   "elo": 1395,
+   "comp": "lg",
+   "min": 89,
+   "gf": 2,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-04-05",
+   "et": 0,
+   "dm": 0,
+   "lv": "아제르바이잔 1부 2025-26 7위/12팀 (Azerbaijan Premier League)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Batman Petrolspor",
+   "elo": 1254,
+   "comp": "lg",
+   "min": 32,
+   "gf": 0,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-09-12",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2부 2026-27 4위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sariyer",
+   "elo": 1186,
+   "comp": "lg",
+   "min": 15,
+   "gf": 1,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2부 2026-27 14위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Sariyer",
+   "elo": 1186,
+   "comp": "lg",
+   "min": 23,
+   "gf": 2,
+   "ga": 0,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-13",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2부 2026-27 14위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Bandirma Spor",
+   "elo": 1188,
+   "comp": "lg",
+   "min": 71,
+   "gf": 1,
+   "ga": 1,
+   "ko": 0,
+   "pk": 0,
+   "date": "2026-10-17",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2부 2026-27 13위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)",
+   "note": 0
+  },
+  {
+   "type": "g",
+   "opp": "Ümraniyespor",
+   "elo": 1198,
+   "comp": "lg",
+   "min": 28,
+   "gf": 0,
+   "ga": 1,
+   "ko": 0,
+   "pk": 1,
+   "date": "2026-11-01",
+   "et": 0,
+   "dm": 0,
+   "lv": "튀르키예 2부 2026-27 11위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)",
+   "note": 0
+  }
+ ],
+ "M": [
+  [
+   "2010-08-07",
+   "OGC Nice",
+   "lg",
+   20
+  ],
+  [
+   "2010-08-21",
+   "AJ Auxerre",
+   "lg",
+   9
+  ],
+  [
+   "2010-08-28",
+   "Montpellier HSC",
+   "lg",
+   28
+  ],
+  [
+   "2010-09-18",
+   "RC Lens",
+   "lg",
+   2
+  ],
+  [
+   "2010-09-21",
+   "Nîmes Olympique",
+   "dc",
+   70
+  ],
+  [
+   "2010-09-26",
+   "Stade Brestois 29",
+   "lg",
+   8
+  ],
+  [
+   "2010-10-17",
+   "FC Lorient",
+   "lg",
+   45
+  ],
+  [
+   "2010-10-23",
+   "AS Monaco",
+   "lg",
+   21
+  ],
+  [
+   "2010-10-26",
+   "US Boulogne",
+   "dc",
+   90
+  ],
+  [
+   "2010-10-31",
+   "LOSC Lille",
+   "lg",
+   7
+  ],
+  [
+   "2010-12-01",
+   "AS Saint-Étienne",
+   "lg",
+   17
+  ],
+  [
+   "2010-12-04",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   84
+  ],
+  [
+   "2010-12-11",
+   "Paris Saint-Germain",
+   "lg",
+   30
+  ],
+  [
+   "2010-12-18",
+   "Stade Rennais FC",
+   "lg",
+   14
+  ],
+  [
+   "2010-12-22",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2011-01-08",
+   "Angers SCO",
+   "dc",
+   119
+  ],
+  [
+   "2011-03-05",
+   "AS Monaco",
+   "lg",
+   9
+  ],
+  [
+   "2011-03-19",
+   "FC Girondins Bordeaux",
+   "lg",
+   2
+  ],
+  [
+   "2011-04-09",
+   "AS Nancy-Lorraine",
+   "lg",
+   45
+  ],
+  [
+   "2011-04-24",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   78
+  ],
+  [
+   "2011-09-24",
+   "Olympique Marseille",
+   "lg",
+   19
+  ],
+  [
+   "2011-10-01",
+   "FC Lorient",
+   "lg",
+   33
+  ],
+  [
+   "2011-10-16",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-22",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2011-10-30",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2011-11-06",
+   "Stade Rennais FC",
+   "lg",
+   89
+  ],
+  [
+   "2011-11-26",
+   "FC Toulouse",
+   "lg",
+   76
+  ],
+  [
+   "2011-12-03",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-10",
+   "Montpellier HSC",
+   "lg",
+   84
+  ],
+  [
+   "2011-12-17",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2011-12-21",
+   "Olympique Lyon",
+   "lg",
+   88
+  ],
+  [
+   "2012-01-06",
+   "Le Mans FC",
+   "dc",
+   22
+  ],
+  [
+   "2012-01-14",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2012-01-22",
+   "SC Bastia",
+   "dc",
+   90
+  ],
+  [
+   "2012-01-29",
+   "AC Ajaccio",
+   "lg",
+   90
+  ],
+  [
+   "2012-02-08",
+   "LOSC Lille",
+   "dc",
+   90
+  ],
+  [
+   "2012-02-11",
+   "AS Nancy-Lorraine",
+   "lg",
+   85
+  ],
+  [
+   "2012-02-18",
+   "Olympique Marseille",
+   "lg",
+   79
+  ],
+  [
+   "2012-02-25",
+   "FC Lorient",
+   "lg",
+   89
+  ],
+  [
+   "2012-03-10",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-18",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-21",
+   "Stade Rennais FC",
+   "dk",
+   22
+  ],
+  [
+   "2012-03-24",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2012-03-31",
+   "AJ Auxerre",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-07",
+   "FC Toulouse",
+   "lg",
+   82
+  ],
+  [
+   "2012-04-15",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-21",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2012-04-29",
+   "OGC Nice",
+   "lg",
+   72
+  ],
+  [
+   "2012-05-06",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-13",
+   "Stade Brestois 29",
+   "lg",
+   90
+  ],
+  [
+   "2012-05-20",
+   "SM Caen",
+   "lg",
+   90
+  ],
+  [
+   "2012-08-18",
+   "OGC Nice",
+   "lg",
+   63
+  ],
+  [
+   "2012-08-25",
+   "AC Ajaccio",
+   "lg",
+   17
+  ],
+  [
+   "2012-09-01",
+   "Olympique Lyon",
+   "lg",
+   87
+  ],
+  [
+   "2012-09-15",
+   "FC Girondins Bordeaux",
+   "lg",
+   70
+  ],
+  [
+   "2012-09-22",
+   "Stade Brestois 29",
+   "lg",
+   71
+  ],
+  [
+   "2012-09-26",
+   "AS Monaco",
+   "dc",
+   120
+  ],
+  [
+   "2012-09-30",
+   "Olympique Marseille",
+   "lg",
+   5
+  ],
+  [
+   "2012-10-06",
+   "FC Toulouse",
+   "lg",
+   5
+  ],
+  [
+   "2012-10-20",
+   "FC Lorient",
+   "lg",
+   10
+  ],
+  [
+   "2012-10-27",
+   "LOSC Lille",
+   "lg",
+   4
+  ],
+  [
+   "2012-11-03",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   20
+  ],
+  [
+   "2012-11-17",
+   "Montpellier HSC",
+   "lg",
+   6
+  ],
+  [
+   "2012-12-08",
+   "AS Nancy-Lorraine",
+   "lg",
+   90
+  ],
+  [
+   "2012-12-11",
+   "Paris Saint-Germain",
+   "lg",
+   12
+  ],
+  [
+   "2012-12-14",
+   "Stade Rennais FC",
+   "lg",
+   72
+  ],
+  [
+   "2013-01-07",
+   "FC Istres Ouest Provence",
+   "dc",
+   39
+  ],
+  [
+   "2013-01-13",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2013-01-19",
+   "AC Ajaccio",
+   "lg",
+   69
+  ],
+  [
+   "2013-01-25",
+   "Olympique Lyon",
+   "lg",
+   69
+  ],
+  [
+   "2013-02-02",
+   "FC Girondins Bordeaux",
+   "lg",
+   9
+  ],
+  [
+   "2013-02-09",
+   "Stade Brestois 29",
+   "lg",
+   7
+  ],
+  [
+   "2013-02-23",
+   "FC Toulouse",
+   "lg",
+   1
+  ],
+  [
+   "2013-03-02",
+   "FC Lorient",
+   "lg",
+   90
+  ],
+  [
+   "2013-03-09",
+   "LOSC Lille",
+   "lg",
+   17
+  ],
+  [
+   "2013-04-12",
+   "AS Saint-Étienne",
+   "lg",
+   17
+  ],
+  [
+   "2013-04-27",
+   "AS Nancy-Lorraine",
+   "lg",
+   10
+  ],
+  [
+   "2013-05-05",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-11",
+   "Stade Rennais FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-05-18",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   20
+  ],
+  [
+   "2013-05-26",
+   "ESTAC Troyes",
+   "lg",
+   72
+  ],
+  [
+   "2013-08-10",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-18",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-24",
+   "EA Guingamp",
+   "lg",
+   90
+  ],
+  [
+   "2013-08-31",
+   "Valenciennes FC",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-15",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-22",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-25",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2013-09-28",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2013-10-04",
+   "SC Bastia",
+   "lg",
+   90
+  ],
+  [
+   "2013-10-20",
+   "AS Saint-Étienne",
+   "lg",
+   90
+  ],
+  [
+   "2013-10-26",
+   "FC Sochaux-Montbéliard",
+   "lg",
+   90
+  ],
+  [
+   "2013-10-29",
+   "FC Nantes",
+   "dc",
+   26
+  ],
+  [
+   "2013-11-01",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2013-11-09",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2013-11-23",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   90
+  ],
+  [
+   "2013-11-30",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-04",
+   "Montpellier HSC",
+   "lg",
+   90
+  ],
+  [
+   "2013-12-07",
+   "Stade Rennais FC",
+   "lg",
+   57
+  ],
+  [
+   "2013-12-14",
+   "AC Ajaccio",
+   "lg",
+   63
+  ],
+  [
+   "2013-12-22",
+   "Olympique Lyon",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-12",
+   "FC Nantes",
+   "lg",
+   90
+  ],
+  [
+   "2014-01-18",
+   "EA Guingamp",
+   "lg",
+   76
+  ],
+  [
+   "2014-01-25",
+   "Valenciennes FC",
+   "lg",
+   89
+  ],
+  [
+   "2014-02-01",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2014-02-15",
+   "FC Toulouse",
+   "lg",
+   90
+  ],
+  [
+   "2014-02-22",
+   "Olympique Marseille",
+   "lg",
+   90
+  ],
+  [
+   "2014-02-25",
+   "FC Girondins Bordeaux",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-01",
+   "SC Bastia",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-09",
+   "AS Saint-Étienne",
+   "lg",
+   67
+  ],
+  [
+   "2014-03-21",
+   "Paris Saint-Germain",
+   "lg",
+   90
+  ],
+  [
+   "2014-03-29",
+   "Stade Reims",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-05",
+   "FC Évian Thonon Gaillard",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-12",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2014-04-20",
+   "Montpellier HSC",
+   "lg",
+   32
+  ],
+  [
+   "2014-04-26",
+   "Stade Rennais FC",
+   "lg",
+   22
+  ],
+  [
+   "2014-05-17",
+   "LOSC Lille",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-10",
+   "AS Monaco",
+   "lg",
+   90
+  ],
+  [
+   "2014-08-16",
+   "OGC Nice",
+   "lg",
+   90
+  ],
+  [
+   "2014-09-14",
+   "Vitória Guimarães SC",
+   "lg",
+   1
+  ],
+  [
+   "2014-09-17",
+   "BATE Borisov",
+   "clg",
+   26
+  ],
+  [
+   "2014-09-30",
+   "Shakhtar Donetsk",
+   "clg",
+   65
+  ],
+  [
+   "2014-10-25",
+   "FC Arouca",
+   "lg",
+   15
+  ],
+  [
+   "2014-11-01",
+   "CD Nacional",
+   "lg",
+   8
+  ],
+  [
+   "2014-11-09",
+   "GD Estoril Praia",
+   "lg",
+   27
+  ],
+  [
+   "2014-12-06",
+   "Académica Coimbra",
+   "lg",
+   10
+  ],
+  [
+   "2014-12-10",
+   "Shakhtar Donetsk",
+   "clg",
+   90
+  ],
+  [
+   "2014-12-14",
+   "SL Benfica",
+   "lg",
+   13
+  ],
+  [
+   "2014-12-30",
+   "Rio Ave FC",
+   "dc",
+   84
+  ],
+  [
+   "2015-02-07",
+   "Moreirense FC",
+   "lg",
+   1
+  ],
+  [
+   "2015-03-06",
+   "SC Braga",
+   "lg",
+   25
+  ],
+  [
+   "2015-03-10",
+   "FC Basel 1893",
+   "cl16",
+   90
+  ],
+  [
+   "2015-03-15",
+   "FC Arouca",
+   "lg",
+   90
+  ],
+  [
+   "2015-03-21",
+   "CD Nacional",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-02",
+   "CS Marítimo",
+   "dsf",
+   90
+  ],
+  [
+   "2015-04-06",
+   "GD Estoril Praia",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-11",
+   "Rio Ave FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-04-18",
+   "Académica Coimbra",
+   "lg",
+   83
+  ],
+  [
+   "2015-05-22",
+   "FC Penafiel",
+   "lg",
+   35
+  ],
+  [
+   "2015-08-15",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2015-08-22",
+   "CS Marítimo",
+   "lg",
+   79
+  ],
+  [
+   "2015-08-29",
+   "GD Estoril Praia",
+   "lg",
+   71
+  ],
+  [
+   "2015-09-12",
+   "FC Arouca",
+   "lg",
+   90
+  ],
+  [
+   "2015-09-16",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2015-09-20",
+   "SL Benfica",
+   "lg",
+   82
+  ],
+  [
+   "2015-09-25",
+   "Moreirense FC",
+   "lg",
+   13
+  ],
+  [
+   "2015-09-29",
+   "Chelsea FC",
+   "clg",
+   90
+  ],
+  [
+   "2015-10-04",
+   "CF Os Belenenses",
+   "lg",
+   62
+  ],
+  [
+   "2015-10-20",
+   "Maccabi Tel Aviv",
+   "clg",
+   90
+  ],
+  [
+   "2015-10-25",
+   "SC Braga",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-04",
+   "Maccabi Tel Aviv",
+   "clg",
+   90
+  ],
+  [
+   "2015-11-08",
+   "Vitória Setúbal FC",
+   "lg",
+   90
+  ],
+  [
+   "2015-11-24",
+   "Dynamo Kyiv",
+   "clg",
+   90
+  ],
+  [
+   "2015-11-28",
+   "CD Tondela",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-05",
+   "FC Paços de Ferreira",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-09",
+   "Chelsea FC",
+   "clg",
+   34
+  ],
+  [
+   "2015-12-13",
+   "CD Nacional",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-16",
+   "CD Feirense",
+   "dc",
+   90
+  ],
+  [
+   "2015-12-20",
+   "Académica Coimbra",
+   "lg",
+   90
+  ],
+  [
+   "2015-12-29",
+   "CS Marítimo",
+   "dc",
+   15
+  ],
+  [
+   "2016-01-02",
+   "Sporting CP",
+   "lg",
+   71
+  ],
+  [
+   "2016-01-06",
+   "Rio Ave FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-10",
+   "Boavista FC",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-13",
+   "Boavista FC",
+   "dk",
+   90
+  ],
+  [
+   "2016-01-17",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2016-01-24",
+   "CS Marítimo",
+   "lg",
+   69
+  ],
+  [
+   "2016-01-30",
+   "GD Estoril Praia",
+   "lg",
+   89
+  ],
+  [
+   "2016-02-03",
+   "Gil Vicente FC",
+   "dsf",
+   14
+  ],
+  [
+   "2016-02-07",
+   "FC Arouca",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-12",
+   "SL Benfica",
+   "lg",
+   90
+  ],
+  [
+   "2016-02-18",
+   "Borussia Dortmund",
+   "elk",
+   87
+  ],
+  [
+   "2016-02-25",
+   "Borussia Dortmund",
+   "elk",
+   56
+  ],
+  [
+   "2016-03-02",
+   "Gil Vicente FC",
+   "dsf",
+   90
+  ],
+  [
+   "2016-03-06",
+   "SC Braga",
+   "lg",
+   29
+  ],
+  [
+   "2016-03-12",
+   "CF União Madeira",
+   "lg",
+   90
+  ],
+  [
+   "2016-03-19",
+   "Vitória Setúbal FC",
+   "lg",
+   76
+  ],
+  [
+   "2016-04-04",
+   "CD Tondela",
+   "lg",
+   90
+  ],
+  [
+   "2016-04-17",
+   "CD Nacional",
+   "lg",
+   15
+  ],
+  [
+   "2016-04-30",
+   "Sporting CP",
+   "lg",
+   90
+  ],
+  [
+   "2016-05-07",
+   "Rio Ave FC",
+   "lg",
+   3
+  ],
+  [
+   "2016-05-22",
+   "SC Braga",
+   "df",
+   41
+  ],
+  [
+   "2016-09-10",
+   "Kardemir Karabükspor",
+   "lg",
+   7
+  ],
+  [
+   "2016-09-13",
+   "SL Benfica",
+   "clg",
+   81
+  ],
+  [
+   "2016-09-18",
+   "Akhisarspor",
+   "lg",
+   7
+  ],
+  [
+   "2016-09-24",
+   "Galatasaray",
+   "lg",
+   45
+  ],
+  [
+   "2016-09-28",
+   "Dynamo Kyiv",
+   "clg",
+   85
+  ],
+  [
+   "2016-10-01",
+   "Caykur Rizespor",
+   "lg",
+   45
+  ],
+  [
+   "2016-10-15",
+   "Kayserispor",
+   "lg",
+   45
+  ],
+  [
+   "2016-10-19",
+   "SSC Napoli",
+   "clg",
+   90
+  ],
+  [
+   "2016-10-23",
+   "Antalyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2016-10-28",
+   "Genclerbirligi Ankara",
+   "lg",
+   45
+  ],
+  [
+   "2016-11-01",
+   "SSC Napoli",
+   "clg",
+   90
+  ],
+  [
+   "2016-11-05",
+   "Trabzonspor",
+   "lg",
+   76
+  ],
+  [
+   "2016-11-19",
+   "Adanaspor",
+   "lg",
+   88
+  ],
+  [
+   "2016-11-23",
+   "SL Benfica",
+   "clg",
+   90
+  ],
+  [
+   "2016-11-26",
+   "Basaksehir FK",
+   "lg",
+   83
+  ],
+  [
+   "2016-12-03",
+   "Fenerbahce",
+   "lg",
+   30
+  ],
+  [
+   "2016-12-06",
+   "Dynamo Kyiv",
+   "clg",
+   56
+  ],
+  [
+   "2016-12-10",
+   "Bursaspor",
+   "lg",
+   90
+  ],
+  [
+   "2016-12-14",
+   "Kayserispor",
+   "dc",
+   90
+  ],
+  [
+   "2016-12-17",
+   "Kasimpasa",
+   "lg",
+   72
+  ],
+  [
+   "2016-12-20",
+   "Boluspor",
+   "dc",
+   54
+  ],
+  [
+   "2016-12-24",
+   "Gaziantepspor",
+   "lg",
+   90
+  ],
+  [
+   "2017-02-10",
+   "Kardemir Karabükspor",
+   "lg",
+   18
+  ],
+  [
+   "2017-02-19",
+   "Akhisarspor",
+   "lg",
+   19
+  ],
+  [
+   "2017-02-23",
+   "Hapoel Beer Sheva",
+   "elk",
+   79
+  ],
+  [
+   "2017-03-04",
+   "Caykur Rizespor",
+   "lg",
+   17
+  ],
+  [
+   "2017-03-09",
+   "Olympiacos Piraeus",
+   "elk",
+   82
+  ],
+  [
+   "2017-03-12",
+   "Kayserispor",
+   "lg",
+   90
+  ],
+  [
+   "2017-03-16",
+   "Olympiacos Piraeus",
+   "elk",
+   39
+  ],
+  [
+   "2017-03-19",
+   "Antalyaspor",
+   "lg",
+   64
+  ],
+  [
+   "2017-04-08",
+   "Trabzonspor",
+   "lg",
+   57
+  ],
+  [
+   "2017-04-24",
+   "Adanaspor",
+   "lg",
+   83
+  ],
+  [
+   "2017-04-30",
+   "Basaksehir FK",
+   "lg",
+   35
+  ],
+  [
+   "2017-05-07",
+   "Fenerbahce",
+   "lg",
+   72
+  ],
+  [
+   "2017-05-15",
+   "Bursaspor",
+   "lg",
+   90
+  ],
+  [
+   "2017-05-20",
+   "Kasimpasa",
+   "lg",
+   72
+  ],
+  [
+   "2017-05-28",
+   "Gaziantepspor",
+   "lg",
+   78
+  ],
+  [
+   "2017-06-03",
+   "Osmanlispor FK",
+   "lg",
+   82
+  ],
+  [
+   "2017-08-09",
+   "GD Estoril Praia",
+   "lg",
+   90
+  ],
+  [
+   "2017-08-13",
+   "CD Tondela",
+   "lg",
+   80
+  ],
+  [
+   "2017-08-20",
+   "Moreirense FC",
+   "lg",
+   84
+  ],
+  [
+   "2017-08-27",
+   "SC Braga",
+   "lg",
+   90
+  ],
+  [
+   "2017-09-09",
+   "GD Chaves",
+   "lg",
+   77
+  ],
+  [
+   "2017-09-17",
+   "Rio Ave FC",
+   "lg",
+   68
+  ],
+  [
+   "2017-09-22",
+   "Portimonense SAD",
+   "lg",
+   74
+  ],
+  [
+   "2017-09-26",
+   "AS Monaco",
+   "clg",
+   71
+  ],
+  [
+   "2017-10-01",
+   "Sporting CP",
+   "lg",
+   86
+  ],
+  [
+   "2017-10-13",
+   "Lusitano GC",
+   "dc",
+   52
+  ],
+  [
+   "2017-10-17",
+   "RB Leipzig",
+   "clg",
+   90
+  ],
+  [
+   "2017-10-21",
+   "FC Paços de Ferreira",
+   "lg",
+   90
+  ],
+  [
+   "2017-10-24",
+   "Leixões SC",
+   "dc",
+   90
+  ],
+  [
+   "2017-10-28",
+   "Boavista FC",
+   "lg",
+   86
+  ],
+  [
+   "2017-11-01",
+   "RB Leipzig",
+   "clg",
+   90
+  ],
+  [
+   "2017-11-04",
+   "CF Os Belenenses",
+   "lg",
+   90
+  ],
+  [
+   "2017-11-17",
+   "Portimonense SAD",
+   "dc",
+   90
+  ],
+  [
+   "2017-11-21",
+   "Beşiktaş JK",
+   "clg",
+   90
+  ],
+  [
+   "2017-11-25",
+   "Desportivo Aves",
+   "lg",
+   68
+  ],
+  [
+   "2017-12-01",
+   "SL Benfica",
+   "lg",
+   76
+  ],
+  [
+   "2017-12-06",
+   "AS Monaco",
+   "clg",
+   75
+  ],
+  [
+   "2017-12-10",
+   "Vitória Setúbal FC",
+   "lg",
+   90
+  ],
+  [
+   "2017-12-14",
+   "Vitória Guimarães SC",
+   "dc",
+   72
+  ],
+  [
+   "2017-12-18",
+   "CS Marítimo",
+   "lg",
+   72
+  ],
+  [
+   "2017-12-21",
+   "Rio Ave FC",
+   "dc",
+   27
+  ],
+  [
+   "2017-12-30",
+   "FC Paços de Ferreira",
+   "dc",
+   45
+  ],
+  [
+   "2018-01-03",
+   "CD Feirense",
+   "lg",
+   80
+  ],
+  [
+   "2018-01-07",
+   "Vitória Guimarães SC",
+   "lg",
+   90
+  ],
+  [
+   "2018-01-11",
+   "Moreirense FC",
+   "dk",
+   4
+  ],
+  [
+   "2018-01-19",
+   "CD Tondela",
+   "lg",
+   78
+  ],
+  [
+   "2018-01-24",
+   "Sporting CP",
+   "dsf",
+   22
+  ],
+  [
+   "2018-01-30",
+   "Moreirense FC",
+   "lg",
+   74
+  ],
+  [
+   "2018-02-03",
+   "SC Braga",
+   "lg",
+   85
+  ],
+  [
+   "2018-02-21",
+   "GD Estoril Praia",
+   "lg",
+   45
+  ],
+  [
+   "2018-03-02",
+   "Sporting CP",
+   "lg",
+   18
+  ],
+  [
+   "2018-03-06",
+   "Liverpool FC",
+   "cl16",
+   80
+  ],
+  [
+   "2018-03-11",
+   "FC Paços de Ferreira",
+   "lg",
+   90
+  ],
+  [
+   "2018-03-17",
+   "Boavista FC",
+   "lg",
+   80
+  ],
+  [
+   "2018-04-02",
+   "CF Os Belenenses",
+   "lg",
+   56
+  ],
+  [
+   "2018-04-08",
+   "Desportivo Aves",
+   "lg",
+   62
+  ],
+  [
+   "2018-04-15",
+   "SL Benfica",
+   "lg",
+   7
+  ],
+  [
+   "2018-04-18",
+   "Sporting CP",
+   "dsf",
+   54
+  ],
+  [
+   "2018-05-06",
+   "CD Feirense",
+   "lg",
+   34
+  ],
+  [
+   "2018-08-04",
+   "Desportivo Aves",
+   "df",
+   75
+  ],
+  [
+   "2018-08-11",
+   "GD Chaves",
+   "lg",
+   81
+  ],
+  [
+   "2018-08-19",
+   "B SAD",
+   "lg",
+   90
+  ],
+  [
+   "2018-08-25",
+   "Vitória Guimarães SC",
+   "lg",
+   62
+  ],
+  [
+   "2018-09-02",
+   "Moreirense FC",
+   "lg",
+   64
+  ],
+  [
+   "2018-09-14",
+   "GD Chaves",
+   "dc",
+   6
+  ],
+  [
+   "2018-09-18",
+   "FC Schalke 04",
+   "clg",
+   60
+  ],
+  [
+   "2018-09-22",
+   "Vitória Setúbal FC",
+   "lg",
+   73
+  ],
+  [
+   "2018-09-28",
+   "CD Tondela",
+   "lg",
+   64
+  ],
+  [
+   "2019-05-04",
+   "Desportivo Aves",
+   "lg",
+   10
+  ],
+  [
+   "2019-05-18",
+   "Sporting CP",
+   "lg",
+   14
+  ],
+  [
+   "2019-08-13",
+   "FC Krasnodar",
+   "clq",
+   4
+  ],
+  [
+   "2019-10-19",
+   "SC Coimbrões",
+   "dc",
+   14
+  ],
+  [
+   "2019-11-24",
+   "Vitória Setúbal FC",
+   "dc",
+   30
+  ],
+  [
+   "2019-11-28",
+   "BSC Young Boys",
+   "elg",
+   90
+  ],
+  [
+   "2019-12-02",
+   "FC Paços de Ferreira",
+   "lg",
+   38
+  ],
+  [
+   "2020-01-17",
+   "SC Braga",
+   "lg",
+   10
+  ],
+  [
+   "2020-03-07",
+   "Rio Ave FC",
+   "lg",
+   9
+  ],
+  [
+   "2020-06-03",
+   "FC Famalicão",
+   "lg",
+   8
+  ],
+  [
+   "2020-06-16",
+   "Desportivo Aves",
+   "lg",
+   1
+  ],
+  [
+   "2020-09-27",
+   "Konyaspor",
+   "lg",
+   45
+  ],
+  [
+   "2020-10-04",
+   "Genclerbirligi Ankara",
+   "lg",
+   64
+  ],
+  [
+   "2020-10-26",
+   "Denizlispor",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-01",
+   "Yeni Malatyaspor",
+   "lg",
+   85
+  ],
+  [
+   "2020-11-06",
+   "Gaziantep FK",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-21",
+   "Basaksehir FK",
+   "lg",
+   90
+  ],
+  [
+   "2020-11-29",
+   "Fenerbahce",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-04",
+   "Kasimpasa",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-13",
+   "Alanyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2020-12-20",
+   "Büyüksehir Belediye Erzurumspor",
+   "lg",
+   82
+  ],
+  [
+   "2020-12-24",
+   "MKE Ankaragücü",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-06",
+   "Caykur Rizespor",
+   "lg",
+   77
+  ],
+  [
+   "2021-01-10",
+   "Hatayspor",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-13",
+   "Caykur Rizespor",
+   "dc",
+   45
+  ],
+  [
+   "2021-01-17",
+   "Galatasaray",
+   "lg",
+   87
+  ],
+  [
+   "2021-01-21",
+   "Fatih Karagümrük",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-24",
+   "Göztepe",
+   "lg",
+   90
+  ],
+  [
+   "2021-01-31",
+   "Trabzonspor",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-03",
+   "Antalyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2021-02-07",
+   "Konyaspor",
+   "lg",
+   70
+  ],
+  [
+   "2021-02-11",
+   "Konyaspor",
+   "dk",
+   55
+  ],
+  [
+   "2021-02-15",
+   "Genclerbirligi Ankara",
+   "lg",
+   62
+  ],
+  [
+   "2021-02-26",
+   "Denizlispor",
+   "lg",
+   84
+  ],
+  [
+   "2021-03-02",
+   "Yeni Malatyaspor",
+   "lg",
+   85
+  ],
+  [
+   "2021-03-06",
+   "Gaziantep FK",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-12",
+   "Basaksehir FK",
+   "lg",
+   90
+  ],
+  [
+   "2021-03-16",
+   "Basaksehir FK",
+   "dsf",
+   46
+  ],
+  [
+   "2021-03-21",
+   "Fenerbahce",
+   "lg",
+   90
+  ],
+  [
+   "2021-04-20",
+   "Sivasspor",
+   "lg",
+   45
+  ],
+  [
+   "2021-08-13",
+   "Damac FC",
+   "lg",
+   17
+  ],
+  [
+   "2021-08-19",
+   "Al-Faisaly FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-08-26",
+   "Al-Taawoun FC",
+   "lg",
+   24
+  ],
+  [
+   "2021-09-14",
+   "Tractor FC",
+   "acl",
+   90
+  ],
+  [
+   "2021-09-18",
+   "Al-Ittihad Club",
+   "lg",
+   68
+  ],
+  [
+   "2021-09-23",
+   "Al-Batin FC",
+   "lg",
+   69
+  ],
+  [
+   "2021-09-30",
+   "Abha Club",
+   "lg",
+   90
+  ],
+  [
+   "2021-10-16",
+   "Al-Wahda FC",
+   "aclk",
+   18
+  ],
+  [
+   "2021-10-19",
+   "Al-Hilal SFC",
+   "aclsf",
+   11
+  ],
+  [
+   "2021-10-24",
+   "Al-Ettifaq FC",
+   "lg",
+   45
+  ],
+  [
+   "2021-10-30",
+   "Al-Fayha FC",
+   "lg",
+   83
+  ],
+  [
+   "2021-11-05",
+   "Al-Shabab FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-11-20",
+   "Al-Raed SFC",
+   "lg",
+   62
+  ],
+  [
+   "2021-11-26",
+   "Al-Ahli SFC",
+   "lg",
+   79
+  ],
+  [
+   "2021-12-10",
+   "Al-Tai FC",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-16",
+   "Al-Hilal SFC",
+   "lg",
+   90
+  ],
+  [
+   "2021-12-26",
+   "Al-Hazem SC",
+   "lg",
+   90
+  ],
+  [
+   "2022-01-01",
+   "Al-Fateh SC",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-11",
+   "Al-Ittihad Club",
+   "lg",
+   45
+  ],
+  [
+   "2022-02-17",
+   "Al-Batin FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-02-21",
+   "Al-Hilal SFC",
+   "dk",
+   90
+  ],
+  [
+   "2022-02-26",
+   "Abha Club",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-03",
+   "Al-Hilal SFC",
+   "lg",
+   90
+  ],
+  [
+   "2022-03-11",
+   "Al-Ettifaq FC",
+   "lg",
+   59
+  ],
+  [
+   "2022-03-17",
+   "Al-Fayha FC",
+   "lg",
+   73
+  ],
+  [
+   "2022-06-23",
+   "Al-Hazem SC",
+   "lg",
+   67
+  ],
+  [
+   "2022-06-27",
+   "Al-Fateh SC",
+   "lg",
+   90
+  ],
+  [
+   "2022-08-27",
+   "Al-Wehda FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-09-03",
+   "Al-Taawoun FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-09-10",
+   "Damac FC",
+   "lg",
+   86
+  ],
+  [
+   "2022-09-15",
+   "Al-Batin FC",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-02",
+   "Al-Ittihad Club",
+   "lg",
+   90
+  ],
+  [
+   "2022-10-07",
+   "Abha Club",
+   "lg",
+   83
+  ],
+  [
+   "2022-10-11",
+   "Al-Adalah FC",
+   "lg",
+   63
+  ],
+  [
+   "2022-10-16",
+   "Al-Fayha FC",
+   "lg",
+   79
+  ],
+  [
+   "2022-12-16",
+   "Al-Raed SFC",
+   "lg",
+   90
+  ],
+  [
+   "2022-12-21",
+   "Al-Adalah FC",
+   "dc",
+   27
+  ],
+  [
+   "2022-12-26",
+   "Al-Hilal SFC",
+   "lg",
+   90
+  ],
+  [
+   "2022-12-31",
+   "Al-Khaleej FC",
+   "lg",
+   45
+  ],
+  [
+   "2023-01-22",
+   "Kayserispor",
+   "lg",
+   20
+  ],
+  [
+   "2023-01-27",
+   "Alanyaspor",
+   "lg",
+   85
+  ],
+  [
+   "2023-01-31",
+   "Fatih Karagümrük",
+   "lg",
+   45
+  ],
+  [
+   "2023-02-04",
+   "Sivasspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-05",
+   "MKE Ankaragücü",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-12",
+   "Basaksehir FK",
+   "lg",
+   90
+  ],
+  [
+   "2023-03-18",
+   "Istanbulspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-02",
+   "Fenerbahce",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-09",
+   "Giresunspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-16",
+   "Trabzonspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-22",
+   "Ümraniyespor",
+   "lg",
+   90
+  ],
+  [
+   "2023-04-30",
+   "Galatasaray",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-06",
+   "Antalyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-05-21",
+   "Adana Demirspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-06-03",
+   "Kasimpasa",
+   "lg",
+   90
+  ],
+  [
+   "2023-06-07",
+   "Konyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-07-27",
+   "KF Tirana",
+   "ecq",
+   90
+  ],
+  [
+   "2023-08-03",
+   "KF Tirana",
+   "ecq",
+   90
+  ],
+  [
+   "2023-08-10",
+   "Neftchi PFK",
+   "ecq",
+   77
+  ],
+  [
+   "2023-08-14",
+   "Fatih Karagümrük",
+   "lg",
+   89
+  ],
+  [
+   "2023-08-17",
+   "Neftchi PFK",
+   "ecq",
+   45
+  ],
+  [
+   "2023-08-20",
+   "Pendikspor",
+   "lg",
+   89
+  ],
+  [
+   "2023-08-24",
+   "Dynamo Kyiv",
+   "ecq",
+   88
+  ],
+  [
+   "2023-08-31",
+   "Dynamo Kyiv",
+   "ecq",
+   81
+  ],
+  [
+   "2023-09-03",
+   "Sivasspor",
+   "lg",
+   75
+  ],
+  [
+   "2023-09-17",
+   "Trabzonspor",
+   "lg",
+   45
+  ],
+  [
+   "2023-09-21",
+   "Club Brugge KV",
+   "ecg",
+   90
+  ],
+  [
+   "2023-09-24",
+   "Kayserispor",
+   "lg",
+   90
+  ],
+  [
+   "2023-09-27",
+   "Adana Demirspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-10-01",
+   "Konyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2023-10-05",
+   "FC Lugano",
+   "ecg",
+   77
+  ],
+  [
+   "2023-10-08",
+   "Istanbulspor",
+   "lg",
+   72
+  ],
+  [
+   "2023-10-21",
+   "Galatasaray",
+   "lg",
+   78
+  ],
+  [
+   "2023-10-26",
+   "FK Bodø/Glimt",
+   "ecg",
+   84
+  ],
+  [
+   "2023-11-26",
+   "Samsunspor",
+   "lg",
+   45
+  ],
+  [
+   "2023-11-30",
+   "Club Brugge KV",
+   "ecg",
+   90
+  ],
+  [
+   "2023-12-03",
+   "MKE Ankaragücü",
+   "lg",
+   72
+  ],
+  [
+   "2023-12-09",
+   "Fenerbahce",
+   "lg",
+   26
+  ],
+  [
+   "2024-02-19",
+   "Konyaspor",
+   "lg",
+   9
+  ],
+  [
+   "2024-02-25",
+   "Istanbulspor",
+   "lg",
+   13
+  ],
+  [
+   "2024-03-03",
+   "Galatasaray",
+   "lg",
+   10
+  ],
+  [
+   "2024-03-11",
+   "Gaziantep FK",
+   "lg",
+   28
+  ],
+  [
+   "2024-03-16",
+   "Antalyaspor",
+   "lg",
+   30
+  ],
+  [
+   "2024-04-04",
+   "Basaksehir FK",
+   "lg",
+   71
+  ],
+  [
+   "2024-04-13",
+   "Samsunspor",
+   "lg",
+   13
+  ],
+  [
+   "2024-04-19",
+   "MKE Ankaragücü",
+   "lg",
+   14
+  ],
+  [
+   "2024-04-23",
+   "MKE Ankaragücü",
+   "dsf",
+   1
+  ],
+  [
+   "2024-05-03",
+   "Caykur Rizespor",
+   "lg",
+   4
+  ],
+  [
+   "2024-05-18",
+   "Hatayspor",
+   "lg",
+   19
+  ],
+  [
+   "2024-05-23",
+   "Trabzonspor",
+   "df",
+   15
+  ],
+  [
+   "2024-09-15",
+   "Alanyaspor",
+   "lg",
+   31
+  ],
+  [
+   "2024-09-20",
+   "Bodrum FK",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-05",
+   "Trabzonspor",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-20",
+   "Sivasspor",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-26",
+   "Kayserispor",
+   "lg",
+   90
+  ],
+  [
+   "2024-10-30",
+   "Inegöl Kafkas SK",
+   "dc",
+   45
+  ],
+  [
+   "2024-11-03",
+   "Eyüpspor",
+   "lg",
+   90
+  ],
+  [
+   "2024-11-09",
+   "Gaziantep FK",
+   "lg",
+   63
+  ],
+  [
+   "2024-11-24",
+   "Konyaspor",
+   "lg",
+   22
+  ],
+  [
+   "2024-12-02",
+   "Beşiktaş JK",
+   "lg",
+   78
+  ],
+  [
+   "2024-12-05",
+   "Osmaniyespor FK",
+   "dc",
+   27
+  ],
+  [
+   "2024-12-08",
+   "Basaksehir FK",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-15",
+   "Göztepe",
+   "lg",
+   90
+  ],
+  [
+   "2024-12-19",
+   "Iskenderunspor",
+   "dc",
+   45
+  ],
+  [
+   "2024-12-23",
+   "Adana Demirspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-05",
+   "Fenerbahce",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-11",
+   "Caykur Rizespor",
+   "lg",
+   69
+  ],
+  [
+   "2025-01-17",
+   "Galatasaray",
+   "lg",
+   90
+  ],
+  [
+   "2025-01-27",
+   "Kasimpasa",
+   "lg",
+   77
+  ],
+  [
+   "2025-02-01",
+   "Antalyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-07",
+   "Samsunspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-02-16",
+   "Alanyaspor",
+   "lg",
+   76
+  ],
+  [
+   "2025-03-08",
+   "Trabzonspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-16",
+   "Sivasspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-03-28",
+   "Kayserispor",
+   "lg",
+   45
+  ],
+  [
+   "2025-04-06",
+   "Eyüpspor",
+   "lg",
+   90
+  ],
+  [
+   "2025-04-13",
+   "Gaziantep FK",
+   "lg",
+   83
+  ],
+  [
+   "2025-04-18",
+   "Konyaspor",
+   "lg",
+   81
+  ],
+  [
+   "2025-10-26",
+   "FK Gabala",
+   "lg",
+   20
+  ],
+  [
+   "2025-10-29",
+   "MOIK Baku",
+   "dc",
+   45
+  ],
+  [
+   "2025-11-01",
+   "Kapaz PFK",
+   "lg",
+   68
+  ],
+  [
+   "2025-11-09",
+   "Qarabağ FK",
+   "lg",
+   76
+  ],
+  [
+   "2025-11-23",
+   "FC Imishli",
+   "lg",
+   76
+  ],
+  [
+   "2025-11-28",
+   "Turan-Tovuz IK",
+   "lg",
+   90
+  ],
+  [
+   "2025-12-02",
+   "Zira FC",
+   "dc",
+   120
+  ],
+  [
+   "2025-12-08",
+   "Sabah FK",
+   "lg",
+   61
+  ],
+  [
+   "2025-12-15",
+   "Sumgayit PFC",
+   "lg",
+   17
+  ],
+  [
+   "2025-12-20",
+   "Karvan Yevlakh",
+   "lg",
+   7
+  ],
+  [
+   "2026-01-23",
+   "Zira FC",
+   "lg",
+   30
+  ],
+  [
+   "2026-02-01",
+   "Araz-Nakhchivan",
+   "lg",
+   25
+  ],
+  [
+   "2026-02-15",
+   "Kapaz PFK",
+   "lg",
+   34
+  ],
+  [
+   "2026-02-28",
+   "FC Shamakhi",
+   "lg",
+   45
+  ],
+  [
+   "2026-03-09",
+   "Turan-Tovuz IK",
+   "lg",
+   22
+  ],
+  [
+   "2026-04-05",
+   "Sumgayit PFC",
+   "lg",
+   9
+  ],
+  [
+   "2026-04-11",
+   "Araz-Nakhchivan",
+   "lg",
+   6
+  ],
+  [
+   "2026-04-17",
+   "Zira FC",
+   "lg",
+   3
+  ],
+  [
+   "2026-09-03",
+   "Esenler Erokspor",
+   "lg",
+   20
+  ],
+  [
+   "2026-09-07",
+   "Mardin 1969 Spor",
+   "lg",
+   27
+  ],
+  [
+   "2026-09-12",
+   "Batman Petrolspor",
+   "lg",
+   88
+  ],
+  [
+   "2026-09-20",
+   "Pendikspor",
+   "lg",
+   88
+  ],
+  [
+   "2026-10-09",
+   "Ankara Keciörengücü",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-13",
+   "Sariyer",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-17",
+   "Bandirma Spor",
+   "lg",
+   90
+  ],
+  [
+   "2026-10-25",
+   "Antalyaspor",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-01",
+   "Ümraniyespor",
+   "lg",
+   90
+  ],
+  [
+   "2026-11-08",
+   "Boluspor",
+   "lg",
+   58
+  ]
+ ],
+ "note": "뱅상 아부바카르(발랑시엔·로리앙·포르투·베식타시·알나스르·하타이스포르·네프치 바쿠·보드룸)의 클럽 공식 경기 456경기(2010.8.7 니스전 ~ 2026.11.8 볼루스포르전)에서 나온 185골 40도움(PK 골 18개), 친선경기·카메룬 대표팀(연령별 포함) 제외\n클럽별 경기·골·도움: 발랑시엔(2010~2013) 81·15·5, 로리앙(2013~2014) 38·17·6, 포르투(2014~2016, 2017~2020) 125·58·8, 베식타시(2016~2017, 2020~2021, 2023~2024) 117·60·14, 알나스르(2021~2023) 39·13·5, 하타이스포르(2024~2025) 28·8·2, 네프치 바쿠(2025~2026) 18·9·0, 보드룸(2026~) 10·5·0. 출전 분 합계 29,904분(Transfermarkt 기록, 2경기 고침)\n출처: 경기 목록·출전 분(교체·연장·퇴장 반영)은 Transfermarkt 선수 경기 성적(1군 공식 경기 456경기), 골 시각·골 순서·PK·도움은 Transfermarkt 경기 기록(전 경기). 클럽·시즌·대회별 경기 수와 골은 영어·프랑스어 위키백과 경력 표와 같음(영어판의 로리앙 2013-14 리그컵 0경기·발랑시엔 2012-13 프랑스컵 0경기 1골은 그 표 합계 행과도 맞지 않는 오기, 프랑스어판 보드룸 7경기 4골은 갱신 전 값). 골 180개(151경기)는 FotMob 경기 기록과 대조해 골 수·PK가 모두 같음(시각 1~2분·추가시간 표기 차이 26건은 Transfermarkt 기준). FotMob에 골 기록이 없는 5골은 다른 출처로 확인: 2012.1.6 프랑스컵 르망 원정 73분(ESPN 경기 기록·maxifoot), 2017.10.13 타사 드 포르투갈 루지타누전(레스텔루) 20·21분(CM·DN 경기 기사), 2025.10.29 아제르바이잔컵 MOIK 바쿠전 8·42분(T24 기사의 2골, 시각은 playerstats 경기 기록과 Transfermarkt가 같음). 2017.11.17 타사 드 포르투갈 포르티모넨스전(3-2)은 Transfermarkt가 아부바카르 골을 90+3분 결승골(2-2 뒤)로 적었지만 CM 기사(아부바카르 90+1분·브라이미 90+6분)·Bola na Rede 기사(아부바카르 90분, 브라이미 4분 뒤)·FotMob 모두 아부바카르가 1-2에서 넣은 동점골이라 90+1분 동점골로 넣음\n범위: 코통 스포르(카메룬 1부) 2009-10은 위키백과 시즌 합계(15경기 7골, 영어판 '출처 필요', 프랑스어판 본문은 리그 득점왕 20골로 서로 다름)만 있고 Transfermarkt·FotMob·경기 기록이 없어 넣지 않음. 2군 경기(발랑시엔 B 2012-13 프랑스 4부 CFA 3경기 1골, 포르투 B 2019.8.17 포르투갈 2부 1경기)는 넣지 않음\n도움: Transfermarkt 경기 기록 도움 58개(본인 PK 골에 본인을 PK 유도 도움으로 적은 4개 — 2014.8.10 모나코, 2017.12.10 세투발, 2017.12.21 히우 아브, 2025.11.23 이미실리 — 는 처음부터 셈하지 않음) 중 40개를 넣고 18개를 뺌 — PK 유도 3개(2012.3.24 렌 다닉, 2013.11.23 에비앙 주프레, 2013.12.7 렌 주프레), 슈팅 리바운드('Shot on goal') 3개(2012.5.6 PSG 고미스, 2013.5.5 PSG 다닉, 2017.12.14 비토리아 기마랑이스 안드레 안드레), 상대 자책골 유도 1개(2012.4.29 니스 디가르 자책골, 유형 'Shot on goal'), 2013.9.22 보르도의 8분 디아바테 PK 골(아부바카르의 핸드볼 반칙을 도움 칸에 적은 행; 선수 합계에는 없음), 2014.8 이후 Transfermarkt만 적고 다른 출처 2곳으로 확인하지 못한 10개: 2015.4.6 이스토릴전 다닐루(Gazeta Esportiva 한 곳), 2015.4.11 히우 아브 원정 에르나니, 2015.5.22 페나피엘전 다닐루(FourFourTwo 한 곳), 2016.3.2 타사 준결승 질 비센트전 마레가, 2017.9.22 포르티모넨스전 브라이미·2017.10.21 파수스 드 페헤이라전 마레가·2017.12.10 세투발 원정 마레가(셋 다 ESPN 경기 기록 한 곳, 기사는 연계 플레이로만 적거나 언급 없음), 2022.2.21 킹스컵 알힐랄전 탈리스카(기사마다 도움 선수가 다름), 2022.12.21 킹스컵 알아달라전 알나제이, 2025.10.26 가발라 원정 이페아니 매슈. 2014.8 이후 Transfermarkt 단독 도움 중 4개는 경기 기사 2곳 이상으로 확인해 넣음: 2015.3.6 브라가 원정 텔루(Bola na Rede·Combination Play), 2015.9.12 아로우카 원정 코로나(Sports Mole·El Universal·ESPN), 2018.5.6 페이렌스전 브라이미(RTP·Bola na Rede·ESPN), 2018.8.4 수페르타사 아베스전 브라이미 동점골(Bola na Rede·Observador). 나머지는 Transfermarkt·FotMob 경기 기록이 같은 도움 29개(2014.8 이후 25개)와 2014.8 이전 Transfermarkt 단독 도움(패스·크로스·헤더) 7개(선례대로 넣음). FotMob에만 있는 도움은 없음\n출전 분: Transfermarkt 그대로이고 2경기만 고침 — 2016.5.22 타사 드 포르투갈 결승 브라가전(2-2, 연장 뒤 승부차기)은 79분 교체 투입이라 41분(Transfermarkt는 90분까지 11분으로 셈; 위키백과 결승 문서 연장·79분 투입), 2018.9.22 세투발 원정은 Transfermarkt 63분 교체 아웃이지만 FotMob 73분·ESPN 74분 교체라 73분. 선발인데 출전 분이 짧은 경기는 퇴장(2016.12.6 챔스 디나모 키이우 원정 56분, 2017.3.16 유로파 올림피아코스전 39분, 2017.3.19 안탈리아스포르전 64분 — FotMob 선수 기록 90분은 오기, 2026.11.8 볼루스포르전 58분)이고 2011.1.8 프랑스컵 앙제 원정(연장)은 119분 퇴장. 2021.3.16 튀르키예컵 준결승 바샥셰히르전(연장)은 46분 교체 아웃(FotMob 교체 기록도 46분; FotMob 선수 기록 120분은 오기). 2018.1.24 타사 다 리가 준결승은 연장 없이 승부차기라 90분 기준\n날짜: 경기 현지 날짜(프랑스·포르투갈·튀르키예·사우디·아제르바이잔 시각). 승부차기 골은 셈하지 않음\n대회 비중: 리그1, 포르투갈 1부, 쉬페르리그, 사우디 프로리그, 아제르바이잔 1부, 튀르키예 2부는 리그. 프랑스컵·쿠프 드 라 리그·타사 드 포르투갈·타사 다 리가(조별은 리그식)·튀르키예컵(2016-17 조별은 리그식)·킹스컵·아제르바이잔컵은 국내컵(16강까지 낮은 비중, 8강부터 높은 비중·준결승·결승), 수페르타사(포르투갈 슈퍼컵) 결승은 국내컵 결승. 챔스 예선·조별·16강, 유로파 조별·32강·16강, 컨퍼런스 예선·조별, AFC 챔스 16강(단판)·8강·준결승은 각 단계 비중. 두 경기 합산 10행(10경기): 2020-21까지 UEFA 대회와 타사 드 포르투갈 준결승은 원정 다득점·연장, 2023-24 컨퍼런스 예선은 원정 다득점 없이 연장. 2019 챔스 예선 크라스노다르전과 2023 컨퍼런스 예선 세 라운드는 Transfermarkt에 차전 연결이 없어 날짜·상대로 짝지음\n리그 수준: 같은 경기·같은 팀×시즌이 다른 선수 자료에 있으면 그 값, 없으면 리그 모형(시즌 평균 + 순위, 표 있는 시즌은 그 시즌 승점·득실). 순위 출처: 프랑스·포르투갈·튀르키예·사우디·아제르바이잔·알바니아·우크라이나·이란은 Transfermarkt 최종 순위표(아제르바이잔 2025-26·알바니아·이란은 영어 위키백과 시즌 문서와 대조), 튀르키예 2부 2026-27은 진행 중 시즌이라 2026년 11월 25일 현재 순위. 2021.9.14 AFC 챔스 16강 트랙토르는 이란 2021-22 리그가 10월에 시작해 직전 2020-21 시즌 4위. 하부 리그 상대(리그 수준 추정): 루지타누 GC 2017-18은 에보라 지역 1부 4위/14팀(영어 위키백과 클럽 문서 시즌 표; 포르투갈 4부로 봄), MOIK 바쿠 2025-26은 아제르바이잔 2부 6위/10팀(영어 위키백과 2025–26 Azerbaijan First League), 오스마니예스포르 2024-25는 튀르키예 4부 3조 8위/16팀(Transfermarkt)\n시즌 구분: 베식타시는 7월 10일 기준(2023.7.27 컨퍼런스 예선 = 2023-24), 그 밖은 8월 1일 기준. AFC 챔스 2021 토너먼트(2021년 9~10월)는 2021-22. 클럽 구분은 Transfermarkt 이적일(2013.7.1 로리앙, 2014.8.24 포르투, 2016.8.29 베식타시 임대, 2017.7.1 포르투 복귀, 2020.9.25 베식타시, 2021.7.1 알나스르, 2023.1.21 베식타시, 2024.9.9 하타이스포르, 2025.10.21 네프치 바쿠, 2026.8.28 보드룸)\n우승·수상은 Transfermarkt 업적 페이지 기준: 리그1 없음, 포르투갈 1부 2017-18·2019-20, 타사 드 포르투갈 2019-20, 수페르타사 2018-19(2018.8.4 결승, 도움 1)(포르투), 쉬페르리그 2016-17·2020-21, 튀르키예컵 2020-21·2023-24, 튀르키예 슈퍼컵 2024-25(베식타시 — 2024.8.3 결승에는 명단에 없었고 그 시즌 베식타시 공식 경기 출전도 없지만 9월 이적 전까지 1군 명단에 있었고 Transfermarkt 업적에 있어 넣음; 사용자 확인 필요). 코통 스포르의 카메룬 1부 2009-10 우승(위키백과)은 그 시즌을 넣지 않아 빼고, 아프리카 네이션스컵 2017 우승·2021 득점왕은 대표팀 기록이라 넣지 않음\n현역: 보드룸(튀르키예 2부). 마지막 반영 경기 2026.11.8 튀르키예 2부 14라운드 볼루스포르전(선발, 58분 퇴장, 0골). 2026.11.23 반스포르전은 결장. 자료 기준일 2026.11.25",
+ "judgments": [
+  [
+   "도움 제외",
+   "2012-03-24",
+   "Stade Rennais FC",
+   "13",
+   "Gaël Danic",
+   "PK 유도('Penalty: Fouled player')"
+  ],
+  [
+   "도움 제외",
+   "2012-04-29",
+   "OGC Nice",
+   "54",
+   "Didier Digard",
+   "상대 자책골 유도"
+  ],
+  [
+   "도움 제외",
+   "2012-05-06",
+   "Paris Saint-Germain",
+   "11",
+   "Rémi Gomis",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2013-05-05",
+   "Paris Saint-Germain",
+   "17",
+   "Gaël Danic",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2013-09-22",
+   "FC Girondins Bordeaux",
+   "8",
+   "Cheick Diabaté",
+   "상대 골(아부바카르 핸드볼 반칙으로 준 PK)을 도움으로 적은 행"
+  ],
+  [
+   "도움 제외",
+   "2013-11-23",
+   "FC Évian Thonon Gaillard",
+   "87",
+   "Yann Jouffre",
+   "PK 유도('Penalty: Fouled player')"
+  ],
+  [
+   "도움 제외",
+   "2013-12-07",
+   "Stade Rennais FC",
+   "8",
+   "Yann Jouffre",
+   "PK 유도('Penalty: Fouled player')"
+  ],
+  [
+   "도움 제외",
+   "2015-04-06",
+   "GD Estoril Praia",
+   "70",
+   "Danilo",
+   "2015.4.6 이스토릴전 70분 다닐루 골: Gazeta Esportiva 기사만 '아부바카르 뒤꿈치 패스'로 확인(beIN 기사는 검색 요약에만 보여 원문 확인 못 함)"
+  ],
+  [
+   "도움 제외",
+   "2015-04-11",
+   "Rio Ave FC",
+   "83",
+   "Hernâni",
+   "2015.4.11 히우 아브 원정 83분 에르나니 골: RTP 문자 중계(zerozero 제공, 쓰지 않는 출처)만 아부바카르 패스, 다른 출처 확인 못 함"
+  ],
+  [
+   "도움 제외",
+   "2015-05-22",
+   "FC Penafiel",
+   "90",
+   "Danilo",
+   "2015.5.22 페나피엘전 다닐루 골(90+2분): FourFourTwo(통신 기사) 한 곳만 아부바카르 스루패스, CM·Bola na Rede 기사에 도움 언급 없음"
+  ],
+  [
+   "도움 제외",
+   "2016-03-02",
+   "Gil Vicente FC",
+   "81",
+   "Moussa Marega",
+   "2016.3.2 타사 준결승 2차전 질 비센트전 81분 마레가 골: Bola na Rede 기사에 도움 언급 없음, 다른 출처 확인 못 함"
+  ],
+  [
+   "도움 제외",
+   "2017-09-22",
+   "Portimonense SAD",
+   "68",
+   "Yacine Brahimi",
+   "2017.9.22 포르티모넨스전 68분 브라이미 골: ESPN(옵타) 경기 기록만 아부바카르 도움, FotMob 선수 기록 도움 0, 다른 기사 확인 못 함"
+  ],
+  [
+   "도움 제외",
+   "2017-10-21",
+   "FC Paços de Ferreira",
+   "25",
+   "Moussa Marega",
+   "2017.10.21 파수스 드 페헤이라전 25분 마레가 골: ESPN(옵타)만 아부바카르 도움, CM·Bola na Rede 기사는 '브라이미·아부바카르·마레가의 연계'로만 적음"
+  ],
+  [
+   "도움 제외",
+   "2017-12-10",
+   "Vitória Setúbal FC",
+   "82",
+   "Moussa Marega",
+   "2017.12.10 세투발 원정 82분 마레가 골: ESPN(옵타)만 아부바카르 도움, FotMob 선수 기록 도움 0, PortuGOAL·Bola na Rede 기사에 도움 언급 없음"
+  ],
+  [
+   "도움 제외",
+   "2017-12-14",
+   "Vitória Guimarães SC",
+   "65",
+   "André André",
+   "슈팅 리바운드('Shot on goal')"
+  ],
+  [
+   "도움 제외",
+   "2022-02-21",
+   "Al-Hilal SFC",
+   "17",
+   "Talisca",
+   "2022.2.21 킹스컵 8강 알힐랄전 17분 탈리스카 골: Soccernet은 아부바카르, The Eagle Online은 조나탄 로드리게스 크로스로 출처가 갈림, FotMob 도움 없음"
+  ],
+  [
+   "도움 제외",
+   "2022-12-21",
+   "Al-Adalah FC",
+   "85",
+   "Sami Al-Najei",
+   "2022.12.21 킹스컵 16강 알아달라전 85분 알나제이 골: 다른 출처 확인 못 함, FotMob 도움 없음"
+  ],
+  [
+   "도움 제외",
+   "2025-10-26",
+   "FK Gabala",
+   "72",
+   "Ifeanyi Mathew",
+   "2025.10.26 가발라 원정 72분 이페아니 매슈 골: playerstats 경기 기록에 도움 없음, 다른 출처 확인 못 함, FotMob 도움 없음"
+  ]
+ ],
+ "assist_status": [
+  [
+   "2015-03-06",
+   "2512209",
+   "73",
+   "Cristian Tello",
+   "넣음: 2015.3.6 브라가 원정 73분 텔루 골: Bola na Rede 경기 기사('아부바카르가 돌아서 텔루에게 내줌')·Combination Play 경기 기사('Aboubakar left Tello one on one')"
+  ],
+  [
+   "2015-04-06",
+   "2526205",
+   "70",
+   "Danilo",
+   "뺌: 2015.4.6 이스토릴전 70분 다닐루 골: Gazeta Esportiva 기사만 '아부바카르 뒤꿈치 패스'로 확인(beIN 기사는 검색 요약에만 보여 원문 확인 못 함)"
+  ],
+  [
+   "2015-04-11",
+   "2526214",
+   "83",
+   "Hernâni",
+   "뺌: 2015.4.11 히우 아브 원정 83분 에르나니 골: RTP 문자 중계(zerozero 제공, 쓰지 않는 출처)만 아부바카르 패스, 다른 출처 확인 못 함"
+  ],
+  [
+   "2015-05-22",
+   "2526268",
+   "90",
+   "Danilo",
+   "뺌: 2015.5.22 페나피엘전 다닐루 골(90+2분): FourFourTwo(통신 기사) 한 곳만 아부바카르 스루패스, CM·Bola na Rede 기사에 도움 언급 없음"
+  ],
+  [
+   "2015-09-12",
+   "2609345",
+   "15",
+   "Jesús Corona",
+   "넣음: 2015.9.12 아로우카 원정 15분 코로나 골: Sports Mole 기사('Aboubakar … teeing up Corona')·El Universal 기사('a pass from Aboubakar')·ESPN 경기 기록"
+  ],
+  [
+   "2015-10-20",
+   "2618582",
+   "41",
+   "Yacine Brahimi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2016-03-02",
+   "2656226",
+   "81",
+   "Moussa Marega",
+   "뺌: 2016.3.2 타사 준결승 2차전 질 비센트전 81분 마레가 골: Bola na Rede 기사에 도움 언급 없음, 다른 출처 확인 못 함"
+  ],
+  [
+   "2016-10-23",
+   "2722662",
+   "89",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-04-30",
+   "2722852",
+   "87",
+   "Demba Ba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-05-15",
+   "2722869",
+   "65",
+   "Cenk Tosun",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-05-20",
+   "2722879",
+   "49",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-09-22",
+   "2883706",
+   "68",
+   "Yacine Brahimi",
+   "뺌: 2017.9.22 포르티모넨스전 68분 브라이미 골: ESPN(옵타) 경기 기록만 아부바카르 도움, FotMob 선수 기록 도움 0, 다른 기사 확인 못 함"
+  ],
+  [
+   "2017-10-21",
+   "2883727",
+   "25",
+   "Moussa Marega",
+   "뺌: 2017.10.21 파수스 드 페헤이라전 25분 마레가 골: ESPN(옵타)만 아부바카르 도움, CM·Bola na Rede 기사는 '브라이미·아부바카르·마레가의 연계'로만 적음"
+  ],
+  [
+   "2017-11-01",
+   "2917418",
+   "90+3",
+   "Maxi Pereira",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-12-06",
+   "2917450",
+   "45",
+   "Yacine Brahimi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2017-12-10",
+   "2883773",
+   "82",
+   "Moussa Marega",
+   "뺌: 2017.12.10 세투발 원정 82분 마레가 골: ESPN(옵타)만 아부바카르 도움, FotMob 선수 기록 도움 0, PortuGOAL·Bola na Rede 기사에 도움 언급 없음"
+  ],
+  [
+   "2018-05-06",
+   "2884524",
+   "59",
+   "Yacine Brahimi",
+   "넣음: 2018.5.6 페이렌스전 59분 브라이미 골: RTP 경기 기사('아부바카르의 로빙 패스')·Bola na Rede 기사('Passe picado de Aboubakar')·ESPN(EFE) 기사·ESPN 경기 기록"
+  ],
+  [
+   "2018-08-04",
+   "3052465",
+   "25",
+   "Yacine Brahimi",
+   "넣음: 2018.8.4 수페르타사 아베스전 25분 브라이미 동점골: Bola na Rede 기사('아부바카르가 되돌려 준 공')·Observador 기사('아부바카르와 완벽한 2대1 패스')"
+  ],
+  [
+   "2018-08-11",
+   "3069372",
+   "45",
+   "Yacine Brahimi",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2020-10-26",
+   "3426849",
+   "13",
+   "Atiba Hutchinson",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-01-06",
+   "3426954",
+   "56",
+   "Oğuzhan Özyakup",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-02-26",
+   "3427059",
+   "39",
+   "Adem Ljajic",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-03-02",
+   "3427069",
+   "59",
+   "Atiba Hutchinson",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-03-12",
+   "3427088",
+   "42",
+   "Cyle Larin",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-11-26",
+   "3643148",
+   "76",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-12-16",
+   "3643135",
+   "90",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2021-12-26",
+   "3643167",
+   "14",
+   "Khalid Al-Ghannam",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-01-01",
+   "3643153",
+   "75",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2022-02-21",
+   "3718406",
+   "17",
+   "Talisca",
+   "뺌: 2022.2.21 킹스컵 8강 알힐랄전 17분 탈리스카 골: Soccernet은 아부바카르, The Eagle Online은 조나탄 로드리게스 크로스로 출처가 갈림, FotMob 도움 없음"
+  ],
+  [
+   "2022-12-21",
+   "3988655",
+   "85",
+   "Sami Al-Najei",
+   "뺌: 2022.12.21 킹스컵 16강 알아달라전 85분 알나제이 골: 다른 출처 확인 못 함, FotMob 도움 없음"
+  ],
+  [
+   "2022-12-26",
+   "3901082",
+   "56",
+   "Talisca",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-03-12",
+   "3860512",
+   "55",
+   "Arthur Masuaku",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-06-03",
+   "3860426",
+   "30",
+   "Cenk Tosun",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-07-27",
+   "4132466",
+   "42",
+   "Jackson Muleka",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-09-03",
+   "4126828",
+   "40",
+   "Milot Rashica",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2023-09-21",
+   "4172266",
+   "88",
+   "Cenk Tosun",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2024-10-05",
+   "4393177",
+   "14",
+   "Görkem Sağlam",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-01-27",
+   "4393290",
+   "15",
+   "Bilal Boutobba",
+   "TM+FotMob 이벤트"
+  ],
+  [
+   "2025-10-26",
+   "4738660",
+   "72",
+   "Ifeanyi Mathew",
+   "뺌: 2025.10.26 가발라 원정 72분 이페아니 매슈 골: playerstats 경기 기록에 도움 없음, 다른 출처 확인 못 함, FotMob 도움 없음"
+  ]
+ ],
+ "fotmob_only_assists": [],
+ "cross_check": [
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2014-10-25",
+   87,
+   "FC Arouca",
+   "같음"
+  ],
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2015-03-15",
+   32,
+   "FC Arouca",
+   "같음"
+  ],
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2015-04-06",
+   45,
+   "GD Estoril Praia",
+   "같음"
+  ],
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2016-10-19",
+   86,
+   "SSC Napoli",
+   "같음"
+  ],
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2016-11-23",
+   89,
+   "SL Benfica",
+   "같음"
+  ],
+  [
+   "타인 도움(아부바카르 골)",
+   "qua.js",
+   "2017-05-07",
+   46,
+   "Fenerbahce",
+   "같음"
+  ]
+ ],
+ "fotmob_goal_diffs": [
+  [
+   "다름",
+   "1055908",
+   "2010-10-26",
+   "84",
+   "",
+   "86",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "1163593",
+   "2012-01-29",
+   "47",
+   "Right-footed shot",
+   "48",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2330925",
+   "2013-11-23",
+   "7",
+   "Right-footed shot",
+   "6",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2330947",
+   "2013-12-14",
+   "39",
+   "Header",
+   "38",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2330988",
+   "2013-12-22",
+   "60",
+   "Right-footed shot",
+   "59",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2482114",
+   "2014-08-10",
+   "9",
+   "Penalty",
+   "10",
+   "",
+   "penalty",
+   "Pen"
+  ],
+  [
+   "다름",
+   "2586586",
+   "2015-08-15",
+   "62",
+   "Right-footed shot",
+   "61",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2618582",
+   "2015-10-20",
+   "37",
+   "Header",
+   "38",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2609441",
+   "2015-12-20",
+   "54",
+   "Header",
+   "53",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2613621",
+   "2016-03-12",
+   "25",
+   "Left-footed shot",
+   "24",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2722662",
+   "2016-10-23",
+   "45",
+   "Right-footed shot",
+   "45",
+   "1",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2722735",
+   "2016-12-24",
+   "40",
+   "Left-footed shot",
+   "41",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2722772",
+   "2017-02-10",
+   "87",
+   "Right-footed shot",
+   "88",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2722808",
+   "2017-03-12",
+   "55",
+   "Tap-in",
+   "56",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2883646",
+   "2017-08-20",
+   "21",
+   "Tap-in",
+   "22",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "2883807",
+   "2018-01-07",
+   "57",
+   "Right-footed shot",
+   "58",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3252521",
+   "2019-11-28",
+   "75",
+   "Right-footed shot",
+   "76",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3638712",
+   "2021-08-13",
+   "80",
+   "Right-footed shot",
+   "81",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3638728",
+   "2021-08-26",
+   "90+2",
+   "Right-footed shot",
+   "90",
+   "1",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3860374",
+   "2023-03-05",
+   "55",
+   "Right-footed shot",
+   "54",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3860395",
+   "2023-04-09",
+   "45+5",
+   "Right-footed shot",
+   "45",
+   "4",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "3860489",
+   "2023-04-30",
+   "90+3",
+   "Counter attack goal",
+   "90",
+   "4",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "4393251",
+   "2024-12-23",
+   "25",
+   "Right-footed shot",
+   "26",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "4764768",
+   "2025-11-23",
+   "11",
+   "Penalty",
+   "10",
+   "",
+   "penalty",
+   "Pen"
+  ],
+  [
+   "다름",
+   "4821584",
+   "2026-02-28",
+   "60",
+   "Right-footed shot",
+   "59",
+   "",
+   "",
+   ""
+  ],
+  [
+   "다름",
+   "4852138",
+   "2026-04-05",
+   "89",
+   "Tap-in",
+   "88",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "elo_sources": {
+  "순위표 → 라벨": 51,
+  "기존 팀×시즌 값": 156,
+  "같은 경기 다른 선수 자료": 13,
+  "직접 라벨(순위표 밖)": 5
+ },
+ "new_team_seasons": {
+  "US Boulogne|2010-11": [
+   1391,
+   "리그2 2010-11 8위/20팀"
+  ],
+  "Le Mans FC|2011-12": [
+   1359,
+   "리그2 2011-12 17위/20팀"
+  ],
+  "FC Istres Ouest Provence|2012-13": [
+   1337,
+   "리그2 2012-13 13위/20팀"
+  ],
+  "SC Braga|2014-15": [
+   1687,
+   "포르투갈 1부 2014-15 4위/18팀"
+  ],
+  "Vitória Guimarães SC|2015-16": [
+   1544,
+   "포르투갈 1부 2015-16 10위/18팀"
+  ],
+  "GD Estoril Praia|2015-16": [
+   1585,
+   "포르투갈 1부 2015-16 8위/18팀"
+  ],
+  "FC Arouca|2015-16": [
+   1654,
+   "포르투갈 1부 2015-16 5위/18팀"
+  ],
+  "Vitória Setúbal FC|2015-16": [
+   1445,
+   "포르투갈 1부 2015-16 16위/18팀"
+  ],
+  "CD Feirense|2015-16": [
+   1469,
+   "포르투갈 2부 2015-16 3위/24팀 (Liga Portugal 2)"
+  ],
+  "Boavista FC|2015-16": [
+   1492,
+   "포르투갈 1부 2015-16 14위/18팀"
+  ],
+  "CF União Madeira|2015-16": [
+   1433,
+   "포르투갈 1부 2015-16 17위/18팀"
+  ],
+  "Trabzonspor|2016-17": [
+   1533,
+   "쉬페르리그 2016-17 6위/18팀"
+  ],
+  "Lusitano GC|2017-18": [
+   1094,
+   "포르투갈 4부 2017-18 4위/14팀 (AF Évora 1ª Divisão, 리그 수준 추정)"
+  ],
+  "Kasimpasa|2020-21": [
+   1422,
+   "쉬페르리그 2020-21 14위/21팀"
+  ],
+  "Fatih Karagümrük|2020-21": [
+   1516,
+   "쉬페르리그 2020-21 8위/21팀"
+  ],
+  "Yeni Malatyaspor|2020-21": [
+   1425,
+   "쉬페르리그 2020-21 15위/21팀"
+  ],
+  "Damac FC|2021-22": [
+   1391,
+   "사우디 프로리그 2021-22 5위/16팀"
+  ],
+  "Al-Taawoun FC|2021-22": [
+   1341,
+   "사우디 프로리그 2021-22 12위/16팀"
+  ],
+  "Tractor FC|2021-22": [
+   1390,
+   "이란 1부 2020-21 4위/16팀 (Persian Gulf Pro League)"
+  ],
+  "Abha Club|2021-22": [
+   1329,
+   "사우디 프로리그 2021-22 9위/16팀"
+  ],
+  "Al-Ahli SFC|2021-22": [
+   1331,
+   "사우디 프로리그 2021-22 15위/16팀"
+  ],
+  "Al-Tai FC|2021-22": [
+   1346,
+   "사우디 프로리그 2021-22 6위/16팀"
+  ],
+  "Al-Khaleej FC|2022-23": [
+   1342,
+   "사우디 프로리그 2022-23 14위/16팀"
+  ],
+  "Galatasaray|2022-23": [
+   1797,
+   "쉬페르리그 2022-23 1위/19팀"
+  ],
+  "Adana Demirspor|2022-23": [
+   1662,
+   "쉬페르리그 2022-23 4위/19팀"
+  ],
+  "KF Tirana|2022-23": [
+   1407,
+   "알바니아 1부 2022-23 2위/10팀 (Kategoria Superiore)"
+  ],
+  "KF Tirana|2023-24": [
+   1334,
+   "알바니아 1부 2023-24 5위/10팀 (Kategoria Superiore)"
+  ],
+  "Neftchi PFK|2023-24": [
+   1435,
+   "아제르바이잔 1부 2023-24 5위/10팀 (Azerbaijan Premier League)"
+  ],
+  "Dynamo Kyiv|2023-24": [
+   1636,
+   "우크라이나 1부 2023-24 2위/16팀 (Ukrainian Premier League)"
+  ],
+  "Osmaniyespor FK|2024-25": [
+   1023,
+   "튀르키예 4부 2024-25 8위/16팀 (TFF 3. Lig 3. Grup, 리그 수준 추정)"
+  ],
+  "FK Gabala|2025-26": [
+   1346,
+   "아제르바이잔 1부 2025-26 11위/12팀 (Azerbaijan Premier League)"
+  ],
+  "MOIK Baku|2025-26": [
+   1115,
+   "아제르바이잔 2부 2025-26 6위/10팀 (Azerbaijan First League, 리그 수준 추정)"
+  ],
+  "Kapaz PFK|2025-26": [
+   1330,
+   "아제르바이잔 1부 2025-26 10위/12팀 (Azerbaijan Premier League)"
+  ],
+  "FC Imishli|2025-26": [
+   1363,
+   "아제르바이잔 1부 2025-26 9위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Araz-Nakhchivan|2025-26": [
+   1400,
+   "아제르바이잔 1부 2025-26 6위/12팀 (Azerbaijan Premier League)"
+  ],
+  "FC Shamakhi|2025-26": [
+   1383,
+   "아제르바이잔 1부 2025-26 8위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Sumgayit PFC|2025-26": [
+   1395,
+   "아제르바이잔 1부 2025-26 7위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Batman Petrolspor|2026-27": [
+   1254,
+   "튀르키예 2부 2026-27 4위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Sariyer|2026-27": [
+   1186,
+   "튀르키예 2부 2026-27 14위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Bandirma Spor|2026-27": [
+   1188,
+   "튀르키예 2부 2026-27 13위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Ümraniyespor|2026-27": [
+   1198,
+   "튀르키예 2부 2026-27 11위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ]
+ },
+ "map_need": [],
+ "table_label_diffs": [],
+ "elo_log": {
+  "US Boulogne|2010-10-26": [
+   "model",
+   1391,
+   "리그2 2010-11 8위/20팀"
+  ],
+  "Paris Saint-Germain|2010-12-11": [
+   "table",
+   1732,
+   "리그1 2010-11 4위",
+   "2010-11"
+  ],
+  "FC Toulouse|2010-12-22": [
+   "table",
+   1666,
+   "리그1 2010-11 8위",
+   "2010-11"
+  ],
+  "Olympique Marseille|2011-09-24": [
+   "table",
+   1626,
+   "리그1 2011-12 10위",
+   "2011-12"
+  ],
+  "FC Sochaux-Montbéliard|2011-10-16": [
+   "table",
+   1563,
+   "리그1 2011-12 14위",
+   "2011-12"
+  ],
+  "Le Mans FC|2012-01-06": [
+   "model",
+   1359,
+   "리그2 2011-12 17위/20팀"
+  ],
+  "AC Ajaccio|2012-01-29": [
+   "table",
+   1557,
+   "리그1 2011-12 16위",
+   "2011-12"
+  ],
+  "LOSC Lille|2012-02-08": [
+   "table",
+   1791,
+   "리그1 2011-12 3위",
+   "2011-12"
+  ],
+  "FC Lorient|2012-02-25": [
+   "table",
+   1557,
+   "리그1 2011-12 17위",
+   "2011-12"
+  ],
+  "AS Saint-Étienne|2012-03-10": [
+   "table",
+   1669,
+   "리그1 2011-12 7위",
+   "2011-12"
+  ],
+  "Paris Saint-Germain|2012-05-06": [
+   "table",
+   1817,
+   "리그1 2011-12 2위",
+   "2011-12"
+  ],
+  "SM Caen|2012-05-20": [
+   "table",
+   1544,
+   "리그1 2011-12 18위",
+   "2011-12"
+  ],
+  "FC Lorient|2012-10-20": [
+   "table",
+   1622,
+   "리그1 2012-13 8위",
+   "2012-13"
+  ],
+  "FC Istres Ouest Provence|2013-01-07": [
+   "model",
+   1337,
+   "리그2 2012-13 13위/20팀"
+  ],
+  "Stade Rennais FC|2013-05-11": [
+   "table",
+   1575,
+   "리그1 2012-13 13위",
+   "2012-13"
+  ],
+  "FC Nantes|2013-08-18": [
+   "table",
+   1583,
+   "리그1 2013-14 13위",
+   "2013-14"
+  ],
+  "Valenciennes FC|2013-08-31": [
+   "table",
+   1469,
+   "리그1 2013-14 19위",
+   "2013-14"
+  ],
+  "FC Girondins Bordeaux|2013-09-22": [
+   "table",
+   1632,
+   "리그1 2013-14 7위",
+   "2013-14"
+  ],
+  "AS Saint-Étienne|2013-10-20": [
+   "table",
+   1731,
+   "리그1 2013-14 4위",
+   "2013-14"
+  ],
+  "FC Sochaux-Montbéliard|2013-10-26": [
+   "table",
+   1527,
+   "리그1 2013-14 18위",
+   "2013-14"
+  ],
+  "FC Évian Thonon Gaillard|2013-11-23": [
+   "table",
+   1563,
+   "리그1 2013-14 14위",
+   "2013-14"
+  ],
+  "OGC Nice|2013-11-30": [
+   "table",
+   1551,
+   "리그1 2013-14 17위",
+   "2013-14"
+  ],
+  "Montpellier HSC|2013-12-04": [
+   "table",
+   1560,
+   "리그1 2013-14 15위",
+   "2013-14"
+  ],
+  "AC Ajaccio|2013-12-14": [
+   "table",
+   1430,
+   "리그1 2013-14 20위",
+   "2013-14"
+  ],
+  "Olympique Lyon|2013-12-22": [
+   "table",
+   1679,
+   "리그1 2013-14 5위",
+   "2013-14"
+  ],
+  "EA Guingamp|2014-01-18": [
+   "table",
+   1560,
+   "리그1 2013-14 16위",
+   "2013-14"
+  ],
+  "AS Monaco|2014-02-01": [
+   "table",
+   1798,
+   "리그1 2013-14 2위",
+   "2013-14"
+  ],
+  "Stade Reims|2014-03-29": [
+   "table",
+   1588,
+   "리그1 2013-14 11위",
+   "2013-14"
+  ],
+  "FC Évian Thonon Gaillard|2014-04-05": [
+   "table",
+   1563,
+   "리그1 2013-14 14위",
+   "2013-14"
+  ],
+  "OGC Nice|2014-04-12": [
+   "table",
+   1551,
+   "리그1 2013-14 17위",
+   "2013-14"
+  ],
+  "Montpellier HSC|2014-04-20": [
+   "table",
+   1560,
+   "리그1 2013-14 15위",
+   "2013-14"
+  ],
+  "AS Monaco|2014-08-10": [
+   "table",
+   1759,
+   "리그1 2014-15 3위",
+   "2014-15"
+  ],
+  "BATE Borisov|2014-09-17": [
+   "table",
+   1537,
+   "벨라루스 1부 2014 1위/12팀 (Belarusian Premier League)",
+   "2014"
+  ],
+  "FC Arouca|2014-10-25": [
+   "same",
+   1457,
+   "포르투갈 1부 2014-15 16위",
+   [
+    "qua.js"
+   ]
+  ],
+  "Shakhtar Donetsk|2014-12-10": [
+   "table",
+   1768,
+   "우크라이나 1부 2014-15 2위/14팀 (Ukrainian Premier League)",
+   "2014-15"
+  ],
+  "Rio Ave FC|2014-12-30": [
+   "table",
+   1556,
+   "포르투갈 1부 2014-15 10위 (추정, 다른 선수 자료 18팀 시즌 9위 1576·11위 1546의 가운데)",
+   "2014-15"
+  ],
+  "SC Braga|2015-03-06": [
+   "model",
+   1687,
+   "포르투갈 1부 2014-15 4위/18팀"
+  ],
+  "FC Basel 1893|2015-03-10": [
+   "table",
+   1706,
+   "스위스 1부 2014-15 1위/10팀 (국가 계수 추정)",
+   "2014-15"
+  ],
+  "FC Arouca|2015-03-15": [
+   "same",
+   1457,
+   "포르투갈 1부 2014-15 16위",
+   [
+    "qua.js"
+   ]
+  ],
+  "GD Estoril Praia|2015-04-06": [
+   "same",
+   1529,
+   "포르투갈 1부 2014-15 12위",
+   [
+    "qua.js"
+   ]
+  ],
+  "FC Penafiel|2015-05-22": [
+   "table",
+   1418,
+   "포르투갈 1부 2014-15 18위",
+   "2014-15"
+  ],
+  "Vitória Guimarães SC|2015-08-15": [
+   "model",
+   1544,
+   "포르투갈 1부 2015-16 10위/18팀"
+  ],
+  "GD Estoril Praia|2015-08-29": [
+   "model",
+   1585,
+   "포르투갈 1부 2015-16 8위/18팀"
+  ],
+  "FC Arouca|2015-09-12": [
+   "model",
+   1654,
+   "포르투갈 1부 2015-16 5위/18팀"
+  ],
+  "Dynamo Kyiv|2015-09-16": [
+   "table",
+   1826,
+   "우크라이나 1부 2015-16 1위/14팀 (Ukrainian Premier League)",
+   "2015-16"
+  ],
+  "Maccabi Tel Aviv|2015-10-20": [
+   "table",
+   1569,
+   "이스라엘 1부 2015-16 2위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "2015-16"
+  ],
+  "Vitória Setúbal FC|2015-11-08": [
+   "model",
+   1445,
+   "포르투갈 1부 2015-16 16위/18팀"
+  ],
+  "CD Feirense|2015-12-16": [
+   "model",
+   1469,
+   "포르투갈 2부 2015-16 3위/24팀 (Liga Portugal 2)"
+  ],
+  "Académica Coimbra|2015-12-20": [
+   "table",
+   1406,
+   "포르투갈 1부 2015-16 18위",
+   "2015-16"
+  ],
+  "CS Marítimo|2015-12-29": [
+   "table",
+   1511,
+   "포르투갈 1부 2015-16 13위",
+   "2015-16"
+  ],
+  "Boavista FC|2016-01-10": [
+   "model",
+   1492,
+   "포르투갈 1부 2015-16 14위/18팀"
+  ],
+  "GD Estoril Praia|2016-01-30": [
+   "model",
+   1585,
+   "포르투갈 1부 2015-16 8위/18팀"
+  ],
+  "FC Arouca|2016-02-07": [
+   "model",
+   1654,
+   "포르투갈 1부 2015-16 5위/18팀"
+  ],
+  "SL Benfica|2016-02-12": [
+   "table",
+   1897,
+   "포르투갈 1부 2015-16 1위",
+   "2015-16"
+  ],
+  "CF União Madeira|2016-03-12": [
+   "model",
+   1433,
+   "포르투갈 1부 2015-16 17위/18팀"
+  ],
+  "CD Nacional|2016-04-17": [
+   "table",
+   1530,
+   "포르투갈 1부 2015-16 11위",
+   "2015-16"
+  ],
+  "SSC Napoli|2016-10-19": [
+   "same",
+   1929,
+   "세리에A 2016-17 3위",
+   [
+    "qua.js"
+   ]
+  ],
+  "Antalyaspor|2016-10-23": [
+   "same",
+   1574,
+   "쉬페르리그 2016-17 5위/18팀",
+   [
+    "qua.js"
+   ]
+  ],
+  "Adanaspor|2016-11-19": [
+   "table",
+   1337,
+   "쉬페르리그 2016-17 18위/18팀",
+   "2016-17"
+  ],
+  "SL Benfica|2016-11-23": [
+   "same",
+   1901,
+   "포르투갈 1부 2016-17 1위 (추정, 2015-16 1위 값과 같음)",
+   [
+    "qua.js"
+   ]
+  ],
+  "Kayserispor|2016-12-14": [
+   "table",
+   1437,
+   "쉬페르리그 2016-17 15위/18팀",
+   "2016-17"
+  ],
+  "Gaziantepspor|2016-12-24": [
+   "table",
+   1333,
+   "쉬페르리그 2016-17 17위/18팀",
+   "2016-17"
+  ],
+  "Kardemir Karabükspor|2017-02-10": [
+   "table",
+   1465,
+   "쉬페르리그 2016-17 11위/18팀",
+   "2016-17"
+  ],
+  "Hapoel Beer Sheva|2017-02-23": [
+   "table",
+   1565,
+   "이스라엘 1부 2016-17 1위/14팀 (Israeli Premier League, 플레이오프·스플릿 뒤 최종 순위)",
+   "2016-17"
+  ],
+  "Olympiacos Piraeus|2017-03-09": [
+   "table",
+   1678,
+   "그리스 1부 2016-17 1위/16팀 (Super League Greece)",
+   "2016-17"
+  ],
+  "Kayserispor|2017-03-12": [
+   "table",
+   1437,
+   "쉬페르리그 2016-17 15위/18팀",
+   "2016-17"
+  ],
+  "Olympiacos Piraeus|2017-03-16": [
+   "same",
+   1678,
+   "그리스 1부 2016-17 1위/16팀 (Super League Greece)",
+   [
+    "qua.js"
+   ]
+  ],
+  "Trabzonspor|2017-04-08": [
+   "model",
+   1533,
+   "쉬페르리그 2016-17 6위/18팀"
+  ],
+  "Adanaspor|2017-04-24": [
+   "same",
+   1337,
+   "쉬페르리그 2016-17 18위/18팀",
+   [
+    "qua.js"
+   ]
+  ],
+  "Basaksehir FK|2017-04-30": [
+   "table",
+   1700,
+   "쉬페르리그 2016-17 2위/18팀",
+   "2016-17"
+  ],
+  "Fenerbahce|2017-05-07": [
+   "same",
+   1640,
+   "쉬페르리그 2016-17 3위/18팀",
+   [
+    "qua.js"
+   ]
+  ],
+  "Bursaspor|2017-05-15": [
+   "table",
+   1415,
+   "쉬페르리그 2016-17 14위/18팀",
+   "2016-17"
+  ],
+  "Kasimpasa|2017-05-20": [
+   "same",
+   1475,
+   "쉬페르리그 2016-17 10위/18팀",
+   [
+    "qua.js"
+   ]
+  ],
+  "Osmanlispor FK|2017-06-03": [
+   "table",
+   1441,
+   "쉬페르리그 2016-17 13위/18팀",
+   "2016-17"
+  ],
+  "CD Tondela|2017-08-13": [
+   "table",
+   1538,
+   "포르투갈 1부 2017-18 11위",
+   "2017-18"
+  ],
+  "Moreirense FC|2017-08-20": [
+   "table",
+   1474,
+   "포르투갈 1부 2017-18 15위",
+   "2017-18"
+  ],
+  "GD Chaves|2017-09-09": [
+   "table",
+   1644,
+   "포르투갈 1부 2017-18 6위",
+   "2017-18"
+  ],
+  "Portimonense SAD|2017-09-22": [
+   "table",
+   1552,
+   "포르투갈 1부 2017-18 10위",
+   "2017-18"
+  ],
+  "AS Monaco|2017-09-26": [
+   "table",
+   1835,
+   "리그1 2017-18 2위",
+   "2017-18"
+  ],
+  "Lusitano GC|2017-10-13": [
+   "man",
+   1094,
+   "포르투갈 4부 2017-18 4위/14팀 (AF Évora 1ª Divisão, 리그 수준 추정)"
+  ],
+  "RB Leipzig|2017-10-17": [
+   "table",
+   1775,
+   "분데스리가 2017-18 6위",
+   "2017-18"
+  ],
+  "FC Paços de Ferreira|2017-10-21": [
+   "table",
+   1441,
+   "포르투갈 1부 2017-18 17위",
+   "2017-18"
+  ],
+  "Boavista FC|2017-10-28": [
+   "table",
+   1593,
+   "포르투갈 1부 2017-18 8위",
+   "2017-18"
+  ],
+  "RB Leipzig|2017-11-01": [
+   "table",
+   1775,
+   "분데스리가 2017-18 6위",
+   "2017-18"
+  ],
+  "CF Os Belenenses|2017-11-04": [
+   "table",
+   1525,
+   "포르투갈 1부 2017-18 12위",
+   "2017-18"
+  ],
+  "Portimonense SAD|2017-11-17": [
+   "table",
+   1552,
+   "포르투갈 1부 2017-18 10위",
+   "2017-18"
+  ],
+  "AS Monaco|2017-12-06": [
+   "table",
+   1835,
+   "리그1 2017-18 2위",
+   "2017-18"
+  ],
+  "Vitória Setúbal FC|2017-12-10": [
+   "table",
+   1500,
+   "포르투갈 1부 2017-18 14위",
+   "2017-18"
+  ],
+  "Vitória Guimarães SC|2017-12-14": [
+   "table",
+   1569,
+   "포르투갈 1부 2017-18 9위",
+   "2017-18"
+  ],
+  "Rio Ave FC|2017-12-21": [
+   "table",
+   1662,
+   "포르투갈 1부 2017-18 5위",
+   "2017-18"
+  ],
+  "FC Paços de Ferreira|2017-12-30": [
+   "table",
+   1441,
+   "포르투갈 1부 2017-18 17위",
+   "2017-18"
+  ],
+  "CD Feirense|2018-01-03": [
+   "table",
+   1453,
+   "포르투갈 1부 2017-18 16위",
+   "2017-18"
+  ],
+  "Vitória Guimarães SC|2018-01-07": [
+   "table",
+   1569,
+   "포르투갈 1부 2017-18 9위",
+   "2017-18"
+  ],
+  "SC Braga|2018-02-03": [
+   "table",
+   1682,
+   "포르투갈 1부 2017-18 4위",
+   "2017-18"
+  ],
+  "CD Feirense|2018-05-06": [
+   "table",
+   1453,
+   "포르투갈 1부 2017-18 16위",
+   "2017-18"
+  ],
+  "Desportivo Aves|2018-08-04": [
+   "table",
+   1490,
+   "포르투갈 1부 2018-19 14위",
+   "2018-19"
+  ],
+  "GD Chaves|2018-08-11": [
+   "table",
+   1444,
+   "포르투갈 1부 2018-19 16위",
+   "2018-19"
+  ],
+  "Moreirense FC|2018-09-02": [
+   "table",
+   1635,
+   "포르투갈 1부 2018-19 6위",
+   "2018-19"
+  ],
+  "Vitória Setúbal FC|2018-09-22": [
+   "table",
+   1509,
+   "포르투갈 1부 2018-19 13위",
+   "2018-19"
+  ],
+  "BSC Young Boys|2019-11-28": [
+   "table",
+   1663,
+   "스위스 1부 2019-20 1위/10팀 (추정, 다른 선수 자료 영 보이스 2018-19·2020-21 1위 1620과 같음)",
+   "2019-20"
+  ],
+  "Denizlispor|2020-10-26": [
+   "table",
+   1299,
+   "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "2020-21"
+  ],
+  "Basaksehir FK|2020-11-21": [
+   "table",
+   1428,
+   "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "2020-21"
+  ],
+  "Fenerbahce|2020-11-29": [
+   "table",
+   1643,
+   "쉬페르리그 2020-21 3위/21팀",
+   "2020-21"
+  ],
+  "Kasimpasa|2020-12-04": [
+   "model",
+   1422,
+   "쉬페르리그 2020-21 14위/21팀"
+  ],
+  "Alanyaspor|2020-12-13": [
+   "table",
+   1517,
+   "쉬페르리그 2020-21 7위/21팀",
+   "2020-21"
+  ],
+  "Büyüksehir Belediye Erzurumspor|2020-12-20": [
+   "table",
+   1375,
+   "쉬페르리그 2020-21 18위/21팀",
+   "2020-21"
+  ],
+  "Caykur Rizespor|2021-01-06": [
+   "table",
+   1423,
+   "쉬페르리그 2020-21 13위/21팀",
+   "2020-21"
+  ],
+  "Hatayspor|2021-01-10": [
+   "table",
+   1517,
+   "쉬페르리그 2020-21 6위/21팀 (추정, 다른 선수 자료 5위 1498·7위 1468의 중간)",
+   "2020-21"
+  ],
+  "Fatih Karagümrük|2021-01-21": [
+   "model",
+   1516,
+   "쉬페르리그 2020-21 8위/21팀"
+  ],
+  "Göztepe|2021-01-24": [
+   "table",
+   1458,
+   "쉬페르리그 2020-21 10위/21팀",
+   "2020-21"
+  ],
+  "Trabzonspor|2021-01-31": [
+   "table",
+   1568,
+   "쉬페르리그 2020-21 4위/21팀 (추정, 다른 선수 자료 3위 1561·5위 1498 사이)",
+   "2020-21"
+  ],
+  "Denizlispor|2021-02-26": [
+   "table",
+   1299,
+   "쉬페르리그 2020-21 21위/21팀 (추정, 다른 선수 자료 20위 1277에서 19·20위 간격만큼 낮춤)",
+   "2020-21"
+  ],
+  "Yeni Malatyaspor|2021-03-02": [
+   "model",
+   1425,
+   "쉬페르리그 2020-21 15위/21팀"
+  ],
+  "Gaziantep FK|2021-03-06": [
+   "table",
+   1501,
+   "쉬페르리그 2020-21 9위/21팀",
+   "2020-21"
+  ],
+  "Basaksehir FK|2021-03-12": [
+   "table",
+   1428,
+   "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "2020-21"
+  ],
+  "Basaksehir FK|2021-03-16": [
+   "table",
+   1428,
+   "쉬페르리그 2020-21 12위/21팀 (Süper Lig)",
+   "2020-21"
+  ],
+  "Damac FC|2021-08-13": [
+   "model",
+   1391,
+   "사우디 프로리그 2021-22 5위/16팀"
+  ],
+  "Al-Taawoun FC|2021-08-26": [
+   "model",
+   1341,
+   "사우디 프로리그 2021-22 12위/16팀"
+  ],
+  "Tractor FC|2021-09-14": [
+   "man",
+   1390,
+   "이란 1부 2020-21 4위/16팀 (Persian Gulf Pro League)"
+  ],
+  "Abha Club|2021-09-30": [
+   "model",
+   1329,
+   "사우디 프로리그 2021-22 9위/16팀"
+  ],
+  "Al-Ahli SFC|2021-11-26": [
+   "model",
+   1331,
+   "사우디 프로리그 2021-22 15위/16팀"
+  ],
+  "Al-Tai FC|2021-12-10": [
+   "model",
+   1346,
+   "사우디 프로리그 2021-22 6위/16팀"
+  ],
+  "Al-Hilal SFC|2021-12-16": [
+   "table",
+   1571,
+   "사우디 프로리그 2021-22 1위/16팀",
+   "2021-22"
+  ],
+  "Al-Hazem SC|2021-12-26": [
+   "table",
+   1221,
+   "사우디 프로리그 2021-22 16위/16팀",
+   "2021-22"
+  ],
+  "Al-Fateh SC|2022-01-01": [
+   "table",
+   1360,
+   "사우디 프로리그 2021-22 8위/16팀",
+   "2021-22"
+  ],
+  "Al-Batin FC|2022-02-17": [
+   "table",
+   1328,
+   "사우디 프로리그 2021-22 13위/16팀",
+   "2021-22"
+  ],
+  "Abha Club|2022-02-26": [
+   "model",
+   1329,
+   "사우디 프로리그 2021-22 9위/16팀"
+  ],
+  "Al-Wehda FC|2022-08-27": [
+   "table",
+   1343,
+   "사우디 프로리그 2022-23 13위/16팀",
+   "2022-23"
+  ],
+  "Al-Adalah FC|2022-10-11": [
+   "table",
+   1308,
+   "사우디 프로리그 2022-23 15위/16팀",
+   "2022-23"
+  ],
+  "Al-Raed SFC|2022-12-16": [
+   "table",
+   1367,
+   "사우디 프로리그 2022-23 10위/16팀",
+   "2022-23"
+  ],
+  "Al-Hilal SFC|2022-12-26": [
+   "table",
+   1545,
+   "사우디 프로리그 2022-23 3위/16팀",
+   "2022-23"
+  ],
+  "Al-Khaleej FC|2022-12-31": [
+   "model",
+   1342,
+   "사우디 프로리그 2022-23 14위/16팀"
+  ],
+  "MKE Ankaragücü|2023-03-05": [
+   "table",
+   1462,
+   "쉬페르리그 2022-23 11위/19팀",
+   "2022-23"
+  ],
+  "Basaksehir FK|2023-03-12": [
+   "table",
+   1605,
+   "쉬페르리그 2022-23 5위/19팀",
+   "2022-23"
+  ],
+  "Istanbulspor|2023-03-18": [
+   "table",
+   1447,
+   "쉬페르리그 2022-23 12위/19팀",
+   "2022-23"
+  ],
+  "Fenerbahce|2023-04-02": [
+   "table",
+   1740,
+   "쉬페르리그 2022-23 2위/19팀 (추정, 다른 선수 자료와 같은 튀르키예 리그 수준·흩어짐 119 순위값)",
+   "2022-23"
+  ],
+  "Giresunspor|2023-04-09": [
+   "table",
+   1439,
+   "쉬페르리그 2022-23 16위/19팀",
+   "2022-23"
+  ],
+  "Ümraniyespor|2023-04-22": [
+   "table",
+   1390,
+   "쉬페르리그 2022-23 17위/19팀 (추정, 다른 선수 자료 2022-23 16위 1428 아래로 2021-22 하위권 간격 적용)",
+   "2022-23"
+  ],
+  "Galatasaray|2023-04-30": [
+   "model",
+   1797,
+   "쉬페르리그 2022-23 1위/19팀"
+  ],
+  "Antalyaspor|2023-05-06": [
+   "table",
+   1458,
+   "쉬페르리그 2022-23 13위/19팀",
+   "2022-23"
+  ],
+  "Adana Demirspor|2023-05-21": [
+   "model",
+   1662,
+   "쉬페르리그 2022-23 4위/19팀"
+  ],
+  "Kasimpasa|2023-06-03": [
+   "table",
+   1458,
+   "쉬페르리그 2022-23 10위/19팀",
+   "2022-23"
+  ],
+  "KF Tirana|2023-07-27": [
+   "model",
+   1407,
+   "알바니아 1부 2022-23 2위/10팀 (Kategoria Superiore)"
+  ],
+  "KF Tirana|2023-08-03": [
+   "model",
+   1334,
+   "알바니아 1부 2023-24 5위/10팀 (Kategoria Superiore)"
+  ],
+  "Neftchi PFK|2023-08-10": [
+   "model",
+   1435,
+   "아제르바이잔 1부 2023-24 5위/10팀 (Azerbaijan Premier League)"
+  ],
+  "Neftchi PFK|2023-08-17": [
+   "model",
+   1435,
+   "아제르바이잔 1부 2023-24 5위/10팀 (Azerbaijan Premier League)"
+  ],
+  "Dynamo Kyiv|2023-08-24": [
+   "model",
+   1636,
+   "우크라이나 1부 2023-24 2위/16팀 (Ukrainian Premier League)"
+  ],
+  "Dynamo Kyiv|2023-08-31": [
+   "model",
+   1636,
+   "우크라이나 1부 2023-24 2위/16팀 (Ukrainian Premier League)"
+  ],
+  "Sivasspor|2023-09-03": [
+   "table",
+   1543,
+   "쉬페르리그 2023-24 7위/20팀",
+   "2023-24"
+  ],
+  "Club Brugge KV|2023-09-21": [
+   "table",
+   1766,
+   "벨기에 1부 2023-24 1위/16팀 (추정, 다른 선수 자료 벨기에 1부 2021-23과 같은 평균 1500·흩어짐 80 모형)",
+   "2023-24"
+  ],
+  "Kayserispor|2023-09-24": [
+   "table",
+   1491,
+   "쉬페르리그 2023-24 11위/20팀 (감점 전 순위)",
+   "2023-24"
+  ],
+  "Adana Demirspor|2023-09-27": [
+   "table",
+   1495,
+   "쉬페르리그 2023-24 13위/20팀 (감점 전 순위)",
+   "2023-24"
+  ],
+  "Konyaspor|2023-10-01": [
+   "table",
+   1472,
+   "쉬페르리그 2023-24 16위/20팀",
+   "2023-24"
+  ],
+  "FC Lugano|2023-10-05": [
+   "table",
+   1550,
+   "스위스 1부 2023-24 2위/12팀 (Swiss Super League, 플레이오프·스플릿 뒤 최종 순위)",
+   "2023-24"
+  ],
+  "Istanbulspor|2023-10-08": [
+   "table",
+   1308,
+   "쉬페르리그 2023-24 20위/20팀 (추정, 19위 1428에서 18·19위 간격만큼 낮춤)",
+   "2023-24"
+  ],
+  "Hatayspor|2024-05-18": [
+   "table",
+   1481,
+   "쉬페르리그 2023-24 15위/20팀",
+   "2023-24"
+  ],
+  "Trabzonspor|2024-10-05": [
+   "table",
+   1586,
+   "쉬페르리그 2024-25 7위/19팀",
+   "2024-25"
+  ],
+  "Konyaspor|2024-11-24": [
+   "table",
+   1533,
+   "쉬페르리그 2024-25 11위/19팀",
+   "2024-25"
+  ],
+  "Osmaniyespor FK|2024-12-05": [
+   "model",
+   1023,
+   "튀르키예 4부 2024-25 8위/16팀 (TFF 3. Lig 3. Grup, 리그 수준 추정)"
+  ],
+  "Göztepe|2024-12-15": [
+   "table",
+   1575,
+   "쉬페르리그 2024-25 8위/19팀",
+   "2024-25"
+  ],
+  "Adana Demirspor|2024-12-23": [
+   "table",
+   1289,
+   "쉬페르리그 2024-25 19위/19팀",
+   "2024-25"
+  ],
+  "Kasimpasa|2025-01-27": [
+   "table",
+   1544,
+   "쉬페르리그 2024-25 10위/19팀",
+   "2024-25"
+  ],
+  "Antalyaspor|2025-02-01": [
+   "table",
+   1492,
+   "쉬페르리그 2024-25 15위/19팀",
+   "2024-25"
+  ],
+  "Gaziantep FK|2025-04-13": [
+   "table",
+   1528,
+   "쉬페르리그 2024-25 12위/19팀",
+   "2024-25"
+  ],
+  "FK Gabala|2025-10-26": [
+   "model",
+   1346,
+   "아제르바이잔 1부 2025-26 11위/12팀 (Azerbaijan Premier League)"
+  ],
+  "MOIK Baku|2025-10-29": [
+   "man",
+   1115,
+   "아제르바이잔 2부 2025-26 6위/10팀 (Azerbaijan First League, 리그 수준 추정)"
+  ],
+  "Kapaz PFK|2025-11-01": [
+   "model",
+   1330,
+   "아제르바이잔 1부 2025-26 10위/12팀 (Azerbaijan Premier League)"
+  ],
+  "FC Imishli|2025-11-23": [
+   "model",
+   1363,
+   "아제르바이잔 1부 2025-26 9위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Araz-Nakhchivan|2026-02-01": [
+   "model",
+   1400,
+   "아제르바이잔 1부 2025-26 6위/12팀 (Azerbaijan Premier League)"
+  ],
+  "FC Shamakhi|2026-02-28": [
+   "model",
+   1383,
+   "아제르바이잔 1부 2025-26 8위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Sumgayit PFC|2026-04-05": [
+   "model",
+   1395,
+   "아제르바이잔 1부 2025-26 7위/12팀 (Azerbaijan Premier League)"
+  ],
+  "Batman Petrolspor|2026-09-12": [
+   "model",
+   1254,
+   "튀르키예 2부 2026-27 4위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Sariyer|2026-10-13": [
+   "model",
+   1186,
+   "튀르키예 2부 2026-27 14위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Bandirma Spor|2026-10-17": [
+   "model",
+   1188,
+   "튀르키예 2부 2026-27 13위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ],
+  "Ümraniyespor|2026-11-01": [
+   "model",
+   1198,
+   "튀르키예 2부 2026-27 11위/20팀 (TFF 1. Lig, 2026년 11월 25일 현재 순위)"
+  ]
+ }
+}

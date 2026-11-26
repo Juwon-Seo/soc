@@ -1,0 +1,21 @@
+# 2014.8 이후 TM 단일 출처 도움 판정(FotMob 이벤트에 도움 자료 없음): "gameId|minute": (넣음 여부, 근거). ESPN 문자중계 1곳 + 경기 기사 1곳 이상이면 넣음.
+A_CHECK.update({
+ "2454454|43": (True, "2014.8.16 바이아전 43분 질 골: ESPN 문자중계 'Assisted by José Paolo Guerrero with a cross following a corner'·Bahia Notícias 경기 기사(코너킥 뒤 게레로 크로스를 질이 머리로)"),
+ "2532423|1": (False, "2015.2.4 리베르타도레스 온세 칼다스전 1분 에메르송 골: ESPN 문자중계만 게레로 도움, Gazeta Esportiva·FourFourTwo·Bolavip 기사에 게레로 패스 언급 없음 — 두 번째 출처 없음"),
+ "2569454|66": (True, "2015.7.8 인테르나시오나우전 66분 에베르통 골: ESPN 'Assisted by José Paolo Guerrero'·Lance! '데뷔전 1골 1도움'·Soccerway 도움 표기"),
+ "2569488|72": (True, "2015.7.26 고이아스전 72분 마르셀루 시리누 골: ESPN 'Assisted by … with a through ball'·Gazeta Esportiva(알랑 파트리키 → 게레로가 시리누에게 내줌)"),
+ "2626602|11": (True, "2015.9.27 바스쿠전 12분 에메르송 골: ESPN 'Assisted by Paolo Guerrero with a headed pass'·경기 기사(조르지 크로스를 게레로가 머리로 가운데로 내주고 에메르송이 마무리)"),
+ "4571494|51": (False, "2016.2.28 카리오카 헤젠지전 51분 시리누 골: ESPN·FotMob 도움 없음, Tribuna PR·Lance!는 만세후엘루 패스로 적음 — 확인 안 됨"),
+ "2713332|24": (True, "2016.7.16 보타포구전 24분 에베르통 골: ESPN 'Assisted by Paolo Guerrero'·Lance! 경기 기사('cruzou a bola que Guerrero ajeitou para Everton bater')"),
+ "2762908|79": (False, "2016.9.21 수다메리카나 팔레스티노전 79분 에메르송 골: ESPN은 게레로 도움이지만 Lance! 기사는 크로스를 게레로가 경합한 뒤 흘러나온 공(loose ball)을 에메르송이 넣은 것 — 도움 아님"),
+ "2865585|79": (True, "2017.6.22 샤페코엔시전 79분 디에구 골: ESPN 'Assisted by Paolo Guerrero'·Lance!(게레로 3골 1도움)·디에구 자료와 같음"),
+ "4248647|27": (True, "2017.6.28 코파 두 브라질 산투스전 27분 에베르통 골: ESPN 'Assisted by Paolo Guerrero with a headed pass'·Estadão(Gazeta Esportiva) 'Guerrero deu passe de letra para Everton'·Trivela"),
+ "4248647|88": (True, "2017.6.28 산투스전 88분 쿠에야르 골: ESPN 'Assisted by Paolo Guerrero'·Estadão 'Guerrero tocou para Cuéllar na entrada da área'·Trivela"),
+ "2888283|8": (True, "2017.7.19 팔메이라스전 8분 파라 골: ESPN 'Assisted by Paolo Guerrero'·팔메이라스 구단 공식 경기 기사('Guerrero, aos oito, deu assistência para … Pará')"),
+ "2916030|7": (False, "2017.9.20 수다메리카나 샤페코엔시전 7분 쿠에야르 골: ESPN 도움 없음, Trivela·Estadão는 게레로가 골키퍼를 넘기려다 흘러나온 공을 쿠에야르가 넣은 것 — 도움 아님"),
+ "2916030|22": (True, "2017.9.20 샤페코엔시전 22분 윌리앙 아랑 골: ESPN 'Assisted by Paolo Guerrero'·Estadão 'Guerrero driblou Douglas Grolli e cruzou para William Arão'·Trivela"),
+ "2937782|51": (False, "2017.10.19 바이아전 51분 헤베르 골: ESPN·FotMob 도움 없음, Bahia Notícias·Lance!는 프리킥 뒤 게레로에 맞고(경합) 흐른 공 — 굴절"),
+ "3036822|87": (True, "2018.5.6 인테르나시오나우전 87분 에베르통 히베이루 골: ESPN 'Assisted by Paolo Guerrero'·Gazeta Esportiva 'Guerrero fez lançamento para Éverton Ribeiro'·LiveSoccerTV"),
+ "3328801|71": (True, "2020.3.3 리베르타도레스 우니베르시다드 카톨리카전 71분 마르쿠스 길례르미 골: ESPN 'Assisted by Paolo Guerrero'·Líbero('doblete y asistencia de Paolo Guerrero')·Al Aire Libre(칠레)"),
+ "4750444|90+7": (False, "2025.10.31 멜가르전 90+7분 렌소 가르세스 골: FotMob·ESPN 도움 없음, Trome은 게레로 헤더 패스라 하고 Líbero는 골키퍼 실수 뒤 흐른 공이라 해 엇갈림 — 확인 안 됨"),
+})

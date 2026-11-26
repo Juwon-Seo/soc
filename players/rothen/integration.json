@@ -1,0 +1,15 @@
+{"preset":"rothen","name":"제롬 로텐","prefix":"ROT",
+ "clubs":[
+  {"key":"caert","name":"SM 캉","short":"캉","years":"1997~2000","until":"2000-07-01"},
+  {"key":"trort","name":"ESTAC 트루아","short":"트루아","years":"2000~2001","until":"2002-01-01"},
+  {"key":"monrt","name":"AS 모나코","short":"모나코","years":"2002~2004","until":"2004-07-01"},
+  {"key":"psgrt","name":"파리 생제르맹","short":"PSG","years":"2004~2009","until":"2009-09-01"},
+  {"key":"ranrt","name":"레인저스","short":"레인저스","years":"2009","until":"2010-01-29"},
+  {"key":"ankrt","name":"MKE 앙카라귀쥐","short":"앙카라귀쥐","years":"2010","until":"2011-07-01"},
+  {"key":"basrt","name":"SC 바스티아","short":"바스티아","years":"2011~2013","until":"2013-07-01"},
+  {"key":"caert","name":"SM 캉","short":"캉","years":"2013","until":null}],
+ "season":{"calendar":[],"jul10":["caert","monrt","psgrt","basrt"],"jul1":["trort"]},
+ "pos":"LW","flag":"FR","retired":true,
+ "hon":{"t":{"LG":["11/12 바스티아(프랑스 2부)","09/10 레인저스"],"DC":["05/06 PSG"],"LC":["09/10 레인저스","07/08 PSG","02/03 모나코"]},
+        "o":[["UCL 준우승","03/04 모나코"],["UEFA 인터토토컵","01/02 트루아"]],
+        "a":{"POY":["11/12 리그2 · UNFP(선수협회)"],"XI":["02/03 리그1 · UNFP(선수협회)"]}}}

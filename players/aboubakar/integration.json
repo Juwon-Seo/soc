@@ -1,0 +1,148 @@
+{
+ "preset": "aboubakar",
+ "name": "뱅상 아부바카르",
+ "prefix": "ABK",
+ "clubs": [
+  {
+   "key": "valabk",
+   "name": "발랑시엔",
+   "short": "발랑시엔",
+   "years": "2010~2013",
+   "until": "2013-07-01"
+  },
+  {
+   "key": "lorabk",
+   "name": "FC 로리앙",
+   "short": "로리앙",
+   "years": "2013~2014",
+   "until": "2014-08-24"
+  },
+  {
+   "key": "porabk",
+   "name": "FC 포르투",
+   "short": "포르투",
+   "years": "2014~2016",
+   "until": "2016-08-29"
+  },
+  {
+   "key": "besabk",
+   "name": "베식타시",
+   "short": "베식타시",
+   "years": "2016~2017",
+   "until": "2017-07-01"
+  },
+  {
+   "key": "porabk",
+   "name": "FC 포르투",
+   "short": "포르투",
+   "years": "2017~2020",
+   "until": "2020-09-25"
+  },
+  {
+   "key": "besabk",
+   "name": "베식타시",
+   "short": "베식타시",
+   "years": "2020~2021",
+   "until": "2021-07-01"
+  },
+  {
+   "key": "nasabk",
+   "name": "알나스르",
+   "short": "알나스르",
+   "years": "2021~2023",
+   "until": "2023-01-21"
+  },
+  {
+   "key": "besabk",
+   "name": "베식타시",
+   "short": "베식타시",
+   "years": "2023~2024",
+   "until": "2024-09-09"
+  },
+  {
+   "key": "hatabk",
+   "name": "하타이스포르",
+   "short": "하타이스포르",
+   "years": "2024~2025",
+   "until": "2025-10-21"
+  },
+  {
+   "key": "nefabk",
+   "name": "네프치 바쿠",
+   "short": "네프치",
+   "years": "2025~2026",
+   "until": "2026-08-28"
+  },
+  {
+   "key": "bodabk",
+   "name": "보드룸 FK",
+   "short": "보드룸",
+   "years": "2026~",
+   "until": null
+  }
+ ],
+ "season": {
+  "calendar": [],
+  "jul10": [
+   "besabk"
+  ],
+  "jul1": []
+ },
+ "pos": "CF",
+ "flag": "CM",
+ "retired": false,
+ "colors": {
+  "valabk": [
+   "#E2001A",
+   "#FFFFFF"
+  ],
+  "lorabk": [
+   "#FF7F00",
+   "#000000"
+  ],
+  "porabk": [
+   "#0122EB",
+   "#FFFFFF"
+  ],
+  "besabk": [
+   "#000000",
+   "#FFFFFF"
+  ],
+  "nasabk": [
+   "#FFFF00",
+   "#000044"
+  ],
+  "hatabk": [
+   "#800000",
+   "#FFFFFF"
+  ],
+  "nefabk": [
+   "#000000",
+   "#FFFFFF"
+  ],
+  "bodabk": [
+   "#009A44",
+   "#FFFFFF"
+  ]
+ },
+ "hon": {
+  "t": {
+   "LG": [
+    "20/21 베식타시",
+    "16/17 베식타시",
+    "19/20 포르투",
+    "17/18 포르투"
+   ],
+   "DC": [
+    "23/24 베식타시",
+    "20/21 베식타시",
+    "2020 포르투"
+   ],
+   "SC": [
+    "18/19 포르투"
+   ]
+  },
+  "o": [],
+  "a": {}
+ }
+}

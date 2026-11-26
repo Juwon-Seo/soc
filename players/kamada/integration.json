@@ -1,0 +1,19 @@
+{"preset":"kamada","name":"가마다 다이치","prefix":"KMD",
+ "clubs":[
+  {"key":"tosdk","name":"사간 도스","short":"사간 도스","years":"2015~2017","until":"2017-07-01"},
+  {"key":"sgedk","name":"아인트라흐트 프랑크푸르트","short":"프랑크푸르트","years":"2017~2023","until":"2018-08-31"},
+  {"key":"stvdk","name":"신트트라위던 VV","short":"신트트라위던","years":"2018~2019","until":"2019-07-01"},
+  {"key":"sgedk","name":"아인트라흐트 프랑크푸르트","short":"프랑크푸르트","years":"2017~2023","until":"2023-08-04"},
+  {"key":"lazdk","name":"SS 라치오","short":"라치오","years":"2023~2024","until":"2024-07-01"},
+  {"key":"cpldk","name":"크리스털 팰리스","short":"크리스털 팰리스","years":"2024~","until":null}],
+ "season":{"calendar":["tosdk"],"jul10":["sgedk","stvdk"],"jul1":[]},
+ "pos":"AM","flag":"JP","retired":false,
+ "colors":{
+  "tosdk":["#1CA2D0","#F2A0C0"],
+  "sgedk":["#000000","#E1000F","#FFFFFF"],
+  "stvdk":["#FFFF00","#0000FF"],
+  "lazdk":["#86D9F8","#FFFFFF"],
+  "cpldk":["#1B458F","#C4122E","#FFFFFF"]},
+ "hon":{"t":{"DC":["24/25 크리스털 팰리스","17/18 프랑크푸르트"],"UEL":["21/22 프랑크푸르트"],"SC":["25/26 크리스털 팰리스"]},
+  "o":[["컨퍼런스리그 우승","25/26 크리스털 팰리스"]],
+  "a":{}}}
